@@ -1,0 +1,24 @@
+# Programmes politiques France 2027
+
+Ce dépôt fournit un corpus structuré sur les candidats, partis, documents et propositions liés à l’élection présidentielle française de 2027.
+
+## Usage recommandé pour LLM/agents
+
+- Commencer par `README.md`, `METHODOLOGY.md`, `SOURCES_POLICY.md`, `NEUTRALITY_CHARTER.md` et `AGENTS.md`.
+- Utiliser les registres YAML comme index canoniques.
+- Utiliser les fichiers Markdown du corpus pour les citations et le contexte.
+- Vérifier le statut du candidat et du document avant toute réponse.
+- Ne pas attribuer une mesure à un candidat si elle provient seulement d’un parti.
+- Ne pas présenter une absence d’information comme une opposition.
+
+## Réponse attendue
+
+Toute réponse substantielle doit citer :
+
+- le candidat ou parti ;
+- le statut de la personne ;
+- le document source ;
+- le type et statut du document ;
+- la date ;
+- le chemin du fichier ;
+- les limites ou incertitudes connues.
