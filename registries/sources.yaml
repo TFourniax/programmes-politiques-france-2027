@@ -1,0 +1,11 @@
+snapshot_date: 2026-08-04
+sources:
+  - {id: src-lr, url: 'https://republicains.fr/', tier: tier_1_primary_official, owner: Les Républicains}
+  - {id: src-horizons, url: 'https://horizonsleparti.fr/', tier: tier_1_primary_official, owner: Horizons}
+  - {id: src-renaissance, url: 'https://parti-renaissance.fr/', tier: tier_1_primary_official, owner: Renaissance}
+  - {id: src-rn, url: 'https://rassemblementnational.fr/', tier: tier_1_primary_official, owner: Rassemblement national}
+  - {id: src-dlf, url: 'https://www.debout-la-france.fr/', tier: tier_1_primary_official, owner: Debout la France}
+  - {id: src-place-publique, url: 'https://place-publique.eu/', tier: tier_1_primary_official, owner: Place publique}
+  - {id: src-lfi, url: 'https://lafranceinsoumise.fr/', tier: tier_1_primary_official, owner: La France insoumise}
+  - {id: src-lfi-programme, url: 'https://programme.lafranceinsoumise.fr/', tier: tier_1_primary_official, owner: La France insoumise}
+  - {id: src-tf1, url: 'https://www.tf1info.fr/', tier: tier_2_primary_statement, owner: TF1 Info}

@@ -1,0 +1,45 @@
+snapshot_date: 2026-08-04
+notice: >-
+  Instantané préélectoral. official_candidate est réservé à la future liste
+  du Conseil constitutionnel. potential ne signifie pas candidature déclarée.
+candidates:
+  - {id: bruno-retailleau, name: Bruno Retailleau, current_status: party_designated, verification_state: verified, affiliation: [les-republicains], declared_at: 2026-02-12, source_url: 'https://www.instagram.com/p/DUqaNXlhjml/'}
+  - {id: edouard-philippe, name: Édouard Philippe, current_status: declared_presidential, verification_state: verified, affiliation: [horizons], source_url: 'https://horizonsleparti.fr/meeting-de-ladidas-arena-discours-dedouard-philippe/'}
+  - {id: gabriel-attal, name: Gabriel Attal, current_status: declared_presidential, verification_state: verified, affiliation: [renaissance], declared_at: 2026-05-22, source_url: 'https://www.tf1info.fr/politique/presidentielle-2027-j-ai-decide-de-porter-un-projet-pour-la-france-gabriel-attal-annonce-sa-candidature-a-la-presidentielle-2027-2419826.html'}
+  - {id: marine-le-pen, name: Marine Le Pen, current_status: declared_conditional, verification_state: verified, affiliation: [rassemblement-national], declared_at: 2026-07-07, source_url: 'https://www.tf1info.fr/politique/presidentielle-2027-marine-le-pen-se-dit-candidate-jusqu-a-ce-que-son-ineligibilite-soit-definitivement-confirmee-2426010.html'}
+  - {id: nicolas-dupont-aignan, name: Nicolas Dupont-Aignan, current_status: declared_presidential, verification_state: verified, affiliation: [debout-la-france], declared_at: 2025-03-08, source_url: 'https://www.debout-la-france.fr/'}
+  - {id: raphael-glucksmann, name: Raphaël Glucksmann, current_status: potential, verification_state: verified, affiliation: [place-publique]}
+  - {id: jean-luc-melenchon, name: Jean-Luc Mélenchon, current_status: potential, verification_state: needs_primary_source, affiliation: [la-france-insoumise]}
+  - {id: francois-ruffin, name: François Ruffin, current_status: potential, verification_state: needs_primary_source}
+  - {id: clemence-guette, name: Clémence Guetté, current_status: potential, verification_state: needs_primary_source, affiliation: [la-france-insoumise]}
+  - {id: marine-tondelier, name: Marine Tondelier, current_status: declared_primary, verification_state: verified, affiliation: [les-ecologistes]}
+  - {id: yannick-jadot, name: Yannick Jadot, current_status: declared_primary, verification_state: verified, affiliation: [les-ecologistes]}
+  - {id: lucie-castets, name: Lucie Castets, current_status: declared_primary, verification_state: verified}
+  - {id: aurore-lalucq, name: Aurore Lalucq, current_status: declared_primary, verification_state: verified, affiliation: [place-publique]}
+  - {id: clementine-autain, name: Clémentine Autain, current_status: declared_primary, verification_state: verified}
+  - {id: francois-hollande, name: François Hollande, current_status: potential, verification_state: needs_primary_source, affiliation: [parti-socialiste]}
+  - {id: bernard-cazeneuve, name: Bernard Cazeneuve, current_status: potential, verification_state: needs_primary_source}
+  - {id: olivier-faure, name: Olivier Faure, current_status: potential, verification_state: needs_primary_source, affiliation: [parti-socialiste]}
+  - {id: fabien-roussel, name: Fabien Roussel, current_status: potential, verification_state: needs_primary_source, affiliation: [parti-communiste-francais]}
+  - {id: philippe-poutou, name: Philippe Poutou, current_status: potential, verification_state: needs_primary_source, affiliation: [nouveau-parti-anticapitaliste]}
+  - {id: nathalie-arthaud, name: Nathalie Arthaud, current_status: potential, verification_state: needs_primary_source, affiliation: [lutte-ouvriere]}
+  - {id: eric-zemmour, name: Éric Zemmour, current_status: potential, verification_state: needs_primary_source, affiliation: [reconquete]}
+  - {id: sarah-knafo, name: Sarah Knafo, current_status: potential, verification_state: needs_primary_source, affiliation: [reconquete]}
+  - {id: jordan-bardella, name: Jordan Bardella, current_status: potential, verification_state: needs_primary_source, affiliation: [rassemblement-national]}
+  - {id: laurent-wauquiez, name: Laurent Wauquiez, current_status: potential, verification_state: needs_primary_source, affiliation: [les-republicains]}
+  - {id: david-lisnard, name: David Lisnard, current_status: potential, verification_state: needs_primary_source, affiliation: [les-republicains]}
+  - {id: xavier-bertrand, name: Xavier Bertrand, current_status: potential, verification_state: needs_primary_source, affiliation: [les-republicains]}
+  - {id: gerald-darmanin, name: Gérald Darmanin, current_status: potential, verification_state: needs_primary_source, affiliation: [renaissance]}
+  - {id: elisabeth-borne, name: Élisabeth Borne, current_status: potential, verification_state: needs_primary_source, affiliation: [renaissance]}
+  - {id: jerome-guedj, name: Jérôme Guedj, current_status: potential, verification_state: needs_primary_source, affiliation: [parti-socialiste]}
+  - {id: carole-delga, name: Carole Delga, current_status: potential, verification_state: needs_primary_source, affiliation: [parti-socialiste]}
+  - {id: eric-piolle, name: Éric Piolle, current_status: potential, verification_state: needs_primary_source, affiliation: [les-ecologistes]}
+  - {id: sandrine-rousseau, name: Sandrine Rousseau, current_status: potential, verification_state: needs_primary_source, affiliation: [les-ecologistes]}
+  - {id: dominique-de-villepin, name: Dominique de Villepin, current_status: potential, verification_state: needs_primary_source}
+  - {id: jean-lassalle, name: Jean Lassalle, current_status: potential, verification_state: needs_primary_source, affiliation: [resistons]}
+  - {id: francois-asselineau, name: François Asselineau, current_status: potential, verification_state: needs_primary_source, affiliation: [union-populaire-republicaine]}
+  - {id: helene-thouy, name: Hélène Thouy, current_status: potential, verification_state: needs_primary_source, affiliation: [parti-animaliste]}
+  - {id: antoine-waechter, name: Antoine Waechter, current_status: potential, verification_state: needs_primary_source}
+  - {id: georges-kuzmanovic, name: Georges Kuzmanovic, current_status: potential, verification_state: needs_primary_source, affiliation: [republique-souveraine]}
+  - {id: joachim-son-forget, name: Joachim Son-Forget, current_status: potential, verification_state: needs_primary_source}
+  - {id: alexandre-langlois, name: Alexandre Langlois, current_status: potential, verification_state: needs_primary_source}
