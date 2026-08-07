@@ -1,57 +1,78 @@
 # Programmes politiques France 2027
 
-Dépôt public, neutre et versionné de documents, propositions et métadonnées relatifs à l’élection présidentielle française de 2027.
+Dépôt public, neutre et versionné pour rendre les programmes, projets et positions liés à l’élection présidentielle française de 2027 facilement consultables par des humains comme par des agents/LLM.
 
-> **Important :** une personnalité suivie dans ce dépôt n’est pas nécessairement un candidat officiel. Le statut de chaque personne, document et proposition est qualifié séparément et daté.
+> **Important :** une personnalité suivie ici n’est pas nécessairement un candidat officiel. Les statuts `potential`, `declared_primary`, `declared_conditional`, `declared_presidential`, `party_designated` et `official_candidate` sont volontairement distincts. `official_candidate` est réservé à la liste publiée par le Conseil constitutionnel.
 
-## Objectifs
+## Ce que contient la V1
 
-- rendre les programmes et propositions plus accessibles aux humains comme aux agents/LLM ;
-- conserver les différentes versions et évolutions de positions ;
-- permettre des comparaisons sourcées entre candidats et partis ;
-- fournir une base canonique pour un futur chatbot/RAG ;
-- distinguer strictement programme de parti, programme de candidat, déclaration ponctuelle et document historique.
+- **40 personnalités suivies** ;
+- **22 partis et mouvements** ;
+- **13 documents** qualifiés et datés ;
+- **7 propositions atomiques** ;
+- un registre central `data/corpus.json` ;
+- des documents politiques en Markdown dans `corpus/` ;
+- des mesures atomiques dans `proposals/` ;
+- une interface Next.js pour questionner la base ;
+- un moteur de retrieval qui ne cherche que dans le dépôt ;
+- des réponses accompagnées des fichiers GitHub et sources originales utilisés.
 
-## Principes
+Le corpus est **vivant** : il doit être enrichi jusqu’au scrutin. Les lacunes connues sont consignées dans `research/missing-information.md`.
 
-1. **Sources primaires d’abord.** Les sources secondaires servent à découvrir ou contextualiser, pas à remplacer une source officielle disponible.
-2. **Pas de surinterprétation.** Une absence d’information n’est pas une opposition, et une position de parti n’est pas automatiquement attribuée à un candidat.
-3. **Traçabilité.** Les dates, statuts, sources et versions sont conservés.
-4. **Neutralité.** Le corpus documente ce qui est proposé ; il n’évalue pas la pertinence politique des mesures.
-5. **Prudence juridique.** Les textes complets ne sont reproduits que lorsque les droits le permettent ; sinon le dépôt conserve métadonnées, résumés, courtes citations et liens.
-
-## Structure prévue
-
-```text
-entities/       fiches des candidats et partis
-corpus/         documents politiques versionnés
-proposals/      propositions atomiques par thème
-registries/     registres YAML canoniques
-schemas/        schémas JSON
-research/       rapports de collecte et de contrôle
-generated/      index JSON/JSONL reconstruisibles
-scripts/        validation, génération et contrôle des sources
-taxonomy/       taxonomie thématique
-templates/      modèles de contribution
-```
-
-## Statut du corpus
-
-Le corpus est un **instantané préélectoral** et évoluera jusqu’au scrutin. Le statut `official_candidate` est réservé aux personnes figurant sur la liste officielle publiée par le Conseil constitutionnel.
-
-## Pour les agents et LLM
-
-Lire d’abord `AGENTS.md` et `llms.txt`. Les index générés `generated/catalog.jsonl` et `generated/proposals.jsonl` seront pratiques, mais les fichiers Markdown et les registres YAML resteront la source de vérité.
-
-## Validation locale
+## Lancer le chatbot
 
 ```bash
-python -m pip install -r requirements.txt
-python scripts/validate.py
-python scripts/build_catalog.py
-pytest -q
+cp .env.example .env.local
+npm install
+npm run dev
 ```
 
-## Contribution
+Sans `LLM_API_KEY`, le moteur fonctionne en mode déterministe et renvoie les passages les plus pertinents du corpus. Avec une clé, le modèle produit une synthèse à partir de ces passages uniquement.
 
-Le projet repose sur quatre règles : source primaire recherchée, statut explicite, date explicite, droits de reproduction qualifiés.
+Variables :
+
+```text
+LLM_API_KEY=...
+LLM_API_URL=https://api.openai.com/v1/chat/completions
+LLM_MODEL=gpt-5.2
+NEXT_PUBLIC_REPOSITORY_URL=https://github.com/TFourniax/programmes-politiques-france-2027
+```
+
+## Architecture
+
+```text
+data/corpus.json
+corpus/**/*.md
+proposals/**/*.md
+        ↓
+lib/retrieval.js
+        ↓
+app/api/chat/route.js
+        ↓
+LLM optionnel
+        ↓
+Réponse + citations GitHub + sources originales
+```
+
+Le modèle n’est jamais autorisé à compléter une lacune avec sa mémoire générale. Une absence de donnée doit produire « non trouvé dans le corpus », pas une supposition.
+
+## Principes de neutralité
+
+1. Sources primaires d’abord.
+2. Programme de parti ≠ programme personnel d’un candidat.
+3. Déclaration ≠ investiture ≠ candidature officielle.
+4. Une absence d’information ≠ opposition.
+5. Les anciennes versions restent identifiables comme telles.
+6. Les droits de reproduction sont distingués de la simple accessibilité publique.
+
+Voir `METHODOLOGY.md`, `SOURCES_POLICY.md`, `NEUTRALITY_CHARTER.md`, `RIGHTS_AND_LICENSES.md` et `AGENTS.md`.
+
+## Déploiement
+
+Le projet est compatible Vercel. Connecter ce dépôt, définir les variables d’environnement ci-dessus et déployer. Le workflow `.github/workflows/webapp.yml` vérifie également le build Next.js.
+
+## Licence
+
+- code : MIT (`LICENSE-CODE`) ;
+- métadonnées originales du projet : CC BY 4.0 (`LICENSE-DATA`) ;
+- documents politiques tiers : droits de leurs auteurs/éditeurs respectifs.
