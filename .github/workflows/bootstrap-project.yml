@@ -1,17 +1,17 @@
 name: Bootstrap full project
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - '.github/workflows/bootstrap-project.yml'
+  issues:
+    types: [opened]
   workflow_dispatch:
 
 permissions:
   contents: write
+  issues: write
 
 jobs:
   bootstrap:
+    if: github.event_name == 'workflow_dispatch' || github.event.issue.title == '[BOOTSTRAP] Import full project'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -37,22 +37,23 @@ jobs:
             --exclude='.git/' \
             --exclude='bootstrap/' \
             "/tmp/project/programmes-politiques-france-2027/" ./
-          rm -rf bootstrap
-          rm -f .github/workflows/bootstrap-project.yml
 
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
 
-      - name: Validate corpus and generated indexes
+      - name: Finalize and validate corpus
         shell: bash
         run: |
           set -euo pipefail
           python -m pip install -r requirements.txt
-          python scripts/validate.py
+          python bootstrap/postprocess.py
           python scripts/build_catalog.py
           python scripts/build_search_index.py
+          python scripts/validate.py
           pytest -q
+          node --check lib/retrieval.js || true
+          node --check lib/llm.js || true
 
       - uses: actions/setup-node@v4
         with:
@@ -66,6 +67,16 @@ jobs:
           set -euo pipefail
           npm install
           npm run build
+
+      - name: Finalize manifest and clean temporary files
+        shell: bash
+        run: |
+          set -euo pipefail
+          python bootstrap/postprocess.py --manifest-only
+          rm -rf bootstrap .pytest_cache .next node_modules
+          find . -type d -name __pycache__ -prune -exec rm -rf {} + || true
+          find . -type f -name '*.pyc' -delete || true
+          rm -f .github/workflows/bootstrap-project.yml
 
       - name: Commit finished project
         shell: bash
