@@ -1,7 +1,8 @@
 {
   "name": "programmes-politiques-france-2027",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "private": true,
+  "type": "module",
   "scripts": {
     "predev": "node scripts/build-search-index.mjs",
     "dev": "next dev",
@@ -11,8 +12,8 @@
     "test:retrieval": "node scripts/build-search-index.mjs && node scripts/test-retrieval.mjs"
   },
   "dependencies": {
-    "next": "15.5.4",
-    "react": "19.1.1",
-    "react-dom": "19.1.1"
+    "next": "15.5.21",
+    "react": "19.1.8",
+    "react-dom": "19.1.8"
   }
 }
