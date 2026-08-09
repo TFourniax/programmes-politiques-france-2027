@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import IssueCompass from "./IssueCompass.js";
 
 const EXAMPLES = [
   "Qui est déclaré candidat à ce stade ?",
@@ -103,8 +104,10 @@ export default function ChatApp() {
   const [question, setQuestion] = useState("");
   const [loading, setLoading] = useState(false);
   const [citations, setCitations] = useState([]);
+  const [mode, setMode] = useState("chat");
+  const [answerScrollSignal, setAnswerScrollSignal] = useState(0);
   const [messages, setMessages] = useState([{role:"assistant", text:"Posez une question sur les candidatures, programmes ou propositions actuellement documentés. Je réponds uniquement à partir du corpus de ce dépôt et je montre les sources utilisées."}]);
-  const bottomRef = useRef(null);
+  const messagesRef = useRef(null);
 
   useEffect(() => {
     let mounted = true;
@@ -112,7 +115,18 @@ export default function ChatApp() {
     return () => { mounted = false; };
   }, []);
 
-  useEffect(() => { bottomRef.current?.scrollIntoView({behavior:"smooth"}); }, [messages, loading]);
+  useEffect(() => {
+    if (!answerScrollSignal) return;
+    const frame = requestAnimationFrame(() => {
+      const container = messagesRef.current;
+      if (!container) return;
+      const anchors = container.querySelectorAll("[data-answer-anchor='true']");
+      const target = anchors[anchors.length - 1];
+      if (!target) return;
+      container.scrollTo({ top: Math.max(0, target.offsetTop - 10), behavior: "smooth" });
+    });
+    return () => cancelAnimationFrame(frame);
+  }, [answerScrollSignal]);
 
   async function ask(forced) {
     const value = String(forced ?? question).trim();
@@ -126,10 +140,17 @@ export default function ChatApp() {
       setApiStatus("ready");
       setCitations(data.citations || []);
       setMessages(m => [...m, {role:"assistant", answer:data.answer, meta:data.generated === false ? "Organisation déterministe à partir du corpus" : "Synthèse OpenAI strictement limitée aux éléments du corpus"}]);
+      setAnswerScrollSignal(value => value + 1);
     } catch (error) {
       setApiStatus("error");
       setMessages(m => [...m, {role:"assistant", text:`Impossible de répondre : ${error.message}`}]);
+      setAnswerScrollSignal(value => value + 1);
     } finally { setLoading(false); }
+  }
+
+  function exploreFromCompass(prompt) {
+    setMode("chat");
+    setTimeout(() => ask(prompt), 0);
   }
 
   const counts = meta?.counts || {};
@@ -150,17 +171,21 @@ export default function ChatApp() {
       <div className="metric"><strong>{counts.documents ?? "—"}</strong><span>documents indexés</span></div>
       <div className="metric"><strong>{counts.proposals ?? "—"}</strong><span>propositions atomiques</span></div>
     </section>
-    <section className="workspace">
+    <nav className="modeSwitcher" aria-label="Modes d'exploration">
+      <button className={mode === "chat" ? "active" : ""} onClick={() => setMode("chat")}><span>Questionner le corpus</span><small>Recherche libre & comparaisons</small></button>
+      <button className={mode === "compass" ? "active" : ""} onClick={() => setMode("compass")}><span>Boussole des enjeux <b>Nouveau</b></span><small>Construire son parcours de lecture</small></button>
+    </nav>
+    {mode === "chat" ? <section className="workspace">
       <div className="panel">
         <div className="chatHeader"><h3>Questionner le corpus</h3><span className="status">{apiStatus === "ready" && <i />}{apiLabel}</span></div>
-        <div className="messages">
-          {messages.map((m,i) => <div className={`message ${m.role} ${m.answer ? "structuredMessage" : ""}`} key={i}>{m.answer ? <StructuredAnswer answer={m.answer} onFollowUp={ask} /> : m.text}{m.meta && <div className="messageMeta">{m.meta}</div>}</div>)}
-          {loading && <div className="message assistant loadingMessage"><span className="loadingDot" />Recherche et organisation des éléments pertinents…</div>}<div ref={bottomRef}/>
+        <div className="messages" ref={messagesRef}>
+          {messages.map((m,i) => <div data-answer-anchor={m.role === "assistant" && i > 0 ? "true" : undefined} className={`message ${m.role} ${m.answer ? "structuredMessage" : ""}`} key={i}>{m.answer ? <StructuredAnswer answer={m.answer} onFollowUp={ask} /> : m.text}{m.meta && <div className="messageMeta">{m.meta}</div>}</div>)}
+          {loading && <div className="message assistant loadingMessage"><span className="loadingDot" />Recherche et organisation des éléments pertinents…</div>}
         </div>
         <div className="composer"><div className="inputWrap"><textarea value={question} onChange={e=>setQuestion(e.target.value)} onKeyDown={e=>{if(e.key==="Enter"&&!e.shiftKey){e.preventDefault();ask();}}} placeholder="Ex. Compare les positions documentées sur les retraites…"/><button className="send" onClick={()=>ask()} disabled={loading || !question.trim()}>↑</button></div><div className="examples">{EXAMPLES.map(x=><button className="example" key={x} onClick={()=>ask(x)}>{x}</button>)}</div></div>
       </div>
       <aside className="panel sourcesPanel"><div className="sourcesHeader"><h3>Sources utilisées</h3><span className="status">{citations.length ? `${citations.length} éléments` : "en attente"}</span></div><div className="sources">{citations.length ? citations.map((c,i)=><SourceCard citation={c} number={i+1} key={`${c.path}-${c.entityId || "source"}-${i}`}/>) : <div className="empty">Les fichiers du dépôt et les sources originales apparaîtront ici après votre première question. Le chatbot n’utilise pas le web en direct : sa base est le corpus versionné du projet.</div>}</div></aside>
-    </section>
-    <footer className="footer"><span>Le corpus ne recommande aucun candidat et ne juge pas la faisabilité des mesures.</span><span><a href="https://github.com/TFourniax/programmes-politiques-france-2027/blob/main/METHODOLOGY.md" target="_blank">Méthodologie</a> · <a href="https://github.com/TFourniax/programmes-politiques-france-2027/blob/main/NEUTRALITY_CHARTER.md" target="_blank">Neutralité</a></span></footer>
+    </section> : <IssueCompass onExplore={exploreFromCompass} />}
+    <footer className="footer"><span>Le corpus et la Boussole des enjeux ne recommandent aucun candidat et ne jugent pas la faisabilité des mesures.</span><span><a href="https://github.com/TFourniax/programmes-politiques-france-2027/blob/main/METHODOLOGY.md" target="_blank">Méthodologie</a> · <a href="https://github.com/TFourniax/programmes-politiques-france-2027/blob/main/NEUTRALITY_CHARTER.md" target="_blank">Neutralité</a></span></footer>
   </main>;
 }
