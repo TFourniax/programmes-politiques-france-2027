@@ -96,6 +96,15 @@ function sectionedParagraphs(body) {
   return blocks;
 }
 
+function sentenceAlignedTail(text, overlap) {
+  const clean = text.trim();
+  if (!clean || clean.length <= overlap) return clean;
+  const window = clean.slice(-overlap);
+  const boundary = /[.!?…](?:["»”')\]]*)?\s+/.exec(window);
+  if (!boundary) return '';
+  return window.slice(boundary.index + boundary[0].length).trim();
+}
+
 function chunkBlocks(blocks, target = 1100, overlap = 180) {
   const chunks = [];
   let current = '';
@@ -105,8 +114,7 @@ function chunkBlocks(blocks, target = 1100, overlap = 180) {
     const text = current.trim();
     if (!text) return;
     chunks.push({ section, text });
-    const tail = text.length > overlap ? text.slice(-overlap) : text;
-    current = tail;
+    current = sentenceAlignedTail(text, overlap);
   };
 
   for (const block of blocks) {
@@ -235,7 +243,7 @@ const counts = {
 };
 
 const output = {
-  version: 1,
+  version: 2,
   builtAt: new Date().toISOString(),
   snapshotDate: entities.snapshot_date,
   election: entities.election,

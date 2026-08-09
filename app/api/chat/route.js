@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import { retrieve } from "../../../lib/retrieval.js";
 import { answerWithModel } from "../../../lib/llm.js";
+import { groupPoliticalCards } from "../../../lib/card-grouping.js";
 import {
   candidateEvidence,
   classifyQuestion,
@@ -71,7 +72,8 @@ export async function POST(request) {
   }
 
   const model = await answerWithModel(question,evidence,{mode,history});
-  const answer = hydrateStructuredAnswer(model.answer,question,evidence,{mode,candidates});
+  const hydrated = hydrateStructuredAnswer(model.answer,question,evidence,{mode,candidates});
+  const answer = groupPoliticalCards(hydrated,evidence);
   answer.followUps = answer.followUps.filter((item) => item !== question && supportedFollowUp(item)).slice(0,3);
 
   return NextResponse.json({
