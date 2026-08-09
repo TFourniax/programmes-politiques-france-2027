@@ -184,10 +184,9 @@ for (const party of entities.parties) {
   });
 }
 
-const markdownFiles = [
-  ...walk(path.join(ROOT, 'corpus', '2027')).filter((file) => file.endsWith('.md')),
-  ...walk(path.join(ROOT, 'proposals')).filter((file) => file.endsWith('.md'))
-].sort();
+const documentFiles = walk(path.join(ROOT, 'corpus', '2027')).filter((file) => file.endsWith('.md')).sort();
+const proposalFiles = walk(path.join(ROOT, 'proposals')).filter((file) => file.endsWith('.md')).sort();
+const markdownFiles = [...documentFiles, ...proposalFiles].sort();
 
 for (const file of markdownFiles) {
   const source = fs.readFileSync(file, 'utf8');
@@ -227,6 +226,8 @@ for (const file of markdownFiles) {
 const counts = {
   candidates: entities.candidates.length,
   parties: entities.parties.length,
+  documents: documentFiles.length,
+  proposals: proposalFiles.length,
   markdownFiles: markdownFiles.length,
   chunks: chunks.length,
   documentChunks: chunks.filter((item) => item.kind === 'document').length,
@@ -243,4 +244,4 @@ const output = {
 };
 
 fs.writeFileSync(OUTPUT_PATH, `${JSON.stringify(output, null, 2)}\n`, 'utf8');
-console.log(`Search index built: ${counts.chunks} chunks from ${counts.markdownFiles} Markdown files.`);
+console.log(`Search index built: ${counts.chunks} chunks from ${counts.documents} documents and ${counts.proposals} proposals.`);

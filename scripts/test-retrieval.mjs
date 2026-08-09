@@ -16,6 +16,9 @@ function includesPath(results, fragment) {
 const meta = getMeta();
 assert.equal(meta.snapshotDate, '2026-08-09');
 assert.ok(meta.counts.candidates >= 40, 'candidate snapshot should contain at least 40 tracked personalities');
+assert.ok(meta.counts.documents >= 1, 'meta API should expose indexed document count');
+assert.ok(meta.counts.proposals >= 1, 'meta API should expose atomic proposal count');
+assert.equal(meta.counts.markdownFiles, meta.counts.documents + meta.counts.proposals, 'markdown count should equal documents + proposals');
 assert.ok(meta.counts.markdownFiles >= 20, 'full-text index should include Markdown corpus and proposal files');
 
 const candidates = top('Quels sont les candidats déclarés à la présidentielle 2027 ?', { limit: 12 });
@@ -45,6 +48,8 @@ for (const result of [...retirement, ...retailleau, ...service]) {
 
 console.log('Retrieval QA OK', {
   snapshotDate: meta.snapshotDate,
+  documents: meta.counts.documents,
+  proposals: meta.counts.proposals,
   chunks: meta.counts.chunks,
   markdownFiles: meta.counts.markdownFiles
 });
