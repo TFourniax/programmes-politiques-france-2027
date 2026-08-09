@@ -14,11 +14,14 @@ function SourceCard({ citation, number }) {
   return <a className="sourceCard" href={href} target="_blank" rel="noreferrer">
     <span className="sourceNumber">SOURCE {String(number).padStart(2, "0")}</span>
     <strong>{citation.title}</strong>
-    <p>{citation.entityLabel || citation.entityId || "Entité non précisée"}{citation.publishedAt ? ` · ${citation.publishedAt}` : ""}</p>
+    <p>{citation.entityLabel || citation.entityId || "Entité non précisée"}{citation.publishedAt ? ` · ${citation.publishedAt}` : ""}{citation.section ? ` · ${citation.section}` : ""}</p>
     <div className="sourceTags">
       {citation.kind && <span className="tag">{citation.kind}</span>}
       {citation.documentStatus && <span className="tag">{citation.documentStatus}</span>}
       {citation.candidateStatus && <span className="tag">candidat: {citation.candidateStatus}</span>}
+      {citation.confidence && <span className="tag">preuve: {citation.confidence}</span>}
+      {citation.certainty && <span className="tag">certitude: {citation.certainty}</span>}
+      {citation.sourceTier && <span className="tag">{citation.sourceTier}</span>}
     </div>
   </a>;
 }
