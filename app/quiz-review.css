@@ -1,0 +1,6 @@
+.quizReview{display:flex;justify-content:center;flex-wrap:wrap;gap:6px;margin-top:16px;padding-top:14px;border-top:1px solid var(--border)}
+.quizReview button{display:flex;align-items:center;justify-content:center;gap:4px;min-width:38px;height:32px;border:1px solid var(--border);border-radius:9px;background:rgba(6,10,18,.55);color:#d4dce7;font-size:9px}
+.quizReview button span{font-size:9px}
+.quizReview button.correct{border-color:rgba(74,222,128,.28);background:rgba(74,222,128,.06);color:#bdf4ce}
+.quizReview button.wrong{border-color:rgba(248,113,113,.28);background:rgba(248,113,113,.055);color:#ffc0c0}
+.quizReview button:hover{transform:translateY(-1px);border-color:rgba(227,255,96,.35)}

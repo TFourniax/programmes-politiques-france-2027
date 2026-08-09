@@ -1,7 +1,12 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import CandidateExplorer from "./CandidateExplorer.js";
+import ComparisonExplorer from "./ComparisonExplorer.js";
 import IssueCompass from "./IssueCompass.js";
+import KnowledgeQuiz from "./KnowledgeQuiz.js";
+import TopicExplorer from "./TopicExplorer.js";
+import { writeSearchParams } from "./ExplorerShared.js";
 
 const EXAMPLES = [
   "Qui est déclaré candidat à ce stade ?",
@@ -9,6 +14,8 @@ const EXAMPLES = [
   "Compare les positions documentées sur l'Union européenne",
   "Quelles propositions fiscales sont actuellement sourcées ?"
 ];
+
+const MODES = new Set(["chat", "compare", "candidates", "topics", "compass", "quiz"]);
 
 async function fetchJson(path, options = {}) {
   const response = await fetch(path, { cache: "no-store", ...options });
@@ -112,6 +119,16 @@ export default function ChatApp() {
   useEffect(() => {
     let mounted = true;
     fetchJson("/api/meta").then(data => { if (mounted) { setMeta(data); setApiStatus("ready"); } }).catch(() => { if (mounted) setApiStatus("error"); });
+    if (typeof window !== "undefined") {
+      const requested = new URLSearchParams(window.location.search).get("mode");
+      if (MODES.has(requested)) setMode(requested);
+      const onPopState = () => {
+        const next = new URLSearchParams(window.location.search).get("mode") || "chat";
+        setMode(MODES.has(next) ? next : "chat");
+      };
+      window.addEventListener("popstate", onPopState);
+      return () => { mounted = false; window.removeEventListener("popstate", onPopState); };
+    }
     return () => { mounted = false; };
   }, []);
 
@@ -148,34 +165,23 @@ export default function ChatApp() {
     } finally { setLoading(false); }
   }
 
-  function exploreFromCompass(prompt) {
-    setMode("chat");
+  function switchMode(next) {
+    const safe = MODES.has(next) ? next : "chat";
+    setMode(safe);
+    writeSearchParams(safe);
+  }
+
+  function exploreFromFeature(prompt) {
+    switchMode("chat");
     setTimeout(() => ask(prompt), 0);
   }
 
   const counts = meta?.counts || {};
   const apiLabel = apiStatus === "ready" ? "API corpus prête" : apiStatus === "error" ? "API indisponible" : "vérification API…";
 
-  return <main className="shell">
-    <header className="header">
-      <div className="brand"><div className="brandMark">27</div><div><h1>Programmes politiques · France 2027</h1><p>Corpus public & moteur de questions-réponses</p></div></div>
-      <a className="headerLink" href="https://github.com/TFourniax/programmes-politiques-france-2027" target="_blank" rel="noreferrer">Voir le dépôt ↗</a>
-    </header>
-    <section className="hero">
-      <div><span className="kicker">Source ouverte · versionnée · vérifiable</span><h2>Interrogez les programmes. Pas les slogans.</h2><p className="heroText">Une interface neutre pour rechercher et comparer ce qui est réellement documenté dans les programmes, projets, discours et déclarations suivis par le dépôt.</p></div>
-      <div className="warning">Instantané <strong>{meta?.snapshotDate || "préélectoral"}</strong>. « Suivi », « déclaré », « investi » et « candidat officiel » sont des statuts différents. Les programmes peuvent encore évoluer.</div>
-    </section>
-    <section className="metrics">
-      <div className="metric"><strong>{counts.candidates ?? "—"}</strong><span>personnalités suivies</span></div>
-      <div className="metric"><strong>{counts.parties ?? "—"}</strong><span>partis & mouvements</span></div>
-      <div className="metric"><strong>{counts.documents ?? "—"}</strong><span>documents indexés</span></div>
-      <div className="metric"><strong>{counts.proposals ?? "—"}</strong><span>propositions atomiques</span></div>
-    </section>
-    <nav className="modeSwitcher" aria-label="Modes d'exploration">
-      <button className={mode === "chat" ? "active" : ""} onClick={() => setMode("chat")}><span>Questionner le corpus</span><small>Recherche libre & comparaisons</small></button>
-      <button className={mode === "compass" ? "active" : ""} onClick={() => setMode("compass")}><span>Boussole des enjeux <b>Nouveau</b></span><small>Construire son parcours de lecture</small></button>
-    </nav>
-    {mode === "chat" ? <section className="workspace">
+  let content;
+  if (mode === "chat") {
+    content = <section className="workspace">
       <div className="panel">
         <div className="chatHeader"><h3>Questionner le corpus</h3><span className="status">{apiStatus === "ready" && <i />}{apiLabel}</span></div>
         <div className="messages" ref={messagesRef}>
@@ -185,7 +191,37 @@ export default function ChatApp() {
         <div className="composer"><div className="inputWrap"><textarea value={question} onChange={e=>setQuestion(e.target.value)} onKeyDown={e=>{if(e.key==="Enter"&&!e.shiftKey){e.preventDefault();ask();}}} placeholder="Ex. Compare les positions documentées sur les retraites…"/><button className="send" onClick={()=>ask()} disabled={loading || !question.trim()}>↑</button></div><div className="examples">{EXAMPLES.map(x=><button className="example" key={x} onClick={()=>ask(x)}>{x}</button>)}</div></div>
       </div>
       <aside className="panel sourcesPanel"><div className="sourcesHeader"><h3>Sources utilisées</h3><span className="status">{citations.length ? `${citations.length} éléments` : "en attente"}</span></div><div className="sources">{citations.length ? citations.map((c,i)=><SourceCard citation={c} number={i+1} key={`${c.path}-${c.entityId || "source"}-${i}`}/>) : <div className="empty">Les fichiers du dépôt et les sources originales apparaîtront ici après votre première question. Le chatbot n’utilise pas le web en direct : sa base est le corpus versionné du projet.</div>}</div></aside>
-    </section> : <IssueCompass onExplore={exploreFromCompass} />}
-    <footer className="footer"><span>Le corpus et la Boussole des enjeux ne recommandent aucun candidat et ne jugent pas la faisabilité des mesures.</span><span><a href="https://github.com/TFourniax/programmes-politiques-france-2027/blob/main/METHODOLOGY.md" target="_blank">Méthodologie</a> · <a href="https://github.com/TFourniax/programmes-politiques-france-2027/blob/main/NEUTRALITY_CHARTER.md" target="_blank">Neutralité</a></span></footer>
+    </section>;
+  } else if (mode === "compare") content = <ComparisonExplorer onExplore={exploreFromFeature} />;
+  else if (mode === "candidates") content = <CandidateExplorer onExplore={exploreFromFeature} onNavigate={switchMode} />;
+  else if (mode === "topics") content = <TopicExplorer onExplore={exploreFromFeature} onNavigate={switchMode} />;
+  else if (mode === "quiz") content = <KnowledgeQuiz onExplore={exploreFromFeature} />;
+  else content = <IssueCompass onExplore={exploreFromFeature} />;
+
+  return <main className="shell">
+    <header className="header">
+      <div className="brand"><div className="brandMark">27</div><div><h1>Programmes politiques · France 2027</h1><p>Corpus public & outils d’exploration sourcés</p></div></div>
+      <a className="headerLink" href="https://github.com/TFourniax/programmes-politiques-france-2027" target="_blank" rel="noreferrer">Voir le dépôt ↗</a>
+    </header>
+    <section className="hero">
+      <div><span className="kicker">Source ouverte · versionnée · vérifiable</span><h2>Comprendre avant de choisir.</h2><p className="heroText">Questionnez, comparez et explorez ce qui est réellement documenté dans les programmes, projets, discours et déclarations suivis par le dépôt — avec les sources et les lacunes visibles.</p></div>
+      <div className="warning">Instantané <strong>{meta?.snapshotDate || "préélectoral"}</strong>. « Suivi », « déclaré », « investi » et « candidat officiel » sont des statuts différents. Une donnée absente du corpus n’est jamais interprétée comme une opposition.</div>
+    </section>
+    <section className="metrics">
+      <div className="metric"><strong>{counts.candidates ?? "—"}</strong><span>personnalités suivies</span></div>
+      <div className="metric"><strong>{counts.parties ?? "—"}</strong><span>partis & mouvements</span></div>
+      <div className="metric"><strong>{counts.documents ?? "—"}</strong><span>documents indexés</span></div>
+      <div className="metric"><strong>{counts.proposals ?? "—"}</strong><span>propositions atomiques</span></div>
+    </section>
+    <nav className="modeSwitcher modeSwitcherWide" aria-label="Modes d'exploration">
+      <button className={mode === "chat" ? "active" : ""} onClick={() => switchMode("chat")}><span>Questionner</span><small>Recherche libre</small></button>
+      <button className={mode === "compare" ? "active" : ""} onClick={() => switchMode("compare")}><span>Comparer</span><small>2 à 4 personnalités</small></button>
+      <button className={mode === "candidates" ? "active" : ""} onClick={() => switchMode("candidates")}><span>Candidats</span><small>Fiches & timeline</small></button>
+      <button className={mode === "topics" ? "active" : ""} onClick={() => switchMode("topics")}><span>Thèmes</span><small>Explorer un enjeu</small></button>
+      <button className={mode === "compass" ? "active" : ""} onClick={() => switchMode("compass")}><span>Boussole</span><small>Prioriser ses enjeux</small></button>
+      <button className={mode === "quiz" ? "active" : ""} onClick={() => switchMode("quiz")}><span>Quiz</span><small>Vérifier sa compréhension</small></button>
+    </nav>
+    {content}
+    <footer className="footer"><span>Les outils du site n’attribuent pas une plateforme de parti à un candidat sans source directe, ne recommandent aucun vote et ne jugent pas la faisabilité des mesures.</span><span><a href="https://github.com/TFourniax/programmes-politiques-france-2027/blob/main/METHODOLOGY.md" target="_blank">Méthodologie</a> · <a href="https://github.com/TFourniax/programmes-politiques-france-2027/blob/main/NEUTRALITY_CHARTER.md" target="_blank">Neutralité</a></span></footer>
   </main>;
 }
