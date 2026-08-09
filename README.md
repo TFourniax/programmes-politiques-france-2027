@@ -17,7 +17,7 @@ La V1 fournit :
 - un index full-text reconstruit automatiquement à partir du **contenu complet des Markdown**, et pas seulement de résumés ;
 - une recherche lexicale pondérée par rareté, titre, entité, section, thème et type de contenu ;
 - des réponses accompagnées des fichiers GitHub et sources originales utilisés ;
-- un fallback déterministe lorsque le LLM est absent ou indisponible ;
+- un fallback déterministe lorsque le LLM est absent, indisponible ou trop lent ;
 - des tests de retrieval sur des questions politiques réelles et des contrôles de cohérence du corpus.
 
 Le corpus reste **incomplet par construction tant que la campagne évolue**. Un statut peut être `high`, `medium`, `low` ou `unverified` selon la qualité de la preuve disponible. Une absence de document ne signifie jamais absence de position politique.
@@ -80,18 +80,20 @@ npm run dev
 
 Le script `predev` construit automatiquement l’index full-text.
 
-Sans `LLM_API_KEY`, le moteur fonctionne en mode déterministe et renvoie les passages les plus pertinents du corpus. Avec une clé, le modèle synthétise uniquement les passages récupérés.
+Sans `LLM_API_KEY` ni `OPENAI_API_KEY`, le moteur fonctionne en mode déterministe et renvoie les passages les plus pertinents du corpus. Avec une clé, le modèle synthétise uniquement les passages récupérés.
 
 Variables :
 
 ```text
 LLM_API_KEY=...
+# OPENAI_API_KEY=...   # alternative acceptée
 LLM_API_URL=https://api.openai.com/v1/chat/completions
-LLM_MODEL=gpt-5.6-terra
+LLM_MODEL=gpt-5-mini
+LLM_TIMEOUT_MS=15000
 NEXT_PUBLIC_REPOSITORY_URL=https://github.com/TFourniax/programmes-politiques-france-2027
 ```
 
-Le modèle par défaut est GPT-5.6 Terra, choisi pour un compromis qualité/coût. L’API et le modèle restent configurables par variables d’environnement.
+Le modèle par défaut est `gpt-5-mini`. L’API, le modèle et le timeout restent configurables par variables d’environnement. Si l’appel LLM échoue ou dépasse le timeout, l’application retombe sur une réponse déterministe fondée sur les passages récupérés.
 
 ## QA
 
@@ -124,16 +126,18 @@ Le dépôt contient `netlify.toml` :
 
 Netlify détecte Next.js et utilise son adaptateur OpenNext pour l’App Router et les Route Handlers. Il n’est pas nécessaire d’épingler un plugin Next.js spécifique.
 
-Dans Netlify, ajouter au minimum les variables d’environnement nécessaires au mode LLM :
+Dans Netlify, ajouter les variables d’environnement si le mode LLM doit être activé :
 
 ```text
 LLM_API_KEY=...
+# ou OPENAI_API_KEY=...
 LLM_API_URL=https://api.openai.com/v1/chat/completions
-LLM_MODEL=gpt-5.6-terra
+LLM_MODEL=gpt-5-mini
+LLM_TIMEOUT_MS=15000
 NEXT_PUBLIC_REPOSITORY_URL=https://github.com/TFourniax/programmes-politiques-france-2027
 ```
 
-Sans `LLM_API_KEY`, l’interface reste utilisable en mode déterministe.
+Sans clé LLM, l’interface reste utilisable en mode déterministe.
 
 ## Méthode et limites
 
