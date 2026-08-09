@@ -13,23 +13,62 @@ async function fetchJson(path, options = {}) {
   const response = await fetch(path, { cache: "no-store", ...options });
   const contentType = response.headers.get("content-type") || "";
   const text = await response.text();
-
-  if (!contentType.includes("application/json")) {
-    throw new Error(`API ${response.status} : réponse non JSON reçue de ${path}`);
-  }
-
+  if (!contentType.includes("application/json")) throw new Error(`API ${response.status} : réponse non JSON reçue de ${path}`);
   let data;
-  try {
-    data = text ? JSON.parse(text) : {};
-  } catch {
-    throw new Error(`API ${response.status} : JSON invalide reçu de ${path}`);
-  }
-
-  if (!response.ok) {
-    throw new Error(data?.error || `API HTTP ${response.status}`);
-  }
-
+  try { data = text ? JSON.parse(text) : {}; } catch { throw new Error(`API ${response.status} : JSON invalide reçu de ${path}`); }
+  if (!response.ok) throw new Error(data?.error || `API HTTP ${response.status}`);
   return data;
+}
+
+function confidenceLabel(value) {
+  if (value === "high") return "preuve élevée";
+  if (value === "medium") return "preuve moyenne";
+  if (value === "low") return "preuve faible";
+  return value || "";
+}
+
+function SourceRefs({ numbers = [] }) {
+  if (!numbers.length) return null;
+  return <div className="answerSources">{numbers.map(number => <span key={number}>Source {number}</span>)}</div>;
+}
+
+function AnswerCard({ card }) {
+  const candidate = card.entityType === "candidate";
+  return <article className={`answerCard ${candidate ? "candidateCard" : ""}`} style={{"--party-color":card.partyColor || "#748196"}}>
+    <div className="cardAccent" />
+    <div className="answerCardTop">
+      <div className="answerCardIdentity">
+        {card.partyName && <span className="partyDot" />}
+        <div><h5>{card.title}</h5>{card.subtitle && <p>{card.subtitle}</p>}</div>
+      </div>
+      {candidate && <span className="statusBadge">{card.statusLabel}</span>}
+    </div>
+    {card.summary && <p className="answerCardSummary">{card.summary}</p>}
+    {card.bullets?.length > 0 && <ul className="answerBullets">{card.bullets.map((bullet,index)=><li key={index}>{bullet}</li>)}</ul>}
+    <div className="answerCardMeta">
+      {card.partyName && <span>{card.partyName}</span>}
+      {card.confidence && <span>{confidenceLabel(card.confidence)}</span>}
+      {candidate && !card.officialCandidate && <span>pas encore « candidat officiel »</span>}
+    </div>
+    <SourceRefs numbers={card.sourceNumbers} />
+    {card.sourceUrl && <a className="cardSourceLink" href={card.sourceUrl} target="_blank" rel="noreferrer">Vérifier la source ↗</a>}
+  </article>;
+}
+
+function StructuredAnswer({ answer, onFollowUp }) {
+  if (!answer || typeof answer !== "object") return null;
+  return <div className={`structuredAnswer layout-${answer.layout || "overview"}`}>
+    <div className="answerHeading"><span className="answerEyebrow">Réponse du corpus</span><h4>{answer.title}</h4>{answer.summary && <p>{answer.summary}</p>}</div>
+    {answer.sections?.length > 0 && <div className="answerSections">{answer.sections.map((section,index)=><section className="answerSection" key={`${section.title}-${index}`}>
+      {section.title && <h5>{section.title}</h5>}
+      {section.text && <p>{section.text}</p>}
+      {section.bullets?.length > 0 && <ul className="answerBullets">{section.bullets.map((bullet,i)=><li key={i}>{bullet}</li>)}</ul>}
+      <SourceRefs numbers={section.sourceNumbers} />
+    </section>)}</div>}
+    {answer.cards?.length > 0 && <div className={`answerGrid ${answer.layout === "comparison" ? "comparisonGrid" : ""}`}>{answer.cards.map((card,index)=><AnswerCard card={card} key={`${card.entityId || card.title}-${index}`} />)}</div>}
+    {answer.note && <div className="answerNote">{answer.note}</div>}
+    {answer.followUps?.length > 0 && <div className="followUpBlock"><span>Pour aller plus loin</span><div className="followUps">{answer.followUps.map(item=><button key={item} onClick={()=>onFollowUp(item)}>{item}<b>↗</b></button>)}</div></div>}
+  </div>;
 }
 
 function SourceCard({ citation, number }) {
@@ -52,6 +91,12 @@ function SourceCard({ citation, number }) {
   </div>;
 }
 
+function messageHistoryContent(message) {
+  if (message.text) return message.text;
+  if (message.answer) return [message.answer.title,message.answer.summary].filter(Boolean).join(" — ");
+  return "";
+}
+
 export default function ChatApp() {
   const [meta, setMeta] = useState(null);
   const [apiStatus, setApiStatus] = useState("checking");
@@ -63,16 +108,7 @@ export default function ChatApp() {
 
   useEffect(() => {
     let mounted = true;
-    fetchJson("/api/meta")
-      .then((data) => {
-        if (!mounted) return;
-        setMeta(data);
-        setApiStatus("ready");
-      })
-      .catch(() => {
-        if (!mounted) return;
-        setApiStatus("error");
-      });
+    fetchJson("/api/meta").then(data => { if (mounted) { setMeta(data); setApiStatus("ready"); } }).catch(() => { if (mounted) setApiStatus("error"); });
     return () => { mounted = false; };
   }, []);
 
@@ -81,18 +117,15 @@ export default function ChatApp() {
   async function ask(forced) {
     const value = String(forced ?? question).trim();
     if (!value || loading) return;
+    const history = messages.slice(-6).map(message => ({role:message.role,content:messageHistoryContent(message)})).filter(item=>item.content);
     setQuestion("");
     setMessages(m => [...m, {role:"user", text:value}]);
     setLoading(true);
     try {
-      const data = await fetchJson("/api/chat", {
-        method:"POST",
-        headers:{"content-type":"application/json"},
-        body:JSON.stringify({question:value})
-      });
+      const data = await fetchJson("/api/chat", {method:"POST",headers:{"content-type":"application/json"},body:JSON.stringify({question:value,history})});
       setApiStatus("ready");
       setCitations(data.citations || []);
-      setMessages(m => [...m, {role:"assistant", text:data.answer, meta:data.generated === false ? "Réponse déterministe à partir du corpus" : "Réponse générée à partir des passages affichés"}]);
+      setMessages(m => [...m, {role:"assistant", answer:data.answer, meta:data.generated === false ? "Organisation déterministe à partir du corpus" : "Synthèse OpenAI strictement limitée aux éléments du corpus"}]);
     } catch (error) {
       setApiStatus("error");
       setMessages(m => [...m, {role:"assistant", text:`Impossible de répondre : ${error.message}`}]);
@@ -121,12 +154,12 @@ export default function ChatApp() {
       <div className="panel">
         <div className="chatHeader"><h3>Questionner le corpus</h3><span className="status">{apiStatus === "ready" && <i />}{apiLabel}</span></div>
         <div className="messages">
-          {messages.map((m,i) => <div className={`message ${m.role}`} key={i}>{m.text}{m.meta && <div className="messageMeta">{m.meta}</div>}</div>)}
-          {loading && <div className="message assistant">Recherche des passages pertinents…</div>}<div ref={bottomRef}/>
+          {messages.map((m,i) => <div className={`message ${m.role} ${m.answer ? "structuredMessage" : ""}`} key={i}>{m.answer ? <StructuredAnswer answer={m.answer} onFollowUp={ask} /> : m.text}{m.meta && <div className="messageMeta">{m.meta}</div>}</div>)}
+          {loading && <div className="message assistant loadingMessage"><span className="loadingDot" />Recherche et organisation des éléments pertinents…</div>}<div ref={bottomRef}/>
         </div>
         <div className="composer"><div className="inputWrap"><textarea value={question} onChange={e=>setQuestion(e.target.value)} onKeyDown={e=>{if(e.key==="Enter"&&!e.shiftKey){e.preventDefault();ask();}}} placeholder="Ex. Compare les positions documentées sur les retraites…"/><button className="send" onClick={()=>ask()} disabled={loading || !question.trim()}>↑</button></div><div className="examples">{EXAMPLES.map(x=><button className="example" key={x} onClick={()=>ask(x)}>{x}</button>)}</div></div>
       </div>
-      <aside className="panel sourcesPanel"><div className="sourcesHeader"><h3>Sources utilisées</h3><span className="status">{citations.length ? `${citations.length} passages` : "en attente"}</span></div><div className="sources">{citations.length ? citations.map((c,i)=><SourceCard citation={c} number={i+1} key={`${c.path}-${i}`}/>) : <div className="empty">Les fichiers du dépôt et les sources originales apparaîtront ici après votre première question. Le chatbot n’utilise pas le web en direct : sa base est le corpus versionné du projet.</div>}</div></aside>
+      <aside className="panel sourcesPanel"><div className="sourcesHeader"><h3>Sources utilisées</h3><span className="status">{citations.length ? `${citations.length} éléments` : "en attente"}</span></div><div className="sources">{citations.length ? citations.map((c,i)=><SourceCard citation={c} number={i+1} key={`${c.path}-${c.entityId || "source"}-${i}`}/>) : <div className="empty">Les fichiers du dépôt et les sources originales apparaîtront ici après votre première question. Le chatbot n’utilise pas le web en direct : sa base est le corpus versionné du projet.</div>}</div></aside>
     </section>
     <footer className="footer"><span>Le corpus ne recommande aucun candidat et ne juge pas la faisabilité des mesures.</span><span><a href="https://github.com/TFourniax/programmes-politiques-france-2027/blob/main/METHODOLOGY.md" target="_blank">Méthodologie</a> · <a href="https://github.com/TFourniax/programmes-politiques-france-2027/blob/main/NEUTRALITY_CHARTER.md" target="_blank">Neutralité</a></span></footer>
   </main>;
