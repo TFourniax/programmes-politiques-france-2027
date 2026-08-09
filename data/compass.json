@@ -1,0 +1,93 @@
+{
+  "version": "1.0",
+  "title": "Boussole des enjeux",
+  "description": "Un parcours neutre pour identifier les sujets qui comptent le plus dans votre choix, puis consulter les positions effectivement documentées dans le corpus.",
+  "scale": [
+    {"value": 0, "label": "Secondaire"},
+    {"value": 1, "label": "À considérer"},
+    {"value": 2, "label": "Important"},
+    {"value": 3, "label": "Décisif"}
+  ],
+  "questions": [
+    {
+      "id": "pouvoir-achat-travail",
+      "label": "Pouvoir d’achat & travail",
+      "description": "Salaires, SMIC, emploi, conditions de travail et entreprises.",
+      "question": "À quel point le pouvoir d’achat, les salaires et le travail doivent-ils peser dans votre choix ?",
+      "query": "pouvoir d'achat salaires SMIC travail emploi entreprises",
+      "exploreQuestion": "Compare les positions documentées sur le pouvoir d’achat, les salaires et le travail."
+    },
+    {
+      "id": "retraites",
+      "label": "Retraites",
+      "description": "Âge de départ, durée de cotisation, financement et niveau des pensions.",
+      "question": "À quel point la politique des retraites doit-elle peser dans votre choix ?",
+      "query": "retraites âge de départ pensions cotisations retraite 60 ans",
+      "exploreQuestion": "Compare les positions documentées sur les retraites."
+    },
+    {
+      "id": "fiscalite-redistribution",
+      "label": "Fiscalité & redistribution",
+      "description": "Impôts, patrimoine, ISF, redistribution et financement public.",
+      "question": "À quel point la fiscalité et la redistribution doivent-elles peser dans votre choix ?",
+      "query": "fiscalité impôts ISF patrimoine redistribution taxes",
+      "exploreQuestion": "Compare les propositions fiscales et de redistribution actuellement documentées."
+    },
+    {
+      "id": "immigration-integration",
+      "label": "Immigration & intégration",
+      "description": "Entrées, titres de séjour, étudiants étrangers, intégration et politique migratoire.",
+      "question": "À quel point l’immigration et l’intégration doivent-elles peser dans votre choix ?",
+      "query": "immigration intégration titres de séjour étudiants étrangers politique migratoire",
+      "exploreQuestion": "Compare les positions documentées sur l’immigration et l’intégration."
+    },
+    {
+      "id": "europe-souverainete",
+      "label": "Europe & souveraineté",
+      "description": "Union européenne, souveraineté nationale, traités et compétences européennes.",
+      "question": "À quel point la place de la France dans l’Union européenne doit-elle peser dans votre choix ?",
+      "query": "Union européenne Europe souveraineté traités sortie UE compétences européennes",
+      "exploreQuestion": "Compare les positions documentées sur l’Union européenne et la souveraineté."
+    },
+    {
+      "id": "ecologie-energie",
+      "label": "Écologie & énergie",
+      "description": "Transition écologique, énergie, ressources et contraintes environnementales.",
+      "question": "À quel point l’écologie et la politique énergétique doivent-elles peser dans votre choix ?",
+      "query": "écologie transition écologique énergie climat règle verte environnement",
+      "exploreQuestion": "Compare les positions documentées sur l’écologie et l’énergie."
+    },
+    {
+      "id": "institutions-democratie",
+      "label": "Institutions & démocratie",
+      "description": "Référendums, Constitution, démocratie directe et fonctionnement des institutions.",
+      "question": "À quel point la réforme des institutions et de la démocratie doit-elle peser dans votre choix ?",
+      "query": "institutions démocratie référendum Constitution démocratie directe réforme institutionnelle",
+      "exploreQuestion": "Compare les positions documentées sur les institutions, les référendums et la démocratie."
+    },
+    {
+      "id": "services-publics",
+      "label": "Services publics",
+      "description": "Santé, éducation, administration, accès territorial et services essentiels.",
+      "question": "À quel point l’état des services publics doit-il peser dans votre choix ?",
+      "query": "services publics santé éducation école hôpital administration territoire",
+      "exploreQuestion": "Que dit actuellement le corpus sur les services publics, la santé et l’éducation ?"
+    },
+    {
+      "id": "securite-justice",
+      "label": "Sécurité & justice",
+      "description": "Police, justice, sécurité du quotidien, sanctions et libertés publiques.",
+      "question": "À quel point la sécurité et la justice doivent-elles peser dans votre choix ?",
+      "query": "sécurité justice police sanctions délinquance libertés publiques",
+      "exploreQuestion": "Compare les positions documentées sur la sécurité et la justice."
+    },
+    {
+      "id": "economie-finances",
+      "label": "Économie & finances publiques",
+      "description": "Croissance, dette, dépenses publiques, compétitivité et modèle économique.",
+      "question": "À quel point l’économie et les finances publiques doivent-elles peser dans votre choix ?",
+      "query": "économie dette dépenses publiques croissance compétitivité budget entreprises",
+      "exploreQuestion": "Compare les positions documentées sur l’économie, la dette et les finances publiques."
+    }
+  ]
+}
