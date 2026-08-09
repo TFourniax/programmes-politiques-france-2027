@@ -10,8 +10,7 @@ const EXAMPLES = [
 ];
 
 function SourceCard({ citation, number }) {
-  const href = citation.githubUrl || citation.sourceUrl || "#";
-  return <a className="sourceCard" href={href} target="_blank" rel="noreferrer">
+  return <div className="sourceCard">
     <span className="sourceNumber">SOURCE {String(number).padStart(2, "0")}</span>
     <strong>{citation.title}</strong>
     <p>{citation.entityLabel || citation.entityId || "Entité non précisée"}{citation.publishedAt ? ` · ${citation.publishedAt}` : ""}{citation.section ? ` · ${citation.section}` : ""}</p>
@@ -23,7 +22,11 @@ function SourceCard({ citation, number }) {
       {citation.certainty && <span className="tag">certitude: {citation.certainty}</span>}
       {citation.sourceTier && <span className="tag">{citation.sourceTier}</span>}
     </div>
-  </a>;
+    <div className="sourceLinks">
+      {citation.githubUrl && <a href={citation.githubUrl} target="_blank" rel="noreferrer">Fichier GitHub ↗</a>}
+      {citation.sourceUrl && <a href={citation.sourceUrl} target="_blank" rel="noreferrer">Source originale ↗</a>}
+    </div>
+  </div>;
 }
 
 export default function ChatApp() {
