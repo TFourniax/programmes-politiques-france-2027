@@ -1,5 +1,6 @@
 import "./globals.css";
 import "./explorer.css";
+import "./quiz-review.css";
 
 export const metadata = {
   title: "France 2027 — Programmes, candidats & comparateur sourcé",
