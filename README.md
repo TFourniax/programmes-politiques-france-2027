@@ -63,6 +63,7 @@ Le système distingue notamment :
 
 - statut d’une personne ;
 - statut d’un document ;
+- niveau de confiance de la preuve ;
 - certitude d’une proposition ;
 - programme d’un parti et programme personnel d’un candidat ;
 - source primaire et source secondaire.
@@ -86,9 +87,11 @@ Variables :
 ```text
 LLM_API_KEY=...
 LLM_API_URL=https://api.openai.com/v1/chat/completions
-LLM_MODEL=gpt-5.2
+LLM_MODEL=gpt-5.6-terra
 NEXT_PUBLIC_REPOSITORY_URL=https://github.com/TFourniax/programmes-politiques-france-2027
 ```
+
+Le modèle par défaut est GPT-5.6 Terra, choisi pour un compromis qualité/coût. L’API et le modèle restent configurables par variables d’environnement.
 
 ## QA
 
@@ -106,6 +109,7 @@ Les tests de retrieval couvrent notamment :
 - SMIC à 1 700 € net ;
 - propositions de Bruno Retailleau sur l’immigration ;
 - service citoyen de neuf mois ;
+- contrat des compteurs documents/propositions affichés dans l’interface ;
 - requête sans rapport avec le corpus, qui doit produire zéro résultat.
 
 La CI exécute ces contrôles avant le build de l’application.
@@ -125,7 +129,7 @@ Dans Netlify, ajouter au minimum les variables d’environnement nécessaires au
 ```text
 LLM_API_KEY=...
 LLM_API_URL=https://api.openai.com/v1/chat/completions
-LLM_MODEL=gpt-5.2
+LLM_MODEL=gpt-5.6-terra
 NEXT_PUBLIC_REPOSITORY_URL=https://github.com/TFourniax/programmes-politiques-france-2027
 ```
 
