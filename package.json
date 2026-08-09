@@ -8,7 +8,7 @@
     "prebuild": "node scripts/build-search-index.mjs",
     "build": "next build",
     "start": "next start",
-    "test:retrieval": "node scripts/test-retrieval.mjs"
+    "test:retrieval": "node scripts/build-search-index.mjs && node scripts/test-retrieval.mjs"
   },
   "dependencies": {
     "next": "15.5.4",
