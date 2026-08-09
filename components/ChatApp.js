@@ -9,6 +9,29 @@ const EXAMPLES = [
   "Quelles propositions fiscales sont actuellement sourcées ?"
 ];
 
+async function fetchJson(path, options = {}) {
+  const response = await fetch(path, { cache: "no-store", ...options });
+  const contentType = response.headers.get("content-type") || "";
+  const text = await response.text();
+
+  if (!contentType.includes("application/json")) {
+    throw new Error(`API ${response.status} : réponse non JSON reçue de ${path}`);
+  }
+
+  let data;
+  try {
+    data = text ? JSON.parse(text) : {};
+  } catch {
+    throw new Error(`API ${response.status} : JSON invalide reçu de ${path}`);
+  }
+
+  if (!response.ok) {
+    throw new Error(data?.error || `API HTTP ${response.status}`);
+  }
+
+  return data;
+}
+
 function SourceCard({ citation, number }) {
   return <div className="sourceCard">
     <span className="sourceNumber">SOURCE {String(number).padStart(2, "0")}</span>
@@ -31,13 +54,28 @@ function SourceCard({ citation, number }) {
 
 export default function ChatApp() {
   const [meta, setMeta] = useState(null);
+  const [apiStatus, setApiStatus] = useState("checking");
   const [question, setQuestion] = useState("");
   const [loading, setLoading] = useState(false);
   const [citations, setCitations] = useState([]);
   const [messages, setMessages] = useState([{role:"assistant", text:"Posez une question sur les candidatures, programmes ou propositions actuellement documentés. Je réponds uniquement à partir du corpus de ce dépôt et je montre les sources utilisées."}]);
   const bottomRef = useRef(null);
 
-  useEffect(() => { fetch("/api/meta").then(r => r.json()).then(setMeta).catch(() => {}); }, []);
+  useEffect(() => {
+    let mounted = true;
+    fetchJson("/api/meta")
+      .then((data) => {
+        if (!mounted) return;
+        setMeta(data);
+        setApiStatus("ready");
+      })
+      .catch(() => {
+        if (!mounted) return;
+        setApiStatus("error");
+      });
+    return () => { mounted = false; };
+  }, []);
+
   useEffect(() => { bottomRef.current?.scrollIntoView({behavior:"smooth"}); }, [messages, loading]);
 
   async function ask(forced) {
@@ -47,17 +85,23 @@ export default function ChatApp() {
     setMessages(m => [...m, {role:"user", text:value}]);
     setLoading(true);
     try {
-      const response = await fetch("/api/chat", {method:"POST", headers:{"content-type":"application/json"}, body:JSON.stringify({question:value})});
-      const data = await response.json();
-      if (!response.ok) throw new Error(data.error || "Erreur lors de la réponse.");
+      const data = await fetchJson("/api/chat", {
+        method:"POST",
+        headers:{"content-type":"application/json"},
+        body:JSON.stringify({question:value})
+      });
+      setApiStatus("ready");
       setCitations(data.citations || []);
       setMessages(m => [...m, {role:"assistant", text:data.answer, meta:data.generated === false ? "Réponse déterministe à partir du corpus" : "Réponse générée à partir des passages affichés"}]);
     } catch (error) {
+      setApiStatus("error");
       setMessages(m => [...m, {role:"assistant", text:`Impossible de répondre : ${error.message}`}]);
     } finally { setLoading(false); }
   }
 
   const counts = meta?.counts || {};
+  const apiLabel = apiStatus === "ready" ? "API corpus prête" : apiStatus === "error" ? "API indisponible" : "vérification API…";
+
   return <main className="shell">
     <header className="header">
       <div className="brand"><div className="brandMark">27</div><div><h1>Programmes politiques · France 2027</h1><p>Corpus public & moteur de questions-réponses</p></div></div>
@@ -75,7 +119,7 @@ export default function ChatApp() {
     </section>
     <section className="workspace">
       <div className="panel">
-        <div className="chatHeader"><h3>Questionner le corpus</h3><span className="status"><i />retrieval local actif</span></div>
+        <div className="chatHeader"><h3>Questionner le corpus</h3><span className="status">{apiStatus === "ready" && <i />}{apiLabel}</span></div>
         <div className="messages">
           {messages.map((m,i) => <div className={`message ${m.role}`} key={i}>{m.text}{m.meta && <div className="messageMeta">{m.meta}</div>}</div>)}
           {loading && <div className="message assistant">Recherche des passages pertinents…</div>}<div ref={bottomRef}/>
