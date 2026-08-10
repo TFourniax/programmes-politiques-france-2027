@@ -1,6 +1,6 @@
 {
   "name": "programmes-politiques-france-2027",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "private": true,
   "type": "module",
   "scripts": {
@@ -9,13 +9,18 @@
     "prebuild": "node scripts/build-search-index.mjs",
     "build": "next build",
     "start": "next start",
-    "test:retrieval": "node scripts/build-search-index.mjs && node scripts/test-retrieval.mjs && node scripts/test-compass.mjs && node scripts/test-explorer.mjs",
-    "test:explorer": "node scripts/build-search-index.mjs && node scripts/test-explorer.mjs"
+    "validate:data": "python scripts/validate.py && pytest -q",
+    "test:retrieval": "node scripts/build-search-index.mjs && node scripts/test-retrieval.mjs && node scripts/test-compass.mjs && node scripts/test-explorer.mjs && node scripts/test-benchmark.mjs",
+    "test:explorer": "node scripts/build-search-index.mjs && node scripts/test-explorer.mjs",
+    "test:e2e": "playwright test"
   },
   "dependencies": {
     "next": "15.5.22",
     "react": "19.1.8",
     "react-dom": "19.1.8"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.62.0"
   },
   "overrides": {
     "postcss": "8.5.23",

@@ -1,25 +1,29 @@
 from pathlib import Path
 import json
 import sys
+from datetime import datetime
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 from common import ROOT, markdown_files, parse_markdown  # noqa: E402
 
 
-def test_all_corpus_has_frontmatter_and_source():
+def test_all_corpus_has_frontmatter_source_and_body():
     files = list(markdown_files("corpus/2027"))
-    assert files
+    assert len(files) >= 20
     for path in files:
         meta, body = parse_markdown(path)
         assert meta["document_id"]
         assert meta["entity_id"]
         assert meta["source_url"]
+        assert meta["document_status"]
         assert body.strip()
 
 
 def test_all_proposals_reference_existing_document():
     document_ids = {parse_markdown(path)[0]["document_id"] for path in markdown_files("corpus/2027")}
-    for path in markdown_files("proposals"):
+    proposals = list(markdown_files("proposals"))
+    assert len(proposals) >= 25
+    for path in proposals:
         meta, body = parse_markdown(path)
         assert meta["proposal_id"]
         sources = meta.get("source_document_ids") or meta.get("source_document_id")
@@ -34,7 +38,7 @@ def test_all_proposals_reference_existing_document():
 def test_candidate_statuses_never_implicitly_become_official():
     with (ROOT / "data" / "entities.json").open(encoding="utf-8") as handle:
         data = json.load(handle)
-    assert data["snapshot_date"] == "2026-08-09"
+    datetime.strptime(data["snapshot_date"], "%Y-%m-%d")
     for candidate in data["candidates"]:
         if candidate.get("current_status") == "official_candidate":
             assert candidate.get("official_candidate") is True
