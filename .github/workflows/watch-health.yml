@@ -1,0 +1,61 @@
+name: Political watch dead-man
+
+on:
+  schedule:
+    - cron: '43 4,10,16,22 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: political-watch-dead-man
+  cancel-in-progress: true
+
+jobs:
+  health:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+
+      - name: Check autonomous watch health
+        id: check
+        continue-on-error: true
+        run: python scripts/check_watch_health.py --max-age-hours 10 --max-gemini-outage-hours 24
+
+      - name: Open or refresh incident issue
+        if: steps.check.outcome == 'failure'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TITLE: '[AUTO] Veille politique dégradée'
+        shell: bash
+        run: |
+          issue="$(gh issue list --state open --search "$TITLE in:title" --json number --jq '.[0].number // empty')"
+          body="Le dead-man automatique a détecté que la veille politique ne respecte plus ses SLO (collecte trop ancienne ou promotion Gemini indisponible depuis trop longtemps). Le prochain run normal continuera à tenter une récupération automatiquement. Voir l'Action Political watch dead-man pour le diagnostic."
+          if [ -z "$issue" ]; then
+            gh issue create --title "$TITLE" --body "$body"
+          else
+            gh issue comment "$issue" --body "Nouvel échec du dead-man à $(date -u +%FT%TZ). La récupération reste automatique."
+          fi
+
+      - name: Close recovered incident
+        if: steps.check.outcome == 'success'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TITLE: '[AUTO] Veille politique dégradée'
+        shell: bash
+        run: |
+          issue="$(gh issue list --state open --search "$TITLE in:title" --json number --jq '.[0].number // empty')"
+          if [ -n "$issue" ]; then
+            gh issue close "$issue" --comment "Récupération automatique confirmée à $(date -u +%FT%TZ)."
+          fi
+
+      - name: Fail visibly when SLO is breached
+        if: steps.check.outcome == 'failure'
+        run: exit 1
