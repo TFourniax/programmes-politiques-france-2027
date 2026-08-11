@@ -1,0 +1,63 @@
+version: 1
+enabled: true
+
+# La veille produit des pistes dans research/veille/. Elle ne modifie jamais
+# automatiquement le corpus canonique ni les propositions.
+official_discovery:
+  max_sitemaps_per_site: 8
+  max_relevant_urls_per_site: 80
+  max_feeds_per_site: 2
+
+gdelt:
+  enabled: true
+  timespan: 1d
+  max_entities: 60
+  max_records_per_entity: 12
+  keep_per_entity: 3
+  request_delay_seconds: 0.15
+  # Par défaut, GDELT sert de radar sur une liste de médias reconnus. Une URL
+  # hors liste n'est pas promue automatiquement dans la boîte de réception.
+  allow_unlisted_domains: false
+  trusted_press_domains:
+    - afp.com
+    - bfmtv.com
+    - europe1.fr
+    - france24.com
+    - franceinfo.fr
+    - franceinter.fr
+    - la-croix.com
+    - ladepeche.fr
+    - latribune.fr
+    - lefigaro.fr
+    - lemonde.fr
+    - leparisien.fr
+    - lesechos.fr
+    - liberation.fr
+    - lcp.fr
+    - mediapart.fr
+    - nicematin.com
+    - nouvelobs.com
+    - ouest-france.fr
+    - publicsenat.fr
+    - radiofrance.fr
+    - reuters.com
+    - rtl.fr
+    - sudouest.fr
+    - tf1info.fr
+    - 20minutes.fr
+
+google_search_grounding:
+  enabled: true
+  # Gemini 2.5 Flash-Lite dispose d'un quota gratuit de Search Grounding.
+  # Le connecteur est automatiquement ignoré si GEMINI_API_KEY n'est pas défini.
+  model: gemini-2.5-flash-lite
+  max_entities: 60
+  max_urls_per_entity: 5
+  request_delay_seconds: 0.10
+
+# Réservé pour la phase suivante. Aucun appel X n'est effectué dans cette V1,
+# afin de conserver un coût strictement nul.
+x:
+  enabled: false
+  mode: reserved
+  note: "Ajouter le connecteur X uniquement après définition d'un budget lecture explicite."
