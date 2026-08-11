@@ -2,6 +2,7 @@ import assert from "node:assert/strict";
 import {
   buildFallbackRetrievalQuery,
   interpretRetrievalWithModel,
+  retrievalFallbackStatus,
   sanitizeRetrievalInterpretation,
   shouldAttemptRetrievalFallback,
   withInheritedFallbackContext
@@ -68,6 +69,11 @@ assert.equal(sanitizeRetrievalInterpretation({
   mappings: [{ kind: "concept", id: "nucleaire", evidence_span: "l'atome" }],
   numbers: []
 }, "Parle-moi de l'atome"), null, "une interprétation non high-confidence ne doit pas piloter le retrieval");
+
+const originalKey = process.env.LLM_API_KEY;
+delete process.env.LLM_API_KEY;
+assert.equal(shouldAttemptRetrievalFallback({ reason: "insufficient_relevance" }), false, "sans fournisseur configuré le chemin déterministe ne doit pas créer de tentative inutile");
+process.env.LLM_API_KEY = "unit-test-key";
 assert.equal(shouldAttemptRetrievalFallback({ reason: "insufficient_relevance" }), true);
 assert.equal(shouldAttemptRetrievalFallback({ reason: "unsupported_subjective_ranking" }), false);
 assert.equal(shouldAttemptRetrievalFallback({ reason: "hybrid_evidence" }), false, "le LLM ne doit pas être appelé quand le moteur déterministe sait répondre");
@@ -89,10 +95,8 @@ assert.match(normalize(buildFallbackRetrievalQuery(inherited)), /david lisnard/)
 assert.match(normalize(buildFallbackRetrievalQuery(inherited)), /renaissance/);
 
 // Exerce le chemin réseau complet sans dépendre d'un fournisseur ni consommer de tokens.
-const previousKey = process.env.LLM_API_KEY;
 const previousFetch = globalThis.fetch;
 let fallbackRequestBody = null;
-process.env.LLM_API_KEY = "unit-test-key";
 globalThis.fetch = async (_url, options = {}) => {
   fallbackRequestBody = JSON.parse(options.body || "{}");
   return {
@@ -128,10 +132,28 @@ try {
   assert.equal(fallbackRequestBody?.response_format?.type, "json_schema", "le fournisseur doit être contraint par un schéma structuré");
   assert.equal(fallbackRequestBody?.response_format?.json_schema?.strict, true);
   assert.equal(fallbackRequestBody?.response_format?.json_schema?.schema?.properties?.mappings?.items?.required?.includes("evidence_span"), true);
+  assert.equal(retrievalFallbackStatus().consecutiveFailures, 0);
+
+  globalThis.fetch = async () => ({
+    ok: true,
+    async json() {
+      return { choices: [{ message: { content: JSON.stringify({
+        understood: true,
+        confidence: "medium",
+        intent: "measures",
+        mappings: [{ kind: "concept", id: "nucleaire", evidence_span: "réacteurs" }],
+        numbers: []
+      }) } }] };
+    }
+  });
+  const cautious = await interpretRetrievalWithModel("Parle-moi de réacteurs", []);
+  assert.equal(cautious.interpretation, null);
+  assert.equal(cautious.error, "fallback_not_confident");
+  assert.equal(retrievalFallbackStatus().consecutiveFailures, 0, "une réponse prudente du modèle ne doit pas ouvrir le circuit breaker");
 } finally {
   globalThis.fetch = previousFetch;
-  if (previousKey === undefined) delete process.env.LLM_API_KEY;
-  else process.env.LLM_API_KEY = previousKey;
+  if (originalKey === undefined) delete process.env.LLM_API_KEY;
+  else process.env.LLM_API_KEY = originalKey;
 }
 
 function assertGroundedSuggestions(question, evidence, history = [], sessionState = {}) {
