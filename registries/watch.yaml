@@ -1,8 +1,6 @@
-version: 2
+version: 3
 enabled: true
 
-# La veille produit des pistes dans research/veille/. Elle ne modifie jamais
-# automatiquement le corpus canonique ni les propositions.
 official_discovery:
   max_sitemaps_per_site: 8
   max_relevant_urls_per_site: 80
@@ -18,8 +16,6 @@ gdelt:
   request_delay_seconds: 1.5
   max_retries: 3
   retry_backoff_seconds: 4
-  # Par défaut, GDELT sert de radar sur une liste de médias reconnus. Une URL
-  # hors liste n'est pas promue automatiquement dans la boîte de réception.
   allow_unlisted_domains: false
   trusted_press_domains:
     - afp.com
@@ -50,33 +46,34 @@ gdelt:
     - 20minutes.fr
 
 google_search_grounding:
-  # Désactivé sur le chemin coût-zéro : les nouveaux projets Gemini 3 nécessitent
-  # actuellement un projet avec billing pour utiliser Google Search Grounding.
-  # La clé Gemini reste utilisée pour l'inférence gratuite et les futurs contrôles
-  # d'extraction/vérification ; la découverte web gratuite repose sur les sites
-  # officiels, RSS/sitemaps, GDELT et les réseaux gratuits.
+  # Désactivé pour préserver le coût zéro sur le projet Gemini actuel.
   enabled: false
   model: gemini-3.5-flash-lite
   max_entities: 60
   max_urls_per_entity: 5
   request_delay_seconds: 0.10
 
-# Bluesky est interrogé via l'AppView public, sans compte, token ni clé API.
-# Un profil n'est considéré officiel que s'il est lié depuis un site officiel
-# déjà suivi par le projet.
+# Promotion automatique vers le corpus canonique, sans file de review humaine.
+# Seules les preuves tier_1 passent ce gate. Deux passes Gemini distinctes sont
+# combinées à des contrôles déterministes (propriétaire, domaine, citation exacte,
+# attribution candidat/parti, contradiction/versioning). Une ambiguïté n'est pas
+# arbitrée : elle reste hors corpus jusqu'à une future preuve plus forte.
+auto_promotion:
+  enabled: true
+  model: gemini-3.5-flash-lite
+  max_sources_per_run: 8
+  max_source_chars: 60000
+  max_claims_per_source: 10
+  request_delay_seconds: 0.25
+
 bluesky:
   enabled: true
   max_posts_per_profile: 20
 
-# YouTube Data API fonctionne dans son quota gratuit. Les chaînes sont d'abord
-# découvertes depuis les sites officiels. La collecte est automatiquement
-# ignorée tant que YOUTUBE_API_KEY n'est pas défini.
 youtube:
   enabled: true
   max_videos_per_channel: 12
 
-# X est découvert depuis les sites officiels et enregistré dans le snapshot des
-# profils, mais aucune timeline X n'est appelée pour conserver un coût nul.
 x:
   enabled: false
   mode: discover_only
