@@ -15,15 +15,21 @@ on:
       - 'scripts/daily_watch.py'
       - 'scripts/gdelt_watch.py'
       - 'scripts/social_watch.py'
+      - 'scripts/prune_social_profiles.py'
       - 'scripts/verify_social.py'
       - 'scripts/auto_promote.py'
       - 'scripts/auto_promote_runner.py'
       - 'scripts/promote_social.py'
+      - 'scripts/repair_promotion_state.py'
+      - 'scripts/update_source_health.py'
       - 'scripts/update_watch_health.py'
       - 'scripts/check_watch_health.py'
       - 'tests/test_auto_promote.py'
       - 'tests/test_auto_promote_runner.py'
+      - 'tests/test_prune_social_profiles.py'
       - 'tests/test_verify_social.py'
+      - 'tests/test_repair_promotion_state.py'
+      - 'tests/test_update_source_health.py'
       - 'tests/test_watch_health.py'
 
 permissions:
@@ -49,6 +55,9 @@ jobs:
 
       - name: Install Python dependencies
         run: pip install -r requirements.txt
+
+      - name: Repair persisted promotion state
+        run: python scripts/repair_promotion_state.py
 
       - name: Probe Gemini without blocking collection
         id: gemini
@@ -93,6 +102,9 @@ jobs:
       - name: Collect official web changes
         run: python scripts/daily_watch.py --no-gdelt
 
+      - name: Update official source health
+        run: python scripts/update_source_health.py
+
       - name: Collect press radar
         run: python scripts/gdelt_watch.py
 
@@ -100,6 +112,9 @@ jobs:
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
         run: python scripts/social_watch.py
+
+      - name: Expire social profiles no longer confirmed by official sites
+        run: python scripts/prune_social_profiles.py --stale-days 7
 
       - name: Verify social profile identities
         env:
@@ -130,9 +145,12 @@ jobs:
             tests/test_daily_watch.py \
             tests/test_gdelt_watch.py \
             tests/test_social_watch.py \
+            tests/test_prune_social_profiles.py \
             tests/test_verify_social.py \
             tests/test_auto_promote.py \
             tests/test_auto_promote_runner.py \
+            tests/test_repair_promotion_state.py \
+            tests/test_update_source_health.py \
             tests/test_watch_health.py
 
       - name: Detect canonical changes

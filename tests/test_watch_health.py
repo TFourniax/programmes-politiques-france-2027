@@ -64,3 +64,23 @@ def test_pending_retries_are_visible_without_stopping_health_updates():
     assert health["status"] == "degraded"
     assert health["pending_work"] == 4
     assert health["promotion_technical_retries_pending"] == 2
+
+
+def test_persistent_official_source_failure_is_exposed_to_deadman():
+    health = build_health(
+        {"last_run_at": "2026-08-11T10:00:00+00:00"},
+        {"sources": {}},
+        {"events": {}},
+        {},
+        True,
+        generated_at="2026-08-11T10:03:00+00:00",
+        source_health={
+            "persistent_failure_count": 1,
+            "persistent_failures": [
+                {"owner": "Parti Test", "url": "https://parti.fr/", "consecutive_failures": 4}
+            ],
+        },
+    )
+    assert health["status"] == "degraded"
+    assert health["persistent_official_source_failures"] == 1
+    assert health["persistent_official_source_failure_details"][0]["owner"] == "Parti Test"
