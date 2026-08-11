@@ -58,6 +58,7 @@ export default function HistoryExplorer() {
     if (!actorId) { setTimeline(null); return; }
     let active = true;
     setLoading(true);
+    setTimeline(null);
     setError("");
     writeSearchParams("history", { history_actor: actorId, history_topic: topicId }, ["candidate", "c", "t", "topic"]);
     fetchHistory({ view: "timeline", entity: actorId, ...(topicId ? { topic: topicId } : {}) }).then((data) => {
