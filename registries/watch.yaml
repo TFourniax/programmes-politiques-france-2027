@@ -1,4 +1,4 @@
-version: 3
+version: 4
 enabled: true
 
 official_discovery:
@@ -53,18 +53,28 @@ google_search_grounding:
   max_urls_per_entity: 5
   request_delay_seconds: 0.10
 
-# Promotion automatique vers le corpus canonique, sans file de review humaine.
-# Seules les preuves tier_1 passent ce gate. Deux passes Gemini distinctes sont
-# combinées à des contrôles déterministes (propriétaire, domaine, citation exacte,
-# attribution candidat/parti, contradiction/versioning). Une ambiguïté n'est pas
-# arbitrée : elle reste hors corpus jusqu'à une future preuve plus forte.
+# Promotion automatique des preuves web/PDF officielles.
+# Quatre sources par run x quatre runs quotidiens permettent de drainer le backlog
+# sans concentrer les appels Gemini ni risquer un timeout du runner.
 auto_promotion:
   enabled: true
   model: gemini-3.5-flash-lite
-  max_sources_per_run: 8
+  max_sources_per_run: 4
   max_source_chars: 60000
-  max_claims_per_source: 10
-  request_delay_seconds: 0.25
+  max_claims_per_source: 8
+  request_delay_seconds: 0.5
+
+# Les publications sociales passent d'abord un contrôle d'identité indépendant.
+# Seules les publications d'un profil effectivement vérifié arrivent ici.
+# Pour une publication sociale, aucune proposition de parti n'est transférée à un
+# candidat (ou inversement) : seule l'entité propriétaire du profil est autorisée.
+social_auto_promotion:
+  enabled: true
+  model: gemini-3.5-flash-lite
+  max_posts_per_run: 4
+  max_source_chars: 4000
+  max_claims_per_source: 5
+  request_delay_seconds: 0.75
 
 bluesky:
   enabled: true
@@ -77,4 +87,4 @@ youtube:
 x:
   enabled: false
   mode: discover_only
-  note: "Activer la lecture X uniquement après définition d'un budget lecture explicite."
+  note: "Les liens X sont découverts mais restent non vérifiés tant qu'aucun contrôle d'identité gratuit fiable n'est disponible."
