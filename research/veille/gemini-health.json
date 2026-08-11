@@ -1,9 +1,10 @@
 {
   "status": "error",
-  "model": "gemini-2.5-flash",
+  "model": "gemini-3.5-flash-lite",
+  "api": "interactions",
   "google_search_grounding": false,
-  "checked_at": "2026-08-11T07:25:23+00:00",
-  "source_commit": "ebe843ad19bf0abd9def27be4a1565af66deb4bf",
-  "http_status": 404,
-  "error": "Gemini API HTTP 404: This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use a newer model for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/migrate-to-interactions)."
+  "checked_at": "2026-08-11T07:26:13+00:00",
+  "source_commit": "faf049f15fa8ba8c73e30738fd872a2c879cb489",
+  "http_status": 429,
+  "error": "Gemini API HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. "
 }
