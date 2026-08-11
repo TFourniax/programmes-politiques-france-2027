@@ -2,6 +2,12 @@ import { NextResponse } from "next/server";
 import { resolveDeterministicContext, retrieveDeterministic } from "../../../lib/retrieval-v2.js";
 import { composeDeterministicAnswer } from "../../../lib/deterministic-answer-v2.js";
 import { candidateEvidence } from "../../../lib/presentation.js";
+import { buildContextualSuggestions } from "../../../lib/contextual-suggestions.js";
+import {
+  buildFallbackRetrievalQuery,
+  interpretRetrievalWithModel,
+  shouldAttemptRetrievalFallback
+} from "../../../lib/retrieval-fallback.js";
 import {
   classifyDeterministicQuestion,
   isTargetedCandidateQuestion,
@@ -68,15 +74,56 @@ function unsupportedAnswer(reason) {
   };
 }
 
-function response(answer, evidence, retrievalDebug) {
+function response(answer, evidence, retrievalDebug, retrievalAssisted = false) {
   return NextResponse.json({
     answer,
     citations: citationsFromEvidence(evidence),
     retrieval: retrievalDebug,
+    retrievalAssisted,
     generated: false,
     providerError: null,
     engine: ENGINE
   });
+}
+
+function limitForMode(mode) {
+  return mode === "comparison" ? 14 : mode === "measures" ? 12 : 10;
+}
+
+function modeFromFallback(interpretation, currentMode) {
+  if (!interpretation) return currentMode;
+  if (interpretation.intent === "candidate_status") return "candidates";
+  if (interpretation.intent === "comparison") return "comparison";
+  if (interpretation.intent === "measures") return "measures";
+  return currentMode;
+}
+
+function runRetrieval(query, mode) {
+  if (mode === "candidates") {
+    const candidates = selectDeterministicCandidates(query);
+    const candidateTargeted = isTargetedCandidateQuestion(query);
+    const scopeProbe = retrieveDeterministic(query,{limit:3});
+    return {
+      evidence: candidates.map(candidateEvidence),
+      candidates,
+      candidateTargeted,
+      debug: {...scopeProbe.debug, mode, directCandidateRecords:candidates.length, query}
+    };
+  }
+  const retrieval = retrieveDeterministic(query,{limit:limitForMode(mode)});
+  return {
+    evidence: retrieval.results,
+    candidates: [],
+    candidateTargeted: false,
+    debug: {...retrieval.debug, mode, query}
+  };
+}
+
+function suggestionsFor(answerQuestion, originalQuestion, evidence, history) {
+  const enrichedHistory = answerQuestion === originalQuestion
+    ? history
+    : [...history, { role: "user", content: originalQuestion }].slice(-6);
+  return buildContextualSuggestions(answerQuestion, evidence, enrichedHistory, { limit: 3 });
 }
 
 export async function POST(request) {
@@ -90,33 +137,71 @@ export async function POST(request) {
   const context = resolveDeterministicContext(question, history);
   let mode = classifyDeterministicQuestion(question);
   if (mode === "overview" && context.inheritedMode) mode = context.inheritedMode;
-  const candidates = mode === "candidates" ? selectDeterministicCandidates(question) : [];
-  const candidateTargeted = mode === "candidates" && isTargetedCandidateQuestion(question);
-  const retrievalQuery = context.query;
+  let retrievalQuery = context.query;
+  let run = runRetrieval(retrievalQuery, mode);
+  run.debug = {...run.debug, conversation:context};
 
-  let evidence = [];
-  let retrievalDebug;
-
-  if (mode === "candidates") {
-    const scopeProbe = retrieveDeterministic(retrievalQuery,{limit:3});
-    retrievalDebug = {...scopeProbe.debug, mode, directCandidateRecords:candidates.length, query:retrievalQuery, conversation:context};
-    if (String(scopeProbe.debug.reason || "").startsWith("unsupported_")) return response(unsupportedAnswer(scopeProbe.debug.reason), [], retrievalDebug);
-    if (!scopeProbe.debug.answerable && candidateTargeted) return response(noDataAnswer(question, scopeProbe.debug.requestedEntities || []), [], retrievalDebug);
-    evidence = candidates.map(candidateEvidence);
-  } else {
-    const limit = mode === "comparison" ? 14 : mode === "measures" ? 12 : 10;
-    const retrieval = retrieveDeterministic(retrievalQuery,{limit});
-    evidence = retrieval.results;
-    retrievalDebug = {...retrieval.debug, mode, query:retrievalQuery, conversation:context};
-    if (String(retrieval.debug.reason || "").startsWith("unsupported_")) return response(unsupportedAnswer(retrieval.debug.reason), [], retrievalDebug);
-    if (!evidence.length) return response(noDataAnswer(question, retrieval.debug.requestedEntities || []), [], retrievalDebug);
+  if (String(run.debug.reason || "").startsWith("unsupported_")) {
+    const answer = unsupportedAnswer(run.debug.reason);
+    answer.followUps = suggestionsFor(question, question, [], history);
+    return response(answer, [], run.debug, false);
   }
 
-  const answer = composeDeterministicAnswer(question,evidence,{
+  let retrievalAssisted = false;
+  let fallbackDebug = null;
+  const noUsableEvidence = !run.evidence.length || (run.candidateTargeted && !run.debug.answerable);
+
+  if (noUsableEvidence && shouldAttemptRetrievalFallback(run.debug)) {
+    const fallback = await interpretRetrievalWithModel(question, history);
+    fallbackDebug = {
+      attempted: fallback.attempted,
+      accepted: Boolean(fallback.interpretation && fallback.query),
+      model: fallback.model || null,
+      error: fallback.error || null,
+      intent: fallback.interpretation?.intent || null,
+      entityIds: fallback.interpretation?.entityIds || [],
+      conceptIds: fallback.interpretation?.conceptIds || []
+    };
+
+    if (fallback.interpretation && fallback.query) {
+      const safeQuery = buildFallbackRetrievalQuery(fallback.interpretation);
+      const fallbackMode = modeFromFallback(fallback.interpretation, mode);
+      const fallbackRun = runRetrieval(safeQuery, fallbackMode);
+      if (fallbackRun.evidence.length && fallbackRun.debug.answerable) {
+        retrievalAssisted = true;
+        retrievalQuery = safeQuery;
+        mode = fallbackMode;
+        run = fallbackRun;
+      }
+    }
+  }
+
+  run.debug = {
+    ...run.debug,
+    query: retrievalQuery,
+    conversation: context,
+    semanticFallback: fallbackDebug
+  };
+
+  if (String(run.debug.reason || "").startsWith("unsupported_")) {
+    const answer = unsupportedAnswer(run.debug.reason);
+    answer.followUps = suggestionsFor(retrievalQuery, question, [], history);
+    return response(answer, [], run.debug, retrievalAssisted);
+  }
+
+  if (!run.evidence.length || (run.candidateTargeted && !run.debug.answerable)) {
+    const answer = noDataAnswer(question, run.debug.requestedEntities || []);
+    answer.followUps = suggestionsFor(retrievalQuery, question, [], history);
+    return response(answer, [], run.debug, retrievalAssisted);
+  }
+
+  const answerQuestion = retrievalAssisted ? retrievalQuery : question;
+  const answer = composeDeterministicAnswer(answerQuestion,run.evidence,{
     mode,
-    candidates,
-    requestedEntities:retrievalDebug.requestedEntities || [],
-    candidateTargeted
+    candidates:run.candidates,
+    requestedEntities:run.debug.requestedEntities || [],
+    candidateTargeted:run.candidateTargeted
   });
-  return response(answer, evidence, retrievalDebug);
+  answer.followUps = suggestionsFor(answerQuestion, question, run.evidence, history);
+  return response(answer, run.evidence, run.debug, retrievalAssisted);
 }
