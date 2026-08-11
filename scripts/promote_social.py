@@ -38,10 +38,11 @@ def event_key(event: dict[str, Any]) -> str:
 def load_state() -> dict[str, Any]:
     path = ROOT / "research" / "veille" / "social-promotion-state.json"
     if not path.exists():
-        return {"version": 1, "events": {}}
+        return {"version": 2, "events": {}}
     data = json.loads(path.read_text(encoding="utf-8"))
     if not isinstance(data, dict):
         raise SystemExit("Invalid social promotion state")
+    data["version"] = max(int(data.get("version", 1)), 2)
     data.setdefault("events", {})
     return data
 
@@ -83,6 +84,7 @@ def source_from_event(event: dict[str, Any], max_chars: int) -> dict[str, Any]:
         "title": auto_promote.compact(event.get("title")) or f"Publication {event.get('platform')}",
         "kind": "social",
         "text": text,
+        "text_truncated": False,
         "sha256": hashlib.sha256(text.encode("utf-8")).hexdigest(),
     }
 
@@ -135,6 +137,7 @@ def write_report(results: list[dict[str, Any]], errors: list[dict[str, Any]]) ->
         "generated_at": iso_now(),
         "processed": len(results),
         "promoted": sum(x.get("status") == "promoted" for x in results),
+        "partial": sum(x.get("status") == "partial" for x in results),
         "proposals_created": sum(len(x.get("proposals") or []) for x in results),
         "status_updates": sum(len(x.get("status_updates") or []) for x in results),
         "errors": errors,
@@ -145,10 +148,11 @@ def write_report(results: list[dict[str, Any]], errors: list[dict[str, Any]]) ->
         f"# Promotion sociale automatique — {day()}\n\n"
         f"- {payload['processed']} publication(s) traitée(s)\n"
         f"- {payload['promoted']} publication(s) promue(s)\n"
+        f"- {payload['partial']} publication(s) partiellement traitée(s)\n"
         f"- {payload['proposals_created']} proposition(s) créée(s)\n"
         f"- {payload['status_updates']} statut(s) mis à jour\n"
         f"- {len(errors)} erreur(s) technique(s)\n\n"
-        "Seules les identités sociales vérifiées et les affirmations confirmées par les deux gates peuvent modifier le canon.\n",
+        "Seules les identités sociales vérifiées et les affirmations confirmées par les deux gates peuvent modifier le canon. Les erreurs techniques restent dans une file de retry durable.\n",
         encoding="utf-8",
     )
 
@@ -170,9 +174,9 @@ def main() -> None:
     for event in load_events():
         key = event_key(event)
         previous = state["events"].get(key) or {}
-        if previous.get("status") in {"promoted", "no_canonical_data", "not_confirmed", "deferred"}:
+        if previous.get("status") in auto_promote.TERMINAL_SOURCE_STATES:
             continue
-        if previous.get("status") == "technical_error" and int(previous.get("attempts", 0)) >= 3:
+        if not auto_promote.retry_due(previous):
             continue
         pending.append(event)
     pending.sort(key=lambda x: str(x.get("published_at") or x.get("observed_at") or ""), reverse=True)
@@ -192,15 +196,18 @@ def main() -> None:
             state["events"][key] = {
                 "url": event["url"], "status": result["status"],
                 "processed_at": iso_now(), "source_sha256": result.get("sha256"),
+                "chunks_done": result.get("chunks_done"), "chunks_total": result.get("chunks_total"),
             }
         except Exception as exc:
             previous = state["events"].get(key) or {}
+            attempts = int(previous.get("attempts", 0)) + 1
             error = {"url": event.get("url"), "error": f"{type(exc).__name__}: {exc}", "at": iso_now()}
             errors.append(error)
+            next_retry = datetime.now(timezone.utc) + auto_promote.retry_delay(attempts)
             state["events"][key] = {
                 "url": event.get("url"), "status": "technical_error",
                 "processed_at": iso_now(), "error": error["error"],
-                "attempts": int(previous.get("attempts", 0)) + 1,
+                "attempts": attempts, "next_retry_at": next_retry.replace(microsecond=0).isoformat(),
             }
         time.sleep(float(config.get("request_delay_seconds", 0.5)))
 

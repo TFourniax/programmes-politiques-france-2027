@@ -146,14 +146,34 @@ def strict_gemini(api_key: str, prompt: str, model: str) -> dict[str, Any]:
     raise RuntimeError(last)
 
 
+def _year(value: Any) -> int | None:
+    match = re.match(r"^(\d{4})", str(value or "").strip())
+    return int(match.group(1)) if match else None
+
+
+def current_cycle_event(event: dict[str, Any]) -> bool:
+    """A dated pre-2025 discovery is research-only unless its own URL/title explicitly targets 2027."""
+    url = str(event.get("url") or "")
+    title = str(event.get("title") or "")
+    if auto_promote.explicit_old_election(f"{url} {title}"):
+        return False
+    published_year = _year(event.get("published_at"))
+    explicit_2027 = "2027" in auto_promote.fold(f"{url} {title}")
+    if published_year is not None and published_year <= 2024 and not explicit_2027:
+        return False
+    return True
+
+
 def backlog_candidate(url: str, metadata: dict[str, Any]) -> bool:
-    """Keep recent URLs and obviously programmatic URLs; avoid draining ancient sitemap noise."""
+    """Keep current/recent programme URLs while filtering old-election and pre-cycle archives."""
+    event = {"url": url, "published_at": metadata.get("lastmod") or metadata.get("published_at")}
+    if not current_cycle_event(event):
+        return False
     haystack = auto_promote.fold(url)
     if any(auto_promote.fold(hint) in haystack for hint in BACKLOG_HINTS):
         return True
-    lastmod = str(metadata.get("lastmod") or "")
-    match = re.match(r"^(\d{4})", lastmod)
-    return bool(match and int(match.group(1)) >= 2025)
+    year = _year(metadata.get("lastmod") or metadata.get("published_at"))
+    return bool(year and year >= 2025)
 
 
 def state_backlog_events(state_path: Path | None = None) -> list[dict[str, Any]]:
@@ -174,7 +194,7 @@ def state_backlog_events(state_path: Path | None = None) -> list[dict[str, Any]]
         if not backlog_candidate(str(url), metadata):
             continue
         observed = str(metadata.get("first_seen_at") or state.get("last_run_at") or "")
-        lastmod = str(metadata.get("lastmod") or "") or None
+        lastmod = str(metadata.get("lastmod") or metadata.get("published_at") or "") or None
         out.append({
             "event_type": "official_new_url",
             "observed_at": observed,
@@ -191,8 +211,8 @@ def state_backlog_events(state_path: Path | None = None) -> list[dict[str, Any]]
 
 
 def durable_load_events() -> list[dict[str, Any]]:
-    """Merge transient daily events with the durable sitemap state, deduplicated by URL/version."""
-    events = list(ORIGINAL_LOAD_EVENTS())
+    """Merge transient daily events with durable state and discard known pre-cycle material."""
+    events = [item for item in ORIGINAL_LOAD_EVENTS() if current_cycle_event(item)]
     existing = {
         (str(item.get("url") or ""), str(item.get("sha256") or item.get("published_at") or item.get("observed_at") or ""))
         for item in events
@@ -208,12 +228,23 @@ def durable_load_events() -> list[dict[str, Any]]:
     return events
 
 
+def safe_fetch_source(session, url: str, max_chars: int):
+    source = ORIGINAL_FETCH_SOURCE(session, url, max_chars)
+    if source.get("text_truncated"):
+        raise ValueError(
+            "source exceeds configured safe extraction limit; refusing partial canonical promotion"
+        )
+    return source
+
+
 ORIGINAL_LOAD_EVENTS = auto_promote.load_events
+ORIGINAL_FETCH_SOURCE = auto_promote.fetch_source
 
 
 def main() -> None:
     auto_promote.gemini = strict_gemini
     auto_promote.load_events = durable_load_events
+    auto_promote.fetch_source = safe_fetch_source
     auto_promote.main()
 
 
