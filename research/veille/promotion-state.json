@@ -58,8 +58,27 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-08-11T14:42:52+00:00",
+  "last_run_at": "2026-08-11T20:16:21+00:00",
   "source_chunks": {
+    "1545b5d7674f7c79cc29970b": {
+      "claims": [],
+      "created_at": "2026-08-11T20:16:09+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "868cf26b53a46210f449b0dfe2b0a7c0e9a41d5ae90eabe04b9a74902fe40fc7",
+      "source_title": "Programme législatives 2022 : International - Parti Équinoxe",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-11T20:16:11+00:00",
+      "url": "https://parti-equinoxe.fr/legislatives-2022-programme-international/"
+    },
     "170a10d674b56149b768f432": {
       "claims": [
         {
@@ -296,6 +315,44 @@
       "updated_at": "2026-08-11T12:15:04+00:00",
       "url": "https://bsky.app/profile/marinetondelier.fr/post/3mssha7jd2s2c"
     },
+    "e6391a0acf8117008f943be3": {
+      "claims": [],
+      "created_at": "2026-08-11T20:16:18+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "f08f9b0a10ac4442bd16740cfb7849a8a3d2775bcdb644879452b9e1fded1212",
+      "source_title": "Programme législatives 2022 : Technique - Parti Équinoxe",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-11T20:16:20+00:00",
+      "url": "https://parti-equinoxe.fr/legislatives-2022-programme-technique/"
+    },
+    "f9e3c21d27e0c5489e4a4cf9": {
+      "claims": [],
+      "created_at": "2026-08-11T20:16:14+00:00",
+      "document_types": [
+        "party_programme"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "b0fd97396283f4d2fd3107ef546112014883597953a58d20fdc6a25e573200f3",
+      "source_title": "Programme législatives 2022 : Social - Parti Équinoxe",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-11T20:16:16+00:00",
+      "url": "https://parti-equinoxe.fr/legislatives-2022-programme-social/"
+    },
     "fc1ee1bf2c827e5f9aabb527": {
       "claims": [],
       "created_at": "2026-08-11T14:42:49+00:00",
@@ -372,6 +429,15 @@
       "status": "promoted",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
+    "b133a28d8f9c": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-11T20:16:11+00:00",
+      "reason": null,
+      "source_sha256": "868cf26b53a46210f449b0dfe2b0a7c0e9a41d5ae90eabe04b9a74902fe40fc7",
+      "status": "not_confirmed",
+      "url": "https://parti-equinoxe.fr/legislatives-2022-programme-international/"
+    },
     "b7d424251e5b": {
       "processed_at": "2026-08-11T08:55:55+00:00",
       "reason": null,
@@ -427,6 +493,15 @@
       "status": "no_canonical_data",
       "url": "http://lesecologistes.fr/forms/6P5URUdvFPSAmDwnWlQcCh/formation-donner-du-souffle-a-notre-programme-du-catalogue-de-mesures-au-recit-mobilisateur"
     },
+    "e53543cb01a0": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-11T20:16:20+00:00",
+      "reason": null,
+      "source_sha256": "f08f9b0a10ac4442bd16740cfb7849a8a3d2775bcdb644879452b9e1fded1212",
+      "status": "not_confirmed",
+      "url": "https://parti-equinoxe.fr/legislatives-2022-programme-technique/"
+    },
     "e83a497d7276": {
       "chunks_done": null,
       "chunks_total": null,
@@ -443,6 +518,15 @@
       "processed_at": "2026-08-11T12:14:59+00:00",
       "status": "technical_error",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
+    "efe3cc1f101e": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-11T20:16:16+00:00",
+      "reason": null,
+      "source_sha256": "b0fd97396283f4d2fd3107ef546112014883597953a58d20fdc6a25e573200f3",
+      "status": "not_confirmed",
+      "url": "https://parti-equinoxe.fr/legislatives-2022-programme-social/"
     },
     "f3bbbb615f8e": {
       "chunks_done": null,
