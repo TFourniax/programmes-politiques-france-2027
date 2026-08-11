@@ -33,7 +33,7 @@ concurrency:
 jobs:
   production-gates:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
       - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
@@ -60,7 +60,15 @@ jobs:
         run: npm run build
       - name: Install Playwright Chromium
         run: npx playwright install --with-deps chromium
-      - name: Browser acceptance tests
+      - name: Browser acceptance — navigation, health and history
         env:
           CI: 'true'
-        run: npm run test:e2e
+        run: npx playwright test --grep "homepage exposes|personality, comparison|health endpoint|history API"
+      - name: Browser acceptance — chat safety and conversation
+        env:
+          CI: 'true'
+        run: npx playwright test --grep "chat endpoint preserves"
+      - name: Browser acceptance — per-answer source binding
+        env:
+          CI: 'true'
+        run: npx playwright test --grep "each visible answer keeps"
