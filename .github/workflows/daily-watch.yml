@@ -1,8 +1,8 @@
-name: Daily political watch
+name: Continuous political watch
 
 on:
   schedule:
-    - cron: '17 5 * * *'
+    - cron: '17 1,7,13,19 * * *'
   workflow_dispatch:
   push:
     branches: [main]
@@ -15,18 +15,20 @@ on:
       - 'scripts/daily_watch.py'
       - 'scripts/gdelt_watch.py'
       - 'scripts/social_watch.py'
+      - 'scripts/auto_promote.py'
+      - 'tests/test_auto_promote.py'
 
 permissions:
   contents: write
 
 concurrency:
-  group: daily-political-watch
+  group: continuous-political-watch
   cancel-in-progress: false
 
 jobs:
   watch:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 40
     steps:
       - uses: actions/checkout@v4
         with:
@@ -37,10 +39,18 @@ jobs:
           python-version: '3.12'
           cache: pip
 
-      - run: pip install -r requirements.txt
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      - name: Install Node dependencies
+        run: npm ci
 
       - name: Verify Gemini free inference
-        if: github.event_name == 'push'
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         shell: bash
@@ -54,7 +64,6 @@ jobs:
           key = os.environ.get("GEMINI_API_KEY", "").strip()
           if not key:
               raise SystemExit("GEMINI_API_KEY is missing from GitHub Actions secrets")
-
           request = urllib.request.Request(
               "https://generativelanguage.googleapis.com/v1beta/interactions",
               data=json.dumps({
@@ -62,10 +71,7 @@ jobs:
                   "input": "Réponds uniquement par OK.",
                   "store": False,
               }).encode("utf-8"),
-              headers={
-                  "Content-Type": "application/json",
-                  "x-goog-api-key": key,
-              },
+              headers={"Content-Type": "application/json", "x-goog-api-key": key},
               method="POST",
           )
           try:
@@ -82,31 +88,44 @@ jobs:
           print("Gemini API key and free inference validated successfully.")
           PY
 
-      - name: Run official web watch
-        env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      - name: Collect official web changes
         run: python scripts/daily_watch.py --no-gdelt
 
-      - name: Run batched GDELT press radar
+      - name: Collect press radar
         run: python scripts/gdelt_watch.py
 
-      - name: Run official social watch
+      - name: Collect official social changes
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
         run: python scripts/social_watch.py
 
-      - name: Validate watch code
-        run: pytest -q tests/test_daily_watch.py tests/test_gdelt_watch.py tests/test_social_watch.py
+      - name: Promote strictly verified official evidence
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python scripts/auto_promote.py
 
-      - name: Commit watch inbox
+      - name: Run Python validation and watch tests
+        run: |
+          python scripts/validate.py
+          pytest -q tests/test_daily_watch.py tests/test_gdelt_watch.py tests/test_social_watch.py tests/test_auto_promote.py
+
+      - name: Run retrieval regression tests
+        run: npm run test:retrieval
+
+      - name: Build production application
+        env:
+          LLM_API_KEY: build-only-placeholder
+        run: npm run build
+
+      - name: Commit verified watch and canonical updates
         shell: bash
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add research/veille
+          git add research/veille data/entities.json registries/candidates.yaml corpus/2027 proposals
           if git diff --cached --quiet; then
-            echo "No watch output changes to commit."
+            echo "No verified changes to commit."
             exit 0
           fi
-          git commit -m "veille: snapshot $(date -u +%F)"
+          git commit -m "veille: mise à jour vérifiée $(date -u +%F)"
           git push
