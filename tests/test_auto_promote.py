@@ -1,4 +1,9 @@
-from scripts.auto_promote import priority, quote_ok, resolve_owner, same_host, sanitize
+from pathlib import Path
+import sys
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
+
+from auto_promote import priority, quote_ok, resolve_owner, same_host, sanitize  # noqa: E402
 
 
 def test_quote_requires_exact_short_span():
