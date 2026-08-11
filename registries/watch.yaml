@@ -1,4 +1,4 @@
-version: 4
+version: 5
 enabled: true
 
 official_discovery:
@@ -53,15 +53,18 @@ google_search_grounding:
   max_urls_per_entity: 5
   request_delay_seconds: 0.10
 
-# Promotion automatique des preuves web/PDF officielles.
-# Quatre sources par run x quatre runs quotidiens permettent de drainer le backlog
-# sans concentrer les appels Gemini ni risquer un timeout du runner.
+# Promotion automatique web/PDF : le document complet est drainé par chunks persistants.
+# Une source n'est finalisée qu'une fois tous les chunks traités. Les archives explicitement
+# rattachées à d'anciennes élections restent hors du canon courant 2027.
 auto_promotion:
   enabled: true
   model: gemini-3.5-flash-lite
-  max_sources_per_run: 4
-  max_source_chars: 60000
-  max_claims_per_source: 8
+  max_sources_per_run: 3
+  max_source_chars: 4000000
+  chunk_chars: 18000
+  chunk_overlap_chars: 700
+  max_chunks_per_source_per_run: 2
+  max_claims_per_chunk: 8
   request_delay_seconds: 0.5
 
 # Les publications sociales passent d'abord un contrôle d'identité indépendant.
@@ -73,7 +76,7 @@ social_auto_promotion:
   model: gemini-3.5-flash-lite
   max_posts_per_run: 4
   max_source_chars: 4000
-  max_claims_per_source: 5
+  max_claims_per_chunk: 5
   request_delay_seconds: 0.75
 
 bluesky:
