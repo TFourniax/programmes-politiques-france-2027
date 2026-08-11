@@ -13,13 +13,15 @@ const interpretation = sanitizeRetrievalInterpretation({
   intent: "measures",
   entity_ids: ["renaissance", "entite-inventee"],
   concept_ids: ["nucleaire", "concept-invente"],
-  numbers: ["14", "999"]
+  numbers: ["14", "999"],
+  evidence_spans: ["Renaissance", "14 nouveaux réacteurs"]
 }, "Que prévoit Renaissance pour ses 14 nouveaux réacteurs ?");
 
-assert.ok(interpretation, "une interprétation high-confidence valide doit être conservée");
+assert.ok(interpretation, "une interprétation high-confidence valide et textuellement ancrée doit être conservée");
 assert.deepEqual(interpretation.entityIds, ["renaissance"], "les entités hors catalogue doivent être supprimées");
 assert.deepEqual(interpretation.conceptIds, ["nucleaire"], "les concepts hors catalogue doivent être supprimés");
 assert.deepEqual(interpretation.numbers, ["14"], "le mini-LLM ne doit jamais injecter un nombre absent de la question");
+assert.deepEqual(interpretation.evidenceSpans, ["Renaissance", "14 nouveaux réacteurs"]);
 const rewritten = buildFallbackRetrievalQuery(interpretation);
 assert.match(normalize(rewritten), /renaissance/);
 assert.match(normalize(rewritten), /nucleaire/);
@@ -28,11 +30,22 @@ assert.doesNotMatch(normalize(rewritten), /999|invente/);
 
 assert.equal(sanitizeRetrievalInterpretation({
   understood: true,
+  confidence: "high",
+  intent: "measures",
+  entity_ids: ["renaissance"],
+  concept_ids: ["nucleaire"],
+  numbers: [],
+  evidence_spans: ["fragment inventé par le modèle"]
+}, "Parle-moi de l'atome"), null, "une interprétation sans trace exacte dans la question doit être rejetée");
+
+assert.equal(sanitizeRetrievalInterpretation({
+  understood: true,
   confidence: "medium",
   intent: "measures",
   entity_ids: ["renaissance"],
   concept_ids: ["nucleaire"],
-  numbers: []
+  numbers: [],
+  evidence_spans: ["l'atome"]
 }, "Parle-moi de l'atome"), null, "une interprétation non high-confidence ne doit pas piloter le retrieval");
 assert.equal(shouldAttemptRetrievalFallback({ reason: "insufficient_relevance" }), true);
 assert.equal(shouldAttemptRetrievalFallback({ reason: "unsupported_subjective_ranking" }), false);
@@ -54,7 +67,7 @@ function assertGroundedSuggestions(question, evidence, history = []) {
 const retirement = retrieveDeterministic("Que propose le corpus sur les retraites ?", { limit: 10 });
 assert.ok(retirement.results.length, "le corpus doit exposer des éléments sur les retraites");
 const retirementSuggestions = assertGroundedSuggestions("Que propose le corpus sur les retraites ?", retirement.results);
-assert.ok(retirementSuggestions.some((item) => /retraite|pension/i.test(item)), "au moins une suggestion doit prolonger le thème courant");
+assert.ok(retirementSuggestions.slice(0, 2).every((item) => /retraite|pension/i.test(item)), "les premières suggestions doivent rester sur le thème courant avant d'élargir");
 
 const nuclear = retrieveDeterministic("Que propose Renaissance sur le nucléaire ?", { limit: 10 });
 assert.ok(nuclear.results.length, "Renaissance doit avoir des éléments documentés sur le nucléaire dans le snapshot de test");
@@ -64,6 +77,7 @@ const nuclearSuggestions = assertGroundedSuggestions(
   [{ role: "user", content: "Quelles sont les mesures documentées sur les retraites ?" }]
 );
 assert.ok(!nuclearSuggestions.some((item) => normalize(item) === normalize("Que propose Renaissance sur le nucléaire ?")));
+assert.ok(/nucleaire/i.test(normalize(nuclearSuggestions[0])), "la première suggestion doit prolonger le thème courant plutôt qu'un ancien thème de session");
 
 const rankingSuggestions = assertGroundedSuggestions("Quel est le meilleur programme sur le pouvoir d'achat ?", []);
 assert.ok(rankingSuggestions.some((item) => /pouvoir d.achat|salaire|smic/i.test(item)), "un refus de classement doit quand même ouvrir vers des questions factuelles du même thème");
