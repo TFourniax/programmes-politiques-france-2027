@@ -16,14 +16,10 @@ EXTRACTION_SCHEMA: dict[str, Any] = {
     "type": "object",
     "properties": {
         "source_title": {"type": ["string", "null"]},
-        "document_type": {
-            "type": "string",
-            "enum": sorted(auto_promote.DOC_TYPES),
-        },
+        "document_type": {"type": "string", "enum": sorted(auto_promote.DOC_TYPES)},
         "published_at": {"type": ["string", "null"]},
         "claims": {
-            "type": "array",
-            "maxItems": 10,
+            "type": "array", "maxItems": 10,
             "items": {
                 "type": "object",
                 "properties": {
@@ -35,10 +31,7 @@ EXTRACTION_SCHEMA: dict[str, Any] = {
                     "certainty": {"type": "string", "enum": sorted(auto_promote.CERTAINTIES)},
                     "relevance": {"type": "string", "enum": ["direct", "party_platform", "unclear"]},
                 },
-                "required": [
-                    "actor_id", "actor_type", "topic", "statement",
-                    "evidence_quote", "certainty", "relevance",
-                ],
+                "required": ["actor_id", "actor_type", "topic", "statement", "evidence_quote", "certainty", "relevance"],
                 "additionalProperties": False,
             },
         },
@@ -72,10 +65,7 @@ VERIFICATION_SCHEMA: dict[str, Any] = {
                 "properties": {
                     "index": {"type": "integer", "minimum": 0},
                     "verdict": {"type": "string", "enum": ["CONFIRMED", "REJECTED", "AMBIGUOUS"]},
-                    "relation": {
-                        "type": "string",
-                        "enum": ["NEW", "DUPLICATE", "SUPERSEDES", "CONTRADICTS", "AMBIGUOUS"],
-                    },
+                    "relation": {"type": "string", "enum": ["NEW", "DUPLICATE", "SUPERSEDES", "CONTRADICTS", "AMBIGUOUS"]},
                     "related_proposal_id": {"type": ["string", "null"]},
                     "reason": {"type": "string"},
                 },
@@ -90,12 +80,15 @@ VERIFICATION_SCHEMA: dict[str, Any] = {
 
 BACKLOG_HINTS = (
     "2027", "president", "président", "programme", "projet", "proposition",
-    "question", "mesure", "retraite", "immigration", "fiscal", "impot",
-    "impôt", "securite", "sécurité", "justice", "ecologie", "écologie",
-    "energie", "énergie", "education", "éducation", "sante", "santé",
-    "europe", "emploi", "travail", "logement", "institution", "democratie",
-    "démocratie", "budget", "economie", "économie",
+    "question", "mesure", "retraite", "immigration", "fiscal", "impot", "impôt",
+    "securite", "sécurité", "justice", "ecologie", "écologie", "energie", "énergie",
+    "education", "éducation", "sante", "santé", "europe", "emploi", "travail", "logement",
+    "institution", "democratie", "démocratie", "budget", "economie", "économie",
 )
+MONTHS_FR = {
+    1: "janvier", 2: "fevrier", 3: "mars", 4: "avril", 5: "mai", 6: "juin",
+    7: "juillet", 8: "aout", 9: "septembre", 10: "octobre", 11: "novembre", 12: "decembre",
+}
 
 
 def schema_for_prompt(prompt: str) -> dict[str, Any]:
@@ -109,15 +102,8 @@ def strict_gemini(api_key: str, prompt: str, model: str) -> dict[str, Any]:
         "model": model,
         "input": prompt,
         "store": False,
-        "generation_config": {
-            "thinking_level": "low",
-            "thinking_summaries": "none",
-        },
-        "response_format": {
-            "type": "text",
-            "mime_type": "application/json",
-            "schema": schema_for_prompt(prompt),
-        },
+        "generation_config": {"thinking_level": "low", "thinking_summaries": "none"},
+        "response_format": {"type": "text", "mime_type": "application/json", "schema": schema_for_prompt(prompt)},
     }
     last = "unknown error"
     for attempt in range(3):
@@ -144,6 +130,38 @@ def strict_gemini(api_key: str, prompt: str, model: str) -> dict[str, Any]:
             break
         time.sleep(2 ** (attempt + 1))
     raise RuntimeError(last)
+
+
+def date_supported_by_source(value: Any, text: str) -> bool:
+    """A model-proposed date is evidence only if the source text itself contains that date."""
+    parsed = auto_promote.parse_day(value)
+    if not parsed:
+        return False
+    folded = auto_promote.fold(text)
+    day = parsed.day
+    month = MONTHS_FR[parsed.month]
+    year = parsed.year
+    candidates = {
+        parsed.isoformat(),
+        f"{day:02d}/{parsed.month:02d}/{year}",
+        f"{day}/{parsed.month}/{year}",
+        f"{day:02d}.{parsed.month:02d}.{year}",
+        f"{day}.{parsed.month}.{year}",
+        f"{day} {month} {year}",
+        f"{day}er {month} {year}" if day == 1 else "",
+    }
+    return any(candidate and auto_promote.fold(candidate) in folded for candidate in candidates)
+
+
+def strict_sanitize(raw: dict[str, Any], text: str, allowed: list[dict[str, str]], max_claims: int):
+    claims, statuses, doc_type, published = ORIGINAL_SANITIZE(raw, text, allowed, max_claims)
+    if published and not date_supported_by_source(published, text):
+        published = None
+    statuses = [
+        item for item in statuses
+        if item.get("effective_date") and date_supported_by_source(item.get("effective_date"), text)
+    ]
+    return claims, statuses, doc_type, published
 
 
 def _year(value: Any) -> int | None:
@@ -231,20 +249,20 @@ def durable_load_events() -> list[dict[str, Any]]:
 def safe_fetch_source(session, url: str, max_chars: int):
     source = ORIGINAL_FETCH_SOURCE(session, url, max_chars)
     if source.get("text_truncated"):
-        raise ValueError(
-            "source exceeds configured safe extraction limit; refusing partial canonical promotion"
-        )
+        raise ValueError("source exceeds configured safe extraction limit; refusing partial canonical promotion")
     return source
 
 
 ORIGINAL_LOAD_EVENTS = auto_promote.load_events
 ORIGINAL_FETCH_SOURCE = auto_promote.fetch_source
+ORIGINAL_SANITIZE = auto_promote.sanitize
 
 
 def main() -> None:
     auto_promote.gemini = strict_gemini
     auto_promote.load_events = durable_load_events
     auto_promote.fetch_source = safe_fetch_source
+    auto_promote.sanitize = strict_sanitize
     auto_promote.main()
 
 
