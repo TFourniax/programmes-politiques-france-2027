@@ -34,9 +34,10 @@ jobs:
           import urllib.parse
           import urllib.request
 
+          model = "gemini-2.5-flash"
           result = {
               "status": "error",
-              "model": "gemini-2.5-flash-lite",
+              "model": model,
               "google_search_grounding": False,
               "checked_at": datetime.now(timezone.utc).replace(microsecond=0).isoformat(),
               "source_commit": os.environ.get("GITHUB_SHA", ""),
@@ -46,7 +47,7 @@ jobs:
           if not key:
               result["error"] = "GEMINI_API_KEY is missing from GitHub Actions secrets"
           else:
-              endpoint = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent"
+              endpoint = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
               url = endpoint + "?" + urllib.parse.urlencode({"key": key})
               payload = json.dumps({
                   "contents": [{"parts": [{"text": "Utilise Google Search pour vérifier l'existence du site officiel de l'Assemblée nationale française. Réponds en une phrase."}]}],
