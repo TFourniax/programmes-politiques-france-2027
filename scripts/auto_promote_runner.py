@@ -147,7 +147,9 @@ def strict_gemini(api_key: str, prompt: str, model: str) -> dict[str, Any]:
 
 
 def backlog_candidate(url: str, metadata: dict[str, Any]) -> bool:
-    """Keep recent URLs and obviously programmatic URLs; avoid draining ancient sitemap noise."""
+    """Keep current/recent programme URLs while filtering explicit old-election archives."""
+    if auto_promote.explicit_old_election(url):
+        return False
     haystack = auto_promote.fold(url)
     if any(auto_promote.fold(hint) in haystack for hint in BACKLOG_HINTS):
         return True
