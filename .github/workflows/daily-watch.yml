@@ -28,7 +28,7 @@ permissions:
 
 concurrency:
   group: continuous-political-watch
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   watch:
