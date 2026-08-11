@@ -4,7 +4,6 @@ from __future__ import annotations
 import argparse
 import json
 from datetime import datetime, timezone
-from pathlib import Path
 
 from common import ROOT
 
@@ -43,13 +42,25 @@ def main() -> None:
         if outage_hours > args.max_gemini_outage_hours:
             failures.append(f"Gemini promotion has been unavailable for {outage_hours:.1f}h")
 
+    persistent = int(health.get("persistent_official_source_failures") or 0)
+    if persistent:
+        owners = [
+            str(row.get("owner") or row.get("url") or "source inconnue")
+            for row in (health.get("persistent_official_source_failure_details") or [])[:5]
+        ]
+        failures.append(
+            f"{persistent} official source(s) failed for multiple consecutive runs"
+            + (f" ({', '.join(owners)})" if owners else "")
+        )
+
     if failures:
         raise SystemExit("WATCH_HEALTH_FAILURE: " + "; ".join(failures))
 
     print(
         "WATCH_HEALTH_OK: "
         f"collection_age={age_hours:.1f}h, status={health.get('status')}, "
-        f"pending={health.get('pending_work', 0)}, gemini={health.get('gemini_available')}"
+        f"pending={health.get('pending_work', 0)}, "
+        f"persistent_sources={persistent}, gemini={health.get('gemini_available')}"
     )
 
 
