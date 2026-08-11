@@ -2,11 +2,16 @@ import { NextResponse } from "next/server";
 import { resolveDeterministicContext, retrieveDeterministic } from "../../../lib/retrieval-v2.js";
 import { composeDeterministicAnswer } from "../../../lib/deterministic-answer-v2.js";
 import { candidateEvidence } from "../../../lib/presentation.js";
-import { buildContextualSuggestions } from "../../../lib/contextual-suggestions.js";
+import {
+  buildContextualSuggestions,
+  buildSuggestionSessionState,
+  sanitizeSuggestionSessionState
+} from "../../../lib/contextual-suggestions.js";
 import {
   buildFallbackRetrievalQuery,
   interpretRetrievalWithModel,
-  shouldAttemptRetrievalFallback
+  shouldAttemptRetrievalFallback,
+  withInheritedFallbackContext
 } from "../../../lib/retrieval-fallback.js";
 import {
   classifyDeterministicQuestion,
@@ -19,13 +24,31 @@ export const dynamic = "force-dynamic";
 
 const ENGINE = "deterministic-bm25-ontology-v4";
 const windows = new Map();
-function limited(request) {
-  const ip = request.headers.get("x-forwarded-for")?.split(",")[0]?.trim() || "local";
+const fallbackWindows = new Map();
+
+function clientKey(request) {
+  return request.headers.get("x-nf-client-connection-ip")
+    || request.headers.get("x-forwarded-for")?.split(",")[0]?.trim()
+    || "local";
+}
+
+function windowLimited(store, key, limit, durationMs) {
   const now = Date.now();
-  const current = windows.get(ip);
-  if (!current || current.expiresAt < now) { windows.set(ip,{count:1,expiresAt:now+60_000}); return false; }
+  const current = store.get(key);
+  if (!current || current.expiresAt < now) {
+    store.set(key, { count: 1, expiresAt: now + durationMs });
+    return false;
+  }
   current.count += 1;
-  return current.count > 8;
+  return current.count > limit;
+}
+
+function limited(request) {
+  return windowLimited(windows, clientKey(request), 8, 60_000);
+}
+
+function fallbackLimited(request) {
+  return windowLimited(fallbackWindows, clientKey(request), 2, 60_000);
 }
 
 function normalizeHistory(raw) {
@@ -74,15 +97,31 @@ function unsupportedAnswer(reason) {
   };
 }
 
-function response(answer, evidence, retrievalDebug, retrievalAssisted = false) {
+function publicRetrieval(debug = {}) {
+  return {
+    answerable: Boolean(debug.answerable),
+    reason: debug.reason || null,
+    mode: debug.mode || null,
+    concepts: (debug.concepts || []).map((item) => ({ id: item.id, label: item.label })),
+    requestedEntities: (debug.requestedEntities || []).map((item) => ({ id: item.id, name: item.name, type: item.type })),
+    semanticFallback: debug.semanticFallback ? {
+      attempted: Boolean(debug.semanticFallback.attempted),
+      accepted: Boolean(debug.semanticFallback.accepted),
+      error: debug.semanticFallback.error || null
+    } : null
+  };
+}
+
+function response(answer, evidence, retrievalDebug, retrievalAssisted = false, sessionContext = {}) {
   return NextResponse.json({
     answer,
     citations: citationsFromEvidence(evidence),
-    retrieval: retrievalDebug,
+    retrieval: publicRetrieval(retrievalDebug),
     retrievalAssisted,
     generated: false,
     providerError: null,
-    engine: ENGINE
+    engine: ENGINE,
+    sessionContext
   });
 }
 
@@ -119,11 +158,19 @@ function runRetrieval(query, mode) {
   };
 }
 
-function suggestionsFor(answerQuestion, originalQuestion, evidence, history) {
+function suggestionsFor(answerQuestion, originalQuestion, evidence, history, sessionState) {
   const enrichedHistory = answerQuestion === originalQuestion
     ? history
     : [...history, { role: "user", content: originalQuestion }].slice(-6);
-  return buildContextualSuggestions(answerQuestion, evidence, enrichedHistory, { limit: 3 });
+  return buildContextualSuggestions(answerQuestion, evidence, enrichedHistory, { limit: 3, sessionState });
+}
+
+function finalizeAnswer(answer, retrievalAssisted) {
+  if (!retrievalAssisted) return answer;
+  return {
+    ...answer,
+    note: "Compréhension de la formulation assistée par un classifieur sémantique de secours ; les résultats ont ensuite été revalidés par le moteur déterministe. La réponse politique reste entièrement extraite du corpus, sans génération de faits ni de positions."
+  };
 }
 
 export async function POST(request) {
@@ -134,6 +181,7 @@ export async function POST(request) {
   if (!question || question.length > 1200) return NextResponse.json({error:"La question doit contenir entre 1 et 1200 caractères."},{status:400});
 
   const history = normalizeHistory(payload?.history);
+  const incomingSession = sanitizeSuggestionSessionState(payload?.sessionContext || {});
   const context = resolveDeterministicContext(question, history);
   let mode = classifyDeterministicQuestion(question);
   if (mode === "overview" && context.inheritedMode) mode = context.inheritedMode;
@@ -143,8 +191,9 @@ export async function POST(request) {
 
   if (String(run.debug.reason || "").startsWith("unsupported_")) {
     const answer = unsupportedAnswer(run.debug.reason);
-    answer.followUps = suggestionsFor(question, question, [], history);
-    return response(answer, [], run.debug, false);
+    answer.followUps = suggestionsFor(question, question, [], history, incomingSession);
+    const sessionContext = buildSuggestionSessionState(incomingSession, question, []);
+    return response(answer, [], run.debug, false, sessionContext);
   }
 
   let retrievalAssisted = false;
@@ -152,26 +201,28 @@ export async function POST(request) {
   const noUsableEvidence = !run.evidence.length || (run.candidateTargeted && !run.debug.answerable);
 
   if (noUsableEvidence && shouldAttemptRetrievalFallback(run.debug)) {
-    const fallback = await interpretRetrievalWithModel(question, history);
-    fallbackDebug = {
-      attempted: fallback.attempted,
-      accepted: Boolean(fallback.interpretation && fallback.query),
-      model: fallback.model || null,
-      error: fallback.error || null,
-      intent: fallback.interpretation?.intent || null,
-      entityIds: fallback.interpretation?.entityIds || [],
-      conceptIds: fallback.interpretation?.conceptIds || []
-    };
+    if (fallbackLimited(request)) {
+      fallbackDebug = { attempted: false, accepted: false, error: "fallback_rate_limited" };
+    } else {
+      const fallback = await interpretRetrievalWithModel(question, history);
+      const interpretation = withInheritedFallbackContext(fallback.interpretation, context.inheritedEntities);
+      const comparisonContextValid = interpretation?.intent !== "comparison" || interpretation.entityIds?.length >= 2;
+      fallbackDebug = {
+        attempted: fallback.attempted,
+        accepted: Boolean(interpretation && comparisonContextValid),
+        error: fallback.error || (!comparisonContextValid ? "fallback_comparison_context_incomplete" : null)
+      };
 
-    if (fallback.interpretation && fallback.query) {
-      const safeQuery = buildFallbackRetrievalQuery(fallback.interpretation);
-      const fallbackMode = modeFromFallback(fallback.interpretation, mode);
-      const fallbackRun = runRetrieval(safeQuery, fallbackMode);
-      if (fallbackRun.evidence.length && fallbackRun.debug.answerable) {
-        retrievalAssisted = true;
-        retrievalQuery = safeQuery;
-        mode = fallbackMode;
-        run = fallbackRun;
+      if (interpretation && comparisonContextValid) {
+        const safeQuery = buildFallbackRetrievalQuery(interpretation);
+        const fallbackMode = modeFromFallback(interpretation, mode);
+        const fallbackRun = runRetrieval(safeQuery, fallbackMode);
+        if (fallbackRun.evidence.length && fallbackRun.debug.answerable) {
+          retrievalAssisted = true;
+          retrievalQuery = safeQuery;
+          mode = fallbackMode;
+          run = fallbackRun;
+        }
       }
     }
   }
@@ -185,23 +236,27 @@ export async function POST(request) {
 
   if (String(run.debug.reason || "").startsWith("unsupported_")) {
     const answer = unsupportedAnswer(run.debug.reason);
-    answer.followUps = suggestionsFor(retrievalQuery, question, [], history);
-    return response(answer, [], run.debug, retrievalAssisted);
+    answer.followUps = suggestionsFor(retrievalQuery, question, [], history, incomingSession);
+    const sessionContext = buildSuggestionSessionState(incomingSession, retrievalQuery, []);
+    return response(answer, [], run.debug, retrievalAssisted, sessionContext);
   }
 
   if (!run.evidence.length || (run.candidateTargeted && !run.debug.answerable)) {
     const answer = noDataAnswer(question, run.debug.requestedEntities || []);
-    answer.followUps = suggestionsFor(retrievalQuery, question, [], history);
-    return response(answer, [], run.debug, retrievalAssisted);
+    answer.followUps = suggestionsFor(retrievalQuery, question, [], history, incomingSession);
+    const sessionContext = buildSuggestionSessionState(incomingSession, retrievalQuery, []);
+    return response(answer, [], run.debug, retrievalAssisted, sessionContext);
   }
 
   const answerQuestion = retrievalAssisted ? retrievalQuery : question;
-  const answer = composeDeterministicAnswer(answerQuestion,run.evidence,{
+  let answer = composeDeterministicAnswer(answerQuestion,run.evidence,{
     mode,
     candidates:run.candidates,
     requestedEntities:run.debug.requestedEntities || [],
     candidateTargeted:run.candidateTargeted
   });
-  answer.followUps = suggestionsFor(answerQuestion, question, run.evidence, history);
-  return response(answer, run.evidence, run.debug, retrievalAssisted);
+  answer.followUps = suggestionsFor(answerQuestion, question, run.evidence, history, incomingSession);
+  answer = finalizeAnswer(answer, retrievalAssisted);
+  const sessionContext = buildSuggestionSessionState(incomingSession, answerQuestion, run.evidence);
+  return response(answer, run.evidence, run.debug, retrievalAssisted, sessionContext);
 }
