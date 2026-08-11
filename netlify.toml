@@ -9,4 +9,11 @@
   NODE_VERSION = "22"
 
 [functions]
-  included_files = ["data/search-index.json", "data/entities.json", "data/compass.json", "research/veille/health.json"]
+  included_files = [
+    "data/search-index.json",
+    "data/entities.json",
+    "data/compass.json",
+    "data/political-ontology.json",
+    "data/political-ontology-anchors.json",
+    "research/veille/health.json"
+  ]
