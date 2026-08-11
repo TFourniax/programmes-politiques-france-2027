@@ -1,16 +1,17 @@
 import { NextResponse } from "next/server";
-import { retrieveDeterministic } from "../../../lib/retrieval-v2.js";
+import { resolveDeterministicContext, retrieveDeterministic } from "../../../lib/retrieval-v2.js";
 import { composeDeterministicAnswer } from "../../../lib/deterministic-answer-v2.js";
+import { candidateEvidence } from "../../../lib/presentation.js";
 import {
-  candidateEvidence,
-  classifyQuestion,
-  resolveRetrievalQuery,
-  selectCandidates
-} from "../../../lib/presentation.js";
+  classifyDeterministicQuestion,
+  isTargetedCandidateQuestion,
+  selectDeterministicCandidates
+} from "../../../lib/deterministic-query.js";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 
+const ENGINE = "deterministic-bm25-ontology-v4";
 const windows = new Map();
 function limited(request) {
   const ip = request.headers.get("x-forwarded-for")?.split(",")[0]?.trim() || "local";
@@ -34,16 +35,48 @@ function citationsFromEvidence(evidence) {
   return evidence.map((item,index) => ({ number:index+1,...item.citation,score:item.score }));
 }
 
-function noDataAnswer(question) {
+function noDataAnswer(question, requestedEntities = []) {
+  const names = requestedEntities.map((item) => item.name).filter(Boolean);
+  const target = names.length ? ` pour ${names.join(", ")}` : "";
   return {
     layout: "overview",
     title: "Aucune donnée pertinente dans le corpus",
-    summary: `Le corpus ne contient pas d’élément suffisamment pertinent pour répondre à « ${question} ». Je préfère ne pas afficher de résultats approximatifs ou hors sujet.`,
-    note: "La réponse reste strictement limitée aux données politiques versionnées dans le dépôt.",
-    sections: [],
-    cards: [],
-    followUps: []
+    summary: `Le corpus ne contient pas d’élément suffisamment pertinent${target} pour répondre à « ${question} ». Je préfère ne pas afficher de résultats approximatifs ou hors sujet.`,
+    note: names.length
+      ? "L’absence d’un élément dans le corpus ne permet pas de conclure à une absence de position politique. Les positions d’un parti ne sont pas automatiquement attribuées à une personnalité."
+      : "La réponse reste strictement limitée aux données politiques versionnées dans le dépôt.",
+    sections: [], cards: [], followUps: []
   };
+}
+
+function unsupportedAnswer(reason) {
+  if (reason === "unsupported_absence_inference") {
+    return {
+      layout: "overview",
+      title: "Impossible de déduire une absence de position",
+      summary: "Le corpus permet d’établir ce qui est documenté, mais l’absence d’une proposition ou d’une mention ne prouve pas qu’un candidat ou un parti n’a pas cette position.",
+      note: "Je peux comparer les positions effectivement documentées, sans transformer un silence du corpus en position politique.",
+      sections: [], cards: [], followUps: []
+    };
+  }
+  return {
+    layout: "overview",
+    title: "Classement politique non déduit automatiquement",
+    summary: "Cette question demande un jugement de valeur ou un classement interprétatif. Le moteur peut comparer les propositions documentées, mais ne décide pas quel programme est « meilleur », « pire » ou « le plus favorable ».",
+    note: "Cette limite évite d’introduire une interprétation politique non présente dans les sources.",
+    sections: [], cards: [], followUps: []
+  };
+}
+
+function response(answer, evidence, retrievalDebug) {
+  return NextResponse.json({
+    answer,
+    citations: citationsFromEvidence(evidence),
+    retrieval: retrievalDebug,
+    generated: false,
+    providerError: null,
+    engine: ENGINE
+  });
 }
 
 export async function POST(request) {
@@ -54,39 +87,36 @@ export async function POST(request) {
   if (!question || question.length > 1200) return NextResponse.json({error:"La question doit contenir entre 1 et 1200 caractères."},{status:400});
 
   const history = normalizeHistory(payload?.history);
-  const mode = classifyQuestion(question);
-  const candidates = mode === "candidates" ? selectCandidates(question) : [];
-  const retrievalQuery = resolveRetrievalQuery(question,history);
+  const context = resolveDeterministicContext(question, history);
+  let mode = classifyDeterministicQuestion(question);
+  if (mode === "overview" && context.inheritedMode) mode = context.inheritedMode;
+  const candidates = mode === "candidates" ? selectDeterministicCandidates(question) : [];
+  const candidateTargeted = mode === "candidates" && isTargetedCandidateQuestion(question);
+  const retrievalQuery = context.query;
 
   let evidence = [];
   let retrievalDebug;
 
   if (mode === "candidates") {
     const scopeProbe = retrieveDeterministic(retrievalQuery,{limit:3});
-    retrievalDebug = {...scopeProbe.debug, mode, directCandidateRecords:candidates.length, query:retrievalQuery};
-    if (!scopeProbe.debug.answerable) {
-      const answer = noDataAnswer(question);
-      return NextResponse.json({answer,citations:[],retrieval:retrievalDebug,generated:false,providerError:null,engine:"deterministic-bm25-ontology-v1"});
-    }
+    retrievalDebug = {...scopeProbe.debug, mode, directCandidateRecords:candidates.length, query:retrievalQuery, conversation:context};
+    if (String(scopeProbe.debug.reason || "").startsWith("unsupported_")) return response(unsupportedAnswer(scopeProbe.debug.reason), [], retrievalDebug);
+    if (!scopeProbe.debug.answerable && candidateTargeted) return response(noDataAnswer(question, scopeProbe.debug.requestedEntities || []), [], retrievalDebug);
     evidence = candidates.map(candidateEvidence);
   } else {
     const limit = mode === "comparison" ? 14 : mode === "measures" ? 12 : 10;
     const retrieval = retrieveDeterministic(retrievalQuery,{limit});
     evidence = retrieval.results;
-    retrievalDebug = {...retrieval.debug, mode, query:retrievalQuery};
-    if (!evidence.length) {
-      const answer = noDataAnswer(question);
-      return NextResponse.json({answer,citations:[],retrieval:retrievalDebug,generated:false,providerError:null,engine:"deterministic-bm25-ontology-v1"});
-    }
+    retrievalDebug = {...retrieval.debug, mode, query:retrievalQuery, conversation:context};
+    if (String(retrieval.debug.reason || "").startsWith("unsupported_")) return response(unsupportedAnswer(retrieval.debug.reason), [], retrievalDebug);
+    if (!evidence.length) return response(noDataAnswer(question, retrieval.debug.requestedEntities || []), [], retrievalDebug);
   }
 
-  const answer = composeDeterministicAnswer(question,evidence,{mode,candidates});
-  return NextResponse.json({
-    answer,
-    citations:citationsFromEvidence(evidence),
-    retrieval:retrievalDebug,
-    generated:false,
-    providerError:null,
-    engine:"deterministic-bm25-ontology-v1"
+  const answer = composeDeterministicAnswer(question,evidence,{
+    mode,
+    candidates,
+    requestedEntities:retrievalDebug.requestedEntities || [],
+    candidateTargeted
   });
+  return response(answer, evidence, retrievalDebug);
 }
