@@ -1,0 +1,128 @@
+name: Deploy preview smoke
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, ready_for_review]
+  workflow_dispatch:
+    inputs:
+      pr_number:
+        description: Pull request number to test
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+concurrency:
+  group: preview-smoke-${{ github.event.pull_request.number || inputs.pr_number }}
+  cancel-in-progress: true
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    env:
+      PR_NUMBER: ${{ github.event.pull_request.number || inputs.pr_number }}
+    steps:
+      - name: Wait for Netlify Deploy Preview and exercise public runtime
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          import time
+          import urllib.error
+          import urllib.request
+
+          pr = os.environ["PR_NUMBER"].strip()
+          base = f"https://deploy-preview-{pr}--politique2027.netlify.app"
+
+          def request(path, *, payload=None, ip=None, timeout=15):
+              data = None
+              headers = {"accept": "application/json", "user-agent": "politique2027-preview-smoke/1.0"}
+              method = "GET"
+              if payload is not None:
+                  data = json.dumps(payload, ensure_ascii=False).encode("utf-8")
+                  headers["content-type"] = "application/json"
+                  method = "POST"
+              if ip:
+                  headers["x-forwarded-for"] = ip
+              req = urllib.request.Request(base + path, data=data, headers=headers, method=method)
+              with urllib.request.urlopen(req, timeout=timeout) as response:
+                  body = response.read().decode("utf-8")
+                  if response.status != 200:
+                      raise RuntimeError(f"{path}: HTTP {response.status}")
+                  return json.loads(body)
+
+          health = None
+          last_error = None
+          for attempt in range(36):
+              try:
+                  candidate = request("/api/health", timeout=10)
+                  if candidate.get("ok") is True and candidate.get("chat", {}).get("engine") == "deterministic-bm25-ontology-v4":
+                      health = candidate
+                      break
+                  last_error = f"health not ready: {candidate}"
+              except Exception as exc:
+                  last_error = f"{type(exc).__name__}: {exc}"
+              time.sleep(10)
+          if health is None:
+              raise SystemExit(f"Deploy Preview never became healthy: {last_error}")
+
+          chat = health["chat"]
+          assert chat["responseGeneration"] == "deterministic_extractive", chat
+          assert chat["edgeRateLimit"] == {"requests": 8, "seconds": 60}, chat
+          assert chat["semanticFallback"]["role"] == "retrieval_interpretation_only", chat
+
+          history = request("/api/history?view=timeline&entity=renaissance&topic=nucleaire")
+          assert history["actor"]["id"] == "renaissance", history
+          assert history["topic"]["id"] == "nucleaire", history
+          assert history["timeline"], history
+          assert "jamais interprété" in history["methodologyNote"], history["methodologyNote"]
+
+          current = request(
+              "/api/chat",
+              payload={"question": "Quel projet propose d'abroger Parcoursup ?", "history": [], "sessionContext": {}},
+              ip="198.51.100.241",
+          )
+          assert current["generated"] is False, current
+          assert current["retrievalAssisted"] is False, current
+          assert current["answer"]["cards"], current
+          assert any(c.get("path") == "proposals/services-publics/ps-abrogation-parcoursup.md" for c in current["citations"]), current
+          inactive = {"superseded", "withdrawn", "archived", "rejected", "draft", "historical"}
+          assert all(str(c.get("documentStatus", "")).lower() not in inactive for c in current["citations"]), current
+
+          off_corpus = request(
+              "/api/chat",
+              payload={"question": "Que propose Renaissance sur l'énergie des licornes ?", "history": [], "sessionContext": {}},
+              ip="198.51.100.242",
+          )
+          assert off_corpus["generated"] is False, off_corpus
+          assert off_corpus["answer"]["cards"] == [], off_corpus
+          assert off_corpus["citations"] == [], off_corpus
+
+          fallback = chat["semanticFallback"]
+          if fallback.get("enabled") and fallback.get("configured"):
+              assisted = request(
+                  "/api/chat",
+                  payload={"question": "Que prévoit Renaissance pour la fission ?", "history": [], "sessionContext": {}},
+                  ip="198.51.100.243",
+              )
+              assert assisted["generated"] is False, assisted
+              assert assisted["retrievalAssisted"] is True, assisted
+              assert assisted["answer"]["cards"], assisted
+              assert assisted["citations"], assisted
+              assert all(str(c.get("documentStatus", "")).lower() not in inactive for c in assisted["citations"]), assisted
+              assert "assistée" in assisted["answer"].get("note", ""), assisted["answer"]
+              fallback_result = "real-provider-assisted"
+          else:
+              fallback_result = "not-configured-on-preview"
+
+          print(json.dumps({
+              "preview": base,
+              "snapshotDate": health.get("snapshotDate"),
+              "fallback": fallback_result,
+              "watchStatus": health.get("watch", {}).get("status"),
+              "result": "ok"
+          }, ensure_ascii=False))
+          PY
