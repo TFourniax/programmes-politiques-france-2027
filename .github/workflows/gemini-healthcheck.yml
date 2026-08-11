@@ -31,13 +31,13 @@ jobs:
           from datetime import datetime, timezone
           from pathlib import Path
           import urllib.error
-          import urllib.parse
           import urllib.request
 
-          model = "gemini-2.5-flash"
+          model = "gemini-3.5-flash-lite"
           result = {
               "status": "error",
               "model": model,
+              "api": "interactions",
               "google_search_grounding": False,
               "checked_at": datetime.now(timezone.utc).replace(microsecond=0).isoformat(),
               "source_commit": os.environ.get("GITHUB_SHA", ""),
@@ -47,32 +47,33 @@ jobs:
           if not key:
               result["error"] = "GEMINI_API_KEY is missing from GitHub Actions secrets"
           else:
-              endpoint = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
-              url = endpoint + "?" + urllib.parse.urlencode({"key": key})
+              endpoint = "https://generativelanguage.googleapis.com/v1beta/interactions"
               payload = json.dumps({
-                  "contents": [{"parts": [{"text": "Utilise Google Search pour vérifier l'existence du site officiel de l'Assemblée nationale française. Réponds en une phrase."}]}],
-                  "tools": [{"google_search": {}}],
-                  "generationConfig": {"temperature": 0}
+                  "model": model,
+                  "input": "Utilise Google Search pour vérifier l'existence du site officiel de l'Assemblée nationale française. Réponds en une phrase.",
+                  "tools": [{"type": "google_search"}],
+                  "store": False
               }).encode("utf-8")
               request = urllib.request.Request(
-                  url,
+                  endpoint,
                   data=payload,
-                  headers={"Content-Type": "application/json"},
+                  headers={
+                      "Content-Type": "application/json",
+                      "x-goog-api-key": key,
+                  },
                   method="POST",
               )
               try:
                   with urllib.request.urlopen(request, timeout=45) as response:
                       data = json.loads(response.read().decode("utf-8"))
                       result["http_status"] = response.status
-                  candidates = data.get("candidates") or []
-                  grounding = candidates[0].get("groundingMetadata") if candidates else None
-                  if candidates and grounding:
+                  serialized = json.dumps(data, ensure_ascii=False)
+                  grounded = "google_search_call" in serialized or "google_search_result" in serialized
+                  if grounded:
                       result["status"] = "ok"
                       result["google_search_grounding"] = True
-                  elif not candidates:
-                      result["error"] = "Gemini API returned no candidate"
                   else:
-                      result["error"] = "Google Search Grounding metadata missing"
+                      result["error"] = "Interaction succeeded but no Google Search execution was found in the response"
               except urllib.error.HTTPError as exc:
                   body = exc.read().decode("utf-8", errors="replace")
                   try:
