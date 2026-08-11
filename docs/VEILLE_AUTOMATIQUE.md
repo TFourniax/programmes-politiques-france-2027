@@ -1,134 +1,143 @@
-# Veille automatique quotidienne
+# Veille automatique et mise à jour canonique
 
 ## Objectif
 
-Maintenir une boîte de réception de recherche fraîche autour de l'élection présidentielle française de 2027 sans introduire de coût d'infrastructure et sans contaminer le corpus canonique avec des informations non vérifiées.
+Maintenir automatiquement le dépôt politique 2027 sans file de review humaine, avec un coût d'infrastructure proche de zéro et un comportement volontairement conservateur.
 
-La veille est volontairement séparée du corpus :
+Le principe n'est pas de forcer une décision sur chaque information :
 
-- `corpus/`, `proposals/` et les registres canoniques ne sont jamais modifiés automatiquement par la veille ;
-- les résultats arrivent dans `research/veille/` ;
-- chaque résultat conserve sa provenance, son mode de découverte et son état de vérification ;
-- une information exploratoire doit ensuite être validée selon `SOURCES_POLICY.md` et `METHODOLOGY.md` avant intégration canonique.
+- une donnée suffisamment étayée est promue automatiquement ;
+- une donnée ambiguë, contradictoire ou insuffisamment prouvée reste hors du corpus canonique ;
+- une nouvelle version de la source pourra provoquer une nouvelle tentative plus tard ;
+- aucune mémoire générale du modèle ne peut servir de preuve.
 
-## Sources utilisées
+## Fréquence
 
-### 1. Sites officiels — coût 0
+`.github/workflows/daily-watch.yml` s'exécute quatre fois par jour à `01:17`, `07:17`, `13:17` et `19:17` UTC, ainsi que manuellement et après modification de la configuration de veille.
 
-`daily_watch.py` construit automatiquement la liste des URLs officielles à partir de `registries/sources.yaml`, `registries/parties.yaml` et des preuves officielles dans `registries/candidates.yaml`.
+## Collecte gratuite
 
-Pour chaque URL, la veille calcule une empreinte SHA-256 du contenu utile. Une modification produit un événement `official_source_changed`.
+### Sites officiels
 
-Le script inspecte aussi les `robots.txt`, sitemaps XML et flux RSS/Atom détectés afin d'identifier de nouvelles pages pertinentes : programme, proposition, candidature, communiqué, discours, actualité liée à 2027, etc.
+`scripts/daily_watch.py` surveille les sources de niveau 1, calcule leurs empreintes, inspecte les sitemaps, `robots.txt` et flux RSS/Atom et détecte les nouvelles pages programmatiques ou de candidature.
 
-Le premier passage constitue une baseline et n'interprète pas les pages déjà présentes comme des nouveautés.
+### Presse
 
-### 2. GDELT — coût 0
+`scripts/gdelt_watch.py` utilise GDELT comme radar secondaire. Les articles servent à détecter des nouveautés et contradictions potentielles, mais une piste presse n'est pas directement promue comme mesure canonique.
 
-GDELT sert de radar presse sur les dernières 24 heures. Les requêtes sont lancées pour les personnalités suivies dans `registries/candidates.yaml`.
+### Bluesky
 
-Afin de limiter le bruit, seuls les résultats provenant des domaines de presse reconnus listés dans `registries/watch.yaml` sont conservés par défaut. Ils restent `discovery_only` et ne valent jamais validation d'une proposition ou d'un statut.
+`scripts/social_watch.py` lit les comptes Bluesky trouvés depuis les sites officiels via l'AppView public, sans clé.
 
-### 3. Google Search Grounding via Gemini 2.5 Flash-Lite — quota gratuit
+### YouTube
 
-Le connecteur est prêt mais facultatif. Il est automatiquement ignoré si le secret GitHub `GEMINI_API_KEY` n'existe pas.
+Les chaînes officielles sont découvertes depuis les sites officiels. La lecture des nouveaux uploads est activée uniquement lorsque `YOUTUBE_API_KEY` est défini.
 
-Lorsqu'il est activé, Gemini utilise Google Search pour rechercher les nouveautés des dernières heures. Le pipeline n'utilise pas la réponse du modèle comme vérité : il récupère uniquement les URLs de grounding comme pistes à examiner.
+### X
 
-### 4. Bluesky officiel — coût 0, sans clé
-
-`social_watch.py` analyse les liens présents sur les sites officiels suivis. Un profil Bluesky n'est qualifié d'officiel que lorsqu'il est directement lié depuis ce site officiel.
-
-Les publications sont ensuite lues via l'AppView public Bluesky, sans authentification ni clé API. Le premier passage d'un profil constitue une baseline. Les nouveaux posts contenant des signaux politiques/programmatique sont enregistrés comme `official_social_post`.
-
-Une publication sociale officielle reste une **déclaration publique** : elle ne devient jamais automatiquement une mesure de programme.
-
-### 5. YouTube officiel — quota gratuit
-
-Les chaînes YouTube sont elles aussi découvertes exclusivement depuis les sites officiels. Avec `YOUTUBE_API_KEY`, le script résout la chaîne officielle, récupère sa playlist d'uploads puis lit ses dernières vidéos avec `playlistItems.list`.
-
-Cette méthode évite une recherche YouTube générale et économise fortement le quota. Sans clé, les profils YouTube restent enregistrés dans `research/veille/social-profiles.json`, mais aucune lecture de vidéos n'est effectuée.
-
-### 6. X — profils découverts gratuitement, timeline désactivée
-
-Les liens X présents sur les sites officiels sont déjà détectés et enregistrés dans le snapshot des profils sociaux. En revanche, aucune timeline X n'est interrogée tant qu'un budget de lecture explicite n'a pas été décidé.
-
-Cela prépare l'intégration future sans coût actuel et sans avoir à redécouvrir les comptes officiels.
-
-## Sorties
-
-Chaque exécution web/presse écrit :
-
-- `research/veille/state.json` : état technique, empreintes et URLs déjà vues ;
-- `research/veille/YYYY-MM-DD.jsonl` : événements machine-readable du jour ;
-- `research/veille/YYYY-MM-DD.md` : rapport quotidien lisible.
-
-La veille sociale ajoute :
-
-- `research/veille/social-profiles.json` : comptes sociaux découverts depuis les sites officiels et leur provenance ;
-- `research/veille/social/YYYY-MM-DD.jsonl` : nouvelles publications sociales retenues ;
-- `research/veille/social/YYYY-MM-DD.md` : rapport social lisible.
-
-Types d'événements principaux :
-
-- `official_source_changed` ;
-- `official_new_url` ;
-- `official_new_feed_item` ;
-- `press_discovery` ;
-- `web_discovery` ;
-- `official_social_post` ;
-- `source_fetch_error`.
-
-## Niveaux de confiance
-
-- source officielle ou compte social lié depuis un site officiel : `tier_1_primary_official`, mais `needs_review` tant que le contenu n'a pas été qualifié ;
-- presse/GDELT : `tier_3_reliable_secondary` quand le domaine est dans l'allowlist, `discovery_only` ;
-- autre résultat Google : `tier_4_exploratory`, `discovery_only`.
-
-Une source peut donc être excellente sans que l'affirmation détectée soit automatiquement intégrée. La qualité de la source et la validation de la donnée restent deux objets différents.
-
-## Exécution automatique
-
-`.github/workflows/daily-watch.yml` s'exécute une fois par jour et peut aussi être lancé manuellement.
-
-Le workflow :
-
-1. installe les dépendances déjà utilisées par le projet ;
-2. lance `scripts/daily_watch.py` ;
-3. lance `scripts/social_watch.py` ;
-4. exécute les tests de veille ;
-5. commit les fichiers de `research/veille/` uniquement s'ils ont changé.
-
-Le dépôt étant public et utilisant un runner GitHub standard, cette exécution n'ajoute pas de coût d'infrastructure.
-
-## Secrets gratuits facultatifs
+Les profils officiels X sont découverts et mémorisés, mais la lecture de timeline reste désactivée tant qu'elle implique un coût explicite.
 
 ### Google Search Grounding
 
-Créer une clé Gemini API dans Google AI Studio puis ajouter le secret de repository :
+Search Grounding est actuellement désactivé pour préserver le chemin coût-zéro du projet Gemini. La découverte reste assurée par les sources officielles, sitemaps/RSS, GDELT et réseaux gratuits.
+
+## Promotion automatique sans review humaine
+
+`scripts/auto_promote.py` consomme le backlog de `research/veille/` et traite en priorité les URLs de programme, propositions, questions politiques et pages liées à la présidentielle.
+
+Seules les sources `tier_1_primary_official` peuvent modifier automatiquement le canon.
+
+Pour chaque source :
+
+1. téléchargement direct depuis le domaine officiel ;
+2. refus d'une redirection vers un domaine tiers ;
+3. extraction HTML ou PDF ;
+4. première passe Gemini 3.5 Flash-Lite pour extraire des propositions atomiques et éventuels changements de statut ;
+5. obligation de fournir une citation exacte de 18 mots maximum ;
+6. contrôle déterministe que cette citation apparaît réellement dans la source ;
+7. contrôle déterministe de l'entité autorisée et de la séparation candidat/parti ;
+8. seconde passe Gemini indépendante qui tente de réfuter chaque extraction ;
+9. comparaison avec les propositions déjà canoniques ;
+10. rejet automatique des cas `DUPLICATE`, `CONTRADICTS` ou `AMBIGUOUS` ;
+11. versioning `supersedes` / `superseded_by` uniquement lorsqu'un remplacement est explicitement établi ;
+12. écriture canonique ;
+13. validation Python, tests de retrieval et build Next.js ;
+14. commit automatique uniquement si tous les gates sont verts.
+
+Le contenu web est toujours traité comme une donnée non fiable. Les prompts interdisent explicitement de suivre des instructions présentes dans les pages récupérées.
+
+## Données pouvant être modifiées automatiquement
+
+Quand tous les gates passent :
+
+- `corpus/2027/auto/**` reçoit une fiche documentaire sourcée et versionnée ;
+- `proposals/auto/**` reçoit les propositions atomiques vérifiées ;
+- `data/entities.json` peut être actualisé pour un changement de statut explicitement prouvé ;
+- `registries/candidates.yaml` est synchronisé avec ce changement ;
+- `status_history` conserve l'ancien état ;
+- `research/veille/promotion-state.json` mémorise les preuves déjà traitées et les empreintes de propositions.
+
+`official_candidate` dispose d'un verrou supplémentaire : il ne peut être créé automatiquement qu'à partir d'un domaine institutionnel autorisé, notamment le Conseil constitutionnel ou le ministère de l'Intérieur.
+
+## Cas qui ne sont jamais forcés
+
+Aucune modification canonique n'est effectuée lorsque :
+
+- l'auteur de la source ne peut pas être rattaché à une entité suivie ;
+- la source n'est pas primaire officielle ;
+- la citation de preuve n'est pas retrouvée exactement ;
+- l'attribution parti/candidat est ambiguë ;
+- la seconde passe ne confirme pas ;
+- la nouvelle affirmation paraît contredire le corpus sans preuve explicite d'évolution ;
+- la mesure est uniquement locale, descriptive ou hors périmètre présidentiel/plateforme nationale ;
+- l'appel API ou l'extraction technique échoue.
+
+Une erreur technique est retentée sur les exécutions suivantes, avec une limite pour éviter qu'une source définitivement illisible monopolise la veille.
+
+## Gates avant commit
+
+Le workflow exécute avant chaque écriture sur `main` :
+
+```text
+python scripts/validate.py
+pytest veille + auto-promotion
+npm run test:retrieval
+npm run build
+```
+
+Si l'un de ces contrôles échoue, aucune modification générée pendant le run n'est commitée.
+
+## Secrets
+
+### Obligatoire pour la promotion canonique
 
 `GEMINI_API_KEY`
 
-Sans ce secret, sites officiels + RSS/sitemaps + GDELT + Bluesky continuent de fonctionner.
+Cette clé utilise `gemini-3.5-flash-lite` via l'Interactions API. Un préflight réel est exécuté au début du workflow.
 
-### YouTube Data API
-
-Créer une clé YouTube Data API dans un projet Google Cloud puis ajouter :
+### Facultatif
 
 `YOUTUBE_API_KEY`
 
-Sans ce secret, les chaînes officielles détectées sont conservées mais leurs nouvelles vidéos ne sont pas interrogées.
+Sans cette clé, le reste de la veille demeure opérationnel et les profils YouTube découverts restent enregistrés.
 
-## X / Twitter
+## Coût et quota
 
-Le futur connecteur X devra respecter les mêmes règles :
+Les runners GitHub du dépôt public, les sites officiels, RSS/sitemaps, GDELT et Bluesky suivent le chemin gratuit. Gemini est utilisé sur son quota d'inférence gratuit et le nombre de sources traitées par run est plafonné dans `registries/watch.yaml`.
 
-- comptes officiels uniquement ;
-- lecture incrémentale à partir du dernier post connu ;
-- déclaration publique distincte d'un programme officiel ;
-- aucun passage automatique dans le corpus canonique ;
-- budget de lecture plafonné explicitement avant activation.
+Le backlog est donc drainé progressivement, en donnant la priorité aux pages les plus susceptibles de contenir un programme ou une position présidentielle.
 
-## Principe de sécurité éditoriale
+## Auditabilité
 
-Le contenu récupéré sur Internet est de la donnée non fiable et peut contenir des instructions malveillantes ou trompeuses. Le pipeline ne lui accorde aucune autorité d'exécution et n'utilise jamais le contenu d'une page pour modifier les règles de fonctionnement du dépôt.
+Chaque promotion conserve :
+
+- URL source ;
+- niveau de source ;
+- date de capture ;
+- empreinte SHA-256 du texte extrait ;
+- courte citation de preuve ;
+- méthode de vérification ;
+- identifiant du document source ;
+- historique de remplacement lorsqu'une position évolue.
+
+Git fournit en plus l'historique complet et permet de revenir à n'importe quel état antérieur du corpus.
