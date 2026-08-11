@@ -10,6 +10,7 @@ on:
       - '.github/workflows/daily-watch.yml'
       - 'registries/watch.yaml'
       - 'scripts/daily_watch.py'
+      - 'scripts/gdelt_watch.py'
       - 'scripts/social_watch.py'
 
 permissions:
@@ -35,10 +36,13 @@ jobs:
 
       - run: pip install -r requirements.txt
 
-      - name: Run web and press watch
+      - name: Run official web and Google watch
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        run: python scripts/daily_watch.py
+        run: python scripts/daily_watch.py --no-gdelt
+
+      - name: Run batched GDELT press radar
+        run: python scripts/gdelt_watch.py
 
       - name: Run official social watch
         env:
@@ -46,7 +50,7 @@ jobs:
         run: python scripts/social_watch.py
 
       - name: Validate watch code
-        run: pytest -q tests/test_daily_watch.py tests/test_social_watch.py
+        run: pytest -q tests/test_daily_watch.py tests/test_gdelt_watch.py tests/test_social_watch.py
 
       - name: Commit watch inbox
         shell: bash
