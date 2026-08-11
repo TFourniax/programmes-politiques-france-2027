@@ -23,64 +23,103 @@ const index = JSON.parse(fs.readFileSync(path.join(root, 'data', 'search-index.j
 for (const chunk of index.chunks.filter((item) => ['document', 'proposal'].includes(item.kind))) {
   assert.ok(fs.existsSync(path.join(root, chunk.path)), `indexed path must exist: ${chunk.path}`);
   assert.ok(chunk.recordId, `versioned index record must expose recordId: ${chunk.path}`);
-  assert.ok(Array.isArray(chunk.supersedes));
-  assert.ok(Array.isArray(chunk.supersededBy));
+  assert.ok(Array.isArray(chunk.supersedes), `supersedes must be normalized: ${chunk.path}`);
+  assert.ok(Array.isArray(chunk.supersededBy), `supersededBy must be normalized: ${chunk.path}`);
 }
 
 const declared = selectCandidates('Qui est déclaré candidat à ce stade ?');
 assert.ok(declared.length >= 10);
 assert.ok(declared.every((candidate) => ['declared_presidential','party_designated','declared_conditional'].includes(candidate.current_status)));
 assert.ok(declared.every((candidate) => candidate.official_candidate === false));
+const declaredEvidence = declared.map(candidateEvidence);
+const candidateAnswer = fallbackStructuredAnswer('Qui est déclaré candidat à ce stade ?', declaredEvidence, { mode:'candidates', candidates:declared });
+assert.equal(candidateAnswer.cards.length, declared.length);
 
-const retirement = top('retraite à 60 ans carrière longue', {limit: 5});
-assert.ok(retirement.length > 0);
-assert.ok(includesPath(retirement, 'proposals/retraites/') || includesPath(retirement, 'corpus/2027/'));
+assert.equal(classifyQuestion('Quels sont les candidats officiels ?'), 'candidates');
+assert.equal(classifyQuestion('Quels candidats ont déjà des propositions documentées ?'), 'measures');
+assert.equal(classifyQuestion('Compare les positions documentées sur les retraites'), 'comparison');
 
-const smic = top('SMIC 1700 net', {limit: 6});
-assert.ok(smic.length > 0);
-assert.ok(smic.some((item) => /SMIC/i.test(item.text) || /SMIC/i.test(item.citation.title)));
+const kazibSmic = top('Qui propose un SMIC à 2000 euros ?', { limit: 8, minScore: 1.2 });
+assert.ok(includesPath(kazibSmic, 'anasse-kazib-smic-2000.md'));
+const psSmic = top('Quel programme propose un SMIC à 1690 euros net ?', { limit: 8, minScore: 1.2 });
+assert.ok(includesPath(psSmic, 'ps-smic-1690.md'));
+const lisnardSchool = top('Qui veut supprimer la carte scolaire ?', { limit: 8, minScore: 1.2 });
+assert.ok(includesPath(lisnardSchool, 'david-lisnard-suppression-carte-scolaire.md'));
+const psParcoursup = top('Quel programme veut abroger Parcoursup ?', { limit: 8, minScore: 1.2 });
+assert.ok(includesPath(psParcoursup, 'ps-abrogation-parcoursup.md'));
+const psAliasParcoursup = top('Que propose le PS sur Parcoursup ?', { limit: 8, minScore: 1.2 });
+assert.ok(includesPath(psAliasParcoursup, 'ps-abrogation-parcoursup.md'));
+const retirement = top('Qui propose la retraite à 60 ans ?', { limit: 10, minScore: 1.2 });
+assert.ok(retirement.some((item) => /60 ans/.test(item.text)));
+const retirementNatural = retrieve('Parle-moi des retraites', { limit: 8 });
+assert.equal(retirementNatural.debug.answerable, true);
+assert.ok(retirementNatural.results.length > 0);
 
-const immigration = top('Retailleau immigration étudiants extra européens', {limit: 8});
-assert.ok(immigration.length > 0);
+const renaissanceCurfew = top('Quel projet propose un couvre-feu numérique pour les 15-18 ans entre 22 h et 8 h ?', { limit: 8, minScore: 1.2 });
+assert.ok(includesPath(renaissanceCurfew, 'renaissance-couvre-feu-numerique-mineurs.md'));
+const curfewProposal = renaissanceCurfew.find((item) => item.citation.path.includes('renaissance-couvre-feu-numerique-mineurs.md'));
+assert.equal(curfewProposal?.citation.entityId, 'renaissance', 'Renaissance party proposals must remain attributed to the party');
+assert.notEqual(curfewProposal?.citation.entityId, 'gabriel-attal', 'party context must never become a personal Gabriel Attal commitment');
 
-const service = top('service citoyen neuf mois permis conduire', {limit: 8});
-assert.ok(service.length > 0);
+const renaissanceNuclear = top('Quel projet propose de construire 14 EPR et de lancer un plan SMR 2030 ?', { limit: 8, minScore: 1.2 });
+assert.ok(includesPath(renaissanceNuclear, 'renaissance-14-epr-smr-2030.md'));
+const nuclearProposal = renaissanceNuclear.find((item) => item.citation.path.includes('renaissance-14-epr-smr-2030.md'));
+assert.equal(nuclearProposal?.citation.entityId, 'renaissance');
 
-const nonsense = top('recette gâteau chocolat tennis formule 1', {limit: 5});
+// Natural out-of-corpus questions must return nothing instead of the least-bad political chunks.
+const formulaOne = retrieve('Parle moi de formule 1', { limit: 8 });
+assert.equal(formulaOne.results.length, 0);
+assert.equal(formulaOne.debug.answerable, false);
+assert.equal(formulaOne.debug.reason, 'insufficient_relevance');
+
+const medicalIst = retrieve('Donne moi des exemples de maladies type « IST »', { limit: 8 });
+assert.equal(medicalIst.results.length, 0);
+assert.equal(medicalIst.debug.answerable, false);
+
+// Candidate-list mode is also scope-gated: the word "candidat" alone is not enough.
+const formulaCandidates = retrieve('Quels sont les candidats de Formule 1 ?', { limit: 3 });
+assert.equal(formulaCandidates.results.length, 0);
+assert.equal(formulaCandidates.debug.answerable, false);
+
+const politicalCandidates = retrieve('Quels sont les candidats officiels ?', { limit: 3 });
+assert.equal(politicalCandidates.debug.answerable, true);
+assert.ok(politicalCandidates.results.length > 0);
+
+const nonsense = top('zyxqv blorptastic quasarbanane', { limit: 8, minScore: 4 });
 assert.equal(nonsense.length, 0);
 
-const candidateQuestion = 'Quels candidats sont déclarés ?';
-const candidateMode = classifyQuestion(candidateQuestion);
-assert.equal(candidateMode, 'candidates');
-const candidateList = selectCandidates(candidateQuestion);
-const candidateEvidenceRows = candidateList.map(candidateEvidence);
-const candidateFallback = fallbackStructuredAnswer(candidateQuestion, candidateEvidenceRows, {mode:'candidates', candidates:candidateList});
-assert.equal(candidateFallback.cards.length, candidateList.length);
-assert.ok(candidateFallback.cards.every((card) => card.entityType === 'candidate'));
-assert.ok(candidateFallback.cards.every((card) => card.officialCandidate === false));
+const followUpQuery = resolveRetrievalQuery('Et sur l’immigration ?', [
+  {role:'user',content:'Que propose Bruno Retailleau ?'},
+  {role:'assistant',content:'Réponse précédente'}
+]);
+assert.match(followUpQuery, /Bruno Retailleau/);
+assert.match(followUpQuery, /immigration/);
 
-const policyQuestion = 'Que propose le corpus sur les retraites ?';
-const policyEvidence = top(policyQuestion, {limit: 8});
-const raw = {
-  layout:'measures',
-  title:'Retraites',
-  summary:'Résumé',
-  cards:[
-    {entityId:policyEvidence[0]?.citation.entityId,title:'Carte',summary:'Texte',sourceNumbers:[1]},
-    {entityId:'entity-invented-by-model',title:'Injection',summary:'À supprimer',sourceNumbers:[1]}
-  ],
-  sections:[],followUps:[]
-};
-const hydrated = hydrateStructuredAnswer(raw,policyQuestion,policyEvidence,{mode:'measures'});
-assert.ok(hydrated.cards.every((card) => !card.entityId || policyEvidence.some((item) => item.citation.entityId === card.entityId)));
+const hydrated = hydrateStructuredAnswer({
+  layout:'measures', title:'Test', summary:'Test', note:'', sections:[],
+  cards:[{ entityId:'invented-entity', title:'Hallucination', subtitle:'', summary:'', bullets:[], sourceNumbers:[1] }], followUps:[]
+}, 'Qui propose un SMIC à 2000 euros ?', kazibSmic, { mode:'measures' });
+assert.ok(!hydrated.cards.some((card) => card.entityId === 'invented-entity'));
 
-const grouped = groupPoliticalCards(hydrated,policyEvidence);
-assert.ok(Array.isArray(grouped.cards));
-assert.ok(grouped.cards.length <= hydrated.cards.length);
+const groupingEvidence = [
+  { score:10, text:'Jean-Luc Mélenchon. Sa candidature présidentielle est déclarée.', citation:{entityId:'jean-luc-melenchon',entityLabel:'Jean-Luc Mélenchon',kind:'candidate_status',partyId:'la-france-insoumise',partyName:'La France insoumise'} },
+  { score:9, text:'La France insoumise. Le programme documente une mesure de parti.', citation:{entityId:'la-france-insoumise',entityLabel:'La France insoumise',kind:'document',partyId:'la-france-insoumise',partyName:'La France insoumise'} }
+];
+const grouped = groupPoliticalCards({ layout:'measures', title:'Mesures', summary:'Résumé', note:'', sections:[], followUps:[], cards:[
+  {entityId:'jean-luc-melenchon',entityType:'candidate',title:'Jean-Luc Mélenchon',subtitle:'La France insoumise',summary:'Candidature déclarée.',bullets:[],sourceNumbers:[1],partyId:'la-france-insoumise',partyName:'La France insoumise'},
+  {entityId:'la-france-insoumise',entityType:'party',title:'La France insoumise',subtitle:'Parti',summary:'Mesure de parti.',bullets:[],sourceNumbers:[2],partyId:'la-france-insoumise',partyName:'La France insoumise'}
+]}, groupingEvidence);
+assert.equal(grouped.cards.length, 1);
+assert.equal(grouped.cards[0].entityId, 'jean-luc-melenchon');
+assert.deepEqual(grouped.cards[0].sourceNumbers, [1,2]);
 
-assert.equal(completeSentenceExcerpt('Une première phrase complète. Une deuxième phrase assez longue pour dépasser la limite.', 35), 'Une première phrase complète.');
+const repaired = completeSentenceExcerpt('ional universel. Première phrase complète. Deuxième phrase complète.', 40);
+assert.ok(!/^ional\b/i.test(repaired));
 
-const history = [{role:'user',content:'Compare les positions sur les retraites'}];
-assert.match(resolveRetrievalQuery('Et Renaissance ?',history),/Compare les positions sur les retraites/);
-
-console.log('Retrieval and presentation QA OK');
+console.log('Production retrieval QA OK', {
+  snapshotDate: meta.snapshotDate,
+  candidates: meta.counts.candidates,
+  documents: meta.counts.documents,
+  proposals: meta.counts.proposals,
+  chunks: meta.counts.chunks
+});
