@@ -1,9 +1,21 @@
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 import sys
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 
-from auto_promote import priority, quote_ok, resolve_owner, same_host, sanitize  # noqa: E402
+from auto_promote import (  # noqa: E402
+    can_supersede,
+    explicit_old_election,
+    priority,
+    quote_ok,
+    resolve_owner,
+    retry_due,
+    same_host,
+    sanitize,
+    source_scope,
+    split_chunks,
+)
 
 
 def test_quote_requires_exact_short_span():
@@ -23,6 +35,42 @@ def test_programme_pages_are_processed_first():
     programme = {"url": "https://parti.fr/notre-programme/retraites/", "event_type": "official_new_url"}
     generic = {"url": "https://parti.fr/actualites/fete-locale/", "event_type": "official_new_url"}
     assert priority(programme)[0] > priority(generic)[0]
+
+
+def test_old_election_url_is_never_prioritised_as_current_cycle():
+    old = {"url": "https://parti.fr/programme-europeennes-2024-mesure-9/", "event_type": "official_new_url"}
+    assert explicit_old_election(old["url"])
+    assert priority(old)[0] < 0
+    assert source_scope({"url": old["url"], "title": "", "text": "Programme"}) == "historical_election"
+
+
+def test_source_scope_accepts_current_2027_material():
+    source = {
+        "url": "https://parti.fr/presidentielle-2027/programme/",
+        "title": "Programme 2027",
+        "text": "Nos propositions pour la présidentielle 2027.",
+    }
+    assert source_scope(source, "2026-08-11") == "current_cycle_or_party_platform"
+
+
+def test_long_source_is_split_into_persistent_chunks():
+    chunks = split_chunks("Une proposition politique complète. " * 1200, chunk_chars=5000, overlap_chars=200)
+    assert len(chunks) > 2
+    assert all(chunks)
+
+
+def test_older_source_cannot_supersede_newer_proposal():
+    old = {"first_documented_at": "2026-06-01"}
+    assert not can_supersede("2024-06-03", "source_or_feed_date", old)
+    assert can_supersede("2027-01-15", "source_or_feed_date", old)
+    assert not can_supersede("2027-01-15", "capture_fallback", old)
+
+
+def test_technical_errors_are_retried_after_backoff_instead_of_abandoned():
+    due = (datetime.now(timezone.utc) - timedelta(seconds=1)).isoformat()
+    future = (datetime.now(timezone.utc) + timedelta(hours=1)).isoformat()
+    assert retry_due({"status": "technical_error", "attempts": 12, "next_retry_at": due})
+    assert not retry_due({"status": "technical_error", "attempts": 12, "next_retry_at": future})
 
 
 def test_owner_resolution_keeps_party_candidate_separation():
