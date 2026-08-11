@@ -58,7 +58,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-08-11T12:47:35+00:00",
+  "last_run_at": "2026-08-11T14:42:52+00:00",
   "source_chunks": {
     "170a10d674b56149b768f432": {
       "claims": [
@@ -218,6 +218,44 @@
       "updated_at": "2026-08-11T12:14:58+00:00",
       "url": "https://www.unenouvelleenergie.fr/questions/david-lisnard-est-il-candidat-a-la-presidentielle-2027/"
     },
+    "65b932fa9c013c803e67df86": {
+      "claims": [],
+      "created_at": "2026-08-11T14:42:45+00:00",
+      "document_types": [
+        "party_programme"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "850367ac25169dd5aa91dc15a002e331b69f12517e566cc108ac794b77012061",
+      "source_title": "Programme législatives 2022 : Économie - Parti Équinoxe",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-11T14:42:47+00:00",
+      "url": "https://parti-equinoxe.fr/legislatives-2022-programme-economie/"
+    },
+    "681a4cd8f4ce8b769e922d59": {
+      "claims": [],
+      "created_at": "2026-08-11T14:42:40+00:00",
+      "document_types": [
+        "party_programme"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "5d3b54eeaaa3611b555574efdedec8aa5c46831a8e244759848baa9936b4d655",
+      "source_title": "Programme législatives 2022 : Démocratie - Parti Équinoxe",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-11T14:42:42+00:00",
+      "url": "https://parti-equinoxe.fr/legislatives-2022-programme-democratie/"
+    },
     "6e14d327d322b89d02548a7c": {
       "claims": [],
       "created_at": "2026-08-11T12:47:29+00:00",
@@ -257,6 +295,25 @@
       "total": 1,
       "updated_at": "2026-08-11T12:15:04+00:00",
       "url": "https://bsky.app/profile/marinetondelier.fr/post/3mssha7jd2s2c"
+    },
+    "fc1ee1bf2c827e5f9aabb527": {
+      "claims": [],
+      "created_at": "2026-08-11T14:42:49+00:00",
+      "document_types": [
+        "party_programme"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "1013df0aa67528326f155b21fcc5c8d369b7c552bdfa0ae1ad65e7f15163139b",
+      "source_title": "Programme législatives 2022 : Environnement - Parti Équinoxe",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-11T14:42:51+00:00",
+      "url": "https://parti-equinoxe.fr/legislatives-2022-programme-environnement/"
     }
   },
   "sources": {
@@ -266,6 +323,15 @@
       "source_sha256": "a124d68fa237b3543e9b1ee7a470f26edc1af0d85f2640ae2f87478ca4acca23",
       "status": "historical_skipped",
       "url": "https://parti-equinoxe.fr/programme-europeennes-2024-mesure-phare-10-legislation/"
+    },
+    "47f0f12206f4": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-11T14:42:47+00:00",
+      "reason": null,
+      "source_sha256": "850367ac25169dd5aa91dc15a002e331b69f12517e566cc108ac794b77012061",
+      "status": "not_confirmed",
+      "url": "https://parti-equinoxe.fr/legislatives-2022-programme-economie/"
     },
     "549dcbd84e3e": {
       "processed_at": "2026-08-11T08:56:10+00:00",
@@ -345,12 +411,30 @@
       "status": "not_confirmed",
       "url": "https://lafranceinsoumise.fr/2026/07/29/amfis-2026-les-premieres-annonces-sur-le-programme-des-universites-dete-de-la-france-insoumise/"
     },
+    "d8a91ac36d41": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-11T14:42:42+00:00",
+      "reason": null,
+      "source_sha256": "5d3b54eeaaa3611b555574efdedec8aa5c46831a8e244759848baa9936b4d655",
+      "status": "not_confirmed",
+      "url": "https://parti-equinoxe.fr/legislatives-2022-programme-democratie/"
+    },
     "db015b4b553e": {
       "processed_at": "2026-08-11T09:26:23+00:00",
       "reason": null,
       "source_sha256": "2a895e30a04270a8d517c82d52f61fa44ee53015c7eae1ecadd75c168abedd50",
       "status": "no_canonical_data",
       "url": "http://lesecologistes.fr/forms/6P5URUdvFPSAmDwnWlQcCh/formation-donner-du-souffle-a-notre-programme-du-catalogue-de-mesures-au-recit-mobilisateur"
+    },
+    "e83a497d7276": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-11T14:42:51+00:00",
+      "reason": null,
+      "source_sha256": "1013df0aa67528326f155b21fcc5c8d369b7c552bdfa0ae1ad65e7f15163139b",
+      "status": "not_confirmed",
+      "url": "https://parti-equinoxe.fr/legislatives-2022-programme-environnement/"
     },
     "ec2e2746a750": {
       "attempts": 1,
