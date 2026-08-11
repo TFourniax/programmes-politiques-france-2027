@@ -46,6 +46,17 @@ def test_backlog_keeps_programmatic_or_recent_urls():
     )
 
 
+def test_backlog_excludes_explicit_old_election_programmes():
+    assert not backlog_candidate(
+        "https://parti.fr/programme-europeennes-2024-mesure-9/",
+        {"lastmod": "2026-08-01T10:00:00Z"},
+    )
+    assert not backlog_candidate(
+        "https://parti.fr/presidentielle-2022/programme/",
+        {"lastmod": "2026-08-01T10:00:00Z"},
+    )
+
+
 def test_state_backlog_survives_daily_event_overwrite(tmp_path):
     state = {
         "last_run_at": "2026-08-11T08:00:00+00:00",
@@ -58,6 +69,11 @@ def test_state_backlog_survives_daily_event_overwrite(tmp_path):
             "https://parti.fr/archive-2019/": {
                 "first_seen_at": "2026-08-11T07:00:00+00:00",
                 "lastmod": "2019-01-01",
+                "owner": "Parti Test",
+            },
+            "https://parti.fr/programme-europeennes-2024/": {
+                "first_seen_at": "2026-08-11T07:00:00+00:00",
+                "lastmod": "2026-08-10T12:00:00Z",
                 "owner": "Parti Test",
             },
         },
