@@ -15,6 +15,7 @@ on:
       - 'scripts/daily_watch.py'
       - 'scripts/gdelt_watch.py'
       - 'scripts/social_watch.py'
+      - 'scripts/prune_social_profiles.py'
       - 'scripts/verify_social.py'
       - 'scripts/auto_promote.py'
       - 'scripts/auto_promote_runner.py'
@@ -24,6 +25,7 @@ on:
       - 'scripts/check_watch_health.py'
       - 'tests/test_auto_promote.py'
       - 'tests/test_auto_promote_runner.py'
+      - 'tests/test_prune_social_profiles.py'
       - 'tests/test_verify_social.py'
       - 'tests/test_repair_promotion_state.py'
       - 'tests/test_watch_health.py'
@@ -106,6 +108,9 @@ jobs:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
         run: python scripts/social_watch.py
 
+      - name: Expire social profiles no longer confirmed by official sites
+        run: python scripts/prune_social_profiles.py --stale-days 7
+
       - name: Verify social profile identities
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
@@ -135,6 +140,7 @@ jobs:
             tests/test_daily_watch.py \
             tests/test_gdelt_watch.py \
             tests/test_social_watch.py \
+            tests/test_prune_social_profiles.py \
             tests/test_verify_social.py \
             tests/test_auto_promote.py \
             tests/test_auto_promote_runner.py \
