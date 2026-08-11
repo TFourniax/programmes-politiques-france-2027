@@ -1,4 +1,4 @@
-version: 1
+version: 2
 enabled: true
 
 # La veille produit des pistes dans research/veille/. Elle ne modifie jamais
@@ -12,9 +12,12 @@ gdelt:
   enabled: true
   timespan: 1d
   max_entities: 60
-  max_records_per_entity: 12
+  batch_size: 6
+  max_records_per_batch: 75
   keep_per_entity: 3
-  request_delay_seconds: 0.15
+  request_delay_seconds: 1.5
+  max_retries: 3
+  retry_backoff_seconds: 4
   # Par défaut, GDELT sert de radar sur une liste de médias reconnus. Une URL
   # hors liste n'est pas promue automatiquement dans la boîte de réception.
   allow_unlisted_domains: false
@@ -48,16 +51,29 @@ gdelt:
 
 google_search_grounding:
   enabled: true
-  # Gemini 2.5 Flash-Lite dispose d'un quota gratuit de Search Grounding.
   # Le connecteur est automatiquement ignoré si GEMINI_API_KEY n'est pas défini.
   model: gemini-2.5-flash-lite
   max_entities: 60
   max_urls_per_entity: 5
   request_delay_seconds: 0.10
 
-# Réservé pour la phase suivante. Aucun appel X n'est effectué dans cette V1,
-# afin de conserver un coût strictement nul.
+# Bluesky est interrogé via l'AppView public, sans compte, token ni clé API.
+# Un profil n'est considéré officiel que s'il est lié depuis un site officiel
+# déjà suivi par le projet.
+bluesky:
+  enabled: true
+  max_posts_per_profile: 20
+
+# YouTube Data API fonctionne dans son quota gratuit. Les chaînes sont d'abord
+# découvertes depuis les sites officiels. La collecte est automatiquement
+# ignorée tant que YOUTUBE_API_KEY n'est pas défini.
+youtube:
+  enabled: true
+  max_videos_per_channel: 12
+
+# X est découvert depuis les sites officiels et enregistré dans le snapshot des
+# profils, mais aucune timeline X n'est appelée pour conserver un coût nul.
 x:
   enabled: false
-  mode: reserved
-  note: "Ajouter le connecteur X uniquement après définition d'un budget lecture explicite."
+  mode: discover_only
+  note: "Activer la lecture X uniquement après définition d'un budget lecture explicite."
