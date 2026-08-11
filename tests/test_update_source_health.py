@@ -3,7 +3,7 @@ import sys
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 
-from update_source_health import update_records  # noqa: E402
+from update_source_health import http_error_urls, update_records  # noqa: E402
 
 
 def target(url="https://parti.fr/"):
@@ -37,3 +37,15 @@ def test_success_resets_failure_counter():
     assert row["consecutive_failures"] == 0
     assert row["status"] == "ok"
     assert recovered["persistent_failure_count"] == 0
+
+
+def test_http_403_429_and_500_are_unavailable_sources():
+    state = {
+        "sources": {
+            "https://a.fr/": {"status": 200},
+            "https://b.fr/": {"status": 403},
+            "https://c.fr/": {"status": 429},
+            "https://d.fr/": {"status": 500},
+        }
+    }
+    assert http_error_urls(state) == {"https://b.fr/", "https://c.fr/", "https://d.fr/"}
