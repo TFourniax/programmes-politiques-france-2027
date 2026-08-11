@@ -14,12 +14,11 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 25
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
         with:
           node-version: '22'
-          cache: npm
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: '3.12'
           cache: pip
@@ -27,6 +26,13 @@ jobs:
         run: pip install -r requirements.txt
       - name: Install web dependencies
         run: npm install
+      - name: Preserve generated npm lockfile
+        uses: actions/upload-artifact@v7
+        with:
+          name: npm-lock
+          path: package-lock.json
+          if-no-files-found: error
+          retention-days: 1
       - name: Security audit
         run: npm audit --audit-level=high
       - name: Validate political data
