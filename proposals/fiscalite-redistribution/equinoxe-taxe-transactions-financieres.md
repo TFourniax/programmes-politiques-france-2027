@@ -5,8 +5,7 @@ topic: fiscalite-redistribution
 certainty: explicit_but_underspecified
 source_url: https://parti-equinoxe.fr/
 source_document_id: doc-equinoxe-2026-plateforme-mesures-phares
-proposal_status: superseded
-superseded_by: auto-equinoxe-fiscalite-redistribution-5cb5164cfc21
+proposal_status: current
 ---
 
 # Créer une taxe sur les transactions financières
