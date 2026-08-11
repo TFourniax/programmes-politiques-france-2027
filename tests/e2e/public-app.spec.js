@@ -36,7 +36,7 @@ test('personality, comparison, topic, history and quiz views load from corpus AP
   await historySelects.nth(1).selectOption('nucleaire');
   await expect(page.getByRole('heading', { name: 'Évolution documentée' })).toBeVisible();
   await expect(page.locator('.timelineEvent').first()).toBeVisible();
-  await expect(page.getByText(/ordre des dates seul|simple différence de date|n’est jamais interprété/i)).toBeVisible();
+  await expect(page.getByText(/ordre des dates seul|simple différence de date|n’est jamais interprété/i).first()).toBeVisible();
 
   await page.getByRole('button', { name: /^Quiz/ }).click();
   await expect(page.getByText('Quiz de compréhension')).toBeVisible();
