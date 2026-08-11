@@ -2,11 +2,10 @@
 
 ## Principe
 
-GitHub reste la source de vérité publique. La V1 ne répond pas directement depuis un résumé central : elle construit un index dérivé à partir des statuts structurés et du **contenu complet des fichiers Markdown** du corpus.
+GitHub reste la source de vérité publique. Le chatbot n’utilise pas un LLM pour rédiger librement une réponse politique : il reconstruit un index dérivé depuis les données canoniques, récupère des preuves par un moteur déterministe, puis compose une réponse extractive.
 
 ```text
 data/entities.json
-registries/*.yaml
 corpus/2027/**/*.md
 proposals/**/*.md
         ↓
@@ -14,85 +13,156 @@ scripts/build-search-index.mjs
         ↓
 data/search-index.json (généré, non versionné)
         ↓
-lib/retrieval.js
+BM25-like + ontologie + entités + nombres + relevance gates
         ↓
-8 passages maximum
+preuve suffisante ? ── oui ───────────────┐
+        │                                  │
+        non                                │
+        ↓                                  │
+mini-LLM de compréhension seulement       │
+        ↓                                  │
+mappings acteur/concept individuellement  │
+ancrés dans la question courante           │
+        ↓                                  │
+requête canonique                          │
+        ↓                                  │
+revalidation déterministe ─────────────────┘
         ↓
-app/api/chat/route.js
+composition extractive
         ↓
-LLM optionnel
-        ↓
-réponse + citations construites côté serveur
+citations par réponse + suggestions validées
 ```
+
+Aucun passage politique n’est donné au mini-LLM de secours pour qu’il « réponde ». Son rôle se limite à aider à mapper une formulation difficile vers des identifiants déjà connus.
 
 ## Construction de l'index
 
 Le script de build :
 
-1. charge `data/entities.json` pour les statuts des personnalités et profils des partis ;
+1. charge `data/entities.json` ;
 2. parcourt récursivement `corpus/2027/` et `proposals/` ;
-3. lit le frontmatter YAML utile ;
-4. découpe le corps Markdown par sections et paragraphes ;
+3. lit le frontmatter utile ;
+4. découpe le Markdown par sections et paragraphes ;
 5. génère des chunks chevauchants ;
-6. conserve pour chaque chunk le chemin GitHub, l'URL source, le niveau de source, le statut documentaire, le statut candidat, la date, la confiance et la certitude ;
-7. écrit `data/search-index.json`, artefact reconstructible et ignoré par Git.
+6. conserve le chemin GitHub, la source originale, les niveaux de preuve, dates et statuts ;
+7. conserve aussi les métadonnées de version `recordId`, `proposalStatus`, `supersedes`, `supersededBy` et les documents sources ;
+8. écrit `data/search-index.json`, artefact reconstructible.
 
-L'index est régénéré automatiquement via `predev` et `prebuild`.
+L'index est régénéré via `predev`, `prebuild` et avant la suite de QA retrieval.
 
-## Retrieval V1
+## Retrieval courant
 
-La V1 utilise une recherche lexicale pondérée sans service externe :
+Le moteur public utilise une recherche déterministe et locale :
 
-- normalisation des accents et de la casse ;
-- suppression de stopwords ;
-- pondération par rareté des termes dans le corpus ;
-- boost des correspondances dans le titre, l'entité, la section et les thèmes ;
-- détection d'intention simple : statut de candidature, programme, comparaison, demande de source ;
-- léger bonus aux sources primaires et éléments à confiance élevée ;
-- diversification pour éviter huit chunks du même fichier ou de la même entité.
+- normalisation des accents, casse et séparateurs de milliers ;
+- stopwords et normalisation morphologique légère ;
+- scoring inspiré de BM25 ;
+- boosts titre, section, thème, type de source et nature proposition/document ;
+- détection explicite des personnalités et partis avec alias sûrs ;
+- ontologie contrôlée séparant `aliases` de détection et `retrieval_terms` ;
+- anchors obligatoires pour certains concepts sensibles aux faux positifs ;
+- compatibilité stricte des nombres ;
+- détection des qualificatifs résiduels : un thème valide ne peut plus faire passer une restriction hors corpus ;
+- filtres stricts d’entité : demander une personnalité ne transfère jamais automatiquement le programme de son parti ;
+- diversification des résultats ;
+- refus explicite des classements subjectifs et des inférences par absence.
 
-Ce mécanisme est volontairement simple, auditable et reconstruisible. Il ne prétend pas encore être un BM25 + vector search complet.
+Les statuts `superseded`, `withdrawn`, `archived`, `rejected`, `draft` et historiques sont exclus du retrieval courant. Ils restent disponibles dans le mode Historique.
 
-## Garde-fous
+## Mini-LLM de secours
 
-- aucun accès web en direct pendant une réponse ;
-- le modèle reçoit uniquement les passages récupérés ;
-- aucune position n'est déduite d'une étiquette idéologique ;
-- programme de parti et programme personnel restent séparés ;
-- les cartes de sources sont construites par le serveur et non inventées par le LLM ;
-- les citations incluent le chemin GitHub et, lorsqu'elle existe, la source originale ;
-- les métadonnées exposent `sourceTier`, `confidence`, `certainty`, `candidateStatus` et `documentStatus` ;
-- si le corpus ne suffit pas, la réponse doit le dire ;
-- le contenu politique est traité comme donnée non fiable et ne peut jamais modifier les instructions système.
+Le fallback sémantique n’est tenté que si le moteur déterministe termine sur `insufficient_relevance` ou `empty_query`.
 
-## Packaging serveur
+Contraintes :
 
-`lib/retrieval.js` charge `data/search-index.json` par référence statique au module afin que Next.js puisse tracer et embarquer l'artefact dans le bundle serveur. Le fichier est généré juste avant la compilation.
+- `high confidence` obligatoire ;
+- JSON Schema strict ;
+- identifiants limités aux catalogues d’acteurs et concepts ;
+- chaque identifiant possède son propre `evidence_span` copié mot pour mot depuis la question actuelle ;
+- une entité doit être justifiée par son nom ou son alias ;
+- un concept doit être justifié par un fragment sémantique distinct du simple nom de l’acteur ;
+- aucun nombre absent de la question ne peut être injecté ;
+- les comparaisons doivent disposer de leurs acteurs explicites ou hérités du contexte déterministe ;
+- le résultat est transformé en requête canonique puis entièrement revalidé par le moteur déterministe ;
+- le fallback ne rédige jamais la réponse ;
+- timeout court, budget plus strict que le chat normal et circuit breaker après erreurs répétées.
 
-Cette propriété est importante pour les déploiements serverless, notamment Netlify/OpenNext et Vercel.
+Sans clé fournisseur, en cas de timeout, de quota ou de panne, le chatbot continue à fonctionner en mode déterministe et préfère répondre « aucune donnée pertinente » plutôt que d’inventer.
+
+## Composition de la réponse
+
+Le composeur :
+
+- sélectionne des phrases réellement présentes dans les preuves récupérées ;
+- peut utiliser un titre canonique de proposition versionné ;
+- élimine les titres de section et métadonnées techniques ;
+- déduplique les formulations proches ;
+- conserve la provenance par numéros de source ;
+- explicite les acteurs demandés pour lesquels aucune preuve n’a été retrouvée ;
+- n’interprète jamais une absence comme une opposition.
+
+Lorsque le fallback a seulement aidé à comprendre la formulation, l’interface l’indique explicitement tout en précisant que la réponse politique reste extractive et revalidée.
+
+## Suggestions contextuelles
+
+Les suggestions « Pour aller plus loin » ne sont pas générées librement. Elles sont construites à partir :
+
+1. du thème courant ;
+2. des acteurs présents dans la réponse ;
+3. des derniers thèmes/acteurs de la session ;
+4. uniquement de couples acteur × concept présents dans les versions actives du corpus.
+
+Chaque suggestion est rejouée dans le retrieval déterministe. Elle est supprimée si elle n’est pas répondable, si elle déclenche un refus ou si elle fuit vers une autre entité.
+
+Un petit `sessionContext` structuré peut être renvoyé par le navigateur, mais ses identifiants sont revalidés côté serveur et ne servent jamais directement de preuve factuelle.
+
+## Historique
+
+`lib/history.js` et `/api/history` lisent les mêmes données versionnées mais autorisent aussi les anciennes versions.
+
+La vue Historique :
+
+- filtre par acteur et éventuellement par thème ;
+- distingue versions actives et anciennes ;
+- expose dates, statuts et sources ;
+- affiche `supersedes` / `superseded_by` lorsqu’ils existent ;
+- ne déduit jamais un changement de position du seul ordre chronologique ;
+- garde le contexte de parti séparé lorsqu’on consulte une personnalité.
+
+Le corpus peut donc conserver l’historique sans contaminer la réponse « actuelle » du chatbot.
+
+## Sources en conversation
+
+Les citations sont stockées avec chaque message assistant. Les références `Source 1`, `Source 2`, etc. sont relatives à cette réponse précise ; sélectionner une source d’un ancien tour recharge ses propres citations dans la sidebar. Une nouvelle question ne peut donc plus modifier la signification d’un ancien numéro de source.
+
+## Sécurité et limites d’usage
+
+- aucun accès web en direct pendant une réponse politique ;
+- contenu politique traité comme donnée non fiable ;
+- payload question limité et historique tronqué ;
+- contexte de session borné et validé ;
+- détails internes de ranking non exposés intégralement au navigateur ;
+- rate limit Netlify Edge : 8 requêtes/minute par IP + domaine ;
+- défense en profondeur dans la route serveur ;
+- budget fallback plus strict ;
+- état des maps locales borné pour éviter une croissance mémoire illimitée ;
+- `/api/health` expose la disponibilité du moteur/fallback sans exposer les secrets.
 
 ## QA
 
-`scripts/test-retrieval.mjs` exécute un jeu de questions de référence avant le build :
+`npm run test:retrieval` reconstruit l’index puis exécute :
 
-- candidatures déclarées ;
-- retraite à 60 ans ;
-- SMIC à 1 700 € net ;
-- Retailleau / immigration / étudiants extra-européens ;
-- service citoyen de neuf mois et permis de conduire ;
-- requête hors sujet qui doit rester sans résultat.
+- retrieval historique existant ;
+- benchmark déterministe positif/négatif ;
+- fidélité extractive ;
+- audit adversarial ;
+- tests fallback et suggestions ;
+- hardening produit : versions actives, qualificatifs hors corpus, session, rate limit, historique ;
+- couverture ontologique des propositions actives ;
+- simulations de réponses.
 
-La CI échoue si ces invariants ne sont plus respectés.
+Playwright vérifie également l’API et l’interface desktop/mobile, y compris les parcours multi-tours, la séparation candidat/parti, l’historique et la stabilité des sources par réponse.
 
 ## Évolution
 
-Lorsque le corpus grandira, la prochaine étape pertinente sera de mesurer cette baseline puis d'ajouter uniquement si nécessaire :
-
-1. BM25 plus formel ;
-2. embeddings ;
-3. recherche hybride lexical + vectoriel ;
-4. reranking ;
-5. filtres structurés candidat/parti/thème/date/statut ;
-6. métriques de précision, rappel et qualité des citations.
-
-Ces index resteront dérivés : aucun service externe ne deviendra la source canonique.
+Le moteur reste volontairement sans embeddings tant que les métriques et les usages réels ne montrent pas de déficit nécessitant cette complexité. Si un vector search est ajouté un jour, il restera un index dérivé et soumis aux mêmes filtres de version, d’entité et de preuve ; GitHub restera la source canonique.
