@@ -12,9 +12,12 @@ gdelt:
   enabled: true
   timespan: 1d
   max_entities: 60
-  max_records_per_entity: 12
+  batch_size: 6
+  max_records_per_batch: 75
   keep_per_entity: 3
-  request_delay_seconds: 0.15
+  request_delay_seconds: 1.5
+  max_retries: 3
+  retry_backoff_seconds: 4
   # Par défaut, GDELT sert de radar sur une liste de médias reconnus. Une URL
   # hors liste n'est pas promue automatiquement dans la boîte de réception.
   allow_unlisted_domains: false
