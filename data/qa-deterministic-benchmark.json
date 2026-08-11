@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "positive": [
+    {"id":"exact-smic-2000","question":"Qui propose un SMIC à 2 000 euros ?","expectedAny":["proposals/pouvoir-achat-travail/anasse-kazib-smic-2000.md"]},
+    {"id":"exact-parcoursup","question":"Quel projet propose d'abroger Parcoursup ?","expectedAny":["proposals/services-publics/ps-abrogation-parcoursup.md"]},
+    {"id":"exact-nuclear","question":"Quel projet propose de construire 14 EPR et de lancer un plan SMR 2030 ?","expectedAny":["proposals/ecologie-energie/renaissance-14-epr-smr-2030.md"]},
+    {"id":"semantic-retirement-savings","question":"Qui veut mettre davantage d'épargne financière dans le système de retraites ?","expectedAny":["proposals/retraites/david-lisnard-capitalisation.md","proposals/retraites/renaissance-retraite-investissement.md"]},
+    {"id":"semantic-atom","question":"Quel projet veut développer fortement l'atome avec de nouveaux réacteurs ?","expectedAny":["proposals/ecologie-energie/renaissance-14-epr-smr-2030.md"]},
+    {"id":"semantic-postbac","question":"Qui veut remplacer la sélection post-bac actuelle par un autre système public ?","expectedAny":["proposals/services-publics/ps-abrogation-parcoursup.md"]},
+    {"id":"semantic-carbon-budget","question":"Qui veut attribuer à chacun un budget personnel d'émissions de CO2 ?","expectedAny":["proposals/ecologie-energie/equinoxe-quotas-carbone-individuels.md"]},
+    {"id":"semantic-living-standard","question":"Quelles propositions visent à améliorer le niveau de vie grâce aux salaires ?","expectedAny":["proposals/pouvoir-achat-travail/anasse-kazib-smic-2000.md","proposals/pouvoir-achat-travail/ps-smic-1690.md"]},
+    {"id":"semantic-immigration-programming","question":"Quelle proposition concerne une loi de programmation de l'immigration sur plusieurs années ?","expectedAny":["proposals/immigration-integration/ps-loi-pluriannuelle-immigration.md"]},
+    {"id":"semantic-digital-curfew","question":"Qui veut couper l'accès numérique des mineurs pendant la nuit ?","expectedAny":["proposals/securite-justice/renaissance-couvre-feu-numerique-mineurs.md"]},
+    {"id":"entity-semantic-university","question":"Comment le PS veut-il réformer l'accès à l'université ?","expectedAny":["proposals/services-publics/ps-abrogation-parcoursup.md"]},
+    {"id":"semantic-retirement-hardjobs","question":"Qui veut permettre aux métiers pénibles de partir plus tôt à la retraite ?","expectedAny":["proposals/retraites/anasse-kazib-60-55.md"]}
+  ],
+  "negative": [
+    "Parle-moi de Formule 1",
+    "Donne-moi des exemples de maladies type IST",
+    "Quelle est la meilleure recette de tiramisu ?",
+    "Quel est le score du PSG ce soir ?",
+    "Quel temps fera-t-il demain à Marseille ?",
+    "Quel est le prix du Bitcoin aujourd'hui ?",
+    "Quel iPhone dois-je acheter ?",
+    "Apprends-moi les accords de guitare",
+    "Quels sont les candidats de Formule 1 ?",
+    "Que propose le PS sur la maladie de Lyme ?"
+  ]
+}
