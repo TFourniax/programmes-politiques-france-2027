@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import { retrieveDeterministic } from "../../../lib/retrieval-v2.js";
-import { composeDeterministicAnswer } from "../../../lib/deterministic-answer.js";
+import { composeDeterministicAnswer } from "../../../lib/deterministic-answer-v2.js";
 import {
   candidateEvidence,
   classifyQuestion,
