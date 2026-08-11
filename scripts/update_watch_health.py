@@ -23,13 +23,15 @@ def load_json(path: Path, default: Any) -> Any:
         return default
 
 
-def main() -> None:
-    base = ROOT / "research" / "veille"
-    state = load_json(base / "state.json", {})
-    promotion = load_json(base / "promotion-state.json", {})
-    social_promotion = load_json(base / "social-promotion-state.json", {})
-    previous = load_json(base / "health.json", {})
-
+def build_health(
+    state: dict[str, Any],
+    promotion: dict[str, Any],
+    social_promotion: dict[str, Any],
+    previous: dict[str, Any],
+    gemini_available: bool,
+    generated_at: str | None = None,
+) -> dict[str, Any]:
+    stamp = generated_at or iso_now()
     source_states = list((promotion.get("sources") or {}).values())
     social_states = list((social_promotion.get("events") or {}).values())
     technical_errors = sum(1 for row in source_states + social_states if row.get("status") == "technical_error")
@@ -37,15 +39,14 @@ def main() -> None:
     deferred_sources = sum(1 for row in source_states if row.get("status") == "deferred")
     pending_work = partial_sources + deferred_sources + technical_errors
 
-    gemini_available = os.environ.get("GEMINI_AVAILABLE", "true").strip().lower() == "true"
     if gemini_available:
         gemini_unavailable_since = None
     elif previous.get("gemini_available") is False and previous.get("gemini_unavailable_since"):
         gemini_unavailable_since = previous["gemini_unavailable_since"]
     else:
-        gemini_unavailable_since = iso_now()
+        gemini_unavailable_since = stamp
 
-    collection_at = state.get("last_run_at") or iso_now()
+    collection_at = state.get("last_run_at") or stamp
     reasons = []
     if not gemini_available:
         reasons.append("gemini_unavailable_promotion_deferred")
@@ -54,9 +55,9 @@ def main() -> None:
     if state.get("last_run_error_count"):
         reasons.append(f"{state.get('last_run_error_count')}_official_source_warning(s)")
 
-    health = {
+    return {
         "version": 1,
-        "generated_at": iso_now(),
+        "generated_at": stamp,
         "status": "healthy" if not reasons else "degraded",
         "last_collection_success_at": collection_at,
         "last_gdelt_run_at": state.get("last_gdelt_run_at"),
@@ -72,10 +73,21 @@ def main() -> None:
         "pending_work": pending_work,
         "reasons": reasons,
     }
+
+
+def main() -> None:
+    base = ROOT / "research" / "veille"
+    state = load_json(base / "state.json", {})
+    promotion = load_json(base / "promotion-state.json", {})
+    social_promotion = load_json(base / "social-promotion-state.json", {})
+    previous = load_json(base / "health.json", {})
+    gemini_available = os.environ.get("GEMINI_AVAILABLE", "true").strip().lower() == "true"
+
+    health = build_health(state, promotion, social_promotion, previous, gemini_available)
     base.mkdir(parents=True, exist_ok=True)
     (base / "health.json").write_text(json.dumps(health, ensure_ascii=False, indent=2, sort_keys=True) + "\n", encoding="utf-8")
     print(
-        f"Watch health: {health['status']} | pending={pending_work} | "
+        f"Watch health: {health['status']} | pending={health['pending_work']} | "
         f"Gemini={'ok' if gemini_available else 'deferred'}"
     )
 
