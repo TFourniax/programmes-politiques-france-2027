@@ -45,6 +45,7 @@ export async function GET() {
         semanticFallback: {
           enabled: fallback.enabled,
           configured: fallback.configured,
+          providerHost: fallback.providerHost,
           model: fallback.model,
           timeoutMs: fallback.timeoutMs,
           circuitOpen: fallback.circuitOpen,
