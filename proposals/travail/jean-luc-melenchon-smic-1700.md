@@ -1,7 +1,7 @@
 ---
 proposal_id: prop-lfi-smic-1700
 entity_id: la-france-insoumise
-topic: travail
+topic: pouvoir-achat-travail
 certainty: explicit
 source_url: https://programme.lafranceinsoumise.fr/programme2025/livre/chapitre7/s1/
 source_document_id: doc-lfi-laec-programme-continu
