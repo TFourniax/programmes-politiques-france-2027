@@ -1,0 +1,14 @@
+.modeSwitcherWide{grid-template-columns:repeat(7,minmax(0,1fr))}
+
+.answerSources button{font:inherit;font-size:8.5px;color:var(--accent);border:1px solid rgba(227,255,96,.2);background:var(--accent-soft);border-radius:999px;padding:3px 6px;cursor:pointer;transition:border-color .15s ease,background .15s ease}
+.answerSources button:hover,.answerSources button:focus-visible{border-color:rgba(227,255,96,.55);background:rgba(227,255,96,.17);outline:none}
+.answerSources button:focus-visible{box-shadow:0 0 0 2px rgba(227,255,96,.12)}
+
+.historyFilters{display:grid;grid-template-columns:1fr;gap:8px;width:100%}
+.historyFilters .explorerSelectLabel{min-width:0}
+.candidateProfileHero>h3{margin:4px 0 8px;font-size:25px;letter-spacing:-.03em}
+.candidateProfileHero>p{max-width:760px;margin:0;color:#c7d1df;font-size:11px;line-height:1.55}
+.timelineBody .answerNote{margin-top:8px}
+
+@media(max-width:1100px){.modeSwitcherWide{grid-template-columns:repeat(4,1fr)}}
+@media(max-width:650px){.modeSwitcherWide{grid-template-columns:repeat(2,1fr)}}
