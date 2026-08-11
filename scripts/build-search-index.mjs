@@ -221,7 +221,11 @@ for (const file of markdownFiles) {
   const title = meta.title || cleanMarkdown(body.match(/^#\s+(.+)$/m)?.[1] || path.basename(file, '.md'));
   const sourceUrl = meta.source_url || meta.primary_source_url || null;
   const proposalStatus = isProposal ? (meta.proposal_status || null) : null;
-  const documentStatus = meta.document_status || proposalStatus || (isProposal ? 'current' : 'unknown');
+  // A proposal's own lifecycle is authoritative for current-vs-history filtering.
+  // document_status is still retained as a fallback for legacy proposal files that do not yet expose proposal_status.
+  const documentStatus = isProposal
+    ? (proposalStatus || meta.document_status || 'current')
+    : (meta.document_status || 'unknown');
   const topics = [meta.topic, meta.subtopic, meta.document_type, documentStatus].flat().filter(Boolean);
   const blocks = sectionedParagraphs(body);
   const bodyChunks = chunkBlocks(blocks);
