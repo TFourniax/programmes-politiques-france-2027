@@ -44,8 +44,13 @@ const lisnardSchool = top('Qui veut supprimer la carte scolaire ?', { limit: 8, 
 assert.ok(includesPath(lisnardSchool, 'david-lisnard-suppression-carte-scolaire.md'));
 const psParcoursup = top('Quel programme veut abroger Parcoursup ?', { limit: 8, minScore: 1.2 });
 assert.ok(includesPath(psParcoursup, 'ps-abrogation-parcoursup.md'));
+const psAliasParcoursup = top('Que propose le PS sur Parcoursup ?', { limit: 8, minScore: 1.2 });
+assert.ok(includesPath(psAliasParcoursup, 'ps-abrogation-parcoursup.md'));
 const retirement = top('Qui propose la retraite à 60 ans ?', { limit: 10, minScore: 1.2 });
 assert.ok(retirement.some((item) => /60 ans/.test(item.text)));
+const retirementNatural = retrieve('Parle-moi des retraites', { limit: 8 });
+assert.equal(retirementNatural.debug.answerable, true);
+assert.ok(retirementNatural.results.length > 0);
 
 const renaissanceCurfew = top('Quel projet propose un couvre-feu numérique pour les 15-18 ans entre 22 h et 8 h ?', { limit: 8, minScore: 1.2 });
 assert.ok(includesPath(renaissanceCurfew, 'renaissance-couvre-feu-numerique-mineurs.md'));
@@ -57,6 +62,25 @@ const renaissanceNuclear = top('Quel projet propose de construire 14 EPR et de l
 assert.ok(includesPath(renaissanceNuclear, 'renaissance-14-epr-smr-2030.md'));
 const nuclearProposal = renaissanceNuclear.find((item) => item.citation.path.includes('renaissance-14-epr-smr-2030.md'));
 assert.equal(nuclearProposal?.citation.entityId, 'renaissance');
+
+// Natural out-of-corpus questions must return nothing instead of the least-bad political chunks.
+const formulaOne = retrieve('Parle moi de formule 1', { limit: 8 });
+assert.equal(formulaOne.results.length, 0);
+assert.equal(formulaOne.debug.answerable, false);
+assert.equal(formulaOne.debug.reason, 'insufficient_relevance');
+
+const medicalIst = retrieve('Donne moi des exemples de maladies type « IST »', { limit: 8 });
+assert.equal(medicalIst.results.length, 0);
+assert.equal(medicalIst.debug.answerable, false);
+
+// Candidate-list mode is also scope-gated: the word "candidat" alone is not enough.
+const formulaCandidates = retrieve('Quels sont les candidats de Formule 1 ?', { limit: 3 });
+assert.equal(formulaCandidates.results.length, 0);
+assert.equal(formulaCandidates.debug.answerable, false);
+
+const politicalCandidates = retrieve('Quels sont les candidats officiels ?', { limit: 3 });
+assert.equal(politicalCandidates.debug.answerable, true);
+assert.ok(politicalCandidates.results.length > 0);
 
 const nonsense = top('zyxqv blorptastic quasarbanane', { limit: 8, minScore: 4 });
 assert.equal(nonsense.length, 0);
