@@ -3,7 +3,7 @@ proposal_id: prop-retailleau-referendum-immigration
 entity_id: bruno-retailleau
 entity_type: candidate
 election: presidentielle-france-2027
-topic: institutions
+topic: institutions-democratie
 subtopic: referendum-immigration
 proposal_type: policy_proposal
 proposal_status: current
