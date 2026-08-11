@@ -1,7 +1,7 @@
 ---
 proposal_id: prop-dlf-referendums
 entity_id: debout-la-france
-topic: institutions
+topic: institutions-democratie
 certainty: explicit_but_underspecified
 source_url: https://www.debout-la-france.fr/projet/
 source_document_id: doc-dlf-programme-2027-en-cours
