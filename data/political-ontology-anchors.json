@@ -1,6 +1,8 @@
 {
-  "version": 1,
+  "version": 2,
   "anchors": {
-    "quotas-carbone": ["quota", "quotas", "individuel", "individuels"]
+    "quotas-carbone": ["quota", "quotas", "individuel", "individuels"],
+    "carte-scolaire": ["carte", "scolaire", "affectation"],
+    "couvre-feu-numerique": ["couvre", "22", "8", "mineur", "mineurs"]
   }
 }
