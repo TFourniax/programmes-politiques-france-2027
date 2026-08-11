@@ -25,6 +25,7 @@ export const dynamic = "force-dynamic";
 const ENGINE = "deterministic-bm25-ontology-v4";
 const windows = new Map();
 const fallbackWindows = new Map();
+const MAX_LOCAL_WINDOWS = 4096;
 
 function clientKey(request) {
   return request.headers.get("x-nf-client-connection-ip")
@@ -32,8 +33,21 @@ function clientKey(request) {
     || "local";
 }
 
+function pruneWindowStore(store, now) {
+  if (store.size < MAX_LOCAL_WINDOWS / 2) return;
+  for (const [key, value] of store) {
+    if (!value || value.expiresAt < now) store.delete(key);
+  }
+  while (store.size > MAX_LOCAL_WINDOWS) {
+    const oldest = store.keys().next().value;
+    if (oldest === undefined) break;
+    store.delete(oldest);
+  }
+}
+
 function windowLimited(store, key, limit, durationMs) {
   const now = Date.now();
+  pruneWindowStore(store, now);
   const current = store.get(key);
   if (!current || current.expiresAt < now) {
     store.set(key, { count: 1, expiresAt: now + durationMs });
