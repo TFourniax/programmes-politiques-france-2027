@@ -25,10 +25,11 @@ CERTAINTIES = {
     "inferred_from_multiple_explicit_statements", "attributed_by_secondary_source", "uncertain"
 }
 RIGHTS = {"open_license", "public_domain", "permission_granted", "quotation_only", "link_only", "unknown", "restricted"}
-TOPICS = {
+PROPOSAL_TOPICS = {
     "pouvoir-achat-travail", "retraites", "fiscalite-redistribution", "immigration-integration", "europe-souverainete",
     "ecologie-energie", "institutions-democratie", "services-publics", "securite-justice", "economie-finances"
 }
+TOPIC_SLUG = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
 PRIMARY_TIERS = {"tier_1_primary_official", "tier_2_primary_statement"}
 MIN_CANDIDATES = 40
 MIN_PARTIES = 25
@@ -151,9 +152,12 @@ def validate_documents(entity_ids: set[str]) -> set[str]:
         if meta.get("rights_status") not in RIGHTS:
             raise AssertionError(f"Invalid or missing rights_status in {path}: {meta.get('rights_status')}")
         assert_url(meta.get("source_url"), f"document {doc_id}")
-        for topic in meta.get("topics") or []:
-            if topic not in TOPICS:
-                raise AssertionError(f"Invalid topic in {path}: {topic}")
+        document_topics = meta.get("topics") or []
+        if not isinstance(document_topics, list):
+            raise AssertionError(f"Document topics must be a list in {path}")
+        for topic in document_topics:
+            if not isinstance(topic, str) or not TOPIC_SLUG.fullmatch(topic):
+                raise AssertionError(f"Invalid document topic slug in {path}: {topic}")
         if not body.strip() or len(re.sub(r"\s+", " ", body).strip()) < 80:
             raise AssertionError(f"Document body too shallow: {path}")
     return document_ids
@@ -172,7 +176,7 @@ def validate_proposals(entity_ids: set[str], document_ids: set[str]) -> int:
         proposal_ids.add(proposal_id)
         if meta.get("entity_id") not in entity_ids:
             raise AssertionError(f"Unknown proposal entity in {path}: {meta.get('entity_id')}")
-        if meta.get("topic") not in TOPICS:
+        if meta.get("topic") not in PROPOSAL_TOPICS:
             raise AssertionError(f"Invalid proposal topic in {path}: {meta.get('topic')}")
         if meta.get("certainty") not in CERTAINTIES:
             raise AssertionError(f"Invalid certainty in {path}: {meta.get('certainty')}")
