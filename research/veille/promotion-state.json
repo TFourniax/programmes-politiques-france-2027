@@ -15,6 +15,11 @@
       "source_url": "https://rassemblementnational.fr/",
       "verified_at": "2026-08-11T08:56:04+00:00"
     },
+    "5cb5164cfc21cb9db20760098e5099452dcd853006f319d4ac9d5814b4a025eb": {
+      "proposal_id": "auto-equinoxe-fiscalite-redistribution-5cb5164cfc21",
+      "source_url": "https://parti-equinoxe.fr/programme-europeennes-2024-mesure-phare-9-finance/",
+      "verified_at": "2026-08-11T09:26:40+00:00"
+    },
     "650411362d03872861a7f4d286f571acb362877abed12c6e252c0d6cc9a64d61": {
       "proposal_id": "auto-rassemblement-national-fiscalite-redistribution-650411362d03",
       "source_url": "https://rassemblementnational.fr/",
@@ -43,8 +48,15 @@
   },
   "last_error_count": 0,
   "last_processed_count": 4,
-  "last_run_at": "2026-08-11T08:56:11+00:00",
+  "last_run_at": "2026-08-11T09:26:40+00:00",
   "sources": {
+    "20d46eb53f88": {
+      "processed_at": "2026-08-11T09:26:34+00:00",
+      "reason": null,
+      "source_sha256": "a124d68fa237b3543e9b1ee7a470f26edc1af0d85f2640ae2f87478ca4acca23",
+      "status": "no_canonical_data",
+      "url": "https://parti-equinoxe.fr/programme-europeennes-2024-mesure-phare-10-legislation/"
+    },
     "549dcbd84e3e": {
       "processed_at": "2026-08-11T08:56:10+00:00",
       "reason": null,
@@ -72,6 +84,27 @@
       "source_sha256": "5c0ab2abebb587e9620894f29a509c80ee245bb9671e5332f52874d73c1dfdab",
       "status": "no_canonical_data",
       "url": "https://www.revolutionpermanente.fr/"
+    },
+    "b9ea09e1f9b0": {
+      "processed_at": "2026-08-11T09:26:30+00:00",
+      "reason": null,
+      "source_sha256": "4643ceed4fc849e61634cb89611d8d6b0ffffabb1a2df95845e19e65456585a2",
+      "status": "no_canonical_data",
+      "url": "https://parti-equinoxe.fr/programme-europeennes-2024-mesure-phare-3-numerique/"
+    },
+    "c8dcd8ecba07": {
+      "processed_at": "2026-08-11T09:26:40+00:00",
+      "reason": null,
+      "source_sha256": "7585ecc99afb81b4868b5c8551f936414c53406599156c683d123c3ef7efdee2",
+      "status": "promoted",
+      "url": "https://parti-equinoxe.fr/programme-europeennes-2024-mesure-phare-9-finance/"
+    },
+    "db015b4b553e": {
+      "processed_at": "2026-08-11T09:26:23+00:00",
+      "reason": null,
+      "source_sha256": "2a895e30a04270a8d517c82d52f61fa44ee53015c7eae1ecadd75c168abedd50",
+      "status": "no_canonical_data",
+      "url": "http://lesecologistes.fr/forms/6P5URUdvFPSAmDwnWlQcCh/formation-donner-du-souffle-a-notre-programme-du-catalogue-de-mesures-au-recit-mobilisateur"
     }
   },
   "version": 1
