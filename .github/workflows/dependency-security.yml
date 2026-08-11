@@ -1,0 +1,88 @@
+name: Dependency security watch
+
+on:
+  schedule:
+    - cron: '11 3 * * 1'
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - 'requirements.txt'
+      - 'package.json'
+      - 'package-lock.json'
+      - '.github/workflows/dependency-security.yml'
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: dependency-security-watch
+  cancel-in-progress: true
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '22'
+          cache: npm
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - name: Install Node dependencies
+        run: npm ci
+
+      - name: Audit npm dependencies
+        id: npm_audit
+        continue-on-error: true
+        run: npm audit --audit-level=high
+
+      - name: Install Python audit tooling
+        run: |
+          pip install -r requirements.txt
+          pip install pip-audit
+
+      - name: Audit Python dependencies
+        id: python_audit
+        continue-on-error: true
+        run: pip-audit -r requirements.txt
+
+      - name: Open or refresh dependency incident
+        if: github.event_name != 'pull_request' && (steps.npm_audit.outcome == 'failure' || steps.python_audit.outcome == 'failure')
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TITLE: '[AUTO] Vulnérabilité de dépendance détectée'
+        shell: bash
+        run: |
+          issue="$(gh issue list --state open --search "$TITLE in:title" --json number --jq '.[0].number // empty')"
+          body="L'audit automatique hebdomadaire a détecté au moins une vulnérabilité de niveau bloquant dans les dépendances Node ou Python. Consulter l'Action Dependency security watch pour le détail."
+          if [ -z "$issue" ]; then
+            gh issue create --title "$TITLE" --body "$body"
+          else
+            gh issue comment "$issue" --body "Nouvel échec de l'audit à $(date -u +%FT%TZ)."
+          fi
+
+      - name: Close recovered dependency incident
+        if: github.event_name != 'pull_request' && steps.npm_audit.outcome == 'success' && steps.python_audit.outcome == 'success'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TITLE: '[AUTO] Vulnérabilité de dépendance détectée'
+        shell: bash
+        run: |
+          issue="$(gh issue list --state open --search "$TITLE in:title" --json number --jq '.[0].number // empty')"
+          if [ -n "$issue" ]; then
+            gh issue close "$issue" --comment "Les audits npm et Python sont de nouveau verts à $(date -u +%FT%TZ)."
+          fi
+
+      - name: Enforce dependency security gate
+        if: steps.npm_audit.outcome == 'failure' || steps.python_audit.outcome == 'failure'
+        run: |
+          echo "At least one dependency security audit failed."
+          exit 1

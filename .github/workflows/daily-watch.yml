@@ -19,11 +19,13 @@ on:
       - 'scripts/auto_promote.py'
       - 'scripts/auto_promote_runner.py'
       - 'scripts/promote_social.py'
+      - 'scripts/repair_promotion_state.py'
       - 'scripts/update_watch_health.py'
       - 'scripts/check_watch_health.py'
       - 'tests/test_auto_promote.py'
       - 'tests/test_auto_promote_runner.py'
       - 'tests/test_verify_social.py'
+      - 'tests/test_repair_promotion_state.py'
       - 'tests/test_watch_health.py'
 
 permissions:
@@ -49,6 +51,9 @@ jobs:
 
       - name: Install Python dependencies
         run: pip install -r requirements.txt
+
+      - name: Repair persisted promotion state
+        run: python scripts/repair_promotion_state.py
 
       - name: Probe Gemini without blocking collection
         id: gemini
@@ -133,6 +138,7 @@ jobs:
             tests/test_verify_social.py \
             tests/test_auto_promote.py \
             tests/test_auto_promote_runner.py \
+            tests/test_repair_promotion_state.py \
             tests/test_watch_health.py
 
       - name: Detect canonical changes
