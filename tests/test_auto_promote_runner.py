@@ -9,8 +9,10 @@ from auto_promote_runner import (  # noqa: E402
     VERIFICATION_SCHEMA,
     backlog_candidate,
     current_cycle_event,
+    date_supported_by_source,
     schema_for_prompt,
     state_backlog_events,
+    strict_sanitize,
 )
 
 
@@ -30,6 +32,68 @@ def test_verifier_schema_is_closed_and_conservative():
     assert set(verdict["properties"]["verdict"]["enum"]) == {"CONFIRMED", "REJECTED", "AMBIGUOUS"}
     assert "CONTRADICTS" in verdict["properties"]["relation"]["enum"]
     assert verdict["additionalProperties"] is False
+
+
+def test_model_date_must_exist_in_source_text():
+    text = "Communiqué publié le 11 août 2026. Notre projet sera présenté à la rentrée."
+    assert date_supported_by_source("2026-08-11", text)
+    assert not date_supported_by_source("2026-08-12", text)
+    assert date_supported_by_source("2026-08-11", "Mise à jour : 11/08/2026")
+
+
+def test_sanitize_drops_hallucinated_dates_but_keeps_supported_claim():
+    allowed = [{"id": "parti-x", "type": "party", "name": "Parti X"}]
+    raw = {
+        "source_title": "Projet",
+        "document_type": "party_programme",
+        "published_at": "2026-08-12",
+        "claims": [{
+            "actor_id": "parti-x",
+            "actor_type": "party",
+            "topic": "retraites",
+            "statement": "Le parti propose une réforme explicite du système de retraites par répartition.",
+            "evidence_quote": "réforme explicite du système de retraites",
+            "certainty": "explicit",
+            "relevance": "party_platform",
+        }],
+        "status_updates": [],
+    }
+    claims, statuses, doc_type, published = strict_sanitize(
+        raw,
+        "Publié le 11 août 2026. Nous proposons une réforme explicite du système de retraites.",
+        allowed,
+        8,
+    )
+    assert len(claims) == 1
+    assert statuses == []
+    assert doc_type == "party_programme"
+    assert published is None
+
+
+def test_sanitize_rejects_status_when_effective_date_is_not_in_source():
+    allowed = [{"id": "alice", "type": "candidate", "name": "Alice Martin"}]
+    raw = {
+        "source_title": "Candidature",
+        "document_type": "candidacy_declaration",
+        "published_at": "2026-08-11",
+        "claims": [],
+        "status_updates": [{
+            "candidate_id": "alice",
+            "new_status": "declared_presidential",
+            "effective_date": "2026-08-12",
+            "evidence_quote": "je suis candidate à l'élection présidentielle",
+            "explicit": True,
+        }],
+    }
+    claims, statuses, _, published = strict_sanitize(
+        raw,
+        "Le 11 août 2026, je suis candidate à l'élection présidentielle.",
+        allowed,
+        8,
+    )
+    assert claims == []
+    assert statuses == []
+    assert published == "2026-08-11"
 
 
 def test_backlog_keeps_programmatic_or_recent_urls():
