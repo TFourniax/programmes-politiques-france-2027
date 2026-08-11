@@ -1,9 +1,15 @@
 {
   "discovery_seen_urls": {},
   "feeds": {},
-  "last_run_at": "2026-08-11T06:58:05+00:00",
-  "last_run_error_count": 35,
-  "last_run_event_count": 5,
+  "last_gdelt_event_count": 0,
+  "last_gdelt_request_count": 6,
+  "last_gdelt_run_at": "2026-08-11T07:14:55+00:00",
+  "last_run_at": "2026-08-11T07:10:55+00:00",
+  "last_run_error_count": 1,
+  "last_run_event_count": 118,
+  "last_social_event_count": 0,
+  "last_social_profile_count": 35,
+  "last_social_run_at": "2026-08-11T07:15:12+00:00",
   "official_seen_urls": {
     "http://lesecologistes.fr/document/18CTGbDRkzn7XaKkp61X04/huma2024-programme-lesecologistes.pdf": {
       "first_seen_at": "2026-08-11T06:53:37+00:00",
@@ -980,6 +986,71 @@
       "lastmod": "2024-06-05T22:20:16+00:00",
       "owner": "Équinoxe"
     },
+    "https://parti-equinoxe.fr/agriculteurs-en-colere-nos-propositions/": {
+      "first_seen_at": "2026-08-11T07:09:57+00:00",
+      "lastmod": "2024-05-20T20:31:26+00:00",
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/allocution-presidentielle-nouveau-gouvernement-vieilles-idees/": {
+      "first_seen_at": "2026-08-11T07:09:57+00:00",
+      "lastmod": "2024-01-25T09:29:41+00:00",
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/articles/2022/05/la-transition-energetique-selon-les-ex-candidats-a-la-presidentielle-2/": {
+      "first_seen_at": "2026-08-11T07:09:57+00:00",
+      "lastmod": null,
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/articles/2022/07/linclusion-du-gaz-et-du-nucleaire-dans-la-taxonomie-europeenne/": {
+      "first_seen_at": "2026-08-11T07:09:57+00:00",
+      "lastmod": null,
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/articles/2022/11/l-inclusion-du-gaz-et-du-nucleaire-dans-la-taxonomie-europeenne/": {
+      "first_seen_at": "2026-08-11T07:09:57+00:00",
+      "lastmod": null,
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/articles/2023/06/les-ecrans-et-les-francais-une-exposition-demesuree/": {
+      "first_seen_at": "2026-08-11T07:09:57+00:00",
+      "lastmod": null,
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/articles/2023/10/la69-un-projet-anachronique/": {
+      "first_seen_at": "2026-08-11T07:09:57+00:00",
+      "lastmod": null,
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/articles/2024/01/allocution-presidentielle-nouveau-gouvernement-vieilles-idees/": {
+      "first_seen_at": "2026-08-11T07:09:57+00:00",
+      "lastmod": null,
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/articles/2024/02/agriculteurs-en-colere-la-faute-a-lecologie/": {
+      "first_seen_at": "2026-08-11T07:09:57+00:00",
+      "lastmod": null,
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/articles/2024/02/agriculteurs-en-colere-nos-propositions/": {
+      "first_seen_at": "2026-08-11T07:09:57+00:00",
+      "lastmod": null,
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/articles/2024/03/deux-membres-dequinoxe-interviewes-au-parlement-europeen/": {
+      "first_seen_at": "2026-08-11T07:09:57+00:00",
+      "lastmod": null,
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/cest-quoi-les-elections-europeennes/": {
+      "first_seen_at": "2026-08-11T07:09:57+00:00",
+      "lastmod": "2024-05-20T20:24:42+00:00",
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/combien-de-tours-y-a-t-il-aux-elections-europeennes/": {
+      "first_seen_at": "2026-08-11T07:09:57+00:00",
+      "lastmod": "2024-05-17T12:11:05+00:00",
+      "owner": "Équinoxe"
+    },
     "https://parti-equinoxe.fr/comment-voter-aux-elections-europeennes/": {
       "first_seen_at": "2026-08-11T06:53:50+00:00",
       "lastmod": "2024-06-06T07:50:46+00:00",
@@ -1000,9 +1071,24 @@
       "lastmod": "2026-01-09T21:42:55+00:00",
       "owner": "Équinoxe"
     },
+    "https://parti-equinoxe.fr/ecologie-nucleaire-sortir-du-tabou/": {
+      "first_seen_at": "2026-08-11T07:09:57+00:00",
+      "lastmod": "2024-05-27T20:07:20+00:00",
+      "owner": "Équinoxe"
+    },
     "https://parti-equinoxe.fr/election-presidentielle-americaine-quels-enjeux-pour-leurope-et-la-france/": {
       "first_seen_at": "2026-08-11T06:53:50+00:00",
       "lastmod": "2025-11-06T19:18:07+00:00",
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/elections/": {
+      "first_seen_at": "2026-08-11T07:09:57+00:00",
+      "lastmod": null,
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/europeennes-2024-liste/": {
+      "first_seen_at": "2026-08-11T07:09:57+00:00",
+      "lastmod": null,
       "owner": "Équinoxe"
     },
     "https://parti-equinoxe.fr/europeennes-2024-programme-cohesion/": {
@@ -1010,9 +1096,59 @@
       "lastmod": "2025-01-13T22:35:15+00:00",
       "owner": "Équinoxe"
     },
+    "https://parti-equinoxe.fr/europeennes-2024-programme-democratie/": {
+      "first_seen_at": "2026-08-11T07:09:57+00:00",
+      "lastmod": null,
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/europeennes-2024-programme-economie/": {
+      "first_seen_at": "2026-08-11T07:09:57+00:00",
+      "lastmod": null,
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/europeennes-2024-programme-environnement/": {
+      "first_seen_at": "2026-08-11T07:09:57+00:00",
+      "lastmod": null,
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/europeennes-2024-programme-international/": {
+      "first_seen_at": "2026-08-11T07:09:57+00:00",
+      "lastmod": null,
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/europeennes-2024-programme-technique/": {
+      "first_seen_at": "2026-08-11T07:09:57+00:00",
+      "lastmod": null,
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/europeennes-2024-programme/": {
+      "first_seen_at": "2026-08-11T07:09:57+00:00",
+      "lastmod": null,
+      "owner": "Équinoxe"
+    },
     "https://parti-equinoxe.fr/europeennes-2024/": {
       "first_seen_at": "2026-08-11T06:53:50+00:00",
       "lastmod": "2026-07-31T18:08:39+00:00",
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/faut-il-opposer-agroecologie-et-agriculture-conventionnelle/": {
+      "first_seen_at": "2026-08-11T07:09:57+00:00",
+      "lastmod": "2024-05-20T20:29:45+00:00",
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/l-inclusion-du-gaz-et-du-nucleaire-dans-la-taxonomie-europeenne/": {
+      "first_seen_at": "2026-08-11T07:09:57+00:00",
+      "lastmod": "2024-05-05T21:53:22+00:00",
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/la-transition-energetique-selon-les-ex-candidats-a-la-presidentielle-2/": {
+      "first_seen_at": "2026-08-11T07:09:57+00:00",
+      "lastmod": "2024-05-05T21:55:19+00:00",
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/la69-un-projet-anachronique/": {
+      "first_seen_at": "2026-08-11T07:09:57+00:00",
+      "lastmod": "2024-05-12T17:09:19+00:00",
       "owner": "Équinoxe"
     },
     "https://parti-equinoxe.fr/le-projet/": {
@@ -1043,6 +1179,46 @@
     "https://parti-equinoxe.fr/legislative-partielle-2025-isere/programme-sante/": {
       "first_seen_at": "2026-08-11T06:53:50+00:00",
       "lastmod": "2025-01-16T15:47:48+00:00",
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/legislatives-2022-programme-cohesion/": {
+      "first_seen_at": "2026-08-11T07:09:57+00:00",
+      "lastmod": null,
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/legislatives-2022-programme-democratie/": {
+      "first_seen_at": "2026-08-11T07:09:57+00:00",
+      "lastmod": null,
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/legislatives-2022-programme-economie/": {
+      "first_seen_at": "2026-08-11T07:09:57+00:00",
+      "lastmod": null,
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/legislatives-2022-programme-environnement/": {
+      "first_seen_at": "2026-08-11T07:09:57+00:00",
+      "lastmod": null,
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/legislatives-2022-programme-international/": {
+      "first_seen_at": "2026-08-11T07:09:57+00:00",
+      "lastmod": null,
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/legislatives-2022-programme-social/": {
+      "first_seen_at": "2026-08-11T07:09:57+00:00",
+      "lastmod": null,
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/legislatives-2022-programme-technique/": {
+      "first_seen_at": "2026-08-11T07:09:57+00:00",
+      "lastmod": null,
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/legislatives-2022-programme/": {
+      "first_seen_at": "2026-08-11T07:09:57+00:00",
+      "lastmod": null,
       "owner": "Équinoxe"
     },
     "https://parti-equinoxe.fr/legislatives-2024/candidats-legislatives-2024/": {
@@ -1240,9 +1416,24 @@
       "lastmod": "2024-06-28T09:30:48+00:00",
       "owner": "Équinoxe"
     },
+    "https://parti-equinoxe.fr/les-ecrans-et-les-francais-une-exposition-demesuree/": {
+      "first_seen_at": "2026-08-11T07:09:57+00:00",
+      "lastmod": "2024-05-14T18:56:29+00:00",
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/linclusion-du-gaz-et-du-nucleaire-dans-la-taxonomie-europeenne/": {
+      "first_seen_at": "2026-08-11T07:09:57+00:00",
+      "lastmod": "2024-05-20T20:39:29+00:00",
+      "owner": "Équinoxe"
+    },
     "https://parti-equinoxe.fr/meeting-de-paris-25-mai/": {
       "first_seen_at": "2026-08-11T06:53:50+00:00",
       "lastmod": "2024-06-13T16:52:21+00:00",
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/programme-europeennes-2024-agriculture/": {
+      "first_seen_at": "2026-08-11T07:09:57+00:00",
+      "lastmod": null,
       "owner": "Équinoxe"
     },
     "https://parti-equinoxe.fr/programme-europeennes-2024-mesure-phare-10-legislation/": {
@@ -2644,11 +2835,1248 @@
       "first_seen_at": "2026-08-11T06:54:33+00:00",
       "lastmod": "2026-07-29",
       "owner": "Révolution Permanente"
+    },
+    "https://www.unenouvelleenergie.fr/343-logements-rnovs-dans-le-quartier-du-riou/": {
+      "first_seen_at": "2026-08-11T07:10:35+00:00",
+      "lastmod": "2026-08-04T12:02:12.127Z",
+      "owner": "Nouvelle Énergie"
+    },
+    "https://www.unenouvelleenergie.fr/event/grand-meeting-de-rentree-de-david-lisnard/": {
+      "first_seen_at": "2026-08-11T07:10:35+00:00",
+      "lastmod": "2026-07-30T15:32:26.737Z",
+      "owner": "Nouvelle Énergie"
+    },
+    "https://www.unenouvelleenergie.fr/la-france-doit-redevenir-une-fete-le-discours-de-david-lisnard-pour-le-14-juillet/": {
+      "first_seen_at": "2026-08-11T07:10:35+00:00",
+      "lastmod": "2026-07-30T15:30:53.520Z",
+      "owner": "Nouvelle Énergie"
+    },
+    "https://www.unenouvelleenergie.fr/notre-programme/": {
+      "first_seen_at": "2026-08-11T07:10:35+00:00",
+      "lastmod": "2026-07-31T13:52:14.692Z",
+      "owner": "Nouvelle Énergie"
+    },
+    "https://www.unenouvelleenergie.fr/notre-programme/agriculture/": {
+      "first_seen_at": "2026-08-11T07:10:35+00:00",
+      "lastmod": "2026-07-31T13:52:16.433Z",
+      "owner": "Nouvelle Énergie"
+    },
+    "https://www.unenouvelleenergie.fr/notre-programme/education/": {
+      "first_seen_at": "2026-08-11T07:10:35+00:00",
+      "lastmod": "2026-07-31T13:52:15.721Z",
+      "owner": "Nouvelle Énergie"
+    },
+    "https://www.unenouvelleenergie.fr/notre-programme/etre-maitre-de-notre-destin/": {
+      "first_seen_at": "2026-08-11T07:10:35+00:00",
+      "lastmod": "2026-07-31T13:52:15.063Z",
+      "owner": "Nouvelle Énergie"
+    },
+    "https://www.unenouvelleenergie.fr/notre-programme/generer-un-renouveau-civique/": {
+      "first_seen_at": "2026-08-11T07:10:35+00:00",
+      "lastmod": "2026-07-31T13:52:15.513Z",
+      "owner": "Nouvelle Énergie"
+    },
+    "https://www.unenouvelleenergie.fr/notre-programme/immigration/": {
+      "first_seen_at": "2026-08-11T07:10:35+00:00",
+      "lastmod": "2026-07-31T13:52:16.601Z",
+      "owner": "Nouvelle Énergie"
+    },
+    "https://www.unenouvelleenergie.fr/notre-programme/reussir-une-nouvelle-ambition-francaise/": {
+      "first_seen_at": "2026-08-11T07:10:35+00:00",
+      "lastmod": "2026-07-31T13:52:15.284Z",
+      "owner": "Nouvelle Énergie"
+    },
+    "https://www.unenouvelleenergie.fr/notre-programme/sante/": {
+      "first_seen_at": "2026-08-11T07:10:35+00:00",
+      "lastmod": "2026-07-31T13:52:16.049Z",
+      "owner": "Nouvelle Énergie"
+    },
+    "https://www.unenouvelleenergie.fr/notre-programme/securite/": {
+      "first_seen_at": "2026-08-11T07:10:35+00:00",
+      "lastmod": "2026-07-31T13:52:15.884Z",
+      "owner": "Nouvelle Énergie"
+    },
+    "https://www.unenouvelleenergie.fr/pourquoi-il-etait-important-que-le-film-labandon-sur-samuel-paty-soit-projete-a-cannes/": {
+      "first_seen_at": "2026-08-11T07:10:35+00:00",
+      "lastmod": "2026-07-24T01:25:04.693Z",
+      "owner": "Nouvelle Énergie"
+    },
+    "https://www.unenouvelleenergie.fr/premiere-nationale-la-mairie-de-cannes-et-le-ministere-de-leducation-nationale-signent-une-convention-pour-renforcer-le-soutien-aux-eleves-en-situation-de-handicap/": {
+      "first_seen_at": "2026-08-11T07:10:35+00:00",
+      "lastmod": "2026-07-24T01:25:05.945Z",
+      "owner": "Nouvelle Énergie"
+    },
+    "https://www.unenouvelleenergie.fr/presidentielle-2027-ce-qui-minteresse-cest-de-faire-gagner-le-pays-je-my-prepare/": {
+      "first_seen_at": "2026-08-11T07:10:35+00:00",
+      "lastmod": "2026-07-24T01:25:06.774Z",
+      "owner": "Nouvelle Énergie"
+    },
+    "https://www.unenouvelleenergie.fr/presidentielle-2027-david-lisnard-ouvre-le-chemin-du-sursaut-francais/": {
+      "first_seen_at": "2026-08-11T07:10:35+00:00",
+      "lastmod": "2026-07-24T01:25:06.994Z",
+      "owner": "Nouvelle Énergie"
+    },
+    "https://www.unenouvelleenergie.fr/presidentielle-2027-david-lisnard-portera-son-projet/": {
+      "first_seen_at": "2026-08-11T07:10:35+00:00",
+      "lastmod": "2026-07-24T01:25:07.189Z",
+      "owner": "Nouvelle Énergie"
+    },
+    "https://www.unenouvelleenergie.fr/presidentielle-2027-david-lisnard-vise-lelysee/": {
+      "first_seen_at": "2026-08-11T07:10:35+00:00",
+      "lastmod": "2026-07-24T01:25:07.441Z",
+      "owner": "Nouvelle Énergie"
+    },
+    "https://www.unenouvelleenergie.fr/presidentielle-2027-quoi-quil-arrive-je-porterai-mon-projet-pour-faire-rayonner-la-france/": {
+      "first_seen_at": "2026-08-11T07:10:35+00:00",
+      "lastmod": "2026-07-24T01:25:07.674Z",
+      "owner": "Nouvelle Énergie"
+    },
+    "https://www.unenouvelleenergie.fr/presidentielle-a-cannes-david-lisnard-pret-a-gravir-les-marches/": {
+      "first_seen_at": "2026-08-11T07:10:35+00:00",
+      "lastmod": "2026-07-24T01:25:07.840Z",
+      "owner": "Nouvelle Énergie"
+    },
+    "https://www.unenouvelleenergie.fr/presidentielle-comment-david-lisnard-muscle-sa-droite/": {
+      "first_seen_at": "2026-08-11T07:10:35+00:00",
+      "lastmod": "2026-07-24T01:25:08.005Z",
+      "owner": "Nouvelle Énergie"
+    },
+    "https://www.unenouvelleenergie.fr/presidentielle-comment-david-lisnard-veut-peser-a-droite/": {
+      "first_seen_at": "2026-08-11T07:10:35+00:00",
+      "lastmod": "2026-07-24T01:25:08.198Z",
+      "owner": "Nouvelle Énergie"
+    },
+    "https://www.unenouvelleenergie.fr/presidentielle-le-prefet-philippe-castanet-homme-de-solutions-va-diriger-la-campagne-de-david-lisnard/": {
+      "first_seen_at": "2026-08-11T07:10:35+00:00",
+      "lastmod": "2026-07-24T01:25:08.383Z",
+      "owner": "Nouvelle Énergie"
+    },
+    "https://www.unenouvelleenergie.fr/projet-de-loi-de-finances-lamf-obtient-une-nouvelle-avancee/": {
+      "first_seen_at": "2026-08-11T07:10:35+00:00",
+      "lastmod": "2026-07-24T01:25:09.851Z",
+      "owner": "Nouvelle Énergie"
+    },
+    "https://www.unenouvelleenergie.fr/projet-nouvelle-frayere-david-lisnard-lance-la-demolition-du-parking-logirem-ancien-point-de-deal/": {
+      "first_seen_at": "2026-08-11T07:10:35+00:00",
+      "lastmod": "2026-07-24T01:25:10.076Z",
+      "owner": "Nouvelle Énergie"
+    },
+    "https://www.unenouvelleenergie.fr/protection-des-contribuables-baisse-de-la-dette-amelioration-des-espaces-publics-david-lisnard-presente-le-budget-2023-de-la-mairie-de-cannes/": {
+      "first_seen_at": "2026-08-11T07:10:35+00:00",
+      "lastmod": "2026-07-24T01:25:12.006Z",
+      "owner": "Nouvelle Énergie"
+    },
+    "https://www.unenouvelleenergie.fr/puma-x-cannes-choisie-comme-ville-pilote-pour-experimenter-un-nouveau-programme-de-prevention-des-risques-majeurs/": {
+      "first_seen_at": "2026-08-11T07:10:35+00:00",
+      "lastmod": "2026-07-24T01:25:13.141Z",
+      "owner": "Nouvelle Énergie"
+    },
+    "https://www.unenouvelleenergie.fr/questions/david-lisnard-est-il-candidat-a-la-presidentielle-2027/": {
+      "first_seen_at": "2026-08-11T07:10:35+00:00",
+      "lastmod": "2026-08-03T17:59:18.244Z",
+      "owner": "Nouvelle Énergie"
+    },
+    "https://www.unenouvelleenergie.fr/questions/david-lisnard-est-il-favorable-a-la-retraite-par-capitalisation/": {
+      "first_seen_at": "2026-08-11T07:10:35+00:00",
+      "lastmod": "2026-08-03T17:59:17.478Z",
+      "owner": "Nouvelle Énergie"
+    },
+    "https://www.unenouvelleenergie.fr/questions/pourquoi-la-france-depense-t-elle-plus-que-ses-voisins-pour-une-sante-moins-accessible/": {
+      "first_seen_at": "2026-08-11T07:10:35+00:00",
+      "lastmod": "2026-08-03T17:59:17.392Z",
+      "owner": "Nouvelle Énergie"
+    },
+    "https://www.unenouvelleenergie.fr/questions/que-pense-david-lisnard-du-systeme-de-retraite-par-repartition/": {
+      "first_seen_at": "2026-08-11T07:10:35+00:00",
+      "lastmod": "2026-08-03T17:59:17.425Z",
+      "owner": "Nouvelle Énergie"
+    },
+    "https://www.unenouvelleenergie.fr/questions/que-propose-david-lisnard-sur-l-immigration/": {
+      "first_seen_at": "2026-08-11T07:10:35+00:00",
+      "lastmod": "2026-08-03T17:59:17.627Z",
+      "owner": "Nouvelle Énergie"
+    },
+    "https://www.unenouvelleenergie.fr/questions/quel-age-de-depart-a-la-retraite-david-lisnard-defend-il/": {
+      "first_seen_at": "2026-08-11T07:10:35+00:00",
+      "lastmod": "2026-08-03T17:59:17.540Z",
+      "owner": "Nouvelle Énergie"
+    },
+    "https://www.unenouvelleenergie.fr/questions/quel-est-le-projet-de-david-lisnard-pour-la-france/": {
+      "first_seen_at": "2026-08-11T07:10:35+00:00",
+      "lastmod": "2026-08-03T17:59:18.330Z",
+      "owner": "Nouvelle Énergie"
+    },
+    "https://www.unenouvelleenergie.fr/questions/quelles-sont-les-propositions-de-david-lisnard-pour-l-ecole/": {
+      "first_seen_at": "2026-08-11T07:10:35+00:00",
+      "lastmod": "2026-08-03T17:59:18.056Z",
+      "owner": "Nouvelle Énergie"
+    },
+    "https://www.unenouvelleenergie.fr/questions/quelles-sont-les-propositions-de-david-lisnard-sur-la-securite/": {
+      "first_seen_at": "2026-08-11T07:10:35+00:00",
+      "lastmod": "2026-08-03T17:59:17.577Z",
+      "owner": "Nouvelle Énergie"
+    },
+    "https://www.unenouvelleenergie.fr/reaction-de-david-lisnard-a-sa-reelection-au-1er-tour-78-des-elections-departementales/": {
+      "first_seen_at": "2026-08-11T07:10:35+00:00",
+      "lastmod": "2026-07-24T01:25:15.713Z",
+      "owner": "Nouvelle Énergie"
+    },
+    "https://www.unenouvelleenergie.fr/reaction-de-david-lisnard-au-2nd-tour-de-lelection-presidentielle/": {
+      "first_seen_at": "2026-08-11T07:10:35+00:00",
+      "lastmod": "2026-07-24T01:25:15.867Z",
+      "owner": "Nouvelle Énergie"
+    },
+    "https://www.unenouvelleenergie.fr/recul-du-trait-de-cote-lamf-et-lanel-saisissent-le-conseil-detat-afin-de-garantir-la-securite-juridique-de-lensemble-du-dispositif-et-daccompagner-l/": {
+      "first_seen_at": "2026-08-11T07:10:35+00:00",
+      "lastmod": "2026-07-24T01:25:16.916Z",
+      "owner": "Nouvelle Énergie"
+    },
+    "https://www.unenouvelleenergie.fr/reelection-de-david-lisnard-une-victoire-nette-une-exigence-renforcee/": {
+      "first_seen_at": "2026-08-11T07:10:35+00:00",
+      "lastmod": "2026-07-24T01:25:17.681Z",
+      "owner": "Nouvelle Énergie"
+    },
+    "https://www.unenouvelleenergie.fr/reforme-des-retraites-explosions-des-violences-david-lisnard-etait-linvite-de-la-matinale-de-france-inter/": {
+      "first_seen_at": "2026-08-11T07:10:35+00:00",
+      "lastmod": "2026-07-24T01:25:17.858Z",
+      "owner": "Nouvelle Énergie"
+    },
+    "https://www.unenouvelleenergie.fr/rencontre-des-libertes-locales-david-lisnard-et-lamf-auditionnent-les-candidats-a-la-presidentielle/": {
+      "first_seen_at": "2026-08-11T07:10:35+00:00",
+      "lastmod": "2026-07-24T01:25:19.036Z",
+      "owner": "Nouvelle Énergie"
+    },
+    "https://www.unenouvelleenergie.fr/residence-sociale-dionysos-33-logements-modernes-lumineux-et-plus-adaptes-pour-des-personnes-agees-de-ranchito/": {
+      "first_seen_at": "2026-08-11T07:10:35+00:00",
+      "lastmod": "2026-07-24T01:25:23.404Z",
+      "owner": "Nouvelle Énergie"
+    },
+    "https://www.unenouvelleenergie.fr/retablir-la-securite-condition-sine-qua-non-de-la-dignite-humaine-et-de-lunite-de-la-nation/": {
+      "first_seen_at": "2026-08-11T07:10:35+00:00",
+      "lastmod": "2026-07-24T01:25:24.026Z",
+      "owner": "Nouvelle Énergie"
+    },
+    "https://www.unenouvelleenergie.fr/retraites-alexandra-martin-soutient-la-proposition-de-david-lisnard-consistant-a-introduire-un-etage-par-capitalisation/": {
+      "first_seen_at": "2026-08-11T07:10:35+00:00",
+      "lastmod": "2026-07-24T01:25:53.370Z",
+      "owner": "Nouvelle Énergie"
+    },
+    "https://www.unenouvelleenergie.fr/retraites-des-senateurs-se-prononcent-en-faveur-de-lintroduction-dune-dose-de-capitalisation-proposition-portee-par-david-lisnard/": {
+      "first_seen_at": "2026-08-11T07:10:35+00:00",
+      "lastmod": "2026-07-24T01:25:53.579Z",
+      "owner": "Nouvelle Énergie"
+    },
+    "https://www.unenouvelleenergie.fr/retraites-gare-a-la-fracture-et-a-la-facture-generationnelle/": {
+      "first_seen_at": "2026-08-11T07:10:35+00:00",
+      "lastmod": "2026-07-24T01:25:53.885Z",
+      "owner": "Nouvelle Énergie"
+    },
+    "https://www.unenouvelleenergie.fr/retraites-nouvelle-energie-intelligence-artificielle-david-lisnard-etait-linvite-de-la-matinale-de-cnews/": {
+      "first_seen_at": "2026-08-11T07:10:35+00:00",
+      "lastmod": "2026-07-24T01:25:54.080Z",
+      "owner": "Nouvelle Énergie"
+    },
+    "https://www.unenouvelleenergie.fr/retraites-prochaine-tournee-en-2030/": {
+      "first_seen_at": "2026-08-11T07:10:35+00:00",
+      "lastmod": "2026-07-24T01:25:54.279Z",
+      "owner": "Nouvelle Énergie"
+    },
+    "https://www.unenouvelleenergie.fr/reunion-avec-les-presidents-dassociation-departementale-de-maires-a-lamf/": {
+      "first_seen_at": "2026-08-11T07:10:35+00:00",
+      "lastmod": "2026-07-24T01:25:55.510Z",
+      "owner": "Nouvelle Énergie"
+    },
+    "https://www.unenouvelleenergie.fr/sans-securite-il-ny-a-pas-de-qualite-de-vie-lalerte-de-david-lisnard-sur-letat-des-communes/": {
+      "first_seen_at": "2026-08-11T07:10:35+00:00",
+      "lastmod": "2026-07-24T01:26:01.765Z",
+      "owner": "Nouvelle Énergie"
+    },
+    "https://www.unenouvelleenergie.fr/sante-david-lisnard-devoile-son-plan-daction-rapide-inspire-des-ordonnances-de-1958/": {
+      "first_seen_at": "2026-08-11T07:10:35+00:00",
+      "lastmod": "2026-07-24T01:26:01.963Z",
+      "owner": "Nouvelle Énergie"
+    },
+    "https://www.unenouvelleenergie.fr/sante-mentale-cannes-accueille-le-17%e1%b5%89-congres-francais-de-la-psychiatrie/": {
+      "first_seen_at": "2026-08-11T07:10:35+00:00",
+      "lastmod": "2026-07-24T01:26:02.137Z",
+      "owner": "Nouvelle Énergie"
+    },
+    "https://www.unenouvelleenergie.fr/securite-a-cannes-les-chiffres-du-premier-trimestre/": {
+      "first_seen_at": "2026-08-11T07:10:35+00:00",
+      "lastmod": "2026-07-24T01:26:03.381Z",
+      "owner": "Nouvelle Énergie"
+    },
+    "https://www.unenouvelleenergie.fr/securite-cannes-teste-lia-pour-accelerer-les-enquetes-dans-un-cadre-strictement-legal/": {
+      "first_seen_at": "2026-08-11T07:10:35+00:00",
+      "lastmod": "2026-07-24T01:26:03.521Z",
+      "owner": "Nouvelle Énergie"
+    },
+    "https://www.unenouvelleenergie.fr/securite-david-lisnard-presente-une-motion-concernant-laffectation-des-forces-de-lordre-nationales-necessaires-a-cannes/": {
+      "first_seen_at": "2026-08-11T07:10:35+00:00",
+      "lastmod": "2026-07-24T01:26:03.715Z",
+      "owner": "Nouvelle Énergie"
+    },
+    "https://www.unenouvelleenergie.fr/securite-david-lisnard-sur-le-terrain-a-la-frayere/": {
+      "first_seen_at": "2026-08-11T07:10:35+00:00",
+      "lastmod": "2026-07-24T01:26:03.874Z",
+      "owner": "Nouvelle Énergie"
+    },
+    "https://www.unenouvelleenergie.fr/securite-et-lutte-contre-lincivisme-david-lisnard-mobilise-la-police-municipale-avant-lete/": {
+      "first_seen_at": "2026-08-11T07:10:35+00:00",
+      "lastmod": "2026-07-24T01:26:04.046Z",
+      "owner": "Nouvelle Énergie"
+    },
+    "https://www.unenouvelleenergie.fr/securite-letat-ne-nous-prend-pas-au-serieux/": {
+      "first_seen_at": "2026-08-11T07:10:35+00:00",
+      "lastmod": "2026-07-24T01:26:04.275Z",
+      "owner": "Nouvelle Énergie"
+    },
+    "https://www.unenouvelleenergie.fr/securite-une-nouvelle-operation-de-police-de-grande-envergure-dans-le-quartier-de-la-frayere/": {
+      "first_seen_at": "2026-08-11T07:10:35+00:00",
+      "lastmod": "2026-07-24T01:26:04.484Z",
+      "owner": "Nouvelle Énergie"
+    },
+    "https://www.unenouvelleenergie.fr/securite-une-priorite-daction-et-de-resultats/": {
+      "first_seen_at": "2026-08-11T07:10:35+00:00",
+      "lastmod": "2026-07-24T01:26:04.625Z",
+      "owner": "Nouvelle Énergie"
+    },
+    "https://www.unenouvelleenergie.fr/sobriete-fiscale-mais-investissements/": {
+      "first_seen_at": "2026-08-11T07:10:35+00:00",
+      "lastmod": "2026-07-24T01:26:05.778Z",
+      "owner": "Nouvelle Énergie"
+    },
+    "https://www.unenouvelleenergie.fr/soit-le-chaos-soit-le-sursaut-david-lisnard-etait-linvite-de-la-grande-interview-de-sonia-mabrouk-sur-cnews-et-europe-1/": {
+      "first_seen_at": "2026-08-11T07:10:35+00:00",
+      "lastmod": "2026-07-24T01:26:06.409Z",
+      "owner": "Nouvelle Énergie"
+    },
+    "https://www.unenouvelleenergie.fr/solutions-pour-le-climat-lappel-a-projets-est-lance/": {
+      "first_seen_at": "2026-08-11T07:10:35+00:00",
+      "lastmod": "2026-07-24T01:26:06.757Z",
+      "owner": "Nouvelle Énergie"
+    },
+    "https://www.unenouvelleenergie.fr/stopper-limmigration-contre-la-partition-linterview-croisee-de-david-lisnard-et-xavier-driencourt/": {
+      "first_seen_at": "2026-08-11T07:10:35+00:00",
+      "lastmod": "2026-07-24T01:26:07.747Z",
+      "owner": "Nouvelle Énergie"
+    },
+    "https://www.unenouvelleenergie.fr/sur-proposition-de-david-lisnard-la-mairie-de-cannes-et-la-prefecture-ouvrent-une-cellule-de-delivrance-dautorisations-de-sejour-a-cannes/": {
+      "first_seen_at": "2026-08-11T07:10:35+00:00",
+      "lastmod": "2026-07-24T01:26:09.293Z",
+      "owner": "Nouvelle Énergie"
+    },
+    "https://www.unenouvelleenergie.fr/taxe-fonciere-lamf-repond-a-linjuste-polemique-lancee-par-le-president-de-la-republique/": {
+      "first_seen_at": "2026-08-11T07:10:35+00:00",
+      "lastmod": "2026-07-24T01:26:09.645Z",
+      "owner": "Nouvelle Énergie"
+    },
+    "https://www.unenouvelleenergie.fr/taxe-zucman-les-francais-meritent-mieux-que-des-illusions-fiscales/": {
+      "first_seen_at": "2026-08-11T07:10:35+00:00",
+      "lastmod": "2026-07-24T01:26:09.844Z",
+      "owner": "Nouvelle Énergie"
+    },
+    "https://www.unenouvelleenergie.fr/territoires-unis-instaure-avec-le-president-de-la-republique-un-dialogue-regulier-et-direct/": {
+      "first_seen_at": "2026-08-11T07:10:35+00:00",
+      "lastmod": "2026-07-24T01:26:10.575Z",
+      "owner": "Nouvelle Énergie"
+    },
+    "https://www.unenouvelleenergie.fr/ukraine-mckinsey-presidentielle-corse-david-lisnard-etait-linvite-de-sonia-mabrouk-sur-europe-1/": {
+      "first_seen_at": "2026-08-11T07:10:35+00:00",
+      "lastmod": "2026-07-24T01:26:42.568Z",
+      "owner": "Nouvelle Énergie"
+    },
+    "https://www.unenouvelleenergie.fr/ukraine-normes-administratives-2027-david-lisnard-est-revenu-sur-les-sujets-dactualite-au-micro-de-jean-jacques-bourdin-sur-sud-radio/": {
+      "first_seen_at": "2026-08-11T07:10:35+00:00",
+      "lastmod": "2026-07-24T01:26:42.919Z",
+      "owner": "Nouvelle Énergie"
+    },
+    "https://www.unenouvelleenergie.fr/un-nouveau-projet-de-residence-intergenerationnelle-a-cannes/": {
+      "first_seen_at": "2026-08-11T07:10:35+00:00",
+      "lastmod": "2026-07-24T01:26:45.387Z",
+      "owner": "Nouvelle Énergie"
+    },
+    "https://www.unenouvelleenergie.fr/unbroken-un-projet-pour-aider-les-blesses-de-guerre-ukrainiens/": {
+      "first_seen_at": "2026-08-11T07:10:35+00:00",
+      "lastmod": "2026-07-24T01:26:46.653Z",
+      "owner": "Nouvelle Énergie"
+    },
+    "https://www.unenouvelleenergie.fr/une-nouvelle-maison-de-retraite-moderne-pour-les-personnes-agees-aux-faibles-revenus-david-lisnard-inaugure-un-projet-de-mandat-phare-a-cannes/": {
+      "first_seen_at": "2026-08-11T07:10:35+00:00",
+      "lastmod": "2026-07-24T01:26:48.982Z",
+      "owner": "Nouvelle Énergie"
+    },
+    "https://www.unenouvelleenergie.fr/une-premiere-en-europe-lagglomeration-cannes-lerins-lance-sa-4%e1%b5%89-ressource-en-eau/": {
+      "first_seen_at": "2026-08-11T07:10:35+00:00",
+      "lastmod": "2026-07-24T01:26:50.607Z",
+      "owner": "Nouvelle Énergie"
+    },
+    "https://www.unenouvelleenergie.fr/violences-et-insecurite-a-mayotte-david-lisnard-apporte-le-soutien-de-lamf-aux-elus-mahorais/": {
+      "first_seen_at": "2026-08-11T07:10:35+00:00",
+      "lastmod": "2026-07-24T01:26:52.917Z",
+      "owner": "Nouvelle Énergie"
+    },
+    "https://www.unenouvelleenergie.fr/voir-ou-revoir-le-discours-de-david-lisnard-a-la-mutualite/": {
+      "first_seen_at": "2026-08-11T07:10:35+00:00",
+      "lastmod": "2026-07-24T01:27:24.900Z",
+      "owner": "Nouvelle Énergie"
+    },
+    "https://www.unenouvelleenergie.fr/waicf-a-cannes-la-france-championne-deurope-dintelligence-artificielle/": {
+      "first_seen_at": "2026-08-11T07:10:35+00:00",
+      "lastmod": "2026-07-24T01:27:25.430Z",
+      "owner": "Nouvelle Énergie"
+    },
+    "https://www.unenouvelleenergie.fr/world-travel-awards-cannes-elue-meilleure-destination-pour-les-festivals-et-evenements-deurope-pour-la-2eme-annee-consecutive-aux-oscars-du-tourisme/": {
+      "first_seen_at": "2026-08-11T07:10:35+00:00",
+      "lastmod": "2026-07-24T01:27:26.889Z",
+      "owner": "Nouvelle Énergie"
+    },
+    "https://www.unenouvelleenergie.fr/zan-david-lisnard-rencontre-michel-heinrich-maire-depinal-et-la-presidente-de-la-fedescot/": {
+      "first_seen_at": "2026-08-11T07:10:35+00:00",
+      "lastmod": "2026-07-24T01:27:27.262Z",
+      "owner": "Nouvelle Énergie"
     }
   },
+  "social_profiles": {
+    "bluesky:candidate:marine-tondelier:marinetondelier.fr": {
+      "discovered_at": "2026-08-11T07:14:55+00:00",
+      "entity_id": "marine-tondelier",
+      "entity_name": "Marine Tondelier",
+      "entity_type": "candidate",
+      "identifier": "marinetondelier.fr",
+      "identifier_type": "actor",
+      "last_confirmed_at": "2026-08-11T07:14:55+00:00",
+      "platform": "bluesky",
+      "profile_url": "https://bsky.app/profile/marinetondelier.fr",
+      "provenance": "linked_from_official_website",
+      "source_site": "https://marinetondelier.fr/",
+      "source_tier": "tier_1_primary_official"
+    },
+    "bluesky:party:generation-ecologie:generationecologie.bsky.social": {
+      "discovered_at": "2026-08-11T07:15:00+00:00",
+      "entity_id": "generation-ecologie",
+      "entity_name": "Génération Écologie",
+      "entity_type": "party",
+      "identifier": "generationecologie.bsky.social",
+      "identifier_type": "actor",
+      "last_confirmed_at": "2026-08-11T07:15:00+00:00",
+      "platform": "bluesky",
+      "profile_url": "https://bsky.app/profile/generationecologie.bsky.social",
+      "provenance": "linked_from_official_website",
+      "source_site": "https://www.generationecologie.fr/",
+      "source_tier": "tier_1_primary_official"
+    },
+    "bluesky:party:les-ecologistes:lesecologistes.fr": {
+      "discovered_at": "2026-08-11T07:15:03+00:00",
+      "entity_id": "les-ecologistes",
+      "entity_name": "Les Écologistes",
+      "entity_type": "party",
+      "identifier": "lesecologistes.fr",
+      "identifier_type": "actor",
+      "last_confirmed_at": "2026-08-11T07:15:03+00:00",
+      "platform": "bluesky",
+      "profile_url": "https://bsky.app/profile/lesecologistes.fr",
+      "provenance": "linked_from_official_website",
+      "source_site": "https://lesecologistes.fr/",
+      "source_tier": "tier_1_primary_official"
+    },
+    "bluesky:party:place-publique:did:plc:vgokjilonzbartfu2wce3qei": {
+      "discovered_at": "2026-08-11T07:15:07+00:00",
+      "entity_id": "place-publique",
+      "entity_name": "Place publique",
+      "entity_type": "party",
+      "identifier": "did:plc:vgokjilonzbartfu2wce3qei",
+      "identifier_type": "actor",
+      "last_confirmed_at": "2026-08-11T07:15:07+00:00",
+      "platform": "bluesky",
+      "profile_url": "https://bsky.app/profile/did:plc:vgokjilonzbartfu2wce3qei",
+      "provenance": "linked_from_official_website",
+      "source_site": "https://place-publique.eu/",
+      "source_tier": "tier_1_primary_official"
+    },
+    "x:candidate:marine-tondelier:marinetondelier": {
+      "discovered_at": "2026-08-11T07:14:55+00:00",
+      "entity_id": "marine-tondelier",
+      "entity_name": "Marine Tondelier",
+      "entity_type": "candidate",
+      "identifier": "marinetondelier",
+      "identifier_type": "handle",
+      "last_confirmed_at": "2026-08-11T07:14:55+00:00",
+      "platform": "x",
+      "profile_url": "https://x.com/marinetondelier",
+      "provenance": "linked_from_official_website",
+      "source_site": "https://marinetondelier.fr/",
+      "source_tier": "tier_1_primary_official"
+    },
+    "x:party:debout-la-france:cerfiafr": {
+      "discovered_at": "2026-08-11T07:14:58+00:00",
+      "entity_id": "debout-la-france",
+      "entity_name": "Debout la France",
+      "entity_type": "party",
+      "identifier": "CerfiaFR",
+      "identifier_type": "handle",
+      "last_confirmed_at": "2026-08-11T07:14:58+00:00",
+      "platform": "x",
+      "profile_url": "https://x.com/CerfiaFR",
+      "provenance": "linked_from_official_website",
+      "source_site": "https://www.debout-la-france.fr/",
+      "source_tier": "tier_1_primary_official"
+    },
+    "x:party:debout-la-france:dupontaignan": {
+      "discovered_at": "2026-08-11T07:14:58+00:00",
+      "entity_id": "debout-la-france",
+      "entity_name": "Debout la France",
+      "entity_type": "party",
+      "identifier": "dupontaignan",
+      "identifier_type": "handle",
+      "last_confirmed_at": "2026-08-11T07:14:58+00:00",
+      "platform": "x",
+      "profile_url": "https://x.com/dupontaignan",
+      "provenance": "linked_from_official_website",
+      "source_site": "https://www.debout-la-france.fr/",
+      "source_tier": "tier_1_primary_official"
+    },
+    "x:party:equinoxe:partiequinoxe": {
+      "discovered_at": "2026-08-11T07:15:11+00:00",
+      "entity_id": "equinoxe",
+      "entity_name": "Équinoxe",
+      "entity_type": "party",
+      "identifier": "PartiEquinoxe",
+      "identifier_type": "handle",
+      "last_confirmed_at": "2026-08-11T07:15:11+00:00",
+      "platform": "x",
+      "profile_url": "https://x.com/PartiEquinoxe",
+      "provenance": "linked_from_official_website",
+      "source_site": "https://parti-equinoxe.fr/",
+      "source_tier": "tier_1_primary_official"
+    },
+    "x:party:horizons:horizonsleparti": {
+      "discovered_at": "2026-08-11T07:15:01+00:00",
+      "entity_id": "horizons",
+      "entity_name": "Horizons",
+      "entity_type": "party",
+      "identifier": "horizonsleparti",
+      "identifier_type": "handle",
+      "last_confirmed_at": "2026-08-11T07:15:01+00:00",
+      "platform": "x",
+      "profile_url": "https://x.com/horizonsleparti",
+      "provenance": "linked_from_official_website",
+      "source_site": "https://horizonsleparti.fr/",
+      "source_tier": "tier_1_primary_official"
+    },
+    "x:party:la-france-insoumise:franceinsoumise": {
+      "discovered_at": "2026-08-11T07:15:01+00:00",
+      "entity_id": "la-france-insoumise",
+      "entity_name": "La France insoumise",
+      "entity_type": "party",
+      "identifier": "FranceInsoumise",
+      "identifier_type": "handle",
+      "last_confirmed_at": "2026-08-11T07:15:01+00:00",
+      "platform": "x",
+      "profile_url": "https://x.com/FranceInsoumise",
+      "provenance": "linked_from_official_website",
+      "source_site": "https://lafranceinsoumise.fr/",
+      "source_tier": "tier_1_primary_official"
+    },
+    "x:party:les-ecologistes:eelv": {
+      "discovered_at": "2026-08-11T07:15:03+00:00",
+      "entity_id": "les-ecologistes",
+      "entity_name": "Les Écologistes",
+      "entity_type": "party",
+      "identifier": "eelv",
+      "identifier_type": "handle",
+      "last_confirmed_at": "2026-08-11T07:15:03+00:00",
+      "platform": "x",
+      "profile_url": "https://x.com/eelv",
+      "provenance": "linked_from_official_website",
+      "source_site": "https://lesecologistes.fr/",
+      "source_tier": "tier_1_primary_official"
+    },
+    "x:party:les-patriotes:f_philippot": {
+      "discovered_at": "2026-08-11T07:15:03+00:00",
+      "entity_id": "les-patriotes",
+      "entity_name": "Les Patriotes",
+      "entity_type": "party",
+      "identifier": "f_philippot",
+      "identifier_type": "handle",
+      "last_confirmed_at": "2026-08-11T07:15:03+00:00",
+      "platform": "x",
+      "profile_url": "https://x.com/f_philippot",
+      "provenance": "linked_from_official_website",
+      "source_site": "https://les-patriotes.fr/",
+      "source_tier": "tier_1_primary_official"
+    },
+    "x:party:lutte-ouvriere:lutteouvriere": {
+      "discovered_at": "2026-08-11T07:15:03+00:00",
+      "entity_id": "lutte-ouvriere",
+      "entity_name": "Lutte ouvrière",
+      "entity_type": "party",
+      "identifier": "LutteOuvriere",
+      "identifier_type": "handle",
+      "last_confirmed_at": "2026-08-11T07:15:03+00:00",
+      "platform": "x",
+      "profile_url": "https://x.com/LutteOuvriere",
+      "provenance": "linked_from_official_website",
+      "source_site": "https://www.lutte-ouvriere.org/",
+      "source_tier": "tier_1_primary_official"
+    },
+    "x:party:nouvelle-energie:nouv_energie": {
+      "discovered_at": "2026-08-11T07:15:04+00:00",
+      "entity_id": "nouvelle-energie",
+      "entity_name": "Nouvelle Énergie",
+      "entity_type": "party",
+      "identifier": "nouv_energie",
+      "identifier_type": "handle",
+      "last_confirmed_at": "2026-08-11T07:15:04+00:00",
+      "platform": "x",
+      "profile_url": "https://x.com/nouv_energie",
+      "provenance": "linked_from_official_website",
+      "source_site": "https://www.unenouvelleenergie.fr/",
+      "source_tier": "tier_1_primary_official"
+    },
+    "x:party:parti-socialiste:partisocialiste": {
+      "discovered_at": "2026-08-11T07:15:06+00:00",
+      "entity_id": "parti-socialiste",
+      "entity_name": "Parti socialiste",
+      "entity_type": "party",
+      "identifier": "partisocialiste",
+      "identifier_type": "handle",
+      "last_confirmed_at": "2026-08-11T07:15:06+00:00",
+      "platform": "x",
+      "profile_url": "https://x.com/partisocialiste",
+      "provenance": "linked_from_official_website",
+      "source_site": "https://parti-socialiste.fr/",
+      "source_tier": "tier_1_primary_official"
+    },
+    "x:party:place-publique:placepublique_": {
+      "discovered_at": "2026-08-11T07:15:07+00:00",
+      "entity_id": "place-publique",
+      "entity_name": "Place publique",
+      "entity_type": "party",
+      "identifier": "placepublique_",
+      "identifier_type": "handle",
+      "last_confirmed_at": "2026-08-11T07:15:07+00:00",
+      "platform": "x",
+      "profile_url": "https://x.com/placepublique_",
+      "provenance": "linked_from_official_website",
+      "source_site": "https://place-publique.eu/",
+      "source_tier": "tier_1_primary_official"
+    },
+    "x:party:rassemblement-national:rnational_off": {
+      "discovered_at": "2026-08-11T07:15:07+00:00",
+      "entity_id": "rassemblement-national",
+      "entity_name": "Rassemblement national",
+      "entity_type": "party",
+      "identifier": "RNational_off",
+      "identifier_type": "handle",
+      "last_confirmed_at": "2026-08-11T07:15:07+00:00",
+      "platform": "x",
+      "profile_url": "https://x.com/RNational_off",
+      "provenance": "linked_from_official_website",
+      "source_site": "https://rassemblementnational.fr/",
+      "source_tier": "tier_1_primary_official"
+    },
+    "x:party:reconquete:reconquete_off": {
+      "discovered_at": "2026-08-11T07:15:07+00:00",
+      "entity_id": "reconquete",
+      "entity_name": "Reconquête",
+      "entity_type": "party",
+      "identifier": "Reconquete_off",
+      "identifier_type": "handle",
+      "last_confirmed_at": "2026-08-11T07:15:07+00:00",
+      "platform": "x",
+      "profile_url": "https://x.com/Reconquete_off",
+      "provenance": "linked_from_official_website",
+      "source_site": "https://www.parti-reconquete.fr/",
+      "source_tier": "tier_1_primary_official"
+    },
+    "x:party:renaissance:renaissance": {
+      "discovered_at": "2026-08-11T07:15:08+00:00",
+      "entity_id": "renaissance",
+      "entity_name": "Renaissance",
+      "entity_type": "party",
+      "identifier": "renaissance",
+      "identifier_type": "handle",
+      "last_confirmed_at": "2026-08-11T07:15:08+00:00",
+      "platform": "x",
+      "profile_url": "https://x.com/renaissance",
+      "provenance": "linked_from_official_website",
+      "source_site": "https://parti-renaissance.fr/",
+      "source_tier": "tier_1_primary_official"
+    },
+    "x:party:revolution-permanente:revpermanente": {
+      "discovered_at": "2026-08-11T07:15:08+00:00",
+      "entity_id": "revolution-permanente",
+      "entity_name": "Révolution Permanente",
+      "entity_type": "party",
+      "identifier": "RevPermanente",
+      "identifier_type": "handle",
+      "last_confirmed_at": "2026-08-11T07:15:08+00:00",
+      "platform": "x",
+      "profile_url": "https://x.com/RevPermanente",
+      "provenance": "linked_from_official_website",
+      "source_site": "https://www.revolutionpermanente.fr/",
+      "source_tier": "tier_1_primary_official"
+    },
+    "x:party:upr:f_asselineau": {
+      "discovered_at": "2026-08-11T07:15:09+00:00",
+      "entity_id": "upr",
+      "entity_name": "Union populaire républicaine",
+      "entity_type": "party",
+      "identifier": "f_asselineau",
+      "identifier_type": "handle",
+      "last_confirmed_at": "2026-08-11T07:15:09+00:00",
+      "platform": "x",
+      "profile_url": "https://x.com/f_asselineau",
+      "provenance": "linked_from_official_website",
+      "source_site": "https://upr.fr/",
+      "source_tier": "tier_1_primary_official"
+    },
+    "youtube:party:debout-la-france:ndatv": {
+      "discovered_at": "2026-08-11T07:14:58+00:00",
+      "entity_id": "debout-la-france",
+      "entity_name": "Debout la France",
+      "entity_type": "party",
+      "identifier": "ndatv",
+      "identifier_type": "username",
+      "last_confirmed_at": "2026-08-11T07:14:58+00:00",
+      "platform": "youtube",
+      "profile_url": "https://www.youtube.com/user/ndatv",
+      "provenance": "linked_from_official_website",
+      "source_site": "https://www.debout-la-france.fr/",
+      "source_tier": "tier_1_primary_official"
+    },
+    "youtube:party:equinoxe:uc5kuxcr5oqs3uarodboaqsa": {
+      "discovered_at": "2026-08-11T07:15:11+00:00",
+      "entity_id": "equinoxe",
+      "entity_name": "Équinoxe",
+      "entity_type": "party",
+      "identifier": "UC5kUxcR5oqS3UArodBOaqsA",
+      "identifier_type": "channel_id",
+      "last_confirmed_at": "2026-08-11T07:15:11+00:00",
+      "platform": "youtube",
+      "profile_url": "https://www.youtube.com/channel/UC5kUxcR5oqS3UArodBOaqsA",
+      "provenance": "linked_from_official_website",
+      "source_site": "https://parti-equinoxe.fr/",
+      "source_tier": "tier_1_primary_official"
+    },
+    "youtube:party:horizons:@horizonsleparti": {
+      "discovered_at": "2026-08-11T07:15:01+00:00",
+      "entity_id": "horizons",
+      "entity_name": "Horizons",
+      "entity_type": "party",
+      "identifier": "@Horizonsleparti",
+      "identifier_type": "handle",
+      "last_confirmed_at": "2026-08-11T07:15:01+00:00",
+      "platform": "youtube",
+      "profile_url": "https://www.youtube.com/@Horizonsleparti",
+      "provenance": "linked_from_official_website",
+      "source_site": "https://horizonsleparti.fr/",
+      "source_tier": "tier_1_primary_official"
+    },
+    "youtube:party:la-france-insoumise:uckhksd-yany2zwwu_4tgf0w": {
+      "discovered_at": "2026-08-11T07:15:01+00:00",
+      "entity_id": "la-france-insoumise",
+      "entity_name": "La France insoumise",
+      "entity_type": "party",
+      "identifier": "UCKHKSD-yanY2ZwwU_4Tgf0w",
+      "identifier_type": "channel_id",
+      "last_confirmed_at": "2026-08-11T07:15:01+00:00",
+      "platform": "youtube",
+      "profile_url": "https://www.youtube.com/channel/UCKHKSD-yanY2ZwwU_4Tgf0w",
+      "provenance": "linked_from_official_website",
+      "source_site": "https://lafranceinsoumise.fr/",
+      "source_tier": "tier_1_primary_official"
+    },
+    "youtube:party:les-ecologistes:@lesecologistesfr": {
+      "discovered_at": "2026-08-11T07:15:03+00:00",
+      "entity_id": "les-ecologistes",
+      "entity_name": "Les Écologistes",
+      "entity_type": "party",
+      "identifier": "@LesEcologistesFR",
+      "identifier_type": "handle",
+      "last_confirmed_at": "2026-08-11T07:15:03+00:00",
+      "platform": "youtube",
+      "profile_url": "https://www.youtube.com/@LesEcologistesFR",
+      "provenance": "linked_from_official_website",
+      "source_site": "https://lesecologistes.fr/",
+      "source_tier": "tier_1_primary_official"
+    },
+    "youtube:party:les-patriotes:ucjb9thdxxl4wmeb8arpna9g": {
+      "discovered_at": "2026-08-11T07:15:03+00:00",
+      "entity_id": "les-patriotes",
+      "entity_name": "Les Patriotes",
+      "entity_type": "party",
+      "identifier": "UCjb9thdXXl4wmeb8ArPna9g",
+      "identifier_type": "channel_id",
+      "last_confirmed_at": "2026-08-11T07:15:03+00:00",
+      "platform": "youtube",
+      "profile_url": "https://www.youtube.com/channel/UCjb9thdXXl4wmeb8ArPna9g",
+      "provenance": "linked_from_official_website",
+      "source_site": "https://les-patriotes.fr/",
+      "source_tier": "tier_1_primary_official"
+    },
+    "youtube:party:les-patriotes:uclaa_cwoqemso9mb_m1f91g": {
+      "discovered_at": "2026-08-11T07:15:03+00:00",
+      "entity_id": "les-patriotes",
+      "entity_name": "Les Patriotes",
+      "entity_type": "party",
+      "identifier": "UClaa_CwoQEmSo9Mb_M1f91g",
+      "identifier_type": "channel_id",
+      "last_confirmed_at": "2026-08-11T07:15:03+00:00",
+      "platform": "youtube",
+      "profile_url": "https://www.youtube.com/channel/UClaa_CwoQEmSo9Mb_M1f91g",
+      "provenance": "linked_from_official_website",
+      "source_site": "https://les-patriotes.fr/",
+      "source_tier": "tier_1_primary_official"
+    },
+    "youtube:party:nouvelle-energie:@david_lisnard": {
+      "discovered_at": "2026-08-11T07:15:04+00:00",
+      "entity_id": "nouvelle-energie",
+      "entity_name": "Nouvelle Énergie",
+      "entity_type": "party",
+      "identifier": "@david_lisnard",
+      "identifier_type": "handle",
+      "last_confirmed_at": "2026-08-11T07:15:04+00:00",
+      "platform": "youtube",
+      "profile_url": "https://www.youtube.com/@david_lisnard",
+      "provenance": "linked_from_official_website",
+      "source_site": "https://www.unenouvelleenergie.fr/",
+      "source_tier": "tier_1_primary_official"
+    },
+    "youtube:party:parti-socialiste:partisocialiste": {
+      "discovered_at": "2026-08-11T07:15:06+00:00",
+      "entity_id": "parti-socialiste",
+      "entity_name": "Parti socialiste",
+      "entity_type": "party",
+      "identifier": "partisocialiste",
+      "identifier_type": "username",
+      "last_confirmed_at": "2026-08-11T07:15:06+00:00",
+      "platform": "youtube",
+      "profile_url": "https://www.youtube.com/user/partisocialiste",
+      "provenance": "linked_from_official_website",
+      "source_site": "https://parti-socialiste.fr/",
+      "source_tier": "tier_1_primary_official"
+    },
+    "youtube:party:place-publique:@mouvementplacepublique": {
+      "discovered_at": "2026-08-11T07:15:07+00:00",
+      "entity_id": "place-publique",
+      "entity_name": "Place publique",
+      "entity_type": "party",
+      "identifier": "@mouvementplacepublique",
+      "identifier_type": "handle",
+      "last_confirmed_at": "2026-08-11T07:15:07+00:00",
+      "platform": "youtube",
+      "profile_url": "https://www.youtube.com/@mouvementplacepublique",
+      "provenance": "linked_from_official_website",
+      "source_site": "https://place-publique.eu/",
+      "source_tier": "tier_1_primary_official"
+    },
+    "youtube:party:rassemblement-national:fnofficiel": {
+      "discovered_at": "2026-08-11T07:15:07+00:00",
+      "entity_id": "rassemblement-national",
+      "entity_name": "Rassemblement national",
+      "entity_type": "party",
+      "identifier": "fnofficiel",
+      "identifier_type": "username",
+      "last_confirmed_at": "2026-08-11T07:15:07+00:00",
+      "platform": "youtube",
+      "profile_url": "https://www.youtube.com/user/fnofficiel",
+      "provenance": "linked_from_official_website",
+      "source_site": "https://rassemblementnational.fr/",
+      "source_tier": "tier_1_primary_official"
+    },
+    "youtube:party:renaissance:@parti-renaissance": {
+      "discovered_at": "2026-08-11T07:15:08+00:00",
+      "entity_id": "renaissance",
+      "entity_name": "Renaissance",
+      "entity_type": "party",
+      "identifier": "@parti-renaissance",
+      "identifier_type": "handle",
+      "last_confirmed_at": "2026-08-11T07:15:08+00:00",
+      "platform": "youtube",
+      "profile_url": "https://www.youtube.com/@parti-renaissance",
+      "provenance": "linked_from_official_website",
+      "source_site": "https://parti-renaissance.fr/",
+      "source_tier": "tier_1_primary_official"
+    },
+    "youtube:party:revolution-permanente:ucwllr_fo9dpdj9uhq4a7pja": {
+      "discovered_at": "2026-08-11T07:15:08+00:00",
+      "entity_id": "revolution-permanente",
+      "entity_name": "Révolution Permanente",
+      "entity_type": "party",
+      "identifier": "UCwLLr_Fo9dpdJ9UHq4A7PjA",
+      "identifier_type": "channel_id",
+      "last_confirmed_at": "2026-08-11T07:15:08+00:00",
+      "platform": "youtube",
+      "profile_url": "https://www.youtube.com/channel/UCwLLr_Fo9dpdJ9UHq4A7PjA",
+      "provenance": "linked_from_official_website",
+      "source_site": "https://www.revolutionpermanente.fr/",
+      "source_tier": "tier_1_primary_official"
+    },
+    "youtube:party:upr:@f_asselineau": {
+      "discovered_at": "2026-08-11T07:15:09+00:00",
+      "entity_id": "upr",
+      "entity_name": "Union populaire républicaine",
+      "entity_type": "party",
+      "identifier": "@f_asselineau",
+      "identifier_type": "handle",
+      "last_confirmed_at": "2026-08-11T07:15:09+00:00",
+      "platform": "youtube",
+      "profile_url": "https://www.youtube.com/@f_asselineau",
+      "provenance": "linked_from_official_website",
+      "source_site": "https://upr.fr/",
+      "source_tier": "tier_1_primary_official"
+    }
+  },
+  "social_seen_items": {
+    "bluesky:candidate:marine-tondelier:marinetondelier.fr": {
+      "at://did:plc:gixn227k63od3d4cyrwp67w5/app.bsky.feed.post/3mrn44k5q222p": {
+        "first_seen_at": "2026-08-11T07:15:12+00:00",
+        "last_seen_at": "2026-08-11T07:15:12+00:00",
+        "published_at": "2026-07-27T14:27:18.397Z",
+        "url": "https://bsky.app/profile/marinetondelier.fr/post/3mrn44k5q222p"
+      },
+      "at://did:plc:gixn227k63od3d4cyrwp67w5/app.bsky.feed.post/3mrrw3h4q3226": {
+        "first_seen_at": "2026-08-11T07:15:12+00:00",
+        "last_seen_at": "2026-08-11T07:15:12+00:00",
+        "published_at": "2026-07-29T12:22:37.908Z",
+        "url": "https://bsky.app/profile/marinetondelier.fr/post/3mrrw3h4q3226"
+      },
+      "at://did:plc:gixn227k63od3d4cyrwp67w5/app.bsky.feed.post/3mrrztkydck24": {
+        "first_seen_at": "2026-08-11T07:15:12+00:00",
+        "last_seen_at": "2026-08-11T07:15:12+00:00",
+        "published_at": "2026-07-29T13:29:48.491Z",
+        "url": "https://bsky.app/profile/marinetondelier.fr/post/3mrrztkydck24"
+      },
+      "at://did:plc:gixn227k63od3d4cyrwp67w5/app.bsky.feed.post/3mrsk3dqsi22n": {
+        "first_seen_at": "2026-08-11T07:15:12+00:00",
+        "last_seen_at": "2026-08-11T07:15:12+00:00",
+        "published_at": "2026-07-29T18:20:29.208Z",
+        "url": "https://bsky.app/profile/marinetondelier.fr/post/3mrsk3dqsi22n"
+      },
+      "at://did:plc:gixn227k63od3d4cyrwp67w5/app.bsky.feed.post/3mruwq342dc2n": {
+        "first_seen_at": "2026-08-11T07:15:12+00:00",
+        "last_seen_at": "2026-08-11T07:15:12+00:00",
+        "published_at": "2026-07-30T17:12:09.161Z",
+        "url": "https://bsky.app/profile/marinetondelier.fr/post/3mruwq342dc2n"
+      },
+      "at://did:plc:gixn227k63od3d4cyrwp67w5/app.bsky.feed.post/3mrvcwyicq22m": {
+        "first_seen_at": "2026-08-11T07:15:12+00:00",
+        "last_seen_at": "2026-08-11T07:15:12+00:00",
+        "published_at": "2026-07-30T20:50:46.200Z",
+        "url": "https://bsky.app/profile/marinetondelier.fr/post/3mrvcwyicq22m"
+      },
+      "at://did:plc:gixn227k63od3d4cyrwp67w5/app.bsky.feed.post/3mrxpllxrnc2w": {
+        "first_seen_at": "2026-08-11T07:15:12+00:00",
+        "last_seen_at": "2026-08-11T07:15:12+00:00",
+        "published_at": "2026-07-31T19:42:22.096Z",
+        "url": "https://bsky.app/profile/marinetondelier.fr/post/3mrxpllxrnc2w"
+      },
+      "at://did:plc:gixn227k63od3d4cyrwp67w5/app.bsky.feed.post/3ms45mkdvzs2l": {
+        "first_seen_at": "2026-08-11T07:15:12+00:00",
+        "last_seen_at": "2026-08-11T07:15:12+00:00",
+        "published_at": "2026-08-02T14:04:05.291Z",
+        "url": "https://bsky.app/profile/marinetondelier.fr/post/3ms45mkdvzs2l"
+      },
+      "at://did:plc:gixn227k63od3d4cyrwp67w5/app.bsky.feed.post/3msayl3ddt22r": {
+        "first_seen_at": "2026-08-11T07:15:12+00:00",
+        "last_seen_at": "2026-08-11T07:15:12+00:00",
+        "published_at": "2026-08-04T12:17:05.964Z",
+        "url": "https://bsky.app/profile/marinetondelier.fr/post/3msayl3ddt22r"
+      },
+      "at://did:plc:gixn227k63od3d4cyrwp67w5/app.bsky.feed.post/3msbne66rdc2y": {
+        "first_seen_at": "2026-08-11T07:15:12+00:00",
+        "last_seen_at": "2026-08-11T07:15:12+00:00",
+        "published_at": "2026-08-04T18:29:02.665Z",
+        "url": "https://bsky.app/profile/marinetondelier.fr/post/3msbne66rdc2y"
+      },
+      "at://did:plc:gixn227k63od3d4cyrwp67w5/app.bsky.feed.post/3msfniilils2o": {
+        "first_seen_at": "2026-08-11T07:15:12+00:00",
+        "last_seen_at": "2026-08-11T07:15:12+00:00",
+        "published_at": "2026-08-06T08:42:06.737Z",
+        "url": "https://bsky.app/profile/marinetondelier.fr/post/3msfniilils2o"
+      },
+      "at://did:plc:gixn227k63od3d4cyrwp67w5/app.bsky.feed.post/3msgupyrses2k": {
+        "first_seen_at": "2026-08-11T07:15:12+00:00",
+        "last_seen_at": "2026-08-11T07:15:12+00:00",
+        "published_at": "2026-08-06T20:24:14.534Z",
+        "url": "https://bsky.app/profile/marinetondelier.fr/post/3msgupyrses2k"
+      },
+      "at://did:plc:gixn227k63od3d4cyrwp67w5/app.bsky.feed.post/3msif6dsd222f": {
+        "first_seen_at": "2026-08-11T07:15:12+00:00",
+        "last_seen_at": "2026-08-11T07:15:12+00:00",
+        "published_at": "2026-08-07T10:51:15.456Z",
+        "url": "https://bsky.app/profile/marinetondelier.fr/post/3msif6dsd222f"
+      },
+      "at://did:plc:gixn227k63od3d4cyrwp67w5/app.bsky.feed.post/3msig4hj5ss2k": {
+        "first_seen_at": "2026-08-11T07:15:12+00:00",
+        "last_seen_at": "2026-08-11T07:15:12+00:00",
+        "published_at": "2026-08-07T11:08:05.984Z",
+        "url": "https://bsky.app/profile/marinetondelier.fr/post/3msig4hj5ss2k"
+      },
+      "at://did:plc:gixn227k63od3d4cyrwp67w5/app.bsky.feed.post/3msnunx4jlc2y": {
+        "first_seen_at": "2026-08-11T07:15:12+00:00",
+        "last_seen_at": "2026-08-11T07:15:12+00:00",
+        "published_at": "2026-08-09T15:11:43.843Z",
+        "url": "https://bsky.app/profile/marinetondelier.fr/post/3msnunx4jlc2y"
+      },
+      "at://did:plc:gixn227k63od3d4cyrwp67w5/app.bsky.feed.post/3mspwz6ulwc2d": {
+        "first_seen_at": "2026-08-11T07:15:12+00:00",
+        "last_seen_at": "2026-08-11T07:15:12+00:00",
+        "published_at": "2026-08-10T10:59:08.037Z",
+        "url": "https://bsky.app/profile/marinetondelier.fr/post/3mspwz6ulwc2d"
+      }
+    },
+    "bluesky:party:generation-ecologie:generationecologie.bsky.social": {
+      "at://did:plc:n4sy7zwkasxrteadohpssei5/app.bsky.feed.post/3luhs2ynq522q": {
+        "first_seen_at": "2026-08-11T07:15:12+00:00",
+        "last_seen_at": "2026-08-11T07:15:12+00:00",
+        "published_at": "2025-07-21T10:33:33.177Z",
+        "url": "https://bsky.app/profile/generationecologie.bsky.social/post/3luhs2ynq522q"
+      },
+      "at://did:plc:n4sy7zwkasxrteadohpssei5/app.bsky.feed.post/3lxcioabcmc2n": {
+        "first_seen_at": "2026-08-11T07:15:12+00:00",
+        "last_seen_at": "2026-08-11T07:15:12+00:00",
+        "published_at": "2025-08-26T12:17:37.468Z",
+        "url": "https://bsky.app/profile/generationecologie.bsky.social/post/3lxcioabcmc2n"
+      },
+      "at://did:plc:n4sy7zwkasxrteadohpssei5/app.bsky.feed.post/3lykfghy5as2h": {
+        "first_seen_at": "2026-08-11T07:15:12+00:00",
+        "last_seen_at": "2026-08-11T07:15:12+00:00",
+        "published_at": "2025-09-11T09:06:05.431Z",
+        "url": "https://bsky.app/profile/generationecologie.bsky.social/post/3lykfghy5as2h"
+      },
+      "at://did:plc:n4sy7zwkasxrteadohpssei5/app.bsky.feed.post/3lyzdfq4vkc2c": {
+        "first_seen_at": "2026-08-11T07:15:12+00:00",
+        "last_seen_at": "2026-08-11T07:15:12+00:00",
+        "published_at": "2025-09-17T07:39:49.012Z",
+        "url": "https://bsky.app/profile/generationecologie.bsky.social/post/3lyzdfq4vkc2c"
+      },
+      "at://did:plc:n4sy7zwkasxrteadohpssei5/app.bsky.feed.post/3lz4p27trjs2m": {
+        "first_seen_at": "2026-08-11T07:15:12+00:00",
+        "last_seen_at": "2026-08-11T07:15:12+00:00",
+        "published_at": "2025-09-18T15:46:06.955Z",
+        "url": "https://bsky.app/profile/generationecologie.bsky.social/post/3lz4p27trjs2m"
+      },
+      "at://did:plc:n4sy7zwkasxrteadohpssei5/app.bsky.feed.post/3lzikvwib622h": {
+        "first_seen_at": "2026-08-11T07:15:12+00:00",
+        "last_seen_at": "2026-08-11T07:15:12+00:00",
+        "published_at": "2025-09-23T09:04:04.813Z",
+        "url": "https://bsky.app/profile/generationecologie.bsky.social/post/3lzikvwib622h"
+      },
+      "at://did:plc:n4sy7zwkasxrteadohpssei5/app.bsky.feed.post/3lzj5t6mgyc22": {
+        "first_seen_at": "2026-08-11T07:15:12+00:00",
+        "last_seen_at": "2026-08-11T07:15:12+00:00",
+        "published_at": "2025-09-23T14:42:33.770Z",
+        "url": "https://bsky.app/profile/generationecologie.bsky.social/post/3lzj5t6mgyc22"
+      },
+      "at://did:plc:n4sy7zwkasxrteadohpssei5/app.bsky.feed.post/3lzo2z4hjx22l": {
+        "first_seen_at": "2026-08-11T07:15:12+00:00",
+        "last_seen_at": "2026-08-11T07:15:12+00:00",
+        "published_at": "2025-09-25T13:35:30.304Z",
+        "url": "https://bsky.app/profile/generationecologie.bsky.social/post/3lzo2z4hjx22l"
+      },
+      "at://did:plc:n4sy7zwkasxrteadohpssei5/app.bsky.feed.post/3m24ri4htx22a": {
+        "first_seen_at": "2026-08-11T07:15:12+00:00",
+        "last_seen_at": "2026-08-11T07:15:12+00:00",
+        "published_at": "2025-10-01T09:54:52.292Z",
+        "url": "https://bsky.app/profile/generationecologie.bsky.social/post/3m24ri4htx22a"
+      },
+      "at://did:plc:n4sy7zwkasxrteadohpssei5/app.bsky.feed.post/3m25dojsqo22c": {
+        "first_seen_at": "2026-08-11T07:15:12+00:00",
+        "last_seen_at": "2026-08-11T07:15:12+00:00",
+        "published_at": "2025-10-01T15:20:34.960Z",
+        "url": "https://bsky.app/profile/generationecologie.bsky.social/post/3m25dojsqo22c"
+      },
+      "at://did:plc:n4sy7zwkasxrteadohpssei5/app.bsky.feed.post/3m27cbumewc2o": {
+        "first_seen_at": "2026-08-11T07:15:12+00:00",
+        "last_seen_at": "2026-08-11T07:15:12+00:00",
+        "published_at": "2025-10-02T10:00:55.811Z",
+        "url": "https://bsky.app/profile/generationecologie.bsky.social/post/3m27cbumewc2o"
+      },
+      "at://did:plc:n4sy7zwkasxrteadohpssei5/app.bsky.feed.post/3m3677swdec2w": {
+        "first_seen_at": "2026-08-11T07:15:12+00:00",
+        "last_seen_at": "2026-08-11T07:15:12+00:00",
+        "published_at": "2025-10-14T16:58:37.597Z",
+        "url": "https://bsky.app/profile/generationecologie.bsky.social/post/3m3677swdec2w"
+      },
+      "at://did:plc:n4sy7zwkasxrteadohpssei5/app.bsky.feed.post/3m5gbsgqu4s22": {
+        "first_seen_at": "2026-08-11T07:15:12+00:00",
+        "last_seen_at": "2026-08-11T07:15:12+00:00",
+        "published_at": "2025-11-12T08:56:31.015Z",
+        "url": "https://bsky.app/profile/generationecologie.bsky.social/post/3m5gbsgqu4s22"
+      },
+      "at://did:plc:n4sy7zwkasxrteadohpssei5/app.bsky.feed.post/3m6htyaxwlc2w": {
+        "first_seen_at": "2026-08-11T07:15:12+00:00",
+        "last_seen_at": "2026-08-11T07:15:12+00:00",
+        "published_at": "2025-11-25T17:19:45.001Z",
+        "url": "https://bsky.app/profile/generationecologie.bsky.social/post/3m6htyaxwlc2w"
+      },
+      "at://did:plc:n4sy7zwkasxrteadohpssei5/app.bsky.feed.post/3m73ph6inqk2f": {
+        "first_seen_at": "2026-08-11T07:15:12+00:00",
+        "last_seen_at": "2026-08-11T07:15:12+00:00",
+        "published_at": "2025-12-03T14:51:51.776Z",
+        "url": "https://bsky.app/profile/generationecologie.bsky.social/post/3m73ph6inqk2f"
+      },
+      "at://did:plc:n4sy7zwkasxrteadohpssei5/app.bsky.feed.post/3ma4puy3cbc27": {
+        "first_seen_at": "2026-08-11T07:15:12+00:00",
+        "last_seen_at": "2026-08-11T07:15:12+00:00",
+        "published_at": "2025-12-16T17:57:26.176Z",
+        "url": "https://bsky.app/profile/generationecologie.bsky.social/post/3ma4puy3cbc27"
+      }
+    },
+    "bluesky:party:les-ecologistes:lesecologistes.fr": {
+      "at://did:plc:sdlol7kfpl4on4g6dooigtcb/app.bsky.feed.post/3mqovgogiik2j": {
+        "first_seen_at": "2026-08-11T07:15:12+00:00",
+        "last_seen_at": "2026-08-11T07:15:12+00:00",
+        "published_at": "2026-07-15T14:07:50.081Z",
+        "url": "https://bsky.app/profile/lesecologistes.fr/post/3mqovgogiik2j"
+      },
+      "at://did:plc:sdlol7kfpl4on4g6dooigtcb/app.bsky.feed.post/3mqpc5g2elk2h": {
+        "first_seen_at": "2026-08-11T07:15:12+00:00",
+        "last_seen_at": "2026-08-11T07:15:12+00:00",
+        "published_at": "2026-07-15T17:55:17.949Z",
+        "url": "https://bsky.app/profile/lesecologistes.fr/post/3mqpc5g2elk2h"
+      },
+      "at://did:plc:sdlol7kfpl4on4g6dooigtcb/app.bsky.feed.post/3mqreu6z5ak2d": {
+        "first_seen_at": "2026-08-11T07:15:12+00:00",
+        "last_seen_at": "2026-08-11T07:15:12+00:00",
+        "published_at": "2026-07-16T13:49:09.280Z",
+        "url": "https://bsky.app/profile/lesecologistes.fr/post/3mqreu6z5ak2d"
+      },
+      "at://did:plc:sdlol7kfpl4on4g6dooigtcb/app.bsky.feed.post/3mqte7urjqs2u": {
+        "first_seen_at": "2026-08-11T07:15:12+00:00",
+        "last_seen_at": "2026-08-11T07:15:12+00:00",
+        "published_at": "2026-07-17T08:43:06.933Z",
+        "url": "https://bsky.app/profile/lesecologistes.fr/post/3mqte7urjqs2u"
+      },
+      "at://did:plc:sdlol7kfpl4on4g6dooigtcb/app.bsky.feed.post/3mqtz3cjko22q": {
+        "first_seen_at": "2026-08-11T07:15:12+00:00",
+        "last_seen_at": "2026-08-11T07:15:12+00:00",
+        "published_at": "2026-07-17T14:56:22.157Z",
+        "url": "https://bsky.app/profile/lesecologistes.fr/post/3mqtz3cjko22q"
+      },
+      "at://did:plc:sdlol7kfpl4on4g6dooigtcb/app.bsky.feed.post/3mqwps3iris2n": {
+        "first_seen_at": "2026-08-11T07:15:12+00:00",
+        "last_seen_at": "2026-08-11T07:15:12+00:00",
+        "published_at": "2026-07-18T16:48:08.338Z",
+        "url": "https://bsky.app/profile/lesecologistes.fr/post/3mqwps3iris2n"
+      },
+      "at://did:plc:sdlol7kfpl4on4g6dooigtcb/app.bsky.feed.post/3mr4aripqas2v": {
+        "first_seen_at": "2026-08-11T07:15:12+00:00",
+        "last_seen_at": "2026-08-11T07:15:12+00:00",
+        "published_at": "2026-07-20T21:35:20.929Z",
+        "url": "https://bsky.app/profile/lesecologistes.fr/post/3mr4aripqas2v"
+      },
+      "at://did:plc:sdlol7kfpl4on4g6dooigtcb/app.bsky.feed.post/3mr5r4brlkk2p": {
+        "first_seen_at": "2026-08-11T07:15:12+00:00",
+        "last_seen_at": "2026-08-11T07:15:12+00:00",
+        "published_at": "2026-07-21T12:00:22.374Z",
+        "url": "https://bsky.app/profile/lesecologistes.fr/post/3mr5r4brlkk2p"
+      },
+      "at://did:plc:sdlol7kfpl4on4g6dooigtcb/app.bsky.feed.post/3mraqbme72s2q": {
+        "first_seen_at": "2026-08-11T07:15:12+00:00",
+        "last_seen_at": "2026-08-11T07:15:12+00:00",
+        "published_at": "2026-07-22T16:23:26.720Z",
+        "url": "https://bsky.app/profile/lesecologistes.fr/post/3mraqbme72s2q"
+      },
+      "at://did:plc:sdlol7kfpl4on4g6dooigtcb/app.bsky.feed.post/3mrfgxrz32c2f": {
+        "first_seen_at": "2026-08-11T07:15:12+00:00",
+        "last_seen_at": "2026-08-11T07:15:12+00:00",
+        "published_at": "2026-07-24T13:20:12.117Z",
+        "url": "https://bsky.app/profile/lesecologistes.fr/post/3mrfgxrz32c2f"
+      },
+      "at://did:plc:sdlol7kfpl4on4g6dooigtcb/app.bsky.feed.post/3mrnganflcs2c": {
+        "first_seen_at": "2026-08-11T07:15:12+00:00",
+        "last_seen_at": "2026-08-11T07:15:12+00:00",
+        "published_at": "2026-07-27T17:28:33.438Z",
+        "url": "https://bsky.app/profile/lesecologistes.fr/post/3mrnganflcs2c"
+      },
+      "at://did:plc:sdlol7kfpl4on4g6dooigtcb/app.bsky.feed.post/3mrrosstor22b": {
+        "first_seen_at": "2026-08-11T07:15:12+00:00",
+        "last_seen_at": "2026-08-11T07:15:12+00:00",
+        "published_at": "2026-07-29T10:12:32.008Z",
+        "url": "https://bsky.app/profile/lesecologistes.fr/post/3mrrosstor22b"
+      },
+      "at://did:plc:sdlol7kfpl4on4g6dooigtcb/app.bsky.feed.post/3mruuoz3zlc2b": {
+        "first_seen_at": "2026-08-11T07:15:12+00:00",
+        "last_seen_at": "2026-08-11T07:15:12+00:00",
+        "published_at": "2026-07-30T16:35:46.021Z",
+        "url": "https://bsky.app/profile/lesecologistes.fr/post/3mruuoz3zlc2b"
+      },
+      "at://did:plc:sdlol7kfpl4on4g6dooigtcb/app.bsky.feed.post/3mrwlvj3yi22y": {
+        "first_seen_at": "2026-08-11T07:15:12+00:00",
+        "last_seen_at": "2026-08-11T07:15:12+00:00",
+        "published_at": "2026-07-31T09:03:39.925Z",
+        "url": "https://bsky.app/profile/lesecologistes.fr/post/3mrwlvj3yi22y"
+      },
+      "at://did:plc:sdlol7kfpl4on4g6dooigtcb/app.bsky.feed.post/3ms6bbney7c2d": {
+        "first_seen_at": "2026-08-11T07:15:12+00:00",
+        "last_seen_at": "2026-08-11T07:15:12+00:00",
+        "published_at": "2026-08-03T10:14:53.816Z",
+        "url": "https://bsky.app/profile/lesecologistes.fr/post/3ms6bbney7c2d"
+      },
+      "at://did:plc:sdlol7kfpl4on4g6dooigtcb/app.bsky.feed.post/3msb3cdzimk2j": {
+        "first_seen_at": "2026-08-11T07:15:12+00:00",
+        "last_seen_at": "2026-08-11T07:15:12+00:00",
+        "published_at": "2026-08-04T13:05:54.321Z",
+        "url": "https://bsky.app/profile/lesecologistes.fr/post/3msb3cdzimk2j"
+      },
+      "at://did:plc:sdlol7kfpl4on4g6dooigtcb/app.bsky.feed.post/3msdkct5evk2o": {
+        "first_seen_at": "2026-08-11T07:15:12+00:00",
+        "last_seen_at": "2026-08-11T07:15:12+00:00",
+        "published_at": "2026-08-05T12:39:55.781Z",
+        "url": "https://bsky.app/profile/lesecologistes.fr/post/3msdkct5evk2o"
+      },
+      "at://did:plc:sdlol7kfpl4on4g6dooigtcb/app.bsky.feed.post/3msdxtro36c2x": {
+        "first_seen_at": "2026-08-11T07:15:12+00:00",
+        "last_seen_at": "2026-08-11T07:15:12+00:00",
+        "published_at": "2026-08-05T16:42:03.299Z",
+        "url": "https://bsky.app/profile/lesecologistes.fr/post/3msdxtro36c2x"
+      },
+      "at://did:plc:sdlol7kfpl4on4g6dooigtcb/app.bsky.feed.post/3msicjfx7ts2m": {
+        "first_seen_at": "2026-08-11T07:15:12+00:00",
+        "last_seen_at": "2026-08-11T07:15:12+00:00",
+        "published_at": "2026-08-07T10:03:45.586Z",
+        "url": "https://bsky.app/profile/lesecologistes.fr/post/3msicjfx7ts2m"
+      },
+      "at://did:plc:sdlol7kfpl4on4g6dooigtcb/app.bsky.feed.post/3msioouu5jc2q": {
+        "first_seen_at": "2026-08-11T07:15:12+00:00",
+        "last_seen_at": "2026-08-11T07:15:12+00:00",
+        "published_at": "2026-08-07T13:41:33.889Z",
+        "url": "https://bsky.app/profile/lesecologistes.fr/post/3msioouu5jc2q"
+      }
+    },
+    "bluesky:party:place-publique:did:plc:vgokjilonzbartfu2wce3qei": {}
+  },
   "sources": {
+    "https://doc.parti.re/Conventions-thematiques_Nouvelle-donne.pdf": {
+      "checked_at": "2026-08-11T07:09:32+00:00",
+      "content_type": "application/pdf",
+      "etag": "\"254ec694a0afb977e666d329db191ee9\"",
+      "excerpt": "",
+      "kind": "registry_source",
+      "last_modified": "Mon, 21 Jul 2025 13:36:19 GMT",
+      "owner": "Renaissance",
+      "resolved_url": "https://doc.parti.re/Conventions-thematiques_Nouvelle-donne.pdf",
+      "sha256": "26f207316997be53349ab9c4f32fc265217676c1c05e13f80ce224185ef99ace",
+      "status": 200
+    },
+    "https://doc.parti.re/conventions/Restitution-Regalien-Une-Republique-ferme-une-France-apaisee.pdf": {
+      "checked_at": "2026-08-11T07:09:33+00:00",
+      "content_type": "application/pdf",
+      "etag": "\"69eee20d84cd32683464e9228e165f68\"",
+      "excerpt": "",
+      "kind": "registry_source",
+      "last_modified": "Mon, 26 May 2025 14:57:59 GMT",
+      "owner": "Renaissance",
+      "resolved_url": "https://doc.parti.re/conventions/Restitution-Regalien-Une-Republique-ferme-une-France-apaisee.pdf",
+      "sha256": "5c67433e4bbdcfbe8bd32b49c082138031c9f88763b810e3690990627ed21950",
+      "status": 200
+    },
     "https://generationecologie.fr/": {
-      "checked_at": "2026-08-11T06:53:05+00:00",
+      "checked_at": "2026-08-11T07:09:21+00:00",
       "content_type": "text/html; charset=UTF-8",
       "etag": null,
       "excerpt": "Génération Écologie - Le parti de la décroissance pour vivre autrement Aller au contenu Le parti de la décroissance pour vivre autrement À propos Notre raison d’être Qui sommes-nous ? Nos valeurs Notre projet Notre organisation L’équipe Le réseau des élues et élus Les groupes locaux Les commissions thématiques S’informer Nos positions Nos actualités Nos communiqués Nos résolutions politiques Nos ressources Nos podcasts Nos publications Nous suivre S'abonner à la newsletter Nos prochains évènements Agir avec nous Échanger Nous contacter S’engager Adhérer Faire un don Militer Matériel de campagne Action locale Newsletter “Je suis candidate à l’élection présidentielle pour reconstruire une écol",
@@ -2660,7 +4088,7 @@
       "status": 200
     },
     "https://horizonsleparti.fr/": {
-      "checked_at": "2026-08-11T06:53:06+00:00",
+      "checked_at": "2026-08-11T07:09:22+00:00",
       "content_type": "text/html; charset=UTF-8",
       "etag": null,
       "excerpt": "Horizons Le parti - Édouard Philippe Le parti Les instances nationales Iéna Commission nationale d’investiture Les parlementaires L’Assemblée des maires Secrétaires nationaux Le pôle Idées Le pôle Jeunes Dans les territoires Les référents régionaux Les délégués départementaux Les comités et délégués municipaux Publications Le Manifeste Les Revues Les Notes Autres publications Actualités À la une L’agenda Les grands événements (ré)Adhérer Donner Boutique Rejoignez Horizons et Édouard Philippe ! Prénom * Nom * E-mail * RGPD * J'accepte la politique de confidentialité * CAPTCHA NOUS SUIVRE “Pour construire ensemble une France plus forte, plus libre, plus juste et plus durable” “Pour construire ",
@@ -2672,7 +4100,7 @@
       "status": 200
     },
     "https://horizonsleparti.fr/evenement/grand-meeting-dedouard-philippe-a-ladidas-arena/": {
-      "checked_at": "2026-08-11T06:53:21+00:00",
+      "checked_at": "2026-08-11T07:09:35+00:00",
       "content_type": "text/html; charset=UTF-8",
       "etag": null,
       "excerpt": "Grand meeting d'Édouard Philippe à l'Adidas Arena - Horizons Le parti Le parti Les instances nationales Iéna Commission nationale d’investiture Les parlementaires L’Assemblée des maires Secrétaires nationaux Le pôle Idées Le pôle Jeunes Dans les territoires Les référents régionaux Les délégués départementaux Les comités et délégués municipaux Publications Le Manifeste Les Revues Les Notes Autres publications Actualités À la une L’agenda Les grands événements (ré)Adhérer Donner Boutique Adidas Arena – Paris 5 juillet 2026 Dimanche 5 juillet, Édouard Philippe a officiellement lancé sa campagne à l’Adidas Arena ! Plus de 5 200 sympathisants et militants se sont réunis pour le grand meeting d’Éd",
@@ -2683,8 +4111,20 @@
       "sha256": "90066915818c816c53380e0899f8c57aa746fca627c724d8e5ac870f26fd2411",
       "status": 200
     },
+    "https://horizonsleparti.fr/le-pole-idees/": {
+      "checked_at": "2026-08-11T07:09:22+00:00",
+      "content_type": "text/html; charset=UTF-8",
+      "etag": null,
+      "excerpt": "Le pôle Idées - Horizons Le parti Le parti Les instances nationales Iéna Commission nationale d’investiture Les parlementaires L’Assemblée des maires Secrétaires nationaux Le pôle Idées Le pôle Jeunes Dans les territoires Les référents régionaux Les délégués départementaux Les comités et délégués municipaux Publications Le Manifeste Les Revues Les Notes Autres publications Actualités À la une L’agenda Les grands événements (ré)Adhérer Donner Boutique Le pôle Idées Le pôle Idées a pour mission, sous l’impulsion d’Édouard Philippe, de formuler des propositions ambitieuses et pragmatiques pour répondre aux défis du pays. Le pôle Idées s’organise autour d’une trentaine de groupes de travail réun",
+      "kind": "party_programme",
+      "last_modified": null,
+      "owner": "Horizons",
+      "resolved_url": "https://horizonsleparti.fr/le-pole-idees/",
+      "sha256": "64c29ba486aa274c87c0ba7dd95a6978071507718c55cfb55009368527da709f",
+      "status": 200
+    },
     "https://lafranceinsoumise.fr/": {
-      "checked_at": "2026-08-11T06:53:07+00:00",
+      "checked_at": "2026-08-11T07:09:23+00:00",
       "content_type": "text/html; charset=UTF-8",
       "etag": null,
       "excerpt": "La France insoumise - Accueil - La France insoumise Aller au contenu Tous les sites Actus Toute l’actu Actualités du mouvement Actualités parlementaires Communiqués de presse L’Agenda national Agir Créer ou rejoindre un groupe d’action Créer ou rejoindre un événement Les Caravanes populaires Commander du matériel Faire un don Les fiches pratiques pour agir Rejoindre un groupe thématique Les ateliers des lois Le mouvement La France insoumise, comment ça marche ? Charte graphique de la France insoumise Les principes de la France insoumise Charte des groupes d’action de la France insoumise Achat et animation des QG insoumis Nos parlementaires Élections consulaires des 30–31 mai 2026 Les médias ",
@@ -2696,7 +4136,7 @@
       "status": 200
     },
     "https://lafranceinsoumise.fr/2026/06/22/parrainages-elus-pour-election-presidentielle-2027/": {
-      "checked_at": "2026-08-11T06:53:07+00:00",
+      "checked_at": "2026-08-11T07:09:23+00:00",
       "content_type": "text/html; charset=UTF-8",
       "etag": null,
       "excerpt": "Parrainages d'élu·es pour l'élection présidentielle 2027 - La France insoumise Aller au contenu Tous les sites Actus Toute l'actu Actualités du mouvement Actualités parlementaires Communiqués de presse L'Agenda national Agir Créer ou rejoindre un groupe d’action Créer ou rejoindre un événement Les Caravanes populaires Commander du matériel Faire un don Les fiches pratiques pour agir Rejoindre un groupe thématique Les ateliers des lois Le mouvement La France insoumise, comment ça marche ? Charte graphique de la France insoumise Les principes de la France insoumise Charte des groupes d’action de la France insoumise Achat et animation des QG insoumis Nos parlementaires Élections consulaires des",
@@ -2708,9 +4148,9 @@
       "status": 200
     },
     "https://les-patriotes.fr/": {
-      "checked_at": "2026-08-11T06:53:08+00:00",
+      "checked_at": "2026-08-11T07:09:25+00:00",
       "content_type": "text/html; charset=UTF-8",
-      "etag": "\"38022-1786429947;gz\"",
+      "etag": "\"38075-1786431846;gz\"",
       "excerpt": "Les Patriotes – Rejoignez le combat pour la France Mouvement S’impliquer Les référents Patriotes Les Jeunes Patriotes L’Académie des Patriotes Équipe nationale Comité Exécutif Les statuts Charte des Patriotes Photos des derniers événements Tracts et affiches Prochains événements Projet pour la France Pétitions Boutique Adhérer Ré-Adhérer Donner Voir toutes les vidéos de la chaîne Dernière vidéo de la chaine des Patriotes : Voir toutes les vidéos de la chaîne Assises de la Souveraineté – Arras 2026 : S’inscrire aux Assises de la Souveraineté Événements à venir : Pôle d'expertise Mouvement Projet pour la France L’Équipe Nationale La Charte S'engager Adhérer Faire un don Signer les pétitions En",
       "kind": "party_official",
       "last_modified": null,
@@ -2720,7 +4160,7 @@
       "status": 200
     },
     "https://lesecologistes.fr/": {
-      "checked_at": "2026-08-11T06:53:11+00:00",
+      "checked_at": "2026-08-11T07:09:27+00:00",
       "content_type": "text/html; charset=UTF-8",
       "etag": null,
       "excerpt": "Les Écologistes Le mouvement Projet Actus JDE Plus Adhérer Donner Le mouvement Projet Actus JDE Adhérer Donner Se connecter Nous sommes Les Écologistes Rejoignez-nous, organisons-nous partout en France pour gagner les batailles à venir et construire un avenir meilleur. Nous rejoindre Passer à l'action Campagne en cours Rendez-vous à Grenoble ! 📅 Du 20 au 22 août , retrouvons-nous à Grenoble pour trois jours de débats, de formations, de rencontres et de convivialité. À quelques mois de l'élection présidentielle de 2027, les Journées d'été seront un moment essentiel pour débattre des grands enjeux écologiques, partager nos expériences de terrain et construire ensemble les prochaines mobilisati",
@@ -2732,7 +4172,7 @@
       "status": 200
     },
     "https://marinetondelier.fr/blog/instinct-primaire": {
-      "checked_at": "2026-08-11T06:53:13+00:00",
+      "checked_at": "2026-08-11T07:09:28+00:00",
       "content_type": "text/html;charset=utf-8",
       "etag": "W/\"f263ab7d6c131b049723e669f3f22977\"",
       "excerpt": "Instinct primaire — Marine Tondelier 0 Passer au contenu Marine Tondelier La campagne Rejoignez-nous ! Prochains événements Le conseil scientifique Journal de campagne Le programme Pour une prospérité écologique Les livrets Mes publications Le manifeste BLOG Podcast Livre Contact Dons Ouvrir le menu Fermer le menu Marine Tondelier La campagne Rejoignez-nous ! Prochains événements Le conseil scientifique Journal de campagne Le programme Pour une prospérité écologique Les livrets Mes publications Le manifeste BLOG Podcast Livre Contact Dons Ouvrir le menu Fermer le menu Dossier : La campagne Retour Rejoignez-nous ! Prochains événements Le conseil scientifique Journal de campagne Dossier : Le p",
@@ -2744,9 +4184,9 @@
       "status": 200
     },
     "https://parti-equinoxe.fr/": {
-      "checked_at": "2026-08-11T06:53:22+00:00",
+      "checked_at": "2026-08-11T07:09:35+00:00",
       "content_type": "text/html; charset=UTF-8",
-      "etag": "\"31981-1786304724;gz\"",
+      "etag": "\"31970-1786303292;gz\"",
       "excerpt": "Accueil - Parti Équinoxe Aller au contenu Le parti Notre histoire Nos actualités Le projet Nous rencontrer Nos groupes locaux Nos événements FAIRE UN DON FAIRE UN DON Adhérer Adhérer Le parti Notre histoire Nos actualités Le projet Nous rencontrer Nos groupes locaux Nos événements Nous rejoindre Faire un don Se connecter Équinoxe, un parti pour le monde qui vient L’équinoxe, c’est l’instant où le Soleil traverse le plan de l’équateur, le moment de l’année où le jour est aussi long que la nuit, métaphore de l’époque qui est la nôtre : partagée entre périls et possibles, entre optimisme et pessimisme, entre résignation et renouveau. Rejoindre Équinoxe, c'est faire le choix de croire au possibl",
       "kind": "party_official",
       "last_modified": null,
@@ -2756,7 +4196,7 @@
       "status": 200
     },
     "https://parti-renaissance.fr/": {
-      "checked_at": "2026-08-11T06:53:18+00:00",
+      "checked_at": "2026-08-11T07:09:33+00:00",
       "content_type": "text/html",
       "etag": null,
       "excerpt": "Renaissance â Parti politique franÃ§ais | ProgrÃ¨s, Europe, RÃ©publique Le parti Nos dÃ©partements Nos Ã©vÃ©nements Mon espace J'adhÃ¨re BÃ¢tissons ensemble une Nouvelle RÃ©publique Thank you! Your submission has been received! Oops! Une erreur est survenue. DÃ©jÃ adhÃ©rent ? Mon espace Tout doit changer NOUVELLE RÃPUBLIQUE Participez Ã la grande consultation et contribuez â¨Ã bÃ¢tir une Nouvelle RÃ©publique ! Je participe CONVENTIONSÂ ThÃ©matiques Pour une nouvelle donne Ã©conomique et climatique DÃ©couvrez toutes propositions pour un nouveau modÃ¨le Ã©conomique, social et Ã©cologique pour la France ð±ð«ð· Voir nos propositions CONVENTIONSÂ ThÃ©matiques Une RÃ©publique ferme, une ",
@@ -2768,7 +4208,7 @@
       "status": 200
     },
     "https://place-publique.eu/": {
-      "checked_at": "2026-08-11T06:53:16+00:00",
+      "checked_at": "2026-08-11T07:09:31+00:00",
       "content_type": "text/html; charset=UTF-8",
       "etag": null,
       "excerpt": "Place publique Le parti Le projet Nos actualités Agir Adhérer Faire un don Participer à un événement Trouver sa Place publique locale Événements locaux Mobilisation numérique Nous contacter Adhérer Faire un don Le parti Le projet Nos actualités Agir Adhérer Faire un don Participer à un événement Trouver sa Place publique locale Événements locaux Mobilisation numérique Nous contacter Adhérer Faire un don Il est temps d'agir Rejoins-nous À la une Nos conseils lecture pour l'été 5 livres pour penser notre époque et nourrir l'envie d'agir. De l'avenir de l'Europe à la démocratie locale, en passant par les campagnes, l’adaptation des villes au dérèglement climatique et l'engagement des femmes, ce",
@@ -2780,7 +4220,7 @@
       "status": 200
     },
     "https://place-publique.eu/pages/6mRSwq5tuSrSi68Cw1IADX/l-acte-i": {
-      "checked_at": "2026-08-11T06:53:16+00:00",
+      "checked_at": "2026-08-11T07:09:31+00:00",
       "content_type": "text/html; charset=UTF-8",
       "etag": null,
       "excerpt": "L'Acte I | Place publique Le parti Le projet Nos actualités Agir Adhérer Faire un don Participer à un événement Trouver sa Place publique locale Événements locaux Mobilisation numérique Nous contacter Adhérer Faire un don Le parti Le projet Nos actualités Agir Adhérer Faire un don Participer à un événement Trouver sa Place publique locale Événements locaux Mobilisation numérique Nous contacter Adhérer Faire un don L'Acte I Description La politique prise au sérieux suppose d’abord de proposer une vision claire aux citoyens. Voici donc le premier acte : notre vision pour la France. Faisons la vivre et grandir ensemble ! Ce document propose une vision pour notre nation. Il est le produit d’un t",
@@ -2792,7 +4232,7 @@
       "status": 200
     },
     "https://programme.lafranceinsoumise.fr/": {
-      "checked_at": "2026-08-11T06:53:08+00:00",
+      "checked_at": "2026-08-11T07:09:23+00:00",
       "content_type": "text/html; charset=UTF-8",
       "etag": null,
       "excerpt": "Just a moment...",
@@ -2804,7 +4244,7 @@
       "status": 403
     },
     "https://rassemblementnational.fr/": {
-      "checked_at": "2026-08-11T06:53:17+00:00",
+      "checked_at": "2026-08-11T07:09:32+00:00",
       "content_type": "text/html; charset=utf-8",
       "etag": null,
       "excerpt": "Rassemblement National - Accueil RN Menu Les Français de l'étranger Les fédérations Les fédérations métropolitaines Les fédérations d’Outre-mer Les Français de l’étranger Instances Bureau Exécutif Bureau National Commission Nationale d'Investiture Commission des Conflits Conseil national Le Congrès 18ème congrès Les adhérents Assemblée générale extraordinaire Actualités Communiqués Tribunes libres Lettre ouverte Vidéos Projet de gouvernement Découvrez le programme Contre-Budget 2026 Présidentielle 2022 Livrets thématiques Les 22 mesures Organisation Fédérations Les fédérations métropolitaines Les fédérations d’Outre-mer Les Français de l’étranger Les instances Bureau exécutif Bureau national",
@@ -2816,7 +4256,7 @@
       "status": 200
     },
     "https://republicains.fr/": {
-      "checked_at": "2026-08-11T06:53:11+00:00",
+      "checked_at": "2026-08-11T07:09:26+00:00",
       "content_type": "text/html; charset=UTF-8",
       "etag": null,
       "excerpt": "Les Républicains Skip to the content Qui sommes-nous ? Votre Fédération Nos propositions Actualités Je donne J'adhère Qui sommes-nous ? Votre Fédération Nos propositions Actualités Je donne J'adhère Je donne J'adhère Qui sommes-nous ? Votre Fédération Nos propositions Actualités Les républicains Rassembler et bâtir la France de demain Je souhaite m'engager VIDEOS à LA UNE 15.07.2026 Passage TV Une grande nation ne répond pas à la souffrance par la mort. 15.07.2026 Interview Vidéos à la une Les yeux dans les yeux avec Jean-Jacques Bourdin 08.07.2026 Passage TV Vidéos à la une Je veux rendre la parole aux Français 07.07.2026 Passage TV 2027, c’est le sursaut ou le chaos. 01.07.2026 Passage TV ",
@@ -2828,7 +4268,7 @@
       "status": 200
     },
     "https://www.debout-la-france.fr/": {
-      "checked_at": "2026-08-11T06:53:00+00:00",
+      "checked_at": "2026-08-11T07:09:16+00:00",
       "content_type": "text/html; charset=UTF-8",
       "etag": null,
       "excerpt": "Debout La France - Une France Indépendante, des Français Libres Aller au contenu Debout La France Projet Actualités NDA Organisation DLF Près de chez vous Le Bureau National Les Chargés de mission régionaux Les Conseillers Nationaux Espace Militant Statuts Debout La France Boutique Contact Nous contacter DLF près de chez vous Recherche : DONNER ADHÉRER Projet Actualités NDA Organisation DLF Près de chez vous Le Bureau National Les Chargés de mission régionaux Les Conseillers Nationaux Espace Militant Statuts Debout La France Boutique Contact Nous contacter DLF près de chez vous UNE FRANCE INDÉPENDANTE, DES FRANÇAIS LIBRES ! ILS ONT DES MILLIONS, NOUS AVONS DES CONVICTIONS ! AIDEZ-NOUS À LIBÉ",
@@ -2839,20 +4279,32 @@
       "sha256": "f5e66bce5ce75166e2d955a595c9a395dfaff70494d29e4d7713fc676e979fed",
       "status": 200
     },
+    "https://www.debout-la-france.fr/notre-projet/": {
+      "checked_at": "2026-08-11T07:09:19+00:00",
+      "content_type": "text/html; charset=UTF-8",
+      "etag": null,
+      "excerpt": "Projet - Debout La France Aller au contenu Debout La France Projet Actualités NDA Organisation DLF Près de chez vous Le Bureau National Les Chargés de mission régionaux Les Conseillers Nationaux Espace Militant Statuts Debout La France Boutique Contact Nous contacter DLF près de chez vous Recherche : DONNER ADHÉRER Projet Actualités NDA Organisation DLF Près de chez vous Le Bureau National Les Chargés de mission régionaux Les Conseillers Nationaux Espace Militant Statuts Debout La France Boutique Contact Nous contacter DLF près de chez vous Le Projet de Debout La France Retrouvez notre projet, nos idées pour permettre de retrouver l'indépendance de la France et la liberté des Français La syn",
+      "kind": "party_programme",
+      "last_modified": null,
+      "owner": "Debout la France",
+      "resolved_url": "https://www.debout-la-france.fr/notre-projet/",
+      "sha256": "e99eb733af50202a51d8895dfcb0cd40a65bf6b74d0da5707c304c0a78090a5f",
+      "status": 200
+    },
     "https://www.jerome-guedj.fr/la-clarte-plutot-que-les-slogans-pourquoi-jai-annonce-ma-candidature-pour-2027/": {
-      "checked_at": "2026-08-11T06:53:07+00:00",
+      "checked_at": "2026-08-11T07:09:23+00:00",
       "content_type": "text/html; charset=utf-8",
       "etag": "W/\"c9f8ba691fe1592840abac08dfadafa7\"",
       "excerpt": "Jérôme Guedj — Député de l'Essonne",
       "kind": "candidate_official_evidence",
-      "last_modified": "Tue, 11 Aug 2026 03:34:48 GMT",
+      "last_modified": "Tue, 11 Aug 2026 05:00:59 GMT",
       "owner": "Jérôme Guedj",
       "resolved_url": "https://www.jerome-guedj.fr/la-clarte-plutot-que-les-slogans-pourquoi-jai-annonce-ma-candidature-pour-2027/",
       "sha256": "8f0fc94b5094bf91786320a525737bbfe73aed3536110e6e63aecdae12df2c62",
       "status": 200
     },
     "https://www.lutte-ouvriere.org/": {
-      "checked_at": "2026-08-11T06:53:12+00:00",
+      "checked_at": "2026-08-11T07:09:27+00:00",
       "content_type": "text/html",
       "etag": null,
       "excerpt": "Portail de Lutte ouvriÃ¨re Portail Journal Revue CLT AudioLO Union communiste internationaliste FÃªte Nous soutenir Les autres sites Portail Journal Revue CLT AudioLO Union communiste internationaliste FÃªte Nous soutenir ActualitÃ©s Dans le monde Dans les entreprises Leur sociÃ©tÃ© Municipales 2026 Ãditoriaux CommuniquÃ©s BrÃ¨ves Agenda Meetings Affiches Autocollants Revue de presse Qui sommes-nousÂ ? PrÃ©sentation Notre organisation Nos idÃ©es et positions politiques En rÃ©gions Auvergne-RhÃ´ne-Alpes Bourgogne-Franche-ComtÃ© Bretagne Centre-Val de Loire Grand Est Hauts-de-France Ãle-de-France Normandie Nouvelle-Aquitaine Occitanie PACA-Corse Pays de la Loire Ãle de la RÃ©union Mayotte G",
@@ -2864,7 +4316,7 @@
       "status": 200
     },
     "https://www.parti-reconquete.fr/": {
-      "checked_at": "2026-08-11T06:53:18+00:00",
+      "checked_at": "2026-08-11T07:09:32+00:00",
       "content_type": "text/html; charset=UTF-8",
       "etag": null,
       "excerpt": "RECONQUÊTE — Le mouvement d'Éric Zemmour Notre mouvement J'agis Contact Athos, votre espace adhérent Faire un don J'adhère Notre mouvement J'agis Athos, votre espace adhérent Contact Faire un don J'adhère Le mouvement d'Éric Zemmour Rejoignez nos 100 000 adhérents ! J'adhère Engagement Les priorités d'Éric Zemmour pour la France Cela fait 30 ans qu'Éric Zemmour pose les bons diagnostics sur les principaux maux de la France, quitte à souvent prêcher seul dans le désert et contre tous. Ses priorités sont extrêmement claires et faciles à retenir : Identité, Immigration, Islam, Insécurité, Instruction, Impôts, Industrie et Indépendance, il est temps de remettre, en France, les points sur les i !",
@@ -2876,19 +4328,19 @@
       "status": 200
     },
     "https://www.parti-socialiste.fr/": {
-      "checked_at": "2026-08-11T06:53:15+00:00",
+      "checked_at": "2026-08-11T07:09:31+00:00",
       "content_type": "text/html; charset=UTF-8",
       "etag": null,
       "excerpt": "Parti Socialiste Aller au contenu Le Parti Socialiste Fermer Le Parti Socialiste Ouvrir Le Parti Socialiste Le Parti Socialiste Le Premier Secrétaire Figure clé du rassemblement de la gauche en France, Olivier Faure a mené une carrière de conseiller politique et de député avant de devenir premier secrétaire du Parti socialiste en 2018 Les instances Comprendre les instances de démocratie interne Nos fédérations Les fédérations socialistes, actrices du militantisme quotidien Nos élu·e·s Le Parti socialiste bénéficie du maillage territorial le plus fin des partis politiques de gauche Nos porte-parole Découvrez celles et ceux qui s’engagent au quotidien pour faire entendre nos valeurs Nos parten",
       "kind": "party_official",
-      "last_modified": "Tue, 11 Aug 2026 03:54:03 GMT",
+      "last_modified": "Tue, 11 Aug 2026 06:53:36 GMT",
       "owner": "Parti socialiste",
       "resolved_url": "https://parti-socialiste.fr/",
       "sha256": "4111704d61d6bef6fc826af455f9e74388af1b2cf7e235746fd59b400cfa8467",
       "status": 200
     },
     "https://www.pcf.fr/": {
-      "checked_at": "2026-08-11T06:53:13+00:00",
+      "checked_at": "2026-08-11T07:09:29+00:00",
       "content_type": "text/html; charset=UTF-8",
       "etag": null,
       "excerpt": "Just a moment...",
@@ -2900,19 +4352,43 @@
       "status": 403
     },
     "https://www.revolutionpermanente.fr/": {
-      "checked_at": "2026-08-11T06:53:19+00:00",
+      "checked_at": "2026-08-11T07:09:33+00:00",
       "content_type": "text/html; charset=utf-8",
       "etag": null,
       "excerpt": "Revolution Permanente × Qui sommes-nous ? Nous rejoindre Faire un don Formations marxistes Politique Notre Classe International Racisme et violences d’État Genre et Sexualités Écologie Jeunesse Débats Armes de la critique Nous rejoindre Faire un don Été 2026 Révolution Permanente passe en régime estival jusqu’au 17 août ! Tri raciste Contre « Bienvenue en France », témoigne et prépare la mobilisation pour cette rentrée ! Billet Crise de Ceuta : pourquoi les révolutionnaires défendent l’ouverture des frontières ? Billet d’Anasse Kazib Long Format L’impérialisme espagnol dans une période de désordre mondial Billet Ceuta : quand la gauche espagnole épouse les intérêts de son impérialisme et de ",
       "kind": "party_official",
-      "last_modified": "Tue, 11 Aug 2026 06:51:49 GMT",
+      "last_modified": "Tue, 11 Aug 2026 07:08:21 GMT",
       "owner": "Révolution Permanente",
       "resolved_url": "https://www.revolutionpermanente.fr/",
       "sha256": "fdb418e9fa7775d85e3ccf7629d34afb61d618ea59fedca5f3c9df37cc73f202",
       "status": 200
     },
+    "https://www.unenouvelleenergie.fr/": {
+      "checked_at": "2026-08-11T07:09:29+00:00",
+      "content_type": "text/html; charset=utf-8",
+      "etag": "\"s5fhnbfpi73gh4\"",
+      "excerpt": "Nouvelle Énergie - David Lisnard Aller au contenu Adhérer Agenda Faire un don Nous contacter Découvrir notre parti Programme Actualités J’adhère Élection présidentielle française de 2027 David Lisnard ouvre le chemin du sursaut français Invité du journal de 20h sur France 2 face à Léa Salamé, David Lisnard a posé un acte politique majeur. Présidentielle 2027 : David Lisnard ouvre le chemin du sursaut français Interview pour le JDD Vive la liberté et AFUERA le collectivisme ! David Lisnard étrille l’asphyxie bureaucratique et accuse l’État d’étouffer les communes. Vive la liberté et AFUERA le collectivisme ! Entretien « Ce qu’on veut, c’est une vraie rupture libérale » Confortablement réélu, ",
+      "kind": "party_official",
+      "last_modified": null,
+      "owner": "Nouvelle Énergie",
+      "resolved_url": "https://www.unenouvelleenergie.fr/",
+      "sha256": "5da76659e88f325ab1427a6590ded91b7e05f961fb308d9800e0e5f239cc21df",
+      "status": 200
+    },
+    "https://www.unenouvelleenergie.fr/notre-programme/": {
+      "checked_at": "2026-08-11T07:09:29+00:00",
+      "content_type": "text/html; charset=utf-8",
+      "etag": "\"12azdm0r71q3t5f\"",
+      "excerpt": "Le programme de David Lisnard | Nouvelle Énergie Aller au contenu Adhérer Agenda Faire un don Nous contacter Découvrir notre parti Programme Actualités J’adhère Notre programme Découvrez notre programme politique pour la France, articulé autour de 9 thématiques principales et d’une vision de refondation nationale. “ « Une révolution de la liberté pour une France forte, juste et rayonnante Notre pays a besoin d’un sursaut. Je veux rompre avec l’étatisme et la bureaucratie qui paralysent la France. Mon projet repose sur trois principes fondamentaux : un État recentré sur ses missions régaliennes de sécurité et de défense ; la libération des énergies créatrices par une profonde débureaucratisat",
+      "kind": "party_programme",
+      "last_modified": null,
+      "owner": "Nouvelle Énergie",
+      "resolved_url": "https://www.unenouvelleenergie.fr/notre-programme/",
+      "sha256": "9c7cf24c281dffbdd2826b9d999b1844c270af45f80512279957853b31e7bc0f",
+      "status": 200
+    },
     "https://www.upr.fr/": {
-      "checked_at": "2026-08-11T06:53:20+00:00",
+      "checked_at": "2026-08-11T07:09:34+00:00",
       "content_type": "text/html",
       "etag": null,
       "excerpt": "Union Populaire RÃ©publicaine DÃ©couvrir l'UPR Programme ActualitÃ©s S'engager Presse Boutique Contact Espace membre N i g a u c h e n i d r o i t e : u n i s p o u r l a F r a n c e ! R e j o i g n e z l e m o u v e m e n t . AdhÃ©rer Ã l'UPR Faire un don Union Populaire RÃ©publicaine Pour le Frexit , avec FranÃ§ois Asselineau AdhÃ©rer Ã l'UPR Faire un don Le programme Nos engagements Notre programme Voulant redonner toute son actualitÃ© au programme du Conseil national de la RÃ©sistance de 1944, FranÃ§ois Asselineau propose aux FranÃ§ais de se rassembler, afin de rendre Ã la France sa libertÃ© et son indÃ©pendance. LibÃ©rons-nous de l'UE, de l'â¬, de l'OTAN, protÃ©geons nos services publi",
