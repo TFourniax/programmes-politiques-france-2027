@@ -42,7 +42,7 @@ export default function CandidateExplorer({ onExplore, onNavigate }) {
 
   return <section className="panel explorerPanel">
     <ExplorerIntro
-      eyebrow="Fiches candidats"
+      eyebrow="Fiches personnalités"
       title="Ce qui est documenté, et ce qui ne l’est pas"
       description="Chaque fiche sépare les positions directement rattachées à la personnalité des documents de son parti. Les absences de données restent visibles au lieu d’être interprétées."
       aside={<label className="explorerSelectLabel"><span>Choisir une personnalité</span><select value={candidateId} onChange={(event) => setCandidateId(event.target.value)}><option value="">Sélectionner…</option>{sortedCandidates.map((candidate) => <option key={candidate.id} value={candidate.id}>{candidate.name} — {candidate.statusLabel}</option>)}</select></label>}
@@ -50,7 +50,7 @@ export default function CandidateExplorer({ onExplore, onNavigate }) {
 
     {!candidateId && <div className="explorerLanding"><strong>Sélectionnez une personnalité</strong><p>Vous verrez son statut actuel, son niveau de couverture par thème, les documents directement associés, le contexte de parti séparé et la chronologie des positions documentées.</p></div>}
 
-    {candidateId && loading && !profile && <ExplorerLoading label="Construction de la fiche candidat…" />}
+    {candidateId && loading && !profile && <ExplorerLoading label="Construction de la fiche personnalité…" />}
 
     {profile && <div className="candidateProfile">
       <div className="candidateProfileHero" style={{"--party-color":profile.candidate.partyColor || "#748196"}}>
