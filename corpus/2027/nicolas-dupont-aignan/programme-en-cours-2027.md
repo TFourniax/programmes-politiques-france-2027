@@ -2,7 +2,7 @@
 document_id: doc-dlf-programme-2027-en-cours
 entity_id: debout-la-france
 entity_type: party
-document_type: pre_programme
+document_type: party_platform
 document_status: draft
 title: "Projet politique Debout la France — base en cours d'actualisation"
 source_url: https://www.debout-la-france.fr/projet/
