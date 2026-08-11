@@ -3,7 +3,7 @@ proposal_id: prop-lfi-service-citoyen-neuf-mois
 entity_id: la-france-insoumise
 entity_type: party
 election: presidentielle-france-2027
-topic: jeunesse
+topic: institutions-democratie
 subtopic: service-citoyen
 proposal_type: policy_proposal
 proposal_status: current
