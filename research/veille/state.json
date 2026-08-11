@@ -1,0 +1,2928 @@
+{
+  "discovery_seen_urls": {},
+  "feeds": {},
+  "last_run_at": "2026-08-11T06:58:05+00:00",
+  "last_run_error_count": 35,
+  "last_run_event_count": 5,
+  "official_seen_urls": {
+    "http://lesecologistes.fr/document/18CTGbDRkzn7XaKkp61X04/huma2024-programme-lesecologistes.pdf": {
+      "first_seen_at": "2026-08-11T06:53:37+00:00",
+      "lastmod": "2024-09-12T21:40:48+02:00",
+      "owner": "Les Écologistes"
+    },
+    "http://lesecologistes.fr/document/1IkhP3X0ICUfWgUCwmjG2m/ft-renovation-des-logements-1.pdf": {
+      "first_seen_at": "2026-08-11T06:53:37+00:00",
+      "lastmod": "2025-06-04T17:57:22+02:00",
+      "owner": "Les Écologistes"
+    },
+    "http://lesecologistes.fr/document/1JGlVTgE9rtzoDKTz8yGPT/socle-programmatique-les-ecologistes-europeenes-2024.pdf": {
+      "first_seen_at": "2026-08-11T06:53:37+00:00",
+      "lastmod": "2024-05-07T11:03:41+02:00",
+      "owner": "Les Écologistes"
+    },
+    "http://lesecologistes.fr/document/2CFCTwHsIKciaXk96zZf53/24-01-face-a-la-loi-immigration.pdf": {
+      "first_seen_at": "2026-08-11T06:53:37+00:00",
+      "lastmod": "2024-03-25T11:53:06+01:00",
+      "owner": "Les Écologistes"
+    },
+    "http://lesecologistes.fr/document/2jjw0it1cWuSFqhgX4YNdr/programme-convention-vdefinitive2.pdf": {
+      "first_seen_at": "2026-08-11T06:53:37+00:00",
+      "lastmod": "2025-04-23T12:12:58+02:00",
+      "owner": "Les Écologistes"
+    },
+    "http://lesecologistes.fr/document/2yLteKcEoHbAas8Isv6BOa/huma2024-programme-lesecologistes.pdf": {
+      "first_seen_at": "2026-08-11T06:53:37+00:00",
+      "lastmod": "2024-09-12T17:25:09+02:00",
+      "owner": "Les Écologistes"
+    },
+    "http://lesecologistes.fr/document/3FCc21TLGGWFDcNVAdHQHt/candidatures-conseil-disciplinaire-2e-tour.pdf": {
+      "first_seen_at": "2026-08-11T06:53:37+00:00",
+      "lastmod": "2024-09-16T15:11:08+02:00",
+      "owner": "Les Écologistes"
+    },
+    "http://lesecologistes.fr/document/3wXgRKa1z5y5XDop8WQQnW/proposition-macroeconomique-nouveau-front-populaire.pdf": {
+      "first_seen_at": "2026-08-11T06:53:37+00:00",
+      "lastmod": "2024-06-21T12:18:16+02:00",
+      "owner": "Les Écologistes"
+    },
+    "http://lesecologistes.fr/document/44baci3hQynWaTnus4XPPN/les-ecologistes-candidatures-conseil-disciplinaire-2024.pdf": {
+      "first_seen_at": "2026-08-11T06:53:37+00:00",
+      "lastmod": "2024-09-10T21:39:58+02:00",
+      "owner": "Les Écologistes"
+    },
+    "http://lesecologistes.fr/document/4bVHNe2SaupQtapqswaDVC/feuille-de-route-11-mesures.pdf": {
+      "first_seen_at": "2026-08-11T06:53:37+00:00",
+      "lastmod": "2024-12-05T12:30:26+01:00",
+      "owner": "Les Écologistes"
+    },
+    "http://lesecologistes.fr/document/4fKoPTC5IsqUXI2Gp0Tw2J/programme-ure-17-10.pdf": {
+      "first_seen_at": "2026-08-11T06:53:37+00:00",
+      "lastmod": "2024-10-18T09:10:32+02:00",
+      "owner": "Les Écologistes"
+    },
+    "http://lesecologistes.fr/document/57iHvWLqcmVzHEkjQcNQMI/programme-convention-derniereversion.pdf": {
+      "first_seen_at": "2026-08-11T06:53:37+00:00",
+      "lastmod": "2025-04-25T16:11:40+02:00",
+      "owner": "Les Écologistes"
+    },
+    "http://lesecologistes.fr/document/5Ty6qLi0l7IBH4HqM8Hz04/programme-de-la-rencontre-nationale-des-ecologistes-et-des-quartiers-populaires-google-docs.pdf": {
+      "first_seen_at": "2026-08-11T06:53:37+00:00",
+      "lastmod": "2025-09-26T19:24:48+02:00",
+      "owner": "Les Écologistes"
+    },
+    "http://lesecologistes.fr/document/5ZhR2m5t2ZaGKqIdD1bJaD/vdef-programme-1.pdf": {
+      "first_seen_at": "2026-08-11T06:53:37+00:00",
+      "lastmod": "2026-07-15T19:28:44+02:00",
+      "owner": "Les Écologistes"
+    },
+    "http://lesecologistes.fr/document/5atP5W7SLUnND328hpr4uI/liste-mandataires-departementaux-elections-europennes-2024-europe-ecologie.pdf": {
+      "first_seen_at": "2026-08-11T06:53:37+00:00",
+      "lastmod": "2024-06-01T17:45:05+02:00",
+      "owner": "Les Écologistes"
+    },
+    "http://lesecologistes.fr/document/5ooE2V1JllA4rd6Rfsj45a/les-ecologistes-2024-tableau-candidats-eelv-vdef.pdf": {
+      "first_seen_at": "2026-08-11T06:53:37+00:00",
+      "lastmod": "2024-06-14T01:11:40+02:00",
+      "owner": "Les Écologistes"
+    },
+    "http://lesecologistes.fr/document/65CTxdrRVQbOxq1CdSmtTC/pour-une-securite-sociale-de-l-alimentation.pdf": {
+      "first_seen_at": "2026-08-11T06:53:37+00:00",
+      "lastmod": "2025-02-11T18:12:25+01:00",
+      "owner": "Les Écologistes"
+    },
+    "http://lesecologistes.fr/document/67GXQPDeTnrJYOFgetzy3c/fiche-thematique-face-a-la-loi-immigration.pdf": {
+      "first_seen_at": "2026-08-11T06:53:37+00:00",
+      "lastmod": "2024-01-29T19:25:18+01:00",
+      "owner": "Les Écologistes"
+    },
+    "http://lesecologistes.fr/document/6BbkeFGlKN0258UsA81T9x/european-green-charter-french2.pdf": {
+      "first_seen_at": "2026-08-11T06:53:37+00:00",
+      "lastmod": "2024-03-14T14:45:25+01:00",
+      "owner": "Les Écologistes"
+    },
+    "http://lesecologistes.fr/document/6fTW1068d5bGuaDQ19RhRN/discours-de-marine-tondelier-2e-tour-des-legislatives.pdf": {
+      "first_seen_at": "2026-08-11T06:53:37+00:00",
+      "lastmod": "2024-07-07T21:00:44+02:00",
+      "owner": "Les Écologistes"
+    },
+    "http://lesecologistes.fr/document/6xAZw67HujfSbUwmWhr6k/l-ecologie-spatiale-le-cas-des-mega-constellations.pdf": {
+      "first_seen_at": "2026-08-11T06:53:37+00:00",
+      "lastmod": "2025-02-11T18:11:42+01:00",
+      "owner": "Les Écologistes"
+    },
+    "http://lesecologistes.fr/document/70lNsa3ur6eQpIjgueoQHj/l-ecologie-en-deuil.pdf": {
+      "first_seen_at": "2026-08-11T06:53:37+00:00",
+      "lastmod": "2023-11-29T17:02:53+01:00",
+      "owner": "Les Écologistes"
+    },
+    "http://lesecologistes.fr/document/7F1KlI7jedQXnQyf6ykuKx/programme-ure-vformations.pdf": {
+      "first_seen_at": "2026-08-11T06:53:37+00:00",
+      "lastmod": "2024-10-10T14:59:43+02:00",
+      "owner": "Les Écologistes"
+    },
+    "http://lesecologistes.fr/document/7ZyclqMdFyiob4emsUcjyl/communique-nfp-26-09-24.pdf": {
+      "first_seen_at": "2026-08-11T06:53:37+00:00",
+      "lastmod": "2024-08-26T17:57:36+02:00",
+      "owner": "Les Écologistes"
+    },
+    "http://lesecologistes.fr/document/7jbqRTchbNO5OkkH0ps914/programme-convention-vdefinitive3.pdf": {
+      "first_seen_at": "2026-08-11T06:53:37+00:00",
+      "lastmod": "2025-04-23T16:16:40+02:00",
+      "owner": "Les Écologistes"
+    },
+    "http://lesecologistes.fr/document/BjxRMIzqGkNNM4Z2Upi6N/livret-ecologie-et-politique-culturelle-2025.pdf": {
+      "first_seen_at": "2026-08-11T06:53:37+00:00",
+      "lastmod": "2025-05-21T18:26:10+02:00",
+      "owner": "Les Écologistes"
+    },
+    "http://lesecologistes.fr/document/VswyyJdC1AP4xjkrOtTxX/discours-de-marine-tondelier.pdf": {
+      "first_seen_at": "2026-08-11T06:53:37+00:00",
+      "lastmod": "2024-06-30T21:30:00+02:00",
+      "owner": "Les Écologistes"
+    },
+    "http://lesecologistes.fr/document/ZTbiyF9AP9Ds4XM7UBQD2/programme.pdf": {
+      "first_seen_at": "2026-08-11T06:53:37+00:00",
+      "lastmod": "2024-08-08T20:06:55+02:00",
+      "owner": "Les Écologistes"
+    },
+    "http://lesecologistes.fr/forms/6P5URUdvFPSAmDwnWlQcCh/formation-donner-du-souffle-a-notre-programme-du-catalogue-de-mesures-au-recit-mobilisateur": {
+      "first_seen_at": "2026-08-11T06:53:37+00:00",
+      "lastmod": "2026-08-02T15:34:48+02:00",
+      "owner": "Les Écologistes"
+    },
+    "http://lesecologistes.fr/pages/1P8hO8pQVhhjQ6LMkd6WCn/notre-ancien-projet": {
+      "first_seen_at": "2026-08-11T06:53:37+00:00",
+      "lastmod": "2025-05-06T19:20:14+02:00",
+      "owner": "Les Écologistes"
+    },
+    "http://lesecologistes.fr/pages/1y01iZui3IvL9egfE97w1u/la-maison-de-l-ecologie": {
+      "first_seen_at": "2026-08-11T06:53:37+00:00",
+      "lastmod": "2024-08-12T12:14:24+02:00",
+      "owner": "Les Écologistes"
+    },
+    "http://lesecologistes.fr/pages/2KCimwhbtXNEdfAlm0XRg6/3-actions-pour-faire-gagner-les-candidat-es-du-nouveau-front-populaire": {
+      "first_seen_at": "2026-08-11T06:53:37+00:00",
+      "lastmod": "2026-01-27T17:17:13+01:00",
+      "owner": "Les Écologistes"
+    },
+    "http://lesecologistes.fr/pages/2RFlHSi3QYp31zmMxu6KcJ/delegues-de-liste-assesseurs-europeennes-2024": {
+      "first_seen_at": "2026-08-11T06:53:37+00:00",
+      "lastmod": "2024-06-01T18:50:29+02:00",
+      "owner": "Les Écologistes"
+    },
+    "http://lesecologistes.fr/pages/358vv7W974UgosGhCBbIPT/notre-projet": {
+      "first_seen_at": "2026-08-11T06:53:37+00:00",
+      "lastmod": "2025-05-21T16:52:53+02:00",
+      "owner": "Les Écologistes"
+    },
+    "http://lesecologistes.fr/pages/3vnysA9rjQxtY52Pg1LZGf/programme-de-la-grande-convention-d-investitue": {
+      "first_seen_at": "2026-08-11T06:53:37+00:00",
+      "lastmod": "2025-04-21T20:12:26+02:00",
+      "owner": "Les Écologistes"
+    },
+    "http://lesecologistes.fr/pages/6ImK65GKUnvibm33WGkjkj/projet": {
+      "first_seen_at": "2026-08-11T06:53:37+00:00",
+      "lastmod": "2026-08-06T16:22:29+02:00",
+      "owner": "Les Écologistes"
+    },
+    "http://lesecologistes.fr/pages/7g1yZSehVjilvT1eAlzSqn/vi-en-france-en-europe-et-dans-le-monde-vivre-libres-en-surete": {
+      "first_seen_at": "2026-08-11T06:53:37+00:00",
+      "lastmod": "2023-12-22T15:25:06+01:00",
+      "owner": "Les Écologistes"
+    },
+    "http://lesecologistes.fr/pages/iJUJizJIdURmTBrAdlE1C/iii-education-et-culture-en-partage": {
+      "first_seen_at": "2026-08-11T06:53:37+00:00",
+      "lastmod": "2023-12-22T15:23:16+01:00",
+      "owner": "Les Écologistes"
+    },
+    "http://lesecologistes.fr/posts/1JBQiuOWd8yhLUWISloVBk/nouveaux-ogm-le-parlement-europeen-autorise-la-deregulation-des-ngt-effacant-30-ans-de-luttes": {
+      "first_seen_at": "2026-08-11T06:53:37+00:00",
+      "lastmod": "2026-07-10T19:23:37+02:00",
+      "owner": "Les Écologistes"
+    },
+    "http://lesecologistes.fr/posts/2aHwg52vzeaBhXA7jguBRk/un-territoire-vivant-et-accueillant-nos-propositions-pour-reussir-la-transition-de-la-montagne-francaise": {
+      "first_seen_at": "2026-08-11T06:53:37+00:00",
+      "lastmod": "2026-07-27T16:21:35+02:00",
+      "owner": "Les Écologistes"
+    },
+    "http://lesecologistes.fr/posts/2w5Lv7XGJ0xJwYUaeJGNro/proteger-nos-propositions-face-aux-incendies": {
+      "first_seen_at": "2026-08-11T06:53:37+00:00",
+      "lastmod": "2026-07-29T20:34:54+02:00",
+      "owner": "Les Écologistes"
+    },
+    "http://lesecologistes.fr/posts/362ZTN4lrqOHhCNX47huct/loi-d-urgence-agricole-oui-a-l-adaptation-de-l-agriculture-au-changement-climatique-pour-proteger-l-eau-et-la-sante-non-a-une-loi-dictee-par-les-lobbies-agro-industriels": {
+      "first_seen_at": "2026-08-11T06:53:37+00:00",
+      "lastmod": "2026-07-16T10:06:17+02:00",
+      "owner": "Les Écologistes"
+    },
+    "https://horizonsleparti.fr/comite-municipal/francais-de-letranger-europe-adroit-benjamin/": {
+      "first_seen_at": "2026-08-11T06:53:30+00:00",
+      "lastmod": "2023-11-23T17:15:17+00:00",
+      "owner": "Horizons"
+    },
+    "https://horizonsleparti.fr/comite-municipal/francais-de-letranger-europe-beranger-jean-michel/": {
+      "first_seen_at": "2026-08-11T06:53:30+00:00",
+      "lastmod": "2023-03-10T16:16:16+00:00",
+      "owner": "Horizons"
+    },
+    "https://horizonsleparti.fr/comite-municipal/francais-de-letranger-europe-debourdeau-pierre/": {
+      "first_seen_at": "2026-08-11T06:53:30+00:00",
+      "lastmod": "2023-11-24T16:25:35+00:00",
+      "owner": "Horizons"
+    },
+    "https://horizonsleparti.fr/comite-municipal/francais-de-letranger-europe-fraud-alexandre/": {
+      "first_seen_at": "2026-08-11T06:53:30+00:00",
+      "lastmod": "2023-07-20T12:28:46+00:00",
+      "owner": "Horizons"
+    },
+    "https://horizonsleparti.fr/comite-municipal/francais-de-letranger-europe-karagounis-constantin/": {
+      "first_seen_at": "2026-08-11T06:53:30+00:00",
+      "lastmod": "2023-11-24T16:52:20+00:00",
+      "owner": "Horizons"
+    },
+    "https://horizonsleparti.fr/comite-municipal/francais-de-letranger-europe-lausdat-thomas/": {
+      "first_seen_at": "2026-08-11T06:53:30+00:00",
+      "lastmod": "2023-03-10T15:57:28+00:00",
+      "owner": "Horizons"
+    },
+    "https://horizonsleparti.fr/comite-municipal/francais-de-letranger-europe-mascarell-leonore/": {
+      "first_seen_at": "2026-08-11T06:53:30+00:00",
+      "lastmod": "2023-11-10T11:40:24+00:00",
+      "owner": "Horizons"
+    },
+    "https://horizonsleparti.fr/comite-municipal/francais-de-letranger-europe-mayrand-benoit/": {
+      "first_seen_at": "2026-08-11T06:53:30+00:00",
+      "lastmod": "2023-09-26T16:24:02+00:00",
+      "owner": "Horizons"
+    },
+    "https://horizonsleparti.fr/comite-municipal/francais-de-letranger-europe-michel-jeremy/": {
+      "first_seen_at": "2026-08-11T06:53:30+00:00",
+      "lastmod": "2023-03-10T15:58:36+00:00",
+      "owner": "Horizons"
+    },
+    "https://horizonsleparti.fr/comite-municipal/francais-de-letranger-europe-renollaud-jean-pierre/": {
+      "first_seen_at": "2026-08-11T06:53:30+00:00",
+      "lastmod": "2023-03-10T15:55:04+00:00",
+      "owner": "Horizons"
+    },
+    "https://horizonsleparti.fr/comite-municipal/francais-de-letranger-europe-roux-gilles/": {
+      "first_seen_at": "2026-08-11T06:53:30+00:00",
+      "lastmod": "2023-07-20T14:00:24+00:00",
+      "owner": "Horizons"
+    },
+    "https://horizonsleparti.fr/comite-municipal/francais-de-letranger-europe-rufenacht-gilles/": {
+      "first_seen_at": "2026-08-11T06:53:30+00:00",
+      "lastmod": "2023-03-10T16:16:40+00:00",
+      "owner": "Horizons"
+    },
+    "https://horizonsleparti.fr/comite-municipal/francais-de-letranger-europe-savajols-pascale/": {
+      "first_seen_at": "2026-08-11T06:53:30+00:00",
+      "lastmod": "2023-04-27T12:45:33+00:00",
+      "owner": "Horizons"
+    },
+    "https://horizonsleparti.fr/comite-municipal/francais-de-letranger-europe/": {
+      "first_seen_at": "2026-08-11T06:53:30+00:00",
+      "lastmod": "2023-03-10T16:16:50+00:00",
+      "owner": "Horizons"
+    },
+    "https://horizonsleparti.fr/evenement/06-05-2024-francois-ecalle-ancien-conseiller-maitre-a-la-cour-des-comptes-president-de-fipeco/": {
+      "first_seen_at": "2026-08-11T06:53:30+00:00",
+      "lastmod": "2024-10-08T10:50:51+00:00",
+      "owner": "Horizons"
+    },
+    "https://horizonsleparti.fr/evenement/15-02-2023-henri-bies-pere-deuxieme-vice-president-de-la-federation-nationale-des-syndicats-dexploitants-agricoles/": {
+      "first_seen_at": "2026-08-11T06:53:30+00:00",
+      "lastmod": "2024-10-08T13:07:50+00:00",
+      "owner": "Horizons"
+    },
+    "https://horizonsleparti.fr/evenement/26-09-2023-colette-melot-ancienne-senatrice-et-nathan-smadja-president-de-lassociation-resiste/": {
+      "first_seen_at": "2026-08-11T06:53:30+00:00",
+      "lastmod": "2024-10-08T13:05:44+00:00",
+      "owner": "Horizons"
+    },
+    "https://horizonsleparti.fr/evenement/28-03-2023-nathalie-loiseau-ancienne-ministre-deputee-europeenne-et-valerie-toranian-journaliste/": {
+      "first_seen_at": "2026-08-11T06:53:30+00:00",
+      "lastmod": "2024-10-08T13:07:25+00:00",
+      "owner": "Horizons"
+    },
+    "https://horizonsleparti.fr/evenement/28-06-2023-jean-louis-debre-ancien-ministre-ancien-president-du-conseil-constitutionnel/": {
+      "first_seen_at": "2026-08-11T06:53:30+00:00",
+      "lastmod": "2024-10-08T13:14:44+00:00",
+      "owner": "Horizons"
+    },
+    "https://horizonsleparti.fr/evenement/29-02-2024-nathalie-loiseau-ancienne-ministre-deputee-europeenne/": {
+      "first_seen_at": "2026-08-11T06:53:30+00:00",
+      "lastmod": "2024-10-08T10:51:49+00:00",
+      "owner": "Horizons"
+    },
+    "https://horizonsleparti.fr/evenement/grand-meeting-dedouard-philippe-a-ladidas-arena/": {
+      "first_seen_at": "2026-08-11T06:53:30+00:00",
+      "lastmod": "2026-07-10T14:22:02+00:00",
+      "owner": "Horizons"
+    },
+    "https://horizonsleparti.fr/grand-meeting-du-2-avril-a-paris/": {
+      "first_seen_at": "2026-08-11T06:53:30+00:00",
+      "lastmod": "2022-03-30T13:15:48+00:00",
+      "owner": "Horizons"
+    },
+    "https://lafranceinsoumise.fr/2020/02/19/la-retraite-tue/": {
+      "first_seen_at": "2026-08-11T06:53:32+00:00",
+      "lastmod": "2025-09-10T17:46:28+00:00",
+      "owner": "Jean-Luc Mélenchon"
+    },
+    "https://lafranceinsoumise.fr/2020/11/10/boite-a-outils-programmatique-pour-les-elections-departementales-et-regionales/": {
+      "first_seen_at": "2026-08-11T06:53:32+00:00",
+      "lastmod": "2025-10-29T11:29:33+00:00",
+      "owner": "Jean-Luc Mélenchon"
+    },
+    "https://lafranceinsoumise.fr/2021/10/14/meeting-de-jean-luc-melenchon-a-reims-jlmreims/": {
+      "first_seen_at": "2026-08-11T06:53:32+00:00",
+      "lastmod": "2025-11-12T13:54:36+00:00",
+      "owner": "Jean-Luc Mélenchon"
+    },
+    "https://lafranceinsoumise.fr/2021/10/26/carburants-les-francais%c2%b7es-ne-reclament-pas-laumone-mais-des-mesures-durables/": {
+      "first_seen_at": "2026-08-11T06:53:32+00:00",
+      "lastmod": "2025-11-12T12:43:18+00:00",
+      "owner": "Jean-Luc Mélenchon"
+    },
+    "https://lafranceinsoumise.fr/2022/02/18/elections-legislatives-2022-les-premiers-200-binomes-de-chefs-de-file/": {
+      "first_seen_at": "2026-08-11T06:53:32+00:00",
+      "lastmod": "2025-07-02T12:32:33+00:00",
+      "owner": "Jean-Luc Mélenchon"
+    },
+    "https://lafranceinsoumise.fr/2022/05/18/presentation-du-programme-de-la-nupes-programmenupes/": {
+      "first_seen_at": "2026-08-11T06:53:32+00:00",
+      "lastmod": "2025-11-12T13:11:57+00:00",
+      "owner": "Jean-Luc Mélenchon"
+    },
+    "https://lafranceinsoumise.fr/2023/12/14/communique-des-communistes-insoumis-le-communisme-et-la-france-insoumise/": {
+      "first_seen_at": "2026-08-11T06:53:32+00:00",
+      "lastmod": "2026-04-27T10:36:14+00:00",
+      "owner": "Jean-Luc Mélenchon"
+    },
+    "https://lafranceinsoumise.fr/2024/06/27/communique-de-presse-de-la-france-insoumise-2/": {
+      "first_seen_at": "2026-08-11T06:53:32+00:00",
+      "lastmod": "2025-11-10T15:51:02+00:00",
+      "owner": "Jean-Luc Mélenchon"
+    },
+    "https://lafranceinsoumise.fr/2024/07/04/candidats-legislatives-2024-t2/": {
+      "first_seen_at": "2026-08-11T06:53:32+00:00",
+      "lastmod": "2025-09-08T17:03:15+00:00",
+      "owner": "Jean-Luc Mélenchon"
+    },
+    "https://lafranceinsoumise.fr/2024/07/04/le-programme-du-nouveau-front-populaire-version-facile-a-lire-et-a-comprendre-falc/": {
+      "first_seen_at": "2026-08-11T06:53:32+00:00",
+      "lastmod": "2025-09-08T16:58:47+00:00",
+      "owner": "Jean-Luc Mélenchon"
+    },
+    "https://lafranceinsoumise.fr/2024/07/05/communique-leg2024-9107/": {
+      "first_seen_at": "2026-08-11T06:53:32+00:00",
+      "lastmod": "2025-12-15T21:11:06+00:00",
+      "owner": "Jean-Luc Mélenchon"
+    },
+    "https://lafranceinsoumise.fr/2024/08/08/amfis-2024-le-pre-programme-en-ligne/": {
+      "first_seen_at": "2026-08-11T06:53:32+00:00",
+      "lastmod": "2025-09-08T17:06:01+00:00",
+      "owner": "Jean-Luc Mélenchon"
+    },
+    "https://lafranceinsoumise.fr/2024/11/07/budget-2025-notre-projet-pour-changer-la-vie/": {
+      "first_seen_at": "2026-08-11T06:53:32+00:00",
+      "lastmod": "2025-08-23T17:17:40+00:00",
+      "owner": "Jean-Luc Mélenchon"
+    },
+    "https://lafranceinsoumise.fr/2024/11/08/plan-de-lutte-lfi-du-narcotrafic-a-une-approche-globale-de-la-criminalite-organisee-les-14-propositions-du-groupe-parlementaire-lfi/": {
+      "first_seen_at": "2026-08-11T06:53:32+00:00",
+      "lastmod": "2025-09-29T09:01:23+00:00",
+      "owner": "Jean-Luc Mélenchon"
+    },
+    "https://lafranceinsoumise.fr/2025/02/03/10-mesures-pour-sortir-lindustrie-automobile-de-la-crise/": {
+      "first_seen_at": "2026-08-11T06:53:32+00:00",
+      "lastmod": "2025-09-25T14:08:09+00:00",
+      "owner": "Jean-Luc Mélenchon"
+    },
+    "https://lafranceinsoumise.fr/2025/04/09/elections-municipales-2026/": {
+      "first_seen_at": "2026-08-11T06:53:32+00:00",
+      "lastmod": "2026-03-18T13:05:08+00:00",
+      "owner": "Jean-Luc Mélenchon"
+    },
+    "https://lafranceinsoumise.fr/2025/04/16/face-a-trump-10-mesures-urgentes-de-protectionnisme-solidaire-que-doit-prendre-la-france/": {
+      "first_seen_at": "2026-08-11T06:53:32+00:00",
+      "lastmod": "2025-10-21T11:39:44+00:00",
+      "owner": "Jean-Luc Mélenchon"
+    },
+    "https://lafranceinsoumise.fr/2025/05/13/nationalisons-arcelormittal-sauvons-les-emplois-pas-les-actionnaires/": {
+      "first_seen_at": "2026-08-11T06:53:32+00:00",
+      "lastmod": "2025-05-13T21:42:30+00:00",
+      "owner": "Jean-Luc Mélenchon"
+    },
+    "https://lafranceinsoumise.fr/2025/06/04/la-macronie-abandonne-la-renovation-des-logements-et-poursuit-son-agenda-climatosceptique/": {
+      "first_seen_at": "2026-08-11T06:53:32+00:00",
+      "lastmod": "2025-06-04T08:49:19+00:00",
+      "owner": "Jean-Luc Mélenchon"
+    },
+    "https://lafranceinsoumise.fr/2025/06/05/communique-de-presse-laissez-passer-la-freedom-flotilla-en-route-vers-gaza/": {
+      "first_seen_at": "2026-08-11T06:53:32+00:00",
+      "lastmod": "2025-06-05T14:46:48+00:00",
+      "owner": "Jean-Luc Mélenchon"
+    },
+    "https://lafranceinsoumise.fr/2025/06/13/lancement-de-lalliance-de-gauche-europeenne-nouveau-parti-europeen-pour-les-peuples-et-la-planete/": {
+      "first_seen_at": "2026-08-11T06:53:32+00:00",
+      "lastmod": "2025-06-13T09:47:33+00:00",
+      "owner": "Jean-Luc Mélenchon"
+    },
+    "https://lafranceinsoumise.fr/2025/06/17/sante-mentale-grande-cause-nationale-petites-annonces-gouvernementales/": {
+      "first_seen_at": "2026-08-11T06:53:32+00:00",
+      "lastmod": "2025-06-17T16:39:28+00:00",
+      "owner": "Jean-Luc Mélenchon"
+    },
+    "https://lafranceinsoumise.fr/2025/06/25/sommet-de-lotan-a-la-haye-leurope-cede-aux-5-un-tribut-verse-a-donald-trump/": {
+      "first_seen_at": "2026-08-11T06:53:32+00:00",
+      "lastmod": "2025-06-25T17:46:02+00:00",
+      "owner": "Jean-Luc Mélenchon"
+    },
+    "https://lafranceinsoumise.fr/2025/06/30/logement-luttons-contre-les-bouilloires-thermiques/": {
+      "first_seen_at": "2026-08-11T06:53:32+00:00",
+      "lastmod": "2025-06-30T10:15:46+00:00",
+      "owner": "Jean-Luc Mélenchon"
+    },
+    "https://lafranceinsoumise.fr/2025/07/09/loi-duplomb-un-coup-de-poignard-pour-la-sante-lenvironnement-et-lagriculture-familiale/": {
+      "first_seen_at": "2026-08-11T06:53:32+00:00",
+      "lastmod": "2025-07-09T16:15:42+00:00",
+      "owner": "Jean-Luc Mélenchon"
+    },
+    "https://lafranceinsoumise.fr/2025/07/17/elections-legislatives-partielles/": {
+      "first_seen_at": "2026-08-11T06:53:32+00:00",
+      "lastmod": "2025-07-17T18:30:28+00:00",
+      "owner": "Jean-Luc Mélenchon"
+    },
+    "https://lafranceinsoumise.fr/2025/08/11/amfis-2025-le-pre-programme-en-ligne/": {
+      "first_seen_at": "2026-08-11T06:53:32+00:00",
+      "lastmod": "2025-08-11T10:20:54+00:00",
+      "owner": "Jean-Luc Mélenchon"
+    },
+    "https://lafranceinsoumise.fr/2025/09/15/10-septembre-une-repression-demesuree/": {
+      "first_seen_at": "2026-08-11T06:53:32+00:00",
+      "lastmod": "2025-09-15T15:14:11+00:00",
+      "owner": "Jean-Luc Mélenchon"
+    },
+    "https://lafranceinsoumise.fr/2025/09/20/suspension-annoncee-du-service-national-universel-la-fin-du-caprice-presidentiel/": {
+      "first_seen_at": "2026-08-11T06:53:32+00:00",
+      "lastmod": "2025-09-20T15:39:06+00:00",
+      "owner": "Jean-Luc Mélenchon"
+    },
+    "https://lafranceinsoumise.fr/2025/10/16/communique-de-presse-de-la-france-insoumise-3/": {
+      "first_seen_at": "2026-08-11T06:53:32+00:00",
+      "lastmod": "2025-10-16T10:31:52+00:00",
+      "owner": "Jean-Luc Mélenchon"
+    },
+    "https://lafranceinsoumise.fr/2025/10/24/budget-2026-pour-une-bifurcation-ecologique-et-sociale/": {
+      "first_seen_at": "2026-08-11T06:53:32+00:00",
+      "lastmod": "2025-11-26T10:23:37+00:00",
+      "owner": "Jean-Luc Mélenchon"
+    },
+    "https://lafranceinsoumise.fr/2025/10/27/cote-divoire-le-peuple-souverain-boude-une-election-verrouillee/": {
+      "first_seen_at": "2026-08-11T06:53:32+00:00",
+      "lastmod": "2025-10-27T18:25:40+00:00",
+      "owner": "Jean-Luc Mélenchon"
+    },
+    "https://lafranceinsoumise.fr/2025/10/30/victoire-pour-le-droit-fondamental-a-une-eau-et-un-assainissement-de-qualite-au-sein-de-lunion-europeenne/": {
+      "first_seen_at": "2026-08-11T06:53:32+00:00",
+      "lastmod": "2025-10-30T15:21:10+00:00",
+      "owner": "Jean-Luc Mélenchon"
+    },
+    "https://lafranceinsoumise.fr/2025/10/31/la-france-insoumise-toujours-contre-la-retraite-a-64-ans/": {
+      "first_seen_at": "2026-08-11T06:53:32+00:00",
+      "lastmod": "2025-10-31T13:40:23+00:00",
+      "owner": "Jean-Luc Mélenchon"
+    },
+    "https://lafranceinsoumise.fr/2025/11/04/lespace-programme-et-linstitut-la-boetie-vous-proposent-des-formations/": {
+      "first_seen_at": "2026-08-11T06:53:32+00:00",
+      "lastmod": "2025-11-27T12:22:16+00:00",
+      "owner": "Jean-Luc Mélenchon"
+    },
+    "https://lafranceinsoumise.fr/2025/11/05/niche-2025-abroger-la-reforme-des-retraites/": {
+      "first_seen_at": "2026-08-11T06:53:32+00:00",
+      "lastmod": "2025-11-26T08:48:15+00:00",
+      "owner": "Jean-Luc Mélenchon"
+    },
+    "https://lafranceinsoumise.fr/2025/11/05/niche-2025-defiscaliser-les-pensions-alimentaires/": {
+      "first_seen_at": "2026-08-11T06:53:32+00:00",
+      "lastmod": "2025-11-25T13:59:02+00:00",
+      "owner": "Jean-Luc Mélenchon"
+    },
+    "https://lafranceinsoumise.fr/2025/11/06/communique-de-la-france-insoumise-9/": {
+      "first_seen_at": "2026-08-11T06:53:32+00:00",
+      "lastmod": "2025-11-06T16:50:07+00:00",
+      "owner": "Jean-Luc Mélenchon"
+    },
+    "https://lafranceinsoumise.fr/2025/11/21/budget-2026-et-collectivites/": {
+      "first_seen_at": "2026-08-11T06:53:32+00:00",
+      "lastmod": "2025-11-21T10:49:25+00:00",
+      "owner": "Jean-Luc Mélenchon"
+    },
+    "https://lafranceinsoumise.fr/2025/11/27/la-niche-parlementaire-lfi-du-27-novembre-neuf-propositions-concretes-pour-ameliorer-la-vie-dans-nos-communes/": {
+      "first_seen_at": "2026-08-11T06:53:32+00:00",
+      "lastmod": "2025-11-27T19:17:40+00:00",
+      "owner": "Jean-Luc Mélenchon"
+    },
+    "https://lafranceinsoumise.fr/2025/12/02/communique-du-groupe-lfi-cee-la-bifurcation-ecologique-doit-etre-payee-par-les-multinationales-pas-par-les-consommateurs/": {
+      "first_seen_at": "2026-08-11T06:53:32+00:00",
+      "lastmod": "2025-12-02T17:07:33+00:00",
+      "owner": "Jean-Luc Mélenchon"
+    },
+    "https://lafranceinsoumise.fr/2025/12/02/le-tribunal-administratif-de-paris-vient-de-condamner-pour-la-premiere-fois-letat-pour-ses-manquements-dans-lapplication-de-la-loi-sur-leducation-a-la-vie-affective-relatio/": {
+      "first_seen_at": "2026-08-11T06:53:32+00:00",
+      "lastmod": "2025-12-02T14:02:31+00:00",
+      "owner": "Jean-Luc Mélenchon"
+    },
+    "https://lafranceinsoumise.fr/2025/12/02/voeu-relatif-aux-ponctions-budgetaires-imposees-aux-collectivites-par-le-projet-de-loi-de-finances-2026/": {
+      "first_seen_at": "2026-08-11T06:53:32+00:00",
+      "lastmod": "2025-12-02T14:13:26+00:00",
+      "owner": "Jean-Luc Mélenchon"
+    },
+    "https://lafranceinsoumise.fr/2025/12/04/elections-municipales-a-la-reunion-974/": {
+      "first_seen_at": "2026-08-11T06:53:32+00:00",
+      "lastmod": "2025-12-07T10:54:59+00:00",
+      "owner": "Jean-Luc Mélenchon"
+    },
+    "https://lafranceinsoumise.fr/2025/12/04/retraite-des-pompiers-volontaires-stop-au-mepris/": {
+      "first_seen_at": "2026-08-11T06:53:32+00:00",
+      "lastmod": "2025-12-04T14:10:37+00:00",
+      "owner": "Jean-Luc Mélenchon"
+    },
+    "https://lafranceinsoumise.fr/2025/12/05/lautorite-de-surete-nucleaire-donne-un-avis-favorable-au-projet-denfouissement-des-dechets-nucleaires-a-bure-incomprehensible/": {
+      "first_seen_at": "2026-08-11T06:53:32+00:00",
+      "lastmod": "2025-12-05T10:47:34+00:00",
+      "owner": "Jean-Luc Mélenchon"
+    },
+    "https://lafranceinsoumise.fr/2025/12/12/alerte-attaques-gravissimes-contre-la-convention-europeenne-des-droits-de-lhomme/": {
+      "first_seen_at": "2026-08-11T06:53:32+00:00",
+      "lastmod": "2025-12-12T19:06:50+00:00",
+      "owner": "Jean-Luc Mélenchon"
+    },
+    "https://lafranceinsoumise.fr/2025/12/27/en-france-comme-en-europe-aucun-salarie-ne-devrait-mourir-au-travail/": {
+      "first_seen_at": "2026-08-11T06:53:32+00:00",
+      "lastmod": "2025-12-27T09:38:55+00:00",
+      "owner": "Jean-Luc Mélenchon"
+    },
+    "https://lafranceinsoumise.fr/2026/01/09/accord-ue-mercosur-valide-les-agriculteurs-abandonnes-par-macron-et-la-commission-europeenne/": {
+      "first_seen_at": "2026-08-11T06:53:32+00:00",
+      "lastmod": "2026-01-09T11:26:04+00:00",
+      "owner": "Jean-Luc Mélenchon"
+    },
+    "https://lafranceinsoumise.fr/2026/01/10/communique-de-la-france-insoumise-10/": {
+      "first_seen_at": "2026-08-11T06:53:32+00:00",
+      "lastmod": "2026-01-12T09:25:00+00:00",
+      "owner": "Jean-Luc Mélenchon"
+    },
+    "https://lafranceinsoumise.fr/2026/01/13/non-au-projet-de-loi-jeux-olympiques-et-paralympiques-2030-ecocidaire-et-securitaire/": {
+      "first_seen_at": "2026-08-11T06:53:32+00:00",
+      "lastmod": "2026-01-13T18:08:09+00:00",
+      "owner": "Jean-Luc Mélenchon"
+    },
+    "https://lafranceinsoumise.fr/2026/01/13/pour-la-suspension-de-laccord-dassociation-ue-israel-et-la-fin-de-la-complicite-de-leurope-dans-le-genocide-en-palestine/": {
+      "first_seen_at": "2026-08-11T06:53:32+00:00",
+      "lastmod": "2026-01-13T11:49:47+00:00",
+      "owner": "Jean-Luc Mélenchon"
+    },
+    "https://lafranceinsoumise.fr/2026/01/20/militants-neonazis-francais-armes-en-ukraine-le-gouvernement-doit-agir-face-a-une-menace-pour-la-securite-des-elus-et-militants-de-gauche/": {
+      "first_seen_at": "2026-08-11T06:53:32+00:00",
+      "lastmod": "2026-01-20T15:32:39+00:00",
+      "owner": "Jean-Luc Mélenchon"
+    },
+    "https://lafranceinsoumise.fr/2026/01/29/territoire-zero-chomeur-de-longue-duree-le-gouvernement-pietine-la-democratie-et-lemploi-digne/": {
+      "first_seen_at": "2026-08-11T06:53:32+00:00",
+      "lastmod": "2026-01-29T09:13:48+00:00",
+      "owner": "Jean-Luc Mélenchon"
+    },
+    "https://lafranceinsoumise.fr/2026/02/04/les-candidats-insoumis-sengagent-pour-faire-baisser-les-loyers-dans-les-communes/": {
+      "first_seen_at": "2026-08-11T06:53:32+00:00",
+      "lastmod": "2026-02-04T10:43:05+00:00",
+      "owner": "Jean-Luc Mélenchon"
+    },
+    "https://lafranceinsoumise.fr/2026/02/09/communique-de-presse-de-la-france-insoumise-a-perpignan-la-france-insoumise-releve-le-defi-de-lextreme-droite/": {
+      "first_seen_at": "2026-08-11T06:53:32+00:00",
+      "lastmod": "2026-02-09T13:45:17+00:00",
+      "owner": "Jean-Luc Mélenchon"
+    },
+    "https://lafranceinsoumise.fr/2026/02/10/rassemblement-en-soutien-a-allan-brunon-candidat-lfi-a-grenoble-poursuivi-pour-avoir-denonce-les-fascistes/": {
+      "first_seen_at": "2026-08-11T06:53:32+00:00",
+      "lastmod": "2026-02-12T11:00:23+00:00",
+      "owner": "Jean-Luc Mélenchon"
+    },
+    "https://lafranceinsoumise.fr/2026/02/18/les-candidats-insoumis-lutteront-contre-les-discriminations-grace-a-des-offices-municipaux-dedies/": {
+      "first_seen_at": "2026-08-11T06:53:32+00:00",
+      "lastmod": "2026-02-18T13:20:34+00:00",
+      "owner": "Jean-Luc Mélenchon"
+    },
+    "https://lafranceinsoumise.fr/2026/02/25/elections-consulaires-des-30-31-mai-2026/": {
+      "first_seen_at": "2026-08-11T06:53:32+00:00",
+      "lastmod": "2026-05-18T09:27:49+00:00",
+      "owner": "Jean-Luc Mélenchon"
+    },
+    "https://lafranceinsoumise.fr/2026/03/04/communique-de-la-coordination-de-la-france-insoumise/": {
+      "first_seen_at": "2026-08-11T06:53:32+00:00",
+      "lastmod": "2026-03-04T10:27:28+00:00",
+      "owner": "Jean-Luc Mélenchon"
+    },
+    "https://lafranceinsoumise.fr/2026/03/05/lappel-du-president-libanais-a-emmanuel-macron-doit-etre-entendu/": {
+      "first_seen_at": "2026-08-11T06:53:32+00:00",
+      "lastmod": "2026-03-05T18:33:27+00:00",
+      "owner": "Jean-Luc Mélenchon"
+    },
+    "https://lafranceinsoumise.fr/2026/03/09/pour-un-front-antifasciste-au-second-tour-des-elections-municipales/": {
+      "first_seen_at": "2026-08-11T06:53:32+00:00",
+      "lastmod": "2026-03-09T17:54:17+00:00",
+      "owner": "Jean-Luc Mélenchon"
+    },
+    "https://lafranceinsoumise.fr/2026/03/10/la-france-insoumise-salue-la-victoire-du-pacto-historico-aux-elections-legislatives-colombiennes/": {
+      "first_seen_at": "2026-08-11T06:53:32+00:00",
+      "lastmod": "2026-03-10T11:54:07+00:00",
+      "owner": "Jean-Luc Mélenchon"
+    },
+    "https://lafranceinsoumise.fr/2026/03/10/lobsession-nucleaire-du-president-macron-est-stupide-et-dangereuse/": {
+      "first_seen_at": "2026-08-11T06:53:32+00:00",
+      "lastmod": "2026-03-10T13:54:58+00:00",
+      "owner": "Jean-Luc Mélenchon"
+    },
+    "https://lafranceinsoumise.fr/2026/03/26/lallemagne-main-dans-la-main-avec-spacex-et-elon-musk-menace-le-programme-iris%c2%b2/": {
+      "first_seen_at": "2026-08-11T06:53:32+00:00",
+      "lastmod": "2026-03-26T12:47:57+00:00",
+      "owner": "Jean-Luc Mélenchon"
+    },
+    "https://lafranceinsoumise.fr/2026/04/22/des-le-debut-de-mandat-des-maires-defendent-le-projet-insoumis/": {
+      "first_seen_at": "2026-08-11T06:53:32+00:00",
+      "lastmod": "2026-04-22T15:23:31+00:00",
+      "owner": "Jean-Luc Mélenchon"
+    },
+    "https://lafranceinsoumise.fr/2026/04/24/patients-enchaines-droits-pietines-le-gouvernement-doit-prendre-des-mesures-durgence/": {
+      "first_seen_at": "2026-08-11T06:53:32+00:00",
+      "lastmod": "2026-04-24T16:05:20+00:00",
+      "owner": "Jean-Luc Mélenchon"
+    },
+    "https://lafranceinsoumise.fr/2026/05/05/communique-de-la-france-insoumise-du-5-mai-2026/": {
+      "first_seen_at": "2026-08-11T06:53:32+00:00",
+      "lastmod": "2026-05-05T09:47:37+00:00",
+      "owner": "Jean-Luc Mélenchon"
+    },
+    "https://lafranceinsoumise.fr/2026/05/20/deforestation-lunion-europeenne-ne-doit-plus-ceder-aux-multinationales/": {
+      "first_seen_at": "2026-08-11T06:53:32+00:00",
+      "lastmod": "2026-05-20T16:37:39+00:00",
+      "owner": "Jean-Luc Mélenchon"
+    },
+    "https://lafranceinsoumise.fr/2026/05/20/la-france-insoumise-ouvre-son-programme-a-contributions-citoyennes/": {
+      "first_seen_at": "2026-08-11T06:53:32+00:00",
+      "lastmod": "2026-05-20T09:43:30+00:00",
+      "owner": "Jean-Luc Mélenchon"
+    },
+    "https://lafranceinsoumise.fr/2026/05/20/la-france-valide-un-recul-historique-des-droits-humains-en-europe/": {
+      "first_seen_at": "2026-08-11T06:53:32+00:00",
+      "lastmod": "2026-05-20T10:12:45+00:00",
+      "owner": "Jean-Luc Mélenchon"
+    },
+    "https://lafranceinsoumise.fr/2026/05/26/rdv-a-saint-denis-ce-dimanche-7-juin-pour-le-meeting-de-jean-luc-melenchon/": {
+      "first_seen_at": "2026-08-11T06:53:32+00:00",
+      "lastmod": "2026-06-05T15:39:31+00:00",
+      "owner": "Jean-Luc Mélenchon"
+    },
+    "https://lafranceinsoumise.fr/2026/05/29/designation-des-chef%c2%b7fes-de-file-pour-les-elections-senatoriales-2026/": {
+      "first_seen_at": "2026-08-11T06:53:32+00:00",
+      "lastmod": "2026-06-01T12:30:41+00:00",
+      "owner": "Jean-Luc Mélenchon"
+    },
+    "https://lafranceinsoumise.fr/2026/06/01/elections-consulaires-la-france-insoumise-nombre-elues-partout-dans-le-monde/": {
+      "first_seen_at": "2026-08-11T06:53:32+00:00",
+      "lastmod": "2026-06-01T13:19:47+00:00",
+      "owner": "Jean-Luc Mélenchon"
+    },
+    "https://lafranceinsoumise.fr/2026/06/08/26-000-personnes-a-saint-denis-pour-le-meeting-de-jean-luc-melenchon-la-demonstration-de-force-insoumise/": {
+      "first_seen_at": "2026-08-11T06:53:32+00:00",
+      "lastmod": "2026-06-08T10:47:12+00:00",
+      "owner": "Jean-Luc Mélenchon"
+    },
+    "https://lafranceinsoumise.fr/2026/06/10/victoire-le-projet-de-loi-justice-criminelle-est-rejete-par-la-commission-des-lois-de-lassemblee-nationale-m-darmanin-doit-retirer-ce-texte/": {
+      "first_seen_at": "2026-08-11T06:53:32+00:00",
+      "lastmod": "2026-06-10T12:55:55+00:00",
+      "owner": "Jean-Luc Mélenchon"
+    },
+    "https://lafranceinsoumise.fr/2026/06/17/sauvons-la-butte-rouge-non-aux-demolitions-de-logements-sociaux/": {
+      "first_seen_at": "2026-08-11T06:53:32+00:00",
+      "lastmod": "2026-06-17T16:28:40+00:00",
+      "owner": "Jean-Luc Mélenchon"
+    },
+    "https://lafranceinsoumise.fr/2026/06/22/parrainages-elus-pour-election-presidentielle-2027/": {
+      "first_seen_at": "2026-08-11T06:53:32+00:00",
+      "lastmod": "2026-06-23T13:27:02+00:00",
+      "owner": "Jean-Luc Mélenchon"
+    },
+    "https://lafranceinsoumise.fr/2026/06/28/elections-provinciales-en-kanaky-nouvelle-caledonie-la-poussee-independantiste-rend-plus-que-jamais-indispensable-lachevement-du-processus-dindependance/": {
+      "first_seen_at": "2026-08-11T06:53:32+00:00",
+      "lastmod": "2026-06-28T21:34:32+00:00",
+      "owner": "Jean-Luc Mélenchon"
+    },
+    "https://lafranceinsoumise.fr/2026/07/01/communique-la-france-insoumise-tout-notre-soutien-a-manon-aubry/": {
+      "first_seen_at": "2026-08-11T06:53:32+00:00",
+      "lastmod": "2026-07-01T07:27:48+00:00",
+      "owner": "Jean-Luc Mélenchon"
+    },
+    "https://lafranceinsoumise.fr/2026/07/02/proces-rima-hassan-7-juillet/": {
+      "first_seen_at": "2026-08-11T06:54:39+00:00",
+      "owner": "Jean-Luc Mélenchon",
+      "published_at": "Thu, 02 Jul 2026 15:52:40 +0000"
+    },
+    "https://lafranceinsoumise.fr/2026/07/07/marine-le-pen-rn-cp/": {
+      "first_seen_at": "2026-08-11T06:54:39+00:00",
+      "owner": "Jean-Luc Mélenchon",
+      "published_at": "Tue, 07 Jul 2026 14:56:22 +0000"
+    },
+    "https://lafranceinsoumise.fr/2026/07/29/amfis-2026-les-premieres-annonces-sur-le-programme-des-universites-dete-de-la-france-insoumise/": {
+      "first_seen_at": "2026-08-11T06:54:39+00:00",
+      "owner": "Jean-Luc Mélenchon",
+      "published_at": "Wed, 29 Jul 2026 15:42:15 +0000"
+    },
+    "https://lafranceinsoumise.fr/2026/08/10/amfis-2026-le-programme-est-en-ligne/": {
+      "first_seen_at": "2026-08-11T06:54:39+00:00",
+      "owner": "Jean-Luc Mélenchon",
+      "published_at": "Mon, 10 Aug 2026 13:13:51 +0000"
+    },
+    "https://les-patriotes.fr/candidature-1/": {
+      "first_seen_at": "2026-08-11T06:53:35+00:00",
+      "lastmod": "2023-07-13T17:06:52+02:00",
+      "owner": "Les Patriotes"
+    },
+    "https://les-patriotes.fr/candidature-2/": {
+      "first_seen_at": "2026-08-11T06:53:35+00:00",
+      "lastmod": "2023-07-13T17:04:54+02:00",
+      "owner": "Les Patriotes"
+    },
+    "https://les-patriotes.fr/candidature2023/": {
+      "first_seen_at": "2026-08-11T06:53:35+00:00",
+      "lastmod": "2023-07-14T09:43:58+02:00",
+      "owner": "Les Patriotes"
+    },
+    "https://les-patriotes.fr/candidatures-bientot-ouvertes/": {
+      "first_seen_at": "2026-08-11T06:53:35+00:00",
+      "lastmod": "2023-06-13T18:05:14+02:00",
+      "owner": "Les Patriotes"
+    },
+    "https://les-patriotes.fr/category/universite-deducation-populaire/": {
+      "first_seen_at": "2026-08-11T06:53:35+00:00",
+      "lastmod": null,
+      "owner": "Les Patriotes"
+    },
+    "https://les-patriotes.fr/communique-de-presse-des-patriotes-du-15-septembre-2023/": {
+      "first_seen_at": "2026-08-11T06:53:35+00:00",
+      "lastmod": "2023-09-15T10:47:45+02:00",
+      "owner": "Les Patriotes"
+    },
+    "https://les-patriotes.fr/denoncons-la-directive-europeenne-sur-les-services-numeriques-qui-va-installer-la-censure/": {
+      "first_seen_at": "2026-08-11T06:53:35+00:00",
+      "lastmod": "2024-02-06T15:45:28+01:00",
+      "owner": "Les Patriotes"
+    },
+    "https://les-patriotes.fr/election-presidentielle-parrainages/": {
+      "first_seen_at": "2026-08-11T06:53:35+00:00",
+      "lastmod": "2021-12-27T22:33:57+01:00",
+      "owner": "Les Patriotes"
+    },
+    "https://les-patriotes.fr/https-les-patriotes-fr-projetpourlafrance/": {
+      "first_seen_at": "2026-08-11T06:53:35+00:00",
+      "lastmod": "2025-09-16T12:07:50+02:00",
+      "owner": "Les Patriotes"
+    },
+    "https://les-patriotes.fr/les-souverainistes-doivent-sallier-aux-elections-europeennes/": {
+      "first_seen_at": "2026-08-11T06:53:35+00:00",
+      "lastmod": "2024-02-06T15:44:38+01:00",
+      "owner": "Les Patriotes"
+    },
+    "https://les-patriotes.fr/maires-france-retirez-le-drapeau-europeen-de-votre-mairie/": {
+      "first_seen_at": "2026-08-11T06:53:35+00:00",
+      "lastmod": "2026-01-11T13:19:48+01:00",
+      "owner": "Les Patriotes"
+    },
+    "https://les-patriotes.fr/merci-pour-votre-candidature-elle-est-bien-prise-en-compte/": {
+      "first_seen_at": "2026-08-11T06:53:35+00:00",
+      "lastmod": "2021-12-29T11:50:56+01:00",
+      "owner": "Les Patriotes"
+    },
+    "https://les-patriotes.fr/mesures-annoncees-par-le-gouvernement-sans-concertation/": {
+      "first_seen_at": "2026-08-11T06:53:35+00:00",
+      "lastmod": "2021-12-27T22:28:47+01:00",
+      "owner": "Les Patriotes"
+    },
+    "https://les-patriotes.fr/ni-veran-ni-malhuret-au-ministere-de-la-sante/": {
+      "first_seen_at": "2026-08-11T06:53:35+00:00",
+      "lastmod": "2024-02-06T15:54:11+01:00",
+      "owner": "Les Patriotes"
+    },
+    "https://les-patriotes.fr/non-a-leuropeanisation-de-la-dissuasion-nucleaire-francaise/": {
+      "first_seen_at": "2026-08-11T06:53:35+00:00",
+      "lastmod": "2025-02-25T10:42:42+01:00",
+      "owner": "Les Patriotes"
+    },
+    "https://les-patriotes.fr/non-au-drapeau-europeen-obligatoire-sur-nos-mairies/": {
+      "first_seen_at": "2026-08-11T06:53:35+00:00",
+      "lastmod": "2024-02-06T15:49:00+01:00",
+      "owner": "Les Patriotes"
+    },
+    "https://les-patriotes.fr/notre-projet-pour-la-france/": {
+      "first_seen_at": "2026-08-11T06:53:35+00:00",
+      "lastmod": "2024-06-11T13:12:10+02:00",
+      "owner": "Les Patriotes"
+    },
+    "https://les-patriotes.fr/petition-exigez-un-referendum-sur-laccord-europeen-de-bruxelles/": {
+      "first_seen_at": "2026-08-11T06:53:35+00:00",
+      "lastmod": "2024-02-06T16:03:26+01:00",
+      "owner": "Les Patriotes"
+    },
+    "https://les-patriotes.fr/petition-flash-pour-connaitre-le-contenu-du-projet-de-loi-covid-du-22-06-avant-les-legislatives/": {
+      "first_seen_at": "2026-08-11T06:53:35+00:00",
+      "lastmod": "2024-02-06T15:54:06+01:00",
+      "owner": "Les Patriotes"
+    },
+    "https://les-patriotes.fr/petition-mobilisation-generale-contre-linstauration-de-la-fraude-a-lelection-presidentielle/": {
+      "first_seen_at": "2026-08-11T06:53:35+00:00",
+      "lastmod": "2024-02-06T16:03:19+01:00",
+      "owner": "Les Patriotes"
+    },
+    "https://les-patriotes.fr/petition-nationale-contre-le-demantelement-dedf-projet-ue-hercule/": {
+      "first_seen_at": "2026-08-11T06:53:35+00:00",
+      "lastmod": "2024-02-06T16:03:30+01:00",
+      "owner": "Les Patriotes"
+    },
+    "https://les-patriotes.fr/petition-nationale-contre-le-nouveau-traite-europeen-qui-institue-un-coup-detat/": {
+      "first_seen_at": "2026-08-11T06:53:35+00:00",
+      "lastmod": "2024-02-06T15:43:56+01:00",
+      "owner": "Les Patriotes"
+    },
+    "https://les-patriotes.fr/petition-nationale-pour-la-demission-du-ministre-de-la-sante-aurelien-rousseau/": {
+      "first_seen_at": "2026-08-11T06:53:35+00:00",
+      "lastmod": "2023-10-10T14:28:26+02:00",
+      "owner": "Les Patriotes"
+    },
+    "https://les-patriotes.fr/petition-pour-lunion-des-souverainistes-en-vue-des-europeennes-de-2024/": {
+      "first_seen_at": "2026-08-11T06:53:35+00:00",
+      "lastmod": "2024-02-06T15:47:23+01:00",
+      "owner": "Les Patriotes"
+    },
+    "https://les-patriotes.fr/petition-sortons-la-france-de-la-cedh-cour-europeenne-des-droits-de-lhomme/": {
+      "first_seen_at": "2026-08-11T06:53:35+00:00",
+      "lastmod": "2024-02-06T16:02:14+01:00",
+      "owner": "Les Patriotes"
+    },
+    "https://les-patriotes.fr/petition-suite-aux-resultats-des-elections-legislatives-macron-doit-demissionner/": {
+      "first_seen_at": "2026-08-11T06:53:35+00:00",
+      "lastmod": "2024-02-06T15:54:05+01:00",
+      "owner": "Les Patriotes"
+    },
+    "https://les-patriotes.fr/photos-des-reunions-publiques-campagne-europeenne-2024/": {
+      "first_seen_at": "2026-08-11T06:53:35+00:00",
+      "lastmod": "2024-10-17T16:19:47+02:00",
+      "owner": "Les Patriotes"
+    },
+    "https://les-patriotes.fr/pour-un-debat-sur-laffaire-mckinsey-dans-la-campagne-presidentielle/": {
+      "first_seen_at": "2026-08-11T06:53:35+00:00",
+      "lastmod": "2024-02-06T15:56:51+01:00",
+      "owner": "Les Patriotes"
+    },
+    "https://les-patriotes.fr/produit/badge-retraite-a-60-ans/": {
+      "first_seen_at": "2026-08-11T06:53:35+00:00",
+      "lastmod": "2024-01-27T12:42:42+01:00",
+      "owner": "Les Patriotes"
+    },
+    "https://les-patriotes.fr/produit/badge-sortons-du-marche-europeen-de-lelectricite/": {
+      "first_seen_at": "2026-08-11T06:53:35+00:00",
+      "lastmod": "2024-01-27T12:43:56+01:00",
+      "owner": "Les Patriotes"
+    },
+    "https://les-patriotes.fr/produit/projet-pour-la-france/": {
+      "first_seen_at": "2026-08-11T06:53:35+00:00",
+      "lastmod": "2026-06-10T12:04:34+02:00",
+      "owner": "Les Patriotes"
+    },
+    "https://les-patriotes.fr/projet-pour-la-france/": {
+      "first_seen_at": "2026-08-11T06:53:35+00:00",
+      "lastmod": "2024-03-25T20:08:56+01:00",
+      "owner": "Les Patriotes"
+    },
+    "https://les-patriotes.fr/projet/": {
+      "first_seen_at": "2026-08-11T06:53:35+00:00",
+      "lastmod": "2024-10-14T13:58:54+02:00",
+      "owner": "Les Patriotes"
+    },
+    "https://les-patriotes.fr/projetpourlafranc/": {
+      "first_seen_at": "2026-08-11T06:53:35+00:00",
+      "lastmod": "2025-09-16T12:07:50+02:00",
+      "owner": "Les Patriotes"
+    },
+    "https://les-patriotes.fr/projetpourlafrance/": {
+      "first_seen_at": "2026-08-11T06:53:35+00:00",
+      "lastmod": "2025-09-15T16:34:38+02:00",
+      "owner": "Les Patriotes"
+    },
+    "https://les-patriotes.fr/reforme-des-retraites-une-motion-de-censure-doit-passer/": {
+      "first_seen_at": "2026-08-11T06:53:35+00:00",
+      "lastmod": "2024-02-06T15:51:01+01:00",
+      "owner": "Les Patriotes"
+    },
+    "https://les-patriotes.fr/refusons-de-transferer-a-lue-notre-siege-au-conseil-de-securite-de-lonu/": {
+      "first_seen_at": "2026-08-11T06:53:35+00:00",
+      "lastmod": "2024-02-06T15:57:47+01:00",
+      "owner": "Les Patriotes"
+    },
+    "https://les-patriotes.fr/retraites-deposez-une-motion-de-censure-transpartisane/": {
+      "first_seen_at": "2026-08-11T06:53:35+00:00",
+      "lastmod": "2024-02-06T15:50:31+01:00",
+      "owner": "Les Patriotes"
+    },
+    "https://les-patriotes.fr/vol-au-louvre-la-presidente-du-louvre-la-directrice-de-la-securite-et-la-ministre-de-la-culture-doivent-demissionner/": {
+      "first_seen_at": "2026-08-11T06:53:35+00:00",
+      "lastmod": "2025-10-20T17:47:39+02:00",
+      "owner": "Les Patriotes"
+    },
+    "https://lesecologistes.fr/posts/1JBQiuOWd8yhLUWISloVBk/nouveaux-ogm-le-parlement-europeen-autorise-la-deregulation-des-ngt-effacant-30-ans-de-luttes": {
+      "first_seen_at": "2026-08-11T06:54:40+00:00",
+      "owner": "Les Écologistes",
+      "published_at": "Fri, 10 Jul 2026 19:23:37 +0200"
+    },
+    "https://lesecologistes.fr/posts/2aHwg52vzeaBhXA7jguBRk/un-territoire-vivant-et-accueillant-nos-propositions-pour-reussir-la-transition-de-la-montagne-francaise": {
+      "first_seen_at": "2026-08-11T06:54:40+00:00",
+      "owner": "Les Écologistes",
+      "published_at": "Mon, 27 Jul 2026 16:21:35 +0200"
+    },
+    "https://lesecologistes.fr/posts/2w5Lv7XGJ0xJwYUaeJGNro/proteger-nos-propositions-face-aux-incendies": {
+      "first_seen_at": "2026-08-11T06:54:40+00:00",
+      "owner": "Les Écologistes",
+      "published_at": "Wed, 29 Jul 2026 20:34:54 +0200"
+    },
+    "https://lesecologistes.fr/posts/362ZTN4lrqOHhCNX47huct/loi-d-urgence-agricole-oui-a-l-adaptation-de-l-agriculture-au-changement-climatique-pour-proteger-l-eau-et-la-sante-non-a-une-loi-dictee-par-les-lobbies-agro-industriels": {
+      "first_seen_at": "2026-08-11T06:54:40+00:00",
+      "owner": "Les Écologistes",
+      "published_at": "Thu, 16 Jul 2026 10:06:17 +0200"
+    },
+    "https://marinetondelier.fr/blog/abolition-privilege-climatique-nuit-4-aout-2027": {
+      "first_seen_at": "2026-08-11T06:53:37+00:00",
+      "lastmod": "2026-05-07",
+      "owner": "Marine Tondelier"
+    },
+    "https://marinetondelier.fr/blog/reaction-au-second-tour-des-elections-municipales": {
+      "first_seen_at": "2026-08-11T06:53:37+00:00",
+      "lastmod": "2026-03-23",
+      "owner": "Marine Tondelier"
+    },
+    "https://marinetondelier.fr/journal-de-campagne/episode-6-reemploi-en-danger": {
+      "first_seen_at": "2026-08-11T06:53:37+00:00",
+      "lastmod": "2026-04-01",
+      "owner": "Marine Tondelier"
+    },
+    "https://parti-equinoxe.fr/agriculteurs-en-colere-la-faute-a-lecologie/": {
+      "first_seen_at": "2026-08-11T06:53:50+00:00",
+      "lastmod": "2024-06-05T22:20:16+00:00",
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/comment-voter-aux-elections-europeennes/": {
+      "first_seen_at": "2026-08-11T06:53:50+00:00",
+      "lastmod": "2024-06-06T07:50:46+00:00",
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/comment-voter-aux-europeennes-2024/": {
+      "first_seen_at": "2026-08-11T06:53:50+00:00",
+      "lastmod": "2025-06-10T21:13:50+00:00",
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/contre-budget-2026/": {
+      "first_seen_at": "2026-08-11T06:53:50+00:00",
+      "lastmod": "2025-11-16T17:21:08+00:00",
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/deux-membres-dequinoxe-interviewes-au-parlement-europeen/": {
+      "first_seen_at": "2026-08-11T06:53:50+00:00",
+      "lastmod": "2026-01-09T21:42:55+00:00",
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/election-presidentielle-americaine-quels-enjeux-pour-leurope-et-la-france/": {
+      "first_seen_at": "2026-08-11T06:53:50+00:00",
+      "lastmod": "2025-11-06T19:18:07+00:00",
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/europeennes-2024-programme-cohesion/": {
+      "first_seen_at": "2026-08-11T06:53:50+00:00",
+      "lastmod": "2025-01-13T22:35:15+00:00",
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/europeennes-2024/": {
+      "first_seen_at": "2026-08-11T06:53:50+00:00",
+      "lastmod": "2026-07-31T18:08:39+00:00",
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/le-projet/": {
+      "first_seen_at": "2026-08-11T06:53:50+00:00",
+      "lastmod": "2026-07-31T15:51:22+00:00",
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/legislative-partielle-2025-hauts-de-seine/programme-education/": {
+      "first_seen_at": "2026-08-11T06:53:50+00:00",
+      "lastmod": "2025-01-22T20:22:34+00:00",
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/legislative-partielle-2025-isere/programme-cohesion/": {
+      "first_seen_at": "2026-08-11T06:53:50+00:00",
+      "lastmod": "2025-01-13T22:14:26+00:00",
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/legislative-partielle-2025-isere/programme-democratie/": {
+      "first_seen_at": "2026-08-11T06:53:50+00:00",
+      "lastmod": "2024-12-23T16:59:38+00:00",
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/legislative-partielle-2025-isere/programme-environnement/": {
+      "first_seen_at": "2026-08-11T06:53:50+00:00",
+      "lastmod": "2024-12-23T17:00:39+00:00",
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/legislative-partielle-2025-isere/programme-sante/": {
+      "first_seen_at": "2026-08-11T06:53:50+00:00",
+      "lastmod": "2025-01-16T15:47:48+00:00",
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/legislatives-2024/candidats-legislatives-2024/": {
+      "first_seen_at": "2026-08-11T06:53:50+00:00",
+      "lastmod": "2025-05-08T21:37:29+00:00",
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/legislatives-2024/candidats-legislatives-2024/adrien-bourgeade-equinoxe-ecologie-parti-candidat-legislatives-2024/": {
+      "first_seen_at": "2026-08-11T06:53:50+00:00",
+      "lastmod": "2024-06-28T09:31:56+00:00",
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/legislatives-2024/candidats-legislatives-2024/alberic-barret/": {
+      "first_seen_at": "2026-08-11T06:53:50+00:00",
+      "lastmod": "2024-06-28T09:32:21+00:00",
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/legislatives-2024/candidats-legislatives-2024/alexia-de-montgolfier/": {
+      "first_seen_at": "2026-08-11T06:53:50+00:00",
+      "lastmod": "2025-11-05T22:52:52+00:00",
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/legislatives-2024/candidats-legislatives-2024/alienor-billault/": {
+      "first_seen_at": "2026-08-11T06:53:50+00:00",
+      "lastmod": "2024-06-28T09:33:21+00:00",
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/legislatives-2024/candidats-legislatives-2024/alvin-ivanaj/": {
+      "first_seen_at": "2026-08-11T06:53:50+00:00",
+      "lastmod": "2024-06-28T09:33:48+00:00",
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/legislatives-2024/candidats-legislatives-2024/arnaud-borowski/": {
+      "first_seen_at": "2026-08-11T06:53:50+00:00",
+      "lastmod": "2024-06-28T09:34:24+00:00",
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/legislatives-2024/candidats-legislatives-2024/arthur-nestier/": {
+      "first_seen_at": "2026-08-11T06:53:50+00:00",
+      "lastmod": "2024-06-28T09:34:54+00:00",
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/legislatives-2024/candidats-legislatives-2024/aurelie-vonsy/": {
+      "first_seen_at": "2026-08-11T06:53:50+00:00",
+      "lastmod": "2024-06-27T22:24:16+00:00",
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/legislatives-2024/candidats-legislatives-2024/aurelien-verleyen/": {
+      "first_seen_at": "2026-08-11T06:53:50+00:00",
+      "lastmod": "2024-06-28T09:35:32+00:00",
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/legislatives-2024/candidats-legislatives-2024/baptiste-galand/": {
+      "first_seen_at": "2026-08-11T06:53:50+00:00",
+      "lastmod": "2024-06-28T09:35:59+00:00",
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/legislatives-2024/candidats-legislatives-2024/baptiste-rajaut/": {
+      "first_seen_at": "2026-08-11T06:53:50+00:00",
+      "lastmod": "2024-06-28T09:14:58+00:00",
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/legislatives-2024/candidats-legislatives-2024/caroline-couronne/": {
+      "first_seen_at": "2026-08-11T06:53:50+00:00",
+      "lastmod": "2024-06-28T09:16:37+00:00",
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/legislatives-2024/candidats-legislatives-2024/cecile-lorans/": {
+      "first_seen_at": "2026-08-11T06:53:50+00:00",
+      "lastmod": "2024-06-28T09:17:13+00:00",
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/legislatives-2024/candidats-legislatives-2024/celine-von-auw-equinoxe-2024-legislatives/": {
+      "first_seen_at": "2026-08-11T06:53:50+00:00",
+      "lastmod": "2024-06-28T09:17:49+00:00",
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/legislatives-2024/candidats-legislatives-2024/charlotte-richard-equinoxe-2024-legislatives/": {
+      "first_seen_at": "2026-08-11T06:53:50+00:00",
+      "lastmod": "2024-06-28T09:18:19+00:00",
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/legislatives-2024/candidats-legislatives-2024/come-citroen-equinoxe-2024-legislative/": {
+      "first_seen_at": "2026-08-11T06:53:50+00:00",
+      "lastmod": "2024-06-28T09:18:51+00:00",
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/legislatives-2024/candidats-legislatives-2024/domitille-allorant-equinoxe-2024-legislative/": {
+      "first_seen_at": "2026-08-11T06:53:50+00:00",
+      "lastmod": "2024-06-28T09:19:24+00:00",
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/legislatives-2024/candidats-legislatives-2024/emmanuel-constantin-equinoxe-2024-legislative/": {
+      "first_seen_at": "2026-08-11T06:53:50+00:00",
+      "lastmod": "2024-06-28T09:20:05+00:00",
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/legislatives-2024/candidats-legislatives-2024/francois-olleon-equinoxe-2024-legislative/": {
+      "first_seen_at": "2026-08-11T06:53:50+00:00",
+      "lastmod": "2024-06-28T09:21:08+00:00",
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/legislatives-2024/candidats-legislatives-2024/gaelle-cressin-equinoxe-2024-legislative/": {
+      "first_seen_at": "2026-08-11T06:53:50+00:00",
+      "lastmod": "2024-06-28T09:22:01+00:00",
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/legislatives-2024/candidats-legislatives-2024/helene-fave-equinoxe-2024-legislative/": {
+      "first_seen_at": "2026-08-11T06:53:50+00:00",
+      "lastmod": "2024-06-28T09:22:59+00:00",
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/legislatives-2024/candidats-legislatives-2024/hippolyte-verdier-equinoxe-2024-legislative/": {
+      "first_seen_at": "2026-08-11T06:53:50+00:00",
+      "lastmod": "2024-06-28T09:23:26+00:00",
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/legislatives-2024/candidats-legislatives-2024/ingrid-allorant-equinoxe-2024-legislative/": {
+      "first_seen_at": "2026-08-11T06:53:50+00:00",
+      "lastmod": "2024-06-28T09:23:52+00:00",
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/legislatives-2024/candidats-legislatives-2024/jean-dambreville-equinoxe-2024-legislative/": {
+      "first_seen_at": "2026-08-11T06:53:50+00:00",
+      "lastmod": "2024-06-28T09:24:21+00:00",
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/legislatives-2024/candidats-legislatives-2024/joseph-basilien-equinoxe-2024-legislative/": {
+      "first_seen_at": "2026-08-11T06:53:50+00:00",
+      "lastmod": "2024-06-28T09:24:49+00:00",
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/legislatives-2024/candidats-legislatives-2024/julian-rozenberg-equinoxe-ecologie-parti-candidat-legislatives-2024/": {
+      "first_seen_at": "2026-08-11T06:53:50+00:00",
+      "lastmod": "2024-06-28T09:25:23+00:00",
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/legislatives-2024/candidats-legislatives-2024/julien-quevy-equinoxe-ecologie-parti-candidat-legislatives-2024/": {
+      "first_seen_at": "2026-08-11T06:53:50+00:00",
+      "lastmod": "2024-06-28T09:25:48+00:00",
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/legislatives-2024/candidats-legislatives-2024/leila-behairi-equinoxe-ecologie-parti-candidat-legislatives-2024/": {
+      "first_seen_at": "2026-08-11T06:53:50+00:00",
+      "lastmod": "2024-06-28T09:26:15+00:00",
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/legislatives-2024/candidats-legislatives-2024/louiliam-clot-equinoxe-ecologie-parti-candidat-legislatives-2024/": {
+      "first_seen_at": "2026-08-11T06:53:50+00:00",
+      "lastmod": "2024-06-28T09:26:45+00:00",
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/legislatives-2024/candidats-legislatives-2024/marianne-billoir-equinoxe-ecologie-parti-candidat-legislatives-2024/": {
+      "first_seen_at": "2026-08-11T06:53:50+00:00",
+      "lastmod": "2024-06-28T09:27:12+00:00",
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/legislatives-2024/candidats-legislatives-2024/marjorie-vivo-equinoxe-ecologie-parti-candidate-legislatives-2024/": {
+      "first_seen_at": "2026-08-11T06:53:50+00:00",
+      "lastmod": "2024-06-28T09:27:41+00:00",
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/legislatives-2024/candidats-legislatives-2024/michel-bouchou-equinoxe-ecologie-parti-candidat-legislatives-2024/": {
+      "first_seen_at": "2026-08-11T06:53:50+00:00",
+      "lastmod": "2024-06-28T09:28:06+00:00",
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/legislatives-2024/candidats-legislatives-2024/renaud-couzin-equinoxe-ecologie-parti-candidat-legislatives-2024/": {
+      "first_seen_at": "2026-08-11T06:53:50+00:00",
+      "lastmod": "2024-06-28T09:28:33+00:00",
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/legislatives-2024/candidats-legislatives-2024/samir-bouziani-equinoxe-ecologie-parti-candidat-legislatives-2024/": {
+      "first_seen_at": "2026-08-11T06:53:50+00:00",
+      "lastmod": "2024-06-28T09:29:08+00:00",
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/legislatives-2024/candidats-legislatives-2024/sarah-nicos-equinoxe-ecologie-parti-candidat-legislatives-2024/": {
+      "first_seen_at": "2026-08-11T06:53:50+00:00",
+      "lastmod": "2024-06-28T09:29:33+00:00",
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/legislatives-2024/candidats-legislatives-2024/sophie-lacaze-equinoxe-ecologie-parti-candidat-legislatives-2024/": {
+      "first_seen_at": "2026-08-11T06:53:50+00:00",
+      "lastmod": "2024-06-28T09:29:58+00:00",
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/legislatives-2024/candidats-legislatives-2024/tatiana-gouverneur-equinoxe-ecologie-parti-candidat-legislatives-2024/": {
+      "first_seen_at": "2026-08-11T06:53:50+00:00",
+      "lastmod": "2024-06-28T09:30:24+00:00",
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/legislatives-2024/candidats-legislatives-2024/thea-maki-marquand-equinoxe-ecologie-parti-candidat-legislatives-2024/": {
+      "first_seen_at": "2026-08-11T06:53:50+00:00",
+      "lastmod": "2024-06-28T09:30:48+00:00",
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/meeting-de-paris-25-mai/": {
+      "first_seen_at": "2026-08-11T06:53:50+00:00",
+      "lastmod": "2024-06-13T16:52:21+00:00",
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/programme-europeennes-2024-mesure-phare-10-legislation/": {
+      "first_seen_at": "2026-08-11T06:53:50+00:00",
+      "lastmod": "2024-06-05T22:35:36+00:00",
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/programme-europeennes-2024-mesure-phare-3-numerique/": {
+      "first_seen_at": "2026-08-11T06:53:50+00:00",
+      "lastmod": "2026-07-05T18:09:45+00:00",
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/programme-europeennes-2024-mesure-phare-4-compte-carbone/": {
+      "first_seen_at": "2026-08-11T06:53:50+00:00",
+      "lastmod": "2024-06-03T22:05:11+00:00",
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/programme-europeennes-2024-mesure-phare-5-immigration/": {
+      "first_seen_at": "2026-08-11T06:53:50+00:00",
+      "lastmod": "2024-06-03T22:06:08+00:00",
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/programme-europeennes-2024-mesure-phare-6-pac/": {
+      "first_seen_at": "2026-08-11T06:53:50+00:00",
+      "lastmod": "2024-06-03T22:06:48+00:00",
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/programme-europeennes-2024-mesure-phare-7-defense-europeenne/": {
+      "first_seen_at": "2026-08-11T06:53:50+00:00",
+      "lastmod": "2024-06-03T22:04:02+00:00",
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/programme-europeennes-2024-mesure-phare-8-reindustrialisation/": {
+      "first_seen_at": "2026-08-11T06:53:50+00:00",
+      "lastmod": "2024-06-03T22:17:43+00:00",
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/programme-europeennes-2024-mesure-phare-9-finance/": {
+      "first_seen_at": "2026-08-11T06:53:50+00:00",
+      "lastmod": "2024-06-03T22:19:16+00:00",
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/programme-legislatives-2024-agriculture/": {
+      "first_seen_at": "2026-08-11T06:53:50+00:00",
+      "lastmod": "2024-06-24T08:49:42+00:00",
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/programme-legislatives-2024-cohesion/": {
+      "first_seen_at": "2026-08-11T06:53:50+00:00",
+      "lastmod": "2025-01-20T23:50:40+00:00",
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/programme-legislatives-2024-democratie/": {
+      "first_seen_at": "2026-08-11T06:53:50+00:00",
+      "lastmod": "2025-01-13T22:27:35+00:00",
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/programme-legislatives-2024-education/": {
+      "first_seen_at": "2026-08-11T06:53:50+00:00",
+      "lastmod": "2025-01-21T23:13:07+00:00",
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/programme-legislatives-2024-emissions-personnelles/": {
+      "first_seen_at": "2026-08-11T06:53:50+00:00",
+      "lastmod": "2025-01-13T22:29:04+00:00",
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/programme-legislatives-2024-energie/": {
+      "first_seen_at": "2026-08-11T06:53:50+00:00",
+      "lastmod": "2025-01-13T22:24:58+00:00",
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/programme-legislatives-2024-immigration/": {
+      "first_seen_at": "2026-08-11T06:53:50+00:00",
+      "lastmod": "2025-01-13T22:29:58+00:00",
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/programme-legislatives-2024-industrie/": {
+      "first_seen_at": "2026-08-11T06:53:50+00:00",
+      "lastmod": "2025-01-13T22:30:20+00:00",
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/programme-legislatives-2024-international/": {
+      "first_seen_at": "2026-08-11T06:53:50+00:00",
+      "lastmod": "2025-01-13T22:23:46+00:00",
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/programme-legislatives-2024-logement/": {
+      "first_seen_at": "2026-08-11T06:53:50+00:00",
+      "lastmod": "2025-01-13T22:25:50+00:00",
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/programme-legislatives-2024-numerique/": {
+      "first_seen_at": "2026-08-11T06:53:50+00:00",
+      "lastmod": "2025-01-13T22:27:51+00:00",
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/programme-legislatives-2024-sante/": {
+      "first_seen_at": "2026-08-11T06:53:50+00:00",
+      "lastmod": "2025-01-13T22:29:40+00:00",
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/programme-legislatives-2024-transport/": {
+      "first_seen_at": "2026-08-11T06:53:50+00:00",
+      "lastmod": "2025-01-13T22:32:52+00:00",
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/programme/": {
+      "first_seen_at": "2026-08-11T06:53:50+00:00",
+      "lastmod": "2025-09-13T15:38:14+00:00",
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/qui-peut-voter-aux-elections-europeennes/": {
+      "first_seen_at": "2026-08-11T06:53:50+00:00",
+      "lastmod": "2024-06-05T22:18:43+00:00",
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/qui-se-presente-aux-elections-europeennes/": {
+      "first_seen_at": "2026-08-11T06:53:50+00:00",
+      "lastmod": "2025-10-02T08:32:15+00:00",
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/reflexions-sur-la-ligne-lyon-turin/": {
+      "first_seen_at": "2026-08-11T06:54:46+00:00",
+      "owner": "Équinoxe",
+      "published_at": "Tue, 11 Nov 2025 15:47:22 +0000"
+    },
+    "https://parti-equinoxe.fr/supprimer-lame-reduira-limmigration-illegale-cest-plus-complique-que-ca/": {
+      "first_seen_at": "2026-08-11T06:53:50+00:00",
+      "lastmod": "2025-02-06T15:55:53+00:00",
+      "owner": "Équinoxe"
+    },
+    "https://parti-equinoxe.fr/tractage-pour-les-europeennes-grenoble-27-avril/": {
+      "first_seen_at": "2026-08-11T06:53:50+00:00",
+      "lastmod": "2024-06-13T16:52:34+00:00",
+      "owner": "Équinoxe"
+    },
+    "https://parti-renaissance.fr/emplois": {
+      "first_seen_at": "2026-08-11T06:53:50+00:00",
+      "lastmod": "2026-02-25",
+      "owner": "Renaissance"
+    },
+    "https://parti-renaissance.fr/nos-ambitions/des-ambassadeurs-de-la-sante-mentale": {
+      "first_seen_at": "2026-08-11T06:53:50+00:00",
+      "lastmod": "2026-02-25",
+      "owner": "Renaissance"
+    },
+    "https://parti-renaissance.fr/nos-ambitions/nos-aines-et-nos-jeunes-adultes-reunis-dans-un-logement": {
+      "first_seen_at": "2026-08-11T06:53:50+00:00",
+      "lastmod": "2026-02-25",
+      "owner": "Renaissance"
+    },
+    "https://parti-renaissance.fr/nos-ambitions/permettre-lacces-a-un-logement-abordable": {
+      "first_seen_at": "2026-08-11T06:53:50+00:00",
+      "lastmod": "2026-02-25",
+      "owner": "Renaissance"
+    },
+    "https://parti-renaissance.fr/nos-ambitions/simplifier-les-demarches-pour-renover-nos-logements": {
+      "first_seen_at": "2026-08-11T06:53:50+00:00",
+      "lastmod": "2026-02-25",
+      "owner": "Renaissance"
+    },
+    "https://parti-renaissance.fr/petitions/refonder-notre-systeme-de-retraite": {
+      "first_seen_at": "2026-08-11T06:53:50+00:00",
+      "lastmod": "2026-02-25",
+      "owner": "Renaissance"
+    },
+    "https://parti-socialiste.fr/a-la-une/jeudi-les-militantes-socialistes-votent-sur-la-strategie-presidentielle/": {
+      "first_seen_at": "2026-08-11T06:54:52+00:00",
+      "owner": "Parti socialiste",
+      "published_at": "Tue, 07 Jul 2026 11:26:53 +0000"
+    },
+    "https://parti-socialiste.fr/a-la-une/le-site-du-projet-est-en-ligne/": {
+      "first_seen_at": "2026-08-11T06:54:52+00:00",
+      "owner": "Parti socialiste",
+      "published_at": "Thu, 02 Jul 2026 13:00:03 +0000"
+    },
+    "https://parti-socialiste.fr/a-la-une/rdv-jeudi-25-juin-pour-voter-le-projet-socialiste/": {
+      "first_seen_at": "2026-08-11T06:54:52+00:00",
+      "owner": "Parti socialiste",
+      "published_at": "Mon, 22 Jun 2026 14:05:54 +0000"
+    },
+    "https://parti-socialiste.fr/actualites/le-projet-socialiste-adopte/": {
+      "first_seen_at": "2026-08-11T06:54:52+00:00",
+      "owner": "Parti socialiste",
+      "published_at": "Thu, 02 Jul 2026 12:58:59 +0000"
+    },
+    "https://parti-socialiste.fr/actualites/les-militantes-socialistes-ont-adopte-leur-strategie-presidentielle-pour-2027/": {
+      "first_seen_at": "2026-08-11T06:54:52+00:00",
+      "owner": "Parti socialiste",
+      "published_at": "Fri, 10 Jul 2026 09:39:10 +0000"
+    },
+    "https://parti-socialiste.fr/communiques-de-presse/deces-dyves-lacoste-le-parti-socialiste-salue-la-memoire-dun-intellectuel-engage-et-dun-grand-geographe-du-monde-contemporain/": {
+      "first_seen_at": "2026-08-11T06:54:52+00:00",
+      "owner": "Parti socialiste",
+      "published_at": "Mon, 22 Jun 2026 06:03:47 +0000"
+    },
+    "https://place-publique.eu/forms/7f5SBMzaz8o0yeWs2RLLUf/s-inscrire-a-meeting-de-campagne-liste-de-thea-fourdrinier": {
+      "first_seen_at": "2026-08-11T06:53:51+00:00",
+      "lastmod": "2026-03-27T01:51:48+01:00",
+      "owner": "Place publique"
+    },
+    "https://place-publique.eu/pages/69jA2SKIG5udlNX7wI3dmc/le-projet": {
+      "first_seen_at": "2026-08-11T06:53:51+00:00",
+      "lastmod": "2026-06-05T15:22:44+02:00",
+      "owner": "Place publique"
+    },
+    "https://place-publique.eu/pages/StqQsIhpkTsRX83NHHxa/l-equipe-projet": {
+      "first_seen_at": "2026-08-11T06:53:51+00:00",
+      "lastmod": "2026-05-19T19:12:42+02:00",
+      "owner": "Place publique"
+    },
+    "https://place-publique.eu/pages/kDSIob0XjjviXRIwo54or/meeting-des-docks-d-aubervilliers": {
+      "first_seen_at": "2026-08-11T06:53:51+00:00",
+      "lastmod": "2026-06-10T08:42:43+02:00",
+      "owner": "Place publique"
+    },
+    "https://republicains.fr/actualites/2025/01/06/sophie-primas-quand-on-parle-de-mayotte-il-faut-parler-des-regles-dimmigration/": {
+      "first_seen_at": "2026-08-11T06:53:57+00:00",
+      "lastmod": "2025-11-03T23:35:37+00:00",
+      "owner": "Bruno Retailleau"
+    },
+    "https://republicains.fr/actualites/2025/01/07/bruno-retailleau-je-souhaite-un-referendum-sur-limmigration/": {
+      "first_seen_at": "2026-08-11T06:53:57+00:00",
+      "lastmod": "2025-10-27T21:41:15+00:00",
+      "owner": "Bruno Retailleau"
+    },
+    "https://republicains.fr/actualites/2025/01/13/laurent-wauquiez-je-ne-voterai-pas-un-budget-avec-de-nouvelles-hausses-dimpot/": {
+      "first_seen_at": "2026-08-11T06:53:57+00:00",
+      "lastmod": "2025-10-27T21:40:57+00:00",
+      "owner": "Bruno Retailleau"
+    },
+    "https://republicains.fr/actualites/2025/01/17/yannick-neuder-pas-deconomies-sur-le-dos-de-la-sante-des-francais/": {
+      "first_seen_at": "2026-08-11T06:53:57+00:00",
+      "lastmod": "2025-10-27T21:40:13+00:00",
+      "owner": "Bruno Retailleau"
+    },
+    "https://republicains.fr/actualites/2025/01/27/sophie-primas-cest-un-budget-qui-trouve-le-chemin-du-compromis/": {
+      "first_seen_at": "2026-08-11T06:53:57+00:00",
+      "lastmod": "2025-11-03T23:17:42+00:00",
+      "owner": "Bruno Retailleau"
+    },
+    "https://republicains.fr/actualites/2025/02/03/sophie-primas-il-nous-faut-un-budget/": {
+      "first_seen_at": "2026-08-11T06:53:57+00:00",
+      "lastmod": "2025-11-03T23:33:10+00:00",
+      "owner": "Bruno Retailleau"
+    },
+    "https://republicains.fr/actualites/2025/02/07/francois-xavier-bellamy-arreter-limmigration-illegale-est-une-urgence-vitale/": {
+      "first_seen_at": "2026-08-11T06:53:57+00:00",
+      "lastmod": "2025-10-27T21:37:40+00:00",
+      "owner": "Bruno Retailleau"
+    },
+    "https://republicains.fr/actualites/2025/05/18/election-du-president-des-republicains-resultats-du-vote/": {
+      "first_seen_at": "2026-08-11T06:53:57+00:00",
+      "lastmod": "2025-05-18T15:46:58+00:00",
+      "owner": "Bruno Retailleau"
+    },
+    "https://republicains.fr/actualites/2025/05/22/gerard-larcher-aujourdhui-il-faut-batir-un-projet-politique/": {
+      "first_seen_at": "2026-08-11T06:53:57+00:00",
+      "lastmod": "2025-10-27T21:34:11+00:00",
+      "owner": "Bruno Retailleau"
+    },
+    "https://republicains.fr/actualites/2025/06/02/mathieu-darnaud-le-budget-est-laffaire-de-tous-parlementaires-et-gouvernement/": {
+      "first_seen_at": "2026-08-11T06:53:57+00:00",
+      "lastmod": "2025-10-27T21:32:58+00:00",
+      "owner": "Bruno Retailleau"
+    },
+    "https://republicains.fr/actualites/2025/06/17/michel-barnier-sur-les-retraites-ce-qui-importe-cest-le-dialogue-social/": {
+      "first_seen_at": "2026-08-11T06:53:57+00:00",
+      "lastmod": "2025-10-27T21:32:01+00:00",
+      "owner": "Bruno Retailleau"
+    },
+    "https://republicains.fr/actualites/2025/06/23/francois-xavier-bellamy-la-destruction-du-programme-nucleaire-iranien-ne-peut-etre-quune-bonne-nouvelle-pour-la-securite-du-monde/": {
+      "first_seen_at": "2026-08-11T06:53:57+00:00",
+      "lastmod": "2025-10-27T21:30:50+00:00",
+      "owner": "Bruno Retailleau"
+    },
+    "https://republicains.fr/actualites/2025/06/28/michel-barnier-lr-doit-tout-faire-pour-etre-present-en-2027-et-gagner-dans-la-foulee-une-majorite-absolue/": {
+      "first_seen_at": "2026-08-11T06:53:57+00:00",
+      "lastmod": "2025-10-27T21:30:12+00:00",
+      "owner": "Bruno Retailleau"
+    },
+    "https://republicains.fr/actualites/2025/07/04/mercosur-la-chine-est-devenue-lusine-de-leurope-lamerique-du-sud-ne-peut-pas-devenir-sa-ferme/": {
+      "first_seen_at": "2026-08-11T06:53:57+00:00",
+      "lastmod": "2025-07-04T07:25:08+00:00",
+      "owner": "Bruno Retailleau"
+    },
+    "https://republicains.fr/actualites/2025/07/18/bruno-retailleau-en-2027-je-ferai-tout-pour-faire-gagner-la-droite/": {
+      "first_seen_at": "2026-08-11T06:53:57+00:00",
+      "lastmod": "2025-10-27T21:29:04+00:00",
+      "owner": "Bruno Retailleau"
+    },
+    "https://republicains.fr/actualites/2025/07/21/francois-xavier-bellamy-lr-doit-revenir-en-ligue-1-et-gagner-la-presidentielle/": {
+      "first_seen_at": "2026-08-11T06:53:57+00:00",
+      "lastmod": "2025-10-27T21:28:47+00:00",
+      "owner": "Bruno Retailleau"
+    },
+    "https://republicains.fr/actualites/2025/08/05/francois-xavier-bellamy-leurope-a-renonce-a-toutes-les-conditions-de-la-liberte/": {
+      "first_seen_at": "2026-08-11T06:53:57+00:00",
+      "lastmod": "2025-10-27T21:27:16+00:00",
+      "owner": "Bruno Retailleau"
+    },
+    "https://republicains.fr/actualites/2025/09/20/election-legislative-partielle-dans-la-5eme-circonscription-des-francais-de-letranger/": {
+      "first_seen_at": "2026-08-11T06:53:57+00:00",
+      "lastmod": "2025-09-20T11:27:19+00:00",
+      "owner": "Bruno Retailleau"
+    },
+    "https://republicains.fr/actualites/2025/10/15/la-droite-ne-peut-pas-accepter-ce-budget/": {
+      "first_seen_at": "2026-08-11T06:53:57+00:00",
+      "lastmod": "2025-10-15T18:21:21+00:00",
+      "owner": "Bruno Retailleau"
+    },
+    "https://republicains.fr/actualites/2025/10/16/celine-imart-leurope-doit-cesser-de-financer-ses-ennemis-avec-largent-des-contribuables/": {
+      "first_seen_at": "2026-08-11T06:53:57+00:00",
+      "lastmod": "2025-11-04T15:12:01+00:00",
+      "owner": "Bruno Retailleau"
+    },
+    "https://republicains.fr/actualites/2025/10/20/francois-xavier-bellamy-nous-refusons-toute-augmentation-globale-de-la-pression-fiscale/": {
+      "first_seen_at": "2026-08-11T06:53:57+00:00",
+      "lastmod": "2025-11-05T22:05:24+00:00",
+      "owner": "Bruno Retailleau"
+    },
+    "https://republicains.fr/actualites/2025/10/21/pierre-henri-dumont-ce-budget-cest-rocky-horror-music-show/": {
+      "first_seen_at": "2026-08-11T06:53:57+00:00",
+      "lastmod": "2025-11-04T15:09:44+00:00",
+      "owner": "Bruno Retailleau"
+    },
+    "https://republicains.fr/actualites/2025/10/22/bruno-retailleau-en-letat-le-projet-de-budget-est-invotable/": {
+      "first_seen_at": "2026-08-11T06:53:57+00:00",
+      "lastmod": "2025-11-04T15:11:07+00:00",
+      "owner": "Bruno Retailleau"
+    },
+    "https://republicains.fr/actualites/2025/10/27/gerard-larcher-le-senat-retablira-la-reforme-des-retraites/": {
+      "first_seen_at": "2026-08-11T06:53:57+00:00",
+      "lastmod": "2025-11-04T15:09:08+00:00",
+      "owner": "Bruno Retailleau"
+    },
+    "https://republicains.fr/actualites/2025/10/29/bruno-retailleau-le-budget-est-encore-moins-votable-quhier/": {
+      "first_seen_at": "2026-08-11T06:53:57+00:00",
+      "lastmod": "2025-12-01T15:37:04+00:00",
+      "owner": "Bruno Retailleau"
+    },
+    "https://republicains.fr/actualites/2025/11/14/retraites-cest-le-retour-du-reve-socialiste-des-annees-mitterrand/": {
+      "first_seen_at": "2026-08-11T06:53:57+00:00",
+      "lastmod": "2025-11-17T10:05:50+00:00",
+      "owner": "Bruno Retailleau"
+    },
+    "https://republicains.fr/actualites/2025/11/24/bruno-retailleau-ce-budget-cest-le-hold-up-du-siecle/": {
+      "first_seen_at": "2026-08-11T06:53:57+00:00",
+      "lastmod": "2025-11-24T10:05:38+00:00",
+      "owner": "Bruno Retailleau"
+    },
+    "https://republicains.fr/actualites/2025/12/09/budget-de-la-securite-sociale-49-3-propos-de-brigitte-macron-linterview-4v-de-bruno-retailleau/": {
+      "first_seen_at": "2026-08-11T06:53:57+00:00",
+      "lastmod": "2025-12-09T09:01:59+00:00",
+      "owner": "Bruno Retailleau"
+    },
+    "https://republicains.fr/actualites/2025/12/18/ce-que-jai-dit-a-la-droite-europeenne/": {
+      "first_seen_at": "2026-08-11T06:53:57+00:00",
+      "lastmod": "2025-12-18T11:00:26+00:00",
+      "owner": "Bruno Retailleau"
+    },
+    "https://republicains.fr/actualites/2026/01/05/refuser-la-dependance-numerique-culturelle-defendre-lindependance-europeenne/": {
+      "first_seen_at": "2026-08-11T06:53:57+00:00",
+      "lastmod": "2026-01-05T10:12:09+00:00",
+      "owner": "Bruno Retailleau"
+    },
+    "https://republicains.fr/actualites/2026/01/07/nos-propositions-sur-le-travail-et-la-competitivite/": {
+      "first_seen_at": "2026-08-11T06:53:57+00:00",
+      "lastmod": "2026-01-20T11:04:26+00:00",
+      "owner": "Bruno Retailleau"
+    },
+    "https://republicains.fr/actualites/2026/01/23/suppression-des-zfe-adoption-du-test-pme-et-sortie-des-projets-industriels-du-zan-linterview-de-remy-pointereau/": {
+      "first_seen_at": "2026-08-11T06:53:57+00:00",
+      "lastmod": "2026-01-23T11:59:47+00:00",
+      "owner": "Bruno Retailleau"
+    },
+    "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/": {
+      "first_seen_at": "2026-08-11T06:53:57+00:00",
+      "lastmod": "2026-02-13T00:33:41+00:00",
+      "owner": "Bruno Retailleau"
+    },
+    "https://republicains.fr/actualites/2026/03/18/cest-une-bande-de-tartuffes-jai-fustige-ce-mercredi-18-mars-les-alliances-et-fusions-conclues-par-la-gauche-avec-la-france-insoumise-en-vue-du-second-tour-des-elections-municipales/": {
+      "first_seen_at": "2026-08-11T06:53:57+00:00",
+      "lastmod": "2026-03-23T14:50:35+00:00",
+      "owner": "Bruno Retailleau"
+    },
+    "https://republicains.fr/actualites/2026/03/23/la-droite-a-remporte-les-elections-municipales/": {
+      "first_seen_at": "2026-08-11T06:53:57+00:00",
+      "lastmod": "2026-03-27T13:14:37+00:00",
+      "owner": "Bruno Retailleau"
+    },
+    "https://republicains.fr/actualites/2026/03/23/resultats-des-elections-municipales-communique-de-presse-des-republicains/": {
+      "first_seen_at": "2026-08-11T06:53:57+00:00",
+      "lastmod": "2026-03-23T14:56:01+00:00",
+      "owner": "Bruno Retailleau"
+    },
+    "https://republicains.fr/actualites/2026/03/24/communique-de-presse-des-republicains-a-lissue-du-bureau-politique-du-24-mars-2026/": {
+      "first_seen_at": "2026-08-11T06:53:57+00:00",
+      "lastmod": "2026-03-27T13:21:03+00:00",
+      "owner": "Bruno Retailleau"
+    },
+    "https://republicains.fr/actualites/2026/04/08/guide-des-elections-internes/": {
+      "first_seen_at": "2026-08-11T06:53:57+00:00",
+      "lastmod": "2026-06-08T08:27:56+00:00",
+      "owner": "Bruno Retailleau"
+    },
+    "https://republicains.fr/actualites/2026/04/20/bruno-retailleau-largement-designe-comme-candidat-des-republicains-pour-lelection-presidentielle/": {
+      "first_seen_at": "2026-08-11T06:53:57+00:00",
+      "lastmod": "2026-04-20T14:46:47+00:00",
+      "owner": "Bruno Retailleau"
+    },
+    "https://republicains.fr/actualites/2026/04/21/candidat-a-la-presidentielle-jirai-jusquau-bout/": {
+      "first_seen_at": "2026-08-11T06:53:57+00:00",
+      "lastmod": "2026-04-29T16:05:22+00:00",
+      "owner": "Bruno Retailleau"
+    },
+    "https://republicains.fr/actualites/2026/04/29/je-nattends-plus-rien-du-president-de-la-republique/": {
+      "first_seen_at": "2026-08-11T06:53:57+00:00",
+      "lastmod": "2026-04-30T12:28:55+00:00",
+      "owner": "Bruno Retailleau"
+    },
+    "https://republicains.fr/actualites/2026/05/02/priorite-travail-france-35h-salaires-retraites/": {
+      "first_seen_at": "2026-08-11T06:53:57+00:00",
+      "lastmod": "2026-05-04T14:18:47+00:00",
+      "owner": "Bruno Retailleau"
+    },
+    "https://republicains.fr/actualites/2026/05/31/ma-candidature-ira-jusquau-bout/": {
+      "first_seen_at": "2026-08-11T06:53:57+00:00",
+      "lastmod": "2026-06-03T14:02:33+00:00",
+      "owner": "Bruno Retailleau"
+    },
+    "https://republicains.fr/actualites/2026/06/01/les-zones-demeutes-correspondent-aux-zones-dimmigration-importante/": {
+      "first_seen_at": "2026-08-11T06:53:57+00:00",
+      "lastmod": "2026-06-03T12:02:02+00:00",
+      "owner": "Bruno Retailleau"
+    },
+    "https://republicains.fr/actualites/2026/06/22/grand-meeting-du-parc-floral/": {
+      "first_seen_at": "2026-08-11T06:53:57+00:00",
+      "lastmod": "2026-06-23T13:22:00+00:00",
+      "owner": "Bruno Retailleau"
+    },
+    "https://republicains.fr/actualites/2026/07/01/je-serai-la-surprise-de-cette-election/": {
+      "first_seen_at": "2026-08-11T06:53:57+00:00",
+      "lastmod": "2026-07-07T23:48:52+00:00",
+      "owner": "Bruno Retailleau"
+    },
+    "https://republicains.fr/actualites/2026/07/01/la-prochaine-catastrophe-sera-budgetaire/": {
+      "first_seen_at": "2026-08-11T06:53:57+00:00",
+      "lastmod": "2026-07-09T10:23:04+00:00",
+      "owner": "Bruno Retailleau"
+    },
+    "https://republicains.fr/actualites/2026/07/03/2027-est-lelection-de-la-derniere-chance/": {
+      "first_seen_at": "2026-08-11T06:53:57+00:00",
+      "lastmod": "2026-07-16T10:33:39+00:00",
+      "owner": "Bruno Retailleau"
+    },
+    "https://republicains.fr/actualites/2026/07/07/2027-cest-le-sursaut-ou-le-chaos/": {
+      "first_seen_at": "2026-08-11T06:53:57+00:00",
+      "lastmod": "2026-07-07T23:25:34+00:00",
+      "owner": "Bruno Retailleau"
+    },
+    "https://republicains.fr/actualites/2026/07/31/la-libre-circulation-des-personnes-en-europe-doit-etre-suspendue-pour-lespagne/": {
+      "first_seen_at": "2026-08-11T06:53:57+00:00",
+      "lastmod": "2026-08-05T00:32:29+00:00",
+      "owner": "Bruno Retailleau"
+    },
+    "https://republicains.fr/actualites/2026/08/02/lespace-schengen-doit-etre-reserve-aux-europeens/": {
+      "first_seen_at": "2026-08-11T06:53:57+00:00",
+      "lastmod": "2026-08-05T00:32:52+00:00",
+      "owner": "Bruno Retailleau"
+    },
+    "https://republicains.fr/categories/actualites/communique/": {
+      "first_seen_at": "2026-08-11T06:53:57+00:00",
+      "lastmod": "2026-08-05T00:32:58+00:00",
+      "owner": "Bruno Retailleau"
+    },
+    "https://republicains.fr/categories/actualites/ecologie/": {
+      "first_seen_at": "2026-08-11T06:53:57+00:00",
+      "lastmod": "2026-08-10T17:31:06+00:00",
+      "owner": "Bruno Retailleau"
+    },
+    "https://republicains.fr/categories/actualites/education-et-recherche/": {
+      "first_seen_at": "2026-08-11T06:53:57+00:00",
+      "lastmod": "2026-07-09T10:27:53+00:00",
+      "owner": "Bruno Retailleau"
+    },
+    "https://republicains.fr/categories/actualites/europe/": {
+      "first_seen_at": "2026-08-11T06:53:57+00:00",
+      "lastmod": "2026-06-24T11:58:04+00:00",
+      "owner": "Bruno Retailleau"
+    },
+    "https://republicains.fr/categories/actualites/fiscalite_depense_publique/": {
+      "first_seen_at": "2026-08-11T06:53:57+00:00",
+      "lastmod": "2026-01-20T11:04:26+00:00",
+      "owner": "Bruno Retailleau"
+    },
+    "https://republicains.fr/categories/actualites/immigration/": {
+      "first_seen_at": "2026-08-11T06:53:57+00:00",
+      "lastmod": "2026-08-05T00:32:58+00:00",
+      "owner": "Bruno Retailleau"
+    },
+    "https://republicains.fr/categories/actualites/sante_solidarite/": {
+      "first_seen_at": "2026-08-11T06:53:57+00:00",
+      "lastmod": "2025-10-27T21:40:13+00:00",
+      "owner": "Bruno Retailleau"
+    },
+    "https://republicains.fr/categories/actualites/securite/": {
+      "first_seen_at": "2026-08-11T06:53:57+00:00",
+      "lastmod": "2025-10-27T21:42:16+00:00",
+      "owner": "Bruno Retailleau"
+    },
+    "https://republicains.fr/categories/actualites/travail_emploi/": {
+      "first_seen_at": "2026-08-11T06:53:57+00:00",
+      "lastmod": "2026-05-04T14:18:47+00:00",
+      "owner": "Bruno Retailleau"
+    },
+    "https://republicains.fr/categories/videos-a-la-une/discours/": {
+      "first_seen_at": "2026-08-11T06:53:57+00:00",
+      "lastmod": "2026-06-23T13:22:00+00:00",
+      "owner": "Bruno Retailleau"
+    },
+    "https://republicains.fr/le-mot-du-president/": {
+      "first_seen_at": "2026-08-11T06:53:57+00:00",
+      "lastmod": "2025-11-27T13:53:35+00:00",
+      "owner": "Bruno Retailleau"
+    },
+    "https://republicains.fr/nos-propositions/": {
+      "first_seen_at": "2026-08-11T06:53:57+00:00",
+      "lastmod": "2026-07-08T00:17:47+00:00",
+      "owner": "Bruno Retailleau"
+    },
+    "https://upr.fr/analyses/la-justice-laisse-habilement-a-marine-le-pen-le-choix-detre-candidate-en-2027": {
+      "first_seen_at": "2026-08-11T06:54:53+00:00",
+      "owner": "Union populaire républicaine",
+      "published_at": "Tue, 07 Jul 2026 16:04:00 GMT"
+    },
+    "https://upr.fr/analyses/pantalonnade-de-barbut-le-faux-dilemme-des-europeistes": {
+      "first_seen_at": "2026-08-11T06:54:53+00:00",
+      "owner": "Union populaire républicaine",
+      "published_at": "Thu, 23 Jul 2026 01:00:00 GMT"
+    },
+    "https://upr.fr/medias/francois-asselineau-en-2027-je-serai-le-seul-candidat-a-la-presidence-de-la-republique-francaise": {
+      "first_seen_at": "2026-08-11T06:54:53+00:00",
+      "owner": "Union populaire républicaine",
+      "published_at": "Tue, 07 Jul 2026 16:31:08 GMT"
+    },
+    "https://www.debout-la-france.fr/actualite/2027-comment-sauver-la-france-%c2%b7-cnews-03-05-2026/": {
+      "first_seen_at": "2026-08-11T06:54:20+00:00",
+      "lastmod": "2026-05-07T06:12:00+00:00",
+      "owner": "Debout la France"
+    },
+    "https://www.debout-la-france.fr/actualite/2027-derniere-chance-pour-la-france-%c2%b7-tv-libertes-27-05-26/": {
+      "first_seen_at": "2026-08-11T06:54:20+00:00",
+      "lastmod": "2026-05-28T08:51:35+00:00",
+      "owner": "Debout la France"
+    },
+    "https://www.debout-la-france.fr/actualite/2027-eviter-le-crash-%c2%b7-front-populaire-29-04-26/": {
+      "first_seen_at": "2026-08-11T06:54:20+00:00",
+      "lastmod": "2026-04-30T08:51:48+00:00",
+      "owner": "Debout la France"
+    },
+    "https://www.debout-la-france.fr/actualite/2027-je-supplie-florian-philippot-et-francois-asselineau-de-me-rejoindre-%c2%b7-tocsin-16-05-25/": {
+      "first_seen_at": "2026-08-11T06:54:20+00:00",
+      "lastmod": "2025-05-22T07:40:24+00:00",
+      "owner": "Debout la France"
+    },
+    "https://www.debout-la-france.fr/actualite/2027-laissons-enfin-choisir-les-francais-%c2%b7-bfmtv-02-06-26/": {
+      "first_seen_at": "2026-08-11T06:54:20+00:00",
+      "lastmod": "2026-06-04T07:39:01+00:00",
+      "owner": "Debout la France"
+    },
+    "https://www.debout-la-france.fr/actualite/2027-tout-est-possible-%c2%b7-cnews-03-07-2026/": {
+      "first_seen_at": "2026-08-11T06:54:20+00:00",
+      "lastmod": "2026-07-03T15:16:00+00:00",
+      "owner": "Debout la France"
+    },
+    "https://www.debout-la-france.fr/actualite/bayrou-a-menti-sur-les-retraites-il-faut-le-censurer-%c2%b7-lci-21-03-25/": {
+      "first_seen_at": "2026-08-11T06:54:20+00:00",
+      "lastmod": "2025-03-21T10:48:19+00:00",
+      "owner": "Debout la France"
+    },
+    "https://www.debout-la-france.fr/actualite/budget-limposture-de-trop-la-destitution-au-plus-tot/": {
+      "first_seen_at": "2026-08-11T06:54:20+00:00",
+      "lastmod": "2025-11-24T12:55:13+00:00",
+      "owner": "Debout la France"
+    },
+    "https://www.debout-la-france.fr/actualite/communique-corse-lengrenage-dune-france-fragmentee/": {
+      "first_seen_at": "2026-08-11T06:54:20+00:00",
+      "lastmod": "2026-06-26T12:54:20+00:00",
+      "owner": "Debout la France"
+    },
+    "https://www.debout-la-france.fr/actualite/communique-de-presse-%c2%b7-la-proportionnelle-le-piege-du-systeme-pour-priver-la-france-dalternative-politique/": {
+      "first_seen_at": "2026-08-11T06:54:20+00:00",
+      "lastmod": "2025-04-30T14:01:50+00:00",
+      "owner": "Debout la France"
+    },
+    "https://www.debout-la-france.fr/actualite/communique-de-presse-de-debout-la-france-nord-lextreme-gauche-gacha-la-fete/": {
+      "first_seen_at": "2026-08-11T06:54:20+00:00",
+      "lastmod": "2025-06-12T08:08:05+00:00",
+      "owner": "Debout la France"
+    },
+    "https://www.debout-la-france.fr/actualite/communique-de-presse-de-la-federation-du-nord-suppression-de-postes-a-arcelormittal/": {
+      "first_seen_at": "2026-08-11T06:54:20+00:00",
+      "lastmod": "2025-05-08T16:43:54+00:00",
+      "owner": "Debout la France"
+    },
+    "https://www.debout-la-france.fr/actualite/communique-de-presse-labandon-de-la-prison-de-rodez/": {
+      "first_seen_at": "2026-08-11T06:54:20+00:00",
+      "lastmod": "2025-04-30T14:02:25+00:00",
+      "owner": "Debout la France"
+    },
+    "https://www.debout-la-france.fr/actualite/communique-envoyer-nos-soldats-en-ukraine-et-la-france-alors/": {
+      "first_seen_at": "2026-08-11T06:54:20+00:00",
+      "lastmod": "2025-09-04T16:51:27+00:00",
+      "owner": "Debout la France"
+    },
+    "https://www.debout-la-france.fr/actualite/communique-la-protection-de-nos-enfants-se-joue-sur-le-terrain/": {
+      "first_seen_at": "2026-08-11T06:54:20+00:00",
+      "lastmod": "2026-07-22T10:58:48+00:00",
+      "owner": "Debout la France"
+    },
+    "https://www.debout-la-france.fr/actualite/communique-non-a-une-societe-de-lelimination-silencieuse/": {
+      "first_seen_at": "2026-08-11T06:54:20+00:00",
+      "lastmod": "2025-06-05T08:15:04+00:00",
+      "owner": "Debout la France"
+    },
+    "https://www.debout-la-france.fr/actualite/cpf-et-permis-de-conduire-une-nouvelle-regression-sociale-programmee/": {
+      "first_seen_at": "2026-08-11T06:54:20+00:00",
+      "lastmod": "2026-02-04T16:36:13+00:00",
+      "owner": "Debout la France"
+    },
+    "https://www.debout-la-france.fr/actualite/debout-la-france-en-musique-le-projet-original-de-notre-adherent-joel-houzelot/": {
+      "first_seen_at": "2026-08-11T06:54:20+00:00",
+      "lastmod": "2025-12-02T17:09:16+00:00",
+      "owner": "Debout la France"
+    },
+    "https://www.debout-la-france.fr/actualite/debout-la-france-est-fier-de-vous-presenter-ses-107-candidats-aux-elections-legislatives-2024/": {
+      "first_seen_at": "2026-08-11T06:54:20+00:00",
+      "lastmod": "2024-07-03T09:09:57+00:00",
+      "owner": "Debout la France"
+    },
+    "https://www.debout-la-france.fr/actualite/decouvrez-notre-programme-intelligence-artificielle/": {
+      "first_seen_at": "2026-08-11T06:54:20+00:00",
+      "lastmod": "2025-06-18T13:07:25+00:00",
+      "owner": "Debout la France"
+    },
+    "https://www.debout-la-france.fr/actualite/defense-europeenne-stop-a-lhypocrisie/": {
+      "first_seen_at": "2026-08-11T06:54:20+00:00",
+      "lastmod": "2024-06-12T09:32:04+00:00",
+      "owner": "Debout la France"
+    },
+    "https://www.debout-la-france.fr/actualite/demographie-projet-de-conge-de-naissance-mieux-indemnise-oui-mais/": {
+      "first_seen_at": "2026-08-11T06:54:20+00:00",
+      "lastmod": "2024-05-24T07:43:22+00:00",
+      "owner": "Debout la France"
+    },
+    "https://www.debout-la-france.fr/actualite/derriere-les-discours-labandon-le-handicap-sacrifie/": {
+      "first_seen_at": "2026-08-11T06:54:20+00:00",
+      "lastmod": "2025-07-30T22:53:42+00:00",
+      "owner": "Debout la France"
+    },
+    "https://www.debout-la-france.fr/actualite/des-millions-demplois-perdus-%c2%b7-tf1-29-07-25/": {
+      "first_seen_at": "2026-08-11T06:54:20+00:00",
+      "lastmod": "2025-07-30T22:54:24+00:00",
+      "owner": "Debout la France"
+    },
+    "https://www.debout-la-france.fr/actualite/deux-poids-deux-mesures-dans-la-formation-ministres-choyes-citoyens-penalises/": {
+      "first_seen_at": "2026-08-11T06:54:20+00:00",
+      "lastmod": "2025-03-27T09:53:54+00:00",
+      "owner": "Debout la France"
+    },
+    "https://www.debout-la-france.fr/actualite/economie-securite-emmanuel-macron-le-traitre-a-la-nation/": {
+      "first_seen_at": "2026-08-11T06:54:20+00:00",
+      "lastmod": "2024-05-23T09:51:39+00:00",
+      "owner": "Debout la France"
+    },
+    "https://www.debout-la-france.fr/actualite/elections-consulaires-votez-pour-une-droite-unie/": {
+      "first_seen_at": "2026-08-11T06:54:20+00:00",
+      "lastmod": "2026-05-28T08:55:37+00:00",
+      "owner": "Debout la France"
+    },
+    "https://www.debout-la-france.fr/actualite/elections-des-chambres-dagriculture-2025/": {
+      "first_seen_at": "2026-08-11T06:54:20+00:00",
+      "lastmod": "2025-01-24T10:27:45+00:00",
+      "owner": "Debout la France"
+    },
+    "https://www.debout-la-france.fr/actualite/eloge-de-la-liberte-2027-la-liberte-ou-la-mort-nicolas-dupont-aignan-le-loup-et-le-chien-jean-de-la-fontaine/": {
+      "first_seen_at": "2026-08-11T06:54:20+00:00",
+      "lastmod": "2026-05-21T14:12:28+00:00",
+      "owner": "Debout la France"
+    },
+    "https://www.debout-la-france.fr/actualite/en-2027-les-francais-devront-decider-sils-veulent-etre-libres-ou-rester-esclaves-%c2%b7-lci-20-04-25/": {
+      "first_seen_at": "2026-08-11T06:54:20+00:00",
+      "lastmod": "2025-04-24T09:12:37+00:00",
+      "owner": "Debout la France"
+    },
+    "https://www.debout-la-france.fr/actualite/en-2027-reprenons-notre-liberte-pour-resoudre-nos-problemes-%c2%b7-tf1-24-04-26/": {
+      "first_seen_at": "2026-08-11T06:54:20+00:00",
+      "lastmod": "2026-04-28T08:31:56+00:00",
+      "owner": "Debout la France"
+    },
+    "https://www.debout-la-france.fr/actualite/ensemble-reinventons-leducation-soutenons-linstruction-en-famille-pour-une-education-de-qualite/": {
+      "first_seen_at": "2026-08-11T06:54:20+00:00",
+      "lastmod": "2024-07-24T12:00:54+00:00",
+      "owner": "Debout la France"
+    },
+    "https://www.debout-la-france.fr/actualite/europeennes-il-faut-envoyer-a-e-macron-la-claque-quil-merite-%c2%b7-france-info-28-05-24/": {
+      "first_seen_at": "2026-08-11T06:54:20+00:00",
+      "lastmod": "2024-05-30T09:45:31+00:00",
+      "owner": "Debout la France"
+    },
+    "https://www.debout-la-france.fr/actualite/hydroelectricite-et-souverainete-la-france-ne-peut-deleguer-sa-securite-nucleaire/": {
+      "first_seen_at": "2026-08-11T06:54:20+00:00",
+      "lastmod": "2026-04-28T08:46:55+00:00",
+      "owner": "Debout la France"
+    },
+    "https://www.debout-la-france.fr/actualite/il-faut-dissoudre-lunion-europeenne-%c2%b7-rtl-09-06-25/": {
+      "first_seen_at": "2026-08-11T06:54:20+00:00",
+      "lastmod": "2025-06-12T08:06:21+00:00",
+      "owner": "Debout la France"
+    },
+    "https://www.debout-la-france.fr/actualite/il-faut-une-sortie-organisee-de-lunion-europeenne-%c2%b7-cnews-15-01-25/": {
+      "first_seen_at": "2026-08-11T06:54:20+00:00",
+      "lastmod": "2026-01-15T11:22:58+00:00",
+      "owner": "Debout la France"
+    },
+    "https://www.debout-la-france.fr/actualite/il-y-a-un-coup-detat-europeen-avec-la-complicite-dune-classe-politique-minoritaire-%c2%b7-cnews-12-10-25/": {
+      "first_seen_at": "2026-08-11T06:54:20+00:00",
+      "lastmod": "2025-10-12T13:12:26+00:00",
+      "owner": "Debout la France"
+    },
+    "https://www.debout-la-france.fr/actualite/impossible-de-resoudre-limmigration-et-linsecurite-sans-frontieres-%c2%b7-europe-1-24-01-25/": {
+      "first_seen_at": "2026-08-11T06:54:20+00:00",
+      "lastmod": "2025-01-24T17:15:17+00:00",
+      "owner": "Debout la France"
+    },
+    "https://www.debout-la-france.fr/actualite/instruction-publique-versus-education-nationale/": {
+      "first_seen_at": "2026-08-11T06:54:20+00:00",
+      "lastmod": "2024-05-23T09:31:21+00:00",
+      "owner": "Debout la France"
+    },
+    "https://www.debout-la-france.fr/actualite/insupportable-les-deputes-europeens-ont-vote-la-fin-du-permis-de-conduire-a-vie/": {
+      "first_seen_at": "2026-08-11T06:54:20+00:00",
+      "lastmod": "2025-10-25T09:03:35+00:00",
+      "owner": "Debout la France"
+    },
+    "https://www.debout-la-france.fr/actualite/je-serai-le-seul-candidat-en-2027-qui-veut-en-finir-avec-lunion-europeenne-%c2%b7-frontieres14-03-25/": {
+      "first_seen_at": "2026-08-11T06:54:20+00:00",
+      "lastmod": "2025-03-20T10:10:15+00:00",
+      "owner": "Debout la France"
+    },
+    "https://www.debout-la-france.fr/actualite/je-suis-candidat-pour-defendre-la-sortie-de-lunion-europeenne-%c2%b7-lci-31-03-26/": {
+      "first_seen_at": "2026-08-11T06:54:20+00:00",
+      "lastmod": "2026-04-28T08:49:03+00:00",
+      "owner": "Debout la France"
+    },
+    "https://www.debout-la-france.fr/actualite/je-suis-candidat-pour/": {
+      "first_seen_at": "2026-08-11T06:54:20+00:00",
+      "lastmod": "2025-09-26T09:51:46+00:00",
+      "owner": "Debout la France"
+    },
+    "https://www.debout-la-france.fr/actualite/je-suis-en-candidat-en-2027-pour-defendre-la-sortie-de-lunion-europeenne-france-info-tv-23-01-26/": {
+      "first_seen_at": "2026-08-11T06:54:20+00:00",
+      "lastmod": "2026-01-29T11:52:13+00:00",
+      "owner": "Debout la France"
+    },
+    "https://www.debout-la-france.fr/actualite/la-video-qui-resume-en-2-minutes-le-meeting-du-8-mars/": {
+      "first_seen_at": "2026-08-11T06:54:20+00:00",
+      "lastmod": "2025-03-13T14:08:05+00:00",
+      "owner": "Debout la France"
+    },
+    "https://www.debout-la-france.fr/actualite/le-projet-de-loi-sur-la-fin-de-vie-un-risque-majeur-de-derive-anthropologique/": {
+      "first_seen_at": "2026-08-11T06:54:20+00:00",
+      "lastmod": "2026-01-09T11:23:38+00:00",
+      "owner": "Debout la France"
+    },
+    "https://www.debout-la-france.fr/actualite/le-sport-des-lenfance-un-choix-politique-pour-la-sante-mentale-et-la-cohesion-sociale/": {
+      "first_seen_at": "2026-08-11T06:54:20+00:00",
+      "lastmod": "2026-02-17T17:16:28+00:00",
+      "owner": "Debout la France"
+    },
+    "https://www.debout-la-france.fr/actualite/leconomie-francaise-en-peril-la-pression-de-leuro-fort-de-la-dette-croissante-et-des-choix-politiques-necessaires/": {
+      "first_seen_at": "2026-08-11T06:54:20+00:00",
+      "lastmod": "2025-05-22T07:43:40+00:00",
+      "owner": "Debout la France"
+    },
+    "https://www.debout-la-france.fr/actualite/les-20-millions-dabstentionnistes-ont-entre-leurs-mains-la-presidentielle-%c2%b7-tv-libertes-25-04-26/": {
+      "first_seen_at": "2026-08-11T06:54:20+00:00",
+      "lastmod": "2026-04-30T08:57:23+00:00",
+      "owner": "Debout la France"
+    },
+    "https://www.debout-la-france.fr/actualite/lunion-europeenne-cest-le-4eme-reich-%c2%b7-valeurs-actuelles-07-06-26/": {
+      "first_seen_at": "2026-08-11T06:54:20+00:00",
+      "lastmod": "2026-06-11T07:43:11+00:00",
+      "owner": "Debout la France"
+    },
+    "https://www.debout-la-france.fr/actualite/lurgence-debrancher-macron-et-quitter-lunion-europeenne-%c2%b7-cnews-02-12-25/": {
+      "first_seen_at": "2026-08-11T06:54:20+00:00",
+      "lastmod": "2025-12-02T14:19:39+00:00",
+      "owner": "Debout la France"
+    },
+    "https://www.debout-la-france.fr/actualite/ma-proposition-choc-pour-retrouver-la-liberte-des-medias-%c2%b7-tpmp-04-03-25/": {
+      "first_seen_at": "2026-08-11T06:54:20+00:00",
+      "lastmod": "2025-03-06T10:09:09+00:00",
+      "owner": "Debout la France"
+    },
+    "https://www.debout-la-france.fr/actualite/macron-doit-demissionner-il-faut-une-presidentielle-anticipee-avant-lete-%c2%b7-cnews-17-01-25/": {
+      "first_seen_at": "2026-08-11T06:54:20+00:00",
+      "lastmod": "2025-01-17T09:45:30+00:00",
+      "owner": "Debout la France"
+    },
+    "https://www.debout-la-france.fr/actualite/made-in-france-10-mesures-chocs-afin-de-creer-ou-relocaliser-1-million-demplois-en-cinq-ans/": {
+      "first_seen_at": "2026-08-11T06:54:20+00:00",
+      "lastmod": "2024-11-13T18:39:59+00:00",
+      "owner": "Debout la France"
+    },
+    "https://www.debout-la-france.fr/actualite/meeting-integral-%c2%b7-conseil-national-extraordinaire-de-debout-la-france/": {
+      "first_seen_at": "2026-08-11T06:54:20+00:00",
+      "lastmod": "2026-04-28T08:46:35+00:00",
+      "owner": "Debout la France"
+    },
+    "https://www.debout-la-france.fr/actualite/michel-barnier-incarne-la-soumission-totale-a-lunion-europeenne-%c2%b7-cnews-06-09-24/": {
+      "first_seen_at": "2026-08-11T06:54:20+00:00",
+      "lastmod": "2024-09-09T17:37:59+00:00",
+      "owner": "Debout la France"
+    },
+    "https://www.debout-la-france.fr/actualite/motion-de-censure-projet-de-discours-de-nicolas-dupont-aignan/": {
+      "first_seen_at": "2026-08-11T06:54:20+00:00",
+      "lastmod": "2024-06-07T09:57:51+00:00",
+      "owner": "Debout la France"
+    },
+    "https://www.debout-la-france.fr/actualite/munich-commercial-la-france-doit-remplacer-lunion-europeenne-ou-la-quitter/": {
+      "first_seen_at": "2026-08-11T06:54:20+00:00",
+      "lastmod": "2025-07-30T22:54:22+00:00",
+      "owner": "Debout la France"
+    },
+    "https://www.debout-la-france.fr/actualite/nicolas-dupont-aignan-face-a-cyril-hanouna-%c2%b7-europe-1-18-06-24/": {
+      "first_seen_at": "2026-08-11T06:54:20+00:00",
+      "lastmod": "2024-06-20T16:14:27+00:00",
+      "owner": "Debout la France"
+    },
+    "https://www.debout-la-france.fr/actualite/non-a-lobligation-vaccinale-prevue-a-larticle-20-de-la-loi-de-finance-2026-de-la-securite-sociale/": {
+      "first_seen_at": "2026-08-11T06:54:20+00:00",
+      "lastmod": "2025-10-31T12:33:48+00:00",
+      "owner": "Debout la France"
+    },
+    "https://www.debout-la-france.fr/actualite/obligation-vaccin-grippe-ou-comment-tuer-notre-systeme-de-sante/": {
+      "first_seen_at": "2026-08-11T06:54:20+00:00",
+      "lastmod": "2025-11-25T15:26:49+00:00",
+      "owner": "Debout la France"
+    },
+    "https://www.debout-la-france.fr/actualite/paix-en-ukraine-leurope-court-circuitee/": {
+      "first_seen_at": "2026-08-11T06:54:20+00:00",
+      "lastmod": "2025-02-14T10:01:08+00:00",
+      "owner": "Debout la France"
+    },
+    "https://www.debout-la-france.fr/actualite/presidentielle-2027-15-pour-nicolas-dupont-aignan/": {
+      "first_seen_at": "2026-08-11T06:54:20+00:00",
+      "lastmod": "2024-12-12T16:52:03+00:00",
+      "owner": "Debout la France"
+    },
+    "https://www.debout-la-france.fr/actualite/presidentielle-2027-il-faut-une-candidature-independantiste-jirai-%c2%b7-boulevard-voltaire-08-03-25/": {
+      "first_seen_at": "2026-08-11T06:54:20+00:00",
+      "lastmod": "2025-03-12T09:34:11+00:00",
+      "owner": "Debout la France"
+    },
+    "https://www.debout-la-france.fr/actualite/presidentielle-2027-jusqua-45-dintentions-de-vote-pour-nicolas-dupont-aignan/": {
+      "first_seen_at": "2026-08-11T06:54:20+00:00",
+      "lastmod": "2025-10-08T17:17:10+00:00",
+      "owner": "Debout la France"
+    },
+    "https://www.debout-la-france.fr/actualite/projet-daccord-de-bougival-lunite-de-la-france-est-elle-negociable/": {
+      "first_seen_at": "2026-08-11T06:54:20+00:00",
+      "lastmod": "2026-02-06T11:41:40+00:00",
+      "owner": "Debout la France"
+    },
+    "https://www.debout-la-france.fr/actualite/securite-chantier-prioritaire-pour-le-gouvernement-barnier-vraiment/": {
+      "first_seen_at": "2026-08-11T06:54:20+00:00",
+      "lastmod": "2024-10-25T16:02:13+00:00",
+      "owner": "Debout la France"
+    },
+    "https://www.debout-la-france.fr/actualite/semaine-europeenne-pour-lemploi-des-personnes-handicapees-seeph/": {
+      "first_seen_at": "2026-08-11T06:54:20+00:00",
+      "lastmod": "2025-11-22T16:45:35+00:00",
+      "owner": "Debout la France"
+    },
+    "https://www.debout-la-france.fr/actualite/service-militaire-a-quand-des-mesures-serieuses-et-realistes/": {
+      "first_seen_at": "2026-08-11T06:54:20+00:00",
+      "lastmod": "2025-11-28T14:27:52+00:00",
+      "owner": "Debout la France"
+    },
+    "https://www.debout-la-france.fr/actualite/souverainete-liberte-paix-decryptons-ensemble-les-enjeux-cruciaux-de-2027-radio-courtoisie-17-08-25/": {
+      "first_seen_at": "2026-08-11T06:54:20+00:00",
+      "lastmod": "2025-08-20T19:10:23+00:00",
+      "owner": "Debout la France"
+    },
+    "https://www.debout-la-france.fr/actualite/souverainete-monetaire-union-monetaire-et-democratie-leurope-face-au-risque-systemique/": {
+      "first_seen_at": "2026-08-11T06:54:20+00:00",
+      "lastmod": "2026-01-15T09:46:56+00:00",
+      "owner": "Debout la France"
+    },
+    "https://www.debout-la-france.fr/actualite/souverainete-numerique-francaise-soumission-endemique-europeenne/": {
+      "first_seen_at": "2026-08-11T06:54:20+00:00",
+      "lastmod": "2025-09-08T16:33:33+00:00",
+      "owner": "Debout la France"
+    },
+    "https://www.debout-la-france.fr/actualite/suivez-toute-lactualite-de-la-presidentielle-sur-le-site-de-nicolas-dupont-aignan/": {
+      "first_seen_at": "2026-08-11T06:54:20+00:00",
+      "lastmod": "2026-07-29T14:37:59+00:00",
+      "owner": "Debout la France"
+    },
+    "https://www.debout-la-france.fr/actualite/trolleybus-de-nancy-communique-de-presse-de-debout-la-france-54/": {
+      "first_seen_at": "2026-08-11T06:54:20+00:00",
+      "lastmod": "2025-04-10T09:31:53+00:00",
+      "owner": "Debout la France"
+    },
+    "https://www.debout-la-france.fr/actualite/un-modele-agricole-malade-des-politiques-europeennes/": {
+      "first_seen_at": "2026-08-11T06:54:20+00:00",
+      "lastmod": "2025-08-01T08:40:58+00:00",
+      "owner": "Debout la France"
+    },
+    "https://www.debout-la-france.fr/actualite/une-nouvelle-strategie-de-securite-nationale-americaine-ou-labandon-dun-hegemon-devenu-trop-lourd-en-evitant-lemergence-dun-autre-hegemon/": {
+      "first_seen_at": "2026-08-11T06:54:20+00:00",
+      "lastmod": "2025-12-18T10:38:12+00:00",
+      "owner": "Debout la France"
+    },
+    "https://www.debout-la-france.fr/actualite/union-europeenne-cest-un-monstre-qui-est-en-train-de-se-creer-%c2%b7-boulevard-voltaire-02-05-26/": {
+      "first_seen_at": "2026-08-11T06:54:20+00:00",
+      "lastmod": "2026-05-07T06:18:38+00:00",
+      "owner": "Debout la France"
+    },
+    "https://www.debout-la-france.fr/actualite/union-europeenne-des-lobbies-contre-lenvironnement/": {
+      "first_seen_at": "2026-08-11T06:54:20+00:00",
+      "lastmod": "2025-06-05T08:15:57+00:00",
+      "owner": "Debout la France"
+    },
+    "https://www.debout-la-france.fr/actualite/vaccins-arnm-anti-covid-%c2%b7-scandale-aux-etats-unis-kennedy-ministre-de-la-sante-fait-le-menage/": {
+      "first_seen_at": "2026-08-11T06:54:20+00:00",
+      "lastmod": "2025-06-18T13:06:27+00:00",
+      "owner": "Debout la France"
+    },
+    "https://www.debout-la-france.fr/actualite/zfe-dpe-eoliennescomment-en-finir-avec-cette-ecologie-punitive/": {
+      "first_seen_at": "2026-08-11T06:54:20+00:00",
+      "lastmod": "2025-06-25T17:55:47+00:00",
+      "owner": "Debout la France"
+    },
+    "https://www.generationecologie.fr/2025/05/13/a69-etat-droit-ecologie-victimes-manoeuvres-parlementaires/": {
+      "first_seen_at": "2026-08-11T06:54:36+00:00",
+      "owner": "Génération Écologie",
+      "published_at": "Tue, 13 May 2025 12:16:53 +0000"
+    },
+    "https://www.generationecologie.fr/2026/07/21/festival-off-davignon-delphine-batho-invitee-des-rencontres-publiques/": {
+      "first_seen_at": "2026-08-11T06:54:37+00:00",
+      "owner": "Génération Écologie",
+      "published_at": "Tue, 21 Jul 2026 16:32:30 +0000"
+    },
+    "https://www.generationecologie.fr/2026/07/21/loi-duplomb-2-on-sen-souviendra-en-2027/": {
+      "first_seen_at": "2026-08-11T06:54:37+00:00",
+      "owner": "Génération Écologie",
+      "published_at": "Tue, 21 Jul 2026 16:52:47 +0000"
+    },
+    "https://www.generationecologie.fr/2026/07/22/hommage-aux-sapeurs-pompiers-tues-par-lincendie-de-merignac/": {
+      "first_seen_at": "2026-08-11T06:54:37+00:00",
+      "owner": "Génération Écologie",
+      "published_at": "Wed, 22 Jul 2026 10:23:47 +0000"
+    },
+    "https://www.generationecologie.fr/2026/07/24/il-y-a-dans-les-incendies-quelque-chose-qui-depasse-de-tres-loin-la-violence-des-flammes/": {
+      "first_seen_at": "2026-08-11T06:54:37+00:00",
+      "owner": "Génération Écologie",
+      "published_at": "Fri, 24 Jul 2026 20:17:18 +0000"
+    },
+    "https://www.pcf.fr/0212_faisons_tomber_budget_austerite": {
+      "first_seen_at": "2026-08-11T06:54:33+00:00",
+      "lastmod": "2026-01-06T08:50:21Z",
+      "owner": "Parti communiste français"
+    },
+    "https://www.pcf.fr/40e_congres_discours_de_cloture_de_fabien_roussel": {
+      "first_seen_at": "2026-08-11T06:54:33+00:00",
+      "lastmod": "2026-07-08T13:50:50Z",
+      "owner": "Parti communiste français"
+    },
+    "https://www.pcf.fr/4_pages_emploi": {
+      "first_seen_at": "2026-08-11T06:54:33+00:00",
+      "lastmod": "2026-01-06T08:50:15Z",
+      "owner": "Parti communiste français"
+    },
+    "https://www.pcf.fr/7_juin_manifestation_sante": {
+      "first_seen_at": "2026-08-11T06:54:33+00:00",
+      "lastmod": "2026-01-06T08:50:15Z",
+      "owner": "Parti communiste français"
+    },
+    "https://www.pcf.fr/8_pages_programme": {
+      "first_seen_at": "2026-08-11T06:54:33+00:00",
+      "lastmod": "2026-01-06T08:50:15Z",
+      "owner": "Parti communiste français"
+    },
+    "https://www.pcf.fr/abrogation_reforme_retraites": {
+      "first_seen_at": "2026-08-11T06:54:33+00:00",
+      "lastmod": "2026-01-06T08:50:20Z",
+      "owner": "Parti communiste français"
+    },
+    "https://www.pcf.fr/actu_commission_sante_et_protection_sociale": {
+      "first_seen_at": "2026-08-11T06:54:33+00:00",
+      "lastmod": "2026-06-01T07:34:42Z",
+      "owner": "Parti communiste français"
+    },
+    "https://www.pcf.fr/actu_education": {
+      "first_seen_at": "2026-08-11T06:54:33+00:00",
+      "lastmod": "2026-06-11T08:20:01Z",
+      "owner": "Parti communiste français"
+    },
+    "https://www.pcf.fr/adoption_bc_resultats_communique": {
+      "first_seen_at": "2026-08-11T06:54:33+00:00",
+      "lastmod": "2026-06-07T17:34:38Z",
+      "owner": "Parti communiste français"
+    },
+    "https://www.pcf.fr/apprentissage_garantir_emploi_plutot_que_subventionner_patronat": {
+      "first_seen_at": "2026-08-11T06:54:33+00:00",
+      "lastmod": "2026-03-04T13:19:58Z",
+      "owner": "Parti communiste français"
+    },
+    "https://www.pcf.fr/bonne_retraite_possible_je_signe_pour_abrogation": {
+      "first_seen_at": "2026-08-11T06:54:33+00:00",
+      "lastmod": "2026-01-06T08:50:20Z",
+      "owner": "Parti communiste français"
+    },
+    "https://www.pcf.fr/bruxelles_stop_rearm_europe": {
+      "first_seen_at": "2026-08-11T06:54:33+00:00",
+      "lastmod": "2026-06-17T13:04:21Z",
+      "owner": "Parti communiste français"
+    },
+    "https://www.pcf.fr/budget_2026_communistes_mobilises": {
+      "first_seen_at": "2026-08-11T06:54:33+00:00",
+      "lastmod": "2026-01-06T08:50:21Z",
+      "owner": "Parti communiste français"
+    },
+    "https://www.pcf.fr/budget_2026_justice_fiscale": {
+      "first_seen_at": "2026-08-11T06:54:33+00:00",
+      "lastmod": "2026-01-06T08:50:21Z",
+      "owner": "Parti communiste français"
+    },
+    "https://www.pcf.fr/cahier_thematique_logement": {
+      "first_seen_at": "2026-08-11T06:54:33+00:00",
+      "lastmod": "2026-01-06T08:50:21Z",
+      "owner": "Parti communiste français"
+    },
+    "https://www.pcf.fr/candidats_pcf_front_populaire": {
+      "first_seen_at": "2026-08-11T06:54:33+00:00",
+      "lastmod": "2026-01-06T08:50:44Z",
+      "owner": "Parti communiste français"
+    },
+    "https://www.pcf.fr/defendre_notre_industrie_nos_emplois_notre_souverainete": {
+      "first_seen_at": "2026-08-11T06:54:33+00:00",
+      "lastmod": "2026-01-06T08:50:15Z",
+      "owner": "Parti communiste français"
+    },
+    "https://www.pcf.fr/defense_charte_onu_et_multilateralisme_au_coeur_debat_conseil_securite": {
+      "first_seen_at": "2026-08-11T06:54:33+00:00",
+      "lastmod": "2026-06-03T10:30:25Z",
+      "owner": "Parti communiste français"
+    },
+    "https://www.pcf.fr/des_mesures_concretes_contre_la_vie_chere": {
+      "first_seen_at": "2026-08-11T06:54:33+00:00",
+      "lastmod": "2026-01-06T08:50:15Z",
+      "owner": "Parti communiste français"
+    },
+    "https://www.pcf.fr/discours_de_fabien_roussel_fete_huma_31": {
+      "first_seen_at": "2026-08-11T06:54:33+00:00",
+      "lastmod": "2026-06-02T14:41:02Z",
+      "owner": "Parti communiste français"
+    },
+    "https://www.pcf.fr/droit_logement_digne_et_abordable": {
+      "first_seen_at": "2026-08-11T06:54:33+00:00",
+      "lastmod": "2026-01-06T08:50:19Z",
+      "owner": "Parti communiste français"
+    },
+    "https://www.pcf.fr/elections_europeennes_programme": {
+      "first_seen_at": "2026-08-11T06:54:33+00:00",
+      "lastmod": "2026-01-06T08:50:19Z",
+      "owner": "Parti communiste français"
+    },
+    "https://www.pcf.fr/elections_europeennes_reprenons_la_main": {
+      "first_seen_at": "2026-08-11T06:54:33+00:00",
+      "lastmod": "2026-01-06T08:50:19Z",
+      "owner": "Parti communiste français"
+    },
+    "https://www.pcf.fr/elections_legislatives_chypre_saluons_progres_akel": {
+      "first_seen_at": "2026-08-11T06:54:33+00:00",
+      "lastmod": "2026-05-27T11:59:12Z",
+      "owner": "Parti communiste français"
+    },
+    "https://www.pcf.fr/elections_municipales_une_semaine": {
+      "first_seen_at": "2026-08-11T06:54:33+00:00",
+      "lastmod": "2026-03-09T15:20:55Z",
+      "owner": "Parti communiste français"
+    },
+    "https://www.pcf.fr/elus_pcf_education": {
+      "first_seen_at": "2026-08-11T06:54:33+00:00",
+      "lastmod": "2026-01-06T08:50:39Z",
+      "owner": "Parti communiste français"
+    },
+    "https://www.pcf.fr/espace_la_france_sacrifiee_l_europe_divisee": {
+      "first_seen_at": "2026-08-11T06:54:33+00:00",
+      "lastmod": "2026-03-27T09:11:06Z",
+      "owner": "Parti communiste français"
+    },
+    "https://www.pcf.fr/etudiants_etrangers_impasse_selection_par_argent": {
+      "first_seen_at": "2026-08-11T06:54:33+00:00",
+      "lastmod": "2026-05-20T12:19:11Z",
+      "owner": "Parti communiste français"
+    },
+    "https://www.pcf.fr/fiscalisation_rentes_grandes_entreprises_defense": {
+      "first_seen_at": "2026-08-11T06:54:33+00:00",
+      "lastmod": "2026-01-07T12:14:03Z",
+      "owner": "Parti communiste français"
+    },
+    "https://www.pcf.fr/france_europe_grands_travaux_utiles": {
+      "first_seen_at": "2026-08-11T06:54:33+00:00",
+      "lastmod": "2026-01-06T08:50:19Z",
+      "owner": "Parti communiste français"
+    },
+    "https://www.pcf.fr/garantissons_la_transparence_et_la_securite_energetique": {
+      "first_seen_at": "2026-08-11T06:54:33+00:00",
+      "lastmod": "2026-01-15T09:21:48Z",
+      "owner": "Parti communiste français"
+    },
+    "https://www.pcf.fr/greeney_ecologie_populaire": {
+      "first_seen_at": "2026-08-11T06:54:33+00:00",
+      "lastmod": "2026-01-16T15:26:54Z",
+      "owner": "Parti communiste français"
+    },
+    "https://www.pcf.fr/gumt_presentation_liste_europeennes": {
+      "first_seen_at": "2026-08-11T06:54:33+00:00",
+      "lastmod": "2026-01-06T08:50:19Z",
+      "owner": "Parti communiste français"
+    },
+    "https://www.pcf.fr/handicap_nos_propositions_pour_egalite_reelle": {
+      "first_seen_at": "2026-08-11T06:54:33+00:00",
+      "lastmod": "2026-01-06T08:50:20Z",
+      "owner": "Parti communiste français"
+    },
+    "https://www.pcf.fr/infos_retraites": {
+      "first_seen_at": "2026-08-11T06:54:33+00:00",
+      "lastmod": "2026-01-06T08:50:15Z",
+      "owner": "Parti communiste français"
+    },
+    "https://www.pcf.fr/legislatives_2024_candidats_pcf": {
+      "first_seen_at": "2026-08-11T06:54:33+00:00",
+      "lastmod": "2026-01-06T08:50:44Z",
+      "owner": "Parti communiste français"
+    },
+    "https://www.pcf.fr/logement": {
+      "first_seen_at": "2026-08-11T06:54:33+00:00",
+      "lastmod": "2026-01-06T08:50:45Z",
+      "owner": "Parti communiste français"
+    },
+    "https://www.pcf.fr/logement_31erapport_2026": {
+      "first_seen_at": "2026-08-11T06:54:33+00:00",
+      "lastmod": "2026-02-03T15:49:00Z",
+      "owner": "Parti communiste français"
+    },
+    "https://www.pcf.fr/logement_temps_agir": {
+      "first_seen_at": "2026-08-11T06:54:33+00:00",
+      "lastmod": "2026-01-06T08:50:20Z",
+      "owner": "Parti communiste français"
+    },
+    "https://www.pcf.fr/mitry_mory_l_enjeu_de_la_sante": {
+      "first_seen_at": "2026-08-11T06:54:33+00:00",
+      "lastmod": "2026-01-06T08:50:45Z",
+      "owner": "Parti communiste français"
+    },
+    "https://www.pcf.fr/municipales_2026_le_programme": {
+      "first_seen_at": "2026-08-11T06:54:33+00:00",
+      "lastmod": "2026-01-27T13:44:43Z",
+      "owner": "Parti communiste français"
+    },
+    "https://www.pcf.fr/municipales_2026_propositions_pour_l_egalite_reelle_des_personnes_handicapees_dans_toutes_les_communes_de_france": {
+      "first_seen_at": "2026-08-11T06:54:33+00:00",
+      "lastmod": "2026-01-06T15:37:29Z",
+      "owner": "Parti communiste français"
+    },
+    "https://www.pcf.fr/nos_14_propositions_pour_l_ecole": {
+      "first_seen_at": "2026-08-11T06:54:33+00:00",
+      "lastmod": "2026-01-06T08:50:15Z",
+      "owner": "Parti communiste français"
+    },
+    "https://www.pcf.fr/nos_propositions_pour_l_agriculture": {
+      "first_seen_at": "2026-08-11T06:54:33+00:00",
+      "lastmod": "2026-01-06T08:50:15Z",
+      "owner": "Parti communiste français"
+    },
+    "https://www.pcf.fr/nos_propositions_pour_l_alimentation": {
+      "first_seen_at": "2026-08-11T06:54:33+00:00",
+      "lastmod": "2026-01-06T08:50:15Z",
+      "owner": "Parti communiste français"
+    },
+    "https://www.pcf.fr/nos_propositions_pour_la_ruralite": {
+      "first_seen_at": "2026-08-11T06:54:33+00:00",
+      "lastmod": "2026-01-06T08:50:15Z",
+      "owner": "Parti communiste français"
+    },
+    "https://www.pcf.fr/nos_salaires_l_emploi_la_retraite_60_ans": {
+      "first_seen_at": "2026-08-11T06:54:33+00:00",
+      "lastmod": "2026-01-06T08:50:15Z",
+      "owner": "Parti communiste français"
+    },
+    "https://www.pcf.fr/nupes_le_programme_partage": {
+      "first_seen_at": "2026-08-11T06:54:33+00:00",
+      "lastmod": "2026-01-06T08:50:15Z",
+      "owner": "Parti communiste français"
+    },
+    "https://www.pcf.fr/offensive_contre_les_communistes_en_europe": {
+      "first_seen_at": "2026-08-11T06:54:33+00:00",
+      "lastmod": "2026-01-22T16:20:32Z",
+      "owner": "Parti communiste français"
+    },
+    "https://www.pcf.fr/originalite_de_notre_projet": {
+      "first_seen_at": "2026-08-11T06:54:33+00:00",
+      "lastmod": "2026-06-17T12:59:56Z",
+      "owner": "Parti communiste français"
+    },
+    "https://www.pcf.fr/parlement_mode_d_emploi_1_la_niche_parlementaire": {
+      "first_seen_at": "2026-08-11T06:54:33+00:00",
+      "lastmod": "2026-01-06T08:50:45Z",
+      "owner": "Parti communiste français"
+    },
+    "https://www.pcf.fr/parlement_mode_d_emploi_2_la_commission_d_enquete": {
+      "first_seen_at": "2026-08-11T06:54:33+00:00",
+      "lastmod": "2026-01-06T08:50:45Z",
+      "owner": "Parti communiste français"
+    },
+    "https://www.pcf.fr/petition_retraite": {
+      "first_seen_at": "2026-08-11T06:54:33+00:00",
+      "lastmod": "2026-01-06T08:50:39Z",
+      "owner": "Parti communiste français"
+    },
+    "https://www.pcf.fr/petition_securite_sociale": {
+      "first_seen_at": "2026-08-11T06:54:33+00:00",
+      "lastmod": "2026-01-06T08:50:39Z",
+      "owner": "Parti communiste français"
+    },
+    "https://www.pcf.fr/pour_nos_salaires_et_nos_emplois_le_18_octobre_mobilisons_nous": {
+      "first_seen_at": "2026-08-11T06:54:33+00:00",
+      "lastmod": "2026-01-06T08:50:15Z",
+      "owner": "Parti communiste français"
+    },
+    "https://www.pcf.fr/programme": {
+      "first_seen_at": "2026-08-11T06:54:33+00:00",
+      "lastmod": "2026-01-06T08:50:25Z",
+      "owner": "Parti communiste français"
+    },
+    "https://www.pcf.fr/programme_du_front_populaire": {
+      "first_seen_at": "2026-08-11T06:54:33+00:00",
+      "lastmod": "2026-01-06T08:50:43Z",
+      "owner": "Parti communiste français"
+    },
+    "https://www.pcf.fr/proposition_pour_un_contrat_de_legislature": {
+      "first_seen_at": "2026-08-11T06:54:33+00:00",
+      "lastmod": "2026-01-06T08:50:15Z",
+      "owner": "Parti communiste français"
+    },
+    "https://www.pcf.fr/quel_est_le_programme_du_pcf_aux_elections_municipales": {
+      "first_seen_at": "2026-08-11T06:54:33+00:00",
+      "lastmod": "2026-01-27T14:05:59Z",
+      "owner": "Parti communiste français"
+    },
+    "https://www.pcf.fr/qui_peut_voter_aux_elections_municipales": {
+      "first_seen_at": "2026-08-11T06:54:33+00:00",
+      "lastmod": "2026-01-06T08:50:44Z",
+      "owner": "Parti communiste français"
+    },
+    "https://www.pcf.fr/rencontre_president_reaction_pcf_groupes_crce_gdr": {
+      "first_seen_at": "2026-08-11T06:54:33+00:00",
+      "lastmod": "2026-01-06T08:50:20Z",
+      "owner": "Parti communiste français"
+    },
+    "https://www.pcf.fr/retraite_ensemble": {
+      "first_seen_at": "2026-08-11T06:54:33+00:00",
+      "lastmod": "2026-01-06T08:50:15Z",
+      "owner": "Parti communiste français"
+    },
+    "https://www.pcf.fr/retraites_2_8_millions_on_continue": {
+      "first_seen_at": "2026-08-11T06:54:33+00:00",
+      "lastmod": "2026-01-06T08:50:15Z",
+      "owner": "Parti communiste français"
+    },
+    "https://www.pcf.fr/retraites_2_millions_manifestants_retrait": {
+      "first_seen_at": "2026-08-11T06:54:33+00:00",
+      "lastmod": "2026-01-06T08:50:15Z",
+      "owner": "Parti communiste français"
+    },
+    "https://www.pcf.fr/retraites_6_juin_2023": {
+      "first_seen_at": "2026-08-11T06:54:33+00:00",
+      "lastmod": "2026-01-06T08:50:15Z",
+      "owner": "Parti communiste français"
+    },
+    "https://www.pcf.fr/retraites_le_combat_continue": {
+      "first_seen_at": "2026-08-11T06:54:33+00:00",
+      "lastmod": "2026-01-06T08:50:15Z",
+      "owner": "Parti communiste français"
+    },
+    "https://www.pcf.fr/retraites_le_peuple_doit_decider": {
+      "first_seen_at": "2026-08-11T06:54:33+00:00",
+      "lastmod": "2026-01-06T08:50:15Z",
+      "owner": "Parti communiste français"
+    },
+    "https://www.pcf.fr/retraites_mars_attaque": {
+      "first_seen_at": "2026-08-11T06:54:33+00:00",
+      "lastmod": "2026-01-06T08:50:15Z",
+      "owner": "Parti communiste français"
+    },
+    "https://www.pcf.fr/retraites_mobilises_pour_gagner": {
+      "first_seen_at": "2026-08-11T06:54:33+00:00",
+      "lastmod": "2026-01-06T08:50:15Z",
+      "owner": "Parti communiste français"
+    },
+    "https://www.pcf.fr/retraites_retrait_reforme_pas_negociable": {
+      "first_seen_at": "2026-08-11T06:54:33+00:00",
+      "lastmod": "2026-01-06T08:50:15Z",
+      "owner": "Parti communiste français"
+    },
+    "https://www.pcf.fr/salaires_emplois_retraites_ensemble_restons_mobilises_pour_gagner": {
+      "first_seen_at": "2026-08-11T06:54:33+00:00",
+      "lastmod": "2026-01-06T08:50:15Z",
+      "owner": "Parti communiste français"
+    },
+    "https://www.pcf.fr/services_publics_au_coeur_nouveau_projet_societe": {
+      "first_seen_at": "2026-08-11T06:54:33+00:00",
+      "lastmod": "2026-01-06T08:50:20Z",
+      "owner": "Parti communiste français"
+    },
+    "https://www.pcf.fr/signez_la_petition_pour_lemploi": {
+      "first_seen_at": "2026-08-11T06:54:33+00:00",
+      "lastmod": "2026-01-06T08:50:39Z",
+      "owner": "Parti communiste français"
+    },
+    "https://www.pcf.fr/soutien_meeting_libertes_syndicales": {
+      "first_seen_at": "2026-08-11T06:54:33+00:00",
+      "lastmod": "2026-02-04T19:01:34Z",
+      "owner": "Parti communiste français"
+    },
+    "https://www.pcf.fr/tract_les_retraites_ont_le_droit_aux_jours_heureux": {
+      "first_seen_at": "2026-08-11T06:54:33+00:00",
+      "lastmod": "2026-01-06T08:50:15Z",
+      "owner": "Parti communiste français"
+    },
+    "https://www.pcf.fr/un_emploi_pour_toutes_tous": {
+      "first_seen_at": "2026-08-11T06:54:33+00:00",
+      "lastmod": "2026-01-06T08:50:15Z",
+      "owner": "Parti communiste français"
+    },
+    "https://www.pcf.fr/une_bonne_retraite_necessaire": {
+      "first_seen_at": "2026-08-11T06:54:33+00:00",
+      "lastmod": "2026-01-06T08:50:15Z",
+      "owner": "Parti communiste français"
+    },
+    "https://www.pcf.fr/une_bonne_retraite_redir": {
+      "first_seen_at": "2026-08-11T06:54:33+00:00",
+      "lastmod": "2026-01-06T08:50:25Z",
+      "owner": "Parti communiste français"
+    },
+    "https://www.pcf.fr/unis_contre_le_chomage_et_la_pauvrete_pour_lemploi_la_dignite_et_legalite_republicaine": {
+      "first_seen_at": "2026-08-11T06:54:33+00:00",
+      "lastmod": "2026-01-06T08:50:39Z",
+      "owner": "Parti communiste français"
+    },
+    "https://www.pcf.fr/villerupt_securite_urbanisme_defis_ville_frontaliere": {
+      "first_seen_at": "2026-08-11T06:54:33+00:00",
+      "lastmod": "2026-01-06T08:50:44Z",
+      "owner": "Parti communiste français"
+    },
+    "https://www.revolutionpermanente.fr/Ce-canal-va-aggraver-la-secheresse-entretien-avec-un-militant-contre-le-canal-Seine-Nord-Europe": {
+      "first_seen_at": "2026-08-11T06:54:33+00:00",
+      "lastmod": "2026-07-16",
+      "owner": "Révolution Permanente"
+    },
+    "https://www.revolutionpermanente.fr/Ceuta-quand-la-gauche-espagnole-epouse-les-interets-de-son-imperialisme-et-de-l-Europe-forteresse": {
+      "first_seen_at": "2026-08-11T06:54:33+00:00",
+      "lastmod": "2026-08-04",
+      "owner": "Révolution Permanente"
+    },
+    "https://www.revolutionpermanente.fr/Declaration-Ceuta-contre-la-militarisation-les-refoulements-immediats-et-l-Europe-forteresse": {
+      "first_seen_at": "2026-08-11T06:54:33+00:00",
+      "lastmod": "2026-08-02",
+      "owner": "Révolution Permanente"
+    },
+    "https://www.revolutionpermanente.fr/La-CGT-Sante-Gironde-appelle-a-ouvrir-la-Bourse-du-travail-pour-les-sinistres-des-incendies": {
+      "first_seen_at": "2026-08-11T06:54:33+00:00",
+      "lastmod": "2026-07-29",
+      "owner": "Révolution Permanente"
+    },
+    "https://www.revolutionpermanente.fr/La-crise-a-Ceuta-et-Melilla-rappelle-qu-il-faut-mettre-fin-a-l-Europe-forteresse-Billet-d-Anasse": {
+      "first_seen_at": "2026-08-11T06:54:33+00:00",
+      "lastmod": "2026-08-05",
+      "owner": "Révolution Permanente"
+    },
+    "https://www.revolutionpermanente.fr/Marine-Tondelier-le-feminisme-bourgeois-s-invite-dans-les-presidentielles": {
+      "first_seen_at": "2026-08-11T06:54:33+00:00",
+      "lastmod": "2026-07-29",
+      "owner": "Révolution Permanente"
+    }
+  },
+  "sources": {
+    "https://generationecologie.fr/": {
+      "checked_at": "2026-08-11T06:53:05+00:00",
+      "content_type": "text/html; charset=UTF-8",
+      "etag": null,
+      "excerpt": "Génération Écologie - Le parti de la décroissance pour vivre autrement Aller au contenu Le parti de la décroissance pour vivre autrement À propos Notre raison d’être Qui sommes-nous ? Nos valeurs Notre projet Notre organisation L’équipe Le réseau des élues et élus Les groupes locaux Les commissions thématiques S’informer Nos positions Nos actualités Nos communiqués Nos résolutions politiques Nos ressources Nos podcasts Nos publications Nous suivre S'abonner à la newsletter Nos prochains évènements Agir avec nous Échanger Nous contacter S’engager Adhérer Faire un don Militer Matériel de campagne Action locale Newsletter “Je suis candidate à l’élection présidentielle pour reconstruire une écol",
+      "kind": "party_official",
+      "last_modified": null,
+      "owner": "Génération Écologie",
+      "resolved_url": "https://www.generationecologie.fr/",
+      "sha256": "2d644ff4c591dd2f65a34376b384b0285b7e4faeb83ff4276d129fc27f5f9d42",
+      "status": 200
+    },
+    "https://horizonsleparti.fr/": {
+      "checked_at": "2026-08-11T06:53:06+00:00",
+      "content_type": "text/html; charset=UTF-8",
+      "etag": null,
+      "excerpt": "Horizons Le parti - Édouard Philippe Le parti Les instances nationales Iéna Commission nationale d’investiture Les parlementaires L’Assemblée des maires Secrétaires nationaux Le pôle Idées Le pôle Jeunes Dans les territoires Les référents régionaux Les délégués départementaux Les comités et délégués municipaux Publications Le Manifeste Les Revues Les Notes Autres publications Actualités À la une L’agenda Les grands événements (ré)Adhérer Donner Boutique Rejoignez Horizons et Édouard Philippe ! Prénom * Nom * E-mail * RGPD * J'accepte la politique de confidentialité * CAPTCHA NOUS SUIVRE “Pour construire ensemble une France plus forte, plus libre, plus juste et plus durable” “Pour construire ",
+      "kind": "party_official",
+      "last_modified": null,
+      "owner": "Horizons",
+      "resolved_url": "https://horizonsleparti.fr/",
+      "sha256": "511d7ad90d43c41a85b399306305f91d1a5f92c84b26950e47a1f2bc1734c1f3",
+      "status": 200
+    },
+    "https://horizonsleparti.fr/evenement/grand-meeting-dedouard-philippe-a-ladidas-arena/": {
+      "checked_at": "2026-08-11T06:53:21+00:00",
+      "content_type": "text/html; charset=UTF-8",
+      "etag": null,
+      "excerpt": "Grand meeting d'Édouard Philippe à l'Adidas Arena - Horizons Le parti Le parti Les instances nationales Iéna Commission nationale d’investiture Les parlementaires L’Assemblée des maires Secrétaires nationaux Le pôle Idées Le pôle Jeunes Dans les territoires Les référents régionaux Les délégués départementaux Les comités et délégués municipaux Publications Le Manifeste Les Revues Les Notes Autres publications Actualités À la une L’agenda Les grands événements (ré)Adhérer Donner Boutique Adidas Arena – Paris 5 juillet 2026 Dimanche 5 juillet, Édouard Philippe a officiellement lancé sa campagne à l’Adidas Arena ! Plus de 5 200 sympathisants et militants se sont réunis pour le grand meeting d’Éd",
+      "kind": "candidate_official_evidence",
+      "last_modified": null,
+      "owner": "Édouard Philippe",
+      "resolved_url": "https://horizonsleparti.fr/evenement/grand-meeting-dedouard-philippe-a-ladidas-arena/",
+      "sha256": "90066915818c816c53380e0899f8c57aa746fca627c724d8e5ac870f26fd2411",
+      "status": 200
+    },
+    "https://lafranceinsoumise.fr/": {
+      "checked_at": "2026-08-11T06:53:07+00:00",
+      "content_type": "text/html; charset=UTF-8",
+      "etag": null,
+      "excerpt": "La France insoumise - Accueil - La France insoumise Aller au contenu Tous les sites Actus Toute l’actu Actualités du mouvement Actualités parlementaires Communiqués de presse L’Agenda national Agir Créer ou rejoindre un groupe d’action Créer ou rejoindre un événement Les Caravanes populaires Commander du matériel Faire un don Les fiches pratiques pour agir Rejoindre un groupe thématique Les ateliers des lois Le mouvement La France insoumise, comment ça marche ? Charte graphique de la France insoumise Les principes de la France insoumise Charte des groupes d’action de la France insoumise Achat et animation des QG insoumis Nos parlementaires Élections consulaires des 30–31 mai 2026 Les médias ",
+      "kind": "party_official",
+      "last_modified": null,
+      "owner": "La France insoumise",
+      "resolved_url": "https://lafranceinsoumise.fr/",
+      "sha256": "14210d4e7fc16152015ee5cfed55906c1c896d9af412c2f7cff00d6c5df671a0",
+      "status": 200
+    },
+    "https://lafranceinsoumise.fr/2026/06/22/parrainages-elus-pour-election-presidentielle-2027/": {
+      "checked_at": "2026-08-11T06:53:07+00:00",
+      "content_type": "text/html; charset=UTF-8",
+      "etag": null,
+      "excerpt": "Parrainages d'élu·es pour l'élection présidentielle 2027 - La France insoumise Aller au contenu Tous les sites Actus Toute l'actu Actualités du mouvement Actualités parlementaires Communiqués de presse L'Agenda national Agir Créer ou rejoindre un groupe d’action Créer ou rejoindre un événement Les Caravanes populaires Commander du matériel Faire un don Les fiches pratiques pour agir Rejoindre un groupe thématique Les ateliers des lois Le mouvement La France insoumise, comment ça marche ? Charte graphique de la France insoumise Les principes de la France insoumise Charte des groupes d’action de la France insoumise Achat et animation des QG insoumis Nos parlementaires Élections consulaires des",
+      "kind": "candidate_official_evidence",
+      "last_modified": null,
+      "owner": "Jean-Luc Mélenchon",
+      "resolved_url": "https://lafranceinsoumise.fr/2026/06/22/parrainages-elus-pour-election-presidentielle-2027/",
+      "sha256": "b055fbd1ca80d7a1e8320cbe4881fb4198ebc4f447e4e1c650591e86a47cb164",
+      "status": 200
+    },
+    "https://les-patriotes.fr/": {
+      "checked_at": "2026-08-11T06:53:08+00:00",
+      "content_type": "text/html; charset=UTF-8",
+      "etag": "\"38022-1786429947;gz\"",
+      "excerpt": "Les Patriotes – Rejoignez le combat pour la France Mouvement S’impliquer Les référents Patriotes Les Jeunes Patriotes L’Académie des Patriotes Équipe nationale Comité Exécutif Les statuts Charte des Patriotes Photos des derniers événements Tracts et affiches Prochains événements Projet pour la France Pétitions Boutique Adhérer Ré-Adhérer Donner Voir toutes les vidéos de la chaîne Dernière vidéo de la chaine des Patriotes : Voir toutes les vidéos de la chaîne Assises de la Souveraineté – Arras 2026 : S’inscrire aux Assises de la Souveraineté Événements à venir : Pôle d'expertise Mouvement Projet pour la France L’Équipe Nationale La Charte S'engager Adhérer Faire un don Signer les pétitions En",
+      "kind": "party_official",
+      "last_modified": null,
+      "owner": "Les Patriotes",
+      "resolved_url": "https://les-patriotes.fr/",
+      "sha256": "6c2275587a04e2c432d40f10ba083e9d9c9ec3f56ea9553ea5a37df234ecde9e",
+      "status": 200
+    },
+    "https://lesecologistes.fr/": {
+      "checked_at": "2026-08-11T06:53:11+00:00",
+      "content_type": "text/html; charset=UTF-8",
+      "etag": null,
+      "excerpt": "Les Écologistes Le mouvement Projet Actus JDE Plus Adhérer Donner Le mouvement Projet Actus JDE Adhérer Donner Se connecter Nous sommes Les Écologistes Rejoignez-nous, organisons-nous partout en France pour gagner les batailles à venir et construire un avenir meilleur. Nous rejoindre Passer à l'action Campagne en cours Rendez-vous à Grenoble ! 📅 Du 20 au 22 août , retrouvons-nous à Grenoble pour trois jours de débats, de formations, de rencontres et de convivialité. À quelques mois de l'élection présidentielle de 2027, les Journées d'été seront un moment essentiel pour débattre des grands enjeux écologiques, partager nos expériences de terrain et construire ensemble les prochaines mobilisati",
+      "kind": "party_official",
+      "last_modified": null,
+      "owner": "Les Écologistes",
+      "resolved_url": "https://lesecologistes.fr/",
+      "sha256": "ddc59bf2a6eb201009383b35cc9ae8897c2f094a65c22f02b9f76b43948b3cd2",
+      "status": 200
+    },
+    "https://marinetondelier.fr/blog/instinct-primaire": {
+      "checked_at": "2026-08-11T06:53:13+00:00",
+      "content_type": "text/html;charset=utf-8",
+      "etag": "W/\"f263ab7d6c131b049723e669f3f22977\"",
+      "excerpt": "Instinct primaire — Marine Tondelier 0 Passer au contenu Marine Tondelier La campagne Rejoignez-nous ! Prochains événements Le conseil scientifique Journal de campagne Le programme Pour une prospérité écologique Les livrets Mes publications Le manifeste BLOG Podcast Livre Contact Dons Ouvrir le menu Fermer le menu Marine Tondelier La campagne Rejoignez-nous ! Prochains événements Le conseil scientifique Journal de campagne Le programme Pour une prospérité écologique Les livrets Mes publications Le manifeste BLOG Podcast Livre Contact Dons Ouvrir le menu Fermer le menu Dossier : La campagne Retour Rejoignez-nous ! Prochains événements Le conseil scientifique Journal de campagne Dossier : Le p",
+      "kind": "candidate_official_evidence",
+      "last_modified": null,
+      "owner": "Marine Tondelier",
+      "resolved_url": "https://marinetondelier.fr/blog/instinct-primaire",
+      "sha256": "933bd772354270cdaa03174b59b33a40b2b381c65a6f10c7cec902227743edfc",
+      "status": 200
+    },
+    "https://parti-equinoxe.fr/": {
+      "checked_at": "2026-08-11T06:53:22+00:00",
+      "content_type": "text/html; charset=UTF-8",
+      "etag": "\"31981-1786304724;gz\"",
+      "excerpt": "Accueil - Parti Équinoxe Aller au contenu Le parti Notre histoire Nos actualités Le projet Nous rencontrer Nos groupes locaux Nos événements FAIRE UN DON FAIRE UN DON Adhérer Adhérer Le parti Notre histoire Nos actualités Le projet Nous rencontrer Nos groupes locaux Nos événements Nous rejoindre Faire un don Se connecter Équinoxe, un parti pour le monde qui vient L’équinoxe, c’est l’instant où le Soleil traverse le plan de l’équateur, le moment de l’année où le jour est aussi long que la nuit, métaphore de l’époque qui est la nôtre : partagée entre périls et possibles, entre optimisme et pessimisme, entre résignation et renouveau. Rejoindre Équinoxe, c'est faire le choix de croire au possibl",
+      "kind": "party_official",
+      "last_modified": null,
+      "owner": "Équinoxe",
+      "resolved_url": "https://parti-equinoxe.fr/",
+      "sha256": "e3d14d8acbd930991e1e67b9708c7ae30dba69f9956d2604e9470448607b53d2",
+      "status": 200
+    },
+    "https://parti-renaissance.fr/": {
+      "checked_at": "2026-08-11T06:53:18+00:00",
+      "content_type": "text/html",
+      "etag": null,
+      "excerpt": "Renaissance â Parti politique franÃ§ais | ProgrÃ¨s, Europe, RÃ©publique Le parti Nos dÃ©partements Nos Ã©vÃ©nements Mon espace J'adhÃ¨re BÃ¢tissons ensemble une Nouvelle RÃ©publique Thank you! Your submission has been received! Oops! Une erreur est survenue. DÃ©jÃ adhÃ©rent ? Mon espace Tout doit changer NOUVELLE RÃPUBLIQUE Participez Ã la grande consultation et contribuez â¨Ã bÃ¢tir une Nouvelle RÃ©publique ! Je participe CONVENTIONSÂ ThÃ©matiques Pour une nouvelle donne Ã©conomique et climatique DÃ©couvrez toutes propositions pour un nouveau modÃ¨le Ã©conomique, social et Ã©cologique pour la France ð±ð«ð· Voir nos propositions CONVENTIONSÂ ThÃ©matiques Une RÃ©publique ferme, une ",
+      "kind": "party_official",
+      "last_modified": "Thu, 30 Jul 2026 15:21:35 GMT",
+      "owner": "Renaissance",
+      "resolved_url": "https://parti-renaissance.fr/",
+      "sha256": "db5d689505f34a004cbe6d8d728181dc84b81551b219760e74d652a0a0b40028",
+      "status": 200
+    },
+    "https://place-publique.eu/": {
+      "checked_at": "2026-08-11T06:53:16+00:00",
+      "content_type": "text/html; charset=UTF-8",
+      "etag": null,
+      "excerpt": "Place publique Le parti Le projet Nos actualités Agir Adhérer Faire un don Participer à un événement Trouver sa Place publique locale Événements locaux Mobilisation numérique Nous contacter Adhérer Faire un don Le parti Le projet Nos actualités Agir Adhérer Faire un don Participer à un événement Trouver sa Place publique locale Événements locaux Mobilisation numérique Nous contacter Adhérer Faire un don Il est temps d'agir Rejoins-nous À la une Nos conseils lecture pour l'été 5 livres pour penser notre époque et nourrir l'envie d'agir. De l'avenir de l'Europe à la démocratie locale, en passant par les campagnes, l’adaptation des villes au dérèglement climatique et l'engagement des femmes, ce",
+      "kind": "party_official",
+      "last_modified": null,
+      "owner": "Place publique",
+      "resolved_url": "https://place-publique.eu/",
+      "sha256": "98ba39633cacd393aa0bea2fe343c4d893698d89d31dd9a5cc7aa2eff28c0146",
+      "status": 200
+    },
+    "https://place-publique.eu/pages/6mRSwq5tuSrSi68Cw1IADX/l-acte-i": {
+      "checked_at": "2026-08-11T06:53:16+00:00",
+      "content_type": "text/html; charset=UTF-8",
+      "etag": null,
+      "excerpt": "L'Acte I | Place publique Le parti Le projet Nos actualités Agir Adhérer Faire un don Participer à un événement Trouver sa Place publique locale Événements locaux Mobilisation numérique Nous contacter Adhérer Faire un don Le parti Le projet Nos actualités Agir Adhérer Faire un don Participer à un événement Trouver sa Place publique locale Événements locaux Mobilisation numérique Nous contacter Adhérer Faire un don L'Acte I Description La politique prise au sérieux suppose d’abord de proposer une vision claire aux citoyens. Voici donc le premier acte : notre vision pour la France. Faisons la vivre et grandir ensemble ! Ce document propose une vision pour notre nation. Il est le produit d’un t",
+      "kind": "candidate_official_evidence",
+      "last_modified": null,
+      "owner": "Raphaël Glucksmann",
+      "resolved_url": "https://place-publique.eu/pages/6mRSwq5tuSrSi68Cw1IADX/l-acte-i",
+      "sha256": "b4f04442716e6e7b068689af1c18a33e82f44f0b63aaccf2d389df2df4bb4f5c",
+      "status": 200
+    },
+    "https://programme.lafranceinsoumise.fr/": {
+      "checked_at": "2026-08-11T06:53:08+00:00",
+      "content_type": "text/html; charset=UTF-8",
+      "etag": null,
+      "excerpt": "Just a moment...",
+      "kind": "party_programme",
+      "last_modified": null,
+      "owner": "La France insoumise",
+      "resolved_url": "https://melenchon2027.fr/programme2025/livre/",
+      "sha256": "301dc171e5fa8c5fdeb69592a92a5c378f5f758f68d2338200235d60eb04b9ad",
+      "status": 403
+    },
+    "https://rassemblementnational.fr/": {
+      "checked_at": "2026-08-11T06:53:17+00:00",
+      "content_type": "text/html; charset=utf-8",
+      "etag": null,
+      "excerpt": "Rassemblement National - Accueil RN Menu Les Français de l'étranger Les fédérations Les fédérations métropolitaines Les fédérations d’Outre-mer Les Français de l’étranger Instances Bureau Exécutif Bureau National Commission Nationale d'Investiture Commission des Conflits Conseil national Le Congrès 18ème congrès Les adhérents Assemblée générale extraordinaire Actualités Communiqués Tribunes libres Lettre ouverte Vidéos Projet de gouvernement Découvrez le programme Contre-Budget 2026 Présidentielle 2022 Livrets thématiques Les 22 mesures Organisation Fédérations Les fédérations métropolitaines Les fédérations d’Outre-mer Les Français de l’étranger Les instances Bureau exécutif Bureau national",
+      "kind": "party_official",
+      "last_modified": null,
+      "owner": "Rassemblement national",
+      "resolved_url": "https://rassemblementnational.fr/",
+      "sha256": "7b872e6b995f4b37e3165c46c6e3c48f7e2107144ef3732b7fb3d5dad48c3d21",
+      "status": 200
+    },
+    "https://republicains.fr/": {
+      "checked_at": "2026-08-11T06:53:11+00:00",
+      "content_type": "text/html; charset=UTF-8",
+      "etag": null,
+      "excerpt": "Les Républicains Skip to the content Qui sommes-nous ? Votre Fédération Nos propositions Actualités Je donne J'adhère Qui sommes-nous ? Votre Fédération Nos propositions Actualités Je donne J'adhère Je donne J'adhère Qui sommes-nous ? Votre Fédération Nos propositions Actualités Les républicains Rassembler et bâtir la France de demain Je souhaite m'engager VIDEOS à LA UNE 15.07.2026 Passage TV Une grande nation ne répond pas à la souffrance par la mort. 15.07.2026 Interview Vidéos à la une Les yeux dans les yeux avec Jean-Jacques Bourdin 08.07.2026 Passage TV Vidéos à la une Je veux rendre la parole aux Français 07.07.2026 Passage TV 2027, c’est le sursaut ou le chaos. 01.07.2026 Passage TV ",
+      "kind": "party_official",
+      "last_modified": null,
+      "owner": "Les Républicains",
+      "resolved_url": "https://republicains.fr/",
+      "sha256": "627cd4186c1a56396a83170aab0622fa2924e3ccb37897caf1ba1ed6a7a2403f",
+      "status": 200
+    },
+    "https://www.debout-la-france.fr/": {
+      "checked_at": "2026-08-11T06:53:00+00:00",
+      "content_type": "text/html; charset=UTF-8",
+      "etag": null,
+      "excerpt": "Debout La France - Une France Indépendante, des Français Libres Aller au contenu Debout La France Projet Actualités NDA Organisation DLF Près de chez vous Le Bureau National Les Chargés de mission régionaux Les Conseillers Nationaux Espace Militant Statuts Debout La France Boutique Contact Nous contacter DLF près de chez vous Recherche : DONNER ADHÉRER Projet Actualités NDA Organisation DLF Près de chez vous Le Bureau National Les Chargés de mission régionaux Les Conseillers Nationaux Espace Militant Statuts Debout La France Boutique Contact Nous contacter DLF près de chez vous UNE FRANCE INDÉPENDANTE, DES FRANÇAIS LIBRES ! ILS ONT DES MILLIONS, NOUS AVONS DES CONVICTIONS ! AIDEZ-NOUS À LIBÉ",
+      "kind": "party_official",
+      "last_modified": null,
+      "owner": "Debout la France",
+      "resolved_url": "https://www.debout-la-france.fr/",
+      "sha256": "f5e66bce5ce75166e2d955a595c9a395dfaff70494d29e4d7713fc676e979fed",
+      "status": 200
+    },
+    "https://www.jerome-guedj.fr/la-clarte-plutot-que-les-slogans-pourquoi-jai-annonce-ma-candidature-pour-2027/": {
+      "checked_at": "2026-08-11T06:53:07+00:00",
+      "content_type": "text/html; charset=utf-8",
+      "etag": "W/\"c9f8ba691fe1592840abac08dfadafa7\"",
+      "excerpt": "Jérôme Guedj — Député de l'Essonne",
+      "kind": "candidate_official_evidence",
+      "last_modified": "Tue, 11 Aug 2026 03:34:48 GMT",
+      "owner": "Jérôme Guedj",
+      "resolved_url": "https://www.jerome-guedj.fr/la-clarte-plutot-que-les-slogans-pourquoi-jai-annonce-ma-candidature-pour-2027/",
+      "sha256": "8f0fc94b5094bf91786320a525737bbfe73aed3536110e6e63aecdae12df2c62",
+      "status": 200
+    },
+    "https://www.lutte-ouvriere.org/": {
+      "checked_at": "2026-08-11T06:53:12+00:00",
+      "content_type": "text/html",
+      "etag": null,
+      "excerpt": "Portail de Lutte ouvriÃ¨re Portail Journal Revue CLT AudioLO Union communiste internationaliste FÃªte Nous soutenir Les autres sites Portail Journal Revue CLT AudioLO Union communiste internationaliste FÃªte Nous soutenir ActualitÃ©s Dans le monde Dans les entreprises Leur sociÃ©tÃ© Municipales 2026 Ãditoriaux CommuniquÃ©s BrÃ¨ves Agenda Meetings Affiches Autocollants Revue de presse Qui sommes-nousÂ ? PrÃ©sentation Notre organisation Nos idÃ©es et positions politiques En rÃ©gions Auvergne-RhÃ´ne-Alpes Bourgogne-Franche-ComtÃ© Bretagne Centre-Val de Loire Grand Est Hauts-de-France Ãle-de-France Normandie Nouvelle-Aquitaine Occitanie PACA-Corse Pays de la Loire Ãle de la RÃ©union Mayotte G",
+      "kind": "party_official",
+      "last_modified": null,
+      "owner": "Lutte ouvrière",
+      "resolved_url": "https://www.lutte-ouvriere.org/",
+      "sha256": "91a40318e1d8dbe06d40d15ac60d347b9737af245fc065d5084b0b12c9ed4587",
+      "status": 200
+    },
+    "https://www.parti-reconquete.fr/": {
+      "checked_at": "2026-08-11T06:53:18+00:00",
+      "content_type": "text/html; charset=UTF-8",
+      "etag": null,
+      "excerpt": "RECONQUÊTE — Le mouvement d'Éric Zemmour Notre mouvement J'agis Contact Athos, votre espace adhérent Faire un don J'adhère Notre mouvement J'agis Athos, votre espace adhérent Contact Faire un don J'adhère Le mouvement d'Éric Zemmour Rejoignez nos 100 000 adhérents ! J'adhère Engagement Les priorités d'Éric Zemmour pour la France Cela fait 30 ans qu'Éric Zemmour pose les bons diagnostics sur les principaux maux de la France, quitte à souvent prêcher seul dans le désert et contre tous. Ses priorités sont extrêmement claires et faciles à retenir : Identité, Immigration, Islam, Insécurité, Instruction, Impôts, Industrie et Indépendance, il est temps de remettre, en France, les points sur les i !",
+      "kind": "party_official",
+      "last_modified": null,
+      "owner": "Reconquête",
+      "resolved_url": "https://www.parti-reconquete.fr/",
+      "sha256": "6399d4671ab9443fdafc4cf9d8c4586ebfaf78638c55f803db514730abaa369a",
+      "status": 200
+    },
+    "https://www.parti-socialiste.fr/": {
+      "checked_at": "2026-08-11T06:53:15+00:00",
+      "content_type": "text/html; charset=UTF-8",
+      "etag": null,
+      "excerpt": "Parti Socialiste Aller au contenu Le Parti Socialiste Fermer Le Parti Socialiste Ouvrir Le Parti Socialiste Le Parti Socialiste Le Premier Secrétaire Figure clé du rassemblement de la gauche en France, Olivier Faure a mené une carrière de conseiller politique et de député avant de devenir premier secrétaire du Parti socialiste en 2018 Les instances Comprendre les instances de démocratie interne Nos fédérations Les fédérations socialistes, actrices du militantisme quotidien Nos élu·e·s Le Parti socialiste bénéficie du maillage territorial le plus fin des partis politiques de gauche Nos porte-parole Découvrez celles et ceux qui s’engagent au quotidien pour faire entendre nos valeurs Nos parten",
+      "kind": "party_official",
+      "last_modified": "Tue, 11 Aug 2026 03:54:03 GMT",
+      "owner": "Parti socialiste",
+      "resolved_url": "https://parti-socialiste.fr/",
+      "sha256": "4111704d61d6bef6fc826af455f9e74388af1b2cf7e235746fd59b400cfa8467",
+      "status": 200
+    },
+    "https://www.pcf.fr/": {
+      "checked_at": "2026-08-11T06:53:13+00:00",
+      "content_type": "text/html; charset=UTF-8",
+      "etag": null,
+      "excerpt": "Just a moment...",
+      "kind": "party_official",
+      "last_modified": null,
+      "owner": "Parti communiste français",
+      "resolved_url": "https://www.pcf.fr/",
+      "sha256": "301dc171e5fa8c5fdeb69592a92a5c378f5f758f68d2338200235d60eb04b9ad",
+      "status": 403
+    },
+    "https://www.revolutionpermanente.fr/": {
+      "checked_at": "2026-08-11T06:53:19+00:00",
+      "content_type": "text/html; charset=utf-8",
+      "etag": null,
+      "excerpt": "Revolution Permanente × Qui sommes-nous ? Nous rejoindre Faire un don Formations marxistes Politique Notre Classe International Racisme et violences d’État Genre et Sexualités Écologie Jeunesse Débats Armes de la critique Nous rejoindre Faire un don Été 2026 Révolution Permanente passe en régime estival jusqu’au 17 août ! Tri raciste Contre « Bienvenue en France », témoigne et prépare la mobilisation pour cette rentrée ! Billet Crise de Ceuta : pourquoi les révolutionnaires défendent l’ouverture des frontières ? Billet d’Anasse Kazib Long Format L’impérialisme espagnol dans une période de désordre mondial Billet Ceuta : quand la gauche espagnole épouse les intérêts de son impérialisme et de ",
+      "kind": "party_official",
+      "last_modified": "Tue, 11 Aug 2026 06:51:49 GMT",
+      "owner": "Révolution Permanente",
+      "resolved_url": "https://www.revolutionpermanente.fr/",
+      "sha256": "fdb418e9fa7775d85e3ccf7629d34afb61d618ea59fedca5f3c9df37cc73f202",
+      "status": 200
+    },
+    "https://www.upr.fr/": {
+      "checked_at": "2026-08-11T06:53:20+00:00",
+      "content_type": "text/html",
+      "etag": null,
+      "excerpt": "Union Populaire RÃ©publicaine DÃ©couvrir l'UPR Programme ActualitÃ©s S'engager Presse Boutique Contact Espace membre N i g a u c h e n i d r o i t e : u n i s p o u r l a F r a n c e ! R e j o i g n e z l e m o u v e m e n t . AdhÃ©rer Ã l'UPR Faire un don Union Populaire RÃ©publicaine Pour le Frexit , avec FranÃ§ois Asselineau AdhÃ©rer Ã l'UPR Faire un don Le programme Nos engagements Notre programme Voulant redonner toute son actualitÃ© au programme du Conseil national de la RÃ©sistance de 1944, FranÃ§ois Asselineau propose aux FranÃ§ais de se rassembler, afin de rendre Ã la France sa libertÃ© et son indÃ©pendance. LibÃ©rons-nous de l'UE, de l'â¬, de l'OTAN, protÃ©geons nos services publi",
+      "kind": "party_official",
+      "last_modified": null,
+      "owner": "Union populaire républicaine",
+      "resolved_url": "https://upr.fr/",
+      "sha256": "e3f15ad73634ff80414b59d9aef881a71976a3f016cdff491db961fdd1cfffcf",
+      "status": 200
+    }
+  },
+  "version": 1
+}
