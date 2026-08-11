@@ -16,7 +16,9 @@ on:
       - 'scripts/gdelt_watch.py'
       - 'scripts/social_watch.py'
       - 'scripts/auto_promote.py'
+      - 'scripts/auto_promote_runner.py'
       - 'tests/test_auto_promote.py'
+      - 'tests/test_auto_promote_runner.py'
 
 permissions:
   contents: write
@@ -102,12 +104,12 @@ jobs:
       - name: Promote strictly verified official evidence
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        run: python scripts/auto_promote.py
+        run: python scripts/auto_promote_runner.py
 
       - name: Run Python validation and watch tests
         run: |
           python scripts/validate.py
-          pytest -q tests/test_daily_watch.py tests/test_gdelt_watch.py tests/test_social_watch.py tests/test_auto_promote.py
+          pytest -q tests/test_daily_watch.py tests/test_gdelt_watch.py tests/test_social_watch.py tests/test_auto_promote.py tests/test_auto_promote_runner.py
 
       - name: Run retrieval regression tests
         run: npm run test:retrieval
