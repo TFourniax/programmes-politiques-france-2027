@@ -1,6 +1,7 @@
 import assert from "node:assert/strict";
 import {
   buildFallbackRetrievalQuery,
+  interpretRetrievalWithModel,
   sanitizeRetrievalInterpretation,
   shouldAttemptRetrievalFallback
 } from "../lib/retrieval-fallback.js";
@@ -50,6 +51,51 @@ assert.equal(sanitizeRetrievalInterpretation({
 assert.equal(shouldAttemptRetrievalFallback({ reason: "insufficient_relevance" }), true);
 assert.equal(shouldAttemptRetrievalFallback({ reason: "unsupported_subjective_ranking" }), false);
 assert.equal(shouldAttemptRetrievalFallback({ reason: "hybrid_evidence" }), false, "le LLM ne doit pas être appelé quand le moteur déterministe sait répondre");
+
+// Exerce le chemin réseau complet sans dépendre d'un fournisseur ni consommer de tokens.
+// Le modèle mocké renvoie une paraphrase que le serveur doit réduire à une requête canonique sûre.
+const previousKey = process.env.LLM_API_KEY;
+const previousFetch = globalThis.fetch;
+let fallbackRequestBody = null;
+process.env.LLM_API_KEY = "unit-test-key";
+globalThis.fetch = async (_url, options = {}) => {
+  fallbackRequestBody = JSON.parse(options.body || "{}");
+  return {
+    ok: true,
+    async json() {
+      return {
+        choices: [{
+          message: {
+            content: JSON.stringify({
+              understood: true,
+              confidence: "high",
+              intent: "measures",
+              entity_ids: ["renaissance"],
+              concept_ids: ["nucleaire"],
+              numbers: ["14", "404"],
+              evidence_spans: ["Renaissance", "14 nouveaux réacteurs"]
+            })
+          }
+        }]
+      };
+    }
+  };
+};
+try {
+  const fallbackResult = await interpretRetrievalWithModel("Que prévoit Renaissance pour ses 14 nouveaux réacteurs ?", []);
+  assert.equal(fallbackResult.attempted, true);
+  assert.ok(fallbackResult.interpretation);
+  assert.match(normalize(fallbackResult.query), /renaissance/);
+  assert.match(normalize(fallbackResult.query), /nucleaire/);
+  assert.match(normalize(fallbackResult.query), /14/);
+  assert.doesNotMatch(normalize(fallbackResult.query), /404/);
+  assert.equal(fallbackRequestBody?.response_format?.type, "json_schema", "le fournisseur doit être contraint par un schéma structuré");
+  assert.equal(fallbackRequestBody?.response_format?.json_schema?.strict, true);
+} finally {
+  globalThis.fetch = previousFetch;
+  if (previousKey === undefined) delete process.env.LLM_API_KEY;
+  else process.env.LLM_API_KEY = previousKey;
+}
 
 function assertGroundedSuggestions(question, evidence, history = []) {
   const suggestions = buildContextualSuggestions(question, evidence, history, { limit: 3 });
