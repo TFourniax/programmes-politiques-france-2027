@@ -1,103 +1,206 @@
-#!/usr/bin/env python3
-from collections import Counter
+from __future__ import annotations
+
 import json
-from pathlib import Path
-from common import ROOT, load_yaml, markdown_files, parse_markdown
+import re
+from datetime import date, datetime
+from urllib.parse import urlparse
 
-ALLOWED_CANDIDATE_STATUSES = {
-    "official_candidate", "declared_presidential", "party_designated",
-    "declared_primary", "declared_conditional", "exploratory", "potential",
-    "withdrawn", "not_running", "deceased", "unknown",
+from common import ROOT, markdown_files, parse_markdown
+
+CANDIDATE_STATUSES = {
+    "official_candidate", "declared_presidential", "party_designated", "declared_primary",
+    "declared_conditional", "exploratory", "potential", "withdrawn", "not_running", "deceased", "unknown"
 }
-ALLOWED_CONFIDENCE = {"high", "medium", "low", "unverified"}
-ALLOWED_CERTAINTY = {
+CONFIDENCE = {"high", "medium", "low", "unknown"}
+SOURCE_TIERS = {"tier_1_primary_official", "tier_2_primary_statement", "tier_3_reliable_secondary", "tier_4_discovery_only"}
+DOCUMENT_TYPES = {
+    "official_presidential_programme", "presidential_preprogramme", "party_programme", "party_platform", "manifesto",
+    "thematic_platform", "policy_proposal", "candidacy_declaration", "official_speech", "official_press_release",
+    "official_interview", "official_video_transcript", "campaign_website_page", "primary_platform", "primary_result",
+    "coalition_agreement", "secondary_summary", "fact_check", "historical_reference", "other"
+}
+DOCUMENT_STATUSES = {"current", "superseded", "amended", "withdrawn", "draft", "archived", "unknown"}
+CERTAINTIES = {
     "explicit", "explicit_but_conditional", "explicit_but_underspecified",
-    "inferred_from_multiple_explicit_statements",
-    "attributed_by_secondary_source", "uncertain",
+    "inferred_from_multiple_explicit_statements", "attributed_by_secondary_source", "uncertain"
 }
+RIGHTS = {"open_license", "public_domain", "permission_granted", "quotation_only", "link_only", "unknown", "restricted"}
+PROPOSAL_TOPICS = {
+    "pouvoir-achat-travail", "retraites", "fiscalite-redistribution", "immigration-integration", "europe-souverainete",
+    "ecologie-energie", "institutions-democratie", "services-publics", "securite-justice", "economie-finances"
+}
+TOPIC_SLUG = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
+PRIMARY_TIERS = {"tier_1_primary_official", "tier_2_primary_statement"}
+MIN_CANDIDATES = 40
+MIN_PARTIES = 25
+MIN_DOCUMENTS = 20
+MIN_PROPOSALS = 25
+MAX_SNAPSHOT_AGE_DAYS = 14
 
 
-def require(meta, keys, path):
-    missing = [k for k in keys if meta.get(k) in (None, "")]
-    if missing:
-        raise AssertionError(f"{path}: missing required field(s): {', '.join(missing)}")
+def assert_url(value: str | None, label: str, required: bool = True) -> None:
+    if not value:
+        if required:
+            raise AssertionError(f"Missing URL: {label}")
+        return
+    parsed = urlparse(str(value))
+    if parsed.scheme not in {"http", "https"} or not parsed.netloc:
+        raise AssertionError(f"Invalid URL for {label}: {value}")
 
 
-def unique(values, label):
-    dupes = [v for v, n in Counter(values).items() if n > 1]
-    if dupes:
-        raise AssertionError(f"Duplicate {label}: {dupes}")
+def parse_iso_day(value: str, label: str) -> date:
+    try:
+        return datetime.strptime(str(value), "%Y-%m-%d").date()
+    except ValueError as exc:
+        raise AssertionError(f"Invalid ISO date for {label}: {value}") from exc
 
 
-def load_entities():
+def load_entities() -> dict:
     path = ROOT / "data" / "entities.json"
     with path.open(encoding="utf-8") as handle:
-        return json.load(handle)
+        data = json.load(handle)
+    if not str(data.get("election") or "").strip():
+        raise AssertionError("data/entities.json must declare the election")
+    snapshot = parse_iso_day(data.get("snapshot_date"), "snapshot_date")
+    if snapshot > date.today():
+        raise AssertionError("snapshot_date cannot be in the future")
+    age = (date.today() - snapshot).days
+    if age > MAX_SNAPSHOT_AGE_DAYS:
+        raise AssertionError(f"Political snapshot is stale: {age} days old (max {MAX_SNAPSHOT_AGE_DAYS})")
+    return data
 
 
-def main():
-    entities = load_entities()
-    if entities.get("snapshot_date") != "2026-08-09":
-        raise AssertionError("data/entities.json must use the current V1 snapshot date 2026-08-09")
+def validate_entities(data: dict) -> tuple[set[str], set[str]]:
+    candidates = data.get("candidates") or []
+    parties = data.get("parties") or []
+    if len(candidates) < MIN_CANDIDATES:
+        raise AssertionError(f"Need at least {MIN_CANDIDATES} tracked personalities, found {len(candidates)}")
+    if len(parties) < MIN_PARTIES:
+        raise AssertionError(f"Need at least {MIN_PARTIES} parties/movements, found {len(parties)}")
 
-    candidates = entities.get("candidates", [])
-    parties = entities.get("parties", [])
-    candidate_ids = [c.get("id") for c in candidates]
-    party_ids = [p.get("id") for p in parties]
-    unique(candidate_ids, "candidate ids")
-    unique(party_ids, "party ids")
+    candidate_ids = [item.get("id") for item in candidates]
+    party_ids = [item.get("id") for item in parties]
+    if len(candidate_ids) != len(set(candidate_ids)):
+        raise AssertionError("Duplicate candidate ids")
+    if len(party_ids) != len(set(party_ids)):
+        raise AssertionError("Duplicate party ids")
+    party_set = set(party_ids)
 
     for candidate in candidates:
-        require(candidate, ["id", "name", "current_status", "status_as_of", "status_confidence"], "data/entities.json")
-        if candidate["current_status"] not in ALLOWED_CANDIDATE_STATUSES:
-            raise AssertionError(f"Invalid candidate status: {candidate['current_status']} ({candidate['id']})")
-        if candidate["status_confidence"] not in ALLOWED_CONFIDENCE:
-            raise AssertionError(f"Invalid candidate confidence: {candidate['status_confidence']} ({candidate['id']})")
-        if candidate.get("official_candidate") and candidate["current_status"] != "official_candidate":
-            raise AssertionError(f"{candidate['id']}: official_candidate=true requires official_candidate status")
-        if candidate["current_status"] == "official_candidate" and not candidate.get("official_candidate"):
-            raise AssertionError(f"{candidate['id']}: official_candidate status requires official_candidate=true")
+        cid = candidate.get("id")
+        if not cid or not candidate.get("name"):
+            raise AssertionError(f"Invalid candidate record: {candidate}")
+        status = candidate.get("current_status")
+        confidence = candidate.get("status_confidence")
+        if status not in CANDIDATE_STATUSES:
+            raise AssertionError(f"Invalid candidate status for {cid}: {status}")
+        if confidence not in CONFIDENCE:
+            raise AssertionError(f"Invalid status_confidence for {cid}: {confidence}")
+        if candidate.get("official_candidate") is True and status != "official_candidate":
+            raise AssertionError(f"official_candidate=true requires status official_candidate: {cid}")
+        if status == "official_candidate" and candidate.get("official_candidate") is not True:
+            raise AssertionError(f"official_candidate status requires boolean true: {cid}")
+        party_id = candidate.get("primary_party_id")
+        if party_id and party_id not in party_set:
+            raise AssertionError(f"Unknown primary_party_id for {cid}: {party_id}")
+        for affiliation in candidate.get("affiliations") or []:
+            if affiliation not in party_set:
+                raise AssertionError(f"Unknown affiliation for {cid}: {affiliation}")
+        status_day = parse_iso_day(candidate.get("status_as_of"), f"{cid}.status_as_of")
+        if status_day > parse_iso_day(data["snapshot_date"], "snapshot_date"):
+            raise AssertionError(f"status_as_of after snapshot for {cid}")
+        if candidate.get("declared_at"):
+            parse_iso_day(candidate["declared_at"], f"{cid}.declared_at")
+        tier = candidate.get("source_tier")
+        if tier not in SOURCE_TIERS:
+            raise AssertionError(f"Invalid source_tier for {cid}: {tier}")
+        assert_url(candidate.get("source_url"), f"candidate {cid}")
+        if confidence == "high" and tier not in PRIMARY_TIERS:
+            raise AssertionError(f"High-confidence candidate status must use primary/direct evidence: {cid} ({tier})")
 
-    # YAML registries remain public machine-readable mirrors/registries. They must at least parse.
-    load_yaml("registries/candidates.yaml")
-    load_yaml("registries/parties.yaml")
-    load_yaml("registries/documents.yaml")
-    load_yaml("registries/sources.yaml")
+    for party in parties:
+        pid = party.get("id")
+        if not pid or not party.get("name"):
+            raise AssertionError(f"Invalid party record: {party}")
+        assert_url(party.get("official_website"), f"party {pid}", required=False)
 
-    document_ids = []
-    for path in markdown_files("corpus/2027"):
+    return set(candidate_ids), party_set
+
+
+def validate_documents(entity_ids: set[str]) -> set[str]:
+    files = list(markdown_files("corpus/2027"))
+    if len(files) < MIN_DOCUMENTS:
+        raise AssertionError(f"Need at least {MIN_DOCUMENTS} corpus documents, found {len(files)}")
+    document_ids: set[str] = set()
+    for path in files:
         meta, body = parse_markdown(path)
-        require(meta, ["document_id", "entity_id", "entity_type", "document_type", "document_status", "source_url"], path)
-        if not body:
-            raise AssertionError(f"{path}: empty document body")
-        document_ids.append(meta["document_id"])
-    if not document_ids:
-        raise AssertionError("No corpus documents found")
-    unique(document_ids, "document ids")
-    document_ids = set(document_ids)
+        doc_id = meta.get("document_id")
+        if not doc_id or doc_id in document_ids:
+            raise AssertionError(f"Missing or duplicate document_id: {path}")
+        document_ids.add(doc_id)
+        entity_id = meta.get("entity_id")
+        if entity_id not in entity_ids:
+            raise AssertionError(f"Unknown entity_id in {path}: {entity_id}")
+        if meta.get("entity_type") not in {"candidate", "party"}:
+            raise AssertionError(f"Invalid entity_type in {path}: {meta.get('entity_type')}")
+        if meta.get("document_type") not in DOCUMENT_TYPES:
+            raise AssertionError(f"Invalid document_type in {path}: {meta.get('document_type')}")
+        if meta.get("document_status") not in DOCUMENT_STATUSES:
+            raise AssertionError(f"Invalid document_status in {path}: {meta.get('document_status')}")
+        if meta.get("source_tier") not in SOURCE_TIERS:
+            raise AssertionError(f"Invalid source_tier in {path}: {meta.get('source_tier')}")
+        if meta.get("rights_status") not in RIGHTS:
+            raise AssertionError(f"Invalid or missing rights_status in {path}: {meta.get('rights_status')}")
+        assert_url(meta.get("source_url"), f"document {doc_id}")
+        document_topics = meta.get("topics") or []
+        if not isinstance(document_topics, list):
+            raise AssertionError(f"Document topics must be a list in {path}")
+        for topic in document_topics:
+            if not isinstance(topic, str) or not TOPIC_SLUG.fullmatch(topic):
+                raise AssertionError(f"Invalid document topic slug in {path}: {topic}")
+        if not body.strip() or len(re.sub(r"\s+", " ", body).strip()) < 80:
+            raise AssertionError(f"Document body too shallow: {path}")
+    return document_ids
 
-    proposal_ids = []
-    for path in markdown_files("proposals"):
+
+def validate_proposals(entity_ids: set[str], document_ids: set[str]) -> int:
+    files = list(markdown_files("proposals"))
+    if len(files) < MIN_PROPOSALS:
+        raise AssertionError(f"Need at least {MIN_PROPOSALS} atomic proposals, found {len(files)}")
+    proposal_ids: set[str] = set()
+    for path in files:
         meta, body = parse_markdown(path)
-        require(meta, ["proposal_id", "entity_id", "topic", "certainty"], path)
-        if meta["certainty"] not in ALLOWED_CERTAINTY:
-            raise AssertionError(f"{path}: invalid certainty {meta['certainty']}")
-        sources = meta.get("source_document_ids") or meta.get("source_document_id")
-        if not sources:
-            raise AssertionError(f"{path}: missing source_document_id or source_document_ids")
-        if isinstance(sources, str):
-            sources = [sources]
-        for source in sources:
-            if source not in document_ids:
-                raise AssertionError(f"{path}: unknown source document {source}")
-        if not body:
-            raise AssertionError(f"{path}: empty proposal body")
-        proposal_ids.append(meta["proposal_id"])
-    unique(proposal_ids, "proposal ids")
+        proposal_id = meta.get("proposal_id")
+        if not proposal_id or proposal_id in proposal_ids:
+            raise AssertionError(f"Missing or duplicate proposal_id: {path}")
+        proposal_ids.add(proposal_id)
+        if meta.get("entity_id") not in entity_ids:
+            raise AssertionError(f"Unknown proposal entity in {path}: {meta.get('entity_id')}")
+        if meta.get("topic") not in PROPOSAL_TOPICS:
+            raise AssertionError(f"Invalid proposal topic in {path}: {meta.get('topic')}")
+        if meta.get("certainty") not in CERTAINTIES:
+            raise AssertionError(f"Invalid certainty in {path}: {meta.get('certainty')}")
+        source_ids = meta.get("source_document_ids") or meta.get("source_document_id")
+        if isinstance(source_ids, str):
+            source_ids = [source_ids]
+        if not source_ids or not set(source_ids).issubset(document_ids):
+            raise AssertionError(f"Proposal points to missing source document: {path}: {source_ids}")
+        assert_url(meta.get("source_url"), f"proposal {proposal_id}", required=False)
+        if not body.strip() or len(re.sub(r"\s+", " ", body).strip()) < 40:
+            raise AssertionError(f"Proposal body too shallow: {path}")
+    return len(files)
 
+
+def main() -> None:
+    data = load_entities()
+    candidate_ids, party_ids = validate_entities(data)
+    all_entities = candidate_ids | party_ids
+    documents = validate_documents(all_entities)
+    proposal_count = validate_proposals(all_entities, documents)
     print(
-        f"Validation OK: {len(candidates)} candidates, {len(parties)} parties, "
-        f"{len(document_ids)} documents, {len(proposal_ids)} proposals"
+        f"Production validation OK: snapshot {data['snapshot_date']}, "
+        f"{len(candidate_ids)} personalities, {len(party_ids)} parties, "
+        f"{len(documents)} documents, {proposal_count} proposals"
     )
 
 

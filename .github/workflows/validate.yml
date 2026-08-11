@@ -6,7 +6,7 @@ on:
     paths:
       - 'corpus/**'
       - 'proposals/**'
-      - 'registries/**'
+      - 'data/entities.json'
       - 'scripts/**'
       - 'tests/**'
       - 'requirements.txt'
@@ -15,7 +15,7 @@ on:
     paths:
       - 'corpus/**'
       - 'proposals/**'
-      - 'registries/**'
+      - 'data/entities.json'
       - 'scripts/**'
       - 'tests/**'
       - 'requirements.txt'
@@ -28,9 +28,10 @@ permissions:
 jobs:
   validate:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
         with:
           python-version: '3.12'
           cache: pip

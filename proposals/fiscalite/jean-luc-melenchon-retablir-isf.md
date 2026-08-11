@@ -1,7 +1,7 @@
 ---
 proposal_id: prop-lfi-isf
 entity_id: la-france-insoumise
-topic: fiscalite
+topic: fiscalite-redistribution
 certainty: explicit
 source_url: https://programme.lafranceinsoumise.fr/programme2025/livre/chapitre8/s2/
 source_document_id: doc-lfi-laec-programme-continu

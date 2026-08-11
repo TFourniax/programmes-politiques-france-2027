@@ -3,7 +3,7 @@ proposal_id: prop-retailleau-etudiants-extra-europeens
 entity_id: bruno-retailleau
 entity_type: candidate
 election: presidentielle-france-2027
-topic: immigration
+topic: immigration-integration
 subtopic: etudiants-etrangers
 proposal_type: policy_proposal
 proposal_status: current

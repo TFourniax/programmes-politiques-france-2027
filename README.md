@@ -1,39 +1,40 @@
 # Programmes politiques France 2027
 
-Dépôt public, neutre et versionné pour rendre les programmes, projets et positions liés à l’élection présidentielle française de 2027 consultables par des humains comme par des agents/LLM.
+Dépôt public, neutre et versionné pour rendre les candidatures, programmes, projets et propositions liés à l’élection présidentielle française de 2027 consultables par des humains comme par des agents/LLM.
 
-> **Important :** une personnalité suivie ici n’est pas nécessairement un candidat officiel. Les statuts `potential`, `declared_primary`, `declared_conditional`, `declared_presidential`, `party_designated` et `official_candidate` sont volontairement distincts. `official_candidate` est réservé à la liste publiée par le Conseil constitutionnel.
+> **Important :** une personnalité suivie ici n’est pas nécessairement un candidat officiel. `official_candidate` est réservé à la liste publiée par le Conseil constitutionnel. Les autres statuts décrivent uniquement l’état documentaire connu au jour du snapshot.
 
 ## État de la V1
 
-Instantané des statuts : **9 août 2026**.
+Snapshot politique : **10 août 2026**.
 
-La V1 fournit :
+La V1 comprend :
 
-- **40 personnalités suivies** et **22 partis/mouvements** dans `data/entities.json` et les registres YAML ;
-- des documents politiques sourcés et versionnables dans `corpus/2027/` ;
+- **40 personnalités suivies** et plus de **25 partis/mouvements** dans `data/entities.json` ;
+- des documents politiques sourcés et versionnés dans `corpus/2027/` ;
 - des propositions atomiques dans `proposals/` ;
-- une interface Next.js de questions-réponses ;
-- un index full-text reconstruit automatiquement à partir du **contenu complet des Markdown**, et pas seulement de résumés ;
-- une recherche lexicale pondérée par rareté, titre, entité, section, thème et type de contenu ;
-- des réponses accompagnées des fichiers GitHub et sources originales utilisés ;
+- six modes publics d’exploration : questions-réponses, comparaison, fiches personnalités, thèmes, boussole documentaire et quiz ;
+- un index full-text reconstruit automatiquement à partir du contenu complet des Markdown ;
+- une recherche pondérée par contenu, rareté, titre, entité, section, thème et type de source ;
+- des citations vers le fichier GitHub et la source originale ;
 - un fallback déterministe lorsque le LLM est absent, indisponible ou trop lent ;
-- des tests de retrieval sur des questions politiques réelles et des contrôles de cohérence du corpus.
+- des garde-fous explicites contre l’attribution automatique d’un programme de parti à une personnalité ;
+- une CI de production couvrant données, sécurité npm, retrieval, benchmark, build et tests navigateur desktop/mobile.
 
-Le corpus reste **incomplet par construction tant que la campagne évolue**. Un statut peut être `high`, `medium`, `low` ou `unverified` selon la qualité de la preuve disponible. Une absence de document ne signifie jamais absence de position politique.
+Le corpus reste **évolutif et non exhaustif** tant que la campagne se poursuit. Les niveaux `high`, `medium`, `low` et `unknown` qualifient la qualité de la preuve disponible, jamais les chances électorales. Une absence d’information dans le corpus ne signifie jamais opposition à une mesure.
 
-## Source de vérité et index
+## Source de vérité
 
-Les fichiers canoniques sont :
+Les données canoniques utilisées par l’application sont :
 
 ```text
-data/entities.json          statuts des personnalités + partis suivis
-registries/*.yaml           registres publics/machine-readable
+data/entities.json          statuts des personnalités et partis suivis
 corpus/2027/**/*.md         documents politiques
 proposals/**/*.md           propositions atomiques
+data/compass.json           questions/thèmes de l’interface
 ```
 
-Au démarrage et au build :
+L’index de recherche est dérivé :
 
 ```text
 data/entities.json
@@ -46,29 +47,28 @@ data/search-index.json      généré, non versionné
         ↓
 lib/retrieval.js
         ↓
-app/api/chat/route.js
+API / interface
         ↓
 LLM optionnel
         ↓
-réponse + citations GitHub + sources originales
+réponse + citations
 ```
 
-`data/search-index.json` est un artefact dérivé et reconstructible ; GitHub reste la source canonique.
+`data/search-index.json` est reconstruisible à chaque démarrage/build. Les fichiers source du dépôt restent la vérité canonique.
 
-## Garde-fous du chatbot
+## Règles de neutralité et de preuve
 
-Le modèle n’est jamais autorisé à compléter une lacune avec sa mémoire générale. Il reçoit uniquement les passages récupérés dans le dépôt.
+Le système distingue systématiquement :
 
-Le système distingue notamment :
-
-- statut d’une personne ;
+- statut d’une personnalité ;
 - statut d’un document ;
 - niveau de confiance de la preuve ;
 - certitude d’une proposition ;
-- programme d’un parti et programme personnel d’un candidat ;
-- source primaire et source secondaire.
+- programme de parti et position personnelle ;
+- source primaire/directe et source secondaire ;
+- document actuel, amendé, remplacé, retiré, brouillon ou archivé.
 
-Si le corpus ne contient pas assez d’information, l’interface doit répondre qu’elle ne dispose pas de matière suffisante plutôt que d’inventer.
+Le modèle n’est pas autorisé à combler une lacune avec sa mémoire générale. Le contexte factuel fourni au LLM provient exclusivement des passages récupérés dans le corpus. Si les preuves sont insuffisantes, l’interface doit l’indiquer.
 
 ## Lancer localement
 
@@ -78,11 +78,9 @@ npm install
 npm run dev
 ```
 
-Le script `predev` construit automatiquement l’index full-text.
+`predev` et `prebuild` reconstruisent automatiquement l’index full-text.
 
-Sans `LLM_API_KEY` ni `OPENAI_API_KEY`, le moteur fonctionne en mode déterministe et renvoie les passages les plus pertinents du corpus. Avec une clé, le modèle synthétise uniquement les passages récupérés.
-
-Variables :
+Variables facultatives pour activer la synthèse LLM :
 
 ```text
 LLM_API_KEY=...
@@ -93,28 +91,32 @@ LLM_TIMEOUT_MS=15000
 NEXT_PUBLIC_REPOSITORY_URL=https://github.com/TFourniax/programmes-politiques-france-2027
 ```
 
-Le modèle par défaut est `gpt-5-mini`. L’API, le modèle et le timeout restent configurables par variables d’environnement. Si l’appel LLM échoue ou dépasse le timeout, l’application retombe sur une réponse déterministe fondée sur les passages récupérés.
+Sans clé LLM, le produit reste fonctionnel en mode déterministe.
 
-## QA
+## Gates de production
+
+Exécution locale :
 
 ```bash
+npm run validate:data
 npm run test:retrieval
-python scripts/validate.py
-pytest -q
 npm run build
+npm run test:e2e
 ```
 
-Les tests de retrieval couvrent notamment :
+Les contrôles bloquants incluent notamment :
 
-- recherche des candidatures déclarées ;
-- retraite à 60 ans ;
-- SMIC à 1 700 € net ;
-- propositions de Bruno Retailleau sur l’immigration ;
-- service citoyen de neuf mois ;
-- contrat des compteurs documents/propositions affichés dans l’interface ;
-- requête sans rapport avec le corpus, qui doit produire zéro résultat.
-
-La CI exécute ces contrôles avant le build de l’application.
+- fraîcheur du snapshot politique : maximum 14 jours ;
+- cohérence des statuts et impossibilité de créer implicitement un `official_candidate` ;
+- exigence de source primaire/directe pour un statut candidat à confiance `high` ;
+- intégrité des références documents ↔ propositions ;
+- seuils minimaux de profondeur du corpus ;
+- recherche de mesures de référence via un benchmark avec seuils hit@5 et MRR ;
+- rejet des requêtes sans rapport avec le corpus ;
+- impossibilité pour le modèle d’introduire une entité absente des preuves récupérées ;
+- audit npm de niveau `high` ;
+- build Next.js de production ;
+- tests Playwright Chromium desktop et mobile.
 
 ## Déploiement Netlify
 
@@ -122,36 +124,25 @@ Le dépôt contient `netlify.toml` :
 
 - build : `npm run build` ;
 - publish : `.next` ;
-- Node.js 22.
+- Node.js 22 ;
+- fichiers de données nécessaires aux Functions inclus explicitement.
 
-Netlify détecte Next.js et utilise son adaptateur OpenNext pour l’App Router et les Route Handlers. Il n’est pas nécessaire d’épingler un plugin Next.js spécifique.
+Netlify prend en charge Next.js via OpenNext. Une Edge Function applique également une limite native à `/api/chat` de **8 requêtes par minute**, agrégée par IP et domaine. La route `/api/health` permet de vérifier le snapshot et les compteurs du corpus après déploiement.
 
-Dans Netlify, ajouter les variables d’environnement si le mode LLM doit être activé :
-
-```text
-LLM_API_KEY=...
-# ou OPENAI_API_KEY=...
-LLM_API_URL=https://api.openai.com/v1/chat/completions
-LLM_MODEL=gpt-5-mini
-LLM_TIMEOUT_MS=15000
-NEXT_PUBLIC_REPOSITORY_URL=https://github.com/TFourniax/programmes-politiques-france-2027
-```
-
-Sans clé LLM, l’interface reste utilisable en mode déterministe.
+Voir `docs/DEPLOYMENT.md` pour la checklist de mise en production et de Deploy Preview.
 
 ## Méthode et limites
 
-Principes :
-
 1. Sources primaires d’abord.
-2. Programme de parti ≠ programme personnel d’un candidat.
+2. Programme de parti ≠ engagement personnel d’une personnalité.
 3. Déclaration ≠ investiture ≠ candidature officielle.
-4. Une absence d’information ≠ opposition.
-5. Les anciennes versions restent identifiables comme telles.
+4. Absence d’information ≠ opposition.
+5. Les évolutions de position doivent rester traçables dans le temps.
 6. Les droits de reproduction sont distingués de la simple accessibilité publique.
 7. Les niveaux de confiance qualifient la preuve, pas les chances électorales.
+8. Le corpus doit afficher ses lacunes plutôt que prétendre à une exhaustivité non démontrée.
 
-Voir `METHODOLOGY.md`, `SOURCES_POLICY.md`, `NEUTRALITY_CHARTER.md`, `RIGHTS_AND_LICENSES.md`, `docs/CHATBOT_ARCHITECTURE.md`, `research/missing-information.md` et `research/2026-08-v1-verification-report.md`.
+Voir `METHODOLOGY.md`, `SOURCES_POLICY.md`, `NEUTRALITY_CHARTER.md`, `RIGHTS_AND_LICENSES.md`, `docs/CHATBOT_ARCHITECTURE.md`, `docs/DEPLOYMENT.md`, `research/missing-information.md` et `research/2026-08-v1-verification-report.md`.
 
 ## Licence
 
