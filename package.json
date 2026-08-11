@@ -10,7 +10,7 @@
     "build": "next build",
     "start": "next start",
     "validate:data": "python scripts/validate.py && pytest -q",
-    "test:retrieval": "node scripts/build-search-index.mjs && node scripts/test-retrieval.mjs && node scripts/test-compass.mjs && node scripts/test-explorer.mjs && node scripts/test-benchmark.mjs && node scripts/test-deterministic-rag.mjs && node scripts/simulate-deterministic-answers.mjs",
+    "test:retrieval": "node scripts/build-search-index.mjs && node scripts/test-retrieval.mjs && node scripts/test-compass.mjs && node scripts/test-explorer.mjs && node scripts/test-benchmark.mjs && node scripts/test-deterministic-rag-v2.mjs && node scripts/simulate-deterministic-answers.mjs",
     "test:explorer": "node scripts/build-search-index.mjs && node scripts/test-explorer.mjs",
     "test:e2e": "playwright test"
   },
