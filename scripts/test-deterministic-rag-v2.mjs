@@ -70,7 +70,7 @@ function assertExtractiveFidelity(question) {
   const retrieval = retrieveDeterministic(question, { limit: 10 });
   assert.ok(retrieval.results.length > 0, `expected evidence for extractive fidelity test: ${question}`);
   const answer = composeDeterministicAnswer(question, retrieval.results, { mode, candidates: [] });
-  const sourceTexts = retrieval.results.map((item) => normalized(item.text));
+  const sourceTexts = retrieval.results.map((item) => normalized(`${item.citation?.title || ''}. ${item.text}`));
   for (const card of answer.cards) {
     const claims = [card.summary, ...(card.bullets || [])].filter(Boolean);
     for (const claim of claims) {
@@ -78,6 +78,10 @@ function assertExtractiveFidelity(question) {
     }
     assert.ok((card.sourceNumbers || []).every((number) => number >= 1 && number <= retrieval.results.length));
   }
+}
+
+function entitySet(results) {
+  return new Set(results.map((item) => item.citation?.entityId).filter(Boolean));
 }
 
 const legacy = evaluate('legacy', legacyRetrieve);
@@ -93,6 +97,18 @@ assert.ok(deterministic.hitAt5 >= legacy.hitAt5, `deterministic retrieval regres
 assert.equal(retrieveDeterministic('Quels sont les candidats officiels ?', { limit: 3 }).debug.answerable, true);
 assert.equal(retrieveDeterministic('Quels sont les candidats de Formule 1 ?', { limit: 3 }).debug.answerable, false);
 assert.ok(retrieveDeterministic("Que proposent-ils pour le pouvoir d'achat ?", { limit: 8 }).debug.concepts.some((item) => item.id === 'pouvoir-achat'));
+
+const parcoursup = retrieveDeterministic("Quel projet propose d'abroger Parcoursup ?", { limit: 10 }).results;
+assert.deepEqual([...entitySet(parcoursup)], ['parti-socialiste'], 'Parcoursup answer must stay scoped to the PS evidence actually retrieved');
+
+const carbon = retrieveDeterministic("Qui veut attribuer à chacun un budget personnel d'émissions de CO2 ?", { limit: 10 }).results;
+assert.ok(carbon.some((item) => item.citation?.path === 'proposals/ecologie-energie/equinoxe-quotas-carbone-individuels.md'));
+assert.deepEqual([...entitySet(carbon)], ['equinoxe'], 'specific personal-carbon-budget paraphrase must not activate generic budget/climate cards');
+
+const comparison = retrieveDeterministic('Compare David Lisnard et Renaissance sur les retraites', { limit: 14 }).results;
+assert.ok(comparison.some((item) => item.citation?.entityId === 'david-lisnard'));
+assert.ok(comparison.some((item) => item.citation?.entityId === 'renaissance'));
+assert.ok([...entitySet(comparison)].every((id) => ['david-lisnard','renaissance'].includes(id)), 'targeted comparison must not introduce a third entity');
 
 assertExtractiveFidelity("Quel projet propose d'abroger Parcoursup ?");
 assertExtractiveFidelity("Quel projet veut développer fortement l'atome avec de nouveaux réacteurs ?");
