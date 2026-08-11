@@ -1,0 +1,53 @@
+{
+  "errors": [],
+  "generated_at": "2026-08-11T08:56:11+00:00",
+  "processed": 4,
+  "promoted": 3,
+  "proposals_created": 8,
+  "results": [
+    {
+      "sha256": "5c0ab2abebb587e9620894f29a509c80ee245bb9671e5332f52874d73c1dfdab",
+      "status": "no_canonical_data",
+      "url": "https://www.revolutionpermanente.fr/"
+    },
+    {
+      "document": "corpus/2027/auto/partys/reconquete/2026-08-11-da0508d4a118.md",
+      "proposals": [
+        "proposals/auto/fiscalite-redistribution/auto-reconquete-fiscalite-redistribution-117efe88b94a.md"
+      ],
+      "sha256": "7691023466f5c55c59b1eb557c95e6544ca11a7cd0107885afc2c41d4efde4ef",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://www.parti-reconquete.fr/",
+      "verified_at": "2026-08-11T08:55:59+00:00"
+    },
+    {
+      "document": "corpus/2027/auto/partys/rassemblement-national/2026-08-11-b4e6fdd3c6e7.md",
+      "proposals": [
+        "proposals/auto/fiscalite-redistribution/auto-rassemblement-national-fiscalite-redistribution-650411362d03.md",
+        "proposals/auto/institutions-democratie/auto-rassemblement-national-institutions-democratie-2ec6a69712fb.md",
+        "proposals/auto/ecologie-energie/auto-rassemblement-national-ecologie-energie-e7de1a3e9e8e.md",
+        "proposals/auto/immigration-integration/auto-rassemblement-national-immigration-integration-65a64162aec9.md",
+        "proposals/auto/securite-justice/auto-rassemblement-national-securite-justice-5cb19d0cbcca.md",
+        "proposals/auto/retraites/auto-rassemblement-national-retraites-fd538617cfee.md"
+      ],
+      "sha256": "e9d2ee7a0fba8b07f65a57d2e71d6dd2dda1128fec6a240299a2bf5e3241d158",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://rassemblementnational.fr/",
+      "verified_at": "2026-08-11T08:56:04+00:00"
+    },
+    {
+      "document": "corpus/2027/auto/partys/debout-la-france/2026-08-11-75fc678bc197.md",
+      "proposals": [
+        "proposals/auto/securite-justice/auto-nicolas-dupont-aignan-securite-justice-669906032d5f.md"
+      ],
+      "sha256": "66358660b6c4f54c9bbdc389455e946c23379beda7d80368c9b6e47e166a80b9",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://www.debout-la-france.fr/",
+      "verified_at": "2026-08-11T08:56:10+00:00"
+    }
+  ],
+  "status_updates": 0
+}
