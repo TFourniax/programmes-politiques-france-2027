@@ -10,15 +10,15 @@
       "source_url": "https://rassemblementnational.fr/",
       "verified_at": "2026-08-11T08:56:04+00:00"
     },
+    "39955feaadc3b278ca322db565659a975bd6345206d19646c9f9b72ca6d5e9ca": {
+      "proposal_id": "auto-bruno-retailleau-immigration-integration-39955feaadc3",
+      "source_url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/",
+      "verified_at": "2026-08-11T12:47:28+00:00"
+    },
     "5cb19d0cbcca48aa62454843cfffc8a9e9bebdb8c989c3dbda75427f8181ed2f": {
       "proposal_id": "auto-rassemblement-national-securite-justice-5cb19d0cbcca",
       "source_url": "https://rassemblementnational.fr/",
       "verified_at": "2026-08-11T08:56:04+00:00"
-    },
-    "5cb5164cfc21cb9db20760098e5099452dcd853006f319d4ac9d5814b4a025eb": {
-      "proposal_id": "auto-equinoxe-fiscalite-redistribution-5cb5164cfc21",
-      "source_url": "https://parti-equinoxe.fr/programme-europeennes-2024-mesure-phare-9-finance/",
-      "verified_at": "2026-08-11T09:26:40+00:00"
     },
     "650411362d03872861a7f4d286f571acb362877abed12c6e252c0d6cc9a64d61": {
       "proposal_id": "auto-rassemblement-national-fiscalite-redistribution-650411362d03",
@@ -35,10 +35,20 @@
       "source_url": "https://www.debout-la-france.fr/",
       "verified_at": "2026-08-11T08:56:10+00:00"
     },
+    "703dc438f470887f6e8b5470fb7e5ab16c319d78084c8c08d3e5b782df15affb": {
+      "proposal_id": "auto-bruno-retailleau-securite-justice-703dc438f470",
+      "source_url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/",
+      "verified_at": "2026-08-11T12:47:28+00:00"
+    },
     "e7de1a3e9e8e086f1c4d33a1e365ba1b4faec5b89fb38e0f30651f2e9ea949d1": {
       "proposal_id": "auto-rassemblement-national-ecologie-energie-e7de1a3e9e8e",
       "source_url": "https://rassemblementnational.fr/",
       "verified_at": "2026-08-11T08:56:04+00:00"
+    },
+    "ed8d0d14bccbaa4f2a5f530d5d663c70260717739031c15eb14560aa5fe1b8ba": {
+      "proposal_id": "auto-bruno-retailleau-europe-souverainete-ed8d0d14bccb",
+      "source_url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/",
+      "verified_at": "2026-08-11T12:47:28+00:00"
     },
     "fd538617cfeec7a9feb9bd0ba0a5f7d384bd33407f9079bd4479f25f40b2c9f5": {
       "proposal_id": "auto-rassemblement-national-retraites-fd538617cfee",
@@ -46,10 +56,106 @@
       "verified_at": "2026-08-11T08:56:04+00:00"
     }
   },
-  "last_error_count": 1,
-  "last_processed_count": 2,
-  "last_run_at": "2026-08-11T12:15:02+00:00",
+  "last_error_count": 0,
+  "last_processed_count": 3,
+  "last_run_at": "2026-08-11T12:47:35+00:00",
   "source_chunks": {
+    "170a10d674b56149b768f432": {
+      "claims": [
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "réduire drastiquement l’immigration",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau souhaite réduire drastiquement l'immigration par référendum.",
+            "topic": "immigration-integration"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La source indique explicitement que Bruno Retailleau souhaite réduire drastiquement l'immigration par référendum.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "révolution de notre justice pénale",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau propose d'engager une révolution de la justice pénale par référendum.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La source contient la citation exacte sur la révolution de la justice pénale par référendum.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "redonner la primauté à notre droit national",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau souhaite redonner la primauté au droit national par référendum.",
+            "topic": "europe-souverainete"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "La source confirme explicitement le souhait de redonner la primauté au droit national par référendum.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "completed_at": "2026-08-11T12:47:28+00:00",
+      "created_at": "2026-08-11T12:47:25+00:00",
+      "document_types": [
+        "candidacy_declaration"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-02-12"
+      ],
+      "sha256": "b1dad3bffd47cf8f457fcddf4af3f2756bbac558a8ee6321ce6db52d64e63d0d",
+      "source_title": "Je suis candidat à l'élection présidentielle. - Les Républicains",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-11T12:47:28+00:00",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
+    "34981b1b3f4fa162a914e7ed": {
+      "claims": [],
+      "created_at": "2026-08-11T12:47:32+00:00",
+      "document_types": [
+        "party_programme"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "f59d0ebb3d1012043693afacc4edacc46f031d6229fd0f26e819656d6c39b4f0",
+      "source_title": "Programme législatives 2022 : Cohésion - Parti Équinoxe",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-11T12:47:35+00:00",
+      "url": "https://parti-equinoxe.fr/legislatives-2022-programme-cohesion/"
+    },
     "3cdb80beb320932b7b250b4b": {
       "claims": [],
       "created_at": "2026-08-11T12:15:00+00:00",
@@ -112,6 +218,27 @@
       "updated_at": "2026-08-11T12:14:58+00:00",
       "url": "https://www.unenouvelleenergie.fr/questions/david-lisnard-est-il-candidat-a-la-presidentielle-2027/"
     },
+    "6e14d327d322b89d02548a7c": {
+      "claims": [],
+      "created_at": "2026-08-11T12:47:29+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [
+        "2026-08-10"
+      ],
+      "sha256": "6cfc68242b12568c508b460060460a472a4c661fd9e2f30eae0909a770249078",
+      "source_title": "AMFIS 2026 : le programme est en ligne ! - La France insoumise",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-11T12:47:31+00:00",
+      "url": "https://lafranceinsoumise.fr/2026/08/10/amfis-2026-le-programme-est-en-ligne/"
+    },
     "daf38b4b7d9859ed7f72340d": {
       "claims": [],
       "created_at": "2026-08-11T12:15:03+00:00",
@@ -135,9 +262,9 @@
   "sources": {
     "20d46eb53f88": {
       "processed_at": "2026-08-11T09:26:34+00:00",
-      "reason": null,
+      "reason": "explicit_old_election_context",
       "source_sha256": "a124d68fa237b3543e9b1ee7a470f26edc1af0d85f2640ae2f87478ca4acca23",
-      "status": "no_canonical_data",
+      "status": "historical_skipped",
       "url": "https://parti-equinoxe.fr/programme-europeennes-2024-mesure-phare-10-legislation/"
     },
     "549dcbd84e3e": {
@@ -170,6 +297,15 @@
       "status": "promoted",
       "url": "https://www.parti-reconquete.fr/"
     },
+    "a940f9722ea1": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-08-11T12:47:28+00:00",
+      "reason": null,
+      "source_sha256": "b1dad3bffd47cf8f457fcddf4af3f2756bbac558a8ee6321ce6db52d64e63d0d",
+      "status": "promoted",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
     "b7d424251e5b": {
       "processed_at": "2026-08-11T08:55:55+00:00",
       "reason": null,
@@ -179,16 +315,25 @@
     },
     "b9ea09e1f9b0": {
       "processed_at": "2026-08-11T09:26:30+00:00",
-      "reason": null,
+      "reason": "explicit_old_election_context",
       "source_sha256": "4643ceed4fc849e61634cb89611d8d6b0ffffabb1a2df95845e19e65456585a2",
-      "status": "no_canonical_data",
+      "status": "historical_skipped",
       "url": "https://parti-equinoxe.fr/programme-europeennes-2024-mesure-phare-3-numerique/"
+    },
+    "c5db3b02850c": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-11T12:47:31+00:00",
+      "reason": null,
+      "source_sha256": "6cfc68242b12568c508b460060460a472a4c661fd9e2f30eae0909a770249078",
+      "status": "not_confirmed",
+      "url": "https://lafranceinsoumise.fr/2026/08/10/amfis-2026-le-programme-est-en-ligne/"
     },
     "c8dcd8ecba07": {
       "processed_at": "2026-08-11T09:26:40+00:00",
-      "reason": null,
+      "reason": "explicit_old_election_context",
       "source_sha256": "7585ecc99afb81b4868b5c8551f936414c53406599156c683d123c3ef7efdee2",
-      "status": "promoted",
+      "status": "historical_skipped",
       "url": "https://parti-equinoxe.fr/programme-europeennes-2024-mesure-phare-9-finance/"
     },
     "d5d359c8e31c": {
@@ -214,6 +359,15 @@
       "processed_at": "2026-08-11T12:14:59+00:00",
       "status": "technical_error",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
+    "f3bbbb615f8e": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-11T12:47:35+00:00",
+      "reason": null,
+      "source_sha256": "f59d0ebb3d1012043693afacc4edacc46f031d6229fd0f26e819656d6c39b4f0",
+      "status": "not_confirmed",
+      "url": "https://parti-equinoxe.fr/legislatives-2022-programme-cohesion/"
     }
   },
   "version": 2

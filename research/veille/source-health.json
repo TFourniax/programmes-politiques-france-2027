@@ -1,0 +1,249 @@
+{
+  "generated_at": "2026-08-11T12:43:17+00:00",
+  "persistent_failure_count": 0,
+  "persistent_failure_threshold_runs": 4,
+  "persistent_failures": [],
+  "sources": {
+    "https://doc.parti.re/Conventions-thematiques_Nouvelle-donne.pdf": {
+      "consecutive_failures": 0,
+      "first_failure_at": null,
+      "last_success_at": "2026-08-11T12:43:17+00:00",
+      "owner": "Renaissance",
+      "status": "ok",
+      "url": "https://doc.parti.re/Conventions-thematiques_Nouvelle-donne.pdf"
+    },
+    "https://doc.parti.re/conventions/Restitution-Regalien-Une-Republique-ferme-une-France-apaisee.pdf": {
+      "consecutive_failures": 0,
+      "first_failure_at": null,
+      "last_success_at": "2026-08-11T12:43:17+00:00",
+      "owner": "Renaissance",
+      "status": "ok",
+      "url": "https://doc.parti.re/conventions/Restitution-Regalien-Une-Republique-ferme-une-France-apaisee.pdf"
+    },
+    "https://generationecologie.fr/": {
+      "consecutive_failures": 0,
+      "first_failure_at": null,
+      "last_success_at": "2026-08-11T12:43:17+00:00",
+      "owner": "Génération Écologie",
+      "status": "ok",
+      "url": "https://generationecologie.fr/"
+    },
+    "https://horizonsleparti.fr/": {
+      "consecutive_failures": 0,
+      "first_failure_at": null,
+      "last_success_at": "2026-08-11T12:43:17+00:00",
+      "owner": "Horizons",
+      "status": "ok",
+      "url": "https://horizonsleparti.fr/"
+    },
+    "https://horizonsleparti.fr/evenement/grand-meeting-dedouard-philippe-a-ladidas-arena/": {
+      "consecutive_failures": 0,
+      "first_failure_at": null,
+      "last_success_at": "2026-08-11T12:43:17+00:00",
+      "owner": "Édouard Philippe",
+      "status": "ok",
+      "url": "https://horizonsleparti.fr/evenement/grand-meeting-dedouard-philippe-a-ladidas-arena/"
+    },
+    "https://horizonsleparti.fr/le-pole-idees/": {
+      "consecutive_failures": 0,
+      "first_failure_at": null,
+      "last_success_at": "2026-08-11T12:43:17+00:00",
+      "owner": "Horizons",
+      "status": "ok",
+      "url": "https://horizonsleparti.fr/le-pole-idees/"
+    },
+    "https://lafranceinsoumise.fr/": {
+      "consecutive_failures": 0,
+      "first_failure_at": null,
+      "last_success_at": "2026-08-11T12:43:17+00:00",
+      "owner": "La France insoumise",
+      "status": "ok",
+      "url": "https://lafranceinsoumise.fr/"
+    },
+    "https://lafranceinsoumise.fr/2026/06/22/parrainages-elus-pour-election-presidentielle-2027/": {
+      "consecutive_failures": 0,
+      "first_failure_at": null,
+      "last_success_at": "2026-08-11T12:43:17+00:00",
+      "owner": "Jean-Luc Mélenchon",
+      "status": "ok",
+      "url": "https://lafranceinsoumise.fr/2026/06/22/parrainages-elus-pour-election-presidentielle-2027/"
+    },
+    "https://les-patriotes.fr/": {
+      "consecutive_failures": 0,
+      "first_failure_at": null,
+      "last_success_at": "2026-08-11T12:43:17+00:00",
+      "owner": "Les Patriotes",
+      "status": "ok",
+      "url": "https://les-patriotes.fr/"
+    },
+    "https://lesecologistes.fr/": {
+      "consecutive_failures": 0,
+      "first_failure_at": null,
+      "last_success_at": "2026-08-11T12:43:17+00:00",
+      "owner": "Les Écologistes",
+      "status": "ok",
+      "url": "https://lesecologistes.fr/"
+    },
+    "https://marinetondelier.fr/blog/instinct-primaire": {
+      "consecutive_failures": 0,
+      "first_failure_at": null,
+      "last_success_at": "2026-08-11T12:43:17+00:00",
+      "owner": "Marine Tondelier",
+      "status": "ok",
+      "url": "https://marinetondelier.fr/blog/instinct-primaire"
+    },
+    "https://parti-equinoxe.fr/": {
+      "consecutive_failures": 0,
+      "first_failure_at": null,
+      "last_success_at": "2026-08-11T12:43:17+00:00",
+      "owner": "Équinoxe",
+      "status": "ok",
+      "url": "https://parti-equinoxe.fr/"
+    },
+    "https://parti-renaissance.fr/": {
+      "consecutive_failures": 0,
+      "first_failure_at": null,
+      "last_success_at": "2026-08-11T12:43:17+00:00",
+      "owner": "Renaissance",
+      "status": "ok",
+      "url": "https://parti-renaissance.fr/"
+    },
+    "https://place-publique.eu/": {
+      "consecutive_failures": 0,
+      "first_failure_at": null,
+      "last_success_at": "2026-08-11T12:43:17+00:00",
+      "owner": "Place publique",
+      "status": "ok",
+      "url": "https://place-publique.eu/"
+    },
+    "https://place-publique.eu/pages/6mRSwq5tuSrSi68Cw1IADX/l-acte-i": {
+      "consecutive_failures": 0,
+      "first_failure_at": null,
+      "last_success_at": "2026-08-11T12:43:17+00:00",
+      "owner": "Raphaël Glucksmann",
+      "status": "ok",
+      "url": "https://place-publique.eu/pages/6mRSwq5tuSrSi68Cw1IADX/l-acte-i"
+    },
+    "https://programme.lafranceinsoumise.fr/": {
+      "consecutive_failures": 1,
+      "first_failure_at": "2026-08-11T12:43:17+00:00",
+      "last_failure_at": "2026-08-11T12:43:17+00:00",
+      "owner": "La France insoumise",
+      "status": "transient_failure",
+      "url": "https://programme.lafranceinsoumise.fr/"
+    },
+    "https://rassemblementnational.fr/": {
+      "consecutive_failures": 0,
+      "first_failure_at": null,
+      "last_success_at": "2026-08-11T12:43:17+00:00",
+      "owner": "Rassemblement national",
+      "status": "ok",
+      "url": "https://rassemblementnational.fr/"
+    },
+    "https://republicains.fr/": {
+      "consecutive_failures": 0,
+      "first_failure_at": null,
+      "last_success_at": "2026-08-11T12:43:17+00:00",
+      "owner": "Les Républicains",
+      "status": "ok",
+      "url": "https://republicains.fr/"
+    },
+    "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/": {
+      "consecutive_failures": 0,
+      "first_failure_at": null,
+      "last_success_at": "2026-08-11T12:43:17+00:00",
+      "owner": "Bruno Retailleau",
+      "status": "ok",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
+    "https://www.debout-la-france.fr/": {
+      "consecutive_failures": 0,
+      "first_failure_at": null,
+      "last_success_at": "2026-08-11T12:43:17+00:00",
+      "owner": "Debout la France",
+      "status": "ok",
+      "url": "https://www.debout-la-france.fr/"
+    },
+    "https://www.debout-la-france.fr/notre-projet/": {
+      "consecutive_failures": 0,
+      "first_failure_at": null,
+      "last_success_at": "2026-08-11T12:43:17+00:00",
+      "owner": "Debout la France",
+      "status": "ok",
+      "url": "https://www.debout-la-france.fr/notre-projet/"
+    },
+    "https://www.jerome-guedj.fr/la-clarte-plutot-que-les-slogans-pourquoi-jai-annonce-ma-candidature-pour-2027/": {
+      "consecutive_failures": 0,
+      "first_failure_at": null,
+      "last_success_at": "2026-08-11T12:43:17+00:00",
+      "owner": "Jérôme Guedj",
+      "status": "ok",
+      "url": "https://www.jerome-guedj.fr/la-clarte-plutot-que-les-slogans-pourquoi-jai-annonce-ma-candidature-pour-2027/"
+    },
+    "https://www.lutte-ouvriere.org/": {
+      "consecutive_failures": 0,
+      "first_failure_at": null,
+      "last_success_at": "2026-08-11T12:43:17+00:00",
+      "owner": "Lutte ouvrière",
+      "status": "ok",
+      "url": "https://www.lutte-ouvriere.org/"
+    },
+    "https://www.parti-reconquete.fr/": {
+      "consecutive_failures": 0,
+      "first_failure_at": null,
+      "last_success_at": "2026-08-11T12:43:17+00:00",
+      "owner": "Reconquête",
+      "status": "ok",
+      "url": "https://www.parti-reconquete.fr/"
+    },
+    "https://www.parti-socialiste.fr/": {
+      "consecutive_failures": 0,
+      "first_failure_at": null,
+      "last_success_at": "2026-08-11T12:43:17+00:00",
+      "owner": "Parti socialiste",
+      "status": "ok",
+      "url": "https://www.parti-socialiste.fr/"
+    },
+    "https://www.pcf.fr/": {
+      "consecutive_failures": 1,
+      "first_failure_at": "2026-08-11T12:43:17+00:00",
+      "last_failure_at": "2026-08-11T12:43:17+00:00",
+      "owner": "Parti communiste français",
+      "status": "transient_failure",
+      "url": "https://www.pcf.fr/"
+    },
+    "https://www.revolutionpermanente.fr/": {
+      "consecutive_failures": 0,
+      "first_failure_at": null,
+      "last_success_at": "2026-08-11T12:43:17+00:00",
+      "owner": "Révolution Permanente",
+      "status": "ok",
+      "url": "https://www.revolutionpermanente.fr/"
+    },
+    "https://www.unenouvelleenergie.fr/": {
+      "consecutive_failures": 0,
+      "first_failure_at": null,
+      "last_success_at": "2026-08-11T12:43:17+00:00",
+      "owner": "Nouvelle Énergie",
+      "status": "ok",
+      "url": "https://www.unenouvelleenergie.fr/"
+    },
+    "https://www.unenouvelleenergie.fr/notre-programme/": {
+      "consecutive_failures": 0,
+      "first_failure_at": null,
+      "last_success_at": "2026-08-11T12:43:17+00:00",
+      "owner": "Nouvelle Énergie",
+      "status": "ok",
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/"
+    },
+    "https://www.upr.fr/": {
+      "consecutive_failures": 0,
+      "first_failure_at": null,
+      "last_success_at": "2026-08-11T12:43:17+00:00",
+      "owner": "Union populaire républicaine",
+      "status": "ok",
+      "url": "https://www.upr.fr/"
+    }
+  },
+  "version": 1
+}
