@@ -2,7 +2,9 @@
 from __future__ import annotations
 
 import json
+import re
 import time
+from pathlib import Path
 from typing import Any
 
 import requests
@@ -86,6 +88,15 @@ VERIFICATION_SCHEMA: dict[str, Any] = {
     "additionalProperties": False,
 }
 
+BACKLOG_HINTS = (
+    "2027", "president", "président", "programme", "projet", "proposition",
+    "question", "mesure", "retraite", "immigration", "fiscal", "impot",
+    "impôt", "securite", "sécurité", "justice", "ecologie", "écologie",
+    "energie", "énergie", "education", "éducation", "sante", "santé",
+    "europe", "emploi", "travail", "logement", "institution", "democratie",
+    "démocratie", "budget", "economie", "économie",
+)
+
 
 def schema_for_prompt(prompt: str) -> dict[str, Any]:
     if "second vérificateur indépendant" in prompt:
@@ -135,8 +146,74 @@ def strict_gemini(api_key: str, prompt: str, model: str) -> dict[str, Any]:
     raise RuntimeError(last)
 
 
+def backlog_candidate(url: str, metadata: dict[str, Any]) -> bool:
+    """Keep recent URLs and obviously programmatic URLs; avoid draining ancient sitemap noise."""
+    haystack = auto_promote.fold(url)
+    if any(auto_promote.fold(hint) in haystack for hint in BACKLOG_HINTS):
+        return True
+    lastmod = str(metadata.get("lastmod") or "")
+    match = re.match(r"^(\d{4})", lastmod)
+    return bool(match and int(match.group(1)) >= 2025)
+
+
+def state_backlog_events(state_path: Path | None = None) -> list[dict[str, Any]]:
+    path = state_path or (auto_promote.ROOT / "research" / "veille" / "state.json")
+    if not path.exists():
+        return []
+    try:
+        state = json.loads(path.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError):
+        return []
+    seen = state.get("official_seen_urls") or {}
+    if not isinstance(seen, dict):
+        return []
+    out: list[dict[str, Any]] = []
+    for url, metadata in seen.items():
+        if not isinstance(metadata, dict) or not metadata.get("owner"):
+            continue
+        if not backlog_candidate(str(url), metadata):
+            continue
+        observed = str(metadata.get("first_seen_at") or state.get("last_run_at") or "")
+        lastmod = str(metadata.get("lastmod") or "") or None
+        out.append({
+            "event_type": "official_new_url",
+            "observed_at": observed,
+            "owner": str(metadata["owner"]),
+            "priority": "high",
+            "published_at": lastmod,
+            "source_tier": "tier_1_primary_official",
+            "title": None,
+            "url": str(url),
+            "verification_state": "needs_review",
+            "provenance": "durable_official_sitemap_backlog",
+        })
+    return out
+
+
+def durable_load_events() -> list[dict[str, Any]]:
+    """Merge transient daily events with the durable sitemap state, deduplicated by URL/version."""
+    events = list(ORIGINAL_LOAD_EVENTS())
+    existing = {
+        (str(item.get("url") or ""), str(item.get("sha256") or item.get("published_at") or item.get("observed_at") or ""))
+        for item in events
+    }
+    for event in state_backlog_events():
+        key = (
+            str(event.get("url") or ""),
+            str(event.get("sha256") or event.get("published_at") or event.get("observed_at") or ""),
+        )
+        if key not in existing:
+            events.append(event)
+            existing.add(key)
+    return events
+
+
+ORIGINAL_LOAD_EVENTS = auto_promote.load_events
+
+
 def main() -> None:
     auto_promote.gemini = strict_gemini
+    auto_promote.load_events = durable_load_events
     auto_promote.main()
 
 
