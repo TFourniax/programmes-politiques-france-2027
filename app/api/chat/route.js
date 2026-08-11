@@ -5,7 +5,6 @@ import { groupPoliticalCards } from "../../../lib/card-grouping.js";
 import {
   candidateEvidence,
   classifyQuestion,
-  fallbackStructuredAnswer,
   hydrateStructuredAnswer,
   resolveRetrievalQuery,
   selectCandidates
@@ -37,8 +36,22 @@ function citationsFromEvidence(evidence) {
   return evidence.map((item,index) => ({ number:index+1,...item.citation,score:item.score }));
 }
 
+function noDataAnswer(question) {
+  return {
+    layout: "overview",
+    title: "Aucune donnée pertinente dans le corpus",
+    summary: `Le corpus ne contient pas d’élément suffisamment pertinent pour répondre à « ${question} ». Je préfère ne pas afficher de résultats approximatifs ou hors sujet.`,
+    note: "La réponse reste strictement limitée aux données politiques versionnées dans le dépôt.",
+    sections: [],
+    cards: [],
+    followUps: []
+  };
+}
+
 function supportedFollowUp(question) {
-  if (selectCandidates(question).length) return true;
+  if (selectCandidates(question).length) {
+    return retrieve(question,{limit:1,minScore:2.1}).debug.answerable === true;
+  }
   return retrieve(question,{limit:3,minScore:2.1}).results.length > 0;
 }
 
@@ -57,8 +70,16 @@ export async function POST(request) {
   let evidence;
   let retrievalDebug;
   if (mode === "candidates") {
+    // Candidate questions normally use deterministic registry records, but they still
+    // need a scope check. "Quels sont les candidats de Formule 1 ?" must not turn
+    // into a list of presidential candidates merely because the word candidat appears.
+    const scopeProbe = retrieve(retrievalQuery,{limit:1});
+    retrievalDebug = {...scopeProbe.debug, mode, directCandidateRecords:candidates.length, query:retrievalQuery};
+    if (!scopeProbe.debug.answerable) {
+      const answer = noDataAnswer(question);
+      return NextResponse.json({answer,citations:[],retrieval:retrievalDebug,generated:false,providerError:null});
+    }
     evidence = candidates.map(candidateEvidence);
-    retrievalDebug = { mode, directCandidateRecords:candidates.length, query:question };
   } else {
     const limit = mode === "comparison" ? 12 : mode === "measures" ? 10 : 8;
     const retrieval = retrieve(retrievalQuery,{limit});
@@ -67,7 +88,7 @@ export async function POST(request) {
   }
 
   if (!evidence.length) {
-    const answer = fallbackStructuredAnswer(question,[],{mode,candidates});
+    const answer = noDataAnswer(question);
     return NextResponse.json({answer,citations:[],retrieval:retrievalDebug,generated:false,providerError:null});
   }
 
