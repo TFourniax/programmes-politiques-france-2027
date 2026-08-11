@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import CandidateExplorer from "./CandidateExplorer.js";
 import ComparisonExplorer from "./ComparisonExplorer.js";
+import HistoryExplorer from "./HistoryExplorer.js";
 import IssueCompass from "./IssueCompass.js";
 import KnowledgeQuiz from "./KnowledgeQuiz.js";
 import TopicExplorer from "./TopicExplorer.js";
@@ -15,7 +16,7 @@ const EXAMPLES = [
   "Quelles propositions fiscales sont actuellement sourcées ?"
 ];
 
-const MODES = new Set(["chat", "compare", "candidates", "topics", "compass", "quiz"]);
+const MODES = new Set(["chat", "compare", "candidates", "topics", "history", "compass", "quiz"]);
 
 async function fetchJson(path, options = {}) {
   const response = await fetch(path, { cache: "no-store", ...options });
@@ -35,12 +36,12 @@ function confidenceLabel(value) {
   return value || "";
 }
 
-function SourceRefs({ numbers = [] }) {
+function SourceRefs({ numbers = [], onShowSources }) {
   if (!numbers.length) return null;
-  return <div className="answerSources">{numbers.map(number => <span key={number}>Source {number}</span>)}</div>;
+  return <div className="answerSources">{numbers.map(number => <button type="button" key={number} onClick={() => onShowSources?.([number])}>Source {number}</button>)}</div>;
 }
 
-function AnswerCard({ card }) {
+function AnswerCard({ card, onShowSources }) {
   const candidate = card.entityType === "candidate";
   return <article className={`answerCard ${candidate ? "candidateCard" : ""}`} style={{"--party-color":card.partyColor || "#748196"}}>
     <div className="cardAccent" />
@@ -58,12 +59,12 @@ function AnswerCard({ card }) {
       {card.confidence && <span>{confidenceLabel(card.confidence)}</span>}
       {candidate && !card.officialCandidate && <span>pas encore « candidat officiel »</span>}
     </div>
-    <SourceRefs numbers={card.sourceNumbers} />
+    <SourceRefs numbers={card.sourceNumbers} onShowSources={onShowSources} />
     {card.sourceUrl && <a className="cardSourceLink" href={card.sourceUrl} target="_blank" rel="noreferrer">Vérifier la source ↗</a>}
   </article>;
 }
 
-function StructuredAnswer({ answer, onFollowUp }) {
+function StructuredAnswer({ answer, onFollowUp, onShowSources }) {
   if (!answer || typeof answer !== "object") return null;
   return <div className={`structuredAnswer layout-${answer.layout || "overview"}`}>
     <div className="answerHeading"><span className="answerEyebrow">Réponse du corpus</span><h4>{answer.title}</h4>{answer.summary && <p>{answer.summary}</p>}</div>
@@ -71,9 +72,9 @@ function StructuredAnswer({ answer, onFollowUp }) {
       {section.title && <h5>{section.title}</h5>}
       {section.text && <p>{section.text}</p>}
       {section.bullets?.length > 0 && <ul className="answerBullets">{section.bullets.map((bullet,i)=><li key={i}>{bullet}</li>)}</ul>}
-      <SourceRefs numbers={section.sourceNumbers} />
+      <SourceRefs numbers={section.sourceNumbers} onShowSources={onShowSources} />
     </section>)}</div>}
-    {answer.cards?.length > 0 && <div className={`answerGrid ${answer.layout === "comparison" ? "comparisonGrid" : ""}`}>{answer.cards.map((card,index)=><AnswerCard card={card} key={`${card.entityId || card.title}-${index}`} />)}</div>}
+    {answer.cards?.length > 0 && <div className={`answerGrid ${answer.layout === "comparison" ? "comparisonGrid" : ""}`}>{answer.cards.map((card,index)=><AnswerCard card={card} onShowSources={onShowSources} key={`${card.entityId || card.title}-${index}`} />)}</div>}
     {answer.note && <div className="answerNote">{answer.note}</div>}
     {answer.followUps?.length > 0 && <div className="followUpBlock"><span>Pour aller plus loin</span><div className="followUps">{answer.followUps.map(item=><button key={item} onClick={()=>onFollowUp(item)}>{item}<b>↗</b></button>)}</div></div>}
   </div>;
@@ -87,6 +88,7 @@ function SourceCard({ citation, number }) {
     <div className="sourceTags">
       {citation.kind && <span className="tag">{citation.kind}</span>}
       {citation.documentStatus && <span className="tag">{citation.documentStatus}</span>}
+      {citation.proposalStatus && <span className="tag">proposition: {citation.proposalStatus}</span>}
       {citation.candidateStatus && <span className="tag">candidat: {citation.candidateStatus}</span>}
       {citation.confidence && <span className="tag">preuve: {citation.confidence}</span>}
       {citation.certainty && <span className="tag">certitude: {citation.certainty}</span>}
@@ -105,12 +107,16 @@ function messageHistoryContent(message) {
   return "";
 }
 
+function latestSessionContext(messages) {
+  return [...messages].reverse().find((message) => message?.sessionContext)?.sessionContext || {};
+}
+
 export default function ChatApp() {
   const [meta, setMeta] = useState(null);
   const [apiStatus, setApiStatus] = useState("checking");
   const [question, setQuestion] = useState("");
   const [loading, setLoading] = useState(false);
-  const [citations, setCitations] = useState([]);
+  const [sourceView, setSourceView] = useState({ citations: [], numbers: null });
   const [mode, setMode] = useState("chat");
   const [answerScrollSignal, setAnswerScrollSignal] = useState(0);
   const [messages, setMessages] = useState([{role:"assistant", text:"Posez une question sur les candidatures, programmes ou propositions actuellement documentés. Je réponds uniquement à partir du corpus de ce dépôt et je montre les sources utilisées."}]);
@@ -149,14 +155,19 @@ export default function ChatApp() {
     const value = String(forced ?? question).trim();
     if (!value || loading) return;
     const history = messages.slice(-6).map(message => ({role:message.role,content:messageHistoryContent(message)})).filter(item=>item.content);
+    const sessionContext = latestSessionContext(messages);
     setQuestion("");
     setMessages(m => [...m, {role:"user", text:value}]);
     setLoading(true);
     try {
-      const data = await fetchJson("/api/chat", {method:"POST",headers:{"content-type":"application/json"},body:JSON.stringify({question:value,history})});
+      const data = await fetchJson("/api/chat", {method:"POST",headers:{"content-type":"application/json"},body:JSON.stringify({question:value,history,sessionContext})});
       setApiStatus("ready");
-      setCitations(data.citations || []);
-      setMessages(m => [...m, {role:"assistant", answer:data.answer, meta:data.generated === false ? "Organisation déterministe à partir du corpus" : "Synthèse OpenAI strictement limitée aux éléments du corpus"}]);
+      const citations = data.citations || [];
+      setSourceView({ citations, numbers: null });
+      const metaText = data.retrievalAssisted
+        ? "Compréhension assistée · résultats revalidés · réponse extractive"
+        : "Organisation déterministe à partir du corpus";
+      setMessages(m => [...m, {role:"assistant", answer:data.answer, citations, sessionContext:data.sessionContext || sessionContext, meta:metaText}]);
       setAnswerScrollSignal(value => value + 1);
     } catch (error) {
       setApiStatus("error");
@@ -178,6 +189,9 @@ export default function ChatApp() {
 
   const counts = meta?.counts || {};
   const apiLabel = apiStatus === "ready" ? "API corpus prête" : apiStatus === "error" ? "API indisponible" : "vérification API…";
+  const visibleSources = sourceView.numbers?.length
+    ? sourceView.numbers.map((number) => ({ number, citation: sourceView.citations[number - 1] })).filter((item) => item.citation)
+    : sourceView.citations.map((citation, index) => ({ number: index + 1, citation }));
 
   let content;
   if (mode === "chat") {
@@ -185,16 +199,17 @@ export default function ChatApp() {
       <div className="panel">
         <div className="chatHeader"><h3>Questionner le corpus</h3><span className="status">{apiStatus === "ready" && <i />}{apiLabel}</span></div>
         <div className="messages" ref={messagesRef}>
-          {messages.map((m,i) => <div data-answer-anchor={m.role === "assistant" && i > 0 ? "true" : undefined} className={`message ${m.role} ${m.answer ? "structuredMessage" : ""}`} key={i}>{m.answer ? <StructuredAnswer answer={m.answer} onFollowUp={ask} /> : m.text}{m.meta && <div className="messageMeta">{m.meta}</div>}</div>)}
+          {messages.map((m,i) => <div data-answer-anchor={m.role === "assistant" && i > 0 ? "true" : undefined} className={`message ${m.role} ${m.answer ? "structuredMessage" : ""}`} key={i}>{m.answer ? <StructuredAnswer answer={m.answer} onFollowUp={ask} onShowSources={(numbers) => setSourceView({ citations: m.citations || [], numbers })} /> : m.text}{m.meta && <div className="messageMeta">{m.meta}</div>}</div>)}
           {loading && <div className="message assistant loadingMessage"><span className="loadingDot" />Recherche et organisation des éléments pertinents…</div>}
         </div>
         <div className="composer"><div className="inputWrap"><textarea value={question} onChange={e=>setQuestion(e.target.value)} onKeyDown={e=>{if(e.key==="Enter"&&!e.shiftKey){e.preventDefault();ask();}}} placeholder="Ex. Compare les positions documentées sur les retraites…"/><button className="send" onClick={()=>ask()} disabled={loading || !question.trim()}>↑</button></div><div className="examples">{EXAMPLES.map(x=><button className="example" key={x} onClick={()=>ask(x)}>{x}</button>)}</div></div>
       </div>
-      <aside className="panel sourcesPanel"><div className="sourcesHeader"><h3>Sources utilisées</h3><span className="status">{citations.length ? `${citations.length} éléments` : "en attente"}</span></div><div className="sources">{citations.length ? citations.map((c,i)=><SourceCard citation={c} number={i+1} key={`${c.path}-${c.entityId || "source"}-${i}`}/>) : <div className="empty">Les fichiers du dépôt et les sources originales apparaîtront ici après votre première question. Le chatbot n’utilise pas le web en direct : sa base est le corpus versionné du projet.</div>}</div></aside>
+      <aside className="panel sourcesPanel"><div className="sourcesHeader"><h3>Sources de la réponse sélectionnée</h3><span className="status">{visibleSources.length ? `${visibleSources.length} éléments` : "en attente"}</span></div><div className="sources">{visibleSources.length ? visibleSources.map(({citation,number})=><SourceCard citation={citation} number={number} key={`${citation.path}-${citation.entityId || "source"}-${number}`}/>) : <div className="empty">Chaque réponse conserve désormais ses propres sources. Cliquez sur « Source N » dans une réponse pour afficher exactement les documents qui la soutiennent.</div>}</div></aside>
     </section>;
   } else if (mode === "compare") content = <ComparisonExplorer onExplore={exploreFromFeature} />;
   else if (mode === "candidates") content = <CandidateExplorer onExplore={exploreFromFeature} onNavigate={switchMode} />;
   else if (mode === "topics") content = <TopicExplorer onExplore={exploreFromFeature} onNavigate={switchMode} />;
+  else if (mode === "history") content = <HistoryExplorer />;
   else if (mode === "quiz") content = <KnowledgeQuiz onExplore={exploreFromFeature} />;
   else content = <IssueCompass onExplore={exploreFromFeature} />;
 
@@ -204,7 +219,7 @@ export default function ChatApp() {
       <a className="headerLink" href="https://github.com/TFourniax/programmes-politiques-france-2027" target="_blank" rel="noreferrer">Voir le dépôt ↗</a>
     </header>
     <section className="hero">
-      <div><span className="kicker">Source ouverte · versionnée · vérifiable</span><h2>Comprendre avant de choisir.</h2><p className="heroText">Questionnez, comparez et explorez ce qui est réellement documenté dans les programmes, projets, discours et déclarations suivis par le dépôt — avec les sources et les lacunes visibles.</p></div>
+      <div><span className="kicker">Source ouverte · versionnée · vérifiable</span><h2>Comprendre avant de choisir.</h2><p className="heroText">Questionnez, comparez et explorez ce qui est réellement documenté dans les programmes, projets, discours et déclarations suivis par le dépôt — avec les sources, les anciennes versions et les lacunes visibles.</p></div>
       <div className="warning">Instantané <strong>{meta?.snapshotDate || "préélectoral"}</strong>. « Suivi », « déclaré », « investi » et « candidat officiel » sont des statuts différents. Une donnée absente du corpus n’est jamais interprétée comme une opposition.</div>
     </section>
     <section className="metrics">
@@ -218,6 +233,7 @@ export default function ChatApp() {
       <button className={mode === "compare" ? "active" : ""} onClick={() => switchMode("compare")}><span>Comparer</span><small>2 à 4 personnalités</small></button>
       <button className={mode === "candidates" ? "active" : ""} onClick={() => switchMode("candidates")}><span>Candidats</span><small>Fiches & timeline</small></button>
       <button className={mode === "topics" ? "active" : ""} onClick={() => switchMode("topics")}><span>Thèmes</span><small>Explorer un enjeu</small></button>
+      <button className={mode === "history" ? "active" : ""} onClick={() => switchMode("history")}><span>Historique</span><small>Versions & évolutions</small></button>
       <button className={mode === "compass" ? "active" : ""} onClick={() => switchMode("compass")}><span>Boussole</span><small>Prioriser ses enjeux</small></button>
       <button className={mode === "quiz" ? "active" : ""} onClick={() => switchMode("quiz")}><span>Quiz</span><small>Vérifier sa compréhension</small></button>
     </nav>
