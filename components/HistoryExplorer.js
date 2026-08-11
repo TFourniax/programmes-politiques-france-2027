@@ -27,6 +27,10 @@ function relationText(event) {
   return parts;
 }
 
+function recordsLabel(count) {
+  return `${count} élément${count > 1 ? "s" : ""}`;
+}
+
 export default function HistoryExplorer() {
   const [meta, setMeta] = useState(null);
   const [actorId, setActorId] = useState("");
@@ -86,7 +90,7 @@ export default function HistoryExplorer() {
     {actorId && loading && !timeline && <ExplorerLoading label="Construction de la chronologie…" />}
 
     {timeline && <div className="candidateProfile">
-      <div className="candidateProfileHero">
+      <div className="candidateProfileHero" style={{"--party-color":"#748196"}}>
         <span className="answerEyebrow">{timeline.actor.type === "candidate" ? "Personnalité" : "Parti ou mouvement"}</span>
         <h3>{timeline.actor.name}</h3>
         <p>{timeline.topic ? `Historique filtré sur « ${timeline.topic.label} ».` : "Historique de tous les thèmes documentés pour cet acteur."}</p>
@@ -96,7 +100,7 @@ export default function HistoryExplorer() {
           <div><strong>{timeline.summary.explicitVersionLinks}</strong><span>liens de version explicites</span></div>
           <div><strong>{timeline.summary.total}</strong><span>éléments affichés</span></div>
         </div>
-        {timeline.partyContext && <div className="answerNote">Contexte séparé : {timeline.partyContext.name} possède {timeline.partyContext.records} élément(s) sur ce périmètre. {timeline.partyContext.note}</div>}
+        {timeline.partyContext && <div className="answerNote">Contexte séparé : {timeline.partyContext.name} possède {recordsLabel(timeline.partyContext.records)} sur ce périmètre. {timeline.partyContext.note}</div>}
       </div>
 
       <section className="explorerSection">
