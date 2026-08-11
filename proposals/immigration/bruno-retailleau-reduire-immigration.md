@@ -1,7 +1,7 @@
 ---
 proposal_id: prop-retailleau-reduire-immigration
 entity_id: bruno-retailleau
-topic: immigration
+topic: immigration-integration
 certainty: explicit_but_underspecified
 source_url: https://www.instagram.com/p/DUqaNXlhjml/
 source_document_id: doc-bruno-retailleau-2026-02-12-candidature
