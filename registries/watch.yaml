@@ -54,13 +54,15 @@ google_search_grounding:
   request_delay_seconds: 0.10
 
 # Promotion automatique des preuves web/PDF officielles.
+# Quatre sources par run x quatre runs quotidiens permettent de drainer le backlog
+# sans concentrer les appels Gemini ni risquer un timeout du runner.
 auto_promotion:
   enabled: true
   model: gemini-3.5-flash-lite
-  max_sources_per_run: 8
+  max_sources_per_run: 4
   max_source_chars: 60000
-  max_claims_per_source: 10
-  request_delay_seconds: 0.25
+  max_claims_per_source: 8
+  request_delay_seconds: 0.5
 
 # Les publications sociales passent d'abord un contrôle d'identité indépendant.
 # Seules les publications d'un profil effectivement vérifié arrivent ici.
@@ -69,10 +71,10 @@ auto_promotion:
 social_auto_promotion:
   enabled: true
   model: gemini-3.5-flash-lite
-  max_posts_per_run: 6
+  max_posts_per_run: 4
   max_source_chars: 4000
   max_claims_per_source: 5
-  request_delay_seconds: 0.5
+  request_delay_seconds: 0.75
 
 bluesky:
   enabled: true
