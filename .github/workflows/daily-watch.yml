@@ -19,43 +19,39 @@ on:
       - 'scripts/auto_promote.py'
       - 'scripts/auto_promote_runner.py'
       - 'scripts/promote_social.py'
+      - 'scripts/update_watch_health.py'
+      - 'scripts/check_watch_health.py'
       - 'tests/test_auto_promote.py'
       - 'tests/test_auto_promote_runner.py'
       - 'tests/test_verify_social.py'
+      - 'tests/test_watch_health.py'
 
 permissions:
   contents: write
 
 concurrency:
   group: continuous-political-watch
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   watch:
     runs-on: ubuntu-latest
-    timeout-minutes: 40
+    timeout-minutes: 60
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
         with:
           fetch-depth: 0
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: '3.12'
           cache: pip
 
-      - uses: actions/setup-node@v4
-        with:
-          node-version: '22'
-          cache: npm
-
       - name: Install Python dependencies
         run: pip install -r requirements.txt
 
-      - name: Install Node dependencies
-        run: npm ci
-
-      - name: Verify Gemini free inference
+      - name: Probe Gemini without blocking collection
+        id: gemini
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         shell: bash
@@ -66,31 +62,32 @@ jobs:
           import urllib.error
           import urllib.request
 
+          output = os.environ["GITHUB_OUTPUT"]
           key = os.environ.get("GEMINI_API_KEY", "").strip()
-          if not key:
-              raise SystemExit("GEMINI_API_KEY is missing from GitHub Actions secrets")
-          request = urllib.request.Request(
-              "https://generativelanguage.googleapis.com/v1beta/interactions",
-              data=json.dumps({
-                  "model": "gemini-3.5-flash-lite",
-                  "input": "Réponds uniquement par OK.",
-                  "store": False,
-              }).encode("utf-8"),
-              headers={"Content-Type": "application/json", "x-goog-api-key": key},
-              method="POST",
-          )
-          try:
-              with urllib.request.urlopen(request, timeout=45) as response:
-                  if response.status != 200:
-                      raise SystemExit(f"Gemini preflight failed: HTTP {response.status}")
-          except urllib.error.HTTPError as exc:
-              body = exc.read().decode("utf-8", errors="replace")
+          available = False
+          detail = "missing key"
+          if key:
+              request = urllib.request.Request(
+                  "https://generativelanguage.googleapis.com/v1beta/interactions",
+                  data=json.dumps({
+                      "model": "gemini-3.5-flash-lite",
+                      "input": "Réponds uniquement par OK.",
+                      "store": False,
+                  }).encode("utf-8"),
+                  headers={"Content-Type": "application/json", "x-goog-api-key": key},
+                  method="POST",
+              )
               try:
-                  detail = json.loads(body).get("error", {}).get("message", "")
-              except json.JSONDecodeError:
-                  detail = body[:500]
-              raise SystemExit(f"Gemini preflight failed: HTTP {exc.code}: {detail}")
-          print("Gemini API key and free inference validated successfully.")
+                  with urllib.request.urlopen(request, timeout=45) as response:
+                      available = response.status == 200
+                      detail = f"HTTP {response.status}"
+              except urllib.error.HTTPError as exc:
+                  detail = f"HTTP {exc.code}"
+              except Exception as exc:
+                  detail = f"{type(exc).__name__}: {exc}"
+          with open(output, "a", encoding="utf-8") as handle:
+              handle.write(f"available={'true' if available else 'false'}\n")
+          print(f"Gemini availability: {available} ({detail}). Collection will continue regardless.")
           PY
 
       - name: Collect official web changes
@@ -110,14 +107,21 @@ jobs:
         run: python scripts/verify_social.py
 
       - name: Promote strictly verified official web evidence
+        if: steps.gemini.outputs.available == 'true'
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python scripts/auto_promote_runner.py
 
       - name: Promote strictly verified social evidence
+        if: steps.gemini.outputs.available == 'true'
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python scripts/promote_social.py
+
+      - name: Record autonomous watch health
+        env:
+          GEMINI_AVAILABLE: ${{ steps.gemini.outputs.available }}
+        run: python scripts/update_watch_health.py
 
       - name: Run Python validation and watch tests
         run: |
@@ -128,15 +132,54 @@ jobs:
             tests/test_social_watch.py \
             tests/test_verify_social.py \
             tests/test_auto_promote.py \
-            tests/test_auto_promote_runner.py
+            tests/test_auto_promote_runner.py \
+            tests/test_watch_health.py
+
+      - name: Detect canonical changes
+        id: canonical
+        shell: bash
+        run: |
+          if git diff --quiet -- data/entities.json registries/candidates.yaml corpus/2027 proposals; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No canonical political change in this run."
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            echo "Canonical political data changed; running full production gates."
+          fi
+
+      - uses: actions/setup-node@v6
+        if: steps.canonical.outputs.changed == 'true'
+        with:
+          node-version: '22'
+          cache: npm
+
+      - name: Install web dependencies
+        if: steps.canonical.outputs.changed == 'true'
+        run: npm ci
+
+      - name: Security audit
+        if: steps.canonical.outputs.changed == 'true'
+        run: npm audit --audit-level=high
 
       - name: Run retrieval regression tests
+        if: steps.canonical.outputs.changed == 'true'
         run: npm run test:retrieval
 
       - name: Build production application
+        if: steps.canonical.outputs.changed == 'true'
         env:
           LLM_API_KEY: build-only-placeholder
         run: npm run build
+
+      - name: Install Playwright Chromium
+        if: steps.canonical.outputs.changed == 'true'
+        run: npx playwright install --with-deps chromium
+
+      - name: Browser acceptance tests before canonical push
+        if: steps.canonical.outputs.changed == 'true'
+        env:
+          CI: 'true'
+        run: npm run test:e2e
 
       - name: Commit verified watch and canonical updates
         shell: bash
@@ -145,8 +188,12 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add research/veille data/entities.json registries/candidates.yaml corpus/2027 proposals
           if git diff --cached --quiet; then
-            echo "No verified changes to commit."
+            echo "No watch or canonical changes to commit."
             exit 0
           fi
-          git commit -m "veille: mise à jour vérifiée $(date -u +%F)"
+          if [ "${{ steps.canonical.outputs.changed }}" = "true" ]; then
+            git commit -m "veille: mise à jour canonique vérifiée $(date -u +%F)"
+          else
+            git commit -m "veille: état de surveillance $(date -u +%F)"
+          fi
           git push
