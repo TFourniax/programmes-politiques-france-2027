@@ -9,6 +9,8 @@ on:
     paths:
       - '.github/workflows/daily-watch.yml'
       - 'registries/watch.yaml'
+      - 'scripts/daily_watch.py'
+      - 'scripts/social_watch.py'
 
 permissions:
   contents: write
@@ -20,7 +22,7 @@ concurrency:
 jobs:
   watch:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
         with:
@@ -33,13 +35,18 @@ jobs:
 
       - run: pip install -r requirements.txt
 
-      - name: Run daily watch
+      - name: Run web and press watch
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python scripts/daily_watch.py
 
+      - name: Run official social watch
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: python scripts/social_watch.py
+
       - name: Validate watch code
-        run: pytest -q tests/test_daily_watch.py
+        run: pytest -q tests/test_daily_watch.py tests/test_social_watch.py
 
       - name: Commit watch inbox
         shell: bash
