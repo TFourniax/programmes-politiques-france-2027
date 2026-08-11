@@ -4,22 +4,26 @@ Dépôt public, neutre et versionné pour rendre les candidatures, programmes, p
 
 > **Important :** une personnalité suivie ici n’est pas nécessairement un candidat officiel. `official_candidate` est réservé à la liste publiée par le Conseil constitutionnel. Les autres statuts décrivent uniquement l’état documentaire connu au jour du snapshot.
 
-## État de la V1
+## Produit public
 
-Snapshot politique : **10 août 2026**.
+Le snapshot politique courant est défini dans `data/entities.json` et évolue avec la veille automatisée.
 
-La V1 comprend :
+Le produit comprend :
 
-- **40 personnalités suivies** et plus de **25 partis/mouvements** dans `data/entities.json` ;
+- les personnalités, partis et mouvements suivis dans `data/entities.json` ;
 - des documents politiques sourcés et versionnés dans `corpus/2027/` ;
 - des propositions atomiques dans `proposals/` ;
-- six modes publics d’exploration : questions-réponses, comparaison, fiches personnalités, thèmes, boussole documentaire et quiz ;
-- un index full-text reconstruit automatiquement à partir du contenu complet des Markdown ;
-- une recherche pondérée par contenu, rareté, titre, entité, section, thème et type de source ;
-- des citations vers le fichier GitHub et la source originale ;
-- un fallback déterministe lorsque le LLM est absent, indisponible ou trop lent ;
+- **sept modes publics d’exploration** : questions-réponses, comparaison, fiches personnalités, thèmes, historique versionné, boussole documentaire et quiz ;
+- un index BM25-like déterministe reconstruit automatiquement à partir du contenu complet des Markdown ;
+- une ontologie politique contrôlée pour comprendre les paraphrases sans transformer un terme vague en preuve ;
+- des réponses extractives, sans génération de faits politiques par LLM ;
+- un mini-LLM de secours limité à l’interprétation d’une formulation lorsque le retrieval déterministe échoue ;
+- une revalidation déterministe obligatoire après toute interprétation du mini-LLM ;
+- des suggestions contextuelles construites uniquement à partir de couples acteur × thème réellement répondables dans le corpus ;
+- des citations liées à chaque réponse et conservées correctement dans les conversations multi-tours ;
+- un mode Historique qui sépare les versions actives des versions remplacées, retirées ou archivées ;
 - des garde-fous explicites contre l’attribution automatique d’un programme de parti à une personnalité ;
-- une CI de production couvrant données, sécurité npm, retrieval, benchmark, build et tests navigateur desktop/mobile.
+- une CI de production couvrant données, dépendances, retrieval, benchmark, adversarial QA, hardening, ontologie, build et tests navigateur desktop/mobile.
 
 Le corpus reste **évolutif et non exhaustif** tant que la campagne se poursuit. Les niveaux `high`, `medium`, `low` et `unknown` qualifient la qualité de la preuve disponible, jamais les chances électorales. Une absence d’information dans le corpus ne signifie jamais opposition à une mesure.
 
@@ -45,13 +49,13 @@ scripts/build-search-index.mjs
         ↓
 data/search-index.json      généré, non versionné
         ↓
-lib/retrieval.js
+retrieval déterministe BM25 + ontologie
         ↓
-API / interface
+si aucune preuve exploitable : mini-LLM de compréhension uniquement
         ↓
-LLM optionnel
+requête canonique revalidée par le retrieval déterministe
         ↓
-réponse + citations
+réponse extractive + citations + suggestions corpus-grounded
 ```
 
 `data/search-index.json` est reconstruisible à chaque démarrage/build. Les fichiers source du dépôt restent la vérité canonique.
@@ -68,7 +72,9 @@ Le système distingue systématiquement :
 - source primaire/directe et source secondaire ;
 - document actuel, amendé, remplacé, retiré, brouillon ou archivé.
 
-Le modèle n’est pas autorisé à combler une lacune avec sa mémoire générale. Le contexte factuel fourni au LLM provient exclusivement des passages récupérés dans le corpus. Si les preuves sont insuffisantes, l’interface doit l’indiquer.
+Le chatbot public ne recherche par défaut que les versions actives. Les versions `superseded`, `withdrawn`, `archived`, `rejected`, `draft` ou historiques restent conservées et sont consultables dans le mode **Historique**, mais ne contaminent pas une réponse portant sur l’état actuel.
+
+Aucun modèle n’est autorisé à combler une lacune avec sa mémoire générale. Le mini-LLM éventuel ne reçoit qu’un catalogue d’identifiants d’acteurs et de concepts ; il ne rédige jamais la réponse politique. Chaque mapping qu’il propose doit être justifié par un fragment exact de la question courante, puis le résultat est revalidé par le moteur déterministe.
 
 ## Lancer localement
 
@@ -78,20 +84,22 @@ npm install
 npm run dev
 ```
 
-`predev` et `prebuild` reconstruisent automatiquement l’index full-text.
+`predev` et `prebuild` reconstruisent automatiquement l’index.
 
-Variables facultatives pour activer la synthèse LLM :
+Le produit fonctionne sans clé LLM. Pour activer le fallback sémantique rare :
 
 ```text
 LLM_API_KEY=...
 # OPENAI_API_KEY=...   # alternative acceptée
 LLM_API_URL=https://api.openai.com/v1/chat/completions
 LLM_MODEL=gpt-5-mini
-LLM_TIMEOUT_MS=15000
+LLM_RETRIEVAL_FALLBACK_ENABLED=true
+LLM_FALLBACK_MODEL=gpt-5-mini
+LLM_FALLBACK_TIMEOUT_MS=5500
 NEXT_PUBLIC_REPOSITORY_URL=https://github.com/TFourniax/programmes-politiques-france-2027
 ```
 
-Sans clé LLM, le produit reste fonctionnel en mode déterministe.
+Le fallback n’est appelé que lorsque la recherche déterministe ne comprend pas suffisamment la formulation. Une panne, un timeout, un quota fournisseur ou une interprétation peu sûre ne bloque jamais le chemin déterministe.
 
 ## Gates de production
 
@@ -106,14 +114,21 @@ npm run test:e2e
 
 Les contrôles bloquants incluent notamment :
 
-- fraîcheur du snapshot politique : maximum 14 jours ;
-- cohérence des statuts et impossibilité de créer implicitement un `official_candidate` ;
-- exigence de source primaire/directe pour un statut candidat à confiance `high` ;
-- intégrité des références documents ↔ propositions ;
-- seuils minimaux de profondeur du corpus ;
-- recherche de mesures de référence via un benchmark avec seuils hit@5 et MRR ;
-- rejet des requêtes sans rapport avec le corpus ;
-- impossibilité pour le modèle d’introduire une entité absente des preuves récupérées ;
+- cohérence et fraîcheur opérationnelle du corpus ;
+- impossibilité de créer implicitement un `official_candidate` ;
+- intégrité des références documents ↔ propositions et des chaînes de version ;
+- exclusion des versions obsolètes du retrieval courant ;
+- accès séparé aux versions historiques ;
+- seuils hit@5, MRR et rejet hors corpus ;
+- questions avec fautes et paraphrases ;
+- refus des classements subjectifs et des inférences par absence ;
+- rejet de `concept valide + qualificatif hors corpus` ;
+- séparation stricte candidat / parti ;
+- fidélité extractive des réponses ;
+- validation de chaque suggestion par le retrieval déterministe ;
+- validation de chaque mapping du fallback par son propre fragment de question ;
+- couverture ontologique des propositions actives ;
+- cohérence des sources dans les conversations multi-tours ;
 - audit npm de niveau `high` ;
 - build Next.js de production ;
 - tests Playwright Chromium desktop et mobile.
@@ -127,7 +142,9 @@ Le dépôt contient `netlify.toml` :
 - Node.js 22 ;
 - fichiers de données nécessaires aux Functions inclus explicitement.
 
-Netlify prend en charge Next.js via OpenNext. Une Edge Function applique également une limite native à `/api/chat` de **8 requêtes par minute**, agrégée par IP et domaine. La route `/api/health` permet de vérifier le snapshot et les compteurs du corpus après déploiement.
+Netlify prend en charge Next.js via OpenNext. Une Edge Function limite `/api/chat` à **8 requêtes par minute**, agrégées par IP et domaine. La route serveur conserve une défense en profondeur, et le fallback LLM dispose en plus d’un budget local plus strict ainsi que d’un circuit breaker en cas d’erreurs répétées du fournisseur.
+
+`/api/health` expose l’état du corpus, de la veille et la disponibilité du fallback sans jamais exposer de secret.
 
 Voir `docs/DEPLOYMENT.md` pour la checklist de mise en production et de Deploy Preview.
 
@@ -137,12 +154,13 @@ Voir `docs/DEPLOYMENT.md` pour la checklist de mise en production et de Deploy P
 2. Programme de parti ≠ engagement personnel d’une personnalité.
 3. Déclaration ≠ investiture ≠ candidature officielle.
 4. Absence d’information ≠ opposition.
-5. Les évolutions de position doivent rester traçables dans le temps.
-6. Les droits de reproduction sont distingués de la simple accessibilité publique.
-7. Les niveaux de confiance qualifient la preuve, pas les chances électorales.
-8. Le corpus doit afficher ses lacunes plutôt que prétendre à une exhaustivité non démontrée.
+5. Une ancienne version reste traçable mais n’est pas présentée comme actuelle.
+6. Une évolution n’est affirmée que si les métadonnées ou la source la documentent explicitement ; l’ordre des dates seul ne crée pas un « revirement ».
+7. Les droits de reproduction sont distingués de la simple accessibilité publique.
+8. Les niveaux de confiance qualifient la preuve, pas les chances électorales.
+9. Le corpus doit afficher ses lacunes plutôt que prétendre à une exhaustivité non démontrée.
 
-Voir `METHODOLOGY.md`, `SOURCES_POLICY.md`, `NEUTRALITY_CHARTER.md`, `RIGHTS_AND_LICENSES.md`, `docs/CHATBOT_ARCHITECTURE.md`, `docs/DEPLOYMENT.md`, `research/missing-information.md` et `research/2026-08-v1-verification-report.md`.
+Voir `METHODOLOGY.md`, `SOURCES_POLICY.md`, `NEUTRALITY_CHARTER.md`, `RIGHTS_AND_LICENSES.md`, `docs/CHATBOT_ARCHITECTURE.md`, `docs/DEPLOYMENT.md`, `research/missing-information.md` et les rapports de vérification versionnés.
 
 ## Licence
 
