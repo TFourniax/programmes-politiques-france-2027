@@ -5,10 +5,18 @@
       "source_sha256": "23b14b516ef4b1bfc4dc0e0c346b664a9df24e0f51d30465fa4965c934b6589e",
       "status": "no_canonical_data",
       "url": "https://bsky.app/profile/marinetondelier.fr/post/3mssc7juvxc26"
+    },
+    "a1217d66ece64251251c": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-11T12:15:04+00:00",
+      "source_sha256": "a2d4b2ac2217187378f7c91493b4cddc2c2fc69235c970e07cb94a038625b38f",
+      "status": "not_confirmed",
+      "url": "https://bsky.app/profile/marinetondelier.fr/post/3mssha7jd2s2c"
     }
   },
   "last_error_count": 0,
   "last_processed_count": 1,
-  "last_run_at": "2026-08-11T09:26:42+00:00",
-  "version": 1
+  "last_run_at": "2026-08-11T12:15:04+00:00",
+  "version": 2
 }

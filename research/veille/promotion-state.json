@@ -46,9 +46,92 @@
       "verified_at": "2026-08-11T08:56:04+00:00"
     }
   },
-  "last_error_count": 0,
-  "last_processed_count": 4,
-  "last_run_at": "2026-08-11T09:26:40+00:00",
+  "last_error_count": 1,
+  "last_processed_count": 2,
+  "last_run_at": "2026-08-11T12:15:02+00:00",
+  "source_chunks": {
+    "3cdb80beb320932b7b250b4b": {
+      "claims": [],
+      "created_at": "2026-08-11T12:15:00+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [
+        "2026-07-29"
+      ],
+      "sha256": "2bdd35acba459640add817baeb82fbeea91705266ffd1bd1ea4136c5b5af62f1",
+      "source_title": "AMFIS 2026 : les premières annonces sur le programme des universités d’été de la France insoumise - La France insoumise",
+      "statuses": [
+        {
+          "status": {
+            "candidate_id": "jean-luc-melenchon",
+            "effective_date": "2026-07-29",
+            "evidence_quote": "meeting de Jean-Luc Mélenchon, candidat à l’élection présidentielle.",
+            "explicit": true,
+            "new_status": "declared_presidential"
+          }
+        }
+      ],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-11T12:15:02+00:00",
+      "url": "https://lafranceinsoumise.fr/2026/07/29/amfis-2026-les-premieres-annonces-sur-le-programme-des-universites-dete-de-la-france-insoumise/"
+    },
+    "583e2e524ffc4d17aa8ac01e": {
+      "claims": [],
+      "created_at": "2026-08-11T12:13:27+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [
+        "2026-08-03"
+      ],
+      "sha256": "76be9748f8a49d1893af69aef8eb66571fafa2044d3d19efbd0b90158530d119",
+      "source_title": "David Lisnard est-il candidat à la présidentielle 2027 ? | Nouvelle Énergie",
+      "statuses": [
+        {
+          "status": {
+            "candidate_id": "david-lisnard",
+            "effective_date": "2026-08-03",
+            "evidence_quote": "David Lisnard est candidat à l’élection présidentielle de 2027",
+            "explicit": true,
+            "new_status": "declared_presidential"
+          }
+        }
+      ],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-11T12:14:58+00:00",
+      "url": "https://www.unenouvelleenergie.fr/questions/david-lisnard-est-il-candidat-a-la-presidentielle-2027/"
+    },
+    "daf38b4b7d9859ed7f72340d": {
+      "claims": [],
+      "created_at": "2026-08-11T12:15:03+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "a2d4b2ac2217187378f7c91493b4cddc2c2fc69235c970e07cb94a038625b38f",
+      "source_title": "Que se passe-t-il dans notre pays pour que la santé publique ait ainsi été reléguée au second plan ? Pour qu’on ne sache plus anticiper, jusqu’à ne pas garantir à toutes et tous l’",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-11T12:15:04+00:00",
+      "url": "https://bsky.app/profile/marinetondelier.fr/post/3mssha7jd2s2c"
+    }
+  },
   "sources": {
     "20d46eb53f88": {
       "processed_at": "2026-08-11T09:26:34+00:00",
@@ -70,6 +153,15 @@
       "source_sha256": "e9d2ee7a0fba8b07f65a57d2e71d6dd2dda1128fec6a240299a2bf5e3241d158",
       "status": "promoted",
       "url": "https://rassemblementnational.fr/"
+    },
+    "72d3e99ceb3b": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-11T12:14:58+00:00",
+      "reason": "chronology_or_scope_guard",
+      "source_sha256": "76be9748f8a49d1893af69aef8eb66571fafa2044d3d19efbd0b90158530d119",
+      "status": "not_confirmed",
+      "url": "https://www.unenouvelleenergie.fr/questions/david-lisnard-est-il-candidat-a-la-presidentielle-2027/"
     },
     "a29032baac55": {
       "processed_at": "2026-08-11T08:55:59+00:00",
@@ -99,13 +191,30 @@
       "status": "promoted",
       "url": "https://parti-equinoxe.fr/programme-europeennes-2024-mesure-phare-9-finance/"
     },
+    "d5d359c8e31c": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-11T12:15:02+00:00",
+      "reason": "chronology_or_scope_guard",
+      "source_sha256": "2bdd35acba459640add817baeb82fbeea91705266ffd1bd1ea4136c5b5af62f1",
+      "status": "not_confirmed",
+      "url": "https://lafranceinsoumise.fr/2026/07/29/amfis-2026-les-premieres-annonces-sur-le-programme-des-universites-dete-de-la-france-insoumise/"
+    },
     "db015b4b553e": {
       "processed_at": "2026-08-11T09:26:23+00:00",
       "reason": null,
       "source_sha256": "2a895e30a04270a8d517c82d52f61fa44ee53015c7eae1ecadd75c168abedd50",
       "status": "no_canonical_data",
       "url": "http://lesecologistes.fr/forms/6P5URUdvFPSAmDwnWlQcCh/formation-donner-du-souffle-a-notre-programme-du-catalogue-de-mesures-au-recit-mobilisateur"
+    },
+    "ec2e2746a750": {
+      "attempts": 1,
+      "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "next_retry_at": "2026-08-11T18:14:59+00:00",
+      "processed_at": "2026-08-11T12:14:59+00:00",
+      "status": "technical_error",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     }
   },
-  "version": 1
+  "version": 2
 }
