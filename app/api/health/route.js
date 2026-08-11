@@ -44,6 +44,7 @@ export async function GET() {
         lastPromotionRunAt: watchHealth.last_promotion_run_at,
         geminiAvailable: watchHealth.gemini_available,
         pendingWork: watchHealth.pending_work,
+        persistentOfficialSourceFailures: watchHealth.persistent_official_source_failures || 0,
         reasons: watchHealth.reasons || []
       }
     });
