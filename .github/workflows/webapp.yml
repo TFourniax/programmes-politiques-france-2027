@@ -3,11 +3,32 @@ name: Validate web app
 on:
   push:
     branches: [main]
+    paths:
+      - 'app/**'
+      - 'components/**'
+      - 'lib/**'
+      - 'data/entities.json'
+      - 'data/compass.json'
+      - 'corpus/**'
+      - 'proposals/**'
+      - 'netlify/**'
+      - 'netlify.toml'
+      - 'next.config.mjs'
+      - 'package.json'
+      - 'package-lock.json'
+      - 'scripts/build-search-index.mjs'
+      - 'scripts/test-*.mjs'
+      - 'tests/e2e/**'
+      - '.github/workflows/webapp.yml'
   pull_request:
   workflow_dispatch:
 
 permissions:
   contents: read
+
+concurrency:
+  group: webapp-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   production-gates:
