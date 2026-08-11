@@ -42,7 +42,7 @@ test('health endpoint exposes a populated and dated corpus', async ({ request })
   expect(payload.snapshotDate).toMatch(/^\d{4}-\d{2}-\d{2}$/);
 });
 
-test('chat endpoint preserves evidence, attribution and safe uncertainty across user journeys', async ({ request }) => {
+test('chat endpoint preserves evidence, attribution, suggestions and safe uncertainty across user journeys', async ({ request }) => {
   let ip = 10;
   async function ask(question, history = []) {
     const response = await request.post('/api/chat', {
@@ -54,6 +54,7 @@ test('chat endpoint preserves evidence, attribution and safe uncertainty across 
     expect(payload.generated).toBe(false);
     expect(payload.providerError).toBeNull();
     expect(payload.engine).toBe('deterministic-bm25-ontology-v4');
+    expect(typeof payload.retrievalAssisted).toBe('boolean');
     return payload;
   }
 
@@ -62,6 +63,16 @@ test('chat endpoint preserves evidence, attribution and safe uncertainty across 
   expect(parcoursup.answer.cards[0].entityId).toBe('parti-socialiste');
   expect(JSON.stringify(parcoursup.answer.cards)).toMatch(/Parcoursup/i);
   expect(parcoursup.citations.some((citation) => citation.path === 'proposals/services-publics/ps-abrogation-parcoursup.md')).toBe(true);
+  expect(parcoursup.retrievalAssisted).toBe(false);
+  expect(parcoursup.answer.followUps.length).toBeGreaterThanOrEqual(1);
+  expect(parcoursup.answer.followUps.length).toBeLessThanOrEqual(3);
+  expect(new Set(parcoursup.answer.followUps).size).toBe(parcoursup.answer.followUps.length);
+  const suggestionAnswer = await ask(parcoursup.answer.followUps[0], [
+    { role: 'user', content: "Quel projet propose d'abroger Parcoursup ?" },
+    { role: 'assistant', content: parcoursup.answer.summary }
+  ]);
+  expect(suggestionAnswer.answer.cards.length).toBeGreaterThan(0);
+  expect(suggestionAnswer.citations.length).toBeGreaterThan(0);
 
   const offCorpus = await ask('Que propose David Lisnard sur les dinosaures ?');
   expect(offCorpus.answer.cards).toHaveLength(0);
@@ -73,16 +84,20 @@ test('chat endpoint preserves evidence, attribution and safe uncertainty across 
   expect(status.answer.cards[0].title).toBe('Bruno Retailleau');
   expect(status.answer.cards[0].officialCandidate).toBe(false);
   expect(status.answer.cards[0].bullets.join(' ')).toMatch(/Candidat officiel au sens du Conseil constitutionnel\s*:\s*non/i);
+  expect(status.answer.followUps.length).toBeGreaterThanOrEqual(1);
 
   const negativeInference = await ask('Qui ne propose pas de retraite par capitalisation ?');
   expect(negativeInference.answer.cards).toHaveLength(0);
   expect(negativeInference.citations).toHaveLength(0);
   expect(negativeInference.answer.title).toMatch(/Impossible de déduire une absence/i);
+  expect(negativeInference.answer.followUps.length).toBeGreaterThanOrEqual(1);
 
   const subjective = await ask("Quel est le meilleur programme pour le pouvoir d'achat ?");
   expect(subjective.answer.cards).toHaveLength(0);
   expect(subjective.citations).toHaveLength(0);
   expect(subjective.answer.title).toMatch(/Classement politique non déduit/i);
+  expect(subjective.answer.followUps.length).toBeGreaterThanOrEqual(1);
+  expect(subjective.answer.followUps.some((item) => /pouvoir d.achat|salaire|smic/i.test(item))).toBe(true);
 
   const followUp = await ask('Et sur le nucléaire ?', [
     { role: 'user', content: 'Compare David Lisnard et Renaissance sur les retraites' },
@@ -93,6 +108,7 @@ test('chat endpoint preserves evidence, attribution and safe uncertainty across 
   expect(JSON.stringify(followUp.answer)).toMatch(/14 EPR|SMR 2030/i);
   expect(JSON.stringify(followUp.answer)).not.toMatch(/composante de capitalisation pour la retraite/i);
   expect(followUp.answer.sections.some((section) => /David Lisnard/.test(section.text) && /absence|Aucun élément/i.test(section.text))).toBe(true);
+  expect(followUp.answer.followUps.length).toBeGreaterThanOrEqual(1);
 
   const noPartyLeak = await ask('Que propose Gabriel Attal sur le nucléaire ?');
   expect(noPartyLeak.answer.cards.some((card) => card.entityId === 'renaissance')).toBe(false);
