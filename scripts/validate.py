@@ -16,8 +16,8 @@ SOURCE_TIERS = {"tier_1_primary_official", "tier_2_primary_statement", "tier_3_r
 DOCUMENT_TYPES = {
     "official_presidential_programme", "presidential_preprogramme", "party_programme", "party_platform", "manifesto",
     "thematic_platform", "policy_proposal", "candidacy_declaration", "official_speech", "official_press_release",
-    "official_interview", "official_video_transcript", "campaign_website_page", "primary_platform", "coalition_agreement",
-    "secondary_summary", "fact_check", "historical_reference", "other"
+    "official_interview", "official_video_transcript", "campaign_website_page", "primary_platform", "primary_result",
+    "coalition_agreement", "secondary_summary", "fact_check", "historical_reference", "other"
 }
 DOCUMENT_STATUSES = {"current", "superseded", "amended", "withdrawn", "draft", "archived", "unknown"}
 CERTAINTIES = {
