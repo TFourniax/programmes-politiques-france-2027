@@ -39,54 +39,50 @@ jobs:
 
       - run: pip install -r requirements.txt
 
-      - name: Verify Gemini API key and Search Grounding
+      - name: Verify Gemini free inference
         if: github.event_name == 'push'
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         shell: bash
         run: |
           python - <<'PY'
+          import json
           import os
-          import requests
+          import urllib.error
+          import urllib.request
 
           key = os.environ.get("GEMINI_API_KEY", "").strip()
           if not key:
               raise SystemExit("GEMINI_API_KEY is missing from GitHub Actions secrets")
 
-          endpoint = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent"
-          payload = {
-              "contents": [{
-                  "parts": [{
-                      "text": "Utilise Google Search pour vérifier que le site officiel de l'Assemblée nationale française existe. Réponds très brièvement."
-                  }]
-              }],
-              "tools": [{"google_search": {}}],
-              "generationConfig": {"temperature": 0},
-          }
-          response = requests.post(
-              endpoint,
-              params={"key": key},
-              json=payload,
-              timeout=45,
+          request = urllib.request.Request(
+              "https://generativelanguage.googleapis.com/v1beta/interactions",
+              data=json.dumps({
+                  "model": "gemini-3.5-flash-lite",
+                  "input": "Réponds uniquement par OK.",
+                  "store": False,
+              }).encode("utf-8"),
+              headers={
+                  "Content-Type": "application/json",
+                  "x-goog-api-key": key,
+              },
+              method="POST",
           )
-          if response.status_code >= 400:
+          try:
+              with urllib.request.urlopen(request, timeout=45) as response:
+                  if response.status != 200:
+                      raise SystemExit(f"Gemini preflight failed: HTTP {response.status}")
+          except urllib.error.HTTPError as exc:
+              body = exc.read().decode("utf-8", errors="replace")
               try:
-                  detail = response.json().get("error", {}).get("message", "")
-              except ValueError:
-                  detail = response.text[:500]
-              raise SystemExit(f"Gemini preflight failed: HTTP {response.status_code}: {detail}")
-
-          data = response.json()
-          candidates = data.get("candidates") or []
-          if not candidates:
-              raise SystemExit("Gemini preflight failed: API returned no candidate")
-          metadata = candidates[0].get("groundingMetadata") or {}
-          if not metadata:
-              raise SystemExit("Gemini preflight failed: Google Search Grounding metadata missing")
-          print("Gemini API key and Google Search Grounding validated successfully.")
+                  detail = json.loads(body).get("error", {}).get("message", "")
+              except json.JSONDecodeError:
+                  detail = body[:500]
+              raise SystemExit(f"Gemini preflight failed: HTTP {exc.code}: {detail}")
+          print("Gemini API key and free inference validated successfully.")
           PY
 
-      - name: Run official web and Google watch
+      - name: Run official web watch
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python scripts/daily_watch.py --no-gdelt
