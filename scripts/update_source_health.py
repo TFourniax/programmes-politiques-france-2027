@@ -41,6 +41,20 @@ def current_error_urls(path: Path) -> set[str]:
     return out
 
 
+def http_error_urls(state: dict[str, Any]) -> set[str]:
+    out: set[str] = set()
+    for url, record in (state.get("sources") or {}).items():
+        if not isinstance(record, dict):
+            continue
+        try:
+            status = int(record.get("status") or 0)
+        except (TypeError, ValueError):
+            continue
+        if status >= 400:
+            out.add(canonicalize_url(str(url)))
+    return out
+
+
 def update_records(
     previous: dict[str, Any],
     targets: list[dict[str, str]],
@@ -104,8 +118,9 @@ def update_records(
 def main() -> None:
     base = ROOT / "research" / "veille"
     previous = load_json(base / "source-health.json", {})
+    watch_state = load_json(base / "state.json", {})
     day = datetime.now(timezone.utc).date().isoformat()
-    errors = current_error_urls(base / f"{day}.jsonl")
+    errors = current_error_urls(base / f"{day}.jsonl") | http_error_urls(watch_state)
     payload = update_records(previous, collect_official_targets(), errors, iso_now())
     (base / "source-health.json").write_text(
         json.dumps(payload, ensure_ascii=False, indent=2, sort_keys=True) + "\n",
