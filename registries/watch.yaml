@@ -50,9 +50,13 @@ gdelt:
     - 20minutes.fr
 
 google_search_grounding:
-  enabled: true
-  # Le connecteur est automatiquement ignoré si GEMINI_API_KEY n'est pas défini.
-  model: gemini-2.5-flash-lite
+  # Désactivé sur le chemin coût-zéro : les nouveaux projets Gemini 3 nécessitent
+  # actuellement un projet avec billing pour utiliser Google Search Grounding.
+  # La clé Gemini reste utilisée pour l'inférence gratuite et les futurs contrôles
+  # d'extraction/vérification ; la découverte web gratuite repose sur les sites
+  # officiels, RSS/sitemaps, GDELT et les réseaux gratuits.
+  enabled: false
+  model: gemini-3.5-flash-lite
   max_entities: 60
   max_urls_per_entity: 5
   request_delay_seconds: 0.10
