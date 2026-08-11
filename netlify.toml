@@ -1,6 +1,9 @@
 [build]
   command = "npm run build"
   publish = ".next"
+  # A commit de veille pure ne change pas l'application ni le canon : ne pas brûler
+  # de build minutes pour une simple mise à jour de télémétrie research/veille.
+  ignore = "git diff --quiet \"$CACHED_COMMIT_REF\" \"$COMMIT_REF\" -- . ':(exclude)research/veille/**'"
 
 [build.environment]
   NODE_VERSION = "22"
