@@ -9,6 +9,9 @@ on:
     paths:
       - '.github/workflows/daily-watch.yml'
       - 'registries/watch.yaml'
+      - 'registries/sources.yaml'
+      - 'registries/parties.yaml'
+      - 'registries/candidates.yaml'
       - 'scripts/daily_watch.py'
       - 'scripts/gdelt_watch.py'
       - 'scripts/social_watch.py'

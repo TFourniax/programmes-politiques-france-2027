@@ -1,10 +1,16 @@
-snapshot_date: 2026-08-04
+snapshot_date: 2026-08-11
 sources:
   - {id: src-lr, url: 'https://republicains.fr/', tier: tier_1_primary_official, owner: Les Républicains}
   - {id: src-horizons, url: 'https://horizonsleparti.fr/', tier: tier_1_primary_official, owner: Horizons}
+  - {id: src-horizons-idees, url: 'https://horizonsleparti.fr/le-pole-idees/', tier: tier_1_primary_official, owner: Horizons}
   - {id: src-renaissance, url: 'https://parti-renaissance.fr/', tier: tier_1_primary_official, owner: Renaissance}
+  - {id: src-renaissance-convention-economie-climat, url: 'https://doc.parti.re/Conventions-thematiques_Nouvelle-donne.pdf', tier: tier_1_primary_official, owner: Renaissance}
+  - {id: src-renaissance-convention-regalien, url: 'https://doc.parti.re/conventions/Restitution-Regalien-Une-Republique-ferme-une-France-apaisee.pdf', tier: tier_1_primary_official, owner: Renaissance}
+  - {id: src-nouvelle-energie, url: 'https://www.unenouvelleenergie.fr/', tier: tier_1_primary_official, owner: Nouvelle Énergie}
+  - {id: src-nouvelle-energie-programme, url: 'https://www.unenouvelleenergie.fr/notre-programme/', tier: tier_1_primary_official, owner: Nouvelle Énergie}
   - {id: src-rn, url: 'https://rassemblementnational.fr/', tier: tier_1_primary_official, owner: Rassemblement national}
   - {id: src-dlf, url: 'https://www.debout-la-france.fr/', tier: tier_1_primary_official, owner: Debout la France}
+  - {id: src-dlf-projet, url: 'https://www.debout-la-france.fr/notre-projet/', tier: tier_1_primary_official, owner: Debout la France}
   - {id: src-place-publique, url: 'https://place-publique.eu/', tier: tier_1_primary_official, owner: Place publique}
   - {id: src-lfi, url: 'https://lafranceinsoumise.fr/', tier: tier_1_primary_official, owner: La France insoumise}
   - {id: src-lfi-programme, url: 'https://programme.lafranceinsoumise.fr/', tier: tier_1_primary_official, owner: La France insoumise}

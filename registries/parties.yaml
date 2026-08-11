@@ -1,4 +1,4 @@
-snapshot_date: 2026-08-09
+snapshot_date: 2026-08-11
 notice: >-
   Registre des partis et mouvements suivis par la V1. La présence d'un parti
   ne signifie pas qu'il dispose déjà d'un candidat ou d'un programme présidentiel 2027.
@@ -32,17 +32,17 @@ parties:
   - id: renaissance
     name: Renaissance
     official_url: https://parti-renaissance.fr/
-    programme_url: https://parti-renaissance.fr/nos-conventions/
   - id: horizons
     name: Horizons
     official_url: https://horizonsleparti.fr/
-    programme_url: https://horizonsleparti.fr/nos-idees/
+    programme_url: https://horizonsleparti.fr/le-pole-idees/
   - id: les-republicains
     name: Les Républicains
     official_url: https://republicains.fr/
   - id: nouvelle-energie
     name: Nouvelle Énergie
-    official_url: https://www.nouvelle-energie.fr/
+    official_url: https://www.unenouvelleenergie.fr/
+    programme_url: https://www.unenouvelleenergie.fr/notre-programme/
   - id: rassemblement-national
     name: Rassemblement national
     official_url: https://rassemblementnational.fr/
@@ -52,7 +52,7 @@ parties:
   - id: debout-la-france
     name: Debout la France
     official_url: https://www.debout-la-france.fr/
-    programme_url: https://www.debout-la-france.fr/projet/
+    programme_url: https://www.debout-la-france.fr/notre-projet/
   - id: les-patriotes
     name: Les Patriotes
     official_url: https://les-patriotes.fr/
