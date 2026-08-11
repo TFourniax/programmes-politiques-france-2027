@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "description": "Questions de référence pour vérifier que les mesures explicites restent retrouvables et correctement rattachées.",
   "cases": [
     {"id":"kazib-smic","question":"Qui propose un SMIC à 2 000 euros ?","expectedPath":"proposals/pouvoir-achat-travail/anasse-kazib-smic-2000.md"},
@@ -9,6 +9,9 @@
     {"id":"ps-parcoursup","question":"Quel projet propose d'abroger Parcoursup ?","expectedPath":"proposals/services-publics/ps-abrogation-parcoursup.md"},
     {"id":"lisnard-capitalisation","question":"Qui défend une composante de capitalisation pour la retraite ?","expectedPath":"proposals/retraites/david-lisnard-capitalisation.md"},
     {"id":"equinoxe-carbone","question":"Quel projet propose des quotas carbone individuels ?","expectedPath":"proposals/ecologie-energie/equinoxe-quotas-carbone-individuels.md"},
-    {"id":"ps-immigration","question":"Quel projet prévoit une loi pluriannuelle sur l'immigration et l'intégration ?","expectedPath":"proposals/immigration-integration/ps-loi-pluriannuelle-immigration.md"}
+    {"id":"ps-immigration","question":"Quel projet prévoit une loi pluriannuelle sur l'immigration et l'intégration ?","expectedPath":"proposals/immigration-integration/ps-loi-pluriannuelle-immigration.md"},
+    {"id":"renaissance-nucleaire","question":"Quel projet propose de construire 14 EPR et de lancer un plan SMR 2030 ?","expectedPath":"proposals/ecologie-energie/renaissance-14-epr-smr-2030.md"},
+    {"id":"renaissance-couvre-feu","question":"Quel projet propose un couvre-feu numérique pour les 15-18 ans entre 22 h et 8 h ?","expectedPath":"proposals/securite-justice/renaissance-couvre-feu-numerique-mineurs.md"},
+    {"id":"renaissance-retraite-investissement","question":"Quel projet propose de compléter la retraite par répartition par une retraite par investissement ?","expectedPath":"proposals/retraites/renaissance-retraite-investissement.md"}
   ]
 }
