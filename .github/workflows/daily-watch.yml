@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: '17 5 * * *'
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/daily-watch.yml'
+      - 'registries/watch.yaml'
 
 permissions:
   contents: write
