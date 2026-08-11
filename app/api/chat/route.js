@@ -1,11 +1,9 @@
 import { NextResponse } from "next/server";
-import { retrieve } from "../../../lib/retrieval.js";
-import { answerWithModel } from "../../../lib/llm.js";
-import { groupPoliticalCards } from "../../../lib/card-grouping.js";
+import { retrieveDeterministic } from "../../../lib/retrieval-v2.js";
+import { composeDeterministicAnswer } from "../../../lib/deterministic-answer.js";
 import {
   candidateEvidence,
   classifyQuestion,
-  hydrateStructuredAnswer,
   resolveRetrievalQuery,
   selectCandidates
 } from "../../../lib/presentation.js";
@@ -48,13 +46,6 @@ function noDataAnswer(question) {
   };
 }
 
-function supportedFollowUp(question) {
-  if (selectCandidates(question).length) {
-    return retrieve(question,{limit:1,minScore:2.1}).debug.answerable === true;
-  }
-  return retrieve(question,{limit:3,minScore:2.1}).results.length > 0;
-}
-
 export async function POST(request) {
   if (limited(request)) return NextResponse.json({error:"Trop de requêtes. Réessayez dans une minute."},{status:429});
   let payload;
@@ -67,41 +58,35 @@ export async function POST(request) {
   const candidates = mode === "candidates" ? selectCandidates(question) : [];
   const retrievalQuery = resolveRetrievalQuery(question,history);
 
-  let evidence;
+  let evidence = [];
   let retrievalDebug;
+
   if (mode === "candidates") {
-    // Candidate questions normally use deterministic registry records, but they still
-    // need a scope check. "Quels sont les candidats de Formule 1 ?" must not turn
-    // into a list of presidential candidates merely because the word candidat appears.
-    const scopeProbe = retrieve(retrievalQuery,{limit:1});
+    const scopeProbe = retrieveDeterministic(retrievalQuery,{limit:3});
     retrievalDebug = {...scopeProbe.debug, mode, directCandidateRecords:candidates.length, query:retrievalQuery};
     if (!scopeProbe.debug.answerable) {
       const answer = noDataAnswer(question);
-      return NextResponse.json({answer,citations:[],retrieval:retrievalDebug,generated:false,providerError:null});
+      return NextResponse.json({answer,citations:[],retrieval:retrievalDebug,generated:false,providerError:null,engine:"deterministic-bm25-ontology-v1"});
     }
     evidence = candidates.map(candidateEvidence);
   } else {
-    const limit = mode === "comparison" ? 12 : mode === "measures" ? 10 : 8;
-    const retrieval = retrieve(retrievalQuery,{limit});
+    const limit = mode === "comparison" ? 14 : mode === "measures" ? 12 : 10;
+    const retrieval = retrieveDeterministic(retrievalQuery,{limit});
     evidence = retrieval.results;
     retrievalDebug = {...retrieval.debug, mode, query:retrievalQuery};
+    if (!evidence.length) {
+      const answer = noDataAnswer(question);
+      return NextResponse.json({answer,citations:[],retrieval:retrievalDebug,generated:false,providerError:null,engine:"deterministic-bm25-ontology-v1"});
+    }
   }
 
-  if (!evidence.length) {
-    const answer = noDataAnswer(question);
-    return NextResponse.json({answer,citations:[],retrieval:retrievalDebug,generated:false,providerError:null});
-  }
-
-  const model = await answerWithModel(question,evidence,{mode,history});
-  const hydrated = hydrateStructuredAnswer(model.answer,question,evidence,{mode,candidates});
-  const answer = groupPoliticalCards(hydrated,evidence);
-  answer.followUps = answer.followUps.filter((item) => item !== question && supportedFollowUp(item)).slice(0,3);
-
+  const answer = composeDeterministicAnswer(question,evidence,{mode,candidates});
   return NextResponse.json({
     answer,
     citations:citationsFromEvidence(evidence),
     retrieval:retrievalDebug,
-    generated:model.generated,
-    providerError:model.error||null
+    generated:false,
+    providerError:null,
+    engine:"deterministic-bm25-ontology-v1"
   });
 }
