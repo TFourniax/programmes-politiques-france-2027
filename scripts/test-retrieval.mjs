@@ -47,6 +47,17 @@ assert.ok(includesPath(psParcoursup, 'ps-abrogation-parcoursup.md'));
 const retirement = top('Qui propose la retraite à 60 ans ?', { limit: 10, minScore: 1.2 });
 assert.ok(retirement.some((item) => /60 ans/.test(item.text)));
 
+const renaissanceCurfew = top('Quel projet propose un couvre-feu numérique pour les 15-18 ans entre 22 h et 8 h ?', { limit: 8, minScore: 1.2 });
+assert.ok(includesPath(renaissanceCurfew, 'renaissance-couvre-feu-numerique-mineurs.md'));
+const curfewProposal = renaissanceCurfew.find((item) => item.citation.path.includes('renaissance-couvre-feu-numerique-mineurs.md'));
+assert.equal(curfewProposal?.citation.entityId, 'renaissance', 'Renaissance party proposals must remain attributed to the party');
+assert.notEqual(curfewProposal?.citation.entityId, 'gabriel-attal', 'party context must never become a personal Gabriel Attal commitment');
+
+const renaissanceNuclear = top('Quel projet propose de construire 14 EPR et de lancer un plan SMR 2030 ?', { limit: 8, minScore: 1.2 });
+assert.ok(includesPath(renaissanceNuclear, 'renaissance-14-epr-smr-2030.md'));
+const nuclearProposal = renaissanceNuclear.find((item) => item.citation.path.includes('renaissance-14-epr-smr-2030.md'));
+assert.equal(nuclearProposal?.citation.entityId, 'renaissance');
+
 const nonsense = top('zyxqv blorptastic quasarbanane', { limit: 8, minScore: 4 });
 assert.equal(nonsense.length, 0);
 
