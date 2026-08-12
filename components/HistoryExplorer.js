@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-import { ExplorerError, ExplorerIntro, ExplorerLoading, readSearchParams, writeSearchParams } from "./ExplorerShared.js";
+import { ExplorerError, ExplorerIntro, ExplorerLoading, publicCertainty, publicConfidence, publicEvidenceKind, publicRecordStatus, publicSourceTier, readSearchParams, writeSearchParams } from "./ExplorerShared.js";
 
 async function fetchHistory(params = {}) {
   const search = new URLSearchParams(params);
@@ -112,15 +112,15 @@ export default function HistoryExplorer() {
             <div className="timelineDate">{event.dateLabel || event.publishedAt || "date non renseignée"}</div>
             <div className="timelineDot" />
             <div className="timelineBody">
-              <div><strong>{event.title}</strong><span>{event.kind === "proposal" ? "proposition" : "document"} · {event.status} · {signalLabel(event.evolutionSignal)}</span></div>
+              <div><strong>{event.title}</strong><span>{publicEvidenceKind(event.kind)} · {publicRecordStatus(event.status)} · {signalLabel(event.evolutionSignal)}</span></div>
               {event.excerpt && <p>{event.excerpt}</p>}
               {relationText(event).map((text) => <div className="answerNote" key={text}>{text}</div>)}
               <div className="evidenceMeta">
-                {event.certainty && <span>{event.certainty}</span>}
-                {event.sourceTier && <span>{event.sourceTier}</span>}
-                {event.confidence && <span>preuve {event.confidence}</span>}
+                {event.certainty && <span>{publicCertainty(event.certainty)}</span>}
+                {event.sourceTier && <span>{publicSourceTier(event.sourceTier)}</span>}
+                {event.confidence && <span>{publicConfidence(event.confidence)}</span>}
               </div>
-              <div className="sourceLinks">{event.githubUrl && <a href={event.githubUrl} target="_blank" rel="noreferrer">Fichier GitHub ↗</a>}{event.sourceUrl && <a href={event.sourceUrl} target="_blank" rel="noreferrer">Source originale ↗</a>}</div>
+              <div className="sourceLinks">{event.githubUrl && <a href={event.githubUrl} target="_blank" rel="noreferrer">Voir dans le corpus ↗</a>}{event.sourceUrl && <a href={event.sourceUrl} target="_blank" rel="noreferrer">Source originale ↗</a>}</div>
             </div>
           </article>)}
         </div>
