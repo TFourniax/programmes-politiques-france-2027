@@ -14,6 +14,7 @@ on:
       - 'registries/candidates.yaml'
       - 'scripts/daily_watch.py'
       - 'scripts/direct_feed_watch.py'
+      - 'scripts/structured_primary_watch.py'
       - 'scripts/gdelt_watch.py'
       - 'scripts/social_watch.py'
       - 'scripts/prune_social_profiles.py'
@@ -27,6 +28,7 @@ on:
       - 'scripts/check_watch_health.py'
       - 'tests/test_daily_watch.py'
       - 'tests/test_direct_feed_watch.py'
+      - 'tests/test_structured_primary_watch.py'
       - 'tests/test_auto_promote.py'
       - 'tests/test_auto_promote_runner.py'
       - 'tests/test_prune_social_profiles.py'
@@ -108,6 +110,9 @@ jobs:
       - name: Collect direct official feeds
         run: python scripts/direct_feed_watch.py
 
+      - name: Collect complete structured primary sources
+        run: python scripts/structured_primary_watch.py
+
       - name: Update official source health
         run: python scripts/update_source_health.py
 
@@ -150,6 +155,7 @@ jobs:
           pytest -q \
             tests/test_daily_watch.py \
             tests/test_direct_feed_watch.py \
+            tests/test_structured_primary_watch.py \
             tests/test_gdelt_watch.py \
             tests/test_social_watch.py \
             tests/test_prune_social_profiles.py \
@@ -160,7 +166,7 @@ jobs:
             tests/test_update_source_health.py \
             tests/test_watch_health.py
 
-      - name: Detect canonical changes
+      - name: Detect canonical changes including new files
         id: canonical
         shell: bash
         run: |
