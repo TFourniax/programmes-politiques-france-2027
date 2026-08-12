@@ -113,6 +113,8 @@ def section_html(number: int, section: int) -> bytes:
 
 def install_fake_primary(monkeypatch, tmp_path, *, chapters=18, missing=None, broken_section=None):
     missing = set(missing or [])
+    fake_root = tmp_path / "repo"
+    fake_root.mkdir(parents=True, exist_ok=True)
 
     def fake_fetch(url, **kwargs):
         chapter_match = watch.re.search(r"/chapitre(\d+)/?$", url)
@@ -129,12 +131,14 @@ def install_fake_primary(monkeypatch, tmp_path, *, chapters=18, missing=None, br
             return {"status": 200, "url": url, "content_type": "text/html", "raw": section_html(number, section)}
         raise AssertionError(url)
 
+    monkeypatch.setattr(watch, "ROOT", fake_root)
     monkeypatch.setattr(watch, "fetch_html", fake_fetch)
     monkeypatch.setattr(
         watch,
         "snapshot_path",
-        lambda source_id, number: tmp_path / "snapshots" / source_id / f"chapter-{number:02d}.txt",
+        lambda source_id, number: fake_root / "research" / "veille" / "structured" / "snapshots" / source_id / f"chapter-{number:02d}.txt",
     )
+    return fake_root
 
 
 def config(**extra):
@@ -155,7 +159,7 @@ def config(**extra):
 
 
 def test_html_capture_builds_full_hashed_snapshots_for_all_sections(monkeypatch, tmp_path):
-    install_fake_primary(monkeypatch, tmp_path, chapters=18)
+    fake_root = install_fake_primary(monkeypatch, tmp_path, chapters=18)
     chapters, health = watch.collect_html_chapters(config())
     assert health["complete"] is True
     assert health["status"] == 200
@@ -164,13 +168,13 @@ def test_html_capture_builds_full_hashed_snapshots_for_all_sections(monkeypatch,
     assert health["total_sections"] == 36
     assert health["transport"] == "official_html_chapter_sections"
     sample = chapters[0]
-    path = tmp_path / "snapshots" / "lfi-programme-chapters" / "chapter-01.txt"
+    path = fake_root / "research" / "veille" / "structured" / "snapshots" / "lfi-programme-chapters" / "chapter-01.txt"
     assert path.exists()
     snapshot = path.read_text(encoding="utf-8").rstrip("\n")
     assert "Mesure 1.1" in snapshot and "Mesure 1.2" in snapshot
     assert "pied de page" not in snapshot
     assert sample["sha256"] == hashlib.sha256(snapshot.encode()).hexdigest()
-    assert sample["snapshot_path"].endswith("chapter-01.txt")
+    assert sample["snapshot_path"] == "research/veille/structured/snapshots/lfi-programme-chapters/chapter-01.txt"
 
 
 def test_one_missing_baseline_chapter_is_a_hard_failure(monkeypatch, tmp_path):
@@ -197,7 +201,6 @@ def test_future_chapter_19_is_automatically_captured(monkeypatch, tmp_path):
 
 def test_gap_in_extended_sequence_is_not_silently_accepted(monkeypatch, tmp_path):
     install_fake_primary(monkeypatch, tmp_path, chapters=20, missing={19})
-    # Probing continues past one 404; chapter 20 is discovered, making the sequence invalid.
     chapters, health = watch.collect_html_chapters(config())
     assert 20 in [item["number"] for item in chapters]
     assert health["contiguous"] is False
