@@ -3,7 +3,7 @@ import sys
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 
-from structured_primary_watch import visible_text  # noqa: E402
+from structured_primary_watch import visible_text, wordpress_chapters  # noqa: E402
 from update_source_health import healthy_structured_primary_coverage, update_records  # noqa: E402
 
 
@@ -73,3 +73,72 @@ def test_incomplete_structured_programme_never_masks_html_failure():
     payload = update_records({}, target, {target[0]["url"]}, "2026-08-12T15:01:00+00:00", structured_coverage=coverage)
     assert payload["uncovered_failure_count"] == 1
     assert payload["sources"][target[0]["url"]]["status"] == "transient_failure"
+
+
+class FakeResponse:
+    def __init__(self, rows, pages=1):
+        self._rows = rows
+        self.headers = {"X-WP-TotalPages": str(pages)}
+
+    def raise_for_status(self):
+        return None
+
+    def json(self):
+        return self._rows
+
+
+class FakeSession:
+    def __init__(self, rows):
+        self.rows = rows
+        self.urls = []
+
+    def get(self, url, timeout=30):
+        self.urls.append(url)
+        return FakeResponse(self.rows)
+
+
+def chapter_row(number):
+    return {
+        "id": 1000 + number,
+        "date": "2026-08-12T10:00:00",
+        "modified": f"2026-08-12T10:{number:02d}:00",
+        "status": "publish",
+        "link": f"https://melenchon2027.fr/2026/08/12/chapitre-{number}-test/",
+        "title": {"rendered": f"Chapitre {number} : Test {number}"},
+        "content": {"rendered": f"<p>{'Mesure politique documentée. ' * 30}</p>"},
+    }
+
+
+def test_new_chapter_above_known_baseline_is_automatically_ingested():
+    session = FakeSession([chapter_row(number) for number in range(1, 20)])
+    chapters, health = wordpress_chapters(session, {
+        "id": "test",
+        "owner": "Parti test",
+        "api_base": "https://melenchon2027.fr",
+        "minimum_expected_chapters": 18,
+        "min_content_chars": 500,
+        "coverage_urls": ["https://melenchon2027.fr/programme/"],
+    })
+    assert len(chapters) == 19
+    assert health["complete"] is True
+    assert health["item_count"] == 19
+    assert health["expected_items"] == 19
+    assert health["minimum_expected_items"] == 18
+    assert health["chapter_numbers"] == list(range(1, 20))
+    assert chapters[-1]["number"] == 19
+
+
+def test_gap_in_extended_chapter_sequence_is_unhealthy():
+    rows = [chapter_row(number) for number in range(1, 20) if number != 18]
+    chapters, health = wordpress_chapters(FakeSession(rows), {
+        "id": "test",
+        "owner": "Parti test",
+        "api_base": "https://melenchon2027.fr",
+        "minimum_expected_chapters": 18,
+        "min_content_chars": 500,
+    })
+    assert len(chapters) == 18
+    assert health["highest_chapter_number"] == 19
+    assert health["contiguous"] is False
+    assert health["complete"] is False
+    assert health["status"] == 206
