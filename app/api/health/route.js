@@ -44,7 +44,7 @@ export async function GET() {
       chat: {
         engine: "deterministic-bm25-ontology-v4",
         responseGeneration: "deterministic_extractive",
-        edgeRateLimit: { requests: 8, seconds: 60 },
+        edgeRateLimit: { requests: 30, seconds: 60 },
         semanticFallback: {
           enabled: fallback.enabled,
           configured: fallback.configured,
