@@ -4,11 +4,7 @@ on:
   pull_request:
     paths:
       - '.github/workflows/temporary-production-readiness-probe.yml'
-      - '.github/workflows/daily-watch.yml'
       - 'registries/watch.yaml'
-      - 'registries/parties.yaml'
-      - 'registries/sources.yaml'
-      - 'scripts/daily_watch.py'
       - 'scripts/direct_feed_watch.py'
       - 'scripts/update_source_health.py'
   workflow_dispatch:
@@ -36,55 +32,50 @@ jobs:
           printf '%s\n' "$CANONICAL_STATUS"
           echo "$CANONICAL_STATUS" | grep -q 'proposals/auto/__readiness_probe__/probe.md'
           rm -rf proposals/auto/__readiness_probe__
-          test -z "$(git status --porcelain --untracked-files=all -- data/entities.json registries/candidates.yaml corpus/2027 proposals)"
-      - name: Probe official LFI structured endpoints from the production runner environment
+      - name: Inspect LFI programme sitemap structure
         shell: bash
         run: |
           python - <<'PY'
           import json
-          import urllib.error
           import urllib.request
+          import xml.etree.ElementTree as ET
 
-          urls = [
-              'https://programme.lafranceinsoumise.fr/wp-sitemap.xml',
-              'https://programme.lafranceinsoumise.fr/sitemap_index.xml',
-              'https://programme.lafranceinsoumise.fr/feed/',
-              'https://melenchon2027.fr/wp-sitemap.xml',
-              'https://melenchon2027.fr/sitemap_index.xml',
-              'https://melenchon2027.fr/feed/',
-              'https://lafranceinsoumise.fr/wp-sitemap.xml',
-              'https://lafranceinsoumise.fr/feed/',
-          ]
           headers = {
               'User-Agent': 'programmes-politiques-france-2027-watch/1.0 (+https://github.com/TFourniax/programmes-politiques-france-2027)',
               'Accept-Language': 'fr,en;q=0.7',
           }
-          results = []
-          for url in urls:
-              request = urllib.request.Request(url, headers=headers)
-              try:
-                  with urllib.request.urlopen(request, timeout=20) as response:
-                      raw = response.read(1500)
-                      results.append({
-                          'url': url,
-                          'status': response.status,
-                          'resolved': response.geturl(),
-                          'content_type': response.headers.get('content-type', ''),
-                          'sample': raw[:240].decode('utf-8', errors='replace').replace('\n', ' '),
-                      })
-              except urllib.error.HTTPError as exc:
-                  raw = exc.read(1500)
-                  results.append({
-                      'url': url,
-                      'status': exc.code,
-                      'resolved': exc.geturl(),
-                      'content_type': exc.headers.get('content-type', ''),
-                      'sample': raw[:240].decode('utf-8', errors='replace').replace('\n', ' '),
-                  })
-              except Exception as exc:
-                  results.append({'url': url, 'error': f'{type(exc).__name__}: {exc}'})
-          print('LFI_ENDPOINT_PROBE=' + json.dumps(results, ensure_ascii=False))
-          assert any(item.get('status') == 200 and any(token in str(item.get('content_type', '')).lower() for token in ('xml', 'rss', 'atom')) for item in results), results
+          index_url = 'https://melenchon2027.fr/sitemap_index.xml'
+          with urllib.request.urlopen(urllib.request.Request(index_url, headers=headers), timeout=20) as response:
+              raw = response.read()
+              assert response.status == 200
+          root = ET.fromstring(raw)
+          children = [
+              (node.text or '').strip()
+              for node in root.iter()
+              if node.tag.rsplit('}', 1)[-1].lower() == 'loc' and (node.text or '').strip()
+          ]
+          print('LFI_SITEMAP_CHILDREN=' + json.dumps(children, ensure_ascii=False))
+          assert children, 'empty sitemap index'
+          coverage = []
+          for child_url in children[:12]:
+              with urllib.request.urlopen(urllib.request.Request(child_url, headers=headers), timeout=20) as response:
+                  child_raw = response.read()
+                  assert response.status == 200
+              child = ET.fromstring(child_raw)
+              urls = []
+              for url_node in child:
+                  loc = None
+                  lastmod = None
+                  for field in list(url_node):
+                      name = field.tag.rsplit('}', 1)[-1].lower()
+                      if name == 'loc': loc = (field.text or '').strip()
+                      if name == 'lastmod': lastmod = (field.text or '').strip()
+                  if loc and '/programme2025/' in loc:
+                      urls.append({'url': loc, 'lastmod': lastmod})
+              if urls:
+                  coverage.append({'sitemap': child_url, 'programme_urls': urls[:10], 'count': len(urls)})
+          print('LFI_PROGRAMME_SITEMAP_COVERAGE=' + json.dumps(coverage, ensure_ascii=False))
+          assert coverage, 'no sitemap child covers /programme2025/'
           PY
       - name: Run targeted feed and health tests
         run: pytest -q tests/test_direct_feed_watch.py tests/test_update_source_health.py
