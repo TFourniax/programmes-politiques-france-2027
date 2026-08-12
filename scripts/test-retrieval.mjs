@@ -12,7 +12,7 @@ const includesPath = (results, fragment) => results.some((item) => item.citation
 
 const meta = getMeta();
 assert.equal(meta.snapshotDate, entities.snapshot_date);
-assert.equal(meta.indexVersion, 3);
+assert.equal(meta.indexVersion, 4);
 assert.ok(meta.counts.candidates >= 40);
 assert.ok(meta.counts.parties >= 25);
 assert.ok(meta.counts.documents >= 20);
@@ -66,7 +66,6 @@ assert.ok(includesPath(renaissanceNuclear, 'renaissance-14-epr-smr-2030.md'));
 const nuclearProposal = renaissanceNuclear.find((item) => item.citation.path.includes('renaissance-14-epr-smr-2030.md'));
 assert.equal(nuclearProposal?.citation.entityId, 'renaissance');
 
-// Natural out-of-corpus questions must return nothing instead of the least-bad political chunks.
 const formulaOne = retrieve('Parle moi de formule 1', { limit: 8 });
 assert.equal(formulaOne.results.length, 0);
 assert.equal(formulaOne.debug.answerable, false);
@@ -76,7 +75,6 @@ const medicalIst = retrieve('Donne moi des exemples de maladies type « IST »',
 assert.equal(medicalIst.results.length, 0);
 assert.equal(medicalIst.debug.answerable, false);
 
-// Candidate-list mode is also scope-gated: the word "candidat" alone is not enough.
 const formulaCandidates = retrieve('Quels sont les candidats de Formule 1 ?', { limit: 3 });
 assert.equal(formulaCandidates.results.length, 0);
 assert.equal(formulaCandidates.debug.answerable, false);
@@ -118,6 +116,7 @@ assert.ok(!/^ional\b/i.test(repaired));
 
 console.log('Production retrieval QA OK', {
   snapshotDate: meta.snapshotDate,
+  indexVersion: meta.indexVersion,
   candidates: meta.counts.candidates,
   documents: meta.counts.documents,
   proposals: meta.counts.proposals,
