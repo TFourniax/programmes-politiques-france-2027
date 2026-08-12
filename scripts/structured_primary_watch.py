@@ -64,23 +64,44 @@ def load_state() -> dict[str, Any]:
     return data if isinstance(data, dict) else {"version": 1}
 
 
-def wordpress_chapters(session: requests.Session, source: dict[str, Any]) -> tuple[list[dict[str, Any]], dict[str, Any]]:
-    api_base = str(source["api_base"]).rstrip("/")
-    expected = int(source.get("expected_chapters", 18))
-    after = str(source.get("after") or "2026-01-01T00:00:00")
-    endpoint = f"{api_base}/wp-json/wp/v2/posts?" + urlencode({
+def fetch_wordpress_rows(session: requests.Session, api_base: str, source: dict[str, Any]) -> tuple[list[dict[str, Any]], str, int]:
+    params = {
         "search": str(source.get("search") or "Chapitre"),
         "per_page": 100,
         "orderby": "modified",
         "order": "desc",
-        "after": after,
+        "after": str(source.get("after") or "2026-01-01T00:00:00"),
         "_fields": "id,date,modified,slug,link,title,content,status",
-    })
-    response = session.get(endpoint, timeout=30)
-    response.raise_for_status()
-    rows = response.json()
-    if not isinstance(rows, list):
-        raise ValueError("WordPress posts response is not a list")
+    }
+    base_endpoint = f"{api_base}/wp-json/wp/v2/posts"
+    rows: list[dict[str, Any]] = []
+    page = 1
+    total_pages = 1
+    max_pages = int(source.get("max_pages", 10))
+    while page <= total_pages and page <= max_pages:
+        endpoint = f"{base_endpoint}?" + urlencode({**params, "page": page})
+        response = session.get(endpoint, timeout=30)
+        response.raise_for_status()
+        payload = response.json()
+        if not isinstance(payload, list):
+            raise ValueError("WordPress posts response is not a list")
+        rows.extend(payload)
+        if page == 1:
+            try:
+                total_pages = max(1, int(response.headers.get("X-WP-TotalPages") or 1))
+            except (TypeError, ValueError):
+                total_pages = 1
+            if total_pages > max_pages:
+                raise ValueError(f"WordPress result pagination exceeds configured max_pages ({total_pages}>{max_pages})")
+        page += 1
+    return rows, f"{base_endpoint}?{urlencode(params)}", total_pages
+
+
+def wordpress_chapters(session: requests.Session, source: dict[str, Any]) -> tuple[list[dict[str, Any]], dict[str, Any]]:
+    api_base = str(source["api_base"]).rstrip("/")
+    minimum_expected = int(source.get("minimum_expected_chapters", source.get("expected_chapters", 18)))
+    min_chars = int(source.get("min_content_chars", 500))
+    rows, endpoint, pages = fetch_wordpress_rows(session, api_base, source)
 
     by_number: dict[int, dict[str, Any]] = {}
     rejected = 0
@@ -90,12 +111,12 @@ def wordpress_chapters(session: requests.Session, source: dict[str, Any]) -> tup
         if not match:
             continue
         number = int(match.group(1))
-        if number < 1 or number > expected:
+        if number < 1:
             continue
         rendered = str((row.get("content") or {}).get("rendered") or "")
         text = visible_text(rendered)
         link = canonicalize_url(str(row.get("link") or ""))
-        if not link or len(text) < int(source.get("min_content_chars", 500)):
+        if not link or len(text) < min_chars or str(row.get("status") or "publish") not in {"publish", ""}:
             rejected += 1
             continue
         current = {
@@ -114,7 +135,14 @@ def wordpress_chapters(session: requests.Session, source: dict[str, Any]) -> tup
             by_number[number] = current
 
     chapters = [by_number[number] for number in sorted(by_number)]
-    complete = len(chapters) == expected and {item["number"] for item in chapters} == set(range(1, expected + 1))
+    numbers = [item["number"] for item in chapters]
+    highest = max(numbers, default=0)
+    contiguous = numbers == list(range(1, highest + 1)) if numbers else False
+    # `minimum_expected_chapters` is a floor, not a ceiling: if the official site adds
+    # chapter 19 tomorrow, 1..19 is accepted and ingested automatically. A missing chapter
+    # or a drop below the known baseline makes the representation unhealthy instead.
+    complete = highest >= minimum_expected and contiguous and len(chapters) == highest
+    expected_items = highest if complete else max(highest, minimum_expected)
     health = {
         "id": str(source["id"]),
         "owner": str(source["owner"]),
@@ -122,12 +150,16 @@ def wordpress_chapters(session: requests.Session, source: dict[str, Any]) -> tup
         "status": 200 if complete else 206,
         "checked_at": iso_now(),
         "api_endpoint": endpoint,
-        "expected_items": expected,
+        "minimum_expected_items": minimum_expected,
+        "expected_items": expected_items,
         "item_count": len(chapters),
-        "full_content_items": sum(1 for item in chapters if item["text_chars"] >= int(source.get("min_content_chars", 500))),
+        "full_content_items": sum(1 for item in chapters if item["text_chars"] >= min_chars),
         "rejected_items": rejected,
         "coverage_urls": [canonicalize_url(str(url)) for url in source.get("coverage_urls", [])],
-        "chapter_numbers": [item["number"] for item in chapters],
+        "chapter_numbers": numbers,
+        "highest_chapter_number": highest,
+        "contiguous": contiguous,
+        "wordpress_pages_fetched": pages,
         "minimum_content_chars": min([item["text_chars"] for item in chapters], default=0),
         "maximum_content_chars": max([item["text_chars"] for item in chapters], default=0),
         "complete": complete,
@@ -149,9 +181,6 @@ def collect_source(session: requests.Session, source: dict[str, Any], previous: 
         current_items[key] = item
         changed = bool(old and old.get("sha256") != item["sha256"])
         is_new = not old
-        # Current-cycle structured programme material is intentionally seeded into the
-        # promotion backlog on first observation. Exact-claim dedupe and verifier guards
-        # still prevent duplicate canonical proposals.
         if is_new or changed:
             events.append({
                 "event_type": "official_source_changed" if changed else "official_new_url",
@@ -211,7 +240,8 @@ def write_report(events: list[dict[str, Any]], health_rows: list[dict[str, Any]]
     for row in health_rows:
         lines.extend([
             f"## {row.get('owner')} · {row.get('id')}", "",
-            f"- complétude : {row.get('item_count')}/{row.get('expected_items')} ;",
+            f"- chapitres : {row.get('item_count')} (minimum connu : {row.get('minimum_expected_items')}) ;",
+            f"- séquence continue : {'oui' if row.get('contiguous') else 'non'} ;",
             f"- objets à contenu complet : {row.get('full_content_items')} ;",
             f"- état : {'complet' if row.get('complete') else 'incomplet'} ;",
             f"- nouveaux/changés : {row.get('event_count', 0)}.", "",
@@ -266,7 +296,7 @@ def main() -> None:
     write_report(all_events, health_rows, warnings)
     print(f"Structured primary watch: {len(sources)} source(s), {len(all_events)} event(s), {len(warnings)} warning(s)")
     for row in health_rows:
-        print(f"  {row['id']}: {row['item_count']}/{row['expected_items']} full programme items; complete={row['complete']}")
+        print(f"  {row['id']}: {row['item_count']} chapter(s), baseline={row['minimum_expected_items']}, complete={row['complete']}")
 
 
 if __name__ == "__main__":
