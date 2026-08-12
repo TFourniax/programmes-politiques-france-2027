@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-import { CandidateIdentity, CoverageBadge, EvidenceList, ExplorerError, ExplorerIntro, ExplorerLoading, fetchExplorer, readSearchParams, writeSearchParams } from "./ExplorerShared.js";
+import { CandidateIdentity, CoverageBadge, EvidenceList, ExplorerError, ExplorerIntro, ExplorerLoading, fetchExplorer, publicConfidence, publicEvidenceKind, publicRecordStatus, readSearchParams, writeSearchParams } from "./ExplorerShared.js";
 
 export default function CandidateExplorer({ onExplore, onNavigate }) {
   const [meta, setMeta] = useState(null);
@@ -57,7 +57,7 @@ export default function CandidateExplorer({ onExplore, onNavigate }) {
         <CandidateIdentity candidate={profile.candidate} />
         <div className="candidateHeroMeta">
           <span>Statut au {profile.candidate.statusAsOf}</span>
-          <span>preuve : {profile.candidate.statusConfidence || "non renseignée"}</span>
+          <span>{publicConfidence(profile.candidate.statusConfidence) || "niveau de preuve non renseigné"}</span>
           {profile.candidate.officialCandidate ? <b>candidat officiel</b> : <span>pas encore candidat officiel au sens du Conseil constitutionnel</span>}
         </div>
         <div className="candidateHeroActions">
@@ -107,7 +107,7 @@ export default function CandidateExplorer({ onExplore, onNavigate }) {
           {profile.timeline.map((event, index) => <article className="timelineEvent" key={`${event.type}-${event.date}-${event.title}-${index}`}>
             <div className="timelineDate">{event.date || "date non renseignée"}</div>
             <div className="timelineDot" />
-            <div className="timelineBody"><div><strong>{event.title}</strong><span>{event.type === "candidate_status" ? "statut" : event.type}{event.documentStatus ? ` · ${event.documentStatus}` : ""}</span></div>{event.excerpt && <p>{event.excerpt}</p>}<div className="sourceLinks">{event.githubUrl && <a href={event.githubUrl} target="_blank" rel="noreferrer">Fichier GitHub ↗</a>}{event.sourceUrl && <a href={event.sourceUrl} target="_blank" rel="noreferrer">Source originale ↗</a>}</div></div>
+            <div className="timelineBody"><div><strong>{event.title}</strong><span>{publicEvidenceKind(event.type)}{event.documentStatus ? ` · ${publicRecordStatus(event.documentStatus)}` : ""}</span></div>{event.excerpt && <p>{event.excerpt}</p>}<div className="sourceLinks">{event.githubUrl && <a href={event.githubUrl} target="_blank" rel="noreferrer">Voir dans le corpus ↗</a>}{event.sourceUrl && <a href={event.sourceUrl} target="_blank" rel="noreferrer">Source originale ↗</a>}</div></div>
           </article>)}
         </div>
       </section>
