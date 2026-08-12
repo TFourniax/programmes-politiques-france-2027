@@ -11,17 +11,20 @@ permissions:
 
 jobs:
   probe:
+    strategy:
+      fail-fast: false
+      matrix:
+        lane: [1, 2, 3]
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 8
     steps:
-      - name: Probe official structured endpoints
+      - name: Probe individual programme pages and discovery endpoints
         shell: bash
         run: |
           python - <<'PY'
           import json
           import re
           import urllib.error
-          import urllib.parse
           import urllib.request
 
           base = 'https://melenchon2027.fr'
@@ -35,87 +38,80 @@ jobs:
               try:
                   with urllib.request.urlopen(req, timeout=20) as response:
                       body = response.read(limit)
-                      return {'url': url, 'status': response.status, 'resolved': response.geturl(), 'type': response.headers.get('content-type', ''), 'body': body}
+                      return {
+                          'status': response.status,
+                          'resolved': response.geturl(),
+                          'type': response.headers.get('content-type', ''),
+                          'link_header': response.headers.get('link', ''),
+                          'body': body,
+                      }
               except urllib.error.HTTPError as exc:
-                  return {'url': url, 'status': exc.code, 'resolved': exc.geturl(), 'type': exc.headers.get('content-type', ''), 'body': exc.read(4000)}
+                  return {
+                      'status': exc.code,
+                      'resolved': exc.geturl(),
+                      'type': exc.headers.get('content-type', ''),
+                      'link_header': exc.headers.get('link', ''),
+                      'body': exc.read(4000),
+                  }
               except Exception as exc:
-                  return {'url': url, 'error': f'{type(exc).__name__}: {exc}', 'body': b''}
+                  return {'status': 0, 'error': f'{type(exc).__name__}: {exc}', 'body': b'', 'link_header': ''}
 
-          out = []
-          sitemap = get(base + '/page-sitemap.xml')
-          sitemap_text = sitemap['body'].decode('utf-8', errors='replace')
-          programme_urls = re.findall(r'<loc>([^<]*(?:programme|livre|avenir-en-commun)[^<]*)</loc>', sitemap_text, flags=re.I)
-          out.append({
-              'probe': 'page_sitemap',
-              'status': sitemap.get('status'),
-              'bytes': len(sitemap['body']),
-              'programme_urls': programme_urls[:100],
-          })
-
-          for term in ['livre', 'avenir en commun', 'programme', 'programme 2025', 'La France Insoumise']:
-              url = base + '/wp-json/wp/v2/search?' + urllib.parse.urlencode({'search': term, 'per_page': 100})
+          sitemap_urls = [
+              base + '/page-sitemap.xml',
+              base + '/post-sitemap.xml',
+              base + '/sitemap_index.xml',
+              base + '/wp-sitemap.xml',
+              base + '/wp-sitemap-posts-post-1.xml',
+              base + '/wp-sitemap-posts-page-1.xml',
+          ]
+          sitemaps = []
+          discovered = set()
+          for url in sitemap_urls:
               result = get(url)
-              try:
-                  payload = json.loads(result['body']) if result.get('status') == 200 else []
-              except Exception:
-                  payload = []
-              out.append({
-                  'probe': 'wp_search',
-                  'term': term,
-                  'status': result.get('status'),
-                  'items': [
-                      {'id': item.get('id'), 'title': item.get('title'), 'url': item.get('url'), 'type': item.get('type'), 'subtype': item.get('subtype')}
-                      for item in payload[:100]
-                  ],
+              text = result['body'].decode('utf-8', errors='replace')
+              links = re.findall(r'<loc>([^<]+)</loc>', text, flags=re.I)
+              current = sorted({link for link in links if '/programme2025/' in link})
+              discovered.update(current)
+              sitemaps.append({'url': url, 'status': result['status'], 'bytes': len(result['body']), 'current_programme_urls': len(current)})
+
+          chapters = []
+          for number in range(1, 19):
+              url = f'{base}/programme2025/livre/chapitre{number}/'
+              result = get(url)
+              text = result['body'].decode('utf-8', errors='replace')
+              visible = re.sub(r'<script.*?</script>|<style.*?</style>|<[^>]+>', ' ', text, flags=re.I | re.S)
+              visible = re.sub(r'\s+', ' ', visible).strip()
+              section_links = sorted(set(re.findall(r'href=["\']([^"\']+/s\d+/?)["\']', text, flags=re.I)))
+              rest_links = re.findall(r'https?://[^>;\s]+/wp-json/wp/v2/[^>;\s]+', result.get('link_header', ''))
+              chapters.append({
+                  'number': number,
+                  'url': url,
+                  'status': result['status'],
+                  'bytes': len(result['body']),
+                  'visible_chars': len(visible),
+                  'section_links': len(section_links),
+                  'sample_sections': section_links[:4],
+                  'rest_links': rest_links[:3],
               })
 
-          # List all public REST content types so a custom post type cannot be missed.
-          types_result = get(base + '/wp-json/wp/v2/types')
-          try:
-              types_payload = json.loads(types_result['body']) if types_result.get('status') == 200 else {}
-          except Exception:
-              types_payload = {}
-          out.append({
-              'probe': 'types',
-              'status': types_result.get('status'),
-              'types': {name: {'slug': item.get('slug'), 'rest_base': item.get('rest_base')} for name, item in types_payload.items()},
-          })
+          sample_sections = []
+          for url in [
+              base + '/programme2025/livre/chapitre1/s1/',
+              base + '/programme2025/livre/chapitre12/s1/',
+              base + '/programme2025/livre/chapitre18/s1/',
+          ]:
+              result = get(url)
+              text = result['body'].decode('utf-8', errors='replace')
+              visible = re.sub(r'<script.*?</script>|<style.*?</style>|<[^>]+>', ' ', text, flags=re.I | re.S)
+              visible = re.sub(r'\s+', ' ', visible).strip()
+              sample_sections.append({'url': url, 'status': result['status'], 'bytes': len(result['body']), 'visible_chars': len(visible), 'link_header': result.get('link_header', '')[:500]})
 
-          # If search found the exact programme path, fetch the underlying REST object and
-          # verify that rendered content is actually present, not only metadata.
-          candidates = []
-          for row in out:
-              if row.get('probe') != 'wp_search':
-                  continue
-              for item in row.get('items', []):
-                  url = str(item.get('url') or '')
-                  if 'programme2025/livre' in url or 'avenir-en-commun' in url:
-                      candidates.append(item)
-          seen = set()
-          for item in candidates:
-              key = (item.get('subtype'), item.get('id'))
-              if key in seen or not item.get('id') or not item.get('subtype'):
-                  continue
-              seen.add(key)
-              rest_base = (types_payload.get(item['subtype']) or {}).get('rest_base') or item['subtype']
-              detail_url = f"{base}/wp-json/wp/v2/{rest_base}/{item['id']}"
-              detail = get(detail_url)
-              try:
-                  payload = json.loads(detail['body']) if detail.get('status') == 200 else {}
-              except Exception:
-                  payload = {}
-              rendered = str((payload.get('content') or {}).get('rendered') or '')
-              out.append({
-                  'probe': 'detail',
-                  'source': item,
-                  'url': detail_url,
-                  'status': detail.get('status'),
-                  'link': payload.get('link'),
-                  'date': payload.get('date'),
-                  'modified': payload.get('modified'),
-                  'rendered_chars': len(rendered),
-                  'rendered_sample': re.sub(r'<[^>]+>', ' ', rendered)[:600],
-              })
-
-          print('LFI_ENDPOINTS=' + json.dumps(out, ensure_ascii=False))
+          print('LFI_DIRECT_PROBE=' + json.dumps({
+              'lane': '${{ matrix.lane }}',
+              'sitemaps': sitemaps,
+              'discoveredProgrammeUrls': len(discovered),
+              'discoveredSamples': sorted(discovered)[:20],
+              'chapters': chapters,
+              'sampleSections': sample_sections,
+          }, ensure_ascii=False))
           PY
