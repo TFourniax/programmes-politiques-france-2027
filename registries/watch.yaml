@@ -1,4 +1,4 @@
-version: 5
+version: 6
 enabled: true
 
 official_discovery:
@@ -6,16 +6,26 @@ official_discovery:
   max_relevant_urls_per_site: 80
   max_feeds_per_site: 2
 
+# Certains sites officiels protègent leur HTML contre les robots mais publient un
+# flux structuré officiel accessible. Ces flux servent uniquement à découvrir de
+# nouvelles URLs : un titre RSS ne suffit jamais à promouvoir une proposition.
+official_direct_feeds:
+  - id: pcf-actualites
+    owner: Parti communiste français
+    url: https://pcf.nationbuilder.com/actualites.rss
+    public_origin: https://www.pcf.fr/
+    source_tier: tier_1_primary_official
+
 gdelt:
   enabled: true
   timespan: 1d
   max_entities: 60
-  batch_size: 6
+  batch_size: 9
   max_records_per_batch: 75
   keep_per_entity: 3
-  request_delay_seconds: 1.5
+  request_delay_seconds: 2.5
   max_retries: 3
-  retry_backoff_seconds: 4
+  retry_backoff_seconds: 5
   allow_unlisted_domains: false
   trusted_press_domains:
     - afp.com
