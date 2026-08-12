@@ -23,6 +23,7 @@ Le produit comprend :
 - des citations liées à chaque réponse et conservées correctement dans les conversations multi-tours ;
 - un mode Historique qui sépare les versions actives des versions remplacées, retirées ou archivées ;
 - des garde-fous explicites contre l’attribution automatique d’un programme de parti à une personnalité ;
+- une veille automatique multi-radars : sources officielles, flux officiels directs, sociaux vérifiés et radar presse secondaire ;
 - une CI de production couvrant données, dépendances, retrieval, benchmark, adversarial QA, hardening, ontologie, build et tests navigateur desktop/mobile.
 
 Le corpus reste **évolutif et non exhaustif** tant que la campagne se poursuit. Les niveaux `high`, `medium`, `low` et `unknown` qualifient la qualité de la preuve disponible, jamais les chances électorales. Une absence d’information dans le corpus ne signifie jamais opposition à une mesure.
@@ -58,7 +59,7 @@ requête canonique revalidée par le retrieval déterministe
 réponse extractive + citations + suggestions corpus-grounded
 ```
 
-`data/search-index.json` est reconstruisible à chaque démarrage/build. Les fichiers source du dépôt restent la vérité canonique.
+`data/search-index.json` est reconstructible à chaque démarrage/build. Les fichiers source du dépôt restent la vérité canonique.
 
 ## Règles de neutralité et de preuve
 
@@ -89,17 +90,25 @@ npm run dev
 Le produit fonctionne sans clé LLM. Pour activer le fallback sémantique rare :
 
 ```text
-LLM_API_KEY=...
-# OPENAI_API_KEY=...   # alternative acceptée
-LLM_API_URL=https://api.openai.com/v1/chat/completions
-LLM_MODEL=gpt-5-mini
 LLM_RETRIEVAL_FALLBACK_ENABLED=true
-LLM_FALLBACK_MODEL=gpt-5-mini
+LLM_FALLBACK_API_KEY=...
+# OPENAI_API_KEY=...  # alternative acceptée
+# LLM_API_KEY=...     # compatibilité historique uniquement
+LLM_FALLBACK_API_URL=https://api.openai.com/v1/chat/completions
+LLM_FALLBACK_MODEL=gpt-5-nano
 LLM_FALLBACK_TIMEOUT_MS=5500
 NEXT_PUBLIC_REPOSITORY_URL=https://github.com/TFourniax/programmes-politiques-france-2027
 ```
 
-Le fallback n’est appelé que lorsque la recherche déterministe ne comprend pas suffisamment la formulation. Une panne, un timeout, un quota fournisseur ou une interprétation peu sûre ne bloque jamais le chemin déterministe.
+Le fallback n’est appelé que lorsque la recherche déterministe ne comprend pas suffisamment la formulation. Une panne, un timeout, un quota fournisseur ou une interprétation peu sûre ne bloque jamais le chemin déterministe. La rédaction de la réponse politique reste toujours extractive.
+
+## Enrichissement autonome
+
+La veille planifiée collecte les changements des sources officielles, découvre les nouvelles URL via sitemaps/feeds, surveille les profils sociaux vérifiés et utilise GDELT comme radar de presse secondaire.
+
+Lorsqu’un site officiel protège son HTML contre les robots mais expose un endpoint structuré officiel, un **flux direct** peut être configuré comme radar alternatif. Ce flux sert uniquement à détecter de nouvelles URL : son titre n’est jamais considéré comme une preuve suffisante pour créer une proposition.
+
+Les promotions canoniques restent soumises aux garde-fous de provenance, citations exactes, validation indépendante, chronologie et versionnement. Toute création ou modification canonique — y compris un nouveau fichier encore non suivi par Git — déclenche les gates web complets avant le push automatique.
 
 ## Gates de production
 
@@ -131,7 +140,7 @@ Les contrôles bloquants incluent notamment :
 - cohérence des sources dans les conversations multi-tours ;
 - audit npm de niveau `high` ;
 - build Next.js de production ;
-- tests Playwright Chromium desktop et mobile.
+- tests Playwright Chromium desktop et mobile, y compris vues denses sans débordement horizontal et navigation soutenue.
 
 ## Déploiement Netlify
 
@@ -142,9 +151,11 @@ Le dépôt contient `netlify.toml` :
 - Node.js 22 ;
 - fichiers de données nécessaires aux Functions inclus explicitement.
 
-Netlify prend en charge Next.js via OpenNext. Une Edge Function limite `/api/chat` à **8 requêtes par minute**, agrégées par IP et domaine. La route serveur conserve une défense en profondeur, et le fallback LLM dispose en plus d’un budget local plus strict ainsi que d’un circuit breaker en cas d’erreurs répétées du fournisseur.
+Netlify prend en charge Next.js via OpenNext. Une Edge Function limite `/api/chat` à **30 requêtes par minute**, agrégées par IP et domaine. La route serveur conserve une défense équivalente. Le fallback LLM dispose en plus d’un budget indépendant beaucoup plus strict de **2 tentatives par minute et par client**, ainsi que d’un timeout et d’un circuit breaker en cas d’erreurs techniques répétées.
 
-`/api/health` expose l’état du corpus, de la veille et la disponibilité du fallback sans jamais exposer de secret.
+`/api/health` expose l’état du corpus, de la veille, le SHA réellement déployé et la disponibilité du fallback sans jamais exposer de secret.
+
+Le smoke de Deploy Preview attend que Netlify serve exactement le head de la PR avant ses tests ; il vérifie également le vrai fallback lorsqu’il est configuré et un burst de navigation déterministe à travers la couche Edge.
 
 Voir `docs/DEPLOYMENT.md` pour la checklist de mise en production et de Deploy Preview.
 
