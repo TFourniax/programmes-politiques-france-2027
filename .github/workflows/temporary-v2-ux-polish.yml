@@ -152,7 +152,7 @@ test('critical mobile interactions remain readable and tappable', async ({ page 
   expect(dimensions.body).toBeLessThanOrEqual(dimensions.viewport + 2);
   expect(dimensions.clipped).toEqual([]);
 });
-'''
+          '''
           Path('tests/e2e/ux-polish.spec.js').write_text(ux_test, encoding='utf-8')
           PY
 
