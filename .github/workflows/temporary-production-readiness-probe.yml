@@ -12,8 +12,10 @@ on:
       - 'scripts/direct_feed_watch.py'
       - 'scripts/gdelt_watch.py'
       - 'scripts/update_source_health.py'
+      - 'scripts/update_watch_health.py'
       - 'tests/test_direct_feed_watch.py'
       - 'tests/test_update_source_health.py'
+      - 'tests/test_watch_health.py'
   workflow_dispatch:
 
 permissions:
@@ -47,7 +49,7 @@ jobs:
           python scripts/direct_feed_watch.py
           python scripts/update_source_health.py
           python scripts/gdelt_watch.py
-      - name: Assert operational primary-source coverage
+      - name: Assert operational primary-source monitoring
         shell: bash
         run: |
           python - <<'PY'
@@ -59,15 +61,22 @@ jobs:
           base = Path('research/veille')
           health = json.loads((base / 'source-health.json').read_text(encoding='utf-8'))
           pcf = health['sources']['https://www.pcf.fr/']
-          lfi = health['sources']['https://melenchon2027.fr/programme2025/livre/']
-          assert pcf['status'] == 'ok_via_official_feed', pcf
-          assert 'actualites.rss' in pcf.get('alternate_url', ''), pcf
-          assert lfi['status'] in {'ok', 'ok_via_official_feed'}, lfi
-          if lfi['status'] == 'ok_via_official_feed':
-              assert lfi.get('alternate_url') in {
-                  'https://melenchon2027.fr/feed/',
-                  'https://lafranceinsoumise.fr/feed/',
-              }, lfi
+          lfi_programme = health['sources']['https://melenchon2027.fr/programme2025/livre/']
+
+          # PCF general-site discovery remains covered by an official RSS endpoint even
+          # when Cloudflare rejects HTML robots.
+          assert pcf['status'] in {'ok', 'ok_via_official_feed'}, pcf
+          if pcf['status'] == 'ok_via_official_feed':
+              assert 'actualites.rss' in pcf.get('alternate_url', ''), pcf
+
+          # A precise programme page must NEVER be marked healthy merely because a feed
+          # exists. It is either fetched successfully or remains an explicit retryable
+          # warning, so silent in-place edits cannot be hidden.
+          assert lfi_programme['kind'] == 'party_programme', lfi_programme
+          assert lfi_programme['status'] in {'ok', 'transient_failure'}, lfi_programme
+          if lfi_programme['status'] == 'transient_failure':
+              assert 'alternate_url' not in lfi_programme, lfi_programme
+              assert health['uncovered_failure_count'] >= 1, health
           assert health['persistent_failure_count'] == 0, health.get('persistent_failures')
 
           state = json.loads((base / 'state.json').read_text(encoding='utf-8'))
@@ -87,14 +96,15 @@ jobs:
           assert requests_made <= 4, (requests_made, press)
           print('PRODUCTION_WATCH_PROBE=' + json.dumps({
               'persistentFailures': health['persistent_failure_count'],
+              'coveredWarnings': health['covered_failure_count'],
+              'uncoveredWarnings': health['uncovered_failure_count'],
               'pcf': pcf['status'],
               'pcfAlternate': pcf.get('alternate_url'),
-              'lfi': lfi['status'],
-              'lfiAlternate': lfi.get('alternate_url'),
+              'lfiProgramme': lfi_programme['status'],
               'directFeedsHealthy': 3,
               'gdeltRequests': requests_made,
               'gdeltWarnings': warnings,
           }, ensure_ascii=False))
           PY
       - name: Run targeted watch tests
-        run: pytest -q tests/test_daily_watch.py tests/test_direct_feed_watch.py tests/test_gdelt_watch.py tests/test_update_source_health.py
+        run: pytest -q tests/test_daily_watch.py tests/test_direct_feed_watch.py tests/test_gdelt_watch.py tests/test_update_source_health.py tests/test_watch_health.py
