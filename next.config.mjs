@@ -27,6 +27,12 @@ const securityHeaders = [
 const nextConfig = {
   poweredByHeader: false,
   reactStrictMode: true,
+  // COMMIT_REF exists only during Netlify's build. Embed the non-secret SHA so
+  // the Deploy Preview smoke test can prove it is exercising the exact PR head,
+  // rather than a healthy-but-stale preview from the previous commit.
+  env: {
+    DEPLOY_COMMIT_REF: process.env.COMMIT_REF || process.env.GITHUB_SHA || ""
+  },
   async headers() {
     return [
       {
