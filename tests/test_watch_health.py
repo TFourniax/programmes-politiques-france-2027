@@ -112,6 +112,34 @@ def test_raw_warning_fully_covered_by_official_feed_does_not_create_false_alarm(
     assert health["reasons"] == []
 
 
+def test_raw_warning_covered_by_equivalent_primary_url_stays_healthy():
+    health = build_health(
+        {
+            "last_run_at": "2026-08-11T10:00:00+00:00",
+            "last_direct_feed_run_at": "2026-08-11T09:59:00+00:00",
+            "last_run_error_count": 1,
+        },
+        {"sources": {}},
+        {"events": {}},
+        {},
+        True,
+        generated_at="2026-08-11T10:03:00+00:00",
+        source_health={
+            "persistent_failure_count": 0,
+            "raw_failure_count": 1,
+            "covered_failure_count": 1,
+            "uncovered_failure_count": 0,
+            "equivalent_primary_coverage_count": 1,
+            "alternate_official_feed_coverage_count": 0,
+        },
+    )
+    assert health["status"] == "healthy"
+    assert health["equivalent_primary_coverage_count"] == 1
+    assert health["alternate_official_feed_coverage_count"] == 0
+    assert health["last_direct_feed_run_at"] == "2026-08-11T09:59:00+00:00"
+    assert health["reasons"] == []
+
+
 def test_uncovered_transient_warning_still_degrades_health():
     health = build_health(
         {"last_run_at": "2026-08-11T10:00:00+00:00", "last_run_error_count": 1},
