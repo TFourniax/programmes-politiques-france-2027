@@ -7,12 +7,14 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 from auto_promote_runner import (  # noqa: E402
     EXTRACTION_SCHEMA,
     VERIFICATION_SCHEMA,
+    _wordpress_rest_source,
     backlog_candidate,
     current_cycle_event,
     date_supported_by_source,
     schema_for_prompt,
     state_backlog_events,
     strict_sanitize,
+    structured_backlog_events,
 )
 
 
@@ -169,12 +171,88 @@ def test_state_backlog_survives_daily_event_overwrite(tmp_path):
     }
     path = tmp_path / "state.json"
     path.write_text(json.dumps(state), encoding="utf-8")
-
     events = state_backlog_events(path)
-
     assert len(events) == 1
     event = events[0]
     assert event["url"] == "https://parti.fr/notre-programme/retraites/"
     assert event["owner"] == "Parti Test"
     assert event["published_at"] == "2026-08-10T12:00:00Z"
     assert event["provenance"] == "durable_official_sitemap_backlog"
+
+
+def test_structured_backlog_survives_daily_jsonl_overwrite_and_keeps_transport(tmp_path):
+    state = {
+        "last_structured_primary_run_at": "2026-08-12T15:00:00+00:00",
+        "structured_primary_health": {
+            "programme": {
+                "owner": "Parti Test",
+                "status": 200,
+                "complete": True,
+                "checked_at": "2026-08-12T15:00:00+00:00",
+                "items": {
+                    "1": {
+                        "number": 1,
+                        "title": "Chapitre 1 : Test",
+                        "link": "https://parti.fr/2026/08/12/chapitre-1/",
+                        "fetch_url": "https://parti.fr/wp-json/wp/v2/posts/101",
+                        "sha256": "abc123",
+                        "date": "2026-08-12",
+                    },
+                    "2": {
+                        "number": 2,
+                        "title": "Chapitre 2 : Test",
+                        "link": "https://parti.fr/2026/08/12/chapitre-2/",
+                        "fetch_url": "https://parti.fr/wp-json/wp/v2/posts/102",
+                        "sha256": "def456",
+                        "date": "2026-08-12",
+                    },
+                },
+            }
+        },
+    }
+    path = tmp_path / "state.json"
+    path.write_text(json.dumps(state), encoding="utf-8")
+    events = structured_backlog_events(path)
+    assert len(events) == 2
+    assert {item["url"] for item in events} == {
+        "https://parti.fr/2026/08/12/chapitre-1/",
+        "https://parti.fr/2026/08/12/chapitre-2/",
+    }
+    assert all(item["fetch_url"].startswith("https://parti.fr/wp-json/") for item in events)
+    assert all(item["provenance"] == "durable_official_structured_primary_backlog" for item in events)
+
+
+class FakeRestResponse:
+    status_code = 200
+    url = "https://parti.fr/wp-json/wp/v2/posts/101"
+    headers = {"content-type": "application/json; charset=UTF-8"}
+
+    def json(self):
+        return {
+            "id": 101,
+            "status": "publish",
+            "link": "https://parti.fr/2026/08/12/chapitre-1/",
+            "title": {"rendered": "Chapitre 1 : Test"},
+            "content": {"rendered": "<h2>Programme</h2><p>" + ("Nous proposons une mesure explicite. " * 20) + "</p>"},
+        }
+
+
+class FakeRestSession:
+    def get(self, url, timeout=30, allow_redirects=True):
+        assert url == "https://parti.fr/wp-json/wp/v2/posts/101"
+        return FakeRestResponse()
+
+
+def test_structured_rest_transport_returns_full_primary_text_under_public_url():
+    source = _wordpress_rest_source(
+        FakeRestSession(),
+        "https://parti.fr/2026/08/12/chapitre-1/",
+        "https://parti.fr/wp-json/wp/v2/posts/101",
+        10000,
+    )
+    assert source["url"] == "https://parti.fr/2026/08/12/chapitre-1/"
+    assert source["fetch_url"] == "https://parti.fr/wp-json/wp/v2/posts/101"
+    assert source["kind"] == "wordpress_rest_json"
+    assert source["title"] == "Chapitre 1 : Test"
+    assert "Nous proposons une mesure explicite" in source["text"]
+    assert source["text_truncated"] is False
