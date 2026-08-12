@@ -5,15 +5,35 @@
       "source_url": "https://www.unenouvelleenergie.fr/notre-programme/immigration/",
       "verified_at": "2026-08-12T03:38:03+00:00"
     },
+    "0f99d5897943cac942c33dd65ae5ac18a1006f586d5ef4c8ff0955618848c914": {
+      "proposal_id": "auto-nouvelle-energie-services-publics-0f99d5897943",
+      "source_url": "https://www.unenouvelleenergie.fr/notre-programme/",
+      "verified_at": "2026-08-12T14:41:17+00:00"
+    },
     "117efe88b94ac18ca72c78dfb2032b52b3cc97a5d170289bfb4127aa648634c2": {
       "proposal_id": "auto-reconquete-fiscalite-redistribution-117efe88b94a",
       "source_url": "https://www.parti-reconquete.fr/",
       "verified_at": "2026-08-11T08:55:59+00:00"
     },
+    "122f072f74ad024a675261dba92493f8e17d876748ff9850c8debdad5cc3c646": {
+      "proposal_id": "auto-bruno-retailleau-pouvoir-achat-travail-122f072f74ad",
+      "source_url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/",
+      "verified_at": "2026-08-12T14:41:26+00:00"
+    },
+    "1d98a3b70af1962a49df403962541ec6a1485eef2eb0949d52d01434584269b5": {
+      "proposal_id": "auto-nouvelle-energie-institutions-democratie-1d98a3b70af1",
+      "source_url": "https://www.unenouvelleenergie.fr/notre-programme/",
+      "verified_at": "2026-08-12T14:41:17+00:00"
+    },
     "2cccea1d7d842e42743960757042f361a8bd2cefe6d6af9174678f9d40d78d84": {
       "proposal_id": "auto-david-lisnard-immigration-integration-2cccea1d7d84",
       "source_url": "https://www.unenouvelleenergie.fr/notre-programme/immigration/",
       "verified_at": "2026-08-12T03:38:03+00:00"
+    },
+    "2dd30b44dc9cdcd6b71d7ed549592260a422a1b253bf9526a1790221be5ea163": {
+      "proposal_id": "auto-nouvelle-energie-services-publics-2dd30b44dc9c",
+      "source_url": "https://www.unenouvelleenergie.fr/notre-programme/",
+      "verified_at": "2026-08-12T14:41:17+00:00"
     },
     "2ec6a69712fb6af8f7f69e89346ec0d0e96f1b0c6a3b1f4f0e4f55885a46c483": {
       "proposal_id": "auto-rassemblement-national-institutions-democratie-2ec6a69712fb",
@@ -34,6 +54,11 @@
       "proposal_id": "auto-david-lisnard-services-publics-3e115885d8b2",
       "source_url": "https://www.unenouvelleenergie.fr/notre-programme/sante/",
       "verified_at": "2026-08-12T08:48:28+00:00"
+    },
+    "4b9149336ab7967d21932e87433569ef4109f4842c32da8c6251ae57793998ad": {
+      "proposal_id": "auto-nouvelle-energie-retraites-4b9149336ab7",
+      "source_url": "https://www.unenouvelleenergie.fr/notre-programme/",
+      "verified_at": "2026-08-12T14:41:17+00:00"
     },
     "5cb19d0cbcca48aa62454843cfffc8a9e9bebdb8c989c3dbda75427f8181ed2f": {
       "proposal_id": "auto-rassemblement-national-securite-justice-5cb19d0cbcca",
@@ -120,6 +145,11 @@
       "source_url": "https://www.unenouvelleenergie.fr/notre-programme/agriculture/",
       "verified_at": "2026-08-12T08:48:23+00:00"
     },
+    "ce6ab5f9ca2a00ce4cbc9c080cdb7622b42ae69a1ef950de9b50de5b532ab8cb": {
+      "proposal_id": "auto-nouvelle-energie-economie-finances-ce6ab5f9ca2a",
+      "source_url": "https://www.unenouvelleenergie.fr/notre-programme/",
+      "verified_at": "2026-08-12T14:41:17+00:00"
+    },
     "e7de1a3e9e8e086f1c4d33a1e365ba1b4faec5b89fb38e0f30651f2e9ea949d1": {
       "proposal_id": "auto-rassemblement-national-ecologie-energie-e7de1a3e9e8e",
       "source_url": "https://rassemblementnational.fr/",
@@ -148,7 +178,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-08-12T08:48:28+00:00",
+  "last_run_at": "2026-08-12T14:41:26+00:00",
   "source_chunks": {
     "0d1c8e880d3045b492702087": {
       "claims": [
@@ -716,6 +746,158 @@
       "updated_at": "2026-08-11T12:47:31+00:00",
       "url": "https://lafranceinsoumise.fr/2026/08/10/amfis-2026-le-programme-est-en-ligne/"
     },
+    "84687a6089b875f87e4b7fa0": {
+      "claims": [
+        {
+          "claim": {
+            "actor_id": "nouvelle-energie",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "un État recentré sur ses missions régaliennes de sécurité et de défense",
+            "relevance": "direct",
+            "statement": "L'État doit être recentré sur ses missions régaliennes de sécurité et de défense.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Explicitement soutenu par le texte de la source pour Nouvelle Énergie.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "nouvelle-energie",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "la libération des énergies créatrices par une profonde débureaucratisation",
+            "relevance": "direct",
+            "statement": "Il faut opérer une profonde débureaucratisation pour libérer les énergies créatrices.",
+            "topic": "economie-finances"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "Explicitement soutenu par le texte de la source pour Nouvelle Énergie.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "nouvelle-energie",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "une école d’excellence pour faire de la France une superpuissance éducative et scientifique.",
+            "relevance": "direct",
+            "statement": "Il faut développer une école d'excellence pour faire de la France une superpuissance éducative et scientifique.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "Explicitement soutenu par le texte de la source pour Nouvelle Énergie.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "nouvelle-energie",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "suppression de la carte scolaire",
+            "relevance": "direct",
+            "statement": "Il faut supprimer la carte scolaire pour garantir la liberté des parents de scolariser leurs enfants où ils le veulent.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 3,
+            "reason": "Explicitement soutenu par le texte de la source pour Nouvelle Énergie.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "nouvelle-energie",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "la liberté pour les travailleurs de se constituer un capital pour leur retraite (capitalisation)",
+            "relevance": "direct",
+            "statement": "Les travailleurs doivent avoir la liberté de se constituer un capital pour leur retraite par capitalisation.",
+            "topic": "retraites"
+          },
+          "verdict": {
+            "index": 4,
+            "reason": "Explicitement soutenu par le texte de la source pour Nouvelle Énergie.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "completed_at": "2026-08-12T14:41:17+00:00",
+      "created_at": "2026-08-12T14:41:12+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "483c5cca9ce4e53d7ffece152c3d6584b2f150047b234270422894776a01f531",
+      "source_title": "Le programme de David Lisnard | Nouvelle Énergie",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-12T14:41:17+00:00",
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/"
+    },
+    "af3984a6ce57f0e5c89b834e": {
+      "claims": [
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "on ne peut pas vivre mieux en travaillant moins",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau affirme qu'on ne peut pas vivre mieux en travaillant moins.",
+            "topic": "pouvoir-achat-travail"
+          },
+          "verdict": {
+            "index": 3,
+            "reason": "Explicit statement present in source regarding work and living standards.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "completed_at": "2026-08-12T14:41:26+00:00",
+      "created_at": "2026-08-12T14:41:22+00:00",
+      "document_types": [
+        "candidacy_declaration"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-02-12"
+      ],
+      "sha256": "791b6d635757b3a71ddb8683031082110a36ac42ee830ff6098cc5d212606281",
+      "source_title": "Je suis candidat à l'élection présidentielle. - Les Républicains",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-12T14:41:26+00:00",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
     "daf38b4b7d9859ed7f72340d": {
       "claims": [],
       "created_at": "2026-08-11T12:15:03+00:00",
@@ -734,6 +916,38 @@
       "total": 1,
       "updated_at": "2026-08-11T12:15:04+00:00",
       "url": "https://bsky.app/profile/marinetondelier.fr/post/3mssha7jd2s2c"
+    },
+    "dc67165972a4f9a22f35690d": {
+      "claims": [],
+      "completed_at": "2026-08-12T14:41:20+00:00",
+      "created_at": "2026-08-12T14:41:17+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-08-12"
+      ],
+      "sha256": "6b81ee9f94519b6e7913d8e7c0b32149df8bbabad9e12fa1eba8ad07a2b39c44",
+      "source_title": "David Lisnard est-il candidat à la présidentielle 2027 ? | Nouvelle Énergie",
+      "statuses": [
+        {
+          "status": {
+            "candidate_id": "david-lisnard",
+            "effective_date": "2026-08-12",
+            "evidence_quote": "David Lisnard est candidat à l’élection présidentielle de 2027",
+            "explicit": true,
+            "new_status": "declared_presidential"
+          }
+        }
+      ],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-12T14:41:20+00:00",
+      "url": "https://www.unenouvelleenergie.fr/questions/david-lisnard-est-il-candidat-a-la-presidentielle-2027/"
     },
     "e6391a0acf8117008f943be3": {
       "claims": [],
@@ -971,6 +1185,15 @@
       "status": "not_confirmed",
       "url": "https://www.unenouvelleenergie.fr/questions/david-lisnard-est-il-candidat-a-la-presidentielle-2027/"
     },
+    "737feb9de61d": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-08-12T14:41:17+00:00",
+      "reason": null,
+      "source_sha256": "483c5cca9ce4e53d7ffece152c3d6584b2f150047b234270422894776a01f531",
+      "status": "promoted",
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/"
+    },
     "a29032baac55": {
       "processed_at": "2026-08-11T08:55:59+00:00",
       "reason": null,
@@ -996,6 +1219,15 @@
       "status": "not_confirmed",
       "url": "https://parti-equinoxe.fr/legislatives-2022-programme-international/"
     },
+    "b34d647cd8d1": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-08-12T14:41:26+00:00",
+      "reason": null,
+      "source_sha256": "791b6d635757b3a71ddb8683031082110a36ac42ee830ff6098cc5d212606281",
+      "status": "promoted",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
     "b7d424251e5b": {
       "processed_at": "2026-08-11T08:55:55+00:00",
       "reason": null,
@@ -1009,6 +1241,15 @@
       "source_sha256": "4643ceed4fc849e61634cb89611d8d6b0ffffabb1a2df95845e19e65456585a2",
       "status": "historical_skipped",
       "url": "https://parti-equinoxe.fr/programme-europeennes-2024-mesure-phare-3-numerique/"
+    },
+    "c44aabc25b28": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-08-12T14:41:20+00:00",
+      "reason": null,
+      "source_sha256": "6b81ee9f94519b6e7913d8e7c0b32149df8bbabad9e12fa1eba8ad07a2b39c44",
+      "status": "promoted",
+      "url": "https://www.unenouvelleenergie.fr/questions/david-lisnard-est-il-candidat-a-la-presidentielle-2027/"
     },
     "c5db3b02850c": {
       "chunks_done": null,
