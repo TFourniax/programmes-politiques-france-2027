@@ -78,19 +78,21 @@ for (const suggestion of suggestions) {
 }
 
 assert.deepEqual(
-  sanitizeSuggestionSessionState({ entityIds: ["renaissance", "__proto__", "fake"], conceptIds: ["nucleaire", "fake"] }),
+  sanitizeSuggestionSessionState({ entityIds: ["renaissance", "__invalid__", "fake"], conceptIds: ["nucleaire", "fake"] }),
   { entityIds: ["renaissance"], conceptIds: ["nucleaire"] },
   "le contexte de session transmis par le client doit être traité comme non fiable et filtré"
 );
 
 const routeSource = fs.readFileSync("app/api/chat/route.js", "utf8");
 assert.match(routeSource, /fallbackLimited\(request\)/, "le fallback payant doit avoir son propre budget de requêtes");
+assert.match(routeSource, /windowLimited\(fallbackWindows, clientKey\(request\), 2, 60_000\)/, "le fallback LLM doit rester limité à deux tentatives par minute et par client");
+assert.match(routeSource, /windowLimited\(windows, clientKey\(request\), 30, 60_000\)/, "le chemin déterministe doit accepter un usage humain soutenu tout en restant borné");
 assert.match(routeSource, /x-nf-client-connection-ip/, "le runtime Netlify doit privilégier l'IP fournie par la plateforme");
 assert.match(routeSource, /publicRetrieval/, "les détails internes du ranking ne doivent pas être renvoyés intégralement au navigateur");
 assert.match(routeSource, /sessionContext/, "la session structurée doit être transportée explicitement et rester bornée");
 
 const edgeRateLimit = fs.readFileSync("netlify/edge-functions/chat-rate-limit.js", "utf8");
-assert.match(edgeRateLimit, /windowLimit:\s*8/);
+assert.match(edgeRateLimit, /windowLimit:\s*30/);
 assert.match(edgeRateLimit, /windowSize:\s*60/);
 assert.match(edgeRateLimit, /aggregateBy:\s*\["ip",\s*"domain"\]/);
 
