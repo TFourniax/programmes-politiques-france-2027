@@ -13,6 +13,7 @@ on:
       - 'registries/parties.yaml'
       - 'registries/candidates.yaml'
       - 'scripts/daily_watch.py'
+      - 'scripts/direct_feed_watch.py'
       - 'scripts/gdelt_watch.py'
       - 'scripts/social_watch.py'
       - 'scripts/prune_social_profiles.py'
@@ -24,6 +25,8 @@ on:
       - 'scripts/update_source_health.py'
       - 'scripts/update_watch_health.py'
       - 'scripts/check_watch_health.py'
+      - 'tests/test_daily_watch.py'
+      - 'tests/test_direct_feed_watch.py'
       - 'tests/test_auto_promote.py'
       - 'tests/test_auto_promote_runner.py'
       - 'tests/test_prune_social_profiles.py'
@@ -102,6 +105,9 @@ jobs:
       - name: Collect official web changes
         run: python scripts/daily_watch.py --no-gdelt
 
+      - name: Collect direct official feeds
+        run: python scripts/direct_feed_watch.py
+
       - name: Update official source health
         run: python scripts/update_source_health.py
 
@@ -143,6 +149,7 @@ jobs:
           python scripts/validate.py
           pytest -q \
             tests/test_daily_watch.py \
+            tests/test_direct_feed_watch.py \
             tests/test_gdelt_watch.py \
             tests/test_social_watch.py \
             tests/test_prune_social_profiles.py \
