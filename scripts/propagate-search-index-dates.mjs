@@ -4,6 +4,7 @@ import { fileURLToPath } from 'node:url';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const INDEX_PATH = path.join(ROOT, 'data', 'search-index.json');
+const INACTIVE = new Set(['superseded', 'withdrawn', 'archived', 'rejected', 'draft', 'historical']);
 
 function parseMeta(filePath) {
   if (!filePath || filePath === 'data/entities.json') return {};
@@ -30,6 +31,13 @@ function ids(value) {
   let text = String(value).trim();
   if (text.startsWith('[') && text.endsWith(']')) text = text.slice(1, -1);
   return text.split(',').map((part) => part.trim().split("'").join('').split('"').join('')).filter(Boolean);
+}
+
+function isoDay(value) {
+  const match = /^(\d{4}-\d{2}-\d{2})/.exec(String(value || '').trim());
+  if (!match) return null;
+  const date = new Date(`${match[1]}T00:00:00Z`);
+  return Number.isNaN(date.getTime()) ? null : match[1];
 }
 
 const index = JSON.parse(fs.readFileSync(INDEX_PATH, 'utf8'));
@@ -59,6 +67,28 @@ for (const chunk of index.chunks || []) {
   if (basis) chunk.dateBasis = basis;
   if (capturedAt) chunk.capturedAt = capturedAt;
 }
+
+// `entities.snapshot_date` remains the date at which candidate/status records were
+// snapshotted. The public corpus snapshot must also move when newly verified policy
+// evidence is integrated, even if no candidate status changed during that run.
+index.statusSnapshotDate = index.snapshotDate || null;
+const freshnessDays = [isoDay(index.statusSnapshotDate)].filter(Boolean);
+const capturedInstants = [];
+for (const chunk of index.chunks || []) {
+  if (!['document', 'proposal'].includes(chunk.kind)) continue;
+  if (INACTIVE.has(String(chunk.documentStatus || '').toLowerCase())) continue;
+  const capturedDay = isoDay(chunk.capturedAt);
+  const publishedDay = isoDay(chunk.publishedAt);
+  const effectiveDay = chunk.dateBasis === 'capture_fallback'
+    ? (capturedDay || publishedDay)
+    : (publishedDay || capturedDay);
+  if (effectiveDay) freshnessDays.push(effectiveDay);
+  if (chunk.capturedAt && !Number.isNaN(Date.parse(chunk.capturedAt))) capturedInstants.push(chunk.capturedAt);
+}
+
+index.corpusFreshnessDate = freshnessDays.sort().at(-1) || index.statusSnapshotDate || null;
+index.latestCapturedAt = capturedInstants.sort().at(-1) || null;
+index.snapshotDate = index.corpusFreshnessDate;
 index.version = Math.max(Number(index.version || 0), 4);
 fs.writeFileSync(INDEX_PATH, `${JSON.stringify(index, null, 2)}\n`, 'utf8');
-console.log('Search index date provenance propagated.');
+console.log(`Search index date provenance propagated; corpus snapshot ${index.snapshotDate}, status snapshot ${index.statusSnapshotDate}.`);
