@@ -27,17 +27,17 @@
     }
   ],
   "equivalent_primary_coverage_count": 0,
-  "generated_at": "2026-08-12T22:03:47+00:00",
+  "generated_at": "2026-08-12T23:30:33+00:00",
   "persistent_failure_count": 0,
   "persistent_failure_threshold_runs": 4,
   "persistent_failures": [],
-  "raw_failure_count": 4,
+  "raw_failure_count": 3,
   "sources": {
     "https://doc.parti.re/Conventions-thematiques_Nouvelle-donne.pdf": {
       "consecutive_failures": 0,
       "first_failure_at": null,
       "kind": "registry_source",
-      "last_success_at": "2026-08-12T22:03:47+00:00",
+      "last_success_at": "2026-08-12T23:30:33+00:00",
       "owner": "Renaissance",
       "status": "ok",
       "url": "https://doc.parti.re/Conventions-thematiques_Nouvelle-donne.pdf"
@@ -46,7 +46,7 @@
       "consecutive_failures": 0,
       "first_failure_at": null,
       "kind": "registry_source",
-      "last_success_at": "2026-08-12T22:03:47+00:00",
+      "last_success_at": "2026-08-12T23:30:33+00:00",
       "owner": "Renaissance",
       "status": "ok",
       "url": "https://doc.parti.re/conventions/Restitution-Regalien-Une-Republique-ferme-une-France-apaisee.pdf"
@@ -55,7 +55,7 @@
       "consecutive_failures": 0,
       "first_failure_at": null,
       "kind": "party_official",
-      "last_success_at": "2026-08-12T22:03:47+00:00",
+      "last_success_at": "2026-08-12T23:30:33+00:00",
       "owner": "Génération Écologie",
       "status": "ok",
       "url": "https://generationecologie.fr/"
@@ -64,7 +64,7 @@
       "consecutive_failures": 0,
       "first_failure_at": null,
       "kind": "party_official",
-      "last_success_at": "2026-08-12T22:03:47+00:00",
+      "last_success_at": "2026-08-12T23:30:33+00:00",
       "owner": "Horizons",
       "status": "ok",
       "url": "https://horizonsleparti.fr/"
@@ -73,7 +73,7 @@
       "consecutive_failures": 0,
       "first_failure_at": null,
       "kind": "candidate_official_evidence",
-      "last_success_at": "2026-08-12T22:03:47+00:00",
+      "last_success_at": "2026-08-12T23:30:33+00:00",
       "owner": "Édouard Philippe",
       "status": "ok",
       "url": "https://horizonsleparti.fr/evenement/grand-meeting-dedouard-philippe-a-ladidas-arena/"
@@ -82,7 +82,7 @@
       "consecutive_failures": 0,
       "first_failure_at": null,
       "kind": "party_programme",
-      "last_success_at": "2026-08-12T22:03:47+00:00",
+      "last_success_at": "2026-08-12T23:30:33+00:00",
       "owner": "Horizons",
       "status": "ok",
       "url": "https://horizonsleparti.fr/le-pole-idees/"
@@ -91,7 +91,7 @@
       "consecutive_failures": 0,
       "first_failure_at": null,
       "kind": "party_official",
-      "last_success_at": "2026-08-12T22:03:47+00:00",
+      "last_success_at": "2026-08-12T23:30:33+00:00",
       "owner": "La France insoumise",
       "status": "ok",
       "url": "https://lafranceinsoumise.fr/"
@@ -100,26 +100,26 @@
       "consecutive_failures": 0,
       "first_failure_at": null,
       "kind": "candidate_official_evidence",
-      "last_success_at": "2026-08-12T22:03:47+00:00",
+      "last_success_at": "2026-08-12T23:30:33+00:00",
       "owner": "Jean-Luc Mélenchon",
       "status": "ok",
       "url": "https://lafranceinsoumise.fr/2026/06/22/parrainages-elus-pour-election-presidentielle-2027/"
     },
     "https://les-patriotes.fr/": {
-      "consecutive_failures": 1,
-      "first_failure_at": "2026-08-12T22:03:47+00:00",
+      "consecutive_failures": 0,
+      "first_failure_at": null,
       "kind": "party_official",
       "last_failure_at": "2026-08-12T22:03:47+00:00",
-      "last_success_at": "2026-08-12T21:45:58+00:00",
+      "last_success_at": "2026-08-12T23:30:33+00:00",
       "owner": "Les Patriotes",
-      "status": "transient_failure",
+      "status": "ok",
       "url": "https://les-patriotes.fr/"
     },
     "https://lesecologistes.fr/": {
       "consecutive_failures": 0,
       "first_failure_at": null,
       "kind": "party_official",
-      "last_success_at": "2026-08-12T22:03:47+00:00",
+      "last_success_at": "2026-08-12T23:30:33+00:00",
       "owner": "Les Écologistes",
       "status": "ok",
       "url": "https://lesecologistes.fr/"
@@ -128,20 +128,20 @@
       "consecutive_failures": 0,
       "first_failure_at": null,
       "kind": "candidate_official_evidence",
-      "last_success_at": "2026-08-12T22:03:47+00:00",
+      "last_success_at": "2026-08-12T23:30:33+00:00",
       "owner": "Marine Tondelier",
       "status": "ok",
       "url": "https://marinetondelier.fr/blog/instinct-primaire"
     },
     "https://melenchon2027.fr/programme2025/livre/": {
-      "alternate_checked_at": "2026-08-12T22:03:47+00:00",
+      "alternate_checked_at": "2026-08-12T23:30:33+00:00",
       "alternate_url": "https://melenchon2027.fr/programme2025/livre/chapitre{n}/ + section pages",
       "consecutive_failures": 0,
       "coverage_type": "full_primary_structured_equivalent",
       "first_failure_at": null,
       "kind": "party_programme",
-      "last_failure_at": "2026-08-12T22:03:47+00:00",
-      "last_success_at": "2026-08-12T22:03:47+00:00",
+      "last_failure_at": "2026-08-12T23:30:33+00:00",
+      "last_success_at": "2026-08-12T23:30:33+00:00",
       "owner": "La France insoumise",
       "status": "ok_via_official_structured_primary",
       "structured_item_count": 18,
@@ -152,7 +152,7 @@
       "consecutive_failures": 0,
       "first_failure_at": null,
       "kind": "party_official",
-      "last_success_at": "2026-08-12T22:03:47+00:00",
+      "last_success_at": "2026-08-12T23:30:33+00:00",
       "owner": "Équinoxe",
       "status": "ok",
       "url": "https://parti-equinoxe.fr/"
@@ -161,7 +161,7 @@
       "consecutive_failures": 0,
       "first_failure_at": null,
       "kind": "party_official",
-      "last_success_at": "2026-08-12T22:03:47+00:00",
+      "last_success_at": "2026-08-12T23:30:33+00:00",
       "owner": "Renaissance",
       "status": "ok",
       "url": "https://parti-renaissance.fr/"
@@ -170,7 +170,7 @@
       "consecutive_failures": 0,
       "first_failure_at": null,
       "kind": "party_official",
-      "last_success_at": "2026-08-12T22:03:47+00:00",
+      "last_success_at": "2026-08-12T23:30:33+00:00",
       "owner": "Place publique",
       "status": "ok",
       "url": "https://place-publique.eu/"
@@ -179,20 +179,20 @@
       "consecutive_failures": 0,
       "first_failure_at": null,
       "kind": "candidate_official_evidence",
-      "last_success_at": "2026-08-12T22:03:47+00:00",
+      "last_success_at": "2026-08-12T23:30:33+00:00",
       "owner": "Raphaël Glucksmann",
       "status": "ok",
       "url": "https://place-publique.eu/pages/6mRSwq5tuSrSi68Cw1IADX/l-acte-i"
     },
     "https://programme.lafranceinsoumise.fr/": {
-      "alternate_checked_at": "2026-08-12T22:03:47+00:00",
+      "alternate_checked_at": "2026-08-12T23:30:33+00:00",
       "alternate_url": "https://melenchon2027.fr/programme2025/livre/chapitre{n}/ + section pages",
       "consecutive_failures": 0,
       "coverage_type": "full_primary_structured_equivalent",
       "first_failure_at": null,
       "kind": "registry_source",
-      "last_failure_at": "2026-08-12T22:03:47+00:00",
-      "last_success_at": "2026-08-12T22:03:47+00:00",
+      "last_failure_at": "2026-08-12T23:30:33+00:00",
+      "last_success_at": "2026-08-12T23:30:33+00:00",
       "owner": "La France insoumise",
       "status": "ok_via_official_structured_primary",
       "structured_item_count": 18,
@@ -203,7 +203,7 @@
       "consecutive_failures": 0,
       "first_failure_at": null,
       "kind": "party_official",
-      "last_success_at": "2026-08-12T22:03:47+00:00",
+      "last_success_at": "2026-08-12T23:30:33+00:00",
       "owner": "Rassemblement national",
       "status": "ok",
       "url": "https://rassemblementnational.fr/"
@@ -213,7 +213,7 @@
       "first_failure_at": null,
       "kind": "party_official",
       "last_failure_at": "2026-08-11T14:37:32+00:00",
-      "last_success_at": "2026-08-12T22:03:47+00:00",
+      "last_success_at": "2026-08-12T23:30:33+00:00",
       "owner": "Les Républicains",
       "status": "ok",
       "url": "https://republicains.fr/"
@@ -223,7 +223,7 @@
       "first_failure_at": null,
       "kind": "candidate_official_evidence",
       "last_failure_at": "2026-08-11T20:08:24+00:00",
-      "last_success_at": "2026-08-12T22:03:47+00:00",
+      "last_success_at": "2026-08-12T23:30:33+00:00",
       "owner": "Bruno Retailleau",
       "status": "ok",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
@@ -232,7 +232,7 @@
       "consecutive_failures": 0,
       "first_failure_at": null,
       "kind": "party_official",
-      "last_success_at": "2026-08-12T22:03:47+00:00",
+      "last_success_at": "2026-08-12T23:30:33+00:00",
       "owner": "Debout la France",
       "status": "ok",
       "url": "https://www.debout-la-france.fr/"
@@ -241,7 +241,7 @@
       "consecutive_failures": 0,
       "first_failure_at": null,
       "kind": "party_programme",
-      "last_success_at": "2026-08-12T22:03:47+00:00",
+      "last_success_at": "2026-08-12T23:30:33+00:00",
       "owner": "Debout la France",
       "status": "ok",
       "url": "https://www.debout-la-france.fr/notre-projet/"
@@ -250,7 +250,7 @@
       "consecutive_failures": 0,
       "first_failure_at": null,
       "kind": "candidate_official_evidence",
-      "last_success_at": "2026-08-12T22:03:47+00:00",
+      "last_success_at": "2026-08-12T23:30:33+00:00",
       "owner": "Jérôme Guedj",
       "status": "ok",
       "url": "https://www.jerome-guedj.fr/la-clarte-plutot-que-les-slogans-pourquoi-jai-annonce-ma-candidature-pour-2027/"
@@ -259,7 +259,7 @@
       "consecutive_failures": 0,
       "first_failure_at": null,
       "kind": "party_official",
-      "last_success_at": "2026-08-12T22:03:47+00:00",
+      "last_success_at": "2026-08-12T23:30:33+00:00",
       "owner": "Lutte ouvrière",
       "status": "ok",
       "url": "https://www.lutte-ouvriere.org/"
@@ -268,7 +268,7 @@
       "consecutive_failures": 0,
       "first_failure_at": null,
       "kind": "party_official",
-      "last_success_at": "2026-08-12T22:03:47+00:00",
+      "last_success_at": "2026-08-12T23:30:33+00:00",
       "owner": "Reconquête",
       "status": "ok",
       "url": "https://www.parti-reconquete.fr/"
@@ -277,20 +277,20 @@
       "consecutive_failures": 0,
       "first_failure_at": null,
       "kind": "party_official",
-      "last_success_at": "2026-08-12T22:03:47+00:00",
+      "last_success_at": "2026-08-12T23:30:33+00:00",
       "owner": "Parti socialiste",
       "status": "ok",
       "url": "https://www.parti-socialiste.fr/"
     },
     "https://www.pcf.fr/": {
-      "alternate_checked_at": "2026-08-12T22:02:50+00:00",
+      "alternate_checked_at": "2026-08-12T23:29:42+00:00",
       "alternate_url": "https://pcf.nationbuilder.com/actualites.rss",
       "consecutive_failures": 0,
       "coverage_type": "discovery_only_official_feed",
       "first_failure_at": null,
       "kind": "party_official",
-      "last_failure_at": "2026-08-12T22:03:47+00:00",
-      "last_success_at": "2026-08-12T22:03:47+00:00",
+      "last_failure_at": "2026-08-12T23:30:33+00:00",
+      "last_success_at": "2026-08-12T23:30:33+00:00",
       "owner": "Parti communiste français",
       "status": "ok_via_official_feed",
       "url": "https://www.pcf.fr/"
@@ -299,7 +299,7 @@
       "consecutive_failures": 0,
       "first_failure_at": null,
       "kind": "party_official",
-      "last_success_at": "2026-08-12T22:03:47+00:00",
+      "last_success_at": "2026-08-12T23:30:33+00:00",
       "owner": "Révolution Permanente",
       "status": "ok",
       "url": "https://www.revolutionpermanente.fr/"
@@ -308,7 +308,7 @@
       "consecutive_failures": 0,
       "first_failure_at": null,
       "kind": "party_official",
-      "last_success_at": "2026-08-12T22:03:47+00:00",
+      "last_success_at": "2026-08-12T23:30:33+00:00",
       "owner": "Nouvelle Énergie",
       "status": "ok",
       "url": "https://www.unenouvelleenergie.fr/"
@@ -317,7 +317,7 @@
       "consecutive_failures": 0,
       "first_failure_at": null,
       "kind": "party_programme",
-      "last_success_at": "2026-08-12T22:03:47+00:00",
+      "last_success_at": "2026-08-12T23:30:33+00:00",
       "owner": "Nouvelle Énergie",
       "status": "ok",
       "url": "https://www.unenouvelleenergie.fr/notre-programme/"
@@ -326,22 +326,14 @@
       "consecutive_failures": 0,
       "first_failure_at": null,
       "kind": "party_official",
-      "last_success_at": "2026-08-12T22:03:47+00:00",
+      "last_success_at": "2026-08-12T23:30:33+00:00",
       "owner": "Union populaire républicaine",
       "status": "ok",
       "url": "https://www.upr.fr/"
     }
   },
   "structured_primary_coverage_count": 2,
-  "uncovered_failure_count": 1,
-  "uncovered_failures": [
-    {
-      "consecutive_failures": 1,
-      "kind": "party_official",
-      "owner": "Les Patriotes",
-      "status": "transient_failure",
-      "url": "https://les-patriotes.fr/"
-    }
-  ],
+  "uncovered_failure_count": 0,
+  "uncovered_failures": [],
   "version": 6
 }
