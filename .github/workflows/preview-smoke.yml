@@ -80,7 +80,7 @@ jobs:
           chat = health["chat"]
           assert health.get("deployment", {}).get("commitRef") == expected_head, health.get("deployment")
           assert chat["responseGeneration"] == "deterministic_extractive", chat
-          assert chat["edgeRateLimit"] == {"requests": 8, "seconds": 60}, chat
+          assert chat["edgeRateLimit"] == {"requests": 30, "seconds": 60}, chat
           assert chat["semanticFallback"]["role"] == "retrieval_interpretation_only", chat
 
           history = request("/api/history?view=timeline&entity=renaissance&topic=nucleaire")
@@ -128,11 +128,36 @@ jobs:
           else:
               fallback_result = "not-configured-on-preview"
 
+          # Simulate a user quickly exploring several factual questions. This runs through
+          # the real Netlify Edge and proves that normal deterministic usage is not blocked
+          # by the former 8/minute limit.
+          burst_questions = [
+              "Que propose Renaissance sur le nucléaire ?",
+              "Que propose le PS sur le SMIC ?",
+              "Quelles propositions sont documentées sur les retraites ?",
+              "Que propose David Lisnard sur les retraites ?",
+              "Quelles mesures sont documentées sur l'immigration ?",
+              "Que propose Équinoxe sur le climat ?",
+              "Quelles propositions concernent le pouvoir d'achat ?",
+              "Quel est le statut de David Lisnard ?",
+              "Que propose le corpus sur l'éducation ?",
+              "Quelles mesures sont documentées sur la fiscalité ?",
+          ]
+          for index, question in enumerate(burst_questions, start=1):
+              result = request(
+                  "/api/chat",
+                  payload={"question": question, "history": [], "sessionContext": {}},
+                  ip="198.51.100.244",
+              )
+              assert result["generated"] is False, (index, result)
+              assert result["engine"] == "deterministic-bm25-ontology-v4", (index, result)
+
           print(json.dumps({
               "preview": base,
               "commitRef": health.get("deployment", {}).get("commitRef"),
               "snapshotDate": health.get("snapshotDate"),
               "fallback": fallback_result,
+              "burstRequests": len(burst_questions),
               "watchStatus": health.get("watch", {}).get("status"),
               "result": "ok"
           }, ensure_ascii=False))
