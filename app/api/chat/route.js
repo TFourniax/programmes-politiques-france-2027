@@ -58,7 +58,7 @@ function windowLimited(store, key, limit, durationMs) {
 }
 
 function limited(request) {
-  return windowLimited(windows, clientKey(request), 8, 60_000);
+  return windowLimited(windows, clientKey(request), 30, 60_000);
 }
 
 function fallbackLimited(request) {
