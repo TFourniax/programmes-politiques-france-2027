@@ -37,6 +37,48 @@ export async function copyCurrentUrl() {
   }
 }
 
+export function publicRecordStatus(value) {
+  const labels = {
+    current: "version actuelle",
+    superseded: "version remplacée",
+    withdrawn: "retiré",
+    archived: "archivé",
+    rejected: "écarté",
+    draft: "brouillon",
+    historical: "historique"
+  };
+  return value ? (labels[value] || "statut documenté") : "";
+}
+
+export function publicCertainty(value) {
+  if (value === "explicit") return "formulation explicite";
+  if (value === "explicit_but_conditional") return "explicite, sous condition";
+  if (value === "explicit_but_underspecified") return "explicite, détails incomplets";
+  return value ? "certitude documentée" : "";
+}
+
+export function publicSourceTier(value) {
+  if (value === "tier_1_primary_official") return "source primaire officielle";
+  if (value === "tier_2_primary_statement") return "déclaration primaire";
+  if (value === "tier_3_reliable_secondary") return "source secondaire fiable";
+  if (value === "tier_4_discovery") return "source de découverte";
+  return value ? "source référencée" : "";
+}
+
+export function publicConfidence(value) {
+  if (value === "high") return "niveau de preuve élevé";
+  if (value === "medium") return "niveau de preuve moyen";
+  if (value === "low") return "niveau de preuve faible";
+  return value ? "niveau de preuve documenté" : "";
+}
+
+export function publicEvidenceKind(value) {
+  if (value === "proposal") return "proposition";
+  if (value === "document") return "document";
+  if (value === "candidate_status") return "statut de candidature";
+  return value ? "élément documenté" : "";
+}
+
 const COVERAGE = {
   documented: { label: "Documenté", detail: "au moins deux sources directes" },
   partial: { label: "Partiel", detail: "une source directe" },
@@ -60,16 +102,16 @@ export function CandidateIdentity({ candidate, compact = false }) {
 
 function EvidenceItem({ item }) {
   return <article className="explorerEvidence">
-    <div className="explorerEvidenceTop"><strong>{item.title}</strong><span>{item.kind === "proposal" ? "proposition" : "document"}</span></div>
+    <div className="explorerEvidenceTop"><strong>{item.title}</strong><span>{publicEvidenceKind(item.kind)}</span></div>
     {item.excerpt && <p>{item.excerpt}</p>}
     <div className="evidenceMeta">
       {item.publishedAt && <span>{item.publishedAt}</span>}
-      {item.documentStatus && <span>{item.documentStatus}</span>}
-      {item.certainty && <span>{item.certainty}</span>}
-      {item.sourceTier && <span>{item.sourceTier}</span>}
+      {item.documentStatus && <span>{publicRecordStatus(item.documentStatus)}</span>}
+      {item.certainty && <span>{publicCertainty(item.certainty)}</span>}
+      {item.sourceTier && <span>{publicSourceTier(item.sourceTier)}</span>}
     </div>
     <div className="sourceLinks">
-      {item.githubUrl && <a href={item.githubUrl} target="_blank" rel="noreferrer">Fichier GitHub ↗</a>}
+      {item.githubUrl && <a href={item.githubUrl} target="_blank" rel="noreferrer">Voir dans le corpus ↗</a>}
       {item.sourceUrl && <a href={item.sourceUrl} target="_blank" rel="noreferrer">Source originale ↗</a>}
     </div>
   </article>;
