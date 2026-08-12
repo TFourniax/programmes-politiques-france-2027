@@ -12,6 +12,7 @@ on:
 
 permissions:
   contents: read
+  pull-requests: read
 
 concurrency:
   group: preview-smoke-${{ github.event.pull_request.number || inputs.pr_number }}
@@ -23,10 +24,47 @@ jobs:
     timeout-minutes: 12
     env:
       PR_NUMBER: ${{ github.event.pull_request.number || inputs.pr_number }}
-      EXPECTED_HEAD_SHA: ${{ github.event.pull_request.head.sha || github.sha }}
     steps:
+      - name: Resolve exact requested PR head
+        id: target
+        shell: bash
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          PULL_REQUEST_HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+          REPOSITORY: ${{ github.repository }}
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          import urllib.request
+
+          pr = os.environ["PR_NUMBER"].strip()
+          expected = os.environ.get("PULL_REQUEST_HEAD_SHA", "").strip()
+          if os.environ.get("EVENT_NAME") == "workflow_dispatch" or not expected:
+              request = urllib.request.Request(
+                  f"https://api.github.com/repos/{os.environ['REPOSITORY']}/pulls/{pr}",
+                  headers={
+                      "accept": "application/vnd.github+json",
+                      "authorization": f"Bearer {os.environ['GH_TOKEN']}",
+                      "x-github-api-version": "2022-11-28",
+                      "user-agent": "politique2027-preview-smoke/1.0",
+                  },
+              )
+              with urllib.request.urlopen(request, timeout=20) as response:
+                  payload = json.load(response)
+              expected = str(payload.get("head", {}).get("sha", "")).strip()
+          if not expected:
+              raise SystemExit(f"Unable to resolve head SHA for PR {pr}")
+          with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as output:
+              output.write(f"sha={expected}\n")
+          print(f"Resolved PR #{pr} head: {expected}")
+          PY
+
       - name: Wait for exact Netlify Deploy Preview and exercise public runtime
         shell: bash
+        env:
+          EXPECTED_HEAD_SHA: ${{ steps.target.outputs.sha }}
         run: |
           python - <<'PY'
           import json
