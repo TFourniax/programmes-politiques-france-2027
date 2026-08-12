@@ -1,5 +1,6 @@
 import assert from 'node:assert/strict';
 import { retrieveDeterministic } from '../lib/retrieval-v2.js';
+import { classifyDeterministicQuestion, selectDeterministicCandidates } from '../lib/deterministic-query.js';
 
 const inactive = new Set(['superseded', 'withdrawn', 'archived', 'rejected', 'draft', 'historical']);
 
@@ -19,7 +20,14 @@ assert.ok(fission.debug.concepts?.some((item) => item.id === 'nucleaire'), 'fiss
 expectAnswerable('Parle-moi simplement des retraites');
 expectAnswerable("Quel projet propose d'abroger Parcoursup ?", (item) => item.citation?.entityId === 'parti-socialiste');
 expectAnswerable('Que propose le PS sur Parcour sup ?', (item) => item.citation?.entityId === 'parti-socialiste');
-expectAnswerable('Qui est déclaré candidat à ce stade ?');
+
+// Les questions de statut ne passent pas par le retrieval documentaire en production :
+// l'API les route vers le registre déterministe des candidatures. Testons ce vrai chemin.
+const statusQuestion = 'Qui est déclaré candidat à ce stade ?';
+assert.equal(classifyDeterministicQuestion(statusQuestion), 'candidates', 'une question de statut doit être routée vers le registre candidats');
+const declaredCandidates = selectDeterministicCandidates(statusQuestion);
+assert.ok(declaredCandidates.length > 0, 'la question de statut doit produire des personnalités documentées');
+assert.ok(declaredCandidates.every((candidate) => ['declared_presidential', 'party_designated', 'declared_conditional'].includes(candidate.current_status)), 'la liste « déclaré candidat » ne doit contenir que des statuts compatibles');
 
 const offCorpus = retrieveDeterministic("Que propose Renaissance sur l'énergie des licornes ?", { limit: 10 });
 assert.equal(offCorpus.debug.answerable, false, 'un qualificatif inventé ne doit jamais être ignoré');
@@ -36,6 +44,7 @@ assert.ok(!attributed.results.some((item) => item.citation?.entityId === 'gabrie
 console.log('HUMAN_LANGUAGE_REGRESSIONS_OK', {
   cases: 9,
   fissionResults: fission.results.length,
+  declaredCandidates: declaredCandidates.length,
   offCorpusReason: offCorpus.debug.reason,
   subjectiveReason: ranking.debug.reason
 });
