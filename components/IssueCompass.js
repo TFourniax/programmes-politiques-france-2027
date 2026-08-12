@@ -2,6 +2,7 @@
 
 import { useMemo, useState } from "react";
 import compass from "../data/compass.json";
+import { publicSourceTier } from "./ExplorerShared.js";
 
 async function fetchJson(path, options = {}) {
   const response = await fetch(path, { cache: "no-store", ...options });
@@ -34,11 +35,11 @@ function EvidenceCard({ card, citations = [] }) {
     </div>
     {card.summary && <p className="answerCardSummary">{card.summary}</p>}
     <div className="answerCardMeta">
-      {source?.sourceTier && <span>{source.sourceTier}</span>}
+      {source?.sourceTier && <span>{publicSourceTier(source.sourceTier)}</span>}
       {source?.publishedAt && <span>{source.publishedAt}</span>}
     </div>
     <div className="sourceLinks compassSourceLinks">
-      {source?.githubUrl && <a href={source.githubUrl} target="_blank" rel="noreferrer">Fichier GitHub ↗</a>}
+      {source?.githubUrl && <a href={source.githubUrl} target="_blank" rel="noreferrer">Voir dans le corpus ↗</a>}
       {source?.sourceUrl && <a href={source.sourceUrl} target="_blank" rel="noreferrer">Source originale ↗</a>}
     </div>
   </article>;
