@@ -18,6 +18,7 @@ def test_health_is_healthy_when_collection_and_provider_are_available():
     assert health["status"] == "healthy"
     assert health["pending_work"] == 0
     assert health["gemini_available"] is True
+    assert health["recovered_promotion_technical_failures"] == 0
 
 
 def test_provider_outage_degrades_but_does_not_invalidate_collection():
@@ -64,6 +65,72 @@ def test_pending_retries_are_visible_without_stopping_health_updates():
     assert health["status"] == "degraded"
     assert health["pending_work"] == 4
     assert health["promotion_technical_retries_pending"] == 2
+    assert health["recovered_promotion_technical_failures"] == 0
+
+
+def test_old_technical_error_is_recovered_by_later_verified_canonical_evidence_same_url():
+    url = "https://parti.fr/programme-2027/"
+    health = build_health(
+        {"last_run_at": "2026-08-12T15:00:00+00:00"},
+        {
+            "sources": {
+                "old-event": {
+                    "status": "technical_error",
+                    "url": url,
+                    "processed_at": "2026-08-11T12:14:59+00:00",
+                    "error": "Connection reset by peer",
+                    "next_retry_at": "2026-08-11T18:14:59+00:00",
+                }
+            },
+            "claim_fingerprints": {
+                "verified-later": {
+                    "proposal_id": "proposal-live",
+                    "source_url": url,
+                    "verified_at": "2026-08-12T14:41:26+00:00",
+                }
+            },
+        },
+        {"events": {}},
+        {},
+        True,
+        generated_at="2026-08-12T15:03:00+00:00",
+    )
+    assert health["status"] == "healthy"
+    assert health["pending_work"] == 0
+    assert health["promotion_technical_retries_pending"] == 0
+    assert health["recovered_promotion_technical_failures"] == 1
+    assert health["reasons"] == []
+
+
+def test_technical_error_stays_pending_if_verification_is_not_later():
+    url = "https://parti.fr/programme-2027/"
+    health = build_health(
+        {"last_run_at": "2026-08-12T15:00:00+00:00"},
+        {
+            "sources": {
+                "newer-error": {
+                    "status": "technical_error",
+                    "url": url,
+                    "processed_at": "2026-08-12T15:00:00+00:00",
+                }
+            },
+            "claim_fingerprints": {
+                "verified-before-error": {
+                    "proposal_id": "proposal-live",
+                    "source_url": url,
+                    "verified_at": "2026-08-12T14:41:26+00:00",
+                }
+            },
+        },
+        {"events": {}},
+        {},
+        True,
+        generated_at="2026-08-12T15:03:00+00:00",
+    )
+    assert health["status"] == "degraded"
+    assert health["pending_work"] == 1
+    assert health["promotion_technical_retries_pending"] == 1
+    assert health["recovered_promotion_technical_failures"] == 0
 
 
 def test_persistent_official_source_failure_is_exposed_to_deadman():
