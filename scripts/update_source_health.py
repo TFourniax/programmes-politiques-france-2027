@@ -10,6 +10,7 @@ from common import ROOT
 from daily_watch import canonicalize_url, collect_official_targets
 
 PERSISTENT_FAILURE_RUNS = 4
+FEED_COVERABLE_TARGET_KINDS = {"party_official"}
 
 
 def iso_now() -> str:
@@ -56,11 +57,11 @@ def http_error_urls(state: dict[str, Any]) -> set[str]:
 
 
 def healthy_direct_feed_coverage(state: dict[str, Any]) -> dict[str, dict[str, Any]]:
-    """Return owners whose official HTML is backed by a healthy official direct feed.
+    """Return owners with a healthy official discovery feed.
 
-    This is a coverage fallback, not a factual shortcut: the direct feed only discovers
-    URLs. Canonical promotion still requires the complete primary content and the normal
-    verification pipeline.
+    A feed can cover discovery on a general party homepage, but it is never treated as
+    proof that a specific programme/evidence page has been fetched. Silent in-place
+    edits to a programme must still be observed from that full primary page itself.
     """
     out: dict[str, dict[str, Any]] = {}
     for url, record in (state.get("direct_feed_health") or {}).items():
@@ -101,14 +102,15 @@ def update_records(
         row = dict(records.get(url) or {})
         row["url"] = url
         row["owner"] = target.get("owner")
+        row["kind"] = target.get("kind")
         owner = str(target.get("owner") or "")
-        alternate = alternate_coverage.get(owner)
+        kind = str(target.get("kind") or "")
+        alternate = alternate_coverage.get(owner) if kind in FEED_COVERABLE_TARGET_KINDS else None
 
         if url in errors and alternate:
-            # The public HTML endpoint can be protected by anti-bot middleware while an
-            # official RSS/Atom endpoint remains available. Keep the failed endpoint
-            # explicit, but classify the monitoring gap as covered rather than as an
-            # incident requiring human attention.
+            # The general public homepage can be protected by anti-bot middleware while
+            # an official RSS/Atom endpoint remains available. This preserves discovery
+            # coverage, but is intentionally not allowed for programme/evidence targets.
             row["consecutive_failures"] = 0
             row["first_failure_at"] = None
             row["last_success_at"] = stamp
@@ -119,6 +121,7 @@ def update_records(
             covered_failures.append({
                 "url": url,
                 "owner": owner,
+                "kind": kind,
                 "alternate_url": alternate.get("url"),
             })
         elif url in errors:
@@ -132,6 +135,7 @@ def update_records(
             uncovered_failures.append({
                 "url": url,
                 "owner": owner,
+                "kind": kind,
                 "status": row["status"],
                 "consecutive_failures": failures,
             })
@@ -156,7 +160,7 @@ def update_records(
         if row.get("status") == "persistent_failure"
     ]
     return {
-        "version": 3,
+        "version": 4,
         "generated_at": stamp,
         "persistent_failure_threshold_runs": PERSISTENT_FAILURE_RUNS,
         "raw_failure_count": len(covered_failures) + len(uncovered_failures),
@@ -171,6 +175,7 @@ def update_records(
                 {
                     "url": row.get("url"),
                     "owner": row.get("owner"),
+                    "kind": row.get("kind"),
                     "consecutive_failures": row.get("consecutive_failures"),
                     "first_failure_at": row.get("first_failure_at"),
                     "last_failure_at": row.get("last_failure_at"),
