@@ -92,9 +92,11 @@ MONTHS_FR = {
     7: "juillet", 8: "aout", 9: "septembre", 10: "octobre", 11: "novembre", 12: "decembre",
 }
 
-# Populated from daily structured events and their durable state representation before
-# auto_promote starts fetching. Keys remain human-facing public URLs; values are official
-# full-content REST endpoints used only as transport fallbacks.
+# Public URLs remain the canonical identity. The transport record can either reference
+# a full official REST endpoint (legacy compatibility) or a local snapshot captured
+# moments earlier from all direct official HTML section pages. The snapshot hash must
+# match the structured-health record before Gemini is allowed to see it.
+STRUCTURED_SOURCE_BY_PUBLIC: dict[str, dict[str, Any]] = {}
 STRUCTURED_FETCH_BY_PUBLIC: dict[str, str] = {}
 
 
@@ -238,7 +240,7 @@ def state_backlog_events(state_path: Path | None = None) -> list[dict[str, Any]]
 
 
 def structured_backlog_events(state_path: Path | None = None) -> list[dict[str, Any]]:
-    """Recreate durable full-primary events so a 3-source/run limit can never lose chapters."""
+    """Recreate durable full-primary events so a per-run limit can never lose chapters."""
     state = _load_watch_state(state_path)
     out: list[dict[str, Any]] = []
     for source_id, source in (state.get("structured_primary_health") or {}).items():
@@ -260,6 +262,7 @@ def structured_backlog_events(state_path: Path | None = None) -> list[dict[str, 
                 "title": item.get("title"),
                 "url": str(item["link"]),
                 "fetch_url": str(item["fetch_url"]),
+                "snapshot_path": item.get("snapshot_path"),
                 "sha256": str(item["sha256"]),
                 "verification_state": "needs_review",
                 "provenance": "durable_official_structured_primary_backlog",
@@ -271,18 +274,32 @@ def structured_backlog_events(state_path: Path | None = None) -> list[dict[str, 
     return out
 
 
+def _register_structured_event(event: dict[str, Any]) -> None:
+    public = str(event.get("url") or "")
+    if not public:
+        return
+    record = {
+        "fetch_url": str(event.get("fetch_url") or "") or None,
+        "snapshot_path": str(event.get("snapshot_path") or "") or None,
+        "sha256": str(event.get("sha256") or "") or None,
+        "title": event.get("title"),
+    }
+    if record["fetch_url"] or record["snapshot_path"]:
+        STRUCTURED_SOURCE_BY_PUBLIC[public] = record
+    if record["fetch_url"]:
+        STRUCTURED_FETCH_BY_PUBLIC[public] = record["fetch_url"]
+
+
 def durable_load_events() -> list[dict[str, Any]]:
     events = [item for item in ORIGINAL_LOAD_EVENTS() if current_cycle_event(item)]
     for event in events:
-        if event.get("fetch_url"):
-            STRUCTURED_FETCH_BY_PUBLIC[str(event.get("url"))] = str(event["fetch_url"])
+        _register_structured_event(event)
     existing = {
         (str(item.get("url") or ""), str(item.get("sha256") or item.get("published_at") or item.get("observed_at") or ""))
         for item in events
     }
     for event in [*state_backlog_events(), *structured_backlog_events()]:
-        if event.get("fetch_url"):
-            STRUCTURED_FETCH_BY_PUBLIC[str(event.get("url"))] = str(event["fetch_url"])
+        _register_structured_event(event)
         key = (
             str(event.get("url") or ""),
             str(event.get("sha256") or event.get("published_at") or event.get("observed_at") or ""),
@@ -291,6 +308,34 @@ def durable_load_events() -> list[dict[str, Any]]:
             events.append(event)
             existing.add(key)
     return events
+
+
+def _snapshot_source(public_url: str, snapshot: str, expected_sha: str | None, max_chars: int, title: Any = None) -> dict[str, Any]:
+    path = (auto_promote.ROOT / snapshot).resolve()
+    structured_root = (auto_promote.ROOT / "research" / "veille" / "structured" / "snapshots").resolve()
+    if structured_root not in path.parents:
+        raise ValueError("structured snapshot path outside approved research directory")
+    if not path.exists() or not path.is_file():
+        raise ValueError(f"structured snapshot missing: {snapshot}")
+    full_text = auto_promote.compact(path.read_text(encoding="utf-8"))
+    if len(full_text) < 180:
+        raise ValueError("structured primary snapshot text too short")
+    actual_sha = hashlib.sha256(full_text.encode("utf-8")).hexdigest()
+    if expected_sha and actual_sha != expected_sha:
+        raise ValueError("structured primary snapshot hash mismatch")
+    if len(full_text) > max_chars:
+        raise ValueError("structured primary snapshot exceeds configured safe extraction limit")
+    return {
+        "url": public_url,
+        "fetch_url": public_url,
+        "snapshot_path": snapshot,
+        "host": auto_promote.host(public_url),
+        "title": auto_promote.compact(title) or None,
+        "kind": "official_html_snapshot",
+        "text": full_text,
+        "text_truncated": False,
+        "sha256": actual_sha,
+    }
 
 
 def _wordpress_rest_source(session: requests.Session, public_url: str, fetch_url: str, max_chars: int) -> dict[str, Any]:
@@ -327,9 +372,17 @@ def _wordpress_rest_source(session: requests.Session, public_url: str, fetch_url
 
 
 def safe_fetch_source(session, url: str, max_chars: int):
-    fetch_url = STRUCTURED_FETCH_BY_PUBLIC.get(str(url))
-    if fetch_url:
-        source = _wordpress_rest_source(session, str(url), fetch_url, max_chars)
+    record = STRUCTURED_SOURCE_BY_PUBLIC.get(str(url)) or {}
+    if record.get("snapshot_path"):
+        source = _snapshot_source(
+            str(url),
+            str(record["snapshot_path"]),
+            str(record.get("sha256") or "") or None,
+            max_chars,
+            record.get("title"),
+        )
+    elif record.get("fetch_url"):
+        source = _wordpress_rest_source(session, str(url), str(record["fetch_url"]), max_chars)
     else:
         source = ORIGINAL_FETCH_SOURCE(session, url, max_chars)
     if source.get("text_truncated"):
