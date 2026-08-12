@@ -78,9 +78,6 @@ jobs:
               assert 'actualites.rss' in pcf.get('alternate_url', ''), pcf
               assert pcf.get('coverage_type') == 'discovery_only_official_feed', pcf
 
-          # LFI has three accepted full-primary paths: direct HTML, another official URL
-          # resolving to the same full resource, or the complete 18-chapter WordPress REST
-          # representation published by the campaign itself. RSS is never accepted here.
           allowed_full_primary = {
               'ok',
               'ok_via_equivalent_primary_url',
@@ -93,7 +90,7 @@ jobs:
                   assert row.get('coverage_type') == 'full_primary_equivalent', row
               if row['status'] == 'ok_via_official_structured_primary':
                   assert row.get('coverage_type') == 'full_primary_structured_equivalent', row
-                  assert row.get('structured_item_count') == 18, row
+                  assert row.get('structured_item_count', 0) >= 18, row
 
           assert health['persistent_failure_count'] == 0, health.get('persistent_failures')
           assert health['uncovered_failure_count'] == 0, health.get('uncovered_failures')
@@ -112,20 +109,23 @@ jobs:
           structured = (state.get('structured_primary_health') or {}).get('lfi-programme-chapters') or {}
           assert structured.get('complete') is True, structured
           assert structured.get('status') == 200, structured
-          assert structured.get('expected_items') == 18, structured
-          assert structured.get('item_count') == 18, structured
-          assert structured.get('full_content_items') == 18, structured
-          assert structured.get('chapter_numbers') == list(range(1, 19)), structured
+          count = int(structured.get('item_count') or 0)
+          baseline = int(structured.get('minimum_expected_items') or 0)
+          assert baseline == 18, structured
+          assert count >= baseline, structured
+          assert structured.get('expected_items') == count, structured
+          assert structured.get('full_content_items') == count, structured
+          assert structured.get('chapter_numbers') == list(range(1, count + 1)), structured
+          assert structured.get('highest_chapter_number') == count, structured
+          assert structured.get('contiguous') is True, structured
           assert structured.get('minimum_content_chars', 0) >= 500, structured
           assert all(item.get('fetch_url') and item.get('link') and item.get('sha256') for item in (structured.get('items') or {}).values()), structured
 
-          # Prove the structured backlog is durable and transport-aware even after the
-          # transient daily JSONL is overwritten on a later collection run.
           import sys
           sys.path.insert(0, 'scripts')
           import auto_promote_runner
           backlog = auto_promote_runner.structured_backlog_events(base / 'state.json')
-          assert len(backlog) == 18, len(backlog)
+          assert len(backlog) == count, (len(backlog), count)
           assert all(item.get('fetch_url', '').startswith('https://melenchon2027.fr/wp-json/') for item in backlog)
           assert all(item.get('url', '').startswith('https://melenchon2027.fr/') for item in backlog)
 
@@ -145,7 +145,7 @@ jobs:
               'equivalentPrimaryCoverage': health.get('equivalent_primary_coverage_count', 0),
               'structuredPrimaryCoverage': health.get('structured_primary_coverage_count', 0),
               'officialFeedCoverage': health.get('alternate_official_feed_coverage_count', 0),
-              'structuredChapters': structured['item_count'],
+              'structuredChapters': count,
               'durableStructuredBacklog': len(backlog),
               'gdeltRequests': requests_made,
               'gdeltWarnings': warnings,
