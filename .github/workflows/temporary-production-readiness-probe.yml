@@ -10,10 +10,7 @@ on:
       - 'registries/sources.yaml'
       - 'scripts/daily_watch.py'
       - 'scripts/direct_feed_watch.py'
-      - 'scripts/gdelt_watch.py'
       - 'scripts/update_source_health.py'
-      - 'tests/test_direct_feed_watch.py'
-      - 'tests/test_update_source_health.py'
   workflow_dispatch:
 
 permissions:
@@ -22,7 +19,7 @@ permissions:
 jobs:
   probe:
     runs-on: ubuntu-latest
-    timeout-minutes: 12
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
       - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
@@ -40,48 +37,54 @@ jobs:
           echo "$CANONICAL_STATUS" | grep -q 'proposals/auto/__readiness_probe__/probe.md'
           rm -rf proposals/auto/__readiness_probe__
           test -z "$(git status --porcelain --untracked-files=all -- data/entities.json registries/candidates.yaml corpus/2027 proposals)"
-      - name: Run production watch collection locally without promotion or push
-        shell: bash
-        run: |
-          python scripts/daily_watch.py --no-gdelt --no-google
-          python scripts/direct_feed_watch.py
-          python scripts/update_source_health.py
-          python scripts/gdelt_watch.py
-      - name: Assert operational source coverage and inspect press radar
+      - name: Probe official LFI structured endpoints from the production runner environment
         shell: bash
         run: |
           python - <<'PY'
-          import datetime as dt
           import json
-          import re
-          from pathlib import Path
+          import urllib.error
+          import urllib.request
 
-          base = Path('research/veille')
-          health = json.loads((base / 'source-health.json').read_text(encoding='utf-8'))
-          pcf = health['sources']['https://www.pcf.fr/']
-          lfi = health['sources']['https://melenchon2027.fr/programme2025/livre/']
-          assert pcf['status'] == 'ok_via_official_feed', pcf
-          assert 'actualites.rss' in pcf.get('alternate_url', ''), pcf
-          assert lfi['status'] == 'ok', lfi
-          assert health['persistent_failure_count'] == 0, health.get('persistent_failures')
-
-          day = dt.datetime.now(dt.timezone.utc).date().isoformat()
-          press = (base / 'press' / f'{day}.md').read_text(encoding='utf-8')
-          summary = re.search(r'- (\d+) requête\(s\) GDELT batchée\(s\) ;.*?- (\d+) avertissement\(s\) technique\(s\)\.', press, re.S)
-          assert summary, press
-          requests_made, warnings = map(int, summary.groups())
-          assert requests_made <= 4, (requests_made, press)
-          print('SOURCE_HEALTH_PROBE=' + json.dumps({
-              'persistent': health['persistent_failure_count'],
-              'pcf': pcf['status'],
-              'pcf_alternate': pcf.get('alternate_url'),
-              'lfi': lfi['status'],
-              'gdelt_requests': requests_made,
-              'gdelt_warnings': warnings,
-          }, ensure_ascii=False))
-          print('GDELT_REPORT_BEGIN')
-          print(press)
-          print('GDELT_REPORT_END')
+          urls = [
+              'https://programme.lafranceinsoumise.fr/wp-sitemap.xml',
+              'https://programme.lafranceinsoumise.fr/sitemap_index.xml',
+              'https://programme.lafranceinsoumise.fr/feed/',
+              'https://melenchon2027.fr/wp-sitemap.xml',
+              'https://melenchon2027.fr/sitemap_index.xml',
+              'https://melenchon2027.fr/feed/',
+              'https://lafranceinsoumise.fr/wp-sitemap.xml',
+              'https://lafranceinsoumise.fr/feed/',
+          ]
+          headers = {
+              'User-Agent': 'programmes-politiques-france-2027-watch/1.0 (+https://github.com/TFourniax/programmes-politiques-france-2027)',
+              'Accept-Language': 'fr,en;q=0.7',
+          }
+          results = []
+          for url in urls:
+              request = urllib.request.Request(url, headers=headers)
+              try:
+                  with urllib.request.urlopen(request, timeout=20) as response:
+                      raw = response.read(1500)
+                      results.append({
+                          'url': url,
+                          'status': response.status,
+                          'resolved': response.geturl(),
+                          'content_type': response.headers.get('content-type', ''),
+                          'sample': raw[:240].decode('utf-8', errors='replace').replace('\n', ' '),
+                      })
+              except urllib.error.HTTPError as exc:
+                  raw = exc.read(1500)
+                  results.append({
+                      'url': url,
+                      'status': exc.code,
+                      'resolved': exc.geturl(),
+                      'content_type': exc.headers.get('content-type', ''),
+                      'sample': raw[:240].decode('utf-8', errors='replace').replace('\n', ' '),
+                  })
+              except Exception as exc:
+                  results.append({'url': url, 'error': f'{type(exc).__name__}: {exc}'})
+          print('LFI_ENDPOINT_PROBE=' + json.dumps(results, ensure_ascii=False))
+          assert any(item.get('status') == 200 and any(token in str(item.get('content_type', '')).lower() for token in ('xml', 'rss', 'atom')) for item in results), results
           PY
-      - name: Run targeted watch tests
-        run: pytest -q tests/test_daily_watch.py tests/test_direct_feed_watch.py tests/test_gdelt_watch.py tests/test_update_source_health.py
+      - name: Run targeted feed and health tests
+        run: pytest -q tests/test_direct_feed_watch.py tests/test_update_source_health.py
