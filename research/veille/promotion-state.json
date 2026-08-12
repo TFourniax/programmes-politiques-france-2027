@@ -1,14 +1,29 @@
 {
   "claim_fingerprints": {
+    "0d235486955d24a469b2f34300ac0660582113aa0a32ae38feaa38ddefc1a874": {
+      "proposal_id": "auto-david-lisnard-immigration-integration-0d235486955d",
+      "source_url": "https://www.unenouvelleenergie.fr/notre-programme/immigration/",
+      "verified_at": "2026-08-12T03:38:03+00:00"
+    },
     "117efe88b94ac18ca72c78dfb2032b52b3cc97a5d170289bfb4127aa648634c2": {
       "proposal_id": "auto-reconquete-fiscalite-redistribution-117efe88b94a",
       "source_url": "https://www.parti-reconquete.fr/",
       "verified_at": "2026-08-11T08:55:59+00:00"
     },
+    "2cccea1d7d842e42743960757042f361a8bd2cefe6d6af9174678f9d40d78d84": {
+      "proposal_id": "auto-david-lisnard-immigration-integration-2cccea1d7d84",
+      "source_url": "https://www.unenouvelleenergie.fr/notre-programme/immigration/",
+      "verified_at": "2026-08-12T03:38:03+00:00"
+    },
     "2ec6a69712fb6af8f7f69e89346ec0d0e96f1b0c6a3b1f4f0e4f55885a46c483": {
       "proposal_id": "auto-rassemblement-national-institutions-democratie-2ec6a69712fb",
       "source_url": "https://rassemblementnational.fr/",
       "verified_at": "2026-08-11T08:56:04+00:00"
+    },
+    "3027f98746c9ed6c4e5730490e49f1452546045dff8344ba62c324cdd70b94b8": {
+      "proposal_id": "auto-david-lisnard-immigration-integration-3027f98746c9",
+      "source_url": "https://www.unenouvelleenergie.fr/notre-programme/immigration/",
+      "verified_at": "2026-08-12T03:38:03+00:00"
     },
     "39955feaadc3b278ca322db565659a975bd6345206d19646c9f9b72ca6d5e9ca": {
       "proposal_id": "auto-bruno-retailleau-immigration-integration-39955feaadc3",
@@ -35,10 +50,40 @@
       "source_url": "https://www.debout-la-france.fr/",
       "verified_at": "2026-08-11T08:56:10+00:00"
     },
+    "6b062c92533ea20a6e1b94e90c257c852745f9e9388205aa68deabec607c7e30": {
+      "proposal_id": "auto-david-lisnard-immigration-integration-6b062c92533e",
+      "source_url": "https://www.unenouvelleenergie.fr/notre-programme/immigration/",
+      "verified_at": "2026-08-12T03:38:03+00:00"
+    },
     "703dc438f470887f6e8b5470fb7e5ab16c319d78084c8c08d3e5b782df15affb": {
       "proposal_id": "auto-bruno-retailleau-securite-justice-703dc438f470",
       "source_url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/",
       "verified_at": "2026-08-11T12:47:28+00:00"
+    },
+    "8a1b0cec48e9483d951e13b2efa38a5887d199d25eabe197de9ef634e854135e": {
+      "proposal_id": "auto-david-lisnard-immigration-integration-8a1b0cec48e9",
+      "source_url": "https://www.unenouvelleenergie.fr/notre-programme/immigration/",
+      "verified_at": "2026-08-12T03:38:03+00:00"
+    },
+    "916dbcbd334769ef5635e1a686af0cc6843ff15204008983d3d5f837dffb993d": {
+      "proposal_id": "auto-bruno-retailleau-institutions-democratie-916dbcbd3347",
+      "source_url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/",
+      "verified_at": "2026-08-12T03:37:53+00:00"
+    },
+    "9c673ad3472622ed83010861986cde517d24bb4a19f323f53415e3109121ce66": {
+      "proposal_id": "auto-david-lisnard-immigration-integration-9c673ad34726",
+      "source_url": "https://www.unenouvelleenergie.fr/notre-programme/immigration/",
+      "verified_at": "2026-08-12T03:38:03+00:00"
+    },
+    "a125ab0a12a4078c72cef4e99df519eff5bebe27df675b33e3bc539665e22cb9": {
+      "proposal_id": "auto-david-lisnard-immigration-integration-a125ab0a12a4",
+      "source_url": "https://www.unenouvelleenergie.fr/notre-programme/immigration/",
+      "verified_at": "2026-08-12T03:38:03+00:00"
+    },
+    "a766eef3871dc4b764a66ee39d8eb762afa79ff33d2c4fc341131893b55ffc30": {
+      "proposal_id": "auto-david-lisnard-immigration-integration-a766eef3871d",
+      "source_url": "https://www.unenouvelleenergie.fr/notre-programme/immigration/",
+      "verified_at": "2026-08-12T03:38:03+00:00"
     },
     "e7de1a3e9e8e086f1c4d33a1e365ba1b4faec5b89fb38e0f30651f2e9ea949d1": {
       "proposal_id": "auto-rassemblement-national-ecologie-energie-e7de1a3e9e8e",
@@ -58,8 +103,224 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-08-11T20:16:21+00:00",
+  "last_run_at": "2026-08-12T03:38:03+00:00",
   "source_chunks": {
+    "0d1c8e880d3045b492702087": {
+      "claims": [
+        {
+          "claim": {
+            "actor_id": "david-lisnard",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "Revenir sur l’accord franco-algérien de 1968",
+            "relevance": "direct",
+            "statement": "Revenir sur l'accord franco-algérien de 1968.",
+            "topic": "immigration-integration"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "L'affirmation est explicitement soutenue par la source pour David Lisnard.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "david-lisnard",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "Traiter les demandes d’asiles au sein de nos consulats à l’étranger",
+            "relevance": "direct",
+            "statement": "Traiter les demandes d'asile au sein des consulats à l'étranger.",
+            "topic": "immigration-integration"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "L'affirmation est explicitement soutenue par la source pour David Lisnard.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "david-lisnard",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "Diviser par huit la délivrance de titres de séjour",
+            "relevance": "direct",
+            "statement": "Diviser par huit la délivrance de titres de séjour.",
+            "topic": "immigration-integration"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "L'affirmation est explicitement soutenue par la source pour David Lisnard.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "david-lisnard",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "Mettre fin à l’automaticité du droit du sol",
+            "relevance": "direct",
+            "statement": "Mettre fin à l'automaticité du droit du sol.",
+            "topic": "immigration-integration"
+          },
+          "verdict": {
+            "index": 3,
+            "reason": "L'affirmation est explicitement soutenue par la source pour David Lisnard.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "david-lisnard",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "allonger la durée de la rétention administrative à 24 mois",
+            "relevance": "direct",
+            "statement": "Allonger la durée de la rétention administrative à 24 mois.",
+            "topic": "immigration-integration"
+          },
+          "verdict": {
+            "index": 4,
+            "reason": "L'affirmation est explicitement soutenue par la source pour David Lisnard.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "david-lisnard",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "Supprimer l’Aide Médicale d’État (AME) et la remplacer par une aide d’urgence",
+            "relevance": "direct",
+            "statement": "Supprimer l'Aide Médicale d'État et la remplacer par une aide d'urgence.",
+            "topic": "immigration-integration"
+          },
+          "verdict": {
+            "index": 5,
+            "reason": "L'affirmation est explicitement soutenue par la source pour David Lisnard.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "david-lisnard",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "Rétablir le délit de séjour irrégulier",
+            "relevance": "direct",
+            "statement": "Rétablir le délit de séjour irrégulier.",
+            "topic": "immigration-integration"
+          },
+          "verdict": {
+            "index": 6,
+            "reason": "L'affirmation est explicitement soutenue par la source pour David Lisnard.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "david-lisnard",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "Expulser systématiquement les étrangers condamnés pour délits graves et les fichés S étrangers",
+            "relevance": "direct",
+            "statement": "Expulser systématiquement les étrangers condamnés pour délits graves et les fichés S étrangers.",
+            "topic": "immigration-integration"
+          },
+          "verdict": {
+            "index": 7,
+            "reason": "L'affirmation est explicitement soutenue par la source pour David Lisnard.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "completed_at": "2026-08-12T03:38:03+00:00",
+      "created_at": "2026-08-12T03:37:58+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "aacd580bbf19f7dbb667f488ef1aa251593e69a65edc6fa06ee29f2c1d4c7556",
+      "source_title": "Immigration : le projet de David Lisnard | Nouvelle Énergie",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-12T03:38:03+00:00",
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/immigration/"
+    },
+    "13baacfdd1312304cc64af73": {
+      "claims": [
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "redonner la primauté à notre droit national",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau propose de redonner la primauté au droit national par référendum.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "Le claim sur le droit national est explicitement soutenu par la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "completed_at": "2026-08-12T03:37:53+00:00",
+      "created_at": "2026-08-12T03:37:49+00:00",
+      "document_types": [
+        "candidacy_declaration"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-02-12"
+      ],
+      "sha256": "9a8ac64efd9d8ab831ecf7a203d894dffde6dbc8676d16c8677e69453dc122bf",
+      "source_title": "Je suis candidat à l'élection présidentielle. - Les Républicains",
+      "statuses": [
+        {
+          "status": {
+            "candidate_id": "bruno-retailleau",
+            "effective_date": "2026-02-12",
+            "evidence_quote": "Je suis candidat à l’élection présidentielle.",
+            "explicit": true,
+            "new_status": "declared_presidential"
+          }
+        }
+      ],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-12T03:37:53+00:00",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
     "1545b5d7674f7c79cc29970b": {
       "claims": [],
       "created_at": "2026-08-11T20:16:09+00:00",
@@ -461,6 +722,15 @@
       "status": "not_confirmed",
       "url": "https://lafranceinsoumise.fr/2026/08/10/amfis-2026-le-programme-est-en-ligne/"
     },
+    "c783010b972b": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-08-12T03:37:53+00:00",
+      "reason": null,
+      "source_sha256": "9a8ac64efd9d8ab831ecf7a203d894dffde6dbc8676d16c8677e69453dc122bf",
+      "status": "promoted",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
     "c8dcd8ecba07": {
       "processed_at": "2026-08-11T09:26:40+00:00",
       "reason": "explicit_old_election_context",
@@ -477,6 +747,15 @@
       "status": "not_confirmed",
       "url": "https://lafranceinsoumise.fr/2026/07/29/amfis-2026-les-premieres-annonces-sur-le-programme-des-universites-dete-de-la-france-insoumise/"
     },
+    "d89718270670": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-12T03:37:57+00:00",
+      "reason": null,
+      "source_sha256": "f59d0ebb3d1012043693afacc4edacc46f031d6229fd0f26e819656d6c39b4f0",
+      "status": "not_confirmed",
+      "url": "https://parti-equinoxe.fr/legislatives-2022-programme/"
+    },
     "d8a91ac36d41": {
       "chunks_done": null,
       "chunks_total": null,
@@ -492,6 +771,15 @@
       "source_sha256": "2a895e30a04270a8d517c82d52f61fa44ee53015c7eae1ecadd75c168abedd50",
       "status": "no_canonical_data",
       "url": "http://lesecologistes.fr/forms/6P5URUdvFPSAmDwnWlQcCh/formation-donner-du-souffle-a-notre-programme-du-catalogue-de-mesures-au-recit-mobilisateur"
+    },
+    "db99049a59f2": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-08-12T03:38:03+00:00",
+      "reason": null,
+      "source_sha256": "aacd580bbf19f7dbb667f488ef1aa251593e69a65edc6fa06ee29f2c1d4c7556",
+      "status": "promoted",
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/immigration/"
     },
     "e53543cb01a0": {
       "chunks_done": null,

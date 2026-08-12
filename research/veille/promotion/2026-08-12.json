@@ -1,0 +1,48 @@
+{
+  "errors": [],
+  "generated_at": "2026-08-12T03:38:03+00:00",
+  "historical_skipped": 0,
+  "partial": 0,
+  "processed": 3,
+  "promoted": 2,
+  "proposals_created": 9,
+  "results": [
+    {
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-13baacfdd131.md",
+      "proposals": [
+        "proposals/auto/institutions-democratie/auto-bruno-retailleau-institutions-democratie-916dbcbd3347.md"
+      ],
+      "sha256": "9a8ac64efd9d8ab831ecf7a203d894dffde6dbc8676d16c8677e69453dc122bf",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/",
+      "verified_at": "2026-08-12T03:37:53+00:00"
+    },
+    {
+      "sha256": "f59d0ebb3d1012043693afacc4edacc46f031d6229fd0f26e819656d6c39b4f0",
+      "status": "not_confirmed",
+      "url": "https://parti-equinoxe.fr/legislatives-2022-programme-cohesion/"
+    },
+    {
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/partys/nouvelle-energie/2026-07-31-0d1c8e880d30.md",
+      "proposals": [
+        "proposals/auto/immigration-integration/auto-david-lisnard-immigration-integration-2cccea1d7d84.md",
+        "proposals/auto/immigration-integration/auto-david-lisnard-immigration-integration-a125ab0a12a4.md",
+        "proposals/auto/immigration-integration/auto-david-lisnard-immigration-integration-6b062c92533e.md",
+        "proposals/auto/immigration-integration/auto-david-lisnard-immigration-integration-8a1b0cec48e9.md",
+        "proposals/auto/immigration-integration/auto-david-lisnard-immigration-integration-0d235486955d.md",
+        "proposals/auto/immigration-integration/auto-david-lisnard-immigration-integration-a766eef3871d.md",
+        "proposals/auto/immigration-integration/auto-david-lisnard-immigration-integration-3027f98746c9.md",
+        "proposals/auto/immigration-integration/auto-david-lisnard-immigration-integration-9c673ad34726.md"
+      ],
+      "sha256": "aacd580bbf19f7dbb667f488ef1aa251593e69a65edc6fa06ee29f2c1d4c7556",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/immigration/",
+      "verified_at": "2026-08-12T03:38:03+00:00"
+    }
+  ],
+  "status_updates": 0
+}
