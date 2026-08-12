@@ -15,7 +15,7 @@ export function readSearchParams() {
   return new URLSearchParams(window.location.search);
 }
 
-export function writeSearchParams(mode, updates = {}, clear = []) {
+export function writeSearchParams(mode, updates = {}, clear = [], options = {}) {
   if (typeof window === "undefined") return;
   const url = new URL(window.location.href);
   url.searchParams.set("mode", mode);
@@ -24,7 +24,8 @@ export function writeSearchParams(mode, updates = {}, clear = []) {
     if (value === null || value === undefined || value === "" || (Array.isArray(value) && !value.length)) url.searchParams.delete(key);
     else url.searchParams.set(key, Array.isArray(value) ? value.join(",") : String(value));
   });
-  window.history.replaceState({}, "", `${url.pathname}${url.search}${url.hash}`);
+  const method = options.history === "push" ? "pushState" : "replaceState";
+  window.history[method]({}, "", `${url.pathname}${url.search}${url.hash}`);
 }
 
 export async function copyCurrentUrl() {
