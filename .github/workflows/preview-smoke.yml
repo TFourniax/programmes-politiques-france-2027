@@ -23,8 +23,9 @@ jobs:
     timeout-minutes: 12
     env:
       PR_NUMBER: ${{ github.event.pull_request.number || inputs.pr_number }}
+      EXPECTED_HEAD_SHA: ${{ github.event.pull_request.head.sha || github.sha }}
     steps:
-      - name: Wait for Netlify Deploy Preview and exercise public runtime
+      - name: Wait for exact Netlify Deploy Preview and exercise public runtime
         shell: bash
         run: |
           python - <<'PY'
@@ -35,6 +36,7 @@ jobs:
           import urllib.request
 
           pr = os.environ["PR_NUMBER"].strip()
+          expected_head = os.environ.get("EXPECTED_HEAD_SHA", "").strip()
           base = f"https://deploy-preview-{pr}--politique2027.netlify.app"
 
           def request(path, *, payload=None, ip=None, timeout=15):
@@ -56,20 +58,27 @@ jobs:
 
           health = None
           last_error = None
-          for attempt in range(36):
+          for attempt in range(48):
               try:
                   candidate = request("/api/health", timeout=10)
-                  if candidate.get("ok") is True and candidate.get("chat", {}).get("engine") == "deterministic-bm25-ontology-v4":
+                  deployed_head = str(candidate.get("deployment", {}).get("commitRef", "")).strip()
+                  healthy = candidate.get("ok") is True and candidate.get("chat", {}).get("engine") == "deterministic-bm25-ontology-v4"
+                  exact_deploy = bool(expected_head) and deployed_head == expected_head
+                  if healthy and exact_deploy:
                       health = candidate
                       break
-                  last_error = f"health not ready: {candidate}"
+                  if healthy:
+                      last_error = f"preview still on {deployed_head or 'unknown commit'}, waiting for {expected_head}"
+                  else:
+                      last_error = f"health not ready: {candidate}"
               except Exception as exc:
                   last_error = f"{type(exc).__name__}: {exc}"
               time.sleep(10)
           if health is None:
-              raise SystemExit(f"Deploy Preview never became healthy: {last_error}")
+              raise SystemExit(f"Exact Deploy Preview never became healthy: {last_error}")
 
           chat = health["chat"]
+          assert health.get("deployment", {}).get("commitRef") == expected_head, health.get("deployment")
           assert chat["responseGeneration"] == "deterministic_extractive", chat
           assert chat["edgeRateLimit"] == {"requests": 8, "seconds": 60}, chat
           assert chat["semanticFallback"]["role"] == "retrieval_interpretation_only", chat
@@ -89,6 +98,7 @@ jobs:
           assert current["retrievalAssisted"] is False, current
           assert current["answer"]["cards"], current
           assert any(c.get("path") == "proposals/services-publics/ps-abrogation-parcoursup.md" for c in current["citations"]), current
+          assert all("parcoursup" in f"{c.get('title', '')} {c.get('section', '')}".lower() or "parcoursup" in str(card.get("summary", "")).lower() or "parcoursup" in str(card.get("subtitle", "")).lower() for card in current["answer"]["cards"] for c in current["citations"] if c.get("entityId") == card.get("entityId")), current
           inactive = {"superseded", "withdrawn", "archived", "rejected", "draft", "historical"}
           assert all(str(c.get("documentStatus", "")).lower() not in inactive for c in current["citations"]), current
 
@@ -120,6 +130,7 @@ jobs:
 
           print(json.dumps({
               "preview": base,
+              "commitRef": health.get("deployment", {}).get("commitRef"),
               "snapshotDate": health.get("snapshotDate"),
               "fallback": fallback_result,
               "watchStatus": health.get("watch", {}).get("status"),
