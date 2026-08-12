@@ -23,6 +23,43 @@ def load_json(path: Path, default: Any) -> Any:
         return default
 
 
+def parse_timestamp(value: Any) -> datetime | None:
+    raw = str(value or "").strip()
+    if not raw:
+        return None
+    try:
+        parsed = datetime.fromisoformat(raw.replace("Z", "+00:00"))
+    except ValueError:
+        return None
+    if parsed.tzinfo is None:
+        parsed = parsed.replace(tzinfo=timezone.utc)
+    return parsed.astimezone(timezone.utc)
+
+
+def later_verified_sources(promotion: dict[str, Any]) -> dict[str, datetime]:
+    """Latest canonical verification timestamp by exact primary-source URL."""
+    latest: dict[str, datetime] = {}
+    for record in (promotion.get("claim_fingerprints") or {}).values():
+        if not isinstance(record, dict):
+            continue
+        url = str(record.get("source_url") or "").strip()
+        verified_at = parse_timestamp(record.get("verified_at"))
+        if not url or verified_at is None:
+            continue
+        if url not in latest or verified_at > latest[url]:
+            latest[url] = verified_at
+    return latest
+
+
+def recovered_technical_error(row: dict[str, Any], verified_by_url: dict[str, datetime]) -> bool:
+    if row.get("status") != "technical_error":
+        return False
+    url = str(row.get("url") or "").strip()
+    failed_at = parse_timestamp(row.get("processed_at"))
+    later_verified = verified_by_url.get(url)
+    return bool(url and failed_at is not None and later_verified is not None and later_verified > failed_at)
+
+
 def build_health(
     state: dict[str, Any],
     promotion: dict[str, Any],
@@ -36,9 +73,26 @@ def build_health(
     source_health = source_health or {}
     source_states = list((promotion.get("sources") or {}).values())
     social_states = list((social_promotion.get("events") or {}).values())
-    technical_errors = sum(1 for row in source_states + social_states if row.get("status") == "technical_error")
-    partial_sources = sum(1 for row in source_states if row.get("status") == "partial")
-    deferred_sources = sum(1 for row in source_states if row.get("status") == "deferred")
+
+    verified_by_url = later_verified_sources(promotion)
+    recovered_source_errors = sum(
+        1 for row in source_states
+        if isinstance(row, dict) and recovered_technical_error(row, verified_by_url)
+    )
+    unresolved_source_errors = sum(
+        1 for row in source_states
+        if isinstance(row, dict)
+        and row.get("status") == "technical_error"
+        and not recovered_technical_error(row, verified_by_url)
+    )
+    social_technical_errors = sum(
+        1 for row in social_states
+        if isinstance(row, dict) and row.get("status") == "technical_error"
+    )
+    technical_errors = unresolved_source_errors + social_technical_errors
+
+    partial_sources = sum(1 for row in source_states if isinstance(row, dict) and row.get("status") == "partial")
+    deferred_sources = sum(1 for row in source_states if isinstance(row, dict) and row.get("status") == "deferred")
     persistent_source_failures = int(source_health.get("persistent_failure_count") or 0)
     raw_source_warnings = int(source_health.get("raw_failure_count", state.get("last_run_error_count") or 0) or 0)
     covered_source_warnings = int(source_health.get("covered_failure_count") or 0)
@@ -65,7 +119,7 @@ def build_health(
         reasons.append(f"{uncovered_source_warnings}_uncovered_official_source_warning(s)")
 
     return {
-        "version": 4,
+        "version": 5,
         "generated_at": stamp,
         "status": "healthy" if not reasons else "degraded",
         "last_collection_success_at": collection_at,
@@ -86,6 +140,7 @@ def build_health(
         "persistent_official_source_failures": persistent_source_failures,
         "persistent_official_source_failure_details": source_health.get("persistent_failures") or [],
         "promotion_technical_retries_pending": technical_errors,
+        "recovered_promotion_technical_failures": recovered_source_errors,
         "partial_sources_pending": partial_sources,
         "deferred_sources_pending": deferred_sources,
         "pending_work": pending_work,
@@ -110,6 +165,7 @@ def main() -> None:
     (base / "health.json").write_text(json.dumps(health, ensure_ascii=False, indent=2, sort_keys=True) + "\n", encoding="utf-8")
     print(
         f"Watch health: {health['status']} | pending={health['pending_work']} | "
+        f"recovered_technical={health['recovered_promotion_technical_failures']} | "
         f"persistent_sources={health['persistent_official_source_failures']} | "
         f"uncovered_warnings={health['uncovered_official_source_warnings_last_run']} | "
         f"structured_coverage={health['structured_primary_coverage_count']} | "
