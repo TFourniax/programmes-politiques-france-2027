@@ -57,12 +57,6 @@ def http_error_urls(state: dict[str, Any]) -> set[str]:
 
 
 def healthy_direct_feed_coverage(state: dict[str, Any]) -> dict[str, dict[str, Any]]:
-    """Return owners with a healthy official discovery feed.
-
-    A feed can cover discovery on a general party homepage, but it is never treated as
-    proof that a specific programme/evidence page has been fetched. Silent in-place
-    edits to a programme must still be observed from that full primary page itself.
-    """
     out: dict[str, dict[str, Any]] = {}
     for url, record in (state.get("direct_feed_health") or {}).items():
         if not isinstance(record, dict):
@@ -84,17 +78,8 @@ def healthy_direct_feed_coverage(state: dict[str, Any]) -> dict[str, dict[str, A
 
 
 def healthy_equivalent_primary_coverage(state: dict[str, Any]) -> dict[str, dict[str, Any]]:
-    """Map a failed primary URL to another successful URL resolving to the same resource.
-
-    This is stronger than an RSS fallback: the alternate URL must have fetched the full
-    primary resource successfully in the same watch state, for the same owner, and its
-    final resolved URL must exactly match the failed target's resolved URL. It therefore
-    preserves detection of silent in-place programme edits while avoiding false outages
-    caused by one flaky alias or redirect entrypoint.
-    """
     sources = state.get("sources") or {}
     healthy_by_resource: dict[tuple[str, str], list[dict[str, Any]]] = {}
-
     for source_url, record in sources.items():
         if not isinstance(record, dict):
             continue
@@ -126,14 +111,42 @@ def healthy_equivalent_primary_coverage(state: dict[str, Any]) -> dict[str, dict
         canonical_source = canonicalize_url(str(source_url))
         owner = str(record.get("owner") or "").strip()
         resolved = canonicalize_url(str(record.get("resolved_url") or source_url))
-        if not owner or not resolved:
-            continue
         candidates = [
             item for item in healthy_by_resource.get((owner, resolved), [])
             if item.get("url") != canonical_source
         ]
         if candidates:
             out[canonical_source] = sorted(candidates, key=lambda item: str(item.get("url") or ""))[0]
+    return out
+
+
+def healthy_structured_primary_coverage(state: dict[str, Any]) -> dict[str, dict[str, Any]]:
+    """Map exact public targets covered by a complete official structured representation."""
+    out: dict[str, dict[str, Any]] = {}
+    for source_id, record in (state.get("structured_primary_health") or {}).items():
+        if not isinstance(record, dict) or not record.get("complete"):
+            continue
+        try:
+            status = int(record.get("status") or 0)
+        except (TypeError, ValueError):
+            status = 0
+        expected = int(record.get("expected_items") or 0)
+        count = int(record.get("item_count") or 0)
+        full = int(record.get("full_content_items") or 0)
+        if status != 200 or expected <= 0 or count != expected or full != expected:
+            continue
+        for url in record.get("coverage_urls") or []:
+            canonical = canonicalize_url(str(url))
+            out[canonical] = {
+                "source_id": source_id,
+                "owner": record.get("owner"),
+                "checked_at": record.get("checked_at"),
+                "expected_items": expected,
+                "item_count": count,
+                "full_content_items": full,
+                "chapter_numbers": record.get("chapter_numbers") or [],
+                "api_endpoint": record.get("api_endpoint"),
+            }
     return out
 
 
@@ -144,13 +157,16 @@ def update_records(
     stamp: str,
     alternate_coverage: dict[str, dict[str, Any]] | None = None,
     equivalent_coverage: dict[str, dict[str, Any]] | None = None,
+    structured_coverage: dict[str, dict[str, Any]] | None = None,
 ) -> dict[str, Any]:
     alternate_coverage = alternate_coverage or {}
     equivalent_coverage = equivalent_coverage or {}
+    structured_coverage = structured_coverage or {}
     records = dict(previous.get("sources") or {})
     active_urls = set()
     feed_covered_failures: list[dict[str, Any]] = []
     equivalent_covered_failures: list[dict[str, Any]] = []
+    structured_covered_failures: list[dict[str, Any]] = []
     uncovered_failures: list[dict[str, Any]] = []
 
     for target in targets:
@@ -163,88 +179,77 @@ def update_records(
         owner = str(target.get("owner") or "")
         kind = str(target.get("kind") or "")
         equivalent = equivalent_coverage.get(url)
+        structured = structured_coverage.get(url)
         alternate = alternate_coverage.get(owner) if kind in FEED_COVERABLE_TARGET_KINDS else None
 
         if url in errors and equivalent:
-            row["consecutive_failures"] = 0
-            row["first_failure_at"] = None
-            row["last_success_at"] = stamp
-            row["last_failure_at"] = stamp
-            row["status"] = "ok_via_equivalent_primary_url"
-            row["alternate_url"] = equivalent.get("url")
-            row["alternate_checked_at"] = equivalent.get("checked_at")
-            row["alternate_resolved_url"] = equivalent.get("resolved_url")
-            row["coverage_type"] = "full_primary_equivalent"
+            row.update({
+                "consecutive_failures": 0, "first_failure_at": None, "last_success_at": stamp,
+                "last_failure_at": stamp, "status": "ok_via_equivalent_primary_url",
+                "alternate_url": equivalent.get("url"), "alternate_checked_at": equivalent.get("checked_at"),
+                "alternate_resolved_url": equivalent.get("resolved_url"), "coverage_type": "full_primary_equivalent",
+            })
             equivalent_covered_failures.append({
-                "url": url,
-                "owner": owner,
-                "kind": kind,
-                "alternate_url": equivalent.get("url"),
-                "resolved_url": equivalent.get("resolved_url"),
-                "coverage_type": "full_primary_equivalent",
+                "url": url, "owner": owner, "kind": kind, "alternate_url": equivalent.get("url"),
+                "resolved_url": equivalent.get("resolved_url"), "coverage_type": "full_primary_equivalent",
+            })
+        elif url in errors and structured:
+            row.update({
+                "consecutive_failures": 0, "first_failure_at": None, "last_success_at": stamp,
+                "last_failure_at": stamp, "status": "ok_via_official_structured_primary",
+                "alternate_url": structured.get("api_endpoint"), "alternate_checked_at": structured.get("checked_at"),
+                "coverage_type": "full_primary_structured_equivalent",
+                "structured_source_id": structured.get("source_id"),
+                "structured_item_count": structured.get("item_count"),
+            })
+            row.pop("alternate_resolved_url", None)
+            structured_covered_failures.append({
+                "url": url, "owner": owner, "kind": kind,
+                "structured_source_id": structured.get("source_id"),
+                "item_count": structured.get("item_count"),
+                "coverage_type": "full_primary_structured_equivalent",
             })
         elif url in errors and alternate:
-            # The general public homepage can be protected by anti-bot middleware while
-            # an official RSS/Atom endpoint remains available. This preserves discovery
-            # coverage, but is intentionally not allowed for programme/evidence targets.
-            row["consecutive_failures"] = 0
-            row["first_failure_at"] = None
-            row["last_success_at"] = stamp
-            row["last_failure_at"] = stamp
-            row["status"] = "ok_via_official_feed"
-            row["alternate_url"] = alternate.get("url")
-            row["alternate_checked_at"] = alternate.get("checked_at")
+            row.update({
+                "consecutive_failures": 0, "first_failure_at": None, "last_success_at": stamp,
+                "last_failure_at": stamp, "status": "ok_via_official_feed",
+                "alternate_url": alternate.get("url"), "alternate_checked_at": alternate.get("checked_at"),
+                "coverage_type": "discovery_only_official_feed",
+            })
             row.pop("alternate_resolved_url", None)
-            row["coverage_type"] = "discovery_only_official_feed"
             feed_covered_failures.append({
-                "url": url,
-                "owner": owner,
-                "kind": kind,
-                "alternate_url": alternate.get("url"),
+                "url": url, "owner": owner, "kind": kind, "alternate_url": alternate.get("url"),
                 "coverage_type": "discovery_only_official_feed",
             })
         elif url in errors:
             failures = int(row.get("consecutive_failures") or 0) + 1
-            row["consecutive_failures"] = failures
-            row["first_failure_at"] = row.get("first_failure_at") or stamp
-            row["last_failure_at"] = stamp
-            row["status"] = "persistent_failure" if failures >= PERSISTENT_FAILURE_RUNS else "transient_failure"
-            row.pop("alternate_url", None)
-            row.pop("alternate_checked_at", None)
-            row.pop("alternate_resolved_url", None)
-            row.pop("coverage_type", None)
-            uncovered_failures.append({
-                "url": url,
-                "owner": owner,
-                "kind": kind,
-                "status": row["status"],
+            row.update({
                 "consecutive_failures": failures,
+                "first_failure_at": row.get("first_failure_at") or stamp,
+                "last_failure_at": stamp,
+                "status": "persistent_failure" if failures >= PERSISTENT_FAILURE_RUNS else "transient_failure",
+            })
+            for key in ("alternate_url", "alternate_checked_at", "alternate_resolved_url", "coverage_type", "structured_source_id", "structured_item_count"):
+                row.pop(key, None)
+            uncovered_failures.append({
+                "url": url, "owner": owner, "kind": kind, "status": row["status"], "consecutive_failures": failures,
             })
         else:
-            row["consecutive_failures"] = 0
-            row["first_failure_at"] = None
-            row["last_success_at"] = stamp
-            row["status"] = "ok"
-            row.pop("alternate_url", None)
-            row.pop("alternate_checked_at", None)
-            row.pop("alternate_resolved_url", None)
-            row.pop("coverage_type", None)
+            row.update({"consecutive_failures": 0, "first_failure_at": None, "last_success_at": stamp, "status": "ok"})
+            for key in ("alternate_url", "alternate_checked_at", "alternate_resolved_url", "coverage_type", "structured_source_id", "structured_item_count"):
+                row.pop(key, None)
         records[url] = row
 
-    # Preserve retired targets for auditability, but never alert on them.
     for url, row in list(records.items()):
         if url not in active_urls:
             copy = dict(row)
             copy["status"] = "retired"
             records[url] = copy
 
-    persistent = [
-        row for row in records.values()
-        if row.get("status") == "persistent_failure"
-    ]
-    covered_failures = feed_covered_failures + equivalent_covered_failures
+    persistent = [row for row in records.values() if row.get("status") == "persistent_failure"]
+    covered_failures = feed_covered_failures + equivalent_covered_failures + structured_covered_failures
     return {
-        "version": 5,
+        "version": 6,
         "generated_at": stamp,
         "persistent_failure_threshold_runs": PERSISTENT_FAILURE_RUNS,
         "raw_failure_count": len(covered_failures) + len(uncovered_failures),
@@ -252,23 +257,18 @@ def update_records(
         "uncovered_failure_count": len(uncovered_failures),
         "alternate_official_feed_coverage_count": len(feed_covered_failures),
         "equivalent_primary_coverage_count": len(equivalent_covered_failures),
+        "structured_primary_coverage_count": len(structured_covered_failures),
         "covered_failures": sorted(covered_failures, key=lambda row: str(row.get("url") or "")),
         "uncovered_failures": sorted(uncovered_failures, key=lambda row: str(row.get("url") or "")),
         "persistent_failure_count": len(persistent),
-        "persistent_failures": sorted(
-            [
-                {
-                    "url": row.get("url"),
-                    "owner": row.get("owner"),
-                    "kind": row.get("kind"),
-                    "consecutive_failures": row.get("consecutive_failures"),
-                    "first_failure_at": row.get("first_failure_at"),
-                    "last_failure_at": row.get("last_failure_at"),
-                }
-                for row in persistent
-            ],
-            key=lambda row: str(row.get("url") or ""),
-        ),
+        "persistent_failures": sorted([
+            {
+                "url": row.get("url"), "owner": row.get("owner"), "kind": row.get("kind"),
+                "consecutive_failures": row.get("consecutive_failures"),
+                "first_failure_at": row.get("first_failure_at"), "last_failure_at": row.get("last_failure_at"),
+            }
+            for row in persistent
+        ], key=lambda row: str(row.get("url") or "")),
         "sources": records,
     }
 
@@ -281,23 +281,22 @@ def main() -> None:
     errors = current_error_urls(base / f"{day}.jsonl") | http_error_urls(watch_state)
     alternates = healthy_direct_feed_coverage(watch_state)
     equivalents = healthy_equivalent_primary_coverage(watch_state)
+    structured = healthy_structured_primary_coverage(watch_state)
     payload = update_records(
-        previous,
-        collect_official_targets(),
-        errors,
-        iso_now(),
+        previous, collect_official_targets(), errors, iso_now(),
         alternate_coverage=alternates,
         equivalent_coverage=equivalents,
+        structured_coverage=structured,
     )
     (base / "source-health.json").write_text(
-        json.dumps(payload, ensure_ascii=False, indent=2, sort_keys=True) + "\n",
-        encoding="utf-8",
+        json.dumps(payload, ensure_ascii=False, indent=2, sort_keys=True) + "\n", encoding="utf-8"
     )
     print(
         f"Official source health: {payload['persistent_failure_count']} persistent failure(s), "
         f"{payload['uncovered_failure_count']} uncovered warning(s), "
-        f"{payload['equivalent_primary_coverage_count']} covered by equivalent primary URL(s), "
-        f"{payload['alternate_official_feed_coverage_count']} covered by official feed(s)"
+        f"{payload['equivalent_primary_coverage_count']} equivalent URL(s), "
+        f"{payload['structured_primary_coverage_count']} structured primary coverage(s), "
+        f"{payload['alternate_official_feed_coverage_count']} official feed coverage(s)"
     )
 
 
