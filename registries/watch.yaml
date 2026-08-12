@@ -1,4 +1,4 @@
-version: 10
+version: 11
 enabled: true
 
 official_discovery:
@@ -21,25 +21,22 @@ official_direct_feeds:
     public_origin: https://lafranceinsoumise.fr/
     source_tier: tier_1_primary_official
 
-# Représentations primaires complètes publiées par les sites officiels eux-mêmes.
-# Les recherches REST ci-dessous servent uniquement à découvrir les chapitres : chaque
-# objet retenu est ensuite récupéré intégralement depuis /wp-json/wp/v2/posts/{id}.
-# Le nombre connu de chapitres est un plancher : un chapitre 19, 20, etc. est accepté
-# automatiquement si la séquence publique reste continue. Les anciennes archives sont
-# écartées par le périmètre d'URL du site de campagne courant.
+# Source primaire complète LFI : les 18 chapitres publics de l'édition 2025 et toutes
+# leurs sections sont récupérés directement depuis melenchon2027.fr. Le nombre 18 est
+# un plancher, pas un plafond : les chapitres suivants sont sondés automatiquement.
+# Une seule section manquante rend la représentation incomplète ; aucun RSS ni titre
+# de recherche n'est accepté comme preuve canonique à la place du contenu primaire.
 official_structured_sources:
   - id: lfi-programme-chapters
     owner: La France insoumise
-    kind: wordpress_programme_chapters
-    api_base: https://melenchon2027.fr
-    search_terms:
-      - programme
-      - avenir en commun
-      - livre
-    link_pattern: '^https://melenchon2027\.fr/chapitre-[0-9]+-'
+    kind: html_programme_chapters
+    public_base: https://melenchon2027.fr/programme2025/livre
     minimum_expected_chapters: 18
+    max_probe_chapters: 30
+    stop_after_consecutive_missing: 3
     min_content_chars: 500
-    detail_request_delay_seconds: 0.15
+    min_section_chars: 180
+    request_delay_seconds: 0.05
     coverage_urls:
       - https://programme.lafranceinsoumise.fr/
       - https://melenchon2027.fr/programme2025/livre/
@@ -93,9 +90,8 @@ google_search_grounding:
   max_urls_per_entity: 5
   request_delay_seconds: 0.10
 
-# Promotion automatique web/PDF/JSON primaire : le document complet est drainé par chunks persistants.
-# Une source n'est finalisée qu'une fois tous les chunks traités. Les archives explicitement
-# rattachées à d'anciennes élections restent hors du canon courant 2027.
+# Promotion automatique web/PDF/captures primaires : le document complet est drainé
+# par chunks persistants. Une source n'est finalisée qu'une fois tous les chunks traités.
 auto_promotion:
   enabled: true
   model: gemini-3.5-flash-lite
