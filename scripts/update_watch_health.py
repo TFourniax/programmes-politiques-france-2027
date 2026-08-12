@@ -43,6 +43,7 @@ def build_health(
     raw_source_warnings = int(source_health.get("raw_failure_count", state.get("last_run_error_count") or 0) or 0)
     covered_source_warnings = int(source_health.get("covered_failure_count") or 0)
     uncovered_source_warnings = int(source_health.get("uncovered_failure_count", state.get("last_run_error_count") or 0) or 0)
+    structured_coverage = int(source_health.get("structured_primary_coverage_count") or 0)
     pending_work = partial_sources + deferred_sources + technical_errors
 
     if gemini_available:
@@ -64,11 +65,12 @@ def build_health(
         reasons.append(f"{uncovered_source_warnings}_uncovered_official_source_warning(s)")
 
     return {
-        "version": 3,
+        "version": 4,
         "generated_at": stamp,
         "status": "healthy" if not reasons else "degraded",
         "last_collection_success_at": collection_at,
         "last_direct_feed_run_at": state.get("last_direct_feed_run_at"),
+        "last_structured_primary_run_at": state.get("last_structured_primary_run_at"),
         "last_gdelt_run_at": state.get("last_gdelt_run_at"),
         "last_social_run_at": state.get("last_social_run_at"),
         "last_promotion_run_at": promotion.get("last_run_at"),
@@ -80,6 +82,7 @@ def build_health(
         "uncovered_official_source_warnings_last_run": uncovered_source_warnings,
         "alternate_official_feed_coverage_count": int(source_health.get("alternate_official_feed_coverage_count") or 0),
         "equivalent_primary_coverage_count": int(source_health.get("equivalent_primary_coverage_count") or 0),
+        "structured_primary_coverage_count": structured_coverage,
         "persistent_official_source_failures": persistent_source_failures,
         "persistent_official_source_failure_details": source_health.get("persistent_failures") or [],
         "promotion_technical_retries_pending": technical_errors,
@@ -109,6 +112,7 @@ def main() -> None:
         f"Watch health: {health['status']} | pending={health['pending_work']} | "
         f"persistent_sources={health['persistent_official_source_failures']} | "
         f"uncovered_warnings={health['uncovered_official_source_warnings_last_run']} | "
+        f"structured_coverage={health['structured_primary_coverage_count']} | "
         f"Gemini={'ok' if gemini_available else 'deferred'}"
     )
 
