@@ -64,6 +64,10 @@ export async function GET() {
         lastPromotionRunAt: watchHealth.last_promotion_run_at,
         geminiAvailable: watchHealth.gemini_available,
         pendingWork: watchHealth.pending_work,
+        rawOfficialSourceWarnings: watchHealth.official_source_warnings_last_run || 0,
+        coveredOfficialSourceWarnings: watchHealth.covered_official_source_warnings_last_run || 0,
+        uncoveredOfficialSourceWarnings: watchHealth.uncovered_official_source_warnings_last_run || 0,
+        alternateOfficialFeedCoverage: watchHealth.alternate_official_feed_coverage_count || 0,
         persistentOfficialSourceFailures: watchHealth.persistent_official_source_failures || 0,
         reasons: watchHealth.reasons || []
       }
