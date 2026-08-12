@@ -19,36 +19,103 @@ jobs:
         run: |
           python - <<'PY'
           import json
+          import re
           import urllib.error
+          import urllib.parse
           import urllib.request
 
-          urls = [
-              'https://melenchon2027.fr/wp-json/',
-              'https://melenchon2027.fr/wp-json/wp/v2/pages?slug=livre',
-              'https://melenchon2027.fr/wp-json/wp/v2/pages?search=programme&per_page=20',
-              'https://melenchon2027.fr/?rest_route=/wp/v2/pages&slug=livre',
-              'https://melenchon2027.fr/wp-sitemap.xml',
-              'https://melenchon2027.fr/page-sitemap.xml',
-              'https://melenchon2027.fr/programme2025/livre/feed/',
-              'https://programme.lafranceinsoumise.fr/wp-json/wp/v2/pages?slug=livre',
-              'https://programme.lafranceinsoumise.fr/wp-sitemap.xml',
-          ]
+          base = 'https://melenchon2027.fr'
           headers = {
               'User-Agent': 'programmes-politiques-france-2027-watch/1.0 (+https://github.com/TFourniax/programmes-politiques-france-2027)',
               'Accept-Language': 'fr,en;q=0.7',
           }
-          out = []
-          for url in urls:
+
+          def get(url, limit=2_000_000):
               req = urllib.request.Request(url, headers=headers)
               try:
-                  with urllib.request.urlopen(req, timeout=15) as response:
-                      body = response.read(12000)
-                      text = body.decode('utf-8', errors='replace').replace('\n', ' ')
-                      out.append({'url': url, 'status': response.status, 'resolved': response.geturl(), 'type': response.headers.get('content-type', ''), 'bytes': len(body), 'sample': text[:500]})
+                  with urllib.request.urlopen(req, timeout=20) as response:
+                      body = response.read(limit)
+                      return {'url': url, 'status': response.status, 'resolved': response.geturl(), 'type': response.headers.get('content-type', ''), 'body': body}
               except urllib.error.HTTPError as exc:
-                  body = exc.read(1000)
-                  out.append({'url': url, 'status': exc.code, 'resolved': exc.geturl(), 'type': exc.headers.get('content-type', ''), 'sample': body.decode('utf-8', errors='replace')[:180].replace('\n', ' ')})
+                  return {'url': url, 'status': exc.code, 'resolved': exc.geturl(), 'type': exc.headers.get('content-type', ''), 'body': exc.read(4000)}
               except Exception as exc:
-                  out.append({'url': url, 'error': f'{type(exc).__name__}: {exc}'})
+                  return {'url': url, 'error': f'{type(exc).__name__}: {exc}', 'body': b''}
+
+          out = []
+          sitemap = get(base + '/page-sitemap.xml')
+          sitemap_text = sitemap['body'].decode('utf-8', errors='replace')
+          programme_urls = re.findall(r'<loc>([^<]*(?:programme|livre|avenir-en-commun)[^<]*)</loc>', sitemap_text, flags=re.I)
+          out.append({
+              'probe': 'page_sitemap',
+              'status': sitemap.get('status'),
+              'bytes': len(sitemap['body']),
+              'programme_urls': programme_urls[:100],
+          })
+
+          for term in ['livre', 'avenir en commun', 'programme', 'programme 2025', 'La France Insoumise']:
+              url = base + '/wp-json/wp/v2/search?' + urllib.parse.urlencode({'search': term, 'per_page': 100})
+              result = get(url)
+              try:
+                  payload = json.loads(result['body']) if result.get('status') == 200 else []
+              except Exception:
+                  payload = []
+              out.append({
+                  'probe': 'wp_search',
+                  'term': term,
+                  'status': result.get('status'),
+                  'items': [
+                      {'id': item.get('id'), 'title': item.get('title'), 'url': item.get('url'), 'type': item.get('type'), 'subtype': item.get('subtype')}
+                      for item in payload[:100]
+                  ],
+              })
+
+          # List all public REST content types so a custom post type cannot be missed.
+          types_result = get(base + '/wp-json/wp/v2/types')
+          try:
+              types_payload = json.loads(types_result['body']) if types_result.get('status') == 200 else {}
+          except Exception:
+              types_payload = {}
+          out.append({
+              'probe': 'types',
+              'status': types_result.get('status'),
+              'types': {name: {'slug': item.get('slug'), 'rest_base': item.get('rest_base')} for name, item in types_payload.items()},
+          })
+
+          # If search found the exact programme path, fetch the underlying REST object and
+          # verify that rendered content is actually present, not only metadata.
+          candidates = []
+          for row in out:
+              if row.get('probe') != 'wp_search':
+                  continue
+              for item in row.get('items', []):
+                  url = str(item.get('url') or '')
+                  if 'programme2025/livre' in url or 'avenir-en-commun' in url:
+                      candidates.append(item)
+          seen = set()
+          for item in candidates:
+              key = (item.get('subtype'), item.get('id'))
+              if key in seen or not item.get('id') or not item.get('subtype'):
+                  continue
+              seen.add(key)
+              rest_base = (types_payload.get(item['subtype']) or {}).get('rest_base') or item['subtype']
+              detail_url = f"{base}/wp-json/wp/v2/{rest_base}/{item['id']}"
+              detail = get(detail_url)
+              try:
+                  payload = json.loads(detail['body']) if detail.get('status') == 200 else {}
+              except Exception:
+                  payload = {}
+              rendered = str((payload.get('content') or {}).get('rendered') or '')
+              out.append({
+                  'probe': 'detail',
+                  'source': item,
+                  'url': detail_url,
+                  'status': detail.get('status'),
+                  'link': payload.get('link'),
+                  'date': payload.get('date'),
+                  'modified': payload.get('modified'),
+                  'rendered_chars': len(rendered),
+                  'rendered_sample': re.sub(r'<[^>]+>', ' ', rendered)[:600],
+              })
+
           print('LFI_ENDPOINTS=' + json.dumps(out, ensure_ascii=False))
           PY
