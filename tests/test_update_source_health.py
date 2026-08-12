@@ -5,6 +5,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 
 from update_source_health import (  # noqa: E402
     healthy_direct_feed_coverage,
+    healthy_equivalent_primary_coverage,
     http_error_urls,
     update_records,
 )
@@ -127,3 +128,65 @@ def test_failed_direct_feed_does_not_hide_html_failure():
         alternate_coverage=alternates,
     )
     assert payload["sources"]["https://parti.fr/"]["status"] == "transient_failure"
+
+
+def test_same_owner_same_resolved_primary_url_covers_flaky_alias():
+    exact = "https://melenchon2027.fr/programme2025/livre/"
+    alias = "https://programme.lafranceinsoumise.fr/"
+    state = {
+        "sources": {
+            alias: {
+                "owner": "La France insoumise",
+                "status": 200,
+                "resolved_url": exact,
+                "checked_at": "2026-08-12T10:00:00+00:00",
+            },
+            exact: {
+                "owner": "La France insoumise",
+                "status": 403,
+                "resolved_url": exact,
+                "checked_at": "2026-08-12T10:00:01+00:00",
+            },
+        }
+    }
+    equivalents = healthy_equivalent_primary_coverage(state)
+    assert equivalents[exact]["url"] == alias
+    payload = update_records(
+        {},
+        target(exact, owner="La France insoumise", kind="party_programme"),
+        {exact},
+        "2026-08-12T10:01:00+00:00",
+        equivalent_coverage=equivalents,
+    )
+    row = payload["sources"][exact]
+    assert row["status"] == "ok_via_equivalent_primary_url"
+    assert row["coverage_type"] == "full_primary_equivalent"
+    assert row["alternate_url"] == alias
+    assert row["alternate_resolved_url"] == exact
+    assert payload["equivalent_primary_coverage_count"] == 1
+    assert payload["uncovered_failure_count"] == 0
+    assert payload["persistent_failure_count"] == 0
+
+
+def test_equivalent_primary_never_crosses_owner_or_resolved_resource():
+    failed = "https://parti-a.fr/programme/"
+    state = {
+        "sources": {
+            failed: {
+                "owner": "Parti A",
+                "status": 403,
+                "resolved_url": "https://cdn.fr/programme-a/",
+            },
+            "https://alias-b.fr/": {
+                "owner": "Parti B",
+                "status": 200,
+                "resolved_url": "https://cdn.fr/programme-a/",
+            },
+            "https://alias-a.fr/": {
+                "owner": "Parti A",
+                "status": 200,
+                "resolved_url": "https://cdn.fr/autre-programme/",
+            },
+        }
+    }
+    assert failed not in healthy_equivalent_primary_coverage(state)
