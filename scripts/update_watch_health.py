@@ -64,10 +64,11 @@ def build_health(
         reasons.append(f"{uncovered_source_warnings}_uncovered_official_source_warning(s)")
 
     return {
-        "version": 2,
+        "version": 3,
         "generated_at": stamp,
         "status": "healthy" if not reasons else "degraded",
         "last_collection_success_at": collection_at,
+        "last_direct_feed_run_at": state.get("last_direct_feed_run_at"),
         "last_gdelt_run_at": state.get("last_gdelt_run_at"),
         "last_social_run_at": state.get("last_social_run_at"),
         "last_promotion_run_at": promotion.get("last_run_at"),
@@ -78,6 +79,7 @@ def build_health(
         "covered_official_source_warnings_last_run": covered_source_warnings,
         "uncovered_official_source_warnings_last_run": uncovered_source_warnings,
         "alternate_official_feed_coverage_count": int(source_health.get("alternate_official_feed_coverage_count") or 0),
+        "equivalent_primary_coverage_count": int(source_health.get("equivalent_primary_coverage_count") or 0),
         "persistent_official_source_failures": persistent_source_failures,
         "persistent_official_source_failure_details": source_health.get("persistent_failures") or [],
         "promotion_technical_retries_pending": technical_errors,
