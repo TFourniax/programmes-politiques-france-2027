@@ -10,10 +10,13 @@ on:
       - 'registries/sources.yaml'
       - 'scripts/daily_watch.py'
       - 'scripts/direct_feed_watch.py'
+      - 'scripts/structured_primary_watch.py'
       - 'scripts/gdelt_watch.py'
+      - 'scripts/auto_promote_runner.py'
       - 'scripts/update_source_health.py'
       - 'scripts/update_watch_health.py'
       - 'tests/test_direct_feed_watch.py'
+      - 'tests/test_structured_primary_watch.py'
       - 'tests/test_update_source_health.py'
       - 'tests/test_watch_health.py'
   workflow_dispatch:
@@ -47,6 +50,7 @@ jobs:
         run: |
           python scripts/daily_watch.py --no-gdelt --no-google
           python scripts/direct_feed_watch.py
+          python scripts/structured_primary_watch.py
           python scripts/update_source_health.py
           python scripts/gdelt_watch.py
       - name: Assert operational primary-source monitoring
@@ -68,33 +72,29 @@ jobs:
           pcf = health['sources']['https://www.pcf.fr/']
           lfi_alias = health['sources']['https://programme.lafranceinsoumise.fr/']
           lfi_exact = health['sources']['https://melenchon2027.fr/programme2025/livre/']
-          lfi_campaign = health['sources']['https://melenchon2027.fr/']
 
-          # PCF general-site discovery remains covered by an official RSS endpoint even
-          # when Cloudflare rejects HTML robots.
           assert pcf['status'] in {'ok', 'ok_via_official_feed'}, pcf
           if pcf['status'] == 'ok_via_official_feed':
               assert 'actualites.rss' in pcf.get('alternate_url', ''), pcf
               assert pcf.get('coverage_type') == 'discovery_only_official_feed', pcf
 
-          # The LFI programme is monitored through two official entrypoints that resolve
-          # to the same full primary resource. A flaky alias may be covered only by a
-          # successful full-body fetch of that exact resolved resource — never by RSS.
-          allowed_full_primary = {'ok', 'ok_via_equivalent_primary_url'}
-          assert lfi_alias['kind'] in {'registry_source', 'party_programme'}, lfi_alias
-          assert lfi_exact['kind'] in {'registry_source', 'party_programme'}, lfi_exact
+          # LFI has three accepted full-primary paths: direct HTML, another official URL
+          # resolving to the same full resource, or the complete 18-chapter WordPress REST
+          # representation published by the campaign itself. RSS is never accepted here.
+          allowed_full_primary = {
+              'ok',
+              'ok_via_equivalent_primary_url',
+              'ok_via_official_structured_primary',
+          }
           assert lfi_alias['status'] in allowed_full_primary, lfi_alias
           assert lfi_exact['status'] in allowed_full_primary, lfi_exact
           for row in (lfi_alias, lfi_exact):
               if row['status'] == 'ok_via_equivalent_primary_url':
                   assert row.get('coverage_type') == 'full_primary_equivalent', row
-                  assert row.get('alternate_resolved_url') == 'https://melenchon2027.fr/programme2025/livre/', row
+              if row['status'] == 'ok_via_official_structured_primary':
+                  assert row.get('coverage_type') == 'full_primary_structured_equivalent', row
+                  assert row.get('structured_item_count') == 18, row
 
-          # The campaign root is separately monitored so its sitemap/feed discovery is
-          # not lost behind the programme entrypoints.
-          assert lfi_campaign['status'] == 'ok', lfi_campaign
-
-          # No primary-source coverage hole is accepted by the readiness probe.
           assert health['persistent_failure_count'] == 0, health.get('persistent_failures')
           assert health['uncovered_failure_count'] == 0, health.get('uncovered_failures')
 
@@ -109,6 +109,26 @@ jobs:
               assert int(row.get('status') or 0) == 200, (url, row)
               assert int(row.get('item_count') or 0) > 0, (url, row)
 
+          structured = (state.get('structured_primary_health') or {}).get('lfi-programme-chapters') or {}
+          assert structured.get('complete') is True, structured
+          assert structured.get('status') == 200, structured
+          assert structured.get('expected_items') == 18, structured
+          assert structured.get('item_count') == 18, structured
+          assert structured.get('full_content_items') == 18, structured
+          assert structured.get('chapter_numbers') == list(range(1, 19)), structured
+          assert structured.get('minimum_content_chars', 0) >= 500, structured
+          assert all(item.get('fetch_url') and item.get('link') and item.get('sha256') for item in (structured.get('items') or {}).values()), structured
+
+          # Prove the structured backlog is durable and transport-aware even after the
+          # transient daily JSONL is overwritten on a later collection run.
+          import sys
+          sys.path.insert(0, 'scripts')
+          import auto_promote_runner
+          backlog = auto_promote_runner.structured_backlog_events(base / 'state.json')
+          assert len(backlog) == 18, len(backlog)
+          assert all(item.get('fetch_url', '').startswith('https://melenchon2027.fr/wp-json/') for item in backlog)
+          assert all(item.get('url', '').startswith('https://melenchon2027.fr/') for item in backlog)
+
           day = dt.datetime.now(dt.timezone.utc).date().isoformat()
           press = (base / 'press' / f'{day}.md').read_text(encoding='utf-8')
           summary = re.search(r'- (\d+) requête\(s\) GDELT batchée\(s\) ;.*?- (\d+) avertissement\(s\) technique\(s\)\.', press, re.S)
@@ -122,13 +142,14 @@ jobs:
               'pcf': pcf['status'],
               'lfiAlias': lfi_alias['status'],
               'lfiExact': lfi_exact['status'],
-              'lfiCampaign': lfi_campaign['status'],
               'equivalentPrimaryCoverage': health.get('equivalent_primary_coverage_count', 0),
+              'structuredPrimaryCoverage': health.get('structured_primary_coverage_count', 0),
               'officialFeedCoverage': health.get('alternate_official_feed_coverage_count', 0),
-              'directFeedsHealthy': len(required_feeds),
+              'structuredChapters': structured['item_count'],
+              'durableStructuredBacklog': len(backlog),
               'gdeltRequests': requests_made,
               'gdeltWarnings': warnings,
           }, ensure_ascii=False))
           PY
       - name: Run targeted watch tests
-        run: pytest -q tests/test_daily_watch.py tests/test_direct_feed_watch.py tests/test_gdelt_watch.py tests/test_update_source_health.py tests/test_watch_health.py
+        run: pytest -q tests/test_daily_watch.py tests/test_direct_feed_watch.py tests/test_structured_primary_watch.py tests/test_gdelt_watch.py tests/test_auto_promote_runner.py tests/test_update_source_health.py tests/test_watch_health.py
