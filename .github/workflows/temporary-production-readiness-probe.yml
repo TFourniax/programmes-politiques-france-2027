@@ -30,57 +30,41 @@ jobs:
           echo "$CANONICAL_STATUS" | grep -q 'proposals/auto/__readiness_probe__/probe.md'
           rm -rf proposals/auto/__readiness_probe__
           test -z "$(git status --porcelain --untracked-files=all -- data/entities.json registries/candidates.yaml corpus/2027 proposals)"
-      - name: Probe blocked official sources from a GitHub runner
+      - name: Inspect official PCF RSS fallback
         shell: bash
         run: |
           python - <<'PY'
           import json
           import urllib.request
-          import urllib.error
+          import xml.etree.ElementTree as ET
 
-          urls = [
-              'https://programme.lafranceinsoumise.fr/',
-              'https://melenchon2027.fr/programme2025/livre/',
-              'https://www.pcf.fr/',
-              'https://www.pcf.fr/actualites',
-              'https://pcf.nationbuilder.com/',
-              'https://pcf.nationbuilder.com/actualites',
-              'https://pcf.nationbuilder.com/sitemap.xml',
-              'https://pcf.nationbuilder.com/actualites.rss',
-              'https://pcf.nationbuilder.com/actualites.atom',
-              'https://pcf.nationbuilder.com/actualites.json',
-              'https://pcf.nationbuilder.com/actualites?format=json',
-              'https://pcf.nationbuilder.com/actualites?format=rss',
-              'https://assets.nationbuilder.com/pcf/pages/2819/attachments/original/1784790181/base_commune_finale_40e_congres_ppp.pdf',
-          ]
-          headers = {
+          url = 'https://pcf.nationbuilder.com/actualites.rss'
+          request = urllib.request.Request(url, headers={
               'User-Agent': 'programmes-politiques-france-2027-watch/1.0 (+https://github.com/TFourniax/programmes-politiques-france-2027)',
               'Accept-Language': 'fr,en;q=0.7',
-          }
-
-          results = []
-          for url in urls:
-              req = urllib.request.Request(url, headers=headers)
-              try:
-                  with urllib.request.urlopen(req, timeout=20) as response:
-                      body = response.read(5000)
-                      results.append({
-                          'url': url,
-                          'status': response.status,
-                          'resolved': response.geturl(),
-                          'content_type': response.headers.get('content-type', ''),
-                          'sample': body[:220].decode('utf-8', errors='replace').replace('\n', ' '),
-                      })
-              except urllib.error.HTTPError as exc:
-                  body = exc.read(5000)
-                  results.append({
-                      'url': url,
-                      'status': exc.code,
-                      'resolved': exc.geturl(),
-                      'content_type': exc.headers.get('content-type', ''),
-                      'sample': body[:220].decode('utf-8', errors='replace').replace('\n', ' '),
-                  })
-              except Exception as exc:
-                  results.append({'url': url, 'error': f'{type(exc).__name__}: {exc}'})
-          print('SOURCE_PROBE=' + json.dumps(results, ensure_ascii=False))
+          })
+          with urllib.request.urlopen(request, timeout=20) as response:
+              raw = response.read()
+              assert response.status == 200
+              assert 'rss' in response.headers.get('content-type', '').lower()
+          root = ET.fromstring(raw)
+          items = []
+          for item in root.findall('./channel/item')[:10]:
+              title = (item.findtext('title') or '').strip()
+              link = (item.findtext('link') or '').strip()
+              description = (item.findtext('description') or '').strip()
+              encoded = ''
+              for child in item:
+                  if child.tag.endswith('encoded'):
+                      encoded = (child.text or '').strip()
+              items.append({
+                  'title': title,
+                  'link': link,
+                  'description_length': len(description),
+                  'encoded_length': len(encoded),
+                  'description_sample': description[:400],
+                  'encoded_sample': encoded[:400],
+              })
+          assert items, 'PCF RSS feed returned no items'
+          print('PCF_RSS_PROBE=' + json.dumps(items, ensure_ascii=False))
           PY
