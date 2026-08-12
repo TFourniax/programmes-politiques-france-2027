@@ -109,7 +109,7 @@ export default function HistoryExplorer() {
         {!timeline.timeline.length && <div className="explorerEmpty">Aucun document ou proposition ne correspond à ce filtre dans le corpus actuel.</div>}
         <div className="timeline">
           {timeline.timeline.map((event, index) => <article className="timelineEvent" key={`${event.recordId}-${event.path}-${index}`}>
-            <div className="timelineDate">{event.publishedAt || "date non renseignée"}</div>
+            <div className="timelineDate">{event.dateLabel || event.publishedAt || "date non renseignée"}</div>
             <div className="timelineDot" />
             <div className="timelineBody">
               <div><strong>{event.title}</strong><span>{event.kind === "proposal" ? "proposition" : "document"} · {event.status} · {signalLabel(event.evolutionSignal)}</span></div>
