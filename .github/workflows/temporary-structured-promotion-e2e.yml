@@ -1,4 +1,5 @@
 name: Temporary structured promotion E2E
+# Readiness probe: run against the current dual REST transport implementation.
 
 on:
   pull_request:
@@ -49,8 +50,6 @@ jobs:
           assert structured.get('complete') is True, structured
           assert int(structured.get('item_count') or 0) >= 18, structured
           items = list((structured.get('items') or {}).values())
-          # Chapter 3 is the ecological programme chapter and contains explicit policy
-          # claims; fall back to the smallest complete chapter only if numbering changes.
           selected = next((item for item in items if int(item.get('number') or 0) == 3), None)
           selected = selected or min(items, key=lambda item: int(item.get('text_chars') or 10**9))
           event = {
@@ -71,8 +70,6 @@ jobs:
           }
           day = dt.datetime.now(dt.timezone.utc).date().isoformat()
           (base / f'{day}.jsonl').write_text(json.dumps(event, ensure_ascii=False, sort_keys=True) + '\n', encoding='utf-8')
-          # Keep the structured transport durable, but remove unrelated discovery backlog
-          # so this integration probe exercises exactly one real source.
           state['official_seen_urls'] = {}
           state['structured_primary_health']['lfi-programme-chapters']['items'] = {str(selected['number']): selected}
           state_path.write_text(json.dumps(state, ensure_ascii=False, indent=2, sort_keys=True) + '\n', encoding='utf-8')
