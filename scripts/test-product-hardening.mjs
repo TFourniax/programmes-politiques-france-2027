@@ -3,6 +3,7 @@ import fs from "node:fs";
 import searchIndex from "../data/search-index.json" with { type: "json" };
 import benchmark from "../data/qa-deterministic-benchmark.json" with { type: "json" };
 import { retrieveDeterministic } from "../lib/retrieval-v2.js";
+import { classifyDeterministicQuestion, selectDeterministicCandidates } from "../lib/deterministic-query.js";
 import { buildHistoryTimeline, getHistoryMeta } from "../lib/history.js";
 import { buildContextualSuggestions, sanitizeSuggestionSessionState } from "../lib/contextual-suggestions.js";
 
@@ -22,6 +23,26 @@ for (const question of strictQualifierNegatives) {
   assert.equal(result.results.length, 0, `un concept politique valide ne doit pas masquer un qualificatif hors corpus: ${question}`);
   assert.equal(result.debug.answerable, false, `la requête doit être explicitement non répondable: ${question}`);
 }
+
+assert.equal(
+  classifyDeterministicQuestion("Que propose le candidat David Lisnard sur les retraites ?"),
+  "measures",
+  "le mot candidat dans une question de programme ne doit pas basculer vers le registre des statuts"
+);
+assert.equal(
+  classifyDeterministicQuestion("Compare les candidats David Lisnard et Emmanuel Macron sur les retraites"),
+  "comparison",
+  "une comparaison de politiques doit garder la priorité sur le vocabulaire candidat"
+);
+assert.equal(
+  classifyDeterministicQuestion("Quel est le statut de la candidature de David Lisnard ?"),
+  "candidates",
+  "une vraie question de statut doit continuer à utiliser le registre des candidatures"
+);
+assert.ok(
+  selectDeterministicCandidates("Quel est le statut de la candidature de David Lisnard ?").some((item) => item.id === "david-lisnard"),
+  "la sélection ciblée de candidat doit rester fonctionnelle pour une question de statut"
+);
 
 const currentQueries = [
   ...benchmark.positive.map((item) => item.question),
