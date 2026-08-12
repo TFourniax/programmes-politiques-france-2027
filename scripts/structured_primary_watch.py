@@ -65,12 +65,16 @@ def load_state() -> dict[str, Any]:
 
 
 def fetch_wordpress_rows(session: requests.Session, api_base: str, source: dict[str, Any]) -> tuple[list[dict[str, Any]], str, int]:
+    """Fetch public WordPress rows with the smallest stable query contract.
+
+    Some WordPress deployments expose search successfully but reject optional combinations
+    such as ``orderby=modified`` + ``after``. Those options are not required for correctness:
+    the watcher already hashes full content and filters the current programme deterministically.
+    Keeping the HTTP query minimal makes a public primary endpoint substantially more robust.
+    """
     params = {
         "search": str(source.get("search") or "Chapitre"),
         "per_page": 100,
-        "orderby": "modified",
-        "order": "desc",
-        "after": str(source.get("after") or "2026-01-01T00:00:00"),
         "_fields": "id,date,modified,slug,link,title,content,status",
     }
     base_endpoint = f"{api_base}/wp-json/wp/v2/posts"
@@ -97,6 +101,16 @@ def fetch_wordpress_rows(session: requests.Session, api_base: str, source: dict[
     return rows, f"{base_endpoint}?{urlencode(params)}", total_pages
 
 
+def _link_allowed(link: str, source: dict[str, Any]) -> bool:
+    pattern = str(source.get("link_pattern") or "").strip()
+    if pattern and not re.search(pattern, link, flags=re.I):
+        return False
+    for fragment in source.get("exclude_link_fragments", []) or []:
+        if str(fragment).lower() in link.lower():
+            return False
+    return True
+
+
 def wordpress_chapters(session: requests.Session, source: dict[str, Any]) -> tuple[list[dict[str, Any]], dict[str, Any]]:
     api_base = str(source["api_base"]).rstrip("/")
     minimum_expected = int(source.get("minimum_expected_chapters", source.get("expected_chapters", 18)))
@@ -105,6 +119,7 @@ def wordpress_chapters(session: requests.Session, source: dict[str, Any]) -> tup
 
     by_number: dict[int, dict[str, Any]] = {}
     rejected = 0
+    out_of_scope = 0
     for row in rows:
         title = html.unescape(str((row.get("title") or {}).get("rendered") or "")).strip()
         match = re.match(r"^Chapitre\s+(\d+)\s*:\s*(.+)", title, flags=re.I)
@@ -113,10 +128,13 @@ def wordpress_chapters(session: requests.Session, source: dict[str, Any]) -> tup
         number = int(match.group(1))
         if number < 1:
             continue
+        link = canonicalize_url(str(row.get("link") or ""))
+        if not link or not _link_allowed(link, source):
+            out_of_scope += 1
+            continue
         rendered = str((row.get("content") or {}).get("rendered") or "")
         text = visible_text(rendered)
-        link = canonicalize_url(str(row.get("link") or ""))
-        if not link or len(text) < min_chars or str(row.get("status") or "publish") not in {"publish", ""}:
+        if len(text) < min_chars or str(row.get("status") or "publish") not in {"publish", ""}:
             rejected += 1
             continue
         current = {
@@ -138,6 +156,8 @@ def wordpress_chapters(session: requests.Session, source: dict[str, Any]) -> tup
     numbers = [item["number"] for item in chapters]
     highest = max(numbers, default=0)
     contiguous = numbers == list(range(1, highest + 1)) if numbers else False
+    # The known chapter count is a floor, never a ceiling. A newly published chapter 19
+    # or later is accepted automatically only when the public sequence remains contiguous.
     complete = highest >= minimum_expected and contiguous and len(chapters) == highest
     expected_items = highest if complete else max(highest, minimum_expected)
     health = {
@@ -152,6 +172,7 @@ def wordpress_chapters(session: requests.Session, source: dict[str, Any]) -> tup
         "item_count": len(chapters),
         "full_content_items": sum(1 for item in chapters if item["text_chars"] >= min_chars),
         "rejected_items": rejected,
+        "out_of_scope_items": out_of_scope,
         "coverage_urls": [canonicalize_url(str(url)) for url in source.get("coverage_urls", [])],
         "chapter_numbers": numbers,
         "highest_chapter_number": highest,
@@ -240,6 +261,7 @@ def write_report(events: list[dict[str, Any]], health_rows: list[dict[str, Any]]
             f"- chapitres : {row.get('item_count')} (minimum connu : {row.get('minimum_expected_items')}) ;",
             f"- séquence continue : {'oui' if row.get('contiguous') else 'non'} ;",
             f"- objets à contenu complet : {row.get('full_content_items')} ;",
+            f"- éléments hors périmètre ignorés : {row.get('out_of_scope_items', 0)} ;",
             f"- état : {'complet' if row.get('complete') else 'incomplet'} ;",
             f"- nouveaux/changés : {row.get('event_count', 0)}.", "",
         ])
