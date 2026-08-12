@@ -225,10 +225,15 @@ def install_snapshot_root(monkeypatch, tmp_path):
 
 def test_snapshot_transport_verifies_raw_hash_before_compacting_for_model(monkeypatch, tmp_path):
     _, snapshot_dir = install_snapshot_root(monkeypatch, tmp_path)
-    raw = "Chapitre 1 : Test\n\nMesure A\nUne mesure politique explicitement documentée.\n\nMesure B\nUne deuxième mesure précisément sourcée."
+    raw = (
+        "Chapitre 1 : Test\n\n"
+        "Mesure A\nUne mesure politique explicitement documentée avec des modalités suffisamment détaillées pour constituer une vraie source de test.\n\n"
+        "Mesure B\nUne deuxième mesure précisément sourcée, accompagnée d'éléments supplémentaires afin de dépasser volontairement le seuil minimal de sécurité appliqué aux sources réelles."
+    )
     path = snapshot_dir / "chapter-01.txt"
     path.write_text(raw + "\n", encoding="utf-8")
     expected = hashlib.sha256(raw.encode("utf-8")).hexdigest()
+    assert len(raw) > 180, "le fixture doit respecter le même seuil que les vraies sources"
     source = _snapshot_source(
         "https://parti.fr/programme/chapitre1/",
         "research/veille/structured/snapshots/programme/chapter-01.txt",
