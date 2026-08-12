@@ -1,4 +1,4 @@
-version: 9
+version: 10
 enabled: true
 
 official_discovery:
@@ -22,20 +22,24 @@ official_direct_feeds:
     source_tier: tier_1_primary_official
 
 # Représentations primaires complètes publiées par les sites officiels eux-mêmes.
-# Le nombre connu de chapitres est un plancher : si le site officiel ajoute un chapitre
-# 19, 20, etc., la séquence continue est détectée et ingérée automatiquement. Le filtrage
-# se fait sur l'URL publique actuelle plutôt que sur la date WordPress : cela exclut les
-# archives NUPES/2022 tout en restant robuste à une republication ou migration du contenu.
+# Les recherches REST ci-dessous servent uniquement à découvrir les chapitres : chaque
+# objet retenu est ensuite récupéré intégralement depuis /wp-json/wp/v2/posts/{id}.
+# Le nombre connu de chapitres est un plancher : un chapitre 19, 20, etc. est accepté
+# automatiquement si la séquence publique reste continue. Les anciennes archives sont
+# écartées par le périmètre d'URL du site de campagne courant.
 official_structured_sources:
   - id: lfi-programme-chapters
     owner: La France insoumise
     kind: wordpress_programme_chapters
     api_base: https://melenchon2027.fr
-    search: Chapitre
+    search_terms:
+      - programme
+      - avenir en commun
+      - livre
     link_pattern: '^https://melenchon2027\.fr/chapitre-[0-9]+-'
     minimum_expected_chapters: 18
-    max_pages: 10
     min_content_chars: 500
+    detail_request_delay_seconds: 0.15
     coverage_urls:
       - https://programme.lafranceinsoumise.fr/
       - https://melenchon2027.fr/programme2025/livre/
