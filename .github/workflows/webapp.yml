@@ -68,6 +68,10 @@ jobs:
         env:
           CI: 'true'
         run: npx playwright test --grep "personality, comparison"
+      - name: Browser acceptance — dense mobile layouts
+        env:
+          CI: 'true'
+        run: npx playwright test --grep "dense public views remain"
       - name: Browser acceptance — health API
         env:
           CI: 'true'
@@ -80,6 +84,10 @@ jobs:
         env:
           CI: 'true'
         run: npx playwright test --grep "chat endpoint preserves"
+      - name: Browser acceptance — sustained human usage and abuse cap
+        env:
+          CI: 'true'
+        run: npx playwright test --grep "server rate limit allows"
       - name: Browser acceptance — per-answer source binding
         env:
           CI: 'true'
