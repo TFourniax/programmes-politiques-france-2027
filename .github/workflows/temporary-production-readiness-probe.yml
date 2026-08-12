@@ -5,7 +5,13 @@ on:
     paths:
       - '.github/workflows/temporary-production-readiness-probe.yml'
       - '.github/workflows/daily-watch.yml'
+      - 'registries/watch.yaml'
       - 'scripts/daily_watch.py'
+      - 'scripts/direct_feed_watch.py'
+      - 'scripts/gdelt_watch.py'
+      - 'scripts/update_source_health.py'
+      - 'tests/test_direct_feed_watch.py'
+      - 'tests/test_update_source_health.py'
   workflow_dispatch:
 
 permissions:
@@ -14,12 +20,14 @@ permissions:
 jobs:
   probe:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
       - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
         with:
           python-version: '3.12'
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
       - name: Prove untracked canonical additions are detected
         shell: bash
         run: |
@@ -30,41 +38,41 @@ jobs:
           echo "$CANONICAL_STATUS" | grep -q 'proposals/auto/__readiness_probe__/probe.md'
           rm -rf proposals/auto/__readiness_probe__
           test -z "$(git status --porcelain --untracked-files=all -- data/entities.json registries/candidates.yaml corpus/2027 proposals)"
-      - name: Inspect official PCF RSS fallback
+      - name: Run production watch collection locally without promotion or push
+        shell: bash
+        run: |
+          python scripts/daily_watch.py --no-gdelt --no-google
+          python scripts/direct_feed_watch.py
+          python scripts/update_source_health.py
+          python scripts/gdelt_watch.py
+      - name: Assert operational source coverage and inspect press radar
         shell: bash
         run: |
           python - <<'PY'
+          import datetime as dt
           import json
-          import urllib.request
-          import xml.etree.ElementTree as ET
+          from pathlib import Path
 
-          url = 'https://pcf.nationbuilder.com/actualites.rss'
-          request = urllib.request.Request(url, headers={
-              'User-Agent': 'programmes-politiques-france-2027-watch/1.0 (+https://github.com/TFourniax/programmes-politiques-france-2027)',
-              'Accept-Language': 'fr,en;q=0.7',
-          })
-          with urllib.request.urlopen(request, timeout=20) as response:
-              raw = response.read()
-              assert response.status == 200
-              assert 'rss' in response.headers.get('content-type', '').lower()
-          root = ET.fromstring(raw)
-          items = []
-          for item in root.findall('./channel/item')[:10]:
-              title = (item.findtext('title') or '').strip()
-              link = (item.findtext('link') or '').strip()
-              description = (item.findtext('description') or '').strip()
-              encoded = ''
-              for child in item:
-                  if child.tag.endswith('encoded'):
-                      encoded = (child.text or '').strip()
-              items.append({
-                  'title': title,
-                  'link': link,
-                  'description_length': len(description),
-                  'encoded_length': len(encoded),
-                  'description_sample': description[:400],
-                  'encoded_sample': encoded[:400],
-              })
-          assert items, 'PCF RSS feed returned no items'
-          print('PCF_RSS_PROBE=' + json.dumps(items, ensure_ascii=False))
+          base = Path('research/veille')
+          health = json.loads((base / 'source-health.json').read_text(encoding='utf-8'))
+          pcf = health['sources']['https://www.pcf.fr/']
+          lfi = health['sources']['https://programme.lafranceinsoumise.fr/']
+          assert pcf['status'] == 'ok_via_official_feed', pcf
+          assert 'actualites.rss' in pcf.get('alternate_url', ''), pcf
+          assert lfi['status'] == 'ok', lfi
+          assert health['persistent_failure_count'] == 0, health.get('persistent_failures')
+
+          day = dt.datetime.now(dt.timezone.utc).date().isoformat()
+          press = (base / 'press' / f'{day}.md').read_text(encoding='utf-8')
+          print('SOURCE_HEALTH_PROBE=' + json.dumps({
+              'persistent': health['persistent_failure_count'],
+              'pcf': pcf['status'],
+              'pcf_alternate': pcf.get('alternate_url'),
+              'lfi': lfi['status'],
+          }, ensure_ascii=False))
+          print('GDELT_REPORT_BEGIN')
+          print(press)
+          print('GDELT_REPORT_END')
           PY
+      - name: Run targeted watch tests
+        run: pytest -q tests/test_daily_watch.py tests/test_direct_feed_watch.py tests/test_gdelt_watch.py tests/test_update_source_health.py
