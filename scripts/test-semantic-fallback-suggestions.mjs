@@ -104,6 +104,7 @@ globalThis.fetch = async (_url, options = {}) => {
     async json() {
       return {
         choices: [{
+          finish_reason: "stop",
           message: {
             content: JSON.stringify({
               understood: true,
@@ -132,12 +133,15 @@ try {
   assert.equal(fallbackRequestBody?.response_format?.type, "json_schema", "le fournisseur doit être contraint par un schéma structuré");
   assert.equal(fallbackRequestBody?.response_format?.json_schema?.strict, true);
   assert.equal(fallbackRequestBody?.response_format?.json_schema?.schema?.properties?.mappings?.items?.required?.includes("evidence_span"), true);
+  assert.equal(fallbackRequestBody?.reasoning_effort, "minimal", "le petit classifieur ne doit pas gaspiller son budget de sortie en raisonnement");
+  assert.ok(fallbackRequestBody?.max_completion_tokens >= 700, "le budget de sortie doit laisser assez de place au JSON structuré");
+  assert.match(fallbackRequestBody?.messages?.[0]?.content || "", /compréhension linguistique générale/, "le fallback peut reconnaître un synonyme sans importer de faits politiques externes");
   assert.equal(retrievalFallbackStatus().consecutiveFailures, 0);
 
   globalThis.fetch = async () => ({
     ok: true,
     async json() {
-      return { choices: [{ message: { content: JSON.stringify({
+      return { choices: [{ finish_reason: "stop", message: { content: JSON.stringify({
         understood: true,
         confidence: "medium",
         intent: "measures",
@@ -150,6 +154,41 @@ try {
   assert.equal(cautious.interpretation, null);
   assert.equal(cautious.error, "fallback_not_confident");
   assert.equal(retrievalFallbackStatus().consecutiveFailures, 0, "une réponse prudente du modèle ne doit pas ouvrir le circuit breaker");
+
+  let emptyThenValidCalls = 0;
+  globalThis.fetch = async () => {
+    emptyThenValidCalls += 1;
+    if (emptyThenValidCalls === 1) {
+      return {
+        ok: true,
+        async json() {
+          return { choices: [{ finish_reason: "length", message: { content: "" } }] };
+        }
+      };
+    }
+    return {
+      ok: true,
+      async json() {
+        return { choices: [{ finish_reason: "stop", message: { content: JSON.stringify({
+          understood: true,
+          confidence: "high",
+          intent: "measures",
+          mappings: [
+            { kind: "entity", id: "renaissance", evidence_span: "Renaissance" },
+            { kind: "concept", id: "nucleaire", evidence_span: "fission" }
+          ],
+          numbers: []
+        }) } }] };
+      }
+    };
+  };
+  const recovered = await interpretRetrievalWithModel("Que prévoit Renaissance pour la fission ?", []);
+  assert.equal(emptyThenValidCalls, 2, "une première complétion vide doit déclencher un seul retry borné");
+  assert.ok(recovered.interpretation, "le retry doit récupérer une interprétation exploitable");
+  assert.deepEqual(recovered.interpretation.conceptIds, ["nucleaire"]);
+  assert.match(normalize(recovered.query), /renaissance/);
+  assert.match(normalize(recovered.query), /nucleaire/);
+  assert.equal(retrievalFallbackStatus().consecutiveFailures, 0);
 } finally {
   globalThis.fetch = previousFetch;
   if (originalKey === undefined) delete process.env.LLM_API_KEY;
