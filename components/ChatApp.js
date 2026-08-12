@@ -30,10 +30,62 @@ async function fetchJson(path, options = {}) {
 }
 
 function confidenceLabel(value) {
-  if (value === "high") return "preuve élevée";
-  if (value === "medium") return "preuve moyenne";
-  if (value === "low") return "preuve faible";
-  return value || "";
+  if (value === "high") return "niveau de preuve élevé";
+  if (value === "medium") return "niveau de preuve moyen";
+  if (value === "low") return "niveau de preuve faible";
+  return "";
+}
+
+function sourceKindLabel(value) {
+  if (value === "proposal") return "proposition documentée";
+  if (value === "document") return "document source";
+  if (value === "candidate_status") return "statut de candidature";
+  return value ? "source du corpus" : "";
+}
+
+function recordStatusLabel(value) {
+  const labels = {
+    current: "version actuelle",
+    superseded: "version remplacée",
+    withdrawn: "retiré",
+    archived: "archivé",
+    rejected: "écarté",
+    draft: "brouillon",
+    historical: "historique"
+  };
+  return value ? (labels[value] || "statut documenté") : "";
+}
+
+function candidateStatusLabel(value) {
+  const labels = {
+    official_candidate: "candidat officiel",
+    declared_presidential: "candidature déclarée",
+    party_designated: "désigné par son parti",
+    declared_primary: "candidat à une primaire",
+    declared_conditional: "candidature conditionnelle",
+    exploratory: "démarche exploratoire",
+    potential: "personnalité suivie",
+    withdrawn: "candidature retirée",
+    not_running: "ne se présente pas",
+    deceased: "décédé",
+    unknown: "statut non établi"
+  };
+  return value ? (labels[value] || "statut documenté") : "";
+}
+
+function certaintyLabel(value) {
+  if (value === "explicit") return "formulation explicite";
+  if (value === "explicit_but_conditional") return "explicite, sous condition";
+  if (value === "explicit_but_underspecified") return "explicite, détails incomplets";
+  return value ? "certitude documentée" : "";
+}
+
+function sourceTierLabel(value) {
+  if (value === "tier_1_primary_official") return "source primaire officielle";
+  if (value === "tier_2_primary_statement") return "déclaration primaire";
+  if (value === "tier_3_reliable_secondary") return "source secondaire fiable";
+  if (value === "tier_4_discovery") return "source de découverte";
+  return value ? "source référencée" : "";
 }
 
 function SourceRefs({ numbers = [], onShowSources }) {
@@ -81,21 +133,23 @@ function StructuredAnswer({ answer, onFollowUp, onShowSources }) {
 }
 
 function SourceCard({ citation, number }) {
+  const tags = [
+    sourceKindLabel(citation.kind),
+    recordStatusLabel(citation.documentStatus),
+    citation.proposalStatus ? `Proposition · ${recordStatusLabel(citation.proposalStatus)}` : "",
+    citation.candidateStatus ? candidateStatusLabel(citation.candidateStatus) : "",
+    citation.confidence ? confidenceLabel(citation.confidence) : "",
+    citation.certainty ? certaintyLabel(citation.certainty) : "",
+    citation.sourceTier ? sourceTierLabel(citation.sourceTier) : ""
+  ].filter(Boolean);
+  const uniqueTags = [...new Set(tags)];
   return <div className="sourceCard">
     <span className="sourceNumber">SOURCE {String(number).padStart(2, "0")}</span>
     <strong>{citation.title}</strong>
     <p>{citation.entityLabel || citation.entityId || "Entité non précisée"}{citation.publishedAt ? ` · ${citation.publishedAt}` : ""}{citation.section ? ` · ${citation.section}` : ""}</p>
-    <div className="sourceTags">
-      {citation.kind && <span className="tag">{citation.kind}</span>}
-      {citation.documentStatus && <span className="tag">{citation.documentStatus}</span>}
-      {citation.proposalStatus && <span className="tag">proposition: {citation.proposalStatus}</span>}
-      {citation.candidateStatus && <span className="tag">candidat: {citation.candidateStatus}</span>}
-      {citation.confidence && <span className="tag">preuve: {citation.confidence}</span>}
-      {citation.certainty && <span className="tag">certitude: {citation.certainty}</span>}
-      {citation.sourceTier && <span className="tag">{citation.sourceTier}</span>}
-    </div>
+    {uniqueTags.length > 0 && <div className="sourceTags">{uniqueTags.map(tag => <span className="tag" key={tag}>{tag}</span>)}</div>}
     <div className="sourceLinks">
-      {citation.githubUrl && <a href={citation.githubUrl} target="_blank" rel="noreferrer">Fichier GitHub ↗</a>}
+      {citation.githubUrl && <a href={citation.githubUrl} target="_blank" rel="noreferrer">Voir dans le corpus ↗</a>}
       {citation.sourceUrl && <a href={citation.sourceUrl} target="_blank" rel="noreferrer">Source originale ↗</a>}
     </div>
   </div>;
@@ -165,8 +219,8 @@ export default function ChatApp() {
       const citations = data.citations || [];
       setSourceView({ citations, numbers: null });
       const metaText = data.retrievalAssisted
-        ? "Compréhension assistée · résultats revalidés · réponse extractive"
-        : "Organisation déterministe à partir du corpus";
+        ? "Formulation comprise avec assistance · éléments revalidés dans le corpus"
+        : "Réponse vérifiée à partir du corpus";
       setMessages(m => [...m, {role:"assistant", answer:data.answer, citations, sessionContext:data.sessionContext || sessionContext, meta:metaText}]);
       setAnswerScrollSignal(value => value + 1);
     } catch (error) {
@@ -188,7 +242,7 @@ export default function ChatApp() {
   }
 
   const counts = meta?.counts || {};
-  const apiLabel = apiStatus === "ready" ? "API corpus prête" : apiStatus === "error" ? "API indisponible" : "vérification API…";
+  const apiLabel = apiStatus === "ready" ? "Corpus prêt" : apiStatus === "error" ? "Service indisponible" : "vérification du corpus…";
   const visibleSources = sourceView.numbers?.length
     ? sourceView.numbers.map((number) => ({ number, citation: sourceView.citations[number - 1] })).filter((item) => item.citation)
     : sourceView.citations.map((citation, index) => ({ number: index + 1, citation }));
@@ -200,11 +254,11 @@ export default function ChatApp() {
         <div className="chatHeader"><h3>Questionner le corpus</h3><span className="status">{apiStatus === "ready" && <i />}{apiLabel}</span></div>
         <div className="messages" ref={messagesRef}>
           {messages.map((m,i) => <div data-answer-anchor={m.role === "assistant" && i > 0 ? "true" : undefined} className={`message ${m.role} ${m.answer ? "structuredMessage" : ""}`} key={i}>{m.answer ? <StructuredAnswer answer={m.answer} onFollowUp={ask} onShowSources={(numbers) => setSourceView({ citations: m.citations || [], numbers })} /> : m.text}{m.meta && <div className="messageMeta">{m.meta}</div>}</div>)}
-          {loading && <div className="message assistant loadingMessage"><span className="loadingDot" />Recherche et organisation des éléments pertinents…</div>}
+          {loading && <div className="message assistant loadingMessage"><span className="loadingDot" />Recherche des éléments sourcés pertinents…</div>}
         </div>
         <div className="composer"><div className="inputWrap"><textarea value={question} onChange={e=>setQuestion(e.target.value)} onKeyDown={e=>{if(e.key==="Enter"&&!e.shiftKey){e.preventDefault();ask();}}} placeholder="Ex. Compare les positions documentées sur les retraites…"/><button className="send" onClick={()=>ask()} disabled={loading || !question.trim()}>↑</button></div><div className="examples">{EXAMPLES.map(x=><button className="example" key={x} onClick={()=>ask(x)}>{x}</button>)}</div></div>
       </div>
-      <aside className="panel sourcesPanel"><div className="sourcesHeader"><h3>Sources de la réponse sélectionnée</h3><span className="status">{visibleSources.length ? `${visibleSources.length} éléments` : "en attente"}</span></div><div className="sources">{visibleSources.length ? visibleSources.map(({citation,number})=><SourceCard citation={citation} number={number} key={`${citation.path}-${citation.entityId || "source"}-${number}`}/>) : <div className="empty">Chaque réponse conserve désormais ses propres sources. Cliquez sur « Source N » dans une réponse pour afficher exactement les documents qui la soutiennent.</div>}</div></aside>
+      <aside className="panel sourcesPanel"><div className="sourcesHeader"><h3>Sources de la réponse sélectionnée</h3><span className="status">{visibleSources.length ? `${visibleSources.length} éléments` : "en attente"}</span></div><div className="sources">{visibleSources.length ? visibleSources.map(({citation,number})=><SourceCard citation={citation} number={number} key={`${citation.path}-${citation.entityId || "source"}-${number}`}/>) : <div className="empty">Chaque réponse conserve ses propres sources. Cliquez sur « Source N » dans une réponse pour afficher exactement les documents qui la soutiennent.</div>}</div></aside>
     </section>;
   } else if (mode === "compare") content = <ComparisonExplorer onExplore={exploreFromFeature} />;
   else if (mode === "candidates") content = <CandidateExplorer onExplore={exploreFromFeature} onNavigate={switchMode} />;
@@ -220,7 +274,7 @@ export default function ChatApp() {
     </header>
     <section className="hero">
       <div><span className="kicker">Source ouverte · versionnée · vérifiable</span><h2>Comprendre avant de choisir.</h2><p className="heroText">Questionnez, comparez et explorez ce qui est réellement documenté dans les programmes, projets, discours et déclarations suivis par le dépôt — avec les sources, les anciennes versions et les lacunes visibles.</p></div>
-      <div className="warning">Instantané <strong>{meta?.snapshotDate || "préélectoral"}</strong>. « Suivi », « déclaré », « investi » et « candidat officiel » sont des statuts différents. Une donnée absente du corpus n’est jamais interprétée comme une opposition.</div>
+      <div className="warning">Données du corpus actualisées jusqu’au <strong>{meta?.snapshotDate || "stade préélectoral"}</strong>. « Suivi », « déclaré », « investi » et « candidat officiel » sont des statuts différents. Une donnée absente du corpus n’est jamais interprétée comme une opposition.</div>
     </section>
     <section className="metrics">
       <div className="metric"><strong>{counts.candidates ?? "—"}</strong><span>personnalités suivies</span></div>
