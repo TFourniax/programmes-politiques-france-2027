@@ -23,6 +23,7 @@ on:
       - 'scripts/auto_promote_runner.py'
       - 'scripts/promote_social.py'
       - 'scripts/repair_promotion_state.py'
+      - 'scripts/canonical_queue.py'
       - 'scripts/update_source_health.py'
       - 'scripts/update_watch_health.py'
       - 'scripts/check_watch_health.py'
@@ -34,6 +35,7 @@ on:
       - 'tests/test_prune_social_profiles.py'
       - 'tests/test_verify_social.py'
       - 'tests/test_repair_promotion_state.py'
+      - 'tests/test_canonical_queue.py'
       - 'tests/test_update_source_health.py'
       - 'tests/test_watch_health.py'
 
@@ -60,6 +62,9 @@ jobs:
 
       - name: Install Python dependencies
         run: pip install -r requirements.txt
+
+      - name: Restore pending canonical queue
+        run: python scripts/canonical_queue.py prepare
 
       - name: Repair persisted promotion state
         run: python scripts/repair_promotion_state.py
@@ -163,69 +168,75 @@ jobs:
             tests/test_auto_promote.py \
             tests/test_auto_promote_runner.py \
             tests/test_repair_promotion_state.py \
+            tests/test_canonical_queue.py \
             tests/test_update_source_health.py \
             tests/test_watch_health.py
 
-      - name: Detect canonical changes including new files
+      - name: Queue canonical changes and enforce 48h publication window
         id: canonical
         shell: bash
         run: |
-          CANONICAL_STATUS="$(git status --porcelain --untracked-files=all -- data/entities.json registries/candidates.yaml corpus/2027 proposals)"
-          if [ -z "$CANONICAL_STATUS" ]; then
-            echo "changed=false" >> "$GITHUB_OUTPUT"
-            echo "No canonical political change in this run."
-          else
-            echo "changed=true" >> "$GITHUB_OUTPUT"
-            echo "Canonical political data changed; running full production gates."
-            printf '%s\n' "$CANONICAL_STATUS"
-          fi
+          python scripts/canonical_queue.py evaluate \
+            --minimum-hours 48 \
+            --github-output "$GITHUB_OUTPUT"
+
+      - name: Report pending canonical publication
+        if: steps.canonical.outputs.changed == 'true' && steps.canonical.outputs.publish != 'true'
+        run: |
+          echo "Verified canonical changes are queued without deployment."
+          echo "Last canonical publication: ${{ steps.canonical.outputs.last_published_at }}"
+          echo "Next eligible publication: ${{ steps.canonical.outputs.next_eligible_at }}"
+          echo "Queued files: ${{ steps.canonical.outputs.queued_files }}; deletions: ${{ steps.canonical.outputs.deleted_files }}"
 
       - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
-        if: steps.canonical.outputs.changed == 'true'
+        if: steps.canonical.outputs.publish == 'true'
         with:
           node-version: '22'
           cache: npm
 
       - name: Install web dependencies
-        if: steps.canonical.outputs.changed == 'true'
+        if: steps.canonical.outputs.publish == 'true'
         run: npm ci
 
       - name: Security audit
-        if: steps.canonical.outputs.changed == 'true'
+        if: steps.canonical.outputs.publish == 'true'
         run: npm audit --audit-level=high
 
       - name: Run retrieval regression tests
-        if: steps.canonical.outputs.changed == 'true'
+        if: steps.canonical.outputs.publish == 'true'
         run: npm run test:retrieval
 
       - name: Build production application
-        if: steps.canonical.outputs.changed == 'true'
+        if: steps.canonical.outputs.publish == 'true'
         env:
           LLM_API_KEY: build-only-placeholder
         run: npm run build
 
       - name: Install Playwright Chromium
-        if: steps.canonical.outputs.changed == 'true'
+        if: steps.canonical.outputs.publish == 'true'
         run: npx playwright install --with-deps chromium
 
       - name: Browser acceptance tests before canonical push
-        if: steps.canonical.outputs.changed == 'true'
+        if: steps.canonical.outputs.publish == 'true'
         env:
           CI: 'true'
         run: npm run test:e2e
 
-      - name: Commit verified watch and canonical updates
+      - name: Commit verified watch state or grouped canonical publication
         shell: bash
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [ "${{ steps.canonical.outputs.publish }}" = "true" ]; then
+            python scripts/canonical_queue.py finalize
+          fi
           git add research/veille data/entities.json registries/candidates.yaml corpus/2027 proposals
           if git diff --cached --quiet; then
             echo "No watch or canonical changes to commit."
             exit 0
           fi
-          if [ "${{ steps.canonical.outputs.changed }}" = "true" ]; then
-            git commit -m "veille: mise à jour canonique vérifiée $(date -u +%F)"
+          if [ "${{ steps.canonical.outputs.publish }}" = "true" ]; then
+            git commit -m "veille: publication canonique groupée $(date -u +%F)"
           else
             git commit -m "veille: état de surveillance $(date -u +%F)"
           fi
