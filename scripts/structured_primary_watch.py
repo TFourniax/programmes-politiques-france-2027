@@ -138,9 +138,6 @@ def wordpress_chapters(session: requests.Session, source: dict[str, Any]) -> tup
     numbers = [item["number"] for item in chapters]
     highest = max(numbers, default=0)
     contiguous = numbers == list(range(1, highest + 1)) if numbers else False
-    # `minimum_expected_chapters` is a floor, not a ceiling: if the official site adds
-    # chapter 19 tomorrow, 1..19 is accepted and ingested automatically. A missing chapter
-    # or a drop below the known baseline makes the representation unhealthy instead.
     complete = highest >= minimum_expected and contiguous and len(chapters) == highest
     expected_items = highest if complete else max(highest, minimum_expected)
     health = {
@@ -297,6 +294,8 @@ def main() -> None:
     print(f"Structured primary watch: {len(sources)} source(s), {len(all_events)} event(s), {len(warnings)} warning(s)")
     for row in health_rows:
         print(f"  {row['id']}: {row['item_count']} chapter(s), baseline={row['minimum_expected_items']}, complete={row['complete']}")
+    for warning in warnings:
+        print(f"  WARNING {warning}")
 
 
 if __name__ == "__main__":
