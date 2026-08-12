@@ -1,0 +1,54 @@
+name: Temporary LFI endpoint probe
+
+on:
+  pull_request:
+    paths:
+      - '.github/workflows/temporary-lfi-endpoint-probe.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Probe official structured endpoints
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json
+          import urllib.error
+          import urllib.request
+
+          urls = [
+              'https://melenchon2027.fr/wp-json/',
+              'https://melenchon2027.fr/wp-json/wp/v2/pages?slug=livre',
+              'https://melenchon2027.fr/wp-json/wp/v2/pages?search=programme&per_page=20',
+              'https://melenchon2027.fr/?rest_route=/wp/v2/pages&slug=livre',
+              'https://melenchon2027.fr/wp-sitemap.xml',
+              'https://melenchon2027.fr/page-sitemap.xml',
+              'https://melenchon2027.fr/programme2025/livre/feed/',
+              'https://programme.lafranceinsoumise.fr/wp-json/wp/v2/pages?slug=livre',
+              'https://programme.lafranceinsoumise.fr/wp-sitemap.xml',
+          ]
+          headers = {
+              'User-Agent': 'programmes-politiques-france-2027-watch/1.0 (+https://github.com/TFourniax/programmes-politiques-france-2027)',
+              'Accept-Language': 'fr,en;q=0.7',
+          }
+          out = []
+          for url in urls:
+              req = urllib.request.Request(url, headers=headers)
+              try:
+                  with urllib.request.urlopen(req, timeout=15) as response:
+                      body = response.read(12000)
+                      text = body.decode('utf-8', errors='replace').replace('\n', ' ')
+                      out.append({'url': url, 'status': response.status, 'resolved': response.geturl(), 'type': response.headers.get('content-type', ''), 'bytes': len(body), 'sample': text[:500]})
+              except urllib.error.HTTPError as exc:
+                  body = exc.read(1000)
+                  out.append({'url': url, 'status': exc.code, 'resolved': exc.geturl(), 'type': exc.headers.get('content-type', ''), 'sample': body.decode('utf-8', errors='replace')[:180].replace('\n', ' ')})
+              except Exception as exc:
+                  out.append({'url': url, 'error': f'{type(exc).__name__}: {exc}'})
+          print('LFI_ENDPOINTS=' + json.dumps(out, ensure_ascii=False))
+          PY
