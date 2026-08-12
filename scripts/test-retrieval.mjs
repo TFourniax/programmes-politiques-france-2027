@@ -11,7 +11,6 @@ const top = (query, options) => retrieve(query, options).results;
 const includesPath = (results, fragment) => results.some((item) => item.citation.path.includes(fragment));
 
 const meta = getMeta();
-assert.equal(meta.snapshotDate, entities.snapshot_date);
 assert.equal(meta.indexVersion, 4);
 assert.ok(meta.counts.candidates >= 40);
 assert.ok(meta.counts.parties >= 25);
@@ -20,6 +19,9 @@ assert.ok(meta.counts.proposals >= 25);
 assert.equal(meta.counts.markdownFiles, meta.counts.documents + meta.counts.proposals);
 
 const index = JSON.parse(fs.readFileSync(path.join(root, 'data', 'search-index.json'), 'utf8'));
+assert.equal(index.statusSnapshotDate, entities.snapshot_date, 'la date de statut doit rester distincte de la fraîcheur globale du corpus');
+assert.equal(meta.snapshotDate, index.corpusFreshnessDate, 'la date publique du snapshot doit refléter le dernier élément canonique daté ou capturé');
+assert.ok(meta.snapshotDate >= entities.snapshot_date, 'le snapshot public ne doit jamais être plus ancien que les statuts canoniques');
 for (const chunk of index.chunks.filter((item) => ['document', 'proposal'].includes(item.kind))) {
   assert.ok(fs.existsSync(path.join(root, chunk.path)), `indexed path must exist: ${chunk.path}`);
   assert.ok(chunk.recordId, `versioned index record must expose recordId: ${chunk.path}`);
@@ -116,6 +118,7 @@ assert.ok(!/^ional\b/i.test(repaired));
 
 console.log('Production retrieval QA OK', {
   snapshotDate: meta.snapshotDate,
+  statusSnapshotDate: index.statusSnapshotDate,
   indexVersion: meta.indexVersion,
   candidates: meta.counts.candidates,
   documents: meta.counts.documents,
