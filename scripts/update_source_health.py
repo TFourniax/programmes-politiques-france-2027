@@ -55,31 +55,79 @@ def http_error_urls(state: dict[str, Any]) -> set[str]:
     return out
 
 
+def healthy_direct_feed_coverage(state: dict[str, Any]) -> dict[str, dict[str, Any]]:
+    """Return owners whose official HTML is backed by a healthy official direct feed.
+
+    This is a coverage fallback, not a factual shortcut: the direct feed only discovers
+    URLs. Canonical promotion still requires the complete primary content and the normal
+    verification pipeline.
+    """
+    out: dict[str, dict[str, Any]] = {}
+    for url, record in (state.get("direct_feed_health") or {}).items():
+        if not isinstance(record, dict):
+            continue
+        owner = str(record.get("owner") or "").strip()
+        try:
+            status = int(record.get("status") or 0)
+        except (TypeError, ValueError):
+            status = 0
+        if not owner or status <= 0 or status >= 400:
+            continue
+        out[owner] = {
+            "url": canonicalize_url(str(url)),
+            "status": status,
+            "checked_at": record.get("checked_at"),
+            "resolved_url": record.get("resolved_url"),
+        }
+    return out
+
+
 def update_records(
     previous: dict[str, Any],
     targets: list[dict[str, str]],
     errors: set[str],
     stamp: str,
+    alternate_coverage: dict[str, dict[str, Any]] | None = None,
 ) -> dict[str, Any]:
+    alternate_coverage = alternate_coverage or {}
     records = dict(previous.get("sources") or {})
     active_urls = set()
+    alternate_count = 0
     for target in targets:
         url = canonicalize_url(target["url"])
         active_urls.add(url)
         row = dict(records.get(url) or {})
         row["url"] = url
         row["owner"] = target.get("owner")
-        if url in errors:
+        alternate = alternate_coverage.get(str(target.get("owner") or ""))
+
+        if url in errors and alternate:
+            # The public HTML endpoint can be protected by anti-bot middleware while an
+            # official RSS/Atom endpoint remains available. Treat monitoring coverage as
+            # healthy, but keep the alternate explicit for observability.
+            row["consecutive_failures"] = 0
+            row["first_failure_at"] = None
+            row["last_success_at"] = stamp
+            row["last_failure_at"] = stamp
+            row["status"] = "ok_via_official_feed"
+            row["alternate_url"] = alternate.get("url")
+            row["alternate_checked_at"] = alternate.get("checked_at")
+            alternate_count += 1
+        elif url in errors:
             failures = int(row.get("consecutive_failures") or 0) + 1
             row["consecutive_failures"] = failures
             row["first_failure_at"] = row.get("first_failure_at") or stamp
             row["last_failure_at"] = stamp
             row["status"] = "persistent_failure" if failures >= PERSISTENT_FAILURE_RUNS else "transient_failure"
+            row.pop("alternate_url", None)
+            row.pop("alternate_checked_at", None)
         else:
             row["consecutive_failures"] = 0
             row["first_failure_at"] = None
             row["last_success_at"] = stamp
             row["status"] = "ok"
+            row.pop("alternate_url", None)
+            row.pop("alternate_checked_at", None)
         records[url] = row
 
     # Preserve retired targets for auditability, but never alert on them.
@@ -94,10 +142,11 @@ def update_records(
         if row.get("status") == "persistent_failure"
     ]
     return {
-        "version": 1,
+        "version": 2,
         "generated_at": stamp,
         "persistent_failure_threshold_runs": PERSISTENT_FAILURE_RUNS,
         "persistent_failure_count": len(persistent),
+        "alternate_official_feed_coverage_count": alternate_count,
         "persistent_failures": sorted(
             [
                 {
@@ -121,14 +170,22 @@ def main() -> None:
     watch_state = load_json(base / "state.json", {})
     day = datetime.now(timezone.utc).date().isoformat()
     errors = current_error_urls(base / f"{day}.jsonl") | http_error_urls(watch_state)
-    payload = update_records(previous, collect_official_targets(), errors, iso_now())
+    alternates = healthy_direct_feed_coverage(watch_state)
+    payload = update_records(
+        previous,
+        collect_official_targets(),
+        errors,
+        iso_now(),
+        alternate_coverage=alternates,
+    )
     (base / "source-health.json").write_text(
         json.dumps(payload, ensure_ascii=False, indent=2, sort_keys=True) + "\n",
         encoding="utf-8",
     )
     print(
         f"Official source health: {payload['persistent_failure_count']} persistent failure(s), "
-        f"{len(errors)} failure(s) this run"
+        f"{len(errors)} raw failure(s), "
+        f"{payload['alternate_official_feed_coverage_count']} alternate official feed coverage(s)"
     )
 
 
