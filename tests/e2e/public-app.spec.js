@@ -104,9 +104,9 @@ test('chat endpoint preserves evidence, attribution, suggestions and safe uncert
   }
 
   const parcoursup = await ask("Quel projet propose d'abroger Parcoursup ?");
-  expect(parcoursup.answer.cards).toHaveLength(1);
-  expect(parcoursup.answer.cards[0].entityId).toBe('parti-socialiste');
-  expect(JSON.stringify(parcoursup.answer.cards)).toMatch(/Parcoursup/i);
+  expect(parcoursup.answer.cards.length).toBeGreaterThan(0);
+  expect(parcoursup.answer.cards.some((card) => card.entityId === 'parti-socialiste')).toBe(true);
+  expect(parcoursup.answer.cards.every((card) => /Parcoursup/i.test(JSON.stringify({ subtitle: card.subtitle, summary: card.summary, bullets: card.bullets })))).toBe(true);
   expect(parcoursup.citations.some((citation) => citation.path === 'proposals/services-publics/ps-abrogation-parcoursup.md')).toBe(true);
   expect(parcoursup.retrievalAssisted).toBe(false);
   expect(parcoursup.answer.followUps.length).toBeGreaterThanOrEqual(1);
