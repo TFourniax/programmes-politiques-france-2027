@@ -1,0 +1,48 @@
+{
+  "errors": [],
+  "generated_at": "2026-08-12T08:48:28+00:00",
+  "historical_skipped": 0,
+  "partial": 0,
+  "processed": 3,
+  "promoted": 2,
+  "proposals_created": 9,
+  "results": [
+    {
+      "sha256": "21b6d70b990f1115340eabb0e6bca3fbfc0b4aa33d1571db650dadc7a796d85e",
+      "status": "not_confirmed",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
+    {
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/partys/nouvelle-energie/2026-07-31-3cf783260ce0.md",
+      "proposals": [
+        "proposals/auto/ecologie-energie/auto-david-lisnard-ecologie-energie-7d2b695c26b5.md",
+        "proposals/auto/economie-finances/auto-david-lisnard-economie-finances-a15abb552219.md",
+        "proposals/auto/economie-finances/auto-david-lisnard-economie-finances-f722491ccf4e.md",
+        "proposals/auto/ecologie-energie/auto-david-lisnard-ecologie-energie-bee5bcfd5a7a.md"
+      ],
+      "sha256": "54db91a2896f3d6518f05addfc4bc3a93670b7dddd36d2f34e8493f7b640fb6a",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/agriculture/",
+      "verified_at": "2026-08-12T08:48:23+00:00"
+    },
+    {
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/partys/nouvelle-energie/2026-07-31-fa4a3d74f772.md",
+      "proposals": [
+        "proposals/auto/services-publics/auto-david-lisnard-services-publics-a91664654778.md",
+        "proposals/auto/services-publics/auto-david-lisnard-services-publics-b34ccd500ac1.md",
+        "proposals/auto/services-publics/auto-david-lisnard-services-publics-a5694bbe3a9d.md",
+        "proposals/auto/services-publics/auto-david-lisnard-services-publics-f4f8a6c0350c.md",
+        "proposals/auto/services-publics/auto-david-lisnard-services-publics-3e115885d8b2.md"
+      ],
+      "sha256": "47540a49ad19b737bad041f5935a1b999aa63fce98f1501940aacf8075469dbf",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/sante/",
+      "verified_at": "2026-08-12T08:48:28+00:00"
+    }
+  ],
+  "status_updates": 0
+}

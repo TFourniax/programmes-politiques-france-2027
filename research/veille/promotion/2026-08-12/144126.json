@@ -1,0 +1,50 @@
+{
+  "errors": [],
+  "generated_at": "2026-08-12T14:41:26+00:00",
+  "historical_skipped": 0,
+  "partial": 0,
+  "processed": 3,
+  "promoted": 3,
+  "proposals_created": 6,
+  "results": [
+    {
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/partys/nouvelle-energie/2026-08-12-84687a6089b8.md",
+      "proposals": [
+        "proposals/auto/institutions-democratie/auto-nouvelle-energie-institutions-democratie-1d98a3b70af1.md",
+        "proposals/auto/economie-finances/auto-nouvelle-energie-economie-finances-ce6ab5f9ca2a.md",
+        "proposals/auto/services-publics/auto-nouvelle-energie-services-publics-0f99d5897943.md",
+        "proposals/auto/services-publics/auto-nouvelle-energie-services-publics-2dd30b44dc9c.md",
+        "proposals/auto/retraites/auto-nouvelle-energie-retraites-4b9149336ab7.md"
+      ],
+      "sha256": "483c5cca9ce4e53d7ffece152c3d6584b2f150047b234270422894776a01f531",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/",
+      "verified_at": "2026-08-12T14:41:17+00:00"
+    },
+    {
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/partys/nouvelle-energie/2026-08-12-dc67165972a4.md",
+      "proposals": [],
+      "sha256": "6b81ee9f94519b6e7913d8e7c0b32149df8bbabad9e12fa1eba8ad07a2b39c44",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://www.unenouvelleenergie.fr/questions/david-lisnard-est-il-candidat-a-la-presidentielle-2027/",
+      "verified_at": "2026-08-12T14:41:20+00:00"
+    },
+    {
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-af3984a6ce57.md",
+      "proposals": [
+        "proposals/auto/pouvoir-achat-travail/auto-bruno-retailleau-pouvoir-achat-travail-122f072f74ad.md"
+      ],
+      "sha256": "791b6d635757b3a71ddb8683031082110a36ac42ee830ff6098cc5d212606281",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/",
+      "verified_at": "2026-08-12T14:41:26+00:00"
+    }
+  ],
+  "status_updates": 0
+}
