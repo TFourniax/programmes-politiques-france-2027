@@ -92,19 +92,23 @@ def update_records(
     alternate_coverage = alternate_coverage or {}
     records = dict(previous.get("sources") or {})
     active_urls = set()
-    alternate_count = 0
+    covered_failures: list[dict[str, Any]] = []
+    uncovered_failures: list[dict[str, Any]] = []
+
     for target in targets:
         url = canonicalize_url(target["url"])
         active_urls.add(url)
         row = dict(records.get(url) or {})
         row["url"] = url
         row["owner"] = target.get("owner")
-        alternate = alternate_coverage.get(str(target.get("owner") or ""))
+        owner = str(target.get("owner") or "")
+        alternate = alternate_coverage.get(owner)
 
         if url in errors and alternate:
             # The public HTML endpoint can be protected by anti-bot middleware while an
-            # official RSS/Atom endpoint remains available. Treat monitoring coverage as
-            # healthy, but keep the alternate explicit for observability.
+            # official RSS/Atom endpoint remains available. Keep the failed endpoint
+            # explicit, but classify the monitoring gap as covered rather than as an
+            # incident requiring human attention.
             row["consecutive_failures"] = 0
             row["first_failure_at"] = None
             row["last_success_at"] = stamp
@@ -112,7 +116,11 @@ def update_records(
             row["status"] = "ok_via_official_feed"
             row["alternate_url"] = alternate.get("url")
             row["alternate_checked_at"] = alternate.get("checked_at")
-            alternate_count += 1
+            covered_failures.append({
+                "url": url,
+                "owner": owner,
+                "alternate_url": alternate.get("url"),
+            })
         elif url in errors:
             failures = int(row.get("consecutive_failures") or 0) + 1
             row["consecutive_failures"] = failures
@@ -121,6 +129,12 @@ def update_records(
             row["status"] = "persistent_failure" if failures >= PERSISTENT_FAILURE_RUNS else "transient_failure"
             row.pop("alternate_url", None)
             row.pop("alternate_checked_at", None)
+            uncovered_failures.append({
+                "url": url,
+                "owner": owner,
+                "status": row["status"],
+                "consecutive_failures": failures,
+            })
         else:
             row["consecutive_failures"] = 0
             row["first_failure_at"] = None
@@ -142,11 +156,16 @@ def update_records(
         if row.get("status") == "persistent_failure"
     ]
     return {
-        "version": 2,
+        "version": 3,
         "generated_at": stamp,
         "persistent_failure_threshold_runs": PERSISTENT_FAILURE_RUNS,
+        "raw_failure_count": len(covered_failures) + len(uncovered_failures),
+        "covered_failure_count": len(covered_failures),
+        "uncovered_failure_count": len(uncovered_failures),
+        "alternate_official_feed_coverage_count": len(covered_failures),
+        "covered_failures": sorted(covered_failures, key=lambda row: str(row.get("url") or "")),
+        "uncovered_failures": sorted(uncovered_failures, key=lambda row: str(row.get("url") or "")),
         "persistent_failure_count": len(persistent),
-        "alternate_official_feed_coverage_count": alternate_count,
         "persistent_failures": sorted(
             [
                 {
@@ -184,8 +203,8 @@ def main() -> None:
     )
     print(
         f"Official source health: {payload['persistent_failure_count']} persistent failure(s), "
-        f"{len(errors)} raw failure(s), "
-        f"{payload['alternate_official_feed_coverage_count']} alternate official feed coverage(s)"
+        f"{payload['uncovered_failure_count']} uncovered warning(s), "
+        f"{payload['covered_failure_count']} covered by official feed(s)"
     )
 
 
