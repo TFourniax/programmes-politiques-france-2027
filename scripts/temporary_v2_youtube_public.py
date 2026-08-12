@@ -4,11 +4,18 @@ social_path = Path('scripts/social_watch.py')
 social = social_path.read_text(encoding='utf-8')
 
 if 'import xml.etree.ElementTree as ET' not in social:
-    social = social.replace('import re\nfrom html.parser import HTMLParser', 'import re\nimport xml.etree.ElementTree as ET\nfrom html.parser import HTMLParser', 1)
+    social = social.replace(
+        'import re\nfrom html.parser import HTMLParser',
+        'import re\nimport xml.etree.ElementTree as ET\nfrom html.parser import HTMLParser',
+        1,
+    )
 
 if 'def youtube_api_items(' not in social:
-    social = social.replace('def youtube_items(\n    session: requests.Session,', 'def youtube_api_items(\n    session: requests.Session,', 1)
-    social = social.replace('    resolved = resolve_youtube_channel(session, profile, api_key)', '    resolved = resolve_youtube_channel(session, profile, api_key)', 1)
+    old = 'def youtube_items(\n    session: requests.Session,'
+    new = 'def youtube_api_items(\n    session: requests.Session,'
+    if old not in social:
+        raise SystemExit('youtube_items API function not found')
+    social = social.replace(old, new, 1)
 
 marker = '\n\ndef collect_social_events(\n'
 if 'def youtube_public_items(' not in social:
@@ -118,8 +125,20 @@ def youtube_items(
         raise SystemExit('collect_social_events marker not found')
     social = social.replace(marker, public_helpers + marker, 1)
 
-old_youtube_block = '''        elif platform == "youtube" and youtube_cfg.get("enabled", True):\n            if not youtube_key:\n                continue\n            try:\n                items, resolved = youtube_items(\n                    session, profile, youtube_key,\n                    int(youtube_cfg.get("max_videos_per_channel", 12)),\n                )'''
-new_youtube_block = '''        elif platform == "youtube" and youtube_cfg.get("enabled", True):\n            try:\n                items, resolved = youtube_items(\n                    session, profile, youtube_key,\n                    int(youtube_cfg.get("max_videos_per_channel", 12)),\n                )'''
+old_youtube_block = '''        elif platform == "youtube" and youtube_cfg.get("enabled", True):
+            if not youtube_key:
+                continue
+            try:
+                items, resolved = youtube_items(
+                    session, profile, youtube_key,
+                    int(youtube_cfg.get("max_videos_per_channel", 12)),
+                )'''
+new_youtube_block = '''        elif platform == "youtube" and youtube_cfg.get("enabled", True):
+            try:
+                items, resolved = youtube_items(
+                    session, profile, youtube_key,
+                    int(youtube_cfg.get("max_videos_per_channel", 12)),
+                )'''
 if old_youtube_block in social:
     social = social.replace(old_youtube_block, new_youtube_block, 1)
 elif new_youtube_block not in social:
@@ -142,10 +161,74 @@ social_path.write_text(social, encoding='utf-8')
 verify_path = Path('scripts/verify_social.py')
 verify = verify_path.read_text(encoding='utf-8')
 if 'from social_watch import youtube_public_items' not in verify:
-    verify = verify.replace('from common import ROOT\n', 'from common import ROOT\nfrom social_watch import youtube_public_items\n', 1)
+    verify = verify.replace(
+        'from common import ROOT\n',
+        'from common import ROOT\nfrom social_watch import youtube_public_items\n',
+        1,
+    )
 
-old_verify = '''    elif platform == "youtube":\n        if not youtube_key:\n            out.update({\n                "identity_state": "unverified_waiting_for_youtube_api_key",\n                "identity_method": "youtube_api_required_for_identity_check",\n            })\n        else:\n            try:\n                resolved = resolve_youtube(session, record, youtube_key)\n                if not resolved:\n                    out.update({"identity_state": "rejected_profile_not_found", "identity_method": "youtube_channel_lookup"})\n                else:\n                    verified = identity_name_matches(entity_name, resolved["display_name"])\n                    out.update(resolved)\n                    out.update({\n                        "identity_state": "verified" if verified else "rejected_identity_mismatch",\n                        "identity_method": "official_site_link_plus_youtube_channel_identity",\n                    })\n            except (requests.RequestException, ValueError) as exc:\n                out.update({\n                    "identity_state": "verification_unavailable",\n                    "identity_method": "youtube_channel_lookup_failed",\n                    "identity_error": f"{type(exc).__name__}: {exc}",\n                })'''
-new_verify = '''    elif platform == "youtube":\n        public_error = None\n        resolved = None\n        try:\n            _, resolved = youtube_public_items(session, record, 1)\n        except (requests.RequestException, ValueError) as exc:\n            public_error = exc\n        if resolved:\n            verified = identity_name_matches(entity_name, resolved.get("display_name") or resolved.get("channel_title"))\n            out.update(resolved)\n            out.update({\n                "identity_state": "verified" if verified else "rejected_identity_mismatch",\n                "identity_method": "official_site_link_plus_youtube_public_feed_identity",\n            })\n        elif youtube_key:\n            try:\n                resolved = resolve_youtube(session, record, youtube_key)\n                if not resolved:\n                    out.update({"identity_state": "rejected_profile_not_found", "identity_method": "youtube_channel_lookup"})\n                else:\n                    verified = identity_name_matches(entity_name, resolved["display_name"])\n                    out.update(resolved)\n                    out.update({\n                        "identity_state": "verified" if verified else "rejected_identity_mismatch",\n                        "identity_method": "official_site_link_plus_youtube_api_identity_fallback",\n                    })\n            except (requests.RequestException, ValueError) as exc:\n                out.update({\n                    "identity_state": "verification_unavailable",\n                    "identity_method": "youtube_identity_lookup_failed",\n                    "identity_error": f"public={public_error}; api={type(exc).__name__}: {exc}",\n                })\n        else:\n            out.update({\n                "identity_state": "verification_unavailable",\n                "identity_method": "youtube_public_feed_identity_unavailable",\n                "identity_error": f"{type(public_error).__name__}: {public_error}" if public_error else "public feed unavailable",\n            })'''
+old_verify = '''    elif platform == "youtube":
+        if not youtube_key:
+            out.update({
+                "identity_state": "unverified_waiting_for_youtube_api_key",
+                "identity_method": "youtube_api_required_for_identity_check",
+            })
+        else:
+            try:
+                resolved = resolve_youtube(session, record, youtube_key)
+                if not resolved:
+                    out.update({"identity_state": "rejected_profile_not_found", "identity_method": "youtube_channel_lookup"})
+                else:
+                    verified = identity_name_matches(entity_name, resolved["display_name"])
+                    out.update(resolved)
+                    out.update({
+                        "identity_state": "verified" if verified else "rejected_identity_mismatch",
+                        "identity_method": "official_site_link_plus_youtube_channel_identity",
+                    })
+            except (requests.RequestException, ValueError) as exc:
+                out.update({
+                    "identity_state": "verification_unavailable",
+                    "identity_method": "youtube_channel_lookup_failed",
+                    "identity_error": f"{type(exc).__name__}: {exc}",
+                })'''
+new_verify = '''    elif platform == "youtube":
+        public_error = None
+        resolved = None
+        try:
+            _, resolved = youtube_public_items(session, record, 1)
+        except (requests.RequestException, ValueError) as exc:
+            public_error = exc
+        if resolved:
+            verified = identity_name_matches(entity_name, resolved.get("display_name") or resolved.get("channel_title"))
+            out.update(resolved)
+            out.update({
+                "identity_state": "verified" if verified else "rejected_identity_mismatch",
+                "identity_method": "official_site_link_plus_youtube_public_feed_identity",
+            })
+        elif youtube_key:
+            try:
+                resolved = resolve_youtube(session, record, youtube_key)
+                if not resolved:
+                    out.update({"identity_state": "rejected_profile_not_found", "identity_method": "youtube_channel_lookup"})
+                else:
+                    verified = identity_name_matches(entity_name, resolved["display_name"])
+                    out.update(resolved)
+                    out.update({
+                        "identity_state": "verified" if verified else "rejected_identity_mismatch",
+                        "identity_method": "official_site_link_plus_youtube_api_identity_fallback",
+                    })
+            except (requests.RequestException, ValueError) as exc:
+                out.update({
+                    "identity_state": "verification_unavailable",
+                    "identity_method": "youtube_identity_lookup_failed",
+                    "identity_error": f"public={public_error}; api={type(exc).__name__}: {exc}",
+                })
+        else:
+            out.update({
+                "identity_state": "verification_unavailable",
+                "identity_method": "youtube_public_feed_identity_unavailable",
+                "identity_error": f"{type(public_error).__name__}: {public_error}" if public_error else "public feed unavailable",
+            })'''
 if old_verify in verify:
     verify = verify.replace(old_verify, new_verify, 1)
 elif new_verify not in verify:
@@ -154,8 +237,13 @@ verify_path.write_text(verify, encoding='utf-8')
 
 social_test = Path('tests/test_social_watch.py')
 test_text = social_test.read_text(encoding='utf-8')
-if 'youtube_public_items' not in test_text.split('from social_watch import', 1)[1].split(')', 1)[0]:
-    test_text = test_text.replace('    social_profile_from_url,\n)', '    social_profile_from_url,\n    youtube_public_items,\n)', 1)
+import_block = test_text.split('from social_watch import', 1)[1].split(')', 1)[0]
+if 'youtube_public_items' not in import_block:
+    test_text = test_text.replace(
+        '    social_profile_from_url,\n)',
+        '    social_profile_from_url,\n    youtube_public_items,\n)',
+        1,
+    )
 if 'test_youtube_public_atom_feed_needs_no_api_key' not in test_text:
     test_text += r'''
 
@@ -171,19 +259,21 @@ class _FakeYoutubeResponse:
 class _FakeYoutubeSession:
     def get(self, url, **kwargs):
         if "youtube.com/@ExampleParty" in url:
-            return _FakeYoutubeResponse(text=''' + "'''<html><head><meta property=\"og:title\" content=\"Example Party\"></head><body><script>{\"channelId\":\"UCabcdefghijklmnopqrstuv\"}</script></body></html>'''" + r''')
+            return _FakeYoutubeResponse(
+                text='<html><body><script>{"channelId":"UCabcdefghijklmnopqrstuv"}</script></body></html>'
+            )
         if "feeds/videos.xml" in url:
-            return _FakeYoutubeResponse(content=b''' + "'''<?xml version=\"1.0\" encoding=\"UTF-8\"?>
-<feed xmlns=\"http://www.w3.org/2005/Atom\" xmlns:yt=\"http://www.youtube.com/xml/schemas/2015\" xmlns:media=\"http://search.yahoo.com/mrss/\">
+            return _FakeYoutubeResponse(content=b"""<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns:media="http://search.yahoo.com/mrss/">
   <author><name>Example Party</name></author>
   <entry>
     <yt:videoId>video123</yt:videoId>
     <title>Notre programme pour 2027</title>
-    <link rel=\"alternate\" href=\"https://www.youtube.com/watch?v=video123\"/>
+    <link rel="alternate" href="https://www.youtube.com/watch?v=video123"/>
     <published>2026-08-12T12:00:00+00:00</published>
     <media:group><media:description>Nous proposons une réforme des retraites.</media:description></media:group>
   </entry>
-</feed>'''" + r''')
+</feed>""")
         raise AssertionError(url)
 
 
@@ -215,11 +305,16 @@ if 'test_youtube_identity_can_be_verified_from_public_atom_feed_without_key' not
 
 class _IdentityFeedResponse:
     text = ""
-    content = b''' + "'''<?xml version=\"1.0\" encoding=\"UTF-8\"?>
-<feed xmlns=\"http://www.w3.org/2005/Atom\" xmlns:yt=\"http://www.youtube.com/xml/schemas/2015\" xmlns:media=\"http://search.yahoo.com/mrss/\">
+    content = b"""<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns:media="http://search.yahoo.com/mrss/">
   <author><name>La France insoumise</name></author>
-  <entry><yt:videoId>abc123</yt:videoId><title>Programme</title><published>2026-08-12T12:00:00+00:00</published><media:group><media:description>Programme 2027</media:description></media:group></entry>
-</feed>'''" + r'''
+  <entry>
+    <yt:videoId>abc123</yt:videoId>
+    <title>Programme</title>
+    <published>2026-08-12T12:00:00+00:00</published>
+    <media:group><media:description>Programme 2027</media:description></media:group>
+  </entry>
+</feed>"""
 
     def raise_for_status(self):
         return None
