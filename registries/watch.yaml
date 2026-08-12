@@ -15,11 +15,6 @@ official_direct_feeds:
     url: https://pcf.nationbuilder.com/actualites.rss
     public_origin: https://www.pcf.fr/
     source_tier: tier_1_primary_official
-  - id: lfi-campagne-2027
-    owner: La France insoumise
-    url: https://melenchon2027.fr/feed/
-    public_origin: https://melenchon2027.fr/
-    source_tier: tier_1_primary_official
   - id: lfi-parti
     owner: La France insoumise
     url: https://lafranceinsoumise.fr/feed/
