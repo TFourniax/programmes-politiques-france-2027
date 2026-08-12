@@ -3,11 +3,15 @@ import sys
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 
-from update_source_health import http_error_urls, update_records  # noqa: E402
+from update_source_health import (  # noqa: E402
+    healthy_direct_feed_coverage,
+    http_error_urls,
+    update_records,
+)
 
 
-def target(url="https://parti.fr/"):
-    return [{"url": url, "owner": "Parti Test", "tier": "tier_1_primary_official", "kind": "party_official"}]
+def target(url="https://parti.fr/", owner="Parti Test"):
+    return [{"url": url, "owner": owner, "tier": "tier_1_primary_official", "kind": "party_official"}]
 
 
 def test_transient_failure_increments_without_becoming_persistent():
@@ -49,3 +53,50 @@ def test_http_403_429_and_500_are_unavailable_sources():
         }
     }
     assert http_error_urls(state) == {"https://b.fr/", "https://c.fr/", "https://d.fr/"}
+
+
+def test_healthy_direct_feed_is_explicit_alternate_coverage_not_fake_html_success():
+    state = {
+        "direct_feed_health": {
+            "https://feeds.parti.fr/actualites.rss": {
+                "owner": "Parti Test",
+                "status": 200,
+                "checked_at": "2026-08-12T10:00:00+00:00",
+                "resolved_url": "https://parti.fr/actualites.rss",
+            }
+        }
+    }
+    alternates = healthy_direct_feed_coverage(state)
+    payload = update_records(
+        {},
+        target(),
+        {"https://parti.fr/"},
+        "2026-08-12T10:01:00+00:00",
+        alternate_coverage=alternates,
+    )
+    row = payload["sources"]["https://parti.fr/"]
+    assert row["status"] == "ok_via_official_feed"
+    assert row["consecutive_failures"] == 0
+    assert row["alternate_url"] == "https://feeds.parti.fr/actualites.rss"
+    assert payload["persistent_failure_count"] == 0
+    assert payload["alternate_official_feed_coverage_count"] == 1
+
+
+def test_failed_direct_feed_does_not_hide_html_failure():
+    state = {
+        "direct_feed_health": {
+            "https://feeds.parti.fr/actualites.rss": {
+                "owner": "Parti Test",
+                "status": 503,
+            }
+        }
+    }
+    alternates = healthy_direct_feed_coverage(state)
+    payload = update_records(
+        {},
+        target(),
+        {"https://parti.fr/"},
+        "2026-08-12T10:01:00+00:00",
+        alternate_coverage=alternates,
+    )
+    assert payload["sources"]["https://parti.fr/"]["status"] == "transient_failure"
