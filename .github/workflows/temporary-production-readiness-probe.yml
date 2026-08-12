@@ -6,6 +6,8 @@ on:
       - '.github/workflows/temporary-production-readiness-probe.yml'
       - '.github/workflows/daily-watch.yml'
       - 'registries/watch.yaml'
+      - 'registries/parties.yaml'
+      - 'registries/sources.yaml'
       - 'scripts/daily_watch.py'
       - 'scripts/direct_feed_watch.py'
       - 'scripts/gdelt_watch.py'
@@ -20,7 +22,7 @@ permissions:
 jobs:
   probe:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 12
     steps:
       - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
       - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
@@ -51,12 +53,13 @@ jobs:
           python - <<'PY'
           import datetime as dt
           import json
+          import re
           from pathlib import Path
 
           base = Path('research/veille')
           health = json.loads((base / 'source-health.json').read_text(encoding='utf-8'))
           pcf = health['sources']['https://www.pcf.fr/']
-          lfi = health['sources']['https://programme.lafranceinsoumise.fr/']
+          lfi = health['sources']['https://melenchon2027.fr/programme2025/livre/']
           assert pcf['status'] == 'ok_via_official_feed', pcf
           assert 'actualites.rss' in pcf.get('alternate_url', ''), pcf
           assert lfi['status'] == 'ok', lfi
@@ -64,11 +67,17 @@ jobs:
 
           day = dt.datetime.now(dt.timezone.utc).date().isoformat()
           press = (base / 'press' / f'{day}.md').read_text(encoding='utf-8')
+          summary = re.search(r'- (\d+) requête\(s\) GDELT batchée\(s\) ;.*?- (\d+) avertissement\(s\) technique\(s\)\.', press, re.S)
+          assert summary, press
+          requests_made, warnings = map(int, summary.groups())
+          assert requests_made <= 4, (requests_made, press)
           print('SOURCE_HEALTH_PROBE=' + json.dumps({
               'persistent': health['persistent_failure_count'],
               'pcf': pcf['status'],
               'pcf_alternate': pcf.get('alternate_url'),
               'lfi': lfi['status'],
+              'gdelt_requests': requests_made,
+              'gdelt_warnings': warnings,
           }, ensure_ascii=False))
           print('GDELT_REPORT_BEGIN')
           print(press)
