@@ -43,6 +43,43 @@ test('personality, comparison, topic, history and quiz views load from corpus AP
   await expect(page.locator('.quizCard')).toBeVisible();
 });
 
+test('dense public views remain inside a phone viewport', async ({ page }, testInfo) => {
+  test.skip(!testInfo.project.name.includes('mobile'));
+  await page.goto('/');
+
+  async function expectNoHorizontalOverflow() {
+    const dimensions = await page.evaluate(() => ({
+      viewport: window.innerWidth,
+      documentWidth: document.documentElement.scrollWidth,
+      bodyWidth: document.body.scrollWidth
+    }));
+    expect(dimensions.documentWidth).toBeLessThanOrEqual(dimensions.viewport + 2);
+    expect(dimensions.bodyWidth).toBeLessThanOrEqual(dimensions.viewport + 2);
+  }
+
+  await expectNoHorizontalOverflow();
+  await page.getByRole('button', { name: /Comparer/ }).click();
+  const selectors = page.locator('.candidateSlots select');
+  await selectors.nth(0).selectOption({ index: 1 });
+  await selectors.nth(1).selectOption({ index: 2 });
+  await expect(page.locator('.comparisonTable')).toBeVisible();
+  await expectNoHorizontalOverflow();
+
+  await page.getByRole('button', { name: /^Historique/ }).click();
+  const historySelects = page.locator('.historyFilters select');
+  await historySelects.nth(0).selectOption('renaissance');
+  await historySelects.nth(1).selectOption('nucleaire');
+  await expect(page.locator('.timelineEvent').first()).toBeVisible();
+  await expectNoHorizontalOverflow();
+
+  await page.getByRole('button', { name: /^Questionner/ }).click();
+  const textarea = page.locator('textarea');
+  await textarea.fill("Quelles propositions sont documentées sur le pouvoir d'achat et les salaires ?");
+  await page.locator('button.send').click();
+  await expect(page.locator('.message.structuredMessage')).toHaveCount(1);
+  await expectNoHorizontalOverflow();
+});
+
 test('health endpoint exposes corpus, watch and safe chat readiness', async ({ request }) => {
   const response = await request.get('/api/health');
   expect(response.ok()).toBeTruthy();
@@ -54,7 +91,7 @@ test('health endpoint exposes corpus, watch and safe chat readiness', async ({ r
   expect(payload.snapshotDate).toMatch(/^\d{4}-\d{2}-\d{2}$/);
   expect(payload.chat.engine).toBe('deterministic-bm25-ontology-v4');
   expect(payload.chat.responseGeneration).toBe('deterministic_extractive');
-  expect(payload.chat.edgeRateLimit).toEqual({ requests: 8, seconds: 60 });
+  expect(payload.chat.edgeRateLimit).toEqual({ requests: 30, seconds: 60 });
   expect(payload.chat.semanticFallback.role).toBe('retrieval_interpretation_only');
   expect(typeof payload.chat.semanticFallback.enabled).toBe('boolean');
   expect(typeof payload.chat.semanticFallback.configured).toBe('boolean');
@@ -173,6 +210,18 @@ test('chat endpoint preserves evidence, attribution, suggestions and safe uncert
   for (const payload of [parcoursup, suggestionAnswer, followUp, partialComparison]) {
     expect(payload.citations.every((citation) => !['superseded', 'withdrawn', 'archived', 'rejected', 'draft', 'historical'].includes(String(citation.documentStatus || '').toLowerCase()))).toBe(true);
   }
+});
+
+test('server rate limit allows sustained human exploration then caps abuse', async ({ request }, testInfo) => {
+  const suffix = testInfo.project.name.includes('mobile') ? 252 : 251;
+  const headers = { 'x-forwarded-for': `198.51.100.${suffix}` };
+  const data = { question: 'Que propose Renaissance sur le nucléaire ?', history: [], sessionContext: {} };
+  for (let index = 0; index < 30; index += 1) {
+    const response = await request.post('/api/chat', { headers, data });
+    expect(response.status(), `request ${index + 1} should remain available`).toBe(200);
+  }
+  const limited = await request.post('/api/chat', { headers, data });
+  expect(limited.status()).toBe(429);
 });
 
 test('each visible answer keeps its own source numbering across multiple chat turns', async ({ page }) => {
