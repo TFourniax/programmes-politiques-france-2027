@@ -79,13 +79,14 @@ def request_batch(
     }
     retries = int(settings.get("max_retries", 3))
     backoff = float(settings.get("retry_backoff_seconds", 4))
+    timeout = max(5.0, min(35.0, float(settings.get("request_timeout_seconds", 15))))
 
     for attempt in range(retries + 1):
         try:
             response = session.get(
                 "https://api.gdeltproject.org/api/v2/doc/doc",
                 params=params,
-                timeout=35,
+                timeout=timeout,
             )
             if response.status_code == 429 and attempt < retries:
                 time.sleep(backoff * (attempt + 1))
@@ -133,7 +134,8 @@ def collect(
     kept_by_entity: dict[str, int] = defaultdict(int)
     requests_made = 0
 
-    for batch_index, batch in enumerate(chunks(entities, batch_size), start=1):
+    batches = chunks(entities, batch_size)
+    for batch_index, batch in enumerate(batches, start=1):
         articles, error = request_batch(session, batch, settings)
         requests_made += 1
         if error:
@@ -177,7 +179,7 @@ def collect(
                     "discovered_via": "gdelt_batched",
                 })
                 kept_by_entity[entity["id"]] += 1
-        if delay and batch_index < len(chunks(entities, batch_size)):
+        if delay and batch_index < len(batches):
             time.sleep(delay)
 
     return events, warnings, requests_made

@@ -1,4 +1,4 @@
-version: 5
+version: 11
 enabled: true
 
 official_discovery:
@@ -6,16 +6,53 @@ official_discovery:
   max_relevant_urls_per_site: 80
   max_feeds_per_site: 2
 
+# Certains sites officiels protègent leur HTML contre les robots mais publient un
+# flux structuré officiel accessible. Ces flux servent uniquement à découvrir de
+# nouvelles URLs : un titre RSS ne suffit jamais à promouvoir une proposition.
+official_direct_feeds:
+  - id: pcf-actualites
+    owner: Parti communiste français
+    url: https://pcf.nationbuilder.com/actualites.rss
+    public_origin: https://www.pcf.fr/
+    source_tier: tier_1_primary_official
+  - id: lfi-parti
+    owner: La France insoumise
+    url: https://lafranceinsoumise.fr/feed/
+    public_origin: https://lafranceinsoumise.fr/
+    source_tier: tier_1_primary_official
+
+# Source primaire complète LFI : les 18 chapitres publics de l'édition 2025 et toutes
+# leurs sections sont récupérés directement depuis melenchon2027.fr. Le nombre 18 est
+# un plancher, pas un plafond : les chapitres suivants sont sondés automatiquement.
+# Une seule section manquante rend la représentation incomplète ; aucun RSS ni titre
+# de recherche n'est accepté comme preuve canonique à la place du contenu primaire.
+official_structured_sources:
+  - id: lfi-programme-chapters
+    owner: La France insoumise
+    kind: html_programme_chapters
+    public_base: https://melenchon2027.fr/programme2025/livre
+    minimum_expected_chapters: 18
+    max_probe_chapters: 30
+    stop_after_consecutive_missing: 3
+    min_content_chars: 500
+    min_section_chars: 180
+    request_delay_seconds: 0.05
+    coverage_urls:
+      - https://programme.lafranceinsoumise.fr/
+      - https://melenchon2027.fr/programme2025/livre/
+    source_tier: tier_1_primary_official
+
 gdelt:
   enabled: true
   timespan: 1d
   max_entities: 60
-  batch_size: 6
+  batch_size: 9
   max_records_per_batch: 75
   keep_per_entity: 3
-  request_delay_seconds: 1.5
-  max_retries: 3
-  retry_backoff_seconds: 4
+  request_timeout_seconds: 15
+  request_delay_seconds: 3.0
+  max_retries: 1
+  retry_backoff_seconds: 8
   allow_unlisted_domains: false
   trusted_press_domains:
     - afp.com
@@ -53,9 +90,8 @@ google_search_grounding:
   max_urls_per_entity: 5
   request_delay_seconds: 0.10
 
-# Promotion automatique web/PDF : le document complet est drainé par chunks persistants.
-# Une source n'est finalisée qu'une fois tous les chunks traités. Les archives explicitement
-# rattachées à d'anciennes élections restent hors du canon courant 2027.
+# Promotion automatique web/PDF/captures primaires : le document complet est drainé
+# par chunks persistants. Une source n'est finalisée qu'une fois tous les chunks traités.
 auto_promotion:
   enabled: true
   model: gemini-3.5-flash-lite

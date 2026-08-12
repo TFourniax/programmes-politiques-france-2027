@@ -11,8 +11,7 @@ const top = (query, options) => retrieve(query, options).results;
 const includesPath = (results, fragment) => results.some((item) => item.citation.path.includes(fragment));
 
 const meta = getMeta();
-assert.equal(meta.snapshotDate, entities.snapshot_date);
-assert.equal(meta.indexVersion, 2);
+assert.equal(meta.indexVersion, 4);
 assert.ok(meta.counts.candidates >= 40);
 assert.ok(meta.counts.parties >= 25);
 assert.ok(meta.counts.documents >= 20);
@@ -20,8 +19,14 @@ assert.ok(meta.counts.proposals >= 25);
 assert.equal(meta.counts.markdownFiles, meta.counts.documents + meta.counts.proposals);
 
 const index = JSON.parse(fs.readFileSync(path.join(root, 'data', 'search-index.json'), 'utf8'));
+assert.equal(index.statusSnapshotDate, entities.snapshot_date, 'la date de statut doit rester distincte de la fraîcheur globale du corpus');
+assert.equal(meta.snapshotDate, index.corpusFreshnessDate, 'la date publique du snapshot doit refléter le dernier élément canonique daté ou capturé');
+assert.ok(meta.snapshotDate >= entities.snapshot_date, 'le snapshot public ne doit jamais être plus ancien que les statuts canoniques');
 for (const chunk of index.chunks.filter((item) => ['document', 'proposal'].includes(item.kind))) {
   assert.ok(fs.existsSync(path.join(root, chunk.path)), `indexed path must exist: ${chunk.path}`);
+  assert.ok(chunk.recordId, `versioned index record must expose recordId: ${chunk.path}`);
+  assert.ok(Array.isArray(chunk.supersedes), `supersedes must be normalized: ${chunk.path}`);
+  assert.ok(Array.isArray(chunk.supersededBy), `supersededBy must be normalized: ${chunk.path}`);
 }
 
 const declared = selectCandidates('Qui est déclaré candidat à ce stade ?');
@@ -63,7 +68,6 @@ assert.ok(includesPath(renaissanceNuclear, 'renaissance-14-epr-smr-2030.md'));
 const nuclearProposal = renaissanceNuclear.find((item) => item.citation.path.includes('renaissance-14-epr-smr-2030.md'));
 assert.equal(nuclearProposal?.citation.entityId, 'renaissance');
 
-// Natural out-of-corpus questions must return nothing instead of the least-bad political chunks.
 const formulaOne = retrieve('Parle moi de formule 1', { limit: 8 });
 assert.equal(formulaOne.results.length, 0);
 assert.equal(formulaOne.debug.answerable, false);
@@ -73,7 +77,6 @@ const medicalIst = retrieve('Donne moi des exemples de maladies type « IST »',
 assert.equal(medicalIst.results.length, 0);
 assert.equal(medicalIst.debug.answerable, false);
 
-// Candidate-list mode is also scope-gated: the word "candidat" alone is not enough.
 const formulaCandidates = retrieve('Quels sont les candidats de Formule 1 ?', { limit: 3 });
 assert.equal(formulaCandidates.results.length, 0);
 assert.equal(formulaCandidates.debug.answerable, false);
@@ -115,6 +118,8 @@ assert.ok(!/^ional\b/i.test(repaired));
 
 console.log('Production retrieval QA OK', {
   snapshotDate: meta.snapshotDate,
+  statusSnapshotDate: index.statusSnapshotDate,
+  indexVersion: meta.indexVersion,
   candidates: meta.counts.candidates,
   documents: meta.counts.documents,
   proposals: meta.counts.proposals,

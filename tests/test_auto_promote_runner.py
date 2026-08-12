@@ -1,18 +1,25 @@
+import hashlib
 import json
 from pathlib import Path
 import sys
 
+import pytest
+
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 
+import auto_promote  # noqa: E402
 from auto_promote_runner import (  # noqa: E402
     EXTRACTION_SCHEMA,
     VERIFICATION_SCHEMA,
+    _snapshot_source,
+    _wordpress_rest_source,
     backlog_candidate,
     current_cycle_event,
     date_supported_by_source,
     schema_for_prompt,
     state_backlog_events,
     strict_sanitize,
+    structured_backlog_events,
 )
 
 
@@ -97,29 +104,14 @@ def test_sanitize_rejects_status_when_effective_date_is_not_in_source():
 
 
 def test_backlog_keeps_programmatic_or_recent_urls():
-    assert backlog_candidate(
-        "https://parti.fr/notre-programme/retraites/",
-        {"lastmod": "2026-01-01"},
-    )
-    assert backlog_candidate(
-        "https://parti.fr/actualite-generique/",
-        {"lastmod": "2026-08-01T10:00:00Z"},
-    )
-    assert not backlog_candidate(
-        "https://parti.fr/ancienne-photo/",
-        {"lastmod": "2022-01-01"},
-    )
+    assert backlog_candidate("https://parti.fr/notre-programme/retraites/", {"lastmod": "2026-01-01"})
+    assert backlog_candidate("https://parti.fr/actualite-generique/", {"lastmod": "2026-08-01T10:00:00Z"})
+    assert not backlog_candidate("https://parti.fr/ancienne-photo/", {"lastmod": "2022-01-01"})
 
 
 def test_backlog_excludes_explicit_old_election_programmes():
-    assert not backlog_candidate(
-        "https://parti.fr/programme-europeennes-2024-mesure-9/",
-        {"lastmod": "2026-08-01T10:00:00Z"},
-    )
-    assert not backlog_candidate(
-        "https://parti.fr/presidentielle-2022/programme/",
-        {"lastmod": "2026-08-01T10:00:00Z"},
-    )
+    assert not backlog_candidate("https://parti.fr/programme-europeennes-2024-mesure-9/", {"lastmod": "2026-08-01T10:00:00Z"})
+    assert not backlog_candidate("https://parti.fr/presidentielle-2022/programme/", {"lastmod": "2026-08-01T10:00:00Z"})
 
 
 def test_generic_precycle_document_is_research_only_when_dated():
@@ -169,12 +161,139 @@ def test_state_backlog_survives_daily_event_overwrite(tmp_path):
     }
     path = tmp_path / "state.json"
     path.write_text(json.dumps(state), encoding="utf-8")
-
     events = state_backlog_events(path)
-
     assert len(events) == 1
     event = events[0]
     assert event["url"] == "https://parti.fr/notre-programme/retraites/"
     assert event["owner"] == "Parti Test"
     assert event["published_at"] == "2026-08-10T12:00:00Z"
     assert event["provenance"] == "durable_official_sitemap_backlog"
+
+
+def test_structured_backlog_survives_daily_jsonl_overwrite_and_keeps_transport(tmp_path):
+    state = {
+        "last_structured_primary_run_at": "2026-08-12T15:00:00+00:00",
+        "structured_primary_health": {
+            "programme": {
+                "owner": "Parti Test",
+                "status": 200,
+                "complete": True,
+                "checked_at": "2026-08-12T15:00:00+00:00",
+                "items": {
+                    "1": {
+                        "number": 1,
+                        "title": "Chapitre 1 : Test",
+                        "link": "https://parti.fr/programme/chapitre1/",
+                        "fetch_url": "https://parti.fr/programme/chapitre1/",
+                        "snapshot_path": "research/veille/structured/snapshots/programme/chapter-01.txt",
+                        "sha256": "abc123",
+                        "date": None,
+                    },
+                    "2": {
+                        "number": 2,
+                        "title": "Chapitre 2 : Test",
+                        "link": "https://parti.fr/programme/chapitre2/",
+                        "fetch_url": "https://parti.fr/programme/chapitre2/",
+                        "snapshot_path": "research/veille/structured/snapshots/programme/chapter-02.txt",
+                        "sha256": "def456",
+                        "date": None,
+                    },
+                },
+            }
+        },
+    }
+    path = tmp_path / "state.json"
+    path.write_text(json.dumps(state), encoding="utf-8")
+    events = structured_backlog_events(path)
+    assert len(events) == 2
+    assert {item["url"] for item in events} == {
+        "https://parti.fr/programme/chapitre1/",
+        "https://parti.fr/programme/chapitre2/",
+    }
+    assert all(item["snapshot_path"].startswith("research/veille/structured/snapshots/") for item in events)
+    assert all(item["fetch_url"].startswith("https://parti.fr/programme/chapitre") for item in events)
+    assert all(item["provenance"] == "durable_official_structured_primary_backlog" for item in events)
+
+
+def install_snapshot_root(monkeypatch, tmp_path):
+    fake_root = tmp_path / "repo"
+    snapshot_dir = fake_root / "research" / "veille" / "structured" / "snapshots" / "programme"
+    snapshot_dir.mkdir(parents=True)
+    monkeypatch.setattr(auto_promote, "ROOT", fake_root)
+    return fake_root, snapshot_dir
+
+
+def test_snapshot_transport_verifies_raw_hash_before_compacting_for_model(monkeypatch, tmp_path):
+    _, snapshot_dir = install_snapshot_root(monkeypatch, tmp_path)
+    raw = (
+        "Chapitre 1 : Test\n\n"
+        "Mesure A\nUne mesure politique explicitement documentée avec des modalités suffisamment détaillées pour constituer une vraie source de test.\n\n"
+        "Mesure B\nUne deuxième mesure précisément sourcée, accompagnée d'éléments supplémentaires afin de dépasser volontairement le seuil minimal de sécurité appliqué aux sources réelles."
+    )
+    path = snapshot_dir / "chapter-01.txt"
+    path.write_text(raw + "\n", encoding="utf-8")
+    expected = hashlib.sha256(raw.encode("utf-8")).hexdigest()
+    assert len(raw) > 180, "le fixture doit respecter le même seuil que les vraies sources"
+    source = _snapshot_source(
+        "https://parti.fr/programme/chapitre1/",
+        "research/veille/structured/snapshots/programme/chapter-01.txt",
+        expected,
+        10000,
+        "Chapitre 1 : Test",
+    )
+    assert source["url"] == "https://parti.fr/programme/chapitre1/"
+    assert source["kind"] == "official_html_snapshot"
+    assert source["sha256"] == expected
+    assert "\n" not in source["text"]
+    assert "Mesure A Une mesure politique" in source["text"]
+
+
+def test_snapshot_transport_rejects_any_tampering(monkeypatch, tmp_path):
+    _, snapshot_dir = install_snapshot_root(monkeypatch, tmp_path)
+    raw = "Chapitre 1 : Test\n" + ("Mesure politique explicite. " * 20)
+    path = snapshot_dir / "chapter-01.txt"
+    path.write_text(raw + "\n", encoding="utf-8")
+    with pytest.raises(ValueError, match="hash mismatch"):
+        _snapshot_source(
+            "https://parti.fr/programme/chapitre1/",
+            "research/veille/structured/snapshots/programme/chapter-01.txt",
+            "0" * 64,
+            10000,
+            "Chapitre 1 : Test",
+        )
+
+
+class FakeRestResponse:
+    status_code = 200
+    url = "https://parti.fr/wp-json/wp/v2/posts/101"
+    headers = {"content-type": "application/json; charset=UTF-8"}
+
+    def json(self):
+        return {
+            "id": 101,
+            "status": "publish",
+            "link": "https://parti.fr/2026/08/12/chapitre-1/",
+            "title": {"rendered": "Chapitre 1 : Test"},
+            "content": {"rendered": "<h2>Programme</h2><p>" + ("Nous proposons une mesure explicite. " * 20) + "</p>"},
+        }
+
+
+class FakeRestSession:
+    def get(self, url, timeout=30, allow_redirects=True):
+        assert url == "https://parti.fr/wp-json/wp/v2/posts/101"
+        return FakeRestResponse()
+
+
+def test_legacy_structured_rest_transport_remains_supported_for_existing_state():
+    source = _wordpress_rest_source(
+        FakeRestSession(),
+        "https://parti.fr/2026/08/12/chapitre-1/",
+        "https://parti.fr/wp-json/wp/v2/posts/101",
+        10000,
+    )
+    assert source["url"] == "https://parti.fr/2026/08/12/chapitre-1/"
+    assert source["fetch_url"] == "https://parti.fr/wp-json/wp/v2/posts/101"
+    assert source["kind"] == "wordpress_rest_json"
+    assert source["title"] == "Chapitre 1 : Test"
+    assert "Nous proposons une mesure explicite" in source["text"]
+    assert source["text_truncated"] is False

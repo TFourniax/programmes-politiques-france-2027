@@ -1,0 +1,225 @@
+name: Deploy preview smoke
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, ready_for_review]
+  workflow_dispatch:
+    inputs:
+      pr_number:
+        description: Pull request number to test
+        required: true
+        type: string
+
+permissions:
+  contents: read
+  pull-requests: read
+
+concurrency:
+  group: preview-smoke-${{ github.event.pull_request.number || inputs.pr_number }}
+  cancel-in-progress: true
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    env:
+      PR_NUMBER: ${{ github.event.pull_request.number || inputs.pr_number }}
+    steps:
+      - name: Resolve exact requested PR head
+        id: target
+        shell: bash
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          PULL_REQUEST_HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+          REPOSITORY: ${{ github.repository }}
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          import urllib.request
+
+          pr = os.environ["PR_NUMBER"].strip()
+          expected = os.environ.get("PULL_REQUEST_HEAD_SHA", "").strip()
+          if os.environ.get("EVENT_NAME") == "workflow_dispatch" or not expected:
+              request = urllib.request.Request(
+                  f"https://api.github.com/repos/{os.environ['REPOSITORY']}/pulls/{pr}",
+                  headers={
+                      "accept": "application/vnd.github+json",
+                      "authorization": f"Bearer {os.environ['GH_TOKEN']}",
+                      "x-github-api-version": "2022-11-28",
+                      "user-agent": "politique2027-preview-smoke/1.0",
+                  },
+              )
+              with urllib.request.urlopen(request, timeout=20) as response:
+                  payload = json.load(response)
+              expected = str(payload.get("head", {}).get("sha", "")).strip()
+          if not expected:
+              raise SystemExit(f"Unable to resolve head SHA for PR {pr}")
+          with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as output:
+              output.write(f"sha={expected}\n")
+          print(f"Resolved PR #{pr} head: {expected}")
+          PY
+
+      - name: Wait for exact Netlify Deploy Preview and exercise public runtime
+        shell: bash
+        env:
+          EXPECTED_HEAD_SHA: ${{ steps.target.outputs.sha }}
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          import time
+          import urllib.error
+          import urllib.request
+
+          pr = os.environ["PR_NUMBER"].strip()
+          expected_head = os.environ.get("EXPECTED_HEAD_SHA", "").strip()
+          base = f"https://deploy-preview-{pr}--politique2027.netlify.app"
+
+          def request(path, *, payload=None, ip=None, timeout=15):
+              data = None
+              headers = {"accept": "application/json", "user-agent": "politique2027-preview-smoke/1.0"}
+              method = "GET"
+              if payload is not None:
+                  data = json.dumps(payload, ensure_ascii=False).encode("utf-8")
+                  headers["content-type"] = "application/json"
+                  method = "POST"
+              if ip:
+                  headers["x-forwarded-for"] = ip
+              req = urllib.request.Request(base + path, data=data, headers=headers, method=method)
+              with urllib.request.urlopen(req, timeout=timeout) as response:
+                  body = response.read().decode("utf-8")
+                  if response.status != 200:
+                      raise RuntimeError(f"{path}: HTTP {response.status}")
+                  return json.loads(body)
+
+          health = None
+          last_error = None
+          for attempt in range(48):
+              try:
+                  candidate = request("/api/health", timeout=10)
+                  deployed_head = str(candidate.get("deployment", {}).get("commitRef", "")).strip()
+                  healthy = candidate.get("ok") is True and candidate.get("chat", {}).get("engine") == "deterministic-bm25-ontology-v4"
+                  exact_deploy = bool(expected_head) and deployed_head == expected_head
+                  if healthy and exact_deploy:
+                      health = candidate
+                      break
+                  if healthy:
+                      last_error = f"preview still on {deployed_head or 'unknown commit'}, waiting for {expected_head}"
+                  else:
+                      last_error = f"health not ready: {candidate}"
+              except Exception as exc:
+                  last_error = f"{type(exc).__name__}: {exc}"
+              time.sleep(10)
+          if health is None:
+              raise SystemExit(f"Exact Deploy Preview never became healthy: {last_error}")
+
+          chat = health["chat"]
+          assert health.get("deployment", {}).get("commitRef") == expected_head, health.get("deployment")
+          assert chat["responseGeneration"] == "deterministic_extractive", chat
+          assert chat["edgeRateLimit"] == {"requests": 30, "seconds": 60}, chat
+          assert chat["semanticFallback"]["role"] == "retrieval_interpretation_only", chat
+
+          history = request("/api/history?view=timeline&entity=renaissance&topic=nucleaire")
+          assert history["actor"]["id"] == "renaissance", history
+          assert history["topic"]["id"] == "nucleaire", history
+          assert history["timeline"], history
+          assert "jamais interprété" in history["methodologyNote"], history["methodologyNote"]
+
+          current = request(
+              "/api/chat",
+              payload={"question": "Quel projet propose d'abroger Parcoursup ?", "history": [], "sessionContext": {}},
+              ip="198.51.100.241",
+          )
+          assert current["generated"] is False, current
+          assert current["retrievalAssisted"] is False, current
+          assert current["answer"]["cards"], current
+          assert any(c.get("path") == "proposals/services-publics/ps-abrogation-parcoursup.md" for c in current["citations"]), current
+          inactive = {"superseded", "withdrawn", "archived", "rejected", "draft", "historical"}
+          assert all(str(c.get("documentStatus", "")).lower() not in inactive for c in current["citations"]), current
+
+          off_corpus = request(
+              "/api/chat",
+              payload={"question": "Que propose Renaissance sur l'énergie des licornes ?", "history": [], "sessionContext": {}},
+              ip="198.51.100.242",
+          )
+          assert off_corpus["generated"] is False, off_corpus
+          assert off_corpus["answer"]["cards"] == [], off_corpus
+          assert off_corpus["citations"] == [], off_corpus
+
+          # A normal technical synonym must be understood deterministically. A cautious
+          # provider response must never be necessary for everyday vocabulary.
+          fission = request(
+              "/api/chat",
+              payload={"question": "Que prévoit Renaissance pour la fission ?", "history": [], "sessionContext": {}},
+              ip="198.51.100.243",
+          )
+          assert fission["generated"] is False, fission
+          assert fission["retrievalAssisted"] is False, fission
+          assert fission["answer"]["cards"], fission
+          assert fission["citations"], fission
+          assert any(c.get("entityId") == "renaissance" for c in fission["citations"]), fission
+          assert all(str(c.get("documentStatus", "")).lower() not in inactive for c in fission["citations"]), fission
+
+          fallback = chat["semanticFallback"]
+          if fallback.get("enabled") and fallback.get("configured"):
+              probe = request(
+                  "/api/chat",
+                  payload={"question": "Que prévoit Renaissance pour les chaudières à neutrons ?", "history": [], "sessionContext": {}},
+                  ip="198.51.100.245",
+              )
+              assert probe["generated"] is False, probe
+              semantic = probe.get("retrieval", {}).get("semanticFallback") or {}
+              assert semantic.get("attempted") is True, probe
+              error = semantic.get("error")
+              assert error not in {"fallback_timeout", "fallback_circuit_open", "fallback_key_unavailable"}, probe
+              assert not str(error or "").startswith("fallback_http_"), probe
+              if probe["retrievalAssisted"]:
+                  assert semantic.get("accepted") is True, probe
+                  assert probe["answer"]["cards"], probe
+                  assert probe["citations"], probe
+                  assert all(str(c.get("documentStatus", "")).lower() not in inactive for c in probe["citations"]), probe
+                  assert "assistée" in probe["answer"].get("note", ""), probe["answer"]
+                  fallback_result = "real-provider-assisted"
+              else:
+                  # A prudent model may decline a rare metaphor; the product must then
+                  # refuse rather than hallucinate. This is a successful safe-degradation path.
+                  assert probe["answer"]["cards"] == [], probe
+                  assert probe["citations"] == [], probe
+                  assert error in {"fallback_not_confident", "fallback_refusal", "fallback_comparison_context_incomplete"}, probe
+                  fallback_result = f"real-provider-safe-decline:{error}"
+          else:
+              fallback_result = "not-configured-on-preview"
+
+          burst_questions = [
+              "Que propose Renaissance sur le nucléaire ?",
+              "Que propose le PS sur le SMIC ?",
+              "Quelles propositions sont documentées sur les retraites ?",
+              "Que propose David Lisnard sur les retraites ?",
+              "Quelles mesures sont documentées sur l'immigration ?",
+              "Que propose Équinoxe sur le climat ?",
+              "Quelles propositions concernent le pouvoir d'achat ?",
+              "Quel est le statut de David Lisnard ?",
+              "Que propose le corpus sur l'éducation ?",
+              "Quelles mesures sont documentées sur la fiscalité ?",
+          ]
+          for index, question in enumerate(burst_questions, start=1):
+              result = request(
+                  "/api/chat",
+                  payload={"question": question, "history": [], "sessionContext": {}},
+                  ip="198.51.100.244",
+              )
+              assert result["generated"] is False, (index, result)
+              assert result["engine"] == "deterministic-bm25-ontology-v4", (index, result)
+
+          print(json.dumps({
+              "preview": base,
+              "commitRef": health.get("deployment", {}).get("commitRef"),
+              "snapshotDate": health.get("snapshotDate"),
+              "fallback": fallback_result,
+              "burstRequests": len(burst_questions),
+              "watchStatus": health.get("watch", {}).get("status"),
+              "result": "ok"
+          }, ensure_ascii=False))
+          PY

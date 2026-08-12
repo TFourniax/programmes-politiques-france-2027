@@ -4,6 +4,7 @@ from __future__ import annotations
 import json
 import os
 import re
+import xml.etree.ElementTree as ET
 from html.parser import HTMLParser
 from pathlib import Path
 from typing import Any
@@ -303,7 +304,7 @@ def resolve_youtube_channel(
     }
 
 
-def youtube_items(
+def youtube_api_items(
     session: requests.Session,
     profile: dict[str, Any],
     api_key: str,
@@ -343,6 +344,107 @@ def youtube_items(
     return out, resolved
 
 
+YOUTUBE_ATOM = "{http://www.w3.org/2005/Atom}"
+YOUTUBE_YT = "{http://www.youtube.com/xml/schemas/2015}"
+YOUTUBE_MEDIA = "{http://search.yahoo.com/mrss/}"
+YOUTUBE_CHANNEL_PATTERN = re.compile(r"UC[A-Za-z0-9_-]{20,}")
+
+
+def _youtube_channel_id_from_html(text: str) -> str | None:
+    patterns = (
+        r'"channelId"\s*:\s*"(UC[A-Za-z0-9_-]{20,})"',
+        r'"externalId"\s*:\s*"(UC[A-Za-z0-9_-]{20,})"',
+        r'"browseId"\s*:\s*"(UC[A-Za-z0-9_-]{20,})"',
+        r'itemprop=["\']channelId["\'][^>]+content=["\'](UC[A-Za-z0-9_-]{20,})["\']',
+        r'youtube\.com/channel/(UC[A-Za-z0-9_-]{20,})',
+    )
+    for pattern in patterns:
+        match = re.search(pattern, text, flags=re.I)
+        if match:
+            return match.group(1)
+    return None
+
+
+def _youtube_channel_id(session: requests.Session, profile: dict[str, Any]) -> str:
+    if profile.get("identifier_type") == "channel_id":
+        identifier = str(profile.get("identifier") or "")
+        if YOUTUBE_CHANNEL_PATTERN.fullmatch(identifier):
+            return identifier
+    response = session.get(str(profile.get("profile_url") or ""), timeout=25)
+    response.raise_for_status()
+    channel_id = _youtube_channel_id_from_html(response.text)
+    if not channel_id:
+        raise ValueError("YouTube public profile did not expose a channel id")
+    return channel_id
+
+
+def youtube_public_items(
+    session: requests.Session,
+    profile: dict[str, Any],
+    limit: int,
+) -> tuple[list[dict[str, Any]], dict[str, str]]:
+    channel_id = _youtube_channel_id(session, profile)
+    feed_url = f"https://www.youtube.com/feeds/videos.xml?channel_id={channel_id}"
+    response = session.get(feed_url, timeout=25)
+    response.raise_for_status()
+    try:
+        root = ET.fromstring(response.content)
+    except ET.ParseError as exc:
+        raise ValueError(f"Invalid YouTube public Atom feed: {exc}") from exc
+
+    author = root.find(f"{YOUTUBE_ATOM}author")
+    channel_title = ""
+    if author is not None:
+        channel_title = str(author.findtext(f"{YOUTUBE_ATOM}name") or "").strip()
+    if not channel_title:
+        feed_title = str(root.findtext(f"{YOUTUBE_ATOM}title") or "").strip()
+        channel_title = re.sub(r"^Uploads from\s+", "", feed_title, flags=re.I).strip()
+
+    out: list[dict[str, Any]] = []
+    for entry in root.findall(f"{YOUTUBE_ATOM}entry")[: max(1, limit)]:
+        video_id = str(entry.findtext(f"{YOUTUBE_YT}videoId") or "").strip()
+        if not video_id:
+            continue
+        title = str(entry.findtext(f"{YOUTUBE_ATOM}title") or "").strip()
+        published_at = entry.findtext(f"{YOUTUBE_ATOM}published")
+        description = str(entry.findtext(f"{YOUTUBE_MEDIA}group/{YOUTUBE_MEDIA}description") or "").strip()
+        link = ""
+        for node in entry.findall(f"{YOUTUBE_ATOM}link"):
+            if node.attrib.get("rel", "alternate") == "alternate" and node.attrib.get("href"):
+                link = str(node.attrib["href"])
+                break
+        out.append({
+            "id": video_id,
+            "url": link or f"https://www.youtube.com/watch?v={video_id}",
+            "title": title or "Vidéo YouTube",
+            "text": f"{title}\n{description}".strip(),
+            "published_at": published_at,
+        })
+
+    resolved = {
+        "channel_id": channel_id,
+        "channel_title": channel_title or str(profile.get("entity_name") or ""),
+        "display_name": channel_title or str(profile.get("entity_name") or ""),
+        "feed_url": feed_url,
+        "youtube_transport": "public_atom_feed",
+    }
+    return out, resolved
+
+
+def youtube_items(
+    session: requests.Session,
+    profile: dict[str, Any],
+    api_key: str,
+    limit: int,
+) -> tuple[list[dict[str, Any]], dict[str, str] | None]:
+    try:
+        return youtube_public_items(session, profile, limit)
+    except (requests.RequestException, ValueError) as public_error:
+        if not api_key:
+            raise requests.RequestException(f"YouTube public feed unavailable: {public_error}") from public_error
+    return youtube_api_items(session, profile, api_key, limit)
+
+
 def collect_social_events(
     session: requests.Session,
     state: dict[str, Any],
@@ -366,8 +468,6 @@ def collect_social_events(
                 warnings.append(f"Bluesky {profile['profile_url']}: {exc}")
                 continue
         elif platform == "youtube" and youtube_cfg.get("enabled", True):
-            if not youtube_key:
-                continue
             try:
                 items, resolved = youtube_items(
                     session, profile, youtube_key,
@@ -424,7 +524,7 @@ def public_profile_snapshot(state: dict[str, Any], youtube_enabled: bool) -> lis
     for record in state.get("social_profiles", {}).values():
         copy = dict(record)
         if copy.get("platform") == "youtube" and not youtube_enabled:
-            copy["collection_state"] = "profile_verified_waiting_for_free_api_key"
+            copy["collection_state"] = "active_public_feed"
         elif copy.get("platform") == "x":
             copy["collection_state"] = "profile_verified_collection_disabled_cost_control"
         else:
@@ -483,8 +583,8 @@ def write_outputs(
     if not youtube_enabled and counts.get("youtube", 0):
         lines.extend([
             "## YouTube", "",
-            "Les chaînes officielles sont enregistrées mais la lecture API attend `YOUTUBE_API_KEY`.",
-            "Cette clé utilise le quota gratuit de YouTube Data API ; aucun budget payant n'est requis.", "",
+            "La collecte YouTube utilise le flux Atom public officiel sans clé.",
+            "`YOUTUBE_API_KEY` reste optionnelle et ne sert que de solution de secours.", "",
         ])
 
     if warnings:
@@ -520,7 +620,7 @@ def main() -> None:
     print(f"Discovered {len(profiles)} official social profile link(s)")
     print(f"Wrote {len(events)} relevant new official social event(s)")
     if not youtube_enabled:
-        print("YouTube collection skipped unless YOUTUBE_API_KEY is configured")
+        print("YouTube public Atom collection active; YOUTUBE_API_KEY is optional fallback")
 
 
 if __name__ == "__main__":

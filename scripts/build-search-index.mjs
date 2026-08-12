@@ -146,11 +146,17 @@ function relative(file) {
   return path.relative(ROOT, file).split(path.sep).join('/');
 }
 
+function listValue(value) {
+  if (value === null || value === undefined || value === '') return [];
+  return (Array.isArray(value) ? value : [value]).map((item) => String(item)).filter(Boolean);
+}
+
 const chunks = [];
 
 for (const candidate of entities.candidates) {
   chunks.push({
     id: `candidate:${candidate.id}`,
+    recordId: candidate.id,
     kind: 'candidate_status',
     entityId: candidate.id,
     entityLabel: candidate.name,
@@ -160,6 +166,10 @@ for (const candidate of entities.candidates) {
     sourceUrl: candidate.source_url || null,
     sourceTier: candidate.source_tier || null,
     documentStatus: 'current',
+    proposalStatus: null,
+    supersedes: [],
+    supersededBy: [],
+    sourceDocumentIds: [],
     candidateStatus: candidate.current_status,
     publishedAt: candidate.declared_at || candidate.status_as_of || entities.snapshot_date,
     confidence: candidate.status_confidence,
@@ -173,6 +183,7 @@ for (const candidate of entities.candidates) {
 for (const party of entities.parties) {
   chunks.push({
     id: `party:${party.id}`,
+    recordId: party.id,
     kind: 'party_profile',
     entityId: party.id,
     entityLabel: party.name,
@@ -182,6 +193,10 @@ for (const party of entities.parties) {
     sourceUrl: party.official_website || null,
     sourceTier: party.official_website ? 'tier_1_primary_official' : null,
     documentStatus: 'current',
+    proposalStatus: null,
+    supersedes: [],
+    supersededBy: [],
+    sourceDocumentIds: [],
     candidateStatus: null,
     publishedAt: entities.snapshot_date,
     confidence: party.official_website ? 'high' : 'medium',
@@ -202,15 +217,23 @@ for (const file of markdownFiles) {
   const filePath = relative(file);
   const isProposal = filePath.startsWith('proposals/');
   const entityId = meta.entity_id || null;
+  const recordId = isProposal ? (meta.proposal_id || filePath) : (meta.document_id || filePath);
   const title = meta.title || cleanMarkdown(body.match(/^#\s+(.+)$/m)?.[1] || path.basename(file, '.md'));
   const sourceUrl = meta.source_url || meta.primary_source_url || null;
-  const topics = [meta.topic, meta.subtopic, meta.document_type, meta.document_status].flat().filter(Boolean);
+  const proposalStatus = isProposal ? (meta.proposal_status || null) : null;
+  // A proposal's own lifecycle is authoritative for current-vs-history filtering.
+  // document_status is still retained as a fallback for legacy proposal files that do not yet expose proposal_status.
+  const documentStatus = isProposal
+    ? (proposalStatus || meta.document_status || 'current')
+    : (meta.document_status || 'unknown');
+  const topics = [meta.topic, meta.subtopic, meta.document_type, documentStatus].flat().filter(Boolean);
   const blocks = sectionedParagraphs(body);
   const bodyChunks = chunkBlocks(blocks);
 
   bodyChunks.forEach((item, index) => {
     chunks.push({
-      id: `${isProposal ? (meta.proposal_id || filePath) : (meta.document_id || filePath)}#${index + 1}`,
+      id: `${recordId}#${index + 1}`,
+      recordId,
       kind: isProposal ? 'proposal' : 'document',
       entityId,
       entityLabel: entityLabel(entityId),
@@ -219,7 +242,11 @@ for (const file of markdownFiles) {
       path: filePath,
       sourceUrl,
       sourceTier: meta.source_tier || null,
-      documentStatus: meta.document_status || (isProposal ? (meta.proposal_status || 'current') : 'unknown'),
+      documentStatus,
+      proposalStatus,
+      supersedes: listValue(meta.supersedes),
+      supersededBy: listValue(meta.superseded_by),
+      sourceDocumentIds: listValue(meta.source_document_ids || meta.source_document_id),
       candidateStatus: candidateStatus(entityId),
       publishedAt: meta.published_at || meta.first_documented_at || null,
       confidence: meta.verification_state === 'verified' ? 'high' : candidateConfidence(entityId),
@@ -239,11 +266,12 @@ const counts = {
   markdownFiles: markdownFiles.length,
   chunks: chunks.length,
   documentChunks: chunks.filter((item) => item.kind === 'document').length,
-  proposalChunks: chunks.filter((item) => item.kind === 'proposal').length
+  proposalChunks: chunks.filter((item) => item.kind === 'proposal').length,
+  historicalPolicyRecords: new Set(chunks.filter((item) => ['document', 'proposal'].includes(item.kind) && ['superseded', 'withdrawn', 'archived', 'rejected', 'draft'].includes(String(item.documentStatus || '').toLowerCase())).map((item) => item.path)).size
 };
 
 const output = {
-  version: 2,
+  version: 3,
   builtAt: new Date().toISOString(),
   snapshotDate: entities.snapshot_date,
   election: entities.election,

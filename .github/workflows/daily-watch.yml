@@ -13,6 +13,8 @@ on:
       - 'registries/parties.yaml'
       - 'registries/candidates.yaml'
       - 'scripts/daily_watch.py'
+      - 'scripts/direct_feed_watch.py'
+      - 'scripts/structured_primary_watch.py'
       - 'scripts/gdelt_watch.py'
       - 'scripts/social_watch.py'
       - 'scripts/prune_social_profiles.py'
@@ -24,6 +26,9 @@ on:
       - 'scripts/update_source_health.py'
       - 'scripts/update_watch_health.py'
       - 'scripts/check_watch_health.py'
+      - 'tests/test_daily_watch.py'
+      - 'tests/test_direct_feed_watch.py'
+      - 'tests/test_structured_primary_watch.py'
       - 'tests/test_auto_promote.py'
       - 'tests/test_auto_promote_runner.py'
       - 'tests/test_prune_social_profiles.py'
@@ -44,11 +49,11 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 60
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
         with:
           fetch-depth: 0
 
-      - uses: actions/setup-python@v6
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
         with:
           python-version: '3.12'
           cache: pip
@@ -102,6 +107,12 @@ jobs:
       - name: Collect official web changes
         run: python scripts/daily_watch.py --no-gdelt
 
+      - name: Collect direct official feeds
+        run: python scripts/direct_feed_watch.py
+
+      - name: Collect complete structured primary sources
+        run: python scripts/structured_primary_watch.py
+
       - name: Update official source health
         run: python scripts/update_source_health.py
 
@@ -143,6 +154,8 @@ jobs:
           python scripts/validate.py
           pytest -q \
             tests/test_daily_watch.py \
+            tests/test_direct_feed_watch.py \
+            tests/test_structured_primary_watch.py \
             tests/test_gdelt_watch.py \
             tests/test_social_watch.py \
             tests/test_prune_social_profiles.py \
@@ -153,19 +166,21 @@ jobs:
             tests/test_update_source_health.py \
             tests/test_watch_health.py
 
-      - name: Detect canonical changes
+      - name: Detect canonical changes including new files
         id: canonical
         shell: bash
         run: |
-          if git diff --quiet -- data/entities.json registries/candidates.yaml corpus/2027 proposals; then
+          CANONICAL_STATUS="$(git status --porcelain --untracked-files=all -- data/entities.json registries/candidates.yaml corpus/2027 proposals)"
+          if [ -z "$CANONICAL_STATUS" ]; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
             echo "No canonical political change in this run."
           else
             echo "changed=true" >> "$GITHUB_OUTPUT"
             echo "Canonical political data changed; running full production gates."
+            printf '%s\n' "$CANONICAL_STATUS"
           fi
 
-      - uses: actions/setup-node@v6
+      - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
         if: steps.canonical.outputs.changed == 'true'
         with:
           node-version: '22'

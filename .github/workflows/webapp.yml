@@ -27,20 +27,22 @@ permissions:
   contents: read
 
 concurrency:
-  group: webapp-${{ github.ref }}
+  # A stale/cancelling validation from an older PR head must never block the
+  # exact SHA we are trying to release. Main pushes still share one ref group.
+  group: webapp-${{ github.event_name == 'pull_request' && github.event.pull_request.head.sha || github.ref }}
   cancel-in-progress: true
 
 jobs:
   production-gates:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 35
     steps:
-      - uses: actions/checkout@v6
-      - uses: actions/setup-node@v6
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+      - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
         with:
           node-version: '22'
           cache: npm
-      - uses: actions/setup-python@v6
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
         with:
           python-version: '3.12'
           cache: pip
@@ -60,7 +62,39 @@ jobs:
         run: npm run build
       - name: Install Playwright Chromium
         run: npx playwright install --with-deps chromium
-      - name: Browser acceptance tests
+      - name: Browser acceptance — homepage modes
         env:
           CI: 'true'
-        run: npm run test:e2e
+        run: npx playwright test --grep "homepage exposes"
+      - name: Browser acceptance — explorer and history UI
+        env:
+          CI: 'true'
+        run: npx playwright test --grep "personality, comparison"
+      - name: Browser acceptance — dense mobile layouts
+        env:
+          CI: 'true'
+        run: npx playwright test --grep "dense public views remain"
+      - name: Browser acceptance — health API
+        env:
+          CI: 'true'
+        run: npx playwright test --grep "health endpoint"
+      - name: Browser acceptance — history API
+        env:
+          CI: 'true'
+        run: npx playwright test --grep "history API"
+      - name: Browser acceptance — chat safety and conversation
+        env:
+          CI: 'true'
+        run: npx playwright test --grep "chat endpoint preserves"
+      - name: Browser acceptance — sustained human usage and abuse cap
+        env:
+          CI: 'true'
+        run: npx playwright test --grep "server rate limit allows"
+      - name: Browser acceptance — per-answer source binding
+        env:
+          CI: 'true'
+        run: npx playwright test --grep "each visible answer keeps"
+      - name: Browser acceptance — human-facing source labels and freshness copy
+        env:
+          CI: 'true'
+        run: npx playwright test tests/e2e/source-labels.spec.js

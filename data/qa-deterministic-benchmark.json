@@ -1,0 +1,77 @@
+{
+  "version": 2,
+  "description": "Benchmark de robustesse du moteur déterministe : formulations exactes, paraphrases sémantiques, questions larges et refus hors corpus.",
+  "positive": [
+    {"id":"smic-2000-exact","question":"Qui propose un SMIC à 2 000 euros ?","expectedAny":["proposals/pouvoir-achat-travail/anasse-kazib-smic-2000.md"]},
+    {"id":"smic-2000-paraphrase","question":"Quel candidat veut monter le salaire minimum à deux mille euros ?","expectedAny":["proposals/pouvoir-achat-travail/anasse-kazib-smic-2000.md"]},
+    {"id":"smic-2000-worker","question":"Qui défend un salaire minimum de 2000 euros pour les travailleurs ?","expectedAny":["proposals/pouvoir-achat-travail/anasse-kazib-smic-2000.md"]},
+
+    {"id":"ps-smic-exact","question":"Quel projet propose de porter le SMIC à 1 690 euros net ?","expectedAny":["proposals/pouvoir-achat-travail/ps-smic-1690.md"]},
+    {"id":"ps-smic-entity","question":"Que prévoit le PS pour le montant du SMIC ?","expectedAny":["proposals/pouvoir-achat-travail/ps-smic-1690.md"]},
+    {"id":"ps-smic-paraphrase","question":"Quel programme socialiste prévoit 1690 euros nets de salaire minimum ?","expectedAny":["proposals/pouvoir-achat-travail/ps-smic-1690.md"]},
+
+    {"id":"school-map-exact","question":"Qui propose de supprimer la carte scolaire ?","expectedAny":["proposals/services-publics/david-lisnard-suppression-carte-scolaire.md"]},
+    {"id":"school-map-paraphrase","question":"Qui veut en finir avec l'affectation des élèves par carte scolaire ?","expectedAny":["proposals/services-publics/david-lisnard-suppression-carte-scolaire.md"]},
+    {"id":"school-map-entity","question":"Quelle est la position de David Lisnard sur la carte scolaire ?","expectedAny":["proposals/services-publics/david-lisnard-suppression-carte-scolaire.md"]},
+
+    {"id":"retirement-hardjobs-exact","question":"Qui propose la retraite à 60 ans et à 55 ans pour les métiers pénibles ?","expectedAny":["proposals/retraites/anasse-kazib-60-55.md"]},
+    {"id":"retirement-hardjobs-semantic","question":"Qui veut permettre aux métiers pénibles de partir plus tôt à la retraite ?","expectedAny":["proposals/retraites/anasse-kazib-60-55.md"]},
+    {"id":"retirement-hardjobs-entity","question":"Que propose Anasse Kazib pour l'âge de départ à la retraite ?","expectedAny":["proposals/retraites/anasse-kazib-60-55.md"]},
+
+    {"id":"parcoursup-exact","question":"Quel projet propose d'abroger Parcoursup ?","expectedAny":["proposals/services-publics/ps-abrogation-parcoursup.md"]},
+    {"id":"parcoursup-postbac","question":"Qui veut remplacer la sélection post-bac actuelle par un autre système public ?","expectedAny":["proposals/services-publics/ps-abrogation-parcoursup.md"]},
+    {"id":"parcoursup-university","question":"Comment le PS veut-il réformer l'accès à l'université ?","expectedAny":["proposals/services-publics/ps-abrogation-parcoursup.md"]},
+    {"id":"parcoursup-human","question":"Quel parti veut remplacer Parcoursup par une procédure nationale et publique ?","expectedAny":["proposals/services-publics/ps-abrogation-parcoursup.md"]},
+
+    {"id":"capitalisation-exact","question":"Qui défend une composante de capitalisation pour la retraite ?","expectedAny":["proposals/retraites/david-lisnard-capitalisation.md"]},
+    {"id":"capitalisation-savings","question":"Qui veut introduire davantage d'épargne financière dans le système de retraites ?","expectedAny":["proposals/retraites/david-lisnard-capitalisation.md","proposals/retraites/renaissance-retraite-investissement.md"]},
+    {"id":"capitalisation-lisnard","question":"David Lisnard veut-il une part de retraite financée par capitalisation ?","expectedAny":["proposals/retraites/david-lisnard-capitalisation.md"]},
+
+    {"id":"carbon-exact","question":"Quel projet propose des quotas carbone individuels ?","expectedAny":["proposals/ecologie-energie/equinoxe-quotas-carbone-individuels.md"]},
+    {"id":"carbon-budget","question":"Qui veut attribuer à chacun un budget personnel d'émissions de CO2 ?","expectedAny":["proposals/ecologie-energie/equinoxe-quotas-carbone-individuels.md"]},
+    {"id":"carbon-entity","question":"Que propose Équinoxe pour limiter les émissions carbone individuelles ?","expectedAny":["proposals/ecologie-energie/equinoxe-quotas-carbone-individuels.md"]},
+
+    {"id":"immigration-law-exact","question":"Quel projet prévoit une loi pluriannuelle sur l'immigration et l'intégration ?","expectedAny":["proposals/immigration-integration/ps-loi-pluriannuelle-immigration.md"]},
+    {"id":"immigration-law-semantic","question":"Quelle proposition concerne une loi de programmation de l'immigration sur plusieurs années ?","expectedAny":["proposals/immigration-integration/ps-loi-pluriannuelle-immigration.md"]},
+    {"id":"immigration-law-entity","question":"Que veut faire le PS pour programmer la politique d'immigration dans le temps ?","expectedAny":["proposals/immigration-integration/ps-loi-pluriannuelle-immigration.md"]},
+
+    {"id":"nuclear-exact","question":"Quel projet propose de construire 14 EPR et de lancer un plan SMR 2030 ?","expectedAny":["proposals/ecologie-energie/renaissance-14-epr-smr-2030.md"]},
+    {"id":"nuclear-atom","question":"Quel projet veut développer fortement l'atome avec de nouveaux réacteurs ?","expectedAny":["proposals/ecologie-energie/renaissance-14-epr-smr-2030.md"]},
+    {"id":"nuclear-entity","question":"Que propose Renaissance pour développer le nucléaire ?","expectedAny":["proposals/ecologie-energie/renaissance-14-epr-smr-2030.md"]},
+
+    {"id":"curfew-exact","question":"Quel projet propose un couvre-feu numérique pour les 15-18 ans entre 22 h et 8 h ?","expectedAny":["proposals/securite-justice/renaissance-couvre-feu-numerique-mineurs.md"]},
+    {"id":"curfew-semantic","question":"Qui veut couper l'accès numérique des mineurs pendant la nuit ?","expectedAny":["proposals/securite-justice/renaissance-couvre-feu-numerique-mineurs.md"]},
+    {"id":"curfew-entity","question":"Quelle mesure Renaissance prévoit pour limiter les écrans des adolescents la nuit ?","expectedAny":["proposals/securite-justice/renaissance-couvre-feu-numerique-mineurs.md"]},
+
+    {"id":"investment-retirement-exact","question":"Quel projet propose de compléter la retraite par répartition par une retraite par investissement ?","expectedAny":["proposals/retraites/renaissance-retraite-investissement.md"]},
+    {"id":"investment-retirement-semantic","question":"Quel parti veut ajouter une retraite fondée sur l'investissement au système par répartition ?","expectedAny":["proposals/retraites/renaissance-retraite-investissement.md"]},
+    {"id":"investment-retirement-entity","question":"Que propose Renaissance sur l'investissement dans le financement des retraites ?","expectedAny":["proposals/retraites/renaissance-retraite-investissement.md"]},
+
+    {"id":"broad-purchasing-power","question":"Quelles propositions documentées concernent le pouvoir d'achat et les salaires ?","expectedAny":["proposals/pouvoir-achat-travail/anasse-kazib-smic-2000.md","proposals/pouvoir-achat-travail/ps-smic-1690.md"]},
+    {"id":"broad-retirement","question":"Quelles sont les propositions documentées sur les retraites ?","expectedAny":["proposals/retraites/anasse-kazib-60-55.md","proposals/retraites/david-lisnard-capitalisation.md","proposals/retraites/renaissance-retraite-investissement.md"]},
+    {"id":"broad-higher-education","question":"Quelles mesures documentées concernent l'enseignement supérieur ?","expectedAny":["proposals/services-publics/ps-abrogation-parcoursup.md"]},
+    {"id":"broad-climate","question":"Quelles propositions portent sur le carbone et le climat ?","expectedAny":["proposals/ecologie-energie/equinoxe-quotas-carbone-individuels.md"]}
+  ],
+  "negative": [
+    "Parle-moi de Formule 1",
+    "Donne-moi des exemples de maladies type IST",
+    "Quelle est la meilleure recette de tiramisu ?",
+    "Quel est le score du PSG ce soir ?",
+    "Quel temps fera-t-il demain à Marseille ?",
+    "Quel est le prix du Bitcoin aujourd'hui ?",
+    "Quel iPhone dois-je acheter ?",
+    "Apprends-moi les accords de guitare",
+    "Quels sont les candidats de Formule 1 ?",
+    "Que propose le PS sur la maladie de Lyme ?",
+    "Que propose Renaissance sur la conquête de Mars ?",
+    "Que veut faire le RN pour le championnat de tennis ATP ?",
+    "Que propose David Lisnard sur les dinosaures ?",
+    "Quels candidats préfèrent le chocolat noir ?",
+    "Qui propose de gagner la Coupe du monde de football ?",
+    "Que disent les programmes sur l'astrologie ?",
+    "Quel candidat recommande une marque de lave-linge ?",
+    "Que propose le PS sur les maladies sexuellement transmissibles ?",
+    "Quels partis veulent construire un parc Disneyland ?",
+    "Compare LFI et le RN sur les meilleurs restaurants de Paris"
+  ]
+}

@@ -259,7 +259,6 @@ def monitor_sources(
         previous = state["sources"].get(url)
         try:
             result = fetch(session, url)
-            fetched[url] = result
         except requests.RequestException as exc:
             errors.append(f"{url}: {exc}")
             events.append(event(
@@ -269,7 +268,20 @@ def monitor_sources(
             continue
 
         status = int(result["status"])
-        if status >= 400 and status not in {401, 403, 405, 429}:
+        if status >= 400:
+            # An HTTP error page is never political content. Preserve the last valid hash
+            # so recovery is compared against the real source, not a WAF/rate-limit page.
+            current = dict(previous or {})
+            current.update({
+                "status": status,
+                "resolved_url": result["url"],
+                "content_type": result["content_type"],
+                "checked_at": iso_now(),
+                "owner": target["owner"],
+                "kind": target["kind"],
+                "last_fetch_error": f"HTTP {status}",
+            })
+            state["sources"][url] = current
             errors.append(f"{url}: HTTP {status}")
             events.append(event(
                 "source_fetch_error", url=url, owner=target["owner"],
@@ -278,6 +290,7 @@ def monitor_sources(
             ))
             continue
 
+        fetched[url] = result
         sha, excerpt = hash_payload(result["raw"], result["content_type"], result["encoding"])
         current = {
             "sha256": sha,
@@ -292,7 +305,7 @@ def monitor_sources(
             "excerpt": excerpt,
         }
 
-        if previous and previous.get("sha256") != sha:
+        if previous and previous.get("sha256") and previous.get("sha256") != sha:
             events.append(event(
                 "official_source_changed",
                 url=result["url"], owner=target["owner"],
