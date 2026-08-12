@@ -4,9 +4,16 @@ on:
   pull_request:
     paths:
       - '.github/workflows/temporary-production-readiness-probe.yml'
+      - '.github/workflows/daily-watch.yml'
       - 'registries/watch.yaml'
+      - 'registries/parties.yaml'
+      - 'registries/sources.yaml'
+      - 'scripts/daily_watch.py'
       - 'scripts/direct_feed_watch.py'
+      - 'scripts/gdelt_watch.py'
       - 'scripts/update_source_health.py'
+      - 'tests/test_direct_feed_watch.py'
+      - 'tests/test_update_source_health.py'
   workflow_dispatch:
 
 permissions:
@@ -15,7 +22,7 @@ permissions:
 jobs:
   probe:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 12
     steps:
       - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
       - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
@@ -32,50 +39,62 @@ jobs:
           printf '%s\n' "$CANONICAL_STATUS"
           echo "$CANONICAL_STATUS" | grep -q 'proposals/auto/__readiness_probe__/probe.md'
           rm -rf proposals/auto/__readiness_probe__
-      - name: Inspect LFI programme sitemap structure
+          test -z "$(git status --porcelain --untracked-files=all -- data/entities.json registries/candidates.yaml corpus/2027 proposals)"
+      - name: Run production watch collection locally without promotion or push
+        shell: bash
+        run: |
+          python scripts/daily_watch.py --no-gdelt --no-google
+          python scripts/direct_feed_watch.py
+          python scripts/update_source_health.py
+          python scripts/gdelt_watch.py
+      - name: Assert operational primary-source coverage
         shell: bash
         run: |
           python - <<'PY'
+          import datetime as dt
           import json
-          import urllib.request
-          import xml.etree.ElementTree as ET
+          import re
+          from pathlib import Path
 
-          headers = {
-              'User-Agent': 'programmes-politiques-france-2027-watch/1.0 (+https://github.com/TFourniax/programmes-politiques-france-2027)',
-              'Accept-Language': 'fr,en;q=0.7',
-          }
-          index_url = 'https://melenchon2027.fr/sitemap_index.xml'
-          with urllib.request.urlopen(urllib.request.Request(index_url, headers=headers), timeout=20) as response:
-              raw = response.read()
-              assert response.status == 200
-          root = ET.fromstring(raw)
-          children = [
-              (node.text or '').strip()
-              for node in root.iter()
-              if node.tag.rsplit('}', 1)[-1].lower() == 'loc' and (node.text or '').strip()
-          ]
-          print('LFI_SITEMAP_CHILDREN=' + json.dumps(children, ensure_ascii=False))
-          assert children, 'empty sitemap index'
-          coverage = []
-          for child_url in children[:12]:
-              with urllib.request.urlopen(urllib.request.Request(child_url, headers=headers), timeout=20) as response:
-                  child_raw = response.read()
-                  assert response.status == 200
-              child = ET.fromstring(child_raw)
-              urls = []
-              for url_node in child:
-                  loc = None
-                  lastmod = None
-                  for field in list(url_node):
-                      name = field.tag.rsplit('}', 1)[-1].lower()
-                      if name == 'loc': loc = (field.text or '').strip()
-                      if name == 'lastmod': lastmod = (field.text or '').strip()
-                  if loc and '/programme2025/' in loc:
-                      urls.append({'url': loc, 'lastmod': lastmod})
-              if urls:
-                  coverage.append({'sitemap': child_url, 'programme_urls': urls[:10], 'count': len(urls)})
-          print('LFI_PROGRAMME_SITEMAP_COVERAGE=' + json.dumps(coverage, ensure_ascii=False))
-          assert coverage, 'no sitemap child covers /programme2025/'
+          base = Path('research/veille')
+          health = json.loads((base / 'source-health.json').read_text(encoding='utf-8'))
+          pcf = health['sources']['https://www.pcf.fr/']
+          lfi = health['sources']['https://melenchon2027.fr/programme2025/livre/']
+          assert pcf['status'] == 'ok_via_official_feed', pcf
+          assert 'actualites.rss' in pcf.get('alternate_url', ''), pcf
+          assert lfi['status'] in {'ok', 'ok_via_official_feed'}, lfi
+          if lfi['status'] == 'ok_via_official_feed':
+              assert lfi.get('alternate_url') in {
+                  'https://melenchon2027.fr/feed/',
+                  'https://lafranceinsoumise.fr/feed/',
+              }, lfi
+          assert health['persistent_failure_count'] == 0, health.get('persistent_failures')
+
+          state = json.loads((base / 'state.json').read_text(encoding='utf-8'))
+          direct = state.get('direct_feed_health') or {}
+          for url in [
+              'https://pcf.nationbuilder.com/actualites.rss',
+              'https://melenchon2027.fr/feed/',
+              'https://lafranceinsoumise.fr/feed/',
+          ]:
+              assert int((direct.get(url) or {}).get('status') or 0) == 200, (url, direct.get(url))
+
+          day = dt.datetime.now(dt.timezone.utc).date().isoformat()
+          press = (base / 'press' / f'{day}.md').read_text(encoding='utf-8')
+          summary = re.search(r'- (\d+) requête\(s\) GDELT batchée\(s\) ;.*?- (\d+) avertissement\(s\) technique\(s\)\.', press, re.S)
+          assert summary, press
+          requests_made, warnings = map(int, summary.groups())
+          assert requests_made <= 4, (requests_made, press)
+          print('PRODUCTION_WATCH_PROBE=' + json.dumps({
+              'persistentFailures': health['persistent_failure_count'],
+              'pcf': pcf['status'],
+              'pcfAlternate': pcf.get('alternate_url'),
+              'lfi': lfi['status'],
+              'lfiAlternate': lfi.get('alternate_url'),
+              'directFeedsHealthy': 3,
+              'gdeltRequests': requests_made,
+              'gdeltWarnings': warnings,
+          }, ensure_ascii=False))
           PY
-      - name: Run targeted feed and health tests
-        run: pytest -q tests/test_direct_feed_watch.py tests/test_update_source_health.py
+      - name: Run targeted watch tests
+        run: pytest -q tests/test_daily_watch.py tests/test_direct_feed_watch.py tests/test_gdelt_watch.py tests/test_update_source_health.py
