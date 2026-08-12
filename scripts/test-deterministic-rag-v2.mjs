@@ -107,7 +107,13 @@ assert.ok(
 
 const carbon = retrieveDeterministic("Qui veut attribuer à chacun un budget personnel d'émissions de CO2 ?", { limit: 10 }).results;
 assert.ok(carbon.some((item) => item.citation?.path === 'proposals/ecologie-energie/equinoxe-quotas-carbone-individuels.md'));
-assert.deepEqual([...entitySet(carbon)], ['equinoxe'], 'specific personal-carbon-budget paraphrase must not activate generic budget/climate cards');
+assert.ok(
+  carbon.every((item) => {
+    const text = normalized(`${item.citation?.title || ''}. ${item.text || ''}`);
+    return /quota[s]? carbone individuel|budget personnel d.?emissions|compte carbone individuel/.test(text);
+  }),
+  'specific personal-carbon-budget paraphrase must only return evidence about individual carbon budgets, while allowing future legitimate actors'
+);
 
 const comparison = retrieveDeterministic('Compare David Lisnard et Renaissance sur les retraites', { limit: 14 }).results;
 assert.ok(comparison.some((item) => item.citation?.entityId === 'david-lisnard'));
