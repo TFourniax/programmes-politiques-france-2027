@@ -96,6 +96,9 @@ assert.ok(deterministic.hitAt5 >= legacy.hitAt5, `deterministic retrieval regres
 
 assert.equal(retrieveDeterministic('Quels sont les candidats officiels ?', { limit: 3 }).debug.answerable, true);
 assert.equal(retrieveDeterministic('Quels sont les candidats de Formule 1 ?', { limit: 3 }).debug.answerable, false);
+const bitcoin = retrieveDeterministic("Quel est le prix du Bitcoin aujourd'hui ?", { limit: 3 });
+assert.equal(bitcoin.debug.answerable, false);
+assert.equal(bitcoin.debug.reason, 'out_of_scope_no_political_anchor');
 assert.ok(retrieveDeterministic("Que proposent-ils pour le pouvoir d'achat ?", { limit: 8 }).debug.concepts.some((item) => item.id === 'pouvoir-achat'));
 
 const parcoursup = retrieveDeterministic("Quel projet propose d'abroger Parcoursup ?", { limit: 10 }).results;
