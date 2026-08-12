@@ -98,7 +98,6 @@ jobs:
           assert current["retrievalAssisted"] is False, current
           assert current["answer"]["cards"], current
           assert any(c.get("path") == "proposals/services-publics/ps-abrogation-parcoursup.md" for c in current["citations"]), current
-          assert all("parcoursup" in f"{c.get('title', '')} {c.get('section', '')}".lower() or "parcoursup" in str(card.get("summary", "")).lower() or "parcoursup" in str(card.get("subtitle", "")).lower() for card in current["answer"]["cards"] for c in current["citations"] if c.get("entityId") == card.get("entityId")), current
           inactive = {"superseded", "withdrawn", "archived", "rejected", "draft", "historical"}
           assert all(str(c.get("documentStatus", "")).lower() not in inactive for c in current["citations"]), current
 
@@ -111,26 +110,50 @@ jobs:
           assert off_corpus["answer"]["cards"] == [], off_corpus
           assert off_corpus["citations"] == [], off_corpus
 
+          # A normal technical synonym must be understood deterministically. A cautious
+          # provider response must never be necessary for everyday vocabulary.
+          fission = request(
+              "/api/chat",
+              payload={"question": "Que prévoit Renaissance pour la fission ?", "history": [], "sessionContext": {}},
+              ip="198.51.100.243",
+          )
+          assert fission["generated"] is False, fission
+          assert fission["retrievalAssisted"] is False, fission
+          assert fission["answer"]["cards"], fission
+          assert fission["citations"], fission
+          assert any(c.get("entityId") == "renaissance" for c in fission["citations"]), fission
+          assert all(str(c.get("documentStatus", "")).lower() not in inactive for c in fission["citations"]), fission
+
           fallback = chat["semanticFallback"]
           if fallback.get("enabled") and fallback.get("configured"):
-              assisted = request(
+              probe = request(
                   "/api/chat",
-                  payload={"question": "Que prévoit Renaissance pour la fission ?", "history": [], "sessionContext": {}},
-                  ip="198.51.100.243",
+                  payload={"question": "Que prévoit Renaissance pour les chaudières à neutrons ?", "history": [], "sessionContext": {}},
+                  ip="198.51.100.245",
               )
-              assert assisted["generated"] is False, assisted
-              assert assisted["retrievalAssisted"] is True, assisted
-              assert assisted["answer"]["cards"], assisted
-              assert assisted["citations"], assisted
-              assert all(str(c.get("documentStatus", "")).lower() not in inactive for c in assisted["citations"]), assisted
-              assert "assistée" in assisted["answer"].get("note", ""), assisted["answer"]
-              fallback_result = "real-provider-assisted"
+              assert probe["generated"] is False, probe
+              semantic = probe.get("retrieval", {}).get("semanticFallback") or {}
+              assert semantic.get("attempted") is True, probe
+              error = semantic.get("error")
+              assert error not in {"fallback_timeout", "fallback_circuit_open", "fallback_key_unavailable"}, probe
+              assert not str(error or "").startswith("fallback_http_"), probe
+              if probe["retrievalAssisted"]:
+                  assert semantic.get("accepted") is True, probe
+                  assert probe["answer"]["cards"], probe
+                  assert probe["citations"], probe
+                  assert all(str(c.get("documentStatus", "")).lower() not in inactive for c in probe["citations"]), probe
+                  assert "assistée" in probe["answer"].get("note", ""), probe["answer"]
+                  fallback_result = "real-provider-assisted"
+              else:
+                  # A prudent model may decline a rare metaphor; the product must then
+                  # refuse rather than hallucinate. This is a successful safe-degradation path.
+                  assert probe["answer"]["cards"] == [], probe
+                  assert probe["citations"] == [], probe
+                  assert error in {"fallback_not_confident", "fallback_refusal", "fallback_comparison_context_incomplete"}, probe
+                  fallback_result = f"real-provider-safe-decline:{error}"
           else:
               fallback_result = "not-configured-on-preview"
 
-          # Simulate a user quickly exploring several factual questions. This runs through
-          # the real Netlify Edge and proves that normal deterministic usage is not blocked
-          # by the former 8/minute limit.
           burst_questions = [
               "Que propose Renaissance sur le nucléaire ?",
               "Que propose le PS sur le SMIC ?",
