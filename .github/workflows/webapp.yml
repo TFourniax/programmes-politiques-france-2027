@@ -27,7 +27,9 @@ permissions:
   contents: read
 
 concurrency:
-  group: webapp-${{ github.ref }}
+  # A stale/cancelling validation from an older PR head must never block the
+  # exact SHA we are trying to release. Main pushes still share one ref group.
+  group: webapp-${{ github.event_name == 'pull_request' && github.event.pull_request.head.sha || github.ref }}
   cancel-in-progress: true
 
 jobs:
