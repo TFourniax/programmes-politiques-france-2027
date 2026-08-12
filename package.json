@@ -10,7 +10,7 @@
     "build": "next build",
     "start": "next start",
     "validate:data": "python scripts/validate.py && pytest -q",
-    "test:retrieval": "node scripts/build-search-index.mjs && node scripts/enrich-search-index-metadata.mjs && node scripts/propagate-search-index-dates.mjs && node scripts/test-retrieval.mjs && node scripts/test-temporal-provenance.mjs && node scripts/test-human-answer-quality.mjs && node scripts/test-compass.mjs && node scripts/test-explorer.mjs && node scripts/test-benchmark.mjs && node scripts/test-deterministic-rag-v2.mjs && node scripts/audit-deterministic-rag-v4.mjs && node scripts/test-semantic-fallback-suggestions.mjs && node scripts/test-product-hardening.mjs && node scripts/test-ontology-coverage.mjs && node scripts/simulate-deterministic-answers.mjs",
+    "test:retrieval": "node scripts/build-search-index.mjs && node scripts/enrich-search-index-metadata.mjs && node scripts/propagate-search-index-dates.mjs && node scripts/test-retrieval.mjs && node scripts/test-temporal-provenance.mjs && node scripts/test-human-answer-quality.mjs && node scripts/test-human-language-regressions.mjs && node scripts/test-compass.mjs && node scripts/test-explorer.mjs && node scripts/test-benchmark.mjs && node scripts/test-deterministic-rag-v2.mjs && node scripts/audit-deterministic-rag-v4.mjs && node scripts/test-semantic-fallback-suggestions.mjs && node scripts/test-product-hardening.mjs && node scripts/test-ontology-coverage.mjs && node scripts/simulate-deterministic-answers.mjs",
     "test:explorer": "node scripts/build-search-index.mjs && node scripts/enrich-search-index-metadata.mjs && node scripts/propagate-search-index-dates.mjs && node scripts/test-explorer.mjs",
     "test:e2e": "playwright test"
   },
