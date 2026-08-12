@@ -92,3 +92,7 @@ jobs:
         env:
           CI: 'true'
         run: npx playwright test --grep "each visible answer keeps"
+      - name: Browser acceptance — human-facing source labels and freshness copy
+        env:
+          CI: 'true'
+        run: npx playwright test tests/e2e/source-labels.spec.js
