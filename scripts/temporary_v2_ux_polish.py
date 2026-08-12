@@ -16,6 +16,10 @@ replacements = [
         '<textarea value={question} onChange={e=>setQuestion(e.target.value)} onKeyDown={e=>{if(e.key==="Enter"&&!e.shiftKey){e.preventDefault();ask();}}} placeholder="Ex. Compare les positions documentées sur les retraites…"/><button className="send" onClick={()=>ask()} disabled={loading || !question.trim()}>↑</button>',
         '<textarea aria-label="Votre question" value={question} onChange={e=>setQuestion(e.target.value)} onKeyDown={e=>{if(e.key==="Enter"&&!e.shiftKey){e.preventDefault();ask();}}} placeholder="Ex. Compare les positions documentées sur les retraites…"/><button className="send" type="button" aria-label="Envoyer la question" title="Envoyer la question" onClick={()=>ask()} disabled={loading || !question.trim()}>↑</button>'
     ),
+    (
+        'writeSearchParams(safe);',
+        'writeSearchParams(safe, {}, [], { history: "push" });'
+    ),
 ]
 
 changed = False
@@ -29,6 +33,22 @@ for old, new in replacements:
 
 if changed:
     chat.write_text(text, encoding='utf-8')
+
+shared = Path('components/ExplorerShared.js')
+shared_text = shared.read_text(encoding='utf-8')
+old_signature = 'export function writeSearchParams(mode, updates = {}, clear = []) {'
+new_signature = 'export function writeSearchParams(mode, updates = {}, clear = [], options = {}) {'
+if new_signature not in shared_text:
+    if old_signature not in shared_text:
+        raise SystemExit('Expected writeSearchParams signature not found')
+    shared_text = shared_text.replace(old_signature, new_signature, 1)
+old_write = '  window.history.replaceState({}, "", `${url.pathname}${url.search}${url.hash}`);'
+new_write = '  const method = options.history === "push" ? "pushState" : "replaceState";\n  window.history[method]({}, "", `${url.pathname}${url.search}${url.hash}`);'
+if new_write not in shared_text:
+    if old_write not in shared_text:
+        raise SystemExit('Expected history write not found')
+    shared_text = shared_text.replace(old_write, new_write, 1)
+shared.write_text(shared_text, encoding='utf-8')
 
 ux_test = '''import { test, expect } from '@playwright/test';
 
@@ -72,7 +92,7 @@ test('a failed request is explained in plain language without leaking technical 
   await expect(page.getByText('Service indisponible')).toBeVisible();
 });
 
-test('mode navigation is reversible with browser history', async ({ page }) => {
+test('mode navigation is reversible with browser history while filters stay lightweight', async ({ page }) => {
   await page.goto('/?mode=chat');
   await page.getByRole('button', { name: /^Historique/ }).click();
   await expect(page).toHaveURL(/mode=history/);
@@ -82,6 +102,9 @@ test('mode navigation is reversible with browser history', async ({ page }) => {
   await page.goBack();
   await expect(page).toHaveURL(/mode=history/);
   await expect(page.getByText('Historique des positions')).toBeVisible();
+  await page.goForward();
+  await expect(page).toHaveURL(/mode=chat/);
+  await expect(page.getByText('Questionner le corpus')).toBeVisible();
 });
 
 test('a contextual suggestion behaves like a real next user question', async ({ page }) => {
