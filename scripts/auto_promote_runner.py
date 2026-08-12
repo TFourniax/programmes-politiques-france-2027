@@ -92,10 +92,6 @@ MONTHS_FR = {
     7: "juillet", 8: "aout", 9: "septembre", 10: "octobre", 11: "novembre", 12: "decembre",
 }
 
-# Public URLs remain the canonical identity. The transport record can either reference
-# a full official REST endpoint (legacy compatibility) or a local snapshot captured
-# moments earlier from all direct official HTML section pages. The snapshot hash must
-# match the structured-health record before Gemini is allowed to see it.
 STRUCTURED_SOURCE_BY_PUBLIC: dict[str, dict[str, Any]] = {}
 STRUCTURED_FETCH_BY_PUBLIC: dict[str, str] = {}
 
@@ -240,7 +236,6 @@ def state_backlog_events(state_path: Path | None = None) -> list[dict[str, Any]]
 
 
 def structured_backlog_events(state_path: Path | None = None) -> list[dict[str, Any]]:
-    """Recreate durable full-primary events so a per-run limit can never lose chapters."""
     state = _load_watch_state(state_path)
     out: list[dict[str, Any]] = []
     for source_id, source in (state.get("structured_primary_health") or {}).items():
@@ -317,12 +312,13 @@ def _snapshot_source(public_url: str, snapshot: str, expected_sha: str | None, m
         raise ValueError("structured snapshot path outside approved research directory")
     if not path.exists() or not path.is_file():
         raise ValueError(f"structured snapshot missing: {snapshot}")
-    full_text = auto_promote.compact(path.read_text(encoding="utf-8"))
-    if len(full_text) < 180:
-        raise ValueError("structured primary snapshot text too short")
-    actual_sha = hashlib.sha256(full_text.encode("utf-8")).hexdigest()
+    raw_text = path.read_text(encoding="utf-8").rstrip("\n")
+    actual_sha = hashlib.sha256(raw_text.encode("utf-8")).hexdigest()
     if expected_sha and actual_sha != expected_sha:
         raise ValueError("structured primary snapshot hash mismatch")
+    full_text = auto_promote.compact(raw_text)
+    if len(full_text) < 180:
+        raise ValueError("structured primary snapshot text too short")
     if len(full_text) > max_chars:
         raise ValueError("structured primary snapshot exceeds configured safe extraction limit")
     return {
