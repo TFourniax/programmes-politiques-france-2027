@@ -62,6 +62,7 @@ export async function GET() {
         generatedAt: watchHealth.generated_at,
         lastCollectionSuccessAt: watchHealth.last_collection_success_at,
         lastDirectFeedRunAt: watchHealth.last_direct_feed_run_at || null,
+        lastStructuredPrimaryRunAt: watchHealth.last_structured_primary_run_at || null,
         lastPromotionRunAt: watchHealth.last_promotion_run_at,
         geminiAvailable: watchHealth.gemini_available,
         pendingWork: watchHealth.pending_work,
@@ -69,6 +70,7 @@ export async function GET() {
         coveredOfficialSourceWarnings: watchHealth.covered_official_source_warnings_last_run || 0,
         uncoveredOfficialSourceWarnings: watchHealth.uncovered_official_source_warnings_last_run || 0,
         equivalentPrimaryCoverage: watchHealth.equivalent_primary_coverage_count || 0,
+        structuredPrimaryCoverage: watchHealth.structured_primary_coverage_count || 0,
         alternateOfficialFeedCoverage: watchHealth.alternate_official_feed_coverage_count || 0,
         persistentOfficialSourceFailures: watchHealth.persistent_official_source_failures || 0,
         reasons: watchHealth.reasons || []
