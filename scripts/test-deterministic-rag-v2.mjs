@@ -99,7 +99,11 @@ assert.equal(retrieveDeterministic('Quels sont les candidats de Formule 1 ?', { 
 assert.ok(retrieveDeterministic("Que proposent-ils pour le pouvoir d'achat ?", { limit: 8 }).debug.concepts.some((item) => item.id === 'pouvoir-achat'));
 
 const parcoursup = retrieveDeterministic("Quel projet propose d'abroger Parcoursup ?", { limit: 10 }).results;
-assert.deepEqual([...entitySet(parcoursup)], ['parti-socialiste'], 'Parcoursup answer must stay scoped to the PS evidence actually retrieved');
+assert.ok(parcoursup.some((item) => item.citation?.path === 'proposals/services-publics/ps-abrogation-parcoursup.md'), 'the known PS Parcoursup proposal must remain retrievable');
+assert.ok(
+  parcoursup.every((item) => normalized(`${item.citation?.title || ''}. ${item.text || ''}`).includes('parcoursup')),
+  'Parcoursup query must only return evidence that explicitly mentions Parcoursup'
+);
 
 const carbon = retrieveDeterministic("Qui veut attribuer à chacun un budget personnel d'émissions de CO2 ?", { limit: 10 }).results;
 assert.ok(carbon.some((item) => item.citation?.path === 'proposals/ecologie-energie/equinoxe-quotas-carbone-individuels.md'));
