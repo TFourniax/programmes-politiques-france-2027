@@ -46,48 +46,41 @@ jobs:
               'https://pcf.nationbuilder.com/',
               'https://pcf.nationbuilder.com/actualites',
               'https://pcf.nationbuilder.com/sitemap.xml',
+              'https://pcf.nationbuilder.com/actualites.rss',
+              'https://pcf.nationbuilder.com/actualites.atom',
+              'https://pcf.nationbuilder.com/actualites.json',
+              'https://pcf.nationbuilder.com/actualites?format=json',
+              'https://pcf.nationbuilder.com/actualites?format=rss',
               'https://assets.nationbuilder.com/pcf/pages/2819/attachments/original/1784790181/base_commune_finale_40e_congres_ppp.pdf',
           ]
-          profiles = {
-              'watch': {
-                  'User-Agent': 'programmes-politiques-france-2027-watch/1.0 (+https://github.com/TFourniax/programmes-politiques-france-2027)',
-                  'Accept-Language': 'fr,en;q=0.7',
-              },
-              'browser': {
-                  'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36',
-                  'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8',
-                  'Accept-Language': 'fr-FR,fr;q=0.9,en;q=0.7',
-                  'Cache-Control': 'no-cache',
-                  'Pragma': 'no-cache',
-              },
+          headers = {
+              'User-Agent': 'programmes-politiques-france-2027-watch/1.0 (+https://github.com/TFourniax/programmes-politiques-france-2027)',
+              'Accept-Language': 'fr,en;q=0.7',
           }
 
           results = []
           for url in urls:
-              for profile, headers in profiles.items():
-                  req = urllib.request.Request(url, headers=headers)
-                  try:
-                      with urllib.request.urlopen(req, timeout=20) as response:
-                          body = response.read(5000)
-                          results.append({
-                              'url': url,
-                              'profile': profile,
-                              'status': response.status,
-                              'resolved': response.geturl(),
-                              'content_type': response.headers.get('content-type', ''),
-                              'sample': body[:180].decode('utf-8', errors='replace').replace('\n', ' '),
-                          })
-                  except urllib.error.HTTPError as exc:
-                      body = exc.read(5000)
+              req = urllib.request.Request(url, headers=headers)
+              try:
+                  with urllib.request.urlopen(req, timeout=20) as response:
+                      body = response.read(5000)
                       results.append({
                           'url': url,
-                          'profile': profile,
-                          'status': exc.code,
-                          'resolved': exc.geturl(),
-                          'content_type': exc.headers.get('content-type', ''),
-                          'sample': body[:180].decode('utf-8', errors='replace').replace('\n', ' '),
+                          'status': response.status,
+                          'resolved': response.geturl(),
+                          'content_type': response.headers.get('content-type', ''),
+                          'sample': body[:220].decode('utf-8', errors='replace').replace('\n', ' '),
                       })
-                  except Exception as exc:
-                      results.append({'url': url, 'profile': profile, 'error': f'{type(exc).__name__}: {exc}'})
+              except urllib.error.HTTPError as exc:
+                  body = exc.read(5000)
+                  results.append({
+                      'url': url,
+                      'status': exc.code,
+                      'resolved': exc.geturl(),
+                      'content_type': exc.headers.get('content-type', ''),
+                      'sample': body[:220].decode('utf-8', errors='replace').replace('\n', ' '),
+                  })
+              except Exception as exc:
+                  results.append({'url': url, 'error': f'{type(exc).__name__}: {exc}'})
           print('SOURCE_PROBE=' + json.dumps(results, ensure_ascii=False))
           PY
