@@ -140,6 +140,34 @@ def test_raw_warning_covered_by_equivalent_primary_url_stays_healthy():
     assert health["reasons"] == []
 
 
+def test_complete_structured_primary_coverage_is_observable_without_degrading_health():
+    health = build_health(
+        {
+            "last_run_at": "2026-08-12T14:00:00+00:00",
+            "last_structured_primary_run_at": "2026-08-12T14:01:00+00:00",
+            "last_run_error_count": 2,
+        },
+        {"sources": {}},
+        {"events": {}},
+        {},
+        True,
+        generated_at="2026-08-12T14:03:00+00:00",
+        source_health={
+            "persistent_failure_count": 0,
+            "raw_failure_count": 2,
+            "covered_failure_count": 2,
+            "uncovered_failure_count": 0,
+            "structured_primary_coverage_count": 2,
+        },
+    )
+    assert health["status"] == "healthy"
+    assert health["structured_primary_coverage_count"] == 2
+    assert health["last_structured_primary_run_at"] == "2026-08-12T14:01:00+00:00"
+    assert health["covered_official_source_warnings_last_run"] == 2
+    assert health["uncovered_official_source_warnings_last_run"] == 0
+    assert health["reasons"] == []
+
+
 def test_uncovered_transient_warning_still_degrades_health():
     health = build_health(
         {"last_run_at": "2026-08-11T10:00:00+00:00", "last_run_error_count": 1},
