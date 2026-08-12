@@ -157,12 +157,14 @@ jobs:
         id: canonical
         shell: bash
         run: |
-          if git diff --quiet -- data/entities.json registries/candidates.yaml corpus/2027 proposals; then
+          CANONICAL_STATUS="$(git status --porcelain --untracked-files=all -- data/entities.json registries/candidates.yaml corpus/2027 proposals)"
+          if [ -z "$CANONICAL_STATUS" ]; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
             echo "No canonical political change in this run."
           else
             echo "changed=true" >> "$GITHUB_OUTPUT"
             echo "Canonical political data changed; running full production gates."
+            printf '%s\n' "$CANONICAL_STATUS"
           fi
 
       - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
