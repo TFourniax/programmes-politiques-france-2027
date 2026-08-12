@@ -1,9 +1,10 @@
 from pathlib import Path
 import sys
+from urllib.parse import parse_qs, urlsplit
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 
-from structured_primary_watch import visible_text, wordpress_chapters  # noqa: E402
+from structured_primary_watch import fetch_wordpress_rows, visible_text, wordpress_chapters  # noqa: E402
 from update_source_health import healthy_structured_primary_coverage, update_records  # noqa: E402
 
 
@@ -97,28 +98,62 @@ class FakeSession:
         return FakeResponse(self.rows)
 
 
-def chapter_row(number):
+def chapter_row(number, *, old_cycle=False):
+    link = (
+        f"https://melenchon2027.fr/programme-partage-nupes-2022/chapitre-{number}/"
+        if old_cycle else f"https://melenchon2027.fr/chapitre-{number}-test/"
+    )
     return {
-        "id": 1000 + number,
-        "date": "2026-08-12T10:00:00",
-        "modified": f"2026-08-12T10:{number:02d}:00",
+        "id": (500 if old_cycle else 1000) + number,
+        "date": "2022-06-01T10:00:00" if old_cycle else "2026-08-12T10:00:00",
+        "modified": "2026-08-12T11:00:00" if old_cycle else f"2026-08-12T10:{number:02d}:00",
         "status": "publish",
-        "link": f"https://melenchon2027.fr/2026/08/12/chapitre-{number}-test/",
+        "link": link,
         "title": {"rendered": f"Chapitre {number} : Test {number}"},
         "content": {"rendered": f"<p>{'Mesure politique documentée. ' * 30}</p>"},
     }
 
 
-def test_new_chapter_above_known_baseline_is_automatically_ingested():
-    session = FakeSession([chapter_row(number) for number in range(1, 20)])
-    chapters, health = wordpress_chapters(session, {
+def structured_config(**extra):
+    return {
         "id": "test",
         "owner": "Parti test",
         "api_base": "https://melenchon2027.fr",
         "minimum_expected_chapters": 18,
         "min_content_chars": 500,
-        "coverage_urls": ["https://melenchon2027.fr/programme/"],
-    })
+        "link_pattern": r"^https://melenchon2027\.fr/chapitre-[0-9]+-",
+        **extra,
+    }
+
+
+def test_wordpress_fetch_uses_minimal_stable_query_contract():
+    session = FakeSession([chapter_row(1)])
+    rows, _, _ = fetch_wordpress_rows(session, "https://melenchon2027.fr", structured_config())
+    assert len(rows) == 1
+    query = parse_qs(urlsplit(session.urls[0]).query)
+    assert query["search"] == ["Chapitre"]
+    assert query["per_page"] == ["100"]
+    assert "after" not in query
+    assert "orderby" not in query
+    assert "order" not in query
+
+
+def test_archived_chapter_with_same_number_never_replaces_current_cycle():
+    rows = [chapter_row(number) for number in range(1, 19)]
+    # This archive is deliberately marked as more recently modified than the current
+    # chapter. URL scope must win over WordPress metadata recency.
+    rows.append(chapter_row(7, old_cycle=True))
+    chapters, health = wordpress_chapters(FakeSession(rows), structured_config())
+    assert health["complete"] is True
+    assert health["out_of_scope_items"] == 1
+    assert chapters[6]["link"] == "https://melenchon2027.fr/chapitre-7-test/"
+
+
+def test_new_chapter_above_known_baseline_is_automatically_ingested():
+    session = FakeSession([chapter_row(number) for number in range(1, 20)])
+    chapters, health = wordpress_chapters(session, structured_config(
+        coverage_urls=["https://melenchon2027.fr/programme/"]
+    ))
     assert len(chapters) == 19
     assert health["complete"] is True
     assert health["item_count"] == 19
@@ -130,13 +165,7 @@ def test_new_chapter_above_known_baseline_is_automatically_ingested():
 
 def test_gap_in_extended_chapter_sequence_is_unhealthy():
     rows = [chapter_row(number) for number in range(1, 20) if number != 18]
-    chapters, health = wordpress_chapters(FakeSession(rows), {
-        "id": "test",
-        "owner": "Parti test",
-        "api_base": "https://melenchon2027.fr",
-        "minimum_expected_chapters": 18,
-        "min_content_chars": 500,
-    })
+    chapters, health = wordpress_chapters(FakeSession(rows), structured_config())
     assert len(chapters) == 18
     assert health["highest_chapter_number"] == 19
     assert health["contiguous"] is False
