@@ -35,6 +35,9 @@ export async function GET() {
     return NextResponse.json({
       ok: true,
       runtime: "nodejs",
+      deployment: {
+        commitRef: process.env.DEPLOY_COMMIT_REF || ""
+      },
       snapshotDate: meta.snapshotDate,
       counts: meta.counts,
       indexVersion: meta.indexVersion,
