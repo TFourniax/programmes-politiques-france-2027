@@ -23,9 +23,9 @@ gdelt:
   batch_size: 9
   max_records_per_batch: 75
   keep_per_entity: 3
-  request_delay_seconds: 2.5
-  max_retries: 3
-  retry_backoff_seconds: 5
+  request_delay_seconds: 3.0
+  max_retries: 1
+  retry_backoff_seconds: 8
   allow_unlisted_domains: false
   trusted_press_domains:
     - afp.com
