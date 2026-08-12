@@ -1,5 +1,5 @@
 name: Temporary structured promotion E2E
-# Readiness probe: run against the current dual REST transport implementation.
+# Release proof: official HTML sections -> hashed snapshot -> Gemini -> canonical files -> full product gates.
 
 on:
   pull_request:
@@ -10,6 +10,8 @@ on:
       - 'scripts/auto_promote.py'
       - 'scripts/auto_promote_runner.py'
       - 'scripts/validate.py'
+      - 'tests/test_structured_primary_watch.py'
+      - 'tests/test_auto_promote_runner.py'
       - 'package.json'
       - 'lib/**'
       - 'app/**'
@@ -23,7 +25,7 @@ permissions:
 jobs:
   promote-real-primary:
     runs-on: ubuntu-latest
-    timeout-minutes: 35
+    timeout-minutes: 40
     steps:
       - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
       - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
@@ -39,6 +41,7 @@ jobs:
         run: |
           python - <<'PY'
           import datetime as dt
+          import hashlib
           import json
           from pathlib import Path
           import yaml
@@ -48,10 +51,15 @@ jobs:
           state = json.loads(state_path.read_text(encoding='utf-8'))
           structured = (state.get('structured_primary_health') or {}).get('lfi-programme-chapters') or {}
           assert structured.get('complete') is True, structured
+          assert structured.get('transport') == 'official_html_chapter_sections', structured
           assert int(structured.get('item_count') or 0) >= 18, structured
           items = list((structured.get('items') or {}).values())
-          selected = next((item for item in items if int(item.get('number') or 0) == 3), None)
-          selected = selected or min(items, key=lambda item: int(item.get('text_chars') or 10**9))
+          assert items, structured
+          selected = min(items, key=lambda item: int(item.get('text_chars') or 10**9))
+          snapshot = Path(selected['snapshot_path'])
+          assert snapshot.is_file(), selected
+          raw = snapshot.read_text(encoding='utf-8').rstrip('\n')
+          assert hashlib.sha256(raw.encode('utf-8')).hexdigest() == selected['sha256'], selected
           event = {
               'event_type': 'official_new_url',
               'observed_at': structured.get('checked_at'),
@@ -62,9 +70,10 @@ jobs:
               'title': selected.get('title'),
               'url': selected.get('link'),
               'fetch_url': selected.get('fetch_url'),
+              'snapshot_path': selected.get('snapshot_path'),
               'sha256': selected.get('sha256'),
               'verification_state': 'needs_review',
-              'provenance': 'official_wordpress_rest_full_primary_content',
+              'provenance': 'official_html_full_primary_sections',
               'structured_source_id': 'lfi-programme-chapters',
               'structured_item_number': selected.get('number'),
           }
@@ -73,16 +82,25 @@ jobs:
           state['official_seen_urls'] = {}
           state['structured_primary_health']['lfi-programme-chapters']['items'] = {str(selected['number']): selected}
           state_path.write_text(json.dumps(state, ensure_ascii=False, indent=2, sort_keys=True) + '\n', encoding='utf-8')
-          (base / 'promotion-state.json').write_text(json.dumps({'version': 2, 'sources': {}, 'claims': {}, 'source_chunks': {}}, indent=2) + '\n', encoding='utf-8')
+          (base / 'promotion-state.json').write_text(json.dumps({
+              'version': 2,
+              'sources': {},
+              'claim_fingerprints': {},
+              'source_chunks': {},
+          }, indent=2) + '\n', encoding='utf-8')
 
           config_path = Path('registries/watch.yaml')
           config = yaml.safe_load(config_path.read_text(encoding='utf-8'))
           config['auto_promotion']['max_sources_per_run'] = 1
-          config['auto_promotion']['max_chunks_per_source_per_run'] = 8
+          config['auto_promotion']['max_chunks_per_source_per_run'] = 32
           config_path.write_text(yaml.safe_dump(config, allow_unicode=True, sort_keys=False), encoding='utf-8')
-          print('STRUCTURED_PROMOTION_SOURCE=' + json.dumps(event, ensure_ascii=False))
+          print('STRUCTURED_PROMOTION_SOURCE=' + json.dumps({
+              **event,
+              'text_chars': selected.get('text_chars'),
+              'section_count': selected.get('section_count'),
+          }, ensure_ascii=False))
           PY
-      - name: Promote the real official chapter through Gemini
+      - name: Promote the exact captured primary chapter through Gemini
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
@@ -92,14 +110,17 @@ jobs:
         shell: bash
         run: |
           python - <<'PY'
+          import datetime as dt
           import json
           from pathlib import Path
 
+          day = dt.datetime.now(dt.timezone.utc).date().isoformat()
           base = Path('research/veille')
-          report = json.loads((base / 'promotion-report.json').read_text(encoding='utf-8'))
+          report = json.loads((base / 'promotion' / f'{day}.json').read_text(encoding='utf-8'))
           assert report.get('processed') == 1, report
           assert report.get('promoted', 0) == 1, report
           assert report.get('proposals_created', 0) >= 1, report
+          assert not report.get('errors'), report
           result = next(item for item in report.get('results', []) if item.get('status') == 'promoted')
           assert result.get('document'), result
           assert result.get('proposals'), result
@@ -110,6 +131,7 @@ jobs:
               'document': result['document'],
               'proposals': result['proposals'],
               'verifiedAt': result.get('verified_at'),
+              'chunks': result.get('chunks_total'),
           }, ensure_ascii=False))
           PY
           CANONICAL_STATUS="$(git status --porcelain --untracked-files=all -- data/entities.json registries/candidates.yaml corpus/2027 proposals)"
