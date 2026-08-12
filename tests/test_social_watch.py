@@ -7,6 +7,7 @@ from social_watch import (  # noqa: E402
     extract_social_profiles,
     relevant_social_text,
     social_profile_from_url,
+    youtube_public_items,
 )
 
 
@@ -49,3 +50,49 @@ def test_social_relevance_is_conservative_but_broad():
     assert relevant_social_text("Je propose une réforme des retraites pour 2027")
     assert relevant_social_text("Notre priorité est le pouvoir d'achat et le logement")
     assert not relevant_social_text("Merci à toutes et tous pour cette belle soirée !")
+
+
+class _FakeYoutubeResponse:
+    def __init__(self, *, text="", content=b""):
+        self.text = text
+        self.content = content or text.encode("utf-8")
+
+    def raise_for_status(self):
+        return None
+
+
+class _FakeYoutubeSession:
+    def get(self, url, **kwargs):
+        if "youtube.com/@ExampleParty" in url:
+            return _FakeYoutubeResponse(
+                text='<html><body><script>{"channelId":"UCabcdefghijklmnopqrstuv"}</script></body></html>'
+            )
+        if "feeds/videos.xml" in url:
+            return _FakeYoutubeResponse(content="""<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns:media="http://search.yahoo.com/mrss/">
+  <author><name>Example Party</name></author>
+  <entry>
+    <yt:videoId>video123</yt:videoId>
+    <title>Notre programme pour 2027</title>
+    <link rel="alternate" href="https://www.youtube.com/watch?v=video123"/>
+    <published>2026-08-12T12:00:00+00:00</published>
+    <media:group><media:description>Nous proposons une réforme des retraites.</media:description></media:group>
+  </entry>
+</feed>""".encode("utf-8"))
+        raise AssertionError(url)
+
+
+def test_youtube_public_atom_feed_needs_no_api_key():
+    profile = {
+        "identifier_type": "handle",
+        "identifier": "@ExampleParty",
+        "profile_url": "https://www.youtube.com/@ExampleParty",
+        "entity_name": "Example Party",
+    }
+    items, resolved = youtube_public_items(_FakeYoutubeSession(), profile, 5)
+    assert resolved["channel_id"] == "UCabcdefghijklmnopqrstuv"
+    assert resolved["display_name"] == "Example Party"
+    assert resolved["youtube_transport"] == "public_atom_feed"
+    assert len(items) == 1
+    assert items[0]["id"] == "video123"
+    assert "réforme des retraites" in items[0]["text"]

@@ -12,6 +12,7 @@ from urllib.parse import urlsplit
 import requests
 
 from common import ROOT
+from social_watch import youtube_public_items
 
 USER_AGENT = "programmes-politiques-france-2027-social-identity/1.0"
 
@@ -117,12 +118,20 @@ def verify_profile(session: requests.Session, record: dict[str, Any], youtube_ke
             })
 
     elif platform == "youtube":
-        if not youtube_key:
+        public_error = None
+        resolved = None
+        try:
+            _, resolved = youtube_public_items(session, record, 1)
+        except (requests.RequestException, ValueError) as exc:
+            public_error = exc
+        if resolved:
+            verified = identity_name_matches(entity_name, resolved.get("display_name") or resolved.get("channel_title"))
+            out.update(resolved)
             out.update({
-                "identity_state": "unverified_waiting_for_youtube_api_key",
-                "identity_method": "youtube_api_required_for_identity_check",
+                "identity_state": "verified" if verified else "rejected_identity_mismatch",
+                "identity_method": "official_site_link_plus_youtube_public_feed_identity",
             })
-        else:
+        elif youtube_key:
             try:
                 resolved = resolve_youtube(session, record, youtube_key)
                 if not resolved:
@@ -132,14 +141,20 @@ def verify_profile(session: requests.Session, record: dict[str, Any], youtube_ke
                     out.update(resolved)
                     out.update({
                         "identity_state": "verified" if verified else "rejected_identity_mismatch",
-                        "identity_method": "official_site_link_plus_youtube_channel_identity",
+                        "identity_method": "official_site_link_plus_youtube_api_identity_fallback",
                     })
             except (requests.RequestException, ValueError) as exc:
                 out.update({
                     "identity_state": "verification_unavailable",
-                    "identity_method": "youtube_channel_lookup_failed",
-                    "identity_error": f"{type(exc).__name__}: {exc}",
+                    "identity_method": "youtube_identity_lookup_failed",
+                    "identity_error": f"public={public_error}; api={type(exc).__name__}: {exc}",
                 })
+        else:
+            out.update({
+                "identity_state": "verification_unavailable",
+                "identity_method": "youtube_public_feed_identity_unavailable",
+                "identity_error": f"{type(public_error).__name__}: {public_error}" if public_error else "public feed unavailable",
+            })
 
     elif platform == "x":
         # Aucun appel X payant : un lien trouvé dans une page officielle peut provenir
