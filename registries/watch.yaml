@@ -1,4 +1,4 @@
-version: 7
+version: 8
 enabled: true
 
 official_discovery:
@@ -22,8 +22,8 @@ official_direct_feeds:
     source_tier: tier_1_primary_official
 
 # Représentations primaires complètes publiées par les sites officiels eux-mêmes.
-# Contrairement aux flux RSS ci-dessus, elles contiennent le texte politique intégral
-# et peuvent donc alimenter la promotion canonique avec les mêmes garde-fous.
+# Le nombre connu de chapitres est un plancher : si le site officiel ajoute un chapitre
+# 19, 20, etc., la séquence continue est détectée et ingérée automatiquement.
 official_structured_sources:
   - id: lfi-programme-chapters
     owner: La France insoumise
@@ -31,7 +31,8 @@ official_structured_sources:
     api_base: https://melenchon2027.fr
     search: Chapitre
     after: '2026-01-01T00:00:00'
-    expected_chapters: 18
+    minimum_expected_chapters: 18
+    max_pages: 10
     min_content_chars: 500
     coverage_urls:
       - https://programme.lafranceinsoumise.fr/
