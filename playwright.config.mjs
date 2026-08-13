@@ -13,7 +13,10 @@ export default defineConfig({
   },
   projects: [
     { name: 'chromium', use: { ...devices['Desktop Chrome'] } },
-    { name: 'mobile-chromium', use: { ...devices['Pixel 7'] } }
+    { name: 'mobile-chromium', use: { ...devices['Pixel 7'] } },
+    { name: 'firefox-smoke', use: { ...devices['Desktop Firefox'] } },
+    { name: 'webkit-smoke', use: { ...devices['Desktop Safari'] } },
+    { name: 'mobile-webkit-smoke', use: { ...devices['iPhone 15'] } }
   ],
   webServer: {
     command: 'npm run start',
