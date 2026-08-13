@@ -1,0 +1,72 @@
+{
+  "errors": [],
+  "generated_at": "2026-08-13T00:20:38+00:00",
+  "historical_skipped": 0,
+  "partial": 0,
+  "processed": 3,
+  "promoted": 3,
+  "proposals_created": 27,
+  "results": [
+    {
+      "chunks_total": 2,
+      "document": "corpus/2027/auto/partys/la-france-insoumise/2026-08-13-c6af810e101b.md",
+      "proposals": [
+        "proposals/auto/europe-souverainete/auto-la-france-insoumise-europe-souverainete-683eb74aa280.md",
+        "proposals/auto/europe-souverainete/auto-la-france-insoumise-europe-souverainete-c9d823f9b200.md",
+        "proposals/auto/securite-justice/auto-la-france-insoumise-securite-justice-c029bd01a6ac.md",
+        "proposals/auto/europe-souverainete/auto-la-france-insoumise-europe-souverainete-f3a102430fb1.md",
+        "proposals/auto/ecologie-energie/auto-la-france-insoumise-ecologie-energie-16933c3135fc.md",
+        "proposals/auto/immigration-integration/auto-la-france-insoumise-immigration-integration-d9229129fdc8.md",
+        "proposals/auto/immigration-integration/auto-la-france-insoumise-immigration-integration-86ac09b46dcf.md",
+        "proposals/auto/economie-finances/auto-la-france-insoumise-economie-finances-aa847bd645ef.md",
+        "proposals/auto/europe-souverainete/auto-la-france-insoumise-europe-souverainete-776d0731a842.md",
+        "proposals/auto/europe-souverainete/auto-la-france-insoumise-europe-souverainete-c9200bac9cbc.md",
+        "proposals/auto/europe-souverainete/auto-la-france-insoumise-europe-souverainete-3a8d6284fc4e.md",
+        "proposals/auto/europe-souverainete/auto-la-france-insoumise-europe-souverainete-b195ac76d350.md",
+        "proposals/auto/europe-souverainete/auto-la-france-insoumise-europe-souverainete-24e2ecb8ec7c.md",
+        "proposals/auto/europe-souverainete/auto-la-france-insoumise-europe-souverainete-468010a5d31b.md",
+        "proposals/auto/europe-souverainete/auto-la-france-insoumise-europe-souverainete-83b09524e35f.md",
+        "proposals/auto/europe-souverainete/auto-la-france-insoumise-europe-souverainete-854d343e426e.md"
+      ],
+      "sha256": "4c42c826e8a6f2fd21b474377faa055be07095e9e90c1072af822d9c8ef68eb4",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://melenchon2027.fr/programme2025/livre/chapitre16/",
+      "verified_at": "2026-08-13T00:20:23+00:00"
+    },
+    {
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/partys/la-france-insoumise/2026-08-13-436adfca7d79.md",
+      "proposals": [
+        "proposals/auto/europe-souverainete/auto-la-france-insoumise-europe-souverainete-3a1e74edb22e.md",
+        "proposals/auto/europe-souverainete/auto-la-france-insoumise-europe-souverainete-6b7947de9f7a.md",
+        "proposals/auto/europe-souverainete/auto-la-france-insoumise-europe-souverainete-c37c154b18d3.md",
+        "proposals/auto/europe-souverainete/auto-la-france-insoumise-europe-souverainete-e55965c8fbde.md",
+        "proposals/auto/europe-souverainete/auto-la-france-insoumise-europe-souverainete-5d6978b5337f.md"
+      ],
+      "sha256": "40f296481e7910c032f81867d263bfe066e8181515a0a6437d97b763e0f17142",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://melenchon2027.fr/programme2025/livre/chapitre17/",
+      "verified_at": "2026-08-13T00:20:30+00:00"
+    },
+    {
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/partys/la-france-insoumise/2026-08-13-34b892609076.md",
+      "proposals": [
+        "proposals/auto/ecologie-energie/auto-la-france-insoumise-ecologie-energie-3f1eba9aab24.md",
+        "proposals/auto/ecologie-energie/auto-la-france-insoumise-ecologie-energie-ef5aae205f53.md",
+        "proposals/auto/economie-finances/auto-la-france-insoumise-economie-finances-eaab58ef1ace.md",
+        "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-ed2c429dda56.md",
+        "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-e190899e4938.md",
+        "proposals/auto/economie-finances/auto-la-france-insoumise-economie-finances-b6a2bfbde6aa.md"
+      ],
+      "sha256": "aecbad1b88f161310646782d76cacec01b951bddc465ddbe4fed3ffc24073bbe",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://melenchon2027.fr/programme2025/livre/chapitre18/",
+      "verified_at": "2026-08-13T00:20:36+00:00"
+    }
+  ],
+  "status_updates": 0
+}
