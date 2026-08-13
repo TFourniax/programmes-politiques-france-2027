@@ -1,11 +1,35 @@
 #!/usr/bin/env python3
 from __future__ import annotations
 
+import hashlib
 import json
 from html.parser import HTMLParser
 
+import requests
+
 import backfill_structured_missing_candidates as base
 from common import ROOT
+
+
+def fetch_utf8(url: str) -> tuple[str, str]:
+    response = requests.get(
+        url,
+        timeout=45,
+        headers={"User-Agent": base.USER_AGENT, "Accept-Language": "fr"},
+    )
+    response.raise_for_status()
+    expected_origin = url.split("/", 3)[0] + "//" + url.split("/", 3)[2]
+    if not response.url.startswith(expected_origin):
+        raise RuntimeError(f"unexpected redirect: {response.url}")
+    text = response.content.decode("utf-8", errors="strict")
+    if len(text) < 500:
+        raise RuntimeError(f"source too short: {url}")
+    return text, hashlib.sha256(response.content).hexdigest()
+
+
+# These campaign sites publish UTF-8. Force raw-byte decoding instead of relying
+# on requests' legacy encoding guess, which can turn French accents into mojibake.
+base.fetch_html = fetch_utf8
 
 
 class VisibleTextParser(HTMLParser):
