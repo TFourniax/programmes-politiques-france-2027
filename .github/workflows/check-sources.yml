@@ -7,16 +7,52 @@ on:
 
 permissions:
   contents: read
+  issues: write
+
+concurrency:
+  group: source-link-health
+  cancel-in-progress: true
 
 jobs:
   links:
     runs-on: ubuntu-latest
-    continue-on-error: true
+    timeout-minutes: 20
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
         with:
           python-version: '3.12'
           cache: pip
       - run: pip install -r requirements.txt
-      - run: python scripts/check_links.py
+      - name: Check canonical source URLs with bounded retries
+        id: links
+        continue-on-error: true
+        run: python scripts/check_links.py --strict --attempts 3 --timeout 15
+      - name: Open or refresh broken-source incident
+        if: steps.links.outcome == 'failure'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TITLE: '[AUTO] Source canonique inaccessible'
+        shell: bash
+        run: |
+          issue="$(gh issue list --state open --search "$TITLE in:title" --json number --jq '.[0].number // empty')"
+          body="Le contrôle hebdomadaire a trouvé au moins une URL de source canonique toujours inaccessible après plusieurs tentatives. Les protections anti-robot 401/403/405/429 ne sont pas considérées comme des liens morts. Voir l'Action Check source links pour le détail."
+          if [ -z "$issue" ]; then
+            gh issue create --title "$TITLE" --body "$body"
+          else
+            gh issue comment "$issue" --body "Le contrôle des liens échoue encore à $(date -u +%FT%TZ)."
+          fi
+      - name: Close recovered broken-source incident
+        if: steps.links.outcome == 'success'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TITLE: '[AUTO] Source canonique inaccessible'
+        shell: bash
+        run: |
+          issue="$(gh issue list --state open --search "$TITLE in:title" --json number --jq '.[0].number // empty')"
+          if [ -n "$issue" ]; then
+            gh issue close "$issue" --comment "Toutes les URLs canoniques sont de nouveau joignables à $(date -u +%FT%TZ)."
+          fi
+      - name: Enforce link-health gate
+        if: steps.links.outcome == 'failure'
+        run: exit 1
