@@ -8,7 +8,7 @@ from html.parser import HTMLParser
 import requests
 
 import backfill_structured_missing_candidates as base
-from common import ROOT
+from common import ROOT, parse_markdown
 
 
 def fetch_utf8(url: str) -> tuple[str, str]:
@@ -83,13 +83,30 @@ def import_manolo() -> dict:
     return {"actor_id": "manolo-mlekuz", "source_url": url, "structured_measures": len(rows), **counts}
 
 
+def repair_temporal_metadata() -> int:
+    repaired = 0
+    root = ROOT / "proposals" / "structured"
+    if not root.exists():
+        return repaired
+    for path in root.rglob("*.md"):
+        meta, body = parse_markdown(path)
+        if meta.get("date_basis") != "capture_fallback" or meta.get("captured_at"):
+            continue
+        meta["captured_at"] = f"{base.SNAPSHOT}T12:00:00+00:00"
+        base.write_md(path, meta, body)
+        repaired += 1
+    return repaired
+
+
 def main() -> int:
     base.ensure_registry_entries()
     results = [base.import_branco(), import_manolo()]
+    repaired = repair_temporal_metadata()
     report = {
         "generated_at": f"{base.SNAPSHOT}T12:00:00+00:00",
         "verification_scope": "statement_attribution_not_feasibility",
         "method": "direct_primary_campaign_structured_measure_parser",
+        "temporal_records_repaired": repaired,
         "results": results,
     }
     out = ROOT / "research" / "veille" / "backfill" / "2026-08-13-structured-missing-candidates.json"
