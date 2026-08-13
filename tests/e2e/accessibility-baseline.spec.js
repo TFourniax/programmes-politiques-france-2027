@@ -1,5 +1,12 @@
 import { test, expect } from '@playwright/test';
 
+function durationSeconds(value) {
+  const raw = String(value || '').trim();
+  if (raw.endsWith('ms')) return Number.parseFloat(raw) / 1000;
+  if (raw.endsWith('s')) return Number.parseFloat(raw);
+  return Number.POSITIVE_INFINITY;
+}
+
 test('document structure and keyboard path expose a usable accessibility baseline', async ({ page }) => {
   await page.goto('/?mode=chat');
 
@@ -46,8 +53,8 @@ test('reduced-motion preference disables non-essential animation and smooth scro
       scrollBehavior: getComputedStyle(document.documentElement).scrollBehavior,
     };
   });
-  expect(values.transitionDuration).toMatch(/0\.01ms|0s/);
-  expect(values.animationDuration).toMatch(/0\.01ms|0s/);
+  expect(durationSeconds(values.transitionDuration)).toBeLessThanOrEqual(0.0001);
+  expect(durationSeconds(values.animationDuration)).toBeLessThanOrEqual(0.0001);
   expect(values.scrollBehavior).toBe('auto');
 });
 
