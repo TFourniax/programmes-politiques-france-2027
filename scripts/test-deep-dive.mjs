@@ -15,15 +15,27 @@ for (const item of enriched) {
   assert.ok(Number.isInteger(item.citation.sourceCount), "evidence provenance must expose a deterministic source count");
 }
 
+const compactEntities = new Set(enriched.map((item) => item.citation?.entityId).filter(Boolean));
 const expanded = expandEvidence(enriched, { maxEvidence: 36, chunksPerSource: 3 });
 assert.ok(expanded.length >= enriched.length, "deepening must never discard compact evidence");
 assert.ok(canExpandEvidence(enriched, retrieval.debug), "a substantive programme query should expose a deep-dive when linked corpus evidence exists");
+for (const item of expanded) {
+  if (item.citation?.canonicalClaimId) {
+    assert.ok(compactEntities.has(item.citation.entityId), "linked source evidence must preserve canonical claim attribution");
+    if (item.citation.sourceOwnerEntityId && item.citation.sourceOwnerEntityId !== item.citation.entityId) {
+      assert.ok(item.citation.canonicalClaimId, "cross-owner evidence must stay explicitly attached to its canonical claim");
+    }
+  }
+}
 
 const compactAnswer = composeDeterministicAnswer(question, enriched, { mode: "measures" });
 const deepAnswer = composeDeepAnswer(question, expanded, { mode: "measures" });
 assert.equal(deepAnswer.depth, "deep");
 assert.equal(deepAnswer.layout, compactAnswer.layout);
 assert.ok(deepAnswer.cards.length >= compactAnswer.cards.length, "deepening must preserve the answer entities");
+for (const card of deepAnswer.cards) {
+  if (card.entityId) assert.ok(compactEntities.has(card.entityId), "deepening must not invent an entity through a supporting document owner");
+}
 
 const corpusTexts = expanded.flatMap((item) => [item.text, item.citation?.title]).filter(Boolean).map(normalize);
 for (const card of deepAnswer.cards) {
