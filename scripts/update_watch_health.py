@@ -68,6 +68,7 @@ def build_health(
     gemini_available: bool,
     generated_at: str | None = None,
     source_health: dict[str, Any] | None = None,
+    gemini_reason: str | None = None,
 ) -> dict[str, Any]:
     stamp = generated_at or iso_now()
     source_health = source_health or {}
@@ -108,18 +109,19 @@ def build_health(
         gemini_unavailable_since = stamp
 
     collection_at = state.get("last_run_at") or stamp
-    reasons = []
+    reasons: list[str] = []
+    warnings: list[str] = []
     if not gemini_available:
         reasons.append("gemini_unavailable_promotion_deferred")
     if technical_errors:
         reasons.append(f"{technical_errors}_technical_retry_pending")
     if persistent_source_failures:
         reasons.append(f"{persistent_source_failures}_persistent_official_source_failure(s)")
-    if uncovered_source_warnings:
-        reasons.append(f"{uncovered_source_warnings}_uncovered_official_source_warning(s)")
+    if uncovered_source_warnings and not persistent_source_failures:
+        warnings.append(f"{uncovered_source_warnings}_transient_uncovered_official_source_warning(s)")
 
     return {
-        "version": 5,
+        "version": 6,
         "generated_at": stamp,
         "status": "healthy" if not reasons else "degraded",
         "last_collection_success_at": collection_at,
@@ -131,10 +133,12 @@ def build_health(
         "last_social_promotion_run_at": social_promotion.get("last_run_at"),
         "gemini_available": gemini_available,
         "gemini_unavailable_since": gemini_unavailable_since,
+        "gemini_unavailable_reason": None if gemini_available else (gemini_reason or "unknown"),
         "official_source_warnings_last_run": raw_source_warnings,
         "covered_official_source_warnings_last_run": covered_source_warnings,
         "uncovered_official_source_warnings_last_run": uncovered_source_warnings,
         "alternate_official_feed_coverage_count": int(source_health.get("alternate_official_feed_coverage_count") or 0),
+        "official_sitemap_coverage_count": int(source_health.get("official_sitemap_coverage_count") or 0),
         "equivalent_primary_coverage_count": int(source_health.get("equivalent_primary_coverage_count") or 0),
         "structured_primary_coverage_count": structured_coverage,
         "persistent_official_source_failures": persistent_source_failures,
@@ -145,6 +149,7 @@ def build_health(
         "deferred_sources_pending": deferred_sources,
         "pending_work": pending_work,
         "reasons": reasons,
+        "warnings": warnings,
     }
 
 
@@ -156,10 +161,11 @@ def main() -> None:
     source_health = load_json(base / "source-health.json", {})
     previous = load_json(base / "health.json", {})
     gemini_available = os.environ.get("GEMINI_AVAILABLE", "true").strip().lower() == "true"
+    gemini_reason = os.environ.get("GEMINI_REASON", "").strip() or None
 
     health = build_health(
         state, promotion, social_promotion, previous, gemini_available,
-        source_health=source_health,
+        source_health=source_health, gemini_reason=gemini_reason,
     )
     base.mkdir(parents=True, exist_ok=True)
     (base / "health.json").write_text(json.dumps(health, ensure_ascii=False, indent=2, sort_keys=True) + "\n", encoding="utf-8")
@@ -167,7 +173,7 @@ def main() -> None:
         f"Watch health: {health['status']} | pending={health['pending_work']} | "
         f"recovered_technical={health['recovered_promotion_technical_failures']} | "
         f"persistent_sources={health['persistent_official_source_failures']} | "
-        f"uncovered_warnings={health['uncovered_official_source_warnings_last_run']} | "
+        f"transient_uncovered={health['uncovered_official_source_warnings_last_run']} | "
         f"structured_coverage={health['structured_primary_coverage_count']} | "
         f"Gemini={'ok' if gemini_available else 'deferred'}"
     )

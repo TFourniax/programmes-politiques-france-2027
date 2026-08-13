@@ -4,8 +4,11 @@ from __future__ import annotations
 import argparse
 import json
 from datetime import datetime, timezone
+from typing import Any
 
 from common import ROOT
+
+QUOTA_ONLY_REASONS = {"http_429_rate_limit_or_quota"}
 
 
 def parse_instant(value: str) -> datetime:
@@ -13,6 +16,57 @@ def parse_instant(value: str) -> datetime:
     if parsed.tzinfo is None:
         parsed = parsed.replace(tzinfo=timezone.utc)
     return parsed.astimezone(timezone.utc)
+
+
+def health_failures(
+    health: dict[str, Any],
+    *,
+    now: datetime,
+    max_age_hours: float,
+    max_gemini_outage_hours: float,
+) -> tuple[list[str], dict[str, float | int | str | bool | None]]:
+    """Return only conditions that mean the autonomous watch itself is unhealthy.
+
+    A Gemini HTTP 429 is intentionally observable but not fatal at the current zero-budget
+    operating mode: collection continues and the canonical backlog is durable. Other
+    prolonged Gemini failures (bad credentials/provider/network) remain dead-man failures.
+    """
+    collection = parse_instant(health.get("last_collection_success_at"))
+    age_hours = (now - collection).total_seconds() / 3600
+    failures: list[str] = []
+    if age_hours > max_age_hours:
+        failures.append(f"last successful collection is {age_hours:.1f}h old")
+
+    outage_hours = 0.0
+    gemini_reason = str(health.get("gemini_unavailable_reason") or "unknown")
+    quota_only = health.get("gemini_available") is False and gemini_reason in QUOTA_ONLY_REASONS
+    if health.get("gemini_available") is False and health.get("gemini_unavailable_since"):
+        since = parse_instant(health["gemini_unavailable_since"])
+        outage_hours = (now - since).total_seconds() / 3600
+        if outage_hours > max_gemini_outage_hours and not quota_only:
+            failures.append(
+                f"Gemini promotion has been unavailable for {outage_hours:.1f}h ({gemini_reason})"
+            )
+
+    persistent = int(health.get("persistent_official_source_failures") or 0)
+    if persistent:
+        owners = [
+            str(row.get("owner") or row.get("url") or "source inconnue")
+            for row in (health.get("persistent_official_source_failure_details") or [])[:5]
+        ]
+        failures.append(
+            f"{persistent} official source(s) failed for multiple consecutive runs"
+            + (f" ({', '.join(owners)})" if owners else "")
+        )
+
+    details: dict[str, float | int | str | bool | None] = {
+        "collection_age_hours": age_hours,
+        "gemini_outage_hours": outage_hours,
+        "gemini_reason": gemini_reason,
+        "gemini_quota_only": quota_only,
+        "persistent_sources": persistent,
+    }
+    return failures, details
 
 
 def main() -> None:
@@ -29,38 +83,22 @@ def main() -> None:
     except json.JSONDecodeError as exc:
         raise SystemExit(f"WATCH_HEALTH_FAILURE: invalid health.json: {exc}") from exc
 
-    now = datetime.now(timezone.utc)
-    collection = parse_instant(health.get("last_collection_success_at"))
-    age_hours = (now - collection).total_seconds() / 3600
-    failures = []
-    if age_hours > args.max_age_hours:
-        failures.append(f"last successful collection is {age_hours:.1f}h old")
-
-    if health.get("gemini_available") is False and health.get("gemini_unavailable_since"):
-        since = parse_instant(health["gemini_unavailable_since"])
-        outage_hours = (now - since).total_seconds() / 3600
-        if outage_hours > args.max_gemini_outage_hours:
-            failures.append(f"Gemini promotion has been unavailable for {outage_hours:.1f}h")
-
-    persistent = int(health.get("persistent_official_source_failures") or 0)
-    if persistent:
-        owners = [
-            str(row.get("owner") or row.get("url") or "source inconnue")
-            for row in (health.get("persistent_official_source_failure_details") or [])[:5]
-        ]
-        failures.append(
-            f"{persistent} official source(s) failed for multiple consecutive runs"
-            + (f" ({', '.join(owners)})" if owners else "")
-        )
-
+    failures, details = health_failures(
+        health,
+        now=datetime.now(timezone.utc),
+        max_age_hours=args.max_age_hours,
+        max_gemini_outage_hours=args.max_gemini_outage_hours,
+    )
     if failures:
         raise SystemExit("WATCH_HEALTH_FAILURE: " + "; ".join(failures))
 
     print(
         "WATCH_HEALTH_OK: "
-        f"collection_age={age_hours:.1f}h, status={health.get('status')}, "
+        f"collection_age={details['collection_age_hours']:.1f}h, status={health.get('status')}, "
         f"pending={health.get('pending_work', 0)}, "
-        f"persistent_sources={persistent}, gemini={health.get('gemini_available')}"
+        f"persistent_sources={details['persistent_sources']}, "
+        f"gemini={health.get('gemini_available')}, reason={details['gemini_reason']}, "
+        f"quota_only={details['gemini_quota_only']}"
     )
 
 

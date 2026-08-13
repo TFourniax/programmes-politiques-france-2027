@@ -11,12 +11,21 @@ function evaluate(name, engine) {
   let hits5 = 0;
   let reciprocalRank = 0;
   const missed = [];
+  const outsideTop5 = [];
   for (const testCase of benchmark.positive) {
     const results = engine(testCase.question, { limit: 8 }).results;
     const index = results.findIndex((item) => testCase.expectedAny.includes(item.citation?.path));
     if (index >= 0 && index < 5) hits5 += 1;
-    if (index >= 0) reciprocalRank += 1 / (index + 1);
-    else missed.push({ id: testCase.id, returned: results.slice(0, 5).map((item) => item.citation?.path) });
+    if (index >= 0) {
+      reciprocalRank += 1 / (index + 1);
+      if (index >= 5) outsideTop5.push({
+        id: testCase.id,
+        rank: index + 1,
+        returned: results.slice(0, 5).map((item) => item.citation?.path)
+      });
+    } else {
+      missed.push({ id: testCase.id, returned: results.slice(0, 5).map((item) => item.citation?.path) });
+    }
   }
 
   let rejected = 0;
@@ -34,6 +43,7 @@ function evaluate(name, engine) {
     negativeCases: benchmark.negative.length,
     rejectRate: rejected / benchmark.negative.length,
     missed,
+    outsideTop5,
     falsePositives
   };
 }
@@ -108,6 +118,16 @@ assert.ok(
   'Parcoursup query must only return evidence that explicitly mentions Parcoursup'
 );
 
+const university = retrieveDeterministic("Comment le PS veut-il réformer l'accès à l'université ?", { limit: 10 }).results;
+assert.ok(
+  university.some((item) => item.citation?.path === 'proposals/services-publics/ps-abrogation-parcoursup.md'),
+  'sentence-initial interrogatives must not hide a documented PS higher-education proposal'
+);
+assert.ok(
+  university.every((item) => item.citation?.entityId === 'parti-socialiste'),
+  'a PS-targeted higher-education query must not introduce another actor'
+);
+
 const carbon = retrieveDeterministic("Qui veut attribuer à chacun un budget personnel d'émissions de CO2 ?", { limit: 10 }).results;
 assert.ok(carbon.some((item) => item.citation?.path === 'proposals/ecologie-energie/equinoxe-quotas-carbone-individuels.md'));
 assert.ok(
@@ -137,6 +157,7 @@ const report = {
     mrr: Number(legacy.mrr.toFixed(3)),
     rejectRate: Number(legacy.rejectRate.toFixed(3)),
     missed: legacy.missed,
+    outsideTop5: legacy.outsideTop5,
     falsePositives: legacy.falsePositives,
     latency: Object.fromEntries(Object.entries(legacyLatency).map(([key, value]) => [key, Number(value.toFixed(3))]))
   },
@@ -145,6 +166,7 @@ const report = {
     mrr: Number(deterministic.mrr.toFixed(3)),
     rejectRate: Number(deterministic.rejectRate.toFixed(3)),
     missed: deterministic.missed,
+    outsideTop5: deterministic.outsideTop5,
     falsePositives: deterministic.falsePositives,
     latency: Object.fromEntries(Object.entries(deterministicLatency).map(([key, value]) => [key, Number(value.toFixed(3))]))
   },

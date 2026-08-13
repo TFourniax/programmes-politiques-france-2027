@@ -235,7 +235,7 @@ def test_complete_structured_primary_coverage_is_observable_without_degrading_he
     assert health["reasons"] == []
 
 
-def test_uncovered_transient_warning_still_degrades_health():
+def test_uncovered_transient_warning_is_visible_without_degrading_health():
     health = build_health(
         {"last_run_at": "2026-08-11T10:00:00+00:00", "last_run_error_count": 1},
         {"sources": {}},
@@ -250,5 +250,6 @@ def test_uncovered_transient_warning_still_degrades_health():
             "uncovered_failure_count": 1,
         },
     )
-    assert health["status"] == "degraded"
-    assert "1_uncovered_official_source_warning(s)" in health["reasons"]
+    assert health["status"] == "healthy"
+    assert health["reasons"] == []
+    assert health["warnings"] == ["1_transient_uncovered_official_source_warning(s)"]
