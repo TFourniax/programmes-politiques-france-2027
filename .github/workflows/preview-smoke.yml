@@ -139,6 +139,38 @@ jobs:
           inactive = {"superseded", "withdrawn", "archived", "rejected", "draft", "historical"}
           assert all(str(c.get("documentStatus", "")).lower() not in inactive for c in current["citations"]), current
 
+          deep_seed = request(
+              "/api/chat",
+              payload={"question": "Que propose le corpus sur les retraites ?", "history": [], "sessionContext": {}},
+              ip="198.51.100.246",
+          )
+          assert deep_seed["generated"] is False, deep_seed
+          assert deep_seed["answer"]["cards"], deep_seed
+          assert deep_seed.get("expansion", {}).get("available") is True, deep_seed
+          expansion_context = deep_seed["expansion"].get("context")
+          assert expansion_context, deep_seed
+          deep = request(
+              "/api/chat",
+              payload={
+                  "question": "Que propose le corpus sur les retraites ?",
+                  "history": [],
+                  "sessionContext": {},
+                  "depth": "deep",
+                  "expansionContext": expansion_context,
+              },
+              ip="198.51.100.246",
+          )
+          assert deep["generated"] is False, deep
+          assert deep["depth"] == "deep", deep
+          assert deep["answer"].get("depth") == "deep", deep["answer"]
+          assert deep["answer"]["cards"], deep
+          assert deep["answer"].get("followUps") == [], deep["answer"]
+          assert deep["citations"], deep
+          assert len(deep["citations"]) >= len(deep_seed["citations"]), (deep_seed, deep)
+          assert deep.get("retrieval", {}).get("semanticFallback") is None, deep
+          assert deep.get("expansion", {}).get("available") is False, deep
+          assert all(str(c.get("documentStatus", "")).lower() not in inactive for c in deep["citations"]), deep
+
           off_corpus = request(
               "/api/chat",
               payload={"question": "Que propose Renaissance sur l'énergie des licornes ?", "history": [], "sessionContext": {}},
@@ -218,6 +250,7 @@ jobs:
               "commitRef": health.get("deployment", {}).get("commitRef"),
               "snapshotDate": health.get("snapshotDate"),
               "fallback": fallback_result,
+              "deepDive": "corpus-only",
               "burstRequests": len(burst_questions),
               "watchStatus": health.get("watch", {}).get("status"),
               "result": "ok"
