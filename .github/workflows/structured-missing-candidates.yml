@@ -6,6 +6,7 @@ on:
     paths:
       - '.github/workflows/structured-missing-candidates.yml'
       - 'scripts/backfill_structured_missing_candidates.py'
+      - 'scripts/backfill_structured_missing_candidates_v2.py'
   workflow_dispatch:
 
 permissions:
@@ -30,7 +31,7 @@ jobs:
       - name: Install Python dependencies
         run: pip install -r requirements.txt
       - name: Import deterministic structured official programmes
-        run: python scripts/backfill_structured_missing_candidates.py
+        run: python scripts/backfill_structured_missing_candidates_v2.py
       - name: Validate political data
         run: |
           python scripts/validate.py
