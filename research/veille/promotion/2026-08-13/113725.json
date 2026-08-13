@@ -1,0 +1,412 @@
+{
+  "errors": [
+    {
+      "at": "2026-08-13T11:28:07+00:00",
+      "error": "ValueError: HTTP 403",
+      "url": "https://www.pcf.fr/fete_huma24_programme_stand_national"
+    },
+    {
+      "at": "2026-08-13T11:28:07+00:00",
+      "error": "ValueError: HTTP 403",
+      "url": "https://www.pcf.fr/un_programme_pour_crire_une_nouvelle_page_de_notre_histoire"
+    },
+    {
+      "at": "2026-08-13T11:28:17+00:00",
+      "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 42.065976288s.",
+      "url": "https://lafranceinsoumise.fr/2025/11/04/lespace-programme-et-linstitut-la-boetie-vous-proposent-des-formations/"
+    },
+    {
+      "at": "2026-08-13T11:28:28+00:00",
+      "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 31.569489397s.",
+      "url": "https://lafranceinsoumise.fr/2022/05/18/presentation-du-programme-de-la-nupes-programmenupes/"
+    },
+    {
+      "at": "2026-08-13T11:28:36+00:00",
+      "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 23.68760837s.",
+      "url": "https://republicains.fr/actualites/2025/06/23/francois-xavier-bellamy-la-destruction-du-programme-nucleaire-iranien-ne-peut-etre-quune-bonne-nouvelle-pour-la-securite-du-monde/"
+    },
+    {
+      "at": "2026-08-13T11:28:44+00:00",
+      "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 15.631255874s.",
+      "url": "http://lesecologistes.fr/document/5Ty6qLi0l7IBH4HqM8Hz04/programme-de-la-rencontre-nationale-des-ecologistes-et-des-quartiers-populaires-google-docs.pdf"
+    },
+    {
+      "at": "2026-08-13T11:28:51+00:00",
+      "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 8.400630465s.",
+      "url": "https://parti-equinoxe.fr/programme/"
+    },
+    {
+      "at": "2026-08-13T11:28:54+00:00",
+      "error": "ValueError: HTTP 500",
+      "url": "https://lafranceinsoumise.fr/2024/08/08/amfis-2024-le-pre-programme-en-ligne/"
+    },
+    {
+      "at": "2026-08-13T11:28:57+00:00",
+      "error": "ValueError: HTTP 500",
+      "url": "https://lafranceinsoumise.fr/2024/07/04/le-programme-du-nouveau-front-populaire-version-facile-a-lire-et-a-comprendre-falc/"
+    },
+    {
+      "at": "2026-08-13T11:29:00+00:00",
+      "error": "ValueError: HTTP 500",
+      "url": "https://lafranceinsoumise.fr/2025/08/11/amfis-2025-le-pre-programme-en-ligne/"
+    },
+    {
+      "at": "2026-08-13T11:29:09+00:00",
+      "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 50.174340781s.",
+      "url": "https://www.debout-la-france.fr/actualite/decouvrez-notre-programme-intelligence-artificielle/"
+    },
+    {
+      "at": "2026-08-13T11:29:17+00:00",
+      "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 42.216298889s.",
+      "url": "http://lesecologistes.fr/document/57iHvWLqcmVzHEkjQcNQMI/programme-convention-derniereversion.pdf"
+    },
+    {
+      "at": "2026-08-13T11:29:25+00:00",
+      "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 34.314561598s.",
+      "url": "http://lesecologistes.fr/document/7jbqRTchbNO5OkkH0ps914/programme-convention-vdefinitive3.pdf"
+    },
+    {
+      "at": "2026-08-13T11:29:33+00:00",
+      "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 26.319387667s.",
+      "url": "http://lesecologistes.fr/document/2jjw0it1cWuSFqhgX4YNdr/programme-convention-vdefinitive2.pdf"
+    },
+    {
+      "at": "2026-08-13T11:29:40+00:00",
+      "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 19.091257277s.",
+      "url": "http://lesecologistes.fr/pages/3vnysA9rjQxtY52Pg1LZGf/programme-de-la-grande-convention-d-investitue"
+    },
+    {
+      "at": "2026-08-13T11:29:48+00:00",
+      "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 11.353245397s.",
+      "url": "https://parti-equinoxe.fr/legislative-partielle-2025-hauts-de-seine/programme-education/"
+    },
+    {
+      "at": "2026-08-13T11:29:56+00:00",
+      "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 4.007849667s.",
+      "url": "https://parti-equinoxe.fr/legislative-partielle-2025-isere/programme-sante/"
+    },
+    {
+      "at": "2026-08-13T11:30:03+00:00",
+      "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 56.443829532s.",
+      "url": "https://parti-equinoxe.fr/legislative-partielle-2025-isere/programme-cohesion/"
+    },
+    {
+      "at": "2026-08-13T11:30:11+00:00",
+      "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 48.493596943s.",
+      "url": "https://www.generationecologie.fr/2026/07/21/loi-duplomb-2-on-sen-souviendra-en-2027/"
+    },
+    {
+      "at": "2026-08-13T11:30:19+00:00",
+      "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 40.407671845s.",
+      "url": "https://parti-socialiste.fr/a-la-une/jeudi-les-militantes-socialistes-votent-sur-la-strategie-presidentielle/"
+    },
+    {
+      "at": "2026-08-13T11:30:27+00:00",
+      "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 32.800238829s.",
+      "url": "https://parti-socialiste.fr/actualites/les-militantes-socialistes-ont-adopte-leur-strategie-presidentielle-pour-2027/"
+    },
+    {
+      "at": "2026-08-13T11:30:34+00:00",
+      "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 25.452193419s.",
+      "url": "https://bc2027.fr/"
+    },
+    {
+      "at": "2026-08-13T11:30:41+00:00",
+      "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 18.455590204s.",
+      "url": "https://bc2027.fr/accessibilite"
+    },
+    {
+      "at": "2026-08-13T11:30:48+00:00",
+      "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 11.433920578s.",
+      "url": "https://bc2027.fr/actualites"
+    },
+    {
+      "at": "2026-08-13T11:30:55+00:00",
+      "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 4.466840525s.",
+      "url": "https://bc2027.fr/actualites/quand-l-etat-se-paie-de-mots"
+    },
+    {
+      "at": "2026-08-13T11:31:02+00:00",
+      "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 57.319288009s.",
+      "url": "https://bc2027.fr/cgu"
+    },
+    {
+      "at": "2026-08-13T11:31:09+00:00",
+      "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 50.192961013s.",
+      "url": "https://bc2027.fr/ma-demarche"
+    },
+    {
+      "at": "2026-08-13T11:31:16+00:00",
+      "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 43.064724149s.",
+      "url": "https://bc2027.fr/mentions-legales"
+    },
+    {
+      "at": "2026-08-13T11:31:23+00:00",
+      "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 36.037909231s.",
+      "url": "https://bc2027.fr/parcours"
+    },
+    {
+      "at": "2026-08-13T11:31:30+00:00",
+      "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 29.062550607s.",
+      "url": "https://bc2027.fr/politique-cookies"
+    },
+    {
+      "at": "2026-08-13T11:31:38+00:00",
+      "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 21.98118846s.",
+      "url": "https://bc2027.fr/politique-de-confidentialite"
+    },
+    {
+      "at": "2026-08-13T11:31:45+00:00",
+      "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 14.503201169s.",
+      "url": "https://attalpresident.fr/actualites/appel-500-elus-gabriel-attal-presidentielle"
+    },
+    {
+      "at": "2026-08-13T11:31:52+00:00",
+      "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 7.278777838s.",
+      "url": "https://attalpresident.fr/actualites/en-aveyron-gabriel-attal-lance-sa-campagne-presidentielle"
+    },
+    {
+      "at": "2026-08-13T11:31:59+00:00",
+      "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 83.338485ms.",
+      "url": "https://attalpresident.fr/actualites/gabriel-attal-france-inter-election-presidentielle"
+    },
+    {
+      "at": "2026-08-13T11:32:07+00:00",
+      "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 52.533680672s.",
+      "url": "https://www.karimbouamrane2027.org/"
+    },
+    {
+      "at": "2026-08-13T11:32:14+00:00",
+      "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 45.413023846s.",
+      "url": "https://www.revolutionpermanente.fr/Anasse-Kazib-2027"
+    },
+    {
+      "at": "2026-08-13T11:32:15+00:00",
+      "error": "ValueError: HTTP 404",
+      "url": "https://parti-equinoxe.fr/articles/2022/05/la-transition-energetique-selon-les-ex-candidats-a-la-presidentielle-2/"
+    },
+    {
+      "at": "2026-08-13T11:32:16+00:00",
+      "error": "ValueError: HTTP 404",
+      "url": "https://parti-equinoxe.fr/articles/2024/01/allocution-presidentielle-nouveau-gouvernement-vieilles-idees/"
+    },
+    {
+      "at": "2026-08-13T11:32:25+00:00",
+      "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 34.672113493s.",
+      "url": "https://solutiondemocratique.fr/presidentielle2027-annonce-candidature-clara-egger/"
+    },
+    {
+      "at": "2026-08-13T11:32:34+00:00",
+      "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 25.229039681s.",
+      "url": "https://www.debout-la-france.fr/actualite/suivez-toute-lactualite-de-la-presidentielle-sur-le-site-de-nicolas-dupont-aignan/"
+    },
+    {
+      "at": "2026-08-13T11:32:41+00:00",
+      "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 18.041453278s.",
+      "url": "https://www.revolutionpermanente.fr/Marine-Tondelier-le-feminisme-bourgeois-s-invite-dans-les-presidentielles"
+    },
+    {
+      "at": "2026-08-13T11:32:49+00:00",
+      "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 10.168563324s.",
+      "url": "https://www.unenouvelleenergie.fr/ukraine-normes-administratives-2027-david-lisnard-est-revenu-sur-les-sujets-dactualite-au-micro-de-jean-jacques-bourdin-sur-sud-radio/"
+    },
+    {
+      "at": "2026-08-13T11:32:56+00:00",
+      "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 3.087235236s.",
+      "url": "https://www.unenouvelleenergie.fr/ukraine-mckinsey-presidentielle-corse-david-lisnard-etait-linvite-de-sonia-mabrouk-sur-europe-1/"
+    },
+    {
+      "at": "2026-08-13T11:33:03+00:00",
+      "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 56.05362914s.",
+      "url": "https://www.unenouvelleenergie.fr/rencontre-des-libertes-locales-david-lisnard-et-lamf-auditionnent-les-candidats-a-la-presidentielle/"
+    },
+    {
+      "at": "2026-08-13T11:33:11+00:00",
+      "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 48.958103741s.",
+      "url": "https://www.unenouvelleenergie.fr/reaction-de-david-lisnard-au-2nd-tour-de-lelection-presidentielle/"
+    },
+    {
+      "at": "2026-08-13T11:33:18+00:00",
+      "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 41.886549795s.",
+      "url": "https://www.unenouvelleenergie.fr/presidentielle-le-prefet-philippe-castanet-homme-de-solutions-va-diriger-la-campagne-de-david-lisnard/"
+    },
+    {
+      "at": "2026-08-13T11:33:25+00:00",
+      "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 34.729311125s.",
+      "url": "https://www.unenouvelleenergie.fr/presidentielle-comment-david-lisnard-veut-peser-a-droite/"
+    },
+    {
+      "at": "2026-08-13T11:33:32+00:00",
+      "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 27.618374197s.",
+      "url": "https://www.unenouvelleenergie.fr/presidentielle-comment-david-lisnard-muscle-sa-droite/"
+    },
+    {
+      "at": "2026-08-13T11:33:39+00:00",
+      "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 20.432480705s.",
+      "url": "https://www.unenouvelleenergie.fr/presidentielle-a-cannes-david-lisnard-pret-a-gravir-les-marches/"
+    },
+    {
+      "at": "2026-08-13T11:33:46+00:00",
+      "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 13.314607963s.",
+      "url": "https://www.unenouvelleenergie.fr/presidentielle-2027-quoi-quil-arrive-je-porterai-mon-projet-pour-faire-rayonner-la-france/"
+    },
+    {
+      "at": "2026-08-13T11:33:53+00:00",
+      "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 6.198531317s.",
+      "url": "https://www.unenouvelleenergie.fr/presidentielle-2027-david-lisnard-vise-lelysee/"
+    },
+    {
+      "at": "2026-08-13T11:34:00+00:00",
+      "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 59.11591394s.",
+      "url": "https://www.unenouvelleenergie.fr/presidentielle-2027-david-lisnard-portera-son-projet/"
+    },
+    {
+      "at": "2026-08-13T11:34:08+00:00",
+      "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 51.940449152s.",
+      "url": "https://www.unenouvelleenergie.fr/presidentielle-2027-david-lisnard-ouvre-le-chemin-du-sursaut-francais/"
+    },
+    {
+      "at": "2026-08-13T11:34:15+00:00",
+      "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 44.827692123s.",
+      "url": "https://www.unenouvelleenergie.fr/presidentielle-2027-ce-qui-minteresse-cest-de-faire-gagner-le-pays-je-my-prepare/"
+    },
+    {
+      "at": "2026-08-13T11:34:22+00:00",
+      "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 37.62450664s.",
+      "url": "https://www.unenouvelleenergie.fr/municipales-nouvelle-energie-arrache-plusieurs-villes-a-la-gauche-et-simplante-dans-toute-la-france-pour-2027/"
+    },
+    {
+      "at": "2026-08-13T11:34:29+00:00",
+      "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 30.518997445s.",
+      "url": "https://www.unenouvelleenergie.fr/municipales-nouvelle-energie-arrache-plusieurs-villes-a-la-gauche-et-simplante-dans-toute-la-france-pour-2027-2/"
+    },
+    {
+      "at": "2026-08-13T11:34:36+00:00",
+      "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 23.471764186s.",
+      "url": "https://www.unenouvelleenergie.fr/les-candidats-a-lelection-presidentielle-invites-a-sexprimer-devant-les-elus-des-communes-departements-et-regions-de-france/"
+    },
+    {
+      "at": "2026-08-13T11:34:43+00:00",
+      "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 16.18010425s.",
+      "url": "https://www.unenouvelleenergie.fr/les-candidats-a-la-presidentielle-doivent-debattre-avec-les-elus-locaux/"
+    },
+    {
+      "at": "2026-08-13T11:34:51+00:00",
+      "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 8.876442207s.",
+      "url": "https://www.unenouvelleenergie.fr/legitimite-legale-legitimite-politique-la-difficile-equation-presidentielle/"
+    },
+    {
+      "at": "2026-08-13T11:34:58+00:00",
+      "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 1.721064507s.",
+      "url": "https://www.unenouvelleenergie.fr/le-manifeste-liberal-de-david-lisnard-pour-2027/"
+    },
+    {
+      "at": "2026-08-13T11:35:05+00:00",
+      "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 54.557767969s.",
+      "url": "https://www.unenouvelleenergie.fr/la-solution-ce-serait-dannoncer-une-presidentielle-pour-juin/"
+    },
+    {
+      "at": "2026-08-13T11:35:12+00:00",
+      "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 47.48263694s.",
+      "url": "https://www.unenouvelleenergie.fr/je-veux-etre-patron-je-me-fous-de-image-sociale-david-lisnard-expose-sa-vision-pour-2027/"
+    },
+    {
+      "at": "2026-08-13T11:35:19+00:00",
+      "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 40.446445149s.",
+      "url": "https://www.unenouvelleenergie.fr/je-fais-tout-pour-etre-en-capacite-detre-candidat-a-la-presidentielle-en-2027/"
+    },
+    {
+      "at": "2026-08-13T11:35:26+00:00",
+      "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 33.211943087s.",
+      "url": "https://www.unenouvelleenergie.fr/jai-des-idees-pour-2027/"
+    },
+    {
+      "at": "2026-08-13T11:35:33+00:00",
+      "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 26.146026549s.",
+      "url": "https://www.unenouvelleenergie.fr/invite-de-rtl-david-lisnard-tranche-sur-2027-le-budget-et-la-souverainete/"
+    },
+    {
+      "at": "2026-08-13T11:35:41+00:00",
+      "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 19.016228591s.",
+      "url": "https://www.unenouvelleenergie.fr/hors-des-lr-david-lisnard-nenterre-pas-la-primaire-et-vise-lobjectif-de-gagner-la-presidentielle/"
+    },
+    {
+      "at": "2026-08-13T11:35:48+00:00",
+      "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 11.968157376s.",
+      "url": "https://www.unenouvelleenergie.fr/debat-2027-david-lisnard-face-a-edouard-philippe-a-taverny/"
+    },
+    {
+      "at": "2026-08-13T11:35:55+00:00",
+      "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 4.85525473s.",
+      "url": "https://www.unenouvelleenergie.fr/david-lisnard-trace-sa-voie-pour-2027-et-appelle-a-censurer-un-budget-socialiste/"
+    },
+    {
+      "at": "2026-08-13T11:36:02+00:00",
+      "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 57.794351941s.",
+      "url": "https://www.unenouvelleenergie.fr/david-lisnard-entre-vocation-municipale-et-ambition-presidentielle/"
+    },
+    {
+      "at": "2026-08-13T11:36:09+00:00",
+      "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 50.707459569s.",
+      "url": "https://www.unenouvelleenergie.fr/david-lisnard-accelere-sa-course-vers-une-candidature-a-la-presidentielle/"
+    },
+    {
+      "at": "2026-08-13T11:36:16+00:00",
+      "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 43.51118534s.",
+      "url": "https://www.unenouvelleenergie.fr/dans-le-sillage-dune-ambition-presidentielle/"
+    },
+    {
+      "at": "2026-08-13T11:36:23+00:00",
+      "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 36.443821073s.",
+      "url": "https://www.unenouvelleenergie.fr/boualem-sansal-menace-dune-motion-de-censure-contre-le-gouvernement-ambitions-pour-2027-david-lisnard-etait-linvite-de-pascal-praud-sur-cnews/"
+    },
+    {
+      "at": "2026-08-13T11:36:30+00:00",
+      "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 29.387389336s.",
+      "url": "https://www.unenouvelleenergie.fr/a-fond-sur-2027-david-lisnard-etait-linvite-de-la-matinale-de-lci/"
+    },
+    {
+      "at": "2026-08-13T11:36:37+00:00",
+      "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 22.298572297s.",
+      "url": "https://www.unenouvelleenergie.fr/2027-lisnard-assume-ses-ambitions/"
+    },
+    {
+      "at": "2026-08-13T11:36:46+00:00",
+      "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 13.237976782s.",
+      "url": "https://solutiondemocratique.fr/presidentielle-2027-une-votation-organisee-a-lyon-4-autour-de-la-candidature-citoyenne-de-clara-egger/"
+    },
+    {
+      "at": "2026-08-13T11:36:53+00:00",
+      "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 6.202682327s.",
+      "url": "https://www.unenouvelleenergie.fr/event/quel-est-le-projet-politique-de-david-lisnard-pour-2027/"
+    },
+    {
+      "at": "2026-08-13T11:37:01+00:00",
+      "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 58.939398086s.",
+      "url": "https://npa-revolutionnaires.org/echange-entre-le-npa-revolutionnaires-et-lutte-ouvriere-a-propos-dune-candidature-commune-aux-presidentielles-2027/"
+    },
+    {
+      "at": "2026-08-13T11:37:10+00:00",
+      "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 49.147478355s.",
+      "url": "https://npa-revolutionnaires.org/pour-nos-conditions-de-vie-et-de-travail-nous-nattendrons-pas-2027-2/"
+    },
+    {
+      "at": "2026-08-13T11:37:18+00:00",
+      "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 41.509739936s.",
+      "url": "https://anasse2027.fr/"
+    },
+    {
+      "at": "2026-08-13T11:37:25+00:00",
+      "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 34.349012737s.",
+      "url": "https://anasse2027.fr/actualites"
+    }
+  ],
+  "generated_at": "2026-08-13T11:37:25+00:00",
+  "historical_skipped": 0,
+  "partial": 0,
+  "processed": 0,
+  "promoted": 0,
+  "proposals_created": 0,
+  "results": [],
+  "status_updates": 0
+}

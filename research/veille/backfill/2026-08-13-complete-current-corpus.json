@@ -1,0 +1,2183 @@
+{
+  "backfill_id": "2026-08-13-complete-current-corpus",
+  "generated_at": "2026-08-13T12:06:42+00:00",
+  "verification_scope": "statement_attribution_not_feasibility",
+  "before_current_proposals": 123,
+  "after_current_proposals": 168,
+  "delta_current_proposals": 45,
+  "discovery": {
+    "targets": 69,
+    "source_events": 9,
+    "sitemap_events": 1787,
+    "feed_events": 0,
+    "warnings": [
+      "https://www.la-convention.fr/: HTTP 403",
+      "https://www.lafrancehumaineetforte.fr/: HTTPSConnectionPool(host='www.lafrancehumaineetforte.fr', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.lafrancehumaineetforte.fr', port=443): Failed to resolve 'www.lafrancehumaineetforte.fr' ([Errno -2] Name or service not known)\"))",
+      "https://melenchon2027.fr/programme2025/livre/: HTTP 403",
+      "https://programme.lafranceinsoumise.fr/: HTTP 403",
+      "https://www.pcf.fr/: HTTP 403"
+    ],
+    "official_seen_urls": 2440
+  },
+  "promotion_rounds": [
+    {
+      "round": 1,
+      "pending_before": 1569,
+      "pending_after": 1489
+    },
+    {
+      "round": 2,
+      "pending_before": 1489,
+      "pending_after": 1409
+    },
+    {
+      "round": 3,
+      "pending_before": 1409,
+      "pending_after": 1329
+    },
+    {
+      "round": 4,
+      "pending_before": 1329,
+      "pending_after": 1249
+    },
+    {
+      "round": 5,
+      "pending_before": 1249,
+      "pending_after": 1169
+    }
+  ],
+  "promotion_state": {
+    "historical_skipped": 3,
+    "no_canonical_data": 2,
+    "not_confirmed": 12,
+    "promoted": 26,
+    "technical_error": 401
+  },
+  "entities": [
+    {
+      "entity_id": "anasse-kazib",
+      "name": "Anasse Kazib",
+      "before": 6,
+      "after": 6,
+      "delta": 0,
+      "covered_topics": [
+        "pouvoir-achat-travail",
+        "retraites",
+        "services-publics"
+      ],
+      "not_documented_topics": [
+        "ecologie-energie",
+        "economie-finances",
+        "europe-souverainete",
+        "fiscalite-redistribution",
+        "immigration-integration",
+        "institutions-democratie",
+        "securite-justice"
+      ],
+      "counts_by_topic": {
+        "ecologie-energie": 0,
+        "economie-finances": 0,
+        "europe-souverainete": 0,
+        "fiscalite-redistribution": 0,
+        "immigration-integration": 0,
+        "institutions-democratie": 0,
+        "pouvoir-achat-travail": 4,
+        "retraites": 1,
+        "securite-justice": 0,
+        "services-publics": 1
+      }
+    },
+    {
+      "entity_id": "antoine-mikolajczak",
+      "name": "Antoine Mikolajczak",
+      "before": 0,
+      "after": 0,
+      "delta": 0,
+      "covered_topics": [],
+      "not_documented_topics": [
+        "ecologie-energie",
+        "economie-finances",
+        "europe-souverainete",
+        "fiscalite-redistribution",
+        "immigration-integration",
+        "institutions-democratie",
+        "pouvoir-achat-travail",
+        "retraites",
+        "securite-justice",
+        "services-publics"
+      ],
+      "counts_by_topic": {
+        "ecologie-energie": 0,
+        "economie-finances": 0,
+        "europe-souverainete": 0,
+        "fiscalite-redistribution": 0,
+        "immigration-integration": 0,
+        "institutions-democratie": 0,
+        "pouvoir-achat-travail": 0,
+        "retraites": 0,
+        "securite-justice": 0,
+        "services-publics": 0
+      }
+    },
+    {
+      "entity_id": "benjamin-lucas",
+      "name": "Benjamin Lucas",
+      "before": 0,
+      "after": 0,
+      "delta": 0,
+      "covered_topics": [],
+      "not_documented_topics": [
+        "ecologie-energie",
+        "economie-finances",
+        "europe-souverainete",
+        "fiscalite-redistribution",
+        "immigration-integration",
+        "institutions-democratie",
+        "pouvoir-achat-travail",
+        "retraites",
+        "securite-justice",
+        "services-publics"
+      ],
+      "counts_by_topic": {
+        "ecologie-energie": 0,
+        "economie-finances": 0,
+        "europe-souverainete": 0,
+        "fiscalite-redistribution": 0,
+        "immigration-integration": 0,
+        "institutions-democratie": 0,
+        "pouvoir-achat-travail": 0,
+        "retraites": 0,
+        "securite-justice": 0,
+        "services-publics": 0
+      }
+    },
+    {
+      "entity_id": "benoit-mathieu",
+      "name": "Benoît Mathieu",
+      "before": 0,
+      "after": 0,
+      "delta": 0,
+      "covered_topics": [],
+      "not_documented_topics": [
+        "ecologie-energie",
+        "economie-finances",
+        "europe-souverainete",
+        "fiscalite-redistribution",
+        "immigration-integration",
+        "institutions-democratie",
+        "pouvoir-achat-travail",
+        "retraites",
+        "securite-justice",
+        "services-publics"
+      ],
+      "counts_by_topic": {
+        "ecologie-energie": 0,
+        "economie-finances": 0,
+        "europe-souverainete": 0,
+        "fiscalite-redistribution": 0,
+        "immigration-integration": 0,
+        "institutions-democratie": 0,
+        "pouvoir-achat-travail": 0,
+        "retraites": 0,
+        "securite-justice": 0,
+        "services-publics": 0
+      }
+    },
+    {
+      "entity_id": "bernard-cazeneuve",
+      "name": "Bernard Cazeneuve",
+      "before": 0,
+      "after": 0,
+      "delta": 0,
+      "covered_topics": [],
+      "not_documented_topics": [
+        "ecologie-energie",
+        "economie-finances",
+        "europe-souverainete",
+        "fiscalite-redistribution",
+        "immigration-integration",
+        "institutions-democratie",
+        "pouvoir-achat-travail",
+        "retraites",
+        "securite-justice",
+        "services-publics"
+      ],
+      "counts_by_topic": {
+        "ecologie-energie": 0,
+        "economie-finances": 0,
+        "europe-souverainete": 0,
+        "fiscalite-redistribution": 0,
+        "immigration-integration": 0,
+        "institutions-democratie": 0,
+        "pouvoir-achat-travail": 0,
+        "retraites": 0,
+        "securite-justice": 0,
+        "services-publics": 0
+      }
+    },
+    {
+      "entity_id": "boris-vallaud",
+      "name": "Boris Vallaud",
+      "before": 0,
+      "after": 0,
+      "delta": 0,
+      "covered_topics": [],
+      "not_documented_topics": [
+        "ecologie-energie",
+        "economie-finances",
+        "europe-souverainete",
+        "fiscalite-redistribution",
+        "immigration-integration",
+        "institutions-democratie",
+        "pouvoir-achat-travail",
+        "retraites",
+        "securite-justice",
+        "services-publics"
+      ],
+      "counts_by_topic": {
+        "ecologie-energie": 0,
+        "economie-finances": 0,
+        "europe-souverainete": 0,
+        "fiscalite-redistribution": 0,
+        "immigration-integration": 0,
+        "institutions-democratie": 0,
+        "pouvoir-achat-travail": 0,
+        "retraites": 0,
+        "securite-justice": 0,
+        "services-publics": 0
+      }
+    },
+    {
+      "entity_id": "bruno-le-maire",
+      "name": "Bruno Le Maire",
+      "before": 0,
+      "after": 0,
+      "delta": 0,
+      "covered_topics": [],
+      "not_documented_topics": [
+        "ecologie-energie",
+        "economie-finances",
+        "europe-souverainete",
+        "fiscalite-redistribution",
+        "immigration-integration",
+        "institutions-democratie",
+        "pouvoir-achat-travail",
+        "retraites",
+        "securite-justice",
+        "services-publics"
+      ],
+      "counts_by_topic": {
+        "ecologie-energie": 0,
+        "economie-finances": 0,
+        "europe-souverainete": 0,
+        "fiscalite-redistribution": 0,
+        "immigration-integration": 0,
+        "institutions-democratie": 0,
+        "pouvoir-achat-travail": 0,
+        "retraites": 0,
+        "securite-justice": 0,
+        "services-publics": 0
+      }
+    },
+    {
+      "entity_id": "bruno-retailleau",
+      "name": "Bruno Retailleau",
+      "before": 10,
+      "after": 10,
+      "delta": 0,
+      "covered_topics": [
+        "europe-souverainete",
+        "immigration-integration",
+        "institutions-democratie",
+        "pouvoir-achat-travail",
+        "securite-justice"
+      ],
+      "not_documented_topics": [
+        "ecologie-energie",
+        "economie-finances",
+        "fiscalite-redistribution",
+        "retraites",
+        "services-publics"
+      ],
+      "counts_by_topic": {
+        "ecologie-energie": 0,
+        "economie-finances": 0,
+        "europe-souverainete": 1,
+        "fiscalite-redistribution": 0,
+        "immigration-integration": 3,
+        "institutions-democratie": 3,
+        "pouvoir-achat-travail": 1,
+        "retraites": 0,
+        "securite-justice": 2,
+        "services-publics": 0
+      }
+    },
+    {
+      "entity_id": "clara-egger",
+      "name": "Clara Egger",
+      "before": 0,
+      "after": 0,
+      "delta": 0,
+      "covered_topics": [],
+      "not_documented_topics": [
+        "ecologie-energie",
+        "economie-finances",
+        "europe-souverainete",
+        "fiscalite-redistribution",
+        "immigration-integration",
+        "institutions-democratie",
+        "pouvoir-achat-travail",
+        "retraites",
+        "securite-justice",
+        "services-publics"
+      ],
+      "counts_by_topic": {
+        "ecologie-energie": 0,
+        "economie-finances": 0,
+        "europe-souverainete": 0,
+        "fiscalite-redistribution": 0,
+        "immigration-integration": 0,
+        "institutions-democratie": 0,
+        "pouvoir-achat-travail": 0,
+        "retraites": 0,
+        "securite-justice": 0,
+        "services-publics": 0
+      }
+    },
+    {
+      "entity_id": "clementine-autain",
+      "name": "Clémentine Autain",
+      "before": 0,
+      "after": 0,
+      "delta": 0,
+      "covered_topics": [],
+      "not_documented_topics": [
+        "ecologie-energie",
+        "economie-finances",
+        "europe-souverainete",
+        "fiscalite-redistribution",
+        "immigration-integration",
+        "institutions-democratie",
+        "pouvoir-achat-travail",
+        "retraites",
+        "securite-justice",
+        "services-publics"
+      ],
+      "counts_by_topic": {
+        "ecologie-energie": 0,
+        "economie-finances": 0,
+        "europe-souverainete": 0,
+        "fiscalite-redistribution": 0,
+        "immigration-integration": 0,
+        "institutions-democratie": 0,
+        "pouvoir-achat-travail": 0,
+        "retraites": 0,
+        "securite-justice": 0,
+        "services-publics": 0
+      }
+    },
+    {
+      "entity_id": "david-lisnard",
+      "name": "David Lisnard",
+      "before": 29,
+      "after": 29,
+      "delta": 0,
+      "covered_topics": [
+        "ecologie-energie",
+        "economie-finances",
+        "immigration-integration",
+        "institutions-democratie",
+        "retraites",
+        "securite-justice",
+        "services-publics"
+      ],
+      "not_documented_topics": [
+        "europe-souverainete",
+        "fiscalite-redistribution",
+        "pouvoir-achat-travail"
+      ],
+      "counts_by_topic": {
+        "ecologie-energie": 2,
+        "economie-finances": 4,
+        "europe-souverainete": 0,
+        "fiscalite-redistribution": 0,
+        "immigration-integration": 9,
+        "institutions-democratie": 1,
+        "pouvoir-achat-travail": 0,
+        "retraites": 1,
+        "securite-justice": 6,
+        "services-publics": 6
+      }
+    },
+    {
+      "entity_id": "debout",
+      "name": "Debout !",
+      "before": 0,
+      "after": 0,
+      "delta": 0,
+      "covered_topics": [],
+      "not_documented_topics": [
+        "ecologie-energie",
+        "economie-finances",
+        "europe-souverainete",
+        "fiscalite-redistribution",
+        "immigration-integration",
+        "institutions-democratie",
+        "pouvoir-achat-travail",
+        "retraites",
+        "securite-justice",
+        "services-publics"
+      ],
+      "counts_by_topic": {
+        "ecologie-energie": 0,
+        "economie-finances": 0,
+        "europe-souverainete": 0,
+        "fiscalite-redistribution": 0,
+        "immigration-integration": 0,
+        "institutions-democratie": 0,
+        "pouvoir-achat-travail": 0,
+        "retraites": 0,
+        "securite-justice": 0,
+        "services-publics": 0
+      }
+    },
+    {
+      "entity_id": "debout-la-france",
+      "name": "Debout la France",
+      "before": 2,
+      "after": 2,
+      "delta": 0,
+      "covered_topics": [
+        "europe-souverainete",
+        "institutions-democratie"
+      ],
+      "not_documented_topics": [
+        "ecologie-energie",
+        "economie-finances",
+        "fiscalite-redistribution",
+        "immigration-integration",
+        "pouvoir-achat-travail",
+        "retraites",
+        "securite-justice",
+        "services-publics"
+      ],
+      "counts_by_topic": {
+        "ecologie-energie": 0,
+        "economie-finances": 0,
+        "europe-souverainete": 1,
+        "fiscalite-redistribution": 0,
+        "immigration-integration": 0,
+        "institutions-democratie": 1,
+        "pouvoir-achat-travail": 0,
+        "retraites": 0,
+        "securite-justice": 0,
+        "services-publics": 0
+      }
+    },
+    {
+      "entity_id": "delphine-batho",
+      "name": "Delphine Batho",
+      "before": 0,
+      "after": 0,
+      "delta": 0,
+      "covered_topics": [],
+      "not_documented_topics": [
+        "ecologie-energie",
+        "economie-finances",
+        "europe-souverainete",
+        "fiscalite-redistribution",
+        "immigration-integration",
+        "institutions-democratie",
+        "pouvoir-achat-travail",
+        "retraites",
+        "securite-justice",
+        "services-publics"
+      ],
+      "counts_by_topic": {
+        "ecologie-energie": 0,
+        "economie-finances": 0,
+        "europe-souverainete": 0,
+        "fiscalite-redistribution": 0,
+        "immigration-integration": 0,
+        "institutions-democratie": 0,
+        "pouvoir-achat-travail": 0,
+        "retraites": 0,
+        "securite-justice": 0,
+        "services-publics": 0
+      }
+    },
+    {
+      "entity_id": "dominique-de-villepin",
+      "name": "Dominique de Villepin",
+      "before": 0,
+      "after": 0,
+      "delta": 0,
+      "covered_topics": [],
+      "not_documented_topics": [
+        "ecologie-energie",
+        "economie-finances",
+        "europe-souverainete",
+        "fiscalite-redistribution",
+        "immigration-integration",
+        "institutions-democratie",
+        "pouvoir-achat-travail",
+        "retraites",
+        "securite-justice",
+        "services-publics"
+      ],
+      "counts_by_topic": {
+        "ecologie-energie": 0,
+        "economie-finances": 0,
+        "europe-souverainete": 0,
+        "fiscalite-redistribution": 0,
+        "immigration-integration": 0,
+        "institutions-democratie": 0,
+        "pouvoir-achat-travail": 0,
+        "retraites": 0,
+        "securite-justice": 0,
+        "services-publics": 0
+      }
+    },
+    {
+      "entity_id": "fabien-roussel",
+      "name": "Fabien Roussel",
+      "before": 0,
+      "after": 0,
+      "delta": 0,
+      "covered_topics": [],
+      "not_documented_topics": [
+        "ecologie-energie",
+        "economie-finances",
+        "europe-souverainete",
+        "fiscalite-redistribution",
+        "immigration-integration",
+        "institutions-democratie",
+        "pouvoir-achat-travail",
+        "retraites",
+        "securite-justice",
+        "services-publics"
+      ],
+      "counts_by_topic": {
+        "ecologie-energie": 0,
+        "economie-finances": 0,
+        "europe-souverainete": 0,
+        "fiscalite-redistribution": 0,
+        "immigration-integration": 0,
+        "institutions-democratie": 0,
+        "pouvoir-achat-travail": 0,
+        "retraites": 0,
+        "securite-justice": 0,
+        "services-publics": 0
+      }
+    },
+    {
+      "entity_id": "florian-philippot",
+      "name": "Florian Philippot",
+      "before": 0,
+      "after": 0,
+      "delta": 0,
+      "covered_topics": [],
+      "not_documented_topics": [
+        "ecologie-energie",
+        "economie-finances",
+        "europe-souverainete",
+        "fiscalite-redistribution",
+        "immigration-integration",
+        "institutions-democratie",
+        "pouvoir-achat-travail",
+        "retraites",
+        "securite-justice",
+        "services-publics"
+      ],
+      "counts_by_topic": {
+        "ecologie-energie": 0,
+        "economie-finances": 0,
+        "europe-souverainete": 0,
+        "fiscalite-redistribution": 0,
+        "immigration-integration": 0,
+        "institutions-democratie": 0,
+        "pouvoir-achat-travail": 0,
+        "retraites": 0,
+        "securite-justice": 0,
+        "services-publics": 0
+      }
+    },
+    {
+      "entity_id": "france-humaniste",
+      "name": "France humaniste",
+      "before": 0,
+      "after": 0,
+      "delta": 0,
+      "covered_topics": [],
+      "not_documented_topics": [
+        "ecologie-energie",
+        "economie-finances",
+        "europe-souverainete",
+        "fiscalite-redistribution",
+        "immigration-integration",
+        "institutions-democratie",
+        "pouvoir-achat-travail",
+        "retraites",
+        "securite-justice",
+        "services-publics"
+      ],
+      "counts_by_topic": {
+        "ecologie-energie": 0,
+        "economie-finances": 0,
+        "europe-souverainete": 0,
+        "fiscalite-redistribution": 0,
+        "immigration-integration": 0,
+        "institutions-democratie": 0,
+        "pouvoir-achat-travail": 0,
+        "retraites": 0,
+        "securite-justice": 0,
+        "services-publics": 0
+      }
+    },
+    {
+      "entity_id": "francois-asselineau",
+      "name": "François Asselineau",
+      "before": 0,
+      "after": 0,
+      "delta": 0,
+      "covered_topics": [],
+      "not_documented_topics": [
+        "ecologie-energie",
+        "economie-finances",
+        "europe-souverainete",
+        "fiscalite-redistribution",
+        "immigration-integration",
+        "institutions-democratie",
+        "pouvoir-achat-travail",
+        "retraites",
+        "securite-justice",
+        "services-publics"
+      ],
+      "counts_by_topic": {
+        "ecologie-energie": 0,
+        "economie-finances": 0,
+        "europe-souverainete": 0,
+        "fiscalite-redistribution": 0,
+        "immigration-integration": 0,
+        "institutions-democratie": 0,
+        "pouvoir-achat-travail": 0,
+        "retraites": 0,
+        "securite-justice": 0,
+        "services-publics": 0
+      }
+    },
+    {
+      "entity_id": "francois-hollande",
+      "name": "François Hollande",
+      "before": 0,
+      "after": 0,
+      "delta": 0,
+      "covered_topics": [],
+      "not_documented_topics": [
+        "ecologie-energie",
+        "economie-finances",
+        "europe-souverainete",
+        "fiscalite-redistribution",
+        "immigration-integration",
+        "institutions-democratie",
+        "pouvoir-achat-travail",
+        "retraites",
+        "securite-justice",
+        "services-publics"
+      ],
+      "counts_by_topic": {
+        "ecologie-energie": 0,
+        "economie-finances": 0,
+        "europe-souverainete": 0,
+        "fiscalite-redistribution": 0,
+        "immigration-integration": 0,
+        "institutions-democratie": 0,
+        "pouvoir-achat-travail": 0,
+        "retraites": 0,
+        "securite-justice": 0,
+        "services-publics": 0
+      }
+    },
+    {
+      "entity_id": "francois-ruffin",
+      "name": "François Ruffin",
+      "before": 0,
+      "after": 0,
+      "delta": 0,
+      "covered_topics": [],
+      "not_documented_topics": [
+        "ecologie-energie",
+        "economie-finances",
+        "europe-souverainete",
+        "fiscalite-redistribution",
+        "immigration-integration",
+        "institutions-democratie",
+        "pouvoir-achat-travail",
+        "retraites",
+        "securite-justice",
+        "services-publics"
+      ],
+      "counts_by_topic": {
+        "ecologie-energie": 0,
+        "economie-finances": 0,
+        "europe-souverainete": 0,
+        "fiscalite-redistribution": 0,
+        "immigration-integration": 0,
+        "institutions-democratie": 0,
+        "pouvoir-achat-travail": 0,
+        "retraites": 0,
+        "securite-justice": 0,
+        "services-publics": 0
+      }
+    },
+    {
+      "entity_id": "gabriel-attal",
+      "name": "Gabriel Attal",
+      "before": 0,
+      "after": 0,
+      "delta": 0,
+      "covered_topics": [],
+      "not_documented_topics": [
+        "ecologie-energie",
+        "economie-finances",
+        "europe-souverainete",
+        "fiscalite-redistribution",
+        "immigration-integration",
+        "institutions-democratie",
+        "pouvoir-achat-travail",
+        "retraites",
+        "securite-justice",
+        "services-publics"
+      ],
+      "counts_by_topic": {
+        "ecologie-energie": 0,
+        "economie-finances": 0,
+        "europe-souverainete": 0,
+        "fiscalite-redistribution": 0,
+        "immigration-integration": 0,
+        "institutions-democratie": 0,
+        "pouvoir-achat-travail": 0,
+        "retraites": 0,
+        "securite-justice": 0,
+        "services-publics": 0
+      }
+    },
+    {
+      "entity_id": "generation-ecologie",
+      "name": "Génération Écologie",
+      "before": 0,
+      "after": 0,
+      "delta": 0,
+      "covered_topics": [],
+      "not_documented_topics": [
+        "ecologie-energie",
+        "economie-finances",
+        "europe-souverainete",
+        "fiscalite-redistribution",
+        "immigration-integration",
+        "institutions-democratie",
+        "pouvoir-achat-travail",
+        "retraites",
+        "securite-justice",
+        "services-publics"
+      ],
+      "counts_by_topic": {
+        "ecologie-energie": 0,
+        "economie-finances": 0,
+        "europe-souverainete": 0,
+        "fiscalite-redistribution": 0,
+        "immigration-integration": 0,
+        "institutions-democratie": 0,
+        "pouvoir-achat-travail": 0,
+        "retraites": 0,
+        "securite-justice": 0,
+        "services-publics": 0
+      }
+    },
+    {
+      "entity_id": "generation-s",
+      "name": "Génération.s",
+      "before": 0,
+      "after": 0,
+      "delta": 0,
+      "covered_topics": [],
+      "not_documented_topics": [
+        "ecologie-energie",
+        "economie-finances",
+        "europe-souverainete",
+        "fiscalite-redistribution",
+        "immigration-integration",
+        "institutions-democratie",
+        "pouvoir-achat-travail",
+        "retraites",
+        "securite-justice",
+        "services-publics"
+      ],
+      "counts_by_topic": {
+        "ecologie-energie": 0,
+        "economie-finances": 0,
+        "europe-souverainete": 0,
+        "fiscalite-redistribution": 0,
+        "immigration-integration": 0,
+        "institutions-democratie": 0,
+        "pouvoir-achat-travail": 0,
+        "retraites": 0,
+        "securite-justice": 0,
+        "services-publics": 0
+      }
+    },
+    {
+      "entity_id": "gerald-darmanin",
+      "name": "Gérald Darmanin",
+      "before": 0,
+      "after": 0,
+      "delta": 0,
+      "covered_topics": [],
+      "not_documented_topics": [
+        "ecologie-energie",
+        "economie-finances",
+        "europe-souverainete",
+        "fiscalite-redistribution",
+        "immigration-integration",
+        "institutions-democratie",
+        "pouvoir-achat-travail",
+        "retraites",
+        "securite-justice",
+        "services-publics"
+      ],
+      "counts_by_topic": {
+        "ecologie-energie": 0,
+        "economie-finances": 0,
+        "europe-souverainete": 0,
+        "fiscalite-redistribution": 0,
+        "immigration-integration": 0,
+        "institutions-democratie": 0,
+        "pouvoir-achat-travail": 0,
+        "retraites": 0,
+        "securite-justice": 0,
+        "services-publics": 0
+      }
+    },
+    {
+      "entity_id": "horizons",
+      "name": "Horizons",
+      "before": 0,
+      "after": 0,
+      "delta": 0,
+      "covered_topics": [],
+      "not_documented_topics": [
+        "ecologie-energie",
+        "economie-finances",
+        "europe-souverainete",
+        "fiscalite-redistribution",
+        "immigration-integration",
+        "institutions-democratie",
+        "pouvoir-achat-travail",
+        "retraites",
+        "securite-justice",
+        "services-publics"
+      ],
+      "counts_by_topic": {
+        "ecologie-energie": 0,
+        "economie-finances": 0,
+        "europe-souverainete": 0,
+        "fiscalite-redistribution": 0,
+        "immigration-integration": 0,
+        "institutions-democratie": 0,
+        "pouvoir-achat-travail": 0,
+        "retraites": 0,
+        "securite-justice": 0,
+        "services-publics": 0
+      }
+    },
+    {
+      "entity_id": "jean-luc-melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "before": 0,
+      "after": 0,
+      "delta": 0,
+      "covered_topics": [],
+      "not_documented_topics": [
+        "ecologie-energie",
+        "economie-finances",
+        "europe-souverainete",
+        "fiscalite-redistribution",
+        "immigration-integration",
+        "institutions-democratie",
+        "pouvoir-achat-travail",
+        "retraites",
+        "securite-justice",
+        "services-publics"
+      ],
+      "counts_by_topic": {
+        "ecologie-energie": 0,
+        "economie-finances": 0,
+        "europe-souverainete": 0,
+        "fiscalite-redistribution": 0,
+        "immigration-integration": 0,
+        "institutions-democratie": 0,
+        "pouvoir-achat-travail": 0,
+        "retraites": 0,
+        "securite-justice": 0,
+        "services-publics": 0
+      }
+    },
+    {
+      "entity_id": "jerome-guedj",
+      "name": "Jérôme Guedj",
+      "before": 0,
+      "after": 0,
+      "delta": 0,
+      "covered_topics": [],
+      "not_documented_topics": [
+        "ecologie-energie",
+        "economie-finances",
+        "europe-souverainete",
+        "fiscalite-redistribution",
+        "immigration-integration",
+        "institutions-democratie",
+        "pouvoir-achat-travail",
+        "retraites",
+        "securite-justice",
+        "services-publics"
+      ],
+      "counts_by_topic": {
+        "ecologie-energie": 0,
+        "economie-finances": 0,
+        "europe-souverainete": 0,
+        "fiscalite-redistribution": 0,
+        "immigration-integration": 0,
+        "institutions-democratie": 0,
+        "pouvoir-achat-travail": 0,
+        "retraites": 0,
+        "securite-justice": 0,
+        "services-publics": 0
+      }
+    },
+    {
+      "entity_id": "karim-bouamrane",
+      "name": "Karim Bouamrane",
+      "before": 3,
+      "after": 3,
+      "delta": 0,
+      "covered_topics": [
+        "economie-finances",
+        "europe-souverainete",
+        "immigration-integration"
+      ],
+      "not_documented_topics": [
+        "ecologie-energie",
+        "fiscalite-redistribution",
+        "institutions-democratie",
+        "pouvoir-achat-travail",
+        "retraites",
+        "securite-justice",
+        "services-publics"
+      ],
+      "counts_by_topic": {
+        "ecologie-energie": 0,
+        "economie-finances": 1,
+        "europe-souverainete": 1,
+        "fiscalite-redistribution": 0,
+        "immigration-integration": 1,
+        "institutions-democratie": 0,
+        "pouvoir-achat-travail": 0,
+        "retraites": 0,
+        "securite-justice": 0,
+        "services-publics": 0
+      }
+    },
+    {
+      "entity_id": "lapres",
+      "name": "L'Après",
+      "before": 0,
+      "after": 0,
+      "delta": 0,
+      "covered_topics": [],
+      "not_documented_topics": [
+        "ecologie-energie",
+        "economie-finances",
+        "europe-souverainete",
+        "fiscalite-redistribution",
+        "immigration-integration",
+        "institutions-democratie",
+        "pouvoir-achat-travail",
+        "retraites",
+        "securite-justice",
+        "services-publics"
+      ],
+      "counts_by_topic": {
+        "ecologie-energie": 0,
+        "economie-finances": 0,
+        "europe-souverainete": 0,
+        "fiscalite-redistribution": 0,
+        "immigration-integration": 0,
+        "institutions-democratie": 0,
+        "pouvoir-achat-travail": 0,
+        "retraites": 0,
+        "securite-justice": 0,
+        "services-publics": 0
+      }
+    },
+    {
+      "entity_id": "la-convention",
+      "name": "La Convention",
+      "before": 0,
+      "after": 0,
+      "delta": 0,
+      "covered_topics": [],
+      "not_documented_topics": [
+        "ecologie-energie",
+        "economie-finances",
+        "europe-souverainete",
+        "fiscalite-redistribution",
+        "immigration-integration",
+        "institutions-democratie",
+        "pouvoir-achat-travail",
+        "retraites",
+        "securite-justice",
+        "services-publics"
+      ],
+      "counts_by_topic": {
+        "ecologie-energie": 0,
+        "economie-finances": 0,
+        "europe-souverainete": 0,
+        "fiscalite-redistribution": 0,
+        "immigration-integration": 0,
+        "institutions-democratie": 0,
+        "pouvoir-achat-travail": 0,
+        "retraites": 0,
+        "securite-justice": 0,
+        "services-publics": 0
+      }
+    },
+    {
+      "entity_id": "la-france-humaine-forte",
+      "name": "La France Humaine & Forte",
+      "before": 0,
+      "after": 0,
+      "delta": 0,
+      "covered_topics": [],
+      "not_documented_topics": [
+        "ecologie-energie",
+        "economie-finances",
+        "europe-souverainete",
+        "fiscalite-redistribution",
+        "immigration-integration",
+        "institutions-democratie",
+        "pouvoir-achat-travail",
+        "retraites",
+        "securite-justice",
+        "services-publics"
+      ],
+      "counts_by_topic": {
+        "ecologie-energie": 0,
+        "economie-finances": 0,
+        "europe-souverainete": 0,
+        "fiscalite-redistribution": 0,
+        "immigration-integration": 0,
+        "institutions-democratie": 0,
+        "pouvoir-achat-travail": 0,
+        "retraites": 0,
+        "securite-justice": 0,
+        "services-publics": 0
+      }
+    },
+    {
+      "entity_id": "la-france-insoumise",
+      "name": "La France insoumise",
+      "before": 40,
+      "after": 85,
+      "delta": 45,
+      "covered_topics": [
+        "ecologie-energie",
+        "economie-finances",
+        "europe-souverainete",
+        "fiscalite-redistribution",
+        "immigration-integration",
+        "institutions-democratie",
+        "pouvoir-achat-travail",
+        "retraites",
+        "securite-justice",
+        "services-publics"
+      ],
+      "not_documented_topics": [],
+      "counts_by_topic": {
+        "ecologie-energie": 25,
+        "economie-finances": 8,
+        "europe-souverainete": 16,
+        "fiscalite-redistribution": 3,
+        "immigration-integration": 3,
+        "institutions-democratie": 10,
+        "pouvoir-achat-travail": 4,
+        "retraites": 1,
+        "securite-justice": 1,
+        "services-publics": 14
+      }
+    },
+    {
+      "entity_id": "laurent-wauquiez",
+      "name": "Laurent Wauquiez",
+      "before": 0,
+      "after": 0,
+      "delta": 0,
+      "covered_topics": [],
+      "not_documented_topics": [
+        "ecologie-energie",
+        "economie-finances",
+        "europe-souverainete",
+        "fiscalite-redistribution",
+        "immigration-integration",
+        "institutions-democratie",
+        "pouvoir-achat-travail",
+        "retraites",
+        "securite-justice",
+        "services-publics"
+      ],
+      "counts_by_topic": {
+        "ecologie-energie": 0,
+        "economie-finances": 0,
+        "europe-souverainete": 0,
+        "fiscalite-redistribution": 0,
+        "immigration-integration": 0,
+        "institutions-democratie": 0,
+        "pouvoir-achat-travail": 0,
+        "retraites": 0,
+        "securite-justice": 0,
+        "services-publics": 0
+      }
+    },
+    {
+      "entity_id": "les-patriotes",
+      "name": "Les Patriotes",
+      "before": 0,
+      "after": 0,
+      "delta": 0,
+      "covered_topics": [],
+      "not_documented_topics": [
+        "ecologie-energie",
+        "economie-finances",
+        "europe-souverainete",
+        "fiscalite-redistribution",
+        "immigration-integration",
+        "institutions-democratie",
+        "pouvoir-achat-travail",
+        "retraites",
+        "securite-justice",
+        "services-publics"
+      ],
+      "counts_by_topic": {
+        "ecologie-energie": 0,
+        "economie-finances": 0,
+        "europe-souverainete": 0,
+        "fiscalite-redistribution": 0,
+        "immigration-integration": 0,
+        "institutions-democratie": 0,
+        "pouvoir-achat-travail": 0,
+        "retraites": 0,
+        "securite-justice": 0,
+        "services-publics": 0
+      }
+    },
+    {
+      "entity_id": "les-republicains",
+      "name": "Les Républicains",
+      "before": 0,
+      "after": 0,
+      "delta": 0,
+      "covered_topics": [],
+      "not_documented_topics": [
+        "ecologie-energie",
+        "economie-finances",
+        "europe-souverainete",
+        "fiscalite-redistribution",
+        "immigration-integration",
+        "institutions-democratie",
+        "pouvoir-achat-travail",
+        "retraites",
+        "securite-justice",
+        "services-publics"
+      ],
+      "counts_by_topic": {
+        "ecologie-energie": 0,
+        "economie-finances": 0,
+        "europe-souverainete": 0,
+        "fiscalite-redistribution": 0,
+        "immigration-integration": 0,
+        "institutions-democratie": 0,
+        "pouvoir-achat-travail": 0,
+        "retraites": 0,
+        "securite-justice": 0,
+        "services-publics": 0
+      }
+    },
+    {
+      "entity_id": "les-ecologistes",
+      "name": "Les Écologistes",
+      "before": 0,
+      "after": 0,
+      "delta": 0,
+      "covered_topics": [],
+      "not_documented_topics": [
+        "ecologie-energie",
+        "economie-finances",
+        "europe-souverainete",
+        "fiscalite-redistribution",
+        "immigration-integration",
+        "institutions-democratie",
+        "pouvoir-achat-travail",
+        "retraites",
+        "securite-justice",
+        "services-publics"
+      ],
+      "counts_by_topic": {
+        "ecologie-energie": 0,
+        "economie-finances": 0,
+        "europe-souverainete": 0,
+        "fiscalite-redistribution": 0,
+        "immigration-integration": 0,
+        "institutions-democratie": 0,
+        "pouvoir-achat-travail": 0,
+        "retraites": 0,
+        "securite-justice": 0,
+        "services-publics": 0
+      }
+    },
+    {
+      "entity_id": "lutte-ouvriere",
+      "name": "Lutte ouvrière",
+      "before": 0,
+      "after": 0,
+      "delta": 0,
+      "covered_topics": [],
+      "not_documented_topics": [
+        "ecologie-energie",
+        "economie-finances",
+        "europe-souverainete",
+        "fiscalite-redistribution",
+        "immigration-integration",
+        "institutions-democratie",
+        "pouvoir-achat-travail",
+        "retraites",
+        "securite-justice",
+        "services-publics"
+      ],
+      "counts_by_topic": {
+        "ecologie-energie": 0,
+        "economie-finances": 0,
+        "europe-souverainete": 0,
+        "fiscalite-redistribution": 0,
+        "immigration-integration": 0,
+        "institutions-democratie": 0,
+        "pouvoir-achat-travail": 0,
+        "retraites": 0,
+        "securite-justice": 0,
+        "services-publics": 0
+      }
+    },
+    {
+      "entity_id": "lydie-massard",
+      "name": "Lydie Massard",
+      "before": 0,
+      "after": 0,
+      "delta": 0,
+      "covered_topics": [],
+      "not_documented_topics": [
+        "ecologie-energie",
+        "economie-finances",
+        "europe-souverainete",
+        "fiscalite-redistribution",
+        "immigration-integration",
+        "institutions-democratie",
+        "pouvoir-achat-travail",
+        "retraites",
+        "securite-justice",
+        "services-publics"
+      ],
+      "counts_by_topic": {
+        "ecologie-energie": 0,
+        "economie-finances": 0,
+        "europe-souverainete": 0,
+        "fiscalite-redistribution": 0,
+        "immigration-integration": 0,
+        "institutions-democratie": 0,
+        "pouvoir-achat-travail": 0,
+        "retraites": 0,
+        "securite-justice": 0,
+        "services-publics": 0
+      }
+    },
+    {
+      "entity_id": "marine-le-pen",
+      "name": "Marine Le Pen",
+      "before": 0,
+      "after": 0,
+      "delta": 0,
+      "covered_topics": [],
+      "not_documented_topics": [
+        "ecologie-energie",
+        "economie-finances",
+        "europe-souverainete",
+        "fiscalite-redistribution",
+        "immigration-integration",
+        "institutions-democratie",
+        "pouvoir-achat-travail",
+        "retraites",
+        "securite-justice",
+        "services-publics"
+      ],
+      "counts_by_topic": {
+        "ecologie-energie": 0,
+        "economie-finances": 0,
+        "europe-souverainete": 0,
+        "fiscalite-redistribution": 0,
+        "immigration-integration": 0,
+        "institutions-democratie": 0,
+        "pouvoir-achat-travail": 0,
+        "retraites": 0,
+        "securite-justice": 0,
+        "services-publics": 0
+      }
+    },
+    {
+      "entity_id": "marine-tondelier",
+      "name": "Marine Tondelier",
+      "before": 0,
+      "after": 0,
+      "delta": 0,
+      "covered_topics": [],
+      "not_documented_topics": [
+        "ecologie-energie",
+        "economie-finances",
+        "europe-souverainete",
+        "fiscalite-redistribution",
+        "immigration-integration",
+        "institutions-democratie",
+        "pouvoir-achat-travail",
+        "retraites",
+        "securite-justice",
+        "services-publics"
+      ],
+      "counts_by_topic": {
+        "ecologie-energie": 0,
+        "economie-finances": 0,
+        "europe-souverainete": 0,
+        "fiscalite-redistribution": 0,
+        "immigration-integration": 0,
+        "institutions-democratie": 0,
+        "pouvoir-achat-travail": 0,
+        "retraites": 0,
+        "securite-justice": 0,
+        "services-publics": 0
+      }
+    },
+    {
+      "entity_id": "nathalie-arthaud",
+      "name": "Nathalie Arthaud",
+      "before": 0,
+      "after": 0,
+      "delta": 0,
+      "covered_topics": [],
+      "not_documented_topics": [
+        "ecologie-energie",
+        "economie-finances",
+        "europe-souverainete",
+        "fiscalite-redistribution",
+        "immigration-integration",
+        "institutions-democratie",
+        "pouvoir-achat-travail",
+        "retraites",
+        "securite-justice",
+        "services-publics"
+      ],
+      "counts_by_topic": {
+        "ecologie-energie": 0,
+        "economie-finances": 0,
+        "europe-souverainete": 0,
+        "fiscalite-redistribution": 0,
+        "immigration-integration": 0,
+        "institutions-democratie": 0,
+        "pouvoir-achat-travail": 0,
+        "retraites": 0,
+        "securite-justice": 0,
+        "services-publics": 0
+      }
+    },
+    {
+      "entity_id": "nicolas-dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "before": 1,
+      "after": 1,
+      "delta": 0,
+      "covered_topics": [
+        "securite-justice"
+      ],
+      "not_documented_topics": [
+        "ecologie-energie",
+        "economie-finances",
+        "europe-souverainete",
+        "fiscalite-redistribution",
+        "immigration-integration",
+        "institutions-democratie",
+        "pouvoir-achat-travail",
+        "retraites",
+        "services-publics"
+      ],
+      "counts_by_topic": {
+        "ecologie-energie": 0,
+        "economie-finances": 0,
+        "europe-souverainete": 0,
+        "fiscalite-redistribution": 0,
+        "immigration-integration": 0,
+        "institutions-democratie": 0,
+        "pouvoir-achat-travail": 0,
+        "retraites": 0,
+        "securite-justice": 1,
+        "services-publics": 0
+      }
+    },
+    {
+      "entity_id": "nouvelle-energie",
+      "name": "Nouvelle Énergie",
+      "before": 5,
+      "after": 5,
+      "delta": 0,
+      "covered_topics": [
+        "economie-finances",
+        "institutions-democratie",
+        "retraites",
+        "services-publics"
+      ],
+      "not_documented_topics": [
+        "ecologie-energie",
+        "europe-souverainete",
+        "fiscalite-redistribution",
+        "immigration-integration",
+        "pouvoir-achat-travail",
+        "securite-justice"
+      ],
+      "counts_by_topic": {
+        "ecologie-energie": 0,
+        "economie-finances": 1,
+        "europe-souverainete": 0,
+        "fiscalite-redistribution": 0,
+        "immigration-integration": 0,
+        "institutions-democratie": 1,
+        "pouvoir-achat-travail": 0,
+        "retraites": 1,
+        "securite-justice": 0,
+        "services-publics": 2
+      }
+    },
+    {
+      "entity_id": "npa-revolutionnaires",
+      "name": "NPA-Révolutionnaires",
+      "before": 0,
+      "after": 0,
+      "delta": 0,
+      "covered_topics": [],
+      "not_documented_topics": [
+        "ecologie-energie",
+        "economie-finances",
+        "europe-souverainete",
+        "fiscalite-redistribution",
+        "immigration-integration",
+        "institutions-democratie",
+        "pouvoir-achat-travail",
+        "retraites",
+        "securite-justice",
+        "services-publics"
+      ],
+      "counts_by_topic": {
+        "ecologie-energie": 0,
+        "economie-finances": 0,
+        "europe-souverainete": 0,
+        "fiscalite-redistribution": 0,
+        "immigration-integration": 0,
+        "institutions-democratie": 0,
+        "pouvoir-achat-travail": 0,
+        "retraites": 0,
+        "securite-justice": 0,
+        "services-publics": 0
+      }
+    },
+    {
+      "entity_id": "olivier-becht",
+      "name": "Olivier Becht",
+      "before": 0,
+      "after": 0,
+      "delta": 0,
+      "covered_topics": [],
+      "not_documented_topics": [
+        "ecologie-energie",
+        "economie-finances",
+        "europe-souverainete",
+        "fiscalite-redistribution",
+        "immigration-integration",
+        "institutions-democratie",
+        "pouvoir-achat-travail",
+        "retraites",
+        "securite-justice",
+        "services-publics"
+      ],
+      "counts_by_topic": {
+        "ecologie-energie": 0,
+        "economie-finances": 0,
+        "europe-souverainete": 0,
+        "fiscalite-redistribution": 0,
+        "immigration-integration": 0,
+        "institutions-democratie": 0,
+        "pouvoir-achat-travail": 0,
+        "retraites": 0,
+        "securite-justice": 0,
+        "services-publics": 0
+      }
+    },
+    {
+      "entity_id": "olivier-faure",
+      "name": "Olivier Faure",
+      "before": 0,
+      "after": 0,
+      "delta": 0,
+      "covered_topics": [],
+      "not_documented_topics": [
+        "ecologie-energie",
+        "economie-finances",
+        "europe-souverainete",
+        "fiscalite-redistribution",
+        "immigration-integration",
+        "institutions-democratie",
+        "pouvoir-achat-travail",
+        "retraites",
+        "securite-justice",
+        "services-publics"
+      ],
+      "counts_by_topic": {
+        "ecologie-energie": 0,
+        "economie-finances": 0,
+        "europe-souverainete": 0,
+        "fiscalite-redistribution": 0,
+        "immigration-integration": 0,
+        "institutions-democratie": 0,
+        "pouvoir-achat-travail": 0,
+        "retraites": 0,
+        "securite-justice": 0,
+        "services-publics": 0
+      }
+    },
+    {
+      "entity_id": "pcf",
+      "name": "Parti communiste français",
+      "before": 0,
+      "after": 0,
+      "delta": 0,
+      "covered_topics": [],
+      "not_documented_topics": [
+        "ecologie-energie",
+        "economie-finances",
+        "europe-souverainete",
+        "fiscalite-redistribution",
+        "immigration-integration",
+        "institutions-democratie",
+        "pouvoir-achat-travail",
+        "retraites",
+        "securite-justice",
+        "services-publics"
+      ],
+      "counts_by_topic": {
+        "ecologie-energie": 0,
+        "economie-finances": 0,
+        "europe-souverainete": 0,
+        "fiscalite-redistribution": 0,
+        "immigration-integration": 0,
+        "institutions-democratie": 0,
+        "pouvoir-achat-travail": 0,
+        "retraites": 0,
+        "securite-justice": 0,
+        "services-publics": 0
+      }
+    },
+    {
+      "entity_id": "parti-socialiste",
+      "name": "Parti socialiste",
+      "before": 9,
+      "after": 9,
+      "delta": 0,
+      "covered_topics": [
+        "ecologie-energie",
+        "immigration-integration",
+        "pouvoir-achat-travail",
+        "retraites",
+        "services-publics"
+      ],
+      "not_documented_topics": [
+        "economie-finances",
+        "europe-souverainete",
+        "fiscalite-redistribution",
+        "institutions-democratie",
+        "securite-justice"
+      ],
+      "counts_by_topic": {
+        "ecologie-energie": 2,
+        "economie-finances": 0,
+        "europe-souverainete": 0,
+        "fiscalite-redistribution": 0,
+        "immigration-integration": 2,
+        "institutions-democratie": 0,
+        "pouvoir-achat-travail": 2,
+        "retraites": 1,
+        "securite-justice": 0,
+        "services-publics": 2
+      }
+    },
+    {
+      "entity_id": "philippe-brun",
+      "name": "Philippe Brun",
+      "before": 0,
+      "after": 0,
+      "delta": 0,
+      "covered_topics": [],
+      "not_documented_topics": [
+        "ecologie-energie",
+        "economie-finances",
+        "europe-souverainete",
+        "fiscalite-redistribution",
+        "immigration-integration",
+        "institutions-democratie",
+        "pouvoir-achat-travail",
+        "retraites",
+        "securite-justice",
+        "services-publics"
+      ],
+      "counts_by_topic": {
+        "ecologie-energie": 0,
+        "economie-finances": 0,
+        "europe-souverainete": 0,
+        "fiscalite-redistribution": 0,
+        "immigration-integration": 0,
+        "institutions-democratie": 0,
+        "pouvoir-achat-travail": 0,
+        "retraites": 0,
+        "securite-justice": 0,
+        "services-publics": 0
+      }
+    },
+    {
+      "entity_id": "place-publique",
+      "name": "Place publique",
+      "before": 0,
+      "after": 0,
+      "delta": 0,
+      "covered_topics": [],
+      "not_documented_topics": [
+        "ecologie-energie",
+        "economie-finances",
+        "europe-souverainete",
+        "fiscalite-redistribution",
+        "immigration-integration",
+        "institutions-democratie",
+        "pouvoir-achat-travail",
+        "retraites",
+        "securite-justice",
+        "services-publics"
+      ],
+      "counts_by_topic": {
+        "ecologie-energie": 0,
+        "economie-finances": 0,
+        "europe-souverainete": 0,
+        "fiscalite-redistribution": 0,
+        "immigration-integration": 0,
+        "institutions-democratie": 0,
+        "pouvoir-achat-travail": 0,
+        "retraites": 0,
+        "securite-justice": 0,
+        "services-publics": 0
+      }
+    },
+    {
+      "entity_id": "raphael-glucksmann",
+      "name": "Raphaël Glucksmann",
+      "before": 0,
+      "after": 0,
+      "delta": 0,
+      "covered_topics": [],
+      "not_documented_topics": [
+        "ecologie-energie",
+        "economie-finances",
+        "europe-souverainete",
+        "fiscalite-redistribution",
+        "immigration-integration",
+        "institutions-democratie",
+        "pouvoir-achat-travail",
+        "retraites",
+        "securite-justice",
+        "services-publics"
+      ],
+      "counts_by_topic": {
+        "ecologie-energie": 0,
+        "economie-finances": 0,
+        "europe-souverainete": 0,
+        "fiscalite-redistribution": 0,
+        "immigration-integration": 0,
+        "institutions-democratie": 0,
+        "pouvoir-achat-travail": 0,
+        "retraites": 0,
+        "securite-justice": 0,
+        "services-publics": 0
+      }
+    },
+    {
+      "entity_id": "rassemblement-national",
+      "name": "Rassemblement National",
+      "before": 6,
+      "after": 6,
+      "delta": 0,
+      "covered_topics": [
+        "ecologie-energie",
+        "fiscalite-redistribution",
+        "immigration-integration",
+        "institutions-democratie",
+        "retraites",
+        "securite-justice"
+      ],
+      "not_documented_topics": [
+        "economie-finances",
+        "europe-souverainete",
+        "pouvoir-achat-travail",
+        "services-publics"
+      ],
+      "counts_by_topic": {
+        "ecologie-energie": 1,
+        "economie-finances": 0,
+        "europe-souverainete": 0,
+        "fiscalite-redistribution": 1,
+        "immigration-integration": 1,
+        "institutions-democratie": 1,
+        "pouvoir-achat-travail": 0,
+        "retraites": 1,
+        "securite-justice": 1,
+        "services-publics": 0
+      }
+    },
+    {
+      "entity_id": "reconquete",
+      "name": "Reconquête",
+      "before": 1,
+      "after": 1,
+      "delta": 0,
+      "covered_topics": [
+        "fiscalite-redistribution"
+      ],
+      "not_documented_topics": [
+        "ecologie-energie",
+        "economie-finances",
+        "europe-souverainete",
+        "immigration-integration",
+        "institutions-democratie",
+        "pouvoir-achat-travail",
+        "retraites",
+        "securite-justice",
+        "services-publics"
+      ],
+      "counts_by_topic": {
+        "ecologie-energie": 0,
+        "economie-finances": 0,
+        "europe-souverainete": 0,
+        "fiscalite-redistribution": 1,
+        "immigration-integration": 0,
+        "institutions-democratie": 0,
+        "pouvoir-achat-travail": 0,
+        "retraites": 0,
+        "securite-justice": 0,
+        "services-publics": 0
+      }
+    },
+    {
+      "entity_id": "renaissance",
+      "name": "Renaissance",
+      "before": 9,
+      "after": 9,
+      "delta": 0,
+      "covered_topics": [
+        "ecologie-energie",
+        "fiscalite-redistribution",
+        "immigration-integration",
+        "pouvoir-achat-travail",
+        "retraites",
+        "securite-justice"
+      ],
+      "not_documented_topics": [
+        "economie-finances",
+        "europe-souverainete",
+        "institutions-democratie",
+        "services-publics"
+      ],
+      "counts_by_topic": {
+        "ecologie-energie": 2,
+        "economie-finances": 0,
+        "europe-souverainete": 0,
+        "fiscalite-redistribution": 1,
+        "immigration-integration": 1,
+        "institutions-democratie": 0,
+        "pouvoir-achat-travail": 1,
+        "retraites": 1,
+        "securite-justice": 3,
+        "services-publics": 0
+      }
+    },
+    {
+      "entity_id": "revolution-permanente",
+      "name": "Révolution Permanente",
+      "before": 0,
+      "after": 0,
+      "delta": 0,
+      "covered_topics": [],
+      "not_documented_topics": [
+        "ecologie-energie",
+        "economie-finances",
+        "europe-souverainete",
+        "fiscalite-redistribution",
+        "immigration-integration",
+        "institutions-democratie",
+        "pouvoir-achat-travail",
+        "retraites",
+        "securite-justice",
+        "services-publics"
+      ],
+      "counts_by_topic": {
+        "ecologie-energie": 0,
+        "economie-finances": 0,
+        "europe-souverainete": 0,
+        "fiscalite-redistribution": 0,
+        "immigration-integration": 0,
+        "institutions-democratie": 0,
+        "pouvoir-achat-travail": 0,
+        "retraites": 0,
+        "securite-justice": 0,
+        "services-publics": 0
+      }
+    },
+    {
+      "entity_id": "sarah-knafo",
+      "name": "Sarah Knafo",
+      "before": 0,
+      "after": 0,
+      "delta": 0,
+      "covered_topics": [],
+      "not_documented_topics": [
+        "ecologie-energie",
+        "economie-finances",
+        "europe-souverainete",
+        "fiscalite-redistribution",
+        "immigration-integration",
+        "institutions-democratie",
+        "pouvoir-achat-travail",
+        "retraites",
+        "securite-justice",
+        "services-publics"
+      ],
+      "counts_by_topic": {
+        "ecologie-energie": 0,
+        "economie-finances": 0,
+        "europe-souverainete": 0,
+        "fiscalite-redistribution": 0,
+        "immigration-integration": 0,
+        "institutions-democratie": 0,
+        "pouvoir-achat-travail": 0,
+        "retraites": 0,
+        "securite-justice": 0,
+        "services-publics": 0
+      }
+    },
+    {
+      "entity_id": "selma-labib",
+      "name": "Selma Labib",
+      "before": 0,
+      "after": 0,
+      "delta": 0,
+      "covered_topics": [],
+      "not_documented_topics": [
+        "ecologie-energie",
+        "economie-finances",
+        "europe-souverainete",
+        "fiscalite-redistribution",
+        "immigration-integration",
+        "institutions-democratie",
+        "pouvoir-achat-travail",
+        "retraites",
+        "securite-justice",
+        "services-publics"
+      ],
+      "counts_by_topic": {
+        "ecologie-energie": 0,
+        "economie-finances": 0,
+        "europe-souverainete": 0,
+        "fiscalite-redistribution": 0,
+        "immigration-integration": 0,
+        "institutions-democratie": 0,
+        "pouvoir-achat-travail": 0,
+        "retraites": 0,
+        "securite-justice": 0,
+        "services-publics": 0
+      }
+    },
+    {
+      "entity_id": "solution-democratique",
+      "name": "Solution démocratique",
+      "before": 0,
+      "after": 0,
+      "delta": 0,
+      "covered_topics": [],
+      "not_documented_topics": [
+        "ecologie-energie",
+        "economie-finances",
+        "europe-souverainete",
+        "fiscalite-redistribution",
+        "immigration-integration",
+        "institutions-democratie",
+        "pouvoir-achat-travail",
+        "retraites",
+        "securite-justice",
+        "services-publics"
+      ],
+      "counts_by_topic": {
+        "ecologie-energie": 0,
+        "economie-finances": 0,
+        "europe-souverainete": 0,
+        "fiscalite-redistribution": 0,
+        "immigration-integration": 0,
+        "institutions-democratie": 0,
+        "pouvoir-achat-travail": 0,
+        "retraites": 0,
+        "securite-justice": 0,
+        "services-publics": 0
+      }
+    },
+    {
+      "entity_id": "segolene-royal",
+      "name": "Ségolène Royal",
+      "before": 0,
+      "after": 0,
+      "delta": 0,
+      "covered_topics": [],
+      "not_documented_topics": [
+        "ecologie-energie",
+        "economie-finances",
+        "europe-souverainete",
+        "fiscalite-redistribution",
+        "immigration-integration",
+        "institutions-democratie",
+        "pouvoir-achat-travail",
+        "retraites",
+        "securite-justice",
+        "services-publics"
+      ],
+      "counts_by_topic": {
+        "ecologie-energie": 0,
+        "economie-finances": 0,
+        "europe-souverainete": 0,
+        "fiscalite-redistribution": 0,
+        "immigration-integration": 0,
+        "institutions-democratie": 0,
+        "pouvoir-achat-travail": 0,
+        "retraites": 0,
+        "securite-justice": 0,
+        "services-publics": 0
+      }
+    },
+    {
+      "entity_id": "upr",
+      "name": "Union populaire républicaine",
+      "before": 0,
+      "after": 0,
+      "delta": 0,
+      "covered_topics": [],
+      "not_documented_topics": [
+        "ecologie-energie",
+        "economie-finances",
+        "europe-souverainete",
+        "fiscalite-redistribution",
+        "immigration-integration",
+        "institutions-democratie",
+        "pouvoir-achat-travail",
+        "retraites",
+        "securite-justice",
+        "services-publics"
+      ],
+      "counts_by_topic": {
+        "ecologie-energie": 0,
+        "economie-finances": 0,
+        "europe-souverainete": 0,
+        "fiscalite-redistribution": 0,
+        "immigration-integration": 0,
+        "institutions-democratie": 0,
+        "pouvoir-achat-travail": 0,
+        "retraites": 0,
+        "securite-justice": 0,
+        "services-publics": 0
+      }
+    },
+    {
+      "entity_id": "xavier-bertrand",
+      "name": "Xavier Bertrand",
+      "before": 0,
+      "after": 0,
+      "delta": 0,
+      "covered_topics": [],
+      "not_documented_topics": [
+        "ecologie-energie",
+        "economie-finances",
+        "europe-souverainete",
+        "fiscalite-redistribution",
+        "immigration-integration",
+        "institutions-democratie",
+        "pouvoir-achat-travail",
+        "retraites",
+        "securite-justice",
+        "services-publics"
+      ],
+      "counts_by_topic": {
+        "ecologie-energie": 0,
+        "economie-finances": 0,
+        "europe-souverainete": 0,
+        "fiscalite-redistribution": 0,
+        "immigration-integration": 0,
+        "institutions-democratie": 0,
+        "pouvoir-achat-travail": 0,
+        "retraites": 0,
+        "securite-justice": 0,
+        "services-publics": 0
+      }
+    },
+    {
+      "entity_id": "edouard-philippe",
+      "name": "Édouard Philippe",
+      "before": 0,
+      "after": 0,
+      "delta": 0,
+      "covered_topics": [],
+      "not_documented_topics": [
+        "ecologie-energie",
+        "economie-finances",
+        "europe-souverainete",
+        "fiscalite-redistribution",
+        "immigration-integration",
+        "institutions-democratie",
+        "pouvoir-achat-travail",
+        "retraites",
+        "securite-justice",
+        "services-publics"
+      ],
+      "counts_by_topic": {
+        "ecologie-energie": 0,
+        "economie-finances": 0,
+        "europe-souverainete": 0,
+        "fiscalite-redistribution": 0,
+        "immigration-integration": 0,
+        "institutions-democratie": 0,
+        "pouvoir-achat-travail": 0,
+        "retraites": 0,
+        "securite-justice": 0,
+        "services-publics": 0
+      }
+    },
+    {
+      "entity_id": "elisabeth-borne",
+      "name": "Élisabeth Borne",
+      "before": 0,
+      "after": 0,
+      "delta": 0,
+      "covered_topics": [],
+      "not_documented_topics": [
+        "ecologie-energie",
+        "economie-finances",
+        "europe-souverainete",
+        "fiscalite-redistribution",
+        "immigration-integration",
+        "institutions-democratie",
+        "pouvoir-achat-travail",
+        "retraites",
+        "securite-justice",
+        "services-publics"
+      ],
+      "counts_by_topic": {
+        "ecologie-energie": 0,
+        "economie-finances": 0,
+        "europe-souverainete": 0,
+        "fiscalite-redistribution": 0,
+        "immigration-integration": 0,
+        "institutions-democratie": 0,
+        "pouvoir-achat-travail": 0,
+        "retraites": 0,
+        "securite-justice": 0,
+        "services-publics": 0
+      }
+    },
+    {
+      "entity_id": "equinoxe",
+      "name": "Équinoxe",
+      "before": 2,
+      "after": 2,
+      "delta": 0,
+      "covered_topics": [
+        "ecologie-energie",
+        "fiscalite-redistribution"
+      ],
+      "not_documented_topics": [
+        "economie-finances",
+        "europe-souverainete",
+        "immigration-integration",
+        "institutions-democratie",
+        "pouvoir-achat-travail",
+        "retraites",
+        "securite-justice",
+        "services-publics"
+      ],
+      "counts_by_topic": {
+        "ecologie-energie": 1,
+        "economie-finances": 0,
+        "europe-souverainete": 0,
+        "fiscalite-redistribution": 1,
+        "immigration-integration": 0,
+        "institutions-democratie": 0,
+        "pouvoir-achat-travail": 0,
+        "retraites": 0,
+        "securite-justice": 0,
+        "services-publics": 0
+      }
+    },
+    {
+      "entity_id": "eric-zemmour",
+      "name": "Éric Zemmour",
+      "before": 0,
+      "after": 0,
+      "delta": 0,
+      "covered_topics": [],
+      "not_documented_topics": [
+        "ecologie-energie",
+        "economie-finances",
+        "europe-souverainete",
+        "fiscalite-redistribution",
+        "immigration-integration",
+        "institutions-democratie",
+        "pouvoir-achat-travail",
+        "retraites",
+        "securite-justice",
+        "services-publics"
+      ],
+      "counts_by_topic": {
+        "ecologie-energie": 0,
+        "economie-finances": 0,
+        "europe-souverainete": 0,
+        "fiscalite-redistribution": 0,
+        "immigration-integration": 0,
+        "institutions-democratie": 0,
+        "pouvoir-achat-travail": 0,
+        "retraites": 0,
+        "securite-justice": 0,
+        "services-publics": 0
+      }
+    }
+  ],
+  "notice": "A not_documented topic means only that no current verified claim was found in the corpus after this pass; it is never interpreted as absence of a political position."
+}
