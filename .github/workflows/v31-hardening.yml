@@ -1,0 +1,49 @@
+name: V3.1 hardening gates
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: v31-${{ github.event_name == 'pull_request' && github.event.pull_request.head.sha || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  hardening:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+          cache: pip
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '22'
+          cache: npm
+      - run: pip install -r requirements.txt
+      - run: npm ci
+      - name: Data and Python suite
+        run: |
+          python scripts/validate.py
+          pytest -q
+      - name: Retrieval quality gate
+        run: npm run test:retrieval
+      - name: Build
+        env:
+          LLM_API_KEY: build-only-placeholder
+        run: npm run build
+      - name: Install browsers
+        run: npx playwright install --with-deps chromium firefox webkit
+      - name: UX polish
+        env:
+          CI: 'true'
+        run: npx playwright test -c playwright.v31.config.mjs --project=chromium --project=mobile-chromium tests/e2e/ux-polish.spec.js
+      - name: Cross-browser smoke
+        env:
+          CI: 'true'
+        run: npx playwright test -c playwright.v31.config.mjs --project=firefox-smoke --project=webkit-smoke --project=mobile-webkit-smoke tests/e2e/cross-browser-smoke.spec.js
