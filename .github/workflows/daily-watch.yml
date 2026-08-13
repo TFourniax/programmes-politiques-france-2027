@@ -36,6 +36,7 @@ on:
       - 'tests/test_auto_promote_runner.py'
       - 'tests/test_auto_promote_canonical_runner.py'
       - 'tests/test_canonical_evidence.py'
+      - 'tests/test_promote_social.py'
       - 'tests/test_prune_social_profiles.py'
       - 'tests/test_verify_social.py'
       - 'tests/test_repair_promotion_state.py'
@@ -173,6 +174,7 @@ jobs:
             tests/test_auto_promote_runner.py \
             tests/test_auto_promote_canonical_runner.py \
             tests/test_canonical_evidence.py \
+            tests/test_promote_social.py \
             tests/test_repair_promotion_state.py \
             tests/test_canonical_queue.py \
             tests/test_update_source_health.py \
