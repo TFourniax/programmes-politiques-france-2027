@@ -10,10 +10,12 @@ import auto_promote
 import auto_promote_runner as runner
 from canonical_evidence import ensure_support_document, merge_provenance, proposal_records, resolve_target
 from common import ROOT, parse_markdown
+from monitored_source_backlog import load_monitored_source_backlog
 
 
 ORIGINAL_STRICT_GEMINI = runner.strict_gemini
 ORIGINAL_SAFE_FETCH = runner.safe_fetch_source
+ORIGINAL_DURABLE_LOAD_EVENTS = runner.durable_load_events
 ORIGINAL_PROMOTE = auto_promote.promote
 
 TRACE: dict[str, Any] = {
@@ -81,6 +83,34 @@ def traced_fetch_source(session, url: str, max_chars: int):
     TRACE["sources"][str(url)] = source
     TRACE["sources"][str(source.get("url") or url)] = source
     return source
+
+
+def _event_identity(event: dict[str, Any]) -> tuple[str, str, str]:
+    return (
+        str(event.get("event_type") or ""),
+        str(event.get("url") or ""),
+        str(event.get("sha256") or event.get("published_at") or event.get("observed_at") or ""),
+    )
+
+
+def canonical_durable_load_events() -> list[dict[str, Any]]:
+    """Extend the existing durable sitemap/structured backlog with monitored sources.
+
+    The daily watch report can be rewritten later the same day. `state.json` retains the
+    latest validated content hash for every directly monitored official source, so any
+    current version not yet present in promotion state remains eligible for verification.
+    """
+    events = ORIGINAL_DURABLE_LOAD_EVENTS()
+    existing = {_event_identity(event) for event in events}
+    for event in load_monitored_source_backlog(ROOT):
+        if not runner.current_cycle_event(event):
+            continue
+        key = _event_identity(event)
+        if key in existing:
+            continue
+        events.append(event)
+        existing.add(key)
+    return events
 
 
 def _record_key(row: dict[str, Any]) -> tuple[str, str, str, str, str]:
@@ -234,6 +264,7 @@ def canonical_promote(event, session, api_key, config, state, entities, candidat
 def install() -> None:
     runner.strict_gemini = traced_gemini
     runner.safe_fetch_source = traced_fetch_source
+    runner.durable_load_events = canonical_durable_load_events
     auto_promote.promote = canonical_promote
 
 
