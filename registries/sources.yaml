@@ -24,6 +24,11 @@ sources:
   - {id: src-ps, url: 'https://parti-socialiste.fr/', tier: tier_1_primary_official, owner: Parti socialiste}
   - {id: src-ps-projet-2026, url: 'https://projet-socialiste.fr/', tier: tier_1_primary_official, owner: Parti socialiste}
   - {id: src-guedj-2027, url: 'https://www.jerome-guedj.fr/', tier: tier_1_primary_official, owner: Jérôme Guedj}
+  - {id: src-philippe-brun-2027, url: 'https://www.philippe-brun.fr/', tier: tier_1_primary_official, owner: Philippe Brun}
+  - {id: src-philippe-brun-salaire, url: 'https://www.philippe-brun.fr/actualites/salaire-brun-proposition-pouvoir-achat', tier: tier_1_primary_official, owner: Philippe Brun}
+  - {id: src-segolene-royal-2027, url: 'https://segolene-ordrejuste.fr/', tier: tier_1_primary_official, owner: Ségolène Royal}
+  - {id: src-karim-bouamrane-2027, url: 'https://www.karimbouamrane2027.org/', tier: tier_1_primary_official, owner: Karim Bouamrane}
+  - {id: src-france-humaine-forte, url: 'https://www.lafrancehumaineetforte.fr/', tier: tier_1_primary_official, owner: La France Humaine & Forte}
   - {id: src-pcf, url: 'https://www.pcf.fr/', tier: tier_1_primary_official, owner: Parti communiste français}
   - {id: src-generation-ecologie, url: 'https://generationecologie.fr/', tier: tier_1_primary_official, owner: Génération Écologie}
   - {id: src-les-ecologistes, url: 'https://lesecologistes.fr/', tier: tier_1_primary_official, owner: Les Écologistes}
@@ -35,6 +40,8 @@ sources:
   - {id: src-revolution-permanente, url: 'https://www.revolutionpermanente.fr/', tier: tier_1_primary_official, owner: Révolution Permanente}
   - {id: src-anasse-kazib-2027-rp, url: 'https://www.revolutionpermanente.fr/Anasse-Kazib-2027', tier: tier_1_primary_official, owner: Anasse Kazib}
   - {id: src-anasse-kazib-campagne, url: 'https://anasse2027.fr/', tier: tier_1_primary_official, owner: Anasse Kazib}
+  - {id: src-npa-revolutionnaires, url: 'https://npa-revolutionnaires.org/', tier: tier_1_primary_official, owner: NPA-Révolutionnaires}
+  - {id: src-selma-labib-2027, url: 'https://npa-revolutionnaires.org/communique-presidentielle-2027-selma-labib-une-candidature-ouvriere-et-revolutionnaire-soutenue-par-gael-quirante/', tier: tier_1_primary_official, owner: Selma Labib}
   - {id: src-lfi, url: 'https://lafranceinsoumise.fr/', tier: tier_1_primary_official, owner: La France insoumise}
   - {id: src-lfi-programme-alias, url: 'https://programme.lafranceinsoumise.fr/', tier: tier_1_primary_official, owner: La France insoumise}
   - {id: src-lfi-programme, url: 'https://melenchon2027.fr/programme2025/livre/', tier: tier_1_primary_official, owner: La France insoumise}
