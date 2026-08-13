@@ -7,6 +7,7 @@ on:
       - '.github/workflows/structured-missing-candidates.yml'
       - 'scripts/backfill_structured_missing_candidates.py'
       - 'scripts/backfill_structured_missing_candidates_v2.py'
+      - 'lib/retrieval-v7.js'
   workflow_dispatch:
 
 permissions:
