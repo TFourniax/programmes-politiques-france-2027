@@ -43,6 +43,7 @@ on:
       - 'tests/test_canonical_queue.py'
       - 'tests/test_update_source_health.py'
       - 'tests/test_watch_health.py'
+      - 'tests/test_v3_corpus_budget.py'
 
 permissions:
   contents: write
@@ -90,6 +91,7 @@ jobs:
           key = os.environ.get("GEMINI_API_KEY", "").strip()
           available = False
           detail = "missing key"
+          reason = "missing_key"
           if key:
               request = urllib.request.Request(
                   "https://generativelanguage.googleapis.com/v1beta/interactions",
@@ -105,12 +107,16 @@ jobs:
                   with urllib.request.urlopen(request, timeout=45) as response:
                       available = response.status == 200
                       detail = f"HTTP {response.status}"
+                      reason = "ok" if available else f"http_{response.status}"
               except urllib.error.HTTPError as exc:
                   detail = f"HTTP {exc.code}"
+                  reason = "http_429_rate_limit_or_quota" if exc.code == 429 else f"http_{exc.code}"
               except Exception as exc:
                   detail = f"{type(exc).__name__}: {exc}"
+                  reason = "network_or_provider_error"
           with open(output, "a", encoding="utf-8") as handle:
               handle.write(f"available={'true' if available else 'false'}\n")
+              handle.write(f"reason={reason}\n")
           print(f"Gemini availability: {available} ({detail}). Collection will continue regardless.")
           PY
 
@@ -157,6 +163,7 @@ jobs:
       - name: Record autonomous watch health
         env:
           GEMINI_AVAILABLE: ${{ steps.gemini.outputs.available }}
+          GEMINI_REASON: ${{ steps.gemini.outputs.reason }}
         run: python scripts/update_watch_health.py
 
       - name: Run Python validation and watch tests
@@ -178,7 +185,8 @@ jobs:
             tests/test_repair_promotion_state.py \
             tests/test_canonical_queue.py \
             tests/test_update_source_health.py \
-            tests/test_watch_health.py
+            tests/test_watch_health.py \
+            tests/test_v3_corpus_budget.py
 
       - name: Queue canonical changes and enforce 48h publication window
         id: canonical
@@ -220,15 +228,21 @@ jobs:
           LLM_API_KEY: build-only-placeholder
         run: npm run build
 
-      - name: Install Playwright Chromium
+      - name: Install Playwright browser engines
         if: steps.canonical.outputs.publish == 'true'
-        run: npx playwright install --with-deps chromium
+        run: npx playwright install --with-deps chromium firefox webkit
 
       - name: Browser acceptance tests before canonical push
         if: steps.canonical.outputs.publish == 'true'
         env:
           CI: 'true'
-        run: npm run test:e2e
+        run: npx playwright test --project=chromium --project=mobile-chromium
+
+      - name: Cross-browser smoke before canonical push
+        if: steps.canonical.outputs.publish == 'true'
+        env:
+          CI: 'true'
+        run: npx playwright test --project=firefox-smoke --project=webkit-smoke --project=mobile-webkit-smoke tests/e2e/cross-browser-smoke.spec.js
 
       - name: Commit verified watch state or grouped canonical publication
         shell: bash
