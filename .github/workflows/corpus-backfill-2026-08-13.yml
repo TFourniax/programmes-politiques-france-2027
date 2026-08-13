@@ -1,0 +1,87 @@
+name: One-off complete corpus backfill
+
+on:
+  push:
+    branches: [backfill/complete-corpus-2026-08-13]
+    paths:
+      - '.github/workflows/corpus-backfill-2026-08-13.yml'
+      - 'scripts/backfill_current_corpus.py'
+      - 'registries/sources.yaml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: complete-corpus-backfill-2026-08-13
+  cancel-in-progress: false
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      - name: Drain current-cycle primary-source backlog
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: python scripts/backfill_current_corpus.py --rounds 5 --max-sources-per-round 80
+
+      - name: Validate enriched political corpus
+        run: |
+          python scripts/validate.py
+          pytest -q
+
+      - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
+        with:
+          node-version: '22'
+          cache: npm
+
+      - name: Install web dependencies
+        run: npm ci
+
+      - name: Security audit
+        run: npm audit --audit-level=high
+
+      - name: Retrieval and product regression suite
+        run: npm run test:retrieval
+
+      - name: Production build
+        env:
+          LLM_API_KEY: build-only-placeholder
+        run: npm run build
+
+      - name: Install Playwright Chromium
+        run: npx playwright install --with-deps chromium
+
+      - name: Full browser acceptance suite
+        env:
+          CI: 'true'
+        run: npm run test:e2e
+
+      - name: Publish backfill result to branch without retaining one-off workflow
+        shell: bash
+        run: |
+          python scripts/canonical_queue.py finalize
+          rm -f .github/workflows/corpus-backfill-2026-08-13.yml
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No backfill changes to commit."
+            exit 0
+          fi
+          git commit -m "data: backfill verified current political corpus"
+          git push
