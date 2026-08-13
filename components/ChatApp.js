@@ -109,6 +109,7 @@ function AnswerCard({ card, onShowSources }) {
     <div className="answerCardMeta">
       {card.partyName && <span>{card.partyName}</span>}
       {card.confidence && <span>{confidenceLabel(card.confidence)}</span>}
+      {card.sourceCount > 1 && <span>{card.sourceCount} sources mobilisées</span>}
       {candidate && !card.officialCandidate && <span>pas encore « candidat officiel »</span>}
     </div>
     <SourceRefs numbers={card.sourceNumbers} onShowSources={onShowSources} />
@@ -118,8 +119,8 @@ function AnswerCard({ card, onShowSources }) {
 
 function StructuredAnswer({ answer, onFollowUp, onShowSources }) {
   if (!answer || typeof answer !== "object") return null;
-  return <div className={`structuredAnswer layout-${answer.layout || "overview"}`}>
-    <div className="answerHeading"><span className="answerEyebrow">Réponse du corpus</span><h4>{answer.title}</h4>{answer.summary && <p>{answer.summary}</p>}</div>
+  return <div className={`structuredAnswer layout-${answer.layout || "overview"} ${answer.depth === "deep" ? "deepAnswer" : ""}`}>
+    <div className="answerHeading"><span className="answerEyebrow">{answer.depth === "deep" ? "Réponse approfondie du corpus" : "Réponse du corpus"}</span><h4>{answer.title}</h4>{answer.summary && <p>{answer.summary}</p>}</div>
     {answer.sections?.length > 0 && <div className="answerSections">{answer.sections.map((section,index)=><section className="answerSection" key={`${section.title}-${index}`}>
       {section.title && <h5>{section.title}</h5>}
       {section.text && <p>{section.text}</p>}
@@ -140,7 +141,8 @@ function SourceCard({ citation, number }) {
     citation.candidateStatus ? candidateStatusLabel(citation.candidateStatus) : "",
     citation.confidence ? confidenceLabel(citation.confidence) : "",
     citation.certainty ? certaintyLabel(citation.certainty) : "",
-    citation.sourceTier ? sourceTierLabel(citation.sourceTier) : ""
+    citation.sourceTier ? sourceTierLabel(citation.sourceTier) : "",
+    citation.sourceCount > 1 ? `${citation.sourceCount} documents de preuve liés` : ""
   ].filter(Boolean);
   const uniqueTags = [...new Set(tags)];
   return <div className="sourceCard">
@@ -221,7 +223,17 @@ export default function ChatApp() {
       const metaText = data.retrievalAssisted
         ? "Formulation comprise avec assistance · éléments revalidés dans le corpus"
         : "Réponse vérifiée à partir du corpus";
-      setMessages(m => [...m, {role:"assistant", answer:data.answer, citations, sessionContext:data.sessionContext || sessionContext, meta:metaText}]);
+      setMessages(m => [...m, {
+        role:"assistant",
+        question:value,
+        requestHistory:history,
+        requestSessionContext:sessionContext,
+        answer:data.answer,
+        citations,
+        expansion:data.expansion || { available:false },
+        sessionContext:data.sessionContext || sessionContext,
+        meta:metaText
+      }]);
       setAnswerScrollSignal(value => value + 1);
     } catch (error) {
       setApiStatus("error");
@@ -229,6 +241,51 @@ export default function ChatApp() {
       setMessages(m => [...m, {role:"assistant", text:"Le service n’a pas pu répondre pour le moment. Réessayez dans quelques instants."}]);
       setAnswerScrollSignal(value => value + 1);
     } finally { setLoading(false); }
+  }
+
+  async function deepen(index) {
+    const message = messages[index];
+    if (!message?.answer || !message?.expansion?.available || message.deepening) return;
+
+    if (message.expandedAnswer) {
+      const nextExpanded = !message.expanded;
+      const citations = nextExpanded ? (message.expandedCitations || message.citations || []) : (message.citations || []);
+      setMessages(current => current.map((item, itemIndex) => itemIndex === index ? { ...item, expanded: nextExpanded, expansionError: null } : item));
+      setSourceView({ citations, numbers: null });
+      return;
+    }
+
+    setMessages(current => current.map((item, itemIndex) => itemIndex === index ? { ...item, deepening: true, expansionError: null } : item));
+    try {
+      const data = await fetchJson("/api/chat", {
+        method:"POST",
+        headers:{"content-type":"application/json"},
+        body:JSON.stringify({
+          question:message.question,
+          history:message.requestHistory || [],
+          sessionContext:message.requestSessionContext || {},
+          depth:"deep",
+          expansionContext:message.expansion.context || null
+        })
+      });
+      const citations = data.citations || [];
+      setMessages(current => current.map((item, itemIndex) => itemIndex === index ? {
+        ...item,
+        deepening:false,
+        expanded:true,
+        expandedAnswer:data.answer,
+        expandedCitations:citations,
+        expansionError:null
+      } : item));
+      setSourceView({ citations, numbers: null });
+    } catch (error) {
+      console.error("Deep answer request failed", error);
+      setMessages(current => current.map((item, itemIndex) => itemIndex === index ? {
+        ...item,
+        deepening:false,
+        expansionError:"L’approfondissement n’a pas pu être chargé. La réponse courte reste disponible."
+      } : item));
+    }
   }
 
   function switchMode(next) {
@@ -254,7 +311,23 @@ export default function ChatApp() {
       <div className="panel">
         <div className="chatHeader"><h3>Questionner le corpus</h3><span className="status">{apiStatus === "ready" && <i />}{apiLabel}</span></div>
         <div className="messages" ref={messagesRef}>
-          {messages.map((m,i) => <div data-answer-anchor={m.role === "assistant" && i > 0 ? "true" : undefined} className={`message ${m.role} ${m.answer ? "structuredMessage" : ""}`} key={i}>{m.answer ? <StructuredAnswer answer={m.answer} onFollowUp={ask} onShowSources={(numbers) => setSourceView({ citations: m.citations || [], numbers })} /> : m.text}{m.meta && <div className="messageMeta">{m.meta}</div>}</div>)}
+          {messages.map((m,i) => {
+            const expanded = Boolean(m.expanded && m.expandedAnswer);
+            const currentAnswer = expanded ? m.expandedAnswer : m.answer;
+            const currentCitations = expanded ? (m.expandedCitations || m.citations || []) : (m.citations || []);
+            return <div data-answer-anchor={m.role === "assistant" && i > 0 ? "true" : undefined} className={`message ${m.role} ${m.answer ? "structuredMessage" : ""} ${expanded ? "expandedMessage" : ""}`} key={i}>
+              {m.answer ? <StructuredAnswer answer={currentAnswer} onFollowUp={ask} onShowSources={(numbers) => setSourceView({ citations: currentCitations, numbers })} /> : m.text}
+              {m.answer && m.expansion?.available && <div className="deepDiveControl">
+                <button type="button" onClick={() => deepen(i)} disabled={m.deepening} aria-expanded={expanded}>
+                  <span>{m.deepening ? "Approfondissement…" : expanded ? "Réduire" : "Approfondir"}</span>
+                  <b>{expanded ? "↑" : "↓"}</b>
+                </button>
+                {!expanded && !m.deepening && <small>Afficher davantage de détails vérifiés du corpus</small>}
+              </div>}
+              {m.expansionError && <div className="deepDiveError">{m.expansionError}</div>}
+              {m.meta && <div className="messageMeta">{m.meta}</div>}
+            </div>;
+          })}
           {loading && <div className="message assistant loadingMessage" role="status" aria-live="polite"><span className="loadingDot" />Recherche des éléments sourcés pertinents…</div>}
         </div>
         <div className="composer"><div className="inputWrap"><textarea aria-label="Votre question" value={question} onChange={e=>setQuestion(e.target.value)} onKeyDown={e=>{if(e.key==="Enter"&&!e.shiftKey){e.preventDefault();ask();}}} placeholder="Ex. Compare les positions documentées sur les retraites…"/><button className="send" type="button" aria-label="Envoyer la question" title="Envoyer la question" onClick={()=>ask()} disabled={loading || !question.trim()}>↑</button></div><div className="examples">{EXAMPLES.map(x=><button className="example" key={x} onClick={()=>ask(x)}>{x}</button>)}</div></div>

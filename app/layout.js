@@ -2,6 +2,7 @@ import "./globals.css";
 import "./explorer.css";
 import "./quiz-review.css";
 import "./product-hardening.css";
+import "./deep-dive.css";
 
 export const metadata = {
   title: "France 2027 — Programmes, candidats & comparateur sourcé",

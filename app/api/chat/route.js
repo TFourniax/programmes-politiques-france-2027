@@ -1,6 +1,8 @@
 import { NextResponse } from "next/server";
 import { resolveDeterministicContext, retrieveDeterministic } from "../../../lib/retrieval-v2.js";
 import { composeDeterministicAnswer } from "../../../lib/deterministic-answer-v2.js";
+import { composeDeepAnswer } from "../../../lib/deep-answer.js";
+import { canExpandEvidence, enrichEvidence, expandEvidence } from "../../../lib/evidence-depth.js";
 import { candidateEvidence } from "../../../lib/presentation.js";
 import {
   buildContextualSuggestions,
@@ -26,6 +28,7 @@ const ENGINE = "deterministic-bm25-ontology-v4";
 const windows = new Map();
 const fallbackWindows = new Map();
 const MAX_LOCAL_WINDOWS = 4096;
+const MODES = new Set(["overview", "comparison", "measures", "candidates"]);
 
 function clientKey(request) {
   return request.headers.get("x-nf-client-connection-ip")
@@ -126,7 +129,7 @@ function publicRetrieval(debug = {}) {
   };
 }
 
-function response(answer, evidence, retrievalDebug, retrievalAssisted = false, sessionContext = {}) {
+function response(answer, evidence, retrievalDebug, retrievalAssisted = false, sessionContext = {}, expansion = { available: false }, depth = "summary") {
   return NextResponse.json({
     answer,
     citations: citationsFromEvidence(evidence),
@@ -135,11 +138,14 @@ function response(answer, evidence, retrievalDebug, retrievalAssisted = false, s
     generated: false,
     providerError: null,
     engine: ENGINE,
-    sessionContext
+    sessionContext,
+    expansion,
+    depth
   });
 }
 
-function limitForMode(mode) {
+function limitForMode(mode, depth = "summary") {
+  if (depth === "deep") return mode === "comparison" ? 24 : mode === "measures" ? 20 : 18;
   return mode === "comparison" ? 14 : mode === "measures" ? 12 : 10;
 }
 
@@ -151,7 +157,7 @@ function modeFromFallback(interpretation, currentMode) {
   return currentMode;
 }
 
-function runRetrieval(query, mode) {
+function runRetrieval(query, mode, depth = "summary") {
   if (mode === "candidates") {
     const candidates = selectDeterministicCandidates(query);
     const candidateTargeted = isTargetedCandidateQuestion(query);
@@ -163,7 +169,7 @@ function runRetrieval(query, mode) {
       debug: {...scopeProbe.debug, mode, directCandidateRecords:candidates.length, query}
     };
   }
-  const retrieval = retrieveDeterministic(query,{limit:limitForMode(mode)});
+  const retrieval = retrieveDeterministic(query,{limit:limitForMode(mode, depth)});
   return {
     evidence: retrieval.results,
     candidates: [],
@@ -187,6 +193,26 @@ function finalizeAnswer(answer, retrievalAssisted) {
   };
 }
 
+function sanitizeExpansionContext(raw) {
+  if (!raw || typeof raw !== "object") return null;
+  const query = String(raw.query || "").trim();
+  const mode = String(raw.mode || "").trim();
+  if (!query || query.length > 1200 || !MODES.has(mode)) return null;
+  return { query, mode, retrievalAssisted: Boolean(raw.retrievalAssisted) };
+}
+
+function expansionFor(depth, mode, evidence, debug, retrievalQuery, retrievalAssisted) {
+  if (depth !== "summary" || mode === "candidates" || !canExpandEvidence(evidence, debug)) return { available: false };
+  return {
+    available: true,
+    context: {
+      query: retrievalQuery,
+      mode,
+      retrievalAssisted: Boolean(retrievalAssisted)
+    }
+  };
+}
+
 export async function POST(request) {
   if (limited(request)) return NextResponse.json({error:"Trop de requêtes. Réessayez dans une minute."},{status:429});
   let payload;
@@ -194,27 +220,33 @@ export async function POST(request) {
   const question = String(payload?.question || "").trim();
   if (!question || question.length > 1200) return NextResponse.json({error:"La question doit contenir entre 1 et 1200 caractères."},{status:400});
 
+  const depth = payload?.depth === "deep" ? "deep" : "summary";
+  const deepContext = depth === "deep" ? sanitizeExpansionContext(payload?.expansionContext) : null;
   const history = normalizeHistory(payload?.history);
   const incomingSession = sanitizeSuggestionSessionState(payload?.sessionContext || {});
-  const context = resolveDeterministicContext(question, history);
-  let mode = classifyDeterministicQuestion(question);
+  const context = deepContext
+    ? { query: deepContext.query, inheritedMode: null, inheritedEntities: [], inheritedTopic: [] }
+    : resolveDeterministicContext(question, history);
+  let mode = deepContext?.mode || classifyDeterministicQuestion(question);
   if (mode === "overview" && context.inheritedMode) mode = context.inheritedMode;
   let retrievalQuery = context.query;
-  let run = runRetrieval(retrievalQuery, mode);
+  let run = runRetrieval(retrievalQuery, mode, depth);
   run.debug = {...run.debug, conversation:context};
 
   if (String(run.debug.reason || "").startsWith("unsupported_")) {
     const answer = unsupportedAnswer(run.debug.reason);
-    answer.followUps = suggestionsFor(question, question, [], history, incomingSession);
+    answer.followUps = depth === "deep" ? [] : suggestionsFor(question, question, [], history, incomingSession);
     const sessionContext = buildSuggestionSessionState(incomingSession, question, []);
-    return response(answer, [], run.debug, false, sessionContext);
+    return response(answer, [], run.debug, false, sessionContext, { available: false }, depth);
   }
 
-  let retrievalAssisted = false;
+  let retrievalAssisted = Boolean(deepContext?.retrievalAssisted);
   let fallbackDebug = null;
   const noUsableEvidence = !run.evidence.length || (run.candidateTargeted && !run.debug.answerable);
 
-  if (noUsableEvidence && shouldAttemptRetrievalFallback(run.debug)) {
+  // Deepening must remain zero-model: it either reuses the already resolved retrieval query
+  // or stays on deterministic retrieval if a caller omits/invalidates the expansion context.
+  if (depth === "summary" && noUsableEvidence && shouldAttemptRetrievalFallback(run.debug)) {
     if (fallbackLimited(request)) {
       fallbackDebug = { attempted: false, accepted: false, error: "fallback_rate_limited" };
     } else {
@@ -230,7 +262,7 @@ export async function POST(request) {
       if (interpretation && comparisonContextValid) {
         const safeQuery = buildFallbackRetrievalQuery(interpretation);
         const fallbackMode = modeFromFallback(interpretation, mode);
-        const fallbackRun = runRetrieval(safeQuery, fallbackMode);
+        const fallbackRun = runRetrieval(safeQuery, fallbackMode, depth);
         if (fallbackRun.evidence.length && fallbackRun.debug.answerable) {
           retrievalAssisted = true;
           retrievalQuery = safeQuery;
@@ -250,27 +282,39 @@ export async function POST(request) {
 
   if (String(run.debug.reason || "").startsWith("unsupported_")) {
     const answer = unsupportedAnswer(run.debug.reason);
-    answer.followUps = suggestionsFor(retrievalQuery, question, [], history, incomingSession);
+    answer.followUps = depth === "deep" ? [] : suggestionsFor(retrievalQuery, question, [], history, incomingSession);
     const sessionContext = buildSuggestionSessionState(incomingSession, retrievalQuery, []);
-    return response(answer, [], run.debug, retrievalAssisted, sessionContext);
+    return response(answer, [], run.debug, retrievalAssisted, sessionContext, { available: false }, depth);
   }
 
   if (!run.evidence.length || (run.candidateTargeted && !run.debug.answerable)) {
     const answer = noDataAnswer(question, run.debug.requestedEntities || []);
-    answer.followUps = suggestionsFor(retrievalQuery, question, [], history, incomingSession);
+    answer.followUps = depth === "deep" ? [] : suggestionsFor(retrievalQuery, question, [], history, incomingSession);
     const sessionContext = buildSuggestionSessionState(incomingSession, retrievalQuery, []);
-    return response(answer, [], run.debug, retrievalAssisted, sessionContext);
+    return response(answer, [], run.debug, retrievalAssisted, sessionContext, { available: false }, depth);
   }
 
   const answerQuestion = retrievalAssisted ? retrievalQuery : question;
-  let answer = composeDeterministicAnswer(answerQuestion,run.evidence,{
-    mode,
-    candidates:run.candidates,
-    requestedEntities:run.debug.requestedEntities || [],
-    candidateTargeted:run.candidateTargeted
-  });
-  answer.followUps = suggestionsFor(answerQuestion, question, run.evidence, history, incomingSession);
+  const compactEvidence = enrichEvidence(run.evidence);
+  const evidence = depth === "deep"
+    ? expandEvidence(compactEvidence, { maxEvidence: mode === "comparison" ? 44 : 36, chunksPerSource: 3 })
+    : compactEvidence;
+  let answer = depth === "deep"
+    ? composeDeepAnswer(answerQuestion, evidence, {
+      mode,
+      candidates:run.candidates,
+      requestedEntities:run.debug.requestedEntities || [],
+      candidateTargeted:run.candidateTargeted
+    })
+    : composeDeterministicAnswer(answerQuestion,evidence,{
+      mode,
+      candidates:run.candidates,
+      requestedEntities:run.debug.requestedEntities || [],
+      candidateTargeted:run.candidateTargeted
+    });
+  answer.followUps = depth === "deep" ? [] : suggestionsFor(answerQuestion, question, evidence, history, incomingSession);
   answer = finalizeAnswer(answer, retrievalAssisted);
-  const sessionContext = buildSuggestionSessionState(incomingSession, answerQuestion, run.evidence);
-  return response(answer, run.evidence, run.debug, retrievalAssisted, sessionContext);
+  const sessionContext = buildSuggestionSessionState(incomingSession, answerQuestion, evidence);
+  const expansion = expansionFor(depth, mode, compactEvidence, run.debug, retrievalQuery, retrievalAssisted);
+  return response(answer, evidence, run.debug, retrievalAssisted, sessionContext, expansion, depth);
 }

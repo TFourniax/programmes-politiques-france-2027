@@ -21,6 +21,8 @@ on:
       - 'scripts/verify_social.py'
       - 'scripts/auto_promote.py'
       - 'scripts/auto_promote_runner.py'
+      - 'scripts/auto_promote_canonical_runner.py'
+      - 'scripts/canonical_evidence.py'
       - 'scripts/promote_social.py'
       - 'scripts/repair_promotion_state.py'
       - 'scripts/canonical_queue.py'
@@ -32,6 +34,9 @@ on:
       - 'tests/test_structured_primary_watch.py'
       - 'tests/test_auto_promote.py'
       - 'tests/test_auto_promote_runner.py'
+      - 'tests/test_auto_promote_canonical_runner.py'
+      - 'tests/test_canonical_evidence.py'
+      - 'tests/test_promote_social.py'
       - 'tests/test_prune_social_profiles.py'
       - 'tests/test_verify_social.py'
       - 'tests/test_repair_promotion_state.py'
@@ -141,7 +146,7 @@ jobs:
         if: steps.gemini.outputs.available == 'true'
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        run: python scripts/auto_promote_runner.py
+        run: python scripts/auto_promote_canonical_runner.py
 
       - name: Promote strictly verified social evidence
         if: steps.gemini.outputs.available == 'true'
@@ -167,6 +172,9 @@ jobs:
             tests/test_verify_social.py \
             tests/test_auto_promote.py \
             tests/test_auto_promote_runner.py \
+            tests/test_auto_promote_canonical_runner.py \
+            tests/test_canonical_evidence.py \
+            tests/test_promote_social.py \
             tests/test_repair_promotion_state.py \
             tests/test_canonical_queue.py \
             tests/test_update_source_health.py \
