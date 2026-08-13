@@ -1,12 +1,13 @@
 from __future__ import annotations
 
 import hashlib
+import re
 from pathlib import Path
 from typing import Any
 
 import yaml
 
-from common import ROOT, markdown_files, parse_markdown
+from common import ROOT, parse_markdown
 
 
 class FlowListDumper(yaml.SafeDumper):
@@ -18,6 +19,15 @@ def _flow_list(dumper, data):
 
 
 FlowListDumper.add_representer(list, _flow_list)
+
+
+SEMANTIC_STOP = {
+    "ainsi", "annonce", "annoncee", "annoncer", "avec", "avoir", "candidate", "candidat", "cette", "confirme",
+    "confirmee", "confirmer", "dans", "declarer", "declare", "declaree", "des", "elle", "elles", "entre", "etre",
+    "fait", "leur", "leurs", "mais", "mesure", "mesures", "nous", "notre", "parti", "politique", "programme",
+    "propose", "proposee", "proposer", "proposition", "propositions", "pour", "plus", "source", "sont", "sur",
+    "une", "vers", "vous", "aux", "par", "que", "qui", "les", "est", "du", "de", "la", "le", "un",
+}
 
 
 def compact(value: Any) -> str:
@@ -60,16 +70,72 @@ def claim_fingerprint(claim: dict[str, Any]) -> str:
     return hashlib.sha256(payload.encode("utf-8")).hexdigest()
 
 
+def _semantic_terms(value: Any, topic: Any = None) -> set[str]:
+    topic_terms = {
+        term for term in re.sub(r"[^a-z0-9]+", " ", fold(topic)).split()
+        if len(term) >= 3
+    }
+    return {
+        term
+        for term in re.sub(r"[^a-z0-9]+", " ", fold(value)).split()
+        if len(term) >= 3 and term not in SEMANTIC_STOP and term not in topic_terms
+    }
+
+
+def _policy_numbers(value: Any) -> set[str]:
+    numbers = set(re.findall(r"(?<!\w)\d+(?:[.,]\d+)?(?!\w)", str(value or "")))
+    out = set()
+    for raw in numbers:
+        normalized = raw.replace(",", ".")
+        try:
+            numeric = float(normalized)
+        except ValueError:
+            continue
+        # Calendar years are weak duplicate signals and can mask a conflicting
+        # policy number (e.g. 64 vs 65 years old), so do not use them here.
+        if numeric.is_integer() and 1900 <= int(numeric) <= 2100:
+            continue
+        out.add(normalized)
+    return out
+
+
+def content_matches_target(claim: dict[str, Any], meta: dict[str, Any], body: str) -> bool:
+    claim_text = compact(f"{claim.get('statement') or ''} {claim.get('evidence_quote') or ''}")
+    if not claim_text:
+        return False
+    target_text = compact(f"{meta.get('title') or ''} {body}")
+    if not target_text:
+        return False
+
+    claim_numbers = _policy_numbers(claim_text)
+    target_numbers = _policy_numbers(target_text)
+    if claim_numbers and target_numbers and claim_numbers.isdisjoint(target_numbers):
+        return False
+
+    claim_terms = _semantic_terms(claim_text, claim.get("topic"))
+    target_terms = _semantic_terms(target_text, meta.get("topic"))
+    if not claim_terms or not target_terms:
+        return False
+    shared = claim_terms & target_terms
+    required = 2 if len(claim_terms) <= 4 else 3
+    if len(shared) < required:
+        return False
+    coverage = len(shared) / max(1, len(claim_terms))
+    return coverage >= 0.4 or len(shared) >= 4
+
+
 def valid_target(claim: dict[str, Any], proposal_id: str | None, records: dict[str, tuple[Path, dict[str, Any], str]]) -> str | None:
     target = str(proposal_id or "").strip()
     if not target or target not in records:
         return None
-    _, meta, _ = records[target]
+    _, meta, body = records[target]
     if str(meta.get("entity_id") or "") != str(claim.get("actor_id") or ""):
         return None
     if str(meta.get("topic") or "") != str(claim.get("topic") or ""):
         return None
     if str(meta.get("proposal_status") or "current") not in {"current", "amended", "unknown"}:
+        return None
+    if not content_matches_target(claim, meta, body):
         return None
     return target
 
@@ -183,6 +249,7 @@ def ensure_support_document(
         "captured_at": source.get("captured_at") or confirmed_iso(source),
         "rights_status": "quotation_only",
         "verification_state": "verified",
+        "verification_scope": "statement_attribution_not_feasibility",
         "verification_method": "primary_source_exact_quote_plus_independent_gemini_verifier_plus_canonical_duplicate_guard",
         "evidence_sha256": source["sha256"],
         "source_complete": not bool(source.get("text_truncated")),
@@ -191,6 +258,7 @@ def ensure_support_document(
     }
     meta["topics"] = topics
     meta["verification_state"] = "verified"
+    meta["verification_scope"] = "statement_attribution_not_feasibility"
 
     statements = []
     for claim in claims:
@@ -222,7 +290,7 @@ def ensure_support_document(
             "",
             "## Traçabilité",
             "",
-            "La source confirme un ou plusieurs claims déjà présents dans le canon. Elle enrichit leur provenance sans créer de proposition dupliquée.",
+            "La source confirme un ou plusieurs claims déjà présents dans le canon. Elle enrichit leur provenance sans créer de proposition dupliquée. La vérification porte sur l’attribution fidèle de la déclaration, pas sur la faisabilité de la mesure.",
         ]
         body = "\n".join(lines)
 
