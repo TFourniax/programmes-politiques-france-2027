@@ -18,16 +18,20 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 8
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
 
-      - uses: actions/setup-python@v6
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
         with:
           python-version: '3.12'
 
       - name: Check autonomous watch health
         id: check
         continue-on-error: true
-        run: python scripts/check_watch_health.py --max-age-hours 10 --max-gemini-outage-hours 24
+        run: >-
+          python scripts/check_watch_health.py
+          --max-age-hours 10
+          --max-gemini-outage-hours 24
+          --max-retry-backlog-age-hours 48
 
       - name: Open or refresh incident issue
         if: steps.check.outcome == 'failure'
@@ -37,7 +41,7 @@ jobs:
         shell: bash
         run: |
           issue="$(gh issue list --state open --search "$TITLE in:title" --json number --jq '.[0].number // empty')"
-          body="Le dead-man automatique a détecté que la veille politique ne respecte plus ses SLO (collecte trop ancienne ou promotion Gemini indisponible depuis trop longtemps). Le prochain run normal continuera à tenter une récupération automatiquement. Voir l'Action Political watch dead-man pour le diagnostic."
+          body="Le dead-man automatique a détecté une anomalie actionnable : collecte trop ancienne, source officielle non couverte, backlog de promotion hors SLO / budget de retries, ou panne Gemini non liée au quota et prolongée. Un simple épuisement de quota Gemini HTTP 429 reste observable mais n'est pas considéré comme un incident tant que la collecte et la file canonique restent saines. Le prochain run normal continuera à tenter une récupération automatiquement. Voir l'Action Political watch dead-man pour le diagnostic."
           if [ -z "$issue" ]; then
             gh issue create --title "$TITLE" --body "$body"
           else

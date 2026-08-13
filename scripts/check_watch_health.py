@@ -24,22 +24,23 @@ def health_failures(
     now: datetime,
     max_age_hours: float,
     max_gemini_outage_hours: float,
+    max_retry_backlog_age_hours: float = 48.0,
 ) -> tuple[list[str], dict[str, float | int | str | bool | None]]:
-    """Return only conditions that mean the autonomous watch itself is unhealthy.
-
-    A Gemini HTTP 429 is intentionally observable but not fatal at the current zero-budget
-    operating mode: collection continues and the canonical backlog is durable. Other
-    prolonged Gemini failures (bad credentials/provider/network) remain dead-man failures.
-    """
-    collection = parse_instant(health.get("last_collection_success_at"))
-    age_hours = (now - collection).total_seconds() / 3600
     failures: list[str] = []
+
+    try:
+        collection = parse_instant(health.get("last_collection_success_at"))
+        age_hours = (now - collection).total_seconds() / 3600
+    except (TypeError, ValueError):
+        age_hours = float("inf")
     if age_hours > max_age_hours:
         failures.append(f"last successful collection is {age_hours:.1f}h old")
 
     outage_hours = 0.0
     gemini_reason = str(health.get("gemini_unavailable_reason") or "unknown")
-    quota_only = health.get("gemini_available") is False and gemini_reason in QUOTA_ONLY_REASONS
+    quota_only = health.get("gemini_available") is False and (
+        gemini_reason in QUOTA_ONLY_REASONS or health.get("gemini_quota_only") is True
+    )
     if health.get("gemini_available") is False and health.get("gemini_unavailable_since"):
         since = parse_instant(health["gemini_unavailable_since"])
         outage_hours = (now - since).total_seconds() / 3600
@@ -59,12 +60,30 @@ def health_failures(
             + (f" ({', '.join(owners)})" if owners else "")
         )
 
+    retry_count = int(
+        health.get("promotion_actionable_retries_pending")
+        if health.get("promotion_actionable_retries_pending") is not None
+        else health.get("promotion_technical_retries_pending") or 0
+    )
+    retry_age = float(health.get("oldest_promotion_retry_age_hours") or 0.0)
+    retries_over_budget = int(health.get("promotion_retries_over_budget") or 0)
+    if retry_count and retry_age > max_retry_backlog_age_hours:
+        failures.append(
+            f"oldest actionable promotion retry is {retry_age:.1f}h old "
+            f"(limit {max_retry_backlog_age_hours:.1f}h)"
+        )
+    if retries_over_budget:
+        failures.append(f"{retries_over_budget} promotion retry item(s) exhausted retry budget")
+
     details: dict[str, float | int | str | bool | None] = {
         "collection_age_hours": age_hours,
         "gemini_outage_hours": outage_hours,
         "gemini_reason": gemini_reason,
         "gemini_quota_only": quota_only,
         "persistent_sources": persistent,
+        "retry_backlog_count": retry_count,
+        "retry_backlog_age_hours": retry_age,
+        "retries_over_budget": retries_over_budget,
     }
     return failures, details
 
@@ -73,6 +92,7 @@ def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--max-age-hours", type=float, default=10.0)
     parser.add_argument("--max-gemini-outage-hours", type=float, default=24.0)
+    parser.add_argument("--max-retry-backlog-age-hours", type=float, default=48.0)
     args = parser.parse_args()
 
     path = ROOT / "research" / "veille" / "health.json"
@@ -88,6 +108,7 @@ def main() -> None:
         now=datetime.now(timezone.utc),
         max_age_hours=args.max_age_hours,
         max_gemini_outage_hours=args.max_gemini_outage_hours,
+        max_retry_backlog_age_hours=args.max_retry_backlog_age_hours,
     )
     if failures:
         raise SystemExit("WATCH_HEALTH_FAILURE: " + "; ".join(failures))
@@ -95,7 +116,8 @@ def main() -> None:
     print(
         "WATCH_HEALTH_OK: "
         f"collection_age={details['collection_age_hours']:.1f}h, status={health.get('status')}, "
-        f"pending={health.get('pending_work', 0)}, "
+        f"pending={health.get('pending_work', 0)}, actionable_retries={details['retry_backlog_count']}, "
+        f"oldest_retry={details['retry_backlog_age_hours']:.1f}h, "
         f"persistent_sources={details['persistent_sources']}, "
         f"gemini={health.get('gemini_available')}, reason={details['gemini_reason']}, "
         f"quota_only={details['gemini_quota_only']}"
