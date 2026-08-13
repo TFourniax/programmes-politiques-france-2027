@@ -1,11 +1,12 @@
 {
-  "status": "ok",
-  "api_key_valid": true,
+  "status": "quota_exhausted",
+  "api_key_valid": false,
   "model": "gemini-3.5-flash-lite",
   "api": "interactions",
-  "free_inference": true,
+  "free_inference": false,
   "google_search_grounding": "requires_billing_on_gemini_3_free_project",
-  "checked_at": "2026-08-13T22:58:42+00:00",
-  "source_commit": "add889ae337237872b665fde1489ad46a64dc0ab",
-  "http_status": 200
+  "checked_at": "2026-08-13T23:25:11+00:00",
+  "source_commit": "4d3f7911e89ad207ab1fd50fe354353b4044e1b2",
+  "http_status": 429,
+  "error": "Gemini API HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 48.046110777s."
 }
