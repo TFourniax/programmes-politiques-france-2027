@@ -39,12 +39,14 @@ jobs:
         run: npm run build
       - name: Install browsers
         run: npx playwright install --with-deps chromium firefox webkit
-      - name: UX and accessibility polish
+      - name: UX polish
         env:
           CI: 'true'
-        run: |
-          npx playwright test -c playwright.v31.config.mjs --project=chromium --project=mobile-chromium tests/e2e/ux-polish.spec.js
-          npx playwright test -c playwright.v31.config.mjs --project=chromium --project=mobile-chromium tests/e2e/accessibility-baseline.spec.js
+        run: npx playwright test -c playwright.v31.config.mjs --project=chromium --project=mobile-chromium tests/e2e/ux-polish.spec.js
+      - name: Accessibility baseline
+        env:
+          CI: 'true'
+        run: npx playwright test -c playwright.v31.config.mjs --project=chromium --project=mobile-chromium tests/e2e/accessibility-baseline.spec.js
       - name: Cross-browser smoke
         env:
           CI: 'true'
