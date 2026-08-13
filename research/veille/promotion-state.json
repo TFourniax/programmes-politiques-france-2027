@@ -808,7 +808,7 @@
   },
   "last_error_count": 3,
   "last_processed_count": 0,
-  "last_run_at": "2026-08-13T18:45:51+00:00",
+  "last_run_at": "2026-08-13T20:10:40+00:00",
   "source_chunks": {
     "0586a39b537d638a8c8b5666": {
       "claims": [
@@ -1237,6 +1237,19 @@
       "total": 1,
       "updated_at": "2026-08-13T16:21:31+00:00",
       "url": "https://trajectoire2027.fr/programme.html"
+    },
+    "2490d151b5b8404ab0938f60": {
+      "claims": [],
+      "created_at": "2026-08-13T20:10:15+00:00",
+      "document_types": [],
+      "done": [],
+      "published_candidates": [],
+      "sha256": "0b013c630f2281528d927d3c6ac7bbed832efeb82d7536d7e0ad37cee3b09409",
+      "source_title": "Ségolène Royal 2027 : analyse de son programme et engagement réel pour la démocratie directe - Solution Démocratique - Parti politique pour instaurer la démocratie directe",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "url": "https://solutiondemocratique.fr/segolene-royal-programme-presidentielle2027/"
     },
     "2808a96b91bf539120f54a6c": {
       "canonical_confirmations": [
@@ -3651,6 +3664,19 @@
       "updated_at": "2026-08-12T14:41:17+00:00",
       "url": "https://www.unenouvelleenergie.fr/notre-programme/"
     },
+    "85f2f02fc238f84d5e2fa59e": {
+      "claims": [],
+      "created_at": "2026-08-13T20:10:33+00:00",
+      "document_types": [],
+      "done": [],
+      "published_candidates": [],
+      "sha256": "689874aee6e56ea9aa4502364cf191c20b803ea320fcef3db7e477f412daa0bb",
+      "source_title": "Jean Lassalle 2027 : analyse de son engagement démocrate",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "url": "https://solutiondemocratique.fr/jean-lassalle-programme-presidentielle2027/"
+    },
     "9ae9913ab888f4c0fb5bba9e": {
       "claims": [
         {
@@ -4457,6 +4483,19 @@
       "total": 2,
       "updated_at": "2026-08-13T00:20:23+00:00",
       "url": "https://melenchon2027.fr/programme2025/livre/chapitre16/"
+    },
+    "cc02fece8ef19549696802b4": {
+      "claims": [],
+      "created_at": "2026-08-13T20:10:24+00:00",
+      "document_types": [],
+      "done": [],
+      "published_candidates": [],
+      "sha256": "1841b8fd670f23d8045bd9619c332a46ba1aa9a12785e4fc938ebb64d3dac6e6",
+      "source_title": "Bernard Cazeneuve 2027 : : analyse de son programme et engagement réel pour la démocratie - Solution Démocratique - Parti politique pour instaurer la démocratie directe",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "url": "https://solutiondemocratique.fr/bernard-cazeneuve-programme-presidentielle2027/"
     },
     "cc9d053268933224fe785d36": {
       "claims": [
@@ -5792,6 +5831,14 @@
       "status": "promoted",
       "url": "https://melenchon2027.fr/programme2025/livre/chapitre11/"
     },
+    "276ee2c70b77": {
+      "attempts": 1,
+      "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 28.805530145s.",
+      "next_retry_at": "2026-08-14T02:10:31+00:00",
+      "processed_at": "2026-08-13T20:10:31+00:00",
+      "status": "technical_error",
+      "url": "https://solutiondemocratique.fr/bernard-cazeneuve-programme-presidentielle2027/"
+    },
     "2ab4cba473c5": {
       "chunks_done": null,
       "chunks_total": 1,
@@ -5947,6 +5994,22 @@
       "source_sha256": "483c5cca9ce4e53d7ffece152c3d6584b2f150047b234270422894776a01f531",
       "status": "promoted",
       "url": "https://www.unenouvelleenergie.fr/notre-programme/"
+    },
+    "75b9e60cfecd": {
+      "attempts": 1,
+      "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 19.677058763s.",
+      "next_retry_at": "2026-08-14T02:10:40+00:00",
+      "processed_at": "2026-08-13T20:10:40+00:00",
+      "status": "technical_error",
+      "url": "https://solutiondemocratique.fr/jean-lassalle-programme-presidentielle2027/"
+    },
+    "7a7d3a342bb5": {
+      "attempts": 1,
+      "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 38.012191232s.",
+      "next_retry_at": "2026-08-14T02:10:22+00:00",
+      "processed_at": "2026-08-13T20:10:22+00:00",
+      "status": "technical_error",
+      "url": "https://solutiondemocratique.fr/segolene-royal-programme-presidentielle2027/"
     },
     "7d900f388017": {
       "attempts": 1,

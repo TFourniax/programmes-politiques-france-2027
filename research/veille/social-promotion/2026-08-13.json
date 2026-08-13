@@ -1,12 +1,6 @@
 {
-  "errors": [
-    {
-      "at": "2026-08-13T18:46:02+00:00",
-      "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 57.874284555s.",
-      "url": "https://bsky.app/profile/marinetondelier.fr/post/3msy3ilfs3q25"
-    }
-  ],
-  "generated_at": "2026-08-13T18:46:02+00:00",
+  "errors": [],
+  "generated_at": "2026-08-13T20:10:41+00:00",
   "partial": 0,
   "processed": 0,
   "promoted": 0,
