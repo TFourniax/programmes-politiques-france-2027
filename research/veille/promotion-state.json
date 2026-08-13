@@ -808,8 +808,21 @@
   },
   "last_error_count": 3,
   "last_processed_count": 0,
-  "last_run_at": "2026-08-13T20:10:40+00:00",
+  "last_run_at": "2026-08-13T23:24:55+00:00",
   "source_chunks": {
+    "049ef2342af4f07d32e93984": {
+      "claims": [],
+      "created_at": "2026-08-13T23:24:48+00:00",
+      "document_types": [],
+      "done": [],
+      "published_candidates": [],
+      "sha256": "b89230c89635c37e5d140fac9f55f7fef12a4d653cdb31e83b5d51d9dc269090",
+      "source_title": "Florian Philippot et démocratie directe : analyse 2027",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "url": "https://solutiondemocratique.fr/florian-philippot-programme-2027/"
+    },
     "0586a39b537d638a8c8b5666": {
       "claims": [
         {
@@ -5482,6 +5495,19 @@
       "updated_at": "2026-08-12T23:32:49+00:00",
       "url": "https://melenchon2027.fr/programme2025/livre/chapitre13/"
     },
+    "f4de33a7daa24dd519884932": {
+      "claims": [],
+      "created_at": "2026-08-13T23:24:39+00:00",
+      "document_types": [],
+      "done": [],
+      "published_candidates": [],
+      "sha256": "41335891eed587b269834e5162f66c954482d42c2e94b71259eed15f9033f81e",
+      "source_title": "Jean-Luc Mélenchon 2027 : analyse de son programme et engagement réel pour la démocratie directe - Solution Démocratique - Parti politique pour instaurer la démocratie directe",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "url": "https://solutiondemocratique.fr/jean-luc-melenchon-programme-presidentielle2027/"
+    },
     "f8c38512cd374b6eeedcb4ea": {
       "claims": [
         {
@@ -5815,6 +5841,14 @@
       "status": "not_confirmed",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
+    "1f2bf87480b3": {
+      "attempts": 1,
+      "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 4.692510596s.",
+      "next_retry_at": "2026-08-14T05:24:55+00:00",
+      "processed_at": "2026-08-13T23:24:55+00:00",
+      "status": "technical_error",
+      "url": "https://solutiondemocratique.fr/florian-philippot-programme-2027/"
+    },
     "20d46eb53f88": {
       "processed_at": "2026-08-11T09:26:34+00:00",
       "reason": "explicit_old_election_context",
@@ -5848,6 +5882,14 @@
       "status": "promoted",
       "url": "https://melenchon2027.fr/programme2025/livre/chapitre17/"
     },
+    "2cc355d24414": {
+      "attempts": 1,
+      "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 13.75583755s.",
+      "next_retry_at": "2026-08-14T05:24:46+00:00",
+      "processed_at": "2026-08-13T23:24:46+00:00",
+      "status": "technical_error",
+      "url": "https://solutiondemocratique.fr/jean-luc-melenchon-programme-presidentielle2027/"
+    },
     "2ee1c3dca4dc": {
       "chunks_done": null,
       "chunks_total": 1,
@@ -5867,10 +5909,10 @@
       "url": "https://www.unenouvelleenergie.fr/notre-programme/sante/"
     },
     "33d88441defd": {
-      "attempts": 1,
-      "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 15.35832703s.",
-      "next_retry_at": "2026-08-13T22:21:44+00:00",
-      "processed_at": "2026-08-13T16:21:44+00:00",
+      "attempts": 2,
+      "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 22.911059877s.",
+      "next_retry_at": "2026-08-14T23:24:37+00:00",
+      "processed_at": "2026-08-13T23:24:37+00:00",
       "status": "technical_error",
       "url": "https://solutiondemocratique.fr/gabriel-attal-2027-programme-presidentiel/"
     },
