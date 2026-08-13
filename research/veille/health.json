@@ -4,15 +4,17 @@
   "deferred_sources_pending": 0,
   "equivalent_primary_coverage_count": 0,
   "gemini_available": false,
+  "gemini_unavailable_reason": "unknown",
   "gemini_unavailable_since": "2026-08-13T13:05:41+00:00",
-  "generated_at": "2026-08-13T13:05:41+00:00",
-  "last_collection_success_at": "2026-08-13T13:02:03+00:00",
-  "last_direct_feed_run_at": "2026-08-13T13:02:05+00:00",
-  "last_gdelt_run_at": "2026-08-13T13:05:03+00:00",
+  "generated_at": "2026-08-13T15:52:23+00:00",
+  "last_collection_success_at": "2026-08-13T15:48:46+00:00",
+  "last_direct_feed_run_at": "2026-08-13T15:48:49+00:00",
+  "last_gdelt_run_at": "2026-08-13T15:51:51+00:00",
   "last_promotion_run_at": "2026-08-13T08:51:18+00:00",
   "last_social_promotion_run_at": "2026-08-13T08:51:19+00:00",
-  "last_social_run_at": "2026-08-13T13:05:35+00:00",
-  "last_structured_primary_run_at": "2026-08-13T13:02:53+00:00",
+  "last_social_run_at": "2026-08-13T15:52:19+00:00",
+  "last_structured_primary_run_at": "2026-08-13T15:49:36+00:00",
+  "official_sitemap_coverage_count": 0,
   "official_source_warnings_last_run": 5,
   "partial_sources_pending": 0,
   "pending_work": 0,
@@ -20,12 +22,14 @@
   "persistent_official_source_failures": 0,
   "promotion_technical_retries_pending": 0,
   "reasons": [
-    "gemini_unavailable_promotion_deferred",
-    "2_uncovered_official_source_warning(s)"
+    "gemini_unavailable_promotion_deferred"
   ],
   "recovered_promotion_technical_failures": 1,
   "status": "degraded",
   "structured_primary_coverage_count": 2,
   "uncovered_official_source_warnings_last_run": 2,
-  "version": 5
+  "version": 6,
+  "warnings": [
+    "2_transient_uncovered_official_source_warning(s)"
+  ]
 }
