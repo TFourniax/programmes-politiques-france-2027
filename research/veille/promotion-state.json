@@ -806,9 +806,9 @@
       "verified_at": "2026-08-13T08:51:16+00:00"
     }
   },
-  "last_error_count": 0,
-  "last_processed_count": 3,
-  "last_run_at": "2026-08-13T08:51:18+00:00",
+  "last_error_count": 1,
+  "last_processed_count": 2,
+  "last_run_at": "2026-08-13T16:21:45+00:00",
   "source_chunks": {
     "0586a39b537d638a8c8b5666": {
       "claims": [
@@ -1217,6 +1217,26 @@
       "total": 1,
       "updated_at": "2026-08-12T08:48:19+00:00",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
+    "2486060ff06e6325d1f219f6": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-08-13T16:21:22+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "351fc0c685122756d7196c609a5987fcb21afc969b167fea443bb0b1fe4da9ec",
+      "source_title": "Trajectoire â Programme",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-13T16:21:31+00:00",
+      "url": "https://trajectoire2027.fr/programme.html"
     },
     "2808a96b91bf539120f54a6c": {
       "canonical_confirmations": [
@@ -5214,6 +5234,23 @@
       "updated_at": "2026-08-11T20:16:20+00:00",
       "url": "https://parti-equinoxe.fr/legislatives-2022-programme-technique/"
     },
+    "e8ad53223c2b2d3ba2b667a2": {
+      "claims": [],
+      "created_at": "2026-08-13T16:21:34+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [],
+      "published_candidates": [
+        "2026-04-26"
+      ],
+      "sha256": "783e21d3f16641e3c21d3e913e3067fc93b39bd13c5d6aefbcf6a98f634ed432",
+      "source_title": "Gabriel Attal 2027 : programme sur la démocratie",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "url": "https://solutiondemocratique.fr/gabriel-attal-2027-programme-presidentiel/"
+    },
     "f2380b9cb64f04946419a6f5": {
       "claims": [
         {
@@ -5729,6 +5766,14 @@
       "status": "promoted",
       "url": "https://www.unenouvelleenergie.fr/notre-programme/sante/"
     },
+    "33d88441defd": {
+      "attempts": 1,
+      "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 15.35832703s.",
+      "next_retry_at": "2026-08-13T22:21:44+00:00",
+      "processed_at": "2026-08-13T16:21:44+00:00",
+      "status": "technical_error",
+      "url": "https://solutiondemocratique.fr/gabriel-attal-2027-programme-presidentiel/"
+    },
     "33f269d78255": {
       "chunks_done": null,
       "chunks_total": 2,
@@ -5921,6 +5966,15 @@
       "status": "promoted",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
+    "b76c592d4802": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-13T16:21:30+00:00",
+      "reason": null,
+      "source_sha256": "351fc0c685122756d7196c609a5987fcb21afc969b167fea443bb0b1fe4da9ec",
+      "status": "not_confirmed",
+      "url": "https://trajectoire2027.fr/programme.html"
+    },
     "b7d424251e5b": {
       "processed_at": "2026-08-11T08:55:55+00:00",
       "reason": null,
@@ -5934,6 +5988,15 @@
       "source_sha256": "4643ceed4fc849e61634cb89611d8d6b0ffffabb1a2df95845e19e65456585a2",
       "status": "historical_skipped",
       "url": "https://parti-equinoxe.fr/programme-europeennes-2024-mesure-phare-3-numerique/"
+    },
+    "bace0d14b551": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-13T16:21:31+00:00",
+      "reason": null,
+      "source_sha256": "351fc0c685122756d7196c609a5987fcb21afc969b167fea443bb0b1fe4da9ec",
+      "status": "not_confirmed",
+      "url": "https://trajectoire2027.fr/programme.html"
     },
     "c0fc1bef6abd": {
       "chunks_done": null,
