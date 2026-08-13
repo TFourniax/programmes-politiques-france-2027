@@ -138,6 +138,7 @@ def build_health(
         "covered_official_source_warnings_last_run": covered_source_warnings,
         "uncovered_official_source_warnings_last_run": uncovered_source_warnings,
         "alternate_official_feed_coverage_count": int(source_health.get("alternate_official_feed_coverage_count") or 0),
+        "official_sitemap_coverage_count": int(source_health.get("official_sitemap_coverage_count") or 0),
         "equivalent_primary_coverage_count": int(source_health.get("equivalent_primary_coverage_count") or 0),
         "structured_primary_coverage_count": structured_coverage,
         "persistent_official_source_failures": persistent_source_failures,
