@@ -48,13 +48,29 @@ Les documents peuvent notamment être :
 
 Chaque document possède aussi un état : `current`, `superseded`, `amended`, `withdrawn`, `draft`, `archived` ou `unknown`.
 
-## Propositions atomiques
+## Propositions atomiques et canon
 
 Une proposition atomique exprime une seule mesure, orientation ou promesse principale. Elle doit être rattachée à un document source, avec date, statut, contexte et degré de certitude.
 
+Une même mesure ne doit pas être recréée à chaque nouvelle occurrence. Lorsqu’une nouvelle source vérifiée confirme un claim canonique existant, le système conserve le claim unique et lui rattache la nouvelle preuve. Les identifiants des documents sources, leurs URL et leurs empreintes peuvent donc être multiples pour une même proposition.
+
+Un rattachement automatique de doublon n’est accepté que si la cible canonique existe et conserve au minimum le même acteur et le même thème. En cas d’ambiguïté, le système préfère ne pas fusionner. Rejouer une même source ou une même veille doit être idempotent : aucune proposition ni provenance identique ne doit être créée une seconde fois.
+
+Les contradictions ou changements documentés ne sont jamais assimilés à de simples doublons. Ils restent traçables séparément et utilisent, lorsqu’il y a remplacement explicite, les mécanismes de version décrits plus bas.
+
+## Ce que signifie « vérifié »
+
+Dans ce dépôt, la vérification porte d’abord sur **l’attribution et la fidélité documentaire** : la source doit permettre d’établir que la personnalité, le parti ou l’organisation concernée a bien annoncé, proposé, déclaré ou publié l’information enregistrée.
+
+Le label de vérification **ne signifie pas** que la mesure est jugée réalisable, financée, juridiquement applicable, constitutionnelle, économiquement efficace ou politiquement souhaitable. L’évaluation de faisabilité ou d’impact n’est pas l’objet du corpus à ce stade.
+
+Une affirmation quantitative qui prétend décrire un effet réel, un coût, une économie ou un résultat extérieur à la simple déclaration de l’acteur nécessite donc des preuves adaptées à cette affirmation ; la seule source de campagne ne transforme pas automatiquement cette estimation en fait établi.
+
 ## Sources
 
-La priorité va aux sources primaires : sites officiels, communiqués, PDF de campagne, documents institutionnels, transcriptions officielles. Les sources secondaires servent à découvrir, contextualiser ou confirmer lorsqu’aucune source primaire n’est disponible.
+La priorité va aux sources primaires : sites officiels, communiqués, PDF de campagne, documents institutionnels, transcriptions officielles et comptes sociaux dont l’identité a été vérifiée. Les sources secondaires servent à découvrir, contextualiser ou confirmer lorsqu’aucune source primaire n’est disponible.
+
+Une pluralité de liens n’est pas automatiquement considérée comme une pluralité de confirmations indépendantes. Les reprises d’une même source ou d’un même contenu doivent rester rattachées à leur provenance plutôt que gonfler artificiellement le niveau de preuve.
 
 ## Versions
 
@@ -77,6 +93,16 @@ La récupération est déterministe en priorité. Le système doit préférer un
 - les réponses politiques sont composées à partir de formulations présentes dans les données versionnées ou de titres canoniques de propositions.
 
 Un classifieur sémantique de secours peut uniquement aider à interpréter une formulation lorsque le retrieval déterministe échoue. Chaque acteur ou concept qu’il propose doit être rattaché à un fragment exact de la question courante, puis la requête obtenue est revalidée par le moteur déterministe. Le classifieur ne rédige jamais les faits ou positions affichés.
+
+### Réponse approfondie
+
+La réponse courte reste le format par défaut. Lorsque le corpus contient réellement davantage de matière pertinente, l’interface peut proposer **Approfondir** dans la même réponse.
+
+L’approfondissement ne lance pas une recherche libre sur Internet et ne demande pas à un modèle de langage d’inventer ou compléter le contenu. Il réutilise le contexte de retrieval déjà résolu, augmente uniquement la profondeur de récupération dans le corpus versionné, suit les relations entre claims canoniques et documents de preuve, puis compose une réponse plus détaillée à partir des passages effectivement récupérés.
+
+Un document source peut appartenir à un parti tout en prouvant une déclaration explicitement attribuée à une personnalité, ou inversement. Dans ce cas, l’approfondissement conserve toujours **l’attribution du claim canonique** et garde séparément le propriétaire du document pour la traçabilité ; la propriété de la source ne doit jamais devenir une attribution politique par accident.
+
+Les passages supplémentaires d’un document long sont filtrés par proximité avec le claim concerné afin d’éviter qu’un chapitre voisin mais hors sujet apparaisse uniquement parce qu’il se trouve dans le même document.
 
 ## Suggestions
 
