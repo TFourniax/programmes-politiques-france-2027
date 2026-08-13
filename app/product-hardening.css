@@ -1,6 +1,6 @@
 .modeSwitcherWide{grid-template-columns:repeat(7,minmax(0,1fr))}
 
-.answerSources button{font:inherit;font-size:8.5px;color:var(--accent);border:1px solid rgba(227,255,96,.2);background:var(--accent-soft);border-radius:999px;padding:3px 6px;cursor:pointer;transition:border-color .15s ease,background .15s ease}
+.answerSources button{font:inherit;font-size:8.5px;color:var(--accent);border:1px solid rgba(227,255,96,.2);background:var(--accent-soft);border-radius:999px;padding:3px 6px;min-height:28px;min-width:28px;cursor:pointer;transition:border-color .15s ease,background .15s ease}
 .answerSources button:hover,.answerSources button:focus-visible{border-color:rgba(227,255,96,.55);background:rgba(227,255,96,.17);outline:none}
 .answerSources button:focus-visible{box-shadow:0 0 0 2px rgba(227,255,96,.12)}
 
@@ -11,4 +11,12 @@
 .timelineBody .answerNote{margin-top:8px}
 
 @media(max-width:1100px){.modeSwitcherWide{grid-template-columns:repeat(4,1fr)}}
-@media(max-width:650px){.modeSwitcherWide{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:650px){
+  .modeSwitcherWide{grid-template-columns:repeat(2,1fr)}
+  .composer button,.modeSwitcherWide button,.deepDiveControl button,.followUps button,.answerSources button{min-height:44px;min-width:44px}
+}
+
+@media(prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto!important}
+  *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}
+}

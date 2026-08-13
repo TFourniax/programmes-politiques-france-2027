@@ -26,6 +26,7 @@ on:
       - 'scripts/promote_social.py'
       - 'scripts/repair_promotion_state.py'
       - 'scripts/canonical_queue.py'
+      - 'scripts/build_coverage_report.py'
       - 'scripts/update_source_health.py'
       - 'scripts/update_watch_health.py'
       - 'scripts/check_watch_health.py'
@@ -33,6 +34,7 @@ on:
       - 'tests/test_direct_feed_watch.py'
       - 'tests/test_structured_primary_watch.py'
       - 'tests/test_auto_promote.py'
+      - 'tests/test_ingestion_prompt_injection.py'
       - 'tests/test_auto_promote_runner.py'
       - 'tests/test_auto_promote_canonical_runner.py'
       - 'tests/test_canonical_evidence.py'
@@ -41,9 +43,16 @@ on:
       - 'tests/test_verify_social.py'
       - 'tests/test_repair_promotion_state.py'
       - 'tests/test_canonical_queue.py'
+      - 'tests/test_coverage_report.py'
       - 'tests/test_update_source_health.py'
+      - 'tests/test_update_watch_health.py'
+      - 'tests/test_check_watch_health.py'
       - 'tests/test_watch_health.py'
+      - 'tests/test_release_workflows.py'
+      - 'tests/test_autonomy_chaos.py'
       - 'tests/test_v3_corpus_budget.py'
+      - 'playwright.v31.config.mjs'
+      - 'tests/e2e/accessibility-baseline.spec.js'
 
 permissions:
   contents: write
@@ -178,14 +187,20 @@ jobs:
             tests/test_prune_social_profiles.py \
             tests/test_verify_social.py \
             tests/test_auto_promote.py \
+            tests/test_ingestion_prompt_injection.py \
             tests/test_auto_promote_runner.py \
             tests/test_auto_promote_canonical_runner.py \
             tests/test_canonical_evidence.py \
             tests/test_promote_social.py \
             tests/test_repair_promotion_state.py \
             tests/test_canonical_queue.py \
+            tests/test_coverage_report.py \
             tests/test_update_source_health.py \
+            tests/test_update_watch_health.py \
+            tests/test_check_watch_health.py \
             tests/test_watch_health.py \
+            tests/test_release_workflows.py \
+            tests/test_autonomy_chaos.py \
             tests/test_v3_corpus_budget.py
 
       - name: Queue canonical changes and enforce 48h publication window
@@ -195,6 +210,9 @@ jobs:
           python scripts/canonical_queue.py evaluate \
             --minimum-hours 48 \
             --github-output "$GITHUB_OUTPUT"
+
+      - name: Build canonical coverage report
+        run: python scripts/build_coverage_report.py
 
       - name: Report pending canonical publication
         if: steps.canonical.outputs.changed == 'true' && steps.canonical.outputs.publish != 'true'
@@ -236,13 +254,13 @@ jobs:
         if: steps.canonical.outputs.publish == 'true'
         env:
           CI: 'true'
-        run: npx playwright test --project=chromium --project=mobile-chromium
+        run: npx playwright test -c playwright.v31.config.mjs --project=chromium --project=mobile-chromium
 
       - name: Cross-browser smoke before canonical push
         if: steps.canonical.outputs.publish == 'true'
         env:
           CI: 'true'
-        run: npx playwright test --project=firefox-smoke --project=webkit-smoke --project=mobile-webkit-smoke tests/e2e/cross-browser-smoke.spec.js
+        run: npx playwright test -c playwright.v31.config.mjs --project=firefox-smoke --project=webkit-smoke --project=mobile-webkit-smoke tests/e2e/cross-browser-smoke.spec.js
 
       - name: Commit verified watch state or grouped canonical publication
         shell: bash

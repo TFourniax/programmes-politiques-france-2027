@@ -1,0 +1,120 @@
+name: Production public smoke
+
+on:
+  schedule:
+    - cron: '23 */2 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: production-public-smoke
+  cancel-in-progress: true
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    env:
+      BASE_URL: ${{ vars.PRODUCTION_BASE_URL || 'https://politique2027.netlify.app' }}
+    steps:
+      - name: Exercise public health and deterministic answer
+        id: smoke
+        continue-on-error: true
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          import time
+          import urllib.request
+
+          base = os.environ["BASE_URL"].rstrip("/")
+
+          def request(path, payload=None, timeout=12):
+              data = None
+              headers = {
+                  "accept": "application/json",
+                  "user-agent": "politique2027-production-smoke/1.0",
+              }
+              method = "GET"
+              if payload is not None:
+                  data = json.dumps(payload, ensure_ascii=False).encode("utf-8")
+                  headers["content-type"] = "application/json"
+                  method = "POST"
+              started = time.monotonic()
+              req = urllib.request.Request(base + path, data=data, headers=headers, method=method)
+              with urllib.request.urlopen(req, timeout=timeout) as response:
+                  body = response.read().decode("utf-8")
+                  elapsed = time.monotonic() - started
+                  if response.status != 200:
+                      raise RuntimeError(f"{path}: HTTP {response.status}")
+                  return json.loads(body), elapsed
+
+          health, health_s = request("/api/health")
+          assert health.get("ok") is True, health
+          chat = health.get("chat") or {}
+          assert chat.get("engine") == "deterministic-bm25-ontology-v4", chat
+          assert chat.get("responseGeneration") == "deterministic_extractive", chat
+
+          answer, answer_s = request(
+              "/api/chat",
+              {
+                  "question": "Quel projet propose d'abroger Parcoursup ?",
+                  "history": [],
+                  "sessionContext": {},
+              },
+          )
+          assert answer.get("generated") is False, answer
+          assert answer.get("answer", {}).get("cards"), answer
+          assert answer.get("citations"), answer
+          assert any(
+              citation.get("path") == "proposals/services-publics/ps-abrogation-parcoursup.md"
+              for citation in answer["citations"]
+          ), answer
+
+          assert health_s < 5.0, f"health latency too high: {health_s:.3f}s"
+          assert answer_s < 8.0, f"chat latency too high: {answer_s:.3f}s"
+
+          print(json.dumps({
+              "base": base,
+              "health_seconds": round(health_s, 3),
+              "chat_seconds": round(answer_s, 3),
+              "commitRef": health.get("deployment", {}).get("commitRef"),
+              "watchStatus": health.get("watch", {}).get("status"),
+              "result": "ok",
+          }, ensure_ascii=False))
+          PY
+
+      - name: Open or refresh production incident
+        if: steps.smoke.outcome == 'failure'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TITLE: '[AUTO] Production publique dégradée'
+        shell: bash
+        run: |
+          issue="$(gh issue list --state open --search "$TITLE in:title" --json number --jq '.[0].number // empty')"
+          body="Le smoke test synthétique de la production publique n'obtient plus le contrat attendu sur /api/health ou sur une réponse déterministe connue, ou la latence dépasse le SLO externe. Aucun changement de donnée n'est effectué automatiquement par ce workflow."
+          if [ -z "$issue" ]; then
+            gh issue create --title "$TITLE" --body "$body"
+          else
+            gh issue comment "$issue" --body "Nouvel échec du smoke production à $(date -u +%FT%TZ)."
+          fi
+
+      - name: Close recovered production incident
+        if: steps.smoke.outcome == 'success'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TITLE: '[AUTO] Production publique dégradée'
+        shell: bash
+        run: |
+          issue="$(gh issue list --state open --search "$TITLE in:title" --json number --jq '.[0].number // empty')"
+          if [ -n "$issue" ]; then
+            gh issue close "$issue" --comment "Production de nouveau conforme au smoke test à $(date -u +%FT%TZ)."
+          fi
+
+      - name: Fail visibly after incident bookkeeping
+        if: steps.smoke.outcome == 'failure'
+        run: exit 1
