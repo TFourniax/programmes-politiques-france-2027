@@ -1,0 +1,59 @@
+name: Structured missing candidates backfill
+
+on:
+  push:
+    branches: [backfill/structured-missing-candidates]
+    paths:
+      - '.github/workflows/structured-missing-candidates.yml'
+      - 'scripts/backfill_structured_missing_candidates.py'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: structured-missing-candidates-backfill
+  cancel-in-progress: false
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: '3.12'
+          cache: pip
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+      - name: Import dense official programmes
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python scripts/backfill_structured_missing_candidates.py
+      - name: Validate political data
+        run: |
+          python scripts/validate.py
+          pytest -q
+      - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci
+      - name: Retrieval QA
+        run: npm run test:retrieval
+      - name: Build
+        env:
+          LLM_API_KEY: build-only-placeholder
+        run: npm run build
+      - name: Commit structured backfill result
+        shell: bash
+        run: |
+          rm -f .github/workflows/structured-missing-candidates.yml
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "data: add structured programmes for missing candidates"
+          git push
