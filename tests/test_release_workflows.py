@@ -36,3 +36,17 @@ def test_hardening_workflows_pin_official_actions_to_commit_shas():
             ref = stripped.split("@", 1)[1].split()[0]
             assert len(ref) == 40, f"{relative} has floating action ref: {stripped}"
             int(ref, 16)
+
+
+def test_autonomous_repository_writers_are_serialized_and_rebase_before_push():
+    for relative in (
+        ".github/workflows/daily-watch.yml",
+        ".github/workflows/gemini-healthcheck.yml",
+    ):
+        workflow = read(relative)
+        assert "group: political-watch-writers" in workflow
+        assert "cancel-in-progress: false" in workflow
+        assert "git fetch origin main" in workflow
+        assert "git rebase origin/main" in workflow
+        assert "git push origin HEAD:main" in workflow
+        assert "for attempt in 1 2 3" in workflow
