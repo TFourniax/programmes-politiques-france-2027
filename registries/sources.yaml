@@ -1,18 +1,270 @@
-snapshot_date: 2026-08-11
+snapshot_date: '2026-08-13'
 sources:
-  - {id: src-lr, url: 'https://republicains.fr/', tier: tier_1_primary_official, owner: Les Républicains}
-  - {id: src-horizons, url: 'https://horizonsleparti.fr/', tier: tier_1_primary_official, owner: Horizons}
-  - {id: src-horizons-idees, url: 'https://horizonsleparti.fr/le-pole-idees/', tier: tier_1_primary_official, owner: Horizons}
-  - {id: src-renaissance, url: 'https://parti-renaissance.fr/', tier: tier_1_primary_official, owner: Renaissance}
-  - {id: src-renaissance-convention-economie-climat, url: 'https://doc.parti.re/Conventions-thematiques_Nouvelle-donne.pdf', tier: tier_1_primary_official, owner: Renaissance}
-  - {id: src-renaissance-convention-regalien, url: 'https://doc.parti.re/conventions/Restitution-Regalien-Une-Republique-ferme-une-France-apaisee.pdf', tier: tier_1_primary_official, owner: Renaissance}
-  - {id: src-nouvelle-energie, url: 'https://www.unenouvelleenergie.fr/', tier: tier_1_primary_official, owner: Nouvelle Énergie}
-  - {id: src-nouvelle-energie-programme, url: 'https://www.unenouvelleenergie.fr/notre-programme/', tier: tier_1_primary_official, owner: Nouvelle Énergie}
-  - {id: src-rn, url: 'https://rassemblementnational.fr/', tier: tier_1_primary_official, owner: Rassemblement national}
-  - {id: src-dlf, url: 'https://www.debout-la-france.fr/', tier: tier_1_primary_official, owner: Debout la France}
-  - {id: src-dlf-projet, url: 'https://www.debout-la-france.fr/notre-projet/', tier: tier_1_primary_official, owner: Debout la France}
-  - {id: src-place-publique, url: 'https://place-publique.eu/', tier: tier_1_primary_official, owner: Place publique}
-  - {id: src-lfi, url: 'https://lafranceinsoumise.fr/', tier: tier_1_primary_official, owner: La France insoumise}
-  - {id: src-lfi-programme-alias, url: 'https://programme.lafranceinsoumise.fr/', tier: tier_1_primary_official, owner: La France insoumise}
-  - {id: src-lfi-programme, url: 'https://melenchon2027.fr/programme2025/livre/', tier: tier_1_primary_official, owner: La France insoumise}
-  - {id: src-tf1, url: 'https://www.tf1info.fr/', tier: tier_2_primary_statement, owner: TF1 Info}
+- id: src-lr
+  url: https://republicains.fr/
+  tier: tier_1_primary_official
+  owner: Les Républicains
+- id: src-horizons
+  url: https://horizonsleparti.fr/
+  tier: tier_1_primary_official
+  owner: Horizons
+- id: src-horizons-idees
+  url: https://horizonsleparti.fr/le-pole-idees/
+  tier: tier_1_primary_official
+  owner: Horizons
+- id: src-renaissance
+  url: https://parti-renaissance.fr/
+  tier: tier_1_primary_official
+  owner: Renaissance
+- id: src-renaissance-convention-economie-climat
+  url: https://doc.parti.re/Conventions-thematiques_Nouvelle-donne.pdf
+  tier: tier_1_primary_official
+  owner: Renaissance
+- id: src-renaissance-convention-regalien
+  url: https://doc.parti.re/conventions/Restitution-Regalien-Une-Republique-ferme-une-France-apaisee.pdf
+  tier: tier_1_primary_official
+  owner: Renaissance
+- id: src-edouard-philippe-2027
+  url: https://www.edouardphilippe.fr/
+  tier: tier_1_primary_official
+  owner: Édouard Philippe
+- id: src-edouard-philippe-prospere
+  url: https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere
+  tier: tier_1_primary_official
+  owner: Édouard Philippe
+- id: src-edouard-philippe-sure
+  url: https://www.edouardphilippe.fr/priorites/pour-une-france-plus-sure
+  tier: tier_1_primary_official
+  owner: Édouard Philippe
+- id: src-edouard-philippe-conquerante
+  url: https://www.edouardphilippe.fr/priorites/pour-une-france-plus-conquerante
+  tier: tier_1_primary_official
+  owner: Édouard Philippe
+- id: src-attal-2027
+  url: https://attalpresident.fr/
+  tier: tier_1_primary_official
+  owner: Gabriel Attal
+- id: src-nouvelle-energie
+  url: https://www.unenouvelleenergie.fr/
+  tier: tier_1_primary_official
+  owner: Nouvelle Énergie
+- id: src-nouvelle-energie-programme
+  url: https://www.unenouvelleenergie.fr/notre-programme/
+  tier: tier_1_primary_official
+  owner: Nouvelle Énergie
+- id: src-rn
+  url: https://rassemblementnational.fr/
+  tier: tier_1_primary_official
+  owner: Rassemblement national
+- id: src-reconquete
+  url: https://www.parti-reconquete.fr/
+  tier: tier_1_primary_official
+  owner: Reconquête
+- id: src-dlf
+  url: https://www.debout-la-france.fr/
+  tier: tier_1_primary_official
+  owner: Debout la France
+- id: src-dlf-projet
+  url: https://www.debout-la-france.fr/notre-projet/
+  tier: tier_1_primary_official
+  owner: Debout la France
+- id: src-nda-2027
+  url: https://www.dupontaignan.fr/
+  tier: tier_1_primary_official
+  owner: Nicolas Dupont-Aignan
+- id: src-place-publique
+  url: https://place-publique.eu/
+  tier: tier_1_primary_official
+  owner: Place publique
+- id: src-place-publique-acte-1
+  url: https://place-publique.eu/pages/6mRSwq5tuSrSi68Cw1IADX/l-acte-i
+  tier: tier_1_primary_official
+  owner: Place publique
+- id: src-place-publique-projet
+  url: https://place-publique.eu/pages/69jA2SKIG5udlNX7wI3dmc/le-projet
+  tier: tier_1_primary_official
+  owner: Place publique
+- id: src-ps
+  url: https://parti-socialiste.fr/
+  tier: tier_1_primary_official
+  owner: Parti socialiste
+- id: src-ps-projet-2026
+  url: https://projet-socialiste.fr/
+  tier: tier_1_primary_official
+  owner: Parti socialiste
+- id: src-guedj-2027
+  url: https://www.jerome-guedj.fr/
+  tier: tier_1_primary_official
+  owner: Jérôme Guedj
+- id: src-philippe-brun-2027
+  url: https://www.philippe-brun.fr/
+  tier: tier_1_primary_official
+  owner: Philippe Brun
+- id: src-philippe-brun-salaire
+  url: https://www.philippe-brun.fr/actualites/salaire-brun-proposition-pouvoir-achat
+  tier: tier_1_primary_official
+  owner: Philippe Brun
+- id: src-segolene-royal-2027
+  url: https://segolene-ordrejuste.fr/
+  tier: tier_1_primary_official
+  owner: Ségolène Royal
+- id: src-karim-bouamrane-2027
+  url: https://www.karimbouamrane2027.org/
+  tier: tier_1_primary_official
+  owner: Karim Bouamrane
+- id: src-france-humaine-forte
+  url: https://www.lafrancehumaineetforte.fr/
+  tier: tier_1_primary_official
+  owner: La France Humaine & Forte
+- id: src-pcf
+  url: https://www.pcf.fr/
+  tier: tier_1_primary_official
+  owner: Parti communiste français
+- id: src-generation-ecologie
+  url: https://generationecologie.fr/
+  tier: tier_1_primary_official
+  owner: Génération Écologie
+- id: src-les-ecologistes
+  url: https://lesecologistes.fr/
+  tier: tier_1_primary_official
+  owner: Les Écologistes
+- id: src-tondelier-2027
+  url: https://marinetondelier.fr/
+  tier: tier_1_primary_official
+  owner: Marine Tondelier
+- id: src-tondelier-manifeste
+  url: https://marinetondelier.fr/manifeste
+  tier: tier_1_primary_official
+  owner: Marine Tondelier
+- id: src-tondelier-journal
+  url: https://marinetondelier.fr/journal-de-campagne
+  tier: tier_1_primary_official
+  owner: Marine Tondelier
+- id: src-lutte-ouvriere
+  url: https://www.lutte-ouvriere.org/
+  tier: tier_1_primary_official
+  owner: Lutte ouvrière
+- id: src-arthaud-2027
+  url: https://www.lutte-ouvriere.org/portail/nathalie-arthaud.html
+  tier: tier_1_primary_official
+  owner: Nathalie Arthaud
+- id: src-revolution-permanente
+  url: https://www.revolutionpermanente.fr/
+  tier: tier_1_primary_official
+  owner: Révolution Permanente
+- id: src-anasse-kazib-2027-rp
+  url: https://www.revolutionpermanente.fr/Anasse-Kazib-2027
+  tier: tier_1_primary_official
+  owner: Anasse Kazib
+- id: src-anasse-kazib-campagne
+  url: https://anasse2027.fr/
+  tier: tier_1_primary_official
+  owner: Anasse Kazib
+- id: src-npa-revolutionnaires
+  url: https://npa-revolutionnaires.org/
+  tier: tier_1_primary_official
+  owner: NPA-Révolutionnaires
+- id: src-selma-labib-2027
+  url: https://npa-revolutionnaires.org/communique-presidentielle-2027-selma-labib-une-candidature-ouvriere-et-revolutionnaire-soutenue-par-gael-quirante/
+  tier: tier_1_primary_official
+  owner: Selma Labib
+- id: src-lfi
+  url: https://lafranceinsoumise.fr/
+  tier: tier_1_primary_official
+  owner: La France insoumise
+- id: src-lfi-programme-alias
+  url: https://programme.lafranceinsoumise.fr/
+  tier: tier_1_primary_official
+  owner: La France insoumise
+- id: src-lfi-programme
+  url: https://melenchon2027.fr/programme2025/livre/
+  tier: tier_1_primary_official
+  owner: La France insoumise
+- id: src-patriotes
+  url: https://les-patriotes.fr/
+  tier: tier_1_primary_official
+  owner: Les Patriotes
+- id: src-upr
+  url: https://upr.fr/
+  tier: tier_1_primary_official
+  owner: Union populaire républicaine
+- id: src-solution-democratique
+  url: https://solutiondemocratique.fr/
+  tier: tier_1_primary_official
+  owner: Solution démocratique
+- id: src-solution-democratique-programme
+  url: https://solutiondemocratique.fr/notre-solution/calendrier-president/
+  tier: tier_1_primary_official
+  owner: Solution démocratique
+- id: src-solution-democratique-parrainage
+  url: https://solutiondemocratique.fr/parrainage2027/
+  tier: tier_1_primary_official
+  owner: Solution démocratique
+- id: src-equinoxe
+  url: https://parti-equinoxe.fr/
+  tier: tier_1_primary_official
+  owner: Équinoxe
+- id: src-equinoxe-mikolajczak
+  url: https://parti-equinoxe.fr/qui-est-antoine-mikolajczak/
+  tier: tier_1_primary_official
+  owner: Antoine Mikolajczak
+- id: src-debout
+  url: https://debout.fr/
+  tier: tier_1_primary_official
+  owner: Debout !
+- id: src-ruffin-2027
+  url: https://nouspresident.fr/
+  tier: tier_1_primary_official
+  owner: François Ruffin
+- id: src-ruffin-travail
+  url: https://nouspresident.fr/pour-le-travail/
+  tier: tier_1_primary_official
+  owner: François Ruffin
+- id: src-ruffin-argent-etat
+  url: https://nouspresident.fr/separation-argent-etat/
+  tier: tier_1_primary_official
+  owner: François Ruffin
+- id: src-ruffin-temps-loisirs
+  url: https://nouspresident.fr/temps-loisirs/
+  tier: tier_1_primary_official
+  owner: François Ruffin
+- id: src-la-convention
+  url: https://www.la-convention.fr/
+  tier: tier_1_primary_official
+  owner: La Convention
+- id: src-cazeneuve-2027
+  url: https://bc2027.fr/
+  tier: tier_1_primary_official
+  owner: Bernard Cazeneuve
+- id: src-cazeneuve-demarche
+  url: https://bc2027.fr/ma-demarche
+  tier: tier_1_primary_official
+  owner: Bernard Cazeneuve
+- id: src-france-humaniste
+  url: https://www.lafrancehumaniste.fr/
+  tier: tier_1_primary_official
+  owner: La France humaniste
+- id: src-villepin-moment-francais
+  url: https://lafrancehumaniste.fr/articles/le-moment-francais-sorbonne.html
+  tier: tier_1_primary_official
+  owner: Dominique de Villepin
+- id: src-tf1
+  url: https://www.tf1info.fr/
+  tier: tier_2_primary_statement
+  owner: TF1 Info
+- id: src-juan-branco-2027
+  url: https://ruches.org/
+  tier: tier_1_primary_official
+  owner: Juan Branco
+- id: src-juan-branco-projet
+  url: https://ruches.org/le-projet
+  tier: tier_1_primary_official
+  owner: Juan Branco
+- id: src-manolo-mlekuz-2027
+  url: https://trajectoire2027.fr/qui-sommes-nous.html
+  tier: tier_1_primary_official
+  owner: Manolo Mlekuz
+- id: src-manolo-mlekuz-programme
+  url: https://trajectoire2027.fr/programme.html
+  tier: tier_1_primary_official
+  owner: Manolo Mlekuz
