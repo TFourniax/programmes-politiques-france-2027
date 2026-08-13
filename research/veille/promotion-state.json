@@ -806,9 +806,9 @@
       "verified_at": "2026-08-13T08:51:16+00:00"
     }
   },
-  "last_error_count": 1,
-  "last_processed_count": 2,
-  "last_run_at": "2026-08-13T16:21:45+00:00",
+  "last_error_count": 3,
+  "last_processed_count": 0,
+  "last_run_at": "2026-08-13T18:45:51+00:00",
   "source_chunks": {
     "0586a39b537d638a8c8b5666": {
       "claims": [
@@ -1773,6 +1773,23 @@
       "total": 1,
       "updated_at": "2026-08-13T00:20:36+00:00",
       "url": "https://melenchon2027.fr/programme2025/livre/chapitre18/"
+    },
+    "352d9f3ea0e600edc60f65dc": {
+      "claims": [],
+      "created_at": "2026-08-13T18:45:31+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [],
+      "published_candidates": [
+        "2026-03-28"
+      ],
+      "sha256": "3e726547b375cf833eaf5cde733f5b84ec6e8cc1959d3635b89b0b160eed9aa6",
+      "source_title": "Édouard Philippe 2027 : démocratie directe, analyse du programme",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "url": "https://solutiondemocratique.fr/edouard-philippe-presidentielle-2027-programme/"
     },
     "3c1ba39c8e7810522f130b53": {
       "canonical_confirmations": [
@@ -2854,6 +2871,19 @@
       "updated_at": "2026-08-13T00:20:30+00:00",
       "url": "https://melenchon2027.fr/programme2025/livre/chapitre17/"
     },
+    "47c5dd5ae80b30abc2268caa": {
+      "claims": [],
+      "created_at": "2026-08-13T18:45:44+00:00",
+      "document_types": [],
+      "done": [],
+      "published_candidates": [],
+      "sha256": "33f73a2082138b7d458b38b96c8b6fd198e5b4cca3faa4691691cb279b467887",
+      "source_title": "Jérôme Guedj 2027 : analyse de son programme et engagement réel pour la démocratie directe - Solution Démocratique - Parti politique pour instaurer la démocratie directe",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "url": "https://solutiondemocratique.fr/jerome-guedj-programme-presidentielle-2027/"
+    },
     "50622a201742127d88ae841d": {
       "claims": [
         {
@@ -3124,6 +3154,21 @@
       "total": 1,
       "updated_at": "2026-08-12T23:32:53+00:00",
       "url": "https://melenchon2027.fr/programme2025/livre/chapitre14/"
+    },
+    "5ecf5e7b0cd7f644de764c3d": {
+      "claims": [],
+      "created_at": "2026-08-13T18:45:51+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [],
+      "published_candidates": [],
+      "sha256": "cd72945d31e081c7cdae3852b0d97352e21582f1e4e870b26038b082e795d25e",
+      "source_title": "La canicule n’est plus exceptionnelle, elle devient notre quotidien. ☀️🌡️ Ce qui doit devenir exceptionnel, en revanche, c’est l’inaction climatique. Nous, ne sommes pas condamné",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "url": "https://bsky.app/profile/marinetondelier.fr/post/3msy3ilfs3q25"
     },
     "65b932fa9c013c803e67df86": {
       "claims": [],
@@ -5714,6 +5759,14 @@
     }
   },
   "sources": {
+    "05d351c29703": {
+      "attempts": 1,
+      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+      "next_retry_at": "2026-08-14T00:45:41+00:00",
+      "processed_at": "2026-08-13T18:45:41+00:00",
+      "status": "technical_error",
+      "url": "https://solutiondemocratique.fr/clementine-autain-programme-presidentielle2027/"
+    },
     "0f4e2e75bcef": {
       "chunks_done": null,
       "chunks_total": null,
@@ -5791,6 +5844,14 @@
       "source_sha256": "cf7d6681b5e7c8a9f63bfb52f345a502d13bf53b949b61f1af98d3a29ee6504f",
       "status": "promoted",
       "url": "https://melenchon2027.fr/programme2025/livre/chapitre10/"
+    },
+    "354b4e7b952c": {
+      "attempts": 1,
+      "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 19.104556396s.",
+      "next_retry_at": "2026-08-14T00:45:40+00:00",
+      "processed_at": "2026-08-13T18:45:40+00:00",
+      "status": "technical_error",
+      "url": "https://solutiondemocratique.fr/edouard-philippe-presidentielle-2027-programme/"
     },
     "36eb65b88b37": {
       "chunks_done": null,
@@ -5886,6 +5947,14 @@
       "source_sha256": "483c5cca9ce4e53d7ffece152c3d6584b2f150047b234270422894776a01f531",
       "status": "promoted",
       "url": "https://www.unenouvelleenergie.fr/notre-programme/"
+    },
+    "7d900f388017": {
+      "attempts": 1,
+      "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 9.379531374s.",
+      "next_retry_at": "2026-08-14T00:45:50+00:00",
+      "processed_at": "2026-08-13T18:45:50+00:00",
+      "status": "technical_error",
+      "url": "https://solutiondemocratique.fr/jerome-guedj-programme-presidentielle-2027/"
     },
     "86d9a849395b": {
       "chunks_done": null,
