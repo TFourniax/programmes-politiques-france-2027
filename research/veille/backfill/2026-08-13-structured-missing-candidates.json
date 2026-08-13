@@ -1,0 +1,42 @@
+{
+  "generated_at": "2026-08-13T12:00:00+00:00",
+  "verification_scope": "statement_attribution_not_feasibility",
+  "method": "direct_primary_campaign_structured_measure_parser",
+  "temporal_records_repaired": 851,
+  "results": [
+    {
+      "actor_id": "juan-branco",
+      "source_url": "https://ruches.org/le-projet",
+      "structured_measures": 844,
+      "securite-justice": 98,
+      "retraites": 8,
+      "fiscalite-redistribution": 52,
+      "immigration-integration": 36,
+      "europe-souverainete": 76,
+      "ecologie-energie": 113,
+      "institutions-democratie": 205,
+      "pouvoir-achat-travail": 21,
+      "services-publics": 156,
+      "economie-finances": 79,
+      "created": 844,
+      "skipped_existing": 0
+    },
+    {
+      "actor_id": "manolo-mlekuz",
+      "source_url": "https://trajectoire2027.fr/programme.html",
+      "structured_measures": 7,
+      "securite-justice": 0,
+      "retraites": 0,
+      "fiscalite-redistribution": 0,
+      "immigration-integration": 0,
+      "europe-souverainete": 0,
+      "ecologie-energie": 0,
+      "institutions-democratie": 7,
+      "pouvoir-achat-travail": 0,
+      "services-publics": 0,
+      "economie-finances": 0,
+      "created": 7,
+      "skipped_existing": 0
+    }
+  ]
+}
