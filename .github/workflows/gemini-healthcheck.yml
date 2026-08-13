@@ -10,12 +10,18 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: political-watch-writers
+  cancel-in-progress: false
+
 jobs:
   gemini:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
       - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          fetch-depth: 0
 
       - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
         with:
@@ -105,4 +111,18 @@ jobs:
             exit 0
           fi
           git commit -m "veille: Gemini healthcheck result"
-          git push
+
+          for attempt in 1 2 3; do
+            git fetch origin main
+            if ! git rebase origin/main; then
+              git rebase --abort || true
+              echo "::error::Unable to rebase Gemini health state onto current main; refusing a destructive push."
+              exit 1
+            fi
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            echo "Remote main advanced during Gemini push attempt ${attempt}; retrying safely."
+          done
+          echo "::error::Remote main kept advancing; Gemini health state was not pushed after bounded retries."
+          exit 1

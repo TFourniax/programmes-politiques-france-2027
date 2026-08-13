@@ -58,7 +58,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: continuous-political-watch
+  group: political-watch-writers
   cancel-in-progress: false
 
 jobs:
@@ -280,4 +280,18 @@ jobs:
           else
             git commit -m "veille: état de surveillance $(date -u +%F)"
           fi
-          git push
+
+          for attempt in 1 2 3; do
+            git fetch origin main
+            if ! git rebase origin/main; then
+              git rebase --abort || true
+              echo "::error::Unable to rebase autonomous watch state onto current main; refusing a destructive push."
+              exit 1
+            fi
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            echo "Remote main advanced during push attempt ${attempt}; retrying safely."
+          done
+          echo "::error::Remote main kept advancing; autonomous watch state was not pushed after bounded retries."
+          exit 1
