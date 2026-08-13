@@ -12,7 +12,7 @@ from typing import Any
 import requests
 
 import auto_promote
-from auto_promote_runner import strict_gemini
+import auto_promote_canonical_runner as canonical_runner
 from common import ROOT, load_yaml
 
 
@@ -86,6 +86,7 @@ def source_from_event(event: dict[str, Any], max_chars: int) -> dict[str, Any]:
         "text": text,
         "text_truncated": False,
         "sha256": hashlib.sha256(text.encode("utf-8")).hexdigest(),
+        "captured_at": str(event.get("observed_at") or iso_now()),
     }
 
 
@@ -113,16 +114,27 @@ def promote_event(
     adapted["owner"] = event.get("entity_name")
     adapted["source_tier"] = "tier_1_primary_official"
 
+    # Social identity has already passed the dedicated verification gate. From this
+    # point on we use the exact same canonical-claim reconciliation as official web
+    # sources: a repeated statement enriches provenance instead of creating or losing
+    # a duplicate claim.
+    canonical_runner.TRACE["current_url"] = str(source["url"])
+    canonical_runner.TRACE["sources"][str(source["url"])] = source
+    canonical_runner.TRACE["confirmed"].pop(str(source["url"]), None)
+
     original_fetch = auto_promote.fetch_source
     original_allowed = auto_promote.allowed_entities
     original_gemini = auto_promote.gemini
     try:
         auto_promote.fetch_source = lambda _session, _url, _max_chars: source
         auto_promote.allowed_entities = strict_allowed_entities
-        auto_promote.gemini = strict_gemini
-        return auto_promote.promote(
+        auto_promote.gemini = canonical_runner.traced_gemini
+        result = auto_promote.promote(
             adapted, session, api_key, config, canonical_state,
             entities, candidates, parties, registries,
+        )
+        return canonical_runner.reconcile_confirmations(
+            adapted, result, canonical_state, candidates, parties
         )
     finally:
         auto_promote.fetch_source = original_fetch
@@ -140,6 +152,7 @@ def write_report(results: list[dict[str, Any]], errors: list[dict[str, Any]]) ->
         "partial": sum(x.get("status") == "partial" for x in results),
         "proposals_created": sum(len(x.get("proposals") or []) for x in results),
         "status_updates": sum(len(x.get("status_updates") or []) for x in results),
+        "provenance_updates": sum(len(x.get("provenance_updates") or []) for x in results),
         "errors": errors,
         "results": results,
     }
@@ -150,9 +163,10 @@ def write_report(results: list[dict[str, Any]], errors: list[dict[str, Any]]) ->
         f"- {payload['promoted']} publication(s) promue(s)\n"
         f"- {payload['partial']} publication(s) partiellement traitée(s)\n"
         f"- {payload['proposals_created']} proposition(s) créée(s)\n"
+        f"- {payload['provenance_updates']} claim(s) canonique(s) enrichi(s) par une nouvelle preuve\n"
         f"- {payload['status_updates']} statut(s) mis à jour\n"
         f"- {len(errors)} erreur(s) technique(s)\n\n"
-        "Seules les identités sociales vérifiées et les affirmations confirmées par les deux gates peuvent modifier le canon. Les erreurs techniques restent dans une file de retry durable.\n",
+        "Seules les identités sociales vérifiées et les affirmations confirmées par les deux gates peuvent modifier le canon. Une répétition confirmée enrichit le claim canonique existant sans le dupliquer. Les erreurs techniques restent dans une file de retry durable.\n",
         encoding="utf-8",
     )
 
@@ -197,6 +211,7 @@ def main() -> None:
                 "url": event["url"], "status": result["status"],
                 "processed_at": iso_now(), "source_sha256": result.get("sha256"),
                 "chunks_done": result.get("chunks_done"), "chunks_total": result.get("chunks_total"),
+                "provenance_updates": result.get("provenance_updates") or [],
             }
         except Exception as exc:
             previous = state["events"].get(key) or {}
