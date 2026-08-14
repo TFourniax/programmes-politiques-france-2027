@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import bundledWatchHealth from "../../../research/veille/health.json" with { type: "json" };
-import { getMeta } from "../../../lib/retrieval.js";
+import runtimeMeta from "../../../data/runtime-meta.json" with { type: "json" };
 import { retrievalFallbackStatus } from "../../../lib/retrieval-fallback.js";
 
 export const runtime = "nodejs";
@@ -29,7 +29,6 @@ async function readWatchHealth() {
 
 export async function GET() {
   try {
-    const meta = getMeta();
     const { health: watchHealth, source: watchSource } = await readWatchHealth();
     const fallback = retrievalFallbackStatus();
     return NextResponse.json({
@@ -38,9 +37,10 @@ export async function GET() {
       deployment: {
         commitRef: process.env.DEPLOY_COMMIT_REF || ""
       },
-      snapshotDate: meta.snapshotDate,
-      counts: meta.counts,
-      indexVersion: meta.indexVersion,
+      snapshotDate: runtimeMeta.snapshotDate,
+      counts: runtimeMeta.counts,
+      indexVersion: runtimeMeta.indexVersion,
+      builtAt: runtimeMeta.builtAt,
       chat: {
         engine: "deterministic-bm25-ontology-v4",
         responseGeneration: "deterministic_extractive",

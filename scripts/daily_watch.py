@@ -28,6 +28,9 @@ POLITICAL_HINTS = (
     "communiqué", "discours", "meeting", "retraite", "immigration", "budget",
     "ecologie", "écologie", "securite", "sécurité", "fiscal", "education",
     "éducation", "sante", "santé", "logement", "emploi", "europe",
+    "defense", "défense", "armee", "armée", "militaire", "otan", "diplomatie",
+    "international", "ukraine", "numerique", "numérique", "intelligence artificielle",
+    "cyber", "cybersecurite", "cybersécurité", "souverainete numerique", "souveraineté numérique",
 )
 
 
@@ -228,15 +231,51 @@ def collect_official_targets() -> list[dict[str, str]]:
     return sorted(targets.values(), key=lambda item: (item["owner"], item["url"]))
 
 
-def collect_candidate_entities() -> list[dict[str, str]]:
-    out = []
+def load_coverage_priorities() -> dict[str, dict[str, Any]]:
+    """Reuse the previous coverage report to steer discovery without extra API calls."""
+    path = ROOT / "research" / "veille" / "coverage.json"
+    compass_path = ROOT / "data" / "compass.json"
+    if not path.exists() or not compass_path.exists():
+        return {}
+    try:
+        report = json.loads(path.read_text(encoding="utf-8"))
+        compass = json.loads(compass_path.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError):
+        return {}
+    labels = {
+        str(row.get("id") or ""): str(row.get("label") or row.get("id") or "")
+        for row in compass.get("questions") or [] if isinstance(row, dict)
+    }
+    priorities = {}
+    for row in report.get("priority_gaps") or []:
+        if not isinstance(row, dict) or not row.get("id"):
+            continue
+        gaps = [str(item) for item in row.get("gaps") or [] if str(item)]
+        priorities[str(row["id"])] = {
+            "coverage_ratio": float(row.get("coverage_ratio") or 0),
+            "gaps": gaps,
+            "gap_labels": [labels.get(item, item) for item in gaps],
+        }
+    return priorities
+
+
+def collect_candidate_entities() -> list[dict[str, Any]]:
+    priorities = load_coverage_priorities()
+    out: list[dict[str, Any]] = []
     for candidate in load_yaml("registries/candidates.yaml").get("candidates", []):
         name = candidate.get("name")
         entity_id = candidate.get("id")
         status = candidate.get("current_status")
         if name and entity_id and status not in {"withdrawn", "not_running", "deceased"}:
-            out.append({"id": str(entity_id), "name": str(name), "status": str(status)})
-    return out
+            priority = priorities.get(str(entity_id), {})
+            out.append({
+                "id": str(entity_id),
+                "name": str(name),
+                "status": str(status),
+                "coverage_ratio": float(priority.get("coverage_ratio", 1.0)),
+                "coverage_gaps": list(priority.get("gap_labels") or []),
+            })
+    return sorted(out, key=lambda item: (item.get("coverage_ratio", 1.0), item["name"].casefold()))
 
 
 def event(event_type: str, **kwargs: Any) -> dict[str, Any]:
@@ -269,8 +308,6 @@ def monitor_sources(
 
         status = int(result["status"])
         if status >= 400:
-            # An HTTP error page is never political content. Preserve the last valid hash
-            # so recovery is compared against the real source, not a WAF/rate-limit page.
             current = dict(previous or {})
             current.update({
                 "status": status,
@@ -558,7 +595,7 @@ def title_relevant(title: str, entity_name: str) -> bool:
 def discover_gdelt(
     session: requests.Session,
     state: dict[str, Any],
-    entities: list[dict[str, str]],
+    entities: list[dict[str, Any]],
     config: dict[str, Any],
     errors: list[str],
 ) -> list[dict[str, Any]]:
@@ -630,7 +667,7 @@ def grounding_urls(payload: dict[str, Any]) -> list[dict[str, str]]:
 def discover_google_grounding(
     session: requests.Session,
     state: dict[str, Any],
-    entities: list[dict[str, str]],
+    entities: list[dict[str, Any]],
     config: dict[str, Any],
     errors: list[str],
     official_hosts: set[str],
@@ -649,6 +686,12 @@ def discover_google_grounding(
     events: list[dict[str, Any]] = []
 
     for entity in entities[:max_entities]:
+        gaps = [str(item) for item in entity.get("coverage_gaps") or [] if str(item)][:5]
+        focus = (
+            " Le corpus est actuellement moins couvert pour cette personnalité sur les thèmes suivants : "
+            + ", ".join(gaps)
+            + ". Donne la priorité à une nouveauté primaire substantielle sur ces angles si elle existe, sans en inventer."
+        ) if gaps else ""
         prompt = (
             "Recherche sur le web uniquement les nouveautés substantielles publiées au cours des "
             "36 dernières heures à propos de "
@@ -656,6 +699,7 @@ def discover_google_grounding(
             "Cherche les programmes, propositions, candidatures, retraits, alliances, communiqués "
             "et déclarations politiques substantielles. N'infère rien et privilégie les sources "
             "primaires. Réponds brièvement; les URLs de grounding seront exploitées séparément."
+            + focus
         )
         body = {
             "contents": [{"parts": [{"text": prompt}]}],
@@ -842,6 +886,13 @@ def main() -> None:
 
     print(f"Watched {len(targets)} official targets")
     print(f"Tracked {len(entities)} candidate entities")
+    if entities:
+        least_covered = entities[0]
+        print(
+            f"Coverage-aware priority: {least_covered['name']} "
+            f"({least_covered.get('coverage_ratio', 1.0):.0%}, "
+            f"{len(least_covered.get('coverage_gaps') or [])} gap(s))"
+        )
     print(f"Wrote {jsonl_path.relative_to(ROOT)} and {report_path.relative_to(ROOT)}")
     print(f"{len(unique_events)} new event(s), {len(errors)} warning(s)")
 

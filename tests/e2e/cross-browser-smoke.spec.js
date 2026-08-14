@@ -2,10 +2,11 @@ import { test, expect } from '@playwright/test';
 
 const SMOKE_PROJECTS = new Set(['firefox-smoke', 'webkit-smoke', 'mobile-webkit-smoke']);
 
-test('cross-browser chat smoke', async ({ page }, testInfo) => {
+test('cross-browser corpus search smoke', async ({ page }, testInfo) => {
   test.skip(!SMOKE_PROJECTS.has(testInfo.project.name));
-  await page.goto('/?mode=chat');
-  await expect(page.getByRole('heading', { name: 'Comprendre avant de choisir.' })).toBeVisible();
+  await page.goto('/?mode=chat#explorer');
+  await expect(page.getByRole('heading', { name: 'Les programmes politiques, vérifiables jusque dans la source.' })).toBeVisible();
+  await expect(page.getByRole('heading', { name: 'Recherche libre dans le corpus' })).toBeVisible();
   const textarea = page.getByRole('textbox', { name: 'Votre question' });
   await textarea.fill('Que propose le corpus sur les retraites ?');
   await textarea.press('Enter');
@@ -18,7 +19,7 @@ test('cross-browser chat smoke', async ({ page }, testInfo) => {
 
 test('cross-browser deep answer smoke', async ({ page }, testInfo) => {
   test.skip(!SMOKE_PROJECTS.has(testInfo.project.name));
-  await page.goto('/?mode=chat');
+  await page.goto('/?mode=chat#explorer');
   const textarea = page.getByRole('textbox', { name: 'Votre question' });
   await textarea.fill('Que propose le corpus sur les retraites ?');
   await textarea.press('Enter');

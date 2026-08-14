@@ -213,6 +213,13 @@ function expansionFor(depth, mode, evidence, debug, retrievalQuery, retrievalAss
   };
 }
 
+// A cheap GET loads the exact same serverless bundle and search index as POST.
+// The public landing can call it during browser idle time so a user's first real
+// question usually arrives on a warm function, without spending an LLM token.
+export async function GET() {
+  return NextResponse.json({ ok: true, engine: ENGINE, warmup: true });
+}
+
 export async function POST(request) {
   if (limited(request)) return NextResponse.json({error:"Trop de requêtes. Réessayez dans une minute."},{status:429});
   let payload;

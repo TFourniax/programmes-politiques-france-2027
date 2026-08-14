@@ -2,12 +2,15 @@ import { test, expect } from '@playwright/test';
 
 test('homepage exposes the seven neutral exploration modes', async ({ page }) => {
   await page.goto('/');
-  await expect(page.getByRole('heading', { name: 'Comprendre avant de choisir.' })).toBeVisible();
+  await expect(page.getByRole('heading', { name: 'Les programmes politiques, vérifiables jusque dans la source.' })).toBeVisible();
   await expect(page.getByRole('navigation', { name: "Modes d'exploration" })).toBeVisible();
-  for (const label of ['Questionner', 'Comparer', 'Candidats', 'Thèmes', 'Historique', 'Boussole', 'Quiz']) {
+  for (const label of ['Recherche', 'Comparer', 'Candidats', 'Thèmes', 'Historique', 'Boussole', 'Quiz']) {
     await expect(page.getByRole('button', { name: new RegExp(label) })).toBeVisible();
   }
-  await expect(page.getByText(/Une donnée absente du corpus n’est jamais interprétée comme une opposition/)).toBeVisible();
+  await expect(page.getByText(/Une case vide signifie « non encore documenté ici », jamais « position inexistante »/)).toBeVisible();
+  await expect(page.getByRole('link', { name: 'Candidats' }).first()).toHaveAttribute('href', '/candidats');
+  await expect(page.getByRole('link', { name: 'Thèmes' }).first()).toHaveAttribute('href', '/themes');
+  await expect(page.getByRole('link', { name: 'Données & méthode' }).first()).toHaveAttribute('href', '/donnees');
 });
 
 test('personality, comparison, topic, history and quiz views load from corpus APIs', async ({ page }) => {
@@ -72,7 +75,7 @@ test('dense public views remain inside a phone viewport', async ({ page }, testI
   await expect(page.locator('.timelineEvent').first()).toBeVisible();
   await expectNoHorizontalOverflow();
 
-  await page.getByRole('button', { name: /^Questionner/ }).click();
+  await page.getByRole('button', { name: /^Recherche/ }).click();
   const textarea = page.locator('textarea');
   await textarea.fill("Quelles propositions sont documentées sur le pouvoir d'achat et les salaires ?");
   await page.locator('button.send').click();

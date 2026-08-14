@@ -1,8 +1,13 @@
 import { NextResponse } from "next/server";
-import { getMeta } from "../../../lib/retrieval.js";
+import runtimeMeta from "../../../data/runtime-meta.json" with { type: "json" };
 
 export const dynamic = "force-static";
 
 export async function GET() {
-  return NextResponse.json(getMeta());
+  return NextResponse.json({
+    snapshotDate: runtimeMeta.snapshotDate,
+    counts: runtimeMeta.counts,
+    indexVersion: runtimeMeta.indexVersion,
+    builtAt: runtimeMeta.builtAt
+  });
 }

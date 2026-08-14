@@ -1,4 +1,5 @@
 from pathlib import Path
+import json
 import sys
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
@@ -6,10 +7,22 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 import auto_promote_canonical_runner as canonical_runner  # noqa: E402
 
 
+ROOT = Path(__file__).resolve().parents[1]
+
+
 def reset_trace():
     canonical_runner.TRACE["current_url"] = None
     canonical_runner.TRACE["sources"] = {}
     canonical_runner.TRACE["confirmed"] = {}
+
+
+def test_canonical_promotion_uses_public_topic_taxonomy():
+    compass = json.loads((ROOT / "data" / "compass.json").read_text(encoding="utf-8"))
+    expected = {row["id"] for row in compass["questions"]}
+    assert canonical_runner.public_topics() == expected
+    assert canonical_runner.auto_promote.TOPICS == expected
+    assert "defense-international" in expected
+    assert "numerique-ia" in expected
 
 
 def test_extraction_url_and_verification_items_are_strictly_parsed():

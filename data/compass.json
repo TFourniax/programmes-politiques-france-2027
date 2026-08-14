@@ -1,5 +1,5 @@
 {
-  "version": "1.0",
+  "version": "1.1",
   "title": "Boussole des enjeux",
   "description": "Un parcours neutre pour identifier les sujets qui comptent le plus dans votre choix, puis consulter les positions effectivement documentées dans le corpus.",
   "scale": [
@@ -50,6 +50,14 @@
       "exploreQuestion": "Compare les positions documentées sur l’Union européenne et la souveraineté."
     },
     {
+      "id": "defense-international",
+      "label": "Défense & international",
+      "description": "Armées, dissuasion, alliances, diplomatie, aide internationale et engagements militaires.",
+      "question": "À quel point la défense, les alliances et la politique internationale doivent-elles peser dans votre choix ?",
+      "query": "défense armées militaire dissuasion OTAN diplomatie Ukraine international alliances",
+      "exploreQuestion": "Compare les positions documentées sur la défense, les armées et la politique internationale."
+    },
+    {
       "id": "ecologie-energie",
       "label": "Écologie & énergie",
       "description": "Transition écologique, énergie, ressources et contraintes environnementales.",
@@ -85,9 +93,17 @@
       "id": "economie-finances",
       "label": "Économie & finances publiques",
       "description": "Croissance, dette, dépenses publiques, compétitivité et modèle économique.",
-      "question": "À quel point l’économie et les finances publiques doivent-elles peser dans votre choix ?",
+      "question": "À quel point l’économie et les finances publiques doivent-ils peser dans votre choix ?",
       "query": "économie dette dépenses publiques croissance compétitivité budget entreprises",
       "exploreQuestion": "Compare les positions documentées sur l’économie, la dette et les finances publiques."
+    },
+    {
+      "id": "numerique-ia",
+      "label": "Numérique & IA",
+      "description": "Intelligence artificielle, souveraineté numérique, données, plateformes, cybersécurité et innovation.",
+      "question": "À quel point le numérique, l’intelligence artificielle et la souveraineté technologique doivent-ils peser dans votre choix ?",
+      "query": "numérique intelligence artificielle IA données cybersécurité souveraineté numérique plateformes innovation",
+      "exploreQuestion": "Compare les positions documentées sur le numérique, l’intelligence artificielle et la cybersécurité."
     }
   ]
 }

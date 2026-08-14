@@ -25,10 +25,6 @@ CERTAINTIES = {
     "inferred_from_multiple_explicit_statements", "attributed_by_secondary_source", "uncertain"
 }
 RIGHTS = {"open_license", "public_domain", "permission_granted", "quotation_only", "link_only", "unknown", "restricted"}
-PROPOSAL_TOPICS = {
-    "pouvoir-achat-travail", "retraites", "fiscalite-redistribution", "immigration-integration", "europe-souverainete",
-    "ecologie-energie", "institutions-democratie", "services-publics", "securite-justice", "economie-finances"
-}
 PROPOSAL_STATUSES = {"current", "superseded", "amended", "withdrawn", "archived", "unknown"}
 TOPIC_SLUG = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
 PRIMARY_TIERS = {"tier_1_primary_official", "tier_2_primary_statement"}
@@ -38,11 +34,33 @@ MIN_DOCUMENTS = 20
 MIN_PROPOSALS = 25
 MAX_CANONICAL_SNAPSHOT_AGE_DAYS = 120
 MAX_WATCH_HEALTH_AGE_HOURS = 36
+REQUIRED_PUBLIC_TOPICS = {"defense-international", "numerique-ia"}
 OLD_ELECTION_RE = re.compile(
     r"(?:europeennes|européennes)[^0-9]{0,8}2024|(?:legislatives|législatives)[^0-9]{0,8}2024|"
     r"(?:presidentielle|présidentielle)[^0-9]{0,8}2022",
     re.I,
 )
+
+
+def load_public_topics() -> set[str]:
+    path = ROOT / "data" / "compass.json"
+    with path.open(encoding="utf-8") as handle:
+        data = json.load(handle)
+    rows = data.get("questions") or []
+    ids = [str(row.get("id") or "").strip() for row in rows if isinstance(row, dict)]
+    if not ids or any(not topic or not TOPIC_SLUG.fullmatch(topic) for topic in ids):
+        raise AssertionError("data/compass.json must expose valid topic ids")
+    if len(ids) != len(set(ids)):
+        raise AssertionError("Duplicate public topic ids in data/compass.json")
+    missing = REQUIRED_PUBLIC_TOPICS - set(ids)
+    if missing:
+        raise AssertionError(f"Required public topics missing from data/compass.json: {sorted(missing)}")
+    return set(ids)
+
+
+# The public compass is the single source of truth for canonical proposal topics.
+# This prevents the coverage layer, UI and validator from silently drifting apart.
+PROPOSAL_TOPICS = load_public_topics()
 
 
 def assert_url(value: str | None, label: str, required: bool = True) -> None:
@@ -315,7 +333,7 @@ def main() -> None:
     print(
         f"Production validation OK: canonical snapshot {data['snapshot_date']}, watch health fresh, "
         f"{len(candidate_ids)} personalities, {len(party_ids)} parties, "
-        f"{len(document_ids)} documents, {proposal_count} proposals"
+        f"{len(document_ids)} documents, {proposal_count} proposals across {len(PROPOSAL_TOPICS)} public topics"
     )
 
 

@@ -1,4 +1,5 @@
 from pathlib import Path
+import json
 import sys
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
@@ -7,6 +8,8 @@ import daily_watch as dw  # noqa: E402
 from daily_watch import (  # noqa: E402
     canonicalize_url,
     domain_matches,
+    is_relevant_official_url,
+    load_coverage_priorities,
     monitor_sources,
     normalize_html,
     parse_feed,
@@ -54,7 +57,38 @@ def test_trusted_press_uses_allowlist():
 def test_title_relevance_accepts_entity_or_political_keyword():
     assert title_relevant("Gabriel Attal présente ses priorités", "Gabriel Attal")
     assert title_relevant("Présidentielle 2027 : les dernières annonces", "Gabriel Attal")
+    assert title_relevant("Défense : renforcer l'armée et la dissuasion", "Gabriel Attal")
+    assert title_relevant("Intelligence artificielle et souveraineté numérique", "Gabriel Attal")
     assert not title_relevant("Résultats du championnat de football", "Gabriel Attal")
+
+
+def test_official_discovery_recognizes_defense_and_digital_policy_urls():
+    assert is_relevant_official_url("https://parti.fr/programme/defense-armee-otan")
+    assert is_relevant_official_url("https://parti.fr/propositions/intelligence-artificielle-cybersecurite")
+    assert is_relevant_official_url("https://parti.fr/actualites", "Souveraineté numérique et IA")
+    assert not is_relevant_official_url("https://parti.fr/boutique/t-shirt")
+
+
+def test_coverage_priorities_reuse_previous_report_without_network(monkeypatch, tmp_path: Path):
+    (tmp_path / "research" / "veille").mkdir(parents=True)
+    (tmp_path / "data").mkdir()
+    (tmp_path / "data" / "compass.json").write_text(json.dumps({
+        "questions": [
+            {"id": "defense-international", "label": "Défense & international"},
+            {"id": "numerique-ia", "label": "Numérique & IA"},
+        ]
+    }), encoding="utf-8")
+    (tmp_path / "research" / "veille" / "coverage.json").write_text(json.dumps({
+        "priority_gaps": [{
+            "id": "alice",
+            "coverage_ratio": 0.25,
+            "gaps": ["defense-international", "numerique-ia"],
+        }]
+    }), encoding="utf-8")
+    monkeypatch.setattr(dw, "ROOT", tmp_path)
+    priorities = load_coverage_priorities()
+    assert priorities["alice"]["coverage_ratio"] == 0.25
+    assert priorities["alice"]["gap_labels"] == ["Défense & international", "Numérique & IA"]
 
 
 def test_http_error_page_is_never_hashed_as_political_change(monkeypatch):

@@ -8,10 +8,10 @@ function durationSeconds(value) {
 }
 
 test('document structure and keyboard path expose a usable accessibility baseline', async ({ page }) => {
-  await page.goto('/?mode=chat');
+  await page.goto('/?mode=chat#explorer');
 
   await expect(page.locator('html')).toHaveAttribute('lang', 'fr');
-  await expect(page.getByRole('heading', { name: 'Questionner le corpus' })).toBeVisible();
+  await expect(page.getByRole('heading', { name: 'Recherche libre dans le corpus' })).toBeVisible();
 
   const duplicateIds = await page.evaluate(() => {
     const ids = [...document.querySelectorAll('[id]')].map((node) => node.id).filter(Boolean);
@@ -43,7 +43,7 @@ test('document structure and keyboard path expose a usable accessibility baselin
 
 test('reduced-motion preference disables non-essential animation and smooth scrolling', async ({ page }) => {
   await page.emulateMedia({ reducedMotion: 'reduce' });
-  await page.goto('/?mode=chat');
+  await page.goto('/?mode=chat#explorer');
   const values = await page.evaluate(() => {
     const node = document.querySelector('.modeSwitcherWide button');
     const style = getComputedStyle(node);
@@ -60,7 +60,7 @@ test('reduced-motion preference disables non-essential animation and smooth scro
 
 test('critical mobile controls meet a 44px comfort target', async ({ page }, testInfo) => {
   test.skip(!testInfo.project.name.includes('mobile'));
-  await page.goto('/?mode=chat');
+  await page.goto('/?mode=chat#explorer');
 
   const selectors = [
     page.getByRole('button', { name: 'Envoyer la question' }),
