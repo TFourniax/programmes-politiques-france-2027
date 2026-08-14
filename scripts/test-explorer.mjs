@@ -1,9 +1,17 @@
 import assert from "node:assert/strict";
+import compass from "../data/compass.json" with { type: "json" };
 import { buildCandidateProfile, buildComparison, buildQuiz, buildTopicExplorer, getExplorerMeta } from "../lib/explorer.js";
 
 const meta = getExplorerMeta();
 assert.ok(meta.candidates.length >= 2, "Explorer needs at least two candidate records");
-assert.equal(meta.topics.length, 10, "Explorer must expose the 10 canonical questionnaire topics");
+const canonicalTopicIds = (compass.questions || []).map((topic) => topic.id);
+assert.deepEqual(
+  meta.topics.map((topic) => topic.id),
+  canonicalTopicIds,
+  "Explorer must expose exactly the public topic taxonomy"
+);
+assert.ok(canonicalTopicIds.includes("defense-international"), "Explorer must expose defense/international");
+assert.ok(canonicalTopicIds.includes("numerique-ia"), "Explorer must expose digital/AI");
 
 const selectable = meta.candidates.filter((candidate) => candidate.selectable);
 assert.ok(selectable.length >= 2, "Explorer needs at least two selectable personalities");
