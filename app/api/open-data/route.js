@@ -16,7 +16,19 @@ export async function GET() {
     generatedIndexAt: runtimeMeta.builtAt,
     counts: runtimeMeta.counts,
     canonicalRepository: "https://github.com/TFourniax/programmes-politiques-france-2027",
-    canonicalData: ["data/entities.json", "corpus/2027/**/*.md", "proposals/**/*.md", "data/compass.json"],
+    sourceOfTruth: "versioned_markdown_yaml",
+    canonicalData: [
+      "registries/candidates.yaml",
+      "registries/documents.yaml",
+      "corpus/2027/**/*.md",
+      "proposals/**/*.md"
+    ],
+    discoveryViews: [
+      "data/entities.json",
+      "data/compass.json",
+      "generated/catalog.jsonl",
+      `${siteUrl}/api/open-data`
+    ],
     methodology: {
       sourcePriority: "primary_first",
       answerGeneration: "deterministic_extractive",
