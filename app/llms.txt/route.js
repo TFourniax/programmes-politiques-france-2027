@@ -1,0 +1,12 @@
+import entities from "../../data/entities.json" with { type: "json" };
+import compass from "../../data/compass.json" with { type: "json" };
+import runtimeMeta from "../../data/runtime-meta.json" with { type: "json" };
+
+export const dynamic = "force-static";
+
+export async function GET() {
+  const siteUrl = (process.env.NEXT_PUBLIC_SITE_URL || "https://politique2027.netlify.app").replace(/\/$/, "");
+  const topics = (compass.questions || []).map(topic => `- ${topic.label}: ${siteUrl}/themes/${topic.id}`).join("\n");
+  const text = `# France 2027 — Observatoire des programmes\n\nCorpus public, sourcé et versionné sur les candidatures, programmes, propositions et positions documentées pour l'élection présidentielle française de 2027.\n\nSnapshot canonique: ${entities.snapshot_date}\nPropositions atomiques: ${runtimeMeta.counts?.proposals ?? "inconnu"}\nDocuments politiques: ${runtimeMeta.counts?.documents ?? "inconnu"}\n\n## Source canonique\n\nhttps://github.com/TFourniax/programmes-politiques-france-2027\n\nLes fichiers canoniques sont:\n- data/entities.json\n- corpus/2027/**/*.md\n- proposals/**/*.md\n- data/compass.json\n\nLe JSON de découverte public est disponible sur ${siteUrl}/api/open-data .\nLa couverture et la fraîcheur sont visibles sur ${siteUrl}/donnees .\n\n## Règles impératives d'interprétation\n\n- Une absence d'information dans le corpus ne prouve jamais une absence de position politique.\n- Le programme d'un parti n'est pas attribué automatiquement à une personnalité sans source directe.\n- Les statuts de candidature sont distincts: suivi, exploratoire, déclaré, désigné, primaire, conditionnel et candidat officiel.\n- Les versions remplacées, retirées ou archivées ne doivent pas être présentées comme des positions actuelles.\n- Les niveaux de confiance qualifient la preuve, jamais les chances électorales.\n- Les réponses politiques publiques du site sont extractives et fondées sur le corpus; un modèle éventuel n'est utilisé que pour comprendre une formulation de recherche avant revalidation déterministe.\n\n## Pages thématiques\n\n${topics}\n\n## Navigation\n\n- Candidats: ${siteUrl}/candidats\n- Thèmes: ${siteUrl}/themes\n- Données et méthode: ${siteUrl}/donnees\n- Sitemap: ${siteUrl}/sitemap.xml\n- Santé de la veille: ${siteUrl}/api/health\n`;
+  return new Response(text, { headers: { "content-type": "text/plain; charset=utf-8", "cache-control": "public, max-age=300, s-maxage=3600" } });
+}
