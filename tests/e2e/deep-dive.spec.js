@@ -9,31 +9,46 @@ async function askRetirementQuestion(page) {
   await expect(page.getByText('Réponse du corpus', { exact: true })).toBeVisible();
 }
 
-test('a substantive corpus answer can expand and collapse without creating a second chat message', async ({ page }) => {
+test('deep dive belongs to each card and expands independently inside that card', async ({ page }) => {
   await askRetirementQuestion(page);
   const message = page.locator('.message.structuredMessage').first();
-  const compactBullets = await message.locator('.answerBullets li').count();
-  const deepen = message.getByRole('button', { name: /Approfondir/ });
-  await expect(deepen).toBeVisible();
-  await expect(message.getByText(/Afficher davantage de détails vérifiés du corpus/)).toBeVisible();
+  const cardButtons = message.locator('.answerCard .deepDiveControl button');
+  await expect(cardButtons.first()).toBeVisible();
+  expect(await cardButtons.count()).toBeGreaterThan(0);
+  await expect(message.locator(':scope > .deepDiveControl')).toHaveCount(0);
 
-  await deepen.click();
-  await expect(message.getByText('Réponse approfondie du corpus', { exact: true })).toBeVisible();
-  await expect(message.getByRole('button', { name: /Réduire/ })).toBeVisible();
+  const firstCard = message.locator('.answerCard').filter({ has: page.getByRole('button', { name: /Approfondir/ }) }).first();
+  const compactBullets = await firstCard.locator('.answerBullets li').count();
+  await expect(firstCard.getByRole('button', { name: /Approfondir/ })).toBeVisible();
+  await expect(firstCard.getByText(/Afficher davantage de détails vérifiés pour cette card/)).toBeVisible();
+
+  await firstCard.getByRole('button', { name: /Approfondir/ }).click();
+  await expect(firstCard.getByRole('button', { name: /Réduire/ })).toBeVisible();
+  await expect(firstCard.locator('.answerCardDeepDetails')).toBeVisible();
+  await expect(message.getByText('Réponse du corpus', { exact: true })).toBeVisible();
+  await expect(message.getByText('Réponse approfondie du corpus', { exact: true })).toHaveCount(0);
   await expect(page.locator('.message.structuredMessage')).toHaveCount(1);
-  const deepBullets = await message.locator('.answerBullets li').count();
+  const deepBullets = await firstCard.locator('.answerBullets li').count();
   expect(deepBullets).toBeGreaterThanOrEqual(compactBullets);
 
-  await message.getByRole('button', { name: /Réduire/ }).click();
-  await expect(message.getByText('Réponse du corpus', { exact: true })).toBeVisible();
-  await expect(message.getByRole('button', { name: /Approfondir/ })).toBeVisible();
+  const expandableCards = message.locator('.answerCard').filter({ has: page.locator('.deepDiveControl button') });
+  if (await expandableCards.count() > 1) {
+    const secondCard = expandableCards.nth(1);
+    await expect(secondCard.getByRole('button', { name: /Approfondir/ })).toBeVisible();
+    await expect(secondCard.locator('.answerCardDeepDetails')).toHaveCount(0);
+  }
+
+  await firstCard.getByRole('button', { name: /Réduire/ }).click();
+  await expect(firstCard.locator('.answerCardDeepDetails')).toHaveCount(0);
+  await expect(firstCard.getByRole('button', { name: /Approfondir/ })).toBeVisible();
 });
 
-test('deep answer stays inside the viewport on mobile and desktop', async ({ page }) => {
+test('an expanded card stays inside the viewport on mobile and desktop', async ({ page }) => {
   await askRetirementQuestion(page);
   const message = page.locator('.message.structuredMessage').first();
-  await message.getByRole('button', { name: /Approfondir/ }).click();
-  await expect(message.getByText('Réponse approfondie du corpus', { exact: true })).toBeVisible();
+  const firstCard = message.locator('.answerCard').filter({ has: page.getByRole('button', { name: /Approfondir/ }) }).first();
+  await firstCard.getByRole('button', { name: /Approfondir/ }).click();
+  await expect(firstCard.locator('.answerCardDeepDetails')).toBeVisible();
 
   const dimensions = await page.evaluate(() => ({
     viewport: window.innerWidth,
