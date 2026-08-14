@@ -32,7 +32,8 @@ function DatasetJsonLd({ meta }) {
     temporalCoverage: "2026/2027",
     isAccessibleForFree: true,
     dateModified: meta.snapshotDate || undefined,
-    license: "https://creativecommons.org/licenses/by/4.0/",
+    license: "https://github.com/TFourniax/programmes-politiques-france-2027/blob/main/RIGHTS_AND_LICENSES.md",
+    measurementTechnique: "Corpus versionné, sources primaires privilégiées, propositions atomiques et retrieval déterministe",
     distribution: [{
       "@type": "DataDownload",
       encodingFormat: "text/markdown",
