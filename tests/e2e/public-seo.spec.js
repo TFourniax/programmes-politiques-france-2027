@@ -3,7 +3,8 @@ import { test, expect } from '@playwright/test';
 test('editorial landing and indexable corpus routes expose discoverable public data', async ({ page, request }) => {
   await page.goto('/');
   await expect(page.getByRole('heading', { name: 'Les programmes politiques, vérifiables jusque dans la source.' })).toBeVisible();
-  await expect(page.locator('link[rel="canonical"]')).toHaveAttribute('href', /\/$/);
+  const homeCanonical = await page.locator('link[rel="canonical"]').getAttribute('href');
+  expect(new URL(homeCanonical).pathname).toBe('/');
   await expect(page.locator('script[type="application/ld+json"]')).toContainText('Dataset');
 
   const manifestResponse = await request.get('/api/open-data');
@@ -20,13 +21,15 @@ test('editorial landing and indexable corpus routes expose discoverable public d
   const candidate = manifest.activeCandidates[0];
   await page.goto(`/candidats/${candidate.id}`);
   await expect(page.getByRole('heading', { level: 1 })).toContainText(candidate.name);
-  await expect(page.locator('link[rel="canonical"]')).toHaveAttribute('href', new RegExp(`/candidats/${candidate.id}$`));
+  const candidateCanonical = await page.locator('link[rel="canonical"]').getAttribute('href');
+  expect(new URL(candidateCanonical).pathname).toBe(`/candidats/${candidate.id}`);
   await expect(page.getByText(/sources directes séparées du parti/i)).toBeVisible();
 
   const topic = manifest.topics.find((item) => item.id === 'numerique-ia');
   await page.goto(`/themes/${topic.id}`);
   await expect(page.getByRole('heading', { level: 1 })).toContainText(topic.label);
-  await expect(page.locator('link[rel="canonical"]')).toHaveAttribute('href', new RegExp(`/themes/${topic.id}$`));
+  const topicCanonical = await page.locator('link[rel="canonical"]').getAttribute('href');
+  expect(new URL(topicCanonical).pathname).toBe(`/themes/${topic.id}`);
   await expect(page.getByText(/Une absence de source directe dans ce corpus ne démontre jamais/i)).toBeVisible();
 
   await page.goto('/donnees');
