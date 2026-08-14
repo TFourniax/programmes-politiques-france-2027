@@ -3,10 +3,11 @@
 import { useEffect, useMemo, useState } from "react";
 import { CandidateIdentity, CoverageBadge, ExplorerError, ExplorerIntro, ExplorerLoading, copyCurrentUrl, fetchExplorer, readSearchParams, writeSearchParams } from "./ExplorerShared.js";
 
-function MiniEvidence({ items = [], party = false }) {
+function MiniEvidence({ items = [], party = false, attributed = false }) {
   if (!items.length) return null;
-  return <div className={`miniEvidence ${party ? "partyMiniEvidence" : ""}`}>
-    {party && <span className="partyMiniLabel">Contexte du parti — non attribué automatiquement</span>}
+  return <div className={`miniEvidence ${party || attributed ? "partyMiniEvidence" : ""}`}>
+    {party && <span className="partyMiniLabel">Contexte du parti — non attribuable</span>}
+    {attributed && <span className="partyMiniLabel">Programme du parti — attribué au candidat officiellement désigné</span>}
     {items.slice(0, 2).map((item) => <div key={`${item.id}-${item.path}`}>
       <strong>{item.title}</strong>
       <p>{item.excerpt}</p>
@@ -80,7 +81,7 @@ export default function ComparisonExplorer({ onExplore }) {
     <ExplorerIntro
       eyebrow="Comparateur avancé"
       title="Comparer les positions réellement documentées"
-      description="Choisissez 2 à 4 personnalités et jusqu’à 6 thèmes. Chaque case distingue les sources directement rattachées au candidat du contexte de son parti. Une absence de source ne vaut jamais opposition."
+      description="Choisissez 2 à 4 personnalités et jusqu’à 6 thèmes. Chaque case distingue une source personnelle, un programme de parti attribuable au candidat officiellement désigné, le simple contexte partisan et l'absence de donnée."
       aside={<div className="shareBox"><strong>Comparaison partageable</strong><span>La sélection est encodée dans l’URL, sans compte utilisateur ni profil politique enregistré.</span><button onClick={share}>{copied ? "Lien copié ✓" : "Copier le lien"}</button></div>}
     />
 
@@ -95,17 +96,17 @@ export default function ComparisonExplorer({ onExplore }) {
     {canCompare && loading && !comparison && <ExplorerLoading label="Construction de la comparaison…" />}
 
     {comparison && <div className="comparisonResults">
-      <div className="comparisonToolbar"><div><strong>{comparison.rows.length} personnalités · {comparison.topics.length} thèmes</strong><span>Instantané {comparison.snapshotDate}</span></div><button onClick={() => onExplore?.(`Compare uniquement ${selectedNames.join(", ")} sur les thèmes suivants : ${selectedTopicLabels.join(", ")}. Distingue clairement les convergences, les divergences documentées et les informations manquantes, avec les sources du corpus.`)}>Analyser les divergences dans le chat ↗</button></div>
+      <div className="comparisonToolbar"><div><strong>{comparison.rows.length} personnalités · {comparison.topics.length} thèmes</strong><span>Instantané {comparison.snapshotDate}</span></div><button onClick={() => onExplore?.(`Compare uniquement ${selectedNames.join(", ")} sur les thèmes suivants : ${selectedTopicLabels.join(", ")}. Distingue clairement les sources personnelles, les programmes de parti officiellement attribuables, les divergences documentées et les informations manquantes, avec les sources du corpus.`)}>Analyser les divergences dans le chat ↗</button></div>
 
       <section className="comparisonSignals">
         <div className="explorerSectionTitle compactTitle"><div><span className="answerEyebrow">Lecture rapide</span><h4>Où la comparaison est solide — et où elle ne l’est pas</h4></div></div>
-        <div className="signalGrid">{comparison.signals.map((signal) => <article key={signal.topicId}><strong>{signal.topicLabel}</strong>{signal.direct.length > 0 && <p><b>Sources directes :</b> {signal.direct.join(", ")}</p>}{signal.partyOnly.length > 0 && <p><b>Parti seulement :</b> {signal.partyOnly.join(", ")}</p>}{signal.missing.length > 0 && <p><b>Non documenté :</b> {signal.missing.join(", ")}</p>}{signal.completeForSelection && <span className="signalComplete">couverture directe pour toute la sélection</span>}</article>)}</div>
+        <div className="signalGrid">{comparison.signals.map((signal) => <article key={signal.topicId}><strong>{signal.topicLabel}</strong>{signal.direct.length > 0 && <p><b>Sources personnelles :</b> {signal.direct.join(", ")}</p>}{signal.attributed?.length > 0 && <p><b>Programme du parti officiellement attribué :</b> {signal.attributed.join(", ")}</p>}{signal.partyOnly.length > 0 && <p><b>Parti seulement :</b> {signal.partyOnly.join(", ")}</p>}{signal.missing.length > 0 && <p><b>Non documenté :</b> {signal.missing.join(", ")}</p>}{signal.completeForSelection && <span className="signalComplete">couverture attribuable pour toute la sélection</span>}</article>)}</div>
       </section>
 
       <div className="comparisonTableWrap">
         <table className="comparisonTable">
           <thead><tr><th>Personnalité</th>{comparison.topics.map((topic) => <th key={topic.id}><strong>{topic.label}</strong><small>{topic.description}</small></th>)}</tr></thead>
-          <tbody>{comparison.rows.map((row) => <tr key={row.candidate.id}><th><CandidateIdentity candidate={row.candidate} compact /><span className="candidateStatusLine">{row.candidate.statusLabel}</span></th>{row.cells.map((cell) => <td key={cell.topicId}><CoverageBadge level={cell.level} compact />{cell.note && <p className="cellNote">{cell.note}</p>}<MiniEvidence items={cell.directEvidence} />{cell.partyContext.length > 0 && <MiniEvidence items={cell.partyContext} party />}</td>)}</tr>)}</tbody>
+          <tbody>{comparison.rows.map((row) => <tr key={row.candidate.id}><th><CandidateIdentity candidate={row.candidate} compact /><span className="candidateStatusLine">{row.candidate.statusLabel}</span></th>{row.cells.map((cell) => <td key={cell.topicId}><CoverageBadge level={cell.level} compact />{cell.note && <p className="cellNote">{cell.note}</p>}<MiniEvidence items={cell.directEvidence} />{cell.attributedPartyEvidence?.length > 0 ? <MiniEvidence items={cell.attributedPartyEvidence} attributed /> : cell.partyContext.length > 0 && <MiniEvidence items={cell.partyContext} party />}</td>)}</tr>)}</tbody>
         </table>
       </div>
       <div className="answerNote">{comparison.neutralityNote}</div>
