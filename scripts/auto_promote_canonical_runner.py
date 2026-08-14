@@ -13,6 +13,25 @@ from common import ROOT, parse_markdown
 from monitored_source_backlog import load_monitored_source_backlog
 
 
+def public_topics() -> set[str]:
+    """Load the same public topic taxonomy used by the UI and canonical validator."""
+    path = ROOT / "data" / "compass.json"
+    data = json.loads(path.read_text(encoding="utf-8"))
+    topics = {
+        str(row.get("id") or "").strip()
+        for row in data.get("questions") or []
+        if isinstance(row, dict) and str(row.get("id") or "").strip()
+    }
+    required = {"defense-international", "numerique-ia"}
+    if not topics or not required.issubset(topics):
+        raise RuntimeError(f"Incomplete public topic taxonomy for canonical promotion: {sorted(topics)}")
+    return topics
+
+
+# auto_promote historically carried its own static list. Override it at import time so
+# official-web and social promotion cannot drift from the validator/public compass.
+auto_promote.TOPICS = public_topics()
+
 ORIGINAL_STRICT_GEMINI = runner.strict_gemini
 ORIGINAL_SAFE_FETCH = runner.safe_fetch_source
 ORIGINAL_DURABLE_LOAD_EVENTS = runner.durable_load_events
@@ -262,6 +281,8 @@ def canonical_promote(event, session, api_key, config, state, entities, candidat
 
 
 def install() -> None:
+    # Re-read in case tests or a long-running worker changed the compass after import.
+    auto_promote.TOPICS = public_topics()
     runner.strict_gemini = traced_gemini
     runner.safe_fetch_source = traced_fetch_source
     runner.durable_load_events = canonical_durable_load_events
