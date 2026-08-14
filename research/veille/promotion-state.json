@@ -250,6 +250,11 @@
       "source_url": "https://www.unenouvelleenergie.fr/notre-programme/",
       "verified_at": "2026-08-12T14:41:17+00:00"
     },
+    "4ea1c22d52eae5284bda1e387a5178acb54c8520f6cb85cf5e07af1d2cd95008": {
+      "proposal_id": "auto-solution-democratique-institutions-democratie-4ea1c22d52ea",
+      "source_url": "https://solutiondemocratique.fr/segolene-royal-programme-presidentielle2027/",
+      "verified_at": "2026-08-14T08:22:52+00:00"
+    },
     "5049046a19dcb06b016569b6341e0c00a991030bb3708eeefba2c22bfb3ec00d": {
       "proposal_id": "auto-la-france-insoumise-ecologie-energie-5049046a19dc",
       "source_url": "https://melenchon2027.fr/programme2025/livre/chapitre12/",
@@ -740,6 +745,11 @@
       "source_url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/",
       "verified_at": "2026-08-11T12:47:28+00:00"
     },
+    "ef5123784babff934c91908dc0f5889252be01ec82ba5aeb7e58624b34000ac3": {
+      "proposal_id": "auto-clara-egger-institutions-democratie-ef5123784bab",
+      "source_url": "https://solutiondemocratique.fr/jean-lassalle-programme-presidentielle2027/",
+      "verified_at": "2026-08-14T08:23:14+00:00"
+    },
     "ef5aae205f53a1d98af9cb8dfca774bda82d5e520123fca9e797a6883d874c5e": {
       "proposal_id": "auto-la-france-insoumise-ecologie-energie-ef5aae205f53",
       "source_url": "https://melenchon2027.fr/programme2025/livre/chapitre18/",
@@ -806,9 +816,9 @@
       "verified_at": "2026-08-13T08:51:16+00:00"
     }
   },
-  "last_error_count": 2,
-  "last_processed_count": 1,
-  "last_run_at": "2026-08-14T03:40:42+00:00",
+  "last_error_count": 0,
+  "last_processed_count": 3,
+  "last_run_at": "2026-08-14T08:23:19+00:00",
   "source_chunks": {
     "049ef2342af4f07d32e93984": {
       "claims": [],
@@ -1252,16 +1262,64 @@
       "url": "https://trajectoire2027.fr/programme.html"
     },
     "2490d151b5b8404ab0938f60": {
-      "claims": [],
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "solution-democratique",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Solution Démocratique souhaite instaurer en France la démocratie directe et la décentralisation par le bas.",
+            "relevance": "direct",
+            "statement": "Solution Démocratique souhaite instaurer la démocratie directe et la décentralisation par le bas en France.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La source indique explicitement que 'Solution Démocratique souhaite instaurer en France la démocratie directe et la décentralisation par le bas', ce qui correspond exactement au claim.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [
+        {
+          "claim": {
+            "actor_id": "solution-democratique",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Solution Démocratique souhaite instaurer en France la démocratie directe et la décentralisation par le bas.",
+            "relevance": "direct",
+            "statement": "Solution Démocratique souhaite instaurer la démocratie directe et la décentralisation par le bas en France.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La source indique explicitement que 'Solution Démocratique souhaite instaurer en France la démocratie directe et la décentralisation par le bas', ce qui correspond exactement au claim.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "completed_at": "2026-08-14T08:22:52+00:00",
       "created_at": "2026-08-13T20:10:15+00:00",
-      "document_types": [],
-      "done": [],
-      "published_candidates": [],
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-04-05"
+      ],
       "sha256": "0b013c630f2281528d927d3c6ac7bbed832efeb82d7536d7e0ad37cee3b09409",
       "source_title": "Ségolène Royal 2027 : analyse de son programme et engagement réel pour la démocratie directe - Solution Démocratique - Parti politique pour instaurer la démocratie directe",
       "statuses": [],
       "text_truncated": false,
       "total": 1,
+      "updated_at": "2026-08-14T08:22:52+00:00",
       "url": "https://solutiondemocratique.fr/segolene-royal-programme-presidentielle2027/"
     },
     "2808a96b91bf539120f54a6c": {
@@ -3689,16 +3747,82 @@
       "url": "https://www.unenouvelleenergie.fr/notre-programme/"
     },
     "85f2f02fc238f84d5e2fa59e": {
-      "claims": [],
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "solution-democratique",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "instaurer en France la démocratie directe et la décentralisation par le bas",
+            "relevance": "direct",
+            "statement": "Solution Démocratique souhaite instaurer en France la démocratie directe et la décentralisation par le bas.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Le claim sur Solution Démocratique est déjà présent de manière identique dans le canonique.",
+            "related_proposal_id": "auto-solution-democratique-institutions-democratie-4ea1c22d52ea",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "clara-egger",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "visant à faire évoluer les règles du jeu démocratique",
+            "relevance": "direct",
+            "statement": "Clara Egger porte une candidature visant à faire évoluer les règles du jeu démocratique et à redonner au président de la République un rôle d'arbitre.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La candidature de Clara Egger pour 2027 et ses objectifs sont explicitement soutenus par la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [
+        {
+          "claim": {
+            "actor_id": "clara-egger",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "visant à faire évoluer les règles du jeu démocratique",
+            "relevance": "direct",
+            "statement": "Clara Egger porte une candidature visant à faire évoluer les règles du jeu démocratique et à redonner au président de la République un rôle d'arbitre.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La candidature de Clara Egger pour 2027 et ses objectifs sont explicitement soutenus par la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "completed_at": "2026-08-14T08:23:18+00:00",
       "created_at": "2026-08-13T20:10:33+00:00",
-      "document_types": [],
-      "done": [],
-      "published_candidates": [],
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-05-03"
+      ],
       "sha256": "689874aee6e56ea9aa4502364cf191c20b803ea320fcef3db7e477f412daa0bb",
       "source_title": "Jean Lassalle 2027 : analyse de son engagement démocrate",
       "statuses": [],
       "text_truncated": false,
       "total": 1,
+      "updated_at": "2026-08-14T08:23:14+00:00",
       "url": "https://solutiondemocratique.fr/jean-lassalle-programme-presidentielle2027/"
     },
     "9ae9913ab888f4c0fb5bba9e": {
@@ -4526,16 +4650,45 @@
       "url": "https://melenchon2027.fr/programme2025/livre/chapitre16/"
     },
     "cc02fece8ef19549696802b4": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "solution-democratique",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Solution Démocratique souhaite instaurer en France la démocratie directe et la décentralisation par le bas.",
+            "relevance": "direct",
+            "statement": "Solution Démocratique souhaite instaurer en France la démocratie directe et la décentralisation par le bas.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La proposition est explicitement présente dans la source et identique au canonique existant.",
+            "related_proposal_id": "auto-solution-democratique-institutions-democratie-4ea1c22d52ea",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
       "claims": [],
+      "completed_at": "2026-08-14T08:23:03+00:00",
       "created_at": "2026-08-13T20:10:24+00:00",
-      "document_types": [],
-      "done": [],
-      "published_candidates": [],
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-05-03"
+      ],
       "sha256": "1841b8fd670f23d8045bd9619c332a46ba1aa9a12785e4fc938ebb64d3dac6e6",
       "source_title": "Bernard Cazeneuve 2027 : : analyse de son programme et engagement réel pour la démocratie - Solution Démocratique - Parti politique pour instaurer la démocratie directe",
       "statuses": [],
       "text_truncated": false,
       "total": 1,
+      "updated_at": "2026-08-14T08:23:01+00:00",
       "url": "https://solutiondemocratique.fr/bernard-cazeneuve-programme-presidentielle2027/"
     },
     "cc9d053268933224fe785d36": {
@@ -5894,11 +6047,12 @@
       "url": "https://melenchon2027.fr/programme2025/livre/chapitre11/"
     },
     "276ee2c70b77": {
-      "attempts": 1,
-      "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 28.805530145s.",
-      "next_retry_at": "2026-08-14T02:10:31+00:00",
-      "processed_at": "2026-08-13T20:10:31+00:00",
-      "status": "technical_error",
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-14T08:23:03+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "1841b8fd670f23d8045bd9619c332a46ba1aa9a12785e4fc938ebb64d3dac6e6",
+      "status": "promoted",
       "url": "https://solutiondemocratique.fr/bernard-cazeneuve-programme-presidentielle2027/"
     },
     "2ab4cba473c5": {
@@ -6066,19 +6220,21 @@
       "url": "https://www.unenouvelleenergie.fr/notre-programme/"
     },
     "75b9e60cfecd": {
-      "attempts": 1,
-      "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 19.677058763s.",
-      "next_retry_at": "2026-08-14T02:10:40+00:00",
-      "processed_at": "2026-08-13T20:10:40+00:00",
-      "status": "technical_error",
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-08-14T08:23:18+00:00",
+      "reason": null,
+      "source_sha256": "689874aee6e56ea9aa4502364cf191c20b803ea320fcef3db7e477f412daa0bb",
+      "status": "promoted",
       "url": "https://solutiondemocratique.fr/jean-lassalle-programme-presidentielle2027/"
     },
     "7a7d3a342bb5": {
-      "attempts": 1,
-      "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 38.012191232s.",
-      "next_retry_at": "2026-08-14T02:10:22+00:00",
-      "processed_at": "2026-08-13T20:10:22+00:00",
-      "status": "technical_error",
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-08-14T08:22:55+00:00",
+      "reason": null,
+      "source_sha256": "0b013c630f2281528d927d3c6ac7bbed832efeb82d7536d7e0ad37cee3b09409",
+      "status": "promoted",
       "url": "https://solutiondemocratique.fr/segolene-royal-programme-presidentielle2027/"
     },
     "7d900f388017": {
