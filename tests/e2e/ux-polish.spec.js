@@ -56,7 +56,7 @@ test('mode navigation is reversible with browser history while filters stay ligh
   await expect(page.getByText('Historique des positions')).toBeVisible();
   await page.goForward();
   await expect(page).toHaveURL(/mode=chat/);
-  await expect(page.getByText('Recherche libre dans le corpus')).toBeVisible();
+  await expect(page.getByRole('heading', { name: 'Recherche libre dans le corpus' })).toBeVisible();
 });
 
 test('a contextual suggestion behaves like a real next user question', async ({ page }) => {
