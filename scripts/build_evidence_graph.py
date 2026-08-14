@@ -4,14 +4,21 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+from datetime import date, datetime
 from pathlib import Path
 from typing import Any
 
-from common import ROOT, markdown_files, parse_markdown
+from common import ROOT, parse_markdown
 
 
 def _hash(path: Path) -> str:
     return hashlib.sha256(path.read_bytes()).hexdigest()
+
+
+def _json_value(value: Any) -> Any:
+    if isinstance(value, (date, datetime)):
+        return value.isoformat()
+    return value
 
 
 def _list(value: Any) -> list[str]:
@@ -22,6 +29,13 @@ def _list(value: Any) -> list[str]:
     if isinstance(value, list):
         return [str(item) for item in value if str(item).strip()]
     return []
+
+
+def _markdown_files(root: Path, relative: str) -> list[Path]:
+    base = root / relative
+    if not base.exists():
+        return []
+    return sorted(path for path in base.rglob("*.md") if path.is_file())
 
 
 def build_graph(root: Path = ROOT) -> dict[str, Any]:
@@ -37,7 +51,7 @@ def build_graph(root: Path = ROOT) -> dict[str, Any]:
             if entity_id:
                 nodes.append({"id": entity_id, "kind": "entity", "entity_type": kind, "name": row.get("name")})
 
-    for path in sorted(markdown_files("corpus/2027")):
+    for path in _markdown_files(root, "corpus/2027"):
         meta, _ = parse_markdown(path)
         document_id = str(meta.get("document_id") or "").strip()
         if not document_id:
@@ -50,14 +64,15 @@ def build_graph(root: Path = ROOT) -> dict[str, Any]:
             "document_status": meta.get("document_status"),
             "source_tier": meta.get("source_tier"),
             "source_url": meta.get("source_url"),
-            "published_at": meta.get("published_at"),
+            "published_at": _json_value(meta.get("published_at")),
+            "retrieved_at": _json_value(meta.get("retrieved_at")),
             "canonical_path": path.relative_to(root).as_posix(),
             "canonical_sha256": _hash(path),
         })
         if meta.get("entity_id"):
             edges.append({"subject": document_id, "relation": "published_by", "object": str(meta["entity_id"])})
 
-    for path in sorted(markdown_files("proposals")):
+    for path in _markdown_files(root, "proposals"):
         meta, _ = parse_markdown(path)
         proposal_id = str(meta.get("proposal_id") or "").strip()
         if not proposal_id:
@@ -69,6 +84,8 @@ def build_graph(root: Path = ROOT) -> dict[str, Any]:
             "topic": meta.get("topic"),
             "certainty": meta.get("certainty"),
             "proposal_status": meta.get("proposal_status", "current"),
+            "source_published_at": _json_value(meta.get("source_published_at")),
+            "last_confirmed_at": _json_value(meta.get("last_confirmed_at")),
             "canonical_path": path.relative_to(root).as_posix(),
             "canonical_sha256": _hash(path),
         })
@@ -127,10 +144,16 @@ def main() -> None:
     parser.add_argument("--output", default="generated/evidence-graph.json")
     args = parser.parse_args()
     graph = build_graph(ROOT)
-    output = ROOT / args.output
+    output = Path(args.output)
+    if not output.is_absolute():
+        output = ROOT / output
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(json.dumps(graph, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(f"Evidence graph OK: {graph['counts']['nodes']} nodes, {graph['counts']['edges']} edges -> {output.relative_to(ROOT)}")
+    try:
+        display = output.relative_to(ROOT)
+    except ValueError:
+        display = output
+    print(f"Evidence graph OK: {graph['counts']['nodes']} nodes, {graph['counts']['edges']} edges -> {display}")
 
 
 if __name__ == "__main__":

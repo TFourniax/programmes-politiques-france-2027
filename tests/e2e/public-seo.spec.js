@@ -22,6 +22,9 @@ test('editorial landing and indexable corpus routes expose discoverable public d
   expect(manifest.canonicalData).not.toContain('data/entities.json');
   expect(manifest.discoveryViews).toContain('data/entities.json');
   expect(manifest.discoveryViews).toContain('data/compass.json');
+  expect(manifest.discoveryViews.some((item) => item.startsWith('generated/evidence-graph.json'))).toBe(true);
+  expect(manifest.researchInfrastructure.schemas).toHaveLength(4);
+  expect(manifest.publicEndpoints.updates).toContain('/mises-a-jour');
   expect(manifest.counts.proposals).toBeGreaterThanOrEqual(25);
   expect(manifest.activeCandidates.length).toBeGreaterThan(0);
   expect(manifest.topics.length).toBe(12);
@@ -42,6 +45,12 @@ test('editorial landing and indexable corpus routes expose discoverable public d
   const topicCanonical = await page.locator('link[rel="canonical"]').getAttribute('href');
   expect(new URL(topicCanonical).pathname).toBe(`/themes/${topic.id}`);
   await expect(page.getByText(/Une absence de source directe dans ce corpus ne démontre jamais/i)).toBeVisible();
+
+  await page.goto('/mises-a-jour');
+  await expect(page.getByRole('heading', { name: 'Mises à jour du corpus' })).toBeVisible();
+  await expect(page.locator('.seoEvidence').first()).toBeVisible();
+  const updatesCanonical = await page.locator('link[rel="canonical"]').getAttribute('href');
+  expect(new URL(updatesCanonical).pathname).toBe('/mises-a-jour');
 
   await page.goto('/donnees');
   await expect(page.getByRole('heading', { name: 'Couverture, fraîcheur et limites visibles' })).toBeVisible();
@@ -79,6 +88,7 @@ test('crawler and agent discovery surfaces are internally consistent', async ({ 
   expect(sitemapText).toContain('/candidats');
   expect(sitemapText).toContain('/themes/numerique-ia');
   expect(sitemapText).toContain('/themes/defense-international');
+  expect(sitemapText).toContain('/mises-a-jour');
   expect(sitemapText).toContain('/donnees');
 
   const robots = await request.get('/robots.txt');
@@ -96,6 +106,9 @@ test('crawler and agent discovery surfaces are internally consistent', async ({ 
   expect(llmsText).toContain('registries/documents.yaml');
   expect(llmsText).toContain('Vues de découverte dérivées, non canoniques');
   expect(llmsText).toContain('data/entities.json');
+  expect(llmsText).toContain('generated/evidence-graph.json');
+  expect(llmsText).toContain('CITATION.cff');
+  expect(llmsText).toContain('/mises-a-jour');
   expect(llmsText).toContain('Une absence d\'information dans le corpus ne prouve jamais une absence de position politique');
   expect(llmsText).toContain('Numérique & IA');
   expect(llmsText).toContain('Défense & international');

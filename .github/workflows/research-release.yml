@@ -38,7 +38,7 @@ jobs:
           printf '%s\n' "commit=${GITHUB_SHA}" "ref=${GITHUB_REF}" "built_at=$(date -u +%Y-%m-%dT%H:%M:%SZ)" > dist/france-2027-dataset/SNAPSHOT.txt
           tar -C dist -czf dist/france-2027-dataset.tar.gz france-2027-dataset
           sha256sum dist/france-2027-dataset.tar.gz > dist/france-2027-dataset.tar.gz.sha256
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
         with:
           name: france-2027-research-snapshot
           path: |
