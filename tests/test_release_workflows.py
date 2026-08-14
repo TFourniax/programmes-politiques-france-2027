@@ -57,10 +57,24 @@ def test_production_smoke_tolerates_cold_starts_without_hiding_warm_slo_failures
     assert 'https://politique2027.netlify.app' in workflow
     assert 'health, cold_health_s, health_attempt = request("/api/health", timeout=20, attempts=3)' in workflow
     assert 'warm_health, health_s, warm_health_attempt = request("/api/health", timeout=8, attempts=2)' in workflow
+    assert 'cold_answer, cold_answer_s, cold_answer_attempt = request(' in workflow
+    assert 'answer, answer_s, answer_attempt = request(' in workflow
     assert 'assert health_s < 5.0' in workflow
+    assert 'assert answer_s < 8.0' in workflow
+    assert '::warning::Production health cold start/transient observed' in workflow
+    assert '::warning::Production chat cold start/transient observed' in workflow
+    assert '"cold_chat_seconds": round(cold_answer_s, 3)' in workflow
+    assert '"warm_chat_seconds": round(answer_s, 3)' in workflow
+
+
+def test_production_smoke_checks_same_chat_contract_cold_and_warm():
+    workflow = read(".github/workflows/production-smoke.yml")
+    assert "def assert_known_answer(answer):" in workflow
+    assert "assert_known_answer(cold_answer)" in workflow
+    assert "assert_known_answer(answer)" in workflow
+    assert 'chat_payload = {' in workflow
+    assert 'timeout=20' in workflow
     assert 'timeout=12' in workflow
-    assert 'attempts=2' in workflow
-    assert '::warning::Production cold start/transient observed' in workflow
 
 
 def test_production_smoke_incident_bookkeeping_does_not_require_a_git_checkout():

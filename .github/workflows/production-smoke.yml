@@ -45,7 +45,7 @@ jobs:
               data = None
               headers = {
                   "accept": "application/json",
-                  "user-agent": "politique2027-production-smoke/1.1",
+                  "user-agent": "politique2027-production-smoke/1.2",
               }
               method = "GET"
               if payload is not None:
@@ -84,8 +84,18 @@ jobs:
 
               raise RuntimeError(f"{path}: exhausted retries: {last_error}")
 
-          # The first request may pay a Netlify/serverless cold-start cost. Availability
-          # is retried, then a second warm request is used for the latency SLO.
+          def assert_known_answer(answer):
+              assert answer.get("generated") is False, answer
+              assert answer.get("answer", {}).get("cards"), answer
+              assert answer.get("citations"), answer
+              assert any(
+                  citation.get("path") == "proposals/services-publics/ps-abrogation-parcoursup.md"
+                  for citation in answer["citations"]
+              ), answer
+
+          # Each serverless route can have an independent cold start. We therefore
+          # verify availability/contract on the first call and apply latency SLOs to
+          # an immediate second call to the same route.
           health, cold_health_s, health_attempt = request("/api/health", timeout=20, attempts=3)
           assert health.get("ok") is True, health
           chat = health.get("chat") or {}
@@ -98,36 +108,44 @@ jobs:
           assert warm_chat.get("engine") == "deterministic-bm25-ontology-v4", warm_chat
           assert warm_chat.get("responseGeneration") == "deterministic_extractive", warm_chat
 
+          chat_payload = {
+              "question": "Quel projet propose d'abroger Parcoursup ?",
+              "history": [],
+              "sessionContext": {},
+          }
+          cold_answer, cold_answer_s, cold_answer_attempt = request(
+              "/api/chat",
+              chat_payload,
+              timeout=20,
+              attempts=2,
+          )
+          assert_known_answer(cold_answer)
+
           answer, answer_s, answer_attempt = request(
               "/api/chat",
-              {
-                  "question": "Quel projet propose d'abroger Parcoursup ?",
-                  "history": [],
-                  "sessionContext": {},
-              },
+              chat_payload,
               timeout=12,
               attempts=2,
           )
-          assert answer.get("generated") is False, answer
-          assert answer.get("answer", {}).get("cards"), answer
-          assert answer.get("citations"), answer
-          assert any(
-              citation.get("path") == "proposals/services-publics/ps-abrogation-parcoursup.md"
-              for citation in answer["citations"]
-          ), answer
+          assert_known_answer(answer)
 
           assert health_s < 5.0, f"warm health latency too high: {health_s:.3f}s"
-          assert answer_s < 8.0, f"chat latency too high: {answer_s:.3f}s"
+          assert answer_s < 8.0, f"warm chat latency too high: {answer_s:.3f}s"
 
           if health_attempt > 1 or cold_health_s >= 5.0:
               print(
-                  f"::warning::Production cold start/transient observed: "
-                  f"health attempt={health_attempt}, first_success={cold_health_s:.3f}s"
+                  f"::warning::Production health cold start/transient observed: "
+                  f"attempt={health_attempt}, first_success={cold_health_s:.3f}s"
+              )
+          if cold_answer_attempt > 1 or cold_answer_s >= 8.0:
+              print(
+                  f"::warning::Production chat cold start/transient observed: "
+                  f"attempt={cold_answer_attempt}, first_success={cold_answer_s:.3f}s"
               )
           if warm_health_attempt > 1:
               print(f"::warning::Warm health required retry attempt {warm_health_attempt}")
           if answer_attempt > 1:
-              print(f"::warning::Chat required retry attempt {answer_attempt}")
+              print(f"::warning::Warm chat required retry attempt {answer_attempt}")
 
           print(json.dumps({
               "base": base,
@@ -135,8 +153,10 @@ jobs:
               "cold_health_attempt": health_attempt,
               "warm_health_seconds": round(health_s, 3),
               "warm_health_attempt": warm_health_attempt,
-              "chat_seconds": round(answer_s, 3),
-              "chat_attempt": answer_attempt,
+              "cold_chat_seconds": round(cold_answer_s, 3),
+              "cold_chat_attempt": cold_answer_attempt,
+              "warm_chat_seconds": round(answer_s, 3),
+              "warm_chat_attempt": answer_attempt,
               "commitRef": warm_health.get("deployment", {}).get("commitRef"),
               "watchStatus": warm_health.get("watch", {}).get("status"),
               "result": "ok",
@@ -152,7 +172,7 @@ jobs:
         shell: bash
         run: |
           issue="$(gh issue list --repo "$GITHUB_REPOSITORY" --state open --search "$TITLE in:title" --json number --jq '.[0].number // empty')"
-          body="Le smoke synthétique de la production publique a échoué après retries bornés, ou le contrat /api/health / réponse déterministe n'est plus conforme, ou la latence chaude dépasse le SLO. Les cold starts transitoires sont retentés avant de déclarer cet incident. Aucun changement de donnée n'est effectué automatiquement par ce workflow."
+          body="Le smoke synthétique de la production publique a échoué après retries bornés, ou le contrat /api/health / réponse déterministe n'est plus conforme, ou la latence chaude dépasse le SLO. Les cold starts transitoires sont mesurés séparément et ne suffisent pas à déclarer un incident. Aucun changement de donnée n'est effectué automatiquement par ce workflow."
           if [ -z "$issue" ]; then
             gh issue create --repo "$GITHUB_REPOSITORY" --title "$TITLE" --body "$body"
           else
