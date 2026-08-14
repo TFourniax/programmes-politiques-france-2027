@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "active_candidate_topic_coverage_floor": 0.10,
+  "benchmark_target_questions": 500,
+  "unsupported_political_claims_target": 0,
+  "party_candidate_leakage_target": 0,
+  "historical_contamination_target": 0,
+  "note": "Le plancher de couverture est un objectif de qualité pour les changements humains/research-grade. Une variation légitime des statuts de candidatures dans la veille doit rester publiable même si elle modifie temporairement le dénominateur ; la couverture est alors à rattraper par la collecte, jamais par une attribution plus faible."
+}

@@ -1,0 +1,42 @@
+name: Proposition de question pour le benchmark humain
+description: Proposer une formulation réelle pour le jeu d'évaluation public de France 2027
+title: "[benchmark] "
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Question telle que vous la poseriez
+      description: Conservez votre formulation naturelle, y compris d'éventuelles fautes.
+    validations:
+      required: true
+  - type: dropdown
+    id: behavior
+    attributes:
+      label: Comportement attendu
+      options:
+        - Répondre depuis le corpus
+        - Refuser / signaler que le corpus ne permet pas de répondre
+        - Comparer plusieurs acteurs
+        - Présenter l'historique
+        - Demander une précision
+    validations:
+      required: true
+  - type: input
+    id: actors
+    attributes:
+      label: Acteur(s) concerné(s), si applicable
+  - type: input
+    id: topic
+    attributes:
+      label: Thème principal, si applicable
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Source ou chemin canonique attendu, si vous le connaissez
+  - type: checkboxes
+    id: consent
+    attributes:
+      label: Utilisation
+      options:
+        - label: J'accepte que cette formulation soit publiée dans un benchmark ouvert après anonymisation et déduplication.
+          required: true

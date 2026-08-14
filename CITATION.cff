@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "Si vous utilisez ce corpus dans un travail de recherche, un article ou un produit, merci de citer ce dépôt et la version du snapshot utilisée."
+title: "France 2027 — Observatoire des programmes"
+type: dataset
+authors:
+  - family-names: Fournier
+    given-names: Thomas
+repository-code: "https://github.com/TFourniax/programmes-politiques-france-2027"
+url: "https://politique2027.netlify.app"
+license: CC-BY-4.0
+version: "1.4.0"
+date-released: 2026-08-14
+keywords:
+  - présidentielle 2027
+  - programmes politiques
+  - France
+  - open data
+  - provenance
+  - corpus politique

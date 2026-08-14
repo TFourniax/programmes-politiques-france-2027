@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Human benchmark question",
+  "type": "object",
+  "required": ["id", "question", "expected_behavior", "category"],
+  "properties": {
+    "id": {"type": "string"},
+    "question": {"type": "string", "minLength": 4},
+    "expected_behavior": {"enum": ["answer", "abstain", "clarify", "compare", "history"]},
+    "category": {"enum": ["simple", "paraphrase", "typo", "comparison", "number", "history", "party_candidate", "off_corpus", "subjective"]},
+    "expected_entity_ids": {"type": "array", "items": {"type": "string"}},
+    "expected_topic_ids": {"type": "array", "items": {"type": "string"}},
+    "expected_source_paths": {"type": "array", "items": {"type": "string"}},
+    "notes": {"type": "string"}
+  },
+  "additionalProperties": false
+}

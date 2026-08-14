@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://politique2027.netlify.app/schemas/document.schema.json",
+  "title": "France 2027 canonical document metadata",
+  "type": "object",
+  "required": ["document_id", "entity_id", "entity_type", "document_type", "document_status", "source_url", "source_tier", "rights_status"],
+  "properties": {
+    "document_id": {"type": "string", "minLength": 3},
+    "entity_id": {"type": "string", "minLength": 1},
+    "entity_type": {"enum": ["candidate", "party"]},
+    "document_type": {"enum": ["official_presidential_programme", "presidential_preprogramme", "party_programme", "party_platform", "manifesto", "thematic_platform", "policy_proposal", "candidacy_declaration", "official_speech", "official_press_release", "official_interview", "official_video_transcript", "campaign_website_page", "primary_platform", "primary_result", "coalition_agreement", "secondary_summary", "fact_check", "historical_reference", "other"]},
+    "document_status": {"enum": ["current", "superseded", "amended", "withdrawn", "draft", "archived", "unknown"]},
+    "published_at": {"type": ["string", "number"]},
+    "source_url": {"type": "string", "format": "uri"},
+    "source_tier": {"enum": ["tier_1_primary_official", "tier_2_primary_statement", "tier_3_reliable_secondary", "tier_4_discovery_only"]},
+    "rights_status": {"enum": ["open_license", "public_domain", "permission_granted", "quotation_only", "link_only", "unknown", "restricted"]},
+    "retrieved_at": {"type": ["string", "number"]},
+    "topics": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "supersedes": {"type": "string"},
+    "superseded_by": {"type": "string"}
+  },
+  "additionalProperties": true
+}

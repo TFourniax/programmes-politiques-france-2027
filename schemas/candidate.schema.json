@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://politique2027.netlify.app/schemas/candidate.schema.json",
+  "title": "France 2027 candidate/personality record",
+  "type": "object",
+  "required": ["id", "name", "current_status", "status_as_of", "status_confidence", "source_tier", "source_url"],
+  "properties": {
+    "id": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+    "name": {"type": "string", "minLength": 1},
+    "current_status": {"enum": ["official_candidate", "declared_presidential", "party_designated", "declared_primary", "declared_conditional", "exploratory", "potential", "withdrawn", "not_running", "deceased", "unknown"]},
+    "status_as_of": {"type": "string", "format": "date"},
+    "status_confidence": {"enum": ["high", "medium", "low", "unknown"]},
+    "official_candidate": {"type": "boolean"},
+    "primary_party_id": {"type": ["string", "null"]},
+    "source_tier": {"enum": ["tier_1_primary_official", "tier_2_primary_statement", "tier_3_reliable_secondary", "tier_4_discovery_only"]},
+    "source_url": {"type": "string", "format": "uri"}
+  },
+  "additionalProperties": true
+}

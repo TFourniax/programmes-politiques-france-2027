@@ -1,0 +1,53 @@
+name: Research dataset release
+
+on:
+  push:
+    tags:
+      - 'dataset-v*'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: pip install -r requirements.txt
+      - run: python scripts/validate.py
+      - run: python scripts/build_coverage_report.py
+      - run: python scripts/check_research_quality.py
+      - run: python scripts/build_evidence_graph.py
+      - name: Assemble reproducible snapshot
+        run: |
+          set -euo pipefail
+          mkdir -p dist/france-2027-dataset
+          cp -R corpus proposals registries schemas dist/france-2027-dataset/
+          cp METHODOLOGY.md SOURCES_POLICY.md RIGHTS_AND_LICENSES.md LICENSE-DATA CITATION.cff DATA_DICTIONARY.md GOVERNANCE.md CORRECTIONS_POLICY.md CONFLICTS_OF_INTEREST.md dist/france-2027-dataset/
+          mkdir -p dist/france-2027-dataset/research dist/france-2027-dataset/generated
+          cp research/veille/coverage.json dist/france-2027-dataset/research/coverage.json
+          cp generated/evidence-graph.json dist/france-2027-dataset/generated/evidence-graph.json
+          printf '%s\n' "commit=${GITHUB_SHA}" "ref=${GITHUB_REF}" "built_at=$(date -u +%Y-%m-%dT%H:%M:%SZ)" > dist/france-2027-dataset/SNAPSHOT.txt
+          tar -C dist -czf dist/france-2027-dataset.tar.gz france-2027-dataset
+          sha256sum dist/france-2027-dataset.tar.gz > dist/france-2027-dataset.tar.gz.sha256
+      - uses: actions/upload-artifact@v4
+        with:
+          name: france-2027-research-snapshot
+          path: |
+            dist/france-2027-dataset.tar.gz
+            dist/france-2027-dataset.tar.gz.sha256
+      - name: Attach assets to tagged GitHub release
+        if: startsWith(github.ref, 'refs/tags/dataset-v')
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release view "${GITHUB_REF_NAME}" >/dev/null 2>&1 || gh release create "${GITHUB_REF_NAME}" --title "France 2027 dataset ${GITHUB_REF_NAME}" --notes "Reproducible research snapshot generated from commit ${GITHUB_SHA}."
+          gh release upload "${GITHUB_REF_NAME}" dist/france-2027-dataset.tar.gz dist/france-2027-dataset.tar.gz.sha256 --clobber
