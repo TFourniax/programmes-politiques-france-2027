@@ -42,14 +42,13 @@ export default async function CandidatePage({ params }) {
     "@type": "Person",
     name: c.name,
     url: `${process.env.NEXT_PUBLIC_SITE_URL || "https://politique2027.netlify.app"}/candidats/${c.id}`,
-    affiliation: c.partyName ? { "@type": "Organization", name: c.partyName } : undefined,
-    sameAs: c.sourceUrl ? [c.sourceUrl] : undefined
+    affiliation: c.partyName ? { "@type": "Organization", name: c.partyName } : undefined
   };
 
   return <main className="seoPage">
     <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(jsonLd)}} />
     <div className="seoBreadcrumbs"><Link href="/">France 2027</Link><span>›</span><Link href="/candidats">Candidats</Link><span>›</span><span>{c.name}</span></div>
-    <section className="seoHero"><span className="publicEyebrow">Fiche personnalité · sources directes séparées du parti</span><h1>{c.name}</h1><p>{c.statusNote || `Le registre documente actuellement le statut « ${c.statusLabel} » pour ${c.name}. Les positions du parti principal sont conservées comme contexte distinct et ne sont jamais transformées automatiquement en engagements personnels.`}</p><div className="seoMetaRow"><span>{c.statusLabel}</span><span>statut au {c.statusAsOf}</span>{c.partyName && <span>{c.partyName}</span>}<span>{directCount}/12 thèmes avec élément direct</span></div></section>
+    <section className="seoHero"><span className="publicEyebrow">Fiche personnalité · sources directes séparées du parti</span><h1>{c.name}</h1><p>{c.statusNote || `Le registre documente actuellement le statut « ${c.statusLabel} » pour ${c.name}. Les positions du parti principal sont conservées comme contexte distinct et ne sont jamais transformées automatiquement en engagements personnels.`}</p><div className="seoMetaRow"><span>{c.statusLabel}</span><span>statut au {c.statusAsOf}</span>{c.partyName && <span>{c.partyName}</span>}<span>{directCount}/{profile.coverage.length} thèmes avec élément direct</span></div></section>
 
     <section className="seoSection"><div className="seoSectionHeading"><div><span className="publicEyebrow">Couverture documentaire</span><h2>Ce que le corpus permet d’examiner</h2></div><p>« Non documenté » décrit uniquement l’état du corpus. Ce n’est jamais une preuve d’absence de position.</p></div><div className="seoCardGrid">{profile.coverage.map(item => <article className="seoCard" key={item.topicId}><strong>{item.topicLabel}</strong><p><CoverageState item={item} /></p><p>{item.directSourceCount} source(s) directe(s){item.partySourceCount ? ` · ${item.partySourceCount} source(s) de parti` : ""}</p><div className="seoEvidenceList">{item.directEvidence.slice(0,1).map(evidence=><Evidence item={evidence} key={evidence.id}/>)}</div><Link href={`/themes/${item.topicId}`}>Voir le thème →</Link></article>)}</div></section>
 
