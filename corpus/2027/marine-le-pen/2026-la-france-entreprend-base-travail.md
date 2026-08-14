@@ -3,7 +3,7 @@ document_id: doc-marine-le-pen-la-france-entreprend-base-travail
 entity_id: marine-le-pen
 entity_type: candidate
 publisher_entity_id: rassemblement-national
-document_type: candidate_working_platform
+document_type: presidential_preprogramme
 document_status: current
 title: "Marine Le Pen — La France entreprend, programme économique mis à jour"
 source_url: https://rassemblementnational.fr/documents/WEB-GRN-LIVRET-ENTREPRISE.pdf
