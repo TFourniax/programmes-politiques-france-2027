@@ -44,7 +44,7 @@ export default function UpdatesPage() {
           <div className="seoEvidenceLinks">
             {item.sourceUrl && <a href={item.sourceUrl} target="_blank" rel="noreferrer">Source d'origine ↗</a>}
             <a href={`https://github.com/TFourniax/programmes-politiques-france-2027/blob/main/${item.path}`} target="_blank" rel="noreferrer">Version canonique ↗</a>
-            {item.entityId && <Link href={`/candidats/${item.entityId}`}>Fiche acteur →</Link>}
+            {item.entityType === "candidate" && <Link href={`/candidats/${item.entityId}`}>Fiche personnalité →</Link>}
           </div>
         </article>)}
       </div>
