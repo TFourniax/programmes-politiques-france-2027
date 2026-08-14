@@ -43,6 +43,10 @@ jobs:
         env:
           CI: 'true'
         run: npx playwright test -c playwright.v31.config.mjs --project=chromium --project=mobile-chromium tests/e2e/ux-polish.spec.js
+      - name: Public SEO and open data
+        env:
+          CI: 'true'
+        run: npx playwright test -c playwright.v31.config.mjs --project=chromium --project=mobile-chromium tests/e2e/public-seo.spec.js
       - name: Accessibility baseline
         env:
           CI: 'true'
