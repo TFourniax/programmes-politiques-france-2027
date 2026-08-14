@@ -806,9 +806,9 @@
       "verified_at": "2026-08-13T08:51:16+00:00"
     }
   },
-  "last_error_count": 3,
-  "last_processed_count": 0,
-  "last_run_at": "2026-08-13T23:24:55+00:00",
+  "last_error_count": 2,
+  "last_processed_count": 1,
+  "last_run_at": "2026-08-14T03:40:42+00:00",
   "source_chunks": {
     "049ef2342af4f07d32e93984": {
       "claims": [],
@@ -1804,10 +1804,12 @@
       "claims": [],
       "created_at": "2026-08-13T18:45:31+00:00",
       "document_types": [
+        "campaign_website_page",
         "campaign_website_page"
       ],
       "done": [],
       "published_candidates": [
+        "2026-03-28",
         "2026-03-28"
       ],
       "sha256": "3e726547b375cf833eaf5cde733f5b84ec6e8cc1959d3635b89b0b160eed9aa6",
@@ -2898,16 +2900,25 @@
       "url": "https://melenchon2027.fr/programme2025/livre/chapitre17/"
     },
     "47c5dd5ae80b30abc2268caa": {
+      "canonical_confirmations": [],
       "claims": [],
       "created_at": "2026-08-13T18:45:44+00:00",
-      "document_types": [],
-      "done": [],
-      "published_candidates": [],
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [
+        "2026-04-16"
+      ],
       "sha256": "33f73a2082138b7d458b38b96c8b6fd198e5b4cca3faa4691691cb279b467887",
       "source_title": "Jérôme Guedj 2027 : analyse de son programme et engagement réel pour la démocratie directe - Solution Démocratique - Parti politique pour instaurer la démocratie directe",
       "statuses": [],
       "text_truncated": false,
       "total": 1,
+      "updated_at": "2026-08-14T03:40:42+00:00",
       "url": "https://solutiondemocratique.fr/jerome-guedj-programme-presidentielle-2027/"
     },
     "50622a201742127d88ae841d": {
@@ -3895,6 +3906,23 @@
       "total": 1,
       "updated_at": "2026-08-12T14:41:26+00:00",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
+    "b2a28a425ae6ed749f43df4e": {
+      "claims": [],
+      "created_at": "2026-08-14T03:40:21+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [],
+      "published_candidates": [
+        "2026-03-31"
+      ],
+      "sha256": "6cf626dcaa244a897232ec85d82639b15d9a45d97bb948eed439a0beab737927",
+      "source_title": "Clémentine Autain 2027 : pour la démocratie directe ?",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "url": "https://solutiondemocratique.fr/clementine-autain-programme-presidentielle2027/"
     },
     "c6af810e101bd901f4bb31a6": {
       "canonical_confirmations": [
@@ -5825,10 +5853,10 @@
   },
   "sources": {
     "05d351c29703": {
-      "attempts": 1,
-      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
-      "next_retry_at": "2026-08-14T00:45:41+00:00",
-      "processed_at": "2026-08-13T18:45:41+00:00",
+      "attempts": 2,
+      "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 27.673306953s.",
+      "next_retry_at": "2026-08-15T03:40:32+00:00",
+      "processed_at": "2026-08-14T03:40:32+00:00",
       "status": "technical_error",
       "url": "https://solutiondemocratique.fr/clementine-autain-programme-presidentielle2027/"
     },
@@ -5935,10 +5963,10 @@
       "url": "https://melenchon2027.fr/programme2025/livre/chapitre10/"
     },
     "354b4e7b952c": {
-      "attempts": 1,
-      "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 19.104556396s.",
-      "next_retry_at": "2026-08-14T00:45:40+00:00",
-      "processed_at": "2026-08-13T18:45:40+00:00",
+      "attempts": 2,
+      "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 41.320942428s.",
+      "next_retry_at": "2026-08-15T03:40:18+00:00",
+      "processed_at": "2026-08-14T03:40:18+00:00",
       "status": "technical_error",
       "url": "https://solutiondemocratique.fr/edouard-philippe-presidentielle-2027-programme/"
     },
@@ -6054,11 +6082,12 @@
       "url": "https://solutiondemocratique.fr/segolene-royal-programme-presidentielle2027/"
     },
     "7d900f388017": {
-      "attempts": 1,
-      "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 9.379531374s.",
-      "next_retry_at": "2026-08-14T00:45:50+00:00",
-      "processed_at": "2026-08-13T18:45:50+00:00",
-      "status": "technical_error",
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-14T03:40:42+00:00",
+      "reason": null,
+      "source_sha256": "33f73a2082138b7d458b38b96c8b6fd198e5b4cca3faa4691691cb279b467887",
+      "status": "not_confirmed",
       "url": "https://solutiondemocratique.fr/jerome-guedj-programme-presidentielle-2027/"
     },
     "86d9a849395b": {
