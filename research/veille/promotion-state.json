@@ -818,7 +818,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-08-14T15:48:57+00:00",
+  "last_run_at": "2026-08-14T20:06:08+00:00",
   "source_chunks": {
     "049ef2342af4f07d32e93984": {
       "canonical_confirmations": [
@@ -3542,6 +3542,48 @@
       "updated_at": "2026-08-11T12:47:31+00:00",
       "url": "https://lafranceinsoumise.fr/2026/08/10/amfis-2026-le-programme-est-en-ligne/"
     },
+    "770e23bdd556f60748a40833": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "solution-democratique",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Solution Démocratique souhaite instaurer en France la démocratie directe et la décentralisation par le bas.",
+            "relevance": "direct",
+            "statement": "Solution Démocratique souhaite instaurer en France la démocratie directe et la décentralisation par le bas.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La proposition est explicitement soutenue par la source et est identique au claim canonique existant.",
+            "related_proposal_id": "auto-solution-democratique-institutions-democratie-4ea1c22d52ea",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-08-14T20:05:59+00:00",
+      "created_at": "2026-08-14T20:05:53+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-04-05"
+      ],
+      "sha256": "563e0627c9b5e01d047b3e9c87b0202ccb0086a5199c1fe5882cc318a163993d",
+      "source_title": "Éric Zemmour 2027 : analyse de son programme et engagement réel pour la démocratie directe - Solution Démocratique - Parti politique pour instaurer la démocratie directe",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-14T20:05:56+00:00",
+      "url": "https://solutiondemocratique.fr/eric-zemmour-programme-presidentielle2027/"
+    },
     "77f522277be2ac88fdba0417": {
       "canonical_confirmations": [
         {
@@ -4084,6 +4126,70 @@
       "total": 1,
       "updated_at": "2026-08-14T08:23:14+00:00",
       "url": "https://solutiondemocratique.fr/jean-lassalle-programme-presidentielle2027/"
+    },
+    "883d3a7028b4f981102ba748": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "solution-democratique",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Solution Démocratique souhaite instaurer en France la démocratie directe et la décentralisation par le bas.",
+            "relevance": "direct",
+            "statement": "Solution démocratique souhaite instaurer en France la démocratie directe et la décentralisation par le bas.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La proposition est explicitement soutenue par la source et est déjà présente dans le canon sous l'identifiant indiqué.",
+            "related_proposal_id": "auto-solution-democratique-institutions-democratie-4ea1c22d52ea",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-08-14T20:06:07+00:00",
+      "created_at": "2026-08-14T20:06:01+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-04-26"
+      ],
+      "sha256": "fdc9eab7108554027bbdc4c64dafaa315c19bb760d491af84121d8cf1ef584b4",
+      "source_title": "Sarah Knafo 2027 : programme sur la démocratie",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-14T20:06:05+00:00",
+      "url": "https://solutiondemocratique.fr/sarah-knafo-2027-programme-presidentiel/"
+    },
+    "99d11e3c29023ef7697a8185": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-08-14T20:05:49+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [
+        "2026-03-22"
+      ],
+      "sha256": "e349c167515d8ae81dffa11a0494631060dbbe2866223a575462eefca8302cb4",
+      "source_title": "Marine Tondelier 2027 : démocratie directe, programme présidentiel",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-14T20:05:51+00:00",
+      "url": "https://solutiondemocratique.fr/marine-tondelier-programme-2027/"
     },
     "9ae9913ab888f4c0fb5bba9e": {
       "claims": [
@@ -6699,6 +6805,15 @@
       "status": "promoted",
       "url": "https://www.debout-la-france.fr/"
     },
+    "5b9853039e0b": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-14T20:05:59+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "563e0627c9b5e01d047b3e9c87b0202ccb0086a5199c1fe5882cc318a163993d",
+      "status": "promoted",
+      "url": "https://solutiondemocratique.fr/eric-zemmour-programme-presidentielle2027/"
+    },
     "60ca0c717266": {
       "chunks_done": null,
       "chunks_total": 1,
@@ -6707,6 +6822,15 @@
       "source_sha256": "9e0da977ece0bcbe0fe67772db1d2794331dadf7f2c1089ca1919943861bc436",
       "status": "promoted",
       "url": "https://melenchon2027.fr/programme2025/livre/chapitre1/"
+    },
+    "60d78c8e616a": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-14T20:06:07+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "fdc9eab7108554027bbdc4c64dafaa315c19bb760d491af84121d8cf1ef584b4",
+      "status": "promoted",
+      "url": "https://solutiondemocratique.fr/sarah-knafo-2027-programme-presidentiel/"
     },
     "66d64cc37b5a": {
       "processed_at": "2026-08-11T08:56:04+00:00",
@@ -6949,6 +7073,15 @@
       "source_sha256": "7585ecc99afb81b4868b5c8551f936414c53406599156c683d123c3ef7efdee2",
       "status": "historical_skipped",
       "url": "https://parti-equinoxe.fr/programme-europeennes-2024-mesure-phare-9-finance/"
+    },
+    "c8ddcf2ad627": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-14T20:05:51+00:00",
+      "reason": null,
+      "source_sha256": "e349c167515d8ae81dffa11a0494631060dbbe2866223a575462eefca8302cb4",
+      "status": "not_confirmed",
+      "url": "https://solutiondemocratique.fr/marine-tondelier-programme-2027/"
     },
     "ce43a5512c45": {
       "chunks_done": null,

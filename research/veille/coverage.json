@@ -6,20 +6,20 @@
     "actors": 68,
     "declared_or_active_candidates": 27,
     "topics": 12,
-    "current_proposals": 1057,
-    "covered_actor_topic_cells": 66,
+    "current_proposals": 1065,
+    "covered_actor_topic_cells": 74,
     "total_actor_topic_cells": 816,
-    "actor_topic_coverage_ratio": 0.0809,
-    "active_candidate_covered_cells": 30,
+    "actor_topic_coverage_ratio": 0.0907,
+    "active_candidate_covered_cells": 38,
     "active_candidate_total_cells": 324,
-    "active_candidate_topic_coverage_ratio": 0.0926,
-    "verified_proposals": 1014,
+    "active_candidate_topic_coverage_ratio": 0.1173,
+    "verified_proposals": 1022,
     "multi_source_proposals": 3,
-    "latest_evidence_at": "2026-08-13",
+    "latest_evidence_at": "2026-08-14",
     "certainty_counts": {
-      "explicit": 1037,
-      "explicit_but_conditional": 1,
-      "explicit_but_underspecified": 19
+      "explicit": 1042,
+      "explicit_but_conditional": 2,
+      "explicit_but_underspecified": 21
     }
   },
   "topic_catalog": [
@@ -281,26 +281,26 @@
       "type": "candidate",
       "status": "party_designated",
       "confidence": "high",
-      "current_proposals": 10,
+      "current_proposals": 13,
       "covered_topics": [
+        "defense-international",
         "europe-souverainete",
         "immigration-integration",
         "institutions-democratie",
+        "numerique-ia",
         "pouvoir-achat-travail",
+        "retraites",
         "securite-justice"
       ],
-      "coverage_ratio": 0.4167,
+      "coverage_ratio": 0.6667,
       "gaps": [
-        "retraites",
         "fiscalite-redistribution",
-        "defense-international",
         "ecologie-energie",
         "services-publics",
-        "economie-finances",
-        "numerique-ia"
+        "economie-finances"
       ],
-      "latest_evidence_at": "2026-05-31",
-      "verified_proposals": 7,
+      "latest_evidence_at": "2026-08-14",
+      "verified_proposals": 10,
       "multi_source_proposals": 1
     },
     {
@@ -363,26 +363,25 @@
       "type": "candidate",
       "status": "declared_presidential",
       "confidence": "high",
-      "current_proposals": 29,
+      "current_proposals": 34,
       "covered_topics": [
+        "defense-international",
         "ecologie-energie",
         "economie-finances",
+        "europe-souverainete",
+        "fiscalite-redistribution",
         "immigration-integration",
         "institutions-democratie",
+        "numerique-ia",
+        "pouvoir-achat-travail",
         "retraites",
         "securite-justice",
         "services-publics"
       ],
-      "coverage_ratio": 0.5833,
-      "gaps": [
-        "pouvoir-achat-travail",
-        "fiscalite-redistribution",
-        "europe-souverainete",
-        "defense-international",
-        "numerique-ia"
-      ],
-      "latest_evidence_at": "2026-07-31",
-      "verified_proposals": 23,
+      "coverage_ratio": 1.0,
+      "gaps": [],
+      "latest_evidence_at": "2026-08-14",
+      "verified_proposals": 28,
       "multi_source_proposals": 0
     },
     {
@@ -1941,31 +1940,31 @@
     {
       "id": "pouvoir-achat-travail",
       "label": "Pouvoir d’achat & travail",
-      "current_proposals": 40,
-      "actors_covered": 6,
-      "actor_coverage_ratio": 0.0882,
-      "latest_evidence_at": "2026-08-13",
-      "verified_proposals": 32,
+      "current_proposals": 41,
+      "actors_covered": 7,
+      "actor_coverage_ratio": 0.1029,
+      "latest_evidence_at": "2026-08-14",
+      "verified_proposals": 33,
       "multi_source_proposals": 0
     },
     {
       "id": "retraites",
       "label": "Retraites",
-      "current_proposals": 15,
-      "actors_covered": 8,
-      "actor_coverage_ratio": 0.1176,
-      "latest_evidence_at": "2026-08-13",
-      "verified_proposals": 11,
+      "current_proposals": 16,
+      "actors_covered": 9,
+      "actor_coverage_ratio": 0.1324,
+      "latest_evidence_at": "2026-08-14",
+      "verified_proposals": 12,
       "multi_source_proposals": 1
     },
     {
       "id": "fiscalite-redistribution",
       "label": "Fiscalité & redistribution",
-      "current_proposals": 63,
-      "actors_covered": 6,
-      "actor_coverage_ratio": 0.0882,
-      "latest_evidence_at": "2026-08-13",
-      "verified_proposals": 61,
+      "current_proposals": 64,
+      "actors_covered": 7,
+      "actor_coverage_ratio": 0.1029,
+      "latest_evidence_at": "2026-08-14",
+      "verified_proposals": 62,
       "multi_source_proposals": 1
     },
     {
@@ -1981,21 +1980,21 @@
     {
       "id": "europe-souverainete",
       "label": "Europe & souveraineté",
-      "current_proposals": 95,
-      "actors_covered": 5,
-      "actor_coverage_ratio": 0.0735,
-      "latest_evidence_at": "2026-08-13",
-      "verified_proposals": 93,
+      "current_proposals": 96,
+      "actors_covered": 6,
+      "actor_coverage_ratio": 0.0882,
+      "latest_evidence_at": "2026-08-14",
+      "verified_proposals": 94,
       "multi_source_proposals": 0
     },
     {
       "id": "defense-international",
       "label": "Défense & international",
-      "current_proposals": 0,
-      "actors_covered": 0,
-      "actor_coverage_ratio": 0.0,
-      "latest_evidence_at": null,
-      "verified_proposals": 0,
+      "current_proposals": 2,
+      "actors_covered": 2,
+      "actor_coverage_ratio": 0.0294,
+      "latest_evidence_at": "2026-08-14",
+      "verified_proposals": 2,
       "multi_source_proposals": 0
     },
     {
@@ -2051,11 +2050,11 @@
     {
       "id": "numerique-ia",
       "label": "Numérique & IA",
-      "current_proposals": 0,
-      "actors_covered": 0,
-      "actor_coverage_ratio": 0.0,
-      "latest_evidence_at": null,
-      "verified_proposals": 0,
+      "current_proposals": 2,
+      "actors_covered": 2,
+      "actor_coverage_ratio": 0.0294,
+      "latest_evidence_at": "2026-08-14",
+      "verified_proposals": 2,
       "multi_source_proposals": 0
     }
   ],
@@ -2536,9 +2535,9 @@
       "id": "bruno-retailleau",
       "name": "Bruno Retailleau",
       "status": "party_designated",
-      "coverage_ratio": 0.4167,
-      "current_proposals": 10,
-      "latest_evidence_at": "2026-05-31",
+      "coverage_ratio": 0.6667,
+      "current_proposals": 13,
+      "latest_evidence_at": "2026-08-14",
       "topics": [
         {
           "id": "pouvoir-achat-travail",
@@ -2552,10 +2551,10 @@
         {
           "id": "retraites",
           "label": "Retraites",
-          "covered": false,
-          "current_proposals": 0,
-          "latest_evidence_at": null,
-          "verified_proposals": 0,
+          "covered": true,
+          "current_proposals": 1,
+          "latest_evidence_at": "2026-08-14",
+          "verified_proposals": 1,
           "multi_source_proposals": 0
         },
         {
@@ -2588,10 +2587,10 @@
         {
           "id": "defense-international",
           "label": "Défense & international",
-          "covered": false,
-          "current_proposals": 0,
-          "latest_evidence_at": null,
-          "verified_proposals": 0,
+          "covered": true,
+          "current_proposals": 1,
+          "latest_evidence_at": "2026-08-14",
+          "verified_proposals": 1,
           "multi_source_proposals": 0
         },
         {
@@ -2642,10 +2641,10 @@
         {
           "id": "numerique-ia",
           "label": "Numérique & IA",
-          "covered": false,
-          "current_proposals": 0,
-          "latest_evidence_at": null,
-          "verified_proposals": 0,
+          "covered": true,
+          "current_proposals": 1,
+          "latest_evidence_at": "2026-08-14",
+          "verified_proposals": 1,
           "multi_source_proposals": 0
         }
       ]
@@ -2772,17 +2771,17 @@
       "id": "david-lisnard",
       "name": "David Lisnard",
       "status": "declared_presidential",
-      "coverage_ratio": 0.5833,
-      "current_proposals": 29,
-      "latest_evidence_at": "2026-07-31",
+      "coverage_ratio": 1.0,
+      "current_proposals": 34,
+      "latest_evidence_at": "2026-08-14",
       "topics": [
         {
           "id": "pouvoir-achat-travail",
           "label": "Pouvoir d’achat & travail",
-          "covered": false,
-          "current_proposals": 0,
-          "latest_evidence_at": null,
-          "verified_proposals": 0,
+          "covered": true,
+          "current_proposals": 1,
+          "latest_evidence_at": "2026-08-14",
+          "verified_proposals": 1,
           "multi_source_proposals": 0
         },
         {
@@ -2797,10 +2796,10 @@
         {
           "id": "fiscalite-redistribution",
           "label": "Fiscalité & redistribution",
-          "covered": false,
-          "current_proposals": 0,
-          "latest_evidence_at": null,
-          "verified_proposals": 0,
+          "covered": true,
+          "current_proposals": 1,
+          "latest_evidence_at": "2026-08-14",
+          "verified_proposals": 1,
           "multi_source_proposals": 0
         },
         {
@@ -2815,19 +2814,19 @@
         {
           "id": "europe-souverainete",
           "label": "Europe & souveraineté",
-          "covered": false,
-          "current_proposals": 0,
-          "latest_evidence_at": null,
-          "verified_proposals": 0,
+          "covered": true,
+          "current_proposals": 1,
+          "latest_evidence_at": "2026-08-14",
+          "verified_proposals": 1,
           "multi_source_proposals": 0
         },
         {
           "id": "defense-international",
           "label": "Défense & international",
-          "covered": false,
-          "current_proposals": 0,
-          "latest_evidence_at": null,
-          "verified_proposals": 0,
+          "covered": true,
+          "current_proposals": 1,
+          "latest_evidence_at": "2026-08-14",
+          "verified_proposals": 1,
           "multi_source_proposals": 0
         },
         {
@@ -2878,10 +2877,10 @@
         {
           "id": "numerique-ia",
           "label": "Numérique & IA",
-          "covered": false,
-          "current_proposals": 0,
-          "latest_evidence_at": null,
-          "verified_proposals": 0,
+          "covered": true,
+          "current_proposals": 1,
+          "latest_evidence_at": "2026-08-14",
+          "verified_proposals": 1,
           "multi_source_proposals": 0
         }
       ]
@@ -5772,17 +5771,14 @@
       "id": "bruno-retailleau",
       "name": "Bruno Retailleau",
       "status": "party_designated",
-      "coverage_ratio": 0.4167,
-      "current_proposals": 10,
-      "latest_evidence_at": "2026-05-31",
+      "coverage_ratio": 0.6667,
+      "current_proposals": 13,
+      "latest_evidence_at": "2026-08-14",
       "gaps": [
-        "retraites",
         "fiscalite-redistribution",
-        "defense-international",
         "ecologie-energie",
         "services-publics",
-        "economie-finances",
-        "numerique-ia"
+        "economie-finances"
       ]
     }
   ]
