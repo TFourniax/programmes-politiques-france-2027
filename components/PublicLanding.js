@@ -1,6 +1,6 @@
 import Link from "next/link";
 import ChatApp from "./ChatApp.js";
-import { getExplorerMeta } from "../lib/explorer.js";
+import { getExplorerMeta } from "../lib/explorer-attribution.js";
 
 const ACTIVE_STATUSES = new Set([
   "official_candidate",
@@ -25,15 +25,17 @@ function DatasetJsonLd({ meta }) {
   const data = {
     "@context": "https://schema.org",
     "@type": "Dataset",
-    name: "Programmes politiques — France 2027",
-    description: "Corpus ouvert, sourcé et versionné des candidatures, programmes, propositions et positions documentées pour l'élection présidentielle française de 2027.",
+    name: "France 2027 — corpus open source des programmes politiques",
+    description: "Corpus ouvert, sourcé, vérifié et versionné des candidatures, programmes, propositions et positions documentées pour l'élection présidentielle française de 2027.",
     url: siteUrl,
+    sameAs: "https://github.com/TFourniax/programmes-politiques-france-2027",
     inLanguage: "fr-FR",
     temporalCoverage: "2026/2027",
     isAccessibleForFree: true,
     dateModified: meta.snapshotDate || undefined,
     license: "https://github.com/TFourniax/programmes-politiques-france-2027/blob/main/RIGHTS_AND_LICENSES.md",
-    measurementTechnique: "Corpus versionné, sources primaires privilégiées, propositions atomiques et retrieval déterministe",
+    measurementTechnique: "Sources primaires privilégiées, corpus versionné, propositions atomiques, attribution contrôlée et retrieval déterministe sans ajout de faits hors corpus",
+    keywords: ["présidentielle 2027", "programmes politiques", "open data", "open source", "comparateur politique", "propositions candidats"],
     distribution: [{
       "@type": "DataDownload",
       encodingFormat: "text/markdown",
@@ -66,22 +68,23 @@ export default function PublicLanding() {
           <Link href="/?mode=compare#explorer">Comparer</Link>
           <Link href="/donnees">Données & méthode</Link>
         </nav>
-        <a className="publicRepoLink" href="https://github.com/TFourniax/programmes-politiques-france-2027" target="_blank" rel="noreferrer">Dépôt ouvert ↗</a>
+        <a className="publicRepoLink" href="https://github.com/TFourniax/programmes-politiques-france-2027" target="_blank" rel="noreferrer">Code & données ouverts ↗</a>
       </header>
 
       <section className="publicHero" aria-labelledby="public-hero-title">
         <div className="publicHeroCopy">
-          <span className="publicEyebrow">Présidentielle française 2027 · corpus public indépendant</span>
-          <h1 id="public-hero-title">Les programmes politiques, vérifiables jusque dans la source.</h1>
-          <p>Explorez les propositions, comparez les positions documentées et retrouvez leur historique. Chaque information renvoie au document qui la soutient ; les lacunes restent visibles et les anciennes versions ne sont jamais présentées comme actuelles.</p>
+          <span className="publicEyebrow">Présidentielle française 2027 · observatoire open source indépendant</span>
+          <h1 id="public-hero-title">Les programmes politiques, documentés jusque dans la source.</h1>
+          <p>Un corpus public, profond et versionné pour explorer les propositions des candidats et des partis sans dépendre d’une réponse « plausible ». Le moteur restitue les éléments retrouvés dans les documents vérifiés : lorsqu’une information manque, aucun LLM ne l’invente pour remplir le vide.</p>
           <div className="publicHeroActions">
-            <a className="primaryAction" href="#explorer">Explorer le corpus</a>
-            <Link className="secondaryAction" href="/?mode=compare#explorer">Comparer des personnalités</Link>
+            <a className="primaryAction" href="#explorer">Interroger le corpus</a>
+            <Link className="secondaryAction" href="/?mode=compare#explorer">Comparer les programmes</Link>
           </div>
           <div className="publicTrustLine" aria-label="Principes du corpus">
             <span>Sources primaires privilégiées</span>
+            <span>Open source & auditable</span>
+            <span>Retrieval sans invention</span>
             <span>Historique versionné</span>
-            <span>Parti ≠ personnalité</span>
             <span>Aucune recommandation de vote</span>
           </div>
         </div>
@@ -94,18 +97,18 @@ export default function PublicLanding() {
             <div><b>{activeCandidates.length}</b><span>candidatures actives ou déclarées suivies</span></div>
             <div><b>{topics.length}</b><span>grands thèmes publics</span></div>
           </div>
-          <Link href="/donnees">Voir la couverture, la fraîcheur et les limites →</Link>
+          <Link href="/donnees">Auditer la couverture, les sources et les limites →</Link>
         </aside>
       </section>
 
       <section className="publicEditorialGrid" aria-label="Pourquoi ce corpus est différent">
-        <article><span>01</span><h2>Une donnée politique, pas une opinion sur la politique.</h2><p>Le moteur restitue ce qui est documenté. Il ne classe pas les programmes, ne déduit pas une position à partir d’un silence et n’utilise pas la mémoire générale d’un modèle pour compléter les trous.</p></article>
-        <article><span>02</span><h2>Le temps fait partie de la donnée.</h2><p>Une proposition remplacée, amendée ou retirée reste consultable dans l’historique sans contaminer l’état courant. La date et le niveau de preuve restent attachés à chaque élément.</p></article>
-        <article><span>03</span><h2>La profondeur est vérifiable.</h2><p>Les propositions atomiques, documents sources, niveaux de confiance et liens d’origine sont ouverts. L’interface simplifie la lecture sans rendre le corpus opaque.</p></article>
+        <article><span>01</span><h2>Des données politiques, pas une opinion de modèle.</h2><p>Les réponses partent du corpus. Le système ne complète pas une proposition avec la mémoire générale d’un modèle et ne transforme jamais un silence documentaire en position politique.</p></article>
+        <article><span>02</span><h2>Chaque information garde sa preuve et sa date.</h2><p>Source originale, attribution, statut, version et historique restent attachés aux documents. Un programme de parti n’est attribué à un candidat que lorsqu’il est officiellement désigné par ce parti.</p></article>
+        <article><span>03</span><h2>Open source, vérifiable et réutilisable.</h2><p>Le corpus, ses règles, sa méthodologie et les données dérivées sont auditables. L’interface simplifie la lecture ; elle ne cache ni les sources, ni les lacunes, ni les décisions de traitement.</p></article>
       </section>
 
       <section className="publicSection" aria-labelledby="topics-title">
-        <div className="publicSectionHeading"><div><span className="publicEyebrow">Les enjeux</span><h2 id="topics-title">Douze thèmes pour lire la campagne sans angle mort structurel.</h2></div><Link href="/themes">Tous les thèmes →</Link></div>
+        <div className="publicSectionHeading"><div><span className="publicEyebrow">Les enjeux</span><h2 id="topics-title">Douze thèmes pour lire la campagne avec la même grille documentaire.</h2></div><Link href="/themes">Tous les thèmes →</Link></div>
         <div className="publicTopicGrid">
           {topics.map((topic, index) => <Link href={`/themes/${topic.id}`} className="publicTopicCard" key={topic.id}>
             <span>{String(index + 1).padStart(2, "0")}</span>
@@ -117,7 +120,7 @@ export default function PublicLanding() {
       </section>
 
       <section className="publicSection candidateIndexPreview" aria-labelledby="candidates-title">
-        <div className="publicSectionHeading"><div><span className="publicEyebrow">Personnalités suivies</span><h2 id="candidates-title">Une fiche sourcée par personnalité, sans lui attribuer automatiquement le programme de son parti.</h2></div><Link href="/candidats">Toutes les fiches →</Link></div>
+        <div className="publicSectionHeading"><div><span className="publicEyebrow">Personnalités suivies</span><h2 id="candidates-title">Une fiche sourcée par personnalité, avec une règle d’attribution explicite.</h2><p>Les sources personnelles restent distinctes. Le programme d’un parti n’est attribué à une personnalité que si elle est officiellement désignée par ce parti ; la provenance du document reste toujours visible.</p></div><Link href="/candidats">Toutes les fiches →</Link></div>
         <div className="candidateNameGrid">
           {activeCandidates.slice(0, 18).map((candidate) => <Link href={`/candidats/${candidate.id}`} key={candidate.id}>
             <span className="candidateMiniDot" style={{ "--candidate-color": candidate.partyColor || "#748196" }} />
@@ -129,19 +132,19 @@ export default function PublicLanding() {
       </section>
 
       <section className="publicMethodBand">
-        <div><span className="publicEyebrow">Confiance par construction</span><h2>Quand le corpus ne sait pas, il le dit.</h2></div>
-        <p>La qualité du projet ne repose pas sur une réponse qui paraît convaincante. Elle repose sur une chaîne contrôlable : collecte, source, attribution, version, proposition atomique, retrieval, puis présentation. Une case vide signifie « non encore documenté ici », jamais « position inexistante ».</p>
-        <div className="methodLinks"><Link href="/donnees">Audit du corpus</Link><Link href="/mises-a-jour">Journal des mises à jour</Link><a href="https://github.com/TFourniax/programmes-politiques-france-2027/blob/main/METHODOLOGY.md" target="_blank" rel="noreferrer">Méthodologie ↗</a></div>
+        <div><span className="publicEyebrow">Confiance par construction</span><h2>Une réponse convaincante ne suffit pas. Elle doit être traçable.</h2></div>
+        <p>La chaîne est contrôlable de bout en bout : collecte, vérification de la source, attribution, version, proposition atomique, retrieval, puis présentation. Le moteur déterministe cherche d’abord dans les preuves structurées ; une éventuelle couche de mise en forme ne peut pas ajouter de faits politiques absents des éléments récupérés.</p>
+        <div className="methodLinks"><Link href="/donnees">Audit du corpus</Link><Link href="/mises-a-jour">Journal des mises à jour</Link><a href="https://github.com/TFourniax/programmes-politiques-france-2027/blob/main/METHODOLOGY.md" target="_blank" rel="noreferrer">Méthodologie ↗</a><a href="https://github.com/TFourniax/programmes-politiques-france-2027" target="_blank" rel="noreferrer">Code & données ↗</a></div>
       </section>
     </main>
 
     <section id="explorer" className="embeddedExplorer" aria-label="Explorateur du corpus">
-      <div className="embeddedExplorerIntro"><span className="publicEyebrow">Explorateur</span><h2>Rechercher, comparer ou remonter aux sources.</h2><p>La recherche libre est un mode d’accès au corpus parmi d’autres. Vous pouvez aussi parcourir directement les fiches, thèmes, historiques et comparaisons.</p></div>
+      <div className="embeddedExplorerIntro"><span className="publicEyebrow">Explorateur</span><h2>Posez une question. La réponse doit pouvoir remonter à ses preuves.</h2><p>La recherche libre est un mode d’accès au corpus parmi d’autres. Vous pouvez aussi parcourir les fiches, thèmes, historiques et comparaisons directement indexables.</p></div>
       <ChatApp embedded />
     </section>
 
     <footer className="publicFooter">
-      <div><strong>France 2027 · Observatoire des programmes</strong><p>Corpus ouvert, versionné et sans recommandation de vote.</p></div>
+      <div><strong>France 2027 · Observatoire des programmes</strong><p>Corpus open source, sourcé, versionné et sans recommandation de vote.</p></div>
       <nav><Link href="/candidats">Candidats</Link><Link href="/themes">Thèmes</Link><Link href="/mises-a-jour">Mises à jour</Link><Link href="/donnees">Données & méthode</Link><a href="https://github.com/TFourniax/programmes-politiques-france-2027" target="_blank" rel="noreferrer">GitHub ↗</a></nav>
     </footer>
   </>;
