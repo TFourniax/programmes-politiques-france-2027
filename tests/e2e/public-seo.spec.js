@@ -14,6 +14,14 @@ test('editorial landing and indexable corpus routes expose discoverable public d
   expect(manifestResponse.ok()).toBeTruthy();
   const manifest = await manifestResponse.json();
   expect(manifest.schemaVersion).toBe(1);
+  expect(manifest.sourceOfTruth).toBe('versioned_markdown_yaml');
+  expect(manifest.canonicalData).toContain('registries/candidates.yaml');
+  expect(manifest.canonicalData).toContain('registries/documents.yaml');
+  expect(manifest.canonicalData).toContain('corpus/2027/**/*.md');
+  expect(manifest.canonicalData).toContain('proposals/**/*.md');
+  expect(manifest.canonicalData).not.toContain('data/entities.json');
+  expect(manifest.discoveryViews).toContain('data/entities.json');
+  expect(manifest.discoveryViews).toContain('data/compass.json');
   expect(manifest.counts.proposals).toBeGreaterThanOrEqual(25);
   expect(manifest.activeCandidates.length).toBeGreaterThan(0);
   expect(manifest.topics.length).toBe(12);
@@ -38,6 +46,30 @@ test('editorial landing and indexable corpus routes expose discoverable public d
   await page.goto('/donnees');
   await expect(page.getByRole('heading', { name: 'Couverture, fraîcheur et limites visibles' })).toBeVisible();
   await expect(page.locator('.coverageMatrix')).toBeVisible();
+
+  const firstTopic = manifest.topics[0];
+  const matrixDirect = await page.evaluate((label) => {
+    const table = document.querySelector('.coverageMatrix table');
+    if (!table) return null;
+    const headers = [...table.querySelectorAll('thead th')].map((node) => node.textContent.trim());
+    const column = headers.indexOf(label);
+    if (column < 1) return null;
+    return [...table.querySelectorAll('tbody tr')].filter((row) => {
+      const cell = row.children[column];
+      const state = cell?.querySelector('.coverageState');
+      return state?.classList.contains('documented') || state?.classList.contains('partial');
+    }).length;
+  }, firstTopic.label);
+  expect(matrixDirect).not.toBeNull();
+  const topicCard = page.locator('.seoCard').filter({ hasText: firstTopic.label }).first();
+  await expect(topicCard).toContainText(`${matrixDirect} candidature(s) active(s) avec élément direct`);
+});
+
+test('historical evidence is visibly labeled on current candidate pages', async ({ page }) => {
+  await page.goto('/candidats/marine-le-pen');
+  const partyContext = page.locator('.seoSection').filter({ hasText: 'Documents du parti principal' });
+  await expect(partyContext).toBeVisible();
+  await expect(partyContext).toContainText(/document archivé — contexte historique/i);
 });
 
 test('crawler and agent discovery surfaces are internally consistent', async ({ request }) => {
@@ -60,6 +92,10 @@ test('crawler and agent discovery surfaces are internally consistent', async ({ 
   expect(llms.headers()['content-type']).toMatch(/text\/plain/);
   const llmsText = await llms.text();
   expect(llmsText).toContain('Source canonique');
+  expect(llmsText).toContain('registries/candidates.yaml');
+  expect(llmsText).toContain('registries/documents.yaml');
+  expect(llmsText).toContain('Vues de découverte dérivées, non canoniques');
+  expect(llmsText).toContain('data/entities.json');
   expect(llmsText).toContain('Une absence d\'information dans le corpus ne prouve jamais une absence de position politique');
   expect(llmsText).toContain('Numérique & IA');
   expect(llmsText).toContain('Défense & international');
