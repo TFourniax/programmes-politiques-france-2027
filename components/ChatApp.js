@@ -167,7 +167,7 @@ function latestSessionContext(messages) {
   return [...messages].reverse().find((message) => message?.sessionContext)?.sessionContext || {};
 }
 
-export default function ChatApp() {
+export default function ChatApp({ embedded = false }) {
   const [meta, setMeta] = useState(null);
   const [apiStatus, setApiStatus] = useState("checking");
   const [question, setQuestion] = useState("");
@@ -175,7 +175,7 @@ export default function ChatApp() {
   const [sourceView, setSourceView] = useState({ citations: [], numbers: null });
   const [mode, setMode] = useState("chat");
   const [answerScrollSignal, setAnswerScrollSignal] = useState(0);
-  const [messages, setMessages] = useState([{role:"assistant", text:"Posez une question sur les candidatures, programmes ou propositions actuellement documentés. Je réponds uniquement à partir du corpus de ce dépôt et je montre les sources utilisées."}]);
+  const [messages, setMessages] = useState([{role:"assistant", text:"Recherche libre dans le corpus : saisissez une question sur les candidatures, programmes ou propositions documentées. Les résultats restent limités aux sources versionnées et vérifiables du dépôt."}]);
   const messagesRef = useRef(null);
 
   useEffect(() => {
@@ -192,6 +192,24 @@ export default function ChatApp() {
       return () => { mounted = false; window.removeEventListener("popstate", onPopState); };
     }
     return () => { mounted = false; };
+  }, []);
+
+  useEffect(() => {
+    if (typeof window === "undefined") return undefined;
+    let cancelled = false;
+    let timer = null;
+    let idle = null;
+    const warm = () => {
+      if (cancelled) return;
+      fetch("/api/chat", { method: "GET", cache: "no-store" }).catch(() => {});
+    };
+    if ("requestIdleCallback" in window) idle = window.requestIdleCallback(warm, { timeout: 1800 });
+    else timer = window.setTimeout(warm, 700);
+    return () => {
+      cancelled = true;
+      if (idle !== null && "cancelIdleCallback" in window) window.cancelIdleCallback(idle);
+      if (timer !== null) window.clearTimeout(timer);
+    };
   }, []);
 
   useEffect(() => {
@@ -309,7 +327,7 @@ export default function ChatApp() {
   if (mode === "chat") {
     content = <section className="workspace">
       <div className="panel">
-        <div className="chatHeader"><h3>Questionner le corpus</h3><span className="status">{apiStatus === "ready" && <i />}{apiLabel}</span></div>
+        <div className="chatHeader"><h3>Recherche libre dans le corpus</h3><span className="status">{apiStatus === "ready" && <i />}{apiLabel}</span></div>
         <div className="messages" ref={messagesRef}>
           {messages.map((m,i) => {
             const expanded = Boolean(m.expanded && m.expandedAnswer);
@@ -328,7 +346,7 @@ export default function ChatApp() {
               {m.meta && <div className="messageMeta">{m.meta}</div>}
             </div>;
           })}
-          {loading && <div className="message assistant loadingMessage" role="status" aria-live="polite"><span className="loadingDot" />Recherche des éléments sourcés pertinents…</div>}
+          {loading && <div className="message assistant loadingMessage" role="status" aria-live="polite"><span className="loadingDot" />Recherche dans les sources du corpus…</div>}
         </div>
         <div className="composer"><div className="inputWrap"><textarea aria-label="Votre question" value={question} onChange={e=>setQuestion(e.target.value)} onKeyDown={e=>{if(e.key==="Enter"&&!e.shiftKey){e.preventDefault();ask();}}} placeholder="Ex. Compare les positions documentées sur les retraites…"/><button className="send" type="button" aria-label="Envoyer la question" title="Envoyer la question" onClick={()=>ask()} disabled={loading || !question.trim()}>↑</button></div><div className="examples">{EXAMPLES.map(x=><button className="example" key={x} onClick={()=>ask(x)}>{x}</button>)}</div></div>
       </div>
@@ -341,23 +359,24 @@ export default function ChatApp() {
   else if (mode === "quiz") content = <KnowledgeQuiz onExplore={exploreFromFeature} />;
   else content = <IssueCompass onExplore={exploreFromFeature} />;
 
-  return <main className="shell">
-    <header className="header">
+  const Root = embedded ? "div" : "main";
+  return <Root className={`shell ${embedded ? "embeddedShell" : ""}`}>
+    {!embedded && <header className="header">
       <div className="brand"><div className="brandMark">27</div><div><h1>Programmes politiques · France 2027</h1><p>Corpus public & outils d’exploration sourcés</p></div></div>
       <a className="headerLink" href="https://github.com/TFourniax/programmes-politiques-france-2027" target="_blank" rel="noreferrer">Voir le dépôt ↗</a>
-    </header>
-    <section className="hero">
+    </header>}
+    {!embedded && <section className="hero">
       <div><span className="kicker">Source ouverte · versionnée · vérifiable</span><h2>Comprendre avant de choisir.</h2><p className="heroText">Questionnez, comparez et explorez ce qui est réellement documenté dans les programmes, projets, discours et déclarations suivis par le dépôt — avec les sources, les anciennes versions et les lacunes visibles.</p></div>
       <div className="warning">Données du corpus actualisées jusqu’au <strong>{meta?.snapshotDate || "stade préélectoral"}</strong>. « Suivi », « déclaré », « investi » et « candidat officiel » sont des statuts différents. Une donnée absente du corpus n’est jamais interprétée comme une opposition.</div>
-    </section>
-    <section className="metrics">
+    </section>}
+    {!embedded && <section className="metrics">
       <div className="metric"><strong>{counts.candidates ?? "—"}</strong><span>personnalités suivies</span></div>
       <div className="metric"><strong>{counts.parties ?? "—"}</strong><span>partis & mouvements</span></div>
       <div className="metric"><strong>{counts.documents ?? "—"}</strong><span>documents indexés</span></div>
       <div className="metric"><strong>{counts.proposals ?? "—"}</strong><span>propositions atomiques</span></div>
-    </section>
+    </section>}
     <nav className="modeSwitcher modeSwitcherWide" aria-label="Modes d'exploration">
-      <button className={mode === "chat" ? "active" : ""} onClick={() => switchMode("chat")}><span>Questionner</span><small>Recherche libre</small></button>
+      <button className={mode === "chat" ? "active" : ""} onClick={() => switchMode("chat")}><span>Recherche</span><small>Question libre</small></button>
       <button className={mode === "compare" ? "active" : ""} onClick={() => switchMode("compare")}><span>Comparer</span><small>2 à 4 personnalités</small></button>
       <button className={mode === "candidates" ? "active" : ""} onClick={() => switchMode("candidates")}><span>Candidats</span><small>Fiches & timeline</small></button>
       <button className={mode === "topics" ? "active" : ""} onClick={() => switchMode("topics")}><span>Thèmes</span><small>Explorer un enjeu</small></button>
@@ -366,6 +385,6 @@ export default function ChatApp() {
       <button className={mode === "quiz" ? "active" : ""} onClick={() => switchMode("quiz")}><span>Quiz</span><small>Vérifier sa compréhension</small></button>
     </nav>
     {content}
-    <footer className="footer"><span>Les outils du site n’attribuent pas une plateforme de parti à un candidat sans source directe, ne recommandent aucun vote et ne jugent pas la faisabilité des mesures.</span><span><a href="https://github.com/TFourniax/programmes-politiques-france-2027/blob/main/METHODOLOGY.md" target="_blank">Méthodologie</a> · <a href="https://github.com/TFourniax/programmes-politiques-france-2027/blob/main/NEUTRALITY_CHARTER.md" target="_blank">Neutralité</a></span></footer>
-  </main>;
+    {!embedded && <footer className="footer"><span>Les outils du site n’attribuent pas une plateforme de parti à un candidat sans source directe, ne recommandent aucun vote et ne jugent pas la faisabilité des mesures.</span><span><a href="https://github.com/TFourniax/programmes-politiques-france-2027/blob/main/METHODOLOGY.md" target="_blank">Méthodologie</a> · <a href="https://github.com/TFourniax/programmes-politiques-france-2027/blob/main/NEUTRALITY_CHARTER.md" target="_blank">Neutralité</a></span></footer>}
+  </Root>;
 }
