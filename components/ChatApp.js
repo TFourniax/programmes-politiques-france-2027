@@ -118,12 +118,52 @@ function AnswerCard({ card, citations = [], canDeepen = false, onDeepen, onShowS
   const [deepening, setDeepening] = useState(false);
   const [deepCard, setDeepCard] = useState(null);
   const [deepCitations, setDeepCitations] = useState([]);
+  const [availabilityChecked, setAvailabilityChecked] = useState(!canDeepen);
+  const [availabilityFailed, setAvailabilityFailed] = useState(false);
   const [expansionError, setExpansionError] = useState(null);
   const [noMoreDetails, setNoMoreDetails] = useState(false);
   const candidate = card.entityType === "candidate";
   const details = deepDetailsFor(card, deepCard);
+  const hasDeepDetails = Boolean(details.summary || details.bullets.length);
   const activeCard = expanded && deepCard ? deepCard : card;
   const activeCitations = expanded && deepCard ? deepCitations : citations;
+
+  useEffect(() => {
+    if (!canDeepen || !onDeepen) {
+      setAvailabilityChecked(true);
+      return undefined;
+    }
+
+    let cancelled = false;
+    setAvailabilityChecked(false);
+    setAvailabilityFailed(false);
+    setNoMoreDetails(false);
+
+    onDeepen().then((result) => {
+      if (cancelled) return;
+      if (!result?.card) {
+        setNoMoreDetails(true);
+        return;
+      }
+      const nextDetails = deepDetailsFor(card, result.card);
+      if (!nextDetails.summary && !nextDetails.bullets.length) {
+        setNoMoreDetails(true);
+        return;
+      }
+      setDeepCard(result.card);
+      setDeepCitations(result.citations || []);
+    }).catch((error) => {
+      if (cancelled) return;
+      console.warn("Card deep availability check failed", error);
+      setAvailabilityFailed(true);
+    }).finally(() => {
+      if (!cancelled) setAvailabilityChecked(true);
+    });
+
+    return () => { cancelled = true; };
+    // onDeepen is a render-local closure; card identity is the stable trigger for this one-time availability check.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [canDeepen, card.entityId, card.title, card.subtitle]);
 
   async function toggleDeepen() {
     if (deepening) return;
@@ -132,7 +172,7 @@ function AnswerCard({ card, citations = [], canDeepen = false, onDeepen, onShowS
       setExpansionError(null);
       return;
     }
-    if (deepCard) {
+    if (deepCard && hasDeepDetails) {
       setExpanded(true);
       setExpansionError(null);
       return;
@@ -151,14 +191,19 @@ function AnswerCard({ card, citations = [], canDeepen = false, onDeepen, onShowS
       }
       setDeepCard(result.card);
       setDeepCitations(result.citations || []);
+      setAvailabilityFailed(false);
+      setAvailabilityChecked(true);
       setExpanded(true);
     } catch (error) {
       console.error("Card deep answer request failed", error);
+      setAvailabilityFailed(true);
       setExpansionError("L’approfondissement de cette card n’a pas pu être chargé. La synthèse reste disponible.");
     } finally {
       setDeepening(false);
     }
   }
+
+  const showDeepen = canDeepen && availabilityChecked && !noMoreDetails && (hasDeepDetails || availabilityFailed);
 
   return <article className={`answerCard ${candidate ? "candidateCard" : ""}`} style={{"--party-color":card.partyColor || "#748196"}}>
     <div className="cardAccent" />
@@ -176,7 +221,7 @@ function AnswerCard({ card, citations = [], canDeepen = false, onDeepen, onShowS
       {details.summary && <p className="answerCardSummary">{details.summary}</p>}
       {details.bullets.length > 0 && <ul className="answerBullets">{details.bullets.map((bullet,index)=><li key={index}>{bullet}</li>)}</ul>}
     </div>}
-    {canDeepen && !noMoreDetails && <div className="deepDiveControl cardDeepDiveControl">
+    {showDeepen && <div className="deepDiveControl cardDeepDiveControl">
       <button type="button" onClick={toggleDeepen} disabled={deepening} aria-expanded={expanded}>
         <span>{deepening ? "Approfondissement…" : expanded ? "Réduire" : "Approfondir"}</span>
         <b>{expanded ? "↑" : "↓"}</b>
