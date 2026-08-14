@@ -17,7 +17,8 @@ test('deep dive belongs to each card and expands independently inside that card'
   expect(await cardButtons.count()).toBeGreaterThan(0);
   await expect(message.locator(':scope > .deepDiveControl')).toHaveCount(0);
 
-  const firstCard = message.locator('.answerCard').filter({ has: page.getByRole('button', { name: /Approfondir/ }) }).first();
+  const expandableCards = message.locator('.answerCard:has(.deepDiveControl button)');
+  const firstCard = expandableCards.first();
   const compactBullets = await firstCard.locator('.answerBullets li').count();
   await expect(firstCard.getByRole('button', { name: /Approfondir/ })).toBeVisible();
   await expect(firstCard.getByText(/Afficher davantage de détails vérifiés pour cette card/)).toBeVisible();
@@ -31,7 +32,6 @@ test('deep dive belongs to each card and expands independently inside that card'
   const deepBullets = await firstCard.locator('.answerBullets li').count();
   expect(deepBullets).toBeGreaterThanOrEqual(compactBullets);
 
-  const expandableCards = message.locator('.answerCard').filter({ has: page.locator('.deepDiveControl button') });
   if (await expandableCards.count() > 1) {
     const secondCard = expandableCards.nth(1);
     await expect(secondCard.getByRole('button', { name: /Approfondir/ })).toBeVisible();
@@ -46,7 +46,7 @@ test('deep dive belongs to each card and expands independently inside that card'
 test('an expanded card stays inside the viewport on mobile and desktop', async ({ page }) => {
   await askRetirementQuestion(page);
   const message = page.locator('.message.structuredMessage').first();
-  const firstCard = message.locator('.answerCard').filter({ has: page.getByRole('button', { name: /Approfondir/ }) }).first();
+  const firstCard = message.locator('.answerCard:has(.deepDiveControl button)').first();
   await firstCard.getByRole('button', { name: /Approfondir/ }).click();
   await expect(firstCard.locator('.answerCardDeepDetails')).toBeVisible();
 
