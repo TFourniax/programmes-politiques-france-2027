@@ -62,6 +62,7 @@ export default function PublicLanding() {
         <nav className="publicNav" aria-label="Navigation principale">
           <Link href="/candidats">Candidats</Link>
           <Link href="/themes">Thèmes</Link>
+          <Link href="/mises-a-jour">Mises à jour</Link>
           <Link href="/?mode=compare#explorer">Comparer</Link>
           <Link href="/donnees">Données & méthode</Link>
         </nav>
@@ -130,7 +131,7 @@ export default function PublicLanding() {
       <section className="publicMethodBand">
         <div><span className="publicEyebrow">Confiance par construction</span><h2>Quand le corpus ne sait pas, il le dit.</h2></div>
         <p>La qualité du projet ne repose pas sur une réponse qui paraît convaincante. Elle repose sur une chaîne contrôlable : collecte, source, attribution, version, proposition atomique, retrieval, puis présentation. Une case vide signifie « non encore documenté ici », jamais « position inexistante ».</p>
-        <div className="methodLinks"><Link href="/donnees">Audit du corpus</Link><a href="https://github.com/TFourniax/programmes-politiques-france-2027/blob/main/METHODOLOGY.md" target="_blank" rel="noreferrer">Méthodologie ↗</a></div>
+        <div className="methodLinks"><Link href="/donnees">Audit du corpus</Link><Link href="/mises-a-jour">Journal des mises à jour</Link><a href="https://github.com/TFourniax/programmes-politiques-france-2027/blob/main/METHODOLOGY.md" target="_blank" rel="noreferrer">Méthodologie ↗</a></div>
       </section>
     </main>
 
@@ -141,7 +142,7 @@ export default function PublicLanding() {
 
     <footer className="publicFooter">
       <div><strong>France 2027 · Observatoire des programmes</strong><p>Corpus ouvert, versionné et sans recommandation de vote.</p></div>
-      <nav><Link href="/candidats">Candidats</Link><Link href="/themes">Thèmes</Link><Link href="/donnees">Données & méthode</Link><a href="https://github.com/TFourniax/programmes-politiques-france-2027" target="_blank" rel="noreferrer">GitHub ↗</a></nav>
+      <nav><Link href="/candidats">Candidats</Link><Link href="/themes">Thèmes</Link><Link href="/mises-a-jour">Mises à jour</Link><Link href="/donnees">Données & méthode</Link><a href="https://github.com/TFourniax/programmes-politiques-france-2027" target="_blank" rel="noreferrer">GitHub ↗</a></nav>
     </footer>
   </>;
 }
