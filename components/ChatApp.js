@@ -88,13 +88,78 @@ function sourceTierLabel(value) {
   return value ? "source référencée" : "";
 }
 
-function SourceRefs({ numbers = [], onShowSources }) {
+function SourceRefs({ numbers = [], citations = [], onShowSources }) {
   if (!numbers.length) return null;
-  return <div className="answerSources">{numbers.map(number => <button type="button" key={number} onClick={() => onShowSources?.([number])}>Source {number}</button>)}</div>;
+  return <div className="answerSources">{numbers.map(number => <button type="button" key={number} onClick={() => onShowSources?.([number], citations)}>Source {number}</button>)}</div>;
 }
 
-function AnswerCard({ card, onShowSources }) {
+function normalizeDetailText(value) {
+  return String(value || "").replace(/\s+/g, " ").trim().toLowerCase();
+}
+
+function deepDetailsFor(card, deepCard) {
+  if (!deepCard) return { summary: null, bullets: [] };
+  const seen = new Set([card.summary, ...(card.bullets || [])].map(normalizeDetailText).filter(Boolean));
+  const deepSummaryKey = normalizeDetailText(deepCard.summary);
+  const summary = deepSummaryKey && !seen.has(deepSummaryKey) ? deepCard.summary : null;
+  if (deepSummaryKey) seen.add(deepSummaryKey);
+  const bullets = [];
+  for (const bullet of deepCard.bullets || []) {
+    const key = normalizeDetailText(bullet);
+    if (!key || seen.has(key)) continue;
+    seen.add(key);
+    bullets.push(bullet);
+  }
+  return { summary, bullets };
+}
+
+function AnswerCard({ card, citations = [], canDeepen = false, onDeepen, onShowSources }) {
+  const [expanded, setExpanded] = useState(false);
+  const [deepening, setDeepening] = useState(false);
+  const [deepCard, setDeepCard] = useState(null);
+  const [deepCitations, setDeepCitations] = useState([]);
+  const [expansionError, setExpansionError] = useState(null);
+  const [noMoreDetails, setNoMoreDetails] = useState(false);
   const candidate = card.entityType === "candidate";
+  const details = deepDetailsFor(card, deepCard);
+  const activeCard = expanded && deepCard ? deepCard : card;
+  const activeCitations = expanded && deepCard ? deepCitations : citations;
+
+  async function toggleDeepen() {
+    if (deepening) return;
+    if (expanded) {
+      setExpanded(false);
+      setExpansionError(null);
+      return;
+    }
+    if (deepCard) {
+      setExpanded(true);
+      setExpansionError(null);
+      return;
+    }
+    if (!onDeepen) return;
+
+    setDeepening(true);
+    setExpansionError(null);
+    try {
+      const result = await onDeepen();
+      if (!result?.card) throw new Error("Carte approfondie introuvable");
+      const nextDetails = deepDetailsFor(card, result.card);
+      if (!nextDetails.summary && !nextDetails.bullets.length) {
+        setNoMoreDetails(true);
+        return;
+      }
+      setDeepCard(result.card);
+      setDeepCitations(result.citations || []);
+      setExpanded(true);
+    } catch (error) {
+      console.error("Card deep answer request failed", error);
+      setExpansionError("L’approfondissement de cette card n’a pas pu être chargé. La synthèse reste disponible.");
+    } finally {
+      setDeepening(false);
+    }
+  }
+
   return <article className={`answerCard ${candidate ? "candidateCard" : ""}`} style={{"--party-color":card.partyColor || "#748196"}}>
     <div className="cardAccent" />
     <div className="answerCardTop">
@@ -106,28 +171,48 @@ function AnswerCard({ card, onShowSources }) {
     </div>
     {card.summary && <p className="answerCardSummary">{card.summary}</p>}
     {card.bullets?.length > 0 && <ul className="answerBullets">{card.bullets.map((bullet,index)=><li key={index}>{bullet}</li>)}</ul>}
+    {expanded && deepCard && <div className="answerCardDeepDetails">
+      <span className="answerEyebrow">Détails vérifiés</span>
+      {details.summary && <p className="answerCardSummary">{details.summary}</p>}
+      {details.bullets.length > 0 && <ul className="answerBullets">{details.bullets.map((bullet,index)=><li key={index}>{bullet}</li>)}</ul>}
+    </div>}
+    {canDeepen && !noMoreDetails && <div className="deepDiveControl cardDeepDiveControl">
+      <button type="button" onClick={toggleDeepen} disabled={deepening} aria-expanded={expanded}>
+        <span>{deepening ? "Approfondissement…" : expanded ? "Réduire" : "Approfondir"}</span>
+        <b>{expanded ? "↑" : "↓"}</b>
+      </button>
+      {!expanded && !deepening && <small>Afficher davantage de détails vérifiés pour cette card</small>}
+    </div>}
+    {expansionError && <div className="deepDiveError">{expansionError}</div>}
     <div className="answerCardMeta">
-      {card.partyName && <span>{card.partyName}</span>}
-      {card.confidence && <span>{confidenceLabel(card.confidence)}</span>}
-      {card.sourceCount > 1 && <span>{card.sourceCount} sources mobilisées</span>}
-      {candidate && !card.officialCandidate && <span>pas encore « candidat officiel »</span>}
+      {activeCard.partyName && <span>{activeCard.partyName}</span>}
+      {activeCard.confidence && <span>{confidenceLabel(activeCard.confidence)}</span>}
+      {activeCard.sourceCount > 1 && <span>{activeCard.sourceCount} sources mobilisées</span>}
+      {candidate && !activeCard.officialCandidate && <span>pas encore « candidat officiel »</span>}
     </div>
-    <SourceRefs numbers={card.sourceNumbers} onShowSources={onShowSources} />
-    {card.sourceUrl && <a className="cardSourceLink" href={card.sourceUrl} target="_blank" rel="noreferrer">Vérifier la source ↗</a>}
+    <SourceRefs numbers={activeCard.sourceNumbers} citations={activeCitations} onShowSources={onShowSources} />
+    {activeCard.sourceUrl && <a className="cardSourceLink" href={activeCard.sourceUrl} target="_blank" rel="noreferrer">Vérifier la source ↗</a>}
   </article>;
 }
 
-function StructuredAnswer({ answer, onFollowUp, onShowSources }) {
+function StructuredAnswer({ answer, citations = [], expansion = { available:false }, onDeepenCard, onFollowUp, onShowSources }) {
   if (!answer || typeof answer !== "object") return null;
-  return <div className={`structuredAnswer layout-${answer.layout || "overview"} ${answer.depth === "deep" ? "deepAnswer" : ""}`}>
-    <div className="answerHeading"><span className="answerEyebrow">{answer.depth === "deep" ? "Réponse approfondie du corpus" : "Réponse du corpus"}</span><h4>{answer.title}</h4>{answer.summary && <p>{answer.summary}</p>}</div>
+  return <div className={`structuredAnswer layout-${answer.layout || "overview"}`}>
+    <div className="answerHeading"><span className="answerEyebrow">Réponse du corpus</span><h4>{answer.title}</h4>{answer.summary && <p>{answer.summary}</p>}</div>
     {answer.sections?.length > 0 && <div className="answerSections">{answer.sections.map((section,index)=><section className="answerSection" key={`${section.title}-${index}`}>
       {section.title && <h5>{section.title}</h5>}
       {section.text && <p>{section.text}</p>}
       {section.bullets?.length > 0 && <ul className="answerBullets">{section.bullets.map((bullet,i)=><li key={i}>{bullet}</li>)}</ul>}
-      <SourceRefs numbers={section.sourceNumbers} onShowSources={onShowSources} />
+      <SourceRefs numbers={section.sourceNumbers} citations={citations} onShowSources={onShowSources} />
     </section>)}</div>}
-    {answer.cards?.length > 0 && <div className={`answerGrid ${answer.layout === "comparison" ? "comparisonGrid" : ""}`}>{answer.cards.map((card,index)=><AnswerCard card={card} onShowSources={onShowSources} key={`${card.entityId || card.title}-${index}`} />)}</div>}
+    {answer.cards?.length > 0 && <div className={`answerGrid ${answer.layout === "comparison" ? "comparisonGrid" : ""}`}>{answer.cards.map((card,index)=><AnswerCard
+      card={card}
+      citations={citations}
+      canDeepen={Boolean(expansion?.available)}
+      onDeepen={() => onDeepenCard?.(card, index)}
+      onShowSources={onShowSources}
+      key={`${card.entityId || card.title}-${index}`}
+    />)}</div>}
     {answer.note && <div className="answerNote">{answer.note}</div>}
     {answer.followUps?.length > 0 && <div className="followUpBlock"><span>Pour aller plus loin</span><div className="followUps">{answer.followUps.map(item=><button key={item} onClick={()=>onFollowUp(item)}>{item}<b>↗</b></button>)}</div></div>}
   </div>;
@@ -167,6 +252,16 @@ function latestSessionContext(messages) {
   return [...messages].reverse().find((message) => message?.sessionContext)?.sessionContext || {};
 }
 
+function findDeepCard(answer, card, cardIndex) {
+  const cards = answer?.cards || [];
+  if (card.entityId) {
+    const byEntity = cards.find((item) => item.entityId === card.entityId);
+    if (byEntity) return byEntity;
+  }
+  const byIdentity = cards.find((item) => item.title === card.title && item.subtitle === card.subtitle);
+  return byIdentity || cards[cardIndex] || null;
+}
+
 export default function ChatApp({ embedded = false }) {
   const [meta, setMeta] = useState(null);
   const [apiStatus, setApiStatus] = useState("checking");
@@ -177,6 +272,7 @@ export default function ChatApp({ embedded = false }) {
   const [answerScrollSignal, setAnswerScrollSignal] = useState(0);
   const [messages, setMessages] = useState([{role:"assistant", text:"Recherche libre dans le corpus : saisissez une question sur les candidatures, programmes ou propositions documentées. Les résultats restent limités aux sources versionnées et vérifiables du dépôt."}]);
   const messagesRef = useRef(null);
+  const deepAnswerCacheRef = useRef(new Map());
 
   useEffect(() => {
     let mounted = true;
@@ -261,21 +357,13 @@ export default function ChatApp({ embedded = false }) {
     } finally { setLoading(false); }
   }
 
-  async function deepen(index) {
-    const message = messages[index];
-    if (!message?.answer || !message?.expansion?.available || message.deepening) return;
+  async function loadDeepCard(messageIndex, card, cardIndex) {
+    const message = messages[messageIndex];
+    if (!message?.answer || !message?.expansion?.available) throw new Error("Approfondissement indisponible");
 
-    if (message.expandedAnswer) {
-      const nextExpanded = !message.expanded;
-      const citations = nextExpanded ? (message.expandedCitations || message.citations || []) : (message.citations || []);
-      setMessages(current => current.map((item, itemIndex) => itemIndex === index ? { ...item, expanded: nextExpanded, expansionError: null } : item));
-      setSourceView({ citations, numbers: null });
-      return;
-    }
-
-    setMessages(current => current.map((item, itemIndex) => itemIndex === index ? { ...item, deepening: true, expansionError: null } : item));
-    try {
-      const data = await fetchJson("/api/chat", {
+    let pending = deepAnswerCacheRef.current.get(messageIndex);
+    if (!pending) {
+      pending = fetchJson("/api/chat", {
         method:"POST",
         headers:{"content-type":"application/json"},
         body:JSON.stringify({
@@ -285,25 +373,21 @@ export default function ChatApp({ embedded = false }) {
           depth:"deep",
           expansionContext:message.expansion.context || null
         })
-      });
-      const citations = data.citations || [];
-      setMessages(current => current.map((item, itemIndex) => itemIndex === index ? {
-        ...item,
-        deepening:false,
-        expanded:true,
-        expandedAnswer:data.answer,
-        expandedCitations:citations,
-        expansionError:null
-      } : item));
-      setSourceView({ citations, numbers: null });
-    } catch (error) {
-      console.error("Deep answer request failed", error);
-      setMessages(current => current.map((item, itemIndex) => itemIndex === index ? {
-        ...item,
-        deepening:false,
-        expansionError:"L’approfondissement n’a pas pu être chargé. La réponse courte reste disponible."
-      } : item));
+      }).then((data) => ({ answer:data.answer, citations:data.citations || [] }));
+      deepAnswerCacheRef.current.set(messageIndex, pending);
     }
+
+    let deep;
+    try {
+      deep = await pending;
+    } catch (error) {
+      deepAnswerCacheRef.current.delete(messageIndex);
+      throw error;
+    }
+
+    const deepCard = findDeepCard(deep.answer, card, cardIndex);
+    if (!deepCard) throw new Error("Carte approfondie introuvable");
+    return { card:deepCard, citations:deep.citations };
   }
 
   function switchMode(next) {
@@ -329,23 +413,17 @@ export default function ChatApp({ embedded = false }) {
       <div className="panel">
         <div className="chatHeader"><h3>Recherche libre dans le corpus</h3><span className="status">{apiStatus === "ready" && <i />}{apiLabel}</span></div>
         <div className="messages" ref={messagesRef}>
-          {messages.map((m,i) => {
-            const expanded = Boolean(m.expanded && m.expandedAnswer);
-            const currentAnswer = expanded ? m.expandedAnswer : m.answer;
-            const currentCitations = expanded ? (m.expandedCitations || m.citations || []) : (m.citations || []);
-            return <div data-answer-anchor={m.role === "assistant" && i > 0 ? "true" : undefined} className={`message ${m.role} ${m.answer ? "structuredMessage" : ""} ${expanded ? "expandedMessage" : ""}`} key={i}>
-              {m.answer ? <StructuredAnswer answer={currentAnswer} onFollowUp={ask} onShowSources={(numbers) => setSourceView({ citations: currentCitations, numbers })} /> : m.text}
-              {m.answer && m.expansion?.available && <div className="deepDiveControl">
-                <button type="button" onClick={() => deepen(i)} disabled={m.deepening} aria-expanded={expanded}>
-                  <span>{m.deepening ? "Approfondissement…" : expanded ? "Réduire" : "Approfondir"}</span>
-                  <b>{expanded ? "↑" : "↓"}</b>
-                </button>
-                {!expanded && !m.deepening && <small>Afficher davantage de détails vérifiés du corpus</small>}
-              </div>}
-              {m.expansionError && <div className="deepDiveError">{m.expansionError}</div>}
-              {m.meta && <div className="messageMeta">{m.meta}</div>}
-            </div>;
-          })}
+          {messages.map((m,i) => <div data-answer-anchor={m.role === "assistant" && i > 0 ? "true" : undefined} className={`message ${m.role} ${m.answer ? "structuredMessage" : ""}`} key={i}>
+            {m.answer ? <StructuredAnswer
+              answer={m.answer}
+              citations={m.citations || []}
+              expansion={m.expansion || { available:false }}
+              onDeepenCard={(card, cardIndex) => loadDeepCard(i, card, cardIndex)}
+              onFollowUp={ask}
+              onShowSources={(numbers, citations) => setSourceView({ citations:citations?.length ? citations : (m.citations || []), numbers })}
+            /> : m.text}
+            {m.meta && <div className="messageMeta">{m.meta}</div>}
+          </div>)}
           {loading && <div className="message assistant loadingMessage" role="status" aria-live="polite"><span className="loadingDot" />Recherche dans les sources du corpus…</div>}
         </div>
         <div className="composer"><div className="inputWrap"><textarea aria-label="Votre question" value={question} onChange={e=>setQuestion(e.target.value)} onKeyDown={e=>{if(e.key==="Enter"&&!e.shiftKey){e.preventDefault();ask();}}} placeholder="Ex. Compare les positions documentées sur les retraites…"/><button className="send" type="button" aria-label="Envoyer la question" title="Envoyer la question" onClick={()=>ask()} disabled={loading || !question.trim()}>↑</button></div><div className="examples">{EXAMPLES.map(x=><button className="example" key={x} onClick={()=>ask(x)}>{x}</button>)}</div></div>
