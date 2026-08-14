@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created_at": "2026-08-14T08:23:23.018331+00:00",
-  "updated_at": "2026-08-14T08:34:01.479278+00:00",
+  "updated_at": "2026-08-14T08:47:27.900033+00:00",
   "files": [
     {
       "path": "corpus/2027/auto/partys/solution-democratique/2026-03-31-d299eee14a2c.md",
@@ -19,6 +19,11 @@
       "size": 2206
     },
     {
+      "path": "corpus/2027/auto/partys/solution-democratique/2026-04-13-6010e3951347.md",
+      "sha256": "c61d8d4a92cfadeefa197dd632f7606f757a36f668fb1144d509007dc734e989",
+      "size": 1757
+    },
+    {
       "path": "corpus/2027/auto/partys/solution-democratique/2026-05-03-85f2f02fc238.md",
       "sha256": "e75822f02b39d25cef3333acc80e8997a81a8cd707bbe9979ee506a44edb2838",
       "size": 1943
@@ -29,14 +34,19 @@
       "size": 1990
     },
     {
+      "path": "corpus/2027/auto/partys/solution-democratique/2026-06-02-5071467e5aab.md",
+      "sha256": "cd5c4f840ee0946d7654ef64ee23067ba634cd89054de3c5f24f93ba529c4291",
+      "size": 2010
+    },
+    {
       "path": "proposals/auto/institutions-democratie/auto-clara-egger-institutions-democratie-ef5123784bab.md",
       "sha256": "e290109a1e54b230dae41ec207f6a4fc4bcae3091b92960fec4993983d615f38",
       "size": 1972
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-solution-democratique-institutions-democratie-4ea1c22d52ea.md",
-      "sha256": "6d07452e924dd912f4f1deae792c8c7de87317218755f3eb28d31aaff8889981",
-      "size": 2518
+      "sha256": "24d18fb690b30f23938ed7f3f6b5bd9c07aa8b2f7a7d2b6d097d2ebc329b8a71",
+      "size": 2943
     }
   ],
   "deleted_files": []

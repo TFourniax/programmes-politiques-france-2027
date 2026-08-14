@@ -818,7 +818,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-08-14T08:33:58+00:00",
+  "last_run_at": "2026-08-14T08:47:24+00:00",
   "source_chunks": {
     "049ef2342af4f07d32e93984": {
       "canonical_confirmations": [
@@ -1247,6 +1247,28 @@
       "total": 1,
       "updated_at": "2026-08-11T12:47:28+00:00",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
+    "1b1a700a4eeac9e8c8c7276e": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-08-14T08:47:01+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [
+        "2026-03-31"
+      ],
+      "sha256": "5b7cd6fa12320f5fe68fd77f37ebdc0debab08cba4eb8d577a742dec7e4c537c",
+      "source_title": "Nicolas Dupont-Aignan 2027 : est-il pour la démocratie directe ?",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-14T08:47:06+00:00",
+      "url": "https://solutiondemocratique.fr/nicolas-dupont-aignan-programme-presidentielle2027/"
     },
     "1dd97534aced615fba9d657b": {
       "claims": [],
@@ -3136,6 +3158,48 @@
       "updated_at": "2026-08-12T23:32:59+00:00",
       "url": "https://melenchon2027.fr/programme2025/livre/chapitre15/"
     },
+    "5071467e5aab3576f7ab0c3f": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "solution-democratique",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Solution Démocratique souhaite instaurer en France la démocratie directe et la décentralisation par le bas.",
+            "relevance": "direct",
+            "statement": "Solution Démocratique souhaite instaurer en France la démocratie directe et la décentralisation par le bas.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "L'affirmation selon laquelle Solution Démocratique souhaite instaurer la démocratie directe et la décentralisation par le bas en France est explicitement confirmée par la source et correspond exactement au contenu canonique existant.",
+            "related_proposal_id": "auto-solution-democratique-institutions-democratie-4ea1c22d52ea",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-08-14T08:47:14+00:00",
+      "created_at": "2026-08-14T08:47:08+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-06-02"
+      ],
+      "sha256": "9996d86efff8ca030f3a7263822e19e41b2af39c488fc9ec1eb26f9b606d100e",
+      "source_title": "Anasse Kazib 2027 : analyse de son programme et engagement réel pour la démocratie - Solution Démocratique - Parti politique pour instaurer la démocratie directe",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-14T08:47:12+00:00",
+      "url": "https://solutiondemocratique.fr/anasse-kazib-2027-analyse-de-son-programme-et-engagement-reel-pour-la-democratie/"
+    },
     "583e2e524ffc4d17aa8ac01e": {
       "claims": [],
       "created_at": "2026-08-11T12:13:27+00:00",
@@ -3292,6 +3356,48 @@
       "text_truncated": false,
       "total": 1,
       "url": "https://bsky.app/profile/marinetondelier.fr/post/3msy3ilfs3q25"
+    },
+    "6010e3951347a927b90079b8": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "solution-democratique",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Solution Démocratique souhaite instaurer en France la démocratie directe et la décentralisation par le bas.",
+            "relevance": "direct",
+            "statement": "Solution Démocratique souhaite instaurer en France la démocratie directe et la décentralisation par le bas.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La proposition est explicitement soutenue par la source (citation exacte présente dans le texte) et correspond exactement à l'entrée canonique existante.",
+            "related_proposal_id": "auto-solution-democratique-institutions-democratie-4ea1c22d52ea",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-08-14T08:47:24+00:00",
+      "created_at": "2026-08-14T08:47:17+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-04-13"
+      ],
+      "sha256": "21afa99f2e6b03f078d244afe3d54d48b7d142207dd233d34f3a85fd72e35ac7",
+      "source_title": "Delphine Batho 2027 : démocratie directe et analyse du programme",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-14T08:47:21+00:00",
+      "url": "https://solutiondemocratique.fr/delphine-batho-programme-2027/"
     },
     "65b932fa9c013c803e67df86": {
       "claims": [],
@@ -6139,6 +6245,15 @@
       "status": "not_confirmed",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
+    "150427f48739": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-14T08:47:24+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "21afa99f2e6b03f078d244afe3d54d48b7d142207dd233d34f3a85fd72e35ac7",
+      "status": "promoted",
+      "url": "https://solutiondemocratique.fr/delphine-batho-programme-2027/"
+    },
     "1f2bf87480b3": {
       "chunks_done": null,
       "chunks_total": null,
@@ -6260,6 +6375,15 @@
       "source_sha256": "1aea4513cc9198ae10837e430212603417fb948d407e9ac3ded9b9e4cad513bb",
       "status": "promoted",
       "url": "https://melenchon2027.fr/programme2025/livre/chapitre12/"
+    },
+    "400a8bd42a8a": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-14T08:47:06+00:00",
+      "reason": null,
+      "source_sha256": "5b7cd6fa12320f5fe68fd77f37ebdc0debab08cba4eb8d577a742dec7e4c537c",
+      "status": "not_confirmed",
+      "url": "https://solutiondemocratique.fr/nicolas-dupont-aignan-programme-presidentielle2027/"
     },
     "47f0f12206f4": {
       "chunks_done": null,
@@ -6579,6 +6703,15 @@
       "source_sha256": "181a8380bfef45b18c49d80b3b5d0de72a83fc476ef514ca5705b2065249f82e",
       "status": "promoted",
       "url": "https://solutiondemocratique.fr/xavier-bertrand-programme-presidentielle2027/"
+    },
+    "e3c279b77adb": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-14T08:47:14+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "9996d86efff8ca030f3a7263822e19e41b2af39c488fc9ec1eb26f9b606d100e",
+      "status": "promoted",
+      "url": "https://solutiondemocratique.fr/anasse-kazib-2027-analyse-de-son-programme-et-engagement-reel-pour-la-democratie/"
     },
     "e459f2d601a9": {
       "chunks_done": null,
