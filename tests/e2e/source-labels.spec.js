@@ -44,6 +44,9 @@ test('candidate and history explorers never expose storage enums', async ({ page
 
 test('homepage freshness copy is explicit and human-readable', async ({ page }) => {
   await page.goto('/');
-  await expect(page.locator('.warning')).toContainText(/Données du corpus actualisées jusqu’au \d{4}-\d{2}-\d{2}/);
+  const pulse = page.locator('.publicPulse');
+  await expect(pulse).toContainText(/Instantané canonique/i);
+  await expect(pulse).toContainText(/\d{1,2}\s+[A-Za-zÀ-ÿ]+\s+20\d{2}/);
+  await expect(pulse).toContainText(/Voir la couverture, la fraîcheur et les limites/i);
   await expect(page.locator('.chatHeader')).toContainText(/Corpus prêt|vérification du corpus/);
 });
