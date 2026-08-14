@@ -406,6 +406,13 @@ export default function ChatApp({ embedded = false }) {
     const message = messages[messageIndex];
     if (!message?.answer || !message?.expansion?.available) throw new Error("Approfondissement indisponible");
 
+    const preview = message.expansion.preview;
+    if (preview?.answer) {
+      const deepCard = findDeepCard(preview.answer, card, cardIndex);
+      if (!deepCard) throw new Error("Carte approfondie introuvable");
+      return { card:deepCard, citations:preview.citations || [] };
+    }
+
     let pending = deepAnswerCacheRef.current.get(messageIndex);
     if (!pending) {
       pending = fetchJson("/api/chat", {
