@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { buildCandidateProfile, buildComparison, buildQuiz, buildTopicExplorer, getExplorerMeta } from "../../../lib/explorer.js";
+import { buildCandidateProfile, buildComparison, buildQuiz, buildTopicExplorer, getExplorerMeta } from "../../../lib/explorer-attribution.js";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
