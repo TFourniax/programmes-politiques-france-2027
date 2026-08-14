@@ -1,5 +1,5 @@
-import ChatApp from "../components/ChatApp.js";
+import PublicLanding from "../components/PublicLanding.js";
 
 export default function Page() {
-  return <ChatApp />;
+  return <PublicLanding />;
 }
