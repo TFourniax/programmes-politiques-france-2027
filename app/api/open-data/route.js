@@ -42,7 +42,8 @@ export async function GET() {
     methodology: {
       sourcePriority: "primary_first",
       answerGeneration: "deterministic_extractive",
-      candidatePartyAttribution: "separate_unless_directly_sourced",
+      candidatePartyAttribution: "party_programme_only_for_official_party_candidate_with_source_provenance_preserved",
+      partyProgrammeEligibleStatuses: ["party_designated", "official_candidate"],
       absenceRule: "missing_from_corpus_is_not_a_political_position",
       historicalRule: "superseded_withdrawn_archived_records_are_excluded_from_current_answers"
     },
@@ -60,6 +61,7 @@ export async function GET() {
       status: candidate.current_status,
       statusAsOf: candidate.status_as_of,
       partyId: candidate.primary_party_id || null,
+      partyProgrammeAttributable: Boolean(candidate.primary_party_id && ["party_designated", "official_candidate"].includes(candidate.current_status)),
       page: `${siteUrl}/candidats/${candidate.id}`
     })),
     topics: (compass.questions || []).map(topic => ({
