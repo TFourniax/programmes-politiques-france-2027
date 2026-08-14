@@ -3,7 +3,7 @@ import { test, expect } from '@playwright/test';
 const INTERNAL_TECH_COPY = /(?:tier_[1-4]_|capture_fallback|generated_by|internal_database|stack trace|ECONN|TypeError|HTTP 5\d\d)/i;
 
 test('composer is understandable, keyboard friendly and exposes a polite loading state', async ({ page }) => {
-  await page.goto('/?mode=chat');
+  await page.goto('/?mode=chat#explorer');
   const textarea = page.getByRole('textbox', { name: 'Votre question' });
   const send = page.getByRole('button', { name: 'Envoyer la question' });
   await expect(textarea).toBeVisible();
@@ -12,7 +12,7 @@ test('composer is understandable, keyboard friendly and exposes a polite loading
   await textarea.fill('Que propose Renaissance sur le nucléaire ?');
   await expect(send).toBeEnabled();
   await textarea.press('Enter');
-  await expect(page.getByRole('status')).toContainText(/Recherche des éléments sourcés pertinents/i);
+  await expect(page.getByRole('status')).toContainText(/Recherche dans les sources du corpus/i);
   await expect(page.locator('.message.structuredMessage')).toHaveCount(1);
   await expect(textarea).toHaveValue('');
 
@@ -24,13 +24,17 @@ test('composer is understandable, keyboard friendly and exposes a polite loading
 
 test('a failed request is explained in plain language without leaking technical internals', async ({ page }) => {
   await page.route('**/api/chat', async route => {
+    if (route.request().method() === 'GET') {
+      await route.continue();
+      return;
+    }
     await route.fulfill({
       status: 503,
       contentType: 'application/json',
       body: JSON.stringify({ error: 'internal_database_connection_failed HTTP 503' })
     });
   });
-  await page.goto('/?mode=chat');
+  await page.goto('/?mode=chat#explorer');
   const textarea = page.getByRole('textbox', { name: 'Votre question' });
   await textarea.fill('Que propose le PS sur les retraites ?');
   await page.getByRole('button', { name: 'Envoyer la question' }).click();
@@ -41,22 +45,22 @@ test('a failed request is explained in plain language without leaking technical 
 });
 
 test('mode navigation is reversible with browser history while filters stay lightweight', async ({ page }) => {
-  await page.goto('/?mode=chat');
+  await page.goto('/?mode=chat#explorer');
   await page.getByRole('button', { name: /^Historique/ }).click();
   await expect(page).toHaveURL(/mode=history/);
   await expect(page.getByText('Historique des positions')).toBeVisible();
-  await page.getByRole('button', { name: /Questionner/ }).click();
+  await page.getByRole('button', { name: /^Recherche/ }).click();
   await expect(page).toHaveURL(/mode=chat/);
   await page.goBack();
   await expect(page).toHaveURL(/mode=history/);
   await expect(page.getByText('Historique des positions')).toBeVisible();
   await page.goForward();
   await expect(page).toHaveURL(/mode=chat/);
-  await expect(page.getByText('Questionner le corpus')).toBeVisible();
+  await expect(page.getByText('Recherche libre dans le corpus')).toBeVisible();
 });
 
 test('a contextual suggestion behaves like a real next user question', async ({ page }) => {
-  await page.goto('/?mode=chat');
+  await page.goto('/?mode=chat#explorer');
   const textarea = page.getByRole('textbox', { name: 'Votre question' });
   await textarea.fill("Quel projet propose d'abroger Parcoursup ?");
   await textarea.press('Enter');
@@ -75,7 +79,7 @@ test('a contextual suggestion behaves like a real next user question', async ({ 
 
 test('critical mobile interactions remain readable and tappable', async ({ page }, testInfo) => {
   test.skip(!testInfo.project.name.includes('mobile'));
-  await page.goto('/?mode=chat');
+  await page.goto('/?mode=chat#explorer');
   const textarea = page.getByRole('textbox', { name: 'Votre question' });
   const send = page.getByRole('button', { name: 'Envoyer la question' });
   const sendBox = await send.boundingBox();
