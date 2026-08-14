@@ -100,10 +100,14 @@ test('party programme attribution is allowed only for the officially designated 
 });
 
 test('historical evidence is visibly labeled on current candidate pages', async ({ page }) => {
-  await page.goto('/candidats/marine-le-pen');
-  const partyContext = page.locator('.seoSection').filter({ hasText: /Documents de Rassemblement national|Documents du parti principal/ });
-  await expect(partyContext).toBeVisible();
-  await expect(partyContext).toContainText(/document archivé — contexte historique/i);
+  const response = await page.goto('/candidats/marine-le-pen');
+  expect(response?.ok()).toBeTruthy();
+  await expect(page.getByRole('heading', { level: 1, name: 'Marine Le Pen' })).toBeVisible();
+  await expect(page.getByText('Historique du parti', { exact: true })).toBeVisible();
+  await expect(page.getByRole('heading', { name: 'Versions antérieures conservées pour la traçabilité' })).toBeVisible();
+  await expect(page.getByText('Programme législatif 2024 du Rassemblement national', { exact: true })).toBeVisible();
+  await expect(page.getByText(/document archivé — contexte historique/i)).toBeVisible();
+  await expect(page.getByText(/Ces sources ne sont pas utilisées comme positions actuelles/i)).toBeVisible();
 });
 
 test('crawler and agent discovery surfaces are internally consistent', async ({ request }) => {
