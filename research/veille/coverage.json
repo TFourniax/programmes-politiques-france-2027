@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "snapshot_date": "2026-08-13",
   "scope": "current_canonical_proposals",
   "summary": {
@@ -10,12 +10,80 @@
     "covered_actor_topic_cells": 66,
     "total_actor_topic_cells": 816,
     "actor_topic_coverage_ratio": 0.0809,
+    "active_candidate_covered_cells": 30,
+    "active_candidate_total_cells": 324,
+    "active_candidate_topic_coverage_ratio": 0.0926,
+    "verified_proposals": 1014,
+    "multi_source_proposals": 3,
+    "latest_evidence_at": "2026-08-13",
     "certainty_counts": {
       "explicit": 1037,
       "explicit_but_conditional": 1,
       "explicit_but_underspecified": 19
     }
   },
+  "topic_catalog": [
+    {
+      "id": "pouvoir-achat-travail",
+      "label": "Pouvoir d’achat & travail",
+      "description": "Salaires, SMIC, emploi, conditions de travail et entreprises."
+    },
+    {
+      "id": "retraites",
+      "label": "Retraites",
+      "description": "Âge de départ, durée de cotisation, financement et niveau des pensions."
+    },
+    {
+      "id": "fiscalite-redistribution",
+      "label": "Fiscalité & redistribution",
+      "description": "Impôts, patrimoine, ISF, redistribution et financement public."
+    },
+    {
+      "id": "immigration-integration",
+      "label": "Immigration & intégration",
+      "description": "Entrées, titres de séjour, étudiants étrangers, intégration et politique migratoire."
+    },
+    {
+      "id": "europe-souverainete",
+      "label": "Europe & souveraineté",
+      "description": "Union européenne, souveraineté nationale, traités et compétences européennes."
+    },
+    {
+      "id": "defense-international",
+      "label": "Défense & international",
+      "description": "Armées, dissuasion, alliances, diplomatie, aide internationale et engagements militaires."
+    },
+    {
+      "id": "ecologie-energie",
+      "label": "Écologie & énergie",
+      "description": "Transition écologique, énergie, ressources et contraintes environnementales."
+    },
+    {
+      "id": "institutions-democratie",
+      "label": "Institutions & démocratie",
+      "description": "Référendums, Constitution, démocratie directe et fonctionnement des institutions."
+    },
+    {
+      "id": "services-publics",
+      "label": "Services publics",
+      "description": "Santé, éducation, administration, accès territorial et services essentiels."
+    },
+    {
+      "id": "securite-justice",
+      "label": "Sécurité & justice",
+      "description": "Police, justice, sécurité du quotidien, sanctions et libertés publiques."
+    },
+    {
+      "id": "economie-finances",
+      "label": "Économie & finances publiques",
+      "description": "Croissance, dette, dépenses publiques, compétitivité et modèle économique."
+    },
+    {
+      "id": "numerique-ia",
+      "label": "Numérique & IA",
+      "description": "Intelligence artificielle, souveraineté numérique, données, plateformes, cybersécurité et innovation."
+    }
+  ],
   "actors": [
     {
       "id": "anasse-kazib",
@@ -31,16 +99,19 @@
       ],
       "coverage_ratio": 0.25,
       "gaps": [
-        "economie-finances",
         "fiscalite-redistribution",
         "immigration-integration",
-        "securite-justice",
-        "institutions-democratie",
-        "defense-international",
         "europe-souverainete",
+        "defense-international",
         "ecologie-energie",
+        "institutions-democratie",
+        "securite-justice",
+        "economie-finances",
         "numerique-ia"
-      ]
+      ],
+      "latest_evidence_at": null,
+      "verified_proposals": 0,
+      "multi_source_proposals": 0
     },
     {
       "id": "antoine-mikolajczak",
@@ -52,19 +123,22 @@
       "covered_topics": [],
       "coverage_ratio": 0.0,
       "gaps": [
-        "economie-finances",
         "pouvoir-achat-travail",
-        "fiscalite-redistribution",
         "retraites",
+        "fiscalite-redistribution",
         "immigration-integration",
-        "securite-justice",
-        "institutions-democratie",
-        "defense-international",
         "europe-souverainete",
+        "defense-international",
         "ecologie-energie",
+        "institutions-democratie",
         "services-publics",
+        "securite-justice",
+        "economie-finances",
         "numerique-ia"
-      ]
+      ],
+      "latest_evidence_at": null,
+      "verified_proposals": 0,
+      "multi_source_proposals": 0
     },
     {
       "id": "benjamin-lucas",
@@ -76,19 +150,22 @@
       "covered_topics": [],
       "coverage_ratio": 0.0,
       "gaps": [
-        "economie-finances",
         "pouvoir-achat-travail",
-        "fiscalite-redistribution",
         "retraites",
+        "fiscalite-redistribution",
         "immigration-integration",
-        "securite-justice",
-        "institutions-democratie",
-        "defense-international",
         "europe-souverainete",
+        "defense-international",
         "ecologie-energie",
+        "institutions-democratie",
         "services-publics",
+        "securite-justice",
+        "economie-finances",
         "numerique-ia"
-      ]
+      ],
+      "latest_evidence_at": null,
+      "verified_proposals": 0,
+      "multi_source_proposals": 0
     },
     {
       "id": "benoit-mathieu",
@@ -100,19 +177,22 @@
       "covered_topics": [],
       "coverage_ratio": 0.0,
       "gaps": [
-        "economie-finances",
         "pouvoir-achat-travail",
-        "fiscalite-redistribution",
         "retraites",
+        "fiscalite-redistribution",
         "immigration-integration",
-        "securite-justice",
-        "institutions-democratie",
-        "defense-international",
         "europe-souverainete",
+        "defense-international",
         "ecologie-energie",
+        "institutions-democratie",
         "services-publics",
+        "securite-justice",
+        "economie-finances",
         "numerique-ia"
-      ]
+      ],
+      "latest_evidence_at": null,
+      "verified_proposals": 0,
+      "multi_source_proposals": 0
     },
     {
       "id": "bernard-cazeneuve",
@@ -124,19 +204,22 @@
       "covered_topics": [],
       "coverage_ratio": 0.0,
       "gaps": [
-        "economie-finances",
         "pouvoir-achat-travail",
-        "fiscalite-redistribution",
         "retraites",
+        "fiscalite-redistribution",
         "immigration-integration",
-        "securite-justice",
-        "institutions-democratie",
-        "defense-international",
         "europe-souverainete",
+        "defense-international",
         "ecologie-energie",
+        "institutions-democratie",
         "services-publics",
+        "securite-justice",
+        "economie-finances",
         "numerique-ia"
-      ]
+      ],
+      "latest_evidence_at": null,
+      "verified_proposals": 0,
+      "multi_source_proposals": 0
     },
     {
       "id": "boris-vallaud",
@@ -148,19 +231,22 @@
       "covered_topics": [],
       "coverage_ratio": 0.0,
       "gaps": [
-        "economie-finances",
         "pouvoir-achat-travail",
-        "fiscalite-redistribution",
         "retraites",
+        "fiscalite-redistribution",
         "immigration-integration",
-        "securite-justice",
-        "institutions-democratie",
-        "defense-international",
         "europe-souverainete",
+        "defense-international",
         "ecologie-energie",
+        "institutions-democratie",
         "services-publics",
+        "securite-justice",
+        "economie-finances",
         "numerique-ia"
-      ]
+      ],
+      "latest_evidence_at": null,
+      "verified_proposals": 0,
+      "multi_source_proposals": 0
     },
     {
       "id": "bruno-le-maire",
@@ -172,19 +258,22 @@
       "covered_topics": [],
       "coverage_ratio": 0.0,
       "gaps": [
-        "economie-finances",
         "pouvoir-achat-travail",
-        "fiscalite-redistribution",
         "retraites",
+        "fiscalite-redistribution",
         "immigration-integration",
-        "securite-justice",
-        "institutions-democratie",
-        "defense-international",
         "europe-souverainete",
+        "defense-international",
         "ecologie-energie",
+        "institutions-democratie",
         "services-publics",
+        "securite-justice",
+        "economie-finances",
         "numerique-ia"
-      ]
+      ],
+      "latest_evidence_at": null,
+      "verified_proposals": 0,
+      "multi_source_proposals": 0
     },
     {
       "id": "bruno-retailleau",
@@ -202,14 +291,17 @@
       ],
       "coverage_ratio": 0.4167,
       "gaps": [
-        "economie-finances",
-        "fiscalite-redistribution",
         "retraites",
+        "fiscalite-redistribution",
         "defense-international",
         "ecologie-energie",
         "services-publics",
+        "economie-finances",
         "numerique-ia"
-      ]
+      ],
+      "latest_evidence_at": "2026-05-31",
+      "verified_proposals": 7,
+      "multi_source_proposals": 1
     },
     {
       "id": "clara-egger",
@@ -221,19 +313,22 @@
       "covered_topics": [],
       "coverage_ratio": 0.0,
       "gaps": [
-        "economie-finances",
         "pouvoir-achat-travail",
-        "fiscalite-redistribution",
         "retraites",
+        "fiscalite-redistribution",
         "immigration-integration",
-        "securite-justice",
-        "institutions-democratie",
-        "defense-international",
         "europe-souverainete",
+        "defense-international",
         "ecologie-energie",
+        "institutions-democratie",
         "services-publics",
+        "securite-justice",
+        "economie-finances",
         "numerique-ia"
-      ]
+      ],
+      "latest_evidence_at": null,
+      "verified_proposals": 0,
+      "multi_source_proposals": 0
     },
     {
       "id": "clementine-autain",
@@ -245,19 +340,22 @@
       "covered_topics": [],
       "coverage_ratio": 0.0,
       "gaps": [
-        "economie-finances",
         "pouvoir-achat-travail",
-        "fiscalite-redistribution",
         "retraites",
+        "fiscalite-redistribution",
         "immigration-integration",
-        "securite-justice",
-        "institutions-democratie",
-        "defense-international",
         "europe-souverainete",
+        "defense-international",
         "ecologie-energie",
+        "institutions-democratie",
         "services-publics",
+        "securite-justice",
+        "economie-finances",
         "numerique-ia"
-      ]
+      ],
+      "latest_evidence_at": null,
+      "verified_proposals": 0,
+      "multi_source_proposals": 0
     },
     {
       "id": "david-lisnard",
@@ -279,10 +377,13 @@
       "gaps": [
         "pouvoir-achat-travail",
         "fiscalite-redistribution",
-        "defense-international",
         "europe-souverainete",
+        "defense-international",
         "numerique-ia"
-      ]
+      ],
+      "latest_evidence_at": "2026-07-31",
+      "verified_proposals": 23,
+      "multi_source_proposals": 0
     },
     {
       "id": "debout",
@@ -294,19 +395,22 @@
       "covered_topics": [],
       "coverage_ratio": 0.0,
       "gaps": [
-        "economie-finances",
         "pouvoir-achat-travail",
-        "fiscalite-redistribution",
         "retraites",
+        "fiscalite-redistribution",
         "immigration-integration",
-        "securite-justice",
-        "institutions-democratie",
-        "defense-international",
         "europe-souverainete",
+        "defense-international",
         "ecologie-energie",
+        "institutions-democratie",
         "services-publics",
+        "securite-justice",
+        "economie-finances",
         "numerique-ia"
-      ]
+      ],
+      "latest_evidence_at": null,
+      "verified_proposals": 0,
+      "multi_source_proposals": 0
     },
     {
       "id": "debout-la-france",
@@ -321,17 +425,20 @@
       ],
       "coverage_ratio": 0.1667,
       "gaps": [
-        "economie-finances",
         "pouvoir-achat-travail",
-        "fiscalite-redistribution",
         "retraites",
+        "fiscalite-redistribution",
         "immigration-integration",
-        "securite-justice",
         "defense-international",
         "ecologie-energie",
         "services-publics",
+        "securite-justice",
+        "economie-finances",
         "numerique-ia"
-      ]
+      ],
+      "latest_evidence_at": null,
+      "verified_proposals": 0,
+      "multi_source_proposals": 0
     },
     {
       "id": "delphine-batho",
@@ -343,19 +450,22 @@
       "covered_topics": [],
       "coverage_ratio": 0.0,
       "gaps": [
-        "economie-finances",
         "pouvoir-achat-travail",
-        "fiscalite-redistribution",
         "retraites",
+        "fiscalite-redistribution",
         "immigration-integration",
-        "securite-justice",
-        "institutions-democratie",
-        "defense-international",
         "europe-souverainete",
+        "defense-international",
         "ecologie-energie",
+        "institutions-democratie",
         "services-publics",
+        "securite-justice",
+        "economie-finances",
         "numerique-ia"
-      ]
+      ],
+      "latest_evidence_at": null,
+      "verified_proposals": 0,
+      "multi_source_proposals": 0
     },
     {
       "id": "dominique-de-villepin",
@@ -367,19 +477,22 @@
       "covered_topics": [],
       "coverage_ratio": 0.0,
       "gaps": [
-        "economie-finances",
         "pouvoir-achat-travail",
-        "fiscalite-redistribution",
         "retraites",
+        "fiscalite-redistribution",
         "immigration-integration",
-        "securite-justice",
-        "institutions-democratie",
-        "defense-international",
         "europe-souverainete",
+        "defense-international",
         "ecologie-energie",
+        "institutions-democratie",
         "services-publics",
+        "securite-justice",
+        "economie-finances",
         "numerique-ia"
-      ]
+      ],
+      "latest_evidence_at": null,
+      "verified_proposals": 0,
+      "multi_source_proposals": 0
     },
     {
       "id": "fabien-roussel",
@@ -391,19 +504,22 @@
       "covered_topics": [],
       "coverage_ratio": 0.0,
       "gaps": [
-        "economie-finances",
         "pouvoir-achat-travail",
-        "fiscalite-redistribution",
         "retraites",
+        "fiscalite-redistribution",
         "immigration-integration",
-        "securite-justice",
-        "institutions-democratie",
-        "defense-international",
         "europe-souverainete",
+        "defense-international",
         "ecologie-energie",
+        "institutions-democratie",
         "services-publics",
+        "securite-justice",
+        "economie-finances",
         "numerique-ia"
-      ]
+      ],
+      "latest_evidence_at": null,
+      "verified_proposals": 0,
+      "multi_source_proposals": 0
     },
     {
       "id": "florian-philippot",
@@ -415,19 +531,22 @@
       "covered_topics": [],
       "coverage_ratio": 0.0,
       "gaps": [
-        "economie-finances",
         "pouvoir-achat-travail",
-        "fiscalite-redistribution",
         "retraites",
+        "fiscalite-redistribution",
         "immigration-integration",
-        "securite-justice",
-        "institutions-democratie",
-        "defense-international",
         "europe-souverainete",
+        "defense-international",
         "ecologie-energie",
+        "institutions-democratie",
         "services-publics",
+        "securite-justice",
+        "economie-finances",
         "numerique-ia"
-      ]
+      ],
+      "latest_evidence_at": null,
+      "verified_proposals": 0,
+      "multi_source_proposals": 0
     },
     {
       "id": "france-humaniste",
@@ -439,19 +558,22 @@
       "covered_topics": [],
       "coverage_ratio": 0.0,
       "gaps": [
-        "economie-finances",
         "pouvoir-achat-travail",
-        "fiscalite-redistribution",
         "retraites",
+        "fiscalite-redistribution",
         "immigration-integration",
-        "securite-justice",
-        "institutions-democratie",
-        "defense-international",
         "europe-souverainete",
+        "defense-international",
         "ecologie-energie",
+        "institutions-democratie",
         "services-publics",
+        "securite-justice",
+        "economie-finances",
         "numerique-ia"
-      ]
+      ],
+      "latest_evidence_at": null,
+      "verified_proposals": 0,
+      "multi_source_proposals": 0
     },
     {
       "id": "francois-asselineau",
@@ -463,19 +585,22 @@
       "covered_topics": [],
       "coverage_ratio": 0.0,
       "gaps": [
-        "economie-finances",
         "pouvoir-achat-travail",
-        "fiscalite-redistribution",
         "retraites",
+        "fiscalite-redistribution",
         "immigration-integration",
-        "securite-justice",
-        "institutions-democratie",
-        "defense-international",
         "europe-souverainete",
+        "defense-international",
         "ecologie-energie",
+        "institutions-democratie",
         "services-publics",
+        "securite-justice",
+        "economie-finances",
         "numerique-ia"
-      ]
+      ],
+      "latest_evidence_at": null,
+      "verified_proposals": 0,
+      "multi_source_proposals": 0
     },
     {
       "id": "francois-hollande",
@@ -487,19 +612,22 @@
       "covered_topics": [],
       "coverage_ratio": 0.0,
       "gaps": [
-        "economie-finances",
         "pouvoir-achat-travail",
-        "fiscalite-redistribution",
         "retraites",
+        "fiscalite-redistribution",
         "immigration-integration",
-        "securite-justice",
-        "institutions-democratie",
-        "defense-international",
         "europe-souverainete",
+        "defense-international",
         "ecologie-energie",
+        "institutions-democratie",
         "services-publics",
+        "securite-justice",
+        "economie-finances",
         "numerique-ia"
-      ]
+      ],
+      "latest_evidence_at": null,
+      "verified_proposals": 0,
+      "multi_source_proposals": 0
     },
     {
       "id": "francois-ruffin",
@@ -511,19 +639,22 @@
       "covered_topics": [],
       "coverage_ratio": 0.0,
       "gaps": [
-        "economie-finances",
         "pouvoir-achat-travail",
-        "fiscalite-redistribution",
         "retraites",
+        "fiscalite-redistribution",
         "immigration-integration",
-        "securite-justice",
-        "institutions-democratie",
-        "defense-international",
         "europe-souverainete",
+        "defense-international",
         "ecologie-energie",
+        "institutions-democratie",
         "services-publics",
+        "securite-justice",
+        "economie-finances",
         "numerique-ia"
-      ]
+      ],
+      "latest_evidence_at": null,
+      "verified_proposals": 0,
+      "multi_source_proposals": 0
     },
     {
       "id": "gabriel-attal",
@@ -535,19 +666,22 @@
       "covered_topics": [],
       "coverage_ratio": 0.0,
       "gaps": [
-        "economie-finances",
         "pouvoir-achat-travail",
-        "fiscalite-redistribution",
         "retraites",
+        "fiscalite-redistribution",
         "immigration-integration",
-        "securite-justice",
-        "institutions-democratie",
-        "defense-international",
         "europe-souverainete",
+        "defense-international",
         "ecologie-energie",
+        "institutions-democratie",
         "services-publics",
+        "securite-justice",
+        "economie-finances",
         "numerique-ia"
-      ]
+      ],
+      "latest_evidence_at": null,
+      "verified_proposals": 0,
+      "multi_source_proposals": 0
     },
     {
       "id": "generation-ecologie",
@@ -559,19 +693,22 @@
       "covered_topics": [],
       "coverage_ratio": 0.0,
       "gaps": [
-        "economie-finances",
         "pouvoir-achat-travail",
-        "fiscalite-redistribution",
         "retraites",
+        "fiscalite-redistribution",
         "immigration-integration",
-        "securite-justice",
-        "institutions-democratie",
-        "defense-international",
         "europe-souverainete",
+        "defense-international",
         "ecologie-energie",
+        "institutions-democratie",
         "services-publics",
+        "securite-justice",
+        "economie-finances",
         "numerique-ia"
-      ]
+      ],
+      "latest_evidence_at": null,
+      "verified_proposals": 0,
+      "multi_source_proposals": 0
     },
     {
       "id": "generation-s",
@@ -583,19 +720,22 @@
       "covered_topics": [],
       "coverage_ratio": 0.0,
       "gaps": [
-        "economie-finances",
         "pouvoir-achat-travail",
-        "fiscalite-redistribution",
         "retraites",
+        "fiscalite-redistribution",
         "immigration-integration",
-        "securite-justice",
-        "institutions-democratie",
-        "defense-international",
         "europe-souverainete",
+        "defense-international",
         "ecologie-energie",
+        "institutions-democratie",
         "services-publics",
+        "securite-justice",
+        "economie-finances",
         "numerique-ia"
-      ]
+      ],
+      "latest_evidence_at": null,
+      "verified_proposals": 0,
+      "multi_source_proposals": 0
     },
     {
       "id": "gerald-darmanin",
@@ -607,19 +747,22 @@
       "covered_topics": [],
       "coverage_ratio": 0.0,
       "gaps": [
-        "economie-finances",
         "pouvoir-achat-travail",
-        "fiscalite-redistribution",
         "retraites",
+        "fiscalite-redistribution",
         "immigration-integration",
-        "securite-justice",
-        "institutions-democratie",
-        "defense-international",
         "europe-souverainete",
+        "defense-international",
         "ecologie-energie",
+        "institutions-democratie",
         "services-publics",
+        "securite-justice",
+        "economie-finances",
         "numerique-ia"
-      ]
+      ],
+      "latest_evidence_at": null,
+      "verified_proposals": 0,
+      "multi_source_proposals": 0
     },
     {
       "id": "horizons",
@@ -631,19 +774,22 @@
       "covered_topics": [],
       "coverage_ratio": 0.0,
       "gaps": [
-        "economie-finances",
         "pouvoir-achat-travail",
-        "fiscalite-redistribution",
         "retraites",
+        "fiscalite-redistribution",
         "immigration-integration",
-        "securite-justice",
-        "institutions-democratie",
-        "defense-international",
         "europe-souverainete",
+        "defense-international",
         "ecologie-energie",
+        "institutions-democratie",
         "services-publics",
+        "securite-justice",
+        "economie-finances",
         "numerique-ia"
-      ]
+      ],
+      "latest_evidence_at": null,
+      "verified_proposals": 0,
+      "multi_source_proposals": 0
     },
     {
       "id": "jean-luc-melenchon",
@@ -655,19 +801,22 @@
       "covered_topics": [],
       "coverage_ratio": 0.0,
       "gaps": [
-        "economie-finances",
         "pouvoir-achat-travail",
-        "fiscalite-redistribution",
         "retraites",
+        "fiscalite-redistribution",
         "immigration-integration",
-        "securite-justice",
-        "institutions-democratie",
-        "defense-international",
         "europe-souverainete",
+        "defense-international",
         "ecologie-energie",
+        "institutions-democratie",
         "services-publics",
+        "securite-justice",
+        "economie-finances",
         "numerique-ia"
-      ]
+      ],
+      "latest_evidence_at": null,
+      "verified_proposals": 0,
+      "multi_source_proposals": 0
     },
     {
       "id": "juan-branco",
@@ -692,7 +841,10 @@
       "gaps": [
         "defense-international",
         "numerique-ia"
-      ]
+      ],
+      "latest_evidence_at": "2026-08-13",
+      "verified_proposals": 844,
+      "multi_source_proposals": 0
     },
     {
       "id": "jerome-guedj",
@@ -704,19 +856,22 @@
       "covered_topics": [],
       "coverage_ratio": 0.0,
       "gaps": [
-        "economie-finances",
         "pouvoir-achat-travail",
-        "fiscalite-redistribution",
         "retraites",
+        "fiscalite-redistribution",
         "immigration-integration",
-        "securite-justice",
-        "institutions-democratie",
-        "defense-international",
         "europe-souverainete",
+        "defense-international",
         "ecologie-energie",
+        "institutions-democratie",
         "services-publics",
+        "securite-justice",
+        "economie-finances",
         "numerique-ia"
-      ]
+      ],
+      "latest_evidence_at": null,
+      "verified_proposals": 0,
+      "multi_source_proposals": 0
     },
     {
       "id": "karim-bouamrane",
@@ -733,15 +888,18 @@
       "coverage_ratio": 0.25,
       "gaps": [
         "pouvoir-achat-travail",
-        "fiscalite-redistribution",
         "retraites",
-        "securite-justice",
-        "institutions-democratie",
+        "fiscalite-redistribution",
         "defense-international",
         "ecologie-energie",
+        "institutions-democratie",
         "services-publics",
+        "securite-justice",
         "numerique-ia"
-      ]
+      ],
+      "latest_evidence_at": null,
+      "verified_proposals": 0,
+      "multi_source_proposals": 0
     },
     {
       "id": "lapres",
@@ -753,19 +911,22 @@
       "covered_topics": [],
       "coverage_ratio": 0.0,
       "gaps": [
-        "economie-finances",
         "pouvoir-achat-travail",
-        "fiscalite-redistribution",
         "retraites",
+        "fiscalite-redistribution",
         "immigration-integration",
-        "securite-justice",
-        "institutions-democratie",
-        "defense-international",
         "europe-souverainete",
+        "defense-international",
         "ecologie-energie",
+        "institutions-democratie",
         "services-publics",
+        "securite-justice",
+        "economie-finances",
         "numerique-ia"
-      ]
+      ],
+      "latest_evidence_at": null,
+      "verified_proposals": 0,
+      "multi_source_proposals": 0
     },
     {
       "id": "la-convention",
@@ -777,19 +938,22 @@
       "covered_topics": [],
       "coverage_ratio": 0.0,
       "gaps": [
-        "economie-finances",
         "pouvoir-achat-travail",
-        "fiscalite-redistribution",
         "retraites",
+        "fiscalite-redistribution",
         "immigration-integration",
-        "securite-justice",
-        "institutions-democratie",
-        "defense-international",
         "europe-souverainete",
+        "defense-international",
         "ecologie-energie",
+        "institutions-democratie",
         "services-publics",
+        "securite-justice",
+        "economie-finances",
         "numerique-ia"
-      ]
+      ],
+      "latest_evidence_at": null,
+      "verified_proposals": 0,
+      "multi_source_proposals": 0
     },
     {
       "id": "la-france-humaine-forte",
@@ -801,19 +965,22 @@
       "covered_topics": [],
       "coverage_ratio": 0.0,
       "gaps": [
-        "economie-finances",
         "pouvoir-achat-travail",
-        "fiscalite-redistribution",
         "retraites",
+        "fiscalite-redistribution",
         "immigration-integration",
-        "securite-justice",
-        "institutions-democratie",
-        "defense-international",
         "europe-souverainete",
+        "defense-international",
         "ecologie-energie",
+        "institutions-democratie",
         "services-publics",
+        "securite-justice",
+        "economie-finances",
         "numerique-ia"
-      ]
+      ],
+      "latest_evidence_at": null,
+      "verified_proposals": 0,
+      "multi_source_proposals": 0
     },
     {
       "id": "la-france-insoumise",
@@ -838,7 +1005,10 @@
       "gaps": [
         "defense-international",
         "numerique-ia"
-      ]
+      ],
+      "latest_evidence_at": "2026-08-13",
+      "verified_proposals": 120,
+      "multi_source_proposals": 2
     },
     {
       "id": "laurent-wauquiez",
@@ -850,19 +1020,22 @@
       "covered_topics": [],
       "coverage_ratio": 0.0,
       "gaps": [
-        "economie-finances",
         "pouvoir-achat-travail",
-        "fiscalite-redistribution",
         "retraites",
+        "fiscalite-redistribution",
         "immigration-integration",
-        "securite-justice",
-        "institutions-democratie",
-        "defense-international",
         "europe-souverainete",
+        "defense-international",
         "ecologie-energie",
+        "institutions-democratie",
         "services-publics",
+        "securite-justice",
+        "economie-finances",
         "numerique-ia"
-      ]
+      ],
+      "latest_evidence_at": null,
+      "verified_proposals": 0,
+      "multi_source_proposals": 0
     },
     {
       "id": "les-patriotes",
@@ -874,19 +1047,22 @@
       "covered_topics": [],
       "coverage_ratio": 0.0,
       "gaps": [
-        "economie-finances",
         "pouvoir-achat-travail",
-        "fiscalite-redistribution",
         "retraites",
+        "fiscalite-redistribution",
         "immigration-integration",
-        "securite-justice",
-        "institutions-democratie",
-        "defense-international",
         "europe-souverainete",
+        "defense-international",
         "ecologie-energie",
+        "institutions-democratie",
         "services-publics",
+        "securite-justice",
+        "economie-finances",
         "numerique-ia"
-      ]
+      ],
+      "latest_evidence_at": null,
+      "verified_proposals": 0,
+      "multi_source_proposals": 0
     },
     {
       "id": "les-republicains",
@@ -898,19 +1074,22 @@
       "covered_topics": [],
       "coverage_ratio": 0.0,
       "gaps": [
-        "economie-finances",
         "pouvoir-achat-travail",
-        "fiscalite-redistribution",
         "retraites",
+        "fiscalite-redistribution",
         "immigration-integration",
-        "securite-justice",
-        "institutions-democratie",
-        "defense-international",
         "europe-souverainete",
+        "defense-international",
         "ecologie-energie",
+        "institutions-democratie",
         "services-publics",
+        "securite-justice",
+        "economie-finances",
         "numerique-ia"
-      ]
+      ],
+      "latest_evidence_at": null,
+      "verified_proposals": 0,
+      "multi_source_proposals": 0
     },
     {
       "id": "les-ecologistes",
@@ -922,19 +1101,22 @@
       "covered_topics": [],
       "coverage_ratio": 0.0,
       "gaps": [
-        "economie-finances",
         "pouvoir-achat-travail",
-        "fiscalite-redistribution",
         "retraites",
+        "fiscalite-redistribution",
         "immigration-integration",
-        "securite-justice",
-        "institutions-democratie",
-        "defense-international",
         "europe-souverainete",
+        "defense-international",
         "ecologie-energie",
+        "institutions-democratie",
         "services-publics",
+        "securite-justice",
+        "economie-finances",
         "numerique-ia"
-      ]
+      ],
+      "latest_evidence_at": null,
+      "verified_proposals": 0,
+      "multi_source_proposals": 0
     },
     {
       "id": "lutte-ouvriere",
@@ -946,19 +1128,22 @@
       "covered_topics": [],
       "coverage_ratio": 0.0,
       "gaps": [
-        "economie-finances",
         "pouvoir-achat-travail",
-        "fiscalite-redistribution",
         "retraites",
+        "fiscalite-redistribution",
         "immigration-integration",
-        "securite-justice",
-        "institutions-democratie",
-        "defense-international",
         "europe-souverainete",
+        "defense-international",
         "ecologie-energie",
+        "institutions-democratie",
         "services-publics",
+        "securite-justice",
+        "economie-finances",
         "numerique-ia"
-      ]
+      ],
+      "latest_evidence_at": null,
+      "verified_proposals": 0,
+      "multi_source_proposals": 0
     },
     {
       "id": "lydie-massard",
@@ -970,19 +1155,22 @@
       "covered_topics": [],
       "coverage_ratio": 0.0,
       "gaps": [
-        "economie-finances",
         "pouvoir-achat-travail",
-        "fiscalite-redistribution",
         "retraites",
+        "fiscalite-redistribution",
         "immigration-integration",
-        "securite-justice",
-        "institutions-democratie",
-        "defense-international",
         "europe-souverainete",
+        "defense-international",
         "ecologie-energie",
+        "institutions-democratie",
         "services-publics",
+        "securite-justice",
+        "economie-finances",
         "numerique-ia"
-      ]
+      ],
+      "latest_evidence_at": null,
+      "verified_proposals": 0,
+      "multi_source_proposals": 0
     },
     {
       "id": "manolo-mlekuz",
@@ -996,18 +1184,21 @@
       ],
       "coverage_ratio": 0.0833,
       "gaps": [
-        "economie-finances",
         "pouvoir-achat-travail",
-        "fiscalite-redistribution",
         "retraites",
+        "fiscalite-redistribution",
         "immigration-integration",
-        "securite-justice",
-        "defense-international",
         "europe-souverainete",
+        "defense-international",
         "ecologie-energie",
         "services-publics",
+        "securite-justice",
+        "economie-finances",
         "numerique-ia"
-      ]
+      ],
+      "latest_evidence_at": "2026-08-13",
+      "verified_proposals": 7,
+      "multi_source_proposals": 0
     },
     {
       "id": "marine-le-pen",
@@ -1019,19 +1210,22 @@
       "covered_topics": [],
       "coverage_ratio": 0.0,
       "gaps": [
-        "economie-finances",
         "pouvoir-achat-travail",
-        "fiscalite-redistribution",
         "retraites",
+        "fiscalite-redistribution",
         "immigration-integration",
-        "securite-justice",
-        "institutions-democratie",
-        "defense-international",
         "europe-souverainete",
+        "defense-international",
         "ecologie-energie",
+        "institutions-democratie",
         "services-publics",
+        "securite-justice",
+        "economie-finances",
         "numerique-ia"
-      ]
+      ],
+      "latest_evidence_at": null,
+      "verified_proposals": 0,
+      "multi_source_proposals": 0
     },
     {
       "id": "marine-tondelier",
@@ -1043,19 +1237,22 @@
       "covered_topics": [],
       "coverage_ratio": 0.0,
       "gaps": [
-        "economie-finances",
         "pouvoir-achat-travail",
-        "fiscalite-redistribution",
         "retraites",
+        "fiscalite-redistribution",
         "immigration-integration",
-        "securite-justice",
-        "institutions-democratie",
-        "defense-international",
         "europe-souverainete",
+        "defense-international",
         "ecologie-energie",
+        "institutions-democratie",
         "services-publics",
+        "securite-justice",
+        "economie-finances",
         "numerique-ia"
-      ]
+      ],
+      "latest_evidence_at": null,
+      "verified_proposals": 0,
+      "multi_source_proposals": 0
     },
     {
       "id": "nathalie-arthaud",
@@ -1067,19 +1264,22 @@
       "covered_topics": [],
       "coverage_ratio": 0.0,
       "gaps": [
-        "economie-finances",
         "pouvoir-achat-travail",
-        "fiscalite-redistribution",
         "retraites",
+        "fiscalite-redistribution",
         "immigration-integration",
-        "securite-justice",
-        "institutions-democratie",
-        "defense-international",
         "europe-souverainete",
+        "defense-international",
         "ecologie-energie",
+        "institutions-democratie",
         "services-publics",
+        "securite-justice",
+        "economie-finances",
         "numerique-ia"
-      ]
+      ],
+      "latest_evidence_at": null,
+      "verified_proposals": 0,
+      "multi_source_proposals": 0
     },
     {
       "id": "nicolas-dupont-aignan",
@@ -1093,18 +1293,21 @@
       ],
       "coverage_ratio": 0.0833,
       "gaps": [
-        "economie-finances",
         "pouvoir-achat-travail",
-        "fiscalite-redistribution",
         "retraites",
+        "fiscalite-redistribution",
         "immigration-integration",
-        "institutions-democratie",
-        "defense-international",
         "europe-souverainete",
+        "defense-international",
         "ecologie-energie",
+        "institutions-democratie",
         "services-publics",
+        "economie-finances",
         "numerique-ia"
-      ]
+      ],
+      "latest_evidence_at": "2026-08-11",
+      "verified_proposals": 1,
+      "multi_source_proposals": 0
     },
     {
       "id": "nouvelle-energie",
@@ -1124,12 +1327,15 @@
         "pouvoir-achat-travail",
         "fiscalite-redistribution",
         "immigration-integration",
-        "securite-justice",
-        "defense-international",
         "europe-souverainete",
+        "defense-international",
         "ecologie-energie",
+        "securite-justice",
         "numerique-ia"
-      ]
+      ],
+      "latest_evidence_at": "2026-08-12",
+      "verified_proposals": 5,
+      "multi_source_proposals": 0
     },
     {
       "id": "npa-revolutionnaires",
@@ -1141,19 +1347,22 @@
       "covered_topics": [],
       "coverage_ratio": 0.0,
       "gaps": [
-        "economie-finances",
         "pouvoir-achat-travail",
-        "fiscalite-redistribution",
         "retraites",
+        "fiscalite-redistribution",
         "immigration-integration",
-        "securite-justice",
-        "institutions-democratie",
-        "defense-international",
         "europe-souverainete",
+        "defense-international",
         "ecologie-energie",
+        "institutions-democratie",
         "services-publics",
+        "securite-justice",
+        "economie-finances",
         "numerique-ia"
-      ]
+      ],
+      "latest_evidence_at": null,
+      "verified_proposals": 0,
+      "multi_source_proposals": 0
     },
     {
       "id": "olivier-becht",
@@ -1165,19 +1374,22 @@
       "covered_topics": [],
       "coverage_ratio": 0.0,
       "gaps": [
-        "economie-finances",
         "pouvoir-achat-travail",
-        "fiscalite-redistribution",
         "retraites",
+        "fiscalite-redistribution",
         "immigration-integration",
-        "securite-justice",
-        "institutions-democratie",
-        "defense-international",
         "europe-souverainete",
+        "defense-international",
         "ecologie-energie",
+        "institutions-democratie",
         "services-publics",
+        "securite-justice",
+        "economie-finances",
         "numerique-ia"
-      ]
+      ],
+      "latest_evidence_at": null,
+      "verified_proposals": 0,
+      "multi_source_proposals": 0
     },
     {
       "id": "olivier-faure",
@@ -1189,19 +1401,22 @@
       "covered_topics": [],
       "coverage_ratio": 0.0,
       "gaps": [
-        "economie-finances",
         "pouvoir-achat-travail",
-        "fiscalite-redistribution",
         "retraites",
+        "fiscalite-redistribution",
         "immigration-integration",
-        "securite-justice",
-        "institutions-democratie",
-        "defense-international",
         "europe-souverainete",
+        "defense-international",
         "ecologie-energie",
+        "institutions-democratie",
         "services-publics",
+        "securite-justice",
+        "economie-finances",
         "numerique-ia"
-      ]
+      ],
+      "latest_evidence_at": null,
+      "verified_proposals": 0,
+      "multi_source_proposals": 0
     },
     {
       "id": "pcf",
@@ -1213,19 +1428,22 @@
       "covered_topics": [],
       "coverage_ratio": 0.0,
       "gaps": [
-        "economie-finances",
         "pouvoir-achat-travail",
-        "fiscalite-redistribution",
         "retraites",
+        "fiscalite-redistribution",
         "immigration-integration",
-        "securite-justice",
-        "institutions-democratie",
-        "defense-international",
         "europe-souverainete",
+        "defense-international",
         "ecologie-energie",
+        "institutions-democratie",
         "services-publics",
+        "securite-justice",
+        "economie-finances",
         "numerique-ia"
-      ]
+      ],
+      "latest_evidence_at": null,
+      "verified_proposals": 0,
+      "multi_source_proposals": 0
     },
     {
       "id": "parti-socialiste",
@@ -1243,14 +1461,17 @@
       ],
       "coverage_ratio": 0.4167,
       "gaps": [
-        "economie-finances",
         "fiscalite-redistribution",
-        "securite-justice",
-        "institutions-democratie",
-        "defense-international",
         "europe-souverainete",
+        "defense-international",
+        "institutions-democratie",
+        "securite-justice",
+        "economie-finances",
         "numerique-ia"
-      ]
+      ],
+      "latest_evidence_at": null,
+      "verified_proposals": 0,
+      "multi_source_proposals": 0
     },
     {
       "id": "philippe-brun",
@@ -1262,19 +1483,22 @@
       "covered_topics": [],
       "coverage_ratio": 0.0,
       "gaps": [
-        "economie-finances",
         "pouvoir-achat-travail",
-        "fiscalite-redistribution",
         "retraites",
+        "fiscalite-redistribution",
         "immigration-integration",
-        "securite-justice",
-        "institutions-democratie",
-        "defense-international",
         "europe-souverainete",
+        "defense-international",
         "ecologie-energie",
+        "institutions-democratie",
         "services-publics",
+        "securite-justice",
+        "economie-finances",
         "numerique-ia"
-      ]
+      ],
+      "latest_evidence_at": null,
+      "verified_proposals": 0,
+      "multi_source_proposals": 0
     },
     {
       "id": "place-publique",
@@ -1286,19 +1510,22 @@
       "covered_topics": [],
       "coverage_ratio": 0.0,
       "gaps": [
-        "economie-finances",
         "pouvoir-achat-travail",
-        "fiscalite-redistribution",
         "retraites",
+        "fiscalite-redistribution",
         "immigration-integration",
-        "securite-justice",
-        "institutions-democratie",
-        "defense-international",
         "europe-souverainete",
+        "defense-international",
         "ecologie-energie",
+        "institutions-democratie",
         "services-publics",
+        "securite-justice",
+        "economie-finances",
         "numerique-ia"
-      ]
+      ],
+      "latest_evidence_at": null,
+      "verified_proposals": 0,
+      "multi_source_proposals": 0
     },
     {
       "id": "raphael-glucksmann",
@@ -1310,19 +1537,22 @@
       "covered_topics": [],
       "coverage_ratio": 0.0,
       "gaps": [
-        "economie-finances",
         "pouvoir-achat-travail",
-        "fiscalite-redistribution",
         "retraites",
+        "fiscalite-redistribution",
         "immigration-integration",
-        "securite-justice",
-        "institutions-democratie",
-        "defense-international",
         "europe-souverainete",
+        "defense-international",
         "ecologie-energie",
+        "institutions-democratie",
         "services-publics",
+        "securite-justice",
+        "economie-finances",
         "numerique-ia"
-      ]
+      ],
+      "latest_evidence_at": null,
+      "verified_proposals": 0,
+      "multi_source_proposals": 0
     },
     {
       "id": "rassemblement-national",
@@ -1341,13 +1571,16 @@
       ],
       "coverage_ratio": 0.5,
       "gaps": [
-        "economie-finances",
         "pouvoir-achat-travail",
-        "defense-international",
         "europe-souverainete",
+        "defense-international",
         "services-publics",
+        "economie-finances",
         "numerique-ia"
-      ]
+      ],
+      "latest_evidence_at": "2026-08-11",
+      "verified_proposals": 6,
+      "multi_source_proposals": 0
     },
     {
       "id": "reconquete",
@@ -1361,18 +1594,21 @@
       ],
       "coverage_ratio": 0.0833,
       "gaps": [
-        "economie-finances",
         "pouvoir-achat-travail",
         "retraites",
         "immigration-integration",
-        "securite-justice",
-        "institutions-democratie",
-        "defense-international",
         "europe-souverainete",
+        "defense-international",
         "ecologie-energie",
+        "institutions-democratie",
         "services-publics",
+        "securite-justice",
+        "economie-finances",
         "numerique-ia"
-      ]
+      ],
+      "latest_evidence_at": "2026-08-11",
+      "verified_proposals": 1,
+      "multi_source_proposals": 0
     },
     {
       "id": "renaissance",
@@ -1391,13 +1627,16 @@
       ],
       "coverage_ratio": 0.5,
       "gaps": [
-        "economie-finances",
-        "institutions-democratie",
-        "defense-international",
         "europe-souverainete",
+        "defense-international",
+        "institutions-democratie",
         "services-publics",
+        "economie-finances",
         "numerique-ia"
-      ]
+      ],
+      "latest_evidence_at": null,
+      "verified_proposals": 0,
+      "multi_source_proposals": 0
     },
     {
       "id": "revolution-permanente",
@@ -1409,19 +1648,22 @@
       "covered_topics": [],
       "coverage_ratio": 0.0,
       "gaps": [
-        "economie-finances",
         "pouvoir-achat-travail",
-        "fiscalite-redistribution",
         "retraites",
+        "fiscalite-redistribution",
         "immigration-integration",
-        "securite-justice",
-        "institutions-democratie",
-        "defense-international",
         "europe-souverainete",
+        "defense-international",
         "ecologie-energie",
+        "institutions-democratie",
         "services-publics",
+        "securite-justice",
+        "economie-finances",
         "numerique-ia"
-      ]
+      ],
+      "latest_evidence_at": null,
+      "verified_proposals": 0,
+      "multi_source_proposals": 0
     },
     {
       "id": "sarah-knafo",
@@ -1433,19 +1675,22 @@
       "covered_topics": [],
       "coverage_ratio": 0.0,
       "gaps": [
-        "economie-finances",
         "pouvoir-achat-travail",
-        "fiscalite-redistribution",
         "retraites",
+        "fiscalite-redistribution",
         "immigration-integration",
-        "securite-justice",
-        "institutions-democratie",
-        "defense-international",
         "europe-souverainete",
+        "defense-international",
         "ecologie-energie",
+        "institutions-democratie",
         "services-publics",
+        "securite-justice",
+        "economie-finances",
         "numerique-ia"
-      ]
+      ],
+      "latest_evidence_at": null,
+      "verified_proposals": 0,
+      "multi_source_proposals": 0
     },
     {
       "id": "selma-labib",
@@ -1457,19 +1702,22 @@
       "covered_topics": [],
       "coverage_ratio": 0.0,
       "gaps": [
-        "economie-finances",
         "pouvoir-achat-travail",
-        "fiscalite-redistribution",
         "retraites",
+        "fiscalite-redistribution",
         "immigration-integration",
-        "securite-justice",
-        "institutions-democratie",
-        "defense-international",
         "europe-souverainete",
+        "defense-international",
         "ecologie-energie",
+        "institutions-democratie",
         "services-publics",
+        "securite-justice",
+        "economie-finances",
         "numerique-ia"
-      ]
+      ],
+      "latest_evidence_at": null,
+      "verified_proposals": 0,
+      "multi_source_proposals": 0
     },
     {
       "id": "solution-democratique",
@@ -1481,19 +1729,22 @@
       "covered_topics": [],
       "coverage_ratio": 0.0,
       "gaps": [
-        "economie-finances",
         "pouvoir-achat-travail",
-        "fiscalite-redistribution",
         "retraites",
+        "fiscalite-redistribution",
         "immigration-integration",
-        "securite-justice",
-        "institutions-democratie",
-        "defense-international",
         "europe-souverainete",
+        "defense-international",
         "ecologie-energie",
+        "institutions-democratie",
         "services-publics",
+        "securite-justice",
+        "economie-finances",
         "numerique-ia"
-      ]
+      ],
+      "latest_evidence_at": null,
+      "verified_proposals": 0,
+      "multi_source_proposals": 0
     },
     {
       "id": "segolene-royal",
@@ -1505,19 +1756,22 @@
       "covered_topics": [],
       "coverage_ratio": 0.0,
       "gaps": [
-        "economie-finances",
         "pouvoir-achat-travail",
-        "fiscalite-redistribution",
         "retraites",
+        "fiscalite-redistribution",
         "immigration-integration",
-        "securite-justice",
-        "institutions-democratie",
-        "defense-international",
         "europe-souverainete",
+        "defense-international",
         "ecologie-energie",
+        "institutions-democratie",
         "services-publics",
+        "securite-justice",
+        "economie-finances",
         "numerique-ia"
-      ]
+      ],
+      "latest_evidence_at": null,
+      "verified_proposals": 0,
+      "multi_source_proposals": 0
     },
     {
       "id": "upr",
@@ -1529,19 +1783,22 @@
       "covered_topics": [],
       "coverage_ratio": 0.0,
       "gaps": [
-        "economie-finances",
         "pouvoir-achat-travail",
-        "fiscalite-redistribution",
         "retraites",
+        "fiscalite-redistribution",
         "immigration-integration",
-        "securite-justice",
-        "institutions-democratie",
-        "defense-international",
         "europe-souverainete",
+        "defense-international",
         "ecologie-energie",
+        "institutions-democratie",
         "services-publics",
+        "securite-justice",
+        "economie-finances",
         "numerique-ia"
-      ]
+      ],
+      "latest_evidence_at": null,
+      "verified_proposals": 0,
+      "multi_source_proposals": 0
     },
     {
       "id": "xavier-bertrand",
@@ -1553,19 +1810,22 @@
       "covered_topics": [],
       "coverage_ratio": 0.0,
       "gaps": [
-        "economie-finances",
         "pouvoir-achat-travail",
-        "fiscalite-redistribution",
         "retraites",
+        "fiscalite-redistribution",
         "immigration-integration",
-        "securite-justice",
-        "institutions-democratie",
-        "defense-international",
         "europe-souverainete",
+        "defense-international",
         "ecologie-energie",
+        "institutions-democratie",
         "services-publics",
+        "securite-justice",
+        "economie-finances",
         "numerique-ia"
-      ]
+      ],
+      "latest_evidence_at": null,
+      "verified_proposals": 0,
+      "multi_source_proposals": 0
     },
     {
       "id": "edouard-philippe",
@@ -1577,19 +1837,22 @@
       "covered_topics": [],
       "coverage_ratio": 0.0,
       "gaps": [
-        "economie-finances",
         "pouvoir-achat-travail",
-        "fiscalite-redistribution",
         "retraites",
+        "fiscalite-redistribution",
         "immigration-integration",
-        "securite-justice",
-        "institutions-democratie",
-        "defense-international",
         "europe-souverainete",
+        "defense-international",
         "ecologie-energie",
+        "institutions-democratie",
         "services-publics",
+        "securite-justice",
+        "economie-finances",
         "numerique-ia"
-      ]
+      ],
+      "latest_evidence_at": null,
+      "verified_proposals": 0,
+      "multi_source_proposals": 0
     },
     {
       "id": "elisabeth-borne",
@@ -1601,19 +1864,22 @@
       "covered_topics": [],
       "coverage_ratio": 0.0,
       "gaps": [
-        "economie-finances",
         "pouvoir-achat-travail",
-        "fiscalite-redistribution",
         "retraites",
+        "fiscalite-redistribution",
         "immigration-integration",
-        "securite-justice",
-        "institutions-democratie",
-        "defense-international",
         "europe-souverainete",
+        "defense-international",
         "ecologie-energie",
+        "institutions-democratie",
         "services-publics",
+        "securite-justice",
+        "economie-finances",
         "numerique-ia"
-      ]
+      ],
+      "latest_evidence_at": null,
+      "verified_proposals": 0,
+      "multi_source_proposals": 0
     },
     {
       "id": "equinoxe",
@@ -1628,17 +1894,20 @@
       ],
       "coverage_ratio": 0.1667,
       "gaps": [
-        "economie-finances",
         "pouvoir-achat-travail",
         "retraites",
         "immigration-integration",
-        "securite-justice",
-        "institutions-democratie",
-        "defense-international",
         "europe-souverainete",
+        "defense-international",
+        "institutions-democratie",
         "services-publics",
+        "securite-justice",
+        "economie-finances",
         "numerique-ia"
-      ]
+      ],
+      "latest_evidence_at": null,
+      "verified_proposals": 0,
+      "multi_source_proposals": 0
     },
     {
       "id": "eric-zemmour",
@@ -1650,93 +1919,3332 @@
       "covered_topics": [],
       "coverage_ratio": 0.0,
       "gaps": [
-        "economie-finances",
         "pouvoir-achat-travail",
-        "fiscalite-redistribution",
         "retraites",
+        "fiscalite-redistribution",
         "immigration-integration",
-        "securite-justice",
-        "institutions-democratie",
-        "defense-international",
         "europe-souverainete",
+        "defense-international",
         "ecologie-energie",
+        "institutions-democratie",
         "services-publics",
+        "securite-justice",
+        "economie-finances",
         "numerique-ia"
-      ]
+      ],
+      "latest_evidence_at": null,
+      "verified_proposals": 0,
+      "multi_source_proposals": 0
     }
   ],
   "topics": [
     {
-      "id": "economie-finances",
-      "current_proposals": 99,
-      "actors_covered": 5,
-      "actor_coverage_ratio": 0.0735
-    },
-    {
       "id": "pouvoir-achat-travail",
+      "label": "Pouvoir d’achat & travail",
       "current_proposals": 40,
       "actors_covered": 6,
-      "actor_coverage_ratio": 0.0882
-    },
-    {
-      "id": "fiscalite-redistribution",
-      "current_proposals": 63,
-      "actors_covered": 6,
-      "actor_coverage_ratio": 0.0882
+      "actor_coverage_ratio": 0.0882,
+      "latest_evidence_at": "2026-08-13",
+      "verified_proposals": 32,
+      "multi_source_proposals": 0
     },
     {
       "id": "retraites",
+      "label": "Retraites",
       "current_proposals": 15,
       "actors_covered": 8,
-      "actor_coverage_ratio": 0.1176
+      "actor_coverage_ratio": 0.1176,
+      "latest_evidence_at": "2026-08-13",
+      "verified_proposals": 11,
+      "multi_source_proposals": 1
+    },
+    {
+      "id": "fiscalite-redistribution",
+      "label": "Fiscalité & redistribution",
+      "current_proposals": 63,
+      "actors_covered": 6,
+      "actor_coverage_ratio": 0.0882,
+      "latest_evidence_at": "2026-08-13",
+      "verified_proposals": 61,
+      "multi_source_proposals": 1
     },
     {
       "id": "immigration-integration",
+      "label": "Immigration & intégration",
       "current_proposals": 56,
       "actors_covered": 8,
-      "actor_coverage_ratio": 0.1176
-    },
-    {
-      "id": "securite-justice",
-      "current_proposals": 119,
-      "actors_covered": 7,
-      "actor_coverage_ratio": 0.1029
-    },
-    {
-      "id": "institutions-democratie",
-      "current_proposals": 231,
-      "actors_covered": 8,
-      "actor_coverage_ratio": 0.1176
-    },
-    {
-      "id": "defense-international",
-      "current_proposals": 0,
-      "actors_covered": 0,
-      "actor_coverage_ratio": 0.0
+      "actor_coverage_ratio": 0.1176,
+      "latest_evidence_at": "2026-08-13",
+      "verified_proposals": 49,
+      "multi_source_proposals": 0
     },
     {
       "id": "europe-souverainete",
+      "label": "Europe & souveraineté",
       "current_proposals": 95,
       "actors_covered": 5,
-      "actor_coverage_ratio": 0.0735
+      "actor_coverage_ratio": 0.0735,
+      "latest_evidence_at": "2026-08-13",
+      "verified_proposals": 93,
+      "multi_source_proposals": 0
+    },
+    {
+      "id": "defense-international",
+      "label": "Défense & international",
+      "current_proposals": 0,
+      "actors_covered": 0,
+      "actor_coverage_ratio": 0.0,
+      "latest_evidence_at": null,
+      "verified_proposals": 0,
+      "multi_source_proposals": 0
     },
     {
       "id": "ecologie-energie",
+      "label": "Écologie & énergie",
       "current_proposals": 148,
       "actors_covered": 7,
-      "actor_coverage_ratio": 0.1029
+      "actor_coverage_ratio": 0.1029,
+      "latest_evidence_at": "2026-08-13",
+      "verified_proposals": 142,
+      "multi_source_proposals": 0
+    },
+    {
+      "id": "institutions-democratie",
+      "label": "Institutions & démocratie",
+      "current_proposals": 231,
+      "actors_covered": 8,
+      "actor_coverage_ratio": 0.1176,
+      "latest_evidence_at": "2026-08-13",
+      "verified_proposals": 227,
+      "multi_source_proposals": 1
     },
     {
       "id": "services-publics",
+      "label": "Services publics",
       "current_proposals": 191,
       "actors_covered": 6,
-      "actor_coverage_ratio": 0.0882
+      "actor_coverage_ratio": 0.0882,
+      "latest_evidence_at": "2026-08-13",
+      "verified_proposals": 187,
+      "multi_source_proposals": 0
+    },
+    {
+      "id": "securite-justice",
+      "label": "Sécurité & justice",
+      "current_proposals": 119,
+      "actors_covered": 7,
+      "actor_coverage_ratio": 0.1029,
+      "latest_evidence_at": "2026-08-13",
+      "verified_proposals": 116,
+      "multi_source_proposals": 0
+    },
+    {
+      "id": "economie-finances",
+      "label": "Économie & finances publiques",
+      "current_proposals": 99,
+      "actors_covered": 5,
+      "actor_coverage_ratio": 0.0735,
+      "latest_evidence_at": "2026-08-13",
+      "verified_proposals": 96,
+      "multi_source_proposals": 0
     },
     {
       "id": "numerique-ia",
+      "label": "Numérique & IA",
       "current_proposals": 0,
       "actors_covered": 0,
-      "actor_coverage_ratio": 0.0
+      "actor_coverage_ratio": 0.0,
+      "latest_evidence_at": null,
+      "verified_proposals": 0,
+      "multi_source_proposals": 0
+    }
+  ],
+  "active_candidate_matrix": [
+    {
+      "id": "anasse-kazib",
+      "name": "Anasse Kazib",
+      "status": "declared_presidential",
+      "coverage_ratio": 0.25,
+      "current_proposals": 6,
+      "latest_evidence_at": null,
+      "topics": [
+        {
+          "id": "pouvoir-achat-travail",
+          "label": "Pouvoir d’achat & travail",
+          "covered": true,
+          "current_proposals": 4,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "retraites",
+          "label": "Retraites",
+          "covered": true,
+          "current_proposals": 1,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "fiscalite-redistribution",
+          "label": "Fiscalité & redistribution",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "immigration-integration",
+          "label": "Immigration & intégration",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "europe-souverainete",
+          "label": "Europe & souveraineté",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "defense-international",
+          "label": "Défense & international",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "ecologie-energie",
+          "label": "Écologie & énergie",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "institutions-democratie",
+          "label": "Institutions & démocratie",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "services-publics",
+          "label": "Services publics",
+          "covered": true,
+          "current_proposals": 1,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "securite-justice",
+          "label": "Sécurité & justice",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "economie-finances",
+          "label": "Économie & finances publiques",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "numerique-ia",
+          "label": "Numérique & IA",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        }
+      ]
+    },
+    {
+      "id": "antoine-mikolajczak",
+      "name": "Antoine Mikolajczak",
+      "status": "party_designated",
+      "coverage_ratio": 0.0,
+      "current_proposals": 0,
+      "latest_evidence_at": null,
+      "topics": [
+        {
+          "id": "pouvoir-achat-travail",
+          "label": "Pouvoir d’achat & travail",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "retraites",
+          "label": "Retraites",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "fiscalite-redistribution",
+          "label": "Fiscalité & redistribution",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "immigration-integration",
+          "label": "Immigration & intégration",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "europe-souverainete",
+          "label": "Europe & souveraineté",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "defense-international",
+          "label": "Défense & international",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "ecologie-energie",
+          "label": "Écologie & énergie",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "institutions-democratie",
+          "label": "Institutions & démocratie",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "services-publics",
+          "label": "Services publics",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "securite-justice",
+          "label": "Sécurité & justice",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "economie-finances",
+          "label": "Économie & finances publiques",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "numerique-ia",
+          "label": "Numérique & IA",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        }
+      ]
+    },
+    {
+      "id": "benoit-mathieu",
+      "name": "Benoît Mathieu",
+      "status": "declared_presidential",
+      "coverage_ratio": 0.0,
+      "current_proposals": 0,
+      "latest_evidence_at": null,
+      "topics": [
+        {
+          "id": "pouvoir-achat-travail",
+          "label": "Pouvoir d’achat & travail",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "retraites",
+          "label": "Retraites",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "fiscalite-redistribution",
+          "label": "Fiscalité & redistribution",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "immigration-integration",
+          "label": "Immigration & intégration",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "europe-souverainete",
+          "label": "Europe & souveraineté",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "defense-international",
+          "label": "Défense & international",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "ecologie-energie",
+          "label": "Écologie & énergie",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "institutions-democratie",
+          "label": "Institutions & démocratie",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "services-publics",
+          "label": "Services publics",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "securite-justice",
+          "label": "Sécurité & justice",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "economie-finances",
+          "label": "Économie & finances publiques",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "numerique-ia",
+          "label": "Numérique & IA",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        }
+      ]
+    },
+    {
+      "id": "bernard-cazeneuve",
+      "name": "Bernard Cazeneuve",
+      "status": "declared_presidential",
+      "coverage_ratio": 0.0,
+      "current_proposals": 0,
+      "latest_evidence_at": null,
+      "topics": [
+        {
+          "id": "pouvoir-achat-travail",
+          "label": "Pouvoir d’achat & travail",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "retraites",
+          "label": "Retraites",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "fiscalite-redistribution",
+          "label": "Fiscalité & redistribution",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "immigration-integration",
+          "label": "Immigration & intégration",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "europe-souverainete",
+          "label": "Europe & souveraineté",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "defense-international",
+          "label": "Défense & international",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "ecologie-energie",
+          "label": "Écologie & énergie",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "institutions-democratie",
+          "label": "Institutions & démocratie",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "services-publics",
+          "label": "Services publics",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "securite-justice",
+          "label": "Sécurité & justice",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "economie-finances",
+          "label": "Économie & finances publiques",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "numerique-ia",
+          "label": "Numérique & IA",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        }
+      ]
+    },
+    {
+      "id": "bruno-retailleau",
+      "name": "Bruno Retailleau",
+      "status": "party_designated",
+      "coverage_ratio": 0.4167,
+      "current_proposals": 10,
+      "latest_evidence_at": "2026-05-31",
+      "topics": [
+        {
+          "id": "pouvoir-achat-travail",
+          "label": "Pouvoir d’achat & travail",
+          "covered": true,
+          "current_proposals": 1,
+          "latest_evidence_at": "2026-02-12",
+          "verified_proposals": 1,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "retraites",
+          "label": "Retraites",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "fiscalite-redistribution",
+          "label": "Fiscalité & redistribution",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "immigration-integration",
+          "label": "Immigration & intégration",
+          "covered": true,
+          "current_proposals": 3,
+          "latest_evidence_at": "2026-05-31",
+          "verified_proposals": 1,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "europe-souverainete",
+          "label": "Europe & souveraineté",
+          "covered": true,
+          "current_proposals": 1,
+          "latest_evidence_at": "2026-02-12",
+          "verified_proposals": 1,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "defense-international",
+          "label": "Défense & international",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "ecologie-energie",
+          "label": "Écologie & énergie",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "institutions-democratie",
+          "label": "Institutions & démocratie",
+          "covered": true,
+          "current_proposals": 3,
+          "latest_evidence_at": "2026-05-31",
+          "verified_proposals": 2,
+          "multi_source_proposals": 1
+        },
+        {
+          "id": "services-publics",
+          "label": "Services publics",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "securite-justice",
+          "label": "Sécurité & justice",
+          "covered": true,
+          "current_proposals": 2,
+          "latest_evidence_at": "2026-02-12",
+          "verified_proposals": 2,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "economie-finances",
+          "label": "Économie & finances publiques",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "numerique-ia",
+          "label": "Numérique & IA",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        }
+      ]
+    },
+    {
+      "id": "clara-egger",
+      "name": "Clara Egger",
+      "status": "declared_presidential",
+      "coverage_ratio": 0.0,
+      "current_proposals": 0,
+      "latest_evidence_at": null,
+      "topics": [
+        {
+          "id": "pouvoir-achat-travail",
+          "label": "Pouvoir d’achat & travail",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "retraites",
+          "label": "Retraites",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "fiscalite-redistribution",
+          "label": "Fiscalité & redistribution",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "immigration-integration",
+          "label": "Immigration & intégration",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "europe-souverainete",
+          "label": "Europe & souveraineté",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "defense-international",
+          "label": "Défense & international",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "ecologie-energie",
+          "label": "Écologie & énergie",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "institutions-democratie",
+          "label": "Institutions & démocratie",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "services-publics",
+          "label": "Services publics",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "securite-justice",
+          "label": "Sécurité & justice",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "economie-finances",
+          "label": "Économie & finances publiques",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "numerique-ia",
+          "label": "Numérique & IA",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        }
+      ]
+    },
+    {
+      "id": "david-lisnard",
+      "name": "David Lisnard",
+      "status": "declared_presidential",
+      "coverage_ratio": 0.5833,
+      "current_proposals": 29,
+      "latest_evidence_at": "2026-07-31",
+      "topics": [
+        {
+          "id": "pouvoir-achat-travail",
+          "label": "Pouvoir d’achat & travail",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "retraites",
+          "label": "Retraites",
+          "covered": true,
+          "current_proposals": 1,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "fiscalite-redistribution",
+          "label": "Fiscalité & redistribution",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "immigration-integration",
+          "label": "Immigration & intégration",
+          "covered": true,
+          "current_proposals": 9,
+          "latest_evidence_at": "2026-07-31",
+          "verified_proposals": 8,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "europe-souverainete",
+          "label": "Europe & souveraineté",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "defense-international",
+          "label": "Défense & international",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "ecologie-energie",
+          "label": "Écologie & énergie",
+          "covered": true,
+          "current_proposals": 2,
+          "latest_evidence_at": "2026-07-31",
+          "verified_proposals": 2,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "institutions-democratie",
+          "label": "Institutions & démocratie",
+          "covered": true,
+          "current_proposals": 1,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "services-publics",
+          "label": "Services publics",
+          "covered": true,
+          "current_proposals": 6,
+          "latest_evidence_at": "2026-07-31",
+          "verified_proposals": 5,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "securite-justice",
+          "label": "Sécurité & justice",
+          "covered": true,
+          "current_proposals": 6,
+          "latest_evidence_at": "2026-07-31",
+          "verified_proposals": 6,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "economie-finances",
+          "label": "Économie & finances publiques",
+          "covered": true,
+          "current_proposals": 4,
+          "latest_evidence_at": "2026-07-31",
+          "verified_proposals": 2,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "numerique-ia",
+          "label": "Numérique & IA",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        }
+      ]
+    },
+    {
+      "id": "delphine-batho",
+      "name": "Delphine Batho",
+      "status": "party_designated",
+      "coverage_ratio": 0.0,
+      "current_proposals": 0,
+      "latest_evidence_at": null,
+      "topics": [
+        {
+          "id": "pouvoir-achat-travail",
+          "label": "Pouvoir d’achat & travail",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "retraites",
+          "label": "Retraites",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "fiscalite-redistribution",
+          "label": "Fiscalité & redistribution",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "immigration-integration",
+          "label": "Immigration & intégration",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "europe-souverainete",
+          "label": "Europe & souveraineté",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "defense-international",
+          "label": "Défense & international",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "ecologie-energie",
+          "label": "Écologie & énergie",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "institutions-democratie",
+          "label": "Institutions & démocratie",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "services-publics",
+          "label": "Services publics",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "securite-justice",
+          "label": "Sécurité & justice",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "economie-finances",
+          "label": "Économie & finances publiques",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "numerique-ia",
+          "label": "Numérique & IA",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        }
+      ]
+    },
+    {
+      "id": "florian-philippot",
+      "name": "Florian Philippot",
+      "status": "declared_conditional",
+      "coverage_ratio": 0.0,
+      "current_proposals": 0,
+      "latest_evidence_at": null,
+      "topics": [
+        {
+          "id": "pouvoir-achat-travail",
+          "label": "Pouvoir d’achat & travail",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "retraites",
+          "label": "Retraites",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "fiscalite-redistribution",
+          "label": "Fiscalité & redistribution",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "immigration-integration",
+          "label": "Immigration & intégration",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "europe-souverainete",
+          "label": "Europe & souveraineté",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "defense-international",
+          "label": "Défense & international",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "ecologie-energie",
+          "label": "Écologie & énergie",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "institutions-democratie",
+          "label": "Institutions & démocratie",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "services-publics",
+          "label": "Services publics",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "securite-justice",
+          "label": "Sécurité & justice",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "economie-finances",
+          "label": "Économie & finances publiques",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "numerique-ia",
+          "label": "Numérique & IA",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        }
+      ]
+    },
+    {
+      "id": "francois-asselineau",
+      "name": "François Asselineau",
+      "status": "declared_presidential",
+      "coverage_ratio": 0.0,
+      "current_proposals": 0,
+      "latest_evidence_at": null,
+      "topics": [
+        {
+          "id": "pouvoir-achat-travail",
+          "label": "Pouvoir d’achat & travail",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "retraites",
+          "label": "Retraites",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "fiscalite-redistribution",
+          "label": "Fiscalité & redistribution",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "immigration-integration",
+          "label": "Immigration & intégration",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "europe-souverainete",
+          "label": "Europe & souveraineté",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "defense-international",
+          "label": "Défense & international",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "ecologie-energie",
+          "label": "Écologie & énergie",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "institutions-democratie",
+          "label": "Institutions & démocratie",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "services-publics",
+          "label": "Services publics",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "securite-justice",
+          "label": "Sécurité & justice",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "economie-finances",
+          "label": "Économie & finances publiques",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "numerique-ia",
+          "label": "Numérique & IA",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        }
+      ]
+    },
+    {
+      "id": "francois-ruffin",
+      "name": "François Ruffin",
+      "status": "declared_primary",
+      "coverage_ratio": 0.0,
+      "current_proposals": 0,
+      "latest_evidence_at": null,
+      "topics": [
+        {
+          "id": "pouvoir-achat-travail",
+          "label": "Pouvoir d’achat & travail",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "retraites",
+          "label": "Retraites",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "fiscalite-redistribution",
+          "label": "Fiscalité & redistribution",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "immigration-integration",
+          "label": "Immigration & intégration",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "europe-souverainete",
+          "label": "Europe & souveraineté",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "defense-international",
+          "label": "Défense & international",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "ecologie-energie",
+          "label": "Écologie & énergie",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "institutions-democratie",
+          "label": "Institutions & démocratie",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "services-publics",
+          "label": "Services publics",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "securite-justice",
+          "label": "Sécurité & justice",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "economie-finances",
+          "label": "Économie & finances publiques",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "numerique-ia",
+          "label": "Numérique & IA",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        }
+      ]
+    },
+    {
+      "id": "gabriel-attal",
+      "name": "Gabriel Attal",
+      "status": "declared_presidential",
+      "coverage_ratio": 0.0,
+      "current_proposals": 0,
+      "latest_evidence_at": null,
+      "topics": [
+        {
+          "id": "pouvoir-achat-travail",
+          "label": "Pouvoir d’achat & travail",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "retraites",
+          "label": "Retraites",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "fiscalite-redistribution",
+          "label": "Fiscalité & redistribution",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "immigration-integration",
+          "label": "Immigration & intégration",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "europe-souverainete",
+          "label": "Europe & souveraineté",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "defense-international",
+          "label": "Défense & international",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "ecologie-energie",
+          "label": "Écologie & énergie",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "institutions-democratie",
+          "label": "Institutions & démocratie",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "services-publics",
+          "label": "Services publics",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "securite-justice",
+          "label": "Sécurité & justice",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "economie-finances",
+          "label": "Économie & finances publiques",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "numerique-ia",
+          "label": "Numérique & IA",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        }
+      ]
+    },
+    {
+      "id": "jean-luc-melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "status": "declared_presidential",
+      "coverage_ratio": 0.0,
+      "current_proposals": 0,
+      "latest_evidence_at": null,
+      "topics": [
+        {
+          "id": "pouvoir-achat-travail",
+          "label": "Pouvoir d’achat & travail",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "retraites",
+          "label": "Retraites",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "fiscalite-redistribution",
+          "label": "Fiscalité & redistribution",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "immigration-integration",
+          "label": "Immigration & intégration",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "europe-souverainete",
+          "label": "Europe & souveraineté",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "defense-international",
+          "label": "Défense & international",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "ecologie-energie",
+          "label": "Écologie & énergie",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "institutions-democratie",
+          "label": "Institutions & démocratie",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "services-publics",
+          "label": "Services publics",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "securite-justice",
+          "label": "Sécurité & justice",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "economie-finances",
+          "label": "Économie & finances publiques",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "numerique-ia",
+          "label": "Numérique & IA",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        }
+      ]
+    },
+    {
+      "id": "juan-branco",
+      "name": "Juan Branco",
+      "status": "declared_presidential",
+      "coverage_ratio": 0.8333,
+      "current_proposals": 844,
+      "latest_evidence_at": "2026-08-13",
+      "topics": [
+        {
+          "id": "pouvoir-achat-travail",
+          "label": "Pouvoir d’achat & travail",
+          "covered": true,
+          "current_proposals": 21,
+          "latest_evidence_at": "2026-08-13",
+          "verified_proposals": 21,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "retraites",
+          "label": "Retraites",
+          "covered": true,
+          "current_proposals": 8,
+          "latest_evidence_at": "2026-08-13",
+          "verified_proposals": 8,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "fiscalite-redistribution",
+          "label": "Fiscalité & redistribution",
+          "covered": true,
+          "current_proposals": 52,
+          "latest_evidence_at": "2026-08-13",
+          "verified_proposals": 52,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "immigration-integration",
+          "label": "Immigration & intégration",
+          "covered": true,
+          "current_proposals": 36,
+          "latest_evidence_at": "2026-08-13",
+          "verified_proposals": 36,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "europe-souverainete",
+          "label": "Europe & souveraineté",
+          "covered": true,
+          "current_proposals": 76,
+          "latest_evidence_at": "2026-08-13",
+          "verified_proposals": 76,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "defense-international",
+          "label": "Défense & international",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "ecologie-energie",
+          "label": "Écologie & énergie",
+          "covered": true,
+          "current_proposals": 113,
+          "latest_evidence_at": "2026-08-13",
+          "verified_proposals": 113,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "institutions-democratie",
+          "label": "Institutions & démocratie",
+          "covered": true,
+          "current_proposals": 205,
+          "latest_evidence_at": "2026-08-13",
+          "verified_proposals": 205,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "services-publics",
+          "label": "Services publics",
+          "covered": true,
+          "current_proposals": 156,
+          "latest_evidence_at": "2026-08-13",
+          "verified_proposals": 156,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "securite-justice",
+          "label": "Sécurité & justice",
+          "covered": true,
+          "current_proposals": 98,
+          "latest_evidence_at": "2026-08-13",
+          "verified_proposals": 98,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "economie-finances",
+          "label": "Économie & finances publiques",
+          "covered": true,
+          "current_proposals": 79,
+          "latest_evidence_at": "2026-08-13",
+          "verified_proposals": 79,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "numerique-ia",
+          "label": "Numérique & IA",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        }
+      ]
+    },
+    {
+      "id": "jerome-guedj",
+      "name": "Jérôme Guedj",
+      "status": "declared_primary",
+      "coverage_ratio": 0.0,
+      "current_proposals": 0,
+      "latest_evidence_at": null,
+      "topics": [
+        {
+          "id": "pouvoir-achat-travail",
+          "label": "Pouvoir d’achat & travail",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "retraites",
+          "label": "Retraites",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "fiscalite-redistribution",
+          "label": "Fiscalité & redistribution",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "immigration-integration",
+          "label": "Immigration & intégration",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "europe-souverainete",
+          "label": "Europe & souveraineté",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "defense-international",
+          "label": "Défense & international",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "ecologie-energie",
+          "label": "Écologie & énergie",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "institutions-democratie",
+          "label": "Institutions & démocratie",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "services-publics",
+          "label": "Services publics",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "securite-justice",
+          "label": "Sécurité & justice",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "economie-finances",
+          "label": "Économie & finances publiques",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "numerique-ia",
+          "label": "Numérique & IA",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        }
+      ]
+    },
+    {
+      "id": "karim-bouamrane",
+      "name": "Karim Bouamrane",
+      "status": "declared_primary",
+      "coverage_ratio": 0.25,
+      "current_proposals": 3,
+      "latest_evidence_at": null,
+      "topics": [
+        {
+          "id": "pouvoir-achat-travail",
+          "label": "Pouvoir d’achat & travail",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "retraites",
+          "label": "Retraites",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "fiscalite-redistribution",
+          "label": "Fiscalité & redistribution",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "immigration-integration",
+          "label": "Immigration & intégration",
+          "covered": true,
+          "current_proposals": 1,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "europe-souverainete",
+          "label": "Europe & souveraineté",
+          "covered": true,
+          "current_proposals": 1,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "defense-international",
+          "label": "Défense & international",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "ecologie-energie",
+          "label": "Écologie & énergie",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "institutions-democratie",
+          "label": "Institutions & démocratie",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "services-publics",
+          "label": "Services publics",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "securite-justice",
+          "label": "Sécurité & justice",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "economie-finances",
+          "label": "Économie & finances publiques",
+          "covered": true,
+          "current_proposals": 1,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "numerique-ia",
+          "label": "Numérique & IA",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        }
+      ]
+    },
+    {
+      "id": "lydie-massard",
+      "name": "Lydie Massard",
+      "status": "declared_presidential",
+      "coverage_ratio": 0.0,
+      "current_proposals": 0,
+      "latest_evidence_at": null,
+      "topics": [
+        {
+          "id": "pouvoir-achat-travail",
+          "label": "Pouvoir d’achat & travail",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "retraites",
+          "label": "Retraites",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "fiscalite-redistribution",
+          "label": "Fiscalité & redistribution",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "immigration-integration",
+          "label": "Immigration & intégration",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "europe-souverainete",
+          "label": "Europe & souveraineté",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "defense-international",
+          "label": "Défense & international",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "ecologie-energie",
+          "label": "Écologie & énergie",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "institutions-democratie",
+          "label": "Institutions & démocratie",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "services-publics",
+          "label": "Services publics",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "securite-justice",
+          "label": "Sécurité & justice",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "economie-finances",
+          "label": "Économie & finances publiques",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "numerique-ia",
+          "label": "Numérique & IA",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        }
+      ]
+    },
+    {
+      "id": "manolo-mlekuz",
+      "name": "Manolo Mlekuz",
+      "status": "declared_presidential",
+      "coverage_ratio": 0.0833,
+      "current_proposals": 7,
+      "latest_evidence_at": "2026-08-13",
+      "topics": [
+        {
+          "id": "pouvoir-achat-travail",
+          "label": "Pouvoir d’achat & travail",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "retraites",
+          "label": "Retraites",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "fiscalite-redistribution",
+          "label": "Fiscalité & redistribution",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "immigration-integration",
+          "label": "Immigration & intégration",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "europe-souverainete",
+          "label": "Europe & souveraineté",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "defense-international",
+          "label": "Défense & international",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "ecologie-energie",
+          "label": "Écologie & énergie",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "institutions-democratie",
+          "label": "Institutions & démocratie",
+          "covered": true,
+          "current_proposals": 7,
+          "latest_evidence_at": "2026-08-13",
+          "verified_proposals": 7,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "services-publics",
+          "label": "Services publics",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "securite-justice",
+          "label": "Sécurité & justice",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "economie-finances",
+          "label": "Économie & finances publiques",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "numerique-ia",
+          "label": "Numérique & IA",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        }
+      ]
+    },
+    {
+      "id": "marine-le-pen",
+      "name": "Marine Le Pen",
+      "status": "declared_presidential",
+      "coverage_ratio": 0.0,
+      "current_proposals": 0,
+      "latest_evidence_at": null,
+      "topics": [
+        {
+          "id": "pouvoir-achat-travail",
+          "label": "Pouvoir d’achat & travail",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "retraites",
+          "label": "Retraites",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "fiscalite-redistribution",
+          "label": "Fiscalité & redistribution",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "immigration-integration",
+          "label": "Immigration & intégration",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "europe-souverainete",
+          "label": "Europe & souveraineté",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "defense-international",
+          "label": "Défense & international",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "ecologie-energie",
+          "label": "Écologie & énergie",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "institutions-democratie",
+          "label": "Institutions & démocratie",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "services-publics",
+          "label": "Services publics",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "securite-justice",
+          "label": "Sécurité & justice",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "economie-finances",
+          "label": "Économie & finances publiques",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "numerique-ia",
+          "label": "Numérique & IA",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        }
+      ]
+    },
+    {
+      "id": "marine-tondelier",
+      "name": "Marine Tondelier",
+      "status": "declared_primary",
+      "coverage_ratio": 0.0,
+      "current_proposals": 0,
+      "latest_evidence_at": null,
+      "topics": [
+        {
+          "id": "pouvoir-achat-travail",
+          "label": "Pouvoir d’achat & travail",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "retraites",
+          "label": "Retraites",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "fiscalite-redistribution",
+          "label": "Fiscalité & redistribution",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "immigration-integration",
+          "label": "Immigration & intégration",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "europe-souverainete",
+          "label": "Europe & souveraineté",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "defense-international",
+          "label": "Défense & international",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "ecologie-energie",
+          "label": "Écologie & énergie",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "institutions-democratie",
+          "label": "Institutions & démocratie",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "services-publics",
+          "label": "Services publics",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "securite-justice",
+          "label": "Sécurité & justice",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "economie-finances",
+          "label": "Économie & finances publiques",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "numerique-ia",
+          "label": "Numérique & IA",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        }
+      ]
+    },
+    {
+      "id": "nathalie-arthaud",
+      "name": "Nathalie Arthaud",
+      "status": "declared_presidential",
+      "coverage_ratio": 0.0,
+      "current_proposals": 0,
+      "latest_evidence_at": null,
+      "topics": [
+        {
+          "id": "pouvoir-achat-travail",
+          "label": "Pouvoir d’achat & travail",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "retraites",
+          "label": "Retraites",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "fiscalite-redistribution",
+          "label": "Fiscalité & redistribution",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "immigration-integration",
+          "label": "Immigration & intégration",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "europe-souverainete",
+          "label": "Europe & souveraineté",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "defense-international",
+          "label": "Défense & international",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "ecologie-energie",
+          "label": "Écologie & énergie",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "institutions-democratie",
+          "label": "Institutions & démocratie",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "services-publics",
+          "label": "Services publics",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "securite-justice",
+          "label": "Sécurité & justice",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "economie-finances",
+          "label": "Économie & finances publiques",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "numerique-ia",
+          "label": "Numérique & IA",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        }
+      ]
+    },
+    {
+      "id": "nicolas-dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "status": "declared_presidential",
+      "coverage_ratio": 0.0833,
+      "current_proposals": 1,
+      "latest_evidence_at": "2026-08-11",
+      "topics": [
+        {
+          "id": "pouvoir-achat-travail",
+          "label": "Pouvoir d’achat & travail",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "retraites",
+          "label": "Retraites",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "fiscalite-redistribution",
+          "label": "Fiscalité & redistribution",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "immigration-integration",
+          "label": "Immigration & intégration",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "europe-souverainete",
+          "label": "Europe & souveraineté",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "defense-international",
+          "label": "Défense & international",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "ecologie-energie",
+          "label": "Écologie & énergie",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "institutions-democratie",
+          "label": "Institutions & démocratie",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "services-publics",
+          "label": "Services publics",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "securite-justice",
+          "label": "Sécurité & justice",
+          "covered": true,
+          "current_proposals": 1,
+          "latest_evidence_at": "2026-08-11",
+          "verified_proposals": 1,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "economie-finances",
+          "label": "Économie & finances publiques",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "numerique-ia",
+          "label": "Numérique & IA",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        }
+      ]
+    },
+    {
+      "id": "philippe-brun",
+      "name": "Philippe Brun",
+      "status": "declared_primary",
+      "coverage_ratio": 0.0,
+      "current_proposals": 0,
+      "latest_evidence_at": null,
+      "topics": [
+        {
+          "id": "pouvoir-achat-travail",
+          "label": "Pouvoir d’achat & travail",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "retraites",
+          "label": "Retraites",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "fiscalite-redistribution",
+          "label": "Fiscalité & redistribution",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "immigration-integration",
+          "label": "Immigration & intégration",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "europe-souverainete",
+          "label": "Europe & souveraineté",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "defense-international",
+          "label": "Défense & international",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "ecologie-energie",
+          "label": "Écologie & énergie",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "institutions-democratie",
+          "label": "Institutions & démocratie",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "services-publics",
+          "label": "Services publics",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "securite-justice",
+          "label": "Sécurité & justice",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "economie-finances",
+          "label": "Économie & finances publiques",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "numerique-ia",
+          "label": "Numérique & IA",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        }
+      ]
+    },
+    {
+      "id": "selma-labib",
+      "name": "Selma Labib",
+      "status": "party_designated",
+      "coverage_ratio": 0.0,
+      "current_proposals": 0,
+      "latest_evidence_at": null,
+      "topics": [
+        {
+          "id": "pouvoir-achat-travail",
+          "label": "Pouvoir d’achat & travail",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "retraites",
+          "label": "Retraites",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "fiscalite-redistribution",
+          "label": "Fiscalité & redistribution",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "immigration-integration",
+          "label": "Immigration & intégration",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "europe-souverainete",
+          "label": "Europe & souveraineté",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "defense-international",
+          "label": "Défense & international",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "ecologie-energie",
+          "label": "Écologie & énergie",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "institutions-democratie",
+          "label": "Institutions & démocratie",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "services-publics",
+          "label": "Services publics",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "securite-justice",
+          "label": "Sécurité & justice",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "economie-finances",
+          "label": "Économie & finances publiques",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "numerique-ia",
+          "label": "Numérique & IA",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        }
+      ]
+    },
+    {
+      "id": "segolene-royal",
+      "name": "Ségolène Royal",
+      "status": "declared_primary",
+      "coverage_ratio": 0.0,
+      "current_proposals": 0,
+      "latest_evidence_at": null,
+      "topics": [
+        {
+          "id": "pouvoir-achat-travail",
+          "label": "Pouvoir d’achat & travail",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "retraites",
+          "label": "Retraites",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "fiscalite-redistribution",
+          "label": "Fiscalité & redistribution",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "immigration-integration",
+          "label": "Immigration & intégration",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "europe-souverainete",
+          "label": "Europe & souveraineté",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "defense-international",
+          "label": "Défense & international",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "ecologie-energie",
+          "label": "Écologie & énergie",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "institutions-democratie",
+          "label": "Institutions & démocratie",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "services-publics",
+          "label": "Services publics",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "securite-justice",
+          "label": "Sécurité & justice",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "economie-finances",
+          "label": "Économie & finances publiques",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "numerique-ia",
+          "label": "Numérique & IA",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        }
+      ]
+    },
+    {
+      "id": "xavier-bertrand",
+      "name": "Xavier Bertrand",
+      "status": "declared_presidential",
+      "coverage_ratio": 0.0,
+      "current_proposals": 0,
+      "latest_evidence_at": null,
+      "topics": [
+        {
+          "id": "pouvoir-achat-travail",
+          "label": "Pouvoir d’achat & travail",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "retraites",
+          "label": "Retraites",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "fiscalite-redistribution",
+          "label": "Fiscalité & redistribution",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "immigration-integration",
+          "label": "Immigration & intégration",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "europe-souverainete",
+          "label": "Europe & souveraineté",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "defense-international",
+          "label": "Défense & international",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "ecologie-energie",
+          "label": "Écologie & énergie",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "institutions-democratie",
+          "label": "Institutions & démocratie",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "services-publics",
+          "label": "Services publics",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "securite-justice",
+          "label": "Sécurité & justice",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "economie-finances",
+          "label": "Économie & finances publiques",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "numerique-ia",
+          "label": "Numérique & IA",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        }
+      ]
+    },
+    {
+      "id": "edouard-philippe",
+      "name": "Édouard Philippe",
+      "status": "declared_presidential",
+      "coverage_ratio": 0.0,
+      "current_proposals": 0,
+      "latest_evidence_at": null,
+      "topics": [
+        {
+          "id": "pouvoir-achat-travail",
+          "label": "Pouvoir d’achat & travail",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "retraites",
+          "label": "Retraites",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "fiscalite-redistribution",
+          "label": "Fiscalité & redistribution",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "immigration-integration",
+          "label": "Immigration & intégration",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "europe-souverainete",
+          "label": "Europe & souveraineté",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "defense-international",
+          "label": "Défense & international",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "ecologie-energie",
+          "label": "Écologie & énergie",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "institutions-democratie",
+          "label": "Institutions & démocratie",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "services-publics",
+          "label": "Services publics",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "securite-justice",
+          "label": "Sécurité & justice",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "economie-finances",
+          "label": "Économie & finances publiques",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        },
+        {
+          "id": "numerique-ia",
+          "label": "Numérique & IA",
+          "covered": false,
+          "current_proposals": 0,
+          "latest_evidence_at": null,
+          "verified_proposals": 0,
+          "multi_source_proposals": 0
+        }
+      ]
     }
   ],
   "priority_gaps": [
@@ -1746,18 +5254,19 @@
       "status": "party_designated",
       "coverage_ratio": 0.0,
       "current_proposals": 0,
+      "latest_evidence_at": null,
       "gaps": [
-        "economie-finances",
         "pouvoir-achat-travail",
-        "fiscalite-redistribution",
         "retraites",
+        "fiscalite-redistribution",
         "immigration-integration",
-        "securite-justice",
-        "institutions-democratie",
-        "defense-international",
         "europe-souverainete",
+        "defense-international",
         "ecologie-energie",
+        "institutions-democratie",
         "services-publics",
+        "securite-justice",
+        "economie-finances",
         "numerique-ia"
       ]
     },
@@ -1767,18 +5276,19 @@
       "status": "declared_presidential",
       "coverage_ratio": 0.0,
       "current_proposals": 0,
+      "latest_evidence_at": null,
       "gaps": [
-        "economie-finances",
         "pouvoir-achat-travail",
-        "fiscalite-redistribution",
         "retraites",
+        "fiscalite-redistribution",
         "immigration-integration",
-        "securite-justice",
-        "institutions-democratie",
-        "defense-international",
         "europe-souverainete",
+        "defense-international",
         "ecologie-energie",
+        "institutions-democratie",
         "services-publics",
+        "securite-justice",
+        "economie-finances",
         "numerique-ia"
       ]
     },
@@ -1788,18 +5298,19 @@
       "status": "declared_presidential",
       "coverage_ratio": 0.0,
       "current_proposals": 0,
+      "latest_evidence_at": null,
       "gaps": [
-        "economie-finances",
         "pouvoir-achat-travail",
-        "fiscalite-redistribution",
         "retraites",
+        "fiscalite-redistribution",
         "immigration-integration",
-        "securite-justice",
-        "institutions-democratie",
-        "defense-international",
         "europe-souverainete",
+        "defense-international",
         "ecologie-energie",
+        "institutions-democratie",
         "services-publics",
+        "securite-justice",
+        "economie-finances",
         "numerique-ia"
       ]
     },
@@ -1809,18 +5320,19 @@
       "status": "declared_presidential",
       "coverage_ratio": 0.0,
       "current_proposals": 0,
+      "latest_evidence_at": null,
       "gaps": [
-        "economie-finances",
         "pouvoir-achat-travail",
-        "fiscalite-redistribution",
         "retraites",
+        "fiscalite-redistribution",
         "immigration-integration",
-        "securite-justice",
-        "institutions-democratie",
-        "defense-international",
         "europe-souverainete",
+        "defense-international",
         "ecologie-energie",
+        "institutions-democratie",
         "services-publics",
+        "securite-justice",
+        "economie-finances",
         "numerique-ia"
       ]
     },
@@ -1830,18 +5342,19 @@
       "status": "party_designated",
       "coverage_ratio": 0.0,
       "current_proposals": 0,
+      "latest_evidence_at": null,
       "gaps": [
-        "economie-finances",
         "pouvoir-achat-travail",
-        "fiscalite-redistribution",
         "retraites",
+        "fiscalite-redistribution",
         "immigration-integration",
-        "securite-justice",
-        "institutions-democratie",
-        "defense-international",
         "europe-souverainete",
+        "defense-international",
         "ecologie-energie",
+        "institutions-democratie",
         "services-publics",
+        "securite-justice",
+        "economie-finances",
         "numerique-ia"
       ]
     },
@@ -1851,18 +5364,19 @@
       "status": "declared_conditional",
       "coverage_ratio": 0.0,
       "current_proposals": 0,
+      "latest_evidence_at": null,
       "gaps": [
-        "economie-finances",
         "pouvoir-achat-travail",
-        "fiscalite-redistribution",
         "retraites",
+        "fiscalite-redistribution",
         "immigration-integration",
-        "securite-justice",
-        "institutions-democratie",
-        "defense-international",
         "europe-souverainete",
+        "defense-international",
         "ecologie-energie",
+        "institutions-democratie",
         "services-publics",
+        "securite-justice",
+        "economie-finances",
         "numerique-ia"
       ]
     },
@@ -1872,18 +5386,19 @@
       "status": "declared_presidential",
       "coverage_ratio": 0.0,
       "current_proposals": 0,
+      "latest_evidence_at": null,
       "gaps": [
-        "economie-finances",
         "pouvoir-achat-travail",
-        "fiscalite-redistribution",
         "retraites",
+        "fiscalite-redistribution",
         "immigration-integration",
-        "securite-justice",
-        "institutions-democratie",
-        "defense-international",
         "europe-souverainete",
+        "defense-international",
         "ecologie-energie",
+        "institutions-democratie",
         "services-publics",
+        "securite-justice",
+        "economie-finances",
         "numerique-ia"
       ]
     },
@@ -1893,18 +5408,19 @@
       "status": "declared_primary",
       "coverage_ratio": 0.0,
       "current_proposals": 0,
+      "latest_evidence_at": null,
       "gaps": [
-        "economie-finances",
         "pouvoir-achat-travail",
-        "fiscalite-redistribution",
         "retraites",
+        "fiscalite-redistribution",
         "immigration-integration",
-        "securite-justice",
-        "institutions-democratie",
-        "defense-international",
         "europe-souverainete",
+        "defense-international",
         "ecologie-energie",
+        "institutions-democratie",
         "services-publics",
+        "securite-justice",
+        "economie-finances",
         "numerique-ia"
       ]
     },
@@ -1914,18 +5430,19 @@
       "status": "declared_presidential",
       "coverage_ratio": 0.0,
       "current_proposals": 0,
+      "latest_evidence_at": null,
       "gaps": [
-        "economie-finances",
         "pouvoir-achat-travail",
-        "fiscalite-redistribution",
         "retraites",
+        "fiscalite-redistribution",
         "immigration-integration",
-        "securite-justice",
-        "institutions-democratie",
-        "defense-international",
         "europe-souverainete",
+        "defense-international",
         "ecologie-energie",
+        "institutions-democratie",
         "services-publics",
+        "securite-justice",
+        "economie-finances",
         "numerique-ia"
       ]
     },
@@ -1935,18 +5452,19 @@
       "status": "declared_presidential",
       "coverage_ratio": 0.0,
       "current_proposals": 0,
+      "latest_evidence_at": null,
       "gaps": [
-        "economie-finances",
         "pouvoir-achat-travail",
-        "fiscalite-redistribution",
         "retraites",
+        "fiscalite-redistribution",
         "immigration-integration",
-        "securite-justice",
-        "institutions-democratie",
-        "defense-international",
         "europe-souverainete",
+        "defense-international",
         "ecologie-energie",
+        "institutions-democratie",
         "services-publics",
+        "securite-justice",
+        "economie-finances",
         "numerique-ia"
       ]
     },
@@ -1956,18 +5474,19 @@
       "status": "declared_primary",
       "coverage_ratio": 0.0,
       "current_proposals": 0,
+      "latest_evidence_at": null,
       "gaps": [
-        "economie-finances",
         "pouvoir-achat-travail",
-        "fiscalite-redistribution",
         "retraites",
+        "fiscalite-redistribution",
         "immigration-integration",
-        "securite-justice",
-        "institutions-democratie",
-        "defense-international",
         "europe-souverainete",
+        "defense-international",
         "ecologie-energie",
+        "institutions-democratie",
         "services-publics",
+        "securite-justice",
+        "economie-finances",
         "numerique-ia"
       ]
     },
@@ -1977,18 +5496,19 @@
       "status": "declared_presidential",
       "coverage_ratio": 0.0,
       "current_proposals": 0,
+      "latest_evidence_at": null,
       "gaps": [
-        "economie-finances",
         "pouvoir-achat-travail",
-        "fiscalite-redistribution",
         "retraites",
+        "fiscalite-redistribution",
         "immigration-integration",
-        "securite-justice",
-        "institutions-democratie",
-        "defense-international",
         "europe-souverainete",
+        "defense-international",
         "ecologie-energie",
+        "institutions-democratie",
         "services-publics",
+        "securite-justice",
+        "economie-finances",
         "numerique-ia"
       ]
     },
@@ -1998,18 +5518,19 @@
       "status": "declared_presidential",
       "coverage_ratio": 0.0,
       "current_proposals": 0,
+      "latest_evidence_at": null,
       "gaps": [
-        "economie-finances",
         "pouvoir-achat-travail",
-        "fiscalite-redistribution",
         "retraites",
+        "fiscalite-redistribution",
         "immigration-integration",
-        "securite-justice",
-        "institutions-democratie",
-        "defense-international",
         "europe-souverainete",
+        "defense-international",
         "ecologie-energie",
+        "institutions-democratie",
         "services-publics",
+        "securite-justice",
+        "economie-finances",
         "numerique-ia"
       ]
     },
@@ -2019,18 +5540,19 @@
       "status": "declared_primary",
       "coverage_ratio": 0.0,
       "current_proposals": 0,
+      "latest_evidence_at": null,
       "gaps": [
-        "economie-finances",
         "pouvoir-achat-travail",
-        "fiscalite-redistribution",
         "retraites",
+        "fiscalite-redistribution",
         "immigration-integration",
-        "securite-justice",
-        "institutions-democratie",
-        "defense-international",
         "europe-souverainete",
+        "defense-international",
         "ecologie-energie",
+        "institutions-democratie",
         "services-publics",
+        "securite-justice",
+        "economie-finances",
         "numerique-ia"
       ]
     },
@@ -2040,18 +5562,19 @@
       "status": "declared_presidential",
       "coverage_ratio": 0.0,
       "current_proposals": 0,
+      "latest_evidence_at": null,
       "gaps": [
-        "economie-finances",
         "pouvoir-achat-travail",
-        "fiscalite-redistribution",
         "retraites",
+        "fiscalite-redistribution",
         "immigration-integration",
-        "securite-justice",
-        "institutions-democratie",
-        "defense-international",
         "europe-souverainete",
+        "defense-international",
         "ecologie-energie",
+        "institutions-democratie",
         "services-publics",
+        "securite-justice",
+        "economie-finances",
         "numerique-ia"
       ]
     },
@@ -2061,18 +5584,19 @@
       "status": "declared_primary",
       "coverage_ratio": 0.0,
       "current_proposals": 0,
+      "latest_evidence_at": null,
       "gaps": [
-        "economie-finances",
         "pouvoir-achat-travail",
-        "fiscalite-redistribution",
         "retraites",
+        "fiscalite-redistribution",
         "immigration-integration",
-        "securite-justice",
-        "institutions-democratie",
-        "defense-international",
         "europe-souverainete",
+        "defense-international",
         "ecologie-energie",
+        "institutions-democratie",
         "services-publics",
+        "securite-justice",
+        "economie-finances",
         "numerique-ia"
       ]
     },
@@ -2082,18 +5606,19 @@
       "status": "party_designated",
       "coverage_ratio": 0.0,
       "current_proposals": 0,
+      "latest_evidence_at": null,
       "gaps": [
-        "economie-finances",
         "pouvoir-achat-travail",
-        "fiscalite-redistribution",
         "retraites",
+        "fiscalite-redistribution",
         "immigration-integration",
-        "securite-justice",
-        "institutions-democratie",
-        "defense-international",
         "europe-souverainete",
+        "defense-international",
         "ecologie-energie",
+        "institutions-democratie",
         "services-publics",
+        "securite-justice",
+        "economie-finances",
         "numerique-ia"
       ]
     },
@@ -2103,18 +5628,19 @@
       "status": "declared_primary",
       "coverage_ratio": 0.0,
       "current_proposals": 0,
+      "latest_evidence_at": null,
       "gaps": [
-        "economie-finances",
         "pouvoir-achat-travail",
-        "fiscalite-redistribution",
         "retraites",
+        "fiscalite-redistribution",
         "immigration-integration",
-        "securite-justice",
-        "institutions-democratie",
-        "defense-international",
         "europe-souverainete",
+        "defense-international",
         "ecologie-energie",
+        "institutions-democratie",
         "services-publics",
+        "securite-justice",
+        "economie-finances",
         "numerique-ia"
       ]
     },
@@ -2124,18 +5650,19 @@
       "status": "declared_presidential",
       "coverage_ratio": 0.0,
       "current_proposals": 0,
+      "latest_evidence_at": null,
       "gaps": [
-        "economie-finances",
         "pouvoir-achat-travail",
-        "fiscalite-redistribution",
         "retraites",
+        "fiscalite-redistribution",
         "immigration-integration",
-        "securite-justice",
-        "institutions-democratie",
-        "defense-international",
         "europe-souverainete",
+        "defense-international",
         "ecologie-energie",
+        "institutions-democratie",
         "services-publics",
+        "securite-justice",
+        "economie-finances",
         "numerique-ia"
       ]
     },
@@ -2145,18 +5672,19 @@
       "status": "declared_presidential",
       "coverage_ratio": 0.0,
       "current_proposals": 0,
+      "latest_evidence_at": null,
       "gaps": [
-        "economie-finances",
         "pouvoir-achat-travail",
-        "fiscalite-redistribution",
         "retraites",
+        "fiscalite-redistribution",
         "immigration-integration",
-        "securite-justice",
-        "institutions-democratie",
-        "defense-international",
         "europe-souverainete",
+        "defense-international",
         "ecologie-energie",
+        "institutions-democratie",
         "services-publics",
+        "securite-justice",
+        "economie-finances",
         "numerique-ia"
       ]
     },
@@ -2166,17 +5694,18 @@
       "status": "declared_presidential",
       "coverage_ratio": 0.0833,
       "current_proposals": 1,
+      "latest_evidence_at": "2026-08-11",
       "gaps": [
-        "economie-finances",
         "pouvoir-achat-travail",
-        "fiscalite-redistribution",
         "retraites",
+        "fiscalite-redistribution",
         "immigration-integration",
-        "institutions-democratie",
-        "defense-international",
         "europe-souverainete",
+        "defense-international",
         "ecologie-energie",
+        "institutions-democratie",
         "services-publics",
+        "economie-finances",
         "numerique-ia"
       ]
     },
@@ -2186,17 +5715,18 @@
       "status": "declared_presidential",
       "coverage_ratio": 0.0833,
       "current_proposals": 7,
+      "latest_evidence_at": "2026-08-13",
       "gaps": [
-        "economie-finances",
         "pouvoir-achat-travail",
-        "fiscalite-redistribution",
         "retraites",
+        "fiscalite-redistribution",
         "immigration-integration",
-        "securite-justice",
-        "defense-international",
         "europe-souverainete",
+        "defense-international",
         "ecologie-energie",
         "services-publics",
+        "securite-justice",
+        "economie-finances",
         "numerique-ia"
       ]
     },
@@ -2206,15 +5736,16 @@
       "status": "declared_primary",
       "coverage_ratio": 0.25,
       "current_proposals": 3,
+      "latest_evidence_at": null,
       "gaps": [
         "pouvoir-achat-travail",
-        "fiscalite-redistribution",
         "retraites",
-        "securite-justice",
-        "institutions-democratie",
+        "fiscalite-redistribution",
         "defense-international",
         "ecologie-energie",
+        "institutions-democratie",
         "services-publics",
+        "securite-justice",
         "numerique-ia"
       ]
     },
@@ -2224,15 +5755,16 @@
       "status": "declared_presidential",
       "coverage_ratio": 0.25,
       "current_proposals": 6,
+      "latest_evidence_at": null,
       "gaps": [
-        "economie-finances",
         "fiscalite-redistribution",
         "immigration-integration",
-        "securite-justice",
-        "institutions-democratie",
-        "defense-international",
         "europe-souverainete",
+        "defense-international",
         "ecologie-energie",
+        "institutions-democratie",
+        "securite-justice",
+        "economie-finances",
         "numerique-ia"
       ]
     },
@@ -2242,13 +5774,14 @@
       "status": "party_designated",
       "coverage_ratio": 0.4167,
       "current_proposals": 10,
+      "latest_evidence_at": "2026-05-31",
       "gaps": [
-        "economie-finances",
-        "fiscalite-redistribution",
         "retraites",
+        "fiscalite-redistribution",
         "defense-international",
         "ecologie-energie",
         "services-publics",
+        "economie-finances",
         "numerique-ia"
       ]
     }

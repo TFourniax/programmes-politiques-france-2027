@@ -818,7 +818,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-08-14T14:36:52+00:00",
+  "last_run_at": "2026-08-14T15:48:57+00:00",
   "source_chunks": {
     "049ef2342af4f07d32e93984": {
       "canonical_confirmations": [
@@ -3242,6 +3242,48 @@
       "updated_at": "2026-08-14T08:47:12+00:00",
       "url": "https://solutiondemocratique.fr/anasse-kazib-2027-analyse-de-son-programme-et-engagement-reel-pour-la-democratie/"
     },
+    "5453bf0229bb1a8bdab5046e": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "solution-democratique",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Solution Démocratique souhaite instaurer en France la démocratie directe et la décentralisation par le bas.",
+            "relevance": "direct",
+            "statement": "Solution Démocratique souhaite instaurer en France la démocratie directe et la décentralisation par le bas.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La proposition est explicitement soutenue et identique au contenu canonique existant.",
+            "related_proposal_id": "auto-solution-democratique-institutions-democratie-4ea1c22d52ea",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-08-14T15:48:53+00:00",
+      "created_at": "2026-08-14T15:48:46+00:00",
+      "document_types": [
+        "other"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-05-18"
+      ],
+      "sha256": "47f2d8a521b1f673a815daa7481fa644cc8106b2850340f4ea981c2a1ba84518",
+      "source_title": "Manolo Mlekuz 2027 : démocratie directe et analyse du programme",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-14T15:48:50+00:00",
+      "url": "https://solutiondemocratique.fr/manolo-mlekuz-programme-presidentielle-2027/"
+    },
     "583e2e524ffc4d17aa8ac01e": {
       "claims": [],
       "created_at": "2026-08-11T12:13:27+00:00",
@@ -3499,6 +3541,48 @@
       "total": 1,
       "updated_at": "2026-08-11T12:47:31+00:00",
       "url": "https://lafranceinsoumise.fr/2026/08/10/amfis-2026-le-programme-est-en-ligne/"
+    },
+    "77f522277be2ac88fdba0417": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "solution-democratique",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Solution Démocratique souhaite instaurer en France la démocratie directe et la décentralisation par le bas.",
+            "relevance": "direct",
+            "statement": "Solution Démocratique souhaite instaurer en France la démocratie directe et la décentralisation par le bas.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La proposition est explicitement et identiquement soutenue par le canon actuel.",
+            "related_proposal_id": "auto-solution-democratique-institutions-democratie-4ea1c22d52ea",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-08-14T15:48:44+00:00",
+      "created_at": "2026-08-14T15:48:37+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-04-19"
+      ],
+      "sha256": "9a250c432b66648434876341324456337a787e06e4cad6604660976f5b4b4b24",
+      "source_title": "Bruno Retailleau 2027 : un programme pour la démocratie ?",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-14T15:48:41+00:00",
+      "url": "https://solutiondemocratique.fr/bruno-retailleau-programme-presidentielle2027/"
     },
     "7a0df1bdac5d3280a6088abc": {
       "canonical_confirmations": [
@@ -4165,6 +4249,28 @@
       "total": 1,
       "updated_at": "2026-08-12T22:06:40+00:00",
       "url": "https://melenchon2027.fr/programme2025/livre/chapitre10/"
+    },
+    "9d5fe075ac94d7e3b92bca49": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-08-14T15:48:55+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [
+        "2026-04-27"
+      ],
+      "sha256": "b4b43b4ff1bf7460e3fa403ca5eef147f58df19e2cc871fca43cfac22564e296",
+      "source_title": "Benoît Mathieu 2027 : démocratie directe et analyse du programme",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-14T15:48:57+00:00",
+      "url": "https://solutiondemocratique.fr/benoit-mathieu-programme-2027/"
     },
     "9e957a43490ff4192bfb9c7c": {
       "canonical_confirmations": [
@@ -6690,6 +6796,15 @@
       "status": "promoted",
       "url": "https://www.unenouvelleenergie.fr/notre-programme/"
     },
+    "8e31fea5ce0c": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-14T15:48:44+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "9a250c432b66648434876341324456337a787e06e4cad6604660976f5b4b4b24",
+      "status": "promoted",
+      "url": "https://solutiondemocratique.fr/bruno-retailleau-programme-presidentielle2027/"
+    },
     "93ce69ff0940": {
       "chunks_done": null,
       "chunks_total": 1,
@@ -6698,6 +6813,15 @@
       "source_sha256": "e153c17316f392e81d77824a2a67a358f2557be1c9ea5a034b174fe33369e4e2",
       "status": "promoted",
       "url": "https://melenchon2027.fr/programme2025/livre/chapitre3/"
+    },
+    "991e6eed6c48": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-14T15:48:57+00:00",
+      "reason": null,
+      "source_sha256": "b4b43b4ff1bf7460e3fa403ca5eef147f58df19e2cc871fca43cfac22564e296",
+      "status": "not_confirmed",
+      "url": "https://solutiondemocratique.fr/benoit-mathieu-programme-2027/"
     },
     "a29032baac55": {
       "processed_at": "2026-08-11T08:55:59+00:00",
@@ -6877,6 +7001,15 @@
       "source_sha256": "aacd580bbf19f7dbb667f488ef1aa251593e69a65edc6fa06ee29f2c1d4c7556",
       "status": "promoted",
       "url": "https://www.unenouvelleenergie.fr/notre-programme/immigration/"
+    },
+    "dd900967c0ea": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-14T15:48:53+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "47f2d8a521b1f673a815daa7481fa644cc8106b2850340f4ea981c2a1ba84518",
+      "status": "promoted",
+      "url": "https://solutiondemocratique.fr/manolo-mlekuz-programme-presidentielle-2027/"
     },
     "de73b4b6213c": {
       "chunks_done": null,
