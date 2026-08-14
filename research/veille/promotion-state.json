@@ -818,19 +818,47 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-08-14T08:23:19+00:00",
+  "last_run_at": "2026-08-14T08:33:58+00:00",
   "source_chunks": {
     "049ef2342af4f07d32e93984": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "solution-democratique",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Créer le référendum d’initiative citoyenne (RIC) sur tout sujet et l’inscrire dans la Constitution.",
+            "relevance": "party_platform",
+            "statement": "Créer le référendum d'initiative citoyenne (RIC) sur tout sujet et l'inscrire dans la Constitution.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Le claim sur le RIC et son inscription dans la Constitution est explicitement présent dans la source et déjà enregistré de manière identique dans le canonique.",
+            "related_proposal_id": "auto-solution-democratique-institutions-democratie-4ea1c22d52ea",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
       "claims": [],
       "created_at": "2026-08-13T23:24:48+00:00",
-      "document_types": [],
-      "done": [],
-      "published_candidates": [],
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [
+        "2026-05-12"
+      ],
       "sha256": "b89230c89635c37e5d140fac9f55f7fef12a4d653cdb31e83b5d51d9dc269090",
       "source_title": "Florian Philippot et démocratie directe : analyse 2027",
       "statuses": [],
       "text_truncated": false,
       "total": 1,
+      "updated_at": "2026-08-14T08:33:48+00:00",
       "url": "https://solutiondemocratique.fr/florian-philippot-programme-2027/"
     },
     "0586a39b537d638a8c8b5666": {
@@ -5202,6 +5230,48 @@
       "updated_at": "2026-08-13T08:51:03+00:00",
       "url": "https://melenchon2027.fr/programme2025/livre/chapitre7/"
     },
+    "d299eee14a2c37da3bab25ec": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "solution-democratique",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Solution Démocratique souhaite instaurer en France la démocratie directe et la décentralisation par le bas.",
+            "relevance": "direct",
+            "statement": "Solution démocratique souhaite instaurer en France la démocratie directe et la décentralisation par le bas.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La source et le canonique confirment explicitement que Solution démocratique souhaite instaurer la démocratie directe et la décentralisation par le bas en France.",
+            "related_proposal_id": "auto-solution-democratique-institutions-democratie-4ea1c22d52ea",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-08-14T08:33:57+00:00",
+      "created_at": "2026-08-14T08:33:51+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-03-31"
+      ],
+      "sha256": "181a8380bfef45b18c49d80b3b5d0de72a83fc476ef514ca5705b2065249f82e",
+      "source_title": "Xavier Bertrand 2027 : quelle position sur la démocratie directe ?",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-14T08:33:55+00:00",
+      "url": "https://solutiondemocratique.fr/xavier-bertrand-programme-presidentielle2027/"
+    },
     "daf38b4b7d9859ed7f72340d": {
       "claims": [],
       "created_at": "2026-08-11T12:15:03+00:00",
@@ -5677,16 +5747,63 @@
       "url": "https://melenchon2027.fr/programme2025/livre/chapitre13/"
     },
     "f4de33a7daa24dd519884932": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "solution-democratique",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Solution Démocratique souhaite instaurer en France la démocratie directe et la décentralisation par le bas",
+            "relevance": "direct",
+            "statement": "Solution démocratique souhaite instaurer en France la démocratie directe et la décentralisation par le bas.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La position de Solution démocratique souhaitant instaurer la démocratie directe et la décentralisation par le bas est explicitement soutenue par la source.",
+            "related_proposal_id": "auto-solution-democratique-institutions-democratie-4ea1c22d52ea",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "clara-egger",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "redonner au président de la République un rôle d’arbitre",
+            "relevance": "direct",
+            "statement": "Clara Egger porte une candidature visant à redonner au président de la République un rôle d'arbitre.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La candidature de Clara Egger visant à redonner au président de la République un rôle d'arbitre est explicitement présente dans la source.",
+            "related_proposal_id": "auto-clara-egger-institutions-democratie-ef5123784bab",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
       "claims": [],
+      "completed_at": "2026-08-14T08:33:42+00:00",
       "created_at": "2026-08-13T23:24:39+00:00",
-      "document_types": [],
-      "done": [],
-      "published_candidates": [],
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-04-05"
+      ],
       "sha256": "41335891eed587b269834e5162f66c954482d42c2e94b71259eed15f9033f81e",
       "source_title": "Jean-Luc Mélenchon 2027 : analyse de son programme et engagement réel pour la démocratie directe - Solution Démocratique - Parti politique pour instaurer la démocratie directe",
       "statuses": [],
       "text_truncated": false,
       "total": 1,
+      "updated_at": "2026-08-14T08:33:38+00:00",
       "url": "https://solutiondemocratique.fr/jean-luc-melenchon-programme-presidentielle2027/"
     },
     "f8c38512cd374b6eeedcb4ea": {
@@ -6023,11 +6140,12 @@
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
     "1f2bf87480b3": {
-      "attempts": 1,
-      "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 4.692510596s.",
-      "next_retry_at": "2026-08-14T05:24:55+00:00",
-      "processed_at": "2026-08-13T23:24:55+00:00",
-      "status": "technical_error",
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-14T08:33:49+00:00",
+      "reason": null,
+      "source_sha256": "b89230c89635c37e5d140fac9f55f7fef12a4d653cdb31e83b5d51d9dc269090",
+      "status": "not_confirmed",
       "url": "https://solutiondemocratique.fr/florian-philippot-programme-2027/"
     },
     "20d46eb53f88": {
@@ -6065,11 +6183,12 @@
       "url": "https://melenchon2027.fr/programme2025/livre/chapitre17/"
     },
     "2cc355d24414": {
-      "attempts": 1,
-      "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 13.75583755s.",
-      "next_retry_at": "2026-08-14T05:24:46+00:00",
-      "processed_at": "2026-08-13T23:24:46+00:00",
-      "status": "technical_error",
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-14T08:33:42+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "41335891eed587b269834e5162f66c954482d42c2e94b71259eed15f9033f81e",
+      "status": "promoted",
       "url": "https://solutiondemocratique.fr/jean-luc-melenchon-programme-presidentielle2027/"
     },
     "2ee1c3dca4dc": {
@@ -6451,6 +6570,15 @@
       "source_sha256": "aacd580bbf19f7dbb667f488ef1aa251593e69a65edc6fa06ee29f2c1d4c7556",
       "status": "promoted",
       "url": "https://www.unenouvelleenergie.fr/notre-programme/immigration/"
+    },
+    "de73b4b6213c": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-14T08:33:57+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "181a8380bfef45b18c49d80b3b5d0de72a83fc476ef514ca5705b2065249f82e",
+      "status": "promoted",
+      "url": "https://solutiondemocratique.fr/xavier-bertrand-programme-presidentielle2027/"
     },
     "e459f2d601a9": {
       "chunks_done": null,

@@ -8,45 +8,45 @@
   "gemini_quota_only": false,
   "gemini_unavailable_reason": null,
   "gemini_unavailable_since": null,
-  "generated_at": "2026-08-14T08:23:19+00:00",
-  "last_collection_success_at": "2026-08-14T08:19:13+00:00",
-  "last_direct_feed_run_at": "2026-08-14T08:19:16+00:00",
-  "last_gdelt_run_at": "2026-08-14T08:22:07+00:00",
-  "last_promotion_run_at": "2026-08-14T08:23:19+00:00",
-  "last_social_promotion_run_at": "2026-08-14T08:23:19+00:00",
-  "last_social_run_at": "2026-08-14T08:22:37+00:00",
-  "last_structured_primary_run_at": "2026-08-14T08:20:15+00:00",
+  "generated_at": "2026-08-14T08:33:58+00:00",
+  "last_collection_success_at": "2026-08-14T08:30:18+00:00",
+  "last_direct_feed_run_at": "2026-08-14T08:30:20+00:00",
+  "last_gdelt_run_at": "2026-08-14T08:33:04+00:00",
+  "last_promotion_run_at": "2026-08-14T08:33:58+00:00",
+  "last_social_promotion_run_at": "2026-08-14T08:33:58+00:00",
+  "last_social_run_at": "2026-08-14T08:33:25+00:00",
+  "last_structured_primary_run_at": "2026-08-14T08:30:59+00:00",
   "max_promotion_retry_attempts": 0,
   "official_sitemap_coverage_count": 0,
   "official_source_warnings_last_run": 5,
   "oldest_promotion_retry_age_hours": 0.0,
   "partial_sources_pending": 0,
-  "pending_work": 6,
+  "pending_work": 4,
   "persistent_official_source_failure_details": [
     {
-      "consecutive_failures": 8,
+      "consecutive_failures": 9,
       "first_failure_at": "2026-08-13T13:02:53+00:00",
       "kind": "registry_source",
-      "last_failure_at": "2026-08-14T08:20:15+00:00",
+      "last_failure_at": "2026-08-14T08:30:59+00:00",
       "owner": "La Convention",
       "url": "https://www.la-convention.fr/"
     },
     {
-      "consecutive_failures": 8,
+      "consecutive_failures": 9,
       "first_failure_at": "2026-08-13T13:02:53+00:00",
       "kind": "registry_source",
-      "last_failure_at": "2026-08-14T08:20:15+00:00",
+      "last_failure_at": "2026-08-14T08:30:59+00:00",
       "owner": "La France Humaine & Forte",
       "url": "https://www.lafrancehumaineetforte.fr/"
     }
   ],
   "persistent_official_source_failures": 2,
   "promotion_actionable_retries_pending": 0,
-  "promotion_quota_retries_pending": 6,
+  "promotion_quota_retries_pending": 4,
   "promotion_retries_over_budget": 0,
   "promotion_retry_attempt_budget": 6,
   "promotion_retry_slo_hours": 48.0,
-  "promotion_technical_retries_pending": 6,
+  "promotion_technical_retries_pending": 4,
   "reasons": [
     "2_persistent_official_source_failure(s)"
   ],
@@ -56,6 +56,6 @@
   "uncovered_official_source_warnings_last_run": 2,
   "version": 7,
   "warnings": [
-    "6_quota_retry_pending"
+    "4_quota_retry_pending"
   ]
 }
