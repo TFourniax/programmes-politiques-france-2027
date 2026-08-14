@@ -24,8 +24,10 @@ test('cross-browser deep answer smoke', async ({ page }, testInfo) => {
   await textarea.fill('Que propose le corpus sur les retraites ?');
   await textarea.press('Enter');
   const answer = page.locator('.message.structuredMessage').first();
-  const deepen = answer.getByRole('button', { name: /Approfondir/ });
+  const firstExpandableCard = answer.locator('.answerCard:has(.deepDiveControl button)').first();
+  await expect(firstExpandableCard).toBeVisible();
+  const deepen = firstExpandableCard.getByRole('button', { name: /Approfondir/ });
   await expect(deepen).toBeVisible();
   await deepen.click();
-  await expect(answer.getByRole('button', { name: /Réduire/ })).toBeVisible();
+  await expect(firstExpandableCard.getByRole('button', { name: /Réduire/ })).toBeVisible();
 });

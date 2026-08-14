@@ -201,14 +201,20 @@ function sanitizeExpansionContext(raw) {
   return { query, mode, retrievalAssisted: Boolean(raw.retrievalAssisted) };
 }
 
-function expansionFor(depth, mode, evidence, debug, retrievalQuery, retrievalAssisted) {
+function expansionFor(depth, mode, evidence, debug, retrievalQuery, retrievalAssisted, answerQuestion, answerOptions) {
   if (depth !== "summary" || mode === "candidates" || !canExpandEvidence(evidence, debug)) return { available: false };
+  const previewEvidence = expandEvidence(evidence, { maxEvidence: mode === "comparison" ? 44 : 36, chunksPerSource: 3 });
+  const previewAnswer = composeDeepAnswer(answerQuestion, previewEvidence, answerOptions);
   return {
     available: true,
     context: {
       query: retrievalQuery,
       mode,
       retrievalAssisted: Boolean(retrievalAssisted)
+    },
+    preview: {
+      answer: { cards: previewAnswer.cards || [] },
+      citations: citationsFromEvidence(previewEvidence)
     }
   };
 }
@@ -306,22 +312,18 @@ export async function POST(request) {
   const evidence = depth === "deep"
     ? expandEvidence(compactEvidence, { maxEvidence: mode === "comparison" ? 44 : 36, chunksPerSource: 3 })
     : compactEvidence;
+  const answerOptions = {
+    mode,
+    candidates:run.candidates,
+    requestedEntities:run.debug.requestedEntities || [],
+    candidateTargeted:run.candidateTargeted
+  };
   let answer = depth === "deep"
-    ? composeDeepAnswer(answerQuestion, evidence, {
-      mode,
-      candidates:run.candidates,
-      requestedEntities:run.debug.requestedEntities || [],
-      candidateTargeted:run.candidateTargeted
-    })
-    : composeDeterministicAnswer(answerQuestion,evidence,{
-      mode,
-      candidates:run.candidates,
-      requestedEntities:run.debug.requestedEntities || [],
-      candidateTargeted:run.candidateTargeted
-    });
+    ? composeDeepAnswer(answerQuestion, evidence, answerOptions)
+    : composeDeterministicAnswer(answerQuestion,evidence,answerOptions);
   answer.followUps = depth === "deep" ? [] : suggestionsFor(answerQuestion, question, evidence, history, incomingSession);
   answer = finalizeAnswer(answer, retrievalAssisted);
   const sessionContext = buildSuggestionSessionState(incomingSession, answerQuestion, evidence);
-  const expansion = expansionFor(depth, mode, compactEvidence, run.debug, retrievalQuery, retrievalAssisted);
+  const expansion = expansionFor(depth, mode, compactEvidence, run.debug, retrievalQuery, retrievalAssisted, answerQuestion, answerOptions);
   return response(answer, evidence, run.debug, retrievalAssisted, sessionContext, expansion, depth);
 }
