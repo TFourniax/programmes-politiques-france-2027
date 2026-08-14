@@ -5,7 +5,10 @@ test('editorial landing and indexable corpus routes expose discoverable public d
   await expect(page.getByRole('heading', { name: 'Les programmes politiques, vérifiables jusque dans la source.' })).toBeVisible();
   const homeCanonical = await page.locator('link[rel="canonical"]').getAttribute('href');
   expect(new URL(homeCanonical).pathname).toBe('/');
-  await expect(page.locator('script[type="application/ld+json"]')).toContainText('Dataset');
+  const datasetJsonLd = JSON.parse(await page.locator('script[type="application/ld+json"]').first().textContent());
+  expect(datasetJsonLd['@context']).toBe('https://schema.org');
+  expect(datasetJsonLd['@type']).toBe('Dataset');
+  expect(datasetJsonLd.name).toContain('France 2027');
 
   const manifestResponse = await request.get('/api/open-data');
   expect(manifestResponse.ok()).toBeTruthy();
