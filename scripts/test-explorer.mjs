@@ -78,6 +78,15 @@ const nonOfficialProfile = buildCandidateProfile(nonOfficialPartyCandidate.id);
 assert.equal(nonOfficialProfile.attributedPartyDocuments.length, 0, "Party programme must not be inherited without official party designation");
 assert.ok(nonOfficialProfile.coverage.every((item) => !item.partyProgrammeAttributed));
 
+const marineLePenProfile = buildCandidateProfile("marine-le-pen");
+assert.equal(marineLePenProfile.candidate.partyId, "rassemblement-national");
+assert.equal(marineLePenProfile.candidate.partyProgrammeAttributable, false, "A declared candidate must not inherit the party programme without official party designation");
+assert.ok(
+  marineLePenProfile.partyContextDocuments.some((item) => item.path === "corpus/2027/rassemblement-national/2024-programme-legislatif.md" && item.documentStatus === "archived"),
+  "Candidate profile must preserve the RN 2024 archived document as visible party history"
+);
+assert.equal(marineLePenProfile.attributedPartyDocuments.length, 0, "Historical party context must remain non-attributed for a non-designated candidate");
+
 const candidateIds = selectable.slice(0, 2).map((candidate) => candidate.id);
 const topicIds = meta.topics.slice(0, 3).map((topic) => topic.id);
 const comparison = buildComparison(candidateIds, topicIds);
