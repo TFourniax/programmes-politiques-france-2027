@@ -2,6 +2,18 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { buildCandidateProfile, getExplorerMeta } from "../../../lib/explorer.js";
 
+const DOCUMENT_STATUS_LABELS = {
+  current: "version actuelle",
+  amended: "version amendée",
+  archived: "document archivé — contexte historique",
+  superseded: "document remplacé — contexte historique",
+  withdrawn: "document retiré — contexte historique",
+  rejected: "document écarté",
+  draft: "brouillon",
+  historical: "document historique",
+  unknown: "statut non renseigné"
+};
+
 export function generateStaticParams() {
   return getExplorerMeta().candidates.map((candidate) => ({ id: candidate.id }));
 }
@@ -28,7 +40,8 @@ function CoverageState({ item }) {
 }
 
 function Evidence({ item }) {
-  return <article className="seoEvidence"><div className="seoEvidenceTop"><strong>{item.title}</strong><small>{item.publishedAt || "date non renseignée"}</small></div>{item.excerpt && <p>{item.excerpt}</p>}<div className="seoEvidenceLinks">{item.githubUrl && <a href={item.githubUrl} target="_blank" rel="noreferrer">Dans le corpus ↗</a>}{item.sourceUrl && <a href={item.sourceUrl} target="_blank" rel="noreferrer">Source originale ↗</a>}</div></article>;
+  const status = DOCUMENT_STATUS_LABELS[item.documentStatus] || item.documentStatus || "statut non renseigné";
+  return <article className="seoEvidence"><div className="seoEvidenceTop"><strong>{item.title}</strong><small>{item.publishedAt || "date non renseignée"} · {status}</small></div>{item.excerpt && <p>{item.excerpt}</p>}<div className="seoEvidenceLinks">{item.githubUrl && <a href={item.githubUrl} target="_blank" rel="noreferrer">Dans le corpus ↗</a>}{item.sourceUrl && <a href={item.sourceUrl} target="_blank" rel="noreferrer">Source originale ↗</a>}</div></article>;
 }
 
 export default async function CandidatePage({ params }) {
@@ -52,9 +65,9 @@ export default async function CandidatePage({ params }) {
 
     <section className="seoSection"><div className="seoSectionHeading"><div><span className="publicEyebrow">Couverture documentaire</span><h2>Ce que le corpus permet d’examiner</h2></div><p>« Non documenté » décrit uniquement l’état du corpus. Ce n’est jamais une preuve d’absence de position.</p></div><div className="seoCardGrid">{profile.coverage.map(item => <article className="seoCard" key={item.topicId}><strong>{item.topicLabel}</strong><p><CoverageState item={item} /></p><p>{item.directSourceCount} source(s) directe(s){item.partySourceCount ? ` · ${item.partySourceCount} source(s) de parti` : ""}</p><div className="seoEvidenceList">{item.directEvidence.slice(0,1).map(evidence=><Evidence item={evidence} key={evidence.id}/>)}</div><Link href={`/themes/${item.topicId}`}>Voir le thème →</Link></article>)}</div></section>
 
-    <section className="seoSection"><div className="seoSectionHeading"><div><span className="publicEyebrow">Sources directes</span><h2>Documents et propositions rattachés à {c.name}</h2></div><p>Ces éléments sont rattachés directement à la personnalité dans le corpus, indépendamment des documents de son parti.</p></div>{profile.directDocuments.length ? <div className="seoEvidenceList">{profile.directDocuments.slice(0,12).map(item=><Evidence item={item} key={item.id}/>)}</div> : <p>Aucun document directement rattaché n’est encore indexé pour cette personnalité.</p>}</section>
+    <section className="seoSection"><div className="seoSectionHeading"><div><span className="publicEyebrow">Sources directes</span><h2>Documents et propositions rattachés à {c.name}</h2></div><p>Ces éléments sont rattachés directement à la personnalité dans le corpus, indépendamment des documents de son parti. Leur statut est affiché pour distinguer clairement l’état courant de l’historique.</p></div>{profile.directDocuments.length ? <div className="seoEvidenceList">{profile.directDocuments.slice(0,12).map(item=><Evidence item={item} key={item.id}/>)}</div> : <p>Aucun document directement rattaché n’est encore indexé pour cette personnalité.</p>}</section>
 
-    {profile.partyContextDocuments.length > 0 && <section className="seoSection"><div className="seoSectionHeading"><div><span className="publicEyebrow">Contexte distinct</span><h2>Documents du parti principal</h2></div><p>Ils sont affichés pour le contexte, sans attribution automatique à {c.name}.</p></div><div className="seoEvidenceList">{profile.partyContextDocuments.slice(0,8).map(item=><Evidence item={item} key={item.id}/>)}</div></section>}
+    {profile.partyContextDocuments.length > 0 && <section className="seoSection"><div className="seoSectionHeading"><div><span className="publicEyebrow">Contexte distinct</span><h2>Documents du parti principal</h2></div><p>Ils sont affichés pour le contexte, sans attribution automatique à {c.name}. Les documents archivés, remplacés ou retirés sont explicitement signalés comme historiques.</p></div><div className="seoEvidenceList">{profile.partyContextDocuments.slice(0,8).map(item=><Evidence item={item} key={item.id}/>)}</div></section>}
 
     <section className="seoSection"><div className="seoSectionHeading"><div><span className="publicEyebrow">Explorer davantage</span><h2>Comparer et vérifier</h2></div></div><div className="methodLinks"><Link href={`/?mode=candidates&candidate=${c.id}#explorer`}>Ouvrir la fiche interactive</Link><Link href={`/?mode=compare&c=${c.id}#explorer`}>Ajouter à une comparaison</Link>{c.sourceUrl && <a href={c.sourceUrl} target="_blank" rel="noreferrer">Source du statut ↗</a>}</div></section>
   </main>;
