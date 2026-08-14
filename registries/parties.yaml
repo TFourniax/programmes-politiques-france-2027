@@ -18,6 +18,7 @@ parties:
   - id: pcf
     name: Parti communiste français
     official_url: https://www.pcf.fr/
+    programme_url: https://www.pcf.fr/le_programme
   - id: les-ecologistes
     name: Les Écologistes
     official_url: https://lesecologistes.fr/
@@ -41,6 +42,7 @@ parties:
   - id: les-republicains
     name: Les Républicains
     official_url: https://republicains.fr/
+    programme_url: https://republicains.fr/nos-propositions/
   - id: nouvelle-energie
     name: Nouvelle Énergie
     official_url: https://www.unenouvelleenergie.fr/
