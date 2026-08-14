@@ -818,7 +818,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-08-14T08:47:24+00:00",
+  "last_run_at": "2026-08-14T14:36:52+00:00",
   "source_chunks": {
     "049ef2342af4f07d32e93984": {
       "canonical_confirmations": [
@@ -3029,6 +3029,48 @@
       "updated_at": "2026-08-14T03:40:42+00:00",
       "url": "https://solutiondemocratique.fr/jerome-guedj-programme-presidentielle-2027/"
     },
+    "4f98878606ec4cbd0e16da97": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "solution-democratique",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Solution Démocratique souhaite instaurer en France la démocratie directe et la décentralisation par le bas.",
+            "relevance": "direct",
+            "statement": "Solution démocratique souhaite instaurer en France la démocratie directe et la décentralisation par le bas.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La proposition est explicitement soutenue à la fin de la source ('Solution Démocratique souhaite instaurer en France la démocratie directe et la décentralisation par le bas') et correspond exactement au contenu canonique existant.",
+            "related_proposal_id": "auto-solution-democratique-institutions-democratie-4ea1c22d52ea",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-08-14T14:36:33+00:00",
+      "created_at": "2026-08-14T14:36:27+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-04-19"
+      ],
+      "sha256": "609600cb6b87ab733c078f4e4cec5ef06284f12fefeef59e8866e2e85136ba64",
+      "source_title": "Lydie Massard 2027 : programme sur la démocratie",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-14T14:36:31+00:00",
+      "url": "https://solutiondemocratique.fr/lydie-massard-programme-presidentielle2027/"
+    },
     "50622a201742127d88ae841d": {
       "claims": [
         {
@@ -4124,6 +4166,48 @@
       "updated_at": "2026-08-12T22:06:40+00:00",
       "url": "https://melenchon2027.fr/programme2025/livre/chapitre10/"
     },
+    "9e957a43490ff4192bfb9c7c": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "solution-democratique",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Solution Démocratique souhaite instaurer en France la démocratie directe et la décentralisation par le bas",
+            "relevance": "party_platform",
+            "statement": "Instaurer en France la démocratie directe et la décentralisation par le bas.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Le claim est explicitement soutenu par la source à la fin du texte et constitue un doublon exact de l'entrée canonique existante.",
+            "related_proposal_id": "auto-solution-democratique-institutions-democratie-4ea1c22d52ea",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-08-14T14:36:42+00:00",
+      "created_at": "2026-08-14T14:36:35+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-04-26"
+      ],
+      "sha256": "3f56adeda328b2c135e5cf0e0436e9e70f88dfa3cedb58c5146d958e59efb9ac",
+      "source_title": "Raphaël Glucksmann 2027 : programme sur la démocratie",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-14T14:36:39+00:00",
+      "url": "https://solutiondemocratique.fr/raphael-glucksmann-2027-programme-presidentiel/"
+    },
     "af3984a6ce57f0e5c89b834e": {
       "claims": [
         {
@@ -4783,6 +4867,26 @@
       "updated_at": "2026-08-13T00:20:23+00:00",
       "url": "https://melenchon2027.fr/programme2025/livre/chapitre16/"
     },
+    "c6c95d05ea8b0a77650a090c": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-08-14T14:36:52+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "bf732719d8f6d624e8562a2a8eb56fbdabae67482fbb8308661f85eb81301b8e",
+      "source_title": "La France : *des milliers de morts à cause de 5 canicules, une sécheresse et des incendies historiques, une crise agricole, le chômage et la pauvreté qui explosent, une crise du lo",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-14T14:36:53+00:00",
+      "url": "https://bsky.app/profile/marinetondelier.fr/post/3mszwoez24s2d"
+    },
     "cc02fece8ef19549696802b4": {
       "canonical_confirmations": [
         {
@@ -5335,6 +5439,58 @@
       "total": 2,
       "updated_at": "2026-08-13T08:51:03+00:00",
       "url": "https://melenchon2027.fr/programme2025/livre/chapitre7/"
+    },
+    "cf05007782121b73c8fa752a": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "solution-democratique",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "instaurer en France la démocratie directe et la décentralisation par le bas",
+            "relevance": "direct",
+            "statement": "Solution Démocratique souhaite instaurer en France la démocratie directe et la décentralisation par le bas.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La position de Solution Démocratique sur la démocratie directe est explicitement soutenue par la source et identique au canonique.",
+            "related_proposal_id": "auto-solution-democratique-institutions-democratie-4ea1c22d52ea",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-08-14T14:36:51+00:00",
+      "created_at": "2026-08-14T14:36:44+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-03-28"
+      ],
+      "sha256": "50672737b655d3906a1aedf217e8d1148e501f5923fb652d8547c9406598eec5",
+      "source_title": "Nathalie Arthaud 2027 : démocratie directe et programme",
+      "statuses": [
+        {
+          "status": {
+            "candidate_id": "clara-egger",
+            "effective_date": "2026-03-28",
+            "evidence_quote": "Clara Egger est candidate à l’élection présidentielle de 2027 pour Solution Démocratique.",
+            "explicit": true,
+            "new_status": "declared_presidential"
+          }
+        }
+      ],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-14T14:36:49+00:00",
+      "url": "https://solutiondemocratique.fr/nathalie-arthaud-presidentielle-2027-programme/"
     },
     "d299eee14a2c37da3bab25ec": {
       "canonical_confirmations": [
@@ -6228,6 +6384,15 @@
     }
   },
   "sources": {
+    "00bb808963ae": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-14T14:36:51+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "50672737b655d3906a1aedf217e8d1148e501f5923fb652d8547c9406598eec5",
+      "status": "promoted",
+      "url": "https://solutiondemocratique.fr/nathalie-arthaud-presidentielle-2027-programme/"
+    },
     "05d351c29703": {
       "attempts": 2,
       "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 27.673306953s.",
@@ -6244,6 +6409,15 @@
       "source_sha256": "21b6d70b990f1115340eabb0e6bca3fbfc0b4aa33d1571db650dadc7a796d85e",
       "status": "not_confirmed",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
+    "0fdf7b747163": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-14T14:36:42+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "3f56adeda328b2c135e5cf0e0436e9e70f88dfa3cedb58c5146d958e59efb9ac",
+      "status": "promoted",
+      "url": "https://solutiondemocratique.fr/raphael-glucksmann-2027-programme-presidentiel/"
     },
     "150427f48739": {
       "chunks_done": null,
@@ -6443,6 +6617,15 @@
       "source_sha256": "cda20c8f7f4d1397e8e6080047e6b9570b1a339da3b30bc9d8ef09faad1fead0",
       "status": "promoted",
       "url": "https://melenchon2027.fr/programme2025/livre/chapitre15/"
+    },
+    "6fa2b15acfa7": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-14T14:36:33+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "609600cb6b87ab733c078f4e4cec5ef06284f12fefeef59e8866e2e85136ba64",
+      "status": "promoted",
+      "url": "https://solutiondemocratique.fr/lydie-massard-programme-presidentielle2027/"
     },
     "72d3e99ceb3b": {
       "chunks_done": null,
