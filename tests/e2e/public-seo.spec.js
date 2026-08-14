@@ -2,7 +2,10 @@ import { test, expect } from '@playwright/test';
 
 test('editorial landing and indexable corpus routes expose discoverable public data', async ({ page, request }) => {
   await page.goto('/');
-  await expect(page.getByRole('heading', { name: 'Les programmes politiques, vérifiables jusque dans la source.' })).toBeVisible();
+  await expect(page.getByRole('heading', { name: 'Les programmes politiques, documentés jusque dans la source.' })).toBeVisible();
+  await expect(page.getByText('Open source & auditable', { exact: true })).toBeVisible();
+  await expect(page.getByText('Retrieval sans invention', { exact: true })).toBeVisible();
+  await expect(page.getByText(/aucun LLM ne l’invente/i)).toBeVisible();
   await expect(page.getByRole('navigation', { name: 'Navigation principale' }).getByRole('link', { name: 'Mises à jour' })).toBeVisible();
   const homeCanonical = await page.locator('link[rel="canonical"]').getAttribute('href');
   expect(new URL(homeCanonical).pathname).toBe('/');
@@ -10,6 +13,8 @@ test('editorial landing and indexable corpus routes expose discoverable public d
   expect(datasetJsonLd['@context']).toBe('https://schema.org');
   expect(datasetJsonLd['@type']).toBe('Dataset');
   expect(datasetJsonLd.name).toContain('France 2027');
+  expect(datasetJsonLd.sameAs).toContain('github.com/TFourniax/programmes-politiques-france-2027');
+  expect(datasetJsonLd.measurementTechnique).toMatch(/retrieval déterministe/i);
 
   const manifestResponse = await request.get('/api/open-data');
   expect(manifestResponse.ok()).toBeTruthy();
@@ -31,21 +36,23 @@ test('editorial landing and indexable corpus routes expose discoverable public d
   expect(manifest.topics.length).toBe(12);
   expect(manifest.topics.some((topic) => topic.id === 'defense-international')).toBe(true);
   expect(manifest.topics.some((topic) => topic.id === 'numerique-ia')).toBe(true);
-  expect(manifest.methodology.candidatePartyAttribution).toBe('separate_unless_directly_sourced');
+  expect(manifest.methodology.answerGeneration).toBe('deterministic_extractive');
+  expect(manifest.methodology.candidatePartyAttribution).toBe('party_programme_only_for_official_party_candidate_with_source_provenance_preserved');
+  expect(manifest.methodology.partyProgrammeEligibleStatuses).toEqual(['party_designated', 'official_candidate']);
 
   const candidate = manifest.activeCandidates[0];
   await page.goto(`/candidats/${candidate.id}`);
   await expect(page.getByRole('heading', { level: 1 })).toContainText(candidate.name);
   const candidateCanonical = await page.locator('link[rel="canonical"]').getAttribute('href');
   expect(new URL(candidateCanonical).pathname).toBe(`/candidats/${candidate.id}`);
-  await expect(page.getByText(/sources directes séparées du parti/i)).toBeVisible();
+  await expect(page.getByText(/attribution vérifiable/i)).toBeVisible();
 
   const topic = manifest.topics.find((item) => item.id === 'numerique-ia');
   await page.goto(`/themes/${topic.id}`);
   await expect(page.getByRole('heading', { level: 1 })).toContainText(topic.label);
   const topicCanonical = await page.locator('link[rel="canonical"]').getAttribute('href');
   expect(new URL(topicCanonical).pathname).toBe(`/themes/${topic.id}`);
-  await expect(page.getByText(/Une absence de source directe dans ce corpus ne démontre jamais/i)).toBeVisible();
+  await expect(page.getByText(/Une absence de source attribuable dans ce corpus ne démontre jamais/i)).toBeVisible();
 
   await page.goto('/mises-a-jour');
   await expect(page.getByRole('heading', { name: 'Mises à jour du corpus' })).toBeVisible();
@@ -58,9 +65,10 @@ test('editorial landing and indexable corpus routes expose discoverable public d
   await page.goto('/donnees');
   await expect(page.getByRole('heading', { name: 'Couverture, fraîcheur et limites visibles' })).toBeVisible();
   await expect(page.locator('.coverageMatrix')).toBeVisible();
+  await expect(page.getByText(/source de vérité : Markdown\/YAML versionnés/i)).toBeVisible();
 
   const firstTopic = manifest.topics[0];
-  const matrixDirect = await page.evaluate((label) => {
+  const matrixCovered = await page.evaluate((label) => {
     const table = document.querySelector('.coverageMatrix table');
     if (!table) return null;
     const headers = [...table.querySelectorAll('thead th')].map((node) => node.textContent.trim());
@@ -72,14 +80,28 @@ test('editorial landing and indexable corpus routes expose discoverable public d
       return state?.classList.contains('documented') || state?.classList.contains('partial');
     }).length;
   }, firstTopic.label);
-  expect(matrixDirect).not.toBeNull();
+  expect(matrixCovered).not.toBeNull();
   const topicCard = page.locator('.seoCard').filter({ hasText: firstTopic.label }).first();
-  await expect(topicCard).toContainText(`${matrixDirect} candidature(s) active(s) avec élément direct`);
+  await expect(topicCard).toContainText(`${matrixCovered} candidature(s) active(s) avec preuve attribuable`);
+});
+
+test('party programme attribution is allowed only for the officially designated party candidate', async ({ page, request }) => {
+  const manifest = await (await request.get('/api/open-data')).json();
+  const designated = manifest.activeCandidates.find((candidate) => candidate.status === 'party_designated' && candidate.partyProgrammeAttributable);
+  expect(designated).toBeTruthy();
+  await page.goto(`/candidats/${designated.id}`);
+  await expect(page.getByText(/Programme du parti attribuable/i).first()).toBeVisible();
+  await expect(page.getByText(/officiellement désignée|officiellement désigné/i).first()).toBeVisible();
+
+  const notDesignated = manifest.activeCandidates.find((candidate) => candidate.partyId && !candidate.partyProgrammeAttributable);
+  expect(notDesignated).toBeTruthy();
+  await page.goto(`/candidats/${notDesignated.id}`);
+  await expect(page.getByText(/Programme du parti attribuable/i)).toHaveCount(0);
 });
 
 test('historical evidence is visibly labeled on current candidate pages', async ({ page }) => {
   await page.goto('/candidats/marine-le-pen');
-  const partyContext = page.locator('.seoSection').filter({ hasText: 'Documents du parti principal' });
+  const partyContext = page.locator('.seoSection').filter({ hasText: /Documents de Rassemblement national|Documents du parti principal/ });
   await expect(partyContext).toBeVisible();
   await expect(partyContext).toContainText(/document archivé — contexte historique/i);
 });
