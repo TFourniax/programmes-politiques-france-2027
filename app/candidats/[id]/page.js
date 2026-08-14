@@ -13,6 +13,7 @@ const DOCUMENT_STATUS_LABELS = {
   historical: "document historique",
   unknown: "statut non renseigné"
 };
+const HISTORICAL_STATUSES = new Set(["archived", "superseded", "withdrawn", "historical"]);
 
 export function generateStaticParams() {
   return getExplorerMeta().candidates.map((candidate) => ({ id: candidate.id }));
@@ -51,6 +52,9 @@ export default async function CandidatePage({ params }) {
   const c = profile.candidate;
   const coveredCount = profile.coverage.filter(item => ["documented","partial"].includes(item.level)).length;
   const attributedCount = profile.coverage.filter(item => item.partyProgrammeAttributed).length;
+  const partyRecords = c.partyProgrammeAttributable ? profile.attributedPartyDocuments : profile.partyContextDocuments;
+  const currentPartyRecords = partyRecords.filter(item => !HISTORICAL_STATUSES.has(item.documentStatus));
+  const historicalPartyRecords = profile.partyContextDocuments.filter(item => HISTORICAL_STATUSES.has(item.documentStatus));
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Person",
@@ -68,7 +72,10 @@ export default async function CandidatePage({ params }) {
 
     <section className="seoSection"><div className="seoSectionHeading"><div><span className="publicEyebrow">Sources personnelles</span><h2>Documents et propositions directement rattachés à {c.name}</h2></div><p>Ces éléments sont rattachés directement à la personnalité dans le corpus. Leur statut est affiché pour distinguer l’état courant de l’historique.</p></div>{profile.directDocuments.length ? <div className="seoEvidenceList">{profile.directDocuments.slice(0,12).map(item=><Evidence item={item} key={item.id}/>)}</div> : <p>Aucun document personnel direct n’est encore indexé pour cette personnalité.</p>}</section>
 
-    {profile.partyContextDocuments.length > 0 && <section className="seoSection"><div className="seoSectionHeading"><div><span className="publicEyebrow">{c.partyProgrammeAttributable ? "Programme du parti attribuable" : "Contexte distinct"}</span><h2>Documents de {c.partyName || "son parti principal"}</h2></div><p>{c.partyProgrammeAttributable ? `Ces documents peuvent être attribués à ${c.name}, car cette personnalité est officiellement désignée par ${c.partyName}. Leur provenance reste néanmoins celle du parti et chaque source originale demeure visible.` : `Ces documents sont utiles pour le contexte mais ne sont pas attribués à ${c.name}, faute de désignation officielle par ce parti.`}</p></div><div className="seoEvidenceList">{(c.partyProgrammeAttributable ? profile.attributedPartyDocuments : profile.partyContextDocuments).slice(0,8).map(item=><Evidence item={item} key={`${item.id}-${item.path}`}/>)}</div></section>}
+    {profile.partyContextDocuments.length > 0 && <section className="seoSection"><div className="seoSectionHeading"><div><span className="publicEyebrow">{c.partyProgrammeAttributable ? "Programme du parti attribuable" : "Contexte distinct"}</span><h2>Documents de {c.partyName || "son parti principal"}</h2></div><p>{c.partyProgrammeAttributable ? `Les éléments actuels ci-dessous peuvent être attribués à ${c.name}, car cette personnalité est officiellement désignée par ${c.partyName}. Leur provenance reste néanmoins celle du parti. Les versions archivées restent séparées et ne sont jamais présentées comme programme actuel.` : `Ces documents sont utiles pour le contexte mais ne sont pas attribués à ${c.name}, faute de désignation officielle par ce parti.`}</p></div>
+      {currentPartyRecords.length > 0 && <div className="seoEvidenceList">{currentPartyRecords.slice(0,8).map(item=><Evidence item={item} key={`${item.id}-${item.path}`}/>)}</div>}
+      {historicalPartyRecords.length > 0 && <div className="partyHistoricalContext"><div className="seoSectionHeading compactTitle"><div><span className="publicEyebrow">Historique du parti</span><h3>Versions antérieures conservées pour la traçabilité</h3></div><p>Ces sources ne sont pas utilisées comme positions actuelles. Elles restent visibles pour documenter l’évolution du corpus et éviter d’effacer les versions remplacées ou archivées.</p></div><div className="seoEvidenceList">{historicalPartyRecords.slice(0,4).map(item=><Evidence item={item} key={`history-${item.id}-${item.path}`}/>)}</div></div>}
+    </section>}
 
     <section className="seoSection"><div className="seoSectionHeading"><div><span className="publicEyebrow">Explorer davantage</span><h2>Comparer et vérifier</h2></div></div><div className="methodLinks"><Link href={`/?mode=candidates&candidate=${c.id}#explorer`}>Ouvrir la fiche interactive</Link><Link href={`/?mode=compare&c=${c.id}#explorer`}>Ajouter à une comparaison</Link>{c.sourceUrl && <a href={c.sourceUrl} target="_blank" rel="noreferrer">Source du statut ↗</a>}</div></section>
   </main>;
