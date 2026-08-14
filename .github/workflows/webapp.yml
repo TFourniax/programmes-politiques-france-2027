@@ -66,6 +66,10 @@ jobs:
         env:
           CI: 'true'
         run: npx playwright test --grep "homepage exposes"
+      - name: Browser acceptance — public SEO and open data
+        env:
+          CI: 'true'
+        run: npx playwright test tests/e2e/public-seo.spec.js
       - name: Browser acceptance — explorer and history UI
         env:
           CI: 'true'
