@@ -7,10 +7,13 @@
   "properties": {
     "document_id": {"type": "string", "minLength": 3},
     "entity_id": {"type": "string", "minLength": 1},
+    "publisher_entity_id": {"type": "string", "minLength": 1, "description": "Optional canonical entity that explicitly published the document. Never inferred from entity_id or the URL host."},
     "entity_type": {"enum": ["candidate", "party"]},
     "document_type": {"enum": ["official_presidential_programme", "presidential_preprogramme", "party_programme", "party_platform", "manifesto", "thematic_platform", "policy_proposal", "candidacy_declaration", "official_speech", "official_press_release", "official_interview", "official_video_transcript", "campaign_website_page", "primary_platform", "primary_result", "coalition_agreement", "secondary_summary", "fact_check", "historical_reference", "other"]},
     "document_status": {"enum": ["current", "superseded", "amended", "withdrawn", "draft", "archived", "unknown"]},
     "published_at": {"type": ["string", "number"]},
+    "date_basis": {"enum": ["source_publication", "capture_fallback", "unknown"]},
+    "captured_at": {"type": ["string", "number"]},
     "source_url": {"type": "string", "format": "uri"},
     "source_tier": {"enum": ["tier_1_primary_official", "tier_2_primary_statement", "tier_3_reliable_secondary", "tier_4_discovery_only"]},
     "rights_status": {"enum": ["open_license", "public_domain", "permission_granted", "quotation_only", "link_only", "unknown", "restricted"]},

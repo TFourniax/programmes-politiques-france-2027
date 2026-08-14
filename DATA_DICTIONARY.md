@@ -11,10 +11,13 @@ Ce document définit la sémantique des champs canoniques. Les schémas machine-
 
 ## Document
 - `document_id` : identifiant stable du document canonique.
-- `entity_id` : propriétaire ou acteur auquel le document est rattaché ; il reste distinct de l'acteur d'un claim lorsqu'une source d'un parti prouve explicitement une déclaration personnelle, ou inversement.
+- `entity_id` : acteur ou organisation auquel le document est rattaché pour le corpus. Ce champ n'affirme pas qui a publié la page distante.
+- `publisher_entity_id` : éditeur canonique du document uniquement lorsqu'il est explicitement établi ; il n'est jamais déduit de `entity_id` ni du nom de domaine.
 - `document_type` : nature documentaire.
 - `document_status` : `current`, `amended`, `superseded`, `withdrawn`, `draft`, `archived` ou `unknown`.
-- `published_at` : date de publication connue ; peut être absente si elle n'est pas établie avec assez de précision.
+- `published_at` : date de publication connue ou valeur de capture lorsque `date_basis: capture_fallback` le signale explicitement.
+- `date_basis` : provenance de la date. `source_publication` signifie date de publication établie ; `capture_fallback` signifie seulement date d'observation et ne doit pas être présentée comme publication ; `unknown` reste indéterminé.
+- `captured_at` : instant de collecte technique lorsqu'il est conservé.
 - `source_url` : URL d'origine ou meilleure URL primaire disponible.
 - `source_tier` : niveau de source selon `SOURCES_POLICY.md`.
 - `rights_status` : régime de réutilisation ; ne confond pas accessibilité publique et licence ouverte.
@@ -34,7 +37,7 @@ Ce document définit la sémantique des champs canoniques. Les schémas machine-
 - `supersedes` / `superseded_by` : relation explicite de remplacement entre claims du même acteur et du même thème.
 
 ## Preuve / provenance
-Le graphe dérivé produit par `scripts/build_evidence_graph.py` n'est pas canonique. Il relie sans fusionner : document, claim, acteur et relations temporelles. Les relations de base sont `supports`, `attributed_to`, `published_by` et `supersedes`. Des relations futures telles que `confirms`, `contradicts` ou `context_only` doivent rester explicitement déclarées et sourcées.
+Le graphe dérivé produit par `scripts/build_evidence_graph.py` n'est pas canonique. Il relie sans fusionner document, rattachement documentaire, éditeur explicite, claim et acteur. Les relations de base sont `attached_to`, `supports`, `attributed_to` et `supersedes`; `published_by` n'existe que lorsque l'éditeur est explicitement documenté. Les relations futures telles que `confirms`, `contradicts` ou `context_only` doivent rester explicitement déclarées et sourcées.
 
 ## Vérification
 `verified` signifie que l'attribution et la fidélité à la source ont été vérifiées. Cela ne signifie pas que la proposition est réalisable, financée, constitutionnelle, efficace ou souhaitable.

@@ -31,11 +31,11 @@ export default function UpdatesPage() {
       <span className="publicEyebrow">Journal documentaire</span>
       <h1>Mises à jour du corpus</h1>
       <p>Les documents actuels les plus récemment datés dans le corpus. Cette page expose la fraîcheur documentaire ; elle ne transforme pas chaque nouvelle publication en « changement de position ». Un revirement ou un remplacement n'est qualifié comme tel que lorsqu'il est explicitement documenté dans le canon.</p>
-      <div className="seoMetaRow"><span>{updates.length} documents récents affichés au maximum</span><span>versions actuelles uniquement</span><span>sources traçables</span></div>
+      <div className="seoMetaRow"><span>{updates.length} documents récents affichés au maximum</span><span>versions actuelles uniquement</span><span>dates de publication établies</span></div>
     </header>
 
     <section className="seoSection">
-      <div className="seoSectionHeading"><div><h2>Derniers documents datés</h2><p>Les entrées sont triées par date de publication connue. Une page sans date suffisamment précise n'est pas artificiellement placée dans la chronologie.</p></div></div>
+      <div className="seoSectionHeading"><div><h2>Derniers documents datés</h2><p>Les entrées sont triées par date de publication connue. Les dates utilisées uniquement comme repli de capture technique (`capture_fallback`) sont volontairement exclues de cette chronologie.</p></div></div>
       <div className="seoEvidenceList">
         {updates.map((item) => <article className="seoEvidence" key={item.path}>
           <div className="seoEvidenceTop"><strong>{item.title}</strong><small>{formatDate(item.publishedAt)} · {item.documentStatus === "amended" ? "version amendée" : "version actuelle"}</small></div>

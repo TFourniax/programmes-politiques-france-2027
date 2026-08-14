@@ -3,6 +3,7 @@ import { test, expect } from '@playwright/test';
 test('editorial landing and indexable corpus routes expose discoverable public data', async ({ page, request }) => {
   await page.goto('/');
   await expect(page.getByRole('heading', { name: 'Les programmes politiques, vérifiables jusque dans la source.' })).toBeVisible();
+  await expect(page.getByRole('navigation', { name: 'Navigation principale' }).getByRole('link', { name: 'Mises à jour' })).toBeVisible();
   const homeCanonical = await page.locator('link[rel="canonical"]').getAttribute('href');
   expect(new URL(homeCanonical).pathname).toBe('/');
   const datasetJsonLd = JSON.parse(await page.locator('script[type="application/ld+json"]').first().textContent());
@@ -49,6 +50,8 @@ test('editorial landing and indexable corpus routes expose discoverable public d
   await page.goto('/mises-a-jour');
   await expect(page.getByRole('heading', { name: 'Mises à jour du corpus' })).toBeVisible();
   await expect(page.locator('.seoEvidence').first()).toBeVisible();
+  await expect(page.getByText('Chapitre 4 : Étendre le domaine de la liberté', { exact: true })).toHaveCount(0);
+  await expect(page.getByText(/capture_fallback/)).toBeVisible();
   const updatesCanonical = await page.locator('link[rel="canonical"]').getAttribute('href');
   expect(new URL(updatesCanonical).pathname).toBe('/mises-a-jour');
 

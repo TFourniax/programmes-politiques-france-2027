@@ -8,6 +8,8 @@ from datetime import date, datetime
 from pathlib import Path
 from typing import Any
 
+import yaml
+
 from common import ROOT, parse_markdown
 
 
@@ -38,18 +40,38 @@ def _markdown_files(root: Path, relative: str) -> list[Path]:
     return sorted(path for path in base.rglob("*.md") if path.is_file())
 
 
+def _load_yaml(root: Path, relative: str) -> dict[str, Any]:
+    path = root / relative
+    payload = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
+    if not isinstance(payload, dict):
+        raise ValueError(f"YAML root must be a mapping: {relative}")
+    return payload
+
+
+def _snapshot(value: Any) -> str | None:
+    value = _json_value(value)
+    if value in (None, ""):
+        return None
+    return str(value)[:10]
+
+
 def build_graph(root: Path = ROOT) -> dict[str, Any]:
     root = root.resolve()
-    entities = json.loads((root / "data" / "entities.json").read_text(encoding="utf-8"))
+    candidate_registry = _load_yaml(root, "registries/candidates.yaml")
+    party_registry = _load_yaml(root, "registries/parties.yaml")
+    document_registry = _load_yaml(root, "registries/documents.yaml")
     nodes: list[dict[str, Any]] = []
     edges: list[dict[str, Any]] = []
     document_meta: dict[str, dict[str, Any]] = {}
 
-    for group, kind in (("candidates", "candidate"), ("parties", "party")):
-        for row in entities.get(group, []):
-            entity_id = str(row.get("id") or "").strip()
-            if entity_id:
-                nodes.append({"id": entity_id, "kind": "entity", "entity_type": kind, "name": row.get("name")})
+    for row in candidate_registry.get("candidates", []):
+        entity_id = str(row.get("id") or "").strip()
+        if entity_id:
+            nodes.append({"id": entity_id, "kind": "entity", "entity_type": "candidate", "name": row.get("name")})
+    for row in party_registry.get("parties", []):
+        entity_id = str(row.get("id") or "").strip()
+        if entity_id:
+            nodes.append({"id": entity_id, "kind": "entity", "entity_type": "party", "name": row.get("name")})
 
     for path in _markdown_files(root, "corpus/2027"):
         meta, _ = parse_markdown(path)
@@ -61,16 +83,21 @@ def build_graph(root: Path = ROOT) -> dict[str, Any]:
             "id": document_id,
             "kind": "document",
             "entity_id": meta.get("entity_id"),
+            "publisher_entity_id": meta.get("publisher_entity_id"),
             "document_status": meta.get("document_status"),
             "source_tier": meta.get("source_tier"),
             "source_url": meta.get("source_url"),
             "published_at": _json_value(meta.get("published_at")),
+            "date_basis": meta.get("date_basis"),
+            "captured_at": _json_value(meta.get("captured_at")),
             "retrieved_at": _json_value(meta.get("retrieved_at")),
             "canonical_path": path.relative_to(root).as_posix(),
             "canonical_sha256": _hash(path),
         })
         if meta.get("entity_id"):
-            edges.append({"subject": document_id, "relation": "published_by", "object": str(meta["entity_id"])})
+            edges.append({"subject": document_id, "relation": "attached_to", "object": str(meta["entity_id"])})
+        if meta.get("publisher_entity_id"):
+            edges.append({"subject": document_id, "relation": "published_by", "object": str(meta["publisher_entity_id"])})
 
     for path in _markdown_files(root, "proposals"):
         meta, _ = parse_markdown(path)
@@ -121,10 +148,18 @@ def build_graph(root: Path = ROOT) -> dict[str, Any]:
             seen.add(key)
             deduped.append(edge)
 
+    snapshot_dates = {
+        "candidates": _snapshot(candidate_registry.get("snapshot_date")),
+        "parties": _snapshot(party_registry.get("snapshot_date")),
+        "documents": _snapshot(document_registry.get("snapshot_date")),
+    }
+    latest_snapshot = max((value for value in snapshot_dates.values() if value), default=None)
+
     return {
-        "version": 1,
+        "version": 2,
         "sourceOfTruth": "versioned_markdown_yaml",
-        "snapshotDate": entities.get("snapshot_date"),
+        "snapshotDate": latest_snapshot,
+        "snapshotDates": snapshot_dates,
         "derived": True,
         "counts": {
             "nodes": len(nodes),
