@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://politique2027.netlify.app/schemas/proposal.schema.json",
+  "title": "France 2027 canonical proposal metadata",
+  "type": "object",
+  "required": ["proposal_id", "entity_id", "topic", "certainty"],
+  "properties": {
+    "proposal_id": {"type": "string", "minLength": 3},
+    "entity_id": {"type": "string", "minLength": 1},
+    "topic": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+    "certainty": {"enum": ["explicit", "explicit_but_conditional", "explicit_but_underspecified", "inferred_from_multiple_explicit_statements", "attributed_by_secondary_source", "uncertain"]},
+    "proposal_status": {"enum": ["current", "superseded", "amended", "withdrawn", "archived", "unknown"]},
+    "source_document_id": {"type": "string"},
+    "source_document_ids": {"type": "array", "items": {"type": "string"}, "minItems": 1, "uniqueItems": true},
+    "source_url": {"type": "string", "format": "uri"},
+    "verification_state": {"type": "string"},
+    "source_published_at": {"type": ["string", "number"]},
+    "last_confirmed_at": {"type": ["string", "number"]},
+    "supersedes": {"type": "string"},
+    "superseded_by": {"type": "string"}
+  },
+  "anyOf": [{"required": ["source_document_id"]}, {"required": ["source_document_ids"]}],
+  "additionalProperties": true
+}

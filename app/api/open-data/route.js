@@ -27,8 +27,18 @@ export async function GET() {
       "data/entities.json",
       "data/compass.json",
       "generated/catalog.jsonl",
+      "generated/evidence-graph.json (reconstructible via scripts/build_evidence_graph.py)",
       `${siteUrl}/api/open-data`
     ],
+    researchInfrastructure: {
+      schemas: ["schemas/candidate.schema.json", "schemas/document.schema.json", "schemas/proposal.schema.json", "schemas/evidence.schema.json"],
+      dataDictionary: "DATA_DICTIONARY.md",
+      citation: "CITATION.cff",
+      evidenceModel: "docs/EVIDENCE_MODEL.md",
+      releasePolicy: "docs/RESEARCH_RELEASES.md",
+      externalReviewProtocol: "docs/EXTERNAL_REVIEW_PROTOCOL.md",
+      benchmarkProtocol: "benchmarks/README.md"
+    },
     methodology: {
       sourcePriority: "primary_first",
       answerGeneration: "deterministic_extractive",
@@ -39,6 +49,7 @@ export async function GET() {
     publicEndpoints: {
       candidates: `${siteUrl}/candidats`,
       topics: `${siteUrl}/themes`,
+      updates: `${siteUrl}/mises-a-jour`,
       coverage: `${siteUrl}/donnees`,
       llms: `${siteUrl}/llms.txt`,
       health: `${siteUrl}/api/health`

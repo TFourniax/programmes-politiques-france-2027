@@ -8,6 +8,7 @@ export default function sitemap() {
     ["", 1, "daily"],
     ["/candidats", 0.9, "daily"],
     ["/themes", 0.9, "daily"],
+    ["/mises-a-jour", 0.9, "daily"],
     ["/donnees", 0.85, "daily"]
   ].map(([path, priority, changeFrequency]) => ({ url: `${siteUrl}${path}`, lastModified, changeFrequency, priority }));
   const candidates = meta.candidates.map(candidate => ({

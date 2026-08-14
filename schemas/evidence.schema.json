@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://politique2027.netlify.app/schemas/evidence.schema.json",
+  "title": "France 2027 evidence graph edge",
+  "type": "object",
+  "required": ["subject", "relation", "object"],
+  "properties": {
+    "subject": {"type": "string", "minLength": 1},
+    "relation": {"enum": ["supports", "attached_to", "published_by", "attributed_to", "supersedes", "confirms", "contradicts", "direct_quote", "context_only"]},
+    "object": {"type": "string", "minLength": 1},
+    "source_url": {"type": "string", "format": "uri"},
+    "note": {"type": "string"}
+  },
+  "additionalProperties": false
+}
