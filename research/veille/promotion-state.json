@@ -823,7 +823,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-08-15T13:55:23+00:00",
+  "last_run_at": "2026-08-15T19:48:10+00:00",
   "source_chunks": {
     "049ef2342af4f07d32e93984": {
       "canonical_confirmations": [
@@ -3083,6 +3083,48 @@
       "updated_at": "2026-08-13T00:20:30+00:00",
       "url": "https://melenchon2027.fr/programme2025/livre/chapitre17/"
     },
+    "4462d0edc49cef8bc8748188": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "solution-democratique",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Solution Démocratique souhaite instaurer en France la démocratie directe et la décentralisation par le bas.",
+            "relevance": "direct",
+            "statement": "Solution Démocratique souhaite instaurer en France la démocratie directe et la décentralisation par le bas.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La source confirme explicitement que Solution Démocratique souhaite instaurer en France la démocratie directe et la décentralisation par le bas.",
+            "related_proposal_id": "auto-solution-democratique-institutions-democratie-4ea1c22d52ea",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-08-15T19:48:06+00:00",
+      "created_at": "2026-08-15T19:48:00+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-05-03"
+      ],
+      "sha256": "4ca5a785c2ba5b2d8e2e98ac661f0cc04befde55a19774c5725875aa29dd061f",
+      "source_title": "Programme LFI 2027 : pour une vraie démocratie ?",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-15T19:48:04+00:00",
+      "url": "https://solutiondemocratique.fr/programme-lfi-2027/"
+    },
     "47c5dd5ae80b30abc2268caa": {
       "canonical_confirmations": [],
       "claims": [],
@@ -3104,6 +3146,48 @@
       "total": 1,
       "updated_at": "2026-08-14T03:40:42+00:00",
       "url": "https://solutiondemocratique.fr/jerome-guedj-programme-presidentielle-2027/"
+    },
+    "4bef205b92c72ed47c5c5cb6": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "clara-egger",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "visant à faire évoluer les règles du jeu démocratique",
+            "relevance": "direct",
+            "statement": "Clara Egger porte une candidature visant à faire évoluer les règles du jeu démocratique et à redonner au président un rôle d'arbitre.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Le claim est explicitement soutenu par la source qui mentionne que Clara Egger porte une candidature visant à faire évoluer les règles du jeu démocratique et à redonner au président un rôle d'arbitre, ce qui correspond exactement au claim canonique existant.",
+            "related_proposal_id": "auto-clara-egger-institutions-democratie-ef5123784bab",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-08-15T19:47:58+00:00",
+      "created_at": "2026-08-15T19:47:51+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-04-05"
+      ],
+      "sha256": "a98deebae6b48095d1430f0d022c7bc9043a6814583c0b58671493549d74be37",
+      "source_title": "Jean-Luc Mélenchon 2027 : analyse de son programme et engagement réel pour la démocratie directe - Solution Démocratique - Parti politique pour instaurer la démocratie directe",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-15T19:47:55+00:00",
+      "url": "https://solutiondemocratique.fr/jean-luc-melenchon-programme-presidentielle2027/"
     },
     "4f98878606ec4cbd0e16da97": {
       "canonical_confirmations": [
@@ -4904,6 +4988,26 @@
       "total": 1,
       "updated_at": "2026-08-15T07:55:30+00:00",
       "url": "https://solutiondemocratique.fr/clementine-autain-programme-presidentielle2027/"
+    },
+    "bb6a39605aa3086fe0c3696e": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-08-15T19:48:08+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "f226e15cc0e64543b937b9d499d44fdfbf9b9f5e9e0c5b5733de51101dae9073",
+      "source_title": "Programme — Anasse Kazib 2027",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-15T19:48:09+00:00",
+      "url": "https://anasse2027.fr/programme"
     },
     "c6af810e101bd901f4bb31a6": {
       "canonical_confirmations": [
@@ -7553,6 +7657,24 @@
       "status": "promoted",
       "url": "https://melenchon2027.fr/programme2025/livre/chapitre6/"
     },
+    "af60495c3af7": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-15T19:47:58+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "a98deebae6b48095d1430f0d022c7bc9043a6814583c0b58671493549d74be37",
+      "status": "promoted",
+      "url": "https://solutiondemocratique.fr/jean-luc-melenchon-programme-presidentielle2027/"
+    },
+    "b10e29b9f268": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-15T19:48:06+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "4ca5a785c2ba5b2d8e2e98ac661f0cc04befde55a19774c5725875aa29dd061f",
+      "status": "promoted",
+      "url": "https://solutiondemocratique.fr/programme-lfi-2027/"
+    },
     "b133a28d8f9c": {
       "chunks_done": null,
       "chunks_total": null,
@@ -7708,6 +7830,15 @@
       "source_sha256": "5d3b54eeaaa3611b555574efdedec8aa5c46831a8e244759848baa9936b4d655",
       "status": "not_confirmed",
       "url": "https://parti-equinoxe.fr/legislatives-2022-programme-democratie/"
+    },
+    "da9e2cd0441b": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-15T19:48:09+00:00",
+      "reason": null,
+      "source_sha256": "f226e15cc0e64543b937b9d499d44fdfbf9b9f5e9e0c5b5733de51101dae9073",
+      "status": "not_confirmed",
+      "url": "https://anasse2027.fr/programme"
     },
     "db015b4b553e": {
       "processed_at": "2026-08-11T09:26:23+00:00",
