@@ -1,17 +1,32 @@
 {
   "version": 1,
   "created_at": "2026-08-14T08:23:23.018331+00:00",
-  "updated_at": "2026-08-15T07:55:43.285996+00:00",
+  "updated_at": "2026-08-15T10:45:50.288663+00:00",
   "files": [
+    {
+      "path": "corpus/2027/auto/partys/solution-democratique/2026-02-15-0955a3c5e387.md",
+      "sha256": "02a584fb07b0236bd8c9ec7123a8afebe297d83d3592091d674739788d191efd",
+      "size": 1742
+    },
     {
       "path": "corpus/2027/auto/partys/solution-democratique/2026-02-15-a0acfa7e852c.md",
       "sha256": "ef29703921f28b5454981e24d9936a6562319768fdb4f8f415826d5936d86eb3",
       "size": 1720
     },
     {
+      "path": "corpus/2027/auto/partys/solution-democratique/2026-03-22-7e4a9ad22707.md",
+      "sha256": "e5de9a1d66fa615491bc8d24aebe586ead81ba6e55e750c4caa2aa2944be4b08",
+      "size": 1760
+    },
+    {
       "path": "corpus/2027/auto/partys/solution-democratique/2026-03-28-352d9f3ea0e6.md",
       "sha256": "5126b326f0c271c97c851e53ba44dbc80704fe359f1b61eaad9de51c1453f882",
       "size": 1776
+    },
+    {
+      "path": "corpus/2027/auto/partys/solution-democratique/2026-03-28-abd06abf04a1.md",
+      "sha256": "abedbf4021ec8060f39a693db9f328c0530b7af2a5020535780a8fbc96f83de3",
+      "size": 1771
     },
     {
       "path": "corpus/2027/auto/partys/solution-democratique/2026-03-28-cf0500778212.md",
@@ -110,8 +125,8 @@
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-solution-democratique-institutions-democratie-4ea1c22d52ea.md",
-      "sha256": "f9ae73ca82651724d20ba7f40eb918ffc842ad812a0775ebdaa05f85594cb86e",
-      "size": 5322
+      "sha256": "c9fb9dd3e068d7864d16b35c95c251ac9d91abb030f5914f111c253b0acba539",
+      "size": 5898
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-solution-democratique-institutions-democratie-fb4b3d1432b9.md",

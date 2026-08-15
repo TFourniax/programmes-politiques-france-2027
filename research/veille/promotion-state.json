@@ -823,7 +823,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-08-15T07:55:40+00:00",
+  "last_run_at": "2026-08-15T10:45:46+00:00",
   "source_chunks": {
     "049ef2342af4f07d32e93984": {
       "canonical_confirmations": [
@@ -940,6 +940,50 @@
       "total": 1,
       "updated_at": "2026-08-12T21:48:17+00:00",
       "url": "https://melenchon2027.fr/programme2025/livre/chapitre3/"
+    },
+    "0955a3c5e387ba94dd83adf9": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "solution-democratique",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Solution Démocratique souhaite instaurer en France la démocratie directe et la décentralisation par le bas.",
+            "relevance": "direct",
+            "statement": "Solution Démocratique souhaite instaurer en France la démocratie directe et la décentralisation par le bas.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La source affirme explicitement que 'Solution Démocratique souhaite instaurer en France la démocratie directe et la décentralisation par le bas', ce qui correspond exactement à l'affirmation canonique existante.",
+            "related_proposal_id": "auto-solution-democratique-institutions-democratie-4ea1c22d52ea",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-08-15T10:45:28+00:00",
+      "created_at": "2026-08-15T10:45:19+00:00",
+      "document_types": [
+        "campaign_website_page",
+        "campaign_website_page"
+      ],
+      "done": [
+        0,
+        1
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-02-15"
+      ],
+      "sha256": "15e9dfbd7b4d2582e7741d4a17fbe61fa9aed2a84f4d40935b427c0117168e10",
+      "source_title": "Juan Branco 2027 : démocratie directe dans son programme ?",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 2,
+      "updated_at": "2026-08-15T10:45:25+00:00",
+      "url": "https://solutiondemocratique.fr/juan-branco-2027-programme/"
     },
     "0d1c8e880d3045b492702087": {
       "claims": [
@@ -4011,6 +4055,48 @@
       "updated_at": "2026-08-13T03:40:17+00:00",
       "url": "https://melenchon2027.fr/programme2025/livre/chapitre5/"
     },
+    "7e4a9ad2270720918bf4644e": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "solution-democratique",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Solution Démocratique souhaite instaurer en France la démocratie directe et la décentralisation par le bas.",
+            "relevance": "direct",
+            "statement": "Solution Démocratique souhaite instaurer en France la démocratie directe et la décentralisation par le bas.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "L'affirmation est explicitement présente dans la source et correspond à un élément déjà canonique.",
+            "related_proposal_id": "auto-solution-democratique-institutions-democratie-4ea1c22d52ea",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-08-15T10:45:46+00:00",
+      "created_at": "2026-08-15T10:45:39+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-03-22"
+      ],
+      "sha256": "9b7a25659489f0a69a15bb5dadaf7eb00e19e7bfb20f3b96109eff7ce7f87602",
+      "source_title": "David Lisnard 2027 : démocratie directe et programme présidentiel",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-15T10:45:43+00:00",
+      "url": "https://solutiondemocratique.fr/david-lisnard-programme-2027/"
+    },
     "84687a6089b875f87e4b7fa0": {
       "claims": [
         {
@@ -4565,6 +4651,48 @@
       "total": 1,
       "updated_at": "2026-08-15T02:36:16+00:00",
       "url": "https://www.youtube.com/watch?v=_h4KueBVAsw"
+    },
+    "abd06abf04a13a6ea519c0b4": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "solution-democratique",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Solution Démocratique souhaite instaurer en France la démocratie directe et la décentralisation par le bas.",
+            "relevance": "direct",
+            "statement": "Solution Démocratique souhaite instaurer en France la démocratie directe et la décentralisation par le bas.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La proposition est explicitement présente dans la source et correspond exactement au contenu canonique existant.",
+            "related_proposal_id": "auto-solution-democratique-institutions-democratie-4ea1c22d52ea",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-08-15T10:45:37+00:00",
+      "created_at": "2026-08-15T10:45:30+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-03-28"
+      ],
+      "sha256": "ba2ea6fc45eb70bc3cea56b4d7d0d2467a729d2ebd748b42d27c4556fedb6a14",
+      "source_title": "Dominique de Villepin 2027 : démocratie directe et programme",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-15T10:45:34+00:00",
+      "url": "https://solutiondemocratique.fr/dominique-de-villepin-presidentielle-2027-programme/"
     },
     "af3984a6ce57f0e5c89b834e": {
       "claims": [
@@ -7062,6 +7190,15 @@
       "status": "promoted",
       "url": "https://melenchon2027.fr/programme2025/livre/chapitre13/"
     },
+    "4b5786b1dcb8": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-15T10:45:28+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "15e9dfbd7b4d2582e7741d4a17fbe61fa9aed2a84f4d40935b427c0117168e10",
+      "status": "promoted",
+      "url": "https://solutiondemocratique.fr/juan-branco-2027-programme/"
+    },
     "4f4e22cba7e5": {
       "chunks_done": null,
       "chunks_total": 1,
@@ -7244,6 +7381,15 @@
       "source_sha256": "7691023466f5c55c59b1eb557c95e6544ca11a7cd0107885afc2c41d4efde4ef",
       "status": "promoted",
       "url": "https://www.parti-reconquete.fr/"
+    },
+    "a69ac01ebbb7": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-15T10:45:46+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "9b7a25659489f0a69a15bb5dadaf7eb00e19e7bfb20f3b96109eff7ce7f87602",
+      "status": "promoted",
+      "url": "https://solutiondemocratique.fr/david-lisnard-programme-2027/"
     },
     "a940f9722ea1": {
       "chunks_done": null,
@@ -7532,6 +7678,15 @@
       "source_sha256": "f59d0ebb3d1012043693afacc4edacc46f031d6229fd0f26e819656d6c39b4f0",
       "status": "not_confirmed",
       "url": "https://parti-equinoxe.fr/legislatives-2022-programme-cohesion/"
+    },
+    "fcd770bbde02": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-15T10:45:37+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "ba2ea6fc45eb70bc3cea56b4d7d0d2467a729d2ebd748b42d27c4556fedb6a14",
+      "status": "promoted",
+      "url": "https://solutiondemocratique.fr/dominique-de-villepin-presidentielle-2027-programme/"
     }
   },
   "version": 2
