@@ -8,39 +8,47 @@
   "gemini_quota_only": false,
   "gemini_unavailable_reason": null,
   "gemini_unavailable_since": null,
-  "generated_at": "2026-08-15T02:36:17+00:00",
-  "last_collection_success_at": "2026-08-15T02:31:53+00:00",
-  "last_direct_feed_run_at": "2026-08-15T02:31:55+00:00",
-  "last_gdelt_run_at": "2026-08-15T02:35:08+00:00",
-  "last_promotion_run_at": "2026-08-15T02:36:14+00:00",
-  "last_social_promotion_run_at": "2026-08-15T02:36:17+00:00",
-  "last_social_run_at": "2026-08-15T02:35:40+00:00",
-  "last_structured_primary_run_at": "2026-08-15T02:33:07+00:00",
+  "generated_at": "2026-08-15T07:55:41+00:00",
+  "last_collection_success_at": "2026-08-15T07:51:37+00:00",
+  "last_direct_feed_run_at": "2026-08-15T07:51:40+00:00",
+  "last_gdelt_run_at": "2026-08-15T07:54:42+00:00",
+  "last_promotion_run_at": "2026-08-15T07:55:40+00:00",
+  "last_social_promotion_run_at": "2026-08-15T07:55:40+00:00",
+  "last_social_run_at": "2026-08-15T07:55:12+00:00",
+  "last_structured_primary_run_at": "2026-08-15T07:52:43+00:00",
   "max_promotion_retry_attempts": 0,
   "official_sitemap_coverage_count": 0,
   "official_source_warnings_last_run": 5,
   "oldest_promotion_retry_age_hours": 0.0,
   "partial_sources_pending": 0,
-  "pending_work": 3,
+  "pending_work": 1,
   "persistent_official_source_failure_details": [
     {
-      "consecutive_failures": 14,
+      "consecutive_failures": 4,
+      "first_failure_at": "2026-08-14T15:45:58+00:00",
+      "kind": "registry_source",
+      "last_failure_at": "2026-08-15T07:52:43+00:00",
+      "owner": "La France Humaine & Forte",
+      "url": "https://lafrancehumaineetforte.fr/"
+    },
+    {
+      "consecutive_failures": 15,
       "first_failure_at": "2026-08-13T13:02:53+00:00",
       "kind": "registry_source",
-      "last_failure_at": "2026-08-15T02:33:08+00:00",
+      "last_failure_at": "2026-08-15T07:52:43+00:00",
       "owner": "La Convention",
       "url": "https://www.la-convention.fr/"
     }
   ],
-  "persistent_official_source_failures": 1,
+  "persistent_official_source_failures": 2,
   "promotion_actionable_retries_pending": 0,
-  "promotion_quota_retries_pending": 3,
+  "promotion_quota_retries_pending": 1,
   "promotion_retries_over_budget": 0,
   "promotion_retry_attempt_budget": 6,
   "promotion_retry_slo_hours": 48.0,
-  "promotion_technical_retries_pending": 3,
+  "promotion_technical_retries_pending": 1,
   "reasons": [
-    "1_persistent_official_source_failure(s)"
+    "2_persistent_official_source_failure(s)"
   ],
   "recovered_promotion_technical_failures": 1,
   "status": "degraded",
@@ -48,6 +56,6 @@
   "uncovered_official_source_warnings_last_run": 2,
   "version": 7,
   "warnings": [
-    "3_quota_retry_pending"
+    "1_quota_retry_pending"
   ]
 }

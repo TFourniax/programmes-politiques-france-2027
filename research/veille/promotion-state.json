@@ -823,7 +823,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-08-15T02:36:14+00:00",
+  "last_run_at": "2026-08-15T07:55:40+00:00",
   "source_chunks": {
     "049ef2342af4f07d32e93984": {
       "canonical_confirmations": [
@@ -1914,14 +1914,40 @@
       "url": "https://melenchon2027.fr/programme2025/livre/chapitre18/"
     },
     "352d9f3ea0e600edc60f65dc": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "solution-democratique",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Solution Démocratique souhaite instaurer en France la démocratie directe et la décentralisation par le bas.",
+            "relevance": "direct",
+            "statement": "Solution Démocratique souhaite instaurer en France la démocratie directe et la décentralisation par le bas.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La proposition est explicitement présente dans la source et correspond exactement au contenu canonique existant.",
+            "related_proposal_id": "auto-solution-democratique-institutions-democratie-4ea1c22d52ea",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
       "claims": [],
+      "completed_at": "2026-08-15T07:55:24+00:00",
       "created_at": "2026-08-13T18:45:31+00:00",
       "document_types": [
         "campaign_website_page",
+        "campaign_website_page",
         "campaign_website_page"
       ],
-      "done": [],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
       "published_candidates": [
+        "2026-03-28",
         "2026-03-28",
         "2026-03-28"
       ],
@@ -1930,6 +1956,7 @@
       "statuses": [],
       "text_truncated": false,
       "total": 1,
+      "updated_at": "2026-08-15T07:55:22+00:00",
       "url": "https://solutiondemocratique.fr/edouard-philippe-presidentielle-2027-programme/"
     },
     "3c1ba39c8e7810522f130b53": {
@@ -3547,6 +3574,48 @@
       "updated_at": "2026-08-11T12:47:31+00:00",
       "url": "https://lafranceinsoumise.fr/2026/08/10/amfis-2026-le-programme-est-en-ligne/"
     },
+    "74fb49b9899b0db9f3a2dc33": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "solution-democratique",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Solution Démocratique souhaite instaurer en France la démocratie directe et la décentralisation par le bas.",
+            "relevance": "direct",
+            "statement": "Solution Démocratique souhaite instaurer en France la démocratie directe et la décentralisation par le bas.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La proposition est explicitement soutenue dans la source et existe déjà dans le canonique.",
+            "related_proposal_id": "auto-solution-democratique-institutions-democratie-4ea1c22d52ea",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-08-15T07:55:40+00:00",
+      "created_at": "2026-08-15T07:55:34+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-05-03"
+      ],
+      "sha256": "cb01e20785864d697f248295019aae434c28d8745471bb1beaa6f67619519f22",
+      "source_title": "Programme RN 2027 : quelle place pour la démocratie ?",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-15T07:55:38+00:00",
+      "url": "https://solutiondemocratique.fr/programme-rn-2027/"
+    },
     "770e23bdd556f60748a40833": {
       "canonical_confirmations": [
         {
@@ -4539,13 +4608,39 @@
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
     "b2a28a425ae6ed749f43df4e": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "solution-democratique",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Solution Démocratique souhaite instaurer en France la démocratie directe et la décentralisation par le bas.",
+            "relevance": "direct",
+            "statement": "Solution Démocratique souhaite instaurer en France la démocratie directe et la décentralisation par le bas.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La proposition est explicitement présente dans la source et correspond exactement au contenu canonique existant.",
+            "related_proposal_id": "auto-solution-democratique-institutions-democratie-4ea1c22d52ea",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
       "claims": [],
+      "completed_at": "2026-08-15T07:55:32+00:00",
       "created_at": "2026-08-14T03:40:21+00:00",
       "document_types": [
+        "campaign_website_page",
         "campaign_website_page"
       ],
-      "done": [],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
       "published_candidates": [
+        "2026-03-31",
         "2026-03-31"
       ],
       "sha256": "6cf626dcaa244a897232ec85d82639b15d9a45d97bb948eed439a0beab737927",
@@ -4553,6 +4648,7 @@
       "statuses": [],
       "text_truncated": false,
       "total": 1,
+      "updated_at": "2026-08-15T07:55:30+00:00",
       "url": "https://solutiondemocratique.fr/clementine-autain-programme-presidentielle2027/"
     },
     "c6af810e101bd901f4bb31a6": {
@@ -6771,11 +6867,12 @@
       "url": "https://solutiondemocratique.fr/nathalie-arthaud-presidentielle-2027-programme/"
     },
     "05d351c29703": {
-      "attempts": 2,
-      "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 27.673306953s.",
-      "next_retry_at": "2026-08-15T03:40:32+00:00",
-      "processed_at": "2026-08-14T03:40:32+00:00",
-      "status": "technical_error",
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-15T07:55:32+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "6cf626dcaa244a897232ec85d82639b15d9a45d97bb948eed439a0beab737927",
+      "status": "promoted",
       "url": "https://solutiondemocratique.fr/clementine-autain-programme-presidentielle2027/"
     },
     "0f4e2e75bcef": {
@@ -6912,11 +7009,12 @@
       "url": "https://melenchon2027.fr/programme2025/livre/chapitre10/"
     },
     "354b4e7b952c": {
-      "attempts": 2,
-      "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 41.320942428s.",
-      "next_retry_at": "2026-08-15T03:40:18+00:00",
-      "processed_at": "2026-08-14T03:40:18+00:00",
-      "status": "technical_error",
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-15T07:55:24+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "3e726547b375cf833eaf5cde733f5b84ec6e8cc1959d3635b89b0b160eed9aa6",
+      "status": "promoted",
       "url": "https://solutiondemocratique.fr/edouard-philippe-presidentielle-2027-programme/"
     },
     "36eb65b88b37": {
@@ -7085,6 +7183,15 @@
       "source_sha256": "33f73a2082138b7d458b38b96c8b6fd198e5b4cca3faa4691691cb279b467887",
       "status": "not_confirmed",
       "url": "https://solutiondemocratique.fr/jerome-guedj-programme-presidentielle-2027/"
+    },
+    "7f993d37831f": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-15T07:55:40+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "cb01e20785864d697f248295019aae434c28d8745471bb1beaa6f67619519f22",
+      "status": "promoted",
+      "url": "https://solutiondemocratique.fr/programme-rn-2027/"
     },
     "86d9a849395b": {
       "chunks_done": null,
