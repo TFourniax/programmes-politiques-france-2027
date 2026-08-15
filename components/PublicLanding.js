@@ -75,7 +75,7 @@ export default function PublicLanding() {
         <div className="publicHeroCopy">
           <span className="publicEyebrow">Présidentielle française 2027 · observatoire open source indépendant</span>
           <h1 id="public-hero-title">Les programmes politiques, documentés jusque dans la source.</h1>
-          <p>Un corpus public, profond et versionné pour explorer les propositions des candidats et des partis sans dépendre d’une réponse « plausible ». Le moteur restitue les éléments retrouvés dans les documents vérifiés : lorsqu’une information manque, aucun LLM ne l’invente pour remplir le vide.</p>
+          <p>Un corpus public, profond et versionné pour explorer les propositions des candidats et des partis sans dépendre d’une réponse « plausible ». Le moteur restitue les éléments retrouvés dans les documents vérifiés : lorsqu’une information manque, aucun LLM ne l’invente pour remplir le vide. Une case vide signifie « non encore documenté ici », jamais « position inexistante ».</p>
           <div className="publicHeroActions">
             <a className="primaryAction" href="#explorer">Interroger le corpus</a>
             <Link className="secondaryAction" href="/?mode=compare#explorer">Comparer les programmes</Link>
