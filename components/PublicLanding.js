@@ -97,7 +97,7 @@ export default function PublicLanding() {
             <div><b>{activeCandidates.length}</b><span>candidatures actives ou déclarées suivies</span></div>
             <div><b>{topics.length}</b><span>grands thèmes publics</span></div>
           </div>
-          <Link href="/donnees">Auditer la couverture, les sources et les limites →</Link>
+          <Link href="/donnees">Voir la couverture, la fraîcheur et les limites · auditer les sources →</Link>
         </aside>
       </section>
 
