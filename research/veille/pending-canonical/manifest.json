@@ -1,8 +1,13 @@
 {
   "version": 1,
   "created_at": "2026-08-14T08:23:23.018331+00:00",
-  "updated_at": "2026-08-15T10:45:50.288663+00:00",
+  "updated_at": "2026-08-15T13:55:26.809867+00:00",
   "files": [
+    {
+      "path": "corpus/2027/auto/partys/solution-democratique/2025-04-09-624555f164b4.md",
+      "sha256": "0414f80280d12e624911090c4a1557dc5537541900b7a11467eedf3d022da785",
+      "size": 1762
+    },
     {
       "path": "corpus/2027/auto/partys/solution-democratique/2026-02-15-0955a3c5e387.md",
       "sha256": "02a584fb07b0236bd8c9ec7123a8afebe297d83d3592091d674739788d191efd",
@@ -17,6 +22,11 @@
       "path": "corpus/2027/auto/partys/solution-democratique/2026-03-22-7e4a9ad22707.md",
       "sha256": "e5de9a1d66fa615491bc8d24aebe586ead81ba6e55e750c4caa2aa2944be4b08",
       "size": 1760
+    },
+    {
+      "path": "corpus/2027/auto/partys/solution-democratique/2026-03-22-83d5eda15af3.md",
+      "sha256": "1096f3b70c9fa08b89eaf885a590e4f48f393088e3027bb46865386ef952d2ed",
+      "size": 1763
     },
     {
       "path": "corpus/2027/auto/partys/solution-democratique/2026-03-28-352d9f3ea0e6.md",
@@ -104,6 +114,11 @@
       "size": 1943
     },
     {
+      "path": "corpus/2027/auto/partys/solution-democratique/2026-05-03-8d4f255a6ea9.md",
+      "sha256": "90032d3785ab3b0935552aac2a4f0e63e2fb92e0bb042931289e1d862aa455e8",
+      "size": 1714
+    },
+    {
       "path": "corpus/2027/auto/partys/solution-democratique/2026-05-03-cc02fece8ef1.md",
       "sha256": "4d6e99fc6c478b2f6bb8e81d106c12ee65daa630d583c84c53510daf1ad520cb",
       "size": 1990
@@ -125,8 +140,8 @@
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-solution-democratique-institutions-democratie-4ea1c22d52ea.md",
-      "sha256": "c9fb9dd3e068d7864d16b35c95c251ac9d91abb030f5914f111c253b0acba539",
-      "size": 5898
+      "sha256": "cc1f402870a12cf97b67a3407891903c11d8bc8574dfeb2016d7afb0ca7938ac",
+      "size": 6487
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-solution-democratique-institutions-democratie-fb4b3d1432b9.md",

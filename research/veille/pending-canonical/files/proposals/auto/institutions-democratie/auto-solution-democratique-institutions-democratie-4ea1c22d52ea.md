@@ -12,7 +12,8 @@ source_document_ids: [auto-solution-democratique-2026-04-05-2490d151b5b8, auto-s
   auto-solution-democratique-2026-05-18-5453bf0229bb, auto-solution-democratique-2026-04-05-770e23bdd556, auto-solution-democratique-2026-04-26-883d3a7028b4,
   auto-solution-democratique-2026-04-26-e8ad53223c2b, auto-solution-democratique-2026-02-15-a0acfa7e852c, auto-solution-democratique-2026-03-28-352d9f3ea0e6,
   auto-solution-democratique-2026-03-31-b2a28a425ae6, auto-solution-democratique-2026-05-03-74fb49b9899b, auto-solution-democratique-2026-02-15-0955a3c5e387,
-  auto-solution-democratique-2026-03-28-abd06abf04a1, auto-solution-democratique-2026-03-22-7e4a9ad22707]
+  auto-solution-democratique-2026-03-28-abd06abf04a1, auto-solution-democratique-2026-03-22-7e4a9ad22707, auto-solution-democratique-2026-03-22-83d5eda15af3,
+  auto-solution-democratique-2026-05-03-8d4f255a6ea9, auto-solution-democratique-2025-04-09-624555f164b4]
 source_url: https://solutiondemocratique.fr/segolene-royal-programme-presidentielle2027/
 source_tier: tier_1_primary_official
 first_documented_at: '2026-04-05'
@@ -31,7 +32,8 @@ source_urls: ['https://solutiondemocratique.fr/segolene-royal-programme-presiden
   'https://solutiondemocratique.fr/gabriel-attal-2027-programme-presidentiel/', 'https://solutiondemocratique.fr/francois-asselineau-2027-programme/',
   'https://solutiondemocratique.fr/edouard-philippe-presidentielle-2027-programme/', 'https://solutiondemocratique.fr/clementine-autain-programme-presidentielle2027/',
   'https://solutiondemocratique.fr/programme-rn-2027/', 'https://solutiondemocratique.fr/juan-branco-2027-programme/', 'https://solutiondemocratique.fr/dominique-de-villepin-presidentielle-2027-programme/',
-  'https://solutiondemocratique.fr/david-lisnard-programme-2027/']
+  'https://solutiondemocratique.fr/david-lisnard-programme-2027/', 'https://solutiondemocratique.fr/francois-ruffin-2027-programme/',
+  'https://solutiondemocratique.fr/programme-lfi-2027/', 'https://solutiondemocratique.fr/comparatif-candidats-programme-elections-presidentielles-france-2027/']
 evidence_sha256s: [0b013c630f2281528d927d3c6ac7bbed832efeb82d7536d7e0ad37cee3b09409, 1841b8fd670f23d8045bd9619c332a46ba1aa9a12785e4fc938ebb64d3dac6e6,
   689874aee6e56ea9aa4502364cf191c20b803ea320fcef3db7e477f412daa0bb, 41335891eed587b269834e5162f66c954482d42c2e94b71259eed15f9033f81e,
   181a8380bfef45b18c49d80b3b5d0de72a83fc476ef514ca5705b2065249f82e, 9996d86efff8ca030f3a7263822e19e41b2af39c488fc9ec1eb26f9b606d100e,
@@ -42,9 +44,11 @@ evidence_sha256s: [0b013c630f2281528d927d3c6ac7bbed832efeb82d7536d7e0ad37cee3b09
   783e21d3f16641e3c21d3e913e3067fc93b39bd13c5d6aefbcf6a98f634ed432, 55d1f2f3356ee9b3fbf42751a0c9720703bf1b7b8c8cd506422ec2f301373b7d,
   3e726547b375cf833eaf5cde733f5b84ec6e8cc1959d3635b89b0b160eed9aa6, 6cf626dcaa244a897232ec85d82639b15d9a45d97bb948eed439a0beab737927,
   cb01e20785864d697f248295019aae434c28d8745471bb1beaa6f67619519f22, 15e9dfbd7b4d2582e7741d4a17fbe61fa9aed2a84f4d40935b427c0117168e10,
-  ba2ea6fc45eb70bc3cea56b4d7d0d2467a729d2ebd748b42d27c4556fedb6a14, 9b7a25659489f0a69a15bb5dadaf7eb00e19e7bfb20f3b96109eff7ce7f87602]
-confirmation_count: 22
-last_confirmed_at: '2026-03-22'
+  ba2ea6fc45eb70bc3cea56b4d7d0d2467a729d2ebd748b42d27c4556fedb6a14, 9b7a25659489f0a69a15bb5dadaf7eb00e19e7bfb20f3b96109eff7ce7f87602,
+  b2c26cc44537bbb7c12ed7ae9b1e9df81b527491231fdf07c27de869b533b8d6, 93788d5e8b0428d594a0a98bfc8270053c46623395dfe55bc7e4170d9b4ef1a7,
+  9a1d5f113c78dcd521da236ce1c23a4cb0af8bf7c5d09f90d67b714f56715c5c]
+confirmation_count: 25
+last_confirmed_at: '2025-04-09'
 ---
 
 # Solution Démocratique souhaite instaurer la démocratie directe et la décentralisation par le bas en France
