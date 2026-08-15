@@ -790,6 +790,11 @@
       "source_url": "https://melenchon2027.fr/programme2025/livre/chapitre12/",
       "verified_at": "2026-08-12T22:06:51+00:00"
     },
+    "fb4b3d1432b930269527491ab0599092247eda90caee0d94819093ae558bb5cc": {
+      "proposal_id": "auto-solution-democratique-institutions-democratie-fb4b3d1432b9",
+      "source_url": "https://solutiondemocratique.fr/jordan-bardella-programme-presidentielle-2027/",
+      "verified_at": "2026-08-15T02:36:03+00:00"
+    },
     "fd538617cfeec7a9feb9bd0ba0a5f7d384bd33407f9079bd4479f25f40b2c9f5": {
       "proposal_id": "auto-rassemblement-national-retraites-fd538617cfee",
       "source_url": "https://rassemblementnational.fr/",
@@ -818,7 +823,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-08-14T20:06:08+00:00",
+  "last_run_at": "2026-08-15T02:36:14+00:00",
   "source_chunks": {
     "049ef2342af4f07d32e93984": {
       "canonical_confirmations": [
@@ -4420,6 +4425,78 @@
       "updated_at": "2026-08-14T14:36:39+00:00",
       "url": "https://solutiondemocratique.fr/raphael-glucksmann-2027-programme-presidentiel/"
     },
+    "a0acfa7e852cda600b98e9f8": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "solution-democratique",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Solution Démocratique souhaite instaurer en France la démocratie directe",
+            "relevance": "direct",
+            "statement": "Solution Démocratique souhaite instaurer en France la démocratie directe et la décentralisation par le bas.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Le claim est explicitement soutenu par la source et correspond à une proposition déjà présente dans le canon.",
+            "related_proposal_id": "auto-solution-democratique-institutions-democratie-4ea1c22d52ea",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-08-15T02:36:14+00:00",
+      "created_at": "2026-08-15T02:36:07+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-02-15"
+      ],
+      "sha256": "55d1f2f3356ee9b3fbf42751a0c9720703bf1b7b8c8cd506422ec2f301373b7d",
+      "source_title": "François Asselineau 2027 : démocratie directe au programme ?",
+      "statuses": [
+        {
+          "status": {
+            "candidate_id": "clara-egger",
+            "effective_date": "2026-02-15",
+            "evidence_quote": "Clara Egger est candidate à l’élection présidentielle de 2027",
+            "explicit": true,
+            "new_status": "declared_presidential"
+          }
+        }
+      ],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-15T02:36:12+00:00",
+      "url": "https://solutiondemocratique.fr/francois-asselineau-2027-programme/"
+    },
+    "a62ba97f9981703fdc3fc130": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-08-15T02:36:15+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "5097f5c227ccf93422a1bf9542438c0406e214b1d29db3113e5d885b0e517f85",
+      "source_title": "Juan Branco face à la justice européenne: le cas Nathalie Yamb (ANGLAIS)",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-15T02:36:16+00:00",
+      "url": "https://www.youtube.com/watch?v=_h4KueBVAsw"
+    },
     "af3984a6ce57f0e5c89b834e": {
       "claims": [
         {
@@ -5908,6 +5985,67 @@
       "updated_at": "2026-08-12T22:06:46+00:00",
       "url": "https://melenchon2027.fr/programme2025/livre/chapitre11/"
     },
+    "e1966b1108dd5b6e07853fb4": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "solution-democratique",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Clara Egger est candidate à l’élection présidentielle de 2027 pour Solution Démocratique.",
+            "relevance": "direct",
+            "statement": "Clara Egger est candidate à l'élection présidentielle de 2027 pour Solution Démocratique.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La source indique explicitement que Clara Egger est candidate à l'élection présidentielle de 2027 pour Solution Démocratique.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [
+        {
+          "claim": {
+            "actor_id": "solution-democratique",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Clara Egger est candidate à l’élection présidentielle de 2027 pour Solution Démocratique.",
+            "relevance": "direct",
+            "statement": "Clara Egger est candidate à l'élection présidentielle de 2027 pour Solution Démocratique.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La source indique explicitement que Clara Egger est candidate à l'élection présidentielle de 2027 pour Solution Démocratique.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "completed_at": "2026-08-15T02:36:03+00:00",
+      "created_at": "2026-08-15T02:35:58+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-05-02"
+      ],
+      "sha256": "c8ac59a058e66c4c3792c13cd8363606d65ac8b0a983ca9f8e29bdae20496f3d",
+      "source_title": "Jordan Bardella 2027 : analyse de son programme démocratique",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-15T02:36:03+00:00",
+      "url": "https://solutiondemocratique.fr/jordan-bardella-programme-presidentielle-2027/"
+    },
     "e50c69819211996f616012c5": {
       "claims": [
         {
@@ -6057,13 +6195,39 @@
       "url": "https://parti-equinoxe.fr/legislatives-2022-programme-technique/"
     },
     "e8ad53223c2b2d3ba2b667a2": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "solution-democratique",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Solution Démocratique souhaite instaurer en France la démocratie directe et la décentralisation par le bas.",
+            "relevance": "direct",
+            "statement": "Solution démocratique souhaite instaurer en France la démocratie directe et la décentralisation par le bas.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La proposition est explicitement présente dans la source et identique au canonique existant.",
+            "related_proposal_id": "auto-solution-democratique-institutions-democratie-4ea1c22d52ea",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
       "claims": [],
+      "completed_at": "2026-08-15T02:35:56+00:00",
       "created_at": "2026-08-13T16:21:34+00:00",
       "document_types": [
+        "campaign_website_page",
         "campaign_website_page"
       ],
-      "done": [],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
       "published_candidates": [
+        "2026-04-26",
         "2026-04-26"
       ],
       "sha256": "783e21d3f16641e3c21d3e913e3067fc93b39bd13c5d6aefbcf6a98f634ed432",
@@ -6071,6 +6235,7 @@
       "statuses": [],
       "text_truncated": false,
       "total": 1,
+      "updated_at": "2026-08-15T02:35:54+00:00",
       "url": "https://solutiondemocratique.fr/gabriel-attal-2027-programme-presidentiel/"
     },
     "f2380b9cb64f04946419a6f5": {
@@ -6631,6 +6796,15 @@
       "status": "promoted",
       "url": "https://solutiondemocratique.fr/raphael-glucksmann-2027-programme-presidentiel/"
     },
+    "105c53e61861": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-15T02:36:14+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "55d1f2f3356ee9b3fbf42751a0c9720703bf1b7b8c8cd506422ec2f301373b7d",
+      "status": "promoted",
+      "url": "https://solutiondemocratique.fr/francois-asselineau-2027-programme/"
+    },
     "150427f48739": {
       "chunks_done": null,
       "chunks_total": null,
@@ -6711,11 +6885,12 @@
       "url": "https://www.unenouvelleenergie.fr/notre-programme/sante/"
     },
     "33d88441defd": {
-      "attempts": 2,
-      "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 22.911059877s.",
-      "next_retry_at": "2026-08-14T23:24:37+00:00",
-      "processed_at": "2026-08-13T23:24:37+00:00",
-      "status": "technical_error",
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-15T02:35:56+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "783e21d3f16641e3c21d3e913e3067fc93b39bd13c5d6aefbcf6a98f634ed432",
+      "status": "promoted",
       "url": "https://solutiondemocratique.fr/gabriel-attal-2027-programme-presidentiel/"
     },
     "33f269d78255": {
@@ -6856,6 +7031,15 @@
       "source_sha256": "609600cb6b87ab733c078f4e4cec5ef06284f12fefeef59e8866e2e85136ba64",
       "status": "promoted",
       "url": "https://solutiondemocratique.fr/lydie-massard-programme-presidentielle2027/"
+    },
+    "70b9422afc4f": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-08-15T02:36:06+00:00",
+      "reason": null,
+      "source_sha256": "c8ac59a058e66c4c3792c13cd8363606d65ac8b0a983ca9f8e29bdae20496f3d",
+      "status": "promoted",
+      "url": "https://solutiondemocratique.fr/jordan-bardella-programme-presidentielle-2027/"
     },
     "72d3e99ceb3b": {
       "chunks_done": null,

@@ -1,0 +1,46 @@
+{
+  "errors": [],
+  "generated_at": "2026-08-15T02:36:15+00:00",
+  "historical_skipped": 0,
+  "partial": 0,
+  "processed": 3,
+  "promoted": 3,
+  "proposals_created": 1,
+  "results": [
+    {
+      "document": "corpus/2027/auto/partys/solution-democratique/2026-04-26-e8ad53223c2b.md",
+      "provenance_updates": [
+        "auto-solution-democratique-institutions-democratie-4ea1c22d52ea"
+      ],
+      "reason": "canonical_duplicate_evidence",
+      "sha256": "783e21d3f16641e3c21d3e913e3067fc93b39bd13c5d6aefbcf6a98f634ed432",
+      "status": "promoted",
+      "url": "https://solutiondemocratique.fr/gabriel-attal-2027-programme-presidentiel/",
+      "verified_at": "2026-08-15T02:35:56+00:00"
+    },
+    {
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/partys/solution-democratique/2026-05-02-e1966b1108dd.md",
+      "proposals": [
+        "proposals/auto/institutions-democratie/auto-solution-democratique-institutions-democratie-fb4b3d1432b9.md"
+      ],
+      "sha256": "c8ac59a058e66c4c3792c13cd8363606d65ac8b0a983ca9f8e29bdae20496f3d",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://solutiondemocratique.fr/jordan-bardella-programme-presidentielle-2027/",
+      "verified_at": "2026-08-15T02:36:03+00:00"
+    },
+    {
+      "document": "corpus/2027/auto/partys/solution-democratique/2026-02-15-a0acfa7e852c.md",
+      "provenance_updates": [
+        "auto-solution-democratique-institutions-democratie-4ea1c22d52ea"
+      ],
+      "reason": "canonical_duplicate_evidence",
+      "sha256": "55d1f2f3356ee9b3fbf42751a0c9720703bf1b7b8c8cd506422ec2f301373b7d",
+      "status": "promoted",
+      "url": "https://solutiondemocratique.fr/francois-asselineau-2027-programme/",
+      "verified_at": "2026-08-15T02:36:14+00:00"
+    }
+  ],
+  "status_updates": 0
+}
