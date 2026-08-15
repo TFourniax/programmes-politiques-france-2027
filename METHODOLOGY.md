@@ -10,7 +10,23 @@ Chaque information est qualifiée séparément selon trois axes :
 2. le statut du document ;
 3. le niveau de certitude de la proposition.
 
-Une personnalité peut être suivie sans être candidate officielle. Un parti peut disposer d’un programme sans que ce programme soit automatiquement attribuable à une personnalité.
+Une personnalité peut être suivie sans être candidate officielle. Un parti peut disposer d’un programme sans que ce programme soit attribuable à toutes les personnalités qui lui sont liées.
+
+### Attribution d’un programme de parti à une personnalité
+
+Le corpus applique une règle contrôlée et vérifiable : **le programme d’un parti peut être attribué à une personnalité uniquement lorsqu’elle est officiellement désignée pour porter la candidature de ce parti**.
+
+Dans le registre actuel, cette attribution est autorisée lorsque :
+
+- la personnalité possède un `primary_party_id` explicite ;
+- son statut est `party_designated`, ou `official_candidate` lorsque la liste officielle du Conseil constitutionnel sera disponible ;
+- le document ou la proposition provient bien du parti enregistré comme parti principal.
+
+Une simple appartenance, une candidature déclarée de façon autonome, une participation à une primaire, un statut potentiel ou exploratoire ne suffisent jamais à transférer le programme du parti à la personnalité.
+
+Même lorsque l’attribution est autorisée, **la provenance n’est jamais réécrite** : le candidat est l’acteur auquel la position peut être attribuée, mais le document reste publié par le parti. Les interfaces et les données machine-readable conservent cette distinction afin qu’un lecteur puisse toujours remonter au propriétaire réel de la source.
+
+Cette règle ne transforme pas non plus un programme de parti en déclaration personnelle : lorsqu’une source directement produite par le candidat existe, elle reste distinguée et peut être privilégiée comme preuve personnelle.
 
 ## Statuts des personnes
 
@@ -85,12 +101,16 @@ Le mode **Historique** peut au contraire afficher les anciennes versions, leurs 
 La récupération est déterministe en priorité. Le système doit préférer un refus explicite à une réponse approximative.
 
 - une entité nommée sert de filtre, jamais de preuve suffisante du sujet ;
+- lorsqu’une question demande explicitement un « candidat » ou un « parti », le type d’acteur devient une contrainte du retrieval et non un simple mot-clé ;
 - un thème reconnu ne peut pas masquer un qualificatif hors corpus ;
 - les nombres de la question doivent être compatibles avec les preuves retournées ;
-- une position de parti n’est pas transférée automatiquement à une personnalité ;
+- une position de parti n’est transférée à une personnalité que selon la règle d’attribution officielle décrite plus haut ;
+- lorsqu’un programme de parti est attribué au candidat officiellement désigné, le résultat conserve l’identité du parti comme propriétaire de la source ;
 - une absence du corpus n’est pas transformée en absence de position ;
 - aucun classement politique subjectif n’est déduit automatiquement ;
 - les réponses politiques sont composées à partir de formulations présentes dans les données versionnées ou de titres canoniques de propositions.
+
+Le moteur peut élargir son pool interne de résultats avant d’appliquer certaines contraintes de type ou d’attribution. Cet élargissement sert uniquement à préserver le rappel : il ne relâche ni les filtres de pertinence, ni les règles de provenance, ni les seuils de qualité évalués par les benchmarks.
 
 Un classifieur sémantique de secours peut uniquement aider à interpréter une formulation lorsque le retrieval déterministe échoue. Chaque acteur ou concept qu’il propose doit être rattaché à un fragment exact de la question courante, puis la requête obtenue est revalidée par le moteur déterministe. Le classifieur ne rédige jamais les faits ou positions affichés.
 
@@ -100,7 +120,7 @@ La réponse courte reste le format par défaut. Lorsque le corpus contient réel
 
 L’approfondissement ne lance pas une recherche libre sur Internet et ne demande pas à un modèle de langage d’inventer ou compléter le contenu. Il réutilise le contexte de retrieval déjà résolu, augmente uniquement la profondeur de récupération dans le corpus versionné, suit les relations entre claims canoniques et documents de preuve, puis compose une réponse plus détaillée à partir des passages effectivement récupérés.
 
-Un document source peut appartenir à un parti tout en prouvant une déclaration explicitement attribuée à une personnalité, ou inversement. Dans ce cas, l’approfondissement conserve toujours **l’attribution du claim canonique** et garde séparément le propriétaire du document pour la traçabilité ; la propriété de la source ne doit jamais devenir une attribution politique par accident.
+Un document source peut appartenir à un parti tout en prouvant une déclaration explicitement attribuée à une personnalité, ou être attribuable au candidat officiellement désigné selon la règle documentée ci-dessus. Dans tous les cas, l’approfondissement conserve séparément **l’acteur politique auquel le claim est attribué** et **le propriétaire réel du document** ; la propriété de la source ne doit jamais devenir une attribution politique par accident.
 
 Les passages supplémentaires d’un document long sont filtrés par proximité avec le claim concerné afin d’éviter qu’un chapitre voisin mais hors sujet apparaisse uniquement parce qu’il se trouve dans le même document.
 

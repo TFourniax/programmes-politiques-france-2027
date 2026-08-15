@@ -44,11 +44,11 @@ export default function CandidateExplorer({ onExplore, onNavigate }) {
     <ExplorerIntro
       eyebrow="Fiches personnalités"
       title="Ce qui est documenté, et ce qui ne l’est pas"
-      description="Chaque fiche sépare les positions directement rattachées à la personnalité des documents de son parti. Les absences de données restent visibles au lieu d’être interprétées."
+      description="Chaque fiche distingue les sources personnelles, les programmes de parti attribuables lorsqu'une personnalité est officiellement désignée par ce parti, et le simple contexte partisan lorsqu'elle ne l'est pas. Les absences restent visibles."
       aside={<label className="explorerSelectLabel"><span>Choisir une personnalité</span><select value={candidateId} onChange={(event) => setCandidateId(event.target.value)}><option value="">Sélectionner…</option>{sortedCandidates.map((candidate) => <option key={candidate.id} value={candidate.id}>{candidate.name} — {candidate.statusLabel}</option>)}</select></label>}
     />
 
-    {!candidateId && <div className="explorerLanding"><strong>Sélectionnez une personnalité</strong><p>Vous verrez son statut actuel, son niveau de couverture par thème, les documents directement associés, le contexte de parti séparé et la chronologie des positions documentées.</p></div>}
+    {!candidateId && <div className="explorerLanding"><strong>Sélectionnez une personnalité</strong><p>Vous verrez son statut actuel, sa couverture par thème, les documents directs, les éventuels éléments de programme officiellement attribuables et la chronologie des positions documentées.</p></div>}
 
     {candidateId && loading && !profile && <ExplorerLoading label="Construction de la fiche personnalité…" />}
 
@@ -58,6 +58,7 @@ export default function CandidateExplorer({ onExplore, onNavigate }) {
         <div className="candidateHeroMeta">
           <span>Statut au {profile.candidate.statusAsOf}</span>
           <span>{publicConfidence(profile.candidate.statusConfidence) || "niveau de preuve non renseigné"}</span>
+          {profile.candidate.partyProgrammeAttributable && <b>programme du parti attribuable</b>}
           {profile.candidate.officialCandidate ? <b>candidat officiel</b> : <span>pas encore candidat officiel au sens du Conseil constitutionnel</span>}
         </div>
         <div className="candidateHeroActions">
@@ -70,7 +71,7 @@ export default function CandidateExplorer({ onExplore, onNavigate }) {
       <div className="coverageSummaryGrid">
         <div><strong>{profile.coverageSummary.documented}</strong><span>thèmes documentés</span></div>
         <div><strong>{profile.coverageSummary.partial}</strong><span>thèmes partiels</span></div>
-        <div><strong>{profile.coverageSummary.party_only}</strong><span>parti seulement</span></div>
+        <div><strong>{profile.coverageSummary.party_only}</strong><span>parti non attribuable</span></div>
         <div><strong>{profile.coverageSummary.none}</strong><span>non documentés</span></div>
       </div>
 
@@ -78,13 +79,15 @@ export default function CandidateExplorer({ onExplore, onNavigate }) {
         <div className="explorerSectionTitle"><div><span className="answerEyebrow">Couverture thématique</span><h4>Ce que le corpus permet réellement d’examiner</h4></div><p>{profile.neutralityNote}</p></div>
         <div className="coverageTopicGrid">
           {profile.coverage.map((item) => <article className={`coverageTopicCard ${expandedTopic === item.topicId ? "open" : ""}`} key={item.topicId}>
-            <div className="coverageTopicTop"><div><strong>{item.topicLabel}</strong><small>{item.directSourceCount} source(s) directe(s) · {item.partySourceCount} source(s) de parti</small></div><CoverageBadge level={item.level} compact /></div>
+            <div className="coverageTopicTop"><div><strong>{item.topicLabel}</strong><small>{item.directSourceCount} source(s) directe(s){item.attributedPartySourceCount ? ` · ${item.attributedPartySourceCount} source(s) du programme attribuée(s)` : item.partySourceCount ? ` · ${item.partySourceCount} source(s) de parti` : ""}</small></div><CoverageBadge level={item.level} compact /></div>
             {item.note && <p>{item.note}</p>}
             <button className="textButton" onClick={() => setExpandedTopic(expandedTopic === item.topicId ? null : item.topicId)}>{expandedTopic === item.topicId ? "Masquer les éléments" : "Voir les éléments"}</button>
             {expandedTopic === item.topicId && <div className="coverageTopicEvidence">
               <h5>Directement rattaché à {profile.candidate.name}</h5>
-              <EvidenceList items={item.directEvidence} empty="Aucune source directe sur ce thème." />
-              {item.partyContext.length > 0 && <><h5>Contexte du parti</h5><EvidenceList items={item.partyContext} context="party" /></>}
+              <EvidenceList items={item.directEvidence} empty="Aucune source personnelle directe sur ce thème." />
+              {item.attributedPartyEvidence?.length > 0
+                ? <><h5>Programme de {profile.candidate.partyName} attribué à {profile.candidate.name}</h5><EvidenceList items={item.attributedPartyEvidence} context="attributed_party" /></>
+                : item.partyContext.length > 0 && <><h5>Contexte du parti</h5><EvidenceList items={item.partyContext} context="party" /></>}
             </div>}
           </article>)}
         </div>
@@ -96,8 +99,12 @@ export default function CandidateExplorer({ onExplore, onNavigate }) {
           <EvidenceList items={profile.directDocuments} empty="Aucun document ou proposition directement rattaché à cette personnalité dans le corpus actuel." />
         </div>
         <div>
-          <div className="explorerSectionTitle compactTitle"><div><span className="answerEyebrow">Contexte du parti</span><h4>Documents du parti principal</h4></div></div>
-          <EvidenceList items={profile.partyContextDocuments} context="party" empty="Aucun document de parti indexé." />
+          <div className="explorerSectionTitle compactTitle"><div><span className="answerEyebrow">{profile.candidate.partyProgrammeAttributable ? "Programme officiellement porté" : "Contexte du parti"}</span><h4>Documents du parti principal</h4></div></div>
+          <EvidenceList
+            items={profile.candidate.partyProgrammeAttributable ? profile.attributedPartyDocuments : profile.partyContextDocuments}
+            context={profile.candidate.partyProgrammeAttributable ? "attributed_party" : "party"}
+            empty="Aucun document de parti indexé."
+          />
         </div>
       </section>
 

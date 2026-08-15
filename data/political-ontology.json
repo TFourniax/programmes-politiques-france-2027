@@ -1,9 +1,9 @@
 {
-  "version": 5,
+  "version": 6,
   "description": "Ontologie de recherche déterministe pour les questions sur la présidentielle française de 2027. Les aliases servent à détecter l'intention utilisateur; retrieval_terms élargissent la recherche; strict_evidence_groups définissent, seulement pour certains concepts très spécifiques, le contrat minimal de preuve à respecter dans chaque résultat.",
   "concepts": [
     {"id":"pouvoir-achat","label":"pouvoir d’achat","aliases":["pouvoir d achat","niveau de vie","cout de la vie","coût de la vie","prix du quotidien"],"retrieval_terms":["smic","salaire","salaires","revenu","revenus","tva","prix","inflation","facture","factures","prime","pouvoir","achat"]},
-    {"id":"salaires","label":"salaires et SMIC","aliases":["salaire","salaires","smic","bas salaires","remuneration","rémunération","salaire minimum"],"retrieval_terms":["smic","salaire","salaires","remuneration","revenu","net","brut","minimum"]},
+    {"id":"salaires","label":"salaires et SMIC","aliases":["salaire","salaires","smic","bas salaires","remuneration","rémunération","salaire minimum"],"retrieval_terms":["smic","salaire","salaires","remuneration","revenu","net","brut","minimum"],"strict_evidence_groups":[["smic","salaire","salaires","remuneration","rémunération","revenu","revenus"]]},
     {"id":"retraites","label":"retraites","aliases":["retraite","retraites","pension","pensions","age de depart","âge de départ"],"retrieval_terms":["retraite","retraites","pension","pensions","capitalisation","repartition","répartition","investissement","depart","départ","penible","pénible","penibles","pénibles"]},
     {"id":"fiscalite","label":"fiscalité","aliases":["fiscalite","fiscalité","impot","impôt","impots","impôts","taxe","taxes","prelevements","prélèvements"],"retrieval_terms":["fiscalite","impot","impots","taxe","taxes","tva","prelevement","prelevements","contribution"]},
     {"id":"immigration","label":"immigration et intégration","aliases":["immigration","immigre","immigrés","etrangers","étrangers","asile","migratoire","integration","intégration","frontieres","frontières"],"retrieval_terms":["immigration","integration","asile","frontiere","frontieres","regularisation","régularisation","sejour","séjour","expulsion","nationalite","nationalité"]},

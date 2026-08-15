@@ -10,15 +10,16 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://politique2027.netli
 export const metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "France 2027 — Programmes, candidats & comparateur sourcé",
+    default: "France 2027 — Programmes politiques, candidats & comparateur sourcé",
     template: "%s · France 2027"
   },
-  description: "Observatoire public, sourcé et versionné des programmes, propositions et positions documentées pour la présidentielle française de 2027. Comparez les personnalités, les thèmes, l’historique et les sources sans recommandation de vote.",
+  description: "Observatoire open source des programmes politiques de la présidentielle 2027 : propositions vérifiées, sources primaires, candidats, partis, comparateur, historique versionné et réponses strictement fondées sur le corpus.",
   keywords: [
-    "présidentielle 2027", "programmes politiques 2027", "candidats 2027", "comparateur programmes",
-    "propositions politiques", "élection présidentielle France", "programmes candidats", "corpus politique"
+    "présidentielle 2027", "programmes politiques 2027", "candidats 2027", "comparateur programmes 2027",
+    "propositions politiques", "programme candidat 2027", "élection présidentielle France", "programmes candidats",
+    "open data politique", "open source politique", "comparateur politique sourcé", "corpus politique vérifié"
   ],
-  applicationName: "France 2027 — Observatoire des programmes",
+  applicationName: "France 2027 — Observatoire open source des programmes",
   category: "politique",
   alternates: { canonical: "/" },
   openGraph: {
@@ -26,13 +27,13 @@ export const metadata = {
     locale: "fr_FR",
     url: "/",
     siteName: "France 2027 — Observatoire des programmes",
-    title: "France 2027 — Programmes, candidats & comparateur sourcé",
-    description: "Un corpus ouvert, sourcé et versionné pour explorer les programmes politiques de la présidentielle 2027 jusque dans les documents d’origine."
+    title: "France 2027 — Programmes politiques, candidats & comparateur sourcé",
+    description: "Un corpus open source, profond, sourcé et versionné pour explorer et comparer les programmes politiques de la présidentielle 2027 jusque dans les documents d’origine."
   },
   twitter: {
     card: "summary",
-    title: "France 2027 — Observatoire des programmes",
-    description: "Programmes, propositions, candidats, historique et sources vérifiables pour la présidentielle française de 2027."
+    title: "France 2027 — Observatoire open source des programmes",
+    description: "Programmes, propositions, candidats, historique et sources vérifiables pour la présidentielle française de 2027 — sans invention hors corpus."
   },
   robots: {
     index: true,

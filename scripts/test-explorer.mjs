@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import compass from "../data/compass.json" with { type: "json" };
-import { buildCandidateProfile, buildComparison, buildQuiz, buildTopicExplorer, getExplorerMeta } from "../lib/explorer.js";
+import { buildCandidateProfile, buildComparison, buildQuiz, buildTopicExplorer, getExplorerMeta } from "../lib/explorer-attribution.js";
 
 const meta = getExplorerMeta();
 assert.ok(meta.candidates.length >= 2, "Explorer needs at least two candidate records");
@@ -33,14 +33,25 @@ for (const coverage of profile.coverage) {
   }
   for (const evidence of coverage.partyContext) {
     assert.equal(evidence.entityId, profile.candidate.partyId, "Party context must belong to the candidate's party entity");
-    assert.notEqual(evidence.entityId, profile.candidate.id, "Party context must never be counted as direct candidate evidence");
+    assert.notEqual(evidence.entityId, profile.candidate.id, "Party source provenance must stay distinct from candidate evidence");
+  }
+  if (coverage.partyProgrammeAttributed) {
+    assert.equal(profile.candidate.partyProgrammeAttributable, true, "Only an official party candidate may inherit party evidence");
+    assert.ok(coverage.attributedPartyEvidence.length > 0, "Attributed party coverage must expose its evidence");
+    for (const evidence of coverage.attributedPartyEvidence) {
+      assert.equal(evidence.entityId, profile.candidate.partyId, "Attributed evidence must preserve the party as source entity");
+      assert.equal(evidence.attributedToCandidateId, profile.candidate.id);
+      assert.equal(evidence.attributionBasis, "official_party_programme");
+    }
   }
   if (coverage.level === "party_only") {
     assert.equal(coverage.directEvidence.length, 0, "party_only cannot contain direct candidate evidence");
+    assert.equal(coverage.partyProgrammeAttributed, false, "party_only is reserved for non-attributable party context");
     assert.ok(coverage.partyContext.length > 0, "party_only must contain explicit party context");
   }
   if (coverage.level === "none") {
     assert.equal(coverage.directEvidence.length, 0);
+    assert.equal(coverage.attributedPartyEvidence.length, 0);
   }
 }
 
@@ -50,6 +61,31 @@ for (const document of profile.directDocuments) {
 for (const document of profile.partyContextDocuments) {
   assert.equal(document.entityId, profile.candidate.partyId, "Party context list must contain party records only");
 }
+
+const officialPartyCandidate = selectable.find((candidate) => candidate.currentStatus === "party_designated");
+assert.ok(officialPartyCandidate, "Fixture must include at least one party-designated presidential candidate");
+const officialProfile = buildCandidateProfile(officialPartyCandidate.id);
+assert.equal(officialProfile.candidate.partyProgrammeAttributable, true);
+assert.ok(officialProfile.attributedPartyDocuments.length > 0, "Official party candidate must inherit the indexed party programme");
+assert.ok(
+  officialProfile.coverage.some((item) => item.partyProgrammeAttributed),
+  "Official party candidate must expose at least one attributed programme topic"
+);
+
+const nonOfficialPartyCandidate = selectable.find((candidate) => candidate.partyId && !candidate.partyProgrammeAttributable && candidate.id !== officialPartyCandidate.id);
+assert.ok(nonOfficialPartyCandidate, "Fixture must include a non-designated party-affiliated personality");
+const nonOfficialProfile = buildCandidateProfile(nonOfficialPartyCandidate.id);
+assert.equal(nonOfficialProfile.attributedPartyDocuments.length, 0, "Party programme must not be inherited without official party designation");
+assert.ok(nonOfficialProfile.coverage.every((item) => !item.partyProgrammeAttributed));
+
+const marineLePenProfile = buildCandidateProfile("marine-le-pen");
+assert.equal(marineLePenProfile.candidate.partyId, "rassemblement-national");
+assert.equal(marineLePenProfile.candidate.partyProgrammeAttributable, false, "A declared candidate must not inherit the party programme without official party designation");
+assert.ok(
+  marineLePenProfile.partyContextDocuments.some((item) => item.path === "corpus/2027/rassemblement-national/2024-programme-legislatif.md" && item.documentStatus === "archived"),
+  "Candidate profile must preserve the RN 2024 archived document as visible party history"
+);
+assert.equal(marineLePenProfile.attributedPartyDocuments.length, 0, "Historical party context must remain non-attributed for a non-designated candidate");
 
 const candidateIds = selectable.slice(0, 2).map((candidate) => candidate.id);
 const topicIds = meta.topics.slice(0, 3).map((topic) => topic.id);
@@ -65,11 +101,27 @@ for (const row of comparison.rows) {
       assert.equal(evidence.entityId, row.candidate.id, "Comparison direct evidence must match its candidate row");
     }
     for (const evidence of cell.partyContext) {
-      assert.equal(evidence.entityId, row.candidate.partyId, "Comparison party context must match its candidate party");
-      assert.notEqual(evidence.entityId, row.candidate.id, "Comparison must keep party context separate from candidate evidence");
+      assert.equal(evidence.entityId, row.candidate.partyId, "Comparison party source must match its candidate party");
+    }
+    if (cell.partyProgrammeAttributed) {
+      assert.equal(row.candidate.partyProgrammeAttributable, true);
+      assert.ok(cell.attributedPartyEvidence.length > 0);
     }
   }
 }
+
+const attributionComparison = buildComparison(
+  [officialPartyCandidate.id, nonOfficialPartyCandidate.id],
+  meta.topics.map((topic) => topic.id).slice(0, 6)
+);
+assert.ok(
+  attributionComparison.signals.some((signal) => signal.attributed.includes(officialPartyCandidate.name)),
+  "Comparison must distinguish official party-programme attribution from direct evidence"
+);
+assert.ok(
+  attributionComparison.signals.every((signal) => !signal.attributed.includes(nonOfficialPartyCandidate.name)),
+  "Non-designated personality must never appear in the attributed-party bucket"
+);
 
 const topic = buildTopicExplorer(meta.topics[0].id);
 assert.equal(topic.candidates.length, meta.candidates.length, "Thematic explorer must show every tracked personality, including missing coverage");

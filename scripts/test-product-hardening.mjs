@@ -2,6 +2,7 @@ import assert from "node:assert/strict";
 import fs from "node:fs";
 import searchIndex from "../data/search-index.json" with { type: "json" };
 import benchmark from "../data/qa-deterministic-benchmark.json" with { type: "json" };
+import entities from "../data/entities.json" with { type: "json" };
 import { retrieveDeterministic } from "../lib/retrieval-v2.js";
 import { classifyDeterministicQuestion, selectDeterministicCandidates } from "../lib/deterministic-query.js";
 import { buildHistoryTimeline, getHistoryMeta } from "../lib/history.js";
@@ -9,6 +10,7 @@ import { buildContextualSuggestions, sanitizeSuggestionSessionState } from "../l
 
 const INACTIVE = new Set(["superseded", "withdrawn", "archived", "rejected", "draft", "historical"]);
 const active = (status) => !INACTIVE.has(String(status || "unknown").toLowerCase());
+const candidateIds = new Set((entities.candidates || []).map((candidate) => candidate.id));
 
 const strictQualifierNegatives = [
   "Que propose Renaissance sur l'énergie des licornes ?",
@@ -42,6 +44,27 @@ assert.equal(
 assert.ok(
   selectDeterministicCandidates("Quel est le statut de la candidature de David Lisnard ?").some((item) => item.id === "david-lisnard"),
   "la sélection ciblée de candidat doit rester fonctionnelle pour une question de statut"
+);
+
+const candidateOnly = retrieveDeterministic("Quel candidat veut monter le salaire minimum à deux mille euros ?", { limit: 8 });
+assert.ok(candidateOnly.results.length > 0, "une requête formulée explicitement sur un candidat doit retrouver une personnalité");
+assert.ok(candidateOnly.results.every((item) => candidateIds.has(item.citation?.entityId)), "le mot candidat doit exclure les cartes de parti du résultat");
+assert.equal(
+  candidateOnly.results[0].citation?.path,
+  "proposals/pouvoir-achat-travail/anasse-kazib-smic-2000.md",
+  "le candidat explicitement documenté sur le SMIC à 2 000 euros doit rester premier après enrichissement du corpus"
+);
+
+const officialPartyInheritance = retrieveDeterministic("Que propose Bruno Retailleau sur l'intelligence artificielle ?", { limit: 10 });
+const inherited = officialPartyInheritance.results.find((item) => item.citation?.attributionBasis === "official_party_programme");
+assert.ok(inherited, "un candidat officiellement désigné par son parti doit pouvoir hériter du programme de ce parti");
+assert.equal(inherited.citation.entityId, "bruno-retailleau");
+assert.equal(inherited.citation.sourceEntityId, "les-republicains", "la provenance du parti doit rester explicite malgré l'attribution au candidat");
+
+const nonOfficialInheritance = retrieveDeterministic("Que propose Marine Tondelier sur un salaire minimum à 2 000 euros ?", { limit: 10 });
+assert.ok(
+  nonOfficialInheritance.results.every((item) => item.citation?.attributionBasis !== "official_party_programme"),
+  "une candidate à une primaire ne doit pas hériter automatiquement du programme du parti"
 );
 
 const currentQueries = [

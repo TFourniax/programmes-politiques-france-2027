@@ -11,18 +11,23 @@ parties:
   - id: place-publique
     name: Place publique
     official_url: https://place-publique.eu/
+    programme_url: https://place-publique.eu/pages/69jA2SKIG5udlNX7wI3dmc/le-projet
   - id: parti-socialiste
     name: Parti socialiste
     official_url: https://www.parti-socialiste.fr/
+    programme_url: https://projet-socialiste.fr/
   - id: pcf
     name: Parti communiste français
     official_url: https://www.pcf.fr/
+    programme_url: https://www.pcf.fr/le_programme
   - id: les-ecologistes
     name: Les Écologistes
     official_url: https://lesecologistes.fr/
+    programme_url: https://lesecologistes.fr/document/5ZhR2m5t2ZaGKqIdD1bJaD/vdef-programme-1.pdf
   - id: generation-ecologie
     name: Génération Écologie
     official_url: https://generationecologie.fr/
+    programme_url: https://www.generationecologie.fr/a-propos/generation-ecologie/notre-projet/
   - id: lutte-ouvriere
     name: Lutte ouvrière
     official_url: https://www.lutte-ouvriere.org/
@@ -39,6 +44,7 @@ parties:
   - id: les-republicains
     name: Les Républicains
     official_url: https://republicains.fr/
+    programme_url: https://republicains.fr/nos-propositions/
   - id: nouvelle-energie
     name: Nouvelle Énergie
     official_url: https://www.unenouvelleenergie.fr/
@@ -56,6 +62,7 @@ parties:
   - id: les-patriotes
     name: Les Patriotes
     official_url: https://les-patriotes.fr/
+    programme_url: https://les-patriotes.fr/projetpourlafrance/
   - id: upr
     name: Union populaire républicaine
     official_url: https://www.upr.fr/
@@ -64,6 +71,7 @@ parties:
   - id: equinoxe
     name: Équinoxe
     official_url: https://parti-equinoxe.fr/
+    programme_url: https://parti-equinoxe.fr/le-projet/
   - id: la-convention
     name: La Convention
   - id: france-humaniste

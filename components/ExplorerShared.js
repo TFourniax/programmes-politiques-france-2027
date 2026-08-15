@@ -81,10 +81,10 @@ export function publicEvidenceKind(value) {
 }
 
 const COVERAGE = {
-  documented: { label: "Documenté", detail: "au moins deux sources directes" },
-  partial: { label: "Partiel", detail: "une source directe" },
-  party_only: { label: "Parti seulement", detail: "aucune attribution personnelle" },
-  none: { label: "Non documenté", detail: "aucune source directe trouvée" }
+  documented: { label: "Documenté", detail: "faisceau de preuves suffisant" },
+  partial: { label: "Partiel", detail: "au moins un élément attribuable" },
+  party_only: { label: "Parti seulement", detail: "programme non attribuable à cette personnalité" },
+  none: { label: "Non documenté", detail: "aucune source attribuable trouvée" }
 };
 
 export function CoverageBadge({ level, compact = false }) {
@@ -110,6 +110,7 @@ function EvidenceItem({ item }) {
       {item.documentStatus && <span>{publicRecordStatus(item.documentStatus)}</span>}
       {item.certainty && <span>{publicCertainty(item.certainty)}</span>}
       {item.sourceTier && <span>{publicSourceTier(item.sourceTier)}</span>}
+      {item.attributionBasis === "official_party_programme" && <span>attribué via candidature officielle du parti</span>}
     </div>
     <div className="sourceLinks">
       {item.githubUrl && <a href={item.githubUrl} target="_blank" rel="noreferrer">Voir dans le corpus ↗</a>}
@@ -120,8 +121,11 @@ function EvidenceItem({ item }) {
 
 export function EvidenceList({ items = [], context = "direct", empty = "Aucun élément trouvé." }) {
   if (!items.length) return <div className="explorerEmpty">{empty}</div>;
-  return <div className={`evidenceList ${context === "party" ? "partyContextList" : ""}`}>
-    {context === "party" && <div className="partyContextWarning"><strong>Contexte du parti</strong><span>Ces éléments ne sont pas attribués automatiquement à la personnalité.</span></div>}
+  const partyContext = context === "party";
+  const attributedParty = context === "attributed_party";
+  return <div className={`evidenceList ${partyContext || attributedParty ? "partyContextList" : ""}`}>
+    {partyContext && <div className="partyContextWarning"><strong>Contexte du parti</strong><span>Ces éléments restent au niveau du parti : la personnalité n'est pas officiellement désignée pour porter ce programme.</span></div>}
+    {attributedParty && <div className="partyContextWarning"><strong>Programme du parti attribuable</strong><span>La personnalité est officiellement désignée par ce parti. La provenance de chaque mesure reste le document du parti.</span></div>}
     {items.map((item) => <EvidenceItem item={item} key={`${item.id}-${item.path}`} />)}
   </div>;
 }

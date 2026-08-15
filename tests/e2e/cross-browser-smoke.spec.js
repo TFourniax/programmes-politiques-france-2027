@@ -5,7 +5,7 @@ const SMOKE_PROJECTS = new Set(['firefox-smoke', 'webkit-smoke', 'mobile-webkit-
 test('cross-browser corpus search smoke', async ({ page }, testInfo) => {
   test.skip(!SMOKE_PROJECTS.has(testInfo.project.name));
   await page.goto('/?mode=chat#explorer');
-  await expect(page.getByRole('heading', { name: 'Les programmes politiques, vérifiables jusque dans la source.' })).toBeVisible();
+  await expect(page.getByRole('heading', { name: 'Les programmes politiques, documentés jusque dans la source.' })).toBeVisible();
   await expect(page.getByRole('heading', { name: 'Recherche libre dans le corpus' })).toBeVisible();
   const textarea = page.getByRole('textbox', { name: 'Votre question' });
   await textarea.fill('Que propose le corpus sur les retraites ?');

@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { buildCandidateProfile, getExplorerMeta } from "../../../lib/explorer.js";
+import { buildCandidateProfile, getExplorerMeta } from "../../../lib/explorer-attribution.js";
 
 const DOCUMENT_STATUS_LABELS = {
   current: "version actuelle",
@@ -13,6 +13,7 @@ const DOCUMENT_STATUS_LABELS = {
   historical: "document historique",
   unknown: "statut non renseigné"
 };
+const HISTORICAL_STATUSES = new Set(["archived", "superseded", "withdrawn", "historical"]);
 
 export function generateStaticParams() {
   return getExplorerMeta().candidates.map((candidate) => ({ id: candidate.id }));
@@ -23,12 +24,12 @@ export async function generateMetadata({ params }) {
   const candidate = getExplorerMeta().candidates.find((item) => item.id === id);
   if (!candidate) return {};
   return {
-    title: `${candidate.name} — Programme, positions et sources 2027`,
-    description: `Fiche sourcée de ${candidate.name} pour la présidentielle 2027 : statut, positions directement documentées, thèmes couverts, documents, historique et contexte de parti séparé.`,
+    title: `${candidate.name} — Programme, propositions et sources 2027`,
+    description: `Fiche sourcée de ${candidate.name} pour la présidentielle 2027 : statut, propositions documentées, programme de parti lorsque son attribution est officielle, sources, historique et limites du corpus.`,
     alternates: { canonical: `/candidats/${candidate.id}` },
     openGraph: {
-      title: `${candidate.name} — Positions documentées 2027`,
-      description: `Consultez les propositions, sources et l’historique documenté de ${candidate.name} dans le corpus France 2027.`,
+      title: `${candidate.name} — Programme et positions documentées 2027`,
+      description: `Consultez les propositions, sources et l’historique documenté de ${candidate.name} dans le corpus open source France 2027.`,
       url: `/candidats/${candidate.id}`
     }
   };
@@ -49,7 +50,11 @@ export default async function CandidatePage({ params }) {
   let profile;
   try { profile = buildCandidateProfile(id); } catch { notFound(); }
   const c = profile.candidate;
-  const directCount = profile.coverage.filter(item => ["documented","partial"].includes(item.level)).length;
+  const coveredCount = profile.coverage.filter(item => ["documented","partial"].includes(item.level)).length;
+  const attributedCount = profile.coverage.filter(item => item.partyProgrammeAttributed).length;
+  const partyRecords = c.partyProgrammeAttributable ? profile.attributedPartyDocuments : profile.partyContextDocuments;
+  const currentPartyRecords = partyRecords.filter(item => !HISTORICAL_STATUSES.has(item.documentStatus));
+  const historicalPartyRecords = profile.partyContextDocuments.filter(item => HISTORICAL_STATUSES.has(item.documentStatus));
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Person",
@@ -61,13 +66,16 @@ export default async function CandidatePage({ params }) {
   return <main className="seoPage">
     <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(jsonLd)}} />
     <div className="seoBreadcrumbs"><Link href="/">France 2027</Link><span>›</span><Link href="/candidats">Candidats</Link><span>›</span><span>{c.name}</span></div>
-    <section className="seoHero"><span className="publicEyebrow">Fiche personnalité · sources directes séparées du parti</span><h1>{c.name}</h1><p>{c.statusNote || `Le registre documente actuellement le statut « ${c.statusLabel} » pour ${c.name}. Les positions du parti principal sont conservées comme contexte distinct et ne sont jamais transformées automatiquement en engagements personnels.`}</p><div className="seoMetaRow"><span>{c.statusLabel}</span><span>statut au {c.statusAsOf}</span>{c.partyName && <span>{c.partyName}</span>}<span>{directCount}/{profile.coverage.length} thèmes avec élément direct</span></div></section>
+    <section className="seoHero"><span className="publicEyebrow">Fiche personnalité · attribution vérifiable</span><h1>{c.name}</h1><p>{c.statusNote || `Le registre documente actuellement le statut « ${c.statusLabel} » pour ${c.name}. Les sources personnelles restent distinguées des documents de parti. Un programme de parti n'est attribué à une personnalité que lorsqu'elle est officiellement désignée par ce parti.`}</p><div className="seoMetaRow"><span>{c.statusLabel}</span><span>statut au {c.statusAsOf}</span>{c.partyName && <span>{c.partyName}</span>}<span>{coveredCount}/{profile.coverage.length} thèmes couverts</span>{c.partyProgrammeAttributable && <span>{attributedCount} thème(s) avec programme de parti attribuable</span>}</div></section>
 
-    <section className="seoSection"><div className="seoSectionHeading"><div><span className="publicEyebrow">Couverture documentaire</span><h2>Ce que le corpus permet d’examiner</h2></div><p>« Non documenté » décrit uniquement l’état du corpus. Ce n’est jamais une preuve d’absence de position.</p></div><div className="seoCardGrid">{profile.coverage.map(item => <article className="seoCard" key={item.topicId}><strong>{item.topicLabel}</strong><p><CoverageState item={item} /></p><p>{item.directSourceCount} source(s) directe(s){item.partySourceCount ? ` · ${item.partySourceCount} source(s) de parti` : ""}</p><div className="seoEvidenceList">{item.directEvidence.slice(0,1).map(evidence=><Evidence item={evidence} key={evidence.id}/>)}</div><Link href={`/themes/${item.topicId}`}>Voir le thème →</Link></article>)}</div></section>
+    <section className="seoSection"><div className="seoSectionHeading"><div><span className="publicEyebrow">Couverture documentaire</span><h2>Ce que le corpus permet d’examiner</h2></div><p>« Non documenté » décrit uniquement l’état du corpus. Ce n’est jamais une preuve d’absence de position.</p></div><div className="seoCardGrid">{profile.coverage.map(item => <article className="seoCard" key={item.topicId}><strong>{item.topicLabel}</strong><p><CoverageState item={item} /></p><p>{item.directSourceCount} source(s) personnelle(s){item.attributedPartySourceCount ? ` · ${item.attributedPartySourceCount} source(s) de parti officiellement attribuée(s)` : item.partySourceCount ? ` · ${item.partySourceCount} source(s) de parti non attribuée(s)` : ""}</p><div className="seoEvidenceList">{[...(item.directEvidence || []), ...(item.attributedPartyEvidence || [])].slice(0,1).map(evidence=><Evidence item={evidence} key={`${evidence.id}-${evidence.path}`}/>)}</div><Link href={`/themes/${item.topicId}`}>Voir le thème →</Link></article>)}</div></section>
 
-    <section className="seoSection"><div className="seoSectionHeading"><div><span className="publicEyebrow">Sources directes</span><h2>Documents et propositions rattachés à {c.name}</h2></div><p>Ces éléments sont rattachés directement à la personnalité dans le corpus, indépendamment des documents de son parti. Leur statut est affiché pour distinguer clairement l’état courant de l’historique.</p></div>{profile.directDocuments.length ? <div className="seoEvidenceList">{profile.directDocuments.slice(0,12).map(item=><Evidence item={item} key={item.id}/>)}</div> : <p>Aucun document directement rattaché n’est encore indexé pour cette personnalité.</p>}</section>
+    <section className="seoSection"><div className="seoSectionHeading"><div><span className="publicEyebrow">Sources personnelles</span><h2>Documents et propositions directement rattachés à {c.name}</h2></div><p>Ces éléments sont rattachés directement à la personnalité dans le corpus. Leur statut est affiché pour distinguer l’état courant de l’historique.</p></div>{profile.directDocuments.length ? <div className="seoEvidenceList">{profile.directDocuments.slice(0,12).map(item=><Evidence item={item} key={item.id}/>)}</div> : <p>Aucun document personnel direct n’est encore indexé pour cette personnalité.</p>}</section>
 
-    {profile.partyContextDocuments.length > 0 && <section className="seoSection"><div className="seoSectionHeading"><div><span className="publicEyebrow">Contexte distinct</span><h2>Documents du parti principal</h2></div><p>Ils sont affichés pour le contexte, sans attribution automatique à {c.name}. Les documents archivés, remplacés ou retirés sont explicitement signalés comme historiques.</p></div><div className="seoEvidenceList">{profile.partyContextDocuments.slice(0,8).map(item=><Evidence item={item} key={item.id}/>)}</div></section>}
+    {profile.partyContextDocuments.length > 0 && <section className="seoSection"><div className="seoSectionHeading"><div><span className="publicEyebrow">{c.partyProgrammeAttributable ? "Programme du parti attribuable" : "Contexte distinct"}</span><h2>Documents de {c.partyName || "son parti principal"}</h2></div><p>{c.partyProgrammeAttributable ? `Les éléments actuels ci-dessous peuvent être attribués à ${c.name}, car cette personnalité est officiellement désignée par ${c.partyName}. Leur provenance reste néanmoins celle du parti. Les versions archivées restent séparées et ne sont jamais présentées comme programme actuel.` : `Ces documents sont utiles pour le contexte mais ne sont pas attribués à ${c.name}, faute de désignation officielle par ce parti.`}</p></div>
+      {currentPartyRecords.length > 0 && <div className="seoEvidenceList">{currentPartyRecords.slice(0,8).map(item=><Evidence item={item} key={`${item.id}-${item.path}`}/>)}</div>}
+      {historicalPartyRecords.length > 0 && <div className="partyHistoricalContext"><div className="seoSectionHeading compactTitle"><div><span className="publicEyebrow">Historique du parti</span><h3>Versions antérieures conservées pour la traçabilité</h3></div><p>Ces sources ne sont pas utilisées comme positions actuelles. Elles restent visibles pour documenter l’évolution du corpus et éviter d’effacer les versions remplacées ou archivées.</p></div><div className="seoEvidenceList">{historicalPartyRecords.slice(0,4).map(item=><Evidence item={item} key={`history-${item.id}-${item.path}`}/>)}</div></div>}
+    </section>}
 
     <section className="seoSection"><div className="seoSectionHeading"><div><span className="publicEyebrow">Explorer davantage</span><h2>Comparer et vérifier</h2></div></div><div className="methodLinks"><Link href={`/?mode=candidates&candidate=${c.id}#explorer`}>Ouvrir la fiche interactive</Link><Link href={`/?mode=compare&c=${c.id}#explorer`}>Ajouter à une comparaison</Link>{c.sourceUrl && <a href={c.sourceUrl} target="_blank" rel="noreferrer">Source du statut ↗</a>}</div></section>
   </main>;
