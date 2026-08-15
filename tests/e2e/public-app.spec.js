@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 
 test('homepage exposes the seven neutral exploration modes', async ({ page }) => {
   await page.goto('/');
-  await expect(page.getByRole('heading', { name: 'Les programmes politiques, vérifiables jusque dans la source.' })).toBeVisible();
+  await expect(page.getByRole('heading', { name: 'Les programmes politiques, documentés jusque dans la source.' })).toBeVisible();
   await expect(page.getByRole('navigation', { name: "Modes d'exploration" })).toBeVisible();
   for (const label of ['Recherche', 'Comparer', 'Candidats', 'Thèmes', 'Historique', 'Boussole', 'Quiz']) {
     await expect(page.getByRole('button', { name: new RegExp(label) })).toBeVisible();
