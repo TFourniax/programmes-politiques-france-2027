@@ -165,6 +165,11 @@
       "source_url": "https://melenchon2027.fr/programme2025/livre/chapitre11/",
       "verified_at": "2026-08-12T22:06:46+00:00"
     },
+    "34c1feadaf36f9a416fc3f1b94cd827c428b2484057cfa047578939ab775aadb": {
+      "proposal_id": "auto-solution-democratique-institutions-democratie-34c1feadaf36",
+      "source_url": "https://solutiondemocratique.fr/parrainage2027/",
+      "verified_at": "2026-08-16T13:55:56+00:00"
+    },
     "39955feaadc3b278ca322db565659a975bd6345206d19646c9f9b72ca6d5e9ca": {
       "proposal_id": "auto-bruno-retailleau-immigration-integration-39955feaadc3",
       "source_url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/",
@@ -210,6 +215,11 @@
       "source_url": "https://melenchon2027.fr/programme2025/livre/chapitre14/",
       "verified_at": "2026-08-12T23:32:54+00:00"
     },
+    "4200a876eb9112b9d12343b119ee154cd18f134f96c8d2c1e8994e6513238d5c": {
+      "proposal_id": "auto-solution-democratique-institutions-democratie-4200a876eb91",
+      "source_url": "https://solutiondemocratique.fr/parrainage2027/",
+      "verified_at": "2026-08-16T13:55:56+00:00"
+    },
     "42bd5ab47b7a3229517a9ce02ccfccc912780204066e3c0c15089b2fa660ae1e": {
       "proposal_id": "auto-la-france-insoumise-ecologie-energie-42bd5ab47b7a",
       "source_url": "https://melenchon2027.fr/programme2025/livre/chapitre14/",
@@ -249,6 +259,11 @@
       "proposal_id": "auto-nouvelle-energie-retraites-4b9149336ab7",
       "source_url": "https://www.unenouvelleenergie.fr/notre-programme/",
       "verified_at": "2026-08-12T14:41:17+00:00"
+    },
+    "4e498b3ec06eea8411eace40160774e04b48a7a862b49a83657ddc4fafe60146": {
+      "proposal_id": "auto-solution-democratique-institutions-democratie-4e498b3ec06e",
+      "source_url": "https://solutiondemocratique.fr/parrainage2027/",
+      "verified_at": "2026-08-16T13:55:56+00:00"
     },
     "4ea1c22d52eae5284bda1e387a5178acb54c8520f6cb85cf5e07af1d2cd95008": {
       "proposal_id": "auto-solution-democratique-institutions-democratie-4ea1c22d52ea",
@@ -294,6 +309,11 @@
       "proposal_id": "auto-la-france-insoumise-ecologie-energie-6203e4bed4a2",
       "source_url": "https://melenchon2027.fr/programme2025/livre/chapitre12/",
       "verified_at": "2026-08-12T22:06:51+00:00"
+    },
+    "62ad6abc00a34f684cdfbba2f6f3fa762aa67c40b20122ff105da86344ce9086": {
+      "proposal_id": "auto-solution-democratique-institutions-democratie-62ad6abc00a3",
+      "source_url": "https://solutiondemocratique.fr/parrainage2027/",
+      "verified_at": "2026-08-16T13:55:56+00:00"
     },
     "650411362d03872861a7f4d286f571acb362877abed12c6e252c0d6cc9a64d61": {
       "proposal_id": "auto-rassemblement-national-fiscalite-redistribution-650411362d03",
@@ -823,7 +843,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-08-16T07:55:23+00:00",
+  "last_run_at": "2026-08-16T13:56:12+00:00",
   "source_chunks": {
     "049ef2342af4f07d32e93984": {
       "canonical_confirmations": [
@@ -4631,6 +4651,38 @@
       "updated_at": "2026-08-14T20:06:05+00:00",
       "url": "https://solutiondemocratique.fr/sarah-knafo-2027-programme-presidentiel/"
     },
+    "8cbca85c6e1e80a5af7cc2f9": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-08-16T13:56:09+00:00",
+      "document_types": [
+        "official_press_release"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [
+        "2026-06-17"
+      ],
+      "sha256": "8cc3a8c96c51c33a46afacbfcbabae1df3c4834eb396f2bdd6445cc6f5970f17",
+      "source_title": "Communiqué - Présidentielle 2027 : Selma Labib, une candidature ouvrière et révolutionnaire, soutenue par Gaël Quirante - NPA Révolutionnaires",
+      "statuses": [
+        {
+          "status": {
+            "candidate_id": "selma-labib",
+            "effective_date": "2026-06-07",
+            "evidence_quote": "a décidé de présenter à l’élection présidentielle du printemps 2027 Selma Labib",
+            "explicit": true,
+            "new_status": "declared_presidential"
+          }
+        }
+      ],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-16T13:56:12+00:00",
+      "url": "https://npa-revolutionnaires.org/communique-presidentielle-2027-selma-labib-une-candidature-ouvriere-et-revolutionnaire-soutenue-par-gael-quirante/"
+    },
     "8d4f255a6ea9f1d673f821a5": {
       "canonical_confirmations": [
         {
@@ -5067,6 +5119,24 @@
             "relation": "NEW",
             "verdict": "CONFIRMED"
           }
+        },
+        {
+          "claim": {
+            "actor_id": "solution-democratique",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Solution Démocratique souhaite instaurer en France la démocratie directe et la décentralisation par le bas",
+            "relevance": "direct",
+            "statement": "Solution démocratique souhaite instaurer en France la démocratie directe et la décentralisation par le bas.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Le claim est explicitement soutenu par la source (« Solution Démocratique souhaite instaurer en France la démocratie directe et la décentralisation par le bas ») et est identique à l'entrée canonique existante.",
+            "related_proposal_id": "auto-solution-democratique-institutions-democratie-4ea1c22d52ea",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
         }
       ],
       "claims": [
@@ -5143,22 +5213,26 @@
           }
         }
       ],
+      "completed_at": "2026-08-16T13:56:06+00:00",
       "created_at": "2026-08-16T07:55:12+00:00",
       "document_types": [
+        "campaign_website_page",
         "campaign_website_page",
         "campaign_website_page"
       ],
       "done": [
         0,
-        1
+        1,
+        2
       ],
+      "final_status": "promoted",
       "published_candidates": [],
       "sha256": "ba983371b0b5b8c0e5c810fefe6bee52f97e654e25fb56912736a9017c89c803",
       "source_title": "Parrainage 2027 - Solution Démocratique - Parti politique pour instaurer la démocratie directe",
       "statuses": [],
       "text_truncated": false,
       "total": 3,
-      "updated_at": "2026-08-16T07:55:23+00:00",
+      "updated_at": "2026-08-16T13:55:56+00:00",
       "url": "https://solutiondemocratique.fr/parrainage2027/"
     },
     "a62ba97f9981703fdc3fc130": {
@@ -5290,6 +5364,204 @@
             "relation": "NEW",
             "verdict": "CONFIRMED"
           }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Sortir un million de personnes chaque année de la précarité énergétique en atteignant 500 000 rénovations performantes",
+            "relevance": "direct",
+            "statement": "Sortir un million de personnes par an de la précarité énergétique via 500 000 rénovations performantes par an.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Explicitement soutenu par la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "En finir avec les chauffages au fioul en 2032.",
+            "relevance": "direct",
+            "statement": "Mettre fin aux chauffages au fioul en 2032.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "Explicitement soutenu par la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Créer une offre de location sociale (leasing social) d’un million de véhicules sur le quinquennat",
+            "relevance": "direct",
+            "statement": "Créer un parc social de voitures électriques avec une offre d'un million de véhicules sur le quinquennat.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "Présent à l'identique dans le canonical courant.",
+            "related_proposal_id": "prop-les-ecologistes-million-vehicules-location-sociale",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "réduisant la vitesse maximale des véhicules thermiques à 110km/h sur autoroute.",
+            "relevance": "direct",
+            "statement": "Réduire la vitesse maximale des véhicules thermiques à 110 km/h sur autoroute.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 3,
+            "reason": "Explicitement soutenu par la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Doubler le kilométrage de voies cyclables continues en 3 ans pour atteindre 120 000 km en 2032",
+            "relevance": "direct",
+            "statement": "Doubler le kilométrage de voies cyclables continues en 3 ans pour atteindre 120 000 km en 2032.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 4,
+            "reason": "Explicitement soutenu par la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Doter de 7 milliards d’euros par an d'ici 2032 le Plan national d’adaptation au changement climatique",
+            "relevance": "direct",
+            "statement": "Doter le Plan national d’adaptation au changement climatique de 7 milliards d’euros par an d'ici 2032.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 5,
+            "reason": "Explicitement soutenu par la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Doubler les moyens matériels de la sécurité civile avec une flotte aérienne renforcée",
+            "relevance": "direct",
+            "statement": "Doubler les moyens matériels de la sécurité civile avec une flotte aérienne renforcée et des unités spécialisées.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Explicitement soutenu par la source pour l'acteur les-ecologistes.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Créer un véritable statut modernisé du pompier volontaire avec une rémunération revalorisée",
+            "relevance": "direct",
+            "statement": "Créer un statut modernisé du pompier volontaire avec une rémunération revalorisée et une protection sociale renforcée.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "Explicitement soutenu par la source pour l'acteur les-ecologistes.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Planifier une sortie progressive des pesticides de synthèse et des engrais azotés à l’horizon 2050.",
+            "relevance": "direct",
+            "statement": "Planifier une sortie progressive des pesticides de synthèse et des engrais azotés à l’horizon 2050.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "Explicitement soutenu par la source pour l'acteur les-ecologistes.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "objectif d’un gain net de 60000 km d’ici 2030",
+            "relevance": "direct",
+            "statement": "Lancer un grand plan de plantation de haies avec un objectif d’un gain net de 60000 km d’ici 2030.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 3,
+            "reason": "Explicitement soutenu par la source pour l'acteur les-ecologistes.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Protéger strictement 10 % de s zones maritimes et des fonds marins d’ici 2030",
+            "relevance": "direct",
+            "statement": "Protéger strictement 10 pour cent des zones maritimes et des fonds marins d’ici 2030 sans aucune activité extractive.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 4,
+            "reason": "Explicitement soutenu par la source pour l'acteur les-ecologistes.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
         }
       ],
       "claims": [
@@ -5400,16 +5672,200 @@
             "relation": "NEW",
             "verdict": "CONFIRMED"
           }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Sortir un million de personnes chaque année de la précarité énergétique en atteignant 500 000 rénovations performantes",
+            "relevance": "direct",
+            "statement": "Sortir un million de personnes par an de la précarité énergétique via 500 000 rénovations performantes par an.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Explicitement soutenu par la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "En finir avec les chauffages au fioul en 2032.",
+            "relevance": "direct",
+            "statement": "Mettre fin aux chauffages au fioul en 2032.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "Explicitement soutenu par la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "réduisant la vitesse maximale des véhicules thermiques à 110km/h sur autoroute.",
+            "relevance": "direct",
+            "statement": "Réduire la vitesse maximale des véhicules thermiques à 110 km/h sur autoroute.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 3,
+            "reason": "Explicitement soutenu par la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Doubler le kilométrage de voies cyclables continues en 3 ans pour atteindre 120 000 km en 2032",
+            "relevance": "direct",
+            "statement": "Doubler le kilométrage de voies cyclables continues en 3 ans pour atteindre 120 000 km en 2032.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 4,
+            "reason": "Explicitement soutenu par la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Doter de 7 milliards d’euros par an d'ici 2032 le Plan national d’adaptation au changement climatique",
+            "relevance": "direct",
+            "statement": "Doter le Plan national d’adaptation au changement climatique de 7 milliards d’euros par an d'ici 2032.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 5,
+            "reason": "Explicitement soutenu par la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Doubler les moyens matériels de la sécurité civile avec une flotte aérienne renforcée",
+            "relevance": "direct",
+            "statement": "Doubler les moyens matériels de la sécurité civile avec une flotte aérienne renforcée et des unités spécialisées.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Explicitement soutenu par la source pour l'acteur les-ecologistes.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Créer un véritable statut modernisé du pompier volontaire avec une rémunération revalorisée",
+            "relevance": "direct",
+            "statement": "Créer un statut modernisé du pompier volontaire avec une rémunération revalorisée et une protection sociale renforcée.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "Explicitement soutenu par la source pour l'acteur les-ecologistes.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Planifier une sortie progressive des pesticides de synthèse et des engrais azotés à l’horizon 2050.",
+            "relevance": "direct",
+            "statement": "Planifier une sortie progressive des pesticides de synthèse et des engrais azotés à l’horizon 2050.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "Explicitement soutenu par la source pour l'acteur les-ecologistes.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "objectif d’un gain net de 60000 km d’ici 2030",
+            "relevance": "direct",
+            "statement": "Lancer un grand plan de plantation de haies avec un objectif d’un gain net de 60000 km d’ici 2030.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 3,
+            "reason": "Explicitement soutenu par la source pour l'acteur les-ecologistes.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Protéger strictement 10 % de s zones maritimes et des fonds marins d’ici 2030",
+            "relevance": "direct",
+            "statement": "Protéger strictement 10 pour cent des zones maritimes et des fonds marins d’ici 2030 sans aucune activité extractive.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 4,
+            "reason": "Explicitement soutenu par la source pour l'acteur les-ecologistes.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
         }
       ],
       "created_at": "2026-08-16T07:55:02+00:00",
       "document_types": [
         "party_programme",
+        "party_programme",
+        "party_programme",
         "party_programme"
       ],
       "done": [
         0,
-        1
+        1,
+        2,
+        3
       ],
       "published_candidates": [],
       "sha256": "7db9ac7712c4e7183c4252d21050d032c0e4304136c1e3cd1c29164a6d411928",
@@ -5417,7 +5873,7 @@
       "statuses": [],
       "text_truncated": false,
       "total": 24,
-      "updated_at": "2026-08-16T07:55:09+00:00",
+      "updated_at": "2026-08-16T13:55:48+00:00",
       "url": "https://lesecologistes.fr/document/5ZhR2m5t2ZaGKqIdD1bJaD/vdef-programme-1.pdf"
     },
     "abd06abf04a13a6ea519c0b4": {
@@ -8131,9 +8587,9 @@
       "url": "https://solutiondemocratique.fr/sarah-knafo-2027-programme-presidentiel/"
     },
     "6131f9d79b77": {
-      "chunks_done": 2,
+      "chunks_done": 4,
       "chunks_total": 24,
-      "processed_at": "2026-08-16T07:55:09+00:00",
+      "processed_at": "2026-08-16T13:55:48+00:00",
       "reason": null,
       "source_sha256": "7db9ac7712c4e7183c4252d21050d032c0e4304136c1e3cd1c29164a6d411928",
       "status": "partial",
@@ -8273,12 +8729,12 @@
       "url": "https://solutiondemocratique.fr/benoit-mathieu-programme-2027/"
     },
     "a1a43e52aa29": {
-      "chunks_done": 2,
+      "chunks_done": null,
       "chunks_total": 3,
-      "processed_at": "2026-08-16T07:55:23+00:00",
+      "processed_at": "2026-08-16T13:56:06+00:00",
       "reason": null,
       "source_sha256": "ba983371b0b5b8c0e5c810fefe6bee52f97e654e25fb56912736a9017c89c803",
-      "status": "partial",
+      "status": "promoted",
       "url": "https://solutiondemocratique.fr/parrainage2027/"
     },
     "a29032baac55": {
@@ -8549,6 +9005,15 @@
       "source_sha256": "181a8380bfef45b18c49d80b3b5d0de72a83fc476ef514ca5705b2065249f82e",
       "status": "promoted",
       "url": "https://solutiondemocratique.fr/xavier-bertrand-programme-presidentielle2027/"
+    },
+    "e0143c7d2d53": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-16T13:56:12+00:00",
+      "reason": "chronology_or_scope_guard",
+      "source_sha256": "8cc3a8c96c51c33a46afacbfcbabae1df3c4834eb396f2bdd6445cc6f5970f17",
+      "status": "not_confirmed",
+      "url": "https://npa-revolutionnaires.org/communique-presidentielle-2027-selma-labib-une-candidature-ouvriere-et-revolutionnaire-soutenue-par-gael-quirante/"
     },
     "e3c279b77adb": {
       "chunks_done": null,

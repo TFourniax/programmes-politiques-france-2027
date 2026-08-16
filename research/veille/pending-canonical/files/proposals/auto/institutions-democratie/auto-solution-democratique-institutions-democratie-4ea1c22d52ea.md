@@ -14,7 +14,7 @@ source_document_ids: [auto-solution-democratique-2026-04-05-2490d151b5b8, auto-s
   auto-solution-democratique-2026-03-31-b2a28a425ae6, auto-solution-democratique-2026-05-03-74fb49b9899b, auto-solution-democratique-2026-02-15-0955a3c5e387,
   auto-solution-democratique-2026-03-28-abd06abf04a1, auto-solution-democratique-2026-03-22-7e4a9ad22707, auto-solution-democratique-2026-03-22-83d5eda15af3,
   auto-solution-democratique-2026-05-03-8d4f255a6ea9, auto-solution-democratique-2025-04-09-624555f164b4, auto-solution-democratique-2026-05-03-4462d0edc49c,
-  auto-solution-democratique-2026-05-13-e5e9484e2b9c]
+  auto-solution-democratique-2026-05-13-e5e9484e2b9c, auto-solution-democratique-2026-08-16-a0db326b1cb1]
 source_url: https://solutiondemocratique.fr/segolene-royal-programme-presidentielle2027/
 source_tier: tier_1_primary_official
 first_documented_at: '2026-04-05'
@@ -35,7 +35,7 @@ source_urls: ['https://solutiondemocratique.fr/segolene-royal-programme-presiden
   'https://solutiondemocratique.fr/programme-rn-2027/', 'https://solutiondemocratique.fr/juan-branco-2027-programme/', 'https://solutiondemocratique.fr/dominique-de-villepin-presidentielle-2027-programme/',
   'https://solutiondemocratique.fr/david-lisnard-programme-2027/', 'https://solutiondemocratique.fr/francois-ruffin-2027-programme/',
   'https://solutiondemocratique.fr/programme-lfi-2027/', 'https://solutiondemocratique.fr/comparatif-candidats-programme-elections-presidentielles-france-2027/',
-  'https://solutiondemocratique.fr/parti-socialiste-programme-2027/']
+  'https://solutiondemocratique.fr/parti-socialiste-programme-2027/', 'https://solutiondemocratique.fr/parrainage2027/']
 evidence_sha256s: [0b013c630f2281528d927d3c6ac7bbed832efeb82d7536d7e0ad37cee3b09409, 1841b8fd670f23d8045bd9619c332a46ba1aa9a12785e4fc938ebb64d3dac6e6,
   689874aee6e56ea9aa4502364cf191c20b803ea320fcef3db7e477f412daa0bb, 41335891eed587b269834e5162f66c954482d42c2e94b71259eed15f9033f81e,
   181a8380bfef45b18c49d80b3b5d0de72a83fc476ef514ca5705b2065249f82e, 9996d86efff8ca030f3a7263822e19e41b2af39c488fc9ec1eb26f9b606d100e,
@@ -49,9 +49,9 @@ evidence_sha256s: [0b013c630f2281528d927d3c6ac7bbed832efeb82d7536d7e0ad37cee3b09
   ba2ea6fc45eb70bc3cea56b4d7d0d2467a729d2ebd748b42d27c4556fedb6a14, 9b7a25659489f0a69a15bb5dadaf7eb00e19e7bfb20f3b96109eff7ce7f87602,
   b2c26cc44537bbb7c12ed7ae9b1e9df81b527491231fdf07c27de869b533b8d6, 93788d5e8b0428d594a0a98bfc8270053c46623395dfe55bc7e4170d9b4ef1a7,
   9a1d5f113c78dcd521da236ce1c23a4cb0af8bf7c5d09f90d67b714f56715c5c, 4ca5a785c2ba5b2d8e2e98ac661f0cc04befde55a19774c5725875aa29dd061f,
-  4efd512bef65ec73cacdaebe541d7951107bdfd227e56ae8d23e1dedf6d728f6]
-confirmation_count: 27
-last_confirmed_at: '2026-05-13'
+  4efd512bef65ec73cacdaebe541d7951107bdfd227e56ae8d23e1dedf6d728f6, ba983371b0b5b8c0e5c810fefe6bee52f97e654e25fb56912736a9017c89c803]
+confirmation_count: 28
+last_confirmed_at: '2026-08-16'
 ---
 
 # Solution Démocratique souhaite instaurer la démocratie directe et la décentralisation par le bas en France
