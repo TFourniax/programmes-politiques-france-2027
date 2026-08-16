@@ -8,14 +8,14 @@
   "gemini_quota_only": false,
   "gemini_unavailable_reason": null,
   "gemini_unavailable_since": null,
-  "generated_at": "2026-08-15T19:48:10+00:00",
-  "last_collection_success_at": "2026-08-15T19:43:55+00:00",
-  "last_direct_feed_run_at": "2026-08-15T19:43:57+00:00",
-  "last_gdelt_run_at": "2026-08-15T19:47:11+00:00",
-  "last_promotion_run_at": "2026-08-15T19:48:10+00:00",
-  "last_social_promotion_run_at": "2026-08-15T19:48:10+00:00",
-  "last_social_run_at": "2026-08-15T19:47:42+00:00",
-  "last_structured_primary_run_at": "2026-08-15T19:45:13+00:00",
+  "generated_at": "2026-08-16T02:44:53+00:00",
+  "last_collection_success_at": "2026-08-16T02:40:50+00:00",
+  "last_direct_feed_run_at": "2026-08-16T02:41:11+00:00",
+  "last_gdelt_run_at": "2026-08-16T02:44:08+00:00",
+  "last_promotion_run_at": "2026-08-16T02:44:52+00:00",
+  "last_social_promotion_run_at": "2026-08-16T02:44:53+00:00",
+  "last_social_run_at": "2026-08-16T02:44:33+00:00",
+  "last_structured_primary_run_at": "2026-08-16T02:42:14+00:00",
   "max_promotion_retry_attempts": 0,
   "official_sitemap_coverage_count": 0,
   "official_source_warnings_last_run": 6,
@@ -24,23 +24,31 @@
   "pending_work": 1,
   "persistent_official_source_failure_details": [
     {
-      "consecutive_failures": 7,
+      "consecutive_failures": 8,
       "first_failure_at": "2026-08-14T15:45:58+00:00",
       "kind": "registry_source",
-      "last_failure_at": "2026-08-15T19:45:13+00:00",
+      "last_failure_at": "2026-08-16T02:42:14+00:00",
       "owner": "La France Humaine & Forte",
       "url": "https://lafrancehumaineetforte.fr/"
     },
     {
-      "consecutive_failures": 18,
+      "consecutive_failures": 19,
       "first_failure_at": "2026-08-13T13:02:53+00:00",
       "kind": "registry_source",
-      "last_failure_at": "2026-08-15T19:45:13+00:00",
+      "last_failure_at": "2026-08-16T02:42:14+00:00",
       "owner": "La Convention",
       "url": "https://www.la-convention.fr/"
+    },
+    {
+      "consecutive_failures": 4,
+      "first_failure_at": "2026-08-15T10:42:46+00:00",
+      "kind": "party_programme",
+      "last_failure_at": "2026-08-16T02:42:14+00:00",
+      "owner": "Parti communiste français",
+      "url": "https://www.pcf.fr/le_programme"
     }
   ],
-  "persistent_official_source_failures": 2,
+  "persistent_official_source_failures": 3,
   "promotion_actionable_retries_pending": 0,
   "promotion_quota_retries_pending": 1,
   "promotion_retries_over_budget": 0,
@@ -48,7 +56,7 @@
   "promotion_retry_slo_hours": 48.0,
   "promotion_technical_retries_pending": 1,
   "reasons": [
-    "2_persistent_official_source_failure(s)"
+    "3_persistent_official_source_failure(s)"
   ],
   "recovered_promotion_technical_failures": 1,
   "status": "degraded",

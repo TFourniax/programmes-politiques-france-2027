@@ -1,0 +1,33 @@
+{
+  "errors": [],
+  "generated_at": "2026-08-16T02:44:52+00:00",
+  "historical_skipped": 0,
+  "partial": 0,
+  "processed": 3,
+  "promoted": 1,
+  "proposals_created": 0,
+  "results": [
+    {
+      "document": "corpus/2027/auto/partys/solution-democratique/2026-05-13-e5e9484e2b9c.md",
+      "provenance_updates": [
+        "auto-solution-democratique-institutions-democratie-4ea1c22d52ea"
+      ],
+      "reason": "canonical_duplicate_evidence",
+      "sha256": "4efd512bef65ec73cacdaebe541d7951107bdfd227e56ae8d23e1dedf6d728f6",
+      "status": "promoted",
+      "url": "https://solutiondemocratique.fr/parti-socialiste-programme-2027/",
+      "verified_at": "2026-08-16T02:44:46+00:00"
+    },
+    {
+      "sha256": "945a0c21d310bb9c307c986086374b1b055bc983e0cf6c70edec74e5b5149eb9",
+      "status": "not_confirmed",
+      "url": "https://solutiondemocratique.fr/marine-le-pen-programme-2027/"
+    },
+    {
+      "sha256": "ab1adbdfc3184d4460b5e75e60a57c4ef9b9678561b6002656f9af4c91bf9853",
+      "status": "not_confirmed",
+      "url": "https://solutiondemocratique.fr/laurent-wauquiez-programme-presidentielle2027/"
+    }
+  ],
+  "status_updates": 0
+}

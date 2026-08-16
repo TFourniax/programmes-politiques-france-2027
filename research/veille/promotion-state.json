@@ -823,7 +823,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-08-15T19:48:10+00:00",
+  "last_run_at": "2026-08-16T02:44:52+00:00",
   "source_chunks": {
     "049ef2342af4f07d32e93984": {
       "canonical_confirmations": [
@@ -3744,6 +3744,28 @@
       "updated_at": "2026-08-11T12:47:31+00:00",
       "url": "https://lafranceinsoumise.fr/2026/08/10/amfis-2026-le-programme-est-en-ligne/"
     },
+    "716ea700d6fa04e5d8d252d1": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-08-16T02:44:47+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [
+        "2026-04-16"
+      ],
+      "sha256": "945a0c21d310bb9c307c986086374b1b055bc983e0cf6c70edec74e5b5149eb9",
+      "source_title": "Marine Le Pen 2027 : analyse de son programme et engagement réel pour la démocratie directe - Solution Démocratique - Parti politique pour instaurer la démocratie directe",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-16T02:44:49+00:00",
+      "url": "https://solutiondemocratique.fr/marine-le-pen-programme-2027/"
+    },
     "74fb49b9899b0db9f3a2dc33": {
       "canonical_confirmations": [
         {
@@ -6439,6 +6461,28 @@
       "updated_at": "2026-08-12T22:06:46+00:00",
       "url": "https://melenchon2027.fr/programme2025/livre/chapitre11/"
     },
+    "df9ba02c84efa6efa5888ede": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-08-16T02:44:51+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [
+        "2026-03-31"
+      ],
+      "sha256": "ab1adbdfc3184d4460b5e75e60a57c4ef9b9678561b6002656f9af4c91bf9853",
+      "source_title": "Laurent Wauquiez 2027 : pour la démocratie directe à la Suisse ?",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-16T02:44:52+00:00",
+      "url": "https://solutiondemocratique.fr/laurent-wauquiez-programme-presidentielle2027/"
+    },
     "e1966b1108dd5b6e07853fb4": {
       "canonical_confirmations": [
         {
@@ -6628,6 +6672,48 @@
       "total": 1,
       "updated_at": "2026-08-12T20:14:20+00:00",
       "url": "https://www.unenouvelleenergie.fr/notre-programme/securite/"
+    },
+    "e5e9484e2b9c610de1db2022": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "solution-democratique",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Solution Démocratique souhaite instaurer en France la démocratie directe et la décentralisation par le bas.",
+            "relevance": "direct",
+            "statement": "Solution Démocratique souhaite instaurer en France la démocratie directe et la décentralisation par le bas.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La proposition est explicitement soutenue par la source (qui émane de Solution Démocratique et réaffirme ce positionnement) et correspond exactement au claim canonique existant.",
+            "related_proposal_id": "auto-solution-democratique-institutions-democratie-4ea1c22d52ea",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-08-16T02:44:46+00:00",
+      "created_at": "2026-08-16T02:44:39+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-05-13"
+      ],
+      "sha256": "4efd512bef65ec73cacdaebe541d7951107bdfd227e56ae8d23e1dedf6d728f6",
+      "source_title": "Parti Socialiste en 2027 : démocratie au programme ?",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-16T02:44:43+00:00",
+      "url": "https://solutiondemocratique.fr/parti-socialiste-programme-2027/"
     },
     "e6391a0acf8117008f943be3": {
       "claims": [],
@@ -7348,6 +7434,15 @@
       "status": "promoted",
       "url": "https://www.unenouvelleenergie.fr/notre-programme/sante/"
     },
+    "2fb74b0b5600": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-16T02:44:49+00:00",
+      "reason": null,
+      "source_sha256": "945a0c21d310bb9c307c986086374b1b055bc983e0cf6c70edec74e5b5149eb9",
+      "status": "not_confirmed",
+      "url": "https://solutiondemocratique.fr/marine-le-pen-programme-2027/"
+    },
     "33d88441defd": {
       "chunks_done": null,
       "chunks_total": null,
@@ -7384,6 +7479,15 @@
       "status": "promoted",
       "url": "https://solutiondemocratique.fr/edouard-philippe-presidentielle-2027-programme/"
     },
+    "36dbf717c834": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-16T02:44:52+00:00",
+      "reason": null,
+      "source_sha256": "ab1adbdfc3184d4460b5e75e60a57c4ef9b9678561b6002656f9af4c91bf9853",
+      "status": "not_confirmed",
+      "url": "https://solutiondemocratique.fr/laurent-wauquiez-programme-presidentielle2027/"
+    },
     "36eb65b88b37": {
       "chunks_done": null,
       "chunks_total": 1,
@@ -7392,6 +7496,15 @@
       "source_sha256": "54db91a2896f3d6518f05addfc4bc3a93670b7dddd36d2f34e8493f7b640fb6a",
       "status": "promoted",
       "url": "https://www.unenouvelleenergie.fr/notre-programme/agriculture/"
+    },
+    "3bd7ecdd978d": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-16T02:44:46+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "4efd512bef65ec73cacdaebe541d7951107bdfd227e56ae8d23e1dedf6d728f6",
+      "status": "promoted",
+      "url": "https://solutiondemocratique.fr/parti-socialiste-programme-2027/"
     },
     "3d062a785ed0": {
       "chunks_done": null,
