@@ -1,8 +1,13 @@
 {
   "version": 1,
   "created_at": "2026-08-14T08:23:23.018331+00:00",
-  "updated_at": "2026-08-16T02:44:56.284055+00:00",
+  "updated_at": "2026-08-16T07:55:27.275743+00:00",
   "files": [
+    {
+      "path": "corpus/2027/auto/partys/nouvelle-energie/2026-08-16-391f5104d410.md",
+      "sha256": "e2bc224fdd0a4b46d9f88d6a412d4b5ed24f8f095c98f5532c6f07056846c250",
+      "size": 2528
+    },
     {
       "path": "corpus/2027/auto/partys/solution-democratique/2025-04-09-624555f164b4.md",
       "sha256": "0414f80280d12e624911090c4a1557dc5537541900b7a11467eedf3d022da785",
@@ -149,9 +154,19 @@
       "size": 2010
     },
     {
+      "path": "proposals/auto/economie-finances/auto-nouvelle-energie-economie-finances-ce6ab5f9ca2a.md",
+      "sha256": "60cb8e5a5ff567fb2e9eeab175333c27f52723f8cea0940c39a134fd8e6ee70c",
+      "size": 1646
+    },
+    {
       "path": "proposals/auto/institutions-democratie/auto-clara-egger-institutions-democratie-ef5123784bab.md",
       "sha256": "03ffc413373d84f40570fe16921ab90abb92441dad17cf6f50431f7cf0139176",
       "size": 2094
+    },
+    {
+      "path": "proposals/auto/institutions-democratie/auto-nouvelle-energie-institutions-democratie-1d98a3b70af1.md",
+      "sha256": "1d6f84f2cd51a228e9e5adeb43b0c6f313c11b2d0ecbbd7c78cbb450ea5499be",
+      "size": 1651
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-solution-democratique-institutions-democratie-4ea1c22d52ea.md",
@@ -162,6 +177,21 @@
       "path": "proposals/auto/institutions-democratie/auto-solution-democratique-institutions-democratie-fb4b3d1432b9.md",
       "sha256": "20620e8a10f448b1162a51f7053502959543a812cec0bfd76f46de23934670e2",
       "size": 1412
+    },
+    {
+      "path": "proposals/auto/retraites/auto-nouvelle-energie-retraites-4b9149336ab7.md",
+      "sha256": "04a9cb76ddece8549b44a235f507b0616b9ac2786bc01704358896a6227768e7",
+      "size": 1706
+    },
+    {
+      "path": "proposals/auto/services-publics/auto-nouvelle-energie-services-publics-0f99d5897943.md",
+      "sha256": "c213167843929368a878178b225cf18ee246edab94bc2bc4f1c753aa3adcbec5",
+      "size": 1734
+    },
+    {
+      "path": "proposals/auto/services-publics/auto-nouvelle-energie-services-publics-2dd30b44dc9c.md",
+      "sha256": "381c0003f0b69ccdde9d877d4f160c65193dcaac872f4c466637e2bc0677e9cc",
+      "size": 1691
     }
   ],
   "deleted_files": []

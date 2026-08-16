@@ -823,7 +823,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-08-16T02:44:52+00:00",
+  "last_run_at": "2026-08-16T07:55:23+00:00",
   "source_chunks": {
     "049ef2342af4f07d32e93984": {
       "canonical_confirmations": [
@@ -2002,6 +2002,118 @@
       "total": 1,
       "updated_at": "2026-08-15T07:55:22+00:00",
       "url": "https://solutiondemocratique.fr/edouard-philippe-presidentielle-2027-programme/"
+    },
+    "391f5104d4105ded8d7e64f5": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "nouvelle-energie",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "un État recentré sur ses missions régaliennes de sécurité et de défense",
+            "relevance": "direct",
+            "statement": "Recentrer l'État sur ses missions régaliennes de sécurité et de défense.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Explicitement soutenu dans la source et identique au contenu canonique existant.",
+            "related_proposal_id": "auto-nouvelle-energie-institutions-democratie-1d98a3b70af1",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "nouvelle-energie",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "la libération des énergies créatrices par une profonde débureaucratisation",
+            "relevance": "direct",
+            "statement": "Libérer les énergies créatrices par une profonde débureaucratisation.",
+            "topic": "economie-finances"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "Explicitement soutenu dans la source et identique au contenu canonique existant.",
+            "related_proposal_id": "auto-nouvelle-energie-economie-finances-ce6ab5f9ca2a",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "nouvelle-energie",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "une école d’excellence pour faire de la France une superpuissance éducative et scientifique",
+            "relevance": "direct",
+            "statement": "Mettre en place une école d'excellence pour faire de la France une superpuissance éducative et scientifique.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "Explicitement soutenu dans la source et identique au contenu canonique existant.",
+            "related_proposal_id": "auto-nouvelle-energie-services-publics-0f99d5897943",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "nouvelle-energie",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "suppression de la carte scolaire",
+            "relevance": "direct",
+            "statement": "Supprimer la carte scolaire pour garantir la liberté pour les parents de scolariser leurs enfants où ils le veulent.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 3,
+            "reason": "Explicitement soutenu dans la source et identique au contenu canonique existant.",
+            "related_proposal_id": "auto-nouvelle-energie-services-publics-2dd30b44dc9c",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "nouvelle-energie",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "la liberté pour les travailleurs de se constituer un capital pour leur retraite (capitalisation)",
+            "relevance": "direct",
+            "statement": "Instaurer la liberté pour les travailleurs de se constituer un capital pour leur retraite par capitalisation.",
+            "topic": "retraites"
+          },
+          "verdict": {
+            "index": 4,
+            "reason": "Explicitement soutenu dans la source et identique au contenu canonique existant.",
+            "related_proposal_id": "auto-nouvelle-energie-retraites-4b9149336ab7",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-08-16T07:54:56+00:00",
+      "created_at": "2026-08-16T07:54:42+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "bfd8c09b009d67f74f58ebf85c979ae3e78b9a312c6e79efc851f58f1fda8035",
+      "source_title": "Le programme de David Lisnard | Nouvelle Énergie",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-16T07:54:48+00:00",
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/"
     },
     "3c1ba39c8e7810522f130b53": {
       "canonical_confirmations": [
@@ -4864,6 +4976,191 @@
       "updated_at": "2026-08-15T02:36:12+00:00",
       "url": "https://solutiondemocratique.fr/francois-asselineau-2027-programme/"
     },
+    "a0db326b1cb13efe692a5ece": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "solution-democratique",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "introduisant le droit d’initiative citoyenne",
+            "relevance": "direct",
+            "statement": "Instaurer le droit d'initiative citoyenne pour proposer des changements constitutionnels.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La source confirme explicitement l'objectif d'instaurer le droit d'initiative citoyenne pour les changements constitutionnels pour Solution Démocratique.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "solution-democratique",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "rendant obligatoire le référendum pour toute révision constitutionnelle",
+            "relevance": "direct",
+            "statement": "Rendre obligatoire le référendum pour toute révision constitutionnelle.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La source confirme explicitement la volonté de rendre obligatoire le référendum pour toute révision constitutionnelle.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "solution-democratique",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "recueillir 700 000 signatures d’électeurs",
+            "relevance": "direct",
+            "statement": "Fixer à 700 000 le nombre de signatures citoyennes requises pour une proposition de révision de la Constitution.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "La source précise explicitement le seuil de 700 000 signatures d'électeurs requises pour l'initiative de révision constitutionnelle.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "clara-egger",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "redonner au président de la République un rôle d’arbitre",
+            "relevance": "direct",
+            "statement": "Porter une candidature transpartisane visant à redonner au président de la République un rôle d'arbitre.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 3,
+            "reason": "Déjà présent dans le canon actuel avec le même sens et la même portée pour Clara Egger.",
+            "related_proposal_id": "auto-clara-egger-institutions-democratie-ef5123784bab",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "solution-democratique",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Nous proposons de pouvoir lancer une telle initiative une fois le soutien de 700 000 citoyens recueilli.",
+            "relevance": "direct",
+            "statement": "Introduire une initiative citoyenne permettant de réclamer un changement de la Constitution une fois le soutien de 700 000 citoyens recueilli.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La proposition d'introduire une initiative citoyenne avec un seuil de 700 000 citoyens pour réclamer un changement de la Constitution est explicitement soutenue par la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [
+        {
+          "claim": {
+            "actor_id": "solution-democratique",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "introduisant le droit d’initiative citoyenne",
+            "relevance": "direct",
+            "statement": "Instaurer le droit d'initiative citoyenne pour proposer des changements constitutionnels.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La source confirme explicitement l'objectif d'instaurer le droit d'initiative citoyenne pour les changements constitutionnels pour Solution Démocratique.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "solution-democratique",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "rendant obligatoire le référendum pour toute révision constitutionnelle",
+            "relevance": "direct",
+            "statement": "Rendre obligatoire le référendum pour toute révision constitutionnelle.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La source confirme explicitement la volonté de rendre obligatoire le référendum pour toute révision constitutionnelle.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "solution-democratique",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "recueillir 700 000 signatures d’électeurs",
+            "relevance": "direct",
+            "statement": "Fixer à 700 000 le nombre de signatures citoyennes requises pour une proposition de révision de la Constitution.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "La source précise explicitement le seuil de 700 000 signatures d'électeurs requises pour l'initiative de révision constitutionnelle.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "solution-democratique",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Nous proposons de pouvoir lancer une telle initiative une fois le soutien de 700 000 citoyens recueilli.",
+            "relevance": "direct",
+            "statement": "Introduire une initiative citoyenne permettant de réclamer un changement de la Constitution une fois le soutien de 700 000 citoyens recueilli.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La proposition d'introduire une initiative citoyenne avec un seuil de 700 000 citoyens pour réclamer un changement de la Constitution est explicitement soutenue par la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "created_at": "2026-08-16T07:55:12+00:00",
+      "document_types": [
+        "campaign_website_page",
+        "campaign_website_page"
+      ],
+      "done": [
+        0,
+        1
+      ],
+      "published_candidates": [],
+      "sha256": "ba983371b0b5b8c0e5c810fefe6bee52f97e654e25fb56912736a9017c89c803",
+      "source_title": "Parrainage 2027 - Solution Démocratique - Parti politique pour instaurer la démocratie directe",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 3,
+      "updated_at": "2026-08-16T07:55:23+00:00",
+      "url": "https://solutiondemocratique.fr/parrainage2027/"
+    },
     "a62ba97f9981703fdc3fc130": {
       "canonical_confirmations": [],
       "claims": [],
@@ -4883,6 +5180,245 @@
       "total": 1,
       "updated_at": "2026-08-15T02:36:16+00:00",
       "url": "https://www.youtube.com/watch?v=_h4KueBVAsw"
+    },
+    "ab02beb53591d050d5972133": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "la part des ENR atteigne 44 % de la c onsommation finale brute d’électricité en 2030",
+            "relevance": "direct",
+            "statement": "Modifier les objectifs et les moyens financiers de la troisième Planification Pluriannuelle de l’Énergie (PPE3) pour que la part des ENR atteigne 44 % de la consommation finale brute d’électricité en 2030.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La proposition est explicitement soutenue par la source (p. 16).",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Mettre fin aux nouveaux programmes EPR-2 et SMR extrêmement dispendieux.",
+            "relevance": "direct",
+            "statement": "Mettre fin aux nouveaux programmes EPR-2 et SMR.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La proposition est explicitement soutenue par la source (p. 17).",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Planifier l’arrêt progressif du parc constitué de centrales vieillissantes",
+            "relevance": "direct",
+            "statement": "Planifier l’arrêt progressif du parc de centrales nucléaires existantes sur une vingtaine d’années.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "La proposition est explicitement soutenue par la source (p. 17).",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "généralisation, l’amélioration et la pérennisation de l’encadrement des loyers",
+            "relevance": "direct",
+            "statement": "Garantir le droit au logement par la généralisation, l’amélioration et la pérennisation de l’encadrement des loyers.",
+            "topic": "pouvoir-achat-travail"
+          },
+          "verdict": {
+            "index": 3,
+            "reason": "La proposition est explicitement soutenue par la source (p. 20).",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "objectif de 30 % de logements d’ici 2035",
+            "relevance": "direct",
+            "statement": "Ajouter une obligation d’atteindre un objectif de 30 % de logements sociaux d’ici 2035 dans les communes aux marchés immobiliers les plus tendus.",
+            "topic": "pouvoir-achat-travail"
+          },
+          "verdict": {
+            "index": 4,
+            "reason": "La proposition est explicitement soutenue par la source (p. 20).",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "500 000 rénovations performantes par an via MaPrimeRénov’",
+            "relevance": "direct",
+            "statement": "Sortir un million de personnes chaque année de la précarité énergétique en atteignant 500 000 rénovations performantes par an.",
+            "topic": "pouvoir-achat-travail"
+          },
+          "verdict": {
+            "index": 5,
+            "reason": "La proposition est explicitement soutenue par la source (p. 21).",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "la part des ENR atteigne 44 % de la c onsommation finale brute d’électricité en 2030",
+            "relevance": "direct",
+            "statement": "Modifier les objectifs et les moyens financiers de la troisième Planification Pluriannuelle de l’Énergie (PPE3) pour que la part des ENR atteigne 44 % de la consommation finale brute d’électricité en 2030.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La proposition est explicitement soutenue par la source (p. 16).",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Mettre fin aux nouveaux programmes EPR-2 et SMR extrêmement dispendieux.",
+            "relevance": "direct",
+            "statement": "Mettre fin aux nouveaux programmes EPR-2 et SMR.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La proposition est explicitement soutenue par la source (p. 17).",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Planifier l’arrêt progressif du parc constitué de centrales vieillissantes",
+            "relevance": "direct",
+            "statement": "Planifier l’arrêt progressif du parc de centrales nucléaires existantes sur une vingtaine d’années.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "La proposition est explicitement soutenue par la source (p. 17).",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "généralisation, l’amélioration et la pérennisation de l’encadrement des loyers",
+            "relevance": "direct",
+            "statement": "Garantir le droit au logement par la généralisation, l’amélioration et la pérennisation de l’encadrement des loyers.",
+            "topic": "pouvoir-achat-travail"
+          },
+          "verdict": {
+            "index": 3,
+            "reason": "La proposition est explicitement soutenue par la source (p. 20).",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "objectif de 30 % de logements d’ici 2035",
+            "relevance": "direct",
+            "statement": "Ajouter une obligation d’atteindre un objectif de 30 % de logements sociaux d’ici 2035 dans les communes aux marchés immobiliers les plus tendus.",
+            "topic": "pouvoir-achat-travail"
+          },
+          "verdict": {
+            "index": 4,
+            "reason": "La proposition est explicitement soutenue par la source (p. 20).",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "500 000 rénovations performantes par an via MaPrimeRénov’",
+            "relevance": "direct",
+            "statement": "Sortir un million de personnes chaque année de la précarité énergétique en atteignant 500 000 rénovations performantes par an.",
+            "topic": "pouvoir-achat-travail"
+          },
+          "verdict": {
+            "index": 5,
+            "reason": "La proposition est explicitement soutenue par la source (p. 21).",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "created_at": "2026-08-16T07:55:02+00:00",
+      "document_types": [
+        "party_programme",
+        "party_programme"
+      ],
+      "done": [
+        0,
+        1
+      ],
+      "published_candidates": [],
+      "sha256": "7db9ac7712c4e7183c4252d21050d032c0e4304136c1e3cd1c29164a6d411928",
+      "source_title": "Le nouveau programme des Écologistes - Pour une prospérité écologique",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 24,
+      "updated_at": "2026-08-16T07:55:09+00:00",
+      "url": "https://lesecologistes.fr/document/5ZhR2m5t2ZaGKqIdD1bJaD/vdef-programme-1.pdf"
     },
     "abd06abf04a13a6ea519c0b4": {
       "canonical_confirmations": [
@@ -7594,6 +8130,15 @@
       "status": "promoted",
       "url": "https://solutiondemocratique.fr/sarah-knafo-2027-programme-presidentiel/"
     },
+    "6131f9d79b77": {
+      "chunks_done": 2,
+      "chunks_total": 24,
+      "processed_at": "2026-08-16T07:55:09+00:00",
+      "reason": null,
+      "source_sha256": "7db9ac7712c4e7183c4252d21050d032c0e4304136c1e3cd1c29164a6d411928",
+      "status": "partial",
+      "url": "https://lesecologistes.fr/document/5ZhR2m5t2ZaGKqIdD1bJaD/vdef-programme-1.pdf"
+    },
     "66d64cc37b5a": {
       "processed_at": "2026-08-11T08:56:04+00:00",
       "reason": null,
@@ -7726,6 +8271,15 @@
       "source_sha256": "b4b43b4ff1bf7460e3fa403ca5eef147f58df19e2cc871fca43cfac22564e296",
       "status": "not_confirmed",
       "url": "https://solutiondemocratique.fr/benoit-mathieu-programme-2027/"
+    },
+    "a1a43e52aa29": {
+      "chunks_done": 2,
+      "chunks_total": 3,
+      "processed_at": "2026-08-16T07:55:23+00:00",
+      "reason": null,
+      "source_sha256": "ba983371b0b5b8c0e5c810fefe6bee52f97e654e25fb56912736a9017c89c803",
+      "status": "partial",
+      "url": "https://solutiondemocratique.fr/parrainage2027/"
     },
     "a29032baac55": {
       "processed_at": "2026-08-11T08:55:59+00:00",
@@ -7916,6 +8470,15 @@
       "source_sha256": "887b889f5bcfc6ec15d924b13e4156d23f149ae3fe38f286546244ffa1a50516",
       "status": "promoted",
       "url": "https://melenchon2027.fr/programme2025/livre/chapitre7/"
+    },
+    "d39296887b28": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-16T07:54:56+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "bfd8c09b009d67f74f58ebf85c979ae3e78b9a312c6e79efc851f58f1fda8035",
+      "status": "promoted",
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/"
     },
     "d5d359c8e31c": {
       "chunks_done": null,
