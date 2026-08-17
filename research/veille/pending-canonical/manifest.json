@@ -1,8 +1,13 @@
 {
   "version": 1,
   "created_at": "2026-08-14T08:23:23.018331+00:00",
-  "updated_at": "2026-08-16T19:46:23.515237+00:00",
+  "updated_at": "2026-08-17T02:43:56.166870+00:00",
   "files": [
+    {
+      "path": "corpus/2027/auto/candidates/karim-bouamrane/2026-08-17-62bc89cdcb2c.md",
+      "sha256": "e12b6a7529b40ee5dfb1900cbae6acae98a7c1b6c27cae4444a3baa3028f20e8",
+      "size": 2355
+    },
     {
       "path": "corpus/2027/auto/partys/nouvelle-energie/2026-08-16-391f5104d410.md",
       "sha256": "e2bc224fdd0a4b46d9f88d6a412d4b5ed24f8f095c98f5532c6f07056846c250",
@@ -159,6 +164,11 @@
       "size": 2802
     },
     {
+      "path": "proposals/auto/ecologie-energie/auto-karim-bouamrane-ecologie-energie-bfaa323092c4.md",
+      "sha256": "af36ed46425f1240545b04ac6ae9e76d76185515edc963715687c9adcd496425",
+      "size": 1295
+    },
+    {
       "path": "proposals/auto/economie-finances/auto-nouvelle-energie-economie-finances-ce6ab5f9ca2a.md",
       "sha256": "60cb8e5a5ff567fb2e9eeab175333c27f52723f8cea0940c39a134fd8e6ee70c",
       "size": 1646
@@ -204,9 +214,24 @@
       "size": 1412
     },
     {
+      "path": "proposals/auto/pouvoir-achat-travail/auto-karim-bouamrane-pouvoir-achat-travail-51145e332b03.md",
+      "sha256": "25c83ee322aaf393f65531ce50e3a488f0cc6aef9e1a974a2eef49844f56128b",
+      "size": 1197
+    },
+    {
       "path": "proposals/auto/retraites/auto-nouvelle-energie-retraites-4b9149336ab7.md",
       "sha256": "04a9cb76ddece8549b44a235f507b0616b9ac2786bc01704358896a6227768e7",
       "size": 1706
+    },
+    {
+      "path": "proposals/auto/securite-justice/auto-karim-bouamrane-securite-justice-6e2304a70b65.md",
+      "sha256": "75bb4070ff437c5468d2620cbf7287f4d91892842df62ca627df70ff040c07ad",
+      "size": 1196
+    },
+    {
+      "path": "proposals/auto/services-publics/auto-karim-bouamrane-services-publics-4bd4586012ea.md",
+      "sha256": "2d2f73f7164ccdce03036a42af3ad493b26d3c92a32c8b78f72223463c7078d4",
+      "size": 1148
     },
     {
       "path": "proposals/auto/services-publics/auto-nouvelle-energie-services-publics-0f99d5897943.md",
@@ -217,6 +242,16 @@
       "path": "proposals/auto/services-publics/auto-nouvelle-energie-services-publics-2dd30b44dc9c.md",
       "sha256": "381c0003f0b69ccdde9d877d4f160c65193dcaac872f4c466637e2bc0677e9cc",
       "size": 1691
+    },
+    {
+      "path": "proposals/economie-finances/karim-bouamrane-simplification-administrative.md",
+      "sha256": "143e55f5541ceef772c5005804b2308d83fa3b102998684a73f59768bc169e51",
+      "size": 839
+    },
+    {
+      "path": "proposals/europe-souverainete/karim-bouamrane-effort-defense.md",
+      "sha256": "4c764ee486ae2dda2d73b4d9b47968143eebb81a83d2a2c4ed40c1a6907f946c",
+      "size": 792
     }
   ],
   "deleted_files": []

@@ -260,6 +260,11 @@
       "source_url": "https://www.unenouvelleenergie.fr/notre-programme/",
       "verified_at": "2026-08-12T14:41:17+00:00"
     },
+    "4bd4586012ea3d6530cfc8099d4438b7eab520186136d351ec67401a7412dc2a": {
+      "proposal_id": "auto-karim-bouamrane-services-publics-4bd4586012ea",
+      "source_url": "https://www.karimbouamrane2027.org/",
+      "verified_at": "2026-08-17T02:43:47+00:00"
+    },
     "4e498b3ec06eea8411eace40160774e04b48a7a862b49a83657ddc4fafe60146": {
       "proposal_id": "auto-solution-democratique-institutions-democratie-4e498b3ec06e",
       "source_url": "https://solutiondemocratique.fr/parrainage2027/",
@@ -274,6 +279,11 @@
       "proposal_id": "auto-la-france-insoumise-ecologie-energie-5049046a19dc",
       "source_url": "https://melenchon2027.fr/programme2025/livre/chapitre12/",
       "verified_at": "2026-08-12T22:06:51+00:00"
+    },
+    "51145e332b033ec14bee8085799326f570d4967dacf50cd302e09214495cc866": {
+      "proposal_id": "auto-karim-bouamrane-pouvoir-achat-travail-51145e332b03",
+      "source_url": "https://www.karimbouamrane2027.org/",
+      "verified_at": "2026-08-17T02:43:47+00:00"
     },
     "514da6f5edf04243f5d02524172125245e304b07a502b68e75d0ab4d6ab14c49": {
       "proposal_id": "auto-la-france-insoumise-services-publics-514da6f5edf0",
@@ -374,6 +384,11 @@
       "proposal_id": "auto-la-france-insoumise-ecologie-energie-6d65ac3a2328",
       "source_url": "https://melenchon2027.fr/programme2025/livre/chapitre12/",
       "verified_at": "2026-08-12T22:06:51+00:00"
+    },
+    "6e2304a70b651e2de61d4adb5fc9435f9c378b504afd5f3243e4af33c1296964": {
+      "proposal_id": "auto-karim-bouamrane-securite-justice-6e2304a70b65",
+      "source_url": "https://www.karimbouamrane2027.org/",
+      "verified_at": "2026-08-17T02:43:47+00:00"
     },
     "6e75fec68b398261379717813f46b6986a0a56f5792ba1df0f9b8e92b3b9797a": {
       "proposal_id": "auto-la-france-insoumise-pouvoir-achat-travail-6e75fec68b39",
@@ -615,6 +630,11 @@
       "source_url": "https://melenchon2027.fr/programme2025/livre/chapitre15/",
       "verified_at": "2026-08-12T23:32:59+00:00"
     },
+    "bfaa323092c47cb0f41ad486ac08204dc7be8ad0043b86d7779b11d8d6ef370b": {
+      "proposal_id": "auto-karim-bouamrane-ecologie-energie-bfaa323092c4",
+      "source_url": "https://www.karimbouamrane2027.org/",
+      "verified_at": "2026-08-17T02:43:47+00:00"
+    },
     "c029bd01a6ac8c8bf194e901d01fe868465dd4c963884d91b96252c4bd3153e6": {
       "proposal_id": "auto-la-france-insoumise-securite-justice-c029bd01a6ac",
       "source_url": "https://melenchon2027.fr/programme2025/livre/chapitre16/",
@@ -841,9 +861,9 @@
       "verified_at": "2026-08-13T08:51:16+00:00"
     }
   },
-  "last_error_count": 0,
-  "last_processed_count": 3,
-  "last_run_at": "2026-08-16T19:46:20+00:00",
+  "last_error_count": 1,
+  "last_processed_count": 2,
+  "last_run_at": "2026-08-17T02:43:54+00:00",
   "source_chunks": {
     "020221717496955b329ee982": {
       "canonical_confirmations": [],
@@ -3869,6 +3889,209 @@
       "updated_at": "2026-08-15T13:55:19+00:00",
       "url": "https://solutiondemocratique.fr/comparatif-candidats-programme-elections-presidentielles-france-2027/"
     },
+    "62bc89cdcb2c13a5993a408e": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "karim-bouamrane",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "le narcotrafic est combattu avec détermination",
+            "relevance": "direct",
+            "statement": "Il convient de lutter contre le narcotrafic avec détermination.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Le manifeste explicite clairement la lutte contre le narcotrafic pour Karim Bouamrane.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "karim-bouamrane",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "lutte contre les déserts médicaux",
+            "relevance": "direct",
+            "statement": "Il convient de lutter contre les déserts médicaux.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "Le manifeste mentionne explicitement la lutte contre les déserts médicaux.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "karim-bouamrane",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "qui rénove les logements des familles modestes",
+            "relevance": "direct",
+            "statement": "Il convient de rénover les logements des familles modestes dans le cadre d'une transition juste.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "Le manifeste prévoit explicitement la rénovation des logements des familles modestes.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "karim-bouamrane",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "valoriser le travail",
+            "relevance": "direct",
+            "statement": "Il convient de valoriser le travail pour permettre de vivre dignement.",
+            "topic": "pouvoir-achat-travail"
+          },
+          "verdict": {
+            "index": 3,
+            "reason": "Le manifeste explicite la volonté de valoriser le travail pour vivre dignement.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "karim-bouamrane",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "Nous réduirons les doublons administratifs.",
+            "relevance": "direct",
+            "statement": "Il convient de réduire les doublons administratifs et de simplifier l'action publique.",
+            "topic": "economie-finances"
+          },
+          "verdict": {
+            "index": 4,
+            "reason": "Présent à l'identique dans le canon actuel sur la simplification et les doublons administratifs.",
+            "related_proposal_id": "prop-bouamrane-simplification-administrative",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "karim-bouamrane",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "J'augmenterai l'effort de défense.",
+            "relevance": "direct",
+            "statement": "Il convient d'augmenter l'effort de défense de la France.",
+            "topic": "europe-souverainete"
+          },
+          "verdict": {
+            "index": 5,
+            "reason": "Correspond exactement au prop-bouamrane-augmenter-effort-defense existant.",
+            "related_proposal_id": "prop-bouamrane-augmenter-effort-defense",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [
+        {
+          "claim": {
+            "actor_id": "karim-bouamrane",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "le narcotrafic est combattu avec détermination",
+            "relevance": "direct",
+            "statement": "Il convient de lutter contre le narcotrafic avec détermination.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Le manifeste explicite clairement la lutte contre le narcotrafic pour Karim Bouamrane.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "karim-bouamrane",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "lutte contre les déserts médicaux",
+            "relevance": "direct",
+            "statement": "Il convient de lutter contre les déserts médicaux.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "Le manifeste mentionne explicitement la lutte contre les déserts médicaux.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "karim-bouamrane",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "qui rénove les logements des familles modestes",
+            "relevance": "direct",
+            "statement": "Il convient de rénover les logements des familles modestes dans le cadre d'une transition juste.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "Le manifeste prévoit explicitement la rénovation des logements des familles modestes.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "karim-bouamrane",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "valoriser le travail",
+            "relevance": "direct",
+            "statement": "Il convient de valoriser le travail pour permettre de vivre dignement.",
+            "topic": "pouvoir-achat-travail"
+          },
+          "verdict": {
+            "index": 3,
+            "reason": "Le manifeste explicite la volonté de valoriser le travail pour vivre dignement.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "completed_at": "2026-08-17T02:43:53+00:00",
+      "created_at": "2026-08-17T02:43:41+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "fd0e28339e6e06cb8baa01a1cd613f4cad99445ee591cd42d316afee1d852ffe",
+      "source_title": "Karim Bouamrane 2027 — La France Humaine & Forte",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-17T02:43:47+00:00",
+      "url": "https://www.karimbouamrane2027.org/"
+    },
     "65b932fa9c013c803e67df86": {
       "claims": [],
       "created_at": "2026-08-11T14:42:45+00:00",
@@ -5812,6 +6035,222 @@
             "relation": "NEW",
             "verdict": "CONFIRMED"
           }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Réduire les écarts de rémunération pour atteindre un écart de 1 à 20",
+            "relevance": "party_platform",
+            "statement": "Réduire les écarts de rémunération pour atteindre un écart de 1 à 20 dans les entreprises entre le salaire de dirigeants et le salaire médian.",
+            "topic": "economie-finances"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Explicitement soutenu par la source pour Les Écologistes (écart 1 à 20).",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Passer aux 32 heures sans perte de salaire",
+            "relevance": "party_platform",
+            "statement": "Passer aux 32 heures sans perte de salaire dans les métiers pénibles ou de nuit.",
+            "topic": "pouvoir-achat-travail"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "Explicitement soutenu par la source pour Les Écologistes (32 heures).",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Créer un congé climatique de 5 jours par an",
+            "relevance": "party_platform",
+            "statement": "Créer un congé climatique de 5 jours par an pour protéger les travailleurs face aux températures extrêmes.",
+            "topic": "pouvoir-achat-travail"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "Présent à l'identique dans le canonique.",
+            "related_proposal_id": "prop-les-ecologistes-conge-climatique-cinq-jours",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Créer 200 postes d’inspecteur·ices du travail",
+            "relevance": "party_platform",
+            "statement": "Créer 200 postes d’inspecteurs du travail pour contrôler le droit du travail et les règles de sécurité.",
+            "topic": "pouvoir-achat-travail"
+          },
+          "verdict": {
+            "index": 3,
+            "reason": "Explicitement soutenu par la source pour Les Écologistes (200 postes).",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Créer un prêt long terme à taux zéro",
+            "relevance": "party_platform",
+            "statement": "Créer un prêt long terme à taux zéro pour les PME et ETI afin de financer la diminution de leurs émissions.",
+            "topic": "economie-finances"
+          },
+          "verdict": {
+            "index": 4,
+            "reason": "Explicitement soutenu par la source pour Les Écologistes (prêt taux zéro PME/ETI).",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Encadrer les prix d’un panier de biens essentiels",
+            "relevance": "party_platform",
+            "statement": "Encadrer les prix d’un panier de biens essentiels pour le logement, l'énergie, l'eau, le transport et l'alimentation.",
+            "topic": "economie-finances"
+          },
+          "verdict": {
+            "index": 5,
+            "reason": "Explicitement soutenu par la source pour Les Écologistes (panier de biens essentiels).",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Renforcer la mise en œuvre et l’efficacité du Bouclier Qualité Prix (BQP) dans les territoires dits d’Outre-mer.",
+            "relevance": "party_platform",
+            "statement": "Renforcer la mise en œuvre et l'efficacité du Bouclier Qualité Prix dans les départements et régions d'Outre-mer.",
+            "topic": "economie-finances"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Explicitement soutenu par la source pour le BQP en Outre-mer.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Définir la politique économique en fonction d’indicateurs de prospérité écologique",
+            "relevance": "party_platform",
+            "statement": "Définir la politique économique en fonction d'indicateurs de prospérité écologique.",
+            "topic": "economie-finances"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "Explicitement soutenu par la source pour la politique économique et les indicateurs de prospérité écologique.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Rétablir les 1000 postes d’agents supprimés dans les 15 dernières années à la Direction générale de la concurrence",
+            "relevance": "party_platform",
+            "statement": "Rétablir 1000 postes d'agents supprimés dans les 15 dernières années à la DGCCRF et dans les douanes.",
+            "topic": "economie-finances"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "Explicitement soutenu par la source pour le rétablissement des 1000 postes à la DGCCRF et aux douanes.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Adopter un «buy green and european act » pour privilégier entre 50 et 80 % de produits européens",
+            "relevance": "party_platform",
+            "statement": "Adopter un acte pour privilégier entre 50 et 80 pour cent de produits européens dans les marchés publics.",
+            "topic": "europe-souverainete"
+          },
+          "verdict": {
+            "index": 3,
+            "reason": "Explicitement soutenu par la source pour le 'buy green and european act'.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Mettre en place une taxe Zucman de 2 % au-delà de 100 millions d’euros de patrimoine.",
+            "relevance": "party_platform",
+            "statement": "Mettre en place une taxe Zucman de 2 pour cent au-delà de 100 millions d'euros de patrimoine.",
+            "topic": "fiscalite-redistribution"
+          },
+          "verdict": {
+            "index": 4,
+            "reason": "Correspond exactement au claim canonique existant sur la taxe Zucman.",
+            "related_proposal_id": "prop-les-ecologistes-impot-plancher-2-patrimoine-100m",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Rétablir l’Impôt sur la Fortune (ISF) en lui ajoutant une composante climatique",
+            "relevance": "party_platform",
+            "statement": "Rétablir l'Impôt sur la Fortune en lui ajoutant une composante climatique.",
+            "topic": "fiscalite-redistribution"
+          },
+          "verdict": {
+            "index": 5,
+            "reason": "Explicitement soutenu par la source pour le rétablissement de l'ISF avec composante climatique.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
         }
       ],
       "claims": [
@@ -6282,10 +6721,192 @@
             "relation": "NEW",
             "verdict": "CONFIRMED"
           }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Réduire les écarts de rémunération pour atteindre un écart de 1 à 20",
+            "relevance": "party_platform",
+            "statement": "Réduire les écarts de rémunération pour atteindre un écart de 1 à 20 dans les entreprises entre le salaire de dirigeants et le salaire médian.",
+            "topic": "economie-finances"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Explicitement soutenu par la source pour Les Écologistes (écart 1 à 20).",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Passer aux 32 heures sans perte de salaire",
+            "relevance": "party_platform",
+            "statement": "Passer aux 32 heures sans perte de salaire dans les métiers pénibles ou de nuit.",
+            "topic": "pouvoir-achat-travail"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "Explicitement soutenu par la source pour Les Écologistes (32 heures).",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Créer 200 postes d’inspecteur·ices du travail",
+            "relevance": "party_platform",
+            "statement": "Créer 200 postes d’inspecteurs du travail pour contrôler le droit du travail et les règles de sécurité.",
+            "topic": "pouvoir-achat-travail"
+          },
+          "verdict": {
+            "index": 3,
+            "reason": "Explicitement soutenu par la source pour Les Écologistes (200 postes).",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Créer un prêt long terme à taux zéro",
+            "relevance": "party_platform",
+            "statement": "Créer un prêt long terme à taux zéro pour les PME et ETI afin de financer la diminution de leurs émissions.",
+            "topic": "economie-finances"
+          },
+          "verdict": {
+            "index": 4,
+            "reason": "Explicitement soutenu par la source pour Les Écologistes (prêt taux zéro PME/ETI).",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Encadrer les prix d’un panier de biens essentiels",
+            "relevance": "party_platform",
+            "statement": "Encadrer les prix d’un panier de biens essentiels pour le logement, l'énergie, l'eau, le transport et l'alimentation.",
+            "topic": "economie-finances"
+          },
+          "verdict": {
+            "index": 5,
+            "reason": "Explicitement soutenu par la source pour Les Écologistes (panier de biens essentiels).",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Renforcer la mise en œuvre et l’efficacité du Bouclier Qualité Prix (BQP) dans les territoires dits d’Outre-mer.",
+            "relevance": "party_platform",
+            "statement": "Renforcer la mise en œuvre et l'efficacité du Bouclier Qualité Prix dans les départements et régions d'Outre-mer.",
+            "topic": "economie-finances"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Explicitement soutenu par la source pour le BQP en Outre-mer.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Définir la politique économique en fonction d’indicateurs de prospérité écologique",
+            "relevance": "party_platform",
+            "statement": "Définir la politique économique en fonction d'indicateurs de prospérité écologique.",
+            "topic": "economie-finances"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "Explicitement soutenu par la source pour la politique économique et les indicateurs de prospérité écologique.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Rétablir les 1000 postes d’agents supprimés dans les 15 dernières années à la Direction générale de la concurrence",
+            "relevance": "party_platform",
+            "statement": "Rétablir 1000 postes d'agents supprimés dans les 15 dernières années à la DGCCRF et dans les douanes.",
+            "topic": "economie-finances"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "Explicitement soutenu par la source pour le rétablissement des 1000 postes à la DGCCRF et aux douanes.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Adopter un «buy green and european act » pour privilégier entre 50 et 80 % de produits européens",
+            "relevance": "party_platform",
+            "statement": "Adopter un acte pour privilégier entre 50 et 80 pour cent de produits européens dans les marchés publics.",
+            "topic": "europe-souverainete"
+          },
+          "verdict": {
+            "index": 3,
+            "reason": "Explicitement soutenu par la source pour le 'buy green and european act'.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Rétablir l’Impôt sur la Fortune (ISF) en lui ajoutant une composante climatique",
+            "relevance": "party_platform",
+            "statement": "Rétablir l'Impôt sur la Fortune en lui ajoutant une composante climatique.",
+            "topic": "fiscalite-redistribution"
+          },
+          "verdict": {
+            "index": 5,
+            "reason": "Explicitement soutenu par la source pour le rétablissement de l'ISF avec composante climatique.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
         }
       ],
       "created_at": "2026-08-16T07:55:02+00:00",
       "document_types": [
+        "party_programme",
+        "party_programme",
         "party_programme",
         "party_programme",
         "party_programme",
@@ -6299,7 +6920,9 @@
         2,
         3,
         4,
-        5
+        5,
+        6,
+        7
       ],
       "published_candidates": [],
       "sha256": "7db9ac7712c4e7183c4252d21050d032c0e4304136c1e3cd1c29164a6d411928",
@@ -6307,7 +6930,7 @@
       "statuses": [],
       "text_truncated": false,
       "total": 24,
-      "updated_at": "2026-08-16T19:46:14+00:00",
+      "updated_at": "2026-08-17T02:43:40+00:00",
       "url": "https://lesecologistes.fr/document/5ZhR2m5t2ZaGKqIdD1bJaD/vdef-programme-1.pdf"
     },
     "abd06abf04a13a6ea519c0b4": {
@@ -9030,9 +9653,9 @@
       "url": "https://solutiondemocratique.fr/sarah-knafo-2027-programme-presidentiel/"
     },
     "6131f9d79b77": {
-      "chunks_done": 6,
+      "chunks_done": 8,
       "chunks_total": 24,
-      "processed_at": "2026-08-16T19:46:14+00:00",
+      "processed_at": "2026-08-17T02:43:40+00:00",
       "reason": null,
       "source_sha256": "7db9ac7712c4e7183c4252d21050d032c0e4304136c1e3cd1c29164a6d411928",
       "status": "partial",
@@ -9283,6 +9906,14 @@
       "source_sha256": "5c0ab2abebb587e9620894f29a509c80ee245bb9671e5332f52874d73c1dfdab",
       "status": "no_canonical_data",
       "url": "https://www.revolutionpermanente.fr/"
+    },
+    "b8920657eb06": {
+      "attempts": 1,
+      "error": "ValueError: source text too short",
+      "next_retry_at": "2026-08-17T08:43:53+00:00",
+      "processed_at": "2026-08-17T02:43:53+00:00",
+      "status": "technical_error",
+      "url": "https://www.jerome-guedj.fr/la-clarte-plutot-que-les-slogans-pourquoi-jai-annonce-ma-candidature-pour-2027/"
     },
     "b9ea09e1f9b0": {
       "processed_at": "2026-08-11T09:26:30+00:00",
@@ -9537,6 +10168,15 @@
       "source_sha256": "c7571eb18ab5aa86107951287a70922ea6cd6db418c225d2662b5dd43e99b6fc",
       "status": "promoted",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
+    "ef4b0ed43845": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-08-17T02:43:53+00:00",
+      "reason": null,
+      "source_sha256": "fd0e28339e6e06cb8baa01a1cd613f4cad99445ee591cd42d316afee1d852ffe",
+      "status": "promoted",
+      "url": "https://www.karimbouamrane2027.org/"
     },
     "efe3cc1f101e": {
       "chunks_done": null,

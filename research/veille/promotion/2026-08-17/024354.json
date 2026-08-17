@@ -1,0 +1,45 @@
+{
+  "errors": [
+    {
+      "at": "2026-08-17T02:43:53+00:00",
+      "error": "ValueError: source text too short",
+      "url": "https://www.jerome-guedj.fr/la-clarte-plutot-que-les-slogans-pourquoi-jai-annonce-ma-candidature-pour-2027/"
+    }
+  ],
+  "generated_at": "2026-08-17T02:43:54+00:00",
+  "historical_skipped": 0,
+  "partial": 1,
+  "processed": 2,
+  "promoted": 1,
+  "proposals_created": 4,
+  "results": [
+    {
+      "chunks_done": 8,
+      "chunks_remaining": 16,
+      "chunks_total": 24,
+      "sha256": "7db9ac7712c4e7183c4252d21050d032c0e4304136c1e3cd1c29164a6d411928",
+      "status": "partial",
+      "url": "https://lesecologistes.fr/document/5ZhR2m5t2ZaGKqIdD1bJaD/vdef-programme-1.pdf"
+    },
+    {
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/candidates/karim-bouamrane/2026-08-17-62bc89cdcb2c.md",
+      "proposals": [
+        "proposals/auto/securite-justice/auto-karim-bouamrane-securite-justice-6e2304a70b65.md",
+        "proposals/auto/services-publics/auto-karim-bouamrane-services-publics-4bd4586012ea.md",
+        "proposals/auto/ecologie-energie/auto-karim-bouamrane-ecologie-energie-bfaa323092c4.md",
+        "proposals/auto/pouvoir-achat-travail/auto-karim-bouamrane-pouvoir-achat-travail-51145e332b03.md"
+      ],
+      "provenance_updates": [
+        "prop-bouamrane-augmenter-effort-defense",
+        "prop-bouamrane-simplification-administrative"
+      ],
+      "sha256": "fd0e28339e6e06cb8baa01a1cd613f4cad99445ee591cd42d316afee1d852ffe",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://www.karimbouamrane2027.org/",
+      "verified_at": "2026-08-17T02:43:53+00:00"
+    }
+  ],
+  "status_updates": 0
+}
