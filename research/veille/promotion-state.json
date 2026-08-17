@@ -35,6 +35,11 @@
       "source_url": "https://www.unenouvelleenergie.fr/notre-programme/immigration/",
       "verified_at": "2026-08-12T03:38:03+00:00"
     },
+    "0d29bfb3d8323a541f6b48aa6b660e494436e888b06d0f6d635ba7d8ae452c1a": {
+      "proposal_id": "auto-les-ecologistes-securite-justice-0d29bfb3d832",
+      "source_url": "https://bsky.app/profile/lesecologistes.fr/post/3mtciamjwfk2f",
+      "verified_at": "2026-08-17T19:57:13+00:00"
+    },
     "0f99d5897943cac942c33dd65ae5ac18a1006f586d5ef4c8ff0955618848c914": {
       "proposal_id": "auto-nouvelle-energie-services-publics-0f99d5897943",
       "source_url": "https://www.unenouvelleenergie.fr/notre-programme/",
@@ -861,9 +866,9 @@
       "verified_at": "2026-08-13T08:51:16+00:00"
     }
   },
-  "last_error_count": 1,
-  "last_processed_count": 2,
-  "last_run_at": "2026-08-17T14:05:52+00:00",
+  "last_error_count": 0,
+  "last_processed_count": 3,
+  "last_run_at": "2026-08-17T19:57:08+00:00",
   "source_chunks": {
     "020221717496955b329ee982": {
       "canonical_confirmations": [],
@@ -896,6 +901,26 @@
       "total": 1,
       "updated_at": "2026-08-16T19:46:17+00:00",
       "url": "https://npa-revolutionnaires.org/communique-presidentielle-2027-selma-labib-une-candidature-ouvriere-et-revolutionnaire-soutenue-par-gael-quirante/"
+    },
+    "04611c4a8e7edbf6fa25cb89": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-08-17T19:56:53+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "146ce1a84d8fd923f94ce3266355fa33a5e2c9cf88da4d9277385d32d61d879c",
+      "source_title": "Bernard Cazeneuve, La France, ensemble. Présidentielle 2027",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-17T19:57:07+00:00",
+      "url": "https://bc2027.fr/"
     },
     "049ef2342af4f07d32e93984": {
       "canonical_confirmations": [
@@ -1221,6 +1246,102 @@
       "total": 1,
       "updated_at": "2026-08-12T03:38:03+00:00",
       "url": "https://www.unenouvelleenergie.fr/notre-programme/immigration/"
+    },
+    "0d2365d33b5fb6e493317312": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "réduire drastiquement l’immigration",
+            "relevance": "direct",
+            "statement": "Il propose de réduire drastiquement l'immigration par référendum.",
+            "topic": "immigration-integration"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Présent dans le canonique sous l'identifiant auto-bruno-retailleau-immigration-integration-39955feaadc3.",
+            "related_proposal_id": "auto-bruno-retailleau-immigration-integration-39955feaadc3",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "révolution de notre justice pénale",
+            "relevance": "direct",
+            "statement": "Il propose d'engager une révolution de la justice pénale par référendum.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "Présent dans le canonique sous l'identifiant auto-bruno-retailleau-securite-justice-703dc438f470.",
+            "related_proposal_id": "auto-bruno-retailleau-securite-justice-703dc438f470",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "soumettrai directement par référendum plusieurs grands textes de loi",
+            "relevance": "direct",
+            "statement": "Il propose de soumettre plusieurs grands textes de loi directement par référendum.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "Présent dans le canonique sous l'identifiant auto-bruno-retailleau-institutions-democratie-f5a91461b7da.",
+            "related_proposal_id": "auto-bruno-retailleau-institutions-democratie-f5a91461b7da",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "redonner la primauté à notre droit national",
+            "relevance": "direct",
+            "statement": "Il propose de redonner la primauté au droit national par référendum.",
+            "topic": "europe-souverainete"
+          },
+          "verdict": {
+            "index": 3,
+            "reason": "Présent dans le canonique sous l'identifiant auto-bruno-retailleau-europe-souverainete-ed8d0d14bccb.",
+            "related_proposal_id": "auto-bruno-retailleau-europe-souverainete-ed8d0d14bccb",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-08-17T19:56:51+00:00",
+      "created_at": "2026-08-17T19:56:38+00:00",
+      "document_types": [
+        "official_speech"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-02-12"
+      ],
+      "sha256": "949f2be5d10f67b9e44c0ed31b264264b782c9b2cf565933355216cf9c3c5e5c",
+      "source_title": "Je suis candidat à l'élection présidentielle. - Les Républicains",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-17T19:56:45+00:00",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
     "1154604b27bd1cb057410412": {
       "canonical_confirmations": [],
@@ -5239,6 +5360,65 @@
       "updated_at": "2026-08-12T22:06:40+00:00",
       "url": "https://melenchon2027.fr/programme2025/livre/chapitre10/"
     },
+    "9c2f01b4f3fce9727d07d42d": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Les violences policières ne sont pas une fatalité",
+            "relevance": "party_platform",
+            "statement": "Les violences policières ne sont pas une fatalité.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "L'acteur Les Écologistes est explicitement lié à la déclaration sur les violences policières dans la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Les violences policières ne sont pas une fatalité",
+            "relevance": "party_platform",
+            "statement": "Les violences policières ne sont pas une fatalité.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "L'acteur Les Écologistes est explicitement lié à la déclaration sur les violences policières dans la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "completed_at": "2026-08-17T19:57:13+00:00",
+      "created_at": "2026-08-17T19:57:08+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "70f4067a6065eac0a7333ff92930a9dd745af48f579bb105da97b3a843a89c97",
+      "source_title": "Les violences policières ne sont pas une fatalité et la légitime défense ne peut pas devenir un permis de tuer. 📍Rendez-vous le jeudi 20 août à 12h30 à Grenoble : lc.cx/grenoble",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-17T19:57:13+00:00",
+      "url": "https://bsky.app/profile/lesecologistes.fr/post/3mtciamjwfk2f"
+    },
     "9d5fe075ac94d7e3b92bca49": {
       "canonical_confirmations": [],
       "claims": [],
@@ -6609,6 +6789,78 @@
             "relation": "NEW",
             "verdict": "CONFIRMED"
           }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Interdire l’ensemble des polluants éternels (PFAS) et des perturbateurs endocriniens",
+            "relevance": "direct",
+            "statement": "Interdire l’ensemble des polluants éternels (PFAS) et des perturbateurs endocriniens.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La source soutient explicitement l'interdiction des polluants éternels (PFAS) et perturbateurs endocriniens par Les Écologistes, et aucun équivalent n'est présent dans le canon actuel.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "prise en charge à 100 % par l’Assurance maladie",
+            "relevance": "direct",
+            "statement": "Garantir un remboursement total des soins essentiels par la prise en charge à 100 % par l’Assurance maladie.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La source soutient explicitement la prise en charge à 100 % par l'Assurance maladie pour les soins essentiels par Les Écologistes, ce qui ne fait pas double emploi avec les centres de santé ou les classes du canon.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Créer 2 000 nouveaux centres de santé d’ici 2030",
+            "relevance": "direct",
+            "statement": "Créer 2 000 nouveaux centres de santé d'ici 2030 dans les zones rurales et quartiers prioritaires.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La proposition de créer 2 000 centres de santé d'ici 2030 est explicitement présente dans la source et correspond exactement au contenu canonique existant.",
+            "related_proposal_id": "prop-les-ecologistes-2000-centres-sante-2030",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Abroger l’âge légal de départ à la retraite à 64 ans",
+            "relevance": "direct",
+            "statement": "Abroger l'âge légal de départ à la retraite à 64 ans pour revenir à 62 ans puis viser 60 ans.",
+            "topic": "retraites"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La proposition d'abroger l'âge légal de départ à la retraite à 64 ans est explicitement présente dans la source et ne figure pas sous cette forme exacte dans le canon actuel.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
         }
       ],
       "claims": [
@@ -7565,10 +7817,66 @@
             "relation": "NEW",
             "verdict": "CONFIRMED"
           }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Interdire l’ensemble des polluants éternels (PFAS) et des perturbateurs endocriniens",
+            "relevance": "direct",
+            "statement": "Interdire l’ensemble des polluants éternels (PFAS) et des perturbateurs endocriniens.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La source soutient explicitement l'interdiction des polluants éternels (PFAS) et perturbateurs endocriniens par Les Écologistes, et aucun équivalent n'est présent dans le canon actuel.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "prise en charge à 100 % par l’Assurance maladie",
+            "relevance": "direct",
+            "statement": "Garantir un remboursement total des soins essentiels par la prise en charge à 100 % par l’Assurance maladie.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La source soutient explicitement la prise en charge à 100 % par l'Assurance maladie pour les soins essentiels par Les Écologistes, ce qui ne fait pas double emploi avec les centres de santé ou les classes du canon.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Abroger l’âge légal de départ à la retraite à 64 ans",
+            "relevance": "direct",
+            "statement": "Abroger l'âge légal de départ à la retraite à 64 ans pour revenir à 62 ans puis viser 60 ans.",
+            "topic": "retraites"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La proposition d'abroger l'âge légal de départ à la retraite à 64 ans est explicitement présente dans la source et ne figure pas sous cette forme exacte dans le canon actuel.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
         }
       ],
       "created_at": "2026-08-16T07:55:02+00:00",
       "document_types": [
+        "party_programme",
+        "party_programme",
         "party_programme",
         "party_programme",
         "party_programme",
@@ -7594,7 +7902,9 @@
         8,
         9,
         10,
-        11
+        11,
+        12,
+        13
       ],
       "published_candidates": [],
       "sha256": "7db9ac7712c4e7183c4252d21050d032c0e4304136c1e3cd1c29164a6d411928",
@@ -7602,7 +7912,7 @@
       "statuses": [],
       "text_truncated": false,
       "total": 24,
-      "updated_at": "2026-08-17T14:05:48+00:00",
+      "updated_at": "2026-08-17T19:56:36+00:00",
       "url": "https://lesecologistes.fr/document/5ZhR2m5t2ZaGKqIdD1bJaD/vdef-programme-1.pdf"
     },
     "ab4867cad17b15c99f0f6b81": {
@@ -10180,6 +10490,15 @@
       "status": "historical_skipped",
       "url": "https://parti-equinoxe.fr/programme-europeennes-2024-mesure-phare-10-legislation/"
     },
+    "2303240b99f6": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-17T19:56:51+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "949f2be5d10f67b9e44c0ed31b264264b782c9b2cf565933355216cf9c3c5e5c",
+      "status": "promoted",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
     "27000418eea5": {
       "chunks_done": null,
       "chunks_total": 1,
@@ -10306,6 +10625,15 @@
       "status": "promoted",
       "url": "https://www.unenouvelleenergie.fr/notre-programme/agriculture/"
     },
+    "3b3dcd313af2": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-17T19:57:07+00:00",
+      "reason": null,
+      "source_sha256": "146ce1a84d8fd923f94ce3266355fa33a5e2c9cf88da4d9277385d32d61d879c",
+      "status": "not_confirmed",
+      "url": "https://bc2027.fr/"
+    },
     "3bd7ecdd978d": {
       "chunks_done": null,
       "chunks_total": null,
@@ -10404,9 +10732,9 @@
       "url": "https://solutiondemocratique.fr/sarah-knafo-2027-programme-presidentiel/"
     },
     "6131f9d79b77": {
-      "chunks_done": 12,
+      "chunks_done": 14,
       "chunks_total": 24,
-      "processed_at": "2026-08-17T14:05:48+00:00",
+      "processed_at": "2026-08-17T19:56:36+00:00",
       "reason": null,
       "source_sha256": "7db9ac7712c4e7183c4252d21050d032c0e4304136c1e3cd1c29164a6d411928",
       "status": "partial",

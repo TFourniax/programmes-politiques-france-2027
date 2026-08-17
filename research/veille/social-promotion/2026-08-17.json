@@ -1,11 +1,24 @@
 {
   "errors": [],
-  "generated_at": "2026-08-17T14:05:53+00:00",
+  "generated_at": "2026-08-17T19:57:16+00:00",
   "partial": 0,
-  "processed": 0,
-  "promoted": 0,
-  "proposals_created": 0,
+  "processed": 1,
+  "promoted": 1,
+  "proposals_created": 1,
   "provenance_updates": 0,
-  "results": [],
+  "results": [
+    {
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/partys/les-ecologistes/2026-08-17-9c2f01b4f3fc.md",
+      "proposals": [
+        "proposals/auto/securite-justice/auto-les-ecologistes-securite-justice-0d29bfb3d832.md"
+      ],
+      "sha256": "70f4067a6065eac0a7333ff92930a9dd745af48f579bb105da97b3a843a89c97",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://bsky.app/profile/lesecologistes.fr/post/3mtciamjwfk2f",
+      "verified_at": "2026-08-17T19:57:13+00:00"
+    }
+  ],
   "status_updates": 0
 }
