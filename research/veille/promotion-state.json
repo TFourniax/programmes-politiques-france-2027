@@ -861,9 +861,9 @@
       "verified_at": "2026-08-13T08:51:16+00:00"
     }
   },
-  "last_error_count": 1,
-  "last_processed_count": 2,
-  "last_run_at": "2026-08-17T02:43:54+00:00",
+  "last_error_count": 0,
+  "last_processed_count": 3,
+  "last_run_at": "2026-08-17T08:12:12+00:00",
   "source_chunks": {
     "020221717496955b329ee982": {
       "canonical_confirmations": [],
@@ -5000,6 +5000,26 @@
       "updated_at": "2026-08-15T13:55:10+00:00",
       "url": "https://solutiondemocratique.fr/programme-lfi-2027/"
     },
+    "967ffb543e9150cca464964d": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-08-17T08:12:01+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "7d5b0f3226db57eeaa20ba1127a6be8087e2c126f39443fcf276efb4465532c9",
+      "source_title": "Parrainages d'élu·es pour l'élection présidentielle 2027 - La France insoumise",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-17T08:12:03+00:00",
+      "url": "https://lafranceinsoumise.fr/2026/06/22/parrainages-elus-pour-election-presidentielle-2027/"
+    },
     "99d11e3c29023ef7697a8185": {
       "canonical_confirmations": [],
       "claims": [],
@@ -6251,6 +6271,132 @@
             "relation": "NEW",
             "verdict": "CONFIRMED"
           }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Contraindre les acteurs financiers et bancaires à respecter les Accords de Paris.",
+            "relevance": "party_platform",
+            "statement": "Contraindre les acteurs financiers à respecter les Accords de Paris et réduire la part des actifs fossiles.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Explicitement soutenu par la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Séparer les banques de dépôt et les activités spéculatives des banques cotées",
+            "relevance": "party_platform",
+            "statement": "Réformer le secteur bancaire en séparant les banques de dépôt et les activités spéculatives.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "Explicitement soutenu par la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Réglementer l’écoconception pour allonger la durée des objets",
+            "relevance": "party_platform",
+            "statement": "Réglementer l'écoconception pour allonger la durée de vie des objets du quotidien.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "Explicitement soutenu par la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Créer un fonds souverain assis sur un « livret industrie »",
+            "relevance": "party_platform",
+            "statement": "Créer un fonds souverain assis sur un livret industrie pour financer les entreprises françaises.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 3,
+            "reason": "Explicitement soutenu par la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "En cas de nécessité, passer sous gestion publique exceptionnelle.",
+            "relevance": "direct",
+            "statement": "Passer sous gestion publique exceptionnelle les entreprises industrielles stratégiques d'intérêt national en cas de nécessité.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La source soutient explicitement que Les Écologistes proposent de passer sous gestion publique exceptionnelle les entreprises industrielles stratégiques en cas de nécessité.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "interdire l’usage des écrans à l’école avant six ans.",
+            "relevance": "direct",
+            "statement": "Interdire l'usage des écrans à l'école avant six ans.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La source soutient explicitement que Les Écologistes proposent d'interdire l'usage des écrans à l'école avant six ans.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Garantir un accès effectif à des guichets physiques des administrations",
+            "relevance": "direct",
+            "statement": "Garantir un accès effectif à des guichets physiques des administrations sans condition de nationalité.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "La source soutient explicitement que Les Écologistes veulent garantir un accès effectif à des guichets physiques des administrations sans condition de nationalité.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
         }
       ],
       "claims": [
@@ -6901,10 +7047,138 @@
             "relation": "NEW",
             "verdict": "CONFIRMED"
           }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Contraindre les acteurs financiers et bancaires à respecter les Accords de Paris.",
+            "relevance": "party_platform",
+            "statement": "Contraindre les acteurs financiers à respecter les Accords de Paris et réduire la part des actifs fossiles.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Explicitement soutenu par la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Séparer les banques de dépôt et les activités spéculatives des banques cotées",
+            "relevance": "party_platform",
+            "statement": "Réformer le secteur bancaire en séparant les banques de dépôt et les activités spéculatives.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "Explicitement soutenu par la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Réglementer l’écoconception pour allonger la durée des objets",
+            "relevance": "party_platform",
+            "statement": "Réglementer l'écoconception pour allonger la durée de vie des objets du quotidien.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "Explicitement soutenu par la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Créer un fonds souverain assis sur un « livret industrie »",
+            "relevance": "party_platform",
+            "statement": "Créer un fonds souverain assis sur un livret industrie pour financer les entreprises françaises.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 3,
+            "reason": "Explicitement soutenu par la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "En cas de nécessité, passer sous gestion publique exceptionnelle.",
+            "relevance": "direct",
+            "statement": "Passer sous gestion publique exceptionnelle les entreprises industrielles stratégiques d'intérêt national en cas de nécessité.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La source soutient explicitement que Les Écologistes proposent de passer sous gestion publique exceptionnelle les entreprises industrielles stratégiques en cas de nécessité.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "interdire l’usage des écrans à l’école avant six ans.",
+            "relevance": "direct",
+            "statement": "Interdire l'usage des écrans à l'école avant six ans.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La source soutient explicitement que Les Écologistes proposent d'interdire l'usage des écrans à l'école avant six ans.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Garantir un accès effectif à des guichets physiques des administrations",
+            "relevance": "direct",
+            "statement": "Garantir un accès effectif à des guichets physiques des administrations sans condition de nationalité.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "La source soutient explicitement que Les Écologistes veulent garantir un accès effectif à des guichets physiques des administrations sans condition de nationalité.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
         }
       ],
       "created_at": "2026-08-16T07:55:02+00:00",
       "document_types": [
+        "party_programme",
+        "party_programme",
         "party_programme",
         "party_programme",
         "party_programme",
@@ -6922,7 +7196,9 @@
         4,
         5,
         6,
-        7
+        7,
+        8,
+        9
       ],
       "published_candidates": [],
       "sha256": "7db9ac7712c4e7183c4252d21050d032c0e4304136c1e3cd1c29164a6d411928",
@@ -6930,8 +7206,78 @@
       "statuses": [],
       "text_truncated": false,
       "total": 24,
-      "updated_at": "2026-08-17T02:43:40+00:00",
+      "updated_at": "2026-08-17T08:12:00+00:00",
       "url": "https://lesecologistes.fr/document/5ZhR2m5t2ZaGKqIdD1bJaD/vdef-programme-1.pdf"
+    },
+    "ab4867cad17b15c99f0f6b81": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "réduire drastiquement l’immigration",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau souhaite réduire drastiquement l'immigration par référendum.",
+            "topic": "immigration-integration"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Présent explicitement dans le canonique avec le même sens et la même portée.",
+            "related_proposal_id": "auto-bruno-retailleau-immigration-integration-39955feaadc3",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "engager une véritable révolution de notre justice pénale",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau veut engager une révolution de la justice pénale par référendum.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "Également présent et explicitement soutenu dans le canonique.",
+            "related_proposal_id": "auto-bruno-retailleau-securite-justice-7b2b02ba25a3",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-08-17T08:12:12+00:00",
+      "created_at": "2026-08-17T08:12:05+00:00",
+      "document_types": [
+        "official_speech"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-02-12"
+      ],
+      "sha256": "d5e187c9b52f2d591bef3716bb7f614fb23c50ab2c751404ddb135dec55e7cfa",
+      "source_title": "Je suis candidat à l'élection présidentielle. - Les Républicains",
+      "statuses": [
+        {
+          "status": {
+            "candidate_id": "bruno-retailleau",
+            "effective_date": "2026-02-12",
+            "evidence_quote": "Je suis candidat à l’élection présidentielle.",
+            "explicit": true,
+            "new_status": "declared_presidential"
+          }
+        }
+      ],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-17T08:12:09+00:00",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
     "abd06abf04a13a6ea519c0b4": {
       "canonical_confirmations": [
@@ -9359,6 +9705,15 @@
       "status": "promoted",
       "url": "https://solutiondemocratique.fr/nathalie-arthaud-presidentielle-2027-programme/"
     },
+    "0452e2c81d91": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-17T08:12:03+00:00",
+      "reason": null,
+      "source_sha256": "7d5b0f3226db57eeaa20ba1127a6be8087e2c126f39443fcf276efb4465532c9",
+      "status": "not_confirmed",
+      "url": "https://lafranceinsoumise.fr/2026/06/22/parrainages-elus-pour-election-presidentielle-2027/"
+    },
     "05d351c29703": {
       "chunks_done": null,
       "chunks_total": null,
@@ -9653,13 +10008,22 @@
       "url": "https://solutiondemocratique.fr/sarah-knafo-2027-programme-presidentiel/"
     },
     "6131f9d79b77": {
-      "chunks_done": 8,
+      "chunks_done": 10,
       "chunks_total": 24,
-      "processed_at": "2026-08-17T02:43:40+00:00",
+      "processed_at": "2026-08-17T08:12:00+00:00",
       "reason": null,
       "source_sha256": "7db9ac7712c4e7183c4252d21050d032c0e4304136c1e3cd1c29164a6d411928",
       "status": "partial",
       "url": "https://lesecologistes.fr/document/5ZhR2m5t2ZaGKqIdD1bJaD/vdef-programme-1.pdf"
+    },
+    "616809004de8": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-17T08:12:12+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "d5e187c9b52f2d591bef3716bb7f614fb23c50ab2c751404ddb135dec55e7cfa",
+      "status": "promoted",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
     "66d64cc37b5a": {
       "processed_at": "2026-08-11T08:56:04+00:00",
