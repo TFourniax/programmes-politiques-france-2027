@@ -8,17 +8,16 @@ Ce rapport est dérivé automatiquement du corpus courant. Il sert à piloter la
 
 - 68 acteurs référencés ;
 - 27 candidatures actives ou déclarées suivies ;
-- 1123 propositions atomiques courantes ;
-- 109 / 816 cases acteur × thème couvertes (13.4 %) ;
-- 41 / 324 cases candidat actif × thème couvertes (12.7 %) ;
-- 1080 propositions marquées vérifiées ; 3 appuyées par au moins deux documents de preuve.
+- 1134 propositions atomiques courantes ;
+- 115 / 816 cases acteur × thème couvertes (14.1 %) ;
+- 46 / 324 cases candidat actif × thème couvertes (14.2 %) ;
+- 1093 propositions marquées vérifiées ; 14 appuyées par au moins deux documents de preuve.
 
 ## Priorités documentaires
 
 - **Antoine Mikolajczak** — 0 % des thèmes ; 0 proposition(s) ; lacunes prioritaires : pouvoir-achat-travail, retraites, fiscalite-redistribution, immigration-integration, europe-souverainete, defense-international…
 - **Benoît Mathieu** — 0 % des thèmes ; 0 proposition(s) ; lacunes prioritaires : pouvoir-achat-travail, retraites, fiscalite-redistribution, immigration-integration, europe-souverainete, defense-international…
 - **Bernard Cazeneuve** — 0 % des thèmes ; 0 proposition(s) ; lacunes prioritaires : pouvoir-achat-travail, retraites, fiscalite-redistribution, immigration-integration, europe-souverainete, defense-international…
-- **Clara Egger** — 0 % des thèmes ; 0 proposition(s) ; lacunes prioritaires : pouvoir-achat-travail, retraites, fiscalite-redistribution, immigration-integration, europe-souverainete, defense-international…
 - **Delphine Batho** — 0 % des thèmes ; 0 proposition(s) ; lacunes prioritaires : pouvoir-achat-travail, retraites, fiscalite-redistribution, immigration-integration, europe-souverainete, defense-international…
 - **Florian Philippot** — 0 % des thèmes ; 0 proposition(s) ; lacunes prioritaires : pouvoir-achat-travail, retraites, fiscalite-redistribution, immigration-integration, europe-souverainete, defense-international…
 - **François Asselineau** — 0 % des thèmes ; 0 proposition(s) ; lacunes prioritaires : pouvoir-achat-travail, retraites, fiscalite-redistribution, immigration-integration, europe-souverainete, defense-international…
@@ -30,20 +29,21 @@ Ce rapport est dérivé automatiquement du corpus courant. Il sert à piloter la
 - **Marine Tondelier** — 0 % des thèmes ; 0 proposition(s) ; lacunes prioritaires : pouvoir-achat-travail, retraites, fiscalite-redistribution, immigration-integration, europe-souverainete, defense-international…
 - **Nathalie Arthaud** — 0 % des thèmes ; 0 proposition(s) ; lacunes prioritaires : pouvoir-achat-travail, retraites, fiscalite-redistribution, immigration-integration, europe-souverainete, defense-international…
 - **Philippe Brun** — 0 % des thèmes ; 0 proposition(s) ; lacunes prioritaires : pouvoir-achat-travail, retraites, fiscalite-redistribution, immigration-integration, europe-souverainete, defense-international…
+- **Selma Labib** — 0 % des thèmes ; 0 proposition(s) ; lacunes prioritaires : pouvoir-achat-travail, retraites, fiscalite-redistribution, immigration-integration, europe-souverainete, defense-international…
 
 ## Couverture par thème
 
 - **Numérique & IA** (`numerique-ia`) — 5 acteur(s), 6 proposition(s), dernière preuve 2026-08-14.
 - **Défense & international** (`defense-international`) — 6 acteur(s), 7 proposition(s), dernière preuve 2026-08-14.
-- **Europe & souveraineté** (`europe-souverainete`) — 8 acteur(s), 98 proposition(s), dernière preuve 2026-08-14.
-- **Sécurité & justice** (`securite-justice`) — 8 acteur(s), 120 proposition(s), dernière preuve 2026-08-13.
-- **Économie & finances publiques** (`economie-finances`) — 9 acteur(s), 104 proposition(s), dernière preuve 2026-08-13.
+- **Europe & souveraineté** (`europe-souverainete`) — 8 acteur(s), 98 proposition(s), dernière preuve 2026-08-17.
+- **Économie & finances publiques** (`economie-finances`) — 9 acteur(s), 104 proposition(s), dernière preuve 2026-08-17.
 - **Immigration & intégration** (`immigration-integration`) — 9 acteur(s), 59 proposition(s), dernière preuve 2026-08-13.
-- **Services publics** (`services-publics`) — 9 acteur(s), 199 proposition(s), dernière preuve 2026-08-13.
+- **Sécurité & justice** (`securite-justice`) — 9 acteur(s), 121 proposition(s), dernière preuve 2026-08-17.
 - **Fiscalité & redistribution** (`fiscalite-redistribution`) — 10 acteur(s), 70 proposition(s), dernière preuve 2026-08-14.
-- **Institutions & démocratie** (`institutions-democratie`) — 10 acteur(s), 234 proposition(s), dernière preuve 2026-08-13.
-- **Retraites** (`retraites`) — 11 acteur(s), 18 proposition(s), dernière preuve 2026-08-14.
-- **Écologie & énergie** (`ecologie-energie`) — 12 acteur(s), 158 proposition(s), dernière preuve 2026-08-13.
-- **Pouvoir d’achat & travail** (`pouvoir-achat-travail`) — 12 acteur(s), 50 proposition(s), dernière preuve 2026-08-14.
+- **Services publics** (`services-publics`) — 10 acteur(s), 200 proposition(s), dernière preuve 2026-08-17.
+- **Retraites** (`retraites`) — 11 acteur(s), 18 proposition(s), dernière preuve 2026-08-16.
+- **Institutions & démocratie** (`institutions-democratie`) — 12 acteur(s), 241 proposition(s), dernière preuve 2026-08-16.
+- **Écologie & énergie** (`ecologie-energie`) — 13 acteur(s), 159 proposition(s), dernière preuve 2026-08-17.
+- **Pouvoir d’achat & travail** (`pouvoir-achat-travail`) — 13 acteur(s), 51 proposition(s), dernière preuve 2026-08-17.
 
 > Ce rapport est un indicateur de couverture structurée, de fraîcheur et de profondeur de preuve, pas un score de qualité politique ni d'exhaustivité absolue.

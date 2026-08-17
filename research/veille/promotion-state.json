@@ -861,9 +861,9 @@
       "verified_at": "2026-08-13T08:51:16+00:00"
     }
   },
-  "last_error_count": 0,
-  "last_processed_count": 3,
-  "last_run_at": "2026-08-17T08:12:12+00:00",
+  "last_error_count": 1,
+  "last_processed_count": 2,
+  "last_run_at": "2026-08-17T14:05:52+00:00",
   "source_chunks": {
     "020221717496955b329ee982": {
       "canonical_confirmations": [],
@@ -3805,6 +3805,38 @@
       "total": 1,
       "url": "https://bsky.app/profile/marinetondelier.fr/post/3msy3ilfs3q25"
     },
+    "5fe4fc68e708ddda4bc48c86": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-08-17T14:05:48+00:00",
+      "document_types": [
+        "official_press_release"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [
+        "2026-06-17"
+      ],
+      "sha256": "d3a2d4879c7df6fdd0a35524a535f39001a7f8484d6d243e97ab58f38e6434f6",
+      "source_title": "Communiqué - Présidentielle 2027 : Selma Labib, une candidature ouvrière et révolutionnaire, soutenue par Gaël Quirante - NPA Révolutionnaires",
+      "statuses": [
+        {
+          "status": {
+            "candidate_id": "selma-labib",
+            "effective_date": "2026-06-07",
+            "evidence_quote": "a décidé de présenter à l’élection présidentielle du printemps 2027 Selma Labib",
+            "explicit": true,
+            "new_status": "declared_presidential"
+          }
+        }
+      ],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-17T14:05:51+00:00",
+      "url": "https://npa-revolutionnaires.org/communique-presidentielle-2027-selma-labib-une-candidature-ouvriere-et-revolutionnaire-soutenue-par-gael-quirante/"
+    },
     "6010e3951347a927b90079b8": {
       "canonical_confirmations": [
         {
@@ -6397,6 +6429,186 @@
             "relation": "NEW",
             "verdict": "CONFIRMED"
           }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Arrêter le New Public Management",
+            "relevance": "direct",
+            "statement": "Arrêter le New Public Management et améliorer les pratiques managériales dans le secteur public.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Explicitement soutenu par la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "augmentant les salaires des enseignant·es de 15 % en 5 ans.",
+            "relevance": "direct",
+            "statement": "Augmenter les salaires des enseignants de 15 % en 5 ans.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "Explicitement soutenu par la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "remplaçant ParcourSup et MonMaster par une vraie plateforme d’orientation",
+            "relevance": "direct",
+            "statement": "Remplacer ParcourSup et MonMaster par une plateforme d'orientation neutre.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "Explicitement soutenu par la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "En 2032, la France devra atteindre 3 % d’une Recherche",
+            "relevance": "party_platform",
+            "statement": "La France devra atteindre 3 % de son PIB consacré à la recherche et développement d'ici 2032.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Explicitement soutenu par le texte source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "+10 % dès la première année",
+            "relevance": "party_platform",
+            "statement": "Augmenter de 10 % dès la première année les salaires des personnels de recherche publique.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "Explicitement soutenu par le texte source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Créer un statut du jeune chercheur",
+            "relevance": "party_platform",
+            "statement": "Créer un statut du jeune chercheur pour lutter contre la précarité.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "Explicitement soutenu par le texte source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Créer dix nouveaux instituts sur les filières stratégiques",
+            "relevance": "party_platform",
+            "statement": "Créer dix nouveaux instituts Carnot dédiés aux filières stratégiques.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 3,
+            "reason": "Explicitement soutenu par le texte source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Doubler le financement de la recherche scientifique et technique",
+            "relevance": "party_platform",
+            "statement": "Doubler le financement de la recherche scientifique et technique à travers le programme Horizon Europe.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 4,
+            "reason": "Explicitement soutenu par le texte source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Créer une assurance-chômage pour les artistes-auteurs",
+            "relevance": "party_platform",
+            "statement": "Créer une assurance-chômage pour les artistes-auteurs afin de garantir une continuité de revenus.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 5,
+            "reason": "Explicitement soutenu par le texte source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Interdire le plastique et les emballages à usage unique",
+            "relevance": "party_platform",
+            "statement": "Interdire le plastique et les emballages à usage unique lors des événements sportifs en 2030.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 6,
+            "reason": "Explicitement soutenu par le texte source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
         }
       ],
       "claims": [
@@ -7173,10 +7385,192 @@
             "relation": "NEW",
             "verdict": "CONFIRMED"
           }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Arrêter le New Public Management",
+            "relevance": "direct",
+            "statement": "Arrêter le New Public Management et améliorer les pratiques managériales dans le secteur public.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Explicitement soutenu par la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "augmentant les salaires des enseignant·es de 15 % en 5 ans.",
+            "relevance": "direct",
+            "statement": "Augmenter les salaires des enseignants de 15 % en 5 ans.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "Explicitement soutenu par la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "remplaçant ParcourSup et MonMaster par une vraie plateforme d’orientation",
+            "relevance": "direct",
+            "statement": "Remplacer ParcourSup et MonMaster par une plateforme d'orientation neutre.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "Explicitement soutenu par la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "En 2032, la France devra atteindre 3 % d’une Recherche",
+            "relevance": "party_platform",
+            "statement": "La France devra atteindre 3 % de son PIB consacré à la recherche et développement d'ici 2032.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Explicitement soutenu par le texte source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "+10 % dès la première année",
+            "relevance": "party_platform",
+            "statement": "Augmenter de 10 % dès la première année les salaires des personnels de recherche publique.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "Explicitement soutenu par le texte source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Créer un statut du jeune chercheur",
+            "relevance": "party_platform",
+            "statement": "Créer un statut du jeune chercheur pour lutter contre la précarité.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "Explicitement soutenu par le texte source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Créer dix nouveaux instituts sur les filières stratégiques",
+            "relevance": "party_platform",
+            "statement": "Créer dix nouveaux instituts Carnot dédiés aux filières stratégiques.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 3,
+            "reason": "Explicitement soutenu par le texte source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Doubler le financement de la recherche scientifique et technique",
+            "relevance": "party_platform",
+            "statement": "Doubler le financement de la recherche scientifique et technique à travers le programme Horizon Europe.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 4,
+            "reason": "Explicitement soutenu par le texte source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Créer une assurance-chômage pour les artistes-auteurs",
+            "relevance": "party_platform",
+            "statement": "Créer une assurance-chômage pour les artistes-auteurs afin de garantir une continuité de revenus.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 5,
+            "reason": "Explicitement soutenu par le texte source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Interdire le plastique et les emballages à usage unique",
+            "relevance": "party_platform",
+            "statement": "Interdire le plastique et les emballages à usage unique lors des événements sportifs en 2030.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 6,
+            "reason": "Explicitement soutenu par le texte source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
         }
       ],
       "created_at": "2026-08-16T07:55:02+00:00",
       "document_types": [
+        "party_programme",
+        "party_programme",
         "party_programme",
         "party_programme",
         "party_programme",
@@ -7198,7 +7592,9 @@
         6,
         7,
         8,
-        9
+        9,
+        10,
+        11
       ],
       "published_candidates": [],
       "sha256": "7db9ac7712c4e7183c4252d21050d032c0e4304136c1e3cd1c29164a6d411928",
@@ -7206,7 +7602,7 @@
       "statuses": [],
       "text_truncated": false,
       "total": 24,
-      "updated_at": "2026-08-17T08:12:00+00:00",
+      "updated_at": "2026-08-17T14:05:48+00:00",
       "url": "https://lesecologistes.fr/document/5ZhR2m5t2ZaGKqIdD1bJaD/vdef-programme-1.pdf"
     },
     "ab4867cad17b15c99f0f6b81": {
@@ -10008,9 +10404,9 @@
       "url": "https://solutiondemocratique.fr/sarah-knafo-2027-programme-presidentiel/"
     },
     "6131f9d79b77": {
-      "chunks_done": 10,
+      "chunks_done": 12,
       "chunks_total": 24,
-      "processed_at": "2026-08-17T08:12:00+00:00",
+      "processed_at": "2026-08-17T14:05:48+00:00",
       "reason": null,
       "source_sha256": "7db9ac7712c4e7183c4252d21050d032c0e4304136c1e3cd1c29164a6d411928",
       "status": "partial",
@@ -10149,6 +10545,15 @@
       "status": "promoted",
       "url": "https://melenchon2027.fr/programme2025/livre/chapitre3/"
     },
+    "98a09703db17": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-17T14:05:51+00:00",
+      "reason": "chronology_or_scope_guard",
+      "source_sha256": "d3a2d4879c7df6fdd0a35524a535f39001a7f8484d6d243e97ab58f38e6434f6",
+      "status": "not_confirmed",
+      "url": "https://npa-revolutionnaires.org/communique-presidentielle-2027-selma-labib-une-candidature-ouvriere-et-revolutionnaire-soutenue-par-gael-quirante/"
+    },
     "991e6eed6c48": {
       "chunks_done": null,
       "chunks_total": null,
@@ -10272,10 +10677,10 @@
       "url": "https://www.revolutionpermanente.fr/"
     },
     "b8920657eb06": {
-      "attempts": 1,
+      "attempts": 2,
       "error": "ValueError: source text too short",
-      "next_retry_at": "2026-08-17T08:43:53+00:00",
-      "processed_at": "2026-08-17T02:43:53+00:00",
+      "next_retry_at": "2026-08-18T14:05:52+00:00",
+      "processed_at": "2026-08-17T14:05:52+00:00",
       "status": "technical_error",
       "url": "https://www.jerome-guedj.fr/la-clarte-plutot-que-les-slogans-pourquoi-jai-annonce-ma-candidature-pour-2027/"
     },

@@ -6,18 +6,18 @@
     "actors": 68,
     "declared_or_active_candidates": 27,
     "topics": 12,
-    "current_proposals": 1123,
-    "covered_actor_topic_cells": 109,
+    "current_proposals": 1134,
+    "covered_actor_topic_cells": 115,
     "total_actor_topic_cells": 816,
-    "actor_topic_coverage_ratio": 0.1336,
-    "active_candidate_covered_cells": 41,
+    "actor_topic_coverage_ratio": 0.1409,
+    "active_candidate_covered_cells": 46,
     "active_candidate_total_cells": 324,
-    "active_candidate_topic_coverage_ratio": 0.1265,
-    "verified_proposals": 1080,
-    "multi_source_proposals": 3,
-    "latest_evidence_at": "2026-08-14",
+    "active_candidate_topic_coverage_ratio": 0.142,
+    "verified_proposals": 1093,
+    "multi_source_proposals": 14,
+    "latest_evidence_at": "2026-08-17",
     "certainty_counts": {
-      "explicit": 1099,
+      "explicit": 1110,
       "explicit_but_conditional": 3,
       "explicit_but_underspecified": 21
     }
@@ -301,7 +301,7 @@
       ],
       "latest_evidence_at": "2026-08-14",
       "verified_proposals": 10,
-      "multi_source_proposals": 1
+      "multi_source_proposals": 3
     },
     {
       "id": "clara-egger",
@@ -309,9 +309,11 @@
       "type": "candidate",
       "status": "declared_presidential",
       "confidence": "medium",
-      "current_proposals": 0,
-      "covered_topics": [],
-      "coverage_ratio": 0.0,
+      "current_proposals": 1,
+      "covered_topics": [
+        "institutions-democratie"
+      ],
+      "coverage_ratio": 0.0833,
       "gaps": [
         "pouvoir-achat-travail",
         "retraites",
@@ -320,15 +322,14 @@
         "europe-souverainete",
         "defense-international",
         "ecologie-energie",
-        "institutions-democratie",
         "services-publics",
         "securite-justice",
         "economie-finances",
         "numerique-ia"
       ],
-      "latest_evidence_at": null,
-      "verified_proposals": 0,
-      "multi_source_proposals": 0
+      "latest_evidence_at": "2026-08-16",
+      "verified_proposals": 1,
+      "multi_source_proposals": 1
     },
     {
       "id": "clementine-autain",
@@ -878,27 +879,27 @@
       "type": "candidate",
       "status": "declared_primary",
       "confidence": "high",
-      "current_proposals": 3,
+      "current_proposals": 7,
       "covered_topics": [
+        "ecologie-energie",
         "economie-finances",
         "europe-souverainete",
-        "immigration-integration"
-      ],
-      "coverage_ratio": 0.25,
-      "gaps": [
+        "immigration-integration",
         "pouvoir-achat-travail",
+        "securite-justice",
+        "services-publics"
+      ],
+      "coverage_ratio": 0.5833,
+      "gaps": [
         "retraites",
         "fiscalite-redistribution",
         "defense-international",
-        "ecologie-energie",
         "institutions-democratie",
-        "services-publics",
-        "securite-justice",
         "numerique-ia"
       ],
-      "latest_evidence_at": null,
-      "verified_proposals": 0,
-      "multi_source_proposals": 0
+      "latest_evidence_at": "2026-08-17",
+      "verified_proposals": 6,
+      "multi_source_proposals": 2
     },
     {
       "id": "lapres",
@@ -1336,9 +1337,9 @@
         "securite-justice",
         "numerique-ia"
       ],
-      "latest_evidence_at": "2026-08-12",
+      "latest_evidence_at": "2026-08-16",
       "verified_proposals": 5,
-      "multi_source_proposals": 0
+      "multi_source_proposals": 5
     },
     {
       "id": "npa-revolutionnaires",
@@ -1730,9 +1731,11 @@
       "type": "party",
       "status": null,
       "confidence": null,
-      "current_proposals": 0,
-      "covered_topics": [],
-      "coverage_ratio": 0.0,
+      "current_proposals": 6,
+      "covered_topics": [
+        "institutions-democratie"
+      ],
+      "coverage_ratio": 0.0833,
       "gaps": [
         "pouvoir-achat-travail",
         "retraites",
@@ -1741,15 +1744,14 @@
         "europe-souverainete",
         "defense-international",
         "ecologie-energie",
-        "institutions-democratie",
         "services-publics",
         "securite-justice",
         "economie-finances",
         "numerique-ia"
       ],
-      "latest_evidence_at": null,
-      "verified_proposals": 0,
-      "multi_source_proposals": 0
+      "latest_evidence_at": "2026-08-16",
+      "verified_proposals": 6,
+      "multi_source_proposals": 1
     },
     {
       "id": "segolene-royal",
@@ -1946,11 +1948,11 @@
     {
       "id": "pouvoir-achat-travail",
       "label": "Pouvoir d’achat & travail",
-      "current_proposals": 50,
-      "actors_covered": 12,
-      "actor_coverage_ratio": 0.1765,
-      "latest_evidence_at": "2026-08-14",
-      "verified_proposals": 42,
+      "current_proposals": 51,
+      "actors_covered": 13,
+      "actor_coverage_ratio": 0.1912,
+      "latest_evidence_at": "2026-08-17",
+      "verified_proposals": 43,
       "multi_source_proposals": 0
     },
     {
@@ -1959,9 +1961,9 @@
       "current_proposals": 18,
       "actors_covered": 11,
       "actor_coverage_ratio": 0.1618,
-      "latest_evidence_at": "2026-08-14",
+      "latest_evidence_at": "2026-08-16",
       "verified_proposals": 14,
-      "multi_source_proposals": 1
+      "multi_source_proposals": 2
     },
     {
       "id": "fiscalite-redistribution",
@@ -1981,7 +1983,7 @@
       "actor_coverage_ratio": 0.1324,
       "latest_evidence_at": "2026-08-13",
       "verified_proposals": 52,
-      "multi_source_proposals": 0
+      "multi_source_proposals": 1
     },
     {
       "id": "europe-souverainete",
@@ -1989,9 +1991,9 @@
       "current_proposals": 98,
       "actors_covered": 8,
       "actor_coverage_ratio": 0.1176,
-      "latest_evidence_at": "2026-08-14",
-      "verified_proposals": 96,
-      "multi_source_proposals": 0
+      "latest_evidence_at": "2026-08-17",
+      "verified_proposals": 97,
+      "multi_source_proposals": 1
     },
     {
       "id": "defense-international",
@@ -2006,42 +2008,42 @@
     {
       "id": "ecologie-energie",
       "label": "Écologie & énergie",
-      "current_proposals": 158,
-      "actors_covered": 12,
-      "actor_coverage_ratio": 0.1765,
-      "latest_evidence_at": "2026-08-13",
-      "verified_proposals": 152,
+      "current_proposals": 159,
+      "actors_covered": 13,
+      "actor_coverage_ratio": 0.1912,
+      "latest_evidence_at": "2026-08-17",
+      "verified_proposals": 153,
       "multi_source_proposals": 0
     },
     {
       "id": "institutions-democratie",
       "label": "Institutions & démocratie",
-      "current_proposals": 234,
-      "actors_covered": 10,
-      "actor_coverage_ratio": 0.1471,
-      "latest_evidence_at": "2026-08-13",
-      "verified_proposals": 230,
-      "multi_source_proposals": 1
+      "current_proposals": 241,
+      "actors_covered": 12,
+      "actor_coverage_ratio": 0.1765,
+      "latest_evidence_at": "2026-08-16",
+      "verified_proposals": 237,
+      "multi_source_proposals": 4
     },
     {
       "id": "services-publics",
       "label": "Services publics",
-      "current_proposals": 199,
-      "actors_covered": 9,
-      "actor_coverage_ratio": 0.1324,
-      "latest_evidence_at": "2026-08-13",
-      "verified_proposals": 195,
-      "multi_source_proposals": 0
+      "current_proposals": 200,
+      "actors_covered": 10,
+      "actor_coverage_ratio": 0.1471,
+      "latest_evidence_at": "2026-08-17",
+      "verified_proposals": 196,
+      "multi_source_proposals": 2
     },
     {
       "id": "securite-justice",
       "label": "Sécurité & justice",
-      "current_proposals": 120,
-      "actors_covered": 8,
-      "actor_coverage_ratio": 0.1176,
-      "latest_evidence_at": "2026-08-13",
-      "verified_proposals": 117,
-      "multi_source_proposals": 0
+      "current_proposals": 121,
+      "actors_covered": 9,
+      "actor_coverage_ratio": 0.1324,
+      "latest_evidence_at": "2026-08-17",
+      "verified_proposals": 118,
+      "multi_source_proposals": 1
     },
     {
       "id": "economie-finances",
@@ -2049,9 +2051,9 @@
       "current_proposals": 104,
       "actors_covered": 9,
       "actor_coverage_ratio": 0.1324,
-      "latest_evidence_at": "2026-08-13",
-      "verified_proposals": 101,
-      "multi_source_proposals": 0
+      "latest_evidence_at": "2026-08-17",
+      "verified_proposals": 102,
+      "multi_source_proposals": 2
     },
     {
       "id": "numerique-ia",
@@ -2579,7 +2581,7 @@
           "current_proposals": 3,
           "latest_evidence_at": "2026-05-31",
           "verified_proposals": 1,
-          "multi_source_proposals": 0
+          "multi_source_proposals": 1
         },
         {
           "id": "europe-souverainete",
@@ -2633,7 +2635,7 @@
           "current_proposals": 2,
           "latest_evidence_at": "2026-02-12",
           "verified_proposals": 2,
-          "multi_source_proposals": 0
+          "multi_source_proposals": 1
         },
         {
           "id": "economie-finances",
@@ -2659,9 +2661,9 @@
       "id": "clara-egger",
       "name": "Clara Egger",
       "status": "declared_presidential",
-      "coverage_ratio": 0.0,
-      "current_proposals": 0,
-      "latest_evidence_at": null,
+      "coverage_ratio": 0.0833,
+      "current_proposals": 1,
+      "latest_evidence_at": "2026-08-16",
       "topics": [
         {
           "id": "pouvoir-achat-travail",
@@ -2729,11 +2731,11 @@
         {
           "id": "institutions-democratie",
           "label": "Institutions & démocratie",
-          "covered": false,
-          "current_proposals": 0,
-          "latest_evidence_at": null,
-          "verified_proposals": 0,
-          "multi_source_proposals": 0
+          "covered": true,
+          "current_proposals": 1,
+          "latest_evidence_at": "2026-08-16",
+          "verified_proposals": 1,
+          "multi_source_proposals": 1
         },
         {
           "id": "services-publics",
@@ -3839,17 +3841,17 @@
       "id": "karim-bouamrane",
       "name": "Karim Bouamrane",
       "status": "declared_primary",
-      "coverage_ratio": 0.25,
-      "current_proposals": 3,
-      "latest_evidence_at": null,
+      "coverage_ratio": 0.5833,
+      "current_proposals": 7,
+      "latest_evidence_at": "2026-08-17",
       "topics": [
         {
           "id": "pouvoir-achat-travail",
           "label": "Pouvoir d’achat & travail",
-          "covered": false,
-          "current_proposals": 0,
-          "latest_evidence_at": null,
-          "verified_proposals": 0,
+          "covered": true,
+          "current_proposals": 1,
+          "latest_evidence_at": "2026-08-17",
+          "verified_proposals": 1,
           "multi_source_proposals": 0
         },
         {
@@ -3884,9 +3886,9 @@
           "label": "Europe & souveraineté",
           "covered": true,
           "current_proposals": 1,
-          "latest_evidence_at": null,
-          "verified_proposals": 0,
-          "multi_source_proposals": 0
+          "latest_evidence_at": "2026-08-17",
+          "verified_proposals": 1,
+          "multi_source_proposals": 1
         },
         {
           "id": "defense-international",
@@ -3900,10 +3902,10 @@
         {
           "id": "ecologie-energie",
           "label": "Écologie & énergie",
-          "covered": false,
-          "current_proposals": 0,
-          "latest_evidence_at": null,
-          "verified_proposals": 0,
+          "covered": true,
+          "current_proposals": 1,
+          "latest_evidence_at": "2026-08-17",
+          "verified_proposals": 1,
           "multi_source_proposals": 0
         },
         {
@@ -3918,19 +3920,19 @@
         {
           "id": "services-publics",
           "label": "Services publics",
-          "covered": false,
-          "current_proposals": 0,
-          "latest_evidence_at": null,
-          "verified_proposals": 0,
+          "covered": true,
+          "current_proposals": 1,
+          "latest_evidence_at": "2026-08-17",
+          "verified_proposals": 1,
           "multi_source_proposals": 0
         },
         {
           "id": "securite-justice",
           "label": "Sécurité & justice",
-          "covered": false,
-          "current_proposals": 0,
-          "latest_evidence_at": null,
-          "verified_proposals": 0,
+          "covered": true,
+          "current_proposals": 1,
+          "latest_evidence_at": "2026-08-17",
+          "verified_proposals": 1,
           "multi_source_proposals": 0
         },
         {
@@ -3938,9 +3940,9 @@
           "label": "Économie & finances publiques",
           "covered": true,
           "current_proposals": 1,
-          "latest_evidence_at": null,
-          "verified_proposals": 0,
-          "multi_source_proposals": 0
+          "latest_evidence_at": "2026-08-17",
+          "verified_proposals": 1,
+          "multi_source_proposals": 1
         },
         {
           "id": "numerique-ia",
@@ -5320,28 +5322,6 @@
       ]
     },
     {
-      "id": "clara-egger",
-      "name": "Clara Egger",
-      "status": "declared_presidential",
-      "coverage_ratio": 0.0,
-      "current_proposals": 0,
-      "latest_evidence_at": null,
-      "gaps": [
-        "pouvoir-achat-travail",
-        "retraites",
-        "fiscalite-redistribution",
-        "immigration-integration",
-        "europe-souverainete",
-        "defense-international",
-        "ecologie-energie",
-        "institutions-democratie",
-        "services-publics",
-        "securite-justice",
-        "economie-finances",
-        "numerique-ia"
-      ]
-    },
-    {
       "id": "delphine-batho",
       "name": "Delphine Batho",
       "status": "party_designated",
@@ -5672,6 +5652,27 @@
       ]
     },
     {
+      "id": "clara-egger",
+      "name": "Clara Egger",
+      "status": "declared_presidential",
+      "coverage_ratio": 0.0833,
+      "current_proposals": 1,
+      "latest_evidence_at": "2026-08-16",
+      "gaps": [
+        "pouvoir-achat-travail",
+        "retraites",
+        "fiscalite-redistribution",
+        "immigration-integration",
+        "europe-souverainete",
+        "defense-international",
+        "ecologie-energie",
+        "services-publics",
+        "securite-justice",
+        "economie-finances",
+        "numerique-ia"
+      ]
+    },
+    {
       "id": "nicolas-dupont-aignan",
       "name": "Nicolas Dupont-Aignan",
       "status": "declared_presidential",
@@ -5714,25 +5715,6 @@
       ]
     },
     {
-      "id": "karim-bouamrane",
-      "name": "Karim Bouamrane",
-      "status": "declared_primary",
-      "coverage_ratio": 0.25,
-      "current_proposals": 3,
-      "latest_evidence_at": null,
-      "gaps": [
-        "pouvoir-achat-travail",
-        "retraites",
-        "fiscalite-redistribution",
-        "defense-international",
-        "ecologie-energie",
-        "institutions-democratie",
-        "services-publics",
-        "securite-justice",
-        "numerique-ia"
-      ]
-    },
-    {
       "id": "marine-le-pen",
       "name": "Marine Le Pen",
       "status": "declared_presidential",
@@ -5767,6 +5749,21 @@
         "institutions-democratie",
         "securite-justice",
         "economie-finances",
+        "numerique-ia"
+      ]
+    },
+    {
+      "id": "karim-bouamrane",
+      "name": "Karim Bouamrane",
+      "status": "declared_primary",
+      "coverage_ratio": 0.5833,
+      "current_proposals": 7,
+      "latest_evidence_at": "2026-08-17",
+      "gaps": [
+        "retraites",
+        "fiscalite-redistribution",
+        "defense-international",
+        "institutions-democratie",
         "numerique-ia"
       ]
     },
