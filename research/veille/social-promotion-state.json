@@ -1,5 +1,14 @@
 {
   "events": {
+    "4052b204749c59687351": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-18T14:08:46+00:00",
+      "provenance_updates": [],
+      "source_sha256": "d3d61197ab4a1733f9ed5b355734ee16df743744a062a2848039fe847e044aac",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/shorts/qnpgwVn_x2Q"
+    },
     "4a0be43b117729cbfee4": {
       "chunks_done": null,
       "chunks_total": null,
@@ -51,7 +60,7 @@
     }
   },
   "last_error_count": 0,
-  "last_processed_count": 0,
-  "last_run_at": "2026-08-18T08:08:01+00:00",
+  "last_processed_count": 1,
+  "last_run_at": "2026-08-18T14:08:47+00:00",
   "version": 2
 }

@@ -868,7 +868,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-08-18T08:08:00+00:00",
+  "last_run_at": "2026-08-18T14:08:44+00:00",
   "source_chunks": {
     "020221717496955b329ee982": {
       "canonical_confirmations": [],
@@ -4412,6 +4412,26 @@
       "updated_at": "2026-08-11T12:47:31+00:00",
       "url": "https://lafranceinsoumise.fr/2026/08/10/amfis-2026-le-programme-est-en-ligne/"
     },
+    "6f7f2a22f5afd0c9e96c3677": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-08-18T14:08:45+00:00",
+      "document_types": [
+        "other"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "d3d61197ab4a1733f9ed5b355734ee16df743744a062a2848039fe847e044aac",
+      "source_title": "Aidez nous en apportant votre parrainage sur melenchon2027.fr",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-18T14:08:46+00:00",
+      "url": "https://www.youtube.com/shorts/qnpgwVn_x2Q"
+    },
     "716ea700d6fa04e5d8d252d1": {
       "canonical_confirmations": [],
       "claims": [],
@@ -4870,6 +4890,26 @@
       "total": 1,
       "updated_at": "2026-08-13T03:40:17+00:00",
       "url": "https://melenchon2027.fr/programme2025/livre/chapitre5/"
+    },
+    "7cb9813853c318b2651f4196": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-08-18T14:08:16+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "6eb4866289711e016859a45491a100d52585a72600eaa0705b673003b76a6952",
+      "source_title": "Formation - Donner du souffle à notre programme : du catalogue de mesures au récit mobilisateur | Les Écologistes",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-18T14:08:17+00:00",
+      "url": "https://lesecologistes.fr/forms/6P5URUdvFPSAmDwnWlQcCh/formation-donner-du-souffle-a-notre-programme-du-catalogue-de-mesures-au-recit-mobilisateur"
     },
     "7e4a9ad2270720918bf4644e": {
       "canonical_confirmations": [
@@ -7347,6 +7387,240 @@
             "relation": "NEW",
             "verdict": "CONFIRMED"
           }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Convoquer un processus constituant transparent, participatif, pluraliste et indépendant pour abolir la monarchie présidentielle",
+            "relevance": "direct",
+            "statement": "Convoquer un processus constituant pour abolir la monarchie présidentielle et préparer le passage à une Première République écologique et citoyenne.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La proposition est explicitement soutenue par la source (chapitre 48, point 1).",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Inscrire dans la constitution le principe d’habitabilité comprenant le respect de toutes les limites planétaires",
+            "relevance": "direct",
+            "statement": "Inscrire dans la constitution le principe d'habitabilité et le respect de toutes les limites planétaires.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La source détaille explicitement et actualise l'inscription du principe d'habitabilité dans la constitution (chapitre 48, point 2), ce qui remplace la version canonique précédente.",
+            "related_proposal_id": "prop-les-ecologistes-principe-habitabilite-constitution",
+            "relation": "SUPERSEDES",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Rendre indépendant statutairement et fonctionnellement le parquet en alignant les conditions de nomination",
+            "relevance": "direct",
+            "statement": "Rendre indépendant statutairement et fonctionnellement le parquet en alignant les conditions de nomination des magistrats.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "La proposition sur l'indépendance du parquet est explicitement étayée par la source (chapitre 48, point 3).",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Instaurer la proportionnelle intégrale sans prime majoritaire aux élections législatives",
+            "relevance": "direct",
+            "statement": "Instaurer la proportionnelle intégrale sans prime majoritaire aux élections législatives.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 3,
+            "reason": "La proposition d'instaurer la proportionnelle intégrale est explicitement soutenue (chapitre 49, point 1).",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Ouvrir le droit de vote à 16 ans avec une formation civique",
+            "relevance": "direct",
+            "statement": "Ouvrir le droit de vote à 16 ans avec une formation civique et généraliser l'inscription automatique.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 4,
+            "reason": "L'ouverture du droit de vote à 16 ans est explicitement confirmée par la source (chapitre 49, point 4).",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Créer une police nationale de proximité visant à rétablir un lien quotidien et permanent",
+            "relevance": "direct",
+            "statement": "Créer une police nationale de proximité visant à rétablir un lien quotidien et permanent avec la population.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 5,
+            "reason": "La création d'une police nationale de proximité est explicitement soutenue (chapitre 50, point 1).",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Adopter une nouvelle doctrine de maintien de l’ordre. Fonder l’action des forces de sécurité sur le dialogue",
+            "relevance": "direct",
+            "statement": "Adopter une nouvelle doctrine de maintien de l'ordre fondée sur le dialogue, la désescalade et l'interdiction de certains équipements.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 6,
+            "reason": "La doctrine de maintien de l'ordre est explicitement présente dans la source (chapitre 50, point 3).",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Créer 9000 postes de magistrats sur dix ans ainsi que 10 000 postes de greffiers",
+            "relevance": "direct",
+            "statement": "Créer 9000 postes de magistrats sur dix ans ainsi que 10 000 postes de greffiers et 7000 postes attachés de justice.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 7,
+            "reason": "La création de postes de magistrats, greffiers et attachés de justice est explicitement étayée (chapitre 51, point 2).",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Abroger la loi Attal de 2025.",
+            "relevance": "direct",
+            "statement": "Abroger la loi Attal de 2025.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Explicitement soutenu par la source : 'Abroger la loi Attal de 2025.'",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Adopter un moratoire sur la construction de nouvelles places de prison",
+            "relevance": "direct",
+            "statement": "Adopter un moratoire sur la construction de nouvelles places de prison.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "Explicitement soutenu par la source : 'Adopter un moratoire sur la construction de nouvelles places de prison'.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Transformer le titre de Ministre en charge des Cultes en Ministre de la laïcité.",
+            "relevance": "direct",
+            "statement": "Transformer le titre de Ministre en charge des Cultes en Ministre de la laïcité.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "Explicitement soutenu par la source : 'Transformer le titre de Ministre en charge des Cultes en Ministre de la laïcité.'",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Adopter une loi anti-concentration",
+            "relevance": "direct",
+            "statement": "Adopter une loi anti-concentration interdisant de détenir trop de médias.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 3,
+            "reason": "Explicitement soutenu par la source : 'Adopter une loi anti-concentration sur le modèle norvégien'.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "abroger les mesures sécuritaires adoptées sous les deux mandats d’Emmanuel Macron",
+            "relevance": "direct",
+            "statement": "Rompre avec les politiques de fermeture et abroger les mesures sécuritaires d'Emmanuel Macron.",
+            "topic": "immigration-integration"
+          },
+          "verdict": {
+            "index": 4,
+            "reason": "Explicitement soutenu par la source : 'abroger les mesures sécuritaires adoptées sous les deux mandats d’Emmanuel Macron'.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
         }
       ],
       "claims": [
@@ -8681,10 +8955,246 @@
             "relation": "NEW",
             "verdict": "CONFIRMED"
           }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Convoquer un processus constituant transparent, participatif, pluraliste et indépendant pour abolir la monarchie présidentielle",
+            "relevance": "direct",
+            "statement": "Convoquer un processus constituant pour abolir la monarchie présidentielle et préparer le passage à une Première République écologique et citoyenne.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La proposition est explicitement soutenue par la source (chapitre 48, point 1).",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Inscrire dans la constitution le principe d’habitabilité comprenant le respect de toutes les limites planétaires",
+            "relevance": "direct",
+            "statement": "Inscrire dans la constitution le principe d'habitabilité et le respect de toutes les limites planétaires.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La source détaille explicitement et actualise l'inscription du principe d'habitabilité dans la constitution (chapitre 48, point 2), ce qui remplace la version canonique précédente.",
+            "related_proposal_id": "prop-les-ecologistes-principe-habitabilite-constitution",
+            "relation": "SUPERSEDES",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Rendre indépendant statutairement et fonctionnellement le parquet en alignant les conditions de nomination",
+            "relevance": "direct",
+            "statement": "Rendre indépendant statutairement et fonctionnellement le parquet en alignant les conditions de nomination des magistrats.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "La proposition sur l'indépendance du parquet est explicitement étayée par la source (chapitre 48, point 3).",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Instaurer la proportionnelle intégrale sans prime majoritaire aux élections législatives",
+            "relevance": "direct",
+            "statement": "Instaurer la proportionnelle intégrale sans prime majoritaire aux élections législatives.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 3,
+            "reason": "La proposition d'instaurer la proportionnelle intégrale est explicitement soutenue (chapitre 49, point 1).",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Ouvrir le droit de vote à 16 ans avec une formation civique",
+            "relevance": "direct",
+            "statement": "Ouvrir le droit de vote à 16 ans avec une formation civique et généraliser l'inscription automatique.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 4,
+            "reason": "L'ouverture du droit de vote à 16 ans est explicitement confirmée par la source (chapitre 49, point 4).",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Créer une police nationale de proximité visant à rétablir un lien quotidien et permanent",
+            "relevance": "direct",
+            "statement": "Créer une police nationale de proximité visant à rétablir un lien quotidien et permanent avec la population.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 5,
+            "reason": "La création d'une police nationale de proximité est explicitement soutenue (chapitre 50, point 1).",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Adopter une nouvelle doctrine de maintien de l’ordre. Fonder l’action des forces de sécurité sur le dialogue",
+            "relevance": "direct",
+            "statement": "Adopter une nouvelle doctrine de maintien de l'ordre fondée sur le dialogue, la désescalade et l'interdiction de certains équipements.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 6,
+            "reason": "La doctrine de maintien de l'ordre est explicitement présente dans la source (chapitre 50, point 3).",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Créer 9000 postes de magistrats sur dix ans ainsi que 10 000 postes de greffiers",
+            "relevance": "direct",
+            "statement": "Créer 9000 postes de magistrats sur dix ans ainsi que 10 000 postes de greffiers et 7000 postes attachés de justice.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 7,
+            "reason": "La création de postes de magistrats, greffiers et attachés de justice est explicitement étayée (chapitre 51, point 2).",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Abroger la loi Attal de 2025.",
+            "relevance": "direct",
+            "statement": "Abroger la loi Attal de 2025.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Explicitement soutenu par la source : 'Abroger la loi Attal de 2025.'",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Adopter un moratoire sur la construction de nouvelles places de prison",
+            "relevance": "direct",
+            "statement": "Adopter un moratoire sur la construction de nouvelles places de prison.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "Explicitement soutenu par la source : 'Adopter un moratoire sur la construction de nouvelles places de prison'.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Transformer le titre de Ministre en charge des Cultes en Ministre de la laïcité.",
+            "relevance": "direct",
+            "statement": "Transformer le titre de Ministre en charge des Cultes en Ministre de la laïcité.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "Explicitement soutenu par la source : 'Transformer le titre de Ministre en charge des Cultes en Ministre de la laïcité.'",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Adopter une loi anti-concentration",
+            "relevance": "direct",
+            "statement": "Adopter une loi anti-concentration interdisant de détenir trop de médias.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 3,
+            "reason": "Explicitement soutenu par la source : 'Adopter une loi anti-concentration sur le modèle norvégien'.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "abroger les mesures sécuritaires adoptées sous les deux mandats d’Emmanuel Macron",
+            "relevance": "direct",
+            "statement": "Rompre avec les politiques de fermeture et abroger les mesures sécuritaires d'Emmanuel Macron.",
+            "topic": "immigration-integration"
+          },
+          "verdict": {
+            "index": 4,
+            "reason": "Explicitement soutenu par la source : 'abroger les mesures sécuritaires adoptées sous les deux mandats d’Emmanuel Macron'.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
         }
       ],
       "created_at": "2026-08-16T07:55:02+00:00",
       "document_types": [
+        "party_programme",
+        "party_programme",
         "party_programme",
         "party_programme",
         "party_programme",
@@ -8722,7 +9232,9 @@
         14,
         15,
         16,
-        17
+        17,
+        18,
+        19
       ],
       "published_candidates": [],
       "sha256": "7db9ac7712c4e7183c4252d21050d032c0e4304136c1e3cd1c29164a6d411928",
@@ -8730,7 +9242,7 @@
       "statuses": [],
       "text_truncated": false,
       "total": 24,
-      "updated_at": "2026-08-18T08:07:34+00:00",
+      "updated_at": "2026-08-18T14:08:36+00:00",
       "url": "https://lesecologistes.fr/document/5ZhR2m5t2ZaGKqIdD1bJaD/vdef-programme-1.pdf"
     },
     "ab4867cad17b15c99f0f6b81": {
@@ -8949,6 +9461,38 @@
       "total": 1,
       "updated_at": "2026-08-15T19:48:09+00:00",
       "url": "https://anasse2027.fr/programme"
+    },
+    "bfbc9f86911271e2a085b789": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-08-18T14:08:40+00:00",
+      "document_types": [
+        "official_press_release"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [
+        "2026-06-17"
+      ],
+      "sha256": "8c473e043cff66169afe8505b143f029d95292fa4c9ea6d83405f491ccc39ca1",
+      "source_title": "Communiqué - Présidentielle 2027 : Selma Labib, une candidature ouvrière et révolutionnaire, soutenue par Gaël Quirante - NPA Révolutionnaires",
+      "statuses": [
+        {
+          "status": {
+            "candidate_id": "selma-labib",
+            "effective_date": "2026-06-07",
+            "evidence_quote": "a décidé de présenter à l’élection présidentielle du printemps 2027 Selma Labib",
+            "explicit": true,
+            "new_status": "declared_presidential"
+          }
+        }
+      ],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-18T14:08:44+00:00",
+      "url": "https://npa-revolutionnaires.org/communique-presidentielle-2027-selma-labib-une-candidature-ouvriere-et-revolutionnaire-soutenue-par-gael-quirante/"
     },
     "c6af810e101bd901f4bb31a6": {
       "canonical_confirmations": [
@@ -11658,6 +12202,15 @@
       "status": "promoted",
       "url": "https://solutiondemocratique.fr/eric-zemmour-programme-presidentielle2027/"
     },
+    "5e59036859e4": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-18T14:08:44+00:00",
+      "reason": "chronology_or_scope_guard",
+      "source_sha256": "8c473e043cff66169afe8505b143f029d95292fa4c9ea6d83405f491ccc39ca1",
+      "status": "not_confirmed",
+      "url": "https://npa-revolutionnaires.org/communique-presidentielle-2027-selma-labib-une-candidature-ouvriere-et-revolutionnaire-soutenue-par-gael-quirante/"
+    },
     "60ca0c717266": {
       "chunks_done": null,
       "chunks_total": 1,
@@ -11677,9 +12230,9 @@
       "url": "https://solutiondemocratique.fr/sarah-knafo-2027-programme-presidentiel/"
     },
     "6131f9d79b77": {
-      "chunks_done": 18,
+      "chunks_done": 20,
       "chunks_total": 24,
-      "processed_at": "2026-08-18T08:07:34+00:00",
+      "processed_at": "2026-08-18T14:08:36+00:00",
       "reason": null,
       "source_sha256": "7db9ac7712c4e7183c4252d21050d032c0e4304136c1e3cd1c29164a6d411928",
       "status": "partial",
@@ -11799,6 +12352,15 @@
       "source_sha256": "290ce7bb74d2725b012f5ad5634bf9b3b4af804b0aa765e839e09c2148e6df4b",
       "status": "promoted",
       "url": "https://melenchon2027.fr/programme2025/livre/chapitre8/"
+    },
+    "88d74021b497": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-18T14:08:17+00:00",
+      "reason": null,
+      "source_sha256": "6eb4866289711e016859a45491a100d52585a72600eaa0705b673003b76a6952",
+      "status": "not_confirmed",
+      "url": "http://lesecologistes.fr/forms/6P5URUdvFPSAmDwnWlQcCh/formation-donner-du-souffle-a-notre-programme-du-catalogue-de-mesures-au-recit-mobilisateur"
     },
     "88dc66660f45": {
       "chunks_done": null,
