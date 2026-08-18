@@ -868,7 +868,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-08-18T02:40:10+00:00",
+  "last_run_at": "2026-08-18T08:08:00+00:00",
   "source_chunks": {
     "020221717496955b329ee982": {
       "canonical_confirmations": [],
@@ -901,6 +901,94 @@
       "total": 1,
       "updated_at": "2026-08-16T19:46:17+00:00",
       "url": "https://npa-revolutionnaires.org/communique-presidentielle-2027-selma-labib-une-candidature-ouvriere-et-revolutionnaire-soutenue-par-gael-quirante/"
+    },
+    "02b6fd496b7b74738fde6636": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "réduire drastiquement l’immigration",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau propose de soumettre par référendum un texte pour réduire drastiquement l'immigration.",
+            "topic": "immigration-integration"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Présent dans le canonique à l'identique.",
+            "related_proposal_id": "auto-bruno-retailleau-immigration-integration-39955feaadc3",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "engager une véritable révolution de notre justice pénale",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau propose d'engager une révolution de la justice pénale par référendum.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "Présent dans le canonique à l'identique.",
+            "related_proposal_id": "auto-bruno-retailleau-securite-justice-703dc438f470",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "redonner la primauté à notre droit national",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau propose de redonner la primauté au droit national par référendum.",
+            "topic": "europe-souverainete"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "Présent dans le canonique à l'identique.",
+            "related_proposal_id": "auto-bruno-retailleau-europe-souverainete-ed8d0d14bccb",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-08-18T08:08:00+00:00",
+      "created_at": "2026-08-18T08:07:49+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-02-12"
+      ],
+      "sha256": "cdcd4448b76e2ae30197e7769bab7a41ab4e1e839898ceea8939a39190f845f0",
+      "source_title": "Je suis candidat à l'élection présidentielle. - Les Républicains",
+      "statuses": [
+        {
+          "status": {
+            "candidate_id": "bruno-retailleau",
+            "effective_date": "2026-02-12",
+            "evidence_quote": "Je suis candidat à l’élection présidentielle.",
+            "explicit": true,
+            "new_status": "declared_presidential"
+          }
+        }
+      ],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-18T08:07:54+00:00",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
     "04611c4a8e7edbf6fa25cb89": {
       "canonical_confirmations": [],
@@ -7079,6 +7167,186 @@
             "relation": "NEW",
             "verdict": "CONFIRMED"
           }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Créer un congé santé sexuelle et reproductive dans les entreprises et admi- nistrations",
+            "relevance": "direct",
+            "statement": "Créer un congé santé sexuelle et reproductive dans les entreprises et administrations.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La création d'un congé santé sexuelle et reproductive est explicitement soutenue par la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Augmenter de 250€ l’Allocation aux Adultes Handicapés (AAH)",
+            "relevance": "direct",
+            "statement": "Augmenter de 250 euros l'Allocation aux Adultes Handicapés (AAH).",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "L'augmentation de 250 euros de l'AAH est explicitement soutenue par la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Créer un véritable un service public d’accompagnement des élèves en situation de handicap",
+            "relevance": "direct",
+            "statement": "Créer un véritable service public d'accompagnement des élèves en situation de handicap.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "La création d'un service public d'accompagnement des élèves en situation de handicap est explicitement soutenue par la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Plafonner la taille des classes en école primaire à 12 élèves dans les zones d’éducation prioritaire.",
+            "relevance": "direct",
+            "statement": "Plafonner la taille des classes en école primaire à 12 élèves dans les zones d'éducation prioritaire.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 3,
+            "reason": "Le plafonnement à 12 élèves en REP est déjà présent dans le canonique (prop-les-ecologistes-19-eleves-primaire-2032).",
+            "related_proposal_id": "prop-les-ecologistes-19-eleves-primaire-2032",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Plafonner la taille des classes en école primaire à 12 élèves dans les zones d’éducation prioritaire.",
+            "relevance": "direct",
+            "statement": "Plafonner la taille des classes en école primaire à 12 élèves dans les zones d’éducation prioritaire.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La source confirme explicitement le plafonnement de la taille des classes à 12 élèves en REP.",
+            "related_proposal_id": "prop-les-ecologistes-19-eleves-primaire-2032",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Doter chaque territoire d’un accueil physique des services publics à 15 minutes partout en France.",
+            "relevance": "direct",
+            "statement": "Doter chaque territoire d’un accueil physique des services publics à 15 minutes partout en France.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La source mentionne explicitement la proposition de doter chaque territoire d'un accueil physique à 15 minutes.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Créer 500 nouvelles MFS et des unités mobiles pour aller vers les usager·es",
+            "relevance": "direct",
+            "statement": "Créer 500 nouvelles Maisons France Service et des unités mobiles pour aller vers les usager·es.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "La source mentionne explicitement la création de 500 nouvelles MFS et unités mobiles.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Lutter contre les déserts médicaux par le développement de centres de santé et de maisons de santé",
+            "relevance": "direct",
+            "statement": "Lutter contre les déserts médicaux par le développement de centres de santé et de maisons de santé.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 3,
+            "reason": "La source confirme la lutte contre les déserts médicaux par les centres et maisons de santé.",
+            "related_proposal_id": "prop-les-ecologistes-2000-centres-sante-2030",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Abroger le Contrat d’Engagement Républicain liberticide pour les associations",
+            "relevance": "direct",
+            "statement": "Abroger le Contrat d’Engagement Républicain pour les associations.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 4,
+            "reason": "La source appelle explicitement à abroger le Contrat d'Engagement Républicain.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Garantir un droit d’interpellation citoyenne par voie de pétition de toutes les assemblées en abaissant le seuil",
+            "relevance": "direct",
+            "statement": "Garantir un droit d’interpellation citoyenne par voie de pétition de toutes les assemblées en abaissant le seuil de signatures.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 5,
+            "reason": "La source garantit explicitement un droit d'interpellation citoyenne par voie de pétition.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
         }
       ],
       "claims": [
@@ -8287,10 +8555,138 @@
             "relation": "NEW",
             "verdict": "CONFIRMED"
           }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Créer un congé santé sexuelle et reproductive dans les entreprises et admi- nistrations",
+            "relevance": "direct",
+            "statement": "Créer un congé santé sexuelle et reproductive dans les entreprises et administrations.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La création d'un congé santé sexuelle et reproductive est explicitement soutenue par la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Augmenter de 250€ l’Allocation aux Adultes Handicapés (AAH)",
+            "relevance": "direct",
+            "statement": "Augmenter de 250 euros l'Allocation aux Adultes Handicapés (AAH).",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "L'augmentation de 250 euros de l'AAH est explicitement soutenue par la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Créer un véritable un service public d’accompagnement des élèves en situation de handicap",
+            "relevance": "direct",
+            "statement": "Créer un véritable service public d'accompagnement des élèves en situation de handicap.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "La création d'un service public d'accompagnement des élèves en situation de handicap est explicitement soutenue par la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Doter chaque territoire d’un accueil physique des services publics à 15 minutes partout en France.",
+            "relevance": "direct",
+            "statement": "Doter chaque territoire d’un accueil physique des services publics à 15 minutes partout en France.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La source mentionne explicitement la proposition de doter chaque territoire d'un accueil physique à 15 minutes.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Créer 500 nouvelles MFS et des unités mobiles pour aller vers les usager·es",
+            "relevance": "direct",
+            "statement": "Créer 500 nouvelles Maisons France Service et des unités mobiles pour aller vers les usager·es.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "La source mentionne explicitement la création de 500 nouvelles MFS et unités mobiles.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Abroger le Contrat d’Engagement Républicain liberticide pour les associations",
+            "relevance": "direct",
+            "statement": "Abroger le Contrat d’Engagement Républicain pour les associations.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 4,
+            "reason": "La source appelle explicitement à abroger le Contrat d'Engagement Républicain.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Garantir un droit d’interpellation citoyenne par voie de pétition de toutes les assemblées en abaissant le seuil",
+            "relevance": "direct",
+            "statement": "Garantir un droit d’interpellation citoyenne par voie de pétition de toutes les assemblées en abaissant le seuil de signatures.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 5,
+            "reason": "La source garantit explicitement un droit d'interpellation citoyenne par voie de pétition.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
         }
       ],
       "created_at": "2026-08-16T07:55:02+00:00",
       "document_types": [
+        "party_programme",
+        "party_programme",
         "party_programme",
         "party_programme",
         "party_programme",
@@ -8324,7 +8720,9 @@
         12,
         13,
         14,
-        15
+        15,
+        16,
+        17
       ],
       "published_candidates": [],
       "sha256": "7db9ac7712c4e7183c4252d21050d032c0e4304136c1e3cd1c29164a6d411928",
@@ -8332,7 +8730,7 @@
       "statuses": [],
       "text_truncated": false,
       "total": 24,
-      "updated_at": "2026-08-18T02:39:52+00:00",
+      "updated_at": "2026-08-18T08:07:34+00:00",
       "url": "https://lesecologistes.fr/document/5ZhR2m5t2ZaGKqIdD1bJaD/vdef-programme-1.pdf"
     },
     "ab4867cad17b15c99f0f6b81": {
@@ -9820,6 +10218,28 @@
       "updated_at": "2026-08-14T08:33:55+00:00",
       "url": "https://solutiondemocratique.fr/xavier-bertrand-programme-presidentielle2027/"
     },
+    "d92ade041132929d0e3efd5f": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-08-18T08:07:37+00:00",
+      "document_types": [
+        "official_press_release"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [
+        "2026-06-17"
+      ],
+      "sha256": "395fc1875b79d68f2ef0c7bba4640d3a866b753627531be7d05df31315e61032",
+      "source_title": "Communiqué - Présidentielle 2027 : Selma Labib, une candidature ouvrière et révolutionnaire, soutenue par Gaël Quirante - NPA Révolutionnaires",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-18T08:07:47+00:00",
+      "url": "https://npa-revolutionnaires.org/communique-presidentielle-2027-selma-labib-une-candidature-ouvriere-et-revolutionnaire-soutenue-par-gael-quirante/"
+    },
     "daf38b4b7d9859ed7f72340d": {
       "claims": [],
       "created_at": "2026-08-11T12:15:03+00:00",
@@ -11204,6 +11624,15 @@
       "status": "promoted",
       "url": "https://solutiondemocratique.fr/juan-branco-2027-programme/"
     },
+    "4bcf427e65fb": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-18T08:07:47+00:00",
+      "reason": null,
+      "source_sha256": "395fc1875b79d68f2ef0c7bba4640d3a866b753627531be7d05df31315e61032",
+      "status": "not_confirmed",
+      "url": "https://npa-revolutionnaires.org/communique-presidentielle-2027-selma-labib-une-candidature-ouvriere-et-revolutionnaire-soutenue-par-gael-quirante/"
+    },
     "4f4e22cba7e5": {
       "chunks_done": null,
       "chunks_total": 1,
@@ -11248,9 +11677,9 @@
       "url": "https://solutiondemocratique.fr/sarah-knafo-2027-programme-presidentiel/"
     },
     "6131f9d79b77": {
-      "chunks_done": 16,
+      "chunks_done": 18,
       "chunks_total": 24,
-      "processed_at": "2026-08-18T02:39:52+00:00",
+      "processed_at": "2026-08-18T08:07:34+00:00",
       "reason": null,
       "source_sha256": "7db9ac7712c4e7183c4252d21050d032c0e4304136c1e3cd1c29164a6d411928",
       "status": "partial",
@@ -11352,6 +11781,15 @@
       "source_sha256": "cb01e20785864d697f248295019aae434c28d8745471bb1beaa6f67619519f22",
       "status": "promoted",
       "url": "https://solutiondemocratique.fr/programme-rn-2027/"
+    },
+    "85ae23a30749": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-18T08:08:00+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "cdcd4448b76e2ae30197e7769bab7a41ab4e1e839898ceea8939a39190f845f0",
+      "status": "promoted",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
     "86d9a849395b": {
       "chunks_done": null,
