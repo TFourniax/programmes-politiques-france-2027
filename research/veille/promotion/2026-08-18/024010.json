@@ -1,0 +1,39 @@
+{
+  "errors": [],
+  "generated_at": "2026-08-18T02:40:10+00:00",
+  "historical_skipped": 0,
+  "partial": 1,
+  "processed": 3,
+  "promoted": 1,
+  "proposals_created": 0,
+  "results": [
+    {
+      "chunks_done": 16,
+      "chunks_remaining": 8,
+      "chunks_total": 24,
+      "sha256": "7db9ac7712c4e7183c4252d21050d032c0e4304136c1e3cd1c29164a6d411928",
+      "status": "partial",
+      "url": "https://lesecologistes.fr/document/5ZhR2m5t2ZaGKqIdD1bJaD/vdef-programme-1.pdf"
+    },
+    {
+      "document": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-facf4ffe9717.md",
+      "provenance_updates": [
+        "auto-bruno-retailleau-immigration-integration-39955feaadc3",
+        "auto-bruno-retailleau-pouvoir-achat-travail-122f072f74ad",
+        "auto-bruno-retailleau-securite-justice-703dc438f470",
+        "prop-retailleau-reduire-immigration"
+      ],
+      "reason": "canonical_duplicate_evidence",
+      "sha256": "cbec778af86ca3033e602815ff5cefc56d04de669d92d67bf7396ca370d0aa80",
+      "status": "promoted",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/",
+      "verified_at": "2026-08-18T02:40:07+00:00"
+    },
+    {
+      "sha256": "b341a85b06da61562cff1d4cd0d1d6866a74ab1d487a001172e1dec12f589727",
+      "status": "not_confirmed",
+      "url": "https://bc2027.fr/ma-demarche"
+    }
+  ],
+  "status_updates": 0
+}

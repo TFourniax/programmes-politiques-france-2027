@@ -1,12 +1,17 @@
 {
   "version": 1,
   "created_at": "2026-08-17T19:57:19.441897+00:00",
-  "updated_at": "2026-08-17T19:57:19.441897+00:00",
+  "updated_at": "2026-08-18T02:40:13.971590+00:00",
   "files": [
     {
       "path": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-0d2365d33b5f.md",
       "sha256": "65b97976eb1215fe5110ac25b5fce5f49e03cf403761f9a056f565b551335775",
       "size": 2208
+    },
+    {
+      "path": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-facf4ffe9717.md",
+      "sha256": "28fa49d29b8ba20636a32a94f31c859ea828f567c54609b0e51de3f66fb3aad7",
+      "size": 2229
     },
     {
       "path": "corpus/2027/auto/partys/les-ecologistes/2026-08-17-9c2f01b4f3fc.md",
@@ -20,8 +25,8 @@
     },
     {
       "path": "proposals/auto/immigration-integration/auto-bruno-retailleau-immigration-integration-39955feaadc3.md",
-      "sha256": "8007db86b83bd0560b0dfb66c0d08c1ed8668e30bcc4b0e66f09d9b959e43f03",
-      "size": 1783
+      "sha256": "b2d4d937d1a1c860198a010c8a7bf4b6084bc81dcb81148892434a9ab13bf4b2",
+      "size": 1898
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-bruno-retailleau-institutions-democratie-f5a91461b7da.md",
@@ -29,14 +34,24 @@
       "size": 1677
     },
     {
+      "path": "proposals/auto/pouvoir-achat-travail/auto-bruno-retailleau-pouvoir-achat-travail-122f072f74ad.md",
+      "sha256": "baafa7110d1619cdba8fb2fa106d1c3e401a30c185ac9942d2e6d98edc8698ce",
+      "size": 1661
+    },
+    {
       "path": "proposals/auto/securite-justice/auto-bruno-retailleau-securite-justice-703dc438f470.md",
-      "sha256": "0542fb35478eaf0fb55048e3ec5a1fa1b4d4ce8abb2ee5fd5ce54d45816bdabf",
-      "size": 1682
+      "sha256": "60fbf79686002e5ecaebf9ec567e951f828f4843f75bf5ed97bfa950f46e4691",
+      "size": 1797
     },
     {
       "path": "proposals/auto/securite-justice/auto-les-ecologistes-securite-justice-0d29bfb3d832.md",
       "sha256": "ce5100c2715a741e6c99b2ad4e023e005fef8159410668c909024f5f61884a3d",
       "size": 1190
+    },
+    {
+      "path": "proposals/immigration/bruno-retailleau-reduire-immigration.md",
+      "sha256": "a6a448ca53dc65b963ae57a0888463423dcfe354bceefab9ff5a9f1b0219d93d",
+      "size": 907
     }
   ],
   "deleted_files": []

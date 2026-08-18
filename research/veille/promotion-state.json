@@ -868,7 +868,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-08-17T19:57:08+00:00",
+  "last_run_at": "2026-08-18T02:40:10+00:00",
   "source_chunks": {
     "020221717496955b329ee982": {
       "canonical_confirmations": [],
@@ -3449,6 +3449,26 @@
       "total": 1,
       "updated_at": "2026-08-15T19:48:04+00:00",
       "url": "https://solutiondemocratique.fr/programme-lfi-2027/"
+    },
+    "4706d27719b9daf749e595b8": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-08-18T02:40:09+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "b341a85b06da61562cff1d4cd0d1d6866a74ab1d487a001172e1dec12f589727",
+      "source_title": "Ma démarche - Bernard Cazeneuve",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-18T02:40:10+00:00",
+      "url": "https://bc2027.fr/ma-demarche"
     },
     "47c5dd5ae80b30abc2268caa": {
       "canonical_confirmations": [],
@@ -6861,6 +6881,204 @@
             "relation": "NEW",
             "verdict": "CONFIRMED"
           }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Créer une Délégation Interministérielle consacrée à la lutte contre la solitude",
+            "relevance": "direct",
+            "statement": "Créer une Délégation Interministérielle consacrée à la lutte contre la solitude.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La création d'une Délégation Interministérielle consacrée à la lutte contre la solitude est explicitement soutenue par la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Instaurer un statut de famille monoparentale. Ouvrir des droits spécifiques",
+            "relevance": "direct",
+            "statement": "Instaurer un statut de famille monoparentale ouvrant des droits spécifiques.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "L'instauration d'un statut de famille monoparentale ouvrant des droits spécifiques est explicitement soutenue par la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Réformer les allocations familiales pour attribuer un même montant dès le premier enfant",
+            "relevance": "direct",
+            "statement": "Réformer les allocations familiales pour attribuer un même montant dès le premier enfant.",
+            "topic": "pouvoir-achat-travail"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "La réforme des allocations familiales pour un même montant dès le premier enfant est explicitement soutenue par la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "aligner la durée du congé d’accueil de l’enfant entre la mère et le second parent avec 16 semaines",
+            "relevance": "direct",
+            "statement": "Rendre obligatoire et aligner la durée du congé d'accueil de l'enfant à 16 semaines rémunérées à 100 %.",
+            "topic": "pouvoir-achat-travail"
+          },
+          "verdict": {
+            "index": 3,
+            "reason": "L'alignement du congé d'accueil de l'enfant à 16 semaines rémunérées à 100 % est explicitement soutenu par la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Ouvrir le droit de vote à 16 ans.",
+            "relevance": "direct",
+            "statement": "Ouvrir le droit de vote à 16 ans.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 4,
+            "reason": "L'ouverture du droit de vote à 16 ans est explicitement soutenue par la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Construire 150 000 places en logements étudiants et foyers de jeunes travailleurs",
+            "relevance": "direct",
+            "statement": "Construire 150 000 places en logements étudiants et foyers de jeunes travailleurs sur le quinquennat.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 5,
+            "reason": "La construction de 150 000 places en logements étudiants et foyers de jeunes travailleurs sur le quinquennat est explicitement soutenue par la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Construire un service public de la dépendance à destination des personnes en perte d’autonomie.",
+            "relevance": "direct",
+            "statement": "Construire un service public de la dépendance pour les personnes en perte d'autonomie.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La proposition de construire un service public de la dépendance est explicitement soutenue dans la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Créer un service public laïc des obsèques avec des agent·es formé·es",
+            "relevance": "direct",
+            "statement": "Créer un service public laïc des obsèques et développer des coopératives funéraires.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La proposition de créer un service public laïc des obsèques est explicitement soutenue dans la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Adopter une loi intégrale pour lutter contre les violences sexistes et sexuelles (VSS) dotée de 3 milliards d’euros.",
+            "relevance": "direct",
+            "statement": "Adopter une loi intégrale dotée de 3 milliards d'euros pour lutter contre les violences sexistes et sexuelles.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "La proposition d'adopter une loi intégrale dotée de 3 milliards d'euros contre les VSS est explicitement soutenue dans la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Créer un ministère de l’Enfance de plein exercice doté de tous les moyens nécessaires",
+            "relevance": "direct",
+            "statement": "Créer un ministère de l'Enfance de plein exercice.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 3,
+            "reason": "La proposition de créer un ministère de l'Enfance de plein exercice est explicitement soutenue dans la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Adopter une loi pour l’émancipation économique des femmes intégrant des sanctions financières dissuasives",
+            "relevance": "direct",
+            "statement": "Adopter une loi pour l'émancipation économique des femmes intégrant des sanctions financières pour l'égalité salariale.",
+            "topic": "pouvoir-achat-travail"
+          },
+          "verdict": {
+            "index": 4,
+            "reason": "La proposition d'adopter une loi pour l'émancipation économique des femmes intégrant des sanctions financières est explicitement soutenue dans la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
         }
       ],
       "claims": [
@@ -7871,10 +8089,210 @@
             "relation": "NEW",
             "verdict": "CONFIRMED"
           }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Créer une Délégation Interministérielle consacrée à la lutte contre la solitude",
+            "relevance": "direct",
+            "statement": "Créer une Délégation Interministérielle consacrée à la lutte contre la solitude.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La création d'une Délégation Interministérielle consacrée à la lutte contre la solitude est explicitement soutenue par la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Instaurer un statut de famille monoparentale. Ouvrir des droits spécifiques",
+            "relevance": "direct",
+            "statement": "Instaurer un statut de famille monoparentale ouvrant des droits spécifiques.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "L'instauration d'un statut de famille monoparentale ouvrant des droits spécifiques est explicitement soutenue par la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Réformer les allocations familiales pour attribuer un même montant dès le premier enfant",
+            "relevance": "direct",
+            "statement": "Réformer les allocations familiales pour attribuer un même montant dès le premier enfant.",
+            "topic": "pouvoir-achat-travail"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "La réforme des allocations familiales pour un même montant dès le premier enfant est explicitement soutenue par la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "aligner la durée du congé d’accueil de l’enfant entre la mère et le second parent avec 16 semaines",
+            "relevance": "direct",
+            "statement": "Rendre obligatoire et aligner la durée du congé d'accueil de l'enfant à 16 semaines rémunérées à 100 %.",
+            "topic": "pouvoir-achat-travail"
+          },
+          "verdict": {
+            "index": 3,
+            "reason": "L'alignement du congé d'accueil de l'enfant à 16 semaines rémunérées à 100 % est explicitement soutenu par la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Ouvrir le droit de vote à 16 ans.",
+            "relevance": "direct",
+            "statement": "Ouvrir le droit de vote à 16 ans.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 4,
+            "reason": "L'ouverture du droit de vote à 16 ans est explicitement soutenue par la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Construire 150 000 places en logements étudiants et foyers de jeunes travailleurs",
+            "relevance": "direct",
+            "statement": "Construire 150 000 places en logements étudiants et foyers de jeunes travailleurs sur le quinquennat.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 5,
+            "reason": "La construction de 150 000 places en logements étudiants et foyers de jeunes travailleurs sur le quinquennat est explicitement soutenue par la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Construire un service public de la dépendance à destination des personnes en perte d’autonomie.",
+            "relevance": "direct",
+            "statement": "Construire un service public de la dépendance pour les personnes en perte d'autonomie.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La proposition de construire un service public de la dépendance est explicitement soutenue dans la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Créer un service public laïc des obsèques avec des agent·es formé·es",
+            "relevance": "direct",
+            "statement": "Créer un service public laïc des obsèques et développer des coopératives funéraires.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La proposition de créer un service public laïc des obsèques est explicitement soutenue dans la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Adopter une loi intégrale pour lutter contre les violences sexistes et sexuelles (VSS) dotée de 3 milliards d’euros.",
+            "relevance": "direct",
+            "statement": "Adopter une loi intégrale dotée de 3 milliards d'euros pour lutter contre les violences sexistes et sexuelles.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "La proposition d'adopter une loi intégrale dotée de 3 milliards d'euros contre les VSS est explicitement soutenue dans la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Créer un ministère de l’Enfance de plein exercice doté de tous les moyens nécessaires",
+            "relevance": "direct",
+            "statement": "Créer un ministère de l'Enfance de plein exercice.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 3,
+            "reason": "La proposition de créer un ministère de l'Enfance de plein exercice est explicitement soutenue dans la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Adopter une loi pour l’émancipation économique des femmes intégrant des sanctions financières dissuasives",
+            "relevance": "direct",
+            "statement": "Adopter une loi pour l'émancipation économique des femmes intégrant des sanctions financières pour l'égalité salariale.",
+            "topic": "pouvoir-achat-travail"
+          },
+          "verdict": {
+            "index": 4,
+            "reason": "La proposition d'adopter une loi pour l'émancipation économique des femmes intégrant des sanctions financières est explicitement soutenue dans la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
         }
       ],
       "created_at": "2026-08-16T07:55:02+00:00",
       "document_types": [
+        "party_programme",
+        "party_programme",
         "party_programme",
         "party_programme",
         "party_programme",
@@ -7904,7 +8322,9 @@
         10,
         11,
         12,
-        13
+        13,
+        14,
+        15
       ],
       "published_candidates": [],
       "sha256": "7db9ac7712c4e7183c4252d21050d032c0e4304136c1e3cd1c29164a6d411928",
@@ -7912,7 +8332,7 @@
       "statuses": [],
       "text_truncated": false,
       "total": 24,
-      "updated_at": "2026-08-17T19:56:36+00:00",
+      "updated_at": "2026-08-18T02:39:52+00:00",
       "url": "https://lesecologistes.fr/document/5ZhR2m5t2ZaGKqIdD1bJaD/vdef-programme-1.pdf"
     },
     "ab4867cad17b15c99f0f6b81": {
@@ -10381,6 +10801,102 @@
       "updated_at": "2026-08-12T08:48:28+00:00",
       "url": "https://www.unenouvelleenergie.fr/notre-programme/sante/"
     },
+    "facf4ffe97176ab0d35ba0cf": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "l’immigration n’est pas une chance",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau affirme que l'immigration n'est pas une chance.",
+            "topic": "immigration-integration"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Présent explicitement dans la source et déjà présent dans le canonique.",
+            "related_proposal_id": "prop-retailleau-reduire-immigration",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "on ne peut pas vivre mieux en travaillant moins",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau déclare qu'on ne peut pas vivre mieux en travaillant moins.",
+            "topic": "pouvoir-achat-travail"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": " Affirmation explicite présente dans la source et dans le canonique.",
+            "related_proposal_id": "auto-bruno-retailleau-pouvoir-achat-travail-122f072f74ad",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "pour réduire drastiquement l’immigration",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau propose de soumettre par référendum des textes pour réduire drastiquement l'immigration.",
+            "topic": "immigration-integration"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "Proposition de référendum pour réduire l'immigration explicitement soutenue.",
+            "related_proposal_id": "auto-bruno-retailleau-immigration-integration-39955feaadc3",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "engager une véritable révolution de notre justice pénale",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau propose d'engager une révolution de la justice pénale par référendum.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 3,
+            "reason": "Proposition de révolution de la justice pénale par référendum explicitement présente.",
+            "related_proposal_id": "auto-bruno-retailleau-securite-justice-703dc438f470",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-08-18T02:40:07+00:00",
+      "created_at": "2026-08-18T02:39:54+00:00",
+      "document_types": [
+        "candidacy_declaration"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-02-12"
+      ],
+      "sha256": "cbec778af86ca3033e602815ff5cefc56d04de669d92d67bf7396ca370d0aa80",
+      "source_title": "Je suis candidat à l'élection présidentielle. - Les Républicains",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-18T02:39:59+00:00",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
     "fc1ee1bf2c827e5f9aabb527": {
       "claims": [],
       "created_at": "2026-08-11T14:42:49+00:00",
@@ -10732,9 +11248,9 @@
       "url": "https://solutiondemocratique.fr/sarah-knafo-2027-programme-presidentiel/"
     },
     "6131f9d79b77": {
-      "chunks_done": 14,
+      "chunks_done": 16,
       "chunks_total": 24,
-      "processed_at": "2026-08-17T19:56:36+00:00",
+      "processed_at": "2026-08-18T02:39:52+00:00",
       "reason": null,
       "source_sha256": "7db9ac7712c4e7183c4252d21050d032c0e4304136c1e3cd1c29164a6d411928",
       "status": "partial",
@@ -10925,6 +11441,15 @@
       "status": "promoted",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
+    "a94b4981fa1b": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-18T02:40:07+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "cbec778af86ca3033e602815ff5cefc56d04de669d92d67bf7396ca370d0aa80",
+      "status": "promoted",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
     "ab49ce8a464c": {
       "chunks_done": null,
       "chunks_total": 1,
@@ -11097,6 +11622,15 @@
       "source_sha256": "93788d5e8b0428d594a0a98bfc8270053c46623395dfe55bc7e4170d9b4ef1a7",
       "status": "promoted",
       "url": "https://solutiondemocratique.fr/programme-lfi-2027/"
+    },
+    "cd6b994a148b": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-18T02:40:10+00:00",
+      "reason": null,
+      "source_sha256": "b341a85b06da61562cff1d4cd0d1d6866a74ab1d487a001172e1dec12f589727",
+      "status": "not_confirmed",
+      "url": "https://bc2027.fr/ma-demarche"
     },
     "ce43a5512c45": {
       "chunks_done": null,
