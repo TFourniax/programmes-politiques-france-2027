@@ -85,6 +85,11 @@
       "source_url": "https://melenchon2027.fr/programme2025/livre/chapitre1/",
       "verified_at": "2026-08-12T21:48:09+00:00"
     },
+    "1ce2938e1f0586ffe6e56b6a7d6aaceab9c913d792ede8cd992b4695f116ca6c": {
+      "proposal_id": "auto-nouvelle-energie-economie-finances-1ce2938e1f05",
+      "source_url": "https://www.unenouvelleenergie.fr/notre-programme/",
+      "verified_at": "2026-08-18T19:52:57+00:00"
+    },
     "1d98a3b70af1962a49df403962541ec6a1485eef2eb0949d52d01434584269b5": {
       "proposal_id": "auto-nouvelle-energie-institutions-democratie-1d98a3b70af1",
       "source_url": "https://www.unenouvelleenergie.fr/notre-programme/",
@@ -866,9 +871,9 @@
       "verified_at": "2026-08-13T08:51:16+00:00"
     }
   },
-  "last_error_count": 0,
-  "last_processed_count": 3,
-  "last_run_at": "2026-08-18T14:08:44+00:00",
+  "last_error_count": 1,
+  "last_processed_count": 2,
+  "last_run_at": "2026-08-18T19:53:19+00:00",
   "source_chunks": {
     "020221717496955b329ee982": {
       "canonical_confirmations": [],
@@ -1619,6 +1624,26 @@
       "total": 1,
       "updated_at": "2026-08-14T08:47:06+00:00",
       "url": "https://solutiondemocratique.fr/nicolas-dupont-aignan-programme-presidentielle2027/"
+    },
+    "1b5e4a1af4a1363128c999a9": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-08-18T19:53:21+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "1c97ee87f3090771acbf7d2259573ec8f488cbbbc7f5f25eb0726dedabfdb08c",
+      "source_title": "Un sursaut est nécessaire et urgent pour éviter l’arrivée du Rassemblement national au pouvoir en 2027. Juste avant l’ouverture de nos Journées d’été à Grenoble, j’ai répondu aux",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-18T19:53:22+00:00",
+      "url": "https://bsky.app/profile/marinetondelier.fr/post/3mten2mik7224"
     },
     "1dd97534aced615fba9d657b": {
       "claims": [],
@@ -7621,6 +7646,96 @@
             "relation": "NEW",
             "verdict": "CONFIRMED"
           }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Abroger les lois asile et immigration d’Emmanuel Macron",
+            "relevance": "direct",
+            "statement": "Abroger les lois asile et immigration d'Emmanuel Macron.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La proposition d'abroger les lois asile et immigration d'Emmanuel Macron est explicitement soutenue par la source (section 56.1).",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Légaliser et encadrer la production, la vente et la consommation de cannabis.",
+            "relevance": "direct",
+            "statement": "Légaliser et encadrer la production, la vente et la consommation de cannabis.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La proposition de légaliser et encadrer la production, la vente et la consommation de cannabis est explicitement soutenue par la source (section 58.4).",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Remplacer les droits de veto nationaux par une majorité qualifiée",
+            "relevance": "direct",
+            "statement": "Remplacer les droits de veto nationaux par le vote à la majorité qualifiée dans l'Union européenne sur certains sujets.",
+            "topic": "europe-souverainete"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Explicitement soutenu par la source : 'Remplacer les droits de veto nationaux par une majorité qualifiée'.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "atteindre 2 % du PIB européen en 2035 et 5 % du PIB en 2050.",
+            "relevance": "direct",
+            "statement": "Augmenter le budget de l'Union européenne pour atteindre 2 % du PIB en 2035 et 5 % en 2050.",
+            "topic": "europe-souverainete"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "Explicitement soutenu par la source : 'atteindre 2 % du PIB européen en 2035 et 5 % du PIB en 2050'.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Rejoindre en parallèle le Traité sur l’Interdiction des Armes Nucléaires (TIAN) en tant que membre observateur",
+            "relevance": "direct",
+            "statement": "Rejoindre le Traité sur l'Interdiction des Armes Nucléaires en tant que membre observateur.",
+            "topic": "europe-souverainete"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "Explicitement soutenu par la source : 'Rejoindre en parallèle le Traité sur l’Interdiction des Armes Nucléaires (TIAN) en tant que membre observateur'.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
         }
       ],
       "claims": [
@@ -9189,10 +9304,102 @@
             "relation": "NEW",
             "verdict": "CONFIRMED"
           }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Abroger les lois asile et immigration d’Emmanuel Macron",
+            "relevance": "direct",
+            "statement": "Abroger les lois asile et immigration d'Emmanuel Macron.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La proposition d'abroger les lois asile et immigration d'Emmanuel Macron est explicitement soutenue par la source (section 56.1).",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Légaliser et encadrer la production, la vente et la consommation de cannabis.",
+            "relevance": "direct",
+            "statement": "Légaliser et encadrer la production, la vente et la consommation de cannabis.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La proposition de légaliser et encadrer la production, la vente et la consommation de cannabis est explicitement soutenue par la source (section 58.4).",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Remplacer les droits de veto nationaux par une majorité qualifiée",
+            "relevance": "direct",
+            "statement": "Remplacer les droits de veto nationaux par le vote à la majorité qualifiée dans l'Union européenne sur certains sujets.",
+            "topic": "europe-souverainete"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Explicitement soutenu par la source : 'Remplacer les droits de veto nationaux par une majorité qualifiée'.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "atteindre 2 % du PIB européen en 2035 et 5 % du PIB en 2050.",
+            "relevance": "direct",
+            "statement": "Augmenter le budget de l'Union européenne pour atteindre 2 % du PIB en 2035 et 5 % en 2050.",
+            "topic": "europe-souverainete"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "Explicitement soutenu par la source : 'atteindre 2 % du PIB européen en 2035 et 5 % du PIB en 2050'.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Rejoindre en parallèle le Traité sur l’Interdiction des Armes Nucléaires (TIAN) en tant que membre observateur",
+            "relevance": "direct",
+            "statement": "Rejoindre le Traité sur l'Interdiction des Armes Nucléaires en tant que membre observateur.",
+            "topic": "europe-souverainete"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "Explicitement soutenu par la source : 'Rejoindre en parallèle le Traité sur l’Interdiction des Armes Nucléaires (TIAN) en tant que membre observateur'.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
         }
       ],
       "created_at": "2026-08-16T07:55:02+00:00",
       "document_types": [
+        "party_programme",
+        "party_programme",
         "party_programme",
         "party_programme",
         "party_programme",
@@ -9234,7 +9441,9 @@
         16,
         17,
         18,
-        19
+        19,
+        20,
+        21
       ],
       "published_candidates": [],
       "sha256": "7db9ac7712c4e7183c4252d21050d032c0e4304136c1e3cd1c29164a6d411928",
@@ -9242,7 +9451,7 @@
       "statuses": [],
       "text_truncated": false,
       "total": 24,
-      "updated_at": "2026-08-18T14:08:36+00:00",
+      "updated_at": "2026-08-18T19:53:18+00:00",
       "url": "https://lesecologistes.fr/document/5ZhR2m5t2ZaGKqIdD1bJaD/vdef-programme-1.pdf"
     },
     "ab4867cad17b15c99f0f6b81": {
@@ -9397,6 +9606,26 @@
       "total": 1,
       "updated_at": "2026-08-12T14:41:26+00:00",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
+    "b1362e94378ea3cd61dfd643": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-08-18T19:53:19+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "b88e3a4fc9e81acc3df29ee38e38023e0f442478375979347c6b27028d77674b",
+      "source_title": "En 2027, la France peut basculer. Face à la montée de l’extrême droite, face à l’urgence écologique que cet été nous rappelle avec violence, nous avons un choix à faire : nous rés",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-18T19:53:21+00:00",
+      "url": "https://bsky.app/profile/lesecologistes.fr/post/3mtesiemjlc2x"
     },
     "b2a28a425ae6ed749f43df4e": {
       "canonical_confirmations": [
@@ -11410,6 +11639,155 @@
       "updated_at": "2026-08-12T23:32:49+00:00",
       "url": "https://melenchon2027.fr/programme2025/livre/chapitre13/"
     },
+    "f489a53bb3fe5f61a9976426": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "nouvelle-energie",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "un État recentré sur ses missions régaliennes de sécurité et de défense",
+            "relevance": "direct",
+            "statement": "L'État doit être recentré sur ses missions régaliennes de sécurité et de défense.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Explicitement soutenu dans la source et présent dans le canon.",
+            "related_proposal_id": "auto-nouvelle-energie-institutions-democratie-1d98a3b70af1",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "nouvelle-energie",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "la libération des énergies créatrices par une profonde débureaucratisation",
+            "relevance": "direct",
+            "statement": "Il faut procéder à une profonde débureaucratisation pour libérer les énergies créatrices.",
+            "topic": "economie-finances"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "Explicitement soutenu dans la source et présent dans le canon.",
+            "related_proposal_id": "auto-nouvelle-energie-economie-finances-ce6ab5f9ca2a",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "nouvelle-energie",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "une école d’excellence pour faire de la France une superpuissance éducative et scientifique",
+            "relevance": "direct",
+            "statement": "Il faut mettre en place une école d'excellence pour faire de la France une superpuissance éducative et scientifique.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "Explicitement soutenu dans la source et présent dans le canon.",
+            "related_proposal_id": "auto-nouvelle-energie-services-publics-0f99d5897943",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "nouvelle-energie",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "suppression de la carte scolaire",
+            "relevance": "direct",
+            "statement": "Il faut supprimer la carte scolaire pour garantir la liberté des parents de scolariser leurs enfants.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 3,
+            "reason": "Explicitement soutenu dans la source et présent dans le canon.",
+            "related_proposal_id": "auto-nouvelle-energie-services-publics-2dd30b44dc9c",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "nouvelle-energie",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "la liberté pour les travailleurs de se constituer un capital pour leur retraite (capitalisation)",
+            "relevance": "direct",
+            "statement": "Les travailleurs doivent avoir la liberté de se constituer un capital pour leur retraite par capitalisation.",
+            "topic": "retraites"
+          },
+          "verdict": {
+            "index": 4,
+            "reason": "Explicitement soutenu dans la source et présent dans le canon.",
+            "related_proposal_id": "auto-nouvelle-energie-retraites-4b9149336ab7",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "nouvelle-energie",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "la réduction drastique des dépenses publiques",
+            "relevance": "direct",
+            "statement": "Il faut réaliser une réduction drastique des dépenses publiques.",
+            "topic": "economie-finances"
+          },
+          "verdict": {
+            "index": 5,
+            "reason": "Explicitement soutenu dans la source, absent du canon.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [
+        {
+          "claim": {
+            "actor_id": "nouvelle-energie",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "la réduction drastique des dépenses publiques",
+            "relevance": "direct",
+            "statement": "Il faut réaliser une réduction drastique des dépenses publiques.",
+            "topic": "economie-finances"
+          },
+          "verdict": {
+            "index": 5,
+            "reason": "Explicitement soutenu dans la source, absent du canon.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "completed_at": "2026-08-18T19:53:04+00:00",
+      "created_at": "2026-08-18T19:52:50+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "839704023bb945c20944b4a1acf900e6e6b4d0b398d757b0aef2006518d0844b",
+      "source_title": "Le programme de David Lisnard | Nouvelle Énergie",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-18T19:52:57+00:00",
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/"
+    },
     "f4de33a7daa24dd519884932": {
       "canonical_confirmations": [
         {
@@ -12230,9 +12608,9 @@
       "url": "https://solutiondemocratique.fr/sarah-knafo-2027-programme-presidentiel/"
     },
     "6131f9d79b77": {
-      "chunks_done": 20,
+      "chunks_done": 22,
       "chunks_total": 24,
-      "processed_at": "2026-08-18T14:08:36+00:00",
+      "processed_at": "2026-08-18T19:53:18+00:00",
       "reason": null,
       "source_sha256": "7db9ac7712c4e7183c4252d21050d032c0e4304136c1e3cd1c29164a6d411928",
       "status": "partial",
@@ -12530,10 +12908,10 @@
       "url": "https://www.revolutionpermanente.fr/"
     },
     "b8920657eb06": {
-      "attempts": 2,
+      "attempts": 3,
       "error": "ValueError: source text too short",
-      "next_retry_at": "2026-08-18T14:05:52+00:00",
-      "processed_at": "2026-08-17T14:05:52+00:00",
+      "next_retry_at": "2026-08-21T19:53:19+00:00",
+      "processed_at": "2026-08-18T19:53:19+00:00",
       "status": "technical_error",
       "url": "https://www.jerome-guedj.fr/la-clarte-plutot-que-les-slogans-pourquoi-jai-annonce-ma-candidature-pour-2027/"
     },
@@ -12826,6 +13204,15 @@
       "source_sha256": "f59d0ebb3d1012043693afacc4edacc46f031d6229fd0f26e819656d6c39b4f0",
       "status": "not_confirmed",
       "url": "https://parti-equinoxe.fr/legislatives-2022-programme-cohesion/"
+    },
+    "fc44011d49c2": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-08-18T19:53:04+00:00",
+      "reason": null,
+      "source_sha256": "839704023bb945c20944b4a1acf900e6e6b4d0b398d757b0aef2006518d0844b",
+      "status": "promoted",
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/"
     },
     "fcd770bbde02": {
       "chunks_done": null,
