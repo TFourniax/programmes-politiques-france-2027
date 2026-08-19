@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created_at": "2026-08-17T19:57:19.441897+00:00",
-  "updated_at": "2026-08-18T19:53:26.069431+00:00",
+  "updated_at": "2026-08-19T02:45:47.084003+00:00",
   "files": [
     {
       "path": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-02b6fd496b7b.md",
@@ -14,6 +14,11 @@
       "size": 2208
     },
     {
+      "path": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-4bdad5eea2db.md",
+      "sha256": "634f0761799e0bbc46f43ece54bd9ab74da456f72c4bff2c3a9dea5ab6c552d3",
+      "size": 2046
+    },
+    {
       "path": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-facf4ffe9717.md",
       "sha256": "28fa49d29b8ba20636a32a94f31c859ea828f567c54609b0e51de3f66fb3aad7",
       "size": 2229
@@ -24,9 +29,199 @@
       "size": 1735
     },
     {
+      "path": "corpus/2027/auto/partys/les-ecologistes/2026-08-19-ab02beb53591.md",
+      "sha256": "b67ce0357621a5ff6ccd4ee2295ea80227954ce901fd43bd66ba0a1371420d5b",
+      "size": 24637
+    },
+    {
       "path": "corpus/2027/auto/partys/nouvelle-energie/2026-08-18-f489a53bb3fe.md",
       "sha256": "a3cfc9dd2f1cc32e951c44370846b63a162a51ebfdf62c6a0f829a178a847baa",
       "size": 2673
+    },
+    {
+      "path": "proposals/auto/ecologie-energie/auto-les-ecologistes-ecologie-energie-1219b8a35f2d.md",
+      "sha256": "60c5636d9ad53bee676dcb6045f9811119e662f79ecb8ae4da4ee4cfbac07b31",
+      "size": 1355
+    },
+    {
+      "path": "proposals/auto/ecologie-energie/auto-les-ecologistes-ecologie-energie-1440adb5be42.md",
+      "sha256": "4911a5ac6feacf846c76b7e84477a134bc5cb53cc60818dec024addb9cf6032b",
+      "size": 1396
+    },
+    {
+      "path": "proposals/auto/ecologie-energie/auto-les-ecologistes-ecologie-energie-1c2975506b0e.md",
+      "sha256": "d73fe4914147cc43cbfd0ab1c4845dbf4fed968963aa194ceeef520a92d30560",
+      "size": 1217
+    },
+    {
+      "path": "proposals/auto/ecologie-energie/auto-les-ecologistes-ecologie-energie-1f6921042a9f.md",
+      "sha256": "4fd80e35434245e16a0e2dd08bcd3b50a296f62a8bb32d0adfd7bd824c7b86f6",
+      "size": 1321
+    },
+    {
+      "path": "proposals/auto/ecologie-energie/auto-les-ecologistes-ecologie-energie-29d14540a588.md",
+      "sha256": "6d5efdd4d7921338c1d9fcbee0aeac058dd9b52a7d28531b6651271905fc59aa",
+      "size": 1453
+    },
+    {
+      "path": "proposals/auto/ecologie-energie/auto-les-ecologistes-ecologie-energie-39cf0924a36d.md",
+      "sha256": "131bcaf41381b8f82df59c3d6c0e84a08bdc0acac1a7722677b7e68297d50e68",
+      "size": 1376
+    },
+    {
+      "path": "proposals/auto/ecologie-energie/auto-les-ecologistes-ecologie-energie-39e43699d846.md",
+      "sha256": "8f41b29796b8aa8ff16bbfcd60236b2553042b537f378c547e18b948b1207e38",
+      "size": 1401
+    },
+    {
+      "path": "proposals/auto/ecologie-energie/auto-les-ecologistes-ecologie-energie-3c97c552b6b2.md",
+      "sha256": "463a1ba56f14ca9ccaa08d72cdf1ae2f2e60983a37e241e1e7a915f26fd03b2d",
+      "size": 1202
+    },
+    {
+      "path": "proposals/auto/ecologie-energie/auto-les-ecologistes-ecologie-energie-4fa06781e27d.md",
+      "sha256": "37103bfa81f03c8fbbfbd1646efb7b8cd6c6cf0b9cd3792a59a7e62104bf237c",
+      "size": 1423
+    },
+    {
+      "path": "proposals/auto/ecologie-energie/auto-les-ecologistes-ecologie-energie-575ed0687f8c.md",
+      "sha256": "f66cecf7e7db5bb5c4cfa49d37cc23258d5a4507a07056724429f320a8d65142",
+      "size": 1469
+    },
+    {
+      "path": "proposals/auto/ecologie-energie/auto-les-ecologistes-ecologie-energie-669c0fbb8b48.md",
+      "sha256": "e30d754656aa1932601f3493158cca4d6b57bab61f2f05f8f080e6a4cd08aded",
+      "size": 1333
+    },
+    {
+      "path": "proposals/auto/ecologie-energie/auto-les-ecologistes-ecologie-energie-70e572343bde.md",
+      "sha256": "8f9939c54a36b07dc3d3e3655735185279c44c690694fa51aa51ac07b364f00c",
+      "size": 1382
+    },
+    {
+      "path": "proposals/auto/ecologie-energie/auto-les-ecologistes-ecologie-energie-713411678467.md",
+      "sha256": "161702da693086fd56d3c127067f1f952af2ce9bfbb5d101074db6070e7dce14",
+      "size": 1409
+    },
+    {
+      "path": "proposals/auto/ecologie-energie/auto-les-ecologistes-ecologie-energie-78e55eacc6a6.md",
+      "sha256": "f5aeb0b8bc8e65d170280484efa9ef47abbef0a8171ba99356156ce7c69919b8",
+      "size": 1253
+    },
+    {
+      "path": "proposals/auto/ecologie-energie/auto-les-ecologistes-ecologie-energie-8c4aac5f1ccc.md",
+      "sha256": "dc4cbe6a40b6bd2058e9ffb986ea1e8716cc493db6cdcc029f6d1ec2f1af0440",
+      "size": 1556
+    },
+    {
+      "path": "proposals/auto/ecologie-energie/auto-les-ecologistes-ecologie-energie-94fbb04a8c81.md",
+      "sha256": "43e1e098b606eed22d5f20a23556ac4cd73c501be558e187091af6ca4e2a5967",
+      "size": 1369
+    },
+    {
+      "path": "proposals/auto/ecologie-energie/auto-les-ecologistes-ecologie-energie-98b58d717e22.md",
+      "sha256": "2d73dfefe53af60fe1c24ee23aea5319f3bc81de8e6d930daa059d44f7699d26",
+      "size": 1378
+    },
+    {
+      "path": "proposals/auto/ecologie-energie/auto-les-ecologistes-ecologie-energie-98f425fbe557.md",
+      "sha256": "ab54d6a3cfcd9801e34fc07c24788e9ac6cfa35197065c14fbc90b026fa0b563",
+      "size": 1355
+    },
+    {
+      "path": "proposals/auto/ecologie-energie/auto-les-ecologistes-ecologie-energie-9a833ee3fa45.md",
+      "sha256": "090bab4e68ab7972cd716f7581bfc941dec02466f0db177ed58e38a5daaaff05",
+      "size": 1350
+    },
+    {
+      "path": "proposals/auto/ecologie-energie/auto-les-ecologistes-ecologie-energie-ae3411f1f885.md",
+      "sha256": "f2289c8e7406830eab441059e50aa1fbc653d88892fddde2512c486c4e0d29aa",
+      "size": 1291
+    },
+    {
+      "path": "proposals/auto/ecologie-energie/auto-les-ecologistes-ecologie-energie-b70488dae834.md",
+      "sha256": "acee90138a9ff47beeedfdbd299a11e1f248bfd5dd628f463f828eb085f36679",
+      "size": 1443
+    },
+    {
+      "path": "proposals/auto/ecologie-energie/auto-les-ecologistes-ecologie-energie-b89b625f8789.md",
+      "sha256": "1b05eb186f8d9265b0aabb5652f95be0cfdc957c3f43139fe7c04365232ae68e",
+      "size": 1377
+    },
+    {
+      "path": "proposals/auto/ecologie-energie/auto-les-ecologistes-ecologie-energie-c3bc519390d8.md",
+      "sha256": "fd191a70072159ac12ed43fd437ee807e02410175c0072eb3bc55060fb4f7230",
+      "size": 1261
+    },
+    {
+      "path": "proposals/auto/ecologie-energie/auto-les-ecologistes-ecologie-energie-c5a3105dd5d7.md",
+      "sha256": "4b98f193f3d7ec9c4944e63694ff1f51992f438b52be2e6774b0c3f4eb8c89b4",
+      "size": 1325
+    },
+    {
+      "path": "proposals/auto/ecologie-energie/auto-les-ecologistes-ecologie-energie-ca7348eaa8c2.md",
+      "sha256": "ffb54a86aad9cb1f9a3383f4941293249e819bca36ab523267874094dfe5f7d9",
+      "size": 1416
+    },
+    {
+      "path": "proposals/auto/ecologie-energie/auto-les-ecologistes-ecologie-energie-cd6c033859c0.md",
+      "sha256": "365c293afcac8b15ae385f94ce1b0369fd0e35caebc4e2699d65a579442e8ede",
+      "size": 1383
+    },
+    {
+      "path": "proposals/auto/ecologie-energie/auto-les-ecologistes-ecologie-energie-d9f34c110d2b.md",
+      "sha256": "669e087257dada1b21c2ecb6e72a7ded6713c9d9dd6334dcb5003d32aa394535",
+      "size": 1680
+    },
+    {
+      "path": "proposals/auto/ecologie-energie/auto-les-ecologistes-ecologie-energie-e5acf69c41c8.md",
+      "sha256": "09cc476ab4cc0b3daffbdcc77ab8915296c773df73047e87f5e5c9cf1c8a10a1",
+      "size": 1351
+    },
+    {
+      "path": "proposals/auto/ecologie-energie/auto-les-ecologistes-ecologie-energie-f514d36e1019.md",
+      "sha256": "a863eb8febfa26764fe807437ace7877a2729fd7864cfc2a4fc8acd35ae70c2d",
+      "size": 1469
+    },
+    {
+      "path": "proposals/auto/ecologie-energie/auto-les-ecologistes-ecologie-energie-f7e5ace228ee.md",
+      "sha256": "0466f348454a66140eea17192ed89ce46e2682d9b2653c2d24d317650534e69f",
+      "size": 1175
+    },
+    {
+      "path": "proposals/auto/ecologie-energie/auto-les-ecologistes-ecologie-energie-f8c5a96b3b61.md",
+      "sha256": "2698e54e484a9b9b3832c74df5e9f41d4724060c7eb75f1dd9d8b3bf31c356c9",
+      "size": 1423
+    },
+    {
+      "path": "proposals/auto/economie-finances/auto-les-ecologistes-economie-finances-08d45ffdfcbf.md",
+      "sha256": "4510ed771cc35e96f429a832e54766a7e916077fb9752a4792e4c39d0f49ab7e",
+      "size": 1443
+    },
+    {
+      "path": "proposals/auto/economie-finances/auto-les-ecologistes-economie-finances-b4ecbd12d14b.md",
+      "sha256": "ab8a70f474c485c3088a39d8995c62071b9589215eeed0e9db81cc283f1392d1",
+      "size": 1355
+    },
+    {
+      "path": "proposals/auto/economie-finances/auto-les-ecologistes-economie-finances-bc72c23b9bdc.md",
+      "sha256": "fa68b12d3f1357ca66b2d9cc91ad2bfa28d0df62f28b629e39f18955bfbd072e",
+      "size": 1525
+    },
+    {
+      "path": "proposals/auto/economie-finances/auto-les-ecologistes-economie-finances-bc96a7e99db2.md",
+      "sha256": "2017227a7ba9dd3057d31317c39c4168ca65104cad0faf3dd0984d66048cb526",
+      "size": 1475
+    },
+    {
+      "path": "proposals/auto/economie-finances/auto-les-ecologistes-economie-finances-cd44bb0f14be.md",
+      "sha256": "8c5da542401be5b91cae55665144ea0c75d2c1a5c5c295414d83719512863bbf",
+      "size": 1378
+    },
+    {
+      "path": "proposals/auto/economie-finances/auto-les-ecologistes-economie-finances-d5677a575b51.md",
+      "sha256": "799a123a43602d8fe21c5246bbf9c217f97309681476016b09f669e67aab0822",
+      "size": 1413
     },
     {
       "path": "proposals/auto/economie-finances/auto-nouvelle-energie-economie-finances-1ce2938e1f05.md",
@@ -44,14 +239,124 @@
       "size": 1791
     },
     {
+      "path": "proposals/auto/europe-souverainete/auto-les-ecologistes-europe-souverainete-06952d144d39.md",
+      "sha256": "1729a07fc89e1e6f47a4fed6a74ceb107d850314096b99c6261af9fef662080e",
+      "size": 1442
+    },
+    {
+      "path": "proposals/auto/europe-souverainete/auto-les-ecologistes-europe-souverainete-09b06e8aefc6.md",
+      "sha256": "437eb98330da0ac732ebb73a47c782a36bb0d9acb212bbdb563ebaf7ac4382fe",
+      "size": 1367
+    },
+    {
+      "path": "proposals/auto/europe-souverainete/auto-les-ecologistes-europe-souverainete-0f87ce617c4f.md",
+      "sha256": "2bc3a1ac26efe4ac419e09173d3804c98f0b97e2d58707f01911fe27a3309929",
+      "size": 1414
+    },
+    {
+      "path": "proposals/auto/europe-souverainete/auto-les-ecologistes-europe-souverainete-35a643fc8737.md",
+      "sha256": "1ef20edd235458c31d747eaa87eb1c550b0778f7cbd07d612f0d125c9ba56fda",
+      "size": 1471
+    },
+    {
+      "path": "proposals/auto/europe-souverainete/auto-les-ecologistes-europe-souverainete-8639ce464a17.md",
+      "sha256": "5a724bdb3e588df248ee40c375c30c4fb004690073c34737fba5a4723829470b",
+      "size": 1400
+    },
+    {
+      "path": "proposals/auto/europe-souverainete/auto-les-ecologistes-europe-souverainete-8942230aaf69.md",
+      "sha256": "f10bf63e57cb066c5fa49bae8fb0cf288edcfc5ab01063ff8e8708c4b404ea5f",
+      "size": 1403
+    },
+    {
+      "path": "proposals/auto/europe-souverainete/auto-les-ecologistes-europe-souverainete-9138e6afb082.md",
+      "sha256": "fe21684420c4f9aadcb1149e9e001c1dba8f1022d3653ab37e6a5039f9fbe8c7",
+      "size": 1464
+    },
+    {
+      "path": "proposals/auto/europe-souverainete/auto-les-ecologistes-europe-souverainete-c1998cd60de1.md",
+      "sha256": "5d7106af3dacc21648e046e202c4559c4cd54bb33e00ef529eb782293c43fecd",
+      "size": 1343
+    },
+    {
+      "path": "proposals/auto/europe-souverainete/auto-les-ecologistes-europe-souverainete-dcff749ae8de.md",
+      "sha256": "9725488ac7e62efd96209a6c2170f9732a30bed6ac6d24e027bdd0d70d31b759",
+      "size": 1430
+    },
+    {
+      "path": "proposals/auto/europe-souverainete/auto-les-ecologistes-europe-souverainete-f2aba2035264.md",
+      "sha256": "80eae1c0c343959851b579df2c577e4d3204598f13657416bb974b535cdb3c5c",
+      "size": 1430
+    },
+    {
+      "path": "proposals/auto/fiscalite-redistribution/auto-les-ecologistes-fiscalite-redistribution-b04eb499a444.md",
+      "sha256": "9c3c08ffbaca36ee44d466247ae60ca5112e0e6a779216d2100c5f879f8b05aa",
+      "size": 1327
+    },
+    {
       "path": "proposals/auto/immigration-integration/auto-bruno-retailleau-immigration-integration-39955feaadc3.md",
       "sha256": "b106a3ef7bacda0d5868be70b1f91ed3246ece6b819f9948e279c157e97ddd02",
       "size": 2013
     },
     {
+      "path": "proposals/auto/immigration-integration/auto-les-ecologistes-immigration-integration-ddbed1d619f4.md",
+      "sha256": "3e04b508cd36f40f4fc396d72a73e46f68c27eb611d9be4f3f813a0b8b24fb5b",
+      "size": 1384
+    },
+    {
       "path": "proposals/auto/institutions-democratie/auto-bruno-retailleau-institutions-democratie-f5a91461b7da.md",
-      "sha256": "0432f3cb9ff9955f931abb0b99fecc426c385618bf529a51ff398648cf790cef",
-      "size": 1677
+      "sha256": "8c9a47f29f35fbbe4f96deaa72d2767d1d97a0750fe83a1c7ab48a1c373f1f54",
+      "size": 1792
+    },
+    {
+      "path": "proposals/auto/institutions-democratie/auto-les-ecologistes-institutions-democratie-07f4bc74473a.md",
+      "sha256": "a2b54a0fe4fae873f06c7a3e236833606303655528847bbb9e4f55ba4a5af481",
+      "size": 1525
+    },
+    {
+      "path": "proposals/auto/institutions-democratie/auto-les-ecologistes-institutions-democratie-1bbf55d2ed3a.md",
+      "sha256": "c0d98eabbe8d954934be7ef339a314e847553b2d4043a3d92dfa3295292fae1e",
+      "size": 1273
+    },
+    {
+      "path": "proposals/auto/institutions-democratie/auto-les-ecologistes-institutions-democratie-3365fa3a135b.md",
+      "sha256": "7b3a5df3abc7e0b8769850c8837f595837a6f0d8845a53575afe5130fbe2f3c6",
+      "size": 1381
+    },
+    {
+      "path": "proposals/auto/institutions-democratie/auto-les-ecologistes-institutions-democratie-421d2b75ed25.md",
+      "sha256": "407c7aecf7f3e39336beba0d97b47d54943dd1a45aefb5919932541fe06a959f",
+      "size": 1301
+    },
+    {
+      "path": "proposals/auto/institutions-democratie/auto-les-ecologistes-institutions-democratie-53a50006e0f9.md",
+      "sha256": "ac7799bb6f110c7d4c7b1f7ef2a42573edb44a0e249737df42fa48487061318f",
+      "size": 1386
+    },
+    {
+      "path": "proposals/auto/institutions-democratie/auto-les-ecologistes-institutions-democratie-60cbc24f7fb8.md",
+      "sha256": "a6cad6408b1e28459dc010f997a9913a56fd0b7dc77335ee9224d0dbd5efe1aa",
+      "size": 1607
+    },
+    {
+      "path": "proposals/auto/institutions-democratie/auto-les-ecologistes-institutions-democratie-8abade38aa7c.md",
+      "sha256": "c6ec334dd3df861b0e9c0db509156ac7ad04fe3b36e379c78899836a5c47b9a7",
+      "size": 1261
+    },
+    {
+      "path": "proposals/auto/institutions-democratie/auto-les-ecologistes-institutions-democratie-a9fc546cdcc4.md",
+      "sha256": "b35fc2868325eda56bbbc01d60cea3ba733b735d8941ee028d5705ffdf8b14d0",
+      "size": 1490
+    },
+    {
+      "path": "proposals/auto/institutions-democratie/auto-les-ecologistes-institutions-democratie-b5b1465a414b.md",
+      "sha256": "81ec4d49e8fd61ac1931ad11e96bf26a48997f4b8a0df94c602c6e19af30c3d1",
+      "size": 1342
+    },
+    {
+      "path": "proposals/auto/institutions-democratie/auto-les-ecologistes-institutions-democratie-d440a4e0a243.md",
+      "sha256": "a61bfaba33ef9391667959bf67f65816c7fc9f826908c8f7e24e815b89aab1c1",
+      "size": 1150
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-nouvelle-energie-institutions-democratie-1d98a3b70af1.md",
@@ -64,6 +369,61 @@
       "size": 1661
     },
     {
+      "path": "proposals/auto/pouvoir-achat-travail/auto-les-ecologistes-pouvoir-achat-travail-04b16919c921.md",
+      "sha256": "bca276a703f81e3b38f08c667d731c4fd76d68e9ea7fdedcba25634b5b76e862",
+      "size": 1469
+    },
+    {
+      "path": "proposals/auto/pouvoir-achat-travail/auto-les-ecologistes-pouvoir-achat-travail-37ff8dac198e.md",
+      "sha256": "093eff8c81076ef34ad95affaccd0ee50cd94d61301580870651e65e85cbe18d",
+      "size": 1421
+    },
+    {
+      "path": "proposals/auto/pouvoir-achat-travail/auto-les-ecologistes-pouvoir-achat-travail-46c8a3d4d624.md",
+      "sha256": "f5a1c4c4c42ecaed8256dd4e98cda58b68f944003cc90b941bdeae650c3e79c1",
+      "size": 1389
+    },
+    {
+      "path": "proposals/auto/pouvoir-achat-travail/auto-les-ecologistes-pouvoir-achat-travail-6976a0d43e09.md",
+      "sha256": "17682a56570fbb854c8e29ded2ca33a94ed85d45325280fa6c9754206a4c023f",
+      "size": 1496
+    },
+    {
+      "path": "proposals/auto/pouvoir-achat-travail/auto-les-ecologistes-pouvoir-achat-travail-7c77038e5649.md",
+      "sha256": "919096eade6ded9a2ac6cd42edeb9b5fb3a84c2df5ef8b5121d4f3e643b417f2",
+      "size": 1445
+    },
+    {
+      "path": "proposals/auto/pouvoir-achat-travail/auto-les-ecologistes-pouvoir-achat-travail-95626fd7775e.md",
+      "sha256": "144918fa641c8a94181b2edc79bbefc8a6434db036bd4379e46dfc6cc4ddca1e",
+      "size": 1298
+    },
+    {
+      "path": "proposals/auto/pouvoir-achat-travail/auto-les-ecologistes-pouvoir-achat-travail-9813c2e92818.md",
+      "sha256": "534c5ce5e9fd1145876d90e0ba69f0d343731e37376482d50d36594eaad0ce23",
+      "size": 1468
+    },
+    {
+      "path": "proposals/auto/pouvoir-achat-travail/auto-les-ecologistes-pouvoir-achat-travail-a35c1dea3b94.md",
+      "sha256": "81be80a42feab568e9399068915c4d89697dcceb1fb8b6ac2d52e641f7ba6863",
+      "size": 1504
+    },
+    {
+      "path": "proposals/auto/pouvoir-achat-travail/auto-les-ecologistes-pouvoir-achat-travail-a86b948aa54e.md",
+      "sha256": "0922677895b533cda321a52f61befbb06145c6ab4c6aeadb203069467e5095ae",
+      "size": 1573
+    },
+    {
+      "path": "proposals/auto/pouvoir-achat-travail/auto-les-ecologistes-pouvoir-achat-travail-e752ed5b4f79.md",
+      "sha256": "3aab8656cd48390b00af87db92c0d6d7c8284d2c9a3541c19526f24b67b13856",
+      "size": 1377
+    },
+    {
+      "path": "proposals/auto/retraites/auto-les-ecologistes-retraites-c34ed71b2ee5.md",
+      "sha256": "c7bd67b63e9363f6e68fbf9615131eacaaa8764fc791b6556dfc70ba95f18329",
+      "size": 1342
+    },
+    {
       "path": "proposals/auto/retraites/auto-nouvelle-energie-retraites-4b9149336ab7.md",
       "sha256": "a982c94bdc9ef3e0ad0fbd98c67ef229400a887720fb3aa964330daa575a2164",
       "size": 1821
@@ -74,9 +434,179 @@
       "size": 1912
     },
     {
+      "path": "proposals/auto/securite-justice/auto-bruno-retailleau-securite-justice-7b2b02ba25a3.md",
+      "sha256": "4ab36354b363e0b37bbeb8234ad05f1e2fb0b0b1c259ce57ef7fa398ffad4c1e",
+      "size": 1771
+    },
+    {
       "path": "proposals/auto/securite-justice/auto-les-ecologistes-securite-justice-0d29bfb3d832.md",
       "sha256": "ce5100c2715a741e6c99b2ad4e023e005fef8159410668c909024f5f61884a3d",
       "size": 1190
+    },
+    {
+      "path": "proposals/auto/securite-justice/auto-les-ecologistes-securite-justice-58934ed08bf9.md",
+      "sha256": "d0e2f50352d60fd288c3cb44a73c947a1d95a9b0671f3b2e1124f9b75e868ff8",
+      "size": 1283
+    },
+    {
+      "path": "proposals/auto/securite-justice/auto-les-ecologistes-securite-justice-6d2b4ea064a0.md",
+      "sha256": "7e1d94bb9767bde24c50f84c26d15496ac761ec827ada3fb3d20cd8958019ef9",
+      "size": 1344
+    },
+    {
+      "path": "proposals/auto/securite-justice/auto-les-ecologistes-securite-justice-7ffbf31a79a8.md",
+      "sha256": "71fad06bc99f4cc57332596361e2b03d7d923b803375ce36644bef8a771bfbb3",
+      "size": 1225
+    },
+    {
+      "path": "proposals/auto/securite-justice/auto-les-ecologistes-securite-justice-89b4793b863b.md",
+      "sha256": "7ae48ed82de8a0179e85d8bf8a2cc710cf993d1ffd7e32d8e5ac25c13a369e40",
+      "size": 1527
+    },
+    {
+      "path": "proposals/auto/securite-justice/auto-les-ecologistes-securite-justice-8e77b780146f.md",
+      "sha256": "bea1d3af5e85fef5ed60da8d43537f7148cf5c98194e988a87e5f9131dccb4ee",
+      "size": 1456
+    },
+    {
+      "path": "proposals/auto/securite-justice/auto-les-ecologistes-securite-justice-957de2f65856.md",
+      "sha256": "c1b426f00a232911dd4f1a4f67a379846a82516dbe648bf4e655ae99eadef5f4",
+      "size": 1435
+    },
+    {
+      "path": "proposals/auto/securite-justice/auto-les-ecologistes-securite-justice-9eba62f38357.md",
+      "sha256": "8c0531be4f1c815c8bba21481714bf4d0b004a444f4d948d8008633a9de102a9",
+      "size": 1428
+    },
+    {
+      "path": "proposals/auto/securite-justice/auto-les-ecologistes-securite-justice-d5b0823e4f44.md",
+      "sha256": "7727323c32dd032438f6c94e93b4af91f1f1f6c9632c9d107aa896a616f81df5",
+      "size": 1312
+    },
+    {
+      "path": "proposals/auto/securite-justice/auto-les-ecologistes-securite-justice-ec2bf1843b17.md",
+      "sha256": "573cdb03a77085ddacabad4e9d9643b297bd34f8589b32ec1de7dc674b66c416",
+      "size": 1116
+    },
+    {
+      "path": "proposals/auto/services-publics/auto-les-ecologistes-services-publics-06776c72e505.md",
+      "sha256": "6e097225a4696b532b2748db570f28e93eb37f41f15e09ed0a706436b7a602c1",
+      "size": 1228
+    },
+    {
+      "path": "proposals/auto/services-publics/auto-les-ecologistes-services-publics-08614aea585e.md",
+      "sha256": "c2fe7758a554835b4eda8d816b842ce6690bf4a29994ecca11874b6d033b671b",
+      "size": 1307
+    },
+    {
+      "path": "proposals/auto/services-publics/auto-les-ecologistes-services-publics-16d0e2a8a0eb.md",
+      "sha256": "69ba34efd5b3b5a0ffb1f3ce49fd3c1292ea55e9972165b060bf33fb3e6fcc57",
+      "size": 1355
+    },
+    {
+      "path": "proposals/auto/services-publics/auto-les-ecologistes-services-publics-1f404ff53239.md",
+      "sha256": "ac60db12bf9b17c4166a54d37f7ba069c981e746b38e5a1dec9b3380815ca5c1",
+      "size": 1360
+    },
+    {
+      "path": "proposals/auto/services-publics/auto-les-ecologistes-services-publics-25e6861dade8.md",
+      "sha256": "30cb71436cdf24d650de99b1d12519373dd6906287d1c8daeb2d52164bb1ee58",
+      "size": 1368
+    },
+    {
+      "path": "proposals/auto/services-publics/auto-les-ecologistes-services-publics-29bce0a3e519.md",
+      "sha256": "68e021945ec5484378f0157e3cef40f9a9f8c05d871c9a13264717b3237e85e5",
+      "size": 1343
+    },
+    {
+      "path": "proposals/auto/services-publics/auto-les-ecologistes-services-publics-2b53f023faa1.md",
+      "sha256": "618ab7dbf20dce3eee9ebc4b904407935a5003c0efa2b7c02946e7db93151e29",
+      "size": 1376
+    },
+    {
+      "path": "proposals/auto/services-publics/auto-les-ecologistes-services-publics-31eae1377603.md",
+      "sha256": "b0be5222a8ea87389f0302cefb8b40277415a03a25787880d55aaba0f939c486",
+      "size": 1344
+    },
+    {
+      "path": "proposals/auto/services-publics/auto-les-ecologistes-services-publics-4eb88e4dbe58.md",
+      "sha256": "42eda0f5e7f8a8f9f59431ce33b1eee0376119a3d836ae64356735df070a6a1e",
+      "size": 1404
+    },
+    {
+      "path": "proposals/auto/services-publics/auto-les-ecologistes-services-publics-5f1f89ce2046.md",
+      "sha256": "285aa4e232f9da11e06b0fc5a0b32720d872244cf098bda004e809c55813ecc8",
+      "size": 1245
+    },
+    {
+      "path": "proposals/auto/services-publics/auto-les-ecologistes-services-publics-67950718766f.md",
+      "sha256": "1364561a8c4c449394f864ddc9339647fae5a5f2bb1762d536e101a7a8a057e5",
+      "size": 1357
+    },
+    {
+      "path": "proposals/auto/services-publics/auto-les-ecologistes-services-publics-7fa0ceb0e5c1.md",
+      "sha256": "131b665c77101b98e16ff596bdc4a6944dd516cd4c1e27d7ee36fc877990c470",
+      "size": 1262
+    },
+    {
+      "path": "proposals/auto/services-publics/auto-les-ecologistes-services-publics-8011a191404c.md",
+      "sha256": "6e783e3c46907ff753391a02382f317fa7eeb3e9a0e5d446e9f85e918ff0ffa6",
+      "size": 1372
+    },
+    {
+      "path": "proposals/auto/services-publics/auto-les-ecologistes-services-publics-9f942d0b6aee.md",
+      "sha256": "db4eff38acd7bd479b2b285b351db925485974e67c563dca1f36d28147f1645d",
+      "size": 1376
+    },
+    {
+      "path": "proposals/auto/services-publics/auto-les-ecologistes-services-publics-a61e7bbd006d.md",
+      "sha256": "588a3c3d40eb77306cb92fdf41ba9d208eb47b80d0f274d6264e3c5cb01b2faf",
+      "size": 1383
+    },
+    {
+      "path": "proposals/auto/services-publics/auto-les-ecologistes-services-publics-aab17167c654.md",
+      "sha256": "e01a4ff133967c50b85090f283aadb6c11fe125fd81800f0300c47e3d7bfdc56",
+      "size": 1330
+    },
+    {
+      "path": "proposals/auto/services-publics/auto-les-ecologistes-services-publics-b177e36eee81.md",
+      "sha256": "b6478d4c781769155b7f3fbb1562bd4743e2a22f30a3887f4966e79efed880ff",
+      "size": 1228
+    },
+    {
+      "path": "proposals/auto/services-publics/auto-les-ecologistes-services-publics-b22f8d6eebea.md",
+      "sha256": "dc80189fef103d1ac76c29b08a3c45ad0a99d54cfdd7f93766d3967109de3a27",
+      "size": 1388
+    },
+    {
+      "path": "proposals/auto/services-publics/auto-les-ecologistes-services-publics-be6f806cad04.md",
+      "sha256": "b466869d990a47c435e42fc823a0edb01b9fbea9f03eef4c228d0c16f3ca7145",
+      "size": 1344
+    },
+    {
+      "path": "proposals/auto/services-publics/auto-les-ecologistes-services-publics-c93affd1a115.md",
+      "sha256": "6e81027372f29e258009dbd12ba5354c6d91a8cd3f629d363e242e539a6e8207",
+      "size": 1283
+    },
+    {
+      "path": "proposals/auto/services-publics/auto-les-ecologistes-services-publics-d681e5a6f8ec.md",
+      "sha256": "3e3c1c2402b72d8928646d2643fc1adfc569391bb401ef4b4ce2394c713973be",
+      "size": 1298
+    },
+    {
+      "path": "proposals/auto/services-publics/auto-les-ecologistes-services-publics-db7a764bd1d4.md",
+      "sha256": "ec225bb57af72b7d1c009dc3b5c1cf3a9817ab02d73c001dfcbd97dfbb8f1894",
+      "size": 1309
+    },
+    {
+      "path": "proposals/auto/services-publics/auto-les-ecologistes-services-publics-e404e222f8cc.md",
+      "sha256": "904fe52667d7557bd3613d7a4f203fa3b9114a43d320e7aaf9e65ea4324ffec5",
+      "size": 1462
+    },
+    {
+      "path": "proposals/auto/services-publics/auto-les-ecologistes-services-publics-f7c6164b3803.md",
+      "sha256": "ecd56ef659b702dfa774e9ff68fc43da7ae94016c59e899ce5bc420f740c56c1",
+      "size": 1388
     },
     {
       "path": "proposals/auto/services-publics/auto-nouvelle-energie-services-publics-0f99d5897943.md",
@@ -89,9 +619,39 @@
       "size": 1806
     },
     {
+      "path": "proposals/ecologie-energie/les-ecologistes-location-sociale-vehicules-electriques.md",
+      "sha256": "54b89c329a6ee9d3baa1937f16872e6374cb4ad88b8be90b1f26bbf46c119b0a",
+      "size": 916
+    },
+    {
+      "path": "proposals/fiscalite-redistribution/les-ecologistes-impot-plancher-patrimoine.md",
+      "sha256": "2a8a890a0d0b316d7cb71a8fa85eec03cd49be65fde246eda6d1a0ff1e621eff",
+      "size": 927
+    },
+    {
       "path": "proposals/immigration/bruno-retailleau-reduire-immigration.md",
-      "sha256": "a6a448ca53dc65b963ae57a0888463423dcfe354bceefab9ff5a9f1b0219d93d",
-      "size": 907
+      "sha256": "94718a31130b5fce6036e1103a8a5b07c92c46d180d3769de6a3d082245f95d5",
+      "size": 1020
+    },
+    {
+      "path": "proposals/institutions-democratie/les-ecologistes-principe-habitabilite-constitution.md",
+      "sha256": "b98bafa74593680b8b1177c3b4490ed2ee546bb19c9904bad63b3416c82ef126",
+      "size": 947
+    },
+    {
+      "path": "proposals/pouvoir-achat-travail/les-ecologistes-conge-climatique.md",
+      "sha256": "74624ea3d99ca3379e90ffa8fecd8d950f4079cd3e96bdeba1c3ed05af79fc72",
+      "size": 920
+    },
+    {
+      "path": "proposals/pouvoir-achat-travail/les-ecologistes-smic-2000-brut.md",
+      "sha256": "a7580e5bcde9d730349a1be2dca1e4ed2ada1cce1dc3ca4e17f0baad4df55bbf",
+      "size": 920
+    },
+    {
+      "path": "proposals/services-publics/les-ecologistes-2000-centres-sante.md",
+      "sha256": "252638f1c4d87f93d0e00847063b87e5fcd3e475edcc7df8d44cd51306c2dbf8",
+      "size": 884
     }
   ],
   "deleted_files": []
