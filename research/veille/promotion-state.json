@@ -1393,7 +1393,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-08-20T10:10:51+00:00",
+  "last_run_at": "2026-08-20T14:12:32+00:00",
   "source_chunks": {
     "020221717496955b329ee982": {
       "canonical_confirmations": [],
@@ -2753,6 +2753,38 @@
       "total": 1,
       "updated_at": "2026-08-12T21:48:14+00:00",
       "url": "https://melenchon2027.fr/programme2025/livre/chapitre2/"
+    },
+    "2afe856652bbf63516532b97": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-08-20T14:12:28+00:00",
+      "document_types": [
+        "official_press_release"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [
+        "2026-06-17"
+      ],
+      "sha256": "d61d2bf356b027c647c9c240c27ccfbb5d8275afd4952305eadf1950c2bb5535",
+      "source_title": "Communiqué - Présidentielle 2027 : Selma Labib, une candidature ouvrière et révolutionnaire, soutenue par Gaël Quirante - NPA Révolutionnaires",
+      "statuses": [
+        {
+          "status": {
+            "candidate_id": "selma-labib",
+            "effective_date": "2026-06-07",
+            "evidence_quote": "a décidé de présenter à l’élection présidentielle du printemps 2027 Selma Labib",
+            "explicit": true,
+            "new_status": "declared_presidential"
+          }
+        }
+      ],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-20T14:12:31+00:00",
+      "url": "https://npa-revolutionnaires.org/communique-presidentielle-2027-selma-labib-une-candidature-ouvriere-et-revolutionnaire-soutenue-par-gael-quirante/"
     },
     "34981b1b3f4fa162a914e7ed": {
       "claims": [],
@@ -5970,6 +6002,26 @@
       "total": 1,
       "updated_at": "2026-08-13T03:40:17+00:00",
       "url": "https://melenchon2027.fr/programme2025/livre/chapitre5/"
+    },
+    "7c26580df0dcf99dd5450bfb": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-08-20T14:12:32+00:00",
+      "document_types": [
+        "other"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "65314aa244b0306d3a48329b7a1ad3d86bae3e1297970b4967251894e601784e",
+      "source_title": "Après l’été de bascule que l’on vient de vivre, on ne peut pas recommencer à sacrifier l’écologie dans le budget comme si de rien n’était. Je demande au Premier ministre de réunir",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-20T14:12:33+00:00",
+      "url": "https://bsky.app/profile/marinetondelier.fr/post/3mtj6sxo7ns2w"
     },
     "7cb9813853c318b2651f4196": {
       "canonical_confirmations": [],
@@ -11142,6 +11194,26 @@
       "updated_at": "2026-08-12T14:41:26+00:00",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
+    "b02b9254118f85c93c8bfd62": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-08-20T14:12:34+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "e0ffd40d85abe79c99ab62d9a593ad55e7a6a7bc90a08ae12b020d26c57ee4f3",
+      "source_title": "EDWIGE DIAZ : « Les retraités ont travaillé, ils ont cotisé, ils ont pris leur part » (France Info)",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-20T14:12:35+00:00",
+      "url": "https://www.youtube.com/watch?v=_eUy3z_ryhg"
+    },
     "b1362e94378ea3cd61dfd643": {
       "canonical_confirmations": [],
       "claims": [],
@@ -12589,6 +12661,118 @@
       "updated_at": "2026-08-11T12:15:04+00:00",
       "url": "https://bsky.app/profile/marinetondelier.fr/post/3mssha7jd2s2c"
     },
+    "db461737a8b9df29d76a70c1": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "nouvelle-energie",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "un État recentré sur ses missions régaliennes de sécurité et de défense",
+            "relevance": "direct",
+            "statement": "Nouvelle Énergie prône un État recentré sur ses missions régaliennes de sécurité et de défense.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Explicitement présent dans le texte source et équivalent au canonique existant.",
+            "related_proposal_id": "auto-nouvelle-energie-institutions-democratie-1d98a3b70af1",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "nouvelle-energie",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "la libération des énergies créatrices par une profonde débureaucratisation",
+            "relevance": "direct",
+            "statement": "Nouvelle Énergie propose de libérer les énergies créatrices par une profonde débureaucratisation.",
+            "topic": "economie-finances"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "Explicitement soutenu par la source et déjà présent dans le canonique.",
+            "related_proposal_id": "auto-nouvelle-energie-economie-finances-ce6ab5f9ca2a",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "nouvelle-energie",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "une école d’excellence pour faire de la France une superpuissance éducative et scientifique",
+            "relevance": "direct",
+            "statement": "Nouvelle Énergie défend une école d'excellence pour faire de la France une superpuissance éducative et scientifique.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "Soutenu par la source et présent dans le canonique.",
+            "related_proposal_id": "auto-nouvelle-energie-services-publics-0f99d5897943",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "nouvelle-energie",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "suppression de la carte scolaire",
+            "relevance": "direct",
+            "statement": "Nouvelle Énergie défend la liberté pour les parents de scolariser leurs enfants là où ils le veulent via la suppression de la carte scolaire.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 3,
+            "reason": "Soutenu par la source et présent dans le canonique.",
+            "related_proposal_id": "auto-nouvelle-energie-services-publics-2dd30b44dc9c",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "nouvelle-energie",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "la liberté pour les travailleurs de se constituer un capital pour leur retraite (capitalisation)",
+            "relevance": "direct",
+            "statement": "Nouvelle Énergie défend la liberté pour les travailleurs de se constituer un capital pour leur retraite par capitalisation.",
+            "topic": "retraites"
+          },
+          "verdict": {
+            "index": 4,
+            "reason": "Soutenu par la source et présent dans le canonique.",
+            "related_proposal_id": "auto-nouvelle-energie-retraites-4b9149336ab7",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-08-20T14:12:14+00:00",
+      "created_at": "2026-08-20T14:11:58+00:00",
+      "document_types": [
+        "party_programme"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "489cdb9d0baed3197bf590637c35ed22724d9b2d52d5d0b05dc6d9eaf35e6dcb",
+      "source_title": "Le programme de David Lisnard | Nouvelle Énergie",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-20T14:12:15+00:00",
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/"
+    },
     "dc67165972a4f9a22f35690d": {
       "claims": [],
       "completed_at": "2026-08-12T14:41:20+00:00",
@@ -12620,6 +12804,26 @@
       "total": 1,
       "updated_at": "2026-08-12T14:41:20+00:00",
       "url": "https://www.unenouvelleenergie.fr/questions/david-lisnard-est-il-candidat-a-la-presidentielle-2027/"
+    },
+    "dc807476a302c1e7391b1ae9": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-08-20T14:12:36+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "e50064c453ce08bc23dea0ff641a3d93585c33aa9d7df9e898e6841ee328b3a3",
+      "source_title": "Consentement, égalité, prévention des violences, vie affective et sexuelle… L'éducation à la vie affective, relationnelle et à la sexualité (EVARS) fait beaucoup parler d’elle. M",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-20T14:12:37+00:00",
+      "url": "https://bsky.app/profile/lesecologistes.fr/post/3mtgcdeayzs2q"
     },
     "dee7b77531b4b4c2fe8f1328": {
       "claims": [
@@ -14190,6 +14394,15 @@
       "status": "not_confirmed",
       "url": "https://npa-revolutionnaires.org/communique-presidentielle-2027-selma-labib-une-candidature-ouvriere-et-revolutionnaire-soutenue-par-gael-quirante/"
     },
+    "4ecdc921d889": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-20T14:12:24+00:00",
+      "reason": null,
+      "source_sha256": "489cdb9d0baed3197bf590637c35ed22724d9b2d52d5d0b05dc6d9eaf35e6dcb",
+      "status": "not_confirmed",
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/"
+    },
     "4f4e22cba7e5": {
       "chunks_done": null,
       "chunks_total": 1,
@@ -14438,6 +14651,15 @@
       "status": "not_confirmed",
       "url": "https://solutiondemocratique.fr/benoit-mathieu-programme-2027/"
     },
+    "9d46faf51e90": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-20T14:12:31+00:00",
+      "reason": "chronology_or_scope_guard",
+      "source_sha256": "d61d2bf356b027c647c9c240c27ccfbb5d8275afd4952305eadf1950c2bb5535",
+      "status": "not_confirmed",
+      "url": "https://npa-revolutionnaires.org/communique-presidentielle-2027-selma-labib-une-candidature-ouvriere-et-revolutionnaire-soutenue-par-gael-quirante/"
+    },
     "a1a43e52aa29": {
       "chunks_done": null,
       "chunks_total": 3,
@@ -14534,6 +14756,15 @@
       "source_sha256": "868cf26b53a46210f449b0dfe2b0a7c0e9a41d5ae90eabe04b9a74902fe40fc7",
       "status": "not_confirmed",
       "url": "https://parti-equinoxe.fr/legislatives-2022-programme-international/"
+    },
+    "b14ee24e0a1a": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-20T14:12:14+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "489cdb9d0baed3197bf590637c35ed22724d9b2d52d5d0b05dc6d9eaf35e6dcb",
+      "status": "promoted",
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/"
     },
     "b34d647cd8d1": {
       "chunks_done": null,

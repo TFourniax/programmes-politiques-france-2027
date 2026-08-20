@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created_at": "2026-08-17T19:57:19.441897+00:00",
-  "updated_at": "2026-08-20T10:11:03.387359+00:00",
+  "updated_at": "2026-08-20T14:12:41.692673+00:00",
   "files": [
     {
       "path": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-02b6fd496b7b.md",
@@ -52,6 +52,11 @@
       "path": "corpus/2027/auto/partys/nouvelle-energie/2026-08-20-062668f762e9.md",
       "sha256": "1aa8725e6b7dd518888103e8182c86276539082853a8ab28ae79e6436f9d78bc",
       "size": 2405
+    },
+    {
+      "path": "corpus/2027/auto/partys/nouvelle-energie/2026-08-20-db461737a8b9.md",
+      "sha256": "8cd39780f74f20db1e3b7017263db4149659aa6d7679988553f6fba5b6254419",
+      "size": 2631
     },
     {
       "path": "corpus/2027/auto/partys/solution-democratique/2025-04-09-7fa3658e1707.md",
@@ -255,8 +260,8 @@
     },
     {
       "path": "proposals/auto/economie-finances/auto-nouvelle-energie-economie-finances-ce6ab5f9ca2a.md",
-      "sha256": "76c776be00dd4560a7edd3e794aa8ebc4c316db40c172828e8acae62b0ee77ba",
-      "size": 1876
+      "sha256": "af96828ec48b8ae9c6953c12af32f31ef8b75c6e08ce6617a71b8f5b30d38104",
+      "size": 1991
     },
     {
       "path": "proposals/auto/europe-souverainete/auto-bruno-retailleau-europe-souverainete-ed8d0d14bccb.md",
@@ -400,8 +405,8 @@
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-nouvelle-energie-institutions-democratie-1d98a3b70af1.md",
-      "sha256": "f2d87769b4be6bc4906c9514327762ecc27af4e69b1d1ab7f4dad28a3093f0da",
-      "size": 1766
+      "sha256": "320f798eb9e7660ca97ba66cec757578b6704d3d4faa8270bd47f8e39c590b2b",
+      "size": 1881
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-solution-democratique-institutions-democratie-4ea1c22d52ea.md",
@@ -470,8 +475,8 @@
     },
     {
       "path": "proposals/auto/retraites/auto-nouvelle-energie-retraites-4b9149336ab7.md",
-      "sha256": "2cc4401319bf64d7a9bcf3b5e9d09f9b648d63d46807c6cfdb954ac6dbf02019",
-      "size": 1936
+      "sha256": "b6e13dc49697a7d33150bb72d47eb98c42c41e928429ae37bf5f511846f12121",
+      "size": 2051
     },
     {
       "path": "proposals/auto/securite-justice/auto-bruno-retailleau-securite-justice-703dc438f470.md",
@@ -655,13 +660,13 @@
     },
     {
       "path": "proposals/auto/services-publics/auto-nouvelle-energie-services-publics-0f99d5897943.md",
-      "sha256": "c2cdd2ea03cdb5445a09967391d63b08d6f155184d33486ef4bd36952cc0f87a",
-      "size": 1964
+      "sha256": "81e4e326fe4a8359217fed1bca06a38840d1d2597057b54e6a4c71417e382970",
+      "size": 2079
     },
     {
       "path": "proposals/auto/services-publics/auto-nouvelle-energie-services-publics-2dd30b44dc9c.md",
-      "sha256": "5fcb46ca9c959ca2fb516a5a3a5dfdfa0d8eefa6f4103989097cacbde2ac0d62",
-      "size": 1921
+      "sha256": "71e5accb90d927f73a19abbec351d82b08dea08e405517c95f56ec672f559f7f",
+      "size": 2036
     },
     {
       "path": "proposals/ecologie-energie/les-ecologistes-location-sociale-vehicules-electriques.md",

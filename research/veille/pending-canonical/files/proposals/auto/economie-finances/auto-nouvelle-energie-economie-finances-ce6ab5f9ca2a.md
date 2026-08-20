@@ -6,7 +6,7 @@ topic: economie-finances
 certainty: explicit
 proposal_status: current
 source_document_ids: [auto-nouvelle-energie-2026-08-12-84687a6089b8, auto-nouvelle-energie-2026-08-16-391f5104d410, auto-nouvelle-energie-2026-08-18-f489a53bb3fe,
-  auto-nouvelle-energie-2026-08-20-062668f762e9]
+  auto-nouvelle-energie-2026-08-20-062668f762e9, auto-nouvelle-energie-2026-08-20-db461737a8b9]
 source_url: https://www.unenouvelleenergie.fr/notre-programme/
 source_tier: tier_1_primary_official
 first_documented_at: '2026-08-12'
@@ -17,8 +17,9 @@ evidence_sha256: 483c5cca9ce4e53d7ffece152c3d6584b2f150047b234270422894776a01f53
 generated_by: scripts/auto_promote.py
 source_urls: ['https://www.unenouvelleenergie.fr/notre-programme/']
 evidence_sha256s: [483c5cca9ce4e53d7ffece152c3d6584b2f150047b234270422894776a01f531, bfd8c09b009d67f74f58ebf85c979ae3e78b9a312c6e79efc851f58f1fda8035,
-  839704023bb945c20944b4a1acf900e6e6b4d0b398d757b0aef2006518d0844b, 1eb28a14537fd7186cd6df902ba6b6b140cc6de4de1701724f76346ce9ed36b2]
-confirmation_count: 4
+  839704023bb945c20944b4a1acf900e6e6b4d0b398d757b0aef2006518d0844b, 1eb28a14537fd7186cd6df902ba6b6b140cc6de4de1701724f76346ce9ed36b2,
+  489cdb9d0baed3197bf590637c35ed22724d9b2d52d5d0b05dc6d9eaf35e6dcb]
+confirmation_count: 5
 last_confirmed_at: '2026-08-20'
 ---
 
