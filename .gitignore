@@ -8,3 +8,5 @@ __pycache__/
 .pytest_cache/
 *.pyc
 data/search-index.json
+test-results/
+playwright-report/
