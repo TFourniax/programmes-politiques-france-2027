@@ -26,6 +26,8 @@ on:
       - 'scripts/promote_social.py'
       - 'scripts/repair_promotion_state.py'
       - 'scripts/canonical_queue.py'
+      - 'scripts/restore_canonical_head.py'
+      - 'scripts/normalize_source_health.py'
       - 'scripts/build_coverage_report.py'
       - 'scripts/update_source_health.py'
       - 'scripts/update_watch_health.py'
@@ -43,6 +45,8 @@ on:
       - 'tests/test_verify_social.py'
       - 'tests/test_repair_promotion_state.py'
       - 'tests/test_canonical_queue.py'
+      - 'tests/test_release_state_persistence.py'
+      - 'tests/test_normalize_source_health.py'
       - 'tests/test_coverage_report.py'
       - 'tests/test_update_source_health.py'
       - 'tests/test_update_watch_health.py'
@@ -141,6 +145,9 @@ jobs:
       - name: Update official source health
         run: python scripts/update_source_health.py
 
+      - name: Normalize reachable anti-bot source responses
+        run: python scripts/normalize_source_health.py
+
       - name: Collect press radar
         run: python scripts/gdelt_watch.py
 
@@ -194,6 +201,8 @@ jobs:
             tests/test_promote_social.py \
             tests/test_repair_promotion_state.py \
             tests/test_canonical_queue.py \
+            tests/test_release_state_persistence.py \
+            tests/test_normalize_source_health.py \
             tests/test_coverage_report.py \
             tests/test_update_source_health.py \
             tests/test_update_watch_health.py \
@@ -213,6 +222,47 @@ jobs:
 
       - name: Build canonical coverage report
         run: python scripts/build_coverage_report.py
+
+      - name: Restore canonical HEAD before persisting watch state
+        if: steps.canonical.outputs.publish == 'true'
+        run: python scripts/restore_canonical_head.py
+
+      - name: Persist autonomous watch state and pending canonical queue
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add research/veille
+          if git diff --cached --quiet; then
+            echo "No watch-state changes to persist."
+          else
+            git commit -m "veille: état de surveillance $(date -u +%F)"
+          fi
+
+          if [ -n "$(git status --porcelain --untracked-files=all)" ]; then
+            echo "::error::Unexpected working-tree changes remain before autonomous rebase."
+            git status --short
+            exit 1
+          fi
+
+          for attempt in 1 2 3; do
+            git fetch origin main
+            if ! git rebase origin/main; then
+              git rebase --abort || true
+              echo "::error::Unable to rebase autonomous watch state onto current main; refusing a destructive push."
+              exit 1
+            fi
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            echo "Remote main advanced during watch-state push attempt ${attempt}; retrying safely."
+          done
+          echo "::error::Remote main kept advancing; autonomous watch state was not pushed after bounded retries."
+          exit 1
+
+      - name: Restore queued canonical batch for release validation
+        if: steps.canonical.outputs.publish == 'true'
+        run: python scripts/canonical_queue.py prepare
 
       - name: Report pending canonical publication
         if: steps.canonical.outputs.changed == 'true' && steps.canonical.outputs.publish != 'true'
@@ -262,36 +312,37 @@ jobs:
           CI: 'true'
         run: npx playwright test -c playwright.v31.config.mjs --project=firefox-smoke --project=webkit-smoke --project=mobile-webkit-smoke tests/e2e/cross-browser-smoke.spec.js
 
-      - name: Commit verified watch state or grouped canonical publication
+      - name: Commit grouped canonical publication
+        if: steps.canonical.outputs.publish == 'true'
         shell: bash
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if [ "${{ steps.canonical.outputs.publish }}" = "true" ]; then
-            python scripts/canonical_queue.py finalize
-          fi
-          git add research/veille data/entities.json registries/candidates.yaml corpus/2027 proposals
+          python scripts/canonical_queue.py finalize
+          git add research/veille/pending-canonical data/entities.json registries/candidates.yaml corpus/2027 proposals
           if git diff --cached --quiet; then
-            echo "No watch or canonical changes to commit."
-            exit 0
+            echo "::error::Canonical publication was due but no canonical changes remain to publish."
+            exit 1
           fi
-          if [ "${{ steps.canonical.outputs.publish }}" = "true" ]; then
-            git commit -m "veille: publication canonique groupée $(date -u +%F)"
-          else
-            git commit -m "veille: état de surveillance $(date -u +%F)"
+          git commit -m "veille: publication canonique groupée $(date -u +%F)"
+
+          if [ -n "$(git status --porcelain --untracked-files=all)" ]; then
+            echo "::error::Unexpected working-tree changes remain before canonical rebase."
+            git status --short
+            exit 1
           fi
 
           for attempt in 1 2 3; do
             git fetch origin main
             if ! git rebase origin/main; then
               git rebase --abort || true
-              echo "::error::Unable to rebase autonomous watch state onto current main; refusing a destructive push."
+              echo "::error::Unable to rebase grouped canonical publication onto current main; refusing a destructive push."
               exit 1
             fi
             if git push origin HEAD:main; then
               exit 0
             fi
-            echo "Remote main advanced during push attempt ${attempt}; retrying safely."
+            echo "Remote main advanced during canonical push attempt ${attempt}; retrying safely."
           done
-          echo "::error::Remote main kept advancing; autonomous watch state was not pushed after bounded retries."
+          echo "::error::Remote main kept advancing; grouped canonical publication was not pushed after bounded retries."
           exit 1
