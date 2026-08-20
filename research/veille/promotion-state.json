@@ -750,6 +750,11 @@
       "source_url": "https://lesecologistes.fr/document/5ZhR2m5t2ZaGKqIdD1bJaD/vdef-programme-1.pdf",
       "verified_at": "2026-08-19T02:42:33+00:00"
     },
+    "8dc9338c9297467250e6dd69646d89d457d8d3cf205e6201096d2e62e62f3f93": {
+      "proposal_id": "auto-david-lisnard-institutions-democratie-8dc9338c9297",
+      "source_url": "https://www.unenouvelleenergie.fr/notre-programme/",
+      "verified_at": "2026-08-20T20:01:37+00:00"
+    },
     "8e4dff9f2d6cdb57e81be9a3dc5fd053196d870d2d65e7d53d494139435678c9": {
       "proposal_id": "auto-la-france-insoumise-services-publics-8e4dff9f2d6c",
       "source_url": "https://melenchon2027.fr/programme2025/livre/chapitre10/",
@@ -1393,7 +1398,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-08-20T14:12:32+00:00",
+  "last_run_at": "2026-08-20T20:02:00+00:00",
   "source_chunks": {
     "020221717496955b329ee982": {
       "canonical_confirmations": [],
@@ -1781,6 +1786,26 @@
       "total": 1,
       "updated_at": "2026-08-20T10:10:41+00:00",
       "url": "https://www.unenouvelleenergie.fr/notre-programme/"
+    },
+    "0742010f47e562cab3fb3d2e": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-08-20T20:02:04+00:00",
+      "document_types": [
+        "other"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "4460dc074d84c144da3f8f1e65e2919e7f31c2a73889c975fe34f1251179ca81",
+      "source_title": "Pour des raisons de sécurité, en raison de l’épisode orageux en cours, nous sommes contraint·es de reporter la soirée. Nous nous excusons pour ce changement de dernière minute et v",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-20T20:02:05+00:00",
+      "url": "https://bsky.app/profile/lesecologistes.fr/post/3mtjmarb6ek2f"
     },
     "0955a3c5e387ba94dd83adf9": {
       "canonical_confirmations": [
@@ -2253,6 +2278,26 @@
       "total": 1,
       "updated_at": "2026-08-11T12:47:28+00:00",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
+    "171e407ae6fb81b128f28543": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-08-20T20:02:02+00:00",
+      "document_types": [
+        "other"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "b08dcc3f606bfeb6860e8e2d23ae27205592a9da70f9fe96607656aae8fcec82",
+      "source_title": "Loi \"Permis de tuer\" : face à l’impunité, le combat d'un père pour la justice. Aujourd’hui aux JDE, @leabalage.bsky.social et Issam El Khalfaoui ont échangé sur les violences poli",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-20T20:02:03+00:00",
+      "url": "https://bsky.app/profile/lesecologistes.fr/post/3mtjmwmcths27"
     },
     "18adc77ed98bad26f9bed8b3": {
       "canonical_confirmations": [
@@ -2754,6 +2799,84 @@
       "updated_at": "2026-08-12T21:48:14+00:00",
       "url": "https://melenchon2027.fr/programme2025/livre/chapitre2/"
     },
+    "2a857a05842ba3c374fdb2e5": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "réduire drastiquement l’immigration",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau propose de réduire drastiquement l'immigration par référendum.",
+            "topic": "immigration-integration"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Déjà présent dans le canonique avec le même sens et la même preuve.",
+            "related_proposal_id": "auto-bruno-retailleau-immigration-integration-39955feaadc3",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "engager une véritable révolution de notre justice pénale",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau propose une véritable révolution de la justice pénale par référendum.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "Déjà présent dans le canonique.",
+            "related_proposal_id": "auto-bruno-retailleau-securite-justice-7b2b02ba25a3",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "redonner la primauté à notre droit national",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau propose de redonner la primauté au droit national par référendum.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "Déjà présent dans le canonique.",
+            "related_proposal_id": "auto-bruno-retailleau-institutions-democratie-916dbcbd3347",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-08-20T20:01:56+00:00",
+      "created_at": "2026-08-20T20:01:44+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-02-12"
+      ],
+      "sha256": "6470dd47cf97041a0313162e8e5670b63226880514c737c5635577b0942eab2a",
+      "source_title": "Je suis candidat à l'élection présidentielle. - Les Républicains",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-20T20:01:50+00:00",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
     "2afe856652bbf63516532b97": {
       "canonical_confirmations": [],
       "claims": [],
@@ -2783,7 +2906,7 @@
       ],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-08-20T14:12:31+00:00",
+      "updated_at": "2026-08-20T20:01:59+00:00",
       "url": "https://npa-revolutionnaires.org/communique-presidentielle-2027-selma-labib-une-candidature-ouvriere-et-revolutionnaire-soutenue-par-gael-quirante/"
     },
     "34981b1b3f4fa162a914e7ed": {
@@ -11278,6 +11401,26 @@
       "updated_at": "2026-08-15T07:55:30+00:00",
       "url": "https://solutiondemocratique.fr/clementine-autain-programme-presidentielle2027/"
     },
+    "b975c441bf2954993b0d4969": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-08-20T20:02:00+00:00",
+      "document_types": [
+        "other"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "451052dd9d88f72f9b7533cb371789f7ac268dd4b7055246c2227f05ec5bbf99",
+      "source_title": "🚨ÉVÈNEMENT REPORTÉ 🚨 Sur recommandation de la Préfecture, et en raison de l’alerte orageuse en cours à Grenoble, l’événement « Pour l’écologie, pour l’union », initialement prévu",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-20T20:02:01+00:00",
+      "url": "https://bsky.app/profile/lesecologistes.fr/post/3mtjqtlraxs2h"
+    },
     "bb6a39605aa3086fe0c3696e": {
       "canonical_confirmations": [],
       "claims": [],
@@ -13019,6 +13162,83 @@
       "updated_at": "2026-08-15T02:36:03+00:00",
       "url": "https://solutiondemocratique.fr/jordan-bardella-programme-presidentielle-2027/"
     },
+    "e4f6188e4af1c494f28c3313": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "david-lisnard",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "suppression de la carte scolaire",
+            "relevance": "direct",
+            "statement": "Supprimer la carte scolaire pour garantir la liberté des parents de scolariser leurs enfants.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La suppression de la carte scolaire pour la liberté des parents est explicitement soutenue par la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "david-lisnard",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "la liberté pour les travailleurs de se constituer un capital pour leur retraite (capitalisation)",
+            "relevance": "direct",
+            "statement": "Permettre aux travailleurs de se constituer un capital pour leur retraite par la capitalisation.",
+            "topic": "retraites"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La proposition sur la capitalisation pour la retraite est déjà présente dans le canon.",
+            "related_proposal_id": "prop-lisnard-retraite-capitalisation",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [
+        {
+          "claim": {
+            "actor_id": "david-lisnard",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "suppression de la carte scolaire",
+            "relevance": "direct",
+            "statement": "Supprimer la carte scolaire pour garantir la liberté des parents de scolariser leurs enfants.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La suppression de la carte scolaire pour la liberté des parents est explicitement soutenue par la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "completed_at": "2026-08-20T20:01:42+00:00",
+      "created_at": "2026-08-20T20:01:31+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "fb118f3c3a021366912422ca95ba9e31ee87e367291a2675576eecc165564281",
+      "source_title": "Le programme de David Lisnard | Nouvelle Énergie",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-20T20:01:37+00:00",
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/"
+    },
     "e50c69819211996f616012c5": {
       "claims": [
         {
@@ -14072,6 +14292,15 @@
       "status": "promoted",
       "url": "https://solutiondemocratique.fr/nathalie-arthaud-presidentielle-2027-programme/"
     },
+    "01abf3fcbff3": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-20T20:01:59+00:00",
+      "reason": "chronology_or_scope_guard",
+      "source_sha256": "d61d2bf356b027c647c9c240c27ccfbb5d8275afd4952305eadf1950c2bb5535",
+      "status": "not_confirmed",
+      "url": "https://npa-revolutionnaires.org/communique-presidentielle-2027-selma-labib-une-candidature-ouvriere-et-revolutionnaire-soutenue-par-gael-quirante/"
+    },
     "0452e2c81d91": {
       "chunks_done": null,
       "chunks_total": null,
@@ -14134,6 +14363,15 @@
       "source_sha256": "21afa99f2e6b03f078d244afe3d54d48b7d142207dd233d34f3a85fd72e35ac7",
       "status": "promoted",
       "url": "https://solutiondemocratique.fr/delphine-batho-programme-2027/"
+    },
+    "17598c1d3f43": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-08-20T20:01:42+00:00",
+      "reason": null,
+      "source_sha256": "fb118f3c3a021366912422ca95ba9e31ee87e367291a2675576eecc165564281",
+      "status": "promoted",
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/"
     },
     "182b9bf51ee5": {
       "chunks_done": null,
@@ -15088,6 +15326,15 @@
       "source_sha256": "b0fd97396283f4d2fd3107ef546112014883597953a58d20fdc6a25e573200f3",
       "status": "not_confirmed",
       "url": "https://parti-equinoxe.fr/legislatives-2022-programme-social/"
+    },
+    "f237b29c9a30": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-20T20:01:56+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "6470dd47cf97041a0313162e8e5670b63226880514c737c5635577b0942eab2a",
+      "status": "promoted",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
     "f3bbbb615f8e": {
       "chunks_done": null,

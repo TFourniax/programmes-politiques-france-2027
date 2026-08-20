@@ -5,7 +5,8 @@ entity_id: bruno-retailleau
 topic: securite-justice
 certainty: explicit
 proposal_status: current
-source_document_ids: [auto-bruno-retailleau-2026-02-12-ccd1ed6f8270, auto-bruno-retailleau-2026-02-12-ab4867cad17b, auto-bruno-retailleau-2026-02-12-4bdad5eea2db]
+source_document_ids: [auto-bruno-retailleau-2026-02-12-ccd1ed6f8270, auto-bruno-retailleau-2026-02-12-ab4867cad17b, auto-bruno-retailleau-2026-02-12-4bdad5eea2db,
+  auto-bruno-retailleau-2026-02-12-2a857a05842b]
 source_url: https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/
 source_tier: tier_1_primary_official
 first_documented_at: '2026-02-12'
@@ -16,8 +17,8 @@ evidence_sha256: c7571eb18ab5aa86107951287a70922ea6cd6db418c225d2662b5dd43e99b6f
 generated_by: scripts/auto_promote.py
 source_urls: ['https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/']
 evidence_sha256s: [c7571eb18ab5aa86107951287a70922ea6cd6db418c225d2662b5dd43e99b6fc, d5e187c9b52f2d591bef3716bb7f614fb23c50ab2c751404ddb135dec55e7cfa,
-  002701270ae195c601e18b30283a4b88e5062330d2930fe550a36b1909e608ff]
-confirmation_count: 3
+  002701270ae195c601e18b30283a4b88e5062330d2930fe550a36b1909e608ff, 6470dd47cf97041a0313162e8e5670b63226880514c737c5635577b0942eab2a]
+confirmation_count: 4
 last_confirmed_at: '2026-02-12'
 ---
 
