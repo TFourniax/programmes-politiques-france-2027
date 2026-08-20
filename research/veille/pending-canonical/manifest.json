@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created_at": "2026-08-17T19:57:19.441897+00:00",
-  "updated_at": "2026-08-19T14:10:15.982549+00:00",
+  "updated_at": "2026-08-20T10:11:03.387359+00:00",
   "files": [
     {
       "path": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-02b6fd496b7b.md",
@@ -47,6 +47,21 @@
       "path": "corpus/2027/auto/partys/nouvelle-energie/2026-08-18-f489a53bb3fe.md",
       "sha256": "a3cfc9dd2f1cc32e951c44370846b63a162a51ebfdf62c6a0f829a178a847baa",
       "size": 2673
+    },
+    {
+      "path": "corpus/2027/auto/partys/nouvelle-energie/2026-08-20-062668f762e9.md",
+      "sha256": "1aa8725e6b7dd518888103e8182c86276539082853a8ab28ae79e6436f9d78bc",
+      "size": 2405
+    },
+    {
+      "path": "corpus/2027/auto/partys/solution-democratique/2025-04-09-7fa3658e1707.md",
+      "sha256": "bc8e4beb03c366beb6ff1a71e9f9930ae8bcb05577f4672185258425632d634e",
+      "size": 1786
+    },
+    {
+      "path": "corpus/2027/auto/partys/solution-democratique/2026-08-19-64ce907dede0.md",
+      "sha256": "1201dde608c8a8e2d7426785b46791fbf70940821b0d6ee8544c6463a10fa1dc",
+      "size": 2042
     },
     {
       "path": "proposals/auto/ecologie-energie/auto-les-ecologistes-ecologie-energie-1219b8a35f2d.md",
@@ -240,8 +255,8 @@
     },
     {
       "path": "proposals/auto/economie-finances/auto-nouvelle-energie-economie-finances-ce6ab5f9ca2a.md",
-      "sha256": "7f3e46c0955eba6aca2c70896e130cf55e7fea0c9ddb70191fe508d37e878b0f",
-      "size": 1761
+      "sha256": "76c776be00dd4560a7edd3e794aa8ebc4c316db40c172828e8acae62b0ee77ba",
+      "size": 1876
     },
     {
       "path": "proposals/auto/europe-souverainete/auto-bruno-retailleau-europe-souverainete-ed8d0d14bccb.md",
@@ -324,6 +339,16 @@
       "size": 1792
     },
     {
+      "path": "proposals/auto/institutions-democratie/auto-clara-egger-institutions-democratie-ef5123784bab.md",
+      "sha256": "94b269c21c5b384f65861ac34997fd331c244602b3ca1d851359afef516cc259",
+      "size": 2452
+    },
+    {
+      "path": "proposals/auto/institutions-democratie/auto-david-lisnard-institutions-democratie-8a7a7019b8f9.md",
+      "sha256": "a6e3046878b3afe9a27529606fe6285c638e3f9095c00a817575130fa1ca2528",
+      "size": 1289
+    },
+    {
       "path": "proposals/auto/institutions-democratie/auto-les-ecologistes-institutions-democratie-07f4bc74473a.md",
       "sha256": "a2b54a0fe4fae873f06c7a3e236833606303655528847bbb9e4f55ba4a5af481",
       "size": 1525
@@ -377,6 +402,11 @@
       "path": "proposals/auto/institutions-democratie/auto-nouvelle-energie-institutions-democratie-1d98a3b70af1.md",
       "sha256": "f2d87769b4be6bc4906c9514327762ecc27af4e69b1d1ab7f4dad28a3093f0da",
       "size": 1766
+    },
+    {
+      "path": "proposals/auto/institutions-democratie/auto-solution-democratique-institutions-democratie-4ea1c22d52ea.md",
+      "sha256": "68b9fbf1e331952acc71cb3655b3ae86ad079ec3b7d1257b4f2620c208e78046",
+      "size": 7273
     },
     {
       "path": "proposals/auto/pouvoir-achat-travail/auto-bruno-retailleau-pouvoir-achat-travail-122f072f74ad.md",
@@ -440,8 +470,8 @@
     },
     {
       "path": "proposals/auto/retraites/auto-nouvelle-energie-retraites-4b9149336ab7.md",
-      "sha256": "a982c94bdc9ef3e0ad0fbd98c67ef229400a887720fb3aa964330daa575a2164",
-      "size": 1821
+      "sha256": "2cc4401319bf64d7a9bcf3b5e9d09f9b648d63d46807c6cfdb954ac6dbf02019",
+      "size": 1936
     },
     {
       "path": "proposals/auto/securite-justice/auto-bruno-retailleau-securite-justice-703dc438f470.md",
@@ -625,13 +655,13 @@
     },
     {
       "path": "proposals/auto/services-publics/auto-nouvelle-energie-services-publics-0f99d5897943.md",
-      "sha256": "761cb00d73da2437d23c8ea3be2116679e8c3950c32cca7fbb22d55770750ba6",
-      "size": 1849
+      "sha256": "c2cdd2ea03cdb5445a09967391d63b08d6f155184d33486ef4bd36952cc0f87a",
+      "size": 1964
     },
     {
       "path": "proposals/auto/services-publics/auto-nouvelle-energie-services-publics-2dd30b44dc9c.md",
-      "sha256": "549653ba73f2c8a04445f02c2b51063dbaaaa88c533553d2b6797222eebf237f",
-      "size": 1806
+      "sha256": "5fcb46ca9c959ca2fb516a5a3a5dfdfa0d8eefa6f4103989097cacbde2ac0d62",
+      "size": 1921
     },
     {
       "path": "proposals/ecologie-energie/les-ecologistes-location-sociale-vehicules-electriques.md",

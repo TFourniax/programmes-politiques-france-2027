@@ -730,6 +730,11 @@
       "source_url": "https://www.unenouvelleenergie.fr/notre-programme/immigration/",
       "verified_at": "2026-08-12T03:38:03+00:00"
     },
+    "8a7a7019b8f9937ed11d89a09677c3d729a264cbb26ea30b42d29063edcb259e": {
+      "proposal_id": "auto-david-lisnard-institutions-democratie-8a7a7019b8f9",
+      "source_url": "https://www.unenouvelleenergie.fr/notre-programme/",
+      "verified_at": "2026-08-20T10:10:41+00:00"
+    },
     "8ab7f7e3a91b35cac9e0cbb669376b3d67a1cd288bef4291f78acbf46f32cf4c": {
       "proposal_id": "auto-la-france-insoumise-ecologie-energie-8ab7f7e3a91b",
       "source_url": "https://melenchon2027.fr/programme2025/livre/chapitre13/",
@@ -1388,7 +1393,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-08-19T08:04:53+00:00",
+  "last_run_at": "2026-08-20T10:10:51+00:00",
   "source_chunks": {
     "020221717496955b329ee982": {
       "canonical_confirmations": [],
@@ -1645,6 +1650,137 @@
       "total": 1,
       "updated_at": "2026-08-12T21:48:17+00:00",
       "url": "https://melenchon2027.fr/programme2025/livre/chapitre3/"
+    },
+    "062668f762e990142402c65f": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "david-lisnard",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "un État recentré sur ses missions régaliennes de sécurité et de défense",
+            "relevance": "direct",
+            "statement": "Recentrer l'État sur ses missions régaliennes de sécurité et de défense.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Explicitement soutenu par le texte de la source pour David Lisnard.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "nouvelle-energie",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "la libération des énergies créatrices par une profonde débureaucratisation",
+            "relevance": "direct",
+            "statement": "Mettre en œuvre une profonde débureaucratisation pour libérer les énergies créatrices.",
+            "topic": "economie-finances"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "Présent à l'identique dans le canonique actuel.",
+            "related_proposal_id": "auto-nouvelle-energie-economie-finances-ce6ab5f9ca2a",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "nouvelle-energie",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "une école d’excellence pour faire de la France une superpuissance éducative et scientifique",
+            "relevance": "direct",
+            "statement": "Faire de l'école une école d'excellence, superpuissance éducative et scientifique.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "Présent à l'identique dans le canonique actuel.",
+            "related_proposal_id": "auto-nouvelle-energie-services-publics-0f99d5897943",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "nouvelle-energie",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "suppression de la carte scolaire",
+            "relevance": "direct",
+            "statement": "Instaurer la liberté pour les parents de scolariser leurs enfants là où ils le veulent via la suppression de la carte scolaire.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 3,
+            "reason": "Présent à l'identique dans le canonique actuel.",
+            "related_proposal_id": "auto-nouvelle-energie-services-publics-2dd30b44dc9c",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "nouvelle-energie",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "capitalisation",
+            "relevance": "direct",
+            "statement": "Permettre aux travailleurs de se constituer un capital pour leur retraite par capitalisation.",
+            "topic": "retraites"
+          },
+          "verdict": {
+            "index": 4,
+            "reason": "Présent à l'identique dans le canonique actuel.",
+            "related_proposal_id": "auto-nouvelle-energie-retraites-4b9149336ab7",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [
+        {
+          "claim": {
+            "actor_id": "david-lisnard",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "un État recentré sur ses missions régaliennes de sécurité et de défense",
+            "relevance": "direct",
+            "statement": "Recentrer l'État sur ses missions régaliennes de sécurité et de défense.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Explicitement soutenu par le texte de la source pour David Lisnard.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "completed_at": "2026-08-20T10:10:50+00:00",
+      "created_at": "2026-08-20T10:10:32+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "1eb28a14537fd7186cd6df902ba6b6b140cc6de4de1701724f76346ce9ed36b2",
+      "source_title": "Le programme de David Lisnard | Nouvelle Énergie",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-20T10:10:41+00:00",
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/"
     },
     "0955a3c5e387ba94dd83adf9": {
       "canonical_confirmations": [
@@ -5109,6 +5245,26 @@
       "updated_at": "2026-08-17T02:43:47+00:00",
       "url": "https://www.karimbouamrane2027.org/"
     },
+    "62cc73db70fc32545c13fa94": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-08-20T10:10:53+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "a84bb26d39fb64ab71cba423b16b322248fa14347fd7a589012769bbb67b6f1a",
+      "source_title": "L’État et la révolution citoyenne : le nouveau livre de l’Institut La Boétie | #Amfis2026",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-20T10:10:54+00:00",
+      "url": "https://www.youtube.com/watch?v=Uqe5vvsXsZ4"
+    },
     "63d0cf967f305cd30c5ff0de": {
       "canonical_confirmations": [
         {
@@ -5196,6 +5352,66 @@
       "total": 1,
       "updated_at": "2026-08-19T08:04:47+00:00",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
+    "64ce907dede074d2e1429e4d": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "solution-democratique",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Solution Démocratique souhaite instaurer en France la démocratie directe et la décentralisation par le bas.",
+            "relevance": "direct",
+            "statement": "Solution démocratique souhaite instaurer en France la démocratie directe et la décentralisation par le bas.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La proposition est explicitement présente et identique dans le canon actuel.",
+            "related_proposal_id": "auto-solution-democratique-institutions-democratie-4ea1c22d52ea",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "clara-egger",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "redonner au président de la République un rôle d’arbitre , représentant l’ensemble des Français.",
+            "relevance": "direct",
+            "statement": "Clara Egger porte une candidature transpartisane visant à redonner au président un rôle d'arbitre représentant l'ensemble des Français.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La proposition correspond exactement à l'entrée canonique existante pour Clara Egger.",
+            "related_proposal_id": "auto-clara-egger-institutions-democratie-ef5123784bab",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-08-20T10:10:31+00:00",
+      "created_at": "2026-08-20T10:10:20+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-08-19"
+      ],
+      "sha256": "55514c96c00e6dea0226461e8e59611a4007ae0ebdd92e7421743d1aeb521d52",
+      "source_title": "Francis Lalanne 2027 : démocratie directe, programme présidentiel",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-20T10:10:26+00:00",
+      "url": "https://solutiondemocratique.fr/francis-lalanne-2027-programme/"
     },
     "65b932fa9c013c803e67df86": {
       "claims": [],
@@ -5339,6 +5555,26 @@
       "total": 1,
       "updated_at": "2026-08-15T07:55:38+00:00",
       "url": "https://solutiondemocratique.fr/programme-rn-2027/"
+    },
+    "75175431aeec35bee55c53b0": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-08-20T10:10:55+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "11c4e76ba04582d47c20e57a031ada55a791dbd352e2f4335fe65717ebb8d1b8",
+      "source_title": "L'écologie est une des premières préoccupations des Français, et je l'ai encore constaté pendant les 30 étapes de mon Tour de France. Notre rôle, c'est de leur proposer des soluti",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-20T10:10:57+00:00",
+      "url": "https://bsky.app/profile/marinetondelier.fr/post/3mtiodeoqu22q"
     },
     "770e23bdd556f60748a40833": {
       "canonical_confirmations": [
@@ -5796,6 +6032,48 @@
       "total": 1,
       "updated_at": "2026-08-15T10:45:43+00:00",
       "url": "https://solutiondemocratique.fr/david-lisnard-programme-2027/"
+    },
+    "7fa3658e17073c3767dc36d2": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "solution-democratique",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Solution Démocratique souhaite instaurer en France la démocratie directe et la décentralisation par le bas.",
+            "relevance": "direct",
+            "statement": "Solution Démocratique souhaite instaurer en France la démocratie directe et la décentralisation par le bas.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La proposition est explicitement soutenue et identique à l'entrée canonique existante.",
+            "related_proposal_id": "auto-solution-democratique-institutions-democratie-4ea1c22d52ea",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-08-20T10:10:18+00:00",
+      "created_at": "2026-08-20T10:10:10+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2025-04-09"
+      ],
+      "sha256": "b045adcfd01d55b0a2cf58cc708ba21427bd51c95b4af7bafd81fae736c4d0b9",
+      "source_title": "Comparatif des candidats aux élections présidentielles 2027",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-20T10:10:15+00:00",
+      "url": "https://solutiondemocratique.fr/comparatif-candidats-programme-elections-presidentielles-france-2027/"
     },
     "83d5eda15af3555f983a572b": {
       "canonical_confirmations": [
@@ -12248,6 +12526,28 @@
       "updated_at": "2026-08-14T08:33:55+00:00",
       "url": "https://solutiondemocratique.fr/xavier-bertrand-programme-presidentielle2027/"
     },
+    "d37efffc289365cde87d282f": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-08-20T10:10:57+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [
+        "2026-05-13"
+      ],
+      "sha256": "f8801a8e352513fe71ff9e3d909dd2443c26c447b5a3686c18c630432688100c",
+      "source_title": "Juan Branco à l'Université de Toulouse: l'affaire Mila Orriols",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-20T10:10:59+00:00",
+      "url": "https://www.youtube.com/watch?v=Z0ZzqlrPrS0"
+    },
     "d92ade041132929d0e3efd5f": {
       "canonical_confirmations": [],
       "claims": [],
@@ -12748,6 +13048,26 @@
       "total": 1,
       "updated_at": "2026-08-15T02:35:54+00:00",
       "url": "https://solutiondemocratique.fr/gabriel-attal-2027-programme-presidentiel/"
+    },
+    "ed40042d596acb3bd79cd0f1": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-08-20T10:10:51+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "ae6daa2c6dad7486d3675bf172bc48f949a9536d7e8f2cb78d3f07a97b7c317f",
+      "source_title": "Comment appliquer un programme économique de rupture ? | #Amfis2026",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-20T10:10:52+00:00",
+      "url": "https://www.youtube.com/watch?v=hefmL-vkxKw"
     },
     "f2380b9cb64f04946419a6f5": {
       "claims": [
@@ -13663,6 +13983,15 @@
       "status": "promoted",
       "url": "https://solutiondemocratique.fr/bernard-cazeneuve-programme-presidentielle2027/"
     },
+    "2a1d995aa4c3": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-20T10:10:18+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "b045adcfd01d55b0a2cf58cc708ba21427bd51c95b4af7bafd81fae736c4d0b9",
+      "status": "promoted",
+      "url": "https://solutiondemocratique.fr/comparatif-candidats-programme-elections-presidentielles-france-2027/"
+    },
     "2ab4cba473c5": {
       "chunks_done": null,
       "chunks_total": 1,
@@ -13983,6 +14312,15 @@
       "status": "promoted",
       "url": "https://www.unenouvelleenergie.fr/notre-programme/"
     },
+    "749890db196f": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-08-20T10:10:50+00:00",
+      "reason": null,
+      "source_sha256": "1eb28a14537fd7186cd6df902ba6b6b140cc6de4de1701724f76346ce9ed36b2",
+      "status": "promoted",
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/"
+    },
     "75b9e60cfecd": {
       "chunks_done": null,
       "chunks_total": 1,
@@ -14142,6 +14480,15 @@
       "source_sha256": "cbec778af86ca3033e602815ff5cefc56d04de669d92d67bf7396ca370d0aa80",
       "status": "promoted",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
+    "aa8d2d4afc49": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-20T10:10:31+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "55514c96c00e6dea0226461e8e59611a4007ae0ebdd92e7421743d1aeb521d52",
+      "status": "promoted",
+      "url": "https://solutiondemocratique.fr/francis-lalanne-2027-programme/"
     },
     "ab49ce8a464c": {
       "chunks_done": null,

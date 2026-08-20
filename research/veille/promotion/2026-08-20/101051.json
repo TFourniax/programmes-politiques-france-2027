@@ -1,0 +1,53 @@
+{
+  "errors": [],
+  "generated_at": "2026-08-20T10:10:51+00:00",
+  "historical_skipped": 0,
+  "partial": 0,
+  "processed": 3,
+  "promoted": 3,
+  "proposals_created": 1,
+  "results": [
+    {
+      "document": "corpus/2027/auto/partys/solution-democratique/2025-04-09-7fa3658e1707.md",
+      "provenance_updates": [
+        "auto-solution-democratique-institutions-democratie-4ea1c22d52ea"
+      ],
+      "reason": "canonical_duplicate_evidence",
+      "sha256": "b045adcfd01d55b0a2cf58cc708ba21427bd51c95b4af7bafd81fae736c4d0b9",
+      "status": "promoted",
+      "url": "https://solutiondemocratique.fr/comparatif-candidats-programme-elections-presidentielles-france-2027/",
+      "verified_at": "2026-08-20T10:10:18+00:00"
+    },
+    {
+      "document": "corpus/2027/auto/partys/solution-democratique/2026-08-19-64ce907dede0.md",
+      "provenance_updates": [
+        "auto-clara-egger-institutions-democratie-ef5123784bab",
+        "auto-solution-democratique-institutions-democratie-4ea1c22d52ea"
+      ],
+      "reason": "canonical_duplicate_evidence",
+      "sha256": "55514c96c00e6dea0226461e8e59611a4007ae0ebdd92e7421743d1aeb521d52",
+      "status": "promoted",
+      "url": "https://solutiondemocratique.fr/francis-lalanne-2027-programme/",
+      "verified_at": "2026-08-20T10:10:31+00:00"
+    },
+    {
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/partys/nouvelle-energie/2026-08-20-062668f762e9.md",
+      "proposals": [
+        "proposals/auto/institutions-democratie/auto-david-lisnard-institutions-democratie-8a7a7019b8f9.md"
+      ],
+      "provenance_updates": [
+        "auto-nouvelle-energie-economie-finances-ce6ab5f9ca2a",
+        "auto-nouvelle-energie-retraites-4b9149336ab7",
+        "auto-nouvelle-energie-services-publics-0f99d5897943",
+        "auto-nouvelle-energie-services-publics-2dd30b44dc9c"
+      ],
+      "sha256": "1eb28a14537fd7186cd6df902ba6b6b140cc6de4de1701724f76346ce9ed36b2",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/",
+      "verified_at": "2026-08-20T10:10:50+00:00"
+    }
+  ],
+  "status_updates": 0
+}
