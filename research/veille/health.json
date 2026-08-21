@@ -8,31 +8,39 @@
   "gemini_quota_only": false,
   "gemini_unavailable_reason": null,
   "gemini_unavailable_since": null,
-  "generated_at": "2026-08-20T20:02:06+00:00",
-  "last_collection_success_at": "2026-08-20T19:57:10+00:00",
-  "last_direct_feed_run_at": "2026-08-20T19:57:12+00:00",
-  "last_gdelt_run_at": "2026-08-20T20:00:12+00:00",
-  "last_promotion_run_at": "2026-08-20T20:02:00+00:00",
-  "last_social_promotion_run_at": "2026-08-20T20:02:06+00:00",
-  "last_social_run_at": "2026-08-20T20:01:23+00:00",
-  "last_structured_primary_run_at": "2026-08-20T19:58:19+00:00",
+  "generated_at": "2026-08-21T02:45:28+00:00",
+  "last_collection_success_at": "2026-08-21T02:41:24+00:00",
+  "last_direct_feed_run_at": "2026-08-21T02:41:26+00:00",
+  "last_gdelt_run_at": "2026-08-21T02:44:22+00:00",
+  "last_promotion_run_at": "2026-08-21T02:45:28+00:00",
+  "last_social_promotion_run_at": "2026-08-21T02:45:28+00:00",
+  "last_social_run_at": "2026-08-21T02:44:44+00:00",
+  "last_structured_primary_run_at": "2026-08-21T02:42:31+00:00",
   "max_promotion_retry_attempts": 3,
   "official_sitemap_coverage_count": 0,
-  "official_source_warnings_last_run": 9,
-  "oldest_promotion_retry_age_hours": 48.146,
+  "official_source_warnings_last_run": 7,
+  "oldest_promotion_retry_age_hours": 54.869,
   "partial_sources_pending": 0,
   "pending_work": 2,
   "persistent_official_source_failure_details": [
     {
-      "consecutive_failures": 14,
+      "consecutive_failures": 4,
+      "first_failure_at": "2026-08-20T10:06:50+00:00",
+      "kind": "party_programme",
+      "last_failure_at": "2026-08-21T02:42:31+00:00",
+      "owner": "Équinoxe",
+      "url": "https://parti-equinoxe.fr/le-projet/"
+    },
+    {
+      "consecutive_failures": 15,
       "first_failure_at": "2026-08-13T13:02:53+00:00",
       "kind": "registry_source",
-      "last_failure_at": "2026-08-20T19:58:20+00:00",
+      "last_failure_at": "2026-08-21T02:42:31+00:00",
       "owner": "La France Humaine & Forte",
       "url": "https://www.lafrancehumaineetforte.fr/"
     }
   ],
-  "persistent_official_source_failures": 1,
+  "persistent_official_source_failures": 2,
   "promotion_actionable_retries_pending": 1,
   "promotion_quota_retries_pending": 1,
   "promotion_retries_over_budget": 0,
@@ -42,12 +50,12 @@
   "reasons": [
     "1_technical_retry_pending",
     "promotion_retry_backlog_over_48h",
-    "1_persistent_official_source_failure(s)"
+    "2_persistent_official_source_failure(s)"
   ],
   "recovered_promotion_technical_failures": 1,
   "status": "degraded",
   "structured_primary_coverage_count": 2,
-  "uncovered_official_source_warnings_last_run": 4,
+  "uncovered_official_source_warnings_last_run": 2,
   "version": 7,
   "warnings": [
     "1_quota_retry_pending"

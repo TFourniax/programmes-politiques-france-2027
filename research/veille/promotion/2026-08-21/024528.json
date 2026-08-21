@@ -1,0 +1,51 @@
+{
+  "errors": [],
+  "generated_at": "2026-08-21T02:45:28+00:00",
+  "historical_skipped": 0,
+  "partial": 0,
+  "processed": 3,
+  "promoted": 3,
+  "proposals_created": 0,
+  "results": [
+    {
+      "document": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-eaf315e0b87b.md",
+      "provenance_updates": [
+        "auto-bruno-retailleau-immigration-integration-39955feaadc3",
+        "auto-bruno-retailleau-institutions-democratie-916dbcbd3347",
+        "auto-bruno-retailleau-securite-justice-7b2b02ba25a3"
+      ],
+      "reason": "canonical_duplicate_evidence",
+      "sha256": "b0048e01f6ab4fc124e443ce873a46ce64e309b4c79a45d0d5d8b80fdf8312eb",
+      "status": "promoted",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/",
+      "verified_at": "2026-08-21T02:45:02+00:00"
+    },
+    {
+      "document": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-3f3e540425a7.md",
+      "provenance_updates": [
+        "auto-bruno-retailleau-immigration-integration-39955feaadc3",
+        "auto-bruno-retailleau-institutions-democratie-f5a91461b7da",
+        "auto-bruno-retailleau-securite-justice-703dc438f470"
+      ],
+      "reason": "canonical_duplicate_evidence",
+      "sha256": "64593804ebcd7675a612cb04a718192175b50d105499eff882f3bb69eb0091e0",
+      "status": "promoted",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/",
+      "verified_at": "2026-08-21T02:45:15+00:00"
+    },
+    {
+      "document": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-d73594f41a90.md",
+      "provenance_updates": [
+        "auto-bruno-retailleau-immigration-integration-39955feaadc3",
+        "auto-bruno-retailleau-institutions-democratie-916dbcbd3347",
+        "auto-bruno-retailleau-securite-justice-703dc438f470"
+      ],
+      "reason": "canonical_duplicate_evidence",
+      "sha256": "9e7799a96736ad5f29f4148d916302b1e3bd05d1e555501933ee34b30964ee4e",
+      "status": "promoted",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/",
+      "verified_at": "2026-08-21T02:45:27+00:00"
+    }
+  ],
+  "status_updates": 0
+}

@@ -1398,7 +1398,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-08-20T20:02:00+00:00",
+  "last_run_at": "2026-08-21T02:45:28+00:00",
   "source_chunks": {
     "020221717496955b329ee982": {
       "canonical_confirmations": [],
@@ -3964,6 +3964,94 @@
       "total": 1,
       "updated_at": "2026-08-13T08:51:16+00:00",
       "url": "https://melenchon2027.fr/programme2025/livre/chapitre9/"
+    },
+    "3f3e540425a75b8d8d18c36a": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "réduire drastiquement l’immigration",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau propose de réduire drastiquement l'immigration par référendum.",
+            "topic": "immigration-integration"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Le claim sur la réduction drastique de l'immigration par référendum est déjà présent dans le canonique.",
+            "related_proposal_id": "auto-bruno-retailleau-immigration-integration-39955feaadc3",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "révolution de notre justice pénale",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau propose d'engager une révolution de la justice pénale par référendum.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "Le claim sur la révolution de la justice pénale par référendum est déjà présent dans le canonique.",
+            "related_proposal_id": "auto-bruno-retailleau-securite-justice-703dc438f470",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "soumettrai directement par référendum plusieurs grands textes de loi",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau propose de soumettre plusieurs grands textes de loi directement par référendum.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "Le claim sur la soumission de plusieurs grands textes de loi par référendum est déjà présent dans le canonique.",
+            "related_proposal_id": "auto-bruno-retailleau-institutions-democratie-f5a91461b7da",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-08-21T02:45:15+00:00",
+      "created_at": "2026-08-21T02:45:03+00:00",
+      "document_types": [
+        "candidacy_declaration"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-02-12"
+      ],
+      "sha256": "64593804ebcd7675a612cb04a718192175b50d105499eff882f3bb69eb0091e0",
+      "source_title": "Je suis candidat à l'élection présidentielle. - Les Républicains",
+      "statuses": [
+        {
+          "status": {
+            "candidate_id": "bruno-retailleau",
+            "effective_date": "2026-02-12",
+            "evidence_quote": "Je suis candidat à l’élection présidentielle.",
+            "explicit": true,
+            "new_status": "declared_presidential"
+          }
+        }
+      ],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-21T02:45:09+00:00",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
     "3f86eef165d032e677dfb9cd": {
       "canonical_confirmations": [
@@ -12763,6 +12851,94 @@
       "updated_at": "2026-08-20T10:10:59+00:00",
       "url": "https://www.youtube.com/watch?v=Z0ZzqlrPrS0"
     },
+    "d73594f41a902d83129191df": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "réduire drastiquement l’immigration",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau propose de réduire drastiquement l'immigration par référendum.",
+            "topic": "immigration-integration"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Le claim sur la réduction de l'immigration par référendum est déjà présent dans le canonique.",
+            "related_proposal_id": "auto-bruno-retailleau-immigration-integration-39955feaadc3",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "révolution de notre justice pénale",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau propose d'engager une révolution de la justice pénale par référendum.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "Le claim sur la révolution de la justice pénale par référendum est déjà présent.",
+            "related_proposal_id": "auto-bruno-retailleau-securite-justice-703dc438f470",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "redonner la primauté à notre droit national",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau propose de redonner la primauté au droit national par référendum.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "Le claim sur la primauté du droit national par référendum est déjà présent.",
+            "related_proposal_id": "auto-bruno-retailleau-institutions-democratie-916dbcbd3347",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-08-21T02:45:27+00:00",
+      "created_at": "2026-08-21T02:45:16+00:00",
+      "document_types": [
+        "candidacy_declaration"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-02-12"
+      ],
+      "sha256": "9e7799a96736ad5f29f4148d916302b1e3bd05d1e555501933ee34b30964ee4e",
+      "source_title": "Je suis candidat à l'élection présidentielle. - Les Républicains",
+      "statuses": [
+        {
+          "status": {
+            "candidate_id": "bruno-retailleau",
+            "effective_date": "2026-02-12",
+            "evidence_quote": "Je suis candidat à l’élection présidentielle.",
+            "explicit": true,
+            "new_status": "declared_presidential"
+          }
+        }
+      ],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-21T02:45:21+00:00",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
     "d92ade041132929d0e3efd5f": {
       "canonical_confirmations": [],
       "claims": [],
@@ -13472,6 +13648,94 @@
       "total": 1,
       "updated_at": "2026-08-15T02:35:54+00:00",
       "url": "https://solutiondemocratique.fr/gabriel-attal-2027-programme-presidentiel/"
+    },
+    "eaf315e0b87b6138d49376ea": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "réduire drastiquement l’immigration",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau propose de soumettre par référendum un texte pour réduire drastiquement l'immigration.",
+            "topic": "immigration-integration"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Le claim sur l'immigration par référendum est explicitement présent dans le canonique.",
+            "related_proposal_id": "auto-bruno-retailleau-immigration-integration-39955feaadc3",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "véritable révolution de notre justice pénale",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau propose d'engager une véritable révolution de notre justice pénale par référendum.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "Le claim sur la révolution de la justice pénale par référendum est présent dans le canonique.",
+            "related_proposal_id": "auto-bruno-retailleau-securite-justice-7b2b02ba25a3",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "redonner la primauté à notre droit national",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau propose de redonner la primauté au droit national par référendum.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "Le claim sur la primauté du droit national par référendum est présent dans le canonique.",
+            "related_proposal_id": "auto-bruno-retailleau-institutions-democratie-916dbcbd3347",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-08-21T02:45:02+00:00",
+      "created_at": "2026-08-21T02:44:50+00:00",
+      "document_types": [
+        "candidacy_declaration"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-02-12"
+      ],
+      "sha256": "b0048e01f6ab4fc124e443ce873a46ce64e309b4c79a45d0d5d8b80fdf8312eb",
+      "source_title": "Je suis candidat à l'élection présidentielle. - Les Républicains",
+      "statuses": [
+        {
+          "status": {
+            "candidate_id": "bruno-retailleau",
+            "effective_date": "2026-02-12",
+            "evidence_quote": "Je suis candidat à l’élection présidentielle.",
+            "explicit": true,
+            "new_status": "declared_presidential"
+          }
+        }
+      ],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-21T02:44:55+00:00",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
     "ed40042d596acb3bd79cd0f1": {
       "canonical_confirmations": [],
@@ -14398,6 +14662,15 @@
       "status": "historical_skipped",
       "url": "https://parti-equinoxe.fr/programme-europeennes-2024-mesure-phare-10-legislation/"
     },
+    "22f96f52430f": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-21T02:45:02+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "b0048e01f6ab4fc124e443ce873a46ce64e309b4c79a45d0d5d8b80fdf8312eb",
+      "status": "promoted",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
     "2303240b99f6": {
       "chunks_done": null,
       "chunks_total": null,
@@ -14656,6 +14929,15 @@
       "source_sha256": "66358660b6c4f54c9bbdc389455e946c23379beda7d80368c9b6e47e166a80b9",
       "status": "promoted",
       "url": "https://www.debout-la-france.fr/"
+    },
+    "5698c9483440": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-21T02:45:15+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "64593804ebcd7675a612cb04a718192175b50d105499eff882f3bb69eb0091e0",
+      "status": "promoted",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
     "5b9853039e0b": {
       "chunks_done": null,
@@ -14967,6 +15249,15 @@
       "source_sha256": "1850ccfde03c33b33fd4cb5b0f5d2552284079818f8845cfc06801d490de0994",
       "status": "promoted",
       "url": "https://melenchon2027.fr/programme2025/livre/chapitre6/"
+    },
+    "ac7c166af846": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-21T02:45:27+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "9e7799a96736ad5f29f4148d916302b1e3bd05d1e555501933ee34b30964ee4e",
+      "status": "promoted",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
     "af60495c3af7": {
       "chunks_done": null,
