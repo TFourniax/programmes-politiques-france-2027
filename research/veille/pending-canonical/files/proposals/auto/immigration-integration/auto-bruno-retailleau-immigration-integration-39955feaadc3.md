@@ -9,7 +9,8 @@ source_document_ids: [auto-bruno-retailleau-2026-02-12-170a10d674b5, auto-bruno-
   auto-bruno-retailleau-2026-02-12-facf4ffe9717, auto-bruno-retailleau-2026-02-12-02b6fd496b7b, auto-bruno-retailleau-2026-02-12-18adc77ed98b,
   auto-bruno-retailleau-2026-02-12-63d0cf967f30, auto-bruno-retailleau-2026-02-12-2a857a05842b, auto-bruno-retailleau-2026-02-12-eaf315e0b87b,
   auto-bruno-retailleau-2026-02-12-3f3e540425a7, auto-bruno-retailleau-2026-02-12-d73594f41a90, auto-bruno-retailleau-2026-02-12-6fc99cb4ab5c,
-  auto-bruno-retailleau-2026-02-12-30e41f0953c0, auto-bruno-retailleau-2026-02-12-3a04c0c88356, auto-bruno-retailleau-2026-02-12-8990fd43063e]
+  auto-bruno-retailleau-2026-02-12-30e41f0953c0, auto-bruno-retailleau-2026-02-12-3a04c0c88356, auto-bruno-retailleau-2026-02-12-8990fd43063e,
+  auto-bruno-retailleau-2026-02-12-a11025c38155, auto-bruno-retailleau-2026-02-12-f31bd7a69cbe, auto-bruno-retailleau-2026-02-12-8b4a881a8073]
 source_url: https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/
 source_tier: tier_1_primary_official
 first_documented_at: '2026-02-12'
@@ -26,8 +27,9 @@ evidence_sha256s: [b1dad3bffd47cf8f457fcddf4af3f2756bbac558a8ee6321ce6db52d64e63
   b0048e01f6ab4fc124e443ce873a46ce64e309b4c79a45d0d5d8b80fdf8312eb, 64593804ebcd7675a612cb04a718192175b50d105499eff882f3bb69eb0091e0,
   9e7799a96736ad5f29f4148d916302b1e3bd05d1e555501933ee34b30964ee4e, 4e32c0fdba4f10b27dcd0d8f59daf3e21a914b429778c47db680bce1fd4adaf6,
   798ba4c29268a0a54ff4924c21473925cc9b739a950562276b9a80ff52b7712a, ad5b3421c577d5e985416254564fe73a4f56fb93ca62926d7a619737e18fb596,
-  43ff4e661135f8aa911ffabb59548aa24f73eef8c7dbc81c9c39f44ec629414e]
-confirmation_count: 15
+  43ff4e661135f8aa911ffabb59548aa24f73eef8c7dbc81c9c39f44ec629414e, f83ed996800de1ca3d22132af1bd9f6b2bb7e37bc5bd1f3527330dcac509d49a,
+  275d2e1492d56d91402439d748eca13f1d999bda6b2ae34668f0f627cf3b0348, d19c14948e5ceb3b8c4ea5f9872f0c5f1c7981fb56d109be0d1d9e53f19e4dc3]
+confirmation_count: 18
 last_confirmed_at: '2026-02-12'
 ---
 

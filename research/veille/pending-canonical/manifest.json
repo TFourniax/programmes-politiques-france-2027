@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created_at": "2026-08-17T19:57:19.441897+00:00",
-  "updated_at": "2026-08-22T02:38:36.875292+00:00",
+  "updated_at": "2026-08-22T07:58:13.515030+00:00",
   "files": [
     {
       "path": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-02b6fd496b7b.md",
@@ -59,6 +59,16 @@
       "size": 2242
     },
     {
+      "path": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-8b4a881a8073.md",
+      "sha256": "55a9c50e298726e1610181adaf4ef5b030643bcaf209ba6fae5de287ddbd7143",
+      "size": 2051
+    },
+    {
+      "path": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-a11025c38155.md",
+      "sha256": "9ecf22c6dd10621026d7c7685882fcc6c63d480d7a6fab853ab1524082b1356d",
+      "size": 2491
+    },
+    {
       "path": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-d73594f41a90.md",
       "sha256": "d4e43bd024391db7f0130ff3b0874a565b9eddb261ad66c77487d0cf8e3371e0",
       "size": 2046
@@ -66,6 +76,11 @@
     {
       "path": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-eaf315e0b87b.md",
       "sha256": "896a7ad7323a0420e516bdb681095323a73d9dcf9c7b7dd3fc8b6292a7ceac40",
+      "size": 2095
+    },
+    {
+      "path": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-f31bd7a69cbe.md",
+      "sha256": "5b22a570ad6e24876c2f5e5248c3a322eac64fdcfdb844c6f21c52eb0b30ae01",
       "size": 2095
     },
     {
@@ -330,8 +345,8 @@
     },
     {
       "path": "proposals/auto/europe-souverainete/auto-bruno-retailleau-europe-souverainete-ed8d0d14bccb.md",
-      "sha256": "0deba94946737f3ea5762f9a7afd5c1b6dd6b586e4a2972a8bcdea6f8b48b3be",
-      "size": 2021
+      "sha256": "75a16ad79072e1378e63a403279debb86f5480c2afaf32e44aac9cf0933d601c",
+      "size": 2251
     },
     {
       "path": "proposals/auto/europe-souverainete/auto-les-ecologistes-europe-souverainete-06952d144d39.md",
@@ -390,8 +405,8 @@
     },
     {
       "path": "proposals/auto/immigration-integration/auto-bruno-retailleau-immigration-integration-39955feaadc3.md",
-      "sha256": "5893fce4af2aeac28d13e6137ab6c6a32697d9ea01d372b783a113a6edd2a160",
-      "size": 3160
+      "sha256": "a28c47b62e392c89d82a10980ec4b369aecd5531b471546e44068d31f44316db",
+      "size": 3503
     },
     {
       "path": "proposals/auto/immigration-integration/auto-les-ecologistes-immigration-integration-ddbed1d619f4.md",
@@ -400,13 +415,13 @@
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-bruno-retailleau-institutions-democratie-916dbcbd3347.md",
-      "sha256": "a56632f496bf31fcb0402f38ea58acd30d0debfcce2e93a08cf9be47e45dcafd",
-      "size": 2265
+      "sha256": "10e08c5bc0e9474c103ec248fdb3dd0bd5e3e86df8a7a30bf17f3e12bbb9a449",
+      "size": 2378
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-bruno-retailleau-institutions-democratie-f5a91461b7da.md",
-      "sha256": "b4e40f96c6380b245ed0e7ead1f21edc9be6be1b9a10f0a858302a3cf5544d21",
-      "size": 2135
+      "sha256": "d263a7d22b0b9a57e46e2831977326be677b61a9c1e1ef758e6750ec667b1740",
+      "size": 2252
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-clara-egger-institutions-democratie-ef5123784bab.md",
@@ -485,8 +500,8 @@
     },
     {
       "path": "proposals/auto/pouvoir-achat-travail/auto-bruno-retailleau-pouvoir-achat-travail-122f072f74ad.md",
-      "sha256": "baafa7110d1619cdba8fb2fa106d1c3e401a30c185ac9942d2e6d98edc8698ce",
-      "size": 1661
+      "sha256": "6156f9f7e46fa67307ca1779ce690d3372e9d30009a2154928af03989d69851c",
+      "size": 1776
     },
     {
       "path": "proposals/auto/pouvoir-achat-travail/auto-les-ecologistes-pouvoir-achat-travail-04b16919c921.md",
@@ -550,8 +565,8 @@
     },
     {
       "path": "proposals/auto/securite-justice/auto-bruno-retailleau-securite-justice-703dc438f470.md",
-      "sha256": "8f262c82f6a340995a600cb6034ba9a9e73ffc73e939d0644159ebbbdf4579ee",
-      "size": 2601
+      "sha256": "0ea8d57e293dc98d983a57cc58d5e143d9e10bcffa075abe46e4a242b2d3d821",
+      "size": 2946
     },
     {
       "path": "proposals/auto/securite-justice/auto-bruno-retailleau-securite-justice-7b2b02ba25a3.md",
