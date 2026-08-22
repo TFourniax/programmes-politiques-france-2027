@@ -40,8 +40,8 @@ Ce rapport est dérivé automatiquement du corpus courant. Il sert à piloter la
 - **Économie & finances publiques** (`economie-finances`) — 10 acteur(s), 113 proposition(s), dernière preuve 2026-08-22.
 - **Fiscalité & redistribution** (`fiscalite-redistribution`) — 10 acteur(s), 71 proposition(s), dernière preuve 2026-08-19.
 - **Sécurité & justice** (`securite-justice`) — 10 acteur(s), 131 proposition(s), dernière preuve 2026-08-19.
-- **Services publics** (`services-publics`) — 10 acteur(s), 224 proposition(s), dernière preuve 2026-08-21.
-- **Retraites** (`retraites`) — 11 acteur(s), 19 proposition(s), dernière preuve 2026-08-21.
+- **Services publics** (`services-publics`) — 10 acteur(s), 224 proposition(s), dernière preuve 2026-08-22.
+- **Retraites** (`retraites`) — 11 acteur(s), 19 proposition(s), dernière preuve 2026-08-22.
 - **Institutions & démocratie** (`institutions-democratie`) — 12 acteur(s), 253 proposition(s), dernière preuve 2026-08-22.
 - **Écologie & énergie** (`ecologie-energie`) — 13 acteur(s), 190 proposition(s), dernière preuve 2026-08-19.
 - **Pouvoir d’achat & travail** (`pouvoir-achat-travail`) — 13 acteur(s), 61 proposition(s), dernière preuve 2026-08-19.

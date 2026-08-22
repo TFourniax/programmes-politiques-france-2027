@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created_at": "2026-08-17T19:57:19.441897+00:00",
-  "updated_at": "2026-08-22T07:58:13.515030+00:00",
+  "updated_at": "2026-08-22T13:54:07.192336+00:00",
   "files": [
     {
       "path": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-02b6fd496b7b.md",
@@ -122,6 +122,16 @@
       "path": "corpus/2027/auto/partys/nouvelle-energie/2026-08-21-d893b570dcb9.md",
       "sha256": "4a6618914202b54486a462a7be4f23a8c9df25c34cfc49a43c2a917cf21fa9e6",
       "size": 2280
+    },
+    {
+      "path": "corpus/2027/auto/partys/nouvelle-energie/2026-08-22-bc9d1a3db945.md",
+      "sha256": "c56f9a04c77a69d7612031fc0a929fa5f73c66846327222ebe5347f3ce4c8b37",
+      "size": 2083
+    },
+    {
+      "path": "corpus/2027/auto/partys/nouvelle-energie/2026-08-22-c97f58a2bd16.md",
+      "sha256": "d3e672aa03e87a73ebb080de48b8120b3422725e90ebc60809f708597412d983",
+      "size": 1548
     },
     {
       "path": "corpus/2027/auto/partys/nouvelle-energie/2026-08-22-fccb4c9bb80f.md",
@@ -330,8 +340,8 @@
     },
     {
       "path": "proposals/auto/economie-finances/auto-nouvelle-energie-economie-finances-1ce2938e1f05.md",
-      "sha256": "9623466854f90684f25ca6cb87789d08cc9394e73c92513ca8fe4c02e99c4027",
-      "size": 1546
+      "sha256": "4c34406b7d6b0271a68cae082e8d2de9692185ec2d9eed470523b975182039d9",
+      "size": 1661
     },
     {
       "path": "proposals/auto/economie-finances/auto-nouvelle-energie-economie-finances-6b725b0ab72c.md",
@@ -560,8 +570,8 @@
     },
     {
       "path": "proposals/auto/retraites/auto-nouvelle-energie-retraites-4b9149336ab7.md",
-      "sha256": "c190426932dee4c5288d1b9217b825fa412b54b508ec880084eda7d5e4b80e77",
-      "size": 2164
+      "sha256": "ad4c7d3fb6e4ed88a22abad0c259eb84047b2309e8428f42b533780428f2d565",
+      "size": 2281
     },
     {
       "path": "proposals/auto/securite-justice/auto-bruno-retailleau-securite-justice-703dc438f470.md",
@@ -750,8 +760,8 @@
     },
     {
       "path": "proposals/auto/services-publics/auto-nouvelle-energie-services-publics-2dd30b44dc9c.md",
-      "sha256": "d11eb13c280220edef36ba5513375bd0f3b134a9bee083c1874451126e27de92",
-      "size": 2149
+      "sha256": "f9a59400d5ef9b0b382b65bfbcf6124e9ff1770704d2f0e2d15f77f66939a903",
+      "size": 2266
     },
     {
       "path": "proposals/ecologie-energie/les-ecologistes-location-sociale-vehicules-electriques.md",

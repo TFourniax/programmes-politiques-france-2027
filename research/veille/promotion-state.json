@@ -1408,7 +1408,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-08-22T07:58:09+00:00",
+  "last_run_at": "2026-08-22T13:54:01+00:00",
   "source_chunks": {
     "020221717496955b329ee982": {
       "canonical_confirmations": [],
@@ -2950,6 +2950,28 @@
       "total": 1,
       "updated_at": "2026-08-20T20:01:59+00:00",
       "url": "https://npa-revolutionnaires.org/communique-presidentielle-2027-selma-labib-une-candidature-ouvriere-et-revolutionnaire-soutenue-par-gael-quirante/"
+    },
+    "2e978d851626163e1c548e86": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-08-22T13:53:40+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [
+        "2026-08-22"
+      ],
+      "sha256": "d070f70d3b2ac8bcbd3a172943153f08b8f50262451272db00a31e3ee069173a",
+      "source_title": "Où trouver le programme de David Lisnard ? | Nouvelle Énergie",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-22T13:53:44+00:00",
+      "url": "https://www.unenouvelleenergie.fr/questions/ou-trouver-le-programme-de-david-lisnard/"
     },
     "30e41f0953c07b82d192fc29": {
       "canonical_confirmations": [
@@ -12135,6 +12157,118 @@
       "updated_at": "2026-08-15T19:48:09+00:00",
       "url": "https://anasse2027.fr/programme"
     },
+    "bc9d1a3db9451ed36c070e5a": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "david-lisnard",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "un État recentré sur ses missions régaliennes de sécurité et de défense",
+            "relevance": "direct",
+            "statement": "Recentrer l'État sur ses missions régaliennes de sécurité et de défense.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Explicitement soutenu dans la source et déjà présent dans les propositions canoniques.",
+            "related_proposal_id": "auto-nouvelle-energie-institutions-democratie-1d98a3b70af1",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "nouvelle-energie",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "la réduction drastique des dépenses publiques, la création d’un choc massif de dérégulation",
+            "relevance": "party_platform",
+            "statement": "Mettre en œuvre une réduction drastique des dépenses publiques et un choc de dérégulation.",
+            "topic": "economie-finances"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "Explicitement soutenu dans la source et déjà présent.",
+            "related_proposal_id": "auto-nouvelle-energie-economie-finances-1ce2938e1f05",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "nouvelle-energie",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "la décentralisation de l’action publique vers l’échelon local",
+            "relevance": "party_platform",
+            "statement": "Décentraliser l'action publique vers l'échelon local.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "Explicitement soutenu dans la source et déjà présent.",
+            "related_proposal_id": "auto-nouvelle-energie-institutions-democratie-1d98a3b70af1",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "nouvelle-energie",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "suppression de la carte scolaire",
+            "relevance": "party_platform",
+            "statement": "Supprimer la carte scolaire pour permettre aux parents de scolariser leurs enfants où ils le veulent.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 3,
+            "reason": "Explicitement soutenu dans la source et déjà présent.",
+            "related_proposal_id": "auto-nouvelle-energie-services-publics-2dd30b44dc9c",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "nouvelle-energie",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "la liberté pour les travailleurs de se constituer un capital pour leur retraite (capitalisation)",
+            "relevance": "party_platform",
+            "statement": "Permettre aux travailleurs de se constituer un capital pour leur retraite par capitalisation.",
+            "topic": "retraites"
+          },
+          "verdict": {
+            "index": 4,
+            "reason": "Explicitement soutenu dans la source et déjà présent.",
+            "related_proposal_id": "auto-nouvelle-energie-retraites-4b9149336ab7",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-08-22T13:53:57+00:00",
+      "created_at": "2026-08-22T13:53:45+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "a56355959f1a0b8984c0f2c800c0fd7072ab38315bbb71a971a60f0ec5990d48",
+      "source_title": "Le programme de David Lisnard | Nouvelle Énergie",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-22T13:53:52+00:00",
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/"
+    },
     "bfbc9f86911271e2a085b789": {
       "canonical_confirmations": [],
       "claims": [],
@@ -12807,6 +12941,59 @@
       "total": 1,
       "updated_at": "2026-08-14T14:36:53+00:00",
       "url": "https://bsky.app/profile/marinetondelier.fr/post/3mszwoez24s2d"
+    },
+    "c97f58a2bd160a54b3416923": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "completed_at": "2026-08-22T13:54:01+00:00",
+      "created_at": "2026-08-22T13:53:58+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-08-22"
+      ],
+      "sha256": "c2b274e0ad808d020636cf61344043be96dd9dbcfda2047a5e37c24e34e93f21",
+      "source_title": "David Lisnard est-il candidat à la présidentielle 2027 ? | Nouvelle Énergie",
+      "statuses": [
+        {
+          "status": {
+            "candidate_id": "david-lisnard",
+            "effective_date": "2026-08-22",
+            "evidence_quote": "David Lisnard est candidat à l’élection présidentielle de 2027",
+            "explicit": true,
+            "new_status": "declared_presidential"
+          }
+        }
+      ],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-22T13:54:01+00:00",
+      "url": "https://www.unenouvelleenergie.fr/questions/david-lisnard-est-il-candidat-a-la-presidentielle-2027/"
+    },
+    "cb8ebb313344e4b72c9f064a": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-08-22T13:54:01+00:00",
+      "document_types": [
+        "other"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "d65b55b469b0400466b088087af6e6bb57ca1de972fddfa43720cf9038197024",
+      "source_title": "En raison des intempéries et du changement d’horaire de l’événement « pour l’écologie, pour l’union », la nouvelle maire écologiste de Villepinte, Melissa Youssouf n’a malheureusem",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-22T13:54:03+00:00",
+      "url": "https://bsky.app/profile/lesecologistes.fr/post/3mtocutkwic27"
     },
     "cc02fece8ef19549696802b4": {
       "canonical_confirmations": [
@@ -15845,6 +16032,15 @@
       "status": "not_confirmed",
       "url": "https://solutiondemocratique.fr/nicolas-dupont-aignan-programme-presidentielle2027/"
     },
+    "408d4c6e1ef5": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-08-22T13:54:01+00:00",
+      "reason": null,
+      "source_sha256": "c2b274e0ad808d020636cf61344043be96dd9dbcfda2047a5e37c24e34e93f21",
+      "status": "promoted",
+      "url": "https://www.unenouvelleenergie.fr/questions/david-lisnard-est-il-candidat-a-la-presidentielle-2027/"
+    },
     "47f0f12206f4": {
       "chunks_done": null,
       "chunks_total": null,
@@ -16147,6 +16343,15 @@
       "status": "promoted",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
+    "926a71aa22d1": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-22T13:53:44+00:00",
+      "reason": null,
+      "source_sha256": "d070f70d3b2ac8bcbd3a172943153f08b8f50262451272db00a31e3ee069173a",
+      "status": "not_confirmed",
+      "url": "https://www.unenouvelleenergie.fr/questions/ou-trouver-le-programme-de-david-lisnard/"
+    },
     "93ce69ff0940": {
       "chunks_done": null,
       "chunks_total": 1,
@@ -16382,6 +16587,15 @@
       "source_sha256": "351fc0c685122756d7196c609a5987fcb21afc969b167fea443bb0b1fe4da9ec",
       "status": "not_confirmed",
       "url": "https://trajectoire2027.fr/programme.html"
+    },
+    "bdaab3e0894d": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-22T13:53:57+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "a56355959f1a0b8984c0f2c800c0fd7072ab38315bbb71a971a60f0ec5990d48",
+      "status": "promoted",
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/"
     },
     "c0fc1bef6abd": {
       "chunks_done": null,

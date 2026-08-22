@@ -1,1 +1,34 @@
-[]
+[
+  {
+    "collection_state": "stale_not_confirmed_on_official_site",
+    "discovered_at": "2026-08-13T00:19:29+00:00",
+    "entity_id": "debout-la-france",
+    "entity_name": "Debout la France",
+    "entity_type": "party",
+    "identifier": "20Minutes",
+    "identifier_type": "handle",
+    "last_confirmed_at": "2026-08-15T10:44:47+00:00",
+    "platform": "x",
+    "profile_url": "https://x.com/20Minutes",
+    "provenance": "linked_from_official_website",
+    "source_site": "https://www.debout-la-france.fr/",
+    "source_tier": "tier_4_discovery_only",
+    "stale_since": "2026-08-22T13:53:34+00:00"
+  },
+  {
+    "collection_state": "stale_not_confirmed_on_official_site",
+    "discovered_at": "2026-08-11T12:12:12+00:00",
+    "entity_id": "debout-la-france",
+    "entity_name": "Debout la France",
+    "entity_type": "party",
+    "identifier": "nypost",
+    "identifier_type": "handle",
+    "last_confirmed_at": "2026-08-15T10:44:47+00:00",
+    "platform": "x",
+    "profile_url": "https://x.com/nypost",
+    "provenance": "linked_from_official_website",
+    "source_site": "https://www.debout-la-france.fr/",
+    "source_tier": "tier_4_discovery_only",
+    "stale_since": "2026-08-22T13:53:34+00:00"
+  }
+]
