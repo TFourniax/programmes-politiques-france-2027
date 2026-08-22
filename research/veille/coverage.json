@@ -6,18 +6,18 @@
     "actors": 68,
     "declared_or_active_candidates": 27,
     "topics": 12,
-    "current_proposals": 1243,
+    "current_proposals": 1244,
     "covered_actor_topic_cells": 118,
     "total_actor_topic_cells": 816,
     "actor_topic_coverage_ratio": 0.1446,
     "active_candidate_covered_cells": 46,
     "active_candidate_total_cells": 324,
     "active_candidate_topic_coverage_ratio": 0.142,
-    "verified_proposals": 1204,
-    "multi_source_proposals": 29,
+    "verified_proposals": 1205,
+    "multi_source_proposals": 30,
     "latest_evidence_at": "2026-08-22",
     "certainty_counts": {
-      "explicit": 1219,
+      "explicit": 1220,
       "explicit_but_conditional": 3,
       "explicit_but_underspecified": 21
     }
@@ -364,7 +364,7 @@
       "type": "candidate",
       "status": "declared_presidential",
       "confidence": "high",
-      "current_proposals": 37,
+      "current_proposals": 38,
       "covered_topics": [
         "defense-international",
         "ecologie-energie",
@@ -382,8 +382,8 @@
       "coverage_ratio": 1.0,
       "gaps": [],
       "latest_evidence_at": "2026-08-22",
-      "verified_proposals": 32,
-      "multi_source_proposals": 2
+      "verified_proposals": 33,
+      "multi_source_proposals": 3
     },
     {
       "id": "debout",
@@ -2027,11 +2027,11 @@
     {
       "id": "services-publics",
       "label": "Services publics",
-      "current_proposals": 224,
+      "current_proposals": 225,
       "actors_covered": 10,
       "actor_coverage_ratio": 0.1471,
       "latest_evidence_at": "2026-08-22",
-      "verified_proposals": 220,
+      "verified_proposals": 221,
       "multi_source_proposals": 3
     },
     {
@@ -2052,7 +2052,7 @@
       "actor_coverage_ratio": 0.1471,
       "latest_evidence_at": "2026-08-22",
       "verified_proposals": 111,
-      "multi_source_proposals": 3
+      "multi_source_proposals": 4
     },
     {
       "id": "numerique-ia",
@@ -2779,7 +2779,7 @@
       "name": "David Lisnard",
       "status": "declared_presidential",
       "coverage_ratio": 1.0,
-      "current_proposals": 37,
+      "current_proposals": 38,
       "latest_evidence_at": "2026-08-22",
       "topics": [
         {
@@ -2858,9 +2858,9 @@
           "id": "services-publics",
           "label": "Services publics",
           "covered": true,
-          "current_proposals": 6,
-          "latest_evidence_at": "2026-07-31",
-          "verified_proposals": 5,
+          "current_proposals": 7,
+          "latest_evidence_at": "2026-08-22",
+          "verified_proposals": 6,
           "multi_source_proposals": 0
         },
         {
@@ -2877,9 +2877,9 @@
           "label": "Économie & finances publiques",
           "covered": true,
           "current_proposals": 5,
-          "latest_evidence_at": "2026-08-21",
+          "latest_evidence_at": "2026-08-22",
           "verified_proposals": 3,
-          "multi_source_proposals": 0
+          "multi_source_proposals": 1
         },
         {
           "id": "numerique-ia",

@@ -115,6 +115,11 @@
       "source_url": "https://melenchon2027.fr/programme2025/livre/chapitre16/",
       "verified_at": "2026-08-13T00:20:23+00:00"
     },
+    "16a78fe89ce6ff77c3f72ac7302d3e92b55138441099be6e968f30f972f0514f": {
+      "proposal_id": "auto-david-lisnard-services-publics-16a78fe89ce6",
+      "source_url": "https://www.unenouvelleenergie.fr/notre-programme/",
+      "verified_at": "2026-08-22T19:48:12+00:00"
+    },
     "16d0e2a8a0ebf514423a490dab68cc22a4f7dc0fdecb1e84405a6de1a04b28a3": {
       "proposal_id": "auto-les-ecologistes-services-publics-16d0e2a8a0eb",
       "source_url": "https://lesecologistes.fr/document/5ZhR2m5t2ZaGKqIdD1bJaD/vdef-programme-1.pdf",
@@ -1408,7 +1413,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-08-22T13:54:01+00:00",
+  "last_run_at": "2026-08-22T19:48:40+00:00",
   "source_chunks": {
     "020221717496955b329ee982": {
       "canonical_confirmations": [],
@@ -5212,6 +5217,26 @@
       "updated_at": "2026-08-14T08:47:12+00:00",
       "url": "https://solutiondemocratique.fr/anasse-kazib-2027-analyse-de-son-programme-et-engagement-reel-pour-la-democratie/"
     },
+    "5108f38ea3f8e3919bf1fede": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-08-22T19:48:44+00:00",
+      "document_types": [
+        "other"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "ec1014cfb6cfc57277c014cf840f21613bcfa17c56b8d702c52e26c70b6697e0",
+      "source_title": "En raison des intempéries de jeudi soir à Grenoble, lui aussi n'a pas pu participer à la soirée « Pour l’union, pour l’écologie ! » Mais le président de SOS Racisme Dominique Sopo",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-22T19:48:45+00:00",
+      "url": "https://bsky.app/profile/lesecologistes.fr/post/3mtolvim24k2j"
+    },
     "5453bf0229bb1a8bdab5046e": {
       "canonical_confirmations": [
         {
@@ -5395,6 +5420,84 @@
       "total": 1,
       "updated_at": "2026-08-12T23:32:53+00:00",
       "url": "https://melenchon2027.fr/programme2025/livre/chapitre14/"
+    },
+    "5c757605a9c3d828f126a19a": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "réduire drastiquement l’immigration",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau souhaite soumettre un texte de loi par référendum pour réduire drastiquement l'immigration.",
+            "topic": "immigration-integration"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Présent à l'identique dans le canonique.",
+            "related_proposal_id": "auto-bruno-retailleau-immigration-integration-39955feaadc3",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "engager une véritable révolution de notre justice pénale",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau propose d'engager une véritable révolution de notre justice pénale par référendum.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "Présent à l'identique dans le canonique.",
+            "related_proposal_id": "auto-bruno-retailleau-securite-justice-703dc438f470",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "redonner la primauté à notre droit national",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau souhaite redonner la primauté au droit national par voie de référendum.",
+            "topic": "europe-souverainete"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "Présent à l'identique dans le canonique.",
+            "related_proposal_id": "auto-bruno-retailleau-europe-souverainete-ed8d0d14bccb",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-08-22T19:48:29+00:00",
+      "created_at": "2026-08-22T19:48:19+00:00",
+      "document_types": [
+        "candidacy_declaration"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-02-12"
+      ],
+      "sha256": "1e8718ec7b978210d7d3b8110049b1637882d5b1f312219cdfd9d3c4dfb70dd3",
+      "source_title": "Je suis candidat à l'élection présidentielle. - Les Républicains",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-22T19:48:24+00:00",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
     "5ecf5e7b0cd7f644de764c3d": {
       "claims": [],
@@ -6191,6 +6294,137 @@
       "updated_at": "2026-08-14T20:05:56+00:00",
       "url": "https://solutiondemocratique.fr/eric-zemmour-programme-presidentielle2027/"
     },
+    "77217a0982c66f4840a33147": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "david-lisnard",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "un État recentré sur ses missions régaliennes de sécurité et de défense",
+            "relevance": "direct",
+            "statement": "L'État doit être recentré sur ses missions régaliennes de sécurité et de défense.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Explicitement présent dans le programme et déjà présent dans le canonique.",
+            "related_proposal_id": "auto-david-lisnard-institutions-democratie-8a7a7019b8f9",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "david-lisnard",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "la libération des énergies créatrices par une profonde débureaucratisation",
+            "relevance": "direct",
+            "statement": "Il faut opérer une libération des énergies créatrices par une profonde débureaucratisation.",
+            "topic": "economie-finances"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "Présent textuellement dans la source et déjà canonique.",
+            "related_proposal_id": "auto-david-lisnard-economie-finances-3591e11af1e3",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "david-lisnard",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "une école d’excellence pour faire de la France une superpuissance éducative et scientifique",
+            "relevance": "direct",
+            "statement": "Il faut promouvoir une école d'excellence pour faire de la France une superpuissance éducative et scientifique.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "Présent explicitement dans la source pour David Lisnard, absent du canonique actuel.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "nouvelle-energie",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "suppression de la carte scolaire",
+            "relevance": "party_platform",
+            "statement": "Nouvelle Énergie défend la suppression de la carte scolaire pour garantir la liberté de choix des parents.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 3,
+            "reason": "Explicitement mentionné pour le parti Nouvelle Énergie et déjà canonique.",
+            "related_proposal_id": "auto-david-lisnard-institutions-democratie-8dc9338c9297",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "nouvelle-energie",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "la liberté pour les travailleurs de se constituer un capital pour leur retraite (capitalisation)",
+            "relevance": "party_platform",
+            "statement": "Nouvelle Énergie défend la liberté pour les travailleurs de se constituer un capital pour leur retraite par capitalisation.",
+            "topic": "retraites"
+          },
+          "verdict": {
+            "index": 4,
+            "reason": "Présent dans la source et déjà présent dans le canonique de Nouvelle Énergie.",
+            "related_proposal_id": "auto-nouvelle-energie-retraites-4b9149336ab7",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [
+        {
+          "claim": {
+            "actor_id": "david-lisnard",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "une école d’excellence pour faire de la France une superpuissance éducative et scientifique",
+            "relevance": "direct",
+            "statement": "Il faut promouvoir une école d'excellence pour faire de la France une superpuissance éducative et scientifique.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "Présent explicitement dans la source pour David Lisnard, absent du canonique actuel.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "completed_at": "2026-08-22T19:48:18+00:00",
+      "created_at": "2026-08-22T19:48:01+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "b49ebb3be6fd75962fe825fe761a77d59bec9802b13d22d4834416924b4327aa",
+      "source_title": "Le programme de David Lisnard | Nouvelle Énergie",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-22T19:48:12+00:00",
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/"
+    },
     "77f522277be2ac88fdba0417": {
       "canonical_confirmations": [
         {
@@ -6625,6 +6859,26 @@
       "total": 1,
       "updated_at": "2026-08-15T10:45:43+00:00",
       "url": "https://solutiondemocratique.fr/david-lisnard-programme-2027/"
+    },
+    "7f2f7faf32da97da5cb48605": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-08-22T19:48:42+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "83798444dc47fd0fb227038a786f907dd97fbf036f34545e9064244a27c26bad",
+      "source_title": "2027, la victoire !",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-22T19:48:43+00:00",
+      "url": "https://www.youtube.com/watch?v=s4W3GoNCfiY"
     },
     "7fa3658e17073c3767dc36d2": {
       "canonical_confirmations": [
@@ -7519,6 +7773,28 @@
       "total": 1,
       "updated_at": "2026-08-14T14:36:39+00:00",
       "url": "https://solutiondemocratique.fr/raphael-glucksmann-2027-programme-presidentiel/"
+    },
+    "9e9f065ec65889b455bded1e": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-08-22T19:48:41+00:00",
+      "document_types": [
+        "official_interview"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [
+        "2026-08-22"
+      ],
+      "sha256": "2b08258322533f986e2832d834d2c59c6c08f56093d97eeebe1bad2f660f150e",
+      "source_title": "Présidentielle, Musk, été caniculaire, grossesse : l'interview de rentrée de Marine Tondelier (LCI)",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-22T19:48:42+00:00",
+      "url": "https://www.youtube.com/watch?v=pqJ8J3oJm1A"
     },
     "a0acfa7e852cda600b98e9f8": {
       "canonical_confirmations": [
@@ -15671,6 +15947,84 @@
       "total": 1,
       "updated_at": "2026-08-22T02:38:10+00:00",
       "url": "https://www.unenouvelleenergie.fr/notre-programme/"
+    },
+    "ff01a7667fd959d729c67404": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "réduire drastiquement l’immigration",
+            "relevance": "direct",
+            "statement": "Il souhaite réduire drastiquement l'immigration par référendum.",
+            "topic": "immigration-integration"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La déclaration est explicitement soutenue par la source et correspond à une entrée canonique existante.",
+            "related_proposal_id": "auto-bruno-retailleau-immigration-integration-39955feaadc3",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "engager une véritable révolution de notre justice pénale",
+            "relevance": "direct",
+            "statement": "Il veut engager une révolution de la justice pénale par référendum.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La proposition de révolution de la justice pénale par référendum est explicitement présente dans le texte et le canon.",
+            "related_proposal_id": "auto-bruno-retailleau-securite-justice-7b2b02ba25a3",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "je vous soumettrai directement par référendum plusieurs grands textes de loi",
+            "relevance": "direct",
+            "statement": "Il veut soumettre plusieurs grands textes de loi directement par référendum.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "L'engagement de soumettre plusieurs grands textes de loi par référendum est explicitement étayé.",
+            "related_proposal_id": "auto-bruno-retailleau-institutions-democratie-f5a91461b7da",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-08-22T19:48:40+00:00",
+      "created_at": "2026-08-22T19:48:30+00:00",
+      "document_types": [
+        "candidacy_declaration"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-02-12"
+      ],
+      "sha256": "4aef03253df943ec7babb0e1a9c4bb60cd8f8bfa612de87e1ea8ad731c28e892",
+      "source_title": "Je suis candidat à l'élection présidentielle. - Les Républicains",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-22T19:48:35+00:00",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     }
   },
   "sources": {
@@ -15861,6 +16215,15 @@
       "status": "promoted",
       "url": "https://melenchon2027.fr/programme2025/livre/chapitre17/"
     },
+    "2b471bce7cb8": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-22T19:48:29+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "1e8718ec7b978210d7d3b8110049b1637882d5b1f312219cdfd9d3c4dfb70dd3",
+      "status": "promoted",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
     "2c661186c2b3": {
       "chunks_done": null,
       "chunks_total": null,
@@ -15986,6 +16349,15 @@
       "source_sha256": "54db91a2896f3d6518f05addfc4bc3a93670b7dddd36d2f34e8493f7b640fb6a",
       "status": "promoted",
       "url": "https://www.unenouvelleenergie.fr/notre-programme/agriculture/"
+    },
+    "392dff7e586b": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-08-22T19:48:18+00:00",
+      "reason": null,
+      "source_sha256": "b49ebb3be6fd75962fe825fe761a77d59bec9802b13d22d4834416924b4327aa",
+      "status": "promoted",
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/"
     },
     "3b3dcd313af2": {
       "chunks_done": null,
@@ -16475,6 +16847,15 @@
       "source_sha256": "db4acdaa7874beb278bda20f4bc46f0116fe58fa31cdb52eff75e8d20049d13f",
       "status": "promoted",
       "url": "https://www.unenouvelleenergie.fr/notre-programme/"
+    },
+    "aef075c7fd4c": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-22T19:48:40+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "4aef03253df943ec7babb0e1a9c4bb60cd8f8bfa612de87e1ea8ad731c28e892",
+      "status": "promoted",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
     "af60495c3af7": {
       "chunks_done": null,
