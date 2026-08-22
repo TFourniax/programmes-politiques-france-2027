@@ -575,6 +575,11 @@
       "source_url": "https://melenchon2027.fr/programme2025/livre/chapitre3/",
       "verified_at": "2026-08-12T21:48:17+00:00"
     },
+    "6b725b0ab72c6b2baf0bfe0f699bcf4710c7b9a8d2f5343d70d16a3afa18e433": {
+      "proposal_id": "auto-nouvelle-energie-economie-finances-6b725b0ab72c",
+      "source_url": "https://www.unenouvelleenergie.fr/notre-programme/",
+      "verified_at": "2026-08-22T02:38:10+00:00"
+    },
     "6b7947de9f7aeb4c18be22e6e4b02fe813ae2824cc17f5d7f26bc9dedd3e7436": {
       "proposal_id": "auto-la-france-insoumise-europe-souverainete-6b7947de9f7a",
       "source_url": "https://melenchon2027.fr/programme2025/livre/chapitre17/",
@@ -1401,9 +1406,9 @@
       "verified_at": "2026-08-13T08:51:16+00:00"
     }
   },
-  "last_error_count": 0,
-  "last_processed_count": 3,
-  "last_run_at": "2026-08-21T19:51:09+00:00",
+  "last_error_count": 1,
+  "last_processed_count": 2,
+  "last_run_at": "2026-08-22T02:38:33+00:00",
   "source_chunks": {
     "020221717496955b329ee982": {
       "canonical_confirmations": [],
@@ -6914,6 +6919,102 @@
       "total": 1,
       "updated_at": "2026-08-14T20:06:05+00:00",
       "url": "https://solutiondemocratique.fr/sarah-knafo-2027-programme-presidentiel/"
+    },
+    "8990fd43063e34fcfbcb39fd": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "réduire drastiquement l’immigration",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau souhaite réduire drastiquement l'immigration par référendum.",
+            "topic": "immigration-integration"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Présent dans le canonique actuel et explicitement soutenu par la source.",
+            "related_proposal_id": "auto-bruno-retailleau-immigration-integration-39955feaadc3",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "une véritable révolution de notre justice pénale",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau veut engager une révolution de la justice pénale par référendum.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "Présent dans le canonique actuel et explicitement soutenu par la source.",
+            "related_proposal_id": "auto-bruno-retailleau-securite-justice-703dc438f470",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "je vous soumettrai directement par référendum plusieurs grands textes de loi",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau propose de soumettre plusieurs grands textes de loi directement par référendum.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "Présent dans le canonique actuel et explicitement soutenu par la source.",
+            "related_proposal_id": "auto-bruno-retailleau-institutions-democratie-f5a91461b7da",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "redonner la primauté à notre droit national",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau veut redonner la primauté au droit national.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 3,
+            "reason": "Présent dans le canonique actuel et explicitement soutenu par la source.",
+            "related_proposal_id": "auto-bruno-retailleau-institutions-democratie-916dbcbd3347",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-08-22T02:38:32+00:00",
+      "created_at": "2026-08-22T02:38:19+00:00",
+      "document_types": [
+        "candidacy_declaration"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-02-12"
+      ],
+      "sha256": "43ff4e661135f8aa911ffabb59548aa24f73eef8c7dbc81c9c39f44ec629414e",
+      "source_title": "Je suis candidat à l'élection présidentielle. - Les Républicains",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-22T02:38:24+00:00",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
     "8cbca85c6e1e80a5af7cc2f9": {
       "canonical_confirmations": [],
@@ -14980,6 +15081,119 @@
       "total": 1,
       "updated_at": "2026-08-11T14:42:51+00:00",
       "url": "https://parti-equinoxe.fr/legislatives-2022-programme-environnement/"
+    },
+    "fccb4c9bb80f1181ea676495": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "david-lisnard",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "un État recentré sur ses missions régaliennes de sécurité et de défense",
+            "relevance": "direct",
+            "statement": "Recentrer l'État sur ses missions régaliennes de sécurité et de défense.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Explicitement présent dans le canonique et soutenu par la source pour David Lisnard.",
+            "related_proposal_id": "auto-david-lisnard-institutions-democratie-8a7a7019b8f9",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "nouvelle-energie",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "la réduction drastique des dépenses publiques",
+            "relevance": "party_platform",
+            "statement": "Mettre en œuvre une réduction drastique des dépenses publiques.",
+            "topic": "economie-finances"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "Présent dans le canonique et explicitement soutenu par la source pour Nouvelle Énergie.",
+            "related_proposal_id": "auto-nouvelle-energie-economie-finances-1ce2938e1f05",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "nouvelle-energie",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "la création d’un choc massif de dérégulation",
+            "relevance": "party_platform",
+            "statement": "Créer un choc massif de dérégulation.",
+            "topic": "economie-finances"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "Soutenu par la source pour le parti Nouvelle Énergie mais absent du canonique.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "nouvelle-energie",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "la décentralisation de l’action publique vers l’échelon local",
+            "relevance": "party_platform",
+            "statement": "Décentraliser l'action publique vers l'échelon local.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 3,
+            "reason": "Présent dans le canonique et explicitement soutenu par la source.",
+            "related_proposal_id": "prop-lisnard-decentralisation",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [
+        {
+          "claim": {
+            "actor_id": "nouvelle-energie",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "la création d’un choc massif de dérégulation",
+            "relevance": "party_platform",
+            "statement": "Créer un choc massif de dérégulation.",
+            "topic": "economie-finances"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "Soutenu par la source pour le parti Nouvelle Énergie mais absent du canonique.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "completed_at": "2026-08-22T02:38:17+00:00",
+      "created_at": "2026-08-22T02:38:02+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "77fdb6513c25c5e6ed8f3a4b060cc91a6eed0600a3a753f635f794a8bcb564b0",
+      "source_title": "Le programme de David Lisnard | Nouvelle Énergie",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-22T02:38:10+00:00",
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/"
     }
   },
   "sources": {
@@ -15070,6 +15284,15 @@
       "processed_at": "2026-08-20T20:01:42+00:00",
       "reason": null,
       "source_sha256": "fb118f3c3a021366912422ca95ba9e31ee87e367291a2675576eecc165564281",
+      "status": "promoted",
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/"
+    },
+    "17613477be4b": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-08-22T02:38:17+00:00",
+      "reason": null,
+      "source_sha256": "77fdb6513c25c5e6ed8f3a4b060cc91a6eed0600a3a753f635f794a8bcb564b0",
       "status": "promoted",
       "url": "https://www.unenouvelleenergie.fr/notre-programme/"
     },
@@ -15794,6 +16017,15 @@
       "status": "not_confirmed",
       "url": "https://trajectoire2027.fr/qui-sommes-nous.html"
     },
+    "b5a2982737cf": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-22T02:38:32+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "43ff4e661135f8aa911ffabb59548aa24f73eef8c7dbc81c9c39f44ec629414e",
+      "status": "promoted",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
     "b76c592d4802": {
       "chunks_done": null,
       "chunks_total": null,
@@ -15811,10 +16043,10 @@
       "url": "https://www.revolutionpermanente.fr/"
     },
     "b8920657eb06": {
-      "attempts": 3,
+      "attempts": 4,
       "error": "ValueError: source text too short",
-      "next_retry_at": "2026-08-21T19:53:19+00:00",
-      "processed_at": "2026-08-18T19:53:19+00:00",
+      "next_retry_at": "2026-08-29T02:38:17+00:00",
+      "processed_at": "2026-08-22T02:38:17+00:00",
       "status": "technical_error",
       "url": "https://www.jerome-guedj.fr/la-clarte-plutot-que-les-slogans-pourquoi-jai-annonce-ma-candidature-pour-2027/"
     },

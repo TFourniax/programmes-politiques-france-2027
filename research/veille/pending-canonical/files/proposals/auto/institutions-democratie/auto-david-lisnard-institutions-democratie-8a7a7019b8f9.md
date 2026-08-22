@@ -5,7 +5,7 @@ entity_id: david-lisnard
 topic: institutions-democratie
 certainty: explicit
 proposal_status: current
-source_document_ids: [auto-nouvelle-energie-2026-08-20-062668f762e9, auto-nouvelle-energie-2026-08-21-d893b570dcb9]
+source_document_ids: [auto-nouvelle-energie-2026-08-20-062668f762e9, auto-nouvelle-energie-2026-08-21-d893b570dcb9, auto-nouvelle-energie-2026-08-22-fccb4c9bb80f]
 source_url: https://www.unenouvelleenergie.fr/notre-programme/
 source_tier: tier_1_primary_official
 first_documented_at: '2026-08-20'
@@ -15,9 +15,10 @@ verification_method: primary_source_exact_quote_plus_independent_gemini_verifier
 evidence_sha256: 1eb28a14537fd7186cd6df902ba6b6b140cc6de4de1701724f76346ce9ed36b2
 generated_by: scripts/auto_promote.py
 source_urls: ['https://www.unenouvelleenergie.fr/notre-programme/']
-evidence_sha256s: [1eb28a14537fd7186cd6df902ba6b6b140cc6de4de1701724f76346ce9ed36b2, db4acdaa7874beb278bda20f4bc46f0116fe58fa31cdb52eff75e8d20049d13f]
-confirmation_count: 2
-last_confirmed_at: '2026-08-21'
+evidence_sha256s: [1eb28a14537fd7186cd6df902ba6b6b140cc6de4de1701724f76346ce9ed36b2, db4acdaa7874beb278bda20f4bc46f0116fe58fa31cdb52eff75e8d20049d13f,
+  77fdb6513c25c5e6ed8f3a4b060cc91a6eed0600a3a753f635f794a8bcb564b0]
+confirmation_count: 3
+last_confirmed_at: '2026-08-22'
 ---
 
 # Recentrer l'État sur ses missions régaliennes de sécurité et de défense

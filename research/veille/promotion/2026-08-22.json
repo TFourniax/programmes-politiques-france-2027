@@ -1,0 +1,48 @@
+{
+  "errors": [
+    {
+      "at": "2026-08-22T02:38:17+00:00",
+      "error": "ValueError: source text too short",
+      "url": "https://www.jerome-guedj.fr/la-clarte-plutot-que-les-slogans-pourquoi-jai-annonce-ma-candidature-pour-2027/"
+    }
+  ],
+  "generated_at": "2026-08-22T02:38:33+00:00",
+  "historical_skipped": 0,
+  "partial": 0,
+  "processed": 2,
+  "promoted": 2,
+  "proposals_created": 1,
+  "results": [
+    {
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/partys/nouvelle-energie/2026-08-22-fccb4c9bb80f.md",
+      "proposals": [
+        "proposals/auto/economie-finances/auto-nouvelle-energie-economie-finances-6b725b0ab72c.md"
+      ],
+      "provenance_updates": [
+        "auto-david-lisnard-institutions-democratie-8a7a7019b8f9",
+        "auto-nouvelle-energie-economie-finances-1ce2938e1f05"
+      ],
+      "sha256": "77fdb6513c25c5e6ed8f3a4b060cc91a6eed0600a3a753f635f794a8bcb564b0",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/",
+      "verified_at": "2026-08-22T02:38:17+00:00"
+    },
+    {
+      "document": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-8990fd43063e.md",
+      "provenance_updates": [
+        "auto-bruno-retailleau-immigration-integration-39955feaadc3",
+        "auto-bruno-retailleau-institutions-democratie-916dbcbd3347",
+        "auto-bruno-retailleau-institutions-democratie-f5a91461b7da",
+        "auto-bruno-retailleau-securite-justice-703dc438f470"
+      ],
+      "reason": "canonical_duplicate_evidence",
+      "sha256": "43ff4e661135f8aa911ffabb59548aa24f73eef8c7dbc81c9c39f44ec629414e",
+      "status": "promoted",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/",
+      "verified_at": "2026-08-22T02:38:32+00:00"
+    }
+  ],
+  "status_updates": 0
+}

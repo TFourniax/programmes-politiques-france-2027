@@ -6,7 +6,8 @@ topic: institutions-democratie
 certainty: explicit
 proposal_status: current
 source_document_ids: [auto-bruno-retailleau-2026-02-12-13baacfdd131, auto-bruno-retailleau-2026-02-12-63d0cf967f30, auto-bruno-retailleau-2026-02-12-2a857a05842b,
-  auto-bruno-retailleau-2026-02-12-eaf315e0b87b, auto-bruno-retailleau-2026-02-12-d73594f41a90, auto-bruno-retailleau-2026-02-12-6fc99cb4ab5c]
+  auto-bruno-retailleau-2026-02-12-eaf315e0b87b, auto-bruno-retailleau-2026-02-12-d73594f41a90, auto-bruno-retailleau-2026-02-12-6fc99cb4ab5c,
+  auto-bruno-retailleau-2026-02-12-8990fd43063e]
 source_url: https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/
 source_tier: tier_1_primary_official
 first_documented_at: '2026-02-12'
@@ -18,8 +19,9 @@ generated_by: scripts/auto_promote.py
 source_urls: ['https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/']
 evidence_sha256s: [9a8ac64efd9d8ab831ecf7a203d894dffde6dbc8676d16c8677e69453dc122bf, 7e0a3bbb9cffee658252839d29bf8435758a7ff17f287645825e0d096c358962,
   6470dd47cf97041a0313162e8e5670b63226880514c737c5635577b0942eab2a, b0048e01f6ab4fc124e443ce873a46ce64e309b4c79a45d0d5d8b80fdf8312eb,
-  9e7799a96736ad5f29f4148d916302b1e3bd05d1e555501933ee34b30964ee4e, 4e32c0fdba4f10b27dcd0d8f59daf3e21a914b429778c47db680bce1fd4adaf6]
-confirmation_count: 6
+  9e7799a96736ad5f29f4148d916302b1e3bd05d1e555501933ee34b30964ee4e, 4e32c0fdba4f10b27dcd0d8f59daf3e21a914b429778c47db680bce1fd4adaf6,
+  43ff4e661135f8aa911ffabb59548aa24f73eef8c7dbc81c9c39f44ec629414e]
+confirmation_count: 7
 last_confirmed_at: '2026-02-12'
 ---
 

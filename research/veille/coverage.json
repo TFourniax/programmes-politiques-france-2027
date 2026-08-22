@@ -6,18 +6,18 @@
     "actors": 68,
     "declared_or_active_candidates": 27,
     "topics": 12,
-    "current_proposals": 1242,
+    "current_proposals": 1243,
     "covered_actor_topic_cells": 118,
     "total_actor_topic_cells": 816,
     "actor_topic_coverage_ratio": 0.1446,
     "active_candidate_covered_cells": 46,
     "active_candidate_total_cells": 324,
     "active_candidate_topic_coverage_ratio": 0.142,
-    "verified_proposals": 1203,
-    "multi_source_proposals": 28,
-    "latest_evidence_at": "2026-08-21",
+    "verified_proposals": 1204,
+    "multi_source_proposals": 29,
+    "latest_evidence_at": "2026-08-22",
     "certainty_counts": {
-      "explicit": 1218,
+      "explicit": 1219,
       "explicit_but_conditional": 3,
       "explicit_but_underspecified": 21
     }
@@ -381,7 +381,7 @@
       ],
       "coverage_ratio": 1.0,
       "gaps": [],
-      "latest_evidence_at": "2026-08-21",
+      "latest_evidence_at": "2026-08-22",
       "verified_proposals": 32,
       "multi_source_proposals": 2
     },
@@ -1318,7 +1318,7 @@
       "type": "party",
       "status": null,
       "confidence": null,
-      "current_proposals": 6,
+      "current_proposals": 7,
       "covered_topics": [
         "economie-finances",
         "institutions-democratie",
@@ -1336,9 +1336,9 @@
         "securite-justice",
         "numerique-ia"
       ],
-      "latest_evidence_at": "2026-08-21",
-      "verified_proposals": 6,
-      "multi_source_proposals": 5
+      "latest_evidence_at": "2026-08-22",
+      "verified_proposals": 7,
+      "multi_source_proposals": 6
     },
     {
       "id": "npa-revolutionnaires",
@@ -2020,7 +2020,7 @@
       "current_proposals": 253,
       "actors_covered": 12,
       "actor_coverage_ratio": 0.1765,
-      "latest_evidence_at": "2026-08-21",
+      "latest_evidence_at": "2026-08-22",
       "verified_proposals": 249,
       "multi_source_proposals": 8
     },
@@ -2047,12 +2047,12 @@
     {
       "id": "economie-finances",
       "label": "Économie & finances publiques",
-      "current_proposals": 112,
+      "current_proposals": 113,
       "actors_covered": 10,
       "actor_coverage_ratio": 0.1471,
-      "latest_evidence_at": "2026-08-21",
-      "verified_proposals": 110,
-      "multi_source_proposals": 2
+      "latest_evidence_at": "2026-08-22",
+      "verified_proposals": 111,
+      "multi_source_proposals": 3
     },
     {
       "id": "numerique-ia",
@@ -2780,7 +2780,7 @@
       "status": "declared_presidential",
       "coverage_ratio": 1.0,
       "current_proposals": 37,
-      "latest_evidence_at": "2026-08-21",
+      "latest_evidence_at": "2026-08-22",
       "topics": [
         {
           "id": "pouvoir-achat-travail",
@@ -2850,7 +2850,7 @@
           "label": "Institutions & démocratie",
           "covered": true,
           "current_proposals": 3,
-          "latest_evidence_at": "2026-08-21",
+          "latest_evidence_at": "2026-08-22",
           "verified_proposals": 2,
           "multi_source_proposals": 1
         },
