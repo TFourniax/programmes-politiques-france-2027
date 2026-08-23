@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created_at": "2026-08-17T19:57:19.441897+00:00",
-  "updated_at": "2026-08-23T07:58:53.494696+00:00",
+  "updated_at": "2026-08-23T13:56:36.404196+00:00",
   "files": [
     {
       "path": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-02b6fd496b7b.md",
@@ -84,6 +84,11 @@
       "size": 2046
     },
     {
+      "path": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-d8a7ac1fb17a.md",
+      "sha256": "135a4efe792706d82fc176c94ab142fc0f72eac2d2472a20f296773fb210b320",
+      "size": 2073
+    },
+    {
       "path": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-e27f596d9e72.md",
       "sha256": "38e53cfa2ef3d47f556383d285ee0e007cbb147c986ce7a161ec1643655c1a67",
       "size": 2093
@@ -112,6 +117,11 @@
       "path": "corpus/2027/auto/candidates/gabriel-attal/2026-08-23-20c668171ad6.md",
       "sha256": "b24dccce466924934c214e8f412e05fd1e42e5732695473ca975b877a12ae98d",
       "size": 1856
+    },
+    {
+      "path": "corpus/2027/auto/candidates/gabriel-attal/2026-08-23-fdf140209a7b.md",
+      "sha256": "4ec86410f37aebefe695128413dd70d04a5d5b8b8e18ca743348b7cbe5bef3cc",
+      "size": 1405
     },
     {
       "path": "corpus/2027/auto/partys/les-ecologistes/2026-08-17-9c2f01b4f3fc.md",
@@ -344,6 +354,11 @@
       "size": 1682
     },
     {
+      "path": "proposals/auto/economie-finances/auto-gabriel-attal-economie-finances-7d59510bf5b0.md",
+      "sha256": "840401b7bd0944d7f826d964a6ec492d63444bd8741a23f834fd7077ce094acd",
+      "size": 1178
+    },
+    {
       "path": "proposals/auto/economie-finances/auto-gabriel-attal-economie-finances-9f45e1d61977.md",
       "sha256": "c0fb1ff13528bfa6e81c186c803b1b824c18ebb16988f91cb6d7b2fa6c2bb979",
       "size": 1214
@@ -395,8 +410,8 @@
     },
     {
       "path": "proposals/auto/europe-souverainete/auto-bruno-retailleau-europe-souverainete-ed8d0d14bccb.md",
-      "sha256": "e160d404d185a6ac2f2a3e0d8a61f8668f92673f54fa6b4eb88cb090d44caa9b",
-      "size": 2479
+      "sha256": "34d4d94f10a0ca71e15374ef5be2bb206b6c62d34313b6be2660653f495eae7f",
+      "size": 2595
     },
     {
       "path": "proposals/auto/europe-souverainete/auto-les-ecologistes-europe-souverainete-06952d144d39.md",
@@ -455,8 +470,8 @@
     },
     {
       "path": "proposals/auto/immigration-integration/auto-bruno-retailleau-immigration-integration-39955feaadc3.md",
-      "sha256": "96eab6ff952192f5715f6b37690d79318aaf5ec87a914d73284af69407bea106",
-      "size": 3963
+      "sha256": "d502680843d96df0b2718413dd6c3cfa611f2011eb90ac2606e7ca7f4bfc0de6",
+      "size": 4078
     },
     {
       "path": "proposals/auto/immigration-integration/auto-les-ecologistes-immigration-integration-ddbed1d619f4.md",
@@ -630,8 +645,8 @@
     },
     {
       "path": "proposals/auto/securite-justice/auto-bruno-retailleau-securite-justice-703dc438f470.md",
-      "sha256": "c34b7021c97a0d6688eef468dfc19184b8d9c5204dc9668c38585b7e7b023ac8",
-      "size": 3289
+      "sha256": "a6eb05d225fcf91e211c83e47291f03b0d5c7dee6c1a78b3d1061d4fce283012",
+      "size": 3404
     },
     {
       "path": "proposals/auto/securite-justice/auto-bruno-retailleau-securite-justice-7b2b02ba25a3.md",

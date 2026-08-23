@@ -700,6 +700,11 @@
       "source_url": "https://www.unenouvelleenergie.fr/notre-programme/agriculture/",
       "verified_at": "2026-08-12T08:48:23+00:00"
     },
+    "7d59510bf5b0686fb651a77266822b242d478c092eb8ea787bb316626160127d": {
+      "proposal_id": "auto-gabriel-attal-economie-finances-7d59510bf5b0",
+      "source_url": "https://attalpresident.fr/programme/dette-de-letat",
+      "verified_at": "2026-08-23T13:56:31+00:00"
+    },
     "7e72953dcb1d7b0daed0dd8aa0d0924eaba9da49dd9442f599ba5a447d9962d9": {
       "proposal_id": "auto-la-france-insoumise-economie-finances-7e72953dcb1d",
       "source_url": "https://melenchon2027.fr/programme2025/livre/chapitre2/",
@@ -1443,7 +1448,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-08-23T07:58:49+00:00",
+  "last_run_at": "2026-08-23T13:56:33+00:00",
   "source_chunks": {
     "020221717496955b329ee982": {
       "canonical_confirmations": [],
@@ -2666,7 +2671,7 @@
           }
         }
       ],
-      "completed_at": "2026-08-23T07:58:41+00:00",
+      "completed_at": "2026-08-23T13:56:22+00:00",
       "created_at": "2026-08-23T07:58:35+00:00",
       "document_types": [
         "campaign_website_page"
@@ -2681,7 +2686,7 @@
       "statuses": [],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-08-23T07:58:41+00:00",
+      "updated_at": "2026-08-23T13:56:22+00:00",
       "url": "https://attalpresident.fr/programme"
     },
     "2486060ff06e6325d1f219f6": {
@@ -14619,6 +14624,94 @@
       "updated_at": "2026-08-21T19:50:51+00:00",
       "url": "https://www.unenouvelleenergie.fr/notre-programme/"
     },
+    "d8a7ac1fb17aa7e775badfd1": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "réduire drastiquement l’immigration",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau propose de soumettre par référendum un texte pour réduire drastiquement l'immigration.",
+            "topic": "immigration-integration"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Présent à l'identique dans le canonique.",
+            "related_proposal_id": "auto-bruno-retailleau-immigration-integration-39955feaadc3",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "engager une véritable révolution de notre justice pénale",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau propose une révolution de la justice pénale par référendum.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "Présent à l'identique dans le canonique.",
+            "related_proposal_id": "auto-bruno-retailleau-securite-justice-703dc438f470",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "redonner la primauté à notre droit national",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau propose de redonner la primauté au droit national par référendum.",
+            "topic": "europe-souverainete"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "Présent à l'identique dans le canonique.",
+            "related_proposal_id": "auto-bruno-retailleau-europe-souverainete-ed8d0d14bccb",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-08-23T13:56:20+00:00",
+      "created_at": "2026-08-23T13:56:12+00:00",
+      "document_types": [
+        "official_speech"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-02-12"
+      ],
+      "sha256": "e9b82cd4cf6ec6b45dfa150b839da64424c8271adcbefe81fce1f6cb48ca27b1",
+      "source_title": "Je suis candidat à l'élection présidentielle. - Les Républicains",
+      "statuses": [
+        {
+          "status": {
+            "candidate_id": "bruno-retailleau",
+            "effective_date": "2026-02-12",
+            "evidence_quote": "Je suis candidat à l’élection présidentielle.",
+            "explicit": true,
+            "new_status": "declared_presidential"
+          }
+        }
+      ],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-23T13:56:17+00:00",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
     "d92ade041132929d0e3efd5f": {
       "canonical_confirmations": [],
       "claims": [],
@@ -16514,6 +16607,65 @@
       "updated_at": "2026-08-22T02:38:10+00:00",
       "url": "https://www.unenouvelleenergie.fr/notre-programme/"
     },
+    "fdf140209a7bb322e5b00f05": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "gabriel-attal",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "zéro déficit en 10 ans maximum",
+            "relevance": "direct",
+            "statement": "L'objectif est d'atteindre zéro déficit en 10 ans maximum.",
+            "topic": "economie-finances"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La source explicite clairement l'objectif de « zéro déficit en 10 ans maximum » pour Gabriel Attal dans le contexte de la campagne présidentielle 2027, ce qui constitue une information nouvelle par rapport au canonique existant.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [
+        {
+          "claim": {
+            "actor_id": "gabriel-attal",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "zéro déficit en 10 ans maximum",
+            "relevance": "direct",
+            "statement": "L'objectif est d'atteindre zéro déficit en 10 ans maximum.",
+            "topic": "economie-finances"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La source explicite clairement l'objectif de « zéro déficit en 10 ans maximum » pour Gabriel Attal dans le contexte de la campagne présidentielle 2027, ce qui constitue une information nouvelle par rapport au canonique existant.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "completed_at": "2026-08-23T13:56:31+00:00",
+      "created_at": "2026-08-23T13:56:27+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "ed477781633623166c7a9a45247cdc01b13b4fadbc7641b71469d027b63713d3",
+      "source_title": "Dette de l'État | attalpresident.fr",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-23T13:56:31+00:00",
+      "url": "https://attalpresident.fr/programme/dette-de-letat"
+    },
     "ff01a7667fd959d729c67404": {
       "canonical_confirmations": [
         {
@@ -17076,6 +17228,15 @@
       "status": "promoted",
       "url": "https://www.debout-la-france.fr/"
     },
+    "5647fe5e9345": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-08-23T13:56:26+00:00",
+      "reason": null,
+      "source_sha256": "0d8a65a8dc74d4f3b80db285ed2a18b91b378305bd81ab393f4f26637b9e888d",
+      "status": "promoted",
+      "url": "https://attalpresident.fr/programme"
+    },
     "5698c9483440": {
       "chunks_done": null,
       "chunks_total": null,
@@ -17504,6 +17665,15 @@
       "status": "promoted",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
+    "b36fdbc7204e": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-08-23T13:56:33+00:00",
+      "reason": null,
+      "source_sha256": "ed477781633623166c7a9a45247cdc01b13b4fadbc7641b71469d027b63713d3",
+      "status": "promoted",
+      "url": "https://attalpresident.fr/programme/dette-de-letat"
+    },
     "b39264d9d540": {
       "chunks_done": null,
       "chunks_total": null,
@@ -17818,6 +17988,15 @@
       "source_sha256": "deb0ba861709750d367cc081e4a5d6216cd825e4e7668c3e6c57f2a7b50dd9c3",
       "status": "promoted",
       "url": "https://melenchon2027.fr/programme2025/livre/chapitre9/"
+    },
+    "e6e21686327a": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-23T13:56:20+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "e9b82cd4cf6ec6b45dfa150b839da64424c8271adcbefe81fce1f6cb48ca27b1",
+      "status": "promoted",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
     "e83a497d7276": {
       "chunks_done": null,
