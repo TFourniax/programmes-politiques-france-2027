@@ -5,7 +5,8 @@ entity_id: bruno-retailleau
 topic: pouvoir-achat-travail
 certainty: explicit
 proposal_status: current
-source_document_ids: [auto-bruno-retailleau-2026-02-12-af3984a6ce57, auto-bruno-retailleau-2026-02-12-facf4ffe9717, auto-bruno-retailleau-2026-02-12-a11025c38155]
+source_document_ids: [auto-bruno-retailleau-2026-02-12-af3984a6ce57, auto-bruno-retailleau-2026-02-12-facf4ffe9717, auto-bruno-retailleau-2026-02-12-a11025c38155,
+  auto-bruno-retailleau-2026-02-12-82001938259f]
 source_url: https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/
 source_tier: tier_1_primary_official
 first_documented_at: '2026-02-12'
@@ -16,8 +17,8 @@ evidence_sha256: 791b6d635757b3a71ddb8683031082110a36ac42ee830ff6098cc5d21260628
 generated_by: scripts/auto_promote.py
 source_urls: ['https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/']
 evidence_sha256s: [791b6d635757b3a71ddb8683031082110a36ac42ee830ff6098cc5d212606281, cbec778af86ca3033e602815ff5cefc56d04de669d92d67bf7396ca370d0aa80,
-  f83ed996800de1ca3d22132af1bd9f6b2bb7e37bc5bd1f3527330dcac509d49a]
-confirmation_count: 3
+  f83ed996800de1ca3d22132af1bd9f6b2bb7e37bc5bd1f3527330dcac509d49a, f43c7671ec1aeddd3f681233e79bfb1d5f71b44eda425d03e57e657f336da4f7]
+confirmation_count: 4
 last_confirmed_at: '2026-02-12'
 ---
 

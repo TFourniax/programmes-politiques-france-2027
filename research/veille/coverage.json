@@ -6,18 +6,18 @@
     "actors": 68,
     "declared_or_active_candidates": 27,
     "topics": 12,
-    "current_proposals": 1244,
-    "covered_actor_topic_cells": 118,
+    "current_proposals": 1250,
+    "covered_actor_topic_cells": 122,
     "total_actor_topic_cells": 816,
-    "actor_topic_coverage_ratio": 0.1446,
-    "active_candidate_covered_cells": 46,
+    "actor_topic_coverage_ratio": 0.1495,
+    "active_candidate_covered_cells": 50,
     "active_candidate_total_cells": 324,
-    "active_candidate_topic_coverage_ratio": 0.142,
-    "verified_proposals": 1205,
+    "active_candidate_topic_coverage_ratio": 0.1543,
+    "verified_proposals": 1211,
     "multi_source_proposals": 30,
-    "latest_evidence_at": "2026-08-22",
+    "latest_evidence_at": "2026-08-23",
     "certainty_counts": {
-      "explicit": 1220,
+      "explicit": 1226,
       "explicit_but_conditional": 3,
       "explicit_but_underspecified": 21
     }
@@ -381,7 +381,7 @@
       ],
       "coverage_ratio": 1.0,
       "gaps": [],
-      "latest_evidence_at": "2026-08-22",
+      "latest_evidence_at": "2026-08-23",
       "verified_proposals": 33,
       "multi_source_proposals": 3
     },
@@ -662,11 +662,15 @@
       "type": "candidate",
       "status": "declared_presidential",
       "confidence": "high",
-      "current_proposals": 0,
-      "covered_topics": [],
-      "coverage_ratio": 0.0,
-      "gaps": [
+      "current_proposals": 4,
+      "covered_topics": [
+        "economie-finances",
         "pouvoir-achat-travail",
+        "securite-justice",
+        "services-publics"
+      ],
+      "coverage_ratio": 0.3333,
+      "gaps": [
         "retraites",
         "fiscalite-redistribution",
         "immigration-integration",
@@ -674,13 +678,10 @@
         "defense-international",
         "ecologie-energie",
         "institutions-democratie",
-        "services-publics",
-        "securite-justice",
-        "economie-finances",
         "numerique-ia"
       ],
-      "latest_evidence_at": null,
-      "verified_proposals": 0,
+      "latest_evidence_at": "2026-08-23",
+      "verified_proposals": 4,
       "multi_source_proposals": 0
     },
     {
@@ -1318,7 +1319,7 @@
       "type": "party",
       "status": null,
       "confidence": null,
-      "current_proposals": 7,
+      "current_proposals": 9,
       "covered_topics": [
         "economie-finances",
         "institutions-democratie",
@@ -1336,8 +1337,8 @@
         "securite-justice",
         "numerique-ia"
       ],
-      "latest_evidence_at": "2026-08-22",
-      "verified_proposals": 7,
+      "latest_evidence_at": "2026-08-23",
+      "verified_proposals": 9,
       "multi_source_proposals": 6
     },
     {
@@ -1947,11 +1948,11 @@
     {
       "id": "pouvoir-achat-travail",
       "label": "Pouvoir d’achat & travail",
-      "current_proposals": 61,
-      "actors_covered": 13,
-      "actor_coverage_ratio": 0.1912,
-      "latest_evidence_at": "2026-08-19",
-      "verified_proposals": 53,
+      "current_proposals": 62,
+      "actors_covered": 14,
+      "actor_coverage_ratio": 0.2059,
+      "latest_evidence_at": "2026-08-23",
+      "verified_proposals": 54,
       "multi_source_proposals": 3
     },
     {
@@ -1960,7 +1961,7 @@
       "current_proposals": 19,
       "actors_covered": 11,
       "actor_coverage_ratio": 0.1618,
-      "latest_evidence_at": "2026-08-22",
+      "latest_evidence_at": "2026-08-23",
       "verified_proposals": 16,
       "multi_source_proposals": 3
     },
@@ -2017,41 +2018,41 @@
     {
       "id": "institutions-democratie",
       "label": "Institutions & démocratie",
-      "current_proposals": 253,
+      "current_proposals": 255,
       "actors_covered": 12,
       "actor_coverage_ratio": 0.1765,
-      "latest_evidence_at": "2026-08-22",
-      "verified_proposals": 249,
+      "latest_evidence_at": "2026-08-23",
+      "verified_proposals": 251,
       "multi_source_proposals": 8
     },
     {
       "id": "services-publics",
       "label": "Services publics",
-      "current_proposals": 225,
-      "actors_covered": 10,
-      "actor_coverage_ratio": 0.1471,
-      "latest_evidence_at": "2026-08-22",
-      "verified_proposals": 221,
+      "current_proposals": 226,
+      "actors_covered": 11,
+      "actor_coverage_ratio": 0.1618,
+      "latest_evidence_at": "2026-08-23",
+      "verified_proposals": 222,
       "multi_source_proposals": 3
     },
     {
       "id": "securite-justice",
       "label": "Sécurité & justice",
-      "current_proposals": 131,
-      "actors_covered": 10,
-      "actor_coverage_ratio": 0.1471,
-      "latest_evidence_at": "2026-08-19",
-      "verified_proposals": 128,
+      "current_proposals": 132,
+      "actors_covered": 11,
+      "actor_coverage_ratio": 0.1618,
+      "latest_evidence_at": "2026-08-23",
+      "verified_proposals": 129,
       "multi_source_proposals": 2
     },
     {
       "id": "economie-finances",
       "label": "Économie & finances publiques",
-      "current_proposals": 113,
-      "actors_covered": 10,
-      "actor_coverage_ratio": 0.1471,
-      "latest_evidence_at": "2026-08-22",
-      "verified_proposals": 111,
+      "current_proposals": 114,
+      "actors_covered": 11,
+      "actor_coverage_ratio": 0.1618,
+      "latest_evidence_at": "2026-08-23",
+      "verified_proposals": 112,
       "multi_source_proposals": 4
     },
     {
@@ -2780,7 +2781,7 @@
       "status": "declared_presidential",
       "coverage_ratio": 1.0,
       "current_proposals": 38,
-      "latest_evidence_at": "2026-08-22",
+      "latest_evidence_at": "2026-08-23",
       "topics": [
         {
           "id": "pouvoir-achat-travail",
@@ -2850,7 +2851,7 @@
           "label": "Institutions & démocratie",
           "covered": true,
           "current_proposals": 3,
-          "latest_evidence_at": "2026-08-22",
+          "latest_evidence_at": "2026-08-23",
           "verified_proposals": 2,
           "multi_source_proposals": 1
         },
@@ -3368,17 +3369,17 @@
       "id": "gabriel-attal",
       "name": "Gabriel Attal",
       "status": "declared_presidential",
-      "coverage_ratio": 0.0,
-      "current_proposals": 0,
-      "latest_evidence_at": null,
+      "coverage_ratio": 0.3333,
+      "current_proposals": 4,
+      "latest_evidence_at": "2026-08-23",
       "topics": [
         {
           "id": "pouvoir-achat-travail",
           "label": "Pouvoir d’achat & travail",
-          "covered": false,
-          "current_proposals": 0,
-          "latest_evidence_at": null,
-          "verified_proposals": 0,
+          "covered": true,
+          "current_proposals": 1,
+          "latest_evidence_at": "2026-08-23",
+          "verified_proposals": 1,
           "multi_source_proposals": 0
         },
         {
@@ -3447,28 +3448,28 @@
         {
           "id": "services-publics",
           "label": "Services publics",
-          "covered": false,
-          "current_proposals": 0,
-          "latest_evidence_at": null,
-          "verified_proposals": 0,
+          "covered": true,
+          "current_proposals": 1,
+          "latest_evidence_at": "2026-08-23",
+          "verified_proposals": 1,
           "multi_source_proposals": 0
         },
         {
           "id": "securite-justice",
           "label": "Sécurité & justice",
-          "covered": false,
-          "current_proposals": 0,
-          "latest_evidence_at": null,
-          "verified_proposals": 0,
+          "covered": true,
+          "current_proposals": 1,
+          "latest_evidence_at": "2026-08-23",
+          "verified_proposals": 1,
           "multi_source_proposals": 0
         },
         {
           "id": "economie-finances",
           "label": "Économie & finances publiques",
-          "covered": false,
-          "current_proposals": 0,
-          "latest_evidence_at": null,
-          "verified_proposals": 0,
+          "covered": true,
+          "current_proposals": 1,
+          "latest_evidence_at": "2026-08-23",
+          "verified_proposals": 1,
           "multi_source_proposals": 0
         },
         {
@@ -5409,28 +5410,6 @@
       ]
     },
     {
-      "id": "gabriel-attal",
-      "name": "Gabriel Attal",
-      "status": "declared_presidential",
-      "coverage_ratio": 0.0,
-      "current_proposals": 0,
-      "latest_evidence_at": null,
-      "gaps": [
-        "pouvoir-achat-travail",
-        "retraites",
-        "fiscalite-redistribution",
-        "immigration-integration",
-        "europe-souverainete",
-        "defense-international",
-        "ecologie-energie",
-        "institutions-democratie",
-        "services-publics",
-        "securite-justice",
-        "economie-finances",
-        "numerique-ia"
-      ]
-    },
-    {
       "id": "jean-luc-melenchon",
       "name": "Jean-Luc Mélenchon",
       "status": "declared_presidential",
@@ -5748,6 +5727,24 @@
         "institutions-democratie",
         "securite-justice",
         "economie-finances",
+        "numerique-ia"
+      ]
+    },
+    {
+      "id": "gabriel-attal",
+      "name": "Gabriel Attal",
+      "status": "declared_presidential",
+      "coverage_ratio": 0.3333,
+      "current_proposals": 4,
+      "latest_evidence_at": "2026-08-23",
+      "gaps": [
+        "retraites",
+        "fiscalite-redistribution",
+        "immigration-integration",
+        "europe-souverainete",
+        "defense-international",
+        "ecologie-energie",
+        "institutions-democratie",
         "numerique-ia"
       ]
     },
