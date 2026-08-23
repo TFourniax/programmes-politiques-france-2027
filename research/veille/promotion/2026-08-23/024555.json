@@ -1,0 +1,40 @@
+{
+  "errors": [],
+  "generated_at": "2026-08-23T02:45:55+00:00",
+  "historical_skipped": 0,
+  "partial": 0,
+  "processed": 3,
+  "promoted": 2,
+  "proposals_created": 0,
+  "results": [
+    {
+      "sha256": "d070f70d3b2ac8bcbd3a172943153f08b8f50262451272db00a31e3ee069173a",
+      "status": "not_confirmed",
+      "url": "https://www.unenouvelleenergie.fr/questions/ou-trouver-le-programme-de-david-lisnard/"
+    },
+    {
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/partys/nouvelle-energie/2026-08-22-c97f58a2bd16.md",
+      "proposals": [],
+      "sha256": "c2b274e0ad808d020636cf61344043be96dd9dbcfda2047a5e37c24e34e93f21",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://www.unenouvelleenergie.fr/questions/david-lisnard-est-il-candidat-a-la-presidentielle-2027/",
+      "verified_at": "2026-08-23T02:45:35+00:00"
+    },
+    {
+      "document": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-e27f596d9e72.md",
+      "provenance_updates": [
+        "auto-bruno-retailleau-immigration-integration-39955feaadc3",
+        "auto-bruno-retailleau-institutions-democratie-916dbcbd3347",
+        "auto-bruno-retailleau-securite-justice-703dc438f470"
+      ],
+      "reason": "canonical_duplicate_evidence",
+      "sha256": "6890c8b755325096b31602ff3f80a4fc5cd1d612a47023f7b7a4ef0156052112",
+      "status": "promoted",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/",
+      "verified_at": "2026-08-23T02:45:54+00:00"
+    }
+  ],
+  "status_updates": 0
+}

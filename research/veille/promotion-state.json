@@ -1413,7 +1413,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-08-22T19:48:40+00:00",
+  "last_run_at": "2026-08-23T02:45:55+00:00",
   "source_chunks": {
     "020221717496955b329ee982": {
       "canonical_confirmations": [],
@@ -2975,7 +2975,7 @@
       "statuses": [],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-08-22T13:53:44+00:00",
+      "updated_at": "2026-08-23T02:45:34+00:00",
       "url": "https://www.unenouvelleenergie.fr/questions/ou-trouver-le-programme-de-david-lisnard/"
     },
     "30e41f0953c07b82d192fc29": {
@@ -13221,7 +13221,7 @@
     "c97f58a2bd160a54b3416923": {
       "canonical_confirmations": [],
       "claims": [],
-      "completed_at": "2026-08-22T13:54:01+00:00",
+      "completed_at": "2026-08-23T02:45:35+00:00",
       "created_at": "2026-08-22T13:53:58+00:00",
       "document_types": [
         "campaign_website_page"
@@ -13248,7 +13248,7 @@
       ],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-08-22T13:54:01+00:00",
+      "updated_at": "2026-08-23T02:45:35+00:00",
       "url": "https://www.unenouvelleenergie.fr/questions/david-lisnard-est-il-candidat-a-la-presidentielle-2027/"
     },
     "cb8ebb313344e4b72c9f064a": {
@@ -14539,6 +14539,94 @@
       "total": 1,
       "updated_at": "2026-08-15T02:36:03+00:00",
       "url": "https://solutiondemocratique.fr/jordan-bardella-programme-presidentielle-2027/"
+    },
+    "e27f596d9e722a702653220a": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "réduire drastiquement l’immigration",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau propose de soumettre par référendum un texte pour réduire drastiquement l'immigration.",
+            "topic": "immigration-integration"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Présent explicitement dans le canonique et soutenu par la source.",
+            "related_proposal_id": "auto-bruno-retailleau-immigration-integration-39955feaadc3",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "engager une véritable révolution de notre justice pénale",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau propose d'engager par référendum une révolution de la justice pénale.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "Présent explicitement dans le canonique et soutenu par la source.",
+            "related_proposal_id": "auto-bruno-retailleau-securite-justice-703dc438f470",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "redonner la primauté à notre droit national",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau propose de redonner la primauté au droit national par référendum.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "Présent explicitement dans le canonique et soutenu par la source.",
+            "related_proposal_id": "auto-bruno-retailleau-institutions-democratie-916dbcbd3347",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-08-23T02:45:54+00:00",
+      "created_at": "2026-08-23T02:45:36+00:00",
+      "document_types": [
+        "candidacy_declaration"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-02-12"
+      ],
+      "sha256": "6890c8b755325096b31602ff3f80a4fc5cd1d612a47023f7b7a4ef0156052112",
+      "source_title": "Je suis candidat à l'élection présidentielle. - Les Républicains",
+      "statuses": [
+        {
+          "status": {
+            "candidate_id": "bruno-retailleau",
+            "effective_date": "2026-02-12",
+            "evidence_quote": "J’ai pris la décision d’être candidat à l’élection présidentielle",
+            "explicit": true,
+            "new_status": "declared_presidential"
+          }
+        }
+      ],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-23T02:45:48+00:00",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
     "e4f6188e4af1c494f28c3313": {
       "canonical_confirmations": [
@@ -16413,6 +16501,15 @@
       "status": "promoted",
       "url": "https://www.unenouvelleenergie.fr/questions/david-lisnard-est-il-candidat-a-la-presidentielle-2027/"
     },
+    "42cbf7df7c5c": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-23T02:45:54+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "6890c8b755325096b31602ff3f80a4fc5cd1d612a47023f7b7a4ef0156052112",
+      "status": "promoted",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
     "47f0f12206f4": {
       "chunks_done": null,
       "chunks_total": null,
@@ -16719,6 +16816,15 @@
       "chunks_done": null,
       "chunks_total": null,
       "processed_at": "2026-08-22T13:53:44+00:00",
+      "reason": null,
+      "source_sha256": "d070f70d3b2ac8bcbd3a172943153f08b8f50262451272db00a31e3ee069173a",
+      "status": "not_confirmed",
+      "url": "https://www.unenouvelleenergie.fr/questions/ou-trouver-le-programme-de-david-lisnard/"
+    },
+    "93860d837062": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-23T02:45:34+00:00",
       "reason": null,
       "source_sha256": "d070f70d3b2ac8bcbd3a172943153f08b8f50262451272db00a31e3ee069173a",
       "status": "not_confirmed",
@@ -17074,6 +17180,15 @@
       "source_sha256": "887b889f5bcfc6ec15d924b13e4156d23f149ae3fe38f286546244ffa1a50516",
       "status": "promoted",
       "url": "https://melenchon2027.fr/programme2025/livre/chapitre7/"
+    },
+    "cfd8d5efcf10": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-08-23T02:45:35+00:00",
+      "reason": null,
+      "source_sha256": "c2b274e0ad808d020636cf61344043be96dd9dbcfda2047a5e37c24e34e93f21",
+      "status": "promoted",
+      "url": "https://www.unenouvelleenergie.fr/questions/david-lisnard-est-il-candidat-a-la-presidentielle-2027/"
     },
     "d39296887b28": {
       "chunks_done": null,
