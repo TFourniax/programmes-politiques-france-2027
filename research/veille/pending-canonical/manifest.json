@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created_at": "2026-08-17T19:57:19.441897+00:00",
-  "updated_at": "2026-08-24T02:47:07.111322+00:00",
+  "updated_at": "2026-08-24T08:15:01.613079+00:00",
   "files": [
     {
       "path": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-02b6fd496b7b.md",
@@ -87,6 +87,11 @@
       "path": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-a11025c38155.md",
       "sha256": "9ecf22c6dd10621026d7c7685882fcc6c63d480d7a6fab853ab1524082b1356d",
       "size": 2491
+    },
+    {
+      "path": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-a8419a756b03.md",
+      "sha256": "12e385d9bd3e43459291dfca462f1bd16094c64b82b8e7ee45ed7c322f66a9d3",
+      "size": 2237
     },
     {
       "path": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-d73594f41a90.md",
@@ -490,8 +495,8 @@
     },
     {
       "path": "proposals/auto/immigration-integration/auto-bruno-retailleau-immigration-integration-39955feaadc3.md",
-      "sha256": "4850b905344338d38246e1ca668e8fcd5d385fe263f741e8b1ed26fad1e9ce6f",
-      "size": 4308
+      "sha256": "eeee427d2d852f97c6ae727a535d55d230aaea3c36e4a3194479c5c0120dbca2",
+      "size": 4421
     },
     {
       "path": "proposals/auto/immigration-integration/auto-les-ecologistes-immigration-integration-ddbed1d619f4.md",
@@ -500,8 +505,8 @@
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-bruno-retailleau-institutions-democratie-916dbcbd3347.md",
-      "sha256": "ce73aaa51dd873fd45557d36a9b41765b3ebe9820bc8b04208a89c94babe5871",
-      "size": 2493
+      "sha256": "28ff4f94f61c02c407101dd38ab75cad292381839233397754e42ae108195fbf",
+      "size": 2609
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-bruno-retailleau-institutions-democratie-f5a91461b7da.md",
@@ -595,8 +600,8 @@
     },
     {
       "path": "proposals/auto/pouvoir-achat-travail/auto-bruno-retailleau-pouvoir-achat-travail-122f072f74ad.md",
-      "sha256": "22493e71380f09e6018432332fb506092cd936fb79dbeb3779af4a783778e8c8",
-      "size": 2006
+      "sha256": "f2d86eab71acd62871f3816f3338fa91c855a12a2b33ef7f2edc2eaab53c0c24",
+      "size": 2119
     },
     {
       "path": "proposals/auto/pouvoir-achat-travail/auto-gabriel-attal-pouvoir-achat-travail-7a91e45ad6d8.md",
@@ -670,8 +675,8 @@
     },
     {
       "path": "proposals/auto/securite-justice/auto-bruno-retailleau-securite-justice-7b2b02ba25a3.md",
-      "sha256": "acbb05d38bfb93dc69e900191169a03369ac67f7b537f35ee99180d68489ba94",
-      "size": 2344
+      "sha256": "72f4a1c1b82ad327cb9745cc14f05b581f058b37536b0ed4d77bb030bd9e306f",
+      "size": 2459
     },
     {
       "path": "proposals/auto/securite-justice/auto-gabriel-attal-securite-justice-43664388aa97.md",
