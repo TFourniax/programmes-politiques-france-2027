@@ -1,0 +1,56 @@
+{
+  "errors": [],
+  "generated_at": "2026-08-24T02:47:03+00:00",
+  "historical_skipped": 0,
+  "partial": 0,
+  "processed": 3,
+  "promoted": 3,
+  "proposals_created": 0,
+  "results": [
+    {
+      "document": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-865fdab3765a.md",
+      "provenance_updates": [
+        "auto-bruno-retailleau-europe-souverainete-ed8d0d14bccb",
+        "auto-bruno-retailleau-immigration-integration-39955feaadc3",
+        "auto-bruno-retailleau-institutions-democratie-f5a91461b7da",
+        "auto-bruno-retailleau-pouvoir-achat-travail-122f072f74ad",
+        "auto-bruno-retailleau-securite-justice-703dc438f470"
+      ],
+      "reason": "canonical_duplicate_evidence",
+      "sha256": "cd21817b778b146e6ee04a63680185b4a0f5b67df5725a1d5639663e36e3f2ec",
+      "status": "promoted",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/",
+      "verified_at": "2026-08-24T02:46:49+00:00"
+    },
+    {
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/candidates/gabriel-attal/2026-08-24-20c668171ad6.md",
+      "proposals": [],
+      "provenance_updates": [
+        "auto-gabriel-attal-economie-finances-9f45e1d61977",
+        "auto-gabriel-attal-pouvoir-achat-travail-7a91e45ad6d8",
+        "auto-gabriel-attal-securite-justice-43664388aa97",
+        "auto-gabriel-attal-services-publics-0b16aea25279"
+      ],
+      "sha256": "0d8a65a8dc74d4f3b80db285ed2a18b91b378305bd81ab393f4f26637b9e888d",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://attalpresident.fr/programme",
+      "verified_at": "2026-08-24T02:46:58+00:00"
+    },
+    {
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/candidates/gabriel-attal/2026-08-24-fdf140209a7b.md",
+      "proposals": [],
+      "provenance_updates": [
+        "auto-gabriel-attal-economie-finances-7d59510bf5b0"
+      ],
+      "sha256": "ed477781633623166c7a9a45247cdc01b13b4fadbc7641b71469d027b63713d3",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://attalpresident.fr/programme/dette-de-letat",
+      "verified_at": "2026-08-24T02:47:02+00:00"
+    }
+  ],
+  "status_updates": 0
+}

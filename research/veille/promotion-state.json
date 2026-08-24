@@ -1448,7 +1448,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-08-23T19:48:04+00:00",
+  "last_run_at": "2026-08-24T02:47:03+00:00",
   "source_chunks": {
     "020221717496955b329ee982": {
       "canonical_confirmations": [],
@@ -2671,7 +2671,7 @@
           }
         }
       ],
-      "completed_at": "2026-08-23T19:47:52+00:00",
+      "completed_at": "2026-08-24T02:46:58+00:00",
       "created_at": "2026-08-23T07:58:35+00:00",
       "document_types": [
         "campaign_website_page"
@@ -2686,7 +2686,7 @@
       "statuses": [],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-08-23T19:47:52+00:00",
+      "updated_at": "2026-08-24T02:46:51+00:00",
       "url": "https://attalpresident.fr/programme"
     },
     "2486060ff06e6325d1f219f6": {
@@ -7636,6 +7636,130 @@
       "total": 1,
       "updated_at": "2026-08-14T08:23:14+00:00",
       "url": "https://solutiondemocratique.fr/jean-lassalle-programme-presidentielle2027/"
+    },
+    "865fdab3765a3399e5cb1d04": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "réduire drastiquement l’immigration",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau souhaite réduire drastiquement l'immigration.",
+            "topic": "immigration-integration"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Présent et explicitement soutenu dans le canonique et la source.",
+            "related_proposal_id": "auto-bruno-retailleau-immigration-integration-39955feaadc3",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "engager une véritable révolution de notre justice pénale",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau souhaite engager une véritable révolution de la justice pénale.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "Présent et explicitement soutenu dans le canonique et la source.",
+            "related_proposal_id": "auto-bruno-retailleau-securite-justice-703dc438f470",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "je vous soumettrai directement par référendum plusieurs grands textes de loi",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau propose de soumettre directement plusieurs grands textes de loi par référendum.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "Présent et explicitement soutenu dans le canonique et la source.",
+            "related_proposal_id": "auto-bruno-retailleau-institutions-democratie-f5a91461b7da",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "redonner la primauté à notre droit national",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau propose de redonner la primauté au droit national.",
+            "topic": "europe-souverainete"
+          },
+          "verdict": {
+            "index": 3,
+            "reason": "Présent et explicitement soutenu dans le canonique et la source.",
+            "related_proposal_id": "auto-bruno-retailleau-europe-souverainete-ed8d0d14bccb",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "qu’on ne peut pas vivre mieux en travaillant moins",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau affirme qu'on ne peut pas vivre mieux en travaillant moins.",
+            "topic": "pouvoir-achat-travail"
+          },
+          "verdict": {
+            "index": 4,
+            "reason": "Présent et explicitement soutenu dans le canonique et la source.",
+            "related_proposal_id": "auto-bruno-retailleau-pouvoir-achat-travail-122f072f74ad",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-08-24T02:46:49+00:00",
+      "created_at": "2026-08-24T02:46:35+00:00",
+      "document_types": [
+        "candidacy_declaration"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-02-12"
+      ],
+      "sha256": "cd21817b778b146e6ee04a63680185b4a0f5b67df5725a1d5639663e36e3f2ec",
+      "source_title": "Je suis candidat à l'élection présidentielle. - Les Républicains",
+      "statuses": [
+        {
+          "status": {
+            "candidate_id": "bruno-retailleau",
+            "effective_date": "2026-02-12",
+            "evidence_quote": "Je suis candidat à l’élection présidentielle",
+            "explicit": true,
+            "new_status": "declared_presidential"
+          }
+        }
+      ],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-24T02:46:40+00:00",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
     "883d3a7028b4f981102ba748": {
       "canonical_confirmations": [
@@ -16718,7 +16842,7 @@
           }
         }
       ],
-      "completed_at": "2026-08-23T19:48:01+00:00",
+      "completed_at": "2026-08-24T02:47:02+00:00",
       "created_at": "2026-08-23T13:56:27+00:00",
       "document_types": [
         "campaign_website_page"
@@ -16733,7 +16857,7 @@
       "statuses": [],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-08-23T19:48:01+00:00",
+      "updated_at": "2026-08-24T02:47:00+00:00",
       "url": "https://attalpresident.fr/programme/dette-de-letat"
     },
     "ff01a7667fd959d729c67404": {
@@ -17485,6 +17609,15 @@
       "status": "promoted",
       "url": "https://solutiondemocratique.fr/programme-rn-2027/"
     },
+    "8591ccc8cece": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-08-24T02:47:02+00:00",
+      "reason": null,
+      "source_sha256": "ed477781633623166c7a9a45247cdc01b13b4fadbc7641b71469d027b63713d3",
+      "status": "promoted",
+      "url": "https://attalpresident.fr/programme/dette-de-letat"
+    },
     "85ae23a30749": {
       "chunks_done": null,
       "chunks_total": null,
@@ -17899,6 +18032,15 @@
       "status": "not_confirmed",
       "url": "https://solutiondemocratique.fr/marine-tondelier-programme-2027/"
     },
+    "caa7af8c6f10": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-08-24T02:46:58+00:00",
+      "reason": null,
+      "source_sha256": "0d8a65a8dc74d4f3b80db285ed2a18b91b378305bd81ab393f4f26637b9e888d",
+      "status": "promoted",
+      "url": "https://attalpresident.fr/programme"
+    },
     "cacbee383d18": {
       "chunks_done": null,
       "chunks_total": null,
@@ -18040,6 +18182,15 @@
       "source_sha256": "8cc3a8c96c51c33a46afacbfcbabae1df3c4834eb396f2bdd6445cc6f5970f17",
       "status": "not_confirmed",
       "url": "https://npa-revolutionnaires.org/communique-presidentielle-2027-selma-labib-une-candidature-ouvriere-et-revolutionnaire-soutenue-par-gael-quirante/"
+    },
+    "e0b37c4e9712": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-24T02:46:49+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "cd21817b778b146e6ee04a63680185b4a0f5b67df5725a1d5639663e36e3f2ec",
+      "status": "promoted",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
     "e3c279b77adb": {
       "chunks_done": null,
