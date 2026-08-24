@@ -6,7 +6,7 @@ topic: institutions-democratie
 certainty: explicit
 proposal_status: current
 source_document_ids: [auto-nouvelle-energie-2026-08-20-062668f762e9, auto-nouvelle-energie-2026-08-21-d893b570dcb9, auto-nouvelle-energie-2026-08-22-fccb4c9bb80f,
-  auto-nouvelle-energie-2026-08-22-77217a0982c6, auto-nouvelle-energie-2026-08-23-46b893c63e59]
+  auto-nouvelle-energie-2026-08-22-77217a0982c6, auto-nouvelle-energie-2026-08-23-46b893c63e59, auto-nouvelle-energie-2026-08-24-1de813c6e0b1]
 source_url: https://www.unenouvelleenergie.fr/notre-programme/
 source_tier: tier_1_primary_official
 first_documented_at: '2026-08-20'
@@ -18,9 +18,9 @@ generated_by: scripts/auto_promote.py
 source_urls: ['https://www.unenouvelleenergie.fr/notre-programme/']
 evidence_sha256s: [1eb28a14537fd7186cd6df902ba6b6b140cc6de4de1701724f76346ce9ed36b2, db4acdaa7874beb278bda20f4bc46f0116fe58fa31cdb52eff75e8d20049d13f,
   77fdb6513c25c5e6ed8f3a4b060cc91a6eed0600a3a753f635f794a8bcb564b0, b49ebb3be6fd75962fe825fe761a77d59bec9802b13d22d4834416924b4327aa,
-  01e68bb03df0856f4c03b38eef2deb040f0b9477eba182bb820351721bbec0d2]
-confirmation_count: 5
-last_confirmed_at: '2026-08-23'
+  01e68bb03df0856f4c03b38eef2deb040f0b9477eba182bb820351721bbec0d2, 939f7338f9f67b72b1e442381a044cb577b9f4f74d4860ca778843fba076263d]
+confirmation_count: 6
+last_confirmed_at: '2026-08-24'
 ---
 
 # Recentrer l'État sur ses missions régaliennes de sécurité et de défense

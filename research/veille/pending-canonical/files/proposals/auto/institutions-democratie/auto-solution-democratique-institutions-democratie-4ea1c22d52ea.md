@@ -15,7 +15,7 @@ source_document_ids: [auto-solution-democratique-2026-04-05-2490d151b5b8, auto-s
   auto-solution-democratique-2026-03-28-abd06abf04a1, auto-solution-democratique-2026-03-22-7e4a9ad22707, auto-solution-democratique-2026-03-22-83d5eda15af3,
   auto-solution-democratique-2026-05-03-8d4f255a6ea9, auto-solution-democratique-2025-04-09-624555f164b4, auto-solution-democratique-2026-05-03-4462d0edc49c,
   auto-solution-democratique-2026-05-13-e5e9484e2b9c, auto-solution-democratique-2026-08-16-a0db326b1cb1, auto-solution-democratique-2025-04-09-7fa3658e1707,
-  auto-solution-democratique-2026-08-19-64ce907dede0]
+  auto-solution-democratique-2026-08-19-64ce907dede0, auto-solution-democratique-2025-04-09-3a8ec20cb386, auto-solution-democratique-2026-02-15-65d32cffad67]
 source_url: https://solutiondemocratique.fr/segolene-royal-programme-presidentielle2027/
 source_tier: tier_1_primary_official
 first_documented_at: '2026-04-05'
@@ -51,9 +51,10 @@ evidence_sha256s: [0b013c630f2281528d927d3c6ac7bbed832efeb82d7536d7e0ad37cee3b09
   b2c26cc44537bbb7c12ed7ae9b1e9df81b527491231fdf07c27de869b533b8d6, 93788d5e8b0428d594a0a98bfc8270053c46623395dfe55bc7e4170d9b4ef1a7,
   9a1d5f113c78dcd521da236ce1c23a4cb0af8bf7c5d09f90d67b714f56715c5c, 4ca5a785c2ba5b2d8e2e98ac661f0cc04befde55a19774c5725875aa29dd061f,
   4efd512bef65ec73cacdaebe541d7951107bdfd227e56ae8d23e1dedf6d728f6, ba983371b0b5b8c0e5c810fefe6bee52f97e654e25fb56912736a9017c89c803,
-  b045adcfd01d55b0a2cf58cc708ba21427bd51c95b4af7bafd81fae736c4d0b9, 55514c96c00e6dea0226461e8e59611a4007ae0ebdd92e7421743d1aeb521d52]
-confirmation_count: 30
-last_confirmed_at: '2026-08-19'
+  b045adcfd01d55b0a2cf58cc708ba21427bd51c95b4af7bafd81fae736c4d0b9, 55514c96c00e6dea0226461e8e59611a4007ae0ebdd92e7421743d1aeb521d52,
+  a77be3d4888001d749c351fb0625671fcf3ea4c6b52900fa43ddf5a430f97c4c, f9aaa84cbaf2b847d9a1d7cdaab45af257c054eb83a27e116fd6292f8260703a]
+confirmation_count: 32
+last_confirmed_at: '2026-02-15'
 ---
 
 # Solution Démocratique souhaite instaurer la démocratie directe et la décentralisation par le bas en France
