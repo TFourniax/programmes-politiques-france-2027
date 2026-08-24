@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created_at": "2026-08-17T19:57:19.441897+00:00",
-  "updated_at": "2026-08-24T08:15:01.613079+00:00",
+  "updated_at": "2026-08-24T14:15:15.583267+00:00",
   "files": [
     {
       "path": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-02b6fd496b7b.md",
@@ -77,6 +77,11 @@
       "path": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-8b4a881a8073.md",
       "sha256": "55a9c50e298726e1610181adaf4ef5b030643bcaf209ba6fae5de287ddbd7143",
       "size": 2051
+    },
+    {
+      "path": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-8c71cc23d03f.md",
+      "sha256": "ef002d0a0d251004406057b40f140c9ad4e93637f9f785813c9267ae562dd102",
+      "size": 1981
     },
     {
       "path": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-8d3f42028c5b.md",
@@ -435,8 +440,8 @@
     },
     {
       "path": "proposals/auto/europe-souverainete/auto-bruno-retailleau-europe-souverainete-ed8d0d14bccb.md",
-      "sha256": "ca3dc8e9ba6562b173b42c4f0f2b5a924f9971cf2866c4dc8715dfe35b517ef3",
-      "size": 2710
+      "sha256": "9961710ec003f3251f5ee6f5103a8f83337a18697b108e47bfd34b27e60cc1e3",
+      "size": 2823
     },
     {
       "path": "proposals/auto/europe-souverainete/auto-les-ecologistes-europe-souverainete-06952d144d39.md",
@@ -495,8 +500,8 @@
     },
     {
       "path": "proposals/auto/immigration-integration/auto-bruno-retailleau-immigration-integration-39955feaadc3.md",
-      "sha256": "eeee427d2d852f97c6ae727a535d55d230aaea3c36e4a3194479c5c0120dbca2",
-      "size": 4421
+      "sha256": "27e0ee0ca0bebeacf61deaebf28ffee327fabe1c1e86c675b9aee1cc4a780579",
+      "size": 4536
     },
     {
       "path": "proposals/auto/immigration-integration/auto-les-ecologistes-immigration-integration-ddbed1d619f4.md",
@@ -675,8 +680,8 @@
     },
     {
       "path": "proposals/auto/securite-justice/auto-bruno-retailleau-securite-justice-7b2b02ba25a3.md",
-      "sha256": "72f4a1c1b82ad327cb9745cc14f05b581f058b37536b0ed4d77bb030bd9e306f",
-      "size": 2459
+      "sha256": "ccaf605220c4c6b6a0b9f9d339ec0be18a4ba16c07c5ca06207c1b8e2fb4da60",
+      "size": 2575
     },
     {
       "path": "proposals/auto/securite-justice/auto-gabriel-attal-securite-justice-43664388aa97.md",

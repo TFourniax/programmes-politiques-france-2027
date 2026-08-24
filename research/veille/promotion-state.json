@@ -1448,7 +1448,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-08-24T08:14:57+00:00",
+  "last_run_at": "2026-08-24T14:15:11+00:00",
   "source_chunks": {
     "020221717496955b329ee982": {
       "canonical_confirmations": [],
@@ -2671,7 +2671,7 @@
           }
         }
       ],
-      "completed_at": "2026-08-24T08:14:44+00:00",
+      "completed_at": "2026-08-24T14:14:58+00:00",
       "created_at": "2026-08-23T07:58:35+00:00",
       "document_types": [
         "campaign_website_page"
@@ -2686,7 +2686,7 @@
       "statuses": [],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-08-24T08:14:44+00:00",
+      "updated_at": "2026-08-24T14:14:58+00:00",
       "url": "https://attalpresident.fr/programme"
     },
     "2486060ff06e6325d1f219f6": {
@@ -7975,6 +7975,84 @@
       "text_truncated": false,
       "total": 1,
       "updated_at": "2026-08-22T07:58:02+00:00",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
+    "8c71cc23d03fd6303f3f50e0": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "réduire drastiquement l’immigration",
+            "relevance": "direct",
+            "statement": "Réduire drastiquement l'immigration par référendum.",
+            "topic": "immigration-integration"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Présent dans le canonique avec le même sens et la même formulation.",
+            "related_proposal_id": "auto-bruno-retailleau-immigration-integration-39955feaadc3",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "véritable révolution de notre justice pénale",
+            "relevance": "direct",
+            "statement": "Engager une véritable révolution de la justice pénale par référendum.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "Présent dans le canonique exactement sous la même forme.",
+            "related_proposal_id": "auto-bruno-retailleau-securite-justice-7b2b02ba25a3",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "redonner la primauté à notre droit national",
+            "relevance": "direct",
+            "statement": "Redonner la primauté au droit national par référendum.",
+            "topic": "europe-souverainete"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "Présent dans le canonique de manière identique.",
+            "related_proposal_id": "auto-bruno-retailleau-europe-souverainete-ed8d0d14bccb",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-08-24T14:14:55+00:00",
+      "created_at": "2026-08-24T14:13:52+00:00",
+      "document_types": [
+        "candidacy_declaration"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-02-12"
+      ],
+      "sha256": "3588350bde3d5dc6bb04cf809806c1e57eef2f4c1cb85d8e0cbe35ed32c36e95",
+      "source_title": "Je suis candidat à l'élection présidentielle. - Les Républicains",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-24T14:14:49+00:00",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
     "8cbca85c6e1e80a5af7cc2f9": {
@@ -16948,7 +17026,7 @@
           }
         }
       ],
-      "completed_at": "2026-08-24T08:14:54+00:00",
+      "completed_at": "2026-08-24T14:15:08+00:00",
       "created_at": "2026-08-23T13:56:27+00:00",
       "document_types": [
         "campaign_website_page"
@@ -16963,7 +17041,7 @@
       "statuses": [],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-08-24T08:14:54+00:00",
+      "updated_at": "2026-08-24T14:15:08+00:00",
       "url": "https://attalpresident.fr/programme/dette-de-letat"
     },
     "ff01a7667fd959d729c67404": {
@@ -17386,6 +17464,15 @@
       "status": "promoted",
       "url": "https://www.unenouvelleenergie.fr/notre-programme/agriculture/"
     },
+    "378bcb8ba411": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-08-24T14:15:11+00:00",
+      "reason": null,
+      "source_sha256": "ed477781633623166c7a9a45247cdc01b13b4fadbc7641b71469d027b63713d3",
+      "status": "promoted",
+      "url": "https://attalpresident.fr/programme/dette-de-letat"
+    },
     "392dff7e586b": {
       "chunks_done": null,
       "chunks_total": 1,
@@ -17564,6 +17651,15 @@
       "status": "promoted",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
+    "5ab310dabeea": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-24T14:14:55+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "3588350bde3d5dc6bb04cf809806c1e57eef2f4c1cb85d8e0cbe35ed32c36e95",
+      "status": "promoted",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
     "5b1fbf325a07": {
       "chunks_done": null,
       "chunks_total": 1,
@@ -17723,6 +17819,15 @@
       "source_sha256": "0b013c630f2281528d927d3c6ac7bbed832efeb82d7536d7e0ad37cee3b09409",
       "status": "promoted",
       "url": "https://solutiondemocratique.fr/segolene-royal-programme-presidentielle2027/"
+    },
+    "7aed696f972d": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-08-24T14:15:06+00:00",
+      "reason": null,
+      "source_sha256": "0d8a65a8dc74d4f3b80db285ed2a18b91b378305bd81ab393f4f26637b9e888d",
+      "status": "promoted",
+      "url": "https://attalpresident.fr/programme"
     },
     "7d900f388017": {
       "chunks_done": null,
