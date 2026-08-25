@@ -176,6 +176,15 @@
       "status": "not_confirmed",
       "url": "https://bsky.app/profile/lesecologistes.fr/post/3mtjmarb6ek2f"
     },
+    "ba13a7f4780b4cc3d8bc": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-25T08:09:39+00:00",
+      "provenance_updates": [],
+      "source_sha256": "99192354dbb494d4f02c0014105c55c2055c292486357f50ca03e3b2d3ca9913",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/watch?v=TLQRAI7J9Xg"
+    },
     "bd91ca1dc08b7b55bc3b": {
       "chunks_done": null,
       "chunks_total": null,
@@ -220,6 +229,15 @@
       "status": "not_confirmed",
       "url": "https://bsky.app/profile/marinetondelier.fr/post/3mtj6sxo7ns2w"
     },
+    "eb2ddbc29c51f1c7af18": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-08-25T08:09:37+00:00",
+      "provenance_updates": [],
+      "source_sha256": "0ba43d07033f73bbebf941ef56b8a96279fb012580d62a85bde54ffccabf99bb",
+      "status": "promoted",
+      "url": "https://www.youtube.com/watch?v=32ZYBFj_gAQ"
+    },
     "ece7017c837a2266113b": {
       "chunks_done": null,
       "chunks_total": null,
@@ -249,7 +267,7 @@
     }
   },
   "last_error_count": 0,
-  "last_processed_count": 0,
-  "last_run_at": "2026-08-25T02:44:30+00:00",
+  "last_processed_count": 2,
+  "last_run_at": "2026-08-25T08:09:40+00:00",
   "version": 2
 }

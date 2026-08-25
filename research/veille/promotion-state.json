@@ -515,6 +515,11 @@
       "source_url": "https://melenchon2027.fr/programme2025/livre/chapitre17/",
       "verified_at": "2026-08-13T00:20:30+00:00"
     },
+    "5f0cd387b24ed1802d67d9e6762d11fe3f63cd23fc343bb65a7e959a1489451b": {
+      "proposal_id": "auto-rassemblement-national-fiscalite-redistribution-5f0cd387b24e",
+      "source_url": "https://www.youtube.com/watch?v=32ZYBFj_gAQ",
+      "verified_at": "2026-08-25T08:09:34+00:00"
+    },
     "5f1f89ce2046b9fb0bf083b1a5afe15dd4a5103a0896e9ccf0bf124ada536fe2": {
       "proposal_id": "auto-les-ecologistes-services-publics-5f1f89ce2046",
       "source_url": "https://lesecologistes.fr/document/5ZhR2m5t2ZaGKqIdD1bJaD/vdef-programme-1.pdf",
@@ -1453,7 +1458,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-08-25T02:44:30+00:00",
+  "last_run_at": "2026-08-25T08:09:28+00:00",
   "source_chunks": {
     "020221717496955b329ee982": {
       "canonical_confirmations": [],
@@ -2199,6 +2204,65 @@
       "updated_at": "2026-08-17T19:56:45+00:00",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
+    "102fb340444076afc791a65f": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "rassemblement-national",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Nous voulons une diminution de la pression fiscale !",
+            "relevance": "party_platform",
+            "statement": "Le Rassemblement national souhaite une diminution de la pression fiscale.",
+            "topic": "fiscalite-redistribution"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La déclaration de l'élu du Rassemblement National soutient explicitement le souhait d'une diminution de la pression fiscale, constituant une position générale nouvelle non redondante avec les mesures fiscales spécifiques déjà présentes dans le canon.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [
+        {
+          "claim": {
+            "actor_id": "rassemblement-national",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Nous voulons une diminution de la pression fiscale !",
+            "relevance": "party_platform",
+            "statement": "Le Rassemblement national souhaite une diminution de la pression fiscale.",
+            "topic": "fiscalite-redistribution"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La déclaration de l'élu du Rassemblement National soutient explicitement le souhait d'une diminution de la pression fiscale, constituant une position générale nouvelle non redondante avec les mesures fiscales spécifiques déjà présentes dans le canon.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "completed_at": "2026-08-25T08:09:34+00:00",
+      "created_at": "2026-08-25T08:09:29+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "0ba43d07033f73bbebf941ef56b8a96279fb012580d62a85bde54ffccabf99bb",
+      "source_title": "ALEKSANDAR NIKOLIC : « Nous voulons une diminution de la pression fiscale ! » (France Info)",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-25T08:09:34+00:00",
+      "url": "https://www.youtube.com/watch?v=32ZYBFj_gAQ"
+    },
     "1154604b27bd1cb057410412": {
       "canonical_confirmations": [],
       "claims": [],
@@ -2825,7 +2889,7 @@
           }
         }
       ],
-      "completed_at": "2026-08-25T02:44:29+00:00",
+      "completed_at": "2026-08-25T08:09:15+00:00",
       "created_at": "2026-08-23T07:58:35+00:00",
       "document_types": [
         "campaign_website_page"
@@ -2840,7 +2904,7 @@
       "statuses": [],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-08-25T02:44:22+00:00",
+      "updated_at": "2026-08-25T08:09:15+00:00",
       "url": "https://attalpresident.fr/programme"
     },
     "2486060ff06e6325d1f219f6": {
@@ -6083,6 +6147,26 @@
       "total": 1,
       "updated_at": "2026-08-22T19:48:24+00:00",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
+    "5d7fac62541be4ec06898433": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-08-25T08:09:38+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "99192354dbb494d4f02c0014105c55c2055c292486357f50ca03e3b2d3ca9913",
+      "source_title": "Après les incendies de 2026, les Écologistes donnent la parole aux pompiers à leurs Journées d'été",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-25T08:09:39+00:00",
+      "url": "https://www.youtube.com/watch?v=TLQRAI7J9Xg"
     },
     "5ecf5e7b0cd7f644de764c3d": {
       "claims": [],
@@ -13475,6 +13559,84 @@
       "updated_at": "2026-08-15T10:45:34+00:00",
       "url": "https://solutiondemocratique.fr/dominique-de-villepin-presidentielle-2027-programme/"
     },
+    "ac8572a8096fee3a24757336": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "réduire drastiquement l’immigration",
+            "relevance": "direct",
+            "statement": "Réduire drastiquement l'immigration par référendum.",
+            "topic": "immigration-integration"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Présent explicitement dans la source et déjà présent dans le canonique.",
+            "related_proposal_id": "auto-bruno-retailleau-immigration-integration-39955feaadc3",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "engager une véritable révolution de notre justice pénale",
+            "relevance": "direct",
+            "statement": "Engager une véritable révolution de notre justice pénale par référendum.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "Présent explicitement dans la source et déjà présent dans le canonique.",
+            "related_proposal_id": "auto-bruno-retailleau-securite-justice-7b2b02ba25a3",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "redonner la primauté à notre droit national",
+            "relevance": "direct",
+            "statement": "Redonner la primauté au droit national par référendum.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "Présent explicitement dans la source et déjà présent dans le canonique.",
+            "related_proposal_id": "auto-bruno-retailleau-institutions-democratie-916dbcbd3347",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-08-25T08:09:12+00:00",
+      "created_at": "2026-08-25T08:09:00+00:00",
+      "document_types": [
+        "candidacy_declaration"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-02-12"
+      ],
+      "sha256": "53c09b3a0b11723c74443b97cdf61b43fe85eef065e459d5aebb59fc7c23416e",
+      "source_title": "Je suis candidat à l'élection présidentielle. - Les Républicains",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-25T08:09:06+00:00",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
     "af3984a6ce57f0e5c89b834e": {
       "claims": [
         {
@@ -17516,7 +17678,7 @@
           }
         }
       ],
-      "completed_at": "2026-08-24T14:15:08+00:00",
+      "completed_at": "2026-08-25T08:09:28+00:00",
       "created_at": "2026-08-23T13:56:27+00:00",
       "document_types": [
         "campaign_website_page"
@@ -17531,7 +17693,7 @@
       "statuses": [],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-08-24T14:15:08+00:00",
+      "updated_at": "2026-08-25T08:09:25+00:00",
       "url": "https://attalpresident.fr/programme/dette-de-letat"
     },
     "ff01a7667fd959d729c67404": {
@@ -17649,6 +17811,15 @@
       "source_sha256": "1d59ee77cca31d670fed9c59b43cb7d318399ef9550ecafc0e6395f1149c5884",
       "status": "promoted",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
+    "05befecc9e86": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-08-25T08:09:22+00:00",
+      "reason": null,
+      "source_sha256": "0d8a65a8dc74d4f3b80db285ed2a18b91b378305bd81ab393f4f26637b9e888d",
+      "status": "promoted",
+      "url": "https://attalpresident.fr/programme"
     },
     "05d351c29703": {
       "chunks_done": null,
@@ -18283,6 +18454,15 @@
       "status": "promoted",
       "url": "https://www.unenouvelleenergie.fr/notre-programme/"
     },
+    "751a370a1964": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-25T08:09:12+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "53c09b3a0b11723c74443b97cdf61b43fe85eef065e459d5aebb59fc7c23416e",
+      "status": "promoted",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
     "7541d5288752": {
       "chunks_done": null,
       "chunks_total": null,
@@ -18667,6 +18847,15 @@
       "source_sha256": "43ff4e661135f8aa911ffabb59548aa24f73eef8c7dbc81c9c39f44ec629414e",
       "status": "promoted",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
+    "b5cc27e67662": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-08-25T08:09:28+00:00",
+      "reason": null,
+      "source_sha256": "ed477781633623166c7a9a45247cdc01b13b4fadbc7641b71469d027b63713d3",
+      "status": "promoted",
+      "url": "https://attalpresident.fr/programme/dette-de-letat"
     },
     "b76c592d4802": {
       "chunks_done": null,

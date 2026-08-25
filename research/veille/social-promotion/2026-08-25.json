@@ -1,11 +1,29 @@
 {
   "errors": [],
-  "generated_at": "2026-08-25T02:44:30+00:00",
+  "generated_at": "2026-08-25T08:09:40+00:00",
   "partial": 0,
-  "processed": 0,
-  "promoted": 0,
-  "proposals_created": 0,
+  "processed": 2,
+  "promoted": 1,
+  "proposals_created": 1,
   "provenance_updates": 0,
-  "results": [],
+  "results": [
+    {
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/partys/rassemblement-national/2026-08-25-102fb3404440.md",
+      "proposals": [
+        "proposals/auto/fiscalite-redistribution/auto-rassemblement-national-fiscalite-redistribution-5f0cd387b24e.md"
+      ],
+      "sha256": "0ba43d07033f73bbebf941ef56b8a96279fb012580d62a85bde54ffccabf99bb",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://www.youtube.com/watch?v=32ZYBFj_gAQ",
+      "verified_at": "2026-08-25T08:09:34+00:00"
+    },
+    {
+      "sha256": "99192354dbb494d4f02c0014105c55c2055c292486357f50ca03e3b2d3ca9913",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/watch?v=TLQRAI7J9Xg"
+    }
+  ],
   "status_updates": 0
 }

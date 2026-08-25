@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created_at": "2026-08-17T19:57:19.441897+00:00",
-  "updated_at": "2026-08-25T02:44:33.883335+00:00",
+  "updated_at": "2026-08-25T08:09:43.713078+00:00",
   "files": [
     {
       "path": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-02b6fd496b7b.md",
@@ -104,6 +104,11 @@
       "size": 2237
     },
     {
+      "path": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-ac8572a8096f.md",
+      "sha256": "d01cbbaf0cd6ca38fbc480b3e15883873cf37e8765693d8e716e39c108841e32",
+      "size": 2000
+    },
+    {
       "path": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-d73594f41a90.md",
       "sha256": "d4e43bd024391db7f0130ff3b0874a565b9eddb261ad66c77487d0cf8e3371e0",
       "size": 2046
@@ -169,6 +174,11 @@
       "size": 1856
     },
     {
+      "path": "corpus/2027/auto/candidates/gabriel-attal/2026-08-25-fdf140209a7b.md",
+      "sha256": "62b49ce1f14e208a2dc55d751ff70422fb61c4420d94cfd8615736d74443f09f",
+      "size": 1405
+    },
+    {
       "path": "corpus/2027/auto/partys/les-ecologistes/2026-08-17-9c2f01b4f3fc.md",
       "sha256": "7428e5a97fe23cdf12e989ff8d3971e9ff7e57ab52e42db197319b471f78a620",
       "size": 1735
@@ -232,6 +242,11 @@
       "path": "corpus/2027/auto/partys/nouvelle-energie/2026-08-24-1de813c6e0b1.md",
       "sha256": "56ed4d5a4e70907d73a9585c4dd9fd85362ea29c15eb6d5bbba887bec5d5d951",
       "size": 2777
+    },
+    {
+      "path": "corpus/2027/auto/partys/rassemblement-national/2026-08-25-102fb3404440.md",
+      "sha256": "b30baa5073e63539f4a1846bd9ced3df8aaef2e5c5061223810d3d74dfcf8a66",
+      "size": 1581
     },
     {
       "path": "corpus/2027/auto/partys/solution-democratique/2025-04-09-3a8ec20cb386.md",
@@ -415,8 +430,8 @@
     },
     {
       "path": "proposals/auto/economie-finances/auto-gabriel-attal-economie-finances-7d59510bf5b0.md",
-      "sha256": "d602dd18581d12e8d6156a499d79816bcd4cfcece600f4cad3fa7e08d711ffd0",
-      "size": 1429
+      "sha256": "ecbd27231b64e3d6ae44ad96cc5cc45610d872a6a46c010f268addb9c47d34d2",
+      "size": 1473
     },
     {
       "path": "proposals/auto/economie-finances/auto-gabriel-attal-economie-finances-9f45e1d61977.md",
@@ -529,9 +544,14 @@
       "size": 1327
     },
     {
+      "path": "proposals/auto/fiscalite-redistribution/auto-rassemblement-national-fiscalite-redistribution-5f0cd387b24e.md",
+      "sha256": "d1cda2e0114212a820be18f63284382c6e67161a13ba67a6a6c9adcda460f341",
+      "size": 1280
+    },
+    {
       "path": "proposals/auto/immigration-integration/auto-bruno-retailleau-immigration-integration-39955feaadc3.md",
-      "sha256": "f783b75b9cfe703b0c7c96d917e21b522fdcd482cf432b06674b6099676fd22c",
-      "size": 4766
+      "sha256": "9fa43723071ed9045efac4c849ee1e77ebefe355737360e41545ddff28a27bc8",
+      "size": 4879
     },
     {
       "path": "proposals/auto/immigration-integration/auto-les-ecologistes-immigration-integration-ddbed1d619f4.md",
@@ -545,8 +565,8 @@
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-bruno-retailleau-institutions-democratie-916dbcbd3347.md",
-      "sha256": "85e9c9b9456bfb60d8724491cece831343e1b1d5cbad2815d1e71673db639496",
-      "size": 2724
+      "sha256": "ffb24b560d1eaeb0cad3fa46730fc1b35733aeee0c7fac8d27a2b3a08630cb0d",
+      "size": 2837
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-bruno-retailleau-institutions-democratie-f5a91461b7da.md",
@@ -715,8 +735,8 @@
     },
     {
       "path": "proposals/auto/securite-justice/auto-bruno-retailleau-securite-justice-7b2b02ba25a3.md",
-      "sha256": "ccaf605220c4c6b6a0b9f9d339ec0be18a4ba16c07c5ca06207c1b8e2fb4da60",
-      "size": 2575
+      "sha256": "7977c689e5347004b96f0ff302c2f1b7ad9097e808c7211db046ff399ceb259a",
+      "size": 2690
     },
     {
       "path": "proposals/auto/securite-justice/auto-gabriel-attal-securite-justice-43664388aa97.md",
