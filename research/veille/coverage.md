@@ -8,10 +8,10 @@ Ce rapport est dérivé automatiquement du corpus courant. Il sert à piloter la
 
 - 68 acteurs référencés ;
 - 27 candidatures actives ou déclarées suivies ;
-- 1253 propositions atomiques courantes ;
+- 1254 propositions atomiques courantes ;
 - 123 / 816 cases acteur × thème couvertes (15.1 %) ;
 - 50 / 324 cases candidat actif × thème couvertes (15.4 %) ;
-- 1214 propositions marquées vérifiées ; 35 appuyées par au moins deux documents de preuve.
+- 1215 propositions marquées vérifiées ; 35 appuyées par au moins deux documents de preuve.
 
 ## Priorités documentaires
 
@@ -39,10 +39,10 @@ Ce rapport est dérivé automatiquement du corpus courant. Il sert à piloter la
 - **Fiscalité & redistribution** (`fiscalite-redistribution`) — 10 acteur(s), 72 proposition(s), dernière preuve 2026-08-25.
 - **Immigration & intégration** (`immigration-integration`) — 10 acteur(s), 61 proposition(s), dernière preuve 2026-08-24.
 - **Économie & finances publiques** (`economie-finances`) — 11 acteur(s), 115 proposition(s), dernière preuve 2026-08-25.
-- **Retraites** (`retraites`) — 11 acteur(s), 19 proposition(s), dernière preuve 2026-08-24.
+- **Retraites** (`retraites`) — 11 acteur(s), 19 proposition(s), dernière preuve 2026-08-25.
 - **Sécurité & justice** (`securite-justice`) — 11 acteur(s), 132 proposition(s), dernière preuve 2026-08-25.
 - **Services publics** (`services-publics`) — 11 acteur(s), 226 proposition(s), dernière preuve 2026-08-25.
-- **Institutions & démocratie** (`institutions-democratie`) — 12 acteur(s), 255 proposition(s), dernière preuve 2026-08-24.
+- **Institutions & démocratie** (`institutions-democratie`) — 12 acteur(s), 256 proposition(s), dernière preuve 2026-08-25.
 - **Écologie & énergie** (`ecologie-energie`) — 13 acteur(s), 190 proposition(s), dernière preuve 2026-08-19.
 - **Pouvoir d’achat & travail** (`pouvoir-achat-travail`) — 14 acteur(s), 62 proposition(s), dernière preuve 2026-08-25.
 

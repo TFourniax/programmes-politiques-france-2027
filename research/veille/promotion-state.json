@@ -60,6 +60,11 @@
       "source_url": "https://lesecologistes.fr/document/5ZhR2m5t2ZaGKqIdD1bJaD/vdef-programme-1.pdf",
       "verified_at": "2026-08-19T02:42:33+00:00"
     },
+    "09aff9de5202b305dd102d9a1163862a015a0615ff1bd67577e5d24da99d4362": {
+      "proposal_id": "auto-nouvelle-energie-institutions-democratie-09aff9de5202",
+      "source_url": "https://www.unenouvelleenergie.fr/notre-programme/",
+      "verified_at": "2026-08-25T19:57:19+00:00"
+    },
     "09b06e8aefc6ca25b1ce90cd76256d40f3f32a55cdfbe47c6286a2f64496168e": {
       "proposal_id": "auto-les-ecologistes-europe-souverainete-09b06e8aefc6",
       "source_url": "https://lesecologistes.fr/document/5ZhR2m5t2ZaGKqIdD1bJaD/vdef-programme-1.pdf",
@@ -1458,7 +1463,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-08-25T14:21:09+00:00",
+  "last_run_at": "2026-08-25T19:57:39+00:00",
   "source_chunks": {
     "020221717496955b329ee982": {
       "canonical_confirmations": [],
@@ -2582,6 +2587,83 @@
       "total": 1,
       "updated_at": "2026-08-18T19:53:22+00:00",
       "url": "https://bsky.app/profile/marinetondelier.fr/post/3mten2mik7224"
+    },
+    "1bf6f8480bbcfed3c3555c3a": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "nouvelle-energie",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "suppression de la carte scolaire",
+            "relevance": "direct",
+            "statement": "Supprimer la carte scolaire pour garantir la liberté de scolarisation.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La suppression de la carte scolaire est explicitement soutenue par la source pour Nouvelle Énergie.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "nouvelle-energie",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "la liberté pour les travailleurs de se constituer un capital pour leur retraite (capitalisation)",
+            "relevance": "direct",
+            "statement": "Instaurer la capitalisation pour permettre aux travailleurs de se constituer un capital pour leur retraite.",
+            "topic": "retraites"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La proposition sur la capitalisation pour la retraite est déjà présente dans le canonique.",
+            "related_proposal_id": "auto-nouvelle-energie-retraites-4b9149336ab7",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [
+        {
+          "claim": {
+            "actor_id": "nouvelle-energie",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "suppression de la carte scolaire",
+            "relevance": "direct",
+            "statement": "Supprimer la carte scolaire pour garantir la liberté de scolarisation.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La suppression de la carte scolaire est explicitement soutenue par la source pour Nouvelle Énergie.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "completed_at": "2026-08-25T19:57:23+00:00",
+      "created_at": "2026-08-25T19:57:13+00:00",
+      "document_types": [
+        "party_programme"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "f4945e6a7a6deff6e6cd5e5fb476fb4a072b77e2367838bf4662c4e865c36e6e",
+      "source_title": "Le programme de David Lisnard | Nouvelle Énergie",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-25T19:57:19+00:00",
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/"
     },
     "1dd97534aced615fba9d657b": {
       "claims": [],
@@ -9038,6 +9120,26 @@
       "updated_at": "2026-08-14T15:48:57+00:00",
       "url": "https://solutiondemocratique.fr/benoit-mathieu-programme-2027/"
     },
+    "9df9f69a9701edce5d863bd6": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-08-25T19:57:40+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "8f0622a2b74d26081c5c4857fb27d1ecf92391fcb6ba04ab37079d65fcf9d56c",
+      "source_title": "Un cheminot révolutionnaire à la présidentielle ? Anasse Kazib invité sur Le Média",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-25T19:57:41+00:00",
+      "url": "https://www.youtube.com/shorts/I17JDK-quMM"
+    },
     "9e957a43490ff4192bfb9c7c": {
       "canonical_confirmations": [
         {
@@ -14136,7 +14238,7 @@
       ],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-08-25T14:20:23+00:00",
+      "updated_at": "2026-08-25T19:57:26+00:00",
       "url": "https://npa-revolutionnaires.org/communique-presidentielle-2027-selma-labib-une-candidature-ouvriere-et-revolutionnaire-soutenue-par-gael-quirante/"
     },
     "c2d6831ddd4d6717d5558308": {
@@ -17678,6 +17780,94 @@
       "updated_at": "2026-08-18T02:39:59+00:00",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
+    "fb3b6d29f3b4783504fa910f": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "réduire drastiquement l’immigration",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau propose de réduire drastiquement l'immigration par référendum.",
+            "topic": "immigration-integration"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Présent dans le canon actuel avec le même contenu.",
+            "related_proposal_id": "auto-bruno-retailleau-immigration-integration-39955feaadc3",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "engager une véritable révolution de notre justice pénale",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau propose d'engager une révolution de la justice pénale par référendum.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "Présent dans le canon actuel avec le même contenu.",
+            "related_proposal_id": "auto-bruno-retailleau-securite-justice-703dc438f470",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "redonner la primauté à notre droit national",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau propose de redonner la primauté au droit national par référendum.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "Présent dans le canon actuel avec le même contenu.",
+            "related_proposal_id": "auto-bruno-retailleau-institutions-democratie-916dbcbd3347",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-08-25T19:57:39+00:00",
+      "created_at": "2026-08-25T19:57:28+00:00",
+      "document_types": [
+        "candidacy_declaration"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-02-12"
+      ],
+      "sha256": "b1e92bb1ae7b2187c384720036cfef4a5a75c11ea0a608de24b48bce33ad84ac",
+      "source_title": "Je suis candidat à l'élection présidentielle. - Les Républicains",
+      "statuses": [
+        {
+          "status": {
+            "candidate_id": "bruno-retailleau",
+            "effective_date": "2026-02-12",
+            "evidence_quote": "Je suis candidat à l’élection présidentielle.",
+            "explicit": true,
+            "new_status": "declared_presidential"
+          }
+        }
+      ],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-25T19:57:33+00:00",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
     "fc1ee1bf2c827e5f9aabb527": {
       "claims": [],
       "created_at": "2026-08-11T14:42:49+00:00",
@@ -18117,6 +18307,15 @@
       "source_sha256": "cb93201eb21ccebaa8aed8eecc8ab7605ce57c853e60cf0c647b79c712e46108",
       "status": "promoted",
       "url": "https://melenchon2027.fr/programme2025/livre/chapitre11/"
+    },
+    "272097f25726": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-25T19:57:26+00:00",
+      "reason": "chronology_or_scope_guard",
+      "source_sha256": "05314ca06df186253fdb52a1c52c050a132bebfb5ac9895eb77bef9c815a8699",
+      "status": "not_confirmed",
+      "url": "https://npa-revolutionnaires.org/communique-presidentielle-2027-selma-labib-une-candidature-ouvriere-et-revolutionnaire-soutenue-par-gael-quirante/"
     },
     "276ee2c70b77": {
       "chunks_done": null,
@@ -18618,6 +18817,15 @@
       "status": "promoted",
       "url": "https://solutiondemocratique.fr/lydie-massard-programme-presidentielle2027/"
     },
+    "7091d52e23cb": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-08-25T19:57:23+00:00",
+      "reason": null,
+      "source_sha256": "f4945e6a7a6deff6e6cd5e5fb476fb4a072b77e2367838bf4662c4e865c36e6e",
+      "status": "promoted",
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/"
+    },
     "70b9422afc4f": {
       "chunks_done": null,
       "chunks_total": 1,
@@ -18860,6 +19068,15 @@
       "source_sha256": "d61d2bf356b027c647c9c240c27ccfbb5d8275afd4952305eadf1950c2bb5535",
       "status": "not_confirmed",
       "url": "https://npa-revolutionnaires.org/communique-presidentielle-2027-selma-labib-une-candidature-ouvriere-et-revolutionnaire-soutenue-par-gael-quirante/"
+    },
+    "9e6ca8410790": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-25T19:57:39+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "b1e92bb1ae7b2187c384720036cfef4a5a75c11ea0a608de24b48bce33ad84ac",
+      "status": "promoted",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
     "a180dc38cc57": {
       "chunks_done": null,

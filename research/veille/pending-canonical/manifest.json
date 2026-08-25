@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created_at": "2026-08-17T19:57:19.441897+00:00",
-  "updated_at": "2026-08-25T14:24:09.948871+00:00",
+  "updated_at": "2026-08-25T19:57:45.289306+00:00",
   "files": [
     {
       "path": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-02b6fd496b7b.md",
@@ -149,6 +149,11 @@
       "size": 2229
     },
     {
+      "path": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-fb3b6d29f3b4.md",
+      "sha256": "6e4578836030e154b0cd11e2858ff0c9851f55f43cfb1eaddd5bfbcf133d29a0",
+      "size": 2069
+    },
+    {
       "path": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-ff01a7667fd9.md",
       "sha256": "c5dc1c9dfafbd4a5614bba04585221cf1459a8ed7626249e73b0a554a4922b7f",
       "size": 2060
@@ -247,6 +252,11 @@
       "path": "corpus/2027/auto/partys/nouvelle-energie/2026-08-24-1de813c6e0b1.md",
       "sha256": "56ed4d5a4e70907d73a9585c4dd9fd85362ea29c15eb6d5bbba887bec5d5d951",
       "size": 2777
+    },
+    {
+      "path": "corpus/2027/auto/partys/nouvelle-energie/2026-08-25-1bf6f8480bbc.md",
+      "sha256": "e5901c495ffa8dd8fd4eb9ef5d4fbe093a9a6bf1c7c1f5140c517a51955baa77",
+      "size": 1792
     },
     {
       "path": "corpus/2027/auto/partys/rassemblement-national/2026-08-25-102fb3404440.md",
@@ -555,8 +565,8 @@
     },
     {
       "path": "proposals/auto/immigration-integration/auto-bruno-retailleau-immigration-integration-39955feaadc3.md",
-      "sha256": "8f0bddb9402364548f74e711c398bccf2b9103854226c7dc6ecb03eafb68a9ee",
-      "size": 4996
+      "sha256": "b22b51cc65d53fead518f1b9384d30bfa76c52e186b10c7264c413246749df7b",
+      "size": 5109
     },
     {
       "path": "proposals/auto/immigration-integration/auto-les-ecologistes-immigration-integration-ddbed1d619f4.md",
@@ -570,8 +580,8 @@
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-bruno-retailleau-institutions-democratie-916dbcbd3347.md",
-      "sha256": "ffb24b560d1eaeb0cad3fa46730fc1b35733aeee0c7fac8d27a2b3a08630cb0d",
-      "size": 2837
+      "sha256": "45098c92042f4e5f9c847c2ac1a7296f149199e8ce58be7c565190497d5be200",
+      "size": 2954
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-bruno-retailleau-institutions-democratie-f5a91461b7da.md",
@@ -642,6 +652,11 @@
       "path": "proposals/auto/institutions-democratie/auto-les-ecologistes-institutions-democratie-d440a4e0a243.md",
       "sha256": "a61bfaba33ef9391667959bf67f65816c7fc9f826908c8f7e24e815b89aab1c1",
       "size": 1150
+    },
+    {
+      "path": "proposals/auto/institutions-democratie/auto-nouvelle-energie-institutions-democratie-09aff9de5202.md",
+      "sha256": "22ebf189eebd5a2856da1fb5dd3504c28780bb870d4122b184eee1cf6ff80fd8",
+      "size": 1235
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-nouvelle-energie-institutions-democratie-1d98a3b70af1.md",
@@ -730,13 +745,13 @@
     },
     {
       "path": "proposals/auto/retraites/auto-nouvelle-energie-retraites-4b9149336ab7.md",
-      "sha256": "8f95bc9c4ea00fb19898b8d8192a461a0ff135ee19157b746c700016e351eb28",
-      "size": 2625
+      "sha256": "692e79142f0c494fdb496bb29f14148f816de58025ad55c14e37b05d0f864047",
+      "size": 2740
     },
     {
       "path": "proposals/auto/securite-justice/auto-bruno-retailleau-securite-justice-703dc438f470.md",
-      "sha256": "005b6b42048fa12e8a6e0e26a1c1e93cf9b3cf84116538d04b59c43701122602",
-      "size": 3977
+      "sha256": "4680543352db03400f714eda036dada39d3995cebc2040a7df72380891a24ffc",
+      "size": 4092
     },
     {
       "path": "proposals/auto/securite-justice/auto-bruno-retailleau-securite-justice-7b2b02ba25a3.md",

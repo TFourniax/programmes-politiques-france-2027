@@ -6,18 +6,18 @@
     "actors": 68,
     "declared_or_active_candidates": 27,
     "topics": 12,
-    "current_proposals": 1253,
+    "current_proposals": 1254,
     "covered_actor_topic_cells": 123,
     "total_actor_topic_cells": 816,
     "actor_topic_coverage_ratio": 0.1507,
     "active_candidate_covered_cells": 50,
     "active_candidate_total_cells": 324,
     "active_candidate_topic_coverage_ratio": 0.1543,
-    "verified_proposals": 1214,
+    "verified_proposals": 1215,
     "multi_source_proposals": 35,
     "latest_evidence_at": "2026-08-25",
     "certainty_counts": {
-      "explicit": 1229,
+      "explicit": 1230,
       "explicit_but_conditional": 3,
       "explicit_but_underspecified": 21
     }
@@ -1319,7 +1319,7 @@
       "type": "party",
       "status": null,
       "confidence": null,
-      "current_proposals": 10,
+      "current_proposals": 11,
       "covered_topics": [
         "economie-finances",
         "immigration-integration",
@@ -1337,8 +1337,8 @@
         "securite-justice",
         "numerique-ia"
       ],
-      "latest_evidence_at": "2026-08-24",
-      "verified_proposals": 10,
+      "latest_evidence_at": "2026-08-25",
+      "verified_proposals": 11,
       "multi_source_proposals": 6
     },
     {
@@ -1961,7 +1961,7 @@
       "current_proposals": 19,
       "actors_covered": 11,
       "actor_coverage_ratio": 0.1618,
-      "latest_evidence_at": "2026-08-24",
+      "latest_evidence_at": "2026-08-25",
       "verified_proposals": 16,
       "multi_source_proposals": 3
     },
@@ -2018,11 +2018,11 @@
     {
       "id": "institutions-democratie",
       "label": "Institutions & démocratie",
-      "current_proposals": 255,
+      "current_proposals": 256,
       "actors_covered": 12,
       "actor_coverage_ratio": 0.1765,
-      "latest_evidence_at": "2026-08-24",
-      "verified_proposals": 251,
+      "latest_evidence_at": "2026-08-25",
+      "verified_proposals": 252,
       "multi_source_proposals": 8
     },
     {
