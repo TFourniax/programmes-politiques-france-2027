@@ -1,5 +1,14 @@
 {
   "events": {
+    "0b7340a46451a304f183": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-25T14:22:48+00:00",
+      "provenance_updates": [],
+      "source_sha256": "2cece45426c6df03158fc5ed8b6e9d21038f4dde2d27731fe20f318c157d61fd",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/watch?v=pE8eIp2HdIk"
+    },
     "14d1aa8c65c77273ad3a": {
       "chunks_done": null,
       "chunks_total": null,
@@ -63,6 +72,15 @@
       "status": "not_confirmed",
       "url": "https://www.youtube.com/shorts/qnpgwVn_x2Q"
     },
+    "4997ba57e16aac1794e5": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-25T14:24:06+00:00",
+      "provenance_updates": [],
+      "source_sha256": "a9ab61c9a2db247f4d35bb0d9ec54b8cde10dcea9ae4ecfafb5dc74e9fb2da28",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/watch?v=8ixtTpucI1c"
+    },
     "4a0be43b117729cbfee4": {
       "chunks_done": null,
       "chunks_total": null,
@@ -95,6 +113,14 @@
       "source_sha256": "1c97ee87f3090771acbf7d2259573ec8f488cbbbc7f5f25eb0726dedabfdb08c",
       "status": "not_confirmed",
       "url": "https://bsky.app/profile/marinetondelier.fr/post/3mten2mik7224"
+    },
+    "775cc31ce5a07eae4c26": {
+      "attempts": 1,
+      "error": "ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
+      "next_retry_at": "2026-08-25T20:22:40+00:00",
+      "processed_at": "2026-08-25T14:22:40+00:00",
+      "status": "technical_error",
+      "url": "https://www.youtube.com/watch?v=0bO5TmGiynE"
     },
     "892a086b0578e2350a68": {
       "chunks_done": null,
@@ -266,8 +292,8 @@
       "url": "https://bsky.app/profile/marinetondelier.fr/post/3mszwoez24s2d"
     }
   },
-  "last_error_count": 0,
+  "last_error_count": 1,
   "last_processed_count": 2,
-  "last_run_at": "2026-08-25T08:09:40+00:00",
+  "last_run_at": "2026-08-25T14:24:07+00:00",
   "version": 2
 }

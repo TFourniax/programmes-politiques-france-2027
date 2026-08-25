@@ -1458,7 +1458,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-08-25T08:09:28+00:00",
+  "last_run_at": "2026-08-25T14:21:09+00:00",
   "source_chunks": {
     "020221717496955b329ee982": {
       "canonical_confirmations": [],
@@ -2263,6 +2263,19 @@
       "updated_at": "2026-08-25T08:09:34+00:00",
       "url": "https://www.youtube.com/watch?v=32ZYBFj_gAQ"
     },
+    "1087bfdf33cc594e8d6e86f3": {
+      "claims": [],
+      "created_at": "2026-08-25T14:21:09+00:00",
+      "document_types": [],
+      "done": [],
+      "published_candidates": [],
+      "sha256": "2946c6208443aa8f5744e25817ef83f1d9d00b669809dec87da2380a3d11fb31",
+      "source_title": "Dessine-moi la prospérité écologique, Journées d'été des Écologistes 2026",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "url": "https://www.youtube.com/watch?v=0bO5TmGiynE"
+    },
     "1154604b27bd1cb057410412": {
       "canonical_confirmations": [],
       "claims": [],
@@ -2889,7 +2902,7 @@
           }
         }
       ],
-      "completed_at": "2026-08-25T08:09:15+00:00",
+      "completed_at": "2026-08-25T14:21:03+00:00",
       "created_at": "2026-08-23T07:58:35+00:00",
       "document_types": [
         "campaign_website_page"
@@ -2904,7 +2917,7 @@
       "statuses": [],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-08-25T08:09:15+00:00",
+      "updated_at": "2026-08-25T14:21:03+00:00",
       "url": "https://attalpresident.fr/programme"
     },
     "2486060ff06e6325d1f219f6": {
@@ -5019,6 +5032,26 @@
       "updated_at": "2026-08-13T03:40:25+00:00",
       "url": "https://melenchon2027.fr/programme2025/livre/chapitre6/"
     },
+    "401dc06f0173a5df542c4862": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-08-25T14:22:40+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "2cece45426c6df03158fc5ed8b6e9d21038f4dde2d27731fe20f318c157d61fd",
+      "source_title": "Chaos climatique : est-ce la faute des Écologistes ? Journées d'été des Écologistes 2026",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-25T14:22:48+00:00",
+      "url": "https://www.youtube.com/watch?v=pE8eIp2HdIk"
+    },
     "436adfca7d7956c24aecea5b": {
       "canonical_confirmations": [
         {
@@ -6669,6 +6702,94 @@
       "total": 1,
       "updated_at": "2026-08-20T10:10:26+00:00",
       "url": "https://solutiondemocratique.fr/francis-lalanne-2027-programme/"
+    },
+    "658d569cbe241bbe8d5e7c8c": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "réduire drastiquement l’immigration",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau veut réduire drastiquement l'immigration par référendum.",
+            "topic": "immigration-integration"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Le souhait de réduire drastiquement l'immigration par référendum est explicitement présent dans la source et déjà enregistré dans le canon.",
+            "related_proposal_id": "auto-bruno-retailleau-immigration-integration-39955feaadc3",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "une véritable révolution de notre justice pénale",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau souhaite engager une révolution de la justice pénale par référendum.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La révolution de la justice pénale par référendum est explicitement présente dans la source et déjà enregistrée dans le canon.",
+            "related_proposal_id": "auto-bruno-retailleau-securite-justice-703dc438f470",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "redonner la primauté à notre droit national",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau veut redonner la primauté au droit national.",
+            "topic": "europe-souverainete"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "La primauté au droit national par référendum est explicitement présente dans la source et déjà enregistrée dans le canon.",
+            "related_proposal_id": "auto-bruno-retailleau-europe-souverainete-ed8d0d14bccb",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-08-25T14:21:00+00:00",
+      "created_at": "2026-08-25T14:20:25+00:00",
+      "document_types": [
+        "official_speech"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-02-12"
+      ],
+      "sha256": "12c599ce21a8106fe8fe03bc52a46e948091a34865863bf46835b099584a8098",
+      "source_title": "Je suis candidat à l'élection présidentielle. - Les Républicains",
+      "statuses": [
+        {
+          "status": {
+            "candidate_id": "bruno-retailleau",
+            "effective_date": "2026-02-12",
+            "evidence_quote": "Je suis candidat à l’élection présidentielle.",
+            "explicit": true,
+            "new_status": "declared_presidential"
+          }
+        }
+      ],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-25T14:20:56+00:00",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
     "65b932fa9c013c803e67df86": {
       "claims": [],
@@ -8980,6 +9101,26 @@
       "total": 1,
       "updated_at": "2026-08-22T19:48:42+00:00",
       "url": "https://www.youtube.com/watch?v=pqJ8J3oJm1A"
+    },
+    "9eceac92b46a1df8561b3fff": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-08-25T14:22:49+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "a9ab61c9a2db247f4d35bb0d9ec54b8cde10dcea9ae4ecfafb5dc74e9fb2da28",
+      "source_title": "Ouverture des Journées d'été des Écologistes 2026",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-25T14:24:06+00:00",
+      "url": "https://www.youtube.com/watch?v=8ixtTpucI1c"
     },
     "a0acfa7e852cda600b98e9f8": {
       "canonical_confirmations": [
@@ -13966,6 +14107,38 @@
       "updated_at": "2026-08-21T19:51:12+00:00",
       "url": "https://bsky.app/profile/lesecologistes.fr/post/3mtm63wu5j22l"
     },
+    "c1e89d3cc55fcd81ac145aa0": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-08-25T14:19:08+00:00",
+      "document_types": [
+        "official_press_release"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [
+        "2026-06-17"
+      ],
+      "sha256": "05314ca06df186253fdb52a1c52c050a132bebfb5ac9895eb77bef9c815a8699",
+      "source_title": "Communiqué - Présidentielle 2027 : Selma Labib, une candidature ouvrière et révolutionnaire, soutenue par Gaël Quirante - NPA Révolutionnaires",
+      "statuses": [
+        {
+          "status": {
+            "candidate_id": "selma-labib",
+            "effective_date": "2026-06-07",
+            "evidence_quote": "décidé de présenter à l’élection présidentielle du printemps 2027 Selma Labib",
+            "explicit": true,
+            "new_status": "declared_presidential"
+          }
+        }
+      ],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-25T14:20:23+00:00",
+      "url": "https://npa-revolutionnaires.org/communique-presidentielle-2027-selma-labib-une-candidature-ouvriere-et-revolutionnaire-soutenue-par-gael-quirante/"
+    },
     "c2d6831ddd4d6717d5558308": {
       "canonical_confirmations": [],
       "claims": [],
@@ -18071,6 +18244,15 @@
       "status": "promoted",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
+    "31f41f7fa9e6": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-25T14:20:23+00:00",
+      "reason": "chronology_or_scope_guard",
+      "source_sha256": "05314ca06df186253fdb52a1c52c050a132bebfb5ac9895eb77bef9c815a8699",
+      "status": "not_confirmed",
+      "url": "https://npa-revolutionnaires.org/communique-presidentielle-2027-selma-labib-une-candidature-ouvriere-et-revolutionnaire-soutenue-par-gael-quirante/"
+    },
     "33d88441defd": {
       "chunks_done": null,
       "chunks_total": null,
@@ -18124,6 +18306,15 @@
       "source_sha256": "54db91a2896f3d6518f05addfc4bc3a93670b7dddd36d2f34e8493f7b640fb6a",
       "status": "promoted",
       "url": "https://www.unenouvelleenergie.fr/notre-programme/agriculture/"
+    },
+    "3750275802d7": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-08-25T14:21:09+00:00",
+      "reason": null,
+      "source_sha256": "0d8a65a8dc74d4f3b80db285ed2a18b91b378305bd81ab393f4f26637b9e888d",
+      "status": "promoted",
+      "url": "https://attalpresident.fr/programme"
     },
     "378bcb8ba411": {
       "chunks_done": null,
@@ -18268,6 +18459,15 @@
       "source_sha256": "395fc1875b79d68f2ef0c7bba4640d3a866b753627531be7d05df31315e61032",
       "status": "not_confirmed",
       "url": "https://npa-revolutionnaires.org/communique-presidentielle-2027-selma-labib-une-candidature-ouvriere-et-revolutionnaire-soutenue-par-gael-quirante/"
+    },
+    "4bdcda2a0043": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-25T14:21:00+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "12c599ce21a8106fe8fe03bc52a46e948091a34865863bf46835b099584a8098",
+      "status": "promoted",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
     "4ecdc921d889": {
       "chunks_done": null,
