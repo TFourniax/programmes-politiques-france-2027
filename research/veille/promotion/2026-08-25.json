@@ -1,0 +1,55 @@
+{
+  "errors": [],
+  "generated_at": "2026-08-25T02:44:30+00:00",
+  "historical_skipped": 0,
+  "partial": 0,
+  "processed": 3,
+  "promoted": 3,
+  "proposals_created": 0,
+  "results": [
+    {
+      "document": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-db33c30a151a.md",
+      "provenance_updates": [
+        "auto-bruno-retailleau-europe-souverainete-ed8d0d14bccb",
+        "auto-bruno-retailleau-immigration-integration-39955feaadc3",
+        "auto-bruno-retailleau-pouvoir-achat-travail-122f072f74ad",
+        "auto-bruno-retailleau-securite-justice-703dc438f470"
+      ],
+      "reason": "canonical_duplicate_evidence",
+      "sha256": "03c7bb11aa80df1e5a25ff1ad657b527bf072dc4804dd617a35dac71a6340d63",
+      "status": "promoted",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/",
+      "verified_at": "2026-08-25T02:44:08+00:00"
+    },
+    {
+      "document": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-79b6132f1c7e.md",
+      "provenance_updates": [
+        "auto-bruno-retailleau-immigration-integration-39955feaadc3",
+        "auto-bruno-retailleau-institutions-democratie-916dbcbd3347",
+        "auto-bruno-retailleau-securite-justice-703dc438f470"
+      ],
+      "reason": "canonical_duplicate_evidence",
+      "sha256": "641692c8b3e3f9d0b6ac42c34ac6027c28d854c7551be88d2d8b3b948cee9def",
+      "status": "promoted",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/",
+      "verified_at": "2026-08-25T02:44:20+00:00"
+    },
+    {
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/candidates/gabriel-attal/2026-08-25-20c668171ad6.md",
+      "proposals": [],
+      "provenance_updates": [
+        "auto-gabriel-attal-economie-finances-9f45e1d61977",
+        "auto-gabriel-attal-pouvoir-achat-travail-7a91e45ad6d8",
+        "auto-gabriel-attal-securite-justice-43664388aa97",
+        "auto-gabriel-attal-services-publics-0b16aea25279"
+      ],
+      "sha256": "0d8a65a8dc74d4f3b80db285ed2a18b91b378305bd81ab393f4f26637b9e888d",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://attalpresident.fr/programme",
+      "verified_at": "2026-08-25T02:44:29+00:00"
+    }
+  ],
+  "status_updates": 0
+}
