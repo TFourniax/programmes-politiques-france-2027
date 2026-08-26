@@ -700,6 +700,11 @@
       "source_url": "https://melenchon2027.fr/programme2025/livre/chapitre13/",
       "verified_at": "2026-08-12T23:32:49+00:00"
     },
+    "7c180228264c7645bb9f675b1fc8e03e3f96ee93b794a002394d79b2d23e363b": {
+      "proposal_id": "auto-npa-revolutionnaires-pouvoir-achat-travail-7c180228264c",
+      "source_url": "https://npa-revolutionnaires.org/communique-presidentielle-2027-selma-labib-une-candidature-ouvriere-et-revolutionnaire-soutenue-par-gael-quirante/",
+      "verified_at": "2026-08-26T22:28:07+00:00"
+    },
     "7c406ec16fd8b0b12624456cf843f93203691369df2022f6d1d0933c92f5c7b5": {
       "proposal_id": "auto-la-france-insoumise-fiscalite-redistribution-7c406ec16fd8",
       "source_url": "https://melenchon2027.fr/programme2025/livre/chapitre6/",
@@ -739,6 +744,11 @@
       "proposal_id": "auto-les-ecologistes-services-publics-8011a191404c",
       "source_url": "https://lesecologistes.fr/document/5ZhR2m5t2ZaGKqIdD1bJaD/vdef-programme-1.pdf",
       "verified_at": "2026-08-19T02:42:33+00:00"
+    },
+    "8245f1085aeabda94daad0ea0338a11f98117d15f8a286858dc98a31d0e3bbd4": {
+      "proposal_id": "auto-les-ecologistes-fiscalite-redistribution-8245f1085aea",
+      "source_url": "https://www.youtube.com/watch?v=1DIYBZ6be7c",
+      "verified_at": "2026-08-26T22:28:43+00:00"
     },
     "826077a590869e034abe48e1336bfa0036561bc83604d16b71f60a619505997e": {
       "proposal_id": "auto-la-france-insoumise-ecologie-energie-826077a59086",
@@ -1463,7 +1473,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-08-26T14:19:42+00:00",
+  "last_run_at": "2026-08-26T22:28:36+00:00",
   "source_chunks": {
     "020221717496955b329ee982": {
       "canonical_confirmations": [],
@@ -2208,6 +2218,26 @@
       "total": 1,
       "updated_at": "2026-08-17T19:56:45+00:00",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
+    "0db6b58f76d46456917d93b3": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-08-26T22:28:36+00:00",
+      "document_types": [
+        "other"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "72c213695aecd10b1bab149d53382fc711a13afa7d7a66026c2806e1525fa99d",
+      "source_title": "Meeting des Journées d'été de Écologistes 2026",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-26T22:28:37+00:00",
+      "url": "https://www.youtube.com/watch?v=XLyac1X9KBI"
     },
     "102fb340444076afc791a65f": {
       "canonical_confirmations": [
@@ -2984,7 +3014,7 @@
           }
         }
       ],
-      "completed_at": "2026-08-26T14:19:34+00:00",
+      "completed_at": "2026-08-26T22:28:27+00:00",
       "created_at": "2026-08-23T07:58:35+00:00",
       "document_types": [
         "campaign_website_page"
@@ -2999,7 +3029,7 @@
       "statuses": [],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-08-26T14:19:34+00:00",
+      "updated_at": "2026-08-26T22:28:27+00:00",
       "url": "https://attalpresident.fr/programme"
     },
     "2486060ff06e6325d1f219f6": {
@@ -5337,6 +5367,84 @@
       "updated_at": "2026-08-13T00:20:30+00:00",
       "url": "https://melenchon2027.fr/programme2025/livre/chapitre17/"
     },
+    "439f8b8605e67c8d9f92eb69": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "réduire drastiquement l’immigration",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau propose de soumettre par référendum un texte pour réduire drastiquement l'immigration.",
+            "topic": "immigration-integration"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Déjà présent dans le canonique avec le même sens et la même formulation.",
+            "related_proposal_id": "auto-bruno-retailleau-immigration-integration-39955feaadc3",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "véritable révolution de notre justice pénale",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau propose d'engager une véritable révolution de la justice pénale par référendum.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "Proposition identique déjà présente dans le canonique.",
+            "related_proposal_id": "auto-bruno-retailleau-securite-justice-703dc438f470",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "redonner la primauté à notre droit national",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau propose de redonner la primauté au droit national par référendum.",
+            "topic": "europe-souverainete"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "Proposition identique déjà présente dans le canonique.",
+            "related_proposal_id": "auto-bruno-retailleau-europe-souverainete-ed8d0d14bccb",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-08-26T22:28:25+00:00",
+      "created_at": "2026-08-26T22:28:12+00:00",
+      "document_types": [
+        "candidacy_declaration"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-02-12"
+      ],
+      "sha256": "c25ad337e27b1d45aab030228947ed08e709b36fa703d28c812e0c37f1ab79e6",
+      "source_title": "Je suis candidat à l'élection présidentielle. - Les Républicains",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-26T22:28:18+00:00",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
     "4462d0edc49cef8bc8748188": {
       "canonical_confirmations": [
         {
@@ -7030,6 +7138,67 @@
       "total": 1,
       "updated_at": "2026-08-11T14:42:42+00:00",
       "url": "https://parti-equinoxe.fr/legislatives-2022-programme-democratie/"
+    },
+    "6913984731c4463f572e0392": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "les gros héritages pour financer la transition",
+            "relevance": "party_platform",
+            "statement": "Le parti propose de taxer les gros héritages pour financer la transition écologique.",
+            "topic": "fiscalite-redistribution"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La source confirme explicitement que Les Écologistes proposent de taxer les gros héritages pour financer la transition écologique, constituant une mesure nouvelle par rapport au canon actuel.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "les gros héritages pour financer la transition",
+            "relevance": "party_platform",
+            "statement": "Le parti propose de taxer les gros héritages pour financer la transition écologique.",
+            "topic": "fiscalite-redistribution"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La source confirme explicitement que Les Écologistes proposent de taxer les gros héritages pour financer la transition écologique, constituant une mesure nouvelle par rapport au canon actuel.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "completed_at": "2026-08-26T22:28:43+00:00",
+      "created_at": "2026-08-26T22:28:38+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-08-26"
+      ],
+      "sha256": "d1f6813a6efa2cefcbbd2e7ddd6755cba27c51de933e4193bbde1eabf00c2b63",
+      "source_title": "Conférence de presse de Marine Tondelier et Eva Sas : les gros héritages pour financer la transition",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-26T22:28:43+00:00",
+      "url": "https://www.youtube.com/watch?v=1DIYBZ6be7c"
     },
     "6e14d327d322b89d02548a7c": {
       "claims": [],
@@ -16484,6 +16653,67 @@
       "updated_at": "2026-08-20T14:12:15+00:00",
       "url": "https://www.unenouvelleenergie.fr/notre-programme/"
     },
+    "dbd0ca0c9e420bc15d1907cd": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "npa-revolutionnaires",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "résister par nos luttes et notre organisation collective à l’offensive patronale",
+            "relevance": "party_platform",
+            "statement": "Le parti défend les intérêts des travailleurs et l'organisation collective contre l'offensive patronale.",
+            "topic": "pouvoir-achat-travail"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Le parti NPA-Révolutionnaires défend explicitement l'organisation collective et les luttes des travailleurs contre l'offensive patronale dans son communiqué de campagne pour 2027.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [
+        {
+          "claim": {
+            "actor_id": "npa-revolutionnaires",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "résister par nos luttes et notre organisation collective à l’offensive patronale",
+            "relevance": "party_platform",
+            "statement": "Le parti défend les intérêts des travailleurs et l'organisation collective contre l'offensive patronale.",
+            "topic": "pouvoir-achat-travail"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Le parti NPA-Révolutionnaires défend explicitement l'organisation collective et les luttes des travailleurs contre l'offensive patronale dans son communiqué de campagne pour 2027.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "completed_at": "2026-08-26T22:28:07+00:00",
+      "created_at": "2026-08-26T22:28:01+00:00",
+      "document_types": [
+        "official_press_release"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-06-17"
+      ],
+      "sha256": "b589e48ead6fd8e6f5166b52e0bcd92ea031cae723d4a69e288f2eb16e5afb21",
+      "source_title": "Communiqué - Présidentielle 2027 : Selma Labib, une candidature ouvrière et révolutionnaire, soutenue par Gaël Quirante - NPA Révolutionnaires",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-26T22:28:07+00:00",
+      "url": "https://npa-revolutionnaires.org/communique-presidentielle-2027-selma-labib-une-candidature-ouvriere-et-revolutionnaire-soutenue-par-gael-quirante/"
+    },
     "dc67165972a4f9a22f35690d": {
       "claims": [],
       "completed_at": "2026-08-12T14:41:20+00:00",
@@ -18579,6 +18809,15 @@
       "status": "promoted",
       "url": "https://solutiondemocratique.fr/comparatif-candidats-programme-elections-presidentielles-france-2027/"
     },
+    "1c4a9c6b8840": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-08-26T22:28:35+00:00",
+      "reason": null,
+      "source_sha256": "0d8a65a8dc74d4f3b80db285ed2a18b91b378305bd81ab393f4f26637b9e888d",
+      "status": "promoted",
+      "url": "https://attalpresident.fr/programme"
+    },
     "1f2bf87480b3": {
       "chunks_done": null,
       "chunks_total": null,
@@ -18765,6 +19004,15 @@
       "source_sha256": "05314ca06df186253fdb52a1c52c050a132bebfb5ac9895eb77bef9c815a8699",
       "status": "not_confirmed",
       "url": "https://npa-revolutionnaires.org/communique-presidentielle-2027-selma-labib-une-candidature-ouvriere-et-revolutionnaire-soutenue-par-gael-quirante/"
+    },
+    "325fb7fe5597": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-26T22:28:25+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "c25ad337e27b1d45aab030228947ed08e709b36fa703d28c812e0c37f1ab79e6",
+      "status": "promoted",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
     "33d88441defd": {
       "chunks_done": null,
@@ -19033,6 +19281,15 @@
       "source_sha256": "64593804ebcd7675a612cb04a718192175b50d105499eff882f3bb69eb0091e0",
       "status": "promoted",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
+    "57ea2b233515": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-08-26T22:28:10+00:00",
+      "reason": null,
+      "source_sha256": "b589e48ead6fd8e6f5166b52e0bcd92ea031cae723d4a69e288f2eb16e5afb21",
+      "status": "promoted",
+      "url": "https://npa-revolutionnaires.org/communique-presidentielle-2027-selma-labib-une-candidature-ouvriere-et-revolutionnaire-soutenue-par-gael-quirante/"
     },
     "5ab310dabeea": {
       "chunks_done": null,

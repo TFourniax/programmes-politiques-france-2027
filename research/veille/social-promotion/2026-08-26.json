@@ -1,11 +1,29 @@
 {
   "errors": [],
-  "generated_at": "2026-08-26T14:19:43+00:00",
+  "generated_at": "2026-08-26T22:28:47+00:00",
   "partial": 0,
-  "processed": 0,
-  "promoted": 0,
-  "proposals_created": 0,
+  "processed": 2,
+  "promoted": 1,
+  "proposals_created": 1,
   "provenance_updates": 0,
-  "results": [],
+  "results": [
+    {
+      "sha256": "72c213695aecd10b1bab149d53382fc711a13afa7d7a66026c2806e1525fa99d",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/watch?v=XLyac1X9KBI"
+    },
+    {
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/partys/les-ecologistes/2026-08-26-6913984731c4.md",
+      "proposals": [
+        "proposals/auto/fiscalite-redistribution/auto-les-ecologistes-fiscalite-redistribution-8245f1085aea.md"
+      ],
+      "sha256": "d1f6813a6efa2cefcbbd2e7ddd6755cba27c51de933e4193bbde1eabf00c2b63",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://www.youtube.com/watch?v=1DIYBZ6be7c",
+      "verified_at": "2026-08-26T22:28:43+00:00"
+    }
+  ],
   "status_updates": 0
 }
