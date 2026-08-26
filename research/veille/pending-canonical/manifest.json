@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created_at": "2026-08-17T19:57:19.441897+00:00",
-  "updated_at": "2026-08-25T19:57:45.289306+00:00",
+  "updated_at": "2026-08-26T02:49:33.336580+00:00",
   "files": [
     {
       "path": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-02b6fd496b7b.md",
@@ -47,6 +47,11 @@
       "path": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-5c757605a9c3.md",
       "sha256": "903e130d59916860cf12e1a4cb5f8cac62d0774a2c65c33256e5de6984bd9fc5",
       "size": 2114
+    },
+    {
+      "path": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-5f19db2929c4.md",
+      "sha256": "3a827ae9f445ad6949f67661ecd90c1d20a65409a42cc75b43c28be65521ef55",
+      "size": 1979
     },
     {
       "path": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-63d0cf967f30.md",
@@ -186,6 +191,16 @@
     {
       "path": "corpus/2027/auto/candidates/gabriel-attal/2026-08-25-fdf140209a7b.md",
       "sha256": "62b49ce1f14e208a2dc55d751ff70422fb61c4420d94cfd8615736d74443f09f",
+      "size": 1405
+    },
+    {
+      "path": "corpus/2027/auto/candidates/gabriel-attal/2026-08-26-20c668171ad6.md",
+      "sha256": "b07cb83f9a3365abb49fd30d17e60f5f9c1e4ad9e1282fa30445cd5a9136d0d2",
+      "size": 1856
+    },
+    {
+      "path": "corpus/2027/auto/candidates/gabriel-attal/2026-08-26-fdf140209a7b.md",
+      "sha256": "57f51287987593fc1e508ed23c787941725023fdb8c3201d9841b03df0c90e66",
       "size": 1405
     },
     {
@@ -445,13 +460,13 @@
     },
     {
       "path": "proposals/auto/economie-finances/auto-gabriel-attal-economie-finances-7d59510bf5b0.md",
-      "sha256": "ecbd27231b64e3d6ae44ad96cc5cc45610d872a6a46c010f268addb9c47d34d2",
-      "size": 1473
+      "sha256": "271a70e396a913103b25253b2a97b765b3ad1068153afa7c5f21b66de5fb93bd",
+      "size": 1519
     },
     {
       "path": "proposals/auto/economie-finances/auto-gabriel-attal-economie-finances-9f45e1d61977.md",
-      "sha256": "ff81d65c37d91149a32f3ce5390e4f3d402b99cc064f956307ff7501b351ffc1",
-      "size": 1494
+      "sha256": "b29375695f7b5014f0ea9aa4e62dfde72e137e35a9ac9edfd0ce6b7970431b1a",
+      "size": 1540
     },
     {
       "path": "proposals/auto/economie-finances/auto-les-ecologistes-economie-finances-08d45ffdfcbf.md",
@@ -500,8 +515,8 @@
     },
     {
       "path": "proposals/auto/europe-souverainete/auto-bruno-retailleau-europe-souverainete-ed8d0d14bccb.md",
-      "sha256": "4d930bcf8420d3b398c4017054742810d8d83589dc0972e8d6f0ed650843864b",
-      "size": 3053
+      "sha256": "9fda1d80c3d92f9f7cea7f4b349f733cec07886bbcb9b550d17601162a39e0c5",
+      "size": 3168
     },
     {
       "path": "proposals/auto/europe-souverainete/auto-les-ecologistes-europe-souverainete-06952d144d39.md",
@@ -565,8 +580,8 @@
     },
     {
       "path": "proposals/auto/immigration-integration/auto-bruno-retailleau-immigration-integration-39955feaadc3.md",
-      "sha256": "b22b51cc65d53fead518f1b9384d30bfa76c52e186b10c7264c413246749df7b",
-      "size": 5109
+      "sha256": "c16d212be70b385016f95d0cee2066f75ae0f71c292457b0bc27996550175b6d",
+      "size": 5224
     },
     {
       "path": "proposals/auto/immigration-integration/auto-les-ecologistes-immigration-integration-ddbed1d619f4.md",
@@ -685,8 +700,8 @@
     },
     {
       "path": "proposals/auto/pouvoir-achat-travail/auto-gabriel-attal-pouvoir-achat-travail-7a91e45ad6d8.md",
-      "sha256": "28b8786fc099e551364d1d718aa34bd4567fc4d83ab327ad106b0e7e681fc335",
-      "size": 1472
+      "sha256": "63dbb25ddaebb098956aad7907c49720be3fd31568e64e7feb4d96370d9700fb",
+      "size": 1518
     },
     {
       "path": "proposals/auto/pouvoir-achat-travail/auto-les-ecologistes-pouvoir-achat-travail-04b16919c921.md",
@@ -755,13 +770,13 @@
     },
     {
       "path": "proposals/auto/securite-justice/auto-bruno-retailleau-securite-justice-7b2b02ba25a3.md",
-      "sha256": "7977c689e5347004b96f0ff302c2f1b7ad9097e808c7211db046ff399ceb259a",
-      "size": 2690
+      "sha256": "0da0c36b48058ebdac136932594c1ec342491b4b228bdbbab825ab0d6eb59d1e",
+      "size": 2803
     },
     {
       "path": "proposals/auto/securite-justice/auto-gabriel-attal-securite-justice-43664388aa97.md",
-      "sha256": "51b61382c6f2f21d5c2fb886bfcfe6ae523c5f6237e85dcd68178a94de75d216",
-      "size": 1369
+      "sha256": "d87e0fed8ee9950b74ed7600f6c4458d5a4c9812b536f29e22f4586ec611664d",
+      "size": 1415
     },
     {
       "path": "proposals/auto/securite-justice/auto-les-ecologistes-securite-justice-0d29bfb3d832.md",
@@ -820,8 +835,8 @@
     },
     {
       "path": "proposals/auto/services-publics/auto-gabriel-attal-services-publics-0b16aea25279.md",
-      "sha256": "1e10446cb835d3b8ad4a9bb8a0cd7ee5ac0e1e3aa5c1c95741e85c2e7459410a",
-      "size": 1389
+      "sha256": "a7eeadc2beebf3a48fe52bf89e09c1cf9de7359dbdea78fff640a2980ec288c5",
+      "size": 1435
     },
     {
       "path": "proposals/auto/services-publics/auto-les-ecologistes-services-publics-06776c72e505.md",

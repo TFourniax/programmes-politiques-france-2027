@@ -1463,7 +1463,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-08-25T19:57:39+00:00",
+  "last_run_at": "2026-08-26T02:49:29+00:00",
   "source_chunks": {
     "020221717496955b329ee982": {
       "canonical_confirmations": [],
@@ -2984,7 +2984,7 @@
           }
         }
       ],
-      "completed_at": "2026-08-25T14:21:03+00:00",
+      "completed_at": "2026-08-26T02:49:24+00:00",
       "created_at": "2026-08-23T07:58:35+00:00",
       "document_types": [
         "campaign_website_page"
@@ -2999,7 +2999,7 @@
       "statuses": [],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-08-25T14:21:03+00:00",
+      "updated_at": "2026-08-26T02:49:17+00:00",
       "url": "https://attalpresident.fr/programme"
     },
     "2486060ff06e6325d1f219f6": {
@@ -6297,6 +6297,84 @@
       "text_truncated": false,
       "total": 1,
       "url": "https://bsky.app/profile/marinetondelier.fr/post/3msy3ilfs3q25"
+    },
+    "5f19db2929c4f836ebfc72d1": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "réduire drastiquement l’immigration",
+            "relevance": "direct",
+            "statement": "Réduire drastiquement l'immigration par référendum.",
+            "topic": "immigration-integration"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Présent à l'identique dans le canonique.",
+            "related_proposal_id": "auto-bruno-retailleau-immigration-integration-39955feaadc3",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "engager une véritable révolution de notre justice pénale",
+            "relevance": "direct",
+            "statement": "Engager une véritable révolution de notre justice pénale.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "Présent à l'identique dans le canonique.",
+            "related_proposal_id": "auto-bruno-retailleau-securite-justice-7b2b02ba25a3",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "redonner la primauté à notre droit national",
+            "relevance": "direct",
+            "statement": "Redonner la primauté au droit national par référendum.",
+            "topic": "europe-souverainete"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "Présent à l'identique dans le canonique.",
+            "related_proposal_id": "auto-bruno-retailleau-europe-souverainete-ed8d0d14bccb",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-08-26T02:49:15+00:00",
+      "created_at": "2026-08-26T02:49:04+00:00",
+      "document_types": [
+        "candidacy_declaration"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-02-12"
+      ],
+      "sha256": "15728e0df7ab383e738e9a19de2dc2099c6d477a434f90cca4363a6814a2300b",
+      "source_title": "Je suis candidat à l'élection présidentielle. - Les Républicains",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-26T02:49:09+00:00",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
     "5fe4fc68e708ddda4bc48c86": {
       "canonical_confirmations": [],
@@ -18041,7 +18119,7 @@
           }
         }
       ],
-      "completed_at": "2026-08-25T08:09:28+00:00",
+      "completed_at": "2026-08-26T02:49:29+00:00",
       "created_at": "2026-08-23T13:56:27+00:00",
       "document_types": [
         "campaign_website_page"
@@ -18056,7 +18134,7 @@
       "statuses": [],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-08-25T08:09:25+00:00",
+      "updated_at": "2026-08-26T02:49:26+00:00",
       "url": "https://attalpresident.fr/programme/dette-de-letat"
     },
     "ff01a7667fd959d729c67404": {
@@ -18997,6 +19075,24 @@
       "status": "not_confirmed",
       "url": "https://solutiondemocratique.fr/programme-lfi-2027/"
     },
+    "8cb138e35481": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-26T02:49:15+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "15728e0df7ab383e738e9a19de2dc2099c6d477a434f90cca4363a6814a2300b",
+      "status": "promoted",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
+    "8d73b69aedc5": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-08-26T02:49:29+00:00",
+      "reason": null,
+      "source_sha256": "ed477781633623166c7a9a45247cdc01b13b4fadbc7641b71469d027b63713d3",
+      "status": "promoted",
+      "url": "https://attalpresident.fr/programme/dette-de-letat"
+    },
     "8e31fea5ce0c": {
       "chunks_done": null,
       "chunks_total": null,
@@ -19014,6 +19110,15 @@
       "source_sha256": "002701270ae195c601e18b30283a4b88e5062330d2930fe550a36b1909e608ff",
       "status": "promoted",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
+    "91858785cd58": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-08-26T02:49:24+00:00",
+      "reason": null,
+      "source_sha256": "0d8a65a8dc74d4f3b80db285ed2a18b91b378305bd81ab393f4f26637b9e888d",
+      "status": "promoted",
+      "url": "https://attalpresident.fr/programme"
     },
     "926a71aa22d1": {
       "chunks_done": null,

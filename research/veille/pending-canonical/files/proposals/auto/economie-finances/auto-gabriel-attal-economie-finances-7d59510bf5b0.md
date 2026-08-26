@@ -5,7 +5,8 @@ entity_id: gabriel-attal
 topic: economie-finances
 certainty: explicit
 proposal_status: current
-source_document_ids: [auto-gabriel-attal-2026-08-23-fdf140209a7b, auto-gabriel-attal-2026-08-24-fdf140209a7b, auto-gabriel-attal-2026-08-25-fdf140209a7b]
+source_document_ids: [auto-gabriel-attal-2026-08-23-fdf140209a7b, auto-gabriel-attal-2026-08-24-fdf140209a7b, auto-gabriel-attal-2026-08-25-fdf140209a7b,
+  auto-gabriel-attal-2026-08-26-fdf140209a7b]
 source_url: https://attalpresident.fr/programme/dette-de-letat
 source_tier: tier_1_primary_official
 first_documented_at: '2026-08-23'
@@ -16,8 +17,8 @@ evidence_sha256: ed477781633623166c7a9a45247cdc01b13b4fadbc7641b71469d027b63713d
 generated_by: scripts/auto_promote.py
 source_urls: ['https://attalpresident.fr/programme/dette-de-letat']
 evidence_sha256s: [ed477781633623166c7a9a45247cdc01b13b4fadbc7641b71469d027b63713d3]
-confirmation_count: 3
-last_confirmed_at: '2026-08-25'
+confirmation_count: 4
+last_confirmed_at: '2026-08-26'
 ---
 
 # L'objectif est d'atteindre zéro déficit en 10 ans maximum
