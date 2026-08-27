@@ -750,6 +750,11 @@
       "source_url": "https://lesecologistes.fr/document/5ZhR2m5t2ZaGKqIdD1bJaD/vdef-programme-1.pdf",
       "verified_at": "2026-08-19T02:42:33+00:00"
     },
+    "81b7bcfe37edd4cae75a9fe276d218ea22d971ef653698f576e5cb03fc319720": {
+      "proposal_id": "auto-marine-tondelier-pouvoir-achat-travail-81b7bcfe37ed",
+      "source_url": "https://bsky.app/profile/marinetondelier.fr/post/3mu3gt3dnb22b",
+      "verified_at": "2026-08-27T23:11:38+00:00"
+    },
     "8245f1085aeabda94daad0ea0338a11f98117d15f8a286858dc98a31d0e3bbd4": {
       "proposal_id": "auto-les-ecologistes-fiscalite-redistribution-8245f1085aea",
       "source_url": "https://www.youtube.com/watch?v=1DIYBZ6be7c",
@@ -1478,7 +1483,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-08-27T11:22:12+00:00",
+  "last_run_at": "2026-08-27T23:11:09+00:00",
   "source_chunks": {
     "020221717496955b329ee982": {
       "canonical_confirmations": [],
@@ -3019,7 +3024,7 @@
           }
         }
       ],
-      "completed_at": "2026-08-26T22:28:27+00:00",
+      "completed_at": "2026-08-27T23:11:08+00:00",
       "created_at": "2026-08-23T07:58:35+00:00",
       "document_types": [
         "campaign_website_page"
@@ -3034,7 +3039,7 @@
       "statuses": [],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-08-26T22:28:27+00:00",
+      "updated_at": "2026-08-27T23:11:01+00:00",
       "url": "https://attalpresident.fr/programme"
     },
     "2486060ff06e6325d1f219f6": {
@@ -7546,6 +7551,65 @@
       "updated_at": "2026-08-20T10:10:57+00:00",
       "url": "https://bsky.app/profile/marinetondelier.fr/post/3mtiodeoqu22q"
     },
+    "75d9454c00ef128de75c6c7f": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "marine-tondelier",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "Nous, Écologistes, porterons le smic à 2000 euros bruts.",
+            "relevance": "direct",
+            "statement": "Porter le SMIC à 2000 euros bruts.",
+            "topic": "pouvoir-achat-travail"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "L'acteur (Marine Tondelier via 'Nous, Écologistes'), le sens, la portée et la modalité du claim sont explicitement soutenus par la source qui mentionne clairement de porter le SMIC à 2000 euros bruts. Aucun canonique existant.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [
+        {
+          "claim": {
+            "actor_id": "marine-tondelier",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "Nous, Écologistes, porterons le smic à 2000 euros bruts.",
+            "relevance": "direct",
+            "statement": "Porter le SMIC à 2000 euros bruts.",
+            "topic": "pouvoir-achat-travail"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "L'acteur (Marine Tondelier via 'Nous, Écologistes'), le sens, la portée et la modalité du claim sont explicitement soutenus par la source qui mentionne clairement de porter le SMIC à 2000 euros bruts. Aucun canonique existant.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "completed_at": "2026-08-27T23:11:38+00:00",
+      "created_at": "2026-08-27T23:11:09+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "6b067e1ae9a962326cc13710a215438cf148f8edd92d76170b1c5505d1663775",
+      "source_title": "J’ai entendu des propos très stigmatisants vis-à-vis des personnes précaires. Alors qu’il n’y a jamais eu autant de travailleurs pauvres, et de foyers où on se prive de repas, où",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-27T23:11:38+00:00",
+      "url": "https://bsky.app/profile/marinetondelier.fr/post/3mu3gt3dnb22b"
+    },
     "75ec269058180572bee4627d": {
       "canonical_confirmations": [],
       "claims": [],
@@ -9363,6 +9427,94 @@
       "total": 1,
       "updated_at": "2026-08-17T08:12:03+00:00",
       "url": "https://lafranceinsoumise.fr/2026/06/22/parrainages-elus-pour-election-presidentielle-2027/"
+    },
+    "9928d460b937be002f1f6982": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "réduire drastiquement l’immigration",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau propose de réduire drastiquement l'immigration par référendum.",
+            "topic": "immigration-integration"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La proposition de réduire drastiquement l'immigration par référendum est explicitement présente dans la source et correspond au canonique existant.",
+            "related_proposal_id": "auto-bruno-retailleau-immigration-integration-39955feaadc3",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "engager une véritable révolution de notre justice pénale",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau propose d'engager une véritable révolution de notre justice pénale par référendum.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La proposition d'engager une révolution de la justice pénale par référendum est explicitement soutenue par la source et le canonique.",
+            "related_proposal_id": "auto-bruno-retailleau-securite-justice-703dc438f470",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "redonner la primauté à notre droit national",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau propose de redonner la primauté au droit national par référendum.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "La proposition de redonner la primauté au droit national par référendum est explicitement soutenue par la source et le canonique.",
+            "related_proposal_id": "auto-bruno-retailleau-institutions-democratie-916dbcbd3347",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-08-27T23:10:58+00:00",
+      "created_at": "2026-08-27T23:09:49+00:00",
+      "document_types": [
+        "candidacy_declaration"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-02-12"
+      ],
+      "sha256": "6ed4679fe27483ac6521356360115cf8bd85b92fd61e5885084c7668d3c4a03d",
+      "source_title": "Je suis candidat à l'élection présidentielle. - Les Républicains",
+      "statuses": [
+        {
+          "status": {
+            "candidate_id": "bruno-retailleau",
+            "effective_date": "2026-02-12",
+            "evidence_quote": "Je suis candidat à l’élection présidentielle.",
+            "explicit": true,
+            "new_status": "declared_presidential"
+          }
+        }
+      ],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-27T23:10:51+00:00",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
     "99d11e3c29023ef7697a8185": {
       "canonical_confirmations": [],
@@ -16240,6 +16392,100 @@
       "updated_at": "2026-08-20T10:10:59+00:00",
       "url": "https://www.youtube.com/watch?v=Z0ZzqlrPrS0"
     },
+    "d3b3aa749e9422c1e5d91f92": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "david-lisnard",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "suppression de la carte scolaire",
+            "relevance": "direct",
+            "statement": "Supprimer la carte scolaire pour garantir la liberté des parents de scolariser leurs enfants où ils le veulent.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La suppression de la carte scolaire est explicitement soutenue pour David Lisnard dans la source.",
+            "related_proposal_id": "auto-david-lisnard-institutions-democratie-8dc9338c9297",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "david-lisnard",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "capitalisation",
+            "relevance": "direct",
+            "statement": "Instaurer la capitalisation pour permettre aux travailleurs de se constituer un capital pour leur retraite.",
+            "topic": "retraites"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La capitalisation pour la retraite est explicitement mentionnée dans la source.",
+            "related_proposal_id": "prop-lisnard-retraite-capitalisation",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "nouvelle-energie",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "réduction drastique des dépenses publiques",
+            "relevance": "direct",
+            "statement": "Réduire drastiquement les dépenses publiques pour rendre l’État plus performant.",
+            "topic": "economie-finances"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "La réduction drastique des dépenses publiques est explicitement présente dans la source.",
+            "related_proposal_id": "auto-nouvelle-energie-economie-finances-1ce2938e1f05",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "nouvelle-energie",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "choc massif de dérégulation et la décentralisation de l’action publique",
+            "relevance": "direct",
+            "statement": "Mettre en œuvre un choc massif de dérégulation et décentraliser l’action publique vers l’échelon local.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 3,
+            "reason": "Le choc massif de dérégulation et la décentralisation sont explicitement soutenus dans la source.",
+            "related_proposal_id": "auto-nouvelle-energie-economie-finances-6b725b0ab72c",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-08-27T23:09:46+00:00",
+      "created_at": "2026-08-27T23:09:13+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "878f5bb24e37e5b9507ebacc7cec417e73a1dc1222cd17a1476e2650dbfa99e9",
+      "source_title": "Le programme de David Lisnard | Nouvelle Énergie",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-27T23:09:40+00:00",
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/"
+    },
     "d73594f41a902d83129191df": {
       "canonical_confirmations": [
         {
@@ -16550,6 +16796,26 @@
       "total": 1,
       "updated_at": "2026-08-18T08:07:47+00:00",
       "url": "https://npa-revolutionnaires.org/communique-presidentielle-2027-selma-labib-une-candidature-ouvriere-et-revolutionnaire-soutenue-par-gael-quirante/"
+    },
+    "d95e21f720a4fd5562950b23": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-08-27T23:11:42+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "c3614f194203555543cb3b4f09f03d707a2b64052019814d527ab0c15a52c7b3",
+      "source_title": "L’écologie, c’est la liberté. La droite et l’extrême droite qui sont dans le déni climatique nous rendent plus vulnérables aux déstabilisations climatiques et donc moins libres de",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-27T23:11:53+00:00",
+      "url": "https://bsky.app/profile/marinetondelier.fr/post/3mu3a43nsdk2b"
     },
     "daf38b4b7d9859ed7f72340d": {
       "claims": [],
@@ -20023,6 +20289,15 @@
       "status": "promoted",
       "url": "https://melenchon2027.fr/programme2025/livre/chapitre2/"
     },
+    "ab657c717fe4": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-27T23:09:46+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "878f5bb24e37e5b9507ebacc7cec417e73a1dc1222cd17a1476e2650dbfa99e9",
+      "status": "promoted",
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/"
+    },
     "abbf3ba56b16": {
       "chunks_done": null,
       "chunks_total": 1,
@@ -20598,6 +20873,15 @@
       "status": "not_confirmed",
       "url": "https://www.revolutionpermanente.fr/Anasse-Kazib-2027"
     },
+    "f8ae505d6a29": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-08-27T23:11:08+00:00",
+      "reason": null,
+      "source_sha256": "0d8a65a8dc74d4f3b80db285ed2a18b91b378305bd81ab393f4f26637b9e888d",
+      "status": "promoted",
+      "url": "https://attalpresident.fr/programme"
+    },
     "fc44011d49c2": {
       "chunks_done": null,
       "chunks_total": 1,
@@ -20615,6 +20899,15 @@
       "source_sha256": "ba2ea6fc45eb70bc3cea56b4d7d0d2467a729d2ebd748b42d27c4556fedb6a14",
       "status": "promoted",
       "url": "https://solutiondemocratique.fr/dominique-de-villepin-presidentielle-2027-programme/"
+    },
+    "ffade17239a9": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-27T23:10:58+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "6ed4679fe27483ac6521356360115cf8bd85b92fd61e5885084c7668d3c4a03d",
+      "status": "promoted",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     }
   },
   "version": 2
