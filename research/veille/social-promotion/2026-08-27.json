@@ -1,0 +1,39 @@
+{
+  "errors": [],
+  "generated_at": "2026-08-27T11:22:25+00:00",
+  "partial": 0,
+  "processed": 4,
+  "promoted": 1,
+  "proposals_created": 1,
+  "provenance_updates": 0,
+  "results": [
+    {
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/partys/revolution-permanente/2026-08-27-f9d94839bc75.md",
+      "proposals": [
+        "proposals/auto/economie-finances/auto-revolution-permanente-economie-finances-4aee04b7eb52.md"
+      ],
+      "sha256": "02409b458fb0b2fecc0d8f296ae06dc6b5cc4222c8cfea5e8bd566e137d8cb47",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://www.youtube.com/watch?v=nt2PU5a_hyY",
+      "verified_at": "2026-08-27T11:22:16+00:00"
+    },
+    {
+      "sha256": "ddc3b3cb3e0d6d26ed41dbdcfe25c69ed32253e0223494090aea237608216ea4",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/shorts/0C2BXI3g_qs"
+    },
+    {
+      "sha256": "bd02f501d6eb6ede7ddf7b8fff2dadfe9ef0ed445215bafc97f8abce9c97c581",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/shorts/9xPvFX4nB2I"
+    },
+    {
+      "sha256": "ce078a96b9c17ddfed618587acea69b1e5154574e1cfceee8fd955c6a7a08d8f",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/watch?v=zM1uI9xNHso"
+    }
+  ],
+  "status_updates": 0
+}

@@ -1,0 +1,35 @@
+{
+  "errors": [],
+  "generated_at": "2026-08-27T11:22:12+00:00",
+  "historical_skipped": 0,
+  "partial": 0,
+  "processed": 3,
+  "promoted": 1,
+  "proposals_created": 0,
+  "results": [
+    {
+      "sha256": "f226e15cc0e64543b937b9d499d44fdfbf9b9f5e9e0c5b5733de51101dae9073",
+      "status": "not_confirmed",
+      "url": "https://anasse2027.fr/programme"
+    },
+    {
+      "document": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-522dd63a6729.md",
+      "provenance_updates": [
+        "auto-bruno-retailleau-immigration-integration-39955feaadc3",
+        "auto-bruno-retailleau-institutions-democratie-916dbcbd3347",
+        "auto-bruno-retailleau-securite-justice-703dc438f470"
+      ],
+      "reason": "canonical_duplicate_evidence",
+      "sha256": "de59b41b03f26a30aaafe9b950fd7ae478c0b509b02f3146154b27c00cc88c83",
+      "status": "promoted",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/",
+      "verified_at": "2026-08-27T11:22:09+00:00"
+    },
+    {
+      "sha256": "e0b6041dc15dfbb178d56061b304936c2516d4b21f2a813deed8c6877b4a1400",
+      "status": "not_confirmed",
+      "url": "https://www.revolutionpermanente.fr/Anasse-Kazib-2027"
+    }
+  ],
+  "status_updates": 0
+}

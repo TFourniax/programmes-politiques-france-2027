@@ -430,6 +430,11 @@
       "source_url": "https://melenchon2027.fr/programme2025/livre/chapitre15/",
       "verified_at": "2026-08-12T23:32:59+00:00"
     },
+    "4aee04b7eb520824d8dd7b542654262d9df1ebf0346c9585bca090565edeab27": {
+      "proposal_id": "auto-revolution-permanente-economie-finances-4aee04b7eb52",
+      "source_url": "https://www.youtube.com/watch?v=nt2PU5a_hyY",
+      "verified_at": "2026-08-27T11:22:16+00:00"
+    },
     "4af56501774a1ef3861ff547115b24b83864740d192123b6c07ad916cc75c5cb": {
       "proposal_id": "auto-la-france-insoumise-pouvoir-achat-travail-4af56501774a",
       "source_url": "https://melenchon2027.fr/programme2025/livre/chapitre9/",
@@ -1473,7 +1478,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-08-26T22:28:36+00:00",
+  "last_run_at": "2026-08-27T11:22:12+00:00",
   "source_chunks": {
     "020221717496955b329ee982": {
       "canonical_confirmations": [],
@@ -3601,6 +3606,26 @@
       "updated_at": "2026-08-21T08:09:41+00:00",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
+    "344690d0791e1668301a3cf8": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-08-27T11:22:10+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "e0b6041dc15dfbb178d56061b304936c2516d4b21f2a813deed8c6877b4a1400",
+      "source_title": "Anasse Kazib 2027",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-27T11:22:11+00:00",
+      "url": "https://www.revolutionpermanente.fr/Anasse-Kazib-2027"
+    },
     "34981b1b3f4fa162a914e7ed": {
       "claims": [],
       "created_at": "2026-08-11T12:47:32+00:00",
@@ -5164,6 +5189,26 @@
       "updated_at": "2026-08-25T14:22:48+00:00",
       "url": "https://www.youtube.com/watch?v=pE8eIp2HdIk"
     },
+    "41b2229d63c3b320e3a86b37": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-08-27T11:22:21+00:00",
+      "document_types": [
+        "other"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "bd02f501d6eb6ede7ddf7b8fff2dadfe9ef0ed445215bafc97f8abce9c97c581",
+      "source_title": "Nos impôts financent leurs échecs !",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-27T11:22:22+00:00",
+      "url": "https://www.youtube.com/shorts/9xPvFX4nB2I"
+    },
     "436adfca7d7956c24aecea5b": {
       "canonical_confirmations": [
         {
@@ -6088,6 +6133,94 @@
       "total": 1,
       "updated_at": "2026-08-22T19:48:45+00:00",
       "url": "https://bsky.app/profile/lesecologistes.fr/post/3mtolvim24k2j"
+    },
+    "522dd63a67298aa6acafdc43": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "réduire drastiquement l’immigration",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau propose de soumettre par référendum des textes pour réduire drastiquement l'immigration.",
+            "topic": "immigration-integration"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La proposition est explicitement présente dans la source et déjà présente dans le canonique.",
+            "related_proposal_id": "auto-bruno-retailleau-immigration-integration-39955feaadc3",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "engager une véritable révolution de notre justice pénale",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau propose d'engager une révolution de la justice pénale par référendum.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La proposition sur la justice pénale est explicitement dans la source et dans le canonique.",
+            "related_proposal_id": "auto-bruno-retailleau-securite-justice-703dc438f470",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "redonner la primauté à notre droit national",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau propose de redonner la primauté au droit national par référendum.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "La proposition sur la primauté du droit national est explicitement dans la source et le canonique.",
+            "related_proposal_id": "auto-bruno-retailleau-institutions-democratie-916dbcbd3347",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-08-27T11:22:09+00:00",
+      "created_at": "2026-08-27T11:22:00+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-02-12"
+      ],
+      "sha256": "de59b41b03f26a30aaafe9b950fd7ae478c0b509b02f3146154b27c00cc88c83",
+      "source_title": "Je suis candidat à l'élection présidentielle. - Les Républicains",
+      "statuses": [
+        {
+          "status": {
+            "candidate_id": "bruno-retailleau",
+            "effective_date": "2026-02-12",
+            "evidence_quote": "Je suis candidat à l’élection présidentielle.",
+            "explicit": true,
+            "new_status": "declared_presidential"
+          }
+        }
+      ],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-27T11:22:05+00:00",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
     "5453bf0229bb1a8bdab5046e": {
       "canonical_confirmations": [
@@ -7412,6 +7545,26 @@
       "total": 1,
       "updated_at": "2026-08-20T10:10:57+00:00",
       "url": "https://bsky.app/profile/marinetondelier.fr/post/3mtiodeoqu22q"
+    },
+    "75ec269058180572bee4627d": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-08-27T11:22:23+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "ce078a96b9c17ddfed618587acea69b1e5154574e1cfceee8fd955c6a7a08d8f",
+      "source_title": "EDWIGE DIAZ : « Pourquoi M. Lecornu ne nous parle pas du coût de l’immigration ? » (RTL)",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-27T11:22:24+00:00",
+      "url": "https://www.youtube.com/watch?v=zM1uI9xNHso"
     },
     "770e23bdd556f60748a40833": {
       "canonical_confirmations": [
@@ -14401,7 +14554,7 @@
       "statuses": [],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-08-15T19:48:09+00:00",
+      "updated_at": "2026-08-27T11:21:58+00:00",
       "url": "https://anasse2027.fr/programme"
     },
     "bc9d1a3db9451ed36c070e5a": {
@@ -17447,6 +17600,26 @@
       "updated_at": "2026-08-21T02:44:55+00:00",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
+    "ec14f01505b067ced072b9d6": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-08-27T11:22:19+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "ddc3b3cb3e0d6d26ed41dbdcfe25c69ed32253e0223494090aea237608216ea4",
+      "source_title": "🔴 Coût de l'immigration : brisons le tabou !",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-27T11:22:20+00:00",
+      "url": "https://www.youtube.com/shorts/0C2BXI3g_qs"
+    },
     "ed40042d596acb3bd79cd0f1": {
       "canonical_confirmations": [],
       "claims": [],
@@ -18097,6 +18270,65 @@
       "total": 1,
       "updated_at": "2026-08-12T22:06:51+00:00",
       "url": "https://melenchon2027.fr/programme2025/livre/chapitre12/"
+    },
+    "f9d94839bc759288791c626b": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "revolution-permanente",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "on veut une société SANS GRANDS PATRONS",
+            "relevance": "party_platform",
+            "statement": "Le parti demande une société sans grands patrons.",
+            "topic": "economie-finances"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La source soutient explicitement la revendication du parti Révolution Permanente demandant une société sans grands patrons via la citation directe d'Elsa Marcel.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [
+        {
+          "claim": {
+            "actor_id": "revolution-permanente",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "on veut une société SANS GRANDS PATRONS",
+            "relevance": "party_platform",
+            "statement": "Le parti demande une société sans grands patrons.",
+            "topic": "economie-finances"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La source soutient explicitement la revendication du parti Révolution Permanente demandant une société sans grands patrons via la citation directe d'Elsa Marcel.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "completed_at": "2026-08-27T11:22:16+00:00",
+      "created_at": "2026-08-27T11:22:12+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "02409b458fb0b2fecc0d8f296ae06dc6b5cc4222c8cfea5e8bd566e137d8cb47",
+      "source_title": "« Taxer les riches ne suffit pas, on veut une société SANS GRANDS PATRONS » Elsa Marcel sur BFM",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-27T11:22:16+00:00",
+      "url": "https://www.youtube.com/watch?v=nt2PU5a_hyY"
     },
     "f9e3c21d27e0c5489e4a4cf9": {
       "claims": [],
@@ -18773,6 +19005,15 @@
       "status": "promoted",
       "url": "https://solutiondemocratique.fr/francois-asselineau-2027-programme/"
     },
+    "130012fb6774": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-27T11:22:09+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "de59b41b03f26a30aaafe9b950fd7ae478c0b509b02f3146154b27c00cc88c83",
+      "status": "promoted",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
     "150427f48739": {
       "chunks_done": null,
       "chunks_total": null,
@@ -19247,6 +19488,15 @@
       "source_sha256": "be09b4c0ce5bea5f0d75dfe3f137f08851443353ac96f7d6a9b9182e6151ca56",
       "status": "promoted",
       "url": "https://melenchon2027.fr/programme2025/livre/chapitre5/"
+    },
+    "4fda15d62693": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-27T11:21:58+00:00",
+      "reason": null,
+      "source_sha256": "f226e15cc0e64543b937b9d499d44fdfbf9b9f5e9e0c5b5733de51101dae9073",
+      "status": "not_confirmed",
+      "url": "https://anasse2027.fr/programme"
     },
     "50fcc52d36a3": {
       "chunks_done": null,
@@ -20044,6 +20294,15 @@
       "source_sha256": "93788d5e8b0428d594a0a98bfc8270053c46623395dfe55bc7e4170d9b4ef1a7",
       "status": "promoted",
       "url": "https://solutiondemocratique.fr/programme-lfi-2027/"
+    },
+    "ccde951790fa": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-27T11:22:11+00:00",
+      "reason": null,
+      "source_sha256": "e0b6041dc15dfbb178d56061b304936c2516d4b21f2a813deed8c6877b4a1400",
+      "status": "not_confirmed",
+      "url": "https://www.revolutionpermanente.fr/Anasse-Kazib-2027"
     },
     "cd6b994a148b": {
       "chunks_done": null,
