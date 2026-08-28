@@ -1,0 +1,53 @@
+{
+  "errors": [],
+  "generated_at": "2026-08-28T23:11:45+00:00",
+  "historical_skipped": 0,
+  "partial": 0,
+  "processed": 3,
+  "promoted": 3,
+  "proposals_created": 1,
+  "results": [
+    {
+      "document": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-2275fa1fb155.md",
+      "provenance_updates": [
+        "auto-bruno-retailleau-europe-souverainete-ed8d0d14bccb",
+        "auto-bruno-retailleau-immigration-integration-39955feaadc3",
+        "auto-bruno-retailleau-securite-justice-703dc438f470"
+      ],
+      "reason": "canonical_duplicate_evidence",
+      "sha256": "ab0fbec179003fb8a598e04c796b1a7e422682681d31a744b1d8024ccba49f6a",
+      "status": "promoted",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/",
+      "verified_at": "2026-08-28T23:11:23+00:00"
+    },
+    {
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/candidates/anasse-kazib/2026-08-28-38891602d9d9.md",
+      "proposals": [
+        "proposals/auto/institutions-democratie/auto-anasse-kazib-institutions-democratie-1a9f657935f4.md"
+      ],
+      "sha256": "558a0f4c960090bf8770b5f38e136b3c5109b0515e714cfd95c33471bf3ce2a7",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://www.revolutionpermanente.fr/Anasse-Kazib-2027",
+      "verified_at": "2026-08-28T23:11:31+00:00"
+    },
+    {
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/candidates/gabriel-attal/2026-08-28-20c668171ad6.md",
+      "proposals": [],
+      "provenance_updates": [
+        "auto-gabriel-attal-economie-finances-9f45e1d61977",
+        "auto-gabriel-attal-pouvoir-achat-travail-7a91e45ad6d8",
+        "auto-gabriel-attal-securite-justice-43664388aa97",
+        "auto-gabriel-attal-services-publics-0b16aea25279"
+      ],
+      "sha256": "0d8a65a8dc74d4f3b80db285ed2a18b91b378305bd81ab393f4f26637b9e888d",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://attalpresident.fr/programme",
+      "verified_at": "2026-08-28T23:11:44+00:00"
+    }
+  ],
+  "status_updates": 0
+}

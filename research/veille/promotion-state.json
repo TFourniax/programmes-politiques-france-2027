@@ -150,6 +150,11 @@
       "source_url": "https://melenchon2027.fr/programme2025/livre/chapitre13/",
       "verified_at": "2026-08-12T23:32:49+00:00"
     },
+    "1a9f657935f4a90854c231e774a7aa0ce8dae7f238c5310f29f8b841481db8e2": {
+      "proposal_id": "auto-anasse-kazib-institutions-democratie-1a9f657935f4",
+      "source_url": "https://www.revolutionpermanente.fr/Anasse-Kazib-2027",
+      "verified_at": "2026-08-28T23:11:31+00:00"
+    },
     "1bbd485356cd06c0b352174334036446b1d99a681fe737b2c70d0d4b8f3669b8": {
       "proposal_id": "auto-david-lisnard-securite-justice-1bbd485356cd",
       "source_url": "https://www.unenouvelleenergie.fr/notre-programme/securite/",
@@ -1483,7 +1488,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-08-27T23:11:09+00:00",
+  "last_run_at": "2026-08-28T23:11:45+00:00",
   "source_chunks": {
     "020221717496955b329ee982": {
       "canonical_confirmations": [],
@@ -3024,7 +3029,7 @@
           }
         }
       ],
-      "completed_at": "2026-08-27T23:11:08+00:00",
+      "completed_at": "2026-08-28T23:11:44+00:00",
       "created_at": "2026-08-23T07:58:35+00:00",
       "document_types": [
         "campaign_website_page"
@@ -3039,8 +3044,96 @@
       "statuses": [],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-08-27T23:11:01+00:00",
+      "updated_at": "2026-08-28T23:11:36+00:00",
       "url": "https://attalpresident.fr/programme"
+    },
+    "2275fa1fb15593131b386431": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "réduire drastiquement l’immigration",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau souhaite réduire drastiquement l'immigration via un référendum.",
+            "topic": "immigration-integration"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Présent à l'identique dans le canonique.",
+            "related_proposal_id": "auto-bruno-retailleau-immigration-integration-39955feaadc3",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "révolution de notre justice pénale",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau propose d'engager une révolution de la justice pénale par référendum.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "Présent à l'identique dans le canonique.",
+            "related_proposal_id": "auto-bruno-retailleau-securite-justice-703dc438f470",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "redonner la primauté à notre droit national",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau propose de redonner la primauté au droit national par référendum.",
+            "topic": "europe-souverainete"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "Présent à l'identique dans le canonique.",
+            "related_proposal_id": "auto-bruno-retailleau-europe-souverainete-ed8d0d14bccb",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-08-28T23:11:23+00:00",
+      "created_at": "2026-08-28T23:11:11+00:00",
+      "document_types": [
+        "candidacy_declaration"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-02-12"
+      ],
+      "sha256": "ab0fbec179003fb8a598e04c796b1a7e422682681d31a744b1d8024ccba49f6a",
+      "source_title": "Je suis candidat à l'élection présidentielle. - Les Républicains",
+      "statuses": [
+        {
+          "status": {
+            "candidate_id": "bruno-retailleau",
+            "effective_date": "2026-02-12",
+            "evidence_quote": "Je suis candidat à l’élection présidentielle.",
+            "explicit": true,
+            "new_status": "declared_presidential"
+          }
+        }
+      ],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-28T23:11:17+00:00",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
     "2486060ff06e6325d1f219f6": {
       "canonical_confirmations": [],
@@ -3975,6 +4068,65 @@
       "text_truncated": false,
       "total": 1,
       "updated_at": "2026-08-19T08:04:39+00:00",
+      "url": "https://www.revolutionpermanente.fr/Anasse-Kazib-2027"
+    },
+    "38891602d9d922be5a33eceb": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "anasse-kazib",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "Anasse Kazib présente sa candidature au Média",
+            "relevance": "direct",
+            "statement": "Anasse Kazib présente sa candidature pour l'élection présidentielle de 2027.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La source indique explicitement qu'Anasse Kazib présente sa candidature au Média pour l'élection présidentielle de 2027.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [
+        {
+          "claim": {
+            "actor_id": "anasse-kazib",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "Anasse Kazib présente sa candidature au Média",
+            "relevance": "direct",
+            "statement": "Anasse Kazib présente sa candidature pour l'élection présidentielle de 2027.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La source indique explicitement qu'Anasse Kazib présente sa candidature au Média pour l'élection présidentielle de 2027.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "completed_at": "2026-08-28T23:11:31+00:00",
+      "created_at": "2026-08-28T23:11:24+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "558a0f4c960090bf8770b5f38e136b3c5109b0515e714cfd95c33471bf3ce2a7",
+      "source_title": "Anasse Kazib 2027",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-28T23:11:31+00:00",
       "url": "https://www.revolutionpermanente.fr/Anasse-Kazib-2027"
     },
     "391f5104d4105ded8d7e64f5": {
@@ -19235,6 +19387,15 @@
       "status": "promoted",
       "url": "https://solutiondemocratique.fr/clementine-autain-programme-presidentielle2027/"
     },
+    "0b6653256f9b": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-08-28T23:11:34+00:00",
+      "reason": null,
+      "source_sha256": "558a0f4c960090bf8770b5f38e136b3c5109b0515e714cfd95c33471bf3ce2a7",
+      "status": "promoted",
+      "url": "https://www.revolutionpermanente.fr/Anasse-Kazib-2027"
+    },
     "0f3507e5d548": {
       "chunks_done": null,
       "chunks_total": null,
@@ -19356,6 +19517,15 @@
       "processed_at": "2026-08-17T19:56:51+00:00",
       "reason": "canonical_duplicate_evidence",
       "source_sha256": "949f2be5d10f67b9e44c0ed31b264264b782c9b2cf565933355216cf9c3c5e5c",
+      "status": "promoted",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
+    "240a37fd6045": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-28T23:11:23+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "ab0fbec179003fb8a598e04c796b1a7e422682681d31a744b1d8024ccba49f6a",
       "status": "promoted",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
@@ -20747,6 +20917,15 @@
       "source_sha256": "641692c8b3e3f9d0b6ac42c34ac6027c28d854c7551be88d2d8b3b948cee9def",
       "status": "promoted",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
+    "e533825aca0f": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-08-28T23:11:44+00:00",
+      "reason": null,
+      "source_sha256": "0d8a65a8dc74d4f3b80db285ed2a18b91b378305bd81ab393f4f26637b9e888d",
+      "status": "promoted",
+      "url": "https://attalpresident.fr/programme"
     },
     "e53543cb01a0": {
       "chunks_done": null,
