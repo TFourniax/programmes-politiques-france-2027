@@ -6,18 +6,18 @@
     "actors": 68,
     "declared_or_active_candidates": 27,
     "topics": 12,
-    "current_proposals": 1259,
+    "current_proposals": 1260,
     "covered_actor_topic_cells": 127,
     "total_actor_topic_cells": 816,
     "actor_topic_coverage_ratio": 0.1556,
     "active_candidate_covered_cells": 52,
     "active_candidate_total_cells": 324,
     "active_candidate_topic_coverage_ratio": 0.1605,
-    "verified_proposals": 1220,
-    "multi_source_proposals": 36,
-    "latest_evidence_at": "2026-08-28",
+    "verified_proposals": 1221,
+    "multi_source_proposals": 37,
+    "latest_evidence_at": "2026-08-29",
     "certainty_counts": {
-      "explicit": 1235,
+      "explicit": 1236,
       "explicit_but_conditional": 3,
       "explicit_but_underspecified": 21
     }
@@ -1320,7 +1320,7 @@
       "type": "party",
       "status": null,
       "confidence": null,
-      "current_proposals": 11,
+      "current_proposals": 12,
       "covered_topics": [
         "economie-finances",
         "immigration-integration",
@@ -1338,9 +1338,9 @@
         "securite-justice",
         "numerique-ia"
       ],
-      "latest_evidence_at": "2026-08-27",
-      "verified_proposals": 11,
-      "multi_source_proposals": 6
+      "latest_evidence_at": "2026-08-29",
+      "verified_proposals": 12,
+      "multi_source_proposals": 7
     },
     {
       "id": "npa-revolutionnaires",
@@ -1964,7 +1964,7 @@
       "current_proposals": 19,
       "actors_covered": 11,
       "actor_coverage_ratio": 0.1618,
-      "latest_evidence_at": "2026-08-27",
+      "latest_evidence_at": "2026-08-29",
       "verified_proposals": 16,
       "multi_source_proposals": 3
     },
@@ -2021,11 +2021,11 @@
     {
       "id": "institutions-democratie",
       "label": "Institutions & démocratie",
-      "current_proposals": 257,
+      "current_proposals": 258,
       "actors_covered": 13,
       "actor_coverage_ratio": 0.1912,
-      "latest_evidence_at": "2026-08-28",
-      "verified_proposals": 253,
+      "latest_evidence_at": "2026-08-29",
+      "verified_proposals": 254,
       "multi_source_proposals": 9
     },
     {
@@ -2034,7 +2034,7 @@
       "current_proposals": 226,
       "actors_covered": 11,
       "actor_coverage_ratio": 0.1618,
-      "latest_evidence_at": "2026-08-28",
+      "latest_evidence_at": "2026-08-29",
       "verified_proposals": 222,
       "multi_source_proposals": 4
     },
@@ -2054,9 +2054,9 @@
       "current_proposals": 116,
       "actors_covered": 12,
       "actor_coverage_ratio": 0.1765,
-      "latest_evidence_at": "2026-08-28",
+      "latest_evidence_at": "2026-08-29",
       "verified_proposals": 114,
-      "multi_source_proposals": 6
+      "multi_source_proposals": 7
     },
     {
       "id": "numerique-ia",

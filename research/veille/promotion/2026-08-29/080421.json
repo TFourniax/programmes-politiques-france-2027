@@ -1,0 +1,49 @@
+{
+  "errors": [
+    {
+      "at": "2026-08-29T08:04:06+00:00",
+      "error": "ValueError: source text too short",
+      "url": "https://www.jerome-guedj.fr/la-clarte-plutot-que-les-slogans-pourquoi-jai-annonce-ma-candidature-pour-2027/"
+    }
+  ],
+  "generated_at": "2026-08-29T08:04:21+00:00",
+  "historical_skipped": 0,
+  "partial": 0,
+  "processed": 2,
+  "promoted": 2,
+  "proposals_created": 1,
+  "results": [
+    {
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/partys/nouvelle-energie/2026-08-29-60ca0cf36405.md",
+      "proposals": [
+        "proposals/auto/institutions-democratie/auto-nouvelle-energie-institutions-democratie-8303825218fa.md"
+      ],
+      "provenance_updates": [
+        "auto-nouvelle-energie-economie-finances-1ce2938e1f05",
+        "auto-nouvelle-energie-economie-finances-6b725b0ab72c",
+        "auto-nouvelle-energie-retraites-4b9149336ab7",
+        "auto-nouvelle-energie-services-publics-2dd30b44dc9c"
+      ],
+      "sha256": "b5896d4573e65bd008a5b7697893011932cde3a7379a3c0da5e6a0b37268e332",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/",
+      "verified_at": "2026-08-29T08:04:06+00:00"
+    },
+    {
+      "document": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-6ddba0297dcb.md",
+      "provenance_updates": [
+        "auto-bruno-retailleau-immigration-integration-39955feaadc3",
+        "auto-bruno-retailleau-pouvoir-achat-travail-122f072f74ad",
+        "auto-bruno-retailleau-securite-justice-703dc438f470"
+      ],
+      "reason": "canonical_duplicate_evidence",
+      "sha256": "525a32e7e7887a43207986b344359a3a571ed52d448de4d02b12f598c0d60e57",
+      "status": "promoted",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/",
+      "verified_at": "2026-08-29T08:04:20+00:00"
+    }
+  ],
+  "status_updates": 0
+}

@@ -770,6 +770,11 @@
       "source_url": "https://melenchon2027.fr/programme2025/livre/chapitre13/",
       "verified_at": "2026-08-12T23:32:49+00:00"
     },
+    "8303825218fa5277f962d6a5e1470ed01865f8730be60a206357bf5cc5cab479": {
+      "proposal_id": "auto-nouvelle-energie-institutions-democratie-8303825218fa",
+      "source_url": "https://www.unenouvelleenergie.fr/notre-programme/",
+      "verified_at": "2026-08-29T08:03:56+00:00"
+    },
     "83b09524e35ff31b7dc28990e86c431c6b0cb9f1499a0cb6dfc45e3b558bbf4d": {
       "proposal_id": "auto-la-france-insoumise-europe-souverainete-83b09524e35f",
       "source_url": "https://melenchon2027.fr/programme2025/livre/chapitre16/",
@@ -1486,9 +1491,9 @@
       "verified_at": "2026-08-13T08:51:16+00:00"
     }
   },
-  "last_error_count": 0,
-  "last_processed_count": 3,
-  "last_run_at": "2026-08-28T23:11:45+00:00",
+  "last_error_count": 1,
+  "last_processed_count": 2,
+  "last_run_at": "2026-08-29T08:04:21+00:00",
   "source_chunks": {
     "020221717496955b329ee982": {
       "canonical_confirmations": [],
@@ -6848,6 +6853,137 @@
       "updated_at": "2026-08-14T08:47:21+00:00",
       "url": "https://solutiondemocratique.fr/delphine-batho-programme-2027/"
     },
+    "60ca0cf3640570910d5dfefa": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "nouvelle-energie",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "suppression de la carte scolaire",
+            "relevance": "direct",
+            "statement": "Suppression de la carte scolaire pour permettre aux parents de scolariser leurs enfants où ils le veulent.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La suppression de la carte scolaire est explicitement soutenue par la source pour le parti Nouvelle Énergie.",
+            "related_proposal_id": "auto-nouvelle-energie-services-publics-2dd30b44dc9c",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "nouvelle-energie",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "capitalisation",
+            "relevance": "direct",
+            "statement": "Mise en place de la capitalisation pour permettre aux travailleurs de se constituer un capital pour leur retraite.",
+            "topic": "retraites"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La mise en place de la capitalisation pour les retraites est explicitement présente dans la source.",
+            "related_proposal_id": "auto-nouvelle-energie-retraites-4b9149336ab7",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "nouvelle-energie",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "par le recours au référendum",
+            "relevance": "direct",
+            "statement": "Recours au référendum pour permettre à l'État de maîtriser sa politique migratoire indépendamment des hautes cours de justice.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "Le recours au référendum pour la politique migratoire est explicitement soutenu dans la source et absent du canonical actuel.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "nouvelle-energie",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "réduction drastique des dépenses publiques",
+            "relevance": "direct",
+            "statement": "Réduction drastique des dépenses publiques pour rendre l'État plus performant.",
+            "topic": "economie-finances"
+          },
+          "verdict": {
+            "index": 3,
+            "reason": "La réduction drastique des dépenses publiques est explicitement mentionnée dans la source.",
+            "related_proposal_id": "auto-nouvelle-energie-economie-finances-1ce2938e1f05",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "nouvelle-energie",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "choc massif de dérégulation",
+            "relevance": "direct",
+            "statement": "Création d'un choc massif de dérégulation.",
+            "topic": "economie-finances"
+          },
+          "verdict": {
+            "index": 4,
+            "reason": "Le choc massif de dérégulation est explicitement mentionné dans la source.",
+            "related_proposal_id": "auto-nouvelle-energie-economie-finances-6b725b0ab72c",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [
+        {
+          "claim": {
+            "actor_id": "nouvelle-energie",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "par le recours au référendum",
+            "relevance": "direct",
+            "statement": "Recours au référendum pour permettre à l'État de maîtriser sa politique migratoire indépendamment des hautes cours de justice.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "Le recours au référendum pour la politique migratoire est explicitement soutenu dans la source et absent du canonical actuel.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "completed_at": "2026-08-29T08:04:06+00:00",
+      "created_at": "2026-08-29T08:03:38+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "b5896d4573e65bd008a5b7697893011932cde3a7379a3c0da5e6a0b37268e332",
+      "source_title": "Le programme de David Lisnard | Nouvelle Énergie",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-29T08:03:56+00:00",
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/"
+    },
     "624555f164b44a234b7a3c29": {
       "canonical_confirmations": [
         {
@@ -7489,6 +7625,102 @@
       "total": 1,
       "updated_at": "2026-08-26T22:28:43+00:00",
       "url": "https://www.youtube.com/watch?v=1DIYBZ6be7c"
+    },
+    "6ddba0297dcbdc84d71ad546": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "l’immigration n’est pas une chance",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau affirme que l'immigration n'est pas une chance.",
+            "topic": "immigration-integration"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Explicitement présent dans le canonique et soutenu par la source.",
+            "related_proposal_id": "auto-bruno-retailleau-immigration-integration-39955feaadc3",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "on ne peut pas vivre mieux en travaillant moins",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau affirme qu'on ne peut pas vivre mieux en travaillant moins.",
+            "topic": "pouvoir-achat-travail"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "Explicitement présent dans le canonique et soutenu par la source.",
+            "related_proposal_id": "auto-bruno-retailleau-pouvoir-achat-travail-122f072f74ad",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "réduire drastiquement l’immigration",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau souhaite soumettre par référendum des textes pour réduire drastiquement l'immigration.",
+            "topic": "immigration-integration"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "Explicitement présent dans le canonique et soutenu par la source.",
+            "related_proposal_id": "auto-bruno-retailleau-immigration-integration-39955feaadc3",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "révolution de notre justice pénale",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau veut engager une révolution de la justice pénale par référendum.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 3,
+            "reason": "Explicitement présent dans le canonique et soutenu par la source.",
+            "related_proposal_id": "auto-bruno-retailleau-securite-justice-703dc438f470",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-08-29T08:04:20+00:00",
+      "created_at": "2026-08-29T08:04:09+00:00",
+      "document_types": [
+        "candidacy_declaration"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-02-12"
+      ],
+      "sha256": "525a32e7e7887a43207986b344359a3a571ed52d448de4d02b12f598c0d60e57",
+      "source_title": "Je suis candidat à l'élection présidentielle. - Les Républicains",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-29T08:04:14+00:00",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
     "6e14d327d322b89d02548a7c": {
       "claims": [],
@@ -20540,6 +20772,15 @@
       "status": "promoted",
       "url": "https://www.unenouvelleenergie.fr/notre-programme/"
     },
+    "b33fbda7545e": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-08-29T08:04:06+00:00",
+      "reason": null,
+      "source_sha256": "b5896d4573e65bd008a5b7697893011932cde3a7379a3c0da5e6a0b37268e332",
+      "status": "promoted",
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/"
+    },
     "b34d647cd8d1": {
       "chunks_done": null,
       "chunks_total": 1,
@@ -20602,10 +20843,10 @@
       "url": "https://www.revolutionpermanente.fr/"
     },
     "b8920657eb06": {
-      "attempts": 4,
+      "attempts": 5,
       "error": "ValueError: source text too short",
-      "next_retry_at": "2026-08-29T02:38:17+00:00",
-      "processed_at": "2026-08-22T02:38:17+00:00",
+      "next_retry_at": "2026-09-12T08:04:06+00:00",
+      "processed_at": "2026-08-29T08:04:06+00:00",
       "status": "technical_error",
       "url": "https://www.jerome-guedj.fr/la-clarte-plutot-que-les-slogans-pourquoi-jai-annonce-ma-candidature-pour-2027/"
     },
@@ -20757,6 +20998,15 @@
       "source_sha256": "b341a85b06da61562cff1d4cd0d1d6866a74ab1d487a001172e1dec12f589727",
       "status": "not_confirmed",
       "url": "https://bc2027.fr/ma-demarche"
+    },
+    "cd820846e896": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-29T08:04:20+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "525a32e7e7887a43207986b344359a3a571ed52d448de4d02b12f598c0d60e57",
+      "status": "promoted",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
     "ce43a5512c45": {
       "chunks_done": null,

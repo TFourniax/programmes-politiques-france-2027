@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created_at": "2026-08-17T19:57:19.441897+00:00",
-  "updated_at": "2026-08-28T23:11:49.152061+00:00",
+  "updated_at": "2026-08-29T08:04:25.103489+00:00",
   "files": [
     {
       "path": "corpus/2027/auto/candidates/anasse-kazib/2026-08-28-38891602d9d9.md",
@@ -82,6 +82,11 @@
       "path": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-658d569cbe24.md",
       "sha256": "6616ec279c4df5c0405df48a6963d7824146fd225fde73069c758526336170ac",
       "size": 2021
+    },
+    {
+      "path": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-6ddba0297dcb.md",
+      "sha256": "4059caa6b7aef7c0851a4cb0cdc35530e2b7ef909646898d19a8991dd9afa5f8",
+      "size": 2056
     },
     {
       "path": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-6fc99cb4ab5c.md",
@@ -339,6 +344,11 @@
       "size": 1968
     },
     {
+      "path": "corpus/2027/auto/partys/nouvelle-energie/2026-08-29-60ca0cf36405.md",
+      "sha256": "3086297783ac1831d2dca5952e3070997f32fb96c262e69187957256ba67a82b",
+      "size": 2261
+    },
+    {
       "path": "corpus/2027/auto/partys/rassemblement-national/2026-08-25-102fb3404440.md",
       "sha256": "b30baa5073e63539f4a1846bd9ced3df8aaef2e5c5061223810d3d74dfcf8a66",
       "size": 1581
@@ -570,13 +580,13 @@
     },
     {
       "path": "proposals/auto/economie-finances/auto-nouvelle-energie-economie-finances-1ce2938e1f05.md",
-      "sha256": "175492229f0fba60c5285a9725e8984813a7ba4053d4e157582e75c231236006",
-      "size": 1891
+      "sha256": "bee0cbe65356c25dd2f2da67ec496cd64236dac3d1515276eefa7fad1dbc7152",
+      "size": 2004
     },
     {
       "path": "proposals/auto/economie-finances/auto-nouvelle-energie-economie-finances-6b725b0ab72c.md",
-      "sha256": "cbd39c7cf7e23a90e77b566da203e929cc7e4cfd41ab705330deecabfb21a828",
-      "size": 1147
+      "sha256": "a7b5fc8197ce67921180b60d878b2034f1e5a63802c84e0e5bb35800e730710e",
+      "size": 1467
     },
     {
       "path": "proposals/auto/economie-finances/auto-nouvelle-energie-economie-finances-ce6ab5f9ca2a.md",
@@ -660,8 +670,8 @@
     },
     {
       "path": "proposals/auto/immigration-integration/auto-bruno-retailleau-immigration-integration-39955feaadc3.md",
-      "sha256": "b9d80e73eee25fab6023256e4eca580a51585a55952c778d0bd7237085f823a3",
-      "size": 5797
+      "sha256": "cda13715c5c1e8d438cbcdc26fbbe432d8a998443cbef677d705611ac5caccc7",
+      "size": 5912
     },
     {
       "path": "proposals/auto/immigration-integration/auto-les-ecologistes-immigration-integration-ddbed1d619f4.md",
@@ -769,6 +779,11 @@
       "size": 1247
     },
     {
+      "path": "proposals/auto/institutions-democratie/auto-nouvelle-energie-institutions-democratie-8303825218fa.md",
+      "sha256": "824f2761dbf8aea52a19e417fbae939c8e41282804a3a688e83766b879e2fa93",
+      "size": 1418
+    },
+    {
       "path": "proposals/auto/institutions-democratie/auto-nouvelle-energie-institutions-democratie-fca2d2126785.md",
       "sha256": "9309c87b134d5aabc91944c16d4f73a625c483b89898a83017d7c22bc1bc22c4",
       "size": 1180
@@ -780,8 +795,8 @@
     },
     {
       "path": "proposals/auto/pouvoir-achat-travail/auto-bruno-retailleau-pouvoir-achat-travail-122f072f74ad.md",
-      "sha256": "ccd26840058afaa164c03a6a7b54f7ea62929fc697dd069236d9e02eb0a1d98f",
-      "size": 2349
+      "sha256": "4c86562576009df508206898d1b4dc4d7859c901922f5fe8758a961ba48890ab",
+      "size": 2464
     },
     {
       "path": "proposals/auto/pouvoir-achat-travail/auto-gabriel-attal-pouvoir-achat-travail-7a91e45ad6d8.md",
@@ -855,13 +870,13 @@
     },
     {
       "path": "proposals/auto/retraites/auto-nouvelle-energie-retraites-4b9149336ab7.md",
-      "sha256": "581eab2e11efda28c3292da66bc4430729461ff7c5c2f0389446593f0b712201",
-      "size": 2853
+      "sha256": "014875776d22231c01bb1b33b0cf0c3a8d4ab68427fde6e2b3c1ec9024468455",
+      "size": 2970
     },
     {
       "path": "proposals/auto/securite-justice/auto-bruno-retailleau-securite-justice-703dc438f470.md",
-      "sha256": "a6baccb753d00b2fb2d991d8708ee1509060802edc366d14cf3070ac47920fda",
-      "size": 4550
+      "sha256": "f06df429031e3cd9b339a4bfc6405709b84d92db9274fdf658934e5d3d900b97",
+      "size": 4665
     },
     {
       "path": "proposals/auto/securite-justice/auto-bruno-retailleau-securite-justice-7b2b02ba25a3.md",
@@ -1060,8 +1075,8 @@
     },
     {
       "path": "proposals/auto/services-publics/auto-nouvelle-energie-services-publics-2dd30b44dc9c.md",
-      "sha256": "c09cf540e1fc99fe4436d6336aef616c198732163a003e184fc498f5a91ef59e",
-      "size": 2494
+      "sha256": "48caa2d7c9890b821c9ee3432a6a523fbf75f8a8feb3f55fa289b6746ec5a978",
+      "size": 2610
     },
     {
       "path": "proposals/ecologie-energie/les-ecologistes-location-sociale-vehicules-electriques.md",
