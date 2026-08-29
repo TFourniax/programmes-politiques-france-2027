@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created_at": "2026-08-17T19:57:19.441897+00:00",
-  "updated_at": "2026-08-29T08:04:25.103489+00:00",
+  "updated_at": "2026-08-29T17:20:20.063360+00:00",
   "files": [
     {
       "path": "corpus/2027/auto/candidates/anasse-kazib/2026-08-28-38891602d9d9.md",
@@ -144,6 +144,11 @@
       "size": 2237
     },
     {
+      "path": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-a88290922101.md",
+      "sha256": "de18cd1aca65a0b9dae180f77f6bbd6e01074fe849af4e36f837889d3660dbe9",
+      "size": 2099
+    },
+    {
       "path": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-ac8572a8096f.md",
       "sha256": "d01cbbaf0cd6ca38fbc480b3e15883873cf37e8765693d8e716e39c108841e32",
       "size": 2000
@@ -249,6 +254,11 @@
       "size": 1856
     },
     {
+      "path": "corpus/2027/auto/candidates/gabriel-attal/2026-08-29-20c668171ad6.md",
+      "sha256": "9f313cfb3d292c7f53eecc38218431cf5c07fe28aa5d040c38bb0c9033f40575",
+      "size": 1856
+    },
+    {
       "path": "corpus/2027/auto/candidates/marine-tondelier/2026-08-27-75d9454c00ef.md",
       "sha256": "27bcec4b5daff789fd20324369c8549d895d07a84b49a5869e2a92993727aef3",
       "size": 1739
@@ -347,6 +357,11 @@
       "path": "corpus/2027/auto/partys/nouvelle-energie/2026-08-29-60ca0cf36405.md",
       "sha256": "3086297783ac1831d2dca5952e3070997f32fb96c262e69187957256ba67a82b",
       "size": 2261
+    },
+    {
+      "path": "corpus/2027/auto/partys/nouvelle-energie/2026-08-29-6ef5a8cd2621.md",
+      "sha256": "d2f29245013d4dfc9f684f87e721cba06ead7cd5af50a1654cc9e11d7f321ffe",
+      "size": 2023
     },
     {
       "path": "corpus/2027/auto/partys/rassemblement-national/2026-08-25-102fb3404440.md",
@@ -545,8 +560,8 @@
     },
     {
       "path": "proposals/auto/economie-finances/auto-gabriel-attal-economie-finances-9f45e1d61977.md",
-      "sha256": "4a40c55fa9d0c68d9e4b0e39d83dc6eae24505a099a9f330c4a6f83ff54ac02a",
-      "size": 1628
+      "sha256": "e3743fa80100feb0d96a55e0e5e057f88650237cb6921f45c7cd4f477f487093",
+      "size": 1674
     },
     {
       "path": "proposals/auto/economie-finances/auto-les-ecologistes-economie-finances-08d45ffdfcbf.md",
@@ -664,14 +679,19 @@
       "size": 1327
     },
     {
+      "path": "proposals/auto/fiscalite-redistribution/auto-nouvelle-energie-fiscalite-redistribution-5d7a97525570.md",
+      "sha256": "382a72e9e2cac70e570128fd07774d8b10e53105e53bfbd867f9de330530efdc",
+      "size": 1249
+    },
+    {
       "path": "proposals/auto/fiscalite-redistribution/auto-rassemblement-national-fiscalite-redistribution-5f0cd387b24e.md",
       "sha256": "d1cda2e0114212a820be18f63284382c6e67161a13ba67a6a6c9adcda460f341",
       "size": 1280
     },
     {
       "path": "proposals/auto/immigration-integration/auto-bruno-retailleau-immigration-integration-39955feaadc3.md",
-      "sha256": "cda13715c5c1e8d438cbcdc26fbbe432d8a998443cbef677d705611ac5caccc7",
-      "size": 5912
+      "sha256": "3ba2fdc2a8e63d0002b49b5011ae27f93a5bb8a2391c4f1971d2dea58be3495b",
+      "size": 6027
     },
     {
       "path": "proposals/auto/immigration-integration/auto-les-ecologistes-immigration-integration-ddbed1d619f4.md",
@@ -690,8 +710,8 @@
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-bruno-retailleau-institutions-democratie-916dbcbd3347.md",
-      "sha256": "08059afc0601c119d6d4b837717b628ece54eaefb0659c3a3ab3740a7f02be57",
-      "size": 3182
+      "sha256": "85942835adac33c670180f28ce13ba781ed6427a0f66d33defcd158d291db6ca",
+      "size": 3297
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-bruno-retailleau-institutions-democratie-f5a91461b7da.md",
@@ -705,8 +725,8 @@
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-david-lisnard-institutions-democratie-8a7a7019b8f9.md",
-      "sha256": "40a492d5b0f142862908133d23f4e965ca6034cca89823a2e2c6c93d68495a5c",
-      "size": 2067
+      "sha256": "ae91a066c45cbb7eef0a8d7d271507bbfe71a77b8173b8a60ba5d17421ac3f22",
+      "size": 2184
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-david-lisnard-institutions-democratie-8dc9338c9297.md",
@@ -800,8 +820,8 @@
     },
     {
       "path": "proposals/auto/pouvoir-achat-travail/auto-gabriel-attal-pouvoir-achat-travail-7a91e45ad6d8.md",
-      "sha256": "516fcda97b227ec0b85eaf5b802108574301ee6af7c1f8f0eef01f380cd4192f",
-      "size": 1606
+      "sha256": "d08eb22a85d5d69921efe5b79654890df2d4c61a59b6c9737bc0e1992dbce48a",
+      "size": 1652
     },
     {
       "path": "proposals/auto/pouvoir-achat-travail/auto-les-ecologistes-pouvoir-achat-travail-04b16919c921.md",
@@ -880,13 +900,13 @@
     },
     {
       "path": "proposals/auto/securite-justice/auto-bruno-retailleau-securite-justice-7b2b02ba25a3.md",
-      "sha256": "f4fea50dcc0e8b88bed6126d17a067962e2b72c21780475acfa7d6f201248562",
-      "size": 2920
+      "sha256": "6ef8c72ee4d694d956e027aad67470d5d7376ef771dbf1a85d4cbbb456b4fa2d",
+      "size": 3033
     },
     {
       "path": "proposals/auto/securite-justice/auto-gabriel-attal-securite-justice-43664388aa97.md",
-      "sha256": "8e773f1349e5da394d807ae867527a4ea06f35a4c9c2fd815520f68cfa506d0c",
-      "size": 1503
+      "sha256": "662c0966bc3975d63a1e68825febd37fcb28e07d22dc1277fdb53c92f6487725",
+      "size": 1549
     },
     {
       "path": "proposals/auto/securite-justice/auto-les-ecologistes-securite-justice-0d29bfb3d832.md",
@@ -945,8 +965,8 @@
     },
     {
       "path": "proposals/auto/services-publics/auto-gabriel-attal-services-publics-0b16aea25279.md",
-      "sha256": "252fc41aa7068f2b54a19f07e49471cfb4d5c8f98db83506ebace74996a2304f",
-      "size": 1523
+      "sha256": "6fcde92a5df3921a41e421a3f1b34d337b7d46ca9905c13fe7349b51a70f5c0c",
+      "size": 1569
     },
     {
       "path": "proposals/auto/services-publics/auto-les-ecologistes-services-publics-06776c72e505.md",
@@ -1110,8 +1130,8 @@
     },
     {
       "path": "proposals/retraites/david-lisnard-capitalisation.md",
-      "sha256": "1449779744bcd26a90e12c3943a44e455c8418bb460d1b3d79a403e53e9e8b9c",
-      "size": 978
+      "sha256": "2a4b5d355c9c47c4c0851effe97bfddf881e725a0fda176b43a362208f037216",
+      "size": 1095
     },
     {
       "path": "proposals/services-publics/les-ecologistes-2000-centres-sante.md",

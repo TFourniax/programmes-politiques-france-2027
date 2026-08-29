@@ -4,11 +4,13 @@ entity_id: david-lisnard
 topic: retraites
 certainty: explicit_but_underspecified
 source_url: https://www.unenouvelleenergie.fr/notre-programme/
-source_document_ids: [doc-david-lisnard-2026-programme-nouvelle-energie, auto-nouvelle-energie-2026-08-20-e4f6188e4af1, auto-nouvelle-energie-2026-08-27-d3b3aa749e94]
+source_document_ids: [doc-david-lisnard-2026-programme-nouvelle-energie, auto-nouvelle-energie-2026-08-20-e4f6188e4af1, auto-nouvelle-energie-2026-08-27-d3b3aa749e94,
+  auto-nouvelle-energie-2026-08-29-6ef5a8cd2621]
 source_urls: ['https://www.unenouvelleenergie.fr/notre-programme/']
-evidence_sha256s: [fb118f3c3a021366912422ca95ba9e31ee87e367291a2675576eecc165564281, 878f5bb24e37e5b9507ebacc7cec417e73a1dc1222cd17a1476e2650dbfa99e9]
-confirmation_count: 3
-last_confirmed_at: '2026-08-27'
+evidence_sha256s: [fb118f3c3a021366912422ca95ba9e31ee87e367291a2675576eecc165564281, 878f5bb24e37e5b9507ebacc7cec417e73a1dc1222cd17a1476e2650dbfa99e9,
+  ca7e93bd914de8379df970b673dc7bc09e3ae9b1dc2cf707e28d24b5ecfdd47d]
+confirmation_count: 4
+last_confirmed_at: '2026-08-29'
 verification_state: verified
 ---
 

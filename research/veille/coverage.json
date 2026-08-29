@@ -6,18 +6,18 @@
     "actors": 68,
     "declared_or_active_candidates": 27,
     "topics": 12,
-    "current_proposals": 1260,
-    "covered_actor_topic_cells": 127,
+    "current_proposals": 1261,
+    "covered_actor_topic_cells": 128,
     "total_actor_topic_cells": 816,
-    "actor_topic_coverage_ratio": 0.1556,
+    "actor_topic_coverage_ratio": 0.1569,
     "active_candidate_covered_cells": 52,
     "active_candidate_total_cells": 324,
     "active_candidate_topic_coverage_ratio": 0.1605,
-    "verified_proposals": 1221,
+    "verified_proposals": 1222,
     "multi_source_proposals": 37,
     "latest_evidence_at": "2026-08-29",
     "certainty_counts": {
-      "explicit": 1236,
+      "explicit": 1237,
       "explicit_but_conditional": 3,
       "explicit_but_underspecified": 21
     }
@@ -381,7 +381,7 @@
       ],
       "coverage_ratio": 1.0,
       "gaps": [],
-      "latest_evidence_at": "2026-08-27",
+      "latest_evidence_at": "2026-08-29",
       "verified_proposals": 33,
       "multi_source_proposals": 4
     },
@@ -680,7 +680,7 @@
         "institutions-democratie",
         "numerique-ia"
       ],
-      "latest_evidence_at": "2026-08-28",
+      "latest_evidence_at": "2026-08-29",
       "verified_proposals": 5,
       "multi_source_proposals": 5
     },
@@ -1320,18 +1320,18 @@
       "type": "party",
       "status": null,
       "confidence": null,
-      "current_proposals": 12,
+      "current_proposals": 13,
       "covered_topics": [
         "economie-finances",
+        "fiscalite-redistribution",
         "immigration-integration",
         "institutions-democratie",
         "retraites",
         "services-publics"
       ],
-      "coverage_ratio": 0.4167,
+      "coverage_ratio": 0.5,
       "gaps": [
         "pouvoir-achat-travail",
-        "fiscalite-redistribution",
         "europe-souverainete",
         "defense-international",
         "ecologie-energie",
@@ -1339,7 +1339,7 @@
         "numerique-ia"
       ],
       "latest_evidence_at": "2026-08-29",
-      "verified_proposals": 12,
+      "verified_proposals": 13,
       "multi_source_proposals": 7
     },
     {
@@ -1954,7 +1954,7 @@
       "current_proposals": 64,
       "actors_covered": 16,
       "actor_coverage_ratio": 0.2353,
-      "latest_evidence_at": "2026-08-28",
+      "latest_evidence_at": "2026-08-29",
       "verified_proposals": 56,
       "multi_source_proposals": 4
     },
@@ -1971,11 +1971,11 @@
     {
       "id": "fiscalite-redistribution",
       "label": "Fiscalité & redistribution",
-      "current_proposals": 73,
-      "actors_covered": 10,
-      "actor_coverage_ratio": 0.1471,
-      "latest_evidence_at": "2026-08-26",
-      "verified_proposals": 71,
+      "current_proposals": 74,
+      "actors_covered": 11,
+      "actor_coverage_ratio": 0.1618,
+      "latest_evidence_at": "2026-08-29",
+      "verified_proposals": 72,
       "multi_source_proposals": 2
     },
     {
@@ -2044,7 +2044,7 @@
       "current_proposals": 132,
       "actors_covered": 11,
       "actor_coverage_ratio": 0.1618,
-      "latest_evidence_at": "2026-08-28",
+      "latest_evidence_at": "2026-08-29",
       "verified_proposals": 129,
       "multi_source_proposals": 3
     },
@@ -2784,7 +2784,7 @@
       "status": "declared_presidential",
       "coverage_ratio": 1.0,
       "current_proposals": 38,
-      "latest_evidence_at": "2026-08-27",
+      "latest_evidence_at": "2026-08-29",
       "topics": [
         {
           "id": "pouvoir-achat-travail",
@@ -2800,7 +2800,7 @@
           "label": "Retraites",
           "covered": true,
           "current_proposals": 1,
-          "latest_evidence_at": "2026-08-27",
+          "latest_evidence_at": "2026-08-29",
           "verified_proposals": 1,
           "multi_source_proposals": 1
         },
@@ -2854,7 +2854,7 @@
           "label": "Institutions & démocratie",
           "covered": true,
           "current_proposals": 3,
-          "latest_evidence_at": "2026-08-27",
+          "latest_evidence_at": "2026-08-29",
           "verified_proposals": 2,
           "multi_source_proposals": 2
         },
@@ -3374,14 +3374,14 @@
       "status": "declared_presidential",
       "coverage_ratio": 0.3333,
       "current_proposals": 5,
-      "latest_evidence_at": "2026-08-28",
+      "latest_evidence_at": "2026-08-29",
       "topics": [
         {
           "id": "pouvoir-achat-travail",
           "label": "Pouvoir d’achat & travail",
           "covered": true,
           "current_proposals": 1,
-          "latest_evidence_at": "2026-08-28",
+          "latest_evidence_at": "2026-08-29",
           "verified_proposals": 1,
           "multi_source_proposals": 1
         },
@@ -3453,7 +3453,7 @@
           "label": "Services publics",
           "covered": true,
           "current_proposals": 1,
-          "latest_evidence_at": "2026-08-28",
+          "latest_evidence_at": "2026-08-29",
           "verified_proposals": 1,
           "multi_source_proposals": 1
         },
@@ -3462,7 +3462,7 @@
           "label": "Sécurité & justice",
           "covered": true,
           "current_proposals": 1,
-          "latest_evidence_at": "2026-08-28",
+          "latest_evidence_at": "2026-08-29",
           "verified_proposals": 1,
           "multi_source_proposals": 1
         },
@@ -3471,7 +3471,7 @@
           "label": "Économie & finances publiques",
           "covered": true,
           "current_proposals": 2,
-          "latest_evidence_at": "2026-08-28",
+          "latest_evidence_at": "2026-08-29",
           "verified_proposals": 2,
           "multi_source_proposals": 2
         },
@@ -5719,7 +5719,7 @@
       "status": "declared_presidential",
       "coverage_ratio": 0.3333,
       "current_proposals": 5,
-      "latest_evidence_at": "2026-08-28",
+      "latest_evidence_at": "2026-08-29",
       "gaps": [
         "retraites",
         "fiscalite-redistribution",
