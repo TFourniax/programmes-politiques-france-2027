@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created_at": "2026-08-17T19:57:19.441897+00:00",
-  "updated_at": "2026-08-30T17:44:01.685627+00:00",
+  "updated_at": "2026-08-30T22:03:27.436781+00:00",
   "files": [
     {
       "path": "corpus/2027/auto/candidates/anasse-kazib/2026-08-28-38891602d9d9.md",
@@ -12,6 +12,11 @@
       "path": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-02b6fd496b7b.md",
       "sha256": "b707b3307d956fb81109649d69b2022a7030476b6f3de80800fad33b7b532007",
       "size": 2089
+    },
+    {
+      "path": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-0ac4e9f06427.md",
+      "sha256": "b1e14a1ae0eae99503184afeafdb384f773bda3a4eb0c01dd3648c741cc82deb",
+      "size": 2106
     },
     {
       "path": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-0d2365d33b5f.md",
@@ -655,8 +660,8 @@
     },
     {
       "path": "proposals/auto/europe-souverainete/auto-bruno-retailleau-europe-souverainete-ed8d0d14bccb.md",
-      "sha256": "82dd44382527adb724350578c47d3093ec952d2d0d3f1a58a4aa44d2f93ab7ea",
-      "size": 3741
+      "sha256": "b5964aa1259802c52ae5a653d70eb732b449b6f06fcbf0dda7565025a7942bb2",
+      "size": 3856
     },
     {
       "path": "proposals/auto/europe-souverainete/auto-les-ecologistes-europe-souverainete-06952d144d39.md",
@@ -730,8 +735,8 @@
     },
     {
       "path": "proposals/auto/immigration-integration/auto-bruno-retailleau-immigration-integration-39955feaadc3.md",
-      "sha256": "2adcd19610b9ea8678e62ce89920cb8fcdc74bf0ca6896fb7d83523ab0066802",
-      "size": 6485
+      "sha256": "93cacc2a2e51c545799a59668f9067651e749fae804eef92ef99437dd14af00b",
+      "size": 6600
     },
     {
       "path": "proposals/auto/immigration-integration/auto-les-ecologistes-immigration-integration-ddbed1d619f4.md",
@@ -935,8 +940,8 @@
     },
     {
       "path": "proposals/auto/securite-justice/auto-bruno-retailleau-securite-justice-703dc438f470.md",
-      "sha256": "4409ba58c540cca37545fda90d7dcb2972fd2644174658ef1e4adc60d3b75656",
-      "size": 4893
+      "sha256": "c56bc7e5e9a4c8da506c1076c3e70169f9339ad93508897b1f50d7054a6a88f2",
+      "size": 5010
     },
     {
       "path": "proposals/auto/securite-justice/auto-bruno-retailleau-securite-justice-7b2b02ba25a3.md",
