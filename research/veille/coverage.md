@@ -39,11 +39,11 @@ Ce rapport est dérivé automatiquement du corpus courant. Il sert à piloter la
 - **Immigration & intégration** (`immigration-integration`) — 10 acteur(s), 61 proposition(s), dernière preuve 2026-08-24.
 - **Fiscalité & redistribution** (`fiscalite-redistribution`) — 11 acteur(s), 74 proposition(s), dernière preuve 2026-08-29.
 - **Retraites** (`retraites`) — 11 acteur(s), 19 proposition(s), dernière preuve 2026-08-29.
-- **Sécurité & justice** (`securite-justice`) — 11 acteur(s), 132 proposition(s), dernière preuve 2026-08-29.
-- **Services publics** (`services-publics`) — 11 acteur(s), 226 proposition(s), dernière preuve 2026-08-29.
-- **Économie & finances publiques** (`economie-finances`) — 12 acteur(s), 116 proposition(s), dernière preuve 2026-08-29.
+- **Sécurité & justice** (`securite-justice`) — 11 acteur(s), 132 proposition(s), dernière preuve 2026-08-30.
+- **Services publics** (`services-publics`) — 11 acteur(s), 226 proposition(s), dernière preuve 2026-08-30.
+- **Économie & finances publiques** (`economie-finances`) — 12 acteur(s), 116 proposition(s), dernière preuve 2026-08-30.
 - **Écologie & énergie** (`ecologie-energie`) — 13 acteur(s), 190 proposition(s), dernière preuve 2026-08-19.
 - **Institutions & démocratie** (`institutions-democratie`) — 13 acteur(s), 258 proposition(s), dernière preuve 2026-08-29.
-- **Pouvoir d’achat & travail** (`pouvoir-achat-travail`) — 16 acteur(s), 64 proposition(s), dernière preuve 2026-08-29.
+- **Pouvoir d’achat & travail** (`pouvoir-achat-travail`) — 16 acteur(s), 64 proposition(s), dernière preuve 2026-08-30.
 
 > Ce rapport est un indicateur de couverture structurée, de fraîcheur et de profondeur de preuve, pas un score de qualité politique ni d'exhaustivité absolue.

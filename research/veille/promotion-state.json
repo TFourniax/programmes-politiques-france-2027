@@ -1498,7 +1498,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-08-29T21:56:16+00:00",
+  "last_run_at": "2026-08-30T06:54:42+00:00",
   "source_chunks": {
     "020221717496955b329ee982": {
       "canonical_confirmations": [],
@@ -3039,7 +3039,7 @@
           }
         }
       ],
-      "completed_at": "2026-08-29T21:56:04+00:00",
+      "completed_at": "2026-08-30T06:54:36+00:00",
       "created_at": "2026-08-23T07:58:35+00:00",
       "document_types": [
         "campaign_website_page"
@@ -3054,7 +3054,7 @@
       "statuses": [],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-08-29T21:56:04+00:00",
+      "updated_at": "2026-08-30T06:54:28+00:00",
       "url": "https://attalpresident.fr/programme"
     },
     "2275fa1fb15593131b386431": {
@@ -16118,6 +16118,102 @@
       "updated_at": "2026-08-14T14:36:53+00:00",
       "url": "https://bsky.app/profile/marinetondelier.fr/post/3mszwoez24s2d"
     },
+    "c7c8938c5ac2e171aea656f8": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "réduire drastiquement l’immigration",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau propose de soumettre par référendum des textes pour réduire drastiquement l'immigration.",
+            "topic": "immigration-integration"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Présent dans la source et déjà présent dans le canonique comme proposition identique.",
+            "related_proposal_id": "auto-bruno-retailleau-immigration-integration-39955feaadc3",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "révolution de notre justice pénale",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau propose d'engager une révolution de la justice pénale par référendum.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "Explicitement soutenu par la source et déjà enregistré dans les propositions canoniques.",
+            "related_proposal_id": "auto-bruno-retailleau-securite-justice-703dc438f470",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "redonner la primauté à notre droit national",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau propose de redonner la primauté au droit national par référendum.",
+            "topic": "europe-souverainete"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "Explicitement soutenu par la source et présent dans le canonique.",
+            "related_proposal_id": "auto-bruno-retailleau-europe-souverainete-ed8d0d14bccb",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "on ne peut pas vivre mieux en travaillant moins",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau affirme qu'on ne peut pas vivre mieux en travaillant moins.",
+            "topic": "pouvoir-achat-travail"
+          },
+          "verdict": {
+            "index": 3,
+            "reason": "Explicitement soutenu par la source et déjà présent dans le canonique.",
+            "related_proposal_id": "auto-bruno-retailleau-pouvoir-achat-travail-122f072f74ad",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-08-30T06:54:25+00:00",
+      "created_at": "2026-08-30T06:54:11+00:00",
+      "document_types": [
+        "candidacy_declaration"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-02-12"
+      ],
+      "sha256": "801280e620ca2a67161569d88f94c0c3fe0ae4395a6768b86543a16c93123fe9",
+      "source_title": "Je suis candidat à l'élection présidentielle. - Les Républicains",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-30T06:54:17+00:00",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
     "c97f58a2bd160a54b3416923": {
       "canonical_confirmations": [],
       "claims": [],
@@ -19743,7 +19839,7 @@
           }
         }
       ],
-      "completed_at": "2026-08-29T21:56:16+00:00",
+      "completed_at": "2026-08-30T06:54:41+00:00",
       "created_at": "2026-08-23T13:56:27+00:00",
       "document_types": [
         "campaign_website_page"
@@ -19758,7 +19854,7 @@
       "statuses": [],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-08-29T21:56:13+00:00",
+      "updated_at": "2026-08-30T06:54:38+00:00",
       "url": "https://attalpresident.fr/programme/dette-de-letat"
     },
     "ff01a7667fd959d729c67404": {
@@ -20780,6 +20876,15 @@
       "status": "promoted",
       "url": "https://melenchon2027.fr/programme2025/livre/chapitre8/"
     },
+    "87b3545cfb91": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-08-30T06:54:41+00:00",
+      "reason": null,
+      "source_sha256": "ed477781633623166c7a9a45247cdc01b13b4fadbc7641b71469d027b63713d3",
+      "status": "promoted",
+      "url": "https://attalpresident.fr/programme/dette-de-letat"
+    },
     "88d74021b497": {
       "chunks_done": null,
       "chunks_total": null,
@@ -20924,6 +21029,15 @@
       "status": "promoted",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
+    "9e89efe68b4b": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-08-30T06:54:36+00:00",
+      "reason": null,
+      "source_sha256": "0d8a65a8dc74d4f3b80db285ed2a18b91b378305bd81ab393f4f26637b9e888d",
+      "status": "promoted",
+      "url": "https://attalpresident.fr/programme"
+    },
     "a180dc38cc57": {
       "chunks_done": null,
       "chunks_total": 1,
@@ -21056,6 +21170,15 @@
       "source_sha256": "a98deebae6b48095d1430f0d022c7bc9043a6814583c0b58671493549d74be37",
       "status": "promoted",
       "url": "https://solutiondemocratique.fr/jean-luc-melenchon-programme-presidentielle2027/"
+    },
+    "af706114bc91": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-30T06:54:25+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "801280e620ca2a67161569d88f94c0c3fe0ae4395a6768b86543a16c93123fe9",
+      "status": "promoted",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
     "b10e29b9f268": {
       "chunks_done": null,
