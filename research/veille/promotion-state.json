@@ -1498,8 +1498,28 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-08-30T06:54:42+00:00",
+  "last_run_at": "2026-08-30T13:07:05+00:00",
   "source_chunks": {
+    "009ea6ddfcaa5e8d4f6a7064": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-08-30T13:07:05+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "aab8b4aa80320510746356fb9c8f10762f2a48ece6ad5e57c2af7c4528009254",
+      "source_title": "Ça bosse chez Équinoxe !",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-30T13:07:06+00:00",
+      "url": "https://www.youtube.com/shorts/BwT5Q0kidGk"
+    },
     "020221717496955b329ee982": {
       "canonical_confirmations": [],
       "claims": [],
@@ -3039,7 +3059,7 @@
           }
         }
       ],
-      "completed_at": "2026-08-30T06:54:36+00:00",
+      "completed_at": "2026-08-30T13:06:52+00:00",
       "created_at": "2026-08-23T07:58:35+00:00",
       "document_types": [
         "campaign_website_page"
@@ -3054,7 +3074,7 @@
       "statuses": [],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-08-30T06:54:28+00:00",
+      "updated_at": "2026-08-30T13:06:52+00:00",
       "url": "https://attalpresident.fr/programme"
     },
     "2275fa1fb15593131b386431": {
@@ -15241,6 +15261,94 @@
       "updated_at": "2026-08-15T07:55:30+00:00",
       "url": "https://solutiondemocratique.fr/clementine-autain-programme-presidentielle2027/"
     },
+    "b785be0b746d82b56d1828f4": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "réduire drastiquement l’immigration",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau propose de réduire drastiquement l'immigration par référendum.",
+            "topic": "immigration-integration"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Le claim est explicitement présent dans le texte source et correspond exactement à une entrée canonique existante.",
+            "related_proposal_id": "auto-bruno-retailleau-immigration-integration-39955feaadc3",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "engager une véritable révolution de notre justice pénale",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau propose d'engager une révolution de la justice pénale par référendum.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "Le claim est explicitement soutenu par la source et présent dans le canon.",
+            "related_proposal_id": "auto-bruno-retailleau-securite-justice-7b2b02ba25a3",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "je vous soumettrai directement par référendum plusieurs grands textes de loi",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau propose de soumettre plusieurs grands textes de loi directement par référendum.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "Présent explicitement dans la source et déjà enregistré dans le canon.",
+            "related_proposal_id": "auto-bruno-retailleau-institutions-democratie-f5a91461b7da",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-08-30T13:06:50+00:00",
+      "created_at": "2026-08-30T13:06:39+00:00",
+      "document_types": [
+        "candidacy_declaration"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-02-12"
+      ],
+      "sha256": "8cf48bc3570dc639e1f00f3c999a84e018e8123db96032c4cdbb144aa3dabf65",
+      "source_title": "Je suis candidat à l'élection présidentielle. - Les Républicains",
+      "statuses": [
+        {
+          "status": {
+            "candidate_id": "bruno-retailleau",
+            "effective_date": "2026-02-12",
+            "evidence_quote": "Je suis candidat à l’élection présidentielle.",
+            "explicit": true,
+            "new_status": "declared_presidential"
+          }
+        }
+      ],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-30T13:06:44+00:00",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
     "b975c441bf2954993b0d4969": {
       "canonical_confirmations": [],
       "claims": [],
@@ -19839,7 +19947,7 @@
           }
         }
       ],
-      "completed_at": "2026-08-30T06:54:41+00:00",
+      "completed_at": "2026-08-30T13:07:01+00:00",
       "created_at": "2026-08-23T13:56:27+00:00",
       "document_types": [
         "campaign_website_page"
@@ -19854,7 +19962,7 @@
       "statuses": [],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-08-30T06:54:38+00:00",
+      "updated_at": "2026-08-30T13:07:01+00:00",
       "url": "https://attalpresident.fr/programme/dette-de-letat"
     },
     "ff01a7667fd959d729c67404": {
@@ -19946,6 +20054,15 @@
       "status": "promoted",
       "url": "https://solutiondemocratique.fr/nathalie-arthaud-presidentielle-2027-programme/"
     },
+    "00c9f5b2a802": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-08-30T13:07:04+00:00",
+      "reason": null,
+      "source_sha256": "ed477781633623166c7a9a45247cdc01b13b4fadbc7641b71469d027b63713d3",
+      "status": "promoted",
+      "url": "https://attalpresident.fr/programme/dette-de-letat"
+    },
     "01abf3fcbff3": {
       "chunks_done": null,
       "chunks_total": null,
@@ -19990,6 +20107,15 @@
       "source_sha256": "6cf626dcaa244a897232ec85d82639b15d9a45d97bb948eed439a0beab737927",
       "status": "promoted",
       "url": "https://solutiondemocratique.fr/clementine-autain-programme-presidentielle2027/"
+    },
+    "074ecce73887": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-08-30T13:06:59+00:00",
+      "reason": null,
+      "source_sha256": "0d8a65a8dc74d4f3b80db285ed2a18b91b378305bd81ab393f4f26637b9e888d",
+      "status": "promoted",
+      "url": "https://attalpresident.fr/programme"
     },
     "0b6653256f9b": {
       "chunks_done": null,
@@ -20589,6 +20715,15 @@
       "source_sha256": "b589e48ead6fd8e6f5166b52e0bcd92ea031cae723d4a69e288f2eb16e5afb21",
       "status": "promoted",
       "url": "https://npa-revolutionnaires.org/communique-presidentielle-2027-selma-labib-une-candidature-ouvriere-et-revolutionnaire-soutenue-par-gael-quirante/"
+    },
+    "598e41f5d938": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-30T13:06:50+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "8cf48bc3570dc639e1f00f3c999a84e018e8123db96032c4cdbb144aa3dabf65",
+      "status": "promoted",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
     "5ab310dabeea": {
       "chunks_done": null,
