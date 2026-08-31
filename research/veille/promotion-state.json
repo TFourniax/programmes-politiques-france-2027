@@ -1498,7 +1498,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-08-31T07:13:51+00:00",
+  "last_run_at": "2026-08-31T15:20:39+00:00",
   "source_chunks": {
     "009ea6ddfcaa5e8d4f6a7064": {
       "canonical_confirmations": [],
@@ -3147,7 +3147,7 @@
           }
         }
       ],
-      "completed_at": "2026-08-31T07:13:47+00:00",
+      "completed_at": "2026-08-31T15:20:31+00:00",
       "created_at": "2026-08-23T07:58:35+00:00",
       "document_types": [
         "campaign_website_page"
@@ -3162,7 +3162,7 @@
       "statuses": [],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-08-31T07:13:41+00:00",
+      "updated_at": "2026-08-31T15:20:31+00:00",
       "url": "https://attalpresident.fr/programme"
     },
     "2275fa1fb15593131b386431": {
@@ -6045,6 +6045,120 @@
       "total": 1,
       "updated_at": "2026-08-19T02:45:42+00:00",
       "url": "https://anasse2027.fr/"
+    },
+    "4b438222176cb0cc90a8be14": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "l’immigration n’est pas une chance",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau affirme que l'immigration n'est pas une chance.",
+            "topic": "immigration-integration"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Présent dans le canonique comme proposition identique.",
+            "related_proposal_id": "auto-bruno-retailleau-immigration-integration-39955feaadc3",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "on ne peut pas vivre mieux en travaillant moins",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau affirme qu'on ne peut pas vivre mieux en travaillant moins.",
+            "topic": "pouvoir-achat-travail"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "Présent dans le canonique.",
+            "related_proposal_id": "auto-bruno-retailleau-pouvoir-achat-travail-122f072f74ad",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "pour réduire drastiquement l’immigration",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau propose de soumettre par référendum des textes pour réduire drastiquement l'immigration.",
+            "topic": "immigration-integration"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "Présent dans le canonique.",
+            "related_proposal_id": "auto-bruno-retailleau-immigration-integration-39955feaadc3",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "engager une véritable révolution de notre justice pénale",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau propose de soumettre par référendum une révolution de la justice pénale.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 3,
+            "reason": "Présent dans le canonique.",
+            "related_proposal_id": "auto-bruno-retailleau-securite-justice-703dc438f470",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "redonner la primauté à notre droit national",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau propose de soumettre par référendum des textes pour redonner la primauté au droit national.",
+            "topic": "europe-souverainete"
+          },
+          "verdict": {
+            "index": 4,
+            "reason": "Présent dans le canonique.",
+            "related_proposal_id": "auto-bruno-retailleau-europe-souverainete-ed8d0d14bccb",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-08-31T15:20:29+00:00",
+      "created_at": "2026-08-31T15:20:15+00:00",
+      "document_types": [
+        "candidacy_declaration"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-02-12"
+      ],
+      "sha256": "9f1aedea543f9fcb8603979afa155a21305b4df4a6b677a5227e7e6d74955c6e",
+      "source_title": "Je suis candidat à l'élection présidentielle. - Les Républicains",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-31T15:20:22+00:00",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
     "4bdad5eea2db503237859a88": {
       "canonical_confirmations": [
@@ -15350,6 +15464,48 @@
       "updated_at": "2026-08-25T08:09:06+00:00",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
+    "adcc906c08e86056f5cb8397": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "solution-democratique",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Solution Démocratique souhaite instaurer en France la démocratie directe et la décentralisation par le bas.",
+            "relevance": "direct",
+            "statement": "Solution Démocratique souhaite instaurer en France la démocratie directe et la décentralisation par le bas.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La proposition est explicitement soutenue par la source et existe déjà dans le canonique.",
+            "related_proposal_id": "auto-solution-democratique-institutions-democratie-4ea1c22d52ea",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-08-31T15:20:13+00:00",
+      "created_at": "2026-08-31T15:20:06+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-08-19"
+      ],
+      "sha256": "b715bed5d020ec4ca700a21e55db8acae28293b85be633f8e89682cafad4a09b",
+      "source_title": "Francis Lalanne 2027 : démocratie directe, programme présidentiel",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-31T15:20:10+00:00",
+      "url": "https://solutiondemocratique.fr/francis-lalanne-2027-programme/"
+    },
     "af3984a6ce57f0e5c89b834e": {
       "claims": [
         {
@@ -21069,6 +21225,15 @@
       "status": "promoted",
       "url": "https://attalpresident.fr/programme/dette-de-letat"
     },
+    "471cea79d730": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-31T15:20:29+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "9f1aedea543f9fcb8603979afa155a21305b4df4a6b677a5227e7e6d74955c6e",
+      "status": "promoted",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
     "47f0f12206f4": {
       "chunks_done": null,
       "chunks_total": null,
@@ -22127,6 +22292,15 @@
       "status": "promoted",
       "url": "https://www.unenouvelleenergie.fr/notre-programme/"
     },
+    "d3cf58f713b0": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-31T15:20:13+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "b715bed5d020ec4ca700a21e55db8acae28293b85be633f8e89682cafad4a09b",
+      "status": "promoted",
+      "url": "https://solutiondemocratique.fr/francis-lalanne-2027-programme/"
+    },
     "d5d359c8e31c": {
       "chunks_done": null,
       "chunks_total": null,
@@ -22393,6 +22567,15 @@
       "source_sha256": "f59d0ebb3d1012043693afacc4edacc46f031d6229fd0f26e819656d6c39b4f0",
       "status": "not_confirmed",
       "url": "https://parti-equinoxe.fr/legislatives-2022-programme-cohesion/"
+    },
+    "f7961afe0215": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-08-31T15:20:38+00:00",
+      "reason": null,
+      "source_sha256": "0d8a65a8dc74d4f3b80db285ed2a18b91b378305bd81ab393f4f26637b9e888d",
+      "status": "promoted",
+      "url": "https://attalpresident.fr/programme"
     },
     "f898e026e58d": {
       "chunks_done": null,
