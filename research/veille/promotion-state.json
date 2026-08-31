@@ -1498,7 +1498,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-08-31T15:20:39+00:00",
+  "last_run_at": "2026-08-31T23:23:07+00:00",
   "source_chunks": {
     "009ea6ddfcaa5e8d4f6a7064": {
       "canonical_confirmations": [],
@@ -3721,6 +3721,28 @@
       "total": 1,
       "updated_at": "2026-08-20T20:01:59+00:00",
       "url": "https://npa-revolutionnaires.org/communique-presidentielle-2027-selma-labib-une-candidature-ouvriere-et-revolutionnaire-soutenue-par-gael-quirante/"
+    },
+    "2b1c602bd6488b4e15b00761": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-08-31T23:22:43+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [
+        "2026-08-31"
+      ],
+      "sha256": "2e4f4b839a0ef04179235be84c4cbf1b78bf987a1074b2c258be91f38b0f57cc",
+      "source_title": "Où trouver le programme de David Lisnard ? | Nouvelle Énergie",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-31T23:22:44+00:00",
+      "url": "https://www.unenouvelleenergie.fr/questions/ou-trouver-le-programme-de-david-lisnard/"
     },
     "2e978d851626163e1c548e86": {
       "canonical_confirmations": [],
@@ -9940,6 +9962,26 @@
       "updated_at": "2026-08-22T02:38:24+00:00",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
+    "8a97034078d67b4f5c301c87": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-08-31T23:23:07+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "54440da21e8b7253d4915c07a9f8bdfee8f86e0d4f4debf2c74185e856047a09",
+      "source_title": "⛽ 2,20 € le litre de diesel et jusqu’à 60 % de taxes !",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-31T23:23:09+00:00",
+      "url": "https://www.youtube.com/shorts/XY8N8mFt7I8"
+    },
     "8b4a881a8073ff3153d70611": {
       "canonical_confirmations": [
         {
@@ -10771,6 +10813,39 @@
       "total": 1,
       "updated_at": "2026-08-15T02:36:12+00:00",
       "url": "https://solutiondemocratique.fr/francois-asselineau-2027-programme/"
+    },
+    "a0b228db7891604fabadc811": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "completed_at": "2026-08-31T23:22:48+00:00",
+      "created_at": "2026-08-31T23:22:45+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-08-31"
+      ],
+      "sha256": "db608f1af2f6fb41945d351902ed2a2a64d248df78aa0624d5485dca493c6a68",
+      "source_title": "David Lisnard est-il candidat à la présidentielle 2027 ? | Nouvelle Énergie",
+      "statuses": [
+        {
+          "status": {
+            "candidate_id": "david-lisnard",
+            "effective_date": "2026-08-31",
+            "evidence_quote": "David Lisnard est candidat à l’élection présidentielle de 2027",
+            "explicit": true,
+            "new_status": "declared_presidential"
+          }
+        }
+      ],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-31T23:22:48+00:00",
+      "url": "https://www.unenouvelleenergie.fr/questions/david-lisnard-est-il-candidat-a-la-presidentielle-2027/"
     },
     "a0db326b1cb13efe692a5ece": {
       "canonical_confirmations": [
@@ -15871,6 +15946,94 @@
       "updated_at": "2026-08-22T13:53:52+00:00",
       "url": "https://www.unenouvelleenergie.fr/notre-programme/"
     },
+    "bd4770462c6ba4bcbe0c4e61": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "réduire drastiquement l’immigration",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau propose de soumettre par référendum un texte pour réduire drastiquement l'immigration.",
+            "topic": "immigration-integration"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Présent explicitement dans la source et déjà présent dans le canonique.",
+            "related_proposal_id": "auto-bruno-retailleau-immigration-integration-39955feaadc3",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "engager une véritable révolution de notre justice pénale",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau propose d'engager une révolution de la justice pénale par référendum.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "Présent explicitement dans la source et déjà présent dans le canonique.",
+            "related_proposal_id": "auto-bruno-retailleau-securite-justice-703dc438f470",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "redonner la primauté à notre droit national",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau propose de redonner la primauté au droit national par référendum.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "Présent explicitement dans la source et déjà présent dans le canonique.",
+            "related_proposal_id": "auto-bruno-retailleau-institutions-democratie-916dbcbd3347",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-08-31T23:23:06+00:00",
+      "created_at": "2026-08-31T23:22:50+00:00",
+      "document_types": [
+        "candidacy_declaration"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-02-12"
+      ],
+      "sha256": "eb6ba4cbac1baf099308daf249394a44396c0c2fbd366851bbab59c73ffe2d03",
+      "source_title": "Je suis candidat à l'élection présidentielle. - Les Républicains",
+      "statuses": [
+        {
+          "status": {
+            "candidate_id": "bruno-retailleau",
+            "effective_date": "2026-02-12",
+            "evidence_quote": "Je suis candidat à l’élection présidentielle.",
+            "explicit": true,
+            "new_status": "declared_presidential"
+          }
+        }
+      ],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-08-31T23:23:01+00:00",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
     "bfbc9f86911271e2a085b789": {
       "canonical_confirmations": [],
       "claims": [],
@@ -20732,6 +20895,15 @@
       "status": "promoted",
       "url": "https://www.revolutionpermanente.fr/Anasse-Kazib-2027"
     },
+    "0f060de7df66": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-31T23:23:06+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "eb6ba4cbac1baf099308daf249394a44396c0c2fbd366851bbab59c73ffe2d03",
+      "status": "promoted",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
     "0f3507e5d548": {
       "chunks_done": null,
       "chunks_total": null,
@@ -21481,6 +21653,15 @@
       "source_sha256": "cda20c8f7f4d1397e8e6080047e6b9570b1a339da3b30bc9d8ef09faad1fead0",
       "status": "promoted",
       "url": "https://melenchon2027.fr/programme2025/livre/chapitre15/"
+    },
+    "6cbfa6396db3": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-08-31T23:22:44+00:00",
+      "reason": null,
+      "source_sha256": "2e4f4b839a0ef04179235be84c4cbf1b78bf987a1074b2c258be91f38b0f57cc",
+      "status": "not_confirmed",
+      "url": "https://www.unenouvelleenergie.fr/questions/ou-trouver-le-programme-de-david-lisnard/"
     },
     "6fa2b15acfa7": {
       "chunks_done": null,
@@ -22558,6 +22739,15 @@
       "source_sha256": "6470dd47cf97041a0313162e8e5670b63226880514c737c5635577b0942eab2a",
       "status": "promoted",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
+    "f338d43fc637": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-08-31T23:22:48+00:00",
+      "reason": null,
+      "source_sha256": "db608f1af2f6fb41945d351902ed2a2a64d248df78aa0624d5485dca493c6a68",
+      "status": "promoted",
+      "url": "https://www.unenouvelleenergie.fr/questions/david-lisnard-est-il-candidat-a-la-presidentielle-2027/"
     },
     "f3bbbb615f8e": {
       "chunks_done": null,
