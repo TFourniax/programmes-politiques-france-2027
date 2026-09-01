@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created_at": "2026-08-17T19:57:19.441897+00:00",
-  "updated_at": "2026-09-01T17:31:42.688745+00:00",
+  "updated_at": "2026-09-01T22:00:50.028268+00:00",
   "files": [
     {
       "path": "corpus/2027/auto/candidates/anasse-kazib/2026-08-28-38891602d9d9.md",
@@ -32,6 +32,11 @@
       "path": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-2275fa1fb155.md",
       "sha256": "e99f61dc15fd2c2ff7c129c45d78df2d83b42d1eeda1d59bb2523e2ed7194b42",
       "size": 2043
+    },
+    {
+      "path": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-22cc291f4917.md",
+      "sha256": "2b2e7379ed6fe05b3bf71d0ad8c9408b9a7aebdd45252779ea494b3614a134ad",
+      "size": 2107
     },
     {
       "path": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-2a5df851ae6b.md",
@@ -810,8 +815,8 @@
     },
     {
       "path": "proposals/auto/immigration-integration/auto-bruno-retailleau-immigration-integration-39955feaadc3.md",
-      "sha256": "34f292af18b26328accc639d611bb00e996f42b36e3b0834fe9ea35292001090",
-      "size": 7288
+      "sha256": "7f341123ce28c9edd1629a72815b1e2c5ab80082691db97de46ce9e723515d3c",
+      "size": 7403
     },
     {
       "path": "proposals/auto/immigration-integration/auto-les-ecologistes-immigration-integration-ddbed1d619f4.md",
@@ -835,8 +840,8 @@
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-bruno-retailleau-institutions-democratie-f5a91461b7da.md",
-      "sha256": "e2976e9230863dc43c01618be8d4a3ee78da1baa4d8c2d8d93564ae37af94fcf",
-      "size": 2711
+      "sha256": "1bcde0256675d2edf4c8f173ac8495363efc36969a910a450aa51afeaf6c06cc",
+      "size": 2824
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-clara-egger-institutions-democratie-ef5123784bab.md",
@@ -1020,8 +1025,8 @@
     },
     {
       "path": "proposals/auto/securite-justice/auto-bruno-retailleau-securite-justice-7b2b02ba25a3.md",
-      "sha256": "3dd3819aff192416a2dbeac2c53d89a2b10a25523bb387af1563253a111ac2d4",
-      "size": 3263
+      "sha256": "5a9f590a1ddf7f97c30e9edd56ec06ef611d2c609ec5e196a171bc022a14cf7b",
+      "size": 3378
     },
     {
       "path": "proposals/auto/securite-justice/auto-gabriel-attal-securite-justice-43664388aa97.md",
