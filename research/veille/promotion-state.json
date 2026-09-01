@@ -860,6 +860,11 @@
       "source_url": "https://melenchon2027.fr/programme2025/livre/chapitre3/",
       "verified_at": "2026-08-12T21:48:17+00:00"
     },
+    "90d57483a5e8c39a8d97c1bc88878abae7e6df89d78e663f45f7da7cfddc79c1": {
+      "proposal_id": "auto-marine-tondelier-services-publics-90d57483a5e8",
+      "source_url": "https://bsky.app/profile/marinetondelier.fr/post/3muhjqq3dws2x",
+      "verified_at": "2026-09-01T17:31:34+00:00"
+    },
     "9138e6afb0829d87d7023cd44ea45777b7493bc47b161559589d4ab2f7b62ef9": {
       "proposal_id": "auto-les-ecologistes-europe-souverainete-9138e6afb082",
       "source_url": "https://lesecologistes.fr/document/5ZhR2m5t2ZaGKqIdD1bJaD/vdef-programme-1.pdf",
@@ -1390,6 +1395,11 @@
       "source_url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/",
       "verified_at": "2026-08-11T12:47:28+00:00"
     },
+    "eeee81ed97e321bfe44fca8e0a54ce6fd272ce2799f17003c32608e6282eb4b9": {
+      "proposal_id": "auto-marine-tondelier-services-publics-eeee81ed97e3",
+      "source_url": "https://bsky.app/profile/marinetondelier.fr/post/3muhjqq3dws2x",
+      "verified_at": "2026-09-01T17:31:34+00:00"
+    },
     "ef5123784babff934c91908dc0f5889252be01ec82ba5aeb7e58624b34000ac3": {
       "proposal_id": "auto-clara-egger-institutions-democratie-ef5123784bab",
       "source_url": "https://solutiondemocratique.fr/jean-lassalle-programme-presidentielle2027/",
@@ -1498,7 +1508,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-09-01T12:45:17+00:00",
+  "last_run_at": "2026-09-01T17:31:23+00:00",
   "source_chunks": {
     "009ea6ddfcaa5e8d4f6a7064": {
       "canonical_confirmations": [],
@@ -3147,7 +3157,7 @@
           }
         }
       ],
-      "completed_at": "2026-09-01T06:27:00+00:00",
+      "completed_at": "2026-09-01T17:31:16+00:00",
       "created_at": "2026-08-23T07:58:35+00:00",
       "document_types": [
         "campaign_website_page"
@@ -3162,7 +3172,7 @@
       "statuses": [],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-09-01T06:26:56+00:00",
+      "updated_at": "2026-09-01T17:31:16+00:00",
       "url": "https://attalpresident.fr/programme"
     },
     "2275fa1fb15593131b386431": {
@@ -6753,6 +6763,82 @@
       "updated_at": "2026-08-14T15:48:50+00:00",
       "url": "https://solutiondemocratique.fr/manolo-mlekuz-programme-presidentielle-2027/"
     },
+    "5674325bf2cd7218b358704e": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "nouvelle-energie",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "réduction drastique des dépenses publiques, la création d’un choc massif de dérégulation et la décentralisation de l’action publique",
+            "relevance": "party_platform",
+            "statement": "Réduction drastique des dépenses publiques et décentralisation de l'action publique vers l'échelon local.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La proposition est explicitement soutenue dans le texte de la source (« réduction drastique des dépenses publiques ») et existe déjà dans le canonique.",
+            "related_proposal_id": "auto-nouvelle-energie-institutions-democratie-210dcc2680b3",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "nouvelle-energie",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "suppression de la carte scolaire",
+            "relevance": "party_platform",
+            "statement": "Suppression de la carte scolaire pour permettre aux parents de scolariser leurs enfants où ils le veulent.",
+            "topic": "fiscalite-redistribution"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La suppression de la carte scolaire est explicitement mentionnée dans la source (« suppression de la carte scolaire ») et est déjà présente dans le canonique.",
+            "related_proposal_id": "auto-nouvelle-energie-institutions-democratie-09aff9de5202",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "nouvelle-energie",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "liberté pour les travailleurs de se constituer un capital pour leur retraite (capitalisation)",
+            "relevance": "party_platform",
+            "statement": "Liberté pour les travailleurs de se constituer un capital pour leur retraite par capitalisation.",
+            "topic": "retraites"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "La liberté de se constituer un capital pour sa retraite par capitalisation est explicitement présente dans la source et dans le canonique.",
+            "related_proposal_id": "auto-nouvelle-energie-retraites-4b9149336ab7",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-09-01T17:30:03+00:00",
+      "created_at": "2026-09-01T17:29:53+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "16f663f6ae23c053e015f92c72d466055ae838fc755cf6b384b5a4ca9b486100",
+      "source_title": "Le programme de David Lisnard | Nouvelle Énergie",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-01T17:29:58+00:00",
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/"
+    },
     "583e2e524ffc4d17aa8ac01e": {
       "claims": [],
       "created_at": "2026-08-11T12:13:27+00:00",
@@ -8400,6 +8486,66 @@
       "total": 1,
       "updated_at": "2026-08-16T02:44:49+00:00",
       "url": "https://solutiondemocratique.fr/marine-le-pen-programme-2027/"
+    },
+    "745e65d0a80dc4494e7c17a0": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "réduire drastiquement l’immigration",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau propose de soumettre par référendum des textes pour réduire drastiquement l'immigration.",
+            "topic": "immigration-integration"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La proposition de soumettre par référendum des textes pour réduire drastiquement l'immigration est explicitement présente dans la source et correspond exactement au claim canonique existant.",
+            "related_proposal_id": "auto-bruno-retailleau-immigration-integration-39955feaadc3",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "révolution de notre justice pénale",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau propose de soumettre par référendum une révolution de la justice pénale.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La proposition de soumettre par référendum une révolution de la justice pénale est explicitement confirmée par la source et déjà présente dans le canon.",
+            "related_proposal_id": "auto-bruno-retailleau-securite-justice-703dc438f470",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-09-01T17:31:13+00:00",
+      "created_at": "2026-09-01T17:30:05+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-02-12"
+      ],
+      "sha256": "cb27574afd62593e5cdd26ea6c4359fb86562750e692d5e08e283535cd926f62",
+      "source_title": "Je suis candidat à l'élection présidentielle. - Les Républicains",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-01T17:31:09+00:00",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
     "74fb49b9899b0db9f3a2dc33": {
       "canonical_confirmations": [
@@ -10269,6 +10415,101 @@
       "total": 1,
       "updated_at": "2026-08-16T13:56:12+00:00",
       "url": "https://npa-revolutionnaires.org/communique-presidentielle-2027-selma-labib-une-candidature-ouvriere-et-revolutionnaire-soutenue-par-gael-quirante/"
+    },
+    "8cf319be77499fd83c725a6b": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "marine-tondelier",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "enseignant·es et AESH mieux payé·es",
+            "relevance": "direct",
+            "statement": "Marine Tondelier défend des enseignant·es et AESH mieux payé·es.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La source soutient explicitement que Marine Tondelier (via Les Écologistes) défend des enseignant·es et AESH mieux payé·es.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "marine-tondelier",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "des classes avec moins d’élèves et des écoles rénovées",
+            "relevance": "direct",
+            "statement": "Marine Tondelier défend des classes avec moins d'élèves et des écoles rénovées.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La source soutient explicitement la défense de classes avec moins d'élèves et des écoles rénovées par Marine Tondelier et Les Écologistes.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [
+        {
+          "claim": {
+            "actor_id": "marine-tondelier",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "enseignant·es et AESH mieux payé·es",
+            "relevance": "direct",
+            "statement": "Marine Tondelier défend des enseignant·es et AESH mieux payé·es.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La source soutient explicitement que Marine Tondelier (via Les Écologistes) défend des enseignant·es et AESH mieux payé·es.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "marine-tondelier",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "des classes avec moins d’élèves et des écoles rénovées",
+            "relevance": "direct",
+            "statement": "Marine Tondelier défend des classes avec moins d'élèves et des écoles rénovées.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La source soutient explicitement la défense de classes avec moins d'élèves et des écoles rénovées par Marine Tondelier et Les Écologistes.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "completed_at": "2026-09-01T17:31:34+00:00",
+      "created_at": "2026-09-01T17:31:24+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "411df9becdb1bcccb808bcade58f3e6f4d65d2cd933677461eeabfb1c7de0419",
+      "source_title": "Bonne rentrée à tous les enfants et aux parents qui les accompagnent 🎒 Et merci aux personnels de l’éducation nationale qui les accueillent au mieux ! Avec les Écologistes, on dé",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-01T17:31:34+00:00",
+      "url": "https://bsky.app/profile/marinetondelier.fr/post/3muhjqq3dws2x"
     },
     "8d3f42028c5b18915fac9600": {
       "canonical_confirmations": [
@@ -21681,6 +21922,15 @@
       "status": "promoted",
       "url": "https://attalpresident.fr/programme/dette-de-letat"
     },
+    "45f141b066fd": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-01T17:31:13+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "cb27574afd62593e5cdd26ea6c4359fb86562750e692d5e08e283535cd926f62",
+      "status": "promoted",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
     "471cea79d730": {
       "chunks_done": null,
       "chunks_total": null,
@@ -22108,6 +22358,15 @@
       "source_sha256": "dd4c26a28bf8d5f5f0593318eb0847726dfd103715353a3f6fbdcbd657d90e55",
       "status": "promoted",
       "url": "https://www.unenouvelleenergie.fr/notre-programme/"
+    },
+    "809c4bc480fd": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-09-01T17:31:23+00:00",
+      "reason": null,
+      "source_sha256": "0d8a65a8dc74d4f3b80db285ed2a18b91b378305bd81ab393f4f26637b9e888d",
+      "status": "promoted",
+      "url": "https://attalpresident.fr/programme"
     },
     "81d4ddf78983": {
       "chunks_done": null,
@@ -22641,6 +22900,15 @@
       "source_sha256": "6cfc68242b12568c508b460060460a472a4c661fd9e2f30eae0909a770249078",
       "status": "not_confirmed",
       "url": "https://lafranceinsoumise.fr/2026/08/10/amfis-2026-le-programme-est-en-ligne/"
+    },
+    "c67f19288486": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-01T17:30:03+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "16f663f6ae23c053e015f92c72d466055ae838fc755cf6b384b5a4ca9b486100",
+      "status": "promoted",
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/"
     },
     "c783010b972b": {
       "chunks_done": null,

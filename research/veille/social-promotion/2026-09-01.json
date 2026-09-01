@@ -1,16 +1,24 @@
 {
   "errors": [],
-  "generated_at": "2026-09-01T12:45:19+00:00",
+  "generated_at": "2026-09-01T17:31:39+00:00",
   "partial": 0,
   "processed": 1,
-  "promoted": 0,
-  "proposals_created": 0,
+  "promoted": 1,
+  "proposals_created": 2,
   "provenance_updates": 0,
   "results": [
     {
-      "sha256": "71f1d2023ec5985b6457bd57a77697562e89aa8cf83b8f4f30a30ad88b0e3680",
-      "status": "not_confirmed",
-      "url": "https://bsky.app/profile/marinetondelier.fr/post/3mugxlc6mic22"
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/candidates/marine-tondelier/2026-09-01-8cf319be7749.md",
+      "proposals": [
+        "proposals/auto/services-publics/auto-marine-tondelier-services-publics-eeee81ed97e3.md",
+        "proposals/auto/services-publics/auto-marine-tondelier-services-publics-90d57483a5e8.md"
+      ],
+      "sha256": "411df9becdb1bcccb808bcade58f3e6f4d65d2cd933677461eeabfb1c7de0419",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://bsky.app/profile/marinetondelier.fr/post/3muhjqq3dws2x",
+      "verified_at": "2026-09-01T17:31:34+00:00"
     }
   ],
   "status_updates": 0

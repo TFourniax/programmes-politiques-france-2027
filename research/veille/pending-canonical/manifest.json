@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created_at": "2026-08-17T19:57:19.441897+00:00",
-  "updated_at": "2026-09-01T12:45:22.823183+00:00",
+  "updated_at": "2026-09-01T17:31:42.688745+00:00",
   "files": [
     {
       "path": "corpus/2027/auto/candidates/anasse-kazib/2026-08-28-38891602d9d9.md",
@@ -112,6 +112,11 @@
       "path": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-6fc99cb4ab5c.md",
       "sha256": "b5a76fc3ddb3808f9a89d429bf1cb6f451ca1b728090c11a59368d852fb4de5c",
       "size": 1974
+    },
+    {
+      "path": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-745e65d0a80d.md",
+      "sha256": "c7c6d2099885ca31c853030120a16c249e0477c0959cef108b92458b53fba7b5",
+      "size": 1885
     },
     {
       "path": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-79b6132f1c7e.md",
@@ -349,6 +354,11 @@
       "size": 1739
     },
     {
+      "path": "corpus/2027/auto/candidates/marine-tondelier/2026-09-01-8cf319be7749.md",
+      "sha256": "b730d6d37ff8c1cb2b1c83003a18b43d9f556a9540b876609811d6b1fd410179",
+      "size": 1926
+    },
+    {
       "path": "corpus/2027/auto/candidates/selma-labib/2026-06-17-dbd0ca0c9e42.md",
       "sha256": "1e073da4b66644d40456d54bcfdfe07fdad40d2410cee7ac3678fa881209731f",
       "size": 1828
@@ -457,6 +467,11 @@
       "path": "corpus/2027/auto/partys/nouvelle-energie/2026-08-31-a0b228db7891.md",
       "sha256": "b358e477a05b589f8b861529efb18515ec6d2752c0d64707ae76dd3242f180ac",
       "size": 1548
+    },
+    {
+      "path": "corpus/2027/auto/partys/nouvelle-energie/2026-09-01-5674325bf2cd.md",
+      "sha256": "cafb886c36eb04e91318dd2a1abc0bfe43abf177dbe45e5900bcca73ae208e18",
+      "size": 1961
     },
     {
       "path": "corpus/2027/auto/partys/nouvelle-energie/2026-09-01-de021ce42cb5.md",
@@ -795,8 +810,8 @@
     },
     {
       "path": "proposals/auto/immigration-integration/auto-bruno-retailleau-immigration-integration-39955feaadc3.md",
-      "sha256": "543bfca7f3bc1094df3059e3a56bd48e5fb45510a5a2b5714246ea8d147ea746",
-      "size": 7173
+      "sha256": "34f292af18b26328accc639d611bb00e996f42b36e3b0834fe9ea35292001090",
+      "size": 7288
     },
     {
       "path": "proposals/auto/immigration-integration/auto-les-ecologistes-immigration-integration-ddbed1d619f4.md",
@@ -900,8 +915,8 @@
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-nouvelle-energie-institutions-democratie-210dcc2680b3.md",
-      "sha256": "acd28eb8b901ef633b8f64c1ebe4ec3955e23b04487b98ff4b02521d7ead6393",
-      "size": 1247
+      "sha256": "31220c0a9fcc09d3e5a2845837e50670cadbd8bd851fdcf7e370756e9efdc82e",
+      "size": 1567
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-nouvelle-energie-institutions-democratie-8303825218fa.md",
@@ -995,13 +1010,13 @@
     },
     {
       "path": "proposals/auto/retraites/auto-nouvelle-energie-retraites-4b9149336ab7.md",
-      "sha256": "875e01a36cf8ffeb13510a85fb78e201d757821da399d39efc56c6e5c1ba644d",
-      "size": 3198
+      "sha256": "554c42d1f66af4836d7ac3a0852c3f1dd1d7554a66dbeea7245e98b7c8a462cd",
+      "size": 3313
     },
     {
       "path": "proposals/auto/securite-justice/auto-bruno-retailleau-securite-justice-703dc438f470.md",
-      "sha256": "5b4168cdbe6d067a240e325bd8d8081a834cbba404bd30400ad0e1bd9e103dde",
-      "size": 5581
+      "sha256": "ce4ef0c4f88cbe68421b67760697b16c5a31873b21a10afacb7b529c9ffd3296",
+      "size": 5698
     },
     {
       "path": "proposals/auto/securite-justice/auto-bruno-retailleau-securite-justice-7b2b02ba25a3.md",
@@ -1192,6 +1207,16 @@
       "path": "proposals/auto/services-publics/auto-les-ecologistes-services-publics-f7c6164b3803.md",
       "sha256": "ecd56ef659b702dfa774e9ff68fc43da7ae94016c59e899ce5bc420f740c56c1",
       "size": 1388
+    },
+    {
+      "path": "proposals/auto/services-publics/auto-marine-tondelier-services-publics-90d57483a5e8.md",
+      "sha256": "bfde6d2d7ec2ef3efa6c1eef3a85df8e6b89579456bc2fc83cfc0616715cb22f",
+      "size": 1304
+    },
+    {
+      "path": "proposals/auto/services-publics/auto-marine-tondelier-services-publics-eeee81ed97e3.md",
+      "sha256": "c0d1a5e65969af39a3df644fe4492551094f85cefedfa35cd228d562df41d2e9",
+      "size": 1230
     },
     {
       "path": "proposals/auto/services-publics/auto-nouvelle-energie-services-publics-0f99d5897943.md",

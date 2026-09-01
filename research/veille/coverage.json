@@ -6,18 +6,18 @@
     "actors": 68,
     "declared_or_active_candidates": 27,
     "topics": 12,
-    "current_proposals": 1261,
-    "covered_actor_topic_cells": 128,
+    "current_proposals": 1263,
+    "covered_actor_topic_cells": 129,
     "total_actor_topic_cells": 816,
-    "actor_topic_coverage_ratio": 0.1569,
-    "active_candidate_covered_cells": 52,
+    "actor_topic_coverage_ratio": 0.1581,
+    "active_candidate_covered_cells": 53,
     "active_candidate_total_cells": 324,
-    "active_candidate_topic_coverage_ratio": 0.1605,
-    "verified_proposals": 1222,
-    "multi_source_proposals": 38,
+    "active_candidate_topic_coverage_ratio": 0.1636,
+    "verified_proposals": 1224,
+    "multi_source_proposals": 39,
     "latest_evidence_at": "2026-09-01",
     "certainty_counts": {
-      "explicit": 1237,
+      "explicit": 1239,
       "explicit_but_conditional": 3,
       "explicit_but_underspecified": 21
     }
@@ -1237,11 +1237,12 @@
       "type": "candidate",
       "status": "declared_primary",
       "confidence": "high",
-      "current_proposals": 1,
+      "current_proposals": 3,
       "covered_topics": [
-        "pouvoir-achat-travail"
+        "pouvoir-achat-travail",
+        "services-publics"
       ],
-      "coverage_ratio": 0.0833,
+      "coverage_ratio": 0.1667,
       "gaps": [
         "retraites",
         "fiscalite-redistribution",
@@ -1250,13 +1251,12 @@
         "defense-international",
         "ecologie-energie",
         "institutions-democratie",
-        "services-publics",
         "securite-justice",
         "economie-finances",
         "numerique-ia"
       ],
-      "latest_evidence_at": "2026-08-27",
-      "verified_proposals": 1,
+      "latest_evidence_at": "2026-09-01",
+      "verified_proposals": 3,
       "multi_source_proposals": 0
     },
     {
@@ -1340,7 +1340,7 @@
       ],
       "latest_evidence_at": "2026-09-01",
       "verified_proposals": 13,
-      "multi_source_proposals": 8
+      "multi_source_proposals": 9
     },
     {
       "id": "npa-revolutionnaires",
@@ -2026,16 +2026,16 @@
       "actor_coverage_ratio": 0.1912,
       "latest_evidence_at": "2026-09-01",
       "verified_proposals": 254,
-      "multi_source_proposals": 10
+      "multi_source_proposals": 11
     },
     {
       "id": "services-publics",
       "label": "Services publics",
-      "current_proposals": 226,
-      "actors_covered": 11,
-      "actor_coverage_ratio": 0.1618,
+      "current_proposals": 228,
+      "actors_covered": 12,
+      "actor_coverage_ratio": 0.1765,
       "latest_evidence_at": "2026-09-01",
-      "verified_proposals": 222,
+      "verified_proposals": 224,
       "multi_source_proposals": 4
     },
     {
@@ -4316,9 +4316,9 @@
       "id": "marine-tondelier",
       "name": "Marine Tondelier",
       "status": "declared_primary",
-      "coverage_ratio": 0.0833,
-      "current_proposals": 1,
-      "latest_evidence_at": "2026-08-27",
+      "coverage_ratio": 0.1667,
+      "current_proposals": 3,
+      "latest_evidence_at": "2026-09-01",
       "topics": [
         {
           "id": "pouvoir-achat-travail",
@@ -4395,10 +4395,10 @@
         {
           "id": "services-publics",
           "label": "Services publics",
-          "covered": false,
-          "current_proposals": 0,
-          "latest_evidence_at": null,
-          "verified_proposals": 0,
+          "covered": true,
+          "current_proposals": 2,
+          "latest_evidence_at": "2026-09-01",
+          "verified_proposals": 2,
           "multi_source_proposals": 0
         },
         {
@@ -5632,27 +5632,6 @@
       ]
     },
     {
-      "id": "marine-tondelier",
-      "name": "Marine Tondelier",
-      "status": "declared_primary",
-      "coverage_ratio": 0.0833,
-      "current_proposals": 1,
-      "latest_evidence_at": "2026-08-27",
-      "gaps": [
-        "retraites",
-        "fiscalite-redistribution",
-        "immigration-integration",
-        "europe-souverainete",
-        "defense-international",
-        "ecologie-energie",
-        "institutions-democratie",
-        "services-publics",
-        "securite-justice",
-        "economie-finances",
-        "numerique-ia"
-      ]
-    },
-    {
       "id": "nicolas-dupont-aignan",
       "name": "Nicolas Dupont-Aignan",
       "status": "declared_presidential",
@@ -5689,6 +5668,26 @@
         "defense-international",
         "ecologie-energie",
         "services-publics",
+        "securite-justice",
+        "economie-finances",
+        "numerique-ia"
+      ]
+    },
+    {
+      "id": "marine-tondelier",
+      "name": "Marine Tondelier",
+      "status": "declared_primary",
+      "coverage_ratio": 0.1667,
+      "current_proposals": 3,
+      "latest_evidence_at": "2026-09-01",
+      "gaps": [
+        "retraites",
+        "fiscalite-redistribution",
+        "immigration-integration",
+        "europe-souverainete",
+        "defense-international",
+        "ecologie-energie",
+        "institutions-democratie",
         "securite-justice",
         "economie-finances",
         "numerique-ia"
