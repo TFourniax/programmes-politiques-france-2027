@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created_at": "2026-08-17T19:57:19.441897+00:00",
-  "updated_at": "2026-09-02T06:02:37.027452+00:00",
+  "updated_at": "2026-09-02T12:18:27.862797+00:00",
   "files": [
     {
       "path": "corpus/2027/auto/candidates/anasse-kazib/2026-08-28-38891602d9d9.md",
@@ -32,6 +32,11 @@
       "path": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-1c24ca835dde.md",
       "sha256": "4de1d951362c039445c302756a9d56eb85eb7681b4aaaff8d2a69c38094cc9ae",
       "size": 2052
+    },
+    {
+      "path": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-1e52daec5629.md",
+      "sha256": "7e209cdd43cbedf7be0c23401ea8568accffad6cbeadfb73c12b4ef3a69ee788",
+      "size": 2326
     },
     {
       "path": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-2275fa1fb155.md",
@@ -382,6 +387,11 @@
       "path": "corpus/2027/auto/candidates/selma-labib/2026-06-17-dbd0ca0c9e42.md",
       "sha256": "1e073da4b66644d40456d54bcfdfe07fdad40d2410cee7ac3678fa881209731f",
       "size": 1828
+    },
+    {
+      "path": "corpus/2027/auto/partys/equinoxe/2026-09-02-996717b3103b.md",
+      "sha256": "15a64c101f30075ab7300d1a4323947e270aee82a4cbd5f5937b1a5708662df8",
+      "size": 2098
     },
     {
       "path": "corpus/2027/auto/partys/les-ecologistes/2026-08-17-9c2f01b4f3fc.md",
@@ -755,8 +765,8 @@
     },
     {
       "path": "proposals/auto/europe-souverainete/auto-bruno-retailleau-europe-souverainete-ed8d0d14bccb.md",
-      "sha256": "4467438ec00e2f691631c0045c739bd45fd509a85e2a6000c9b10c31a21b7180",
-      "size": 4086
+      "sha256": "029e286913041884bb82e87bdd122d4c58647479c965aff9cee42554f0a6895a",
+      "size": 4199
     },
     {
       "path": "proposals/auto/europe-souverainete/auto-les-ecologistes-europe-souverainete-06952d144d39.md",
@@ -830,8 +840,8 @@
     },
     {
       "path": "proposals/auto/immigration-integration/auto-bruno-retailleau-immigration-integration-39955feaadc3.md",
-      "sha256": "36965c3cba2bd47f3c26e61f39f44322ad6e6c65c12cd3ba4b7519deab02d908",
-      "size": 7518
+      "sha256": "aacd6aa4cfed16297ad115886f9f2985f4b5b5134eea2cc0b713c5f221424d9f",
+      "size": 7631
     },
     {
       "path": "proposals/auto/immigration-integration/auto-les-ecologistes-immigration-integration-ddbed1d619f4.md",
@@ -855,8 +865,8 @@
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-bruno-retailleau-institutions-democratie-f5a91461b7da.md",
-      "sha256": "6e441fc37d9f372b8693d1749923ccaa2730f0640628f7427017f3d6cb5e3aa3",
-      "size": 2941
+      "sha256": "11a828f0af5968620f6548614a25ffbce18791e06ac0b06eb94b8586d562c967",
+      "size": 3054
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-clara-egger-institutions-democratie-ef5123784bab.md",
@@ -1035,13 +1045,33 @@
     },
     {
       "path": "proposals/auto/securite-justice/auto-bruno-retailleau-securite-justice-703dc438f470.md",
-      "sha256": "1ffaf0316bc7a6c3146175605f3f5dae55003384426d1c95d8615a0bd168774a",
-      "size": 5811
+      "sha256": "47a1aac969868af17cf8b02ba0148a100e68e7d6101a457115e8fcdf7f1c9071",
+      "size": 5926
     },
     {
       "path": "proposals/auto/securite-justice/auto-bruno-retailleau-securite-justice-7b2b02ba25a3.md",
       "sha256": "5a9f590a1ddf7f97c30e9edd56ec06ef611d2c609ec5e196a171bc022a14cf7b",
       "size": 3378
+    },
+    {
+      "path": "proposals/auto/securite-justice/auto-equinoxe-securite-justice-2fe1576c84df.md",
+      "sha256": "3d1f61521f2fe54970e9eddc5a3eae7b463b065e23c5a3809b23b547188e43db",
+      "size": 1266
+    },
+    {
+      "path": "proposals/auto/securite-justice/auto-equinoxe-securite-justice-835bb7a04e33.md",
+      "sha256": "72e9566fb8d3cf59ab083b2f773a44027f245b069371dc7059a4eabbb5862115",
+      "size": 1151
+    },
+    {
+      "path": "proposals/auto/securite-justice/auto-equinoxe-securite-justice-eef5ca7aaee6.md",
+      "sha256": "7840c4308a6d3d94f0f524e4373914fda3efaec15c6b949e4806a06edae6ae41",
+      "size": 1469
+    },
+    {
+      "path": "proposals/auto/securite-justice/auto-equinoxe-securite-justice-fe540606cba3.md",
+      "sha256": "5d616d52cd56d2c8e84fecc76385cd758ac4445ca81f60c7b51dfd92d81eee2c",
+      "size": 1268
     },
     {
       "path": "proposals/auto/securite-justice/auto-gabriel-attal-securite-justice-43664388aa97.md",

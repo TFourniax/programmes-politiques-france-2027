@@ -6,18 +6,18 @@
     "actors": 68,
     "declared_or_active_candidates": 27,
     "topics": 12,
-    "current_proposals": 1263,
-    "covered_actor_topic_cells": 129,
+    "current_proposals": 1267,
+    "covered_actor_topic_cells": 130,
     "total_actor_topic_cells": 816,
-    "actor_topic_coverage_ratio": 0.1581,
+    "actor_topic_coverage_ratio": 0.1593,
     "active_candidate_covered_cells": 53,
     "active_candidate_total_cells": 324,
     "active_candidate_topic_coverage_ratio": 0.1636,
-    "verified_proposals": 1224,
+    "verified_proposals": 1228,
     "multi_source_proposals": 39,
     "latest_evidence_at": "2026-09-02",
     "certainty_counts": {
-      "explicit": 1239,
+      "explicit": 1243,
       "explicit_but_conditional": 3,
       "explicit_but_underspecified": 21
     }
@@ -1897,12 +1897,13 @@
       "type": "party",
       "status": null,
       "confidence": null,
-      "current_proposals": 2,
+      "current_proposals": 6,
       "covered_topics": [
         "ecologie-energie",
-        "fiscalite-redistribution"
+        "fiscalite-redistribution",
+        "securite-justice"
       ],
-      "coverage_ratio": 0.1667,
+      "coverage_ratio": 0.25,
       "gaps": [
         "pouvoir-achat-travail",
         "retraites",
@@ -1911,12 +1912,11 @@
         "defense-international",
         "institutions-democratie",
         "services-publics",
-        "securite-justice",
         "economie-finances",
         "numerique-ia"
       ],
-      "latest_evidence_at": null,
-      "verified_proposals": 0,
+      "latest_evidence_at": "2026-09-02",
+      "verified_proposals": 4,
       "multi_source_proposals": 0
     },
     {
@@ -2041,11 +2041,11 @@
     {
       "id": "securite-justice",
       "label": "Sécurité & justice",
-      "current_proposals": 132,
-      "actors_covered": 11,
-      "actor_coverage_ratio": 0.1618,
+      "current_proposals": 136,
+      "actors_covered": 12,
+      "actor_coverage_ratio": 0.1765,
       "latest_evidence_at": "2026-09-02",
-      "verified_proposals": 129,
+      "verified_proposals": 133,
       "multi_source_proposals": 3
     },
     {

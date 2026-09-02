@@ -285,6 +285,11 @@
       "source_url": "https://rassemblementnational.fr/",
       "verified_at": "2026-08-11T08:56:04+00:00"
     },
+    "2fe1576c84df8b5e959e5c089d26811dfd3faa3d71014cf79db30b49a8f71b79": {
+      "proposal_id": "auto-equinoxe-securite-justice-2fe1576c84df",
+      "source_url": "https://parti-equinoxe.fr/legislative-partielle-2025-isere/programme-cohesion/",
+      "verified_at": "2026-09-02T12:18:04+00:00"
+    },
     "3027f98746c9ed6c4e5730490e49f1452546045dff8344ba62c324cdd70b94b8": {
       "proposal_id": "auto-david-lisnard-immigration-integration-3027f98746c9",
       "source_url": "https://www.unenouvelleenergie.fr/notre-programme/immigration/",
@@ -779,6 +784,11 @@
       "proposal_id": "auto-nouvelle-energie-institutions-democratie-8303825218fa",
       "source_url": "https://www.unenouvelleenergie.fr/notre-programme/",
       "verified_at": "2026-08-29T08:03:56+00:00"
+    },
+    "835bb7a04e33afa32f52c5623e63158a9140aa207132963aeffe4ef6c0669d44": {
+      "proposal_id": "auto-equinoxe-securite-justice-835bb7a04e33",
+      "source_url": "https://parti-equinoxe.fr/legislative-partielle-2025-isere/programme-cohesion/",
+      "verified_at": "2026-09-02T12:18:04+00:00"
     },
     "83b09524e35ff31b7dc28990e86c431c6b0cb9f1499a0cb6dfc45e3b558bbf4d": {
       "proposal_id": "auto-la-france-insoumise-europe-souverainete-83b09524e35f",
@@ -1400,6 +1410,11 @@
       "source_url": "https://bsky.app/profile/marinetondelier.fr/post/3muhjqq3dws2x",
       "verified_at": "2026-09-01T17:31:34+00:00"
     },
+    "eef5ca7aaee6e5d677990c48eb345a6461c6c0e0b50fa3781c9f2696a25685b6": {
+      "proposal_id": "auto-equinoxe-securite-justice-eef5ca7aaee6",
+      "source_url": "https://parti-equinoxe.fr/legislative-partielle-2025-isere/programme-cohesion/",
+      "verified_at": "2026-09-02T12:18:04+00:00"
+    },
     "ef5123784babff934c91908dc0f5889252be01ec82ba5aeb7e58624b34000ac3": {
       "proposal_id": "auto-clara-egger-institutions-democratie-ef5123784bab",
       "source_url": "https://solutiondemocratique.fr/jean-lassalle-programme-presidentielle2027/",
@@ -1485,6 +1500,11 @@
       "source_url": "https://rassemblementnational.fr/",
       "verified_at": "2026-08-11T08:56:04+00:00"
     },
+    "fe540606cba3f89a8ec6e1dcdd9c8cd347e584673250af073a9a5af6519f4518": {
+      "proposal_id": "auto-equinoxe-securite-justice-fe540606cba3",
+      "source_url": "https://parti-equinoxe.fr/legislative-partielle-2025-isere/programme-cohesion/",
+      "verified_at": "2026-09-02T12:18:04+00:00"
+    },
     "fe7fcdfa3a831dab184092a3d304d6d59b60fb4b2bd347548c673b4cc2930619": {
       "proposal_id": "auto-la-france-insoumise-services-publics-fe7fcdfa3a83",
       "source_url": "https://melenchon2027.fr/programme2025/livre/chapitre15/",
@@ -1508,7 +1528,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-09-02T06:02:34+00:00",
+  "last_run_at": "2026-09-02T12:18:19+00:00",
   "source_chunks": {
     "009ea6ddfcaa5e8d4f6a7064": {
       "canonical_confirmations": [],
@@ -3096,6 +3116,112 @@
       "updated_at": "2026-08-24T19:56:38+00:00",
       "url": "https://www.unenouvelleenergie.fr/notre-programme/"
     },
+    "1e52daec56297be188e51f89": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "réduire drastiquement l’immigration",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau propose de soumettre par référendum des textes pour réduire drastiquement l'immigration.",
+            "topic": "immigration-integration"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La proposition est explicitement présente dans la source et correspond au contenu canonique existant.",
+            "related_proposal_id": "auto-bruno-retailleau-immigration-integration-39955feaadc3",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "engager une véritable révolution de notre justice pénale",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau propose d'engager une révolution de la justice pénale par référendum.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La proposition sur la justice pénale est explicitement soutenue par la source et déjà présente.",
+            "related_proposal_id": "auto-bruno-retailleau-securite-justice-703dc438f470",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "soumettrai directement par référendum plusieurs grands textes de loi",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau propose de soumettre des textes de loi directement par référendum s'il est élu.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "La proposition de soumettre des textes de loi par référendum est explicitement dans la source.",
+            "related_proposal_id": "auto-bruno-retailleau-institutions-democratie-f5a91461b7da",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "redonner la primauté à notre droit national",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau souhaite redonner la primauté au droit national par voie de référendum.",
+            "topic": "europe-souverainete"
+          },
+          "verdict": {
+            "index": 3,
+            "reason": "La primauté au droit national par référendum est explicitement confirmée par la source.",
+            "related_proposal_id": "auto-bruno-retailleau-europe-souverainete-ed8d0d14bccb",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-09-02T12:17:54+00:00",
+      "created_at": "2026-09-02T12:17:42+00:00",
+      "document_types": [
+        "candidacy_declaration"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-02-12"
+      ],
+      "sha256": "0b0afeff70cbdc1535ea7caf6e098f620d07c1fb36dff9c474565cabb540697a",
+      "source_title": "Je suis candidat à l'élection présidentielle. - Les Républicains",
+      "statuses": [
+        {
+          "status": {
+            "candidate_id": "bruno-retailleau",
+            "effective_date": "2026-02-12",
+            "evidence_quote": "Je suis candidat à l’élection présidentielle.",
+            "explicit": true,
+            "new_status": "declared_presidential"
+          }
+        }
+      ],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-02T12:17:48+00:00",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
     "20c668171ad67297bc28f21d": {
       "canonical_confirmations": [
         {
@@ -3245,7 +3371,7 @@
           }
         }
       ],
-      "completed_at": "2026-09-02T06:02:29+00:00",
+      "completed_at": "2026-09-02T12:18:13+00:00",
       "created_at": "2026-08-23T07:58:35+00:00",
       "document_types": [
         "campaign_website_page"
@@ -3260,7 +3386,7 @@
       "statuses": [],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-09-02T06:02:24+00:00",
+      "updated_at": "2026-09-02T12:18:13+00:00",
       "url": "https://attalpresident.fr/programme"
     },
     "2275fa1fb15593131b386431": {
@@ -5384,6 +5510,26 @@
       "total": 1,
       "updated_at": "2026-08-13T08:51:16+00:00",
       "url": "https://melenchon2027.fr/programme2025/livre/chapitre9/"
+    },
+    "3e058bd7917fd64d115c66e2": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-09-02T12:18:22+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "da7bc8766121382e319fa73ba59c2f5b52f2f8294b6685558b5d203ccd1880a8",
+      "source_title": "SÉBASTIEN CHENU : « L'immigration est un projet de société pour Philippe et Attal ! » (CNEWS)",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-02T12:18:24+00:00",
+      "url": "https://www.youtube.com/watch?v=mnoKyc018To"
     },
     "3f3e540425a75b8d8d18c36a": {
       "canonical_confirmations": [
@@ -10906,6 +11052,173 @@
       "total": 1,
       "updated_at": "2026-08-27T23:10:51+00:00",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
+    "996717b3103b54dee8c73473": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "equinoxe",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Recréer une véritable police de proximité",
+            "relevance": "party_platform",
+            "statement": "Recréer une véritable police de proximité.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La proposition de recréer une police de proximité est explicitement soutenue dans la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "equinoxe",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Intégrer des magistrats indépendants à la tête de l’IGPN et l’IGGN",
+            "relevance": "party_platform",
+            "statement": "Intégrer des magistrats indépendants à la tête de l'IGPN et de l'IGGN.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La proposition d'intégrer des magistrats indépendants à la tête de l'IGPN et l'IGGN est textuellement présente.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "equinoxe",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Réorienter les effectifs de police qui traquent les consommateurs de cannabis",
+            "relevance": "party_platform",
+            "statement": "Réorienter les effectifs de police traquant les consommateurs de cannabis vers la lutte contre les incivilités et la petite délinquance.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "La réorientation des effectifs de police traquant les consommateurs de cannabis est explicitement confirmée.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "equinoxe",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Augmenter les effectifs de la justice, réduire les délais de jugement.",
+            "relevance": "party_platform",
+            "statement": "Augmenter les effectifs de la justice et réduire les délais de jugement.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 3,
+            "reason": "L'augmentation des effectifs de la justice et la réduction des délais de jugement sont explicitement mentionnés.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [
+        {
+          "claim": {
+            "actor_id": "equinoxe",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Recréer une véritable police de proximité",
+            "relevance": "party_platform",
+            "statement": "Recréer une véritable police de proximité.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La proposition de recréer une police de proximité est explicitement soutenue dans la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "equinoxe",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Intégrer des magistrats indépendants à la tête de l’IGPN et l’IGGN",
+            "relevance": "party_platform",
+            "statement": "Intégrer des magistrats indépendants à la tête de l'IGPN et de l'IGGN.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La proposition d'intégrer des magistrats indépendants à la tête de l'IGPN et l'IGGN est textuellement présente.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "equinoxe",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Réorienter les effectifs de police qui traquent les consommateurs de cannabis",
+            "relevance": "party_platform",
+            "statement": "Réorienter les effectifs de police traquant les consommateurs de cannabis vers la lutte contre les incivilités et la petite délinquance.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "La réorientation des effectifs de police traquant les consommateurs de cannabis est explicitement confirmée.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "equinoxe",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Augmenter les effectifs de la justice, réduire les délais de jugement.",
+            "relevance": "party_platform",
+            "statement": "Augmenter les effectifs de la justice et réduire les délais de jugement.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 3,
+            "reason": "L'augmentation des effectifs de la justice et la réduction des délais de jugement sont explicitement mentionnés.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "completed_at": "2026-09-02T12:18:04+00:00",
+      "created_at": "2026-09-02T12:17:58+00:00",
+      "document_types": [
+        "party_platform"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "ab8f92dd64b19a91eeb7f00c5e167e4000554cb21ba17b5f82582dad9795102f",
+      "source_title": "Programme législative partielle Isère 2025 : Cohésion - Parti Équinoxe",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-02T12:18:04+00:00",
+      "url": "https://parti-equinoxe.fr/legislative-partielle-2025-isere/programme-cohesion/"
     },
     "99d11e3c29023ef7697a8185": {
       "canonical_confirmations": [],
@@ -20931,6 +21244,26 @@
       "updated_at": "2026-08-11T20:16:16+00:00",
       "url": "https://parti-equinoxe.fr/legislatives-2022-programme-social/"
     },
+    "fa1a5d5a9279e91157872a2d": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-09-02T12:18:20+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "160ba6c7da7ff1a90d4d2e4837ee2b668b0b5076cb5494ed6a1caab29112ceea",
+      "source_title": "GAËTAN DUSSAUSAYE : « Nous voulons baisser les dépenses contraintes ! » (France Info)",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-02T12:18:22+00:00",
+      "url": "https://www.youtube.com/watch?v=lUK4VxBfuhI"
+    },
     "fa4a3d74f7727a5ae81b5d5b": {
       "claims": [
         {
@@ -21694,6 +22027,15 @@
       "source_sha256": "9a1d5f113c78dcd521da236ce1c23a4cb0af8bf7c5d09f90d67b714f56715c5c",
       "status": "promoted",
       "url": "https://solutiondemocratique.fr/comparatif-candidats-programme-elections-presidentielles-france-2027/"
+    },
+    "1b04d4aaf36f": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-09-02T12:18:19+00:00",
+      "reason": null,
+      "source_sha256": "0d8a65a8dc74d4f3b80db285ed2a18b91b378305bd81ab393f4f26637b9e888d",
+      "status": "promoted",
+      "url": "https://attalpresident.fr/programme"
     },
     "1c4a9c6b8840": {
       "chunks_done": null,
@@ -22544,6 +22886,15 @@
       "status": "not_confirmed",
       "url": "https://solutiondemocratique.fr/jerome-guedj-programme-presidentielle-2027/"
     },
+    "7e42406f956d": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-09-02T12:18:10+00:00",
+      "reason": null,
+      "source_sha256": "ab8f92dd64b19a91eeb7f00c5e167e4000554cb21ba17b5f82582dad9795102f",
+      "status": "promoted",
+      "url": "https://parti-equinoxe.fr/legislative-partielle-2025-isere/programme-cohesion/"
+    },
     "7f993d37831f": {
       "chunks_done": null,
       "chunks_total": null,
@@ -23225,6 +23576,15 @@
       "processed_at": "2026-08-29T08:04:20+00:00",
       "reason": "canonical_duplicate_evidence",
       "source_sha256": "525a32e7e7887a43207986b344359a3a571ed52d448de4d02b12f598c0d60e57",
+      "status": "promoted",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
+    "cde45deca5fb": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-02T12:17:54+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "0b0afeff70cbdc1535ea7caf6e098f620d07c1fb36dff9c474565cabb540697a",
       "status": "promoted",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
