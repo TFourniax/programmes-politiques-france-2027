@@ -1528,7 +1528,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-09-02T12:18:19+00:00",
+  "last_run_at": "2026-09-02T17:20:50+00:00",
   "source_chunks": {
     "009ea6ddfcaa5e8d4f6a7064": {
       "canonical_confirmations": [],
@@ -3371,7 +3371,7 @@
           }
         }
       ],
-      "completed_at": "2026-09-02T12:18:13+00:00",
+      "completed_at": "2026-09-02T17:20:44+00:00",
       "created_at": "2026-08-23T07:58:35+00:00",
       "document_types": [
         "campaign_website_page"
@@ -3386,7 +3386,7 @@
       "statuses": [],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-09-02T12:18:13+00:00",
+      "updated_at": "2026-09-02T17:20:44+00:00",
       "url": "https://attalpresident.fr/programme"
     },
     "2275fa1fb15593131b386431": {
@@ -6425,6 +6425,66 @@
       "total": 1,
       "updated_at": "2026-08-18T02:40:10+00:00",
       "url": "https://bc2027.fr/ma-demarche"
+    },
+    "4778ea3965c15a56f57aa1e6": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "réduire drastiquement l’immigration",
+            "relevance": "direct",
+            "statement": "Réduire drastiquement l'immigration par référendum.",
+            "topic": "immigration-integration"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Déjà présent dans le canonique avec la même formulation et source.",
+            "related_proposal_id": "auto-bruno-retailleau-immigration-integration-39955feaadc3",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "révolution de notre justice pénale",
+            "relevance": "direct",
+            "statement": "Engager une véritable révolution de la justice pénale par référendum.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "Présent à l'identique dans le canonique.",
+            "related_proposal_id": "auto-bruno-retailleau-securite-justice-703dc438f470",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-09-02T17:20:42+00:00",
+      "created_at": "2026-09-02T17:20:34+00:00",
+      "document_types": [
+        "candidacy_declaration"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-02-12"
+      ],
+      "sha256": "9b661c0499797137efeb35690ec043928d18823d645ad4fbbb5827c305f50656",
+      "source_title": "Je suis candidat à l'élection présidentielle. - Les Républicains",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-02T17:20:39+00:00",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
     "47c5dd5ae80b30abc2268caa": {
       "canonical_confirmations": [],
@@ -18801,6 +18861,28 @@
       "updated_at": "2026-08-27T23:09:40+00:00",
       "url": "https://www.unenouvelleenergie.fr/notre-programme/"
     },
+    "d6ae1ed48005448e8d819230": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-09-02T17:20:30+00:00",
+      "document_types": [
+        "official_press_release"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [
+        "2026-06-17"
+      ],
+      "sha256": "2e85fb2c14c1ca4c38ba38b56cad5e34ca1ec5296415d1d6376e8a963117971f",
+      "source_title": "CommuniquÃ© â PrÃ©sidentielle 2027Â : Selma Labib, une candidature ouvriÃ¨re et rÃ©volutionnaire, soutenue par GaÃ«l Quirante â NPA RÃ©volutionnaires",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-02T17:20:32+00:00",
+      "url": "https://npa-revolutionnaires.org/articles/communique-presidentielle-2027-selma-labib-une-candidature-ouvriere-et-revolutionnaire-soutenue-par-gael-quirante"
+    },
     "d73594f41a902d83129191df": {
       "canonical_confirmations": [
         {
@@ -23066,6 +23148,15 @@
       "status": "promoted",
       "url": "https://melenchon2027.fr/programme2025/livre/chapitre3/"
     },
+    "94cf5d9b516c": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-09-02T17:20:49+00:00",
+      "reason": null,
+      "source_sha256": "0d8a65a8dc74d4f3b80db285ed2a18b91b378305bd81ab393f4f26637b9e888d",
+      "status": "promoted",
+      "url": "https://attalpresident.fr/programme"
+    },
     "98a09703db17": {
       "chunks_done": null,
       "chunks_total": null,
@@ -23385,6 +23476,15 @@
       "source_sha256": "5c0ab2abebb587e9620894f29a509c80ee245bb9671e5332f52874d73c1dfdab",
       "status": "no_canonical_data",
       "url": "https://www.revolutionpermanente.fr/"
+    },
+    "b8714a5c114f": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-02T17:20:42+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "9b661c0499797137efeb35690ec043928d18823d645ad4fbbb5827c305f50656",
+      "status": "promoted",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
     "b8920657eb06": {
       "attempts": 5,
@@ -23980,6 +24080,15 @@
       "source_sha256": "c15f0fe118be314113da6e7d4b7d1d59cd28439463506578208d8953500ebc8d",
       "status": "promoted",
       "url": "https://www.unenouvelleenergie.fr/notre-programme/"
+    },
+    "f9d726dde513": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-02T17:20:32+00:00",
+      "reason": null,
+      "source_sha256": "2e85fb2c14c1ca4c38ba38b56cad5e34ca1ec5296415d1d6376e8a963117971f",
+      "status": "not_confirmed",
+      "url": "https://npa-revolutionnaires.org/articles/communique-presidentielle-2027-selma-labib-une-candidature-ouvriere-et-revolutionnaire-soutenue-par-gael-quirante"
     },
     "fc44011d49c2": {
       "chunks_done": null,

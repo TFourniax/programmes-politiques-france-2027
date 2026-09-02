@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created_at": "2026-08-17T19:57:19.441897+00:00",
-  "updated_at": "2026-09-02T12:18:27.862797+00:00",
+  "updated_at": "2026-09-02T17:20:53.249914+00:00",
   "files": [
     {
       "path": "corpus/2027/auto/candidates/anasse-kazib/2026-08-28-38891602d9d9.md",
@@ -77,6 +77,11 @@
       "path": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-439f8b8605e6.md",
       "sha256": "0f6c39ffb691bb6650a267d4feb795e3d8761d93062874f53c51cce9c42f6839",
       "size": 2088
+    },
+    {
+      "path": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-4778ea3965c1.md",
+      "sha256": "eebd489913ec59acbf33cadf3ab7009fefdbb433be6b79df0903e7dc47e74009",
+      "size": 1812
     },
     {
       "path": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-4b438222176c.md",
@@ -840,8 +845,8 @@
     },
     {
       "path": "proposals/auto/immigration-integration/auto-bruno-retailleau-immigration-integration-39955feaadc3.md",
-      "sha256": "aacd6aa4cfed16297ad115886f9f2985f4b5b5134eea2cc0b713c5f221424d9f",
-      "size": 7631
+      "sha256": "a6c8c6d0abffcc25f131e1093f32cddf13d8e9cb7d6c64f3bda9e853b69bab98",
+      "size": 7748
     },
     {
       "path": "proposals/auto/immigration-integration/auto-les-ecologistes-immigration-integration-ddbed1d619f4.md",
@@ -1045,8 +1050,8 @@
     },
     {
       "path": "proposals/auto/securite-justice/auto-bruno-retailleau-securite-justice-703dc438f470.md",
-      "sha256": "47a1aac969868af17cf8b02ba0148a100e68e7d6101a457115e8fcdf7f1c9071",
-      "size": 5926
+      "sha256": "e1e0c6ce63f4a12e0bf6c7e03b9c1215a9f39b6c279dca380d6a217c21cdbd7b",
+      "size": 6041
     },
     {
       "path": "proposals/auto/securite-justice/auto-bruno-retailleau-securite-justice-7b2b02ba25a3.md",

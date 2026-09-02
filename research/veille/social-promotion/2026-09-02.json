@@ -1,22 +1,11 @@
 {
   "errors": [],
-  "generated_at": "2026-09-02T12:18:24+00:00",
+  "generated_at": "2026-09-02T17:20:50+00:00",
   "partial": 0,
-  "processed": 2,
+  "processed": 0,
   "promoted": 0,
   "proposals_created": 0,
   "provenance_updates": 0,
-  "results": [
-    {
-      "sha256": "160ba6c7da7ff1a90d4d2e4837ee2b668b0b5076cb5494ed6a1caab29112ceea",
-      "status": "not_confirmed",
-      "url": "https://www.youtube.com/watch?v=lUK4VxBfuhI"
-    },
-    {
-      "sha256": "da7bc8766121382e319fa73ba59c2f5b52f2f8294b6685558b5d203ccd1880a8",
-      "status": "not_confirmed",
-      "url": "https://www.youtube.com/watch?v=mnoKyc018To"
-    }
-  ],
+  "results": [],
   "status_updates": 0
 }
