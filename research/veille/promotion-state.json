@@ -1528,7 +1528,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-09-02T17:20:50+00:00",
+  "last_run_at": "2026-09-02T22:02:07+00:00",
   "source_chunks": {
     "009ea6ddfcaa5e8d4f6a7064": {
       "canonical_confirmations": [],
@@ -3371,7 +3371,7 @@
           }
         }
       ],
-      "completed_at": "2026-09-02T17:20:44+00:00",
+      "completed_at": "2026-09-02T22:01:53+00:00",
       "created_at": "2026-08-23T07:58:35+00:00",
       "document_types": [
         "campaign_website_page"
@@ -3386,7 +3386,7 @@
       "statuses": [],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-09-02T17:20:44+00:00",
+      "updated_at": "2026-09-02T22:01:53+00:00",
       "url": "https://attalpresident.fr/programme"
     },
     "2275fa1fb15593131b386431": {
@@ -20487,6 +20487,120 @@
       "updated_at": "2026-08-20T10:10:52+00:00",
       "url": "https://www.youtube.com/watch?v=hefmL-vkxKw"
     },
+    "f005ab0a56c41804a17037a6": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "l’immigration n’est pas une chance",
+            "relevance": "direct",
+            "statement": "L'immigration n'est pas une chance.",
+            "topic": "immigration-integration"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La déclaration sur l'immigration est explicitement présente dans la source et déjà enregistrée dans le canon.",
+            "related_proposal_id": "auto-bruno-retailleau-immigration-integration-39955feaadc3",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "on ne peut pas vivre mieux en travaillant moins",
+            "relevance": "direct",
+            "statement": "On ne peut pas vivre mieux en travaillant moins.",
+            "topic": "pouvoir-achat-travail"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La citation sur le travail et le niveau de vie est explicitement dans la source et dans le canon.",
+            "related_proposal_id": "auto-bruno-retailleau-pouvoir-achat-travail-122f072f74ad",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "pour réduire drastiquement l’immigration",
+            "relevance": "direct",
+            "statement": "Soumettre par référendum des textes pour réduire drastiquement l'immigration.",
+            "topic": "immigration-integration"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "La proposition de référendum sur l'immigration est explicite dans la source et correspond au canon.",
+            "related_proposal_id": "prop-retailleau-referendum-immigration",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "engager une véritable révolution de notre justice pénale",
+            "relevance": "direct",
+            "statement": "Engager une véritable révolution de la justice pénale par référendum.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 3,
+            "reason": "La révolution de la justice pénale par référendum est explicitement soutenue par la source.",
+            "related_proposal_id": "auto-bruno-retailleau-securite-justice-703dc438f470",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "redonner la primauté à notre droit national",
+            "relevance": "direct",
+            "statement": "Redonner la primauté au droit national par référendum.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 4,
+            "reason": "La primauté du droit national par référendum est explicitement soutenue par la source.",
+            "related_proposal_id": "auto-bruno-retailleau-institutions-democratie-916dbcbd3347",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-09-02T22:01:50+00:00",
+      "created_at": "2026-09-02T22:01:37+00:00",
+      "document_types": [
+        "official_speech"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-02-12"
+      ],
+      "sha256": "72f33e93fc1108060500fec9a8b8c91ec965cd76dbd91ffcec4c987955a0c255",
+      "source_title": "Je suis candidat à l'élection présidentielle. - Les Républicains",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-02T22:01:44+00:00",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
     "f2380b9cb64f04946419a6f5": {
       "claims": [
         {
@@ -21814,7 +21928,7 @@
           }
         }
       ],
-      "completed_at": "2026-09-02T06:02:33+00:00",
+      "completed_at": "2026-09-02T22:02:03+00:00",
       "created_at": "2026-08-23T13:56:27+00:00",
       "document_types": [
         "campaign_website_page"
@@ -21829,7 +21943,7 @@
       "statuses": [],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-09-02T06:02:31+00:00",
+      "updated_at": "2026-09-02T22:02:03+00:00",
       "url": "https://attalpresident.fr/programme/dette-de-letat"
     },
     "ff01a7667fd959d729c67404": {
@@ -22567,6 +22681,15 @@
       "status": "promoted",
       "url": "https://melenchon2027.fr/programme2025/livre/chapitre13/"
     },
+    "4b569c637ab7": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-09-02T22:02:01+00:00",
+      "reason": null,
+      "source_sha256": "0d8a65a8dc74d4f3b80db285ed2a18b91b378305bd81ab393f4f26637b9e888d",
+      "status": "promoted",
+      "url": "https://attalpresident.fr/programme"
+    },
     "4b5786b1dcb8": {
       "chunks_done": null,
       "chunks_total": null,
@@ -22923,6 +23046,15 @@
       "status": "promoted",
       "url": "https://solutiondemocratique.fr/jean-lassalle-programme-presidentielle2027/"
     },
+    "7616be7ec323": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-02T22:01:50+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "72f33e93fc1108060500fec9a8b8c91ec965cd76dbd91ffcec4c987955a0c255",
+      "status": "promoted",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
     "78f4bd751746": {
       "chunks_done": null,
       "chunks_total": null,
@@ -23156,6 +23288,15 @@
       "source_sha256": "0d8a65a8dc74d4f3b80db285ed2a18b91b378305bd81ab393f4f26637b9e888d",
       "status": "promoted",
       "url": "https://attalpresident.fr/programme"
+    },
+    "9890e7210c9e": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-09-02T22:02:06+00:00",
+      "reason": null,
+      "source_sha256": "ed477781633623166c7a9a45247cdc01b13b4fadbc7641b71469d027b63713d3",
+      "status": "promoted",
+      "url": "https://attalpresident.fr/programme/dette-de-letat"
     },
     "98a09703db17": {
       "chunks_done": null,
