@@ -8,55 +8,47 @@
   "gemini_quota_only": false,
   "gemini_unavailable_reason": null,
   "gemini_unavailable_since": null,
-  "generated_at": "2026-09-03T12:20:47+00:00",
-  "last_collection_success_at": "2026-09-03T12:12:52+00:00",
-  "last_direct_feed_run_at": "2026-09-03T12:12:54+00:00",
-  "last_gdelt_run_at": "2026-09-03T12:17:37+00:00",
-  "last_promotion_run_at": "2026-09-03T12:19:00+00:00",
-  "last_social_promotion_run_at": "2026-09-03T12:20:46+00:00",
-  "last_social_run_at": "2026-09-03T12:18:12+00:00",
-  "last_structured_primary_run_at": "2026-09-03T12:13:57+00:00",
+  "generated_at": "2026-09-03T17:14:55+00:00",
+  "last_collection_success_at": "2026-09-03T17:07:29+00:00",
+  "last_direct_feed_run_at": "2026-09-03T17:07:31+00:00",
+  "last_gdelt_run_at": "2026-09-03T17:13:24+00:00",
+  "last_promotion_run_at": "2026-09-03T17:14:54+00:00",
+  "last_social_promotion_run_at": "2026-09-03T17:14:55+00:00",
+  "last_social_run_at": "2026-09-03T17:13:52+00:00",
+  "last_structured_primary_run_at": "2026-09-03T17:09:53+00:00",
   "max_promotion_retry_attempts": 5,
   "official_sitemap_coverage_count": 0,
-  "official_source_warnings_last_run": 9,
-  "oldest_promotion_retry_age_hours": 213.969,
+  "official_source_warnings_last_run": 8,
+  "oldest_promotion_retry_age_hours": 218.871,
   "partial_sources_pending": 0,
   "pending_work": 3,
   "persistent_official_source_failure_details": [
     {
-      "consecutive_failures": 30,
+      "consecutive_failures": 31,
       "first_failure_at": "2026-08-25T14:15:21+00:00",
       "kind": "party_programme",
-      "last_failure_at": "2026-09-03T12:13:57+00:00",
+      "last_failure_at": "2026-09-03T17:09:53+00:00",
       "owner": "Les Écologistes",
       "url": "https://lesecologistes.fr/document/5ZhR2m5t2ZaGKqIdD1bJaD/vdef-programme-1.pdf"
     },
     {
-      "consecutive_failures": 51,
+      "consecutive_failures": 52,
       "first_failure_at": "2026-08-20T10:06:50+00:00",
       "kind": "party_programme",
-      "last_failure_at": "2026-09-03T12:13:57+00:00",
+      "last_failure_at": "2026-09-03T17:09:53+00:00",
       "owner": "Équinoxe",
       "url": "https://parti-equinoxe.fr/le-projet/"
     },
     {
-      "consecutive_failures": 9,
-      "first_failure_at": "2026-09-01T12:40:53+00:00",
-      "kind": "registry_source",
-      "last_failure_at": "2026-09-03T12:13:57+00:00",
-      "owner": "Antoine Mikolajczak",
-      "url": "https://parti-equinoxe.fr/qui-est-antoine-mikolajczak/"
-    },
-    {
-      "consecutive_failures": 62,
+      "consecutive_failures": 63,
       "first_failure_at": "2026-08-13T13:02:53+00:00",
       "kind": "registry_source",
-      "last_failure_at": "2026-09-03T12:13:57+00:00",
+      "last_failure_at": "2026-09-03T17:09:53+00:00",
       "owner": "La France Humaine & Forte",
       "url": "https://www.lafrancehumaineetforte.fr/"
     }
   ],
-  "persistent_official_source_failures": 4,
+  "persistent_official_source_failures": 3,
   "promotion_actionable_retries_pending": 2,
   "promotion_quota_retries_pending": 1,
   "promotion_retries_over_budget": 0,
@@ -66,12 +58,12 @@
   "reasons": [
     "2_technical_retry_pending",
     "promotion_retry_backlog_over_48h",
-    "4_persistent_official_source_failure(s)"
+    "3_persistent_official_source_failure(s)"
   ],
   "recovered_promotion_technical_failures": 1,
   "status": "degraded",
   "structured_primary_coverage_count": 2,
-  "uncovered_official_source_warnings_last_run": 4,
+  "uncovered_official_source_warnings_last_run": 3,
   "version": 7,
   "warnings": [
     "1_quota_retry_pending"

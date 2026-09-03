@@ -1010,6 +1010,11 @@
       "source_url": "https://www.unenouvelleenergie.fr/notre-programme/sante/",
       "verified_at": "2026-08-12T08:48:28+00:00"
     },
+    "a9f097879743fc342830f8405c3765a9580f9dad932acb15ea3d1ba429d67420": {
+      "proposal_id": "auto-david-lisnard-institutions-democratie-a9f097879743",
+      "source_url": "https://www.unenouvelleenergie.fr/notre-programme/",
+      "verified_at": "2026-09-03T17:14:25+00:00"
+    },
     "a9fc546cdcc434c26f1565b0861a615fffb9e019b9ca93d4226b57b448022e90": {
       "proposal_id": "auto-les-ecologistes-institutions-democratie-a9fc546cdcc4",
       "source_url": "https://lesecologistes.fr/document/5ZhR2m5t2ZaGKqIdD1bJaD/vdef-programme-1.pdf",
@@ -1528,7 +1533,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-09-03T12:19:00+00:00",
+  "last_run_at": "2026-09-03T17:14:54+00:00",
   "source_chunks": {
     "009ea6ddfcaa5e8d4f6a7064": {
       "canonical_confirmations": [],
@@ -3371,7 +3376,7 @@
           }
         }
       ],
-      "completed_at": "2026-09-03T12:18:49+00:00",
+      "completed_at": "2026-09-03T17:14:47+00:00",
       "created_at": "2026-08-23T07:58:35+00:00",
       "document_types": [
         "campaign_website_page"
@@ -3386,7 +3391,7 @@
       "statuses": [],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-09-03T12:18:49+00:00",
+      "updated_at": "2026-09-03T17:14:47+00:00",
       "url": "https://attalpresident.fr/programme"
     },
     "2275fa1fb15593131b386431": {
@@ -4599,6 +4604,84 @@
       "total": 1,
       "updated_at": "2026-08-15T07:55:22+00:00",
       "url": "https://solutiondemocratique.fr/edouard-philippe-presidentielle-2027-programme/"
+    },
+    "35b2a612af85f04707bf8ea0": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "réduire drastiquement l’immigration",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau propose de réduire drastiquement l'immigration par référendum.",
+            "topic": "immigration-integration"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La proposition sur l'immigration par référendum est déjà présente dans le canon.",
+            "related_proposal_id": "auto-bruno-retailleau-immigration-integration-39955feaadc3",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "révolution de notre justice pénale",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau propose une révolution de la justice pénale soumise par référendum.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La révolution de la justice pénale par référendum est explicitement présente dans le canon.",
+            "related_proposal_id": "auto-bruno-retailleau-securite-justice-7b2b02ba25a3",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "redonner la primauté à notre droit national",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau souhaite redonner la primauté au droit national par référendum.",
+            "topic": "europe-souverainete"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "La primauté du droit national par référendum est déjà enregistrée dans le canon.",
+            "related_proposal_id": "auto-bruno-retailleau-europe-souverainete-ed8d0d14bccb",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-09-03T17:14:43+00:00",
+      "created_at": "2026-09-03T17:14:32+00:00",
+      "document_types": [
+        "candidacy_declaration"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-02-12"
+      ],
+      "sha256": "be48cb1531fa623a52f2874d80c35cf8fa1f6c715b0b246b2338dadb5f26c514",
+      "source_title": "Je suis candidat à l'élection présidentielle. - Les Républicains",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-03T17:14:37+00:00",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
     "3730000be681957cb2b396bc": {
       "canonical_confirmations": [],
@@ -6258,6 +6341,101 @@
       "total": 1,
       "updated_at": "2026-08-21T08:09:18+00:00",
       "url": "https://solutiondemocratique.fr/programme-lfi-2027/"
+    },
+    "458e5ab130b990e583bf846e": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "david-lisnard",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "suppression de la carte scolaire",
+            "relevance": "direct",
+            "statement": "David Lisnard propose la suppression de la carte scolaire.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La suppression de la carte scolaire est explicitement confirmée par la source pour David Lisnard.",
+            "related_proposal_id": "auto-david-lisnard-institutions-democratie-8dc9338c9297",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "nouvelle-energie",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "la liberté pour les travailleurs de se constituer un capital pour leur retraite (capitalisation)",
+            "relevance": "direct",
+            "statement": "Nouvelle Énergie défend la liberté pour les travailleurs de se constituer un capital pour leur retraite par la capitalisation.",
+            "topic": "retraites"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La proposition sur la capitalisation pour les retraites par Nouvelle Énergie est explicitement soutenue par la source.",
+            "related_proposal_id": "auto-nouvelle-energie-retraites-4b9149336ab7",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "david-lisnard",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "par le recours au référendum",
+            "relevance": "direct",
+            "statement": "David Lisnard propose le recours au référendum pour maîtriser la politique migratoire indépendamment des hautes cours de justice.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "Le recours au référendum pour la politique migratoire indépendamment des hautes cours est explicitement soutenu dans la source et absent du canonique sous cette forme précise.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [
+        {
+          "claim": {
+            "actor_id": "david-lisnard",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "par le recours au référendum",
+            "relevance": "direct",
+            "statement": "David Lisnard propose le recours au référendum pour maîtriser la politique migratoire indépendamment des hautes cours de justice.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "Le recours au référendum pour la politique migratoire indépendamment des hautes cours est explicitement soutenu dans la source et absent du canonique sous cette forme précise.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "completed_at": "2026-09-03T17:14:30+00:00",
+      "created_at": "2026-09-03T17:13:58+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "2fad5e14e31d04e5f175911a8970f9f94a9f468cb6d77e02255b39843959614a",
+      "source_title": "Le programme de David Lisnard | Nouvelle Énergie",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-03T17:14:25+00:00",
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/"
     },
     "46b893c63e59f84816677498": {
       "canonical_confirmations": [
@@ -22525,6 +22703,15 @@
       "status": "not_confirmed",
       "url": "https://solutiondemocratique.fr/florian-philippot-programme-2027/"
     },
+    "1f42784e39a5": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-09-03T17:14:30+00:00",
+      "reason": null,
+      "source_sha256": "2fad5e14e31d04e5f175911a8970f9f94a9f468cb6d77e02255b39843959614a",
+      "status": "promoted",
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/"
+    },
     "20d46eb53f88": {
       "processed_at": "2026-08-11T09:26:34+00:00",
       "reason": "explicit_old_election_context",
@@ -23410,6 +23597,15 @@
       "status": "promoted",
       "url": "https://solutiondemocratique.fr/programme-rn-2027/"
     },
+    "80307e79cb40": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-03T17:14:43+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "be48cb1531fa623a52f2874d80c35cf8fa1f6c715b0b246b2338dadb5f26c514",
+      "status": "promoted",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
     "80515054eb43": {
       "chunks_done": null,
       "chunks_total": null,
@@ -23960,6 +24156,15 @@
       "source_sha256": "351fc0c685122756d7196c609a5987fcb21afc969b167fea443bb0b1fe4da9ec",
       "status": "not_confirmed",
       "url": "https://trajectoire2027.fr/programme.html"
+    },
+    "bb519d7ad766": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-09-03T17:14:54+00:00",
+      "reason": null,
+      "source_sha256": "0d8a65a8dc74d4f3b80db285ed2a18b91b378305bd81ab393f4f26637b9e888d",
+      "status": "promoted",
+      "url": "https://attalpresident.fr/programme"
     },
     "bdaab3e0894d": {
       "chunks_done": null,
