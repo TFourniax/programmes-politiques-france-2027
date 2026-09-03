@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created_at": "2026-08-17T19:57:19.441897+00:00",
-  "updated_at": "2026-09-03T06:02:07.091940+00:00",
+  "updated_at": "2026-09-03T12:20:50.252947+00:00",
   "files": [
     {
       "path": "corpus/2027/auto/candidates/anasse-kazib/2026-08-28-38891602d9d9.md",
@@ -262,6 +262,11 @@
       "path": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-eaf315e0b87b.md",
       "sha256": "896a7ad7323a0420e516bdb681095323a73d9dcf9c7b7dd3fc8b6292a7ceac40",
       "size": 2095
+    },
+    {
+      "path": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-eecca1490f02.md",
+      "sha256": "98100e34d1032775ffcca7c31b85841eabe8ece18ffdfb42d47692e6a7c6ecda",
+      "size": 2249
     },
     {
       "path": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-f005ab0a56c4.md",
@@ -865,8 +870,8 @@
     },
     {
       "path": "proposals/auto/immigration-integration/auto-bruno-retailleau-immigration-integration-39955feaadc3.md",
-      "sha256": "f6d641ad719baf7fe4c8f39230ada272c8133a30f9755993cd9d75a9084ec3e4",
-      "size": 7861
+      "sha256": "29acfe40d775429a315eb8783f1539b09567515bc6502e323f3c4ef4f030a312",
+      "size": 7976
     },
     {
       "path": "proposals/auto/immigration-integration/auto-les-ecologistes-immigration-integration-ddbed1d619f4.md",
@@ -885,13 +890,13 @@
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-bruno-retailleau-institutions-democratie-916dbcbd3347.md",
-      "sha256": "86599b51c4b237e89cff78ccbe6a0c1d0933362f14f71aae31035b4787544dee",
-      "size": 3642
+      "sha256": "3f764467def127fe6b85b9b6b14d7b968808c0d62c1c9c7f97e430e9790881e5",
+      "size": 3755
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-bruno-retailleau-institutions-democratie-f5a91461b7da.md",
-      "sha256": "11a828f0af5968620f6548614a25ffbce18791e06ac0b06eb94b8586d562c967",
-      "size": 3054
+      "sha256": "5e73387ee8684ae5afbd8e6222a4b9ae3b3f9906c6690d494301c97dacf1ec71",
+      "size": 3169
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-clara-egger-institutions-democratie-ef5123784bab.md",
@@ -1070,8 +1075,8 @@
     },
     {
       "path": "proposals/auto/securite-justice/auto-bruno-retailleau-securite-justice-703dc438f470.md",
-      "sha256": "986c371ea95ec7c59747644fb55ee5bf582e3d22efe6ea0b76558caa4ca0b737",
-      "size": 6269
+      "sha256": "4754c1187a258353daa48d26aa44c7db9063366190cc8f2bab929a2b874b10f6",
+      "size": 6386
     },
     {
       "path": "proposals/auto/securite-justice/auto-bruno-retailleau-securite-justice-7b2b02ba25a3.md",
