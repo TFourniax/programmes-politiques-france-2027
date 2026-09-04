@@ -1533,7 +1533,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-09-04T06:07:12+00:00",
+  "last_run_at": "2026-09-04T21:42:57+00:00",
   "source_chunks": {
     "009ea6ddfcaa5e8d4f6a7064": {
       "canonical_confirmations": [],
@@ -2568,6 +2568,28 @@
       "total": 1,
       "updated_at": "2026-08-11T20:16:11+00:00",
       "url": "https://parti-equinoxe.fr/legislatives-2022-programme-international/"
+    },
+    "15a2fd3d62a68a0a4db542a0": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-09-04T21:42:42+00:00",
+      "document_types": [
+        "official_press_release"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [
+        "2026-06-17"
+      ],
+      "sha256": "10abd195d0b937f243fbca8465bbbfca4a989c3b0448d71ca50501f039efc5bf",
+      "source_title": "CommuniquÃ© â PrÃ©sidentielle 2027Â : Selma Labib, une candidature ouvriÃ¨re et rÃ©volutionnaire, soutenue par GaÃ«l Quirante â NPA RÃ©volutionnaires",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-04T21:42:43+00:00",
+      "url": "https://npa-revolutionnaires.org/articles/communique-presidentielle-2027-selma-labib-une-candidature-ouvriere-et-revolutionnaire-soutenue-par-gael-quirante"
     },
     "170a10d674b56149b768f432": {
       "claims": [
@@ -3650,6 +3672,84 @@
       "total": 1,
       "updated_at": "2026-08-14T08:22:52+00:00",
       "url": "https://solutiondemocratique.fr/segolene-royal-programme-presidentielle2027/"
+    },
+    "26beea3b8e852147d6392cf2": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "réduire drastiquement l’immigration",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau souhaite réduire drastiquement l'immigration par référendum.",
+            "topic": "immigration-integration"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Présent à l'identique dans le canon actuel.",
+            "related_proposal_id": "auto-bruno-retailleau-immigration-integration-39955feaadc3",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "révolution de notre justice pénale",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau veut engager une révolution de la justice pénale par référendum.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "Présent à l'identique dans le canon actuel.",
+            "related_proposal_id": "auto-bruno-retailleau-securite-justice-703dc438f470",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "redonner la primauté à notre droit national",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau veut redonner la primauté au droit national par référendum.",
+            "topic": "europe-souverainete"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "Présent à l'identique dans le canon actuel.",
+            "related_proposal_id": "auto-bruno-retailleau-europe-souverainete-ed8d0d14bccb",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-09-04T21:42:56+00:00",
+      "created_at": "2026-09-04T21:42:45+00:00",
+      "document_types": [
+        "candidacy_declaration"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-02-12"
+      ],
+      "sha256": "6569aa2a1e7c3021c738252638ac1942de5e306afb36bd0b7c818404b42f0cfd",
+      "source_title": "Je suis candidat à l'élection présidentielle. - Les Républicains",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-04T21:42:50+00:00",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
     "2808a96b91bf539120f54a6c": {
       "canonical_confirmations": [
@@ -17024,6 +17124,100 @@
       "updated_at": "2026-08-15T07:55:30+00:00",
       "url": "https://solutiondemocratique.fr/clementine-autain-programme-presidentielle2027/"
     },
+    "b3109e2f42f11a8504c9d6f4": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "david-lisnard",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "un État recentré sur ses missions régaliennes de sécurité et de défense",
+            "relevance": "direct",
+            "statement": "Recentrer l'État sur ses missions régaliennes de sécurité et de défense.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Le claim sur le recentrage de l'État sur ses missions régaliennes est explicitement présent dans la source et déjà canonique.",
+            "related_proposal_id": "auto-david-lisnard-institutions-democratie-8a7a7019b8f9",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "david-lisnard",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "la libération des énergies créatrices par une profonde débureaucratisation",
+            "relevance": "direct",
+            "statement": "Mettre en œuvre une profonde débureaucratisation pour libérer les énergies créatrices.",
+            "topic": "economie-finances"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La débureaucratisation pour libérer les énergies créatrices est explicitement soutenue dans la source et déjà canonique.",
+            "related_proposal_id": "auto-david-lisnard-economie-finances-3591e11af1e3",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "nouvelle-energie",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "liberté pour les parents de scolariser leurs enfants là où ils le veulent (suppression de la carte scolaire)",
+            "relevance": "party_platform",
+            "statement": "Supprimer la carte scolaire pour garantir la liberté des parents de scolariser leurs enfants.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "La suppression de la carte scolaire est explicitement portée par le parti Nouvelle Énergie dans la source et déjà canonique.",
+            "related_proposal_id": "auto-nouvelle-energie-institutions-democratie-09aff9de5202",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "nouvelle-energie",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "liberté pour les travailleurs de se constituer un capital pour leur retraite (capitalisation)",
+            "relevance": "party_platform",
+            "statement": "Permettre aux travailleurs de se constituer un capital pour leur retraite par capitalisation.",
+            "topic": "retraites"
+          },
+          "verdict": {
+            "index": 3,
+            "reason": "La retraite par capitalisation est explicitement soutenue par le parti Nouvelle Énergie dans la source et déjà canonique.",
+            "related_proposal_id": "auto-nouvelle-energie-retraites-4b9149336ab7",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-09-04T21:42:40+00:00",
+      "created_at": "2026-09-04T21:42:25+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "eaa204fe6d0ef491df181947c6abcf913a4413c5c610c5417bb4282e52e1c2b8",
+      "source_title": "Le programme de David Lisnard | Nouvelle Énergie",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-04T21:42:33+00:00",
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/"
+    },
     "b785be0b746d82b56d1828f4": {
       "canonical_confirmations": [
         {
@@ -22648,6 +22842,15 @@
     }
   },
   "sources": {
+    "00ba77fa1821": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-04T21:42:43+00:00",
+      "reason": null,
+      "source_sha256": "10abd195d0b937f243fbca8465bbbfca4a989c3b0448d71ca50501f039efc5bf",
+      "status": "not_confirmed",
+      "url": "https://npa-revolutionnaires.org/articles/communique-presidentielle-2027-selma-labib-une-candidature-ouvriere-et-revolutionnaire-soutenue-par-gael-quirante"
+    },
     "00bb808963ae": {
       "chunks_done": null,
       "chunks_total": null,
@@ -23453,6 +23656,15 @@
       "source_sha256": "0d8a65a8dc74d4f3b80db285ed2a18b91b378305bd81ab393f4f26637b9e888d",
       "status": "promoted",
       "url": "https://attalpresident.fr/programme"
+    },
+    "5662257eda42": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-04T21:42:40+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "eaa204fe6d0ef491df181947c6abcf913a4413c5c610c5417bb4282e52e1c2b8",
+      "status": "promoted",
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/"
     },
     "5698c9483440": {
       "chunks_done": null,
@@ -24355,6 +24567,15 @@
       "processed_at": "2026-08-29T08:04:06+00:00",
       "status": "technical_error",
       "url": "https://www.jerome-guedj.fr/la-clarte-plutot-que-les-slogans-pourquoi-jai-annonce-ma-candidature-pour-2027/"
+    },
+    "b8f466ca3a46": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-04T21:42:56+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "6569aa2a1e7c3021c738252638ac1942de5e306afb36bd0b7c818404b42f0cfd",
+      "status": "promoted",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
     "b92085d01116": {
       "chunks_done": null,
