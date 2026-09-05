@@ -1543,7 +1543,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-09-05T11:25:14+00:00",
+  "last_run_at": "2026-09-05T16:13:42+00:00",
   "source_chunks": {
     "009ea6ddfcaa5e8d4f6a7064": {
       "canonical_confirmations": [],
@@ -4464,7 +4464,7 @@
           }
         }
       ],
-      "completed_at": "2026-09-05T11:25:06+00:00",
+      "completed_at": "2026-09-05T16:13:34+00:00",
       "created_at": "2026-09-05T05:56:41+00:00",
       "document_types": [
         "campaign_website_page"
@@ -4479,7 +4479,7 @@
       "statuses": [],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-09-05T11:25:06+00:00",
+      "updated_at": "2026-09-05T16:13:34+00:00",
       "url": "https://attalpresident.fr/programme"
     },
     "344690d0791e1668301a3cf8": {
@@ -9109,6 +9109,102 @@
       "total": 1,
       "updated_at": "2026-08-24T19:56:25+00:00",
       "url": "https://solutiondemocratique.fr/francois-asselineau-2027-programme/"
+    },
+    "677b90d46be6aa27c0852e0e": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "réduire drastiquement l’immigration",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau souhaite réduire drastiquement l'immigration par référendum.",
+            "topic": "immigration-integration"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Présent explicitement dans la source et correspond à un claim canonique existant.",
+            "related_proposal_id": "auto-bruno-retailleau-immigration-integration-39955feaadc3",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "révolution de notre justice pénale",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau veut engager une véritable révolution de notre justice pénale.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "Présent explicitement dans la source et correspond à un claim canonique existant.",
+            "related_proposal_id": "auto-bruno-retailleau-securite-justice-7b2b02ba25a3",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "soumettrai directement par référendum plusieurs grands textes de loi",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau s'engage à soumettre plusieurs grands textes de loi directement par référendum.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "Présent explicitement dans la source et correspond à un claim canonique existant.",
+            "related_proposal_id": "auto-bruno-retailleau-institutions-democratie-f5a91461b7da",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "redonner la primauté à notre droit national",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau veut redonner la primauté au droit national.",
+            "topic": "europe-souverainete"
+          },
+          "verdict": {
+            "index": 3,
+            "reason": "Présent explicitement dans la source et correspond à un claim canonique existant.",
+            "related_proposal_id": "auto-bruno-retailleau-europe-souverainete-ed8d0d14bccb",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-09-05T16:13:31+00:00",
+      "created_at": "2026-09-05T16:13:18+00:00",
+      "document_types": [
+        "candidacy_declaration"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-02-12"
+      ],
+      "sha256": "18694e642df4b72c259d821c89c3638bbf172c0e524c0b69e8cc4d65901a5b27",
+      "source_title": "Je suis candidat à l'élection présidentielle. - Les Républicains",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-05T16:13:24+00:00",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
     "681a4cd8f4ce8b769e922d59": {
       "claims": [],
@@ -17637,7 +17733,7 @@
       "statuses": [],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-08-27T11:21:58+00:00",
+      "updated_at": "2026-09-05T16:13:15+00:00",
       "url": "https://anasse2027.fr/programme"
     },
     "bc9d1a3db9451ed36c070e5a": {
@@ -24421,6 +24517,15 @@
       "status": "promoted",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
+    "77171b3f0157": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-09-05T16:13:42+00:00",
+      "reason": null,
+      "source_sha256": "64c45da36a32d401ab74ddce449436ad1a478b2a03847264f2e5f2747d800938",
+      "status": "promoted",
+      "url": "https://attalpresident.fr/programme"
+    },
     "78f4bd751746": {
       "chunks_done": null,
       "chunks_total": null,
@@ -24796,6 +24901,15 @@
       "source_sha256": "9b7a25659489f0a69a15bb5dadaf7eb00e19e7bfb20f3b96109eff7ce7f87602",
       "status": "promoted",
       "url": "https://solutiondemocratique.fr/david-lisnard-programme-2027/"
+    },
+    "a76b500989b7": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-05T16:13:15+00:00",
+      "reason": null,
+      "source_sha256": "f226e15cc0e64543b937b9d499d44fdfbf9b9f5e9e0c5b5733de51101dae9073",
+      "status": "not_confirmed",
+      "url": "https://anasse2027.fr/programme"
     },
     "a81c31cef08c": {
       "chunks_done": null,
@@ -25568,6 +25682,15 @@
       "processed_at": "2026-08-23T13:56:20+00:00",
       "reason": "canonical_duplicate_evidence",
       "source_sha256": "e9b82cd4cf6ec6b45dfa150b839da64424c8271adcbefe81fce1f6cb48ca27b1",
+      "status": "promoted",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
+    "e71f5f935845": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-05T16:13:31+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "18694e642df4b72c259d821c89c3638bbf172c0e524c0b69e8cc4d65901a5b27",
       "status": "promoted",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },

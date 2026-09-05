@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created_at": "2026-08-17T19:57:19.441897+00:00",
-  "updated_at": "2026-09-05T11:25:17.734067+00:00",
+  "updated_at": "2026-09-05T16:13:46.720090+00:00",
   "files": [
     {
       "path": "corpus/2027/auto/candidates/anasse-kazib/2026-08-28-38891602d9d9.md",
@@ -142,6 +142,11 @@
       "path": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-658d569cbe24.md",
       "sha256": "6616ec279c4df5c0405df48a6963d7824146fd225fde73069c758526336170ac",
       "size": 2021
+    },
+    {
+      "path": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-677b90d46be6.md",
+      "sha256": "65956a7983927637347a0dcbc8ea85c543c81b79230afe334405fdbaa3753d8c",
+      "size": 2238
     },
     {
       "path": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-6ddba0297dcb.md",
@@ -865,8 +870,8 @@
     },
     {
       "path": "proposals/auto/europe-souverainete/auto-bruno-retailleau-europe-souverainete-ed8d0d14bccb.md",
-      "sha256": "adfc8e3d04232d1adaa9d783d716cc30042b9410deca432ab7138bac16209074",
-      "size": 4887
+      "sha256": "931b51e7aa80dcb46acbee74e01f7c8264ccace2eee9035e3c09c0ccb501cdaa",
+      "size": 5004
     },
     {
       "path": "proposals/auto/europe-souverainete/auto-les-ecologistes-europe-souverainete-06952d144d39.md",
@@ -940,8 +945,8 @@
     },
     {
       "path": "proposals/auto/immigration-integration/auto-bruno-retailleau-immigration-integration-39955feaadc3.md",
-      "sha256": "2a31039c8fe065f40a301ddc51b8dbcb2bac37499c7048e616020270f1fd404a",
-      "size": 8549
+      "sha256": "4ebd6c8ffa700b69de0349ac65ef6ca93852c90b01b1fa89818d633dc540b42f",
+      "size": 8664
     },
     {
       "path": "proposals/auto/immigration-integration/auto-gabriel-attal-immigration-integration-948caa2232b2.md",
@@ -970,8 +975,8 @@
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-bruno-retailleau-institutions-democratie-f5a91461b7da.md",
-      "sha256": "35714ebf1bfbdaace32d8989d255e00c2ed961a008c321641d3f749da170d46b",
-      "size": 3284
+      "sha256": "4c169b15abc361b8f993dde77c70bd5f5fcec538ea5ffd2691483050cd5fa604",
+      "size": 3399
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-clara-egger-institutions-democratie-ef5123784bab.md",
@@ -1160,8 +1165,8 @@
     },
     {
       "path": "proposals/auto/securite-justice/auto-bruno-retailleau-securite-justice-7b2b02ba25a3.md",
-      "sha256": "c2335b719252a6855910c19c2b7003384e6489fd35682eddb71dc560f2436d58",
-      "size": 3608
+      "sha256": "0a824f522f47816890d098d1ca79ba303ebf87403e331600936f2cde7e562301",
+      "size": 3721
     },
     {
       "path": "proposals/auto/securite-justice/auto-equinoxe-securite-justice-2fe1576c84df.md",
