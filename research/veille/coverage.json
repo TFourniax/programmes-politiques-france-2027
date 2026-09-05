@@ -6,18 +6,18 @@
     "actors": 68,
     "declared_or_active_candidates": 27,
     "topics": 12,
-    "current_proposals": 1268,
-    "covered_actor_topic_cells": 130,
+    "current_proposals": 1270,
+    "covered_actor_topic_cells": 131,
     "total_actor_topic_cells": 816,
-    "actor_topic_coverage_ratio": 0.1593,
-    "active_candidate_covered_cells": 53,
+    "actor_topic_coverage_ratio": 0.1605,
+    "active_candidate_covered_cells": 54,
     "active_candidate_total_cells": 324,
-    "active_candidate_topic_coverage_ratio": 0.1636,
-    "verified_proposals": 1229,
+    "active_candidate_topic_coverage_ratio": 0.1667,
+    "verified_proposals": 1231,
     "multi_source_proposals": 39,
-    "latest_evidence_at": "2026-09-04",
+    "latest_evidence_at": "2026-09-05",
     "certainty_counts": {
-      "explicit": 1244,
+      "explicit": 1246,
       "explicit_but_conditional": 3,
       "explicit_but_underspecified": 21
     }
@@ -662,26 +662,26 @@
       "type": "candidate",
       "status": "declared_presidential",
       "confidence": "high",
-      "current_proposals": 5,
+      "current_proposals": 7,
       "covered_topics": [
         "economie-finances",
+        "immigration-integration",
         "pouvoir-achat-travail",
         "securite-justice",
         "services-publics"
       ],
-      "coverage_ratio": 0.3333,
+      "coverage_ratio": 0.4167,
       "gaps": [
         "retraites",
         "fiscalite-redistribution",
-        "immigration-integration",
         "europe-souverainete",
         "defense-international",
         "ecologie-energie",
         "institutions-democratie",
         "numerique-ia"
       ],
-      "latest_evidence_at": "2026-09-04",
-      "verified_proposals": 5,
+      "latest_evidence_at": "2026-09-05",
+      "verified_proposals": 7,
       "multi_source_proposals": 5
     },
     {
@@ -1954,7 +1954,7 @@
       "current_proposals": 64,
       "actors_covered": 16,
       "actor_coverage_ratio": 0.2353,
-      "latest_evidence_at": "2026-09-04",
+      "latest_evidence_at": "2026-09-05",
       "verified_proposals": 56,
       "multi_source_proposals": 4
     },
@@ -1981,11 +1981,11 @@
     {
       "id": "immigration-integration",
       "label": "Immigration & intégration",
-      "current_proposals": 61,
-      "actors_covered": 10,
-      "actor_coverage_ratio": 0.1471,
-      "latest_evidence_at": "2026-08-24",
-      "verified_proposals": 55,
+      "current_proposals": 62,
+      "actors_covered": 11,
+      "actor_coverage_ratio": 0.1618,
+      "latest_evidence_at": "2026-09-05",
+      "verified_proposals": 56,
       "multi_source_proposals": 2
     },
     {
@@ -2034,7 +2034,7 @@
       "current_proposals": 228,
       "actors_covered": 12,
       "actor_coverage_ratio": 0.1765,
-      "latest_evidence_at": "2026-09-04",
+      "latest_evidence_at": "2026-09-05",
       "verified_proposals": 224,
       "multi_source_proposals": 4
     },
@@ -2051,11 +2051,11 @@
     {
       "id": "economie-finances",
       "label": "Économie & finances publiques",
-      "current_proposals": 116,
+      "current_proposals": 117,
       "actors_covered": 12,
       "actor_coverage_ratio": 0.1765,
-      "latest_evidence_at": "2026-09-04",
-      "verified_proposals": 114,
+      "latest_evidence_at": "2026-09-05",
+      "verified_proposals": 115,
       "multi_source_proposals": 7
     },
     {
@@ -3372,16 +3372,16 @@
       "id": "gabriel-attal",
       "name": "Gabriel Attal",
       "status": "declared_presidential",
-      "coverage_ratio": 0.3333,
-      "current_proposals": 5,
-      "latest_evidence_at": "2026-09-04",
+      "coverage_ratio": 0.4167,
+      "current_proposals": 7,
+      "latest_evidence_at": "2026-09-05",
       "topics": [
         {
           "id": "pouvoir-achat-travail",
           "label": "Pouvoir d’achat & travail",
           "covered": true,
           "current_proposals": 1,
-          "latest_evidence_at": "2026-09-04",
+          "latest_evidence_at": "2026-09-05",
           "verified_proposals": 1,
           "multi_source_proposals": 1
         },
@@ -3406,10 +3406,10 @@
         {
           "id": "immigration-integration",
           "label": "Immigration & intégration",
-          "covered": false,
-          "current_proposals": 0,
-          "latest_evidence_at": null,
-          "verified_proposals": 0,
+          "covered": true,
+          "current_proposals": 1,
+          "latest_evidence_at": "2026-09-05",
+          "verified_proposals": 1,
           "multi_source_proposals": 0
         },
         {
@@ -3453,7 +3453,7 @@
           "label": "Services publics",
           "covered": true,
           "current_proposals": 1,
-          "latest_evidence_at": "2026-09-04",
+          "latest_evidence_at": "2026-09-05",
           "verified_proposals": 1,
           "multi_source_proposals": 1
         },
@@ -3470,9 +3470,9 @@
           "id": "economie-finances",
           "label": "Économie & finances publiques",
           "covered": true,
-          "current_proposals": 2,
-          "latest_evidence_at": "2026-09-04",
-          "verified_proposals": 2,
+          "current_proposals": 3,
+          "latest_evidence_at": "2026-09-05",
+          "verified_proposals": 3,
           "multi_source_proposals": 2
         },
         {
@@ -5713,24 +5713,6 @@
       ]
     },
     {
-      "id": "gabriel-attal",
-      "name": "Gabriel Attal",
-      "status": "declared_presidential",
-      "coverage_ratio": 0.3333,
-      "current_proposals": 5,
-      "latest_evidence_at": "2026-09-04",
-      "gaps": [
-        "retraites",
-        "fiscalite-redistribution",
-        "immigration-integration",
-        "europe-souverainete",
-        "defense-international",
-        "ecologie-energie",
-        "institutions-democratie",
-        "numerique-ia"
-      ]
-    },
-    {
       "id": "anasse-kazib",
       "name": "Anasse Kazib",
       "status": "declared_presidential",
@@ -5745,6 +5727,23 @@
         "ecologie-energie",
         "securite-justice",
         "economie-finances",
+        "numerique-ia"
+      ]
+    },
+    {
+      "id": "gabriel-attal",
+      "name": "Gabriel Attal",
+      "status": "declared_presidential",
+      "coverage_ratio": 0.4167,
+      "current_proposals": 7,
+      "latest_evidence_at": "2026-09-05",
+      "gaps": [
+        "retraites",
+        "fiscalite-redistribution",
+        "europe-souverainete",
+        "defense-international",
+        "ecologie-energie",
+        "institutions-democratie",
         "numerique-ia"
       ]
     },

@@ -420,6 +420,11 @@
       "source_url": "https://melenchon2027.fr/programme2025/livre/chapitre10/",
       "verified_at": "2026-08-12T22:06:40+00:00"
     },
+    "44c5426415ceb14d048dca64fa9b28156fc5f07c9045ba2f3d71276f631e3ee8": {
+      "proposal_id": "auto-gabriel-attal-economie-finances-44c5426415ce",
+      "source_url": "https://attalpresident.fr/programme/dette-de-letat",
+      "verified_at": "2026-09-05T05:56:58+00:00"
+    },
     "468010a5d31b4e619ed227a9904b4e7b535af7bc492639de3847a96978e789f6": {
       "proposal_id": "auto-la-france-insoumise-europe-souverainete-468010a5d31b",
       "source_url": "https://melenchon2027.fr/programme2025/livre/chapitre16/",
@@ -884,6 +889,11 @@
       "proposal_id": "auto-bruno-retailleau-institutions-democratie-916dbcbd3347",
       "source_url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/",
       "verified_at": "2026-08-12T03:37:53+00:00"
+    },
+    "948caa2232b219aa23e81df21cce5ded6d6553dbc16444673340784f6b87e930": {
+      "proposal_id": "auto-gabriel-attal-immigration-integration-948caa2232b2",
+      "source_url": "https://attalpresident.fr/programme",
+      "verified_at": "2026-09-05T05:56:47+00:00"
     },
     "94fbb04a8c811a897af63697693242c25be7abbd4f26ec6c3d13858fc9bc6291": {
       "proposal_id": "auto-les-ecologistes-ecologie-energie-94fbb04a8c81",
@@ -1533,7 +1543,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-09-04T21:42:57+00:00",
+  "last_run_at": "2026-09-05T05:57:02+00:00",
   "source_chunks": {
     "009ea6ddfcaa5e8d4f6a7064": {
       "canonical_confirmations": [],
@@ -4358,6 +4368,119 @@
       "total": 1,
       "updated_at": "2026-08-21T08:09:41+00:00",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
+    "339da5119b58baecb28aa7ef": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "gabriel-attal",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "Elle sera ma priorité absolue.",
+            "relevance": "direct",
+            "statement": "Faire de l'éducation la priorité absolue.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Présent à l'identique dans le canonique actuel.",
+            "related_proposal_id": "auto-gabriel-attal-services-publics-0b16aea25279",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "gabriel-attal",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "Notre combat : faire monter les salaires.",
+            "relevance": "direct",
+            "statement": "Faire monter les salaires pour que le travail permette de vivre.",
+            "topic": "pouvoir-achat-travail"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "Présent à l'identique dans le canonique actuel.",
+            "related_proposal_id": "auto-gabriel-attal-pouvoir-achat-travail-7a91e45ad6d8",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "gabriel-attal",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "Nos frontières sont vitales, elles doivent être protégées.",
+            "relevance": "direct",
+            "statement": "Protéger les frontières.",
+            "topic": "immigration-integration"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "Nouvelle proposition explicite sur les frontières soutenue par la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "gabriel-attal",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "Reprendre en main nos finances publiques.",
+            "relevance": "direct",
+            "statement": "Reprendre en main les finances publiques et résorber la dette de l'État.",
+            "topic": "economie-finances"
+          },
+          "verdict": {
+            "index": 3,
+            "reason": "Présent à l'identique dans le canonique actuel.",
+            "related_proposal_id": "auto-gabriel-attal-economie-finances-9f45e1d61977",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [
+        {
+          "claim": {
+            "actor_id": "gabriel-attal",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "Nos frontières sont vitales, elles doivent être protégées.",
+            "relevance": "direct",
+            "statement": "Protéger les frontières.",
+            "topic": "immigration-integration"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "Nouvelle proposition explicite sur les frontières soutenue par la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "completed_at": "2026-09-05T05:56:52+00:00",
+      "created_at": "2026-09-05T05:56:41+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "64c45da36a32d401ab74ddce449436ad1a478b2a03847264f2e5f2747d800938",
+      "source_title": "Mes chantiers capitaux | attalpresident.fr",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-05T05:56:47+00:00",
+      "url": "https://attalpresident.fr/programme"
     },
     "344690d0791e1668301a3cf8": {
       "canonical_confirmations": [],
@@ -10425,6 +10548,83 @@
       "total": 1,
       "updated_at": "2026-08-20T10:10:15+00:00",
       "url": "https://solutiondemocratique.fr/comparatif-candidats-programme-elections-presidentielles-france-2027/"
+    },
+    "7fd7e89f742519f1df4d2c42": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "gabriel-attal",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "l’effort devra d’abord porter sur la dépense sociale",
+            "relevance": "direct",
+            "statement": "L'effort pour réduire la dette publique doit porter en priorité sur la dépense sociale.",
+            "topic": "economie-finances"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "L'affirmation sur la dépense sociale est explicitement soutenue par la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "gabriel-attal",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "zéro déficit en 10 ans maximum",
+            "relevance": "direct",
+            "statement": "L'objectif budgétaire est d'atteindre le zéro déficit en 10 ans maximum.",
+            "topic": "economie-finances"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "Déjà présent dans le canonique.",
+            "related_proposal_id": "auto-gabriel-attal-economie-finances-7d59510bf5b0",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [
+        {
+          "claim": {
+            "actor_id": "gabriel-attal",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "l’effort devra d’abord porter sur la dépense sociale",
+            "relevance": "direct",
+            "statement": "L'effort pour réduire la dette publique doit porter en priorité sur la dépense sociale.",
+            "topic": "economie-finances"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "L'affirmation sur la dépense sociale est explicitement soutenue par la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "completed_at": "2026-09-05T05:57:01+00:00",
+      "created_at": "2026-09-05T05:56:53+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "fa7a9d84c95e99f9c18318e5d9a1d3685639172dc6ce9147a62582d33c3b3abc",
+      "source_title": "Dette de l'État | attalpresident.fr",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-05T05:56:58+00:00",
+      "url": "https://attalpresident.fr/programme/dette-de-letat"
     },
     "82001938259fb2afc9966edf": {
       "canonical_confirmations": [
@@ -17650,6 +17850,94 @@
       "updated_at": "2026-08-24T19:56:52+00:00",
       "url": "https://www.youtube.com/shorts/x4vUcrG4Vso"
     },
+    "c56c63e454ffe7798351ab54": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "réduire drastiquement l’immigration",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau souhaite soumettre un texte par référendum pour réduire drastiquement l'immigration.",
+            "topic": "immigration-integration"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Présent dans le canonique actuel.",
+            "related_proposal_id": "auto-bruno-retailleau-immigration-integration-39955feaadc3",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "engager une véritable révolution de notre justice pénale",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau propose d'engager une révolution de la justice pénale par référendum.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "Présent dans le canonique actuel.",
+            "related_proposal_id": "auto-bruno-retailleau-securite-justice-703dc438f470",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "redonner la primauté à notre droit national",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau souhaite redonner la primauté au droit national par voie de référendum.",
+            "topic": "europe-souverainete"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "Présent dans le canonique actuel.",
+            "related_proposal_id": "auto-bruno-retailleau-europe-souverainete-ed8d0d14bccb",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-09-05T05:56:40+00:00",
+      "created_at": "2026-09-05T05:56:31+00:00",
+      "document_types": [
+        "candidacy_declaration"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-02-12"
+      ],
+      "sha256": "fc07db5c1ca8225252574db5aacaac0c37101d83d3759f97fc8dc17dd7d1d4b9",
+      "source_title": "Je suis candidat à l'élection présidentielle. - Les Républicains",
+      "statuses": [
+        {
+          "status": {
+            "candidate_id": "bruno-retailleau",
+            "effective_date": "2026-02-12",
+            "evidence_quote": "Je suis candidat à l’élection présidentielle",
+            "explicit": true,
+            "new_status": "declared_presidential"
+          }
+        }
+      ],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-05T05:56:35+00:00",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
     "c6af810e101bd901f4bb31a6": {
       "canonical_confirmations": [
         {
@@ -23121,6 +23409,15 @@
       "status": "promoted",
       "url": "https://www.unenouvelleenergie.fr/notre-programme/"
     },
+    "2028f307a0d0": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-09-05T05:57:01+00:00",
+      "reason": null,
+      "source_sha256": "fa7a9d84c95e99f9c18318e5d9a1d3685639172dc6ce9147a62582d33c3b3abc",
+      "status": "promoted",
+      "url": "https://attalpresident.fr/programme/dette-de-letat"
+    },
     "20d46eb53f88": {
       "processed_at": "2026-08-11T09:26:34+00:00",
       "reason": "explicit_old_election_context",
@@ -24240,6 +24537,15 @@
       "status": "not_confirmed",
       "url": "https://solutiondemocratique.fr/benoit-mathieu-programme-2027/"
     },
+    "9bee1f791096": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-09-05T05:56:52+00:00",
+      "reason": null,
+      "source_sha256": "64c45da36a32d401ab74ddce449436ad1a478b2a03847264f2e5f2747d800938",
+      "status": "promoted",
+      "url": "https://attalpresident.fr/programme"
+    },
     "9d46faf51e90": {
       "chunks_done": null,
       "chunks_total": null,
@@ -24635,6 +24941,15 @@
       "processed_at": "2026-09-04T06:07:00+00:00",
       "reason": "canonical_duplicate_evidence",
       "source_sha256": "7c84be79997947741a46e4745ca3f72ca8a8aabea66d4960ee413c1801822dde",
+      "status": "promoted",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
+    "c3045aeb9053": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-05T05:56:40+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "fc07db5c1ca8225252574db5aacaac0c37101d83d3759f97fc8dc17dd7d1d4b9",
       "status": "promoted",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
