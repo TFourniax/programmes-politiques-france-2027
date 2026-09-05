@@ -1543,7 +1543,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-09-05T16:13:42+00:00",
+  "last_run_at": "2026-09-05T21:27:52+00:00",
   "source_chunks": {
     "009ea6ddfcaa5e8d4f6a7064": {
       "canonical_confirmations": [],
@@ -4464,7 +4464,7 @@
           }
         }
       ],
-      "completed_at": "2026-09-05T16:13:34+00:00",
+      "completed_at": "2026-09-05T21:27:41+00:00",
       "created_at": "2026-09-05T05:56:41+00:00",
       "document_types": [
         "campaign_website_page"
@@ -4479,7 +4479,7 @@
       "statuses": [],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-09-05T16:13:34+00:00",
+      "updated_at": "2026-09-05T21:27:41+00:00",
       "url": "https://attalpresident.fr/programme"
     },
     "344690d0791e1668301a3cf8": {
@@ -7322,6 +7322,84 @@
       "total": 1,
       "updated_at": "2026-08-14T14:36:31+00:00",
       "url": "https://solutiondemocratique.fr/lydie-massard-programme-presidentielle2027/"
+    },
+    "5046a1f8bc2db9ef260a58aa": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "réduire drastiquement l’immigration",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau souhaite réduire drastiquement l'immigration par voie de référendum.",
+            "topic": "immigration-integration"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Déjà présent dans le canonique avec le même sens et la même source.",
+            "related_proposal_id": "auto-bruno-retailleau-immigration-integration-39955feaadc3",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "engager une véritable révolution de notre justice pénale",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau souhaite engager une véritable révolution de la justice pénale par référendum.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "Déjà présent dans le canonique.",
+            "related_proposal_id": "auto-bruno-retailleau-securite-justice-703dc438f470",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "redonner la primauté à notre droit national",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau souhaite redonner la primauté au droit national par référendum.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "Déjà présent dans le canonique.",
+            "related_proposal_id": "auto-bruno-retailleau-institutions-democratie-916dbcbd3347",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-09-05T21:27:38+00:00",
+      "created_at": "2026-09-05T21:27:29+00:00",
+      "document_types": [
+        "candidacy_declaration"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-02-12"
+      ],
+      "sha256": "91c8c9dab891f3ec6b3369784cbcd48403fdb6fd376b1ec19e033bd9e35ad612",
+      "source_title": "Je suis candidat à l'élection présidentielle. - Les Républicains",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-05T21:27:34+00:00",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
     "50622a201742127d88ae841d": {
       "claims": [
@@ -10798,7 +10876,7 @@
           }
         }
       ],
-      "completed_at": "2026-09-05T05:57:01+00:00",
+      "completed_at": "2026-09-05T21:27:48+00:00",
       "created_at": "2026-09-05T05:56:53+00:00",
       "document_types": [
         "campaign_website_page"
@@ -10813,7 +10891,7 @@
       "statuses": [],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-09-05T05:56:58+00:00",
+      "updated_at": "2026-09-05T21:27:48+00:00",
       "url": "https://attalpresident.fr/programme/dette-de-letat"
     },
     "82001938259fb2afc9966edf": {
@@ -12963,6 +13041,26 @@
       "total": 1,
       "updated_at": "2026-08-22T07:57:32+00:00",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
+    "a311805f380578a6f3dbff04": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-09-05T21:27:52+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "c8c37a68bab5f0faa19f240f2df4231b04a183ee1ba190aa08f2b40ae28debde",
+      "source_title": "Le RN est le cheval de Troie de Trump et Poutine en France. Les ennemis de notre pays souhaitent la victoire de Marine Le Pen car cette alliée les aidera à abattre l'Europe. En r",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-05T21:27:54+00:00",
+      "url": "https://bsky.app/profile/marinetondelier.fr/post/3mus26s7zc22j"
     },
     "a62ba97f9981703fdc3fc130": {
       "canonical_confirmations": [],
@@ -23560,6 +23658,15 @@
       "status": "promoted",
       "url": "https://solutiondemocratique.fr/francois-asselineau-2027-programme/"
     },
+    "118fd2d45809": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-05T21:27:38+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "91c8c9dab891f3ec6b3369784cbcd48403fdb6fd376b1ec19e033bd9e35ad612",
+      "status": "promoted",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
     "130012fb6774": {
       "chunks_done": null,
       "chunks_total": null,
@@ -24426,6 +24533,15 @@
       "source_sha256": "2e4f4b839a0ef04179235be84c4cbf1b78bf987a1074b2c258be91f38b0f57cc",
       "status": "not_confirmed",
       "url": "https://www.unenouvelleenergie.fr/questions/ou-trouver-le-programme-de-david-lisnard/"
+    },
+    "6ecb0dc77a63": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-09-05T21:27:52+00:00",
+      "reason": null,
+      "source_sha256": "fa7a9d84c95e99f9c18318e5d9a1d3685639172dc6ce9147a62582d33c3b3abc",
+      "status": "promoted",
+      "url": "https://attalpresident.fr/programme/dette-de-letat"
     },
     "6fa2b15acfa7": {
       "chunks_done": null,
@@ -25407,6 +25523,15 @@
       "source_sha256": "525a32e7e7887a43207986b344359a3a571ed52d448de4d02b12f598c0d60e57",
       "status": "promoted",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
+    "cdd4df689434": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-09-05T21:27:46+00:00",
+      "reason": null,
+      "source_sha256": "64c45da36a32d401ab74ddce449436ad1a478b2a03847264f2e5f2747d800938",
+      "status": "promoted",
+      "url": "https://attalpresident.fr/programme"
     },
     "cde45deca5fb": {
       "chunks_done": null,
