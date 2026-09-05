@@ -13,8 +13,8 @@
     "active_candidate_covered_cells": 54,
     "active_candidate_total_cells": 324,
     "active_candidate_topic_coverage_ratio": 0.1667,
-    "verified_proposals": 1231,
-    "multi_source_proposals": 39,
+    "verified_proposals": 1232,
+    "multi_source_proposals": 40,
     "latest_evidence_at": "2026-09-05",
     "certainty_counts": {
       "explicit": 1246,
@@ -381,9 +381,9 @@
       ],
       "coverage_ratio": 1.0,
       "gaps": [],
-      "latest_evidence_at": "2026-09-04",
-      "verified_proposals": 34,
-      "multi_source_proposals": 4
+      "latest_evidence_at": "2026-09-05",
+      "verified_proposals": 35,
+      "multi_source_proposals": 5
     },
     {
       "id": "debout",
@@ -1338,7 +1338,7 @@
         "securite-justice",
         "numerique-ia"
       ],
-      "latest_evidence_at": "2026-09-04",
+      "latest_evidence_at": "2026-09-05",
       "verified_proposals": 13,
       "multi_source_proposals": 9
     },
@@ -1964,7 +1964,7 @@
       "current_proposals": 19,
       "actors_covered": 11,
       "actor_coverage_ratio": 0.1618,
-      "latest_evidence_at": "2026-09-04",
+      "latest_evidence_at": "2026-09-05",
       "verified_proposals": 16,
       "multi_source_proposals": 3
     },
@@ -2055,8 +2055,8 @@
       "actors_covered": 12,
       "actor_coverage_ratio": 0.1765,
       "latest_evidence_at": "2026-09-05",
-      "verified_proposals": 115,
-      "multi_source_proposals": 7
+      "verified_proposals": 116,
+      "multi_source_proposals": 8
     },
     {
       "id": "numerique-ia",
@@ -2784,7 +2784,7 @@
       "status": "declared_presidential",
       "coverage_ratio": 1.0,
       "current_proposals": 39,
-      "latest_evidence_at": "2026-09-04",
+      "latest_evidence_at": "2026-09-05",
       "topics": [
         {
           "id": "pouvoir-achat-travail",
@@ -2881,9 +2881,9 @@
           "label": "Économie & finances publiques",
           "covered": true,
           "current_proposals": 5,
-          "latest_evidence_at": "2026-09-04",
-          "verified_proposals": 3,
-          "multi_source_proposals": 1
+          "latest_evidence_at": "2026-09-05",
+          "verified_proposals": 4,
+          "multi_source_proposals": 2
         },
         {
           "id": "numerique-ia",

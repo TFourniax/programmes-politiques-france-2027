@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created_at": "2026-08-17T19:57:19.441897+00:00",
-  "updated_at": "2026-09-05T05:57:05.219110+00:00",
+  "updated_at": "2026-09-05T11:25:17.734067+00:00",
   "files": [
     {
       "path": "corpus/2027/auto/candidates/anasse-kazib/2026-08-28-38891602d9d9.md",
@@ -304,6 +304,11 @@
       "size": 2095
     },
     {
+      "path": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-f5a063386c8b.md",
+      "sha256": "25dc048edcef43d860978adcc664590bcfda6d2a5487dda4ced39b1d56bc4cf1",
+      "size": 2076
+    },
+    {
       "path": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-facf4ffe9717.md",
       "sha256": "28fa49d29b8ba20636a32a94f31c859ea828f567c54609b0e51de3f66fb3aad7",
       "size": 2229
@@ -594,6 +599,11 @@
       "size": 2323
     },
     {
+      "path": "corpus/2027/auto/partys/nouvelle-energie/2026-09-05-5d55951ce3c5.md",
+      "sha256": "cfc34e2d4159231707ed020d1a484842dc8aca1c7b3e99f22b43f82405f79a99",
+      "size": 1826
+    },
+    {
       "path": "corpus/2027/auto/partys/rassemblement-national/2026-08-25-102fb3404440.md",
       "sha256": "b30baa5073e63539f4a1846bd9ced3df8aaef2e5c5061223810d3d74dfcf8a66",
       "size": 1581
@@ -855,8 +865,8 @@
     },
     {
       "path": "proposals/auto/europe-souverainete/auto-bruno-retailleau-europe-souverainete-ed8d0d14bccb.md",
-      "sha256": "795bd49abb4b8741cd8beb53f081f37d265cbd688d904c353abe1cdc672642f0",
-      "size": 4774
+      "sha256": "adfc8e3d04232d1adaa9d783d716cc30042b9410deca432ab7138bac16209074",
+      "size": 4887
     },
     {
       "path": "proposals/auto/europe-souverainete/auto-les-ecologistes-europe-souverainete-06952d144d39.md",
@@ -930,8 +940,8 @@
     },
     {
       "path": "proposals/auto/immigration-integration/auto-bruno-retailleau-immigration-integration-39955feaadc3.md",
-      "sha256": "15181b0f52b833bcca3ebe1ec6525321a0e35d35c578cc19c5d871f583a723b1",
-      "size": 8436
+      "sha256": "2a31039c8fe065f40a301ddc51b8dbcb2bac37499c7048e616020270f1fd404a",
+      "size": 8549
     },
     {
       "path": "proposals/auto/immigration-integration/auto-gabriel-attal-immigration-integration-948caa2232b2.md",
@@ -1140,13 +1150,13 @@
     },
     {
       "path": "proposals/auto/retraites/auto-nouvelle-energie-retraites-4b9149336ab7.md",
-      "sha256": "719bad103fa39ba42be31a634db39fc96a52184fef143393cd6637e32d791dea",
-      "size": 3541
+      "sha256": "32a1a988ee56c2a850483c2c74e28c0c6bd87b595daa2f177c1cd0a654e6f82c",
+      "size": 3658
     },
     {
       "path": "proposals/auto/securite-justice/auto-bruno-retailleau-securite-justice-703dc438f470.md",
-      "sha256": "8130891057e7ca47ece54ff81979897b3c8319831a15ae96e3950d0a0488d9bf",
-      "size": 6729
+      "sha256": "3a6c7d83634c59e00485c6f491180fe01fa51f30e69c8ec5e67d155e68891e11",
+      "size": 6844
     },
     {
       "path": "proposals/auto/securite-justice/auto-bruno-retailleau-securite-justice-7b2b02ba25a3.md",
@@ -1382,6 +1392,11 @@
       "path": "proposals/ecologie-energie/les-ecologistes-location-sociale-vehicules-electriques.md",
       "sha256": "54b89c329a6ee9d3baa1937f16872e6374cb4ad88b8be90b1f26bbf46c119b0a",
       "size": 916
+    },
+    {
+      "path": "proposals/economie-finances/david-lisnard-reduction-depenses.md",
+      "sha256": "510d53f0d6a6638c6c3e2208d5420c4204c136fae0ed987d787e014abd76f547",
+      "size": 958
     },
     {
       "path": "proposals/fiscalite-redistribution/les-ecologistes-impot-plancher-patrimoine.md",
