@@ -1543,7 +1543,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-09-06T06:08:20+00:00",
+  "last_run_at": "2026-09-06T11:47:34+00:00",
   "source_chunks": {
     "009ea6ddfcaa5e8d4f6a7064": {
       "canonical_confirmations": [],
@@ -4464,7 +4464,7 @@
           }
         }
       ],
-      "completed_at": "2026-09-06T06:08:12+00:00",
+      "completed_at": "2026-09-06T11:47:18+00:00",
       "created_at": "2026-09-05T05:56:41+00:00",
       "document_types": [
         "campaign_website_page"
@@ -4479,7 +4479,7 @@
       "statuses": [],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-09-06T06:08:04+00:00",
+      "updated_at": "2026-09-06T11:47:18+00:00",
       "url": "https://attalpresident.fr/programme"
     },
     "344690d0791e1668301a3cf8": {
@@ -10964,7 +10964,7 @@
           }
         }
       ],
-      "completed_at": "2026-09-06T06:08:19+00:00",
+      "completed_at": "2026-09-06T11:47:28+00:00",
       "created_at": "2026-09-05T05:56:53+00:00",
       "document_types": [
         "campaign_website_page"
@@ -10979,7 +10979,7 @@
       "statuses": [],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-09-06T06:08:14+00:00",
+      "updated_at": "2026-09-06T11:47:28+00:00",
       "url": "https://attalpresident.fr/programme/dette-de-letat"
     },
     "82001938259fb2afc9966edf": {
@@ -13149,6 +13149,94 @@
       "total": 1,
       "updated_at": "2026-09-05T21:27:54+00:00",
       "url": "https://bsky.app/profile/marinetondelier.fr/post/3mus26s7zc22j"
+    },
+    "a376390ad68514456ea870f6": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "réduire drastiquement l’immigration",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau propose de soumettre par référendum des textes pour réduire drastiquement l'immigration.",
+            "topic": "immigration-integration"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Explicitement présent dans le texte source et déjà enregistré dans le canon.",
+            "related_proposal_id": "auto-bruno-retailleau-immigration-integration-39955feaadc3",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "véritable révolution de notre justice pénale",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau propose d'engager une révolution de la justice pénale par référendum.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "Explicitement soutenu par la source et présent dans le canon.",
+            "related_proposal_id": "auto-bruno-retailleau-securite-justice-703dc438f470",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "redonner la primauté à notre droit national",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau propose de redonner la primauté au droit national par référendum.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "Explicitement soutenu par la source et présent dans le canon.",
+            "related_proposal_id": "auto-bruno-retailleau-institutions-democratie-916dbcbd3347",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-09-06T11:47:16+00:00",
+      "created_at": "2026-09-06T11:47:04+00:00",
+      "document_types": [
+        "official_speech"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-02-12"
+      ],
+      "sha256": "4b1dc198231596cb90ab0785af692741f456bf4d0f7b33ccd10b367b0b112d8b",
+      "source_title": "Je suis candidat à l'élection présidentielle. - Les Républicains",
+      "statuses": [
+        {
+          "status": {
+            "candidate_id": "bruno-retailleau",
+            "effective_date": "2026-02-12",
+            "evidence_quote": "Je suis candidat à l’élection présidentielle.",
+            "explicit": true,
+            "new_status": "declared_presidential"
+          }
+        }
+      ],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-06T11:47:09+00:00",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
     "a62ba97f9981703fdc3fc130": {
       "canonical_confirmations": [],
@@ -24239,6 +24327,15 @@
       "status": "not_confirmed",
       "url": "https://solutiondemocratique.fr/nicolas-dupont-aignan-programme-presidentielle2027/"
     },
+    "40366174a6ec": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-06T11:47:16+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "4b1dc198231596cb90ab0785af692741f456bf4d0f7b33ccd10b367b0b112d8b",
+      "status": "promoted",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
     "408d4c6e1ef5": {
       "chunks_done": null,
       "chunks_total": 1,
@@ -25214,6 +25311,15 @@
       "status": "promoted",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
+    "adb6af675603": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-09-06T11:47:33+00:00",
+      "reason": null,
+      "source_sha256": "fa7a9d84c95e99f9c18318e5d9a1d3685639172dc6ce9147a62582d33c3b3abc",
+      "status": "promoted",
+      "url": "https://attalpresident.fr/programme/dette-de-letat"
+    },
     "ae946f8bbaf8": {
       "chunks_done": null,
       "chunks_total": 1,
@@ -25496,6 +25602,15 @@
       "source_sha256": "6b81ee9f94519b6e7913d8e7c0b32149df8bbabad9e12fa1eba8ad07a2b39c44",
       "status": "promoted",
       "url": "https://www.unenouvelleenergie.fr/questions/david-lisnard-est-il-candidat-a-la-presidentielle-2027/"
+    },
+    "c48cb1cf5298": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-09-06T11:47:26+00:00",
+      "reason": null,
+      "source_sha256": "64c45da36a32d401ab74ddce449436ad1a478b2a03847264f2e5f2747d800938",
+      "status": "promoted",
+      "url": "https://attalpresident.fr/programme"
     },
     "c57bd865c4a4": {
       "chunks_done": null,
