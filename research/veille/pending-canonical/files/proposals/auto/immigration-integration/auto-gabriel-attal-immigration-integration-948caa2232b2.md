@@ -5,7 +5,7 @@ entity_id: gabriel-attal
 topic: immigration-integration
 certainty: explicit
 proposal_status: current
-source_document_ids: [auto-gabriel-attal-2026-09-05-339da5119b58]
+source_document_ids: [auto-gabriel-attal-2026-09-05-339da5119b58, auto-gabriel-attal-2026-09-06-339da5119b58]
 source_url: https://attalpresident.fr/programme
 source_tier: tier_1_primary_official
 first_documented_at: '2026-09-05'
@@ -14,6 +14,10 @@ verification_state: verified
 verification_method: primary_source_exact_quote_plus_independent_gemini_verifier_plus_chronology_guard
 evidence_sha256: 64c45da36a32d401ab74ddce449436ad1a478b2a03847264f2e5f2747d800938
 generated_by: scripts/auto_promote.py
+source_urls: ['https://attalpresident.fr/programme']
+evidence_sha256s: [64c45da36a32d401ab74ddce449436ad1a478b2a03847264f2e5f2747d800938]
+confirmation_count: 2
+last_confirmed_at: '2026-09-06'
 ---
 
 # Protéger les frontières

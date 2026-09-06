@@ -8,7 +8,8 @@ proposal_status: current
 source_document_ids: [auto-gabriel-attal-2026-08-23-fdf140209a7b, auto-gabriel-attal-2026-08-24-fdf140209a7b, auto-gabriel-attal-2026-08-25-fdf140209a7b,
   auto-gabriel-attal-2026-08-26-fdf140209a7b, auto-gabriel-attal-2026-08-29-fdf140209a7b, auto-gabriel-attal-2026-08-30-fdf140209a7b,
   auto-gabriel-attal-2026-08-31-fdf140209a7b, auto-gabriel-attal-2026-09-01-fdf140209a7b, auto-gabriel-attal-2026-09-02-fdf140209a7b,
-  auto-gabriel-attal-2026-09-03-fdf140209a7b, auto-gabriel-attal-2026-09-04-fdf140209a7b, auto-gabriel-attal-2026-09-05-7fd7e89f7425]
+  auto-gabriel-attal-2026-09-03-fdf140209a7b, auto-gabriel-attal-2026-09-04-fdf140209a7b, auto-gabriel-attal-2026-09-05-7fd7e89f7425,
+  auto-gabriel-attal-2026-09-06-7fd7e89f7425]
 source_url: https://attalpresident.fr/programme/dette-de-letat
 source_tier: tier_1_primary_official
 first_documented_at: '2026-08-23'
@@ -19,8 +20,8 @@ evidence_sha256: ed477781633623166c7a9a45247cdc01b13b4fadbc7641b71469d027b63713d
 generated_by: scripts/auto_promote.py
 source_urls: ['https://attalpresident.fr/programme/dette-de-letat']
 evidence_sha256s: [ed477781633623166c7a9a45247cdc01b13b4fadbc7641b71469d027b63713d3, fa7a9d84c95e99f9c18318e5d9a1d3685639172dc6ce9147a62582d33c3b3abc]
-confirmation_count: 12
-last_confirmed_at: '2026-09-05'
+confirmation_count: 13
+last_confirmed_at: '2026-09-06'
 ---
 
 # L'objectif est d'atteindre zéro déficit en 10 ans maximum

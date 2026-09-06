@@ -1543,7 +1543,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-09-05T21:27:52+00:00",
+  "last_run_at": "2026-09-06T06:08:20+00:00",
   "source_chunks": {
     "009ea6ddfcaa5e8d4f6a7064": {
       "canonical_confirmations": [],
@@ -4464,7 +4464,7 @@
           }
         }
       ],
-      "completed_at": "2026-09-05T21:27:41+00:00",
+      "completed_at": "2026-09-06T06:08:12+00:00",
       "created_at": "2026-09-05T05:56:41+00:00",
       "document_types": [
         "campaign_website_page"
@@ -4479,7 +4479,7 @@
       "statuses": [],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-09-05T21:27:41+00:00",
+      "updated_at": "2026-09-06T06:08:04+00:00",
       "url": "https://attalpresident.fr/programme"
     },
     "344690d0791e1668301a3cf8": {
@@ -5173,6 +5173,94 @@
       "text_truncated": false,
       "total": 1,
       "updated_at": "2026-08-21T19:51:06+00:00",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
+    "3a67e85f376aecc882192259": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "réduire drastiquement l’immigration",
+            "relevance": "direct",
+            "statement": "Il souhaite réduire drastiquement l'immigration par référendum.",
+            "topic": "immigration-integration"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Présent à l'identique dans le canonique.",
+            "related_proposal_id": "auto-bruno-retailleau-immigration-integration-39955feaadc3",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "engager une véritable révolution de notre justice pénale",
+            "relevance": "direct",
+            "statement": "Il veut engager une révolution de la justice pénale par référendum.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "Présent à l'identique dans le canonique.",
+            "related_proposal_id": "auto-bruno-retailleau-securite-justice-703dc438f470",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "redonner la primauté à notre droit national",
+            "relevance": "direct",
+            "statement": "Il veut redonner la primauté au droit national par référendum.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "Présent à l'identique dans le canonique.",
+            "related_proposal_id": "auto-bruno-retailleau-institutions-democratie-916dbcbd3347",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-09-06T06:08:01+00:00",
+      "created_at": "2026-09-06T06:07:50+00:00",
+      "document_types": [
+        "candidacy_declaration"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-02-12"
+      ],
+      "sha256": "09ee6a974035c5ed99d2393bf3c4540cfee44edbe9260163e3889ba98e923237",
+      "source_title": "Je suis candidat à l'élection présidentielle. - Les Républicains",
+      "statuses": [
+        {
+          "status": {
+            "candidate_id": "bruno-retailleau",
+            "effective_date": "2026-02-12",
+            "evidence_quote": "Je suis candidat à l’élection présidentielle.",
+            "explicit": true,
+            "new_status": "declared_presidential"
+          }
+        }
+      ],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-06T06:07:55+00:00",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
     "3a8ec20cb38624f36d016125": {
@@ -10876,7 +10964,7 @@
           }
         }
       ],
-      "completed_at": "2026-09-05T21:27:48+00:00",
+      "completed_at": "2026-09-06T06:08:19+00:00",
       "created_at": "2026-09-05T05:56:53+00:00",
       "document_types": [
         "campaign_website_page"
@@ -10891,7 +10979,7 @@
       "statuses": [],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-09-05T21:27:48+00:00",
+      "updated_at": "2026-09-06T06:08:14+00:00",
       "url": "https://attalpresident.fr/programme/dette-de-letat"
     },
     "82001938259fb2afc9966edf": {
@@ -23899,6 +23987,15 @@
       "status": "promoted",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
+    "2b5b5731084f": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-09-06T06:08:19+00:00",
+      "reason": null,
+      "source_sha256": "fa7a9d84c95e99f9c18318e5d9a1d3685639172dc6ce9147a62582d33c3b3abc",
+      "status": "promoted",
+      "url": "https://attalpresident.fr/programme/dette-de-letat"
+    },
     "2c661186c2b3": {
       "chunks_done": null,
       "chunks_total": null,
@@ -24310,6 +24407,15 @@
       "processed_at": "2026-09-01T12:45:16+00:00",
       "reason": "canonical_duplicate_evidence",
       "source_sha256": "ee6abf4f0fa111e5afe7720576e13f1bcad16dac8b12acc8ef323fd87c8d3eda",
+      "status": "promoted",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
+    "531fb3057958": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-06T06:08:01+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "09ee6a974035c5ed99d2393bf3c4540cfee44edbe9260163e3889ba98e923237",
       "status": "promoted",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
@@ -25836,6 +25942,15 @@
       "source_sha256": "8590410748b507a013e518a4233b08bd8382b420c01ebe591f638050e28b508e",
       "status": "promoted",
       "url": "https://melenchon2027.fr/programme2025/livre/chapitre4/"
+    },
+    "ea011f5baf80": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-09-06T06:08:12+00:00",
+      "reason": null,
+      "source_sha256": "64c45da36a32d401ab74ddce449436ad1a478b2a03847264f2e5f2747d800938",
+      "status": "promoted",
+      "url": "https://attalpresident.fr/programme"
     },
     "ea905626cb2e": {
       "chunks_done": null,

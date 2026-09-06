@@ -14,8 +14,8 @@
     "active_candidate_total_cells": 324,
     "active_candidate_topic_coverage_ratio": 0.1667,
     "verified_proposals": 1232,
-    "multi_source_proposals": 40,
-    "latest_evidence_at": "2026-09-05",
+    "multi_source_proposals": 42,
+    "latest_evidence_at": "2026-09-06",
     "certainty_counts": {
       "explicit": 1246,
       "explicit_but_conditional": 3,
@@ -680,9 +680,9 @@
         "institutions-democratie",
         "numerique-ia"
       ],
-      "latest_evidence_at": "2026-09-05",
+      "latest_evidence_at": "2026-09-06",
       "verified_proposals": 7,
-      "multi_source_proposals": 5
+      "multi_source_proposals": 7
     },
     {
       "id": "generation-ecologie",
@@ -1954,7 +1954,7 @@
       "current_proposals": 64,
       "actors_covered": 16,
       "actor_coverage_ratio": 0.2353,
-      "latest_evidence_at": "2026-09-05",
+      "latest_evidence_at": "2026-09-06",
       "verified_proposals": 56,
       "multi_source_proposals": 4
     },
@@ -1984,9 +1984,9 @@
       "current_proposals": 62,
       "actors_covered": 11,
       "actor_coverage_ratio": 0.1618,
-      "latest_evidence_at": "2026-09-05",
+      "latest_evidence_at": "2026-09-06",
       "verified_proposals": 56,
-      "multi_source_proposals": 2
+      "multi_source_proposals": 3
     },
     {
       "id": "europe-souverainete",
@@ -2034,7 +2034,7 @@
       "current_proposals": 228,
       "actors_covered": 12,
       "actor_coverage_ratio": 0.1765,
-      "latest_evidence_at": "2026-09-05",
+      "latest_evidence_at": "2026-09-06",
       "verified_proposals": 224,
       "multi_source_proposals": 4
     },
@@ -2054,9 +2054,9 @@
       "current_proposals": 117,
       "actors_covered": 12,
       "actor_coverage_ratio": 0.1765,
-      "latest_evidence_at": "2026-09-05",
+      "latest_evidence_at": "2026-09-06",
       "verified_proposals": 116,
-      "multi_source_proposals": 8
+      "multi_source_proposals": 9
     },
     {
       "id": "numerique-ia",
@@ -3374,14 +3374,14 @@
       "status": "declared_presidential",
       "coverage_ratio": 0.4167,
       "current_proposals": 7,
-      "latest_evidence_at": "2026-09-05",
+      "latest_evidence_at": "2026-09-06",
       "topics": [
         {
           "id": "pouvoir-achat-travail",
           "label": "Pouvoir d’achat & travail",
           "covered": true,
           "current_proposals": 1,
-          "latest_evidence_at": "2026-09-05",
+          "latest_evidence_at": "2026-09-06",
           "verified_proposals": 1,
           "multi_source_proposals": 1
         },
@@ -3408,9 +3408,9 @@
           "label": "Immigration & intégration",
           "covered": true,
           "current_proposals": 1,
-          "latest_evidence_at": "2026-09-05",
+          "latest_evidence_at": "2026-09-06",
           "verified_proposals": 1,
-          "multi_source_proposals": 0
+          "multi_source_proposals": 1
         },
         {
           "id": "europe-souverainete",
@@ -3453,7 +3453,7 @@
           "label": "Services publics",
           "covered": true,
           "current_proposals": 1,
-          "latest_evidence_at": "2026-09-05",
+          "latest_evidence_at": "2026-09-06",
           "verified_proposals": 1,
           "multi_source_proposals": 1
         },
@@ -3471,9 +3471,9 @@
           "label": "Économie & finances publiques",
           "covered": true,
           "current_proposals": 3,
-          "latest_evidence_at": "2026-09-05",
+          "latest_evidence_at": "2026-09-06",
           "verified_proposals": 3,
-          "multi_source_proposals": 2
+          "multi_source_proposals": 3
         },
         {
           "id": "numerique-ia",
@@ -5736,7 +5736,7 @@
       "status": "declared_presidential",
       "coverage_ratio": 0.4167,
       "current_proposals": 7,
-      "latest_evidence_at": "2026-09-05",
+      "latest_evidence_at": "2026-09-06",
       "gaps": [
         "retraites",
         "fiscalite-redistribution",
