@@ -1543,7 +1543,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-09-06T16:27:44+00:00",
+  "last_run_at": "2026-09-06T21:33:59+00:00",
   "source_chunks": {
     "009ea6ddfcaa5e8d4f6a7064": {
       "canonical_confirmations": [],
@@ -4504,7 +4504,7 @@
           }
         }
       ],
-      "completed_at": "2026-09-06T16:27:38+00:00",
+      "completed_at": "2026-09-06T21:33:52+00:00",
       "created_at": "2026-09-05T05:56:41+00:00",
       "document_types": [
         "campaign_website_page"
@@ -4519,7 +4519,7 @@
       "statuses": [],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-09-06T16:27:38+00:00",
+      "updated_at": "2026-09-06T21:33:52+00:00",
       "url": "https://attalpresident.fr/programme"
     },
     "344690d0791e1668301a3cf8": {
@@ -4944,6 +4944,94 @@
       "text_truncated": false,
       "total": 1,
       "updated_at": "2026-09-03T17:14:37+00:00",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
+    "3671cfb92c0144e2481ae990": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "réduire drastiquement l’immigration",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau propose de soumettre par référendum un texte pour réduire drastiquement l'immigration.",
+            "topic": "immigration-integration"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Le claim sur la réduction de l'immigration par référendum est explicitement présent dans la source et déjà présent dans le canonique.",
+            "related_proposal_id": "auto-bruno-retailleau-immigration-integration-39955feaadc3",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "engager une véritable révolution de notre justice pénale",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau propose d'engager une véritable révolution de la justice pénale par référendum.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La révolution de la justice pénale par référendum est explicitement soutenue par la source et correspond à une entrée existante.",
+            "related_proposal_id": "auto-bruno-retailleau-securite-justice-7b2b02ba25a3",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "redonner la primauté à notre droit national",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau propose de redonner la primauté au droit national par référendum.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "La primauté au droit national par référendum est explicitement présente dans la source et dans le canonique.",
+            "related_proposal_id": "auto-bruno-retailleau-institutions-democratie-916dbcbd3347",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-09-06T21:33:50+00:00",
+      "created_at": "2026-09-06T21:33:27+00:00",
+      "document_types": [
+        "candidacy_declaration"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-02-12"
+      ],
+      "sha256": "c17ea450625a16d2a8f0441e7336c1a7d374a3328d0436533217fa96f204e10a",
+      "source_title": "Je suis candidat à l'élection présidentielle. - Les Républicains",
+      "statuses": [
+        {
+          "status": {
+            "candidate_id": "bruno-retailleau",
+            "effective_date": "2026-02-12",
+            "evidence_quote": "Je suis candidat à l’élection présidentielle.",
+            "explicit": true,
+            "new_status": "declared_presidential"
+          }
+        }
+      ],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-06T21:33:45+00:00",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
     "3730000be681957cb2b396bc": {
@@ -9615,6 +9703,100 @@
       "total": 1,
       "updated_at": "2026-09-06T16:27:29+00:00",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
+    "6a0186575ca9571dff789b65": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "david-lisnard",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "un État recentré sur ses missions régaliennes de sécurité et de défense",
+            "relevance": "direct",
+            "statement": "Recentrer l'État sur ses missions régaliennes de sécurité et de défense.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Explicitement présent dans le canonique et soutenu par la source.",
+            "related_proposal_id": "auto-david-lisnard-institutions-democratie-8a7a7019b8f9",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "david-lisnard",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "la libération des énergies créatrices par une profonde débureaucratisation",
+            "relevance": "direct",
+            "statement": "Mettre en œuvre une profonde débureaucratisation pour libérer les énergies créatrices.",
+            "topic": "economie-finances"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "Explicitement présent dans le canonique et soutenu par la source.",
+            "related_proposal_id": "auto-david-lisnard-economie-finances-3591e11af1e3",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "nouvelle-energie",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "suppression de la carte scolaire",
+            "relevance": "party_platform",
+            "statement": "Supprimer la carte scolaire pour donner la liberté aux parents de scolariser leurs enfants.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "Explicitement présent dans le canonique et soutenu par la source.",
+            "related_proposal_id": "auto-nouvelle-energie-services-publics-2dd30b44dc9c",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "nouvelle-energie",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "la liberté pour les travailleurs de se constituer un capital pour leur retraite (capitalisation)",
+            "relevance": "party_platform",
+            "statement": "Permettre aux travailleurs de se constituer un capital pour leur retraite par la capitalisation.",
+            "topic": "retraites"
+          },
+          "verdict": {
+            "index": 3,
+            "reason": "Explicitement présent dans le canonique et soutenu par la source.",
+            "related_proposal_id": "auto-nouvelle-energie-retraites-4b9149336ab7",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-09-06T21:33:24+00:00",
+      "created_at": "2026-09-06T21:33:12+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "adcdf2acaa158399a7b16231e8444690e99313251a57183f285e54e279431fdf",
+      "source_title": "Le programme de David Lisnard | Nouvelle Énergie",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-06T21:33:18+00:00",
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/"
     },
     "6ddba0297dcbdc84d71ad546": {
       "canonical_confirmations": [
@@ -23986,6 +24168,15 @@
       "status": "promoted",
       "url": "https://attalpresident.fr/programme"
     },
+    "099aaa392135": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-06T21:33:24+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "adcdf2acaa158399a7b16231e8444690e99313251a57183f285e54e279431fdf",
+      "status": "promoted",
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/"
+    },
     "0b6653256f9b": {
       "chunks_done": null,
       "chunks_total": 1,
@@ -24129,6 +24320,15 @@
       "source_sha256": "0d8a65a8dc74d4f3b80db285ed2a18b91b378305bd81ab393f4f26637b9e888d",
       "status": "promoted",
       "url": "https://attalpresident.fr/programme"
+    },
+    "1c530898094f": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-06T21:33:50+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "c17ea450625a16d2a8f0441e7336c1a7d374a3328d0436533217fa96f204e10a",
+      "status": "promoted",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
     "1da1127e4b4a": {
       "chunks_done": null,
@@ -26049,6 +26249,15 @@
       "source_sha256": "f93383a69b331dcd04a2dd3ec0aaf5642e46e95d77a4c82b3fc26358675c44cd",
       "status": "promoted",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
+    "d258bbc373c2": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-09-06T21:33:58+00:00",
+      "reason": null,
+      "source_sha256": "64c45da36a32d401ab74ddce449436ad1a478b2a03847264f2e5f2747d800938",
+      "status": "promoted",
+      "url": "https://attalpresident.fr/programme"
     },
     "d39296887b28": {
       "chunks_done": null,

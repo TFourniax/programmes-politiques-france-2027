@@ -11,7 +11,7 @@ source_document_ids: [auto-bruno-retailleau-2026-02-12-ccd1ed6f8270, auto-bruno-
   auto-bruno-retailleau-2026-02-12-8c71cc23d03f, auto-bruno-retailleau-2026-02-12-ac8572a8096f, auto-bruno-retailleau-2026-02-12-5f19db2929c4,
   auto-bruno-retailleau-2026-02-12-d28bc0b77914, auto-bruno-retailleau-2026-02-12-a88290922101, auto-bruno-retailleau-2026-02-12-d1ddaa778edd,
   auto-bruno-retailleau-2026-02-12-b785be0b746d, auto-bruno-retailleau-2026-02-12-22cc291f4917, auto-bruno-retailleau-2026-02-12-35b2a612af85,
-  auto-bruno-retailleau-2026-02-12-e909a57ce67b, auto-bruno-retailleau-2026-02-12-677b90d46be6]
+  auto-bruno-retailleau-2026-02-12-e909a57ce67b, auto-bruno-retailleau-2026-02-12-677b90d46be6, auto-bruno-retailleau-2026-02-12-3671cfb92c01]
 source_url: https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/
 source_tier: tier_1_primary_official
 first_documented_at: '2026-02-12'
@@ -30,8 +30,9 @@ evidence_sha256s: [c7571eb18ab5aa86107951287a70922ea6cd6db418c225d2662b5dd43e99b
   62f71b6f488ed0d65c181b6fae609bb94e7255b4f70ec3dff6eeb68d187a0140, 2c80d04a9f76235f9e358e8381af6cfa0782528ba1a82eab6541575ba0cbfe34,
   7a98611323f2f95f86db54de9baad7721b8377ada9b61aa8e68445391db8c698, 8cf48bc3570dc639e1f00f3c999a84e018e8123db96032c4cdbb144aa3dabf65,
   2138878d92aed7e4822a5a2645219086bdf349ca1c5204521bd1dfde3ae01ec4, be48cb1531fa623a52f2874d80c35cf8fa1f6c715b0b246b2338dadb5f26c514,
-  7c84be79997947741a46e4745ca3f72ca8a8aabea66d4960ee413c1801822dde, 18694e642df4b72c259d821c89c3638bbf172c0e524c0b69e8cc4d65901a5b27]
-confirmation_count: 20
+  7c84be79997947741a46e4745ca3f72ca8a8aabea66d4960ee413c1801822dde, 18694e642df4b72c259d821c89c3638bbf172c0e524c0b69e8cc4d65901a5b27,
+  c17ea450625a16d2a8f0441e7336c1a7d374a3328d0436533217fa96f204e10a]
+confirmation_count: 21
 last_confirmed_at: '2026-02-12'
 ---
 

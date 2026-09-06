@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created_at": "2026-08-17T19:57:19.441897+00:00",
-  "updated_at": "2026-09-06T16:27:52.972096+00:00",
+  "updated_at": "2026-09-06T21:34:03.462071+00:00",
   "files": [
     {
       "path": "corpus/2027/auto/candidates/anasse-kazib/2026-08-28-38891602d9d9.md",
@@ -72,6 +72,11 @@
       "path": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-35b2a612af85.md",
       "sha256": "b5ab3216d974ecd71075335c745d920ea82171624b6166c5eeef7a664e15ea48",
       "size": 2038
+    },
+    {
+      "path": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-3671cfb92c01.md",
+      "sha256": "a851114beed05a4eb9c8a0d389d676668e2049dfbcbf0ef08e47517e3318e190",
+      "size": 2104
     },
     {
       "path": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-3a04c0c88356.md",
@@ -639,6 +644,11 @@
       "size": 1826
     },
     {
+      "path": "corpus/2027/auto/partys/nouvelle-energie/2026-09-06-6a0186575ca9.md",
+      "sha256": "fbd6e5119be3c4e65034acc302818e6f0cfd7217ec6027d07388c6c77885fa01",
+      "size": 2266
+    },
+    {
       "path": "corpus/2027/auto/partys/rassemblement-national/2026-08-25-102fb3404440.md",
       "sha256": "b30baa5073e63539f4a1846bd9ced3df8aaef2e5c5061223810d3d74dfcf8a66",
       "size": 1581
@@ -830,8 +840,8 @@
     },
     {
       "path": "proposals/auto/economie-finances/auto-david-lisnard-economie-finances-3591e11af1e3.md",
-      "sha256": "d838cdd5e03e506e5ac2f19358f4f1eb1d50fd9e83d2f0b51ee836c4494b108e",
-      "size": 1912
+      "sha256": "a199e89b218887303ec295fff8e8dddeacd4bc6245367a081b752a751dc68c65",
+      "size": 2027
     },
     {
       "path": "proposals/auto/economie-finances/auto-gabriel-attal-economie-finances-44c5426415ce.md",
@@ -975,8 +985,8 @@
     },
     {
       "path": "proposals/auto/immigration-integration/auto-bruno-retailleau-immigration-integration-39955feaadc3.md",
-      "sha256": "4f14e2c7aa2286ff235c0bbe4eaa17995961a612da95fafd2d4d01a44c48e093",
-      "size": 9124
+      "sha256": "0693966fbec2d345f4e52c76f5d3edab6a4c8a65ebdb207aeb940d2a570bf241",
+      "size": 9237
     },
     {
       "path": "proposals/auto/immigration-integration/auto-gabriel-attal-immigration-integration-948caa2232b2.md",
@@ -1000,8 +1010,8 @@
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-bruno-retailleau-institutions-democratie-916dbcbd3347.md",
-      "sha256": "97297b5e331e54d7b67f0aa3ff3fcc8d2842125bdaf0e3dc380ca0c47785d322",
-      "size": 4100
+      "sha256": "67a08dce07da34913ac95efbb390cff6c35aa1452ecd8ef11d09d606163a559b",
+      "size": 4213
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-bruno-retailleau-institutions-democratie-f5a91461b7da.md",
@@ -1015,8 +1025,8 @@
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-david-lisnard-institutions-democratie-8a7a7019b8f9.md",
-      "sha256": "def8d7a27f7e49dbb85f361d601bd99e0fea6b5f666b4d0d63fe15a28482797c",
-      "size": 2297
+      "sha256": "7ae8f4d8a8647c980f142e9eca93a2294e79a401f611b142e89f0ae643104494",
+      "size": 2412
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-david-lisnard-institutions-democratie-8dc9338c9297.md",
@@ -1185,8 +1195,8 @@
     },
     {
       "path": "proposals/auto/retraites/auto-nouvelle-energie-retraites-4b9149336ab7.md",
-      "sha256": "32a1a988ee56c2a850483c2c74e28c0c6bd87b595daa2f177c1cd0a654e6f82c",
-      "size": 3658
+      "sha256": "d2f61cda70bb35e18e925a03757fa55b5ac1b6a145dc6dac6d29a1fd5dfa7a3b",
+      "size": 3771
     },
     {
       "path": "proposals/auto/securite-justice/auto-bruno-retailleau-securite-justice-703dc438f470.md",
@@ -1195,8 +1205,8 @@
     },
     {
       "path": "proposals/auto/securite-justice/auto-bruno-retailleau-securite-justice-7b2b02ba25a3.md",
-      "sha256": "0a824f522f47816890d098d1ca79ba303ebf87403e331600936f2cde7e562301",
-      "size": 3721
+      "sha256": "79aa9b154c043d3fb27018abaf741251b225337efc3ca93dce72a7c9a4abfa17",
+      "size": 3836
     },
     {
       "path": "proposals/auto/securite-justice/auto-equinoxe-securite-justice-2fe1576c84df.md",
@@ -1420,8 +1430,8 @@
     },
     {
       "path": "proposals/auto/services-publics/auto-nouvelle-energie-services-publics-2dd30b44dc9c.md",
-      "sha256": "48caa2d7c9890b821c9ee3432a6a523fbf75f8a8feb3f55fa289b6746ec5a978",
-      "size": 2610
+      "sha256": "b5be7155b71d88137b2135485310b581636bc1f39831c665f153f0744bb54c6f",
+      "size": 2725
     },
     {
       "path": "proposals/ecologie-energie/les-ecologistes-location-sociale-vehicules-electriques.md",

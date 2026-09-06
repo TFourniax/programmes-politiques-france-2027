@@ -11,7 +11,7 @@ source_document_ids: [auto-nouvelle-energie-2026-08-12-84687a6089b8, auto-nouvel
   auto-nouvelle-energie-2026-08-24-1de813c6e0b1, auto-nouvelle-energie-2026-08-25-1bf6f8480bbc, auto-nouvelle-energie-2026-08-26-776be187f3e8,
   auto-nouvelle-energie-2026-08-29-60ca0cf36405, auto-nouvelle-energie-2026-08-30-f2a6de9660d9, auto-nouvelle-energie-2026-09-01-de021ce42cb5,
   auto-nouvelle-energie-2026-09-01-5674325bf2cd, auto-nouvelle-energie-2026-09-03-458e5ab130b9, auto-nouvelle-energie-2026-09-04-b3109e2f42f1,
-  auto-nouvelle-energie-2026-09-05-5d55951ce3c5]
+  auto-nouvelle-energie-2026-09-05-5d55951ce3c5, auto-nouvelle-energie-2026-09-06-6a0186575ca9]
 source_url: https://www.unenouvelleenergie.fr/notre-programme/
 source_tier: tier_1_primary_official
 first_documented_at: '2026-08-12'
@@ -30,9 +30,9 @@ evidence_sha256s: [483c5cca9ce4e53d7ffece152c3d6584b2f150047b234270422894776a01f
   b5896d4573e65bd008a5b7697893011932cde3a7379a3c0da5e6a0b37268e332, cf8a55587f1b41dcedb1c036921959fbda585af488f58f610442c76bc4ee5424,
   c15f0fe118be314113da6e7d4b7d1d59cd28439463506578208d8953500ebc8d, 16f663f6ae23c053e015f92c72d466055ae838fc755cf6b384b5a4ca9b486100,
   2fad5e14e31d04e5f175911a8970f9f94a9f468cb6d77e02255b39843959614a, eaa204fe6d0ef491df181947c6abcf913a4413c5c610c5417bb4282e52e1c2b8,
-  8e3b670dd3a500641302a75cc4dd8a762901c341df3e35565fad4025232391ba]
-confirmation_count: 19
-last_confirmed_at: '2026-09-05'
+  8e3b670dd3a500641302a75cc4dd8a762901c341df3e35565fad4025232391ba, adcdf2acaa158399a7b16231e8444690e99313251a57183f285e54e279431fdf]
+confirmation_count: 20
+last_confirmed_at: '2026-09-06'
 ---
 
 # Les travailleurs doivent avoir la liberté de se constituer un capital pour leur retraite par capitalisation
