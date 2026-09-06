@@ -1543,7 +1543,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-09-06T11:47:34+00:00",
+  "last_run_at": "2026-09-06T16:27:44+00:00",
   "source_chunks": {
     "009ea6ddfcaa5e8d4f6a7064": {
       "canonical_confirmations": [],
@@ -3928,6 +3928,26 @@
       "updated_at": "2026-08-13T03:40:11+00:00",
       "url": "https://melenchon2027.fr/programme2025/livre/chapitre4/"
     },
+    "28f9f0b38443a16219c478cb": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-09-06T16:27:44+00:00",
+      "document_types": [
+        "other"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "63cbba5403f1fd04b44782169620cafaad48e6225e33b638623ebe597afb4f65",
+      "source_title": "Le président de la Coordination rurale vient d'être jugé pour ses menaces de mort contre nous. C'est Bertrand Venteau, l'homme qui veut \"faire la peau aux écolos.\" Et ce qu'il s'",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-06T16:27:45+00:00",
+      "url": "https://bsky.app/profile/marinetondelier.fr/post/3muuentr35s2j"
+    },
     "2904315e6bbd593718f1d40f": {
       "canonical_confirmations": [],
       "claims": [],
@@ -4369,6 +4389,26 @@
       "updated_at": "2026-08-21T08:09:41+00:00",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
+    "3299a69f24ab3892bfb1b2ed": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-09-06T16:27:46+00:00",
+      "document_types": [
+        "other"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "e0d4e95f5b8963d39bc338fddcadbdcd8a134dab6727c4b24661bec4b633e69f",
+      "source_title": "J'en ai assez qu'on me demande pourquoi les Écologistes \"ne profitent pas\" de la crise climatique pour percer. Je n'ai pas envie de profiter de la détresse des gens et de la natur",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-06T16:27:47+00:00",
+      "url": "https://bsky.app/profile/marinetondelier.fr/post/3muubfzwmes2y"
+    },
     "339da5119b58baecb28aa7ef": {
       "canonical_confirmations": [
         {
@@ -4464,7 +4504,7 @@
           }
         }
       ],
-      "completed_at": "2026-09-06T11:47:18+00:00",
+      "completed_at": "2026-09-06T16:27:38+00:00",
       "created_at": "2026-09-05T05:56:41+00:00",
       "document_types": [
         "campaign_website_page"
@@ -4479,7 +4519,7 @@
       "statuses": [],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-09-06T11:47:18+00:00",
+      "updated_at": "2026-09-06T16:27:38+00:00",
       "url": "https://attalpresident.fr/programme"
     },
     "344690d0791e1668301a3cf8": {
@@ -9452,6 +9492,130 @@
       "updated_at": "2026-08-26T22:28:43+00:00",
       "url": "https://www.youtube.com/watch?v=1DIYBZ6be7c"
     },
+    "6939196706886c3dea8ef80e": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "réduire drastiquement l’immigration",
+            "relevance": "direct",
+            "statement": "Réduire drastiquement l'immigration par référendum.",
+            "topic": "immigration-integration"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Présent explicitement dans la source et déjà présent dans le canonique.",
+            "related_proposal_id": "auto-bruno-retailleau-immigration-integration-39955feaadc3",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "une véritable révolution de notre justice pénale",
+            "relevance": "direct",
+            "statement": "Engager une révolution de la justice pénale par référendum.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "Présent explicitement dans la source et déjà présent dans le canonique.",
+            "related_proposal_id": "auto-bruno-retailleau-securite-justice-703dc438f470",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "redonner la primauté à notre droit national",
+            "relevance": "direct",
+            "statement": "Redonner la primauté au droit national par référendum.",
+            "topic": "europe-souverainete"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "Présent explicitement dans la source et déjà présent dans le canonique.",
+            "related_proposal_id": "auto-bruno-retailleau-europe-souverainete-ed8d0d14bccb",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "je vous soumettrai directement par référendum plusieurs grands textes de loi",
+            "relevance": "direct",
+            "statement": "Soumettre plusieurs grands textes de loi directement par référendum.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 3,
+            "reason": "Présent explicitement dans la source et déjà présent dans le canonique.",
+            "related_proposal_id": "auto-bruno-retailleau-institutions-democratie-f5a91461b7da",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "on ne peut pas vivre mieux en travaillant moins",
+            "relevance": "direct",
+            "statement": "Conditionner l'amélioration des conditions de vie au travail.",
+            "topic": "pouvoir-achat-travail"
+          },
+          "verdict": {
+            "index": 4,
+            "reason": "Présent explicitement dans la source et déjà présent dans le canonique.",
+            "related_proposal_id": "auto-bruno-retailleau-pouvoir-achat-travail-122f072f74ad",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-09-06T16:27:36+00:00",
+      "created_at": "2026-09-06T16:27:24+00:00",
+      "document_types": [
+        "candidacy_declaration"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-02-12"
+      ],
+      "sha256": "c3d861717e97dee7c501720812983877ae67f87fa15fab086d451152b723c74c",
+      "source_title": "Je suis candidat à l'élection présidentielle. - Les Républicains",
+      "statuses": [
+        {
+          "status": {
+            "candidate_id": "bruno-retailleau",
+            "effective_date": "2026-02-12",
+            "evidence_quote": "Je suis candidat à l’élection présidentielle.",
+            "explicit": true,
+            "new_status": "declared_presidential"
+          }
+        }
+      ],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-06T16:27:29+00:00",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
     "6ddba0297dcbdc84d71ad546": {
       "canonical_confirmations": [
         {
@@ -11707,6 +11871,26 @@
       "total": 1,
       "updated_at": "2026-08-22T07:58:02+00:00",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
+    "8ba84deeef3e6545e2fb2f9e": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-09-06T16:27:48+00:00",
+      "document_types": [
+        "other"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "683ca5af03fdd8691cbfa4779303efddac403b91ea39e548417c3ce2c75d8ecc",
+      "source_title": "Exemple de manipulation. Je dis qu'il faut maintenir et même augmenter l'aide à l'Ukraine car c'est vital pour l'Europe. Et je dis que pour le financer, il faut taxer davantage le",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-06T16:27:49+00:00",
+      "url": "https://bsky.app/profile/marinetondelier.fr/post/3muu6wakqz22t"
     },
     "8bbe093a93f7c120d1b0a158": {
       "canonical_confirmations": [],
@@ -21949,6 +22133,28 @@
       "updated_at": "2026-08-20T10:10:52+00:00",
       "url": "https://www.youtube.com/watch?v=hefmL-vkxKw"
     },
+    "ed82d2de52703cccbbcb4a8f": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-09-06T16:27:20+00:00",
+      "document_types": [
+        "official_press_release"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [
+        "2026-06-17"
+      ],
+      "sha256": "41ddf1cb97816dfca475750b6f067e8c5a15947320c7d53914bd5b36761a1e27",
+      "source_title": "CommuniquÃ© â PrÃ©sidentielle 2027Â : Selma Labib, une candidature ouvriÃ¨re et rÃ©volutionnaire, soutenue par GaÃ«l Quirante â NPA RÃ©volutionnaires",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-06T16:27:21+00:00",
+      "url": "https://npa-revolutionnaires.org/articles/communique-presidentielle-2027-selma-labib-une-candidature-ouvriere-et-revolutionnaire-soutenue-par-gael-quirante"
+    },
     "eecca1490f02dc3e1bbdc70d": {
       "canonical_confirmations": [
         {
@@ -24255,6 +24461,15 @@
       "status": "promoted",
       "url": "https://attalpresident.fr/programme/dette-de-letat"
     },
+    "390437fd5fed": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-06T16:27:21+00:00",
+      "reason": null,
+      "source_sha256": "41ddf1cb97816dfca475750b6f067e8c5a15947320c7d53914bd5b36761a1e27",
+      "status": "not_confirmed",
+      "url": "https://npa-revolutionnaires.org/articles/communique-presidentielle-2027-selma-labib-une-candidature-ouvriere-et-revolutionnaire-soutenue-par-gael-quirante"
+    },
     "392dff7e586b": {
       "chunks_done": null,
       "chunks_total": 1,
@@ -24908,6 +25123,15 @@
       "status": "not_confirmed",
       "url": "https://solutiondemocratique.fr/jerome-guedj-programme-presidentielle-2027/"
     },
+    "7da45765a3db": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-06T16:27:36+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "c3d861717e97dee7c501720812983877ae67f87fa15fab086d451152b723c74c",
+      "status": "promoted",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
     "7e42406f956d": {
       "chunks_done": null,
       "chunks_total": 1,
@@ -25557,6 +25781,15 @@
       "source_sha256": "a56355959f1a0b8984c0f2c800c0fd7072ab38315bbb71a971a60f0ec5990d48",
       "status": "promoted",
       "url": "https://www.unenouvelleenergie.fr/notre-programme/"
+    },
+    "bfb2172667fe": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-09-06T16:27:44+00:00",
+      "reason": null,
+      "source_sha256": "64c45da36a32d401ab74ddce449436ad1a478b2a03847264f2e5f2747d800938",
+      "status": "promoted",
+      "url": "https://attalpresident.fr/programme"
     },
     "c0fc1bef6abd": {
       "chunks_done": null,

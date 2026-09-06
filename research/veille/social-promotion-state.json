@@ -18,6 +18,15 @@
       "status": "not_confirmed",
       "url": "https://www.youtube.com/shorts/BwT5Q0kidGk"
     },
+    "07e33f6b57c602771ca8": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-06T16:27:47+00:00",
+      "provenance_updates": [],
+      "source_sha256": "e0d4e95f5b8963d39bc338fddcadbdcd8a134dab6727c4b24661bec4b633e69f",
+      "status": "not_confirmed",
+      "url": "https://bsky.app/profile/marinetondelier.fr/post/3muubfzwmes2y"
+    },
     "0b7340a46451a304f183": {
       "chunks_done": null,
       "chunks_total": null,
@@ -26,6 +35,15 @@
       "source_sha256": "2cece45426c6df03158fc5ed8b6e9d21038f4dde2d27731fe20f318c157d61fd",
       "status": "not_confirmed",
       "url": "https://www.youtube.com/watch?v=pE8eIp2HdIk"
+    },
+    "12c24a3665f627852d4d": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-06T16:27:45+00:00",
+      "provenance_updates": [],
+      "source_sha256": "63cbba5403f1fd04b44782169620cafaad48e6225e33b638623ebe597afb4f65",
+      "status": "not_confirmed",
+      "url": "https://bsky.app/profile/marinetondelier.fr/post/3muuentr35s2j"
     },
     "14d1aa8c65c77273ad3a": {
       "chunks_done": null,
@@ -301,6 +319,15 @@
       "status": "not_confirmed",
       "url": "https://www.youtube.com/watch?v=8qTzLHEV0U8"
     },
+    "a887e8a629400891c5da": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-06T16:27:49+00:00",
+      "provenance_updates": [],
+      "source_sha256": "683ca5af03fdd8691cbfa4779303efddac403b91ea39e548417c3ce2c75d8ecc",
+      "status": "not_confirmed",
+      "url": "https://bsky.app/profile/marinetondelier.fr/post/3muu6wakqz22t"
+    },
     "ac2a36fbf2addcc8a741": {
       "chunks_done": null,
       "chunks_total": null,
@@ -482,7 +509,7 @@
     }
   },
   "last_error_count": 0,
-  "last_processed_count": 0,
-  "last_run_at": "2026-09-06T11:47:34+00:00",
+  "last_processed_count": 3,
+  "last_run_at": "2026-09-06T16:27:50+00:00",
   "version": 2
 }
