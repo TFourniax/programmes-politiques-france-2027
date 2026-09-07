@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created_at": "2026-08-17T19:57:19.441897+00:00",
-  "updated_at": "2026-09-07T22:04:18.605617+00:00",
+  "updated_at": "2026-09-07T22:12:31.483896+00:00",
   "files": [
     {
       "path": "corpus/2027/auto/candidates/anasse-kazib/2026-08-28-38891602d9d9.md",
@@ -694,6 +694,11 @@
       "size": 1756
     },
     {
+      "path": "corpus/2027/auto/partys/solution-democratique/2026-07-03-1bf9ec4f0574.md",
+      "sha256": "f65dd6fd1b27dff00f1ea97aa2cae2948ab0eb5ffae7371b4b1e0e585aa8191d",
+      "size": 2055
+    },
+    {
       "path": "corpus/2027/auto/partys/solution-democratique/2026-08-19-64ce907dede0.md",
       "sha256": "1201dde608c8a8e2d7426785b46791fbf70940821b0d6ee8544c6463a10fa1dc",
       "size": 2042
@@ -1147,6 +1152,16 @@
       "path": "proposals/auto/institutions-democratie/auto-solution-democratique-institutions-democratie-4ea1c22d52ea.md",
       "sha256": "84aaa7b463ed16c6de8bcc988812ac69bfd3dfe847cc4f36b1eb2e9643d59659",
       "size": 7923
+    },
+    {
+      "path": "proposals/auto/institutions-democratie/auto-solution-democratique-institutions-democratie-60c5ea22a7f1.md",
+      "sha256": "e75a4f9a62b3cbdb1c4d12e828a35d756a0acf56ebf95e3c7e43585c65b22132",
+      "size": 1531
+    },
+    {
+      "path": "proposals/auto/institutions-democratie/auto-solution-democratique-institutions-democratie-d83bac99ca3a.md",
+      "sha256": "d414d7a8aedeaa8052a0ff2bed8a637c6971f0757e2790ae961ca8f24aabdba7",
+      "size": 1311
     },
     {
       "path": "proposals/auto/pouvoir-achat-travail/auto-bruno-retailleau-pouvoir-achat-travail-122f072f74ad.md",

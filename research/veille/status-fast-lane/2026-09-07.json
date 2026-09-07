@@ -4,86 +4,86 @@
       "error": "ValueError: HTTP 403",
       "event_url": "https://www.pcf.fr/presidentielle2027_fabien_roussel_designe_candidat",
       "owner": "Parti communiste français",
-      "processed_at": "2026-09-07T22:01:14+00:00"
+      "processed_at": "2026-09-07T22:09:44+00:00"
     },
     {
       "error": "ValueError: HTTP 403",
       "event_url": "https://www.pcf.fr/presidentielle_2027_mjcf_s_engage_pour_candidature_communiste",
       "owner": "Parti communiste français",
-      "processed_at": "2026-09-07T22:01:14+00:00"
+      "processed_at": "2026-09-07T22:09:44+00:00"
     },
     {
       "error": "ValueError: HTTP 404",
       "event_url": "https://parti-equinoxe.fr/articles/2022/05/la-transition-energetique-selon-les-ex-candidats-a-la-presidentielle-2/",
       "owner": "Équinoxe",
-      "processed_at": "2026-09-07T22:01:22+00:00"
+      "processed_at": "2026-09-07T22:09:44+00:00"
     }
   ],
-  "generated_at": "2026-09-07T22:01:24+00:00",
+  "generated_at": "2026-09-07T22:09:51+00:00",
   "processed": 9,
   "results": [
     {
-      "event_url": "https://solutiondemocratique.fr/comparatif-candidats-programme-elections-presidentielles-france-2027/",
+      "event_url": "https://solutiondemocratique.fr/presidentielle-2027-une-votation-organisee-a-lyon-4-autour-de-la-candidature-citoyenne-de-clara-egger/",
       "owner": "Solution démocratique",
-      "processed_at": "2026-09-07T22:01:10+00:00",
+      "processed_at": "2026-09-07T22:09:46+00:00",
       "reason": "no_deterministic_transition",
       "status": "not_applicable"
     },
     {
-      "candidate_id": "david-lisnard",
-      "event_url": "https://www.unenouvelleenergie.fr/questions/david-lisnard-est-il-candidat-a-la-presidentielle-2027/",
-      "new_status": "declared_presidential",
-      "owner": "Nouvelle Énergie",
-      "processed_at": "2026-09-07T22:01:11+00:00",
-      "status": "already_current"
+      "candidate_matches": [],
+      "event_url": "https://npa-revolutionnaires.org/echange-entre-le-npa-revolutionnaires-et-lutte-ouvriere-a-propos-dune-candidature-commune-aux-presidentielles-2027/",
+      "owner": "NPA-Révolutionnaires",
+      "processed_at": "2026-09-07T22:09:47+00:00",
+      "reason": "candidate_match_not_unique",
+      "status": "ambiguous"
     },
     {
-      "event_url": "https://parti-socialiste.fr/actualites/choisir-2027-le-processus-de-designation-du-ou-de-la-candidat-e-socialiste-a-lelection-presidentielle-est-lance/",
-      "owner": "Parti socialiste",
-      "processed_at": "2026-09-07T22:01:13+00:00",
-      "reason": "no_deterministic_transition",
-      "status": "not_applicable"
-    },
-    {
-      "event_url": "https://solutiondemocratique.fr/dans-la-drome-solution-democratique-organise-neuf-votations-citoyennes-avant-la-venue-de-la-candidate-a-la-presidentielle-clara-egger/",
+      "event_url": "https://solutiondemocratique.fr/presidentielle-2027-une-votation-organisee-a-charolles-71-autour-de-la-candidature-citoyenne-de-clara-egger/",
       "owner": "Solution démocratique",
-      "processed_at": "2026-09-07T22:01:14+00:00",
+      "processed_at": "2026-09-07T22:09:48+00:00",
       "reason": "no_deterministic_transition",
       "status": "not_applicable"
     },
     {
-      "candidate_id": "clara-egger",
-      "event_url": "https://solutiondemocratique.fr/a-quelle-condition-nous-sommes-pret-a-retirer-notre-candidature-a-la-presidentielle/",
-      "new_status": "declared_presidential",
-      "owner": "Solution démocratique",
-      "processed_at": "2026-09-07T22:01:16+00:00",
-      "status": "already_current"
+      "candidate_matches": [],
+      "event_url": "https://upr.fr/analyses/la-justice-laisse-habilement-a-marine-le-pen-le-choix-detre-candidate-en-2027",
+      "owner": "Union populaire républicaine",
+      "processed_at": "2026-09-07T22:09:49+00:00",
+      "reason": "candidate_match_not_unique",
+      "status": "ambiguous"
     },
     {
-      "event_url": "https://www.revolutionpermanente.fr/Budget-2027-le-gouvernement-relance-l-offensive-sur-la-desindexation-des-retraites",
-      "owner": "Anasse Kazib",
-      "processed_at": "2026-09-07T22:01:16+00:00",
+      "event_url": "https://upr.fr/medias/francois-asselineau-en-2027-je-serai-le-seul-candidat-a-la-presidence-de-la-republique-francaise",
+      "owner": "Union populaire républicaine",
+      "processed_at": "2026-09-07T22:09:49+00:00",
       "reason": "no_deterministic_transition",
       "status": "not_applicable"
     },
     {
-      "event_url": "https://solutiondemocratique.fr/presidentielle-2027-dans-les-yvelines-hugo-ancien-candidat-aux-municipales-rencontre-les-elus-locaux-pour-solution-democratique/",
-      "owner": "Solution démocratique",
-      "processed_at": "2026-09-07T22:01:18+00:00",
+      "event_url": "https://npa-revolutionnaires.org/dans-le-monde-presidentielle-2027-le-npa-revolutionnaires-presente-une-troisieme-candidature-dextreme-gauche/",
+      "owner": "NPA-Révolutionnaires",
+      "processed_at": "2026-09-07T22:09:49+00:00",
       "reason": "no_deterministic_transition",
       "status": "not_applicable"
     },
     {
-      "event_url": "https://solutiondemocratique.fr/presidentielle2027-annonce-candidature-clara-egger/",
-      "owner": "Solution démocratique",
-      "processed_at": "2026-09-07T22:01:24+00:00",
+      "event_url": "https://npa-revolutionnaires.org/dossier-presidentielle-2027-selma-labib-une-candidature-ouvriere-et-revolutionnaire-soutenue-par-gael-quirante-paru-dans-revolutionnaires-n-60/",
+      "owner": "NPA-Révolutionnaires",
+      "processed_at": "2026-09-07T22:09:50+00:00",
       "reason": "no_deterministic_transition",
       "status": "not_applicable"
     },
     {
-      "event_url": "https://www.unenouvelleenergie.fr/rencontre-des-libertes-locales-david-lisnard-et-lamf-auditionnent-les-candidats-a-la-presidentielle/",
-      "owner": "Nouvelle Énergie",
-      "processed_at": "2026-09-07T22:01:24+00:00",
+      "event_url": "https://npa-revolutionnaires.org/sur-rtl-presidentielle-2027-selma-labib-officiellement-candidate-pour-le-npa-revolutionnaires/",
+      "owner": "NPA-Révolutionnaires",
+      "processed_at": "2026-09-07T22:09:50+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
+    {
+      "event_url": "https://npa-revolutionnaires.org/dans-liberation-election-presidentielle-2027-le-npa-revolutionnaires-designe-selma-labib-comme-candidate-du-parti/",
+      "owner": "NPA-Révolutionnaires",
+      "processed_at": "2026-09-07T22:09:51+00:00",
       "reason": "no_deterministic_transition",
       "status": "not_applicable"
     }

@@ -565,6 +565,11 @@
       "source_url": "https://melenchon2027.fr/programme2025/livre/chapitre10/",
       "verified_at": "2026-08-12T22:06:40+00:00"
     },
+    "60c5ea22a7f1180c3df1047d425bb96d1f20bdd259722e436b399b72228d462d": {
+      "proposal_id": "auto-solution-democratique-institutions-democratie-60c5ea22a7f1",
+      "source_url": "https://solutiondemocratique.fr/a-quelle-condition-nous-sommes-pret-a-retirer-notre-candidature-a-la-presidentielle/",
+      "verified_at": "2026-09-07T22:12:21+00:00"
+    },
     "60cbc24f7fb892b773f78d2774611531c650ee5b5a5a0ffe7f947776c43fd7d4": {
       "proposal_id": "auto-les-ecologistes-institutions-democratie-60cbc24f7fb8",
       "source_url": "https://lesecologistes.fr/document/5ZhR2m5t2ZaGKqIdD1bJaD/vdef-programme-1.pdf",
@@ -1295,6 +1300,11 @@
       "source_url": "https://lesecologistes.fr/document/5ZhR2m5t2ZaGKqIdD1bJaD/vdef-programme-1.pdf",
       "verified_at": "2026-08-19T02:42:33+00:00"
     },
+    "d83bac99ca3a4ab88dff5893f1ad2cbcec3fad8bb8ea752cb7ea99c9b306ec44": {
+      "proposal_id": "auto-solution-democratique-institutions-democratie-d83bac99ca3a",
+      "source_url": "https://solutiondemocratique.fr/a-quelle-condition-nous-sommes-pret-a-retirer-notre-candidature-a-la-presidentielle/",
+      "verified_at": "2026-09-07T22:12:21+00:00"
+    },
     "d9229129fdc8ba9d219492b808c7a1d3eb66a3a35193cdfa64ef4bef6999be57": {
       "proposal_id": "auto-la-france-insoumise-immigration-integration-d9229129fdc8",
       "source_url": "https://melenchon2027.fr/programme2025/livre/chapitre16/",
@@ -1548,7 +1558,7 @@
   },
   "last_error_count": 1,
   "last_processed_count": 2,
-  "last_run_at": "2026-09-07T22:04:14+00:00",
+  "last_run_at": "2026-09-07T22:12:27+00:00",
   "source_chunks": {
     "009ea6ddfcaa5e8d4f6a7064": {
       "canonical_confirmations": [],
@@ -2921,6 +2931,113 @@
       "total": 1,
       "updated_at": "2026-08-25T19:57:19+00:00",
       "url": "https://www.unenouvelleenergie.fr/notre-programme/"
+    },
+    "1bf9ec4f05748983e5912ebb": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "solution-democratique",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "faire du RIC Constituant sa première promesse de campagne",
+            "relevance": "direct",
+            "statement": "Faire du RIC Constituant la première promesse de campagne.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La source mentionne explicitement que faire du RIC Constituant la première promesse de campagne est la condition 1.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "solution-democratique",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "s’engager à lancer un référendum sur l’instauration du RIC constituant dès la nomination du premier ministre",
+            "relevance": "direct",
+            "statement": "S'engager à lancer un référendum sur l'instauration du RIC constituant dès la nomination du premier ministre.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La source énonce explicitement la condition 3 concernant le référendum sur le RIC constituant dès la nomination du premier ministre.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [
+        {
+          "claim": {
+            "actor_id": "solution-democratique",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "faire du RIC Constituant sa première promesse de campagne",
+            "relevance": "direct",
+            "statement": "Faire du RIC Constituant la première promesse de campagne.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La source mentionne explicitement que faire du RIC Constituant la première promesse de campagne est la condition 1.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "solution-democratique",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "s’engager à lancer un référendum sur l’instauration du RIC constituant dès la nomination du premier ministre",
+            "relevance": "direct",
+            "statement": "S'engager à lancer un référendum sur l'instauration du RIC constituant dès la nomination du premier ministre.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La source énonce explicitement la condition 3 concernant le référendum sur le RIC constituant dès la nomination du premier ministre.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "completed_at": "2026-09-07T22:12:21+00:00",
+      "created_at": "2026-09-07T22:12:15+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-07-03"
+      ],
+      "sha256": "888a357228234b2c9bdba423098dc9dd03c73b0ff63727c3f94177babe70c2d1",
+      "source_title": "À quelle condition nous sommes prêt à retirer notre candidature à la présidentielle - Solution Démocratique - Parti politique pour instaurer la démocratie directe",
+      "statuses": [
+        {
+          "status": {
+            "candidate_id": "clara-egger",
+            "effective_date": "2026-07-03",
+            "evidence_quote": "candidature à l’élection présidentielle 2027 de sa candidate Clara Egger",
+            "explicit": true,
+            "new_status": "declared_presidential"
+          }
+        }
+      ],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-07T22:12:21+00:00",
+      "url": "https://solutiondemocratique.fr/a-quelle-condition-nous-sommes-pret-a-retirer-notre-candidature-a-la-presidentielle/"
     },
     "1c24ca835dde5ab5aa9cf663": {
       "canonical_confirmations": [
@@ -23607,6 +23724,26 @@
       "updated_at": "2026-09-05T11:24:58+00:00",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
+    "f7e06807a93360efa8c6f859": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-09-07T22:12:25+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "c280b40336993ff974450b42f62894bc8de0c18382ae1e79b6e8671ff60e5b6f",
+      "source_title": "Budget 2027 : le gouvernement relance l'offensive sur la désindexation des retraites",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-07T22:12:27+00:00",
+      "url": "https://www.revolutionpermanente.fr/Budget-2027-le-gouvernement-relance-l-offensive-sur-la-desindexation-des-retraites"
+    },
     "f8c38512cd374b6eeedcb4ea": {
       "claims": [
         {
@@ -24802,6 +24939,15 @@
       "status": "promoted",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
+    "25461981014b": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-09-07T22:12:25+00:00",
+      "reason": null,
+      "source_sha256": "888a357228234b2c9bdba423098dc9dd03c73b0ff63727c3f94177babe70c2d1",
+      "status": "promoted",
+      "url": "https://solutiondemocratique.fr/a-quelle-condition-nous-sommes-pret-a-retirer-notre-candidature-a-la-presidentielle/"
+    },
     "27000418eea5": {
       "chunks_done": null,
       "chunks_total": 1,
@@ -25008,6 +25154,15 @@
       "source_sha256": "cf7d6681b5e7c8a9f63bfb52f345a502d13bf53b949b61f1af98d3a29ee6504f",
       "status": "promoted",
       "url": "https://melenchon2027.fr/programme2025/livre/chapitre10/"
+    },
+    "348e8977e452": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-07T22:12:27+00:00",
+      "reason": null,
+      "source_sha256": "c280b40336993ff974450b42f62894bc8de0c18382ae1e79b6e8671ff60e5b6f",
+      "status": "not_confirmed",
+      "url": "https://www.revolutionpermanente.fr/Budget-2027-le-gouvernement-relance-l-offensive-sur-la-desindexation-des-retraites"
     },
     "354b4e7b952c": {
       "chunks_done": null,
@@ -26307,6 +26462,14 @@
       "source_sha256": "0d8a65a8dc74d4f3b80db285ed2a18b91b378305bd81ab393f4f26637b9e888d",
       "status": "promoted",
       "url": "https://attalpresident.fr/programme"
+    },
+    "b6e972fce670": {
+      "attempts": 1,
+      "error": "ValueError: HTTP 403",
+      "next_retry_at": "2026-09-08T04:12:12+00:00",
+      "processed_at": "2026-09-07T22:12:12+00:00",
+      "status": "technical_error",
+      "url": "https://www.pcf.fr/presidentielle_2027_mjcf_s_engage_pour_candidature_communiste"
     },
     "b76c592d4802": {
       "chunks_done": null,
