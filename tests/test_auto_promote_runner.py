@@ -1,3 +1,4 @@
+from datetime import datetime, timedelta, timezone
 import hashlib
 import json
 from pathlib import Path
@@ -14,10 +15,14 @@ from auto_promote_runner import (  # noqa: E402
     _snapshot_source,
     _wordpress_rest_source,
     backlog_candidate,
+    collapse_latest_events,
     current_cycle_event,
     date_supported_by_source,
+    is_status_critical_event,
+    prepare_promotion_events,
     schema_for_prompt,
     state_backlog_events,
+    status_aware_priority,
     strict_sanitize,
     structured_backlog_events,
 )
@@ -297,3 +302,88 @@ def test_legacy_structured_rest_transport_remains_supported_for_existing_state()
     assert source["title"] == "Chapitre 1 : Test"
     assert "Nous proposons une mesure explicite" in source["text"]
     assert source["text_truncated"] is False
+
+
+def test_status_fast_lane_keeps_roussel_declaration_inside_three_source_budget():
+    roussel = {
+        "event_type": "official_new_url",
+        "observed_at": "2026-09-06T21:28:57+00:00",
+        "published_at": "2026-09-06T18:39:35Z",
+        "owner": "Parti communiste français",
+        "url": "https://www.pcf.fr/presidentielle2027_fabien_roussel_designe_candidat",
+    }
+    programmes = [
+        {
+            "event_type": "official_new_url",
+            "observed_at": f"2026-09-06T21:2{index}:00+00:00",
+            "published_at": "2026-09-06",
+            "owner": f"Parti {index}",
+            "url": f"https://parti{index}.fr/presidentielle-2027/notre-programme/",
+        }
+        for index in range(3)
+    ]
+    prepared = prepare_promotion_events(
+        [*programmes, roussel],
+        {"sources": {}},
+        now_utc=datetime(2026, 9, 6, 22, 0, tzinfo=timezone.utc),
+    )
+    selected = sorted(prepared, key=status_aware_priority, reverse=True)[:3]
+    assert is_status_critical_event(roussel)
+    assert roussel in selected
+
+
+def test_generic_rehash_of_old_candidacy_page_is_not_status_critical():
+    event = {
+        "event_type": "official_source_changed",
+        "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/",
+        "excerpt": "Je suis candidat à l'élection présidentielle. Mes chers compatriotes...",
+    }
+    assert not is_status_critical_event(event)
+
+
+def test_latest_event_per_url_replaces_obsolete_versions_before_gemini():
+    old = {
+        "event_type": "official_source_changed",
+        "observed_at": "2026-09-06T01:00:00+00:00",
+        "url": "https://parti.fr/programme",
+        "sha256": "old",
+    }
+    new = {
+        "event_type": "official_source_changed",
+        "observed_at": "2026-09-06T13:00:00+00:00",
+        "url": "https://parti.fr/programme",
+        "sha256": "new",
+    }
+    assert collapse_latest_events([old, new]) == [new]
+
+
+def test_recent_noncritical_html_churn_is_throttled_but_new_status_url_is_never_suppressed():
+    now = datetime(2026, 9, 7, 12, 0, tzinfo=timezone.utc)
+    noisy = {
+        "event_type": "official_source_changed",
+        "observed_at": now.isoformat(),
+        "url": "https://parti.fr/notre-programme/",
+        "excerpt": "Notre programme pour la France",
+    }
+    roussel = {
+        "event_type": "official_new_url",
+        "observed_at": now.isoformat(),
+        "url": "https://www.pcf.fr/presidentielle2027_fabien_roussel_designe_candidat",
+    }
+    state = {
+        "sources": {
+            "old-event-key": {
+                "url": noisy["url"],
+                "status": "promoted",
+                "processed_at": (now - timedelta(hours=2)).isoformat(),
+            }
+        }
+    }
+    prepared = prepare_promotion_events(
+        [noisy, roussel],
+        state,
+        now_utc=now,
+        cooldown_hours=18,
+    )
+    assert noisy not in prepared
+    assert roussel in prepared
