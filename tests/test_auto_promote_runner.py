@@ -357,7 +357,7 @@ def test_latest_event_per_url_replaces_obsolete_versions_before_gemini():
     assert collapse_latest_events([old, new]) == [new]
 
 
-def test_recent_noncritical_html_churn_is_throttled_but_new_status_url_is_never_suppressed():
+def test_recent_duplicate_html_churn_is_throttled_but_new_status_url_is_never_suppressed():
     now = datetime(2026, 9, 7, 12, 0, tzinfo=timezone.utc)
     noisy = {
         "event_type": "official_source_changed",
@@ -375,6 +375,7 @@ def test_recent_noncritical_html_churn_is_throttled_but_new_status_url_is_never_
             "old-event-key": {
                 "url": noisy["url"],
                 "status": "promoted",
+                "reason": "canonical_duplicate_evidence",
                 "processed_at": (now - timedelta(hours=2)).isoformat(),
             }
         }
@@ -387,3 +388,29 @@ def test_recent_noncritical_html_churn_is_throttled_but_new_status_url_is_never_
     )
     assert noisy not in prepared
     assert roussel in prepared
+
+
+def test_recent_genuine_promotion_never_hides_a_later_source_change():
+    now = datetime(2026, 9, 7, 12, 0, tzinfo=timezone.utc)
+    changed = {
+        "event_type": "official_source_changed",
+        "observed_at": now.isoformat(),
+        "url": "https://parti.fr/notre-programme/",
+        "excerpt": "Notre programme contient désormais une nouvelle mesure.",
+    }
+    state = {
+        "sources": {
+            "previous-real-promotion": {
+                "url": changed["url"],
+                "status": "promoted",
+                "processed_at": (now - timedelta(hours=2)).isoformat(),
+            }
+        }
+    }
+    prepared = prepare_promotion_events(
+        [changed],
+        state,
+        now_utc=now,
+        cooldown_hours=18,
+    )
+    assert changed in prepared
