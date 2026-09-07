@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created_at": "2026-08-17T19:57:19.441897+00:00",
-  "updated_at": "2026-09-07T06:18:04.931341+00:00",
+  "updated_at": "2026-09-07T13:42:35.439936+00:00",
   "files": [
     {
       "path": "corpus/2027/auto/candidates/anasse-kazib/2026-08-28-38891602d9d9.md",
@@ -87,6 +87,11 @@
       "path": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-3a67e85f376a.md",
       "sha256": "02acd2169a55f6d853882f84a907ecaeaaaadea6c50239a0a761c7f9bdddf795",
       "size": 2014
+    },
+    {
+      "path": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-3cf198668395.md",
+      "sha256": "4d75cc366f7125c30e5038288720bdf01b817fcf7803e864c05563966a560ca8",
+      "size": 1994
     },
     {
       "path": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-3ed92de66c8f.md",
@@ -664,6 +669,11 @@
       "size": 1581
     },
     {
+      "path": "corpus/2027/auto/partys/rassemblement-national/2026-09-07-bf324b16a963.md",
+      "sha256": "110ff8bc0c3d907a93de7872b0e14d66682528f5bb3eb6bbaf3893f4daf26830",
+      "size": 1578
+    },
+    {
       "path": "corpus/2027/auto/partys/revolution-permanente/2026-08-27-f9d94839bc75.md",
       "sha256": "58df822340ff178f177274b7acf415128e8b810d9f83da4950b0239e782812f6",
       "size": 1549
@@ -995,8 +1005,8 @@
     },
     {
       "path": "proposals/auto/immigration-integration/auto-bruno-retailleau-immigration-integration-39955feaadc3.md",
-      "sha256": "f05856ad2399e25ba4c092597b3852ba889d1afab71330d4c34d1cfb177b51ec",
-      "size": 9352
+      "sha256": "aee7fddad1c012955371bb53a64e5a1b31d4dc42f9ff4a45cb616e4d038f5a6e",
+      "size": 9467
     },
     {
       "path": "proposals/auto/immigration-integration/auto-gabriel-attal-immigration-integration-948caa2232b2.md",
@@ -1014,14 +1024,19 @@
       "size": 1500
     },
     {
+      "path": "proposals/auto/immigration-integration/auto-rassemblement-national-immigration-integration-5de5e8ed3845.md",
+      "sha256": "5e9d86d9dffafe81919c5002c949ebe058501219fdb09d35a92f2819e8d502a9",
+      "size": 1306
+    },
+    {
       "path": "proposals/auto/institutions-democratie/auto-anasse-kazib-institutions-democratie-1a9f657935f4.md",
       "sha256": "13560b0993f575cc047ef5e0116253afc7e52b9690e753a897e5c00b4481c7cb",
       "size": 1261
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-bruno-retailleau-institutions-democratie-916dbcbd3347.md",
-      "sha256": "b0061462122496adf28166b44fbbbd8b1d15117592883ea46af99b1542c1b593",
-      "size": 4330
+      "sha256": "dd22ef8368d891297abfbf26b1271b53016dcb7ea79991addb673bccddcc890b",
+      "size": 4443
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-bruno-retailleau-institutions-democratie-f5a91461b7da.md",
@@ -1210,8 +1225,8 @@
     },
     {
       "path": "proposals/auto/securite-justice/auto-bruno-retailleau-securite-justice-703dc438f470.md",
-      "sha256": "db04e3fb8c6f6bdc6d9ded9f4ad50c8fec23f740746d19075d1823d6b23f0a19",
-      "size": 7417
+      "sha256": "125feed17629371eea705c0546fe4dd3bcb3bc34372880b363dfc302fb937ce0",
+      "size": 7532
     },
     {
       "path": "proposals/auto/securite-justice/auto-bruno-retailleau-securite-justice-7b2b02ba25a3.md",

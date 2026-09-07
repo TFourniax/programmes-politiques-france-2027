@@ -545,6 +545,11 @@
       "source_url": "https://www.unenouvelleenergie.fr/notre-programme/",
       "verified_at": "2026-08-29T17:19:56+00:00"
     },
+    "5de5e8ed384510f5bf948780cbf8141a5c3d3a0931f609f0772ecd53c0a51ede": {
+      "proposal_id": "auto-rassemblement-national-immigration-integration-5de5e8ed3845",
+      "source_url": "https://www.youtube.com/shorts/uWf_PHkuJr4",
+      "verified_at": "2026-09-07T13:42:28+00:00"
+    },
     "5f0cd387b24ed1802d67d9e6762d11fe3f63cd23fc343bb65a7e959a1489451b": {
       "proposal_id": "auto-rassemblement-national-fiscalite-redistribution-5f0cd387b24e",
       "source_url": "https://www.youtube.com/watch?v=32ZYBFj_gAQ",
@@ -1543,7 +1548,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-09-07T06:18:01+00:00",
+  "last_run_at": "2026-09-07T13:42:22+00:00",
   "source_chunks": {
     "009ea6ddfcaa5e8d4f6a7064": {
       "canonical_confirmations": [],
@@ -4504,7 +4509,7 @@
           }
         }
       ],
-      "completed_at": "2026-09-07T06:18:00+00:00",
+      "completed_at": "2026-09-07T13:42:15+00:00",
       "created_at": "2026-09-05T05:56:41+00:00",
       "document_types": [
         "campaign_website_page"
@@ -4519,7 +4524,7 @@
       "statuses": [],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-09-07T06:17:52+00:00",
+      "updated_at": "2026-09-07T13:42:15+00:00",
       "url": "https://attalpresident.fr/programme"
     },
     "344690d0791e1668301a3cf8": {
@@ -5648,6 +5653,94 @@
       "total": 1,
       "updated_at": "2026-08-11T12:15:02+00:00",
       "url": "https://lafranceinsoumise.fr/2026/07/29/amfis-2026-les-premieres-annonces-sur-le-programme-des-universites-dete-de-la-france-insoumise/"
+    },
+    "3cf198668395eb11ebb1dd04": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "réduire drastiquement l’immigration",
+            "relevance": "direct",
+            "statement": "Il souhaite réduire drastiquement l'immigration via un référendum.",
+            "topic": "immigration-integration"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Le souhait de réduire drastiquement l'immigration par référendum est explicitement présent dans la source et déjà enregistré dans le canonique.",
+            "related_proposal_id": "auto-bruno-retailleau-immigration-integration-39955feaadc3",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "révolution de notre justice pénale",
+            "relevance": "direct",
+            "statement": "Il veut engager une révolution de la justice pénale par référendum.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La révolution de la justice pénale par référendum est explicitement confirmée par la source et déjà présente.",
+            "related_proposal_id": "auto-bruno-retailleau-securite-justice-703dc438f470",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "redonner la primauté à notre droit national",
+            "relevance": "direct",
+            "statement": "Il veut redonner la primauté au droit national par référendum.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "Redonner la primauté au droit national par référendum est explicitement soutenu par la source et déjà canonique.",
+            "related_proposal_id": "auto-bruno-retailleau-institutions-democratie-916dbcbd3347",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-09-07T13:42:12+00:00",
+      "created_at": "2026-09-07T13:42:02+00:00",
+      "document_types": [
+        "candidacy_declaration"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-02-12"
+      ],
+      "sha256": "cdb0c138bfc6f043f2ed572826eb1dca1c2f2fda62585d549b12c6af709b202d",
+      "source_title": "Je suis candidat à l'élection présidentielle. - Les Républicains",
+      "statuses": [
+        {
+          "status": {
+            "candidate_id": "bruno-retailleau",
+            "effective_date": "2026-02-12",
+            "evidence_quote": "Je suis candidat à l’élection présidentielle.",
+            "explicit": true,
+            "new_status": "declared_presidential"
+          }
+        }
+      ],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-07T13:42:07+00:00",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
     "3cf783260ce01a2ac4f05951": {
       "claims": [
@@ -18682,6 +18775,65 @@
       "updated_at": "2026-08-31T23:23:01+00:00",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
+    "bf324b16a96399d90bd56b1a": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "rassemblement-national",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "L’immigration clandestine ne peut plus garantir l’accès à nos territoires !",
+            "relevance": "party_platform",
+            "statement": "L'immigration clandestine ne doit plus garantir l'accès aux territoires.",
+            "topic": "immigration-integration"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "L'affirmation est explicitement soutenue par la source et concerne l'immigration clandestine, un sujet similaire mais avec une formulation spécifique non présente à l'identique dans le canon actuel.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [
+        {
+          "claim": {
+            "actor_id": "rassemblement-national",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "L’immigration clandestine ne peut plus garantir l’accès à nos territoires !",
+            "relevance": "party_platform",
+            "statement": "L'immigration clandestine ne doit plus garantir l'accès aux territoires.",
+            "topic": "immigration-integration"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "L'affirmation est explicitement soutenue par la source et concerne l'immigration clandestine, un sujet similaire mais avec une formulation spécifique non présente à l'identique dans le canon actuel.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "completed_at": "2026-09-07T13:42:28+00:00",
+      "created_at": "2026-09-07T13:42:23+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "37bf2f3aa925a50af1476667d21d3b1450f167a7907b375e4bdcfeb61c747650",
+      "source_title": "L’immigration clandestine ne peut plus garantir l’accès à nos territoires !",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-07T13:42:28+00:00",
+      "url": "https://www.youtube.com/shorts/uWf_PHkuJr4"
+    },
     "bfbc9f86911271e2a085b789": {
       "canonical_confirmations": [],
       "claims": [],
@@ -18713,6 +18865,28 @@
       "total": 1,
       "updated_at": "2026-08-18T14:08:44+00:00",
       "url": "https://npa-revolutionnaires.org/communique-presidentielle-2027-selma-labib-une-candidature-ouvriere-et-revolutionnaire-soutenue-par-gael-quirante/"
+    },
+    "bfbebb9bbafd945e7e54c45d": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-09-07T13:41:58+00:00",
+      "document_types": [
+        "official_press_release"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [
+        "2026-06-17"
+      ],
+      "sha256": "144829e5c0dc2ecb1b716d1cc7377fdc5f026f51e48316d79a2a333b7bb18e3b",
+      "source_title": "CommuniquÃ© â PrÃ©sidentielle 2027Â : Selma Labib, une candidature ouvriÃ¨re et rÃ©volutionnaire, soutenue par GaÃ«l Quirante â NPA RÃ©volutionnaires",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-07T13:42:00+00:00",
+      "url": "https://npa-revolutionnaires.org/articles/communique-presidentielle-2027-selma-labib-une-candidature-ouvriere-et-revolutionnaire-soutenue-par-gael-quirante"
     },
     "c0b6e95470c93cad5d1bc2a7": {
       "canonical_confirmations": [],
@@ -25881,6 +26055,15 @@
       "status": "promoted",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
+    "acb2944fdc50": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-07T13:42:12+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "cdb0c138bfc6f043f2ed572826eb1dca1c2f2fda62585d549b12c6af709b202d",
+      "status": "promoted",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
     "adb6af675603": {
       "chunks_done": null,
       "chunks_total": 1,
@@ -26744,6 +26927,15 @@
       "status": "not_confirmed",
       "url": "https://parti-equinoxe.fr/legislatives-2022-programme-cohesion/"
     },
+    "f46c6d2420fb": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-09-07T13:42:22+00:00",
+      "reason": null,
+      "source_sha256": "64c45da36a32d401ab74ddce449436ad1a478b2a03847264f2e5f2747d800938",
+      "status": "promoted",
+      "url": "https://attalpresident.fr/programme"
+    },
     "f7961afe0215": {
       "chunks_done": null,
       "chunks_total": 1,
@@ -26806,6 +26998,15 @@
       "source_sha256": "ba2ea6fc45eb70bc3cea56b4d7d0d2467a729d2ebd748b42d27c4556fedb6a14",
       "status": "promoted",
       "url": "https://solutiondemocratique.fr/dominique-de-villepin-presidentielle-2027-programme/"
+    },
+    "fddcee3dc8a6": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-07T13:42:00+00:00",
+      "reason": null,
+      "source_sha256": "144829e5c0dc2ecb1b716d1cc7377fdc5f026f51e48316d79a2a333b7bb18e3b",
+      "status": "not_confirmed",
+      "url": "https://npa-revolutionnaires.org/articles/communique-presidentielle-2027-selma-labib-une-candidature-ouvriere-et-revolutionnaire-soutenue-par-gael-quirante"
     },
     "ffade17239a9": {
       "chunks_done": null,
