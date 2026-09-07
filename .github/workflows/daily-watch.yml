@@ -22,6 +22,7 @@ on:
       - 'scripts/auto_promote.py'
       - 'scripts/auto_promote_runner.py'
       - 'scripts/auto_promote_canonical_runner.py'
+      - 'scripts/status_fast_lane.py'
       - 'scripts/canonical_evidence.py'
       - 'scripts/promote_social.py'
       - 'scripts/repair_promotion_state.py'
@@ -39,6 +40,7 @@ on:
       - 'tests/test_ingestion_prompt_injection.py'
       - 'tests/test_auto_promote_runner.py'
       - 'tests/test_auto_promote_canonical_runner.py'
+      - 'tests/test_status_fast_lane.py'
       - 'tests/test_canonical_evidence.py'
       - 'tests/test_promote_social.py'
       - 'tests/test_prune_social_profiles.py'
@@ -142,6 +144,9 @@ jobs:
       - name: Collect complete structured primary sources
         run: python scripts/structured_primary_watch.py
 
+      - name: Promote deterministic Tier-1 candidate status transitions
+        run: python scripts/status_fast_lane.py
+
       - name: Update official source health
         run: python scripts/update_source_health.py
 
@@ -197,6 +202,7 @@ jobs:
             tests/test_ingestion_prompt_injection.py \
             tests/test_auto_promote_runner.py \
             tests/test_auto_promote_canonical_runner.py \
+            tests/test_status_fast_lane.py \
             tests/test_canonical_evidence.py \
             tests/test_promote_social.py \
             tests/test_repair_promotion_state.py \
