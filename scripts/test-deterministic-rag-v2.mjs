@@ -138,6 +138,17 @@ assert.ok(
   'specific personal-carbon-budget paraphrase must only return evidence about individual carbon budgets, while allowing future legitimate actors'
 );
 
+const nightInternet = retrieveDeterministic("Qui veut restreindre l’accès à internet des adolescents pendant la nuit ?", { limit: 8 });
+const nightInternetProposal = nightInternet.results.find(
+  (item) => item.citation?.path === 'proposals/securite-justice/renaissance-couvre-feu-numerique-mineurs.md'
+);
+assert.ok(nightInternetProposal, 'the canonical Renaissance nocturnal digital-curfew proposal must survive corpus growth');
+assert.equal(
+  nightInternetProposal.citation?.strictCanonicalConceptMatch,
+  true,
+  'specific long-form concepts must retain their atomic canonical proposal independently of BM25 corpus-size drift'
+);
+
 const comparison = retrieveDeterministic('Compare David Lisnard et Renaissance sur les retraites', { limit: 14 }).results;
 assert.ok(comparison.some((item) => item.citation?.entityId === 'david-lisnard'));
 assert.ok(comparison.some((item) => item.citation?.entityId === 'renaissance'));
