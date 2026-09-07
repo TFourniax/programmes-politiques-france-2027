@@ -1,24 +1,11 @@
 {
   "errors": [],
-  "generated_at": "2026-09-07T13:42:31+00:00",
+  "generated_at": "2026-09-07T22:04:15+00:00",
   "partial": 0,
-  "processed": 1,
-  "promoted": 1,
-  "proposals_created": 1,
+  "processed": 0,
+  "promoted": 0,
+  "proposals_created": 0,
   "provenance_updates": 0,
-  "results": [
-    {
-      "chunks_total": 1,
-      "document": "corpus/2027/auto/partys/rassemblement-national/2026-09-07-bf324b16a963.md",
-      "proposals": [
-        "proposals/auto/immigration-integration/auto-rassemblement-national-immigration-integration-5de5e8ed3845.md"
-      ],
-      "sha256": "37bf2f3aa925a50af1476667d21d3b1450f167a7907b375e4bdcfeb61c747650",
-      "status": "promoted",
-      "status_updates": [],
-      "url": "https://www.youtube.com/shorts/uWf_PHkuJr4",
-      "verified_at": "2026-09-07T13:42:28+00:00"
-    }
-  ],
+  "results": [],
   "status_updates": 0
 }

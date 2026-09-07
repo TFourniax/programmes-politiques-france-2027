@@ -1,0 +1,94 @@
+{
+  "events": {
+    "11b463101679": {
+      "event_url": "https://solutiondemocratique.fr/presidentielle-2027-dans-les-yvelines-hugo-ancien-candidat-aux-municipales-rencontre-les-elus-locaux-pour-solution-democratique/",
+      "owner": "Solution démocratique",
+      "processed_at": "2026-09-07T22:01:18+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
+    "1e67d8d2b142": {
+      "error": "ValueError: HTTP 403",
+      "event_url": "https://www.pcf.fr/presidentielle2027_fabien_roussel_designe_candidat",
+      "owner": "Parti communiste français",
+      "processed_at": "2026-09-07T22:01:14+00:00",
+      "status": "technical_error"
+    },
+    "25461981014b": {
+      "candidate_id": "clara-egger",
+      "event_url": "https://solutiondemocratique.fr/a-quelle-condition-nous-sommes-pret-a-retirer-notre-candidature-a-la-presidentielle/",
+      "new_status": "declared_presidential",
+      "owner": "Solution démocratique",
+      "processed_at": "2026-09-07T22:01:16+00:00",
+      "status": "already_current"
+    },
+    "348e8977e452": {
+      "event_url": "https://www.revolutionpermanente.fr/Budget-2027-le-gouvernement-relance-l-offensive-sur-la-desindexation-des-retraites",
+      "owner": "Anasse Kazib",
+      "processed_at": "2026-09-07T22:01:16+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
+    "78f4bd751746": {
+      "event_url": "https://solutiondemocratique.fr/comparatif-candidats-programme-elections-presidentielles-france-2027/",
+      "owner": "Solution démocratique",
+      "processed_at": "2026-09-07T22:01:10+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
+    "b6e972fce670": {
+      "error": "ValueError: HTTP 403",
+      "event_url": "https://www.pcf.fr/presidentielle_2027_mjcf_s_engage_pour_candidature_communiste",
+      "owner": "Parti communiste français",
+      "processed_at": "2026-09-07T22:01:14+00:00",
+      "status": "technical_error"
+    },
+    "c9816a18ec8b": {
+      "event_url": "https://solutiondemocratique.fr/dans-la-drome-solution-democratique-organise-neuf-votations-citoyennes-avant-la-venue-de-la-candidate-a-la-presidentielle-clara-egger/",
+      "owner": "Solution démocratique",
+      "processed_at": "2026-09-07T22:01:14+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
+    "cb0c4447dcfa": {
+      "error": "ValueError: HTTP 404",
+      "event_url": "https://parti-equinoxe.fr/articles/2022/05/la-transition-energetique-selon-les-ex-candidats-a-la-presidentielle-2/",
+      "owner": "Équinoxe",
+      "processed_at": "2026-09-07T22:01:22+00:00",
+      "status": "technical_error"
+    },
+    "d34b6d3ae4d3": {
+      "event_url": "https://www.unenouvelleenergie.fr/rencontre-des-libertes-locales-david-lisnard-et-lamf-auditionnent-les-candidats-a-la-presidentielle/",
+      "owner": "Nouvelle Énergie",
+      "processed_at": "2026-09-07T22:01:24+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
+    "dbca55962195": {
+      "event_url": "https://parti-socialiste.fr/actualites/choisir-2027-le-processus-de-designation-du-ou-de-la-candidat-e-socialiste-a-lelection-presidentielle-est-lance/",
+      "owner": "Parti socialiste",
+      "processed_at": "2026-09-07T22:01:13+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
+    "de0b5dbdade3": {
+      "event_url": "https://solutiondemocratique.fr/presidentielle2027-annonce-candidature-clara-egger/",
+      "owner": "Solution démocratique",
+      "processed_at": "2026-09-07T22:01:24+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
+    "f338d43fc637": {
+      "candidate_id": "david-lisnard",
+      "event_url": "https://www.unenouvelleenergie.fr/questions/david-lisnard-est-il-candidat-a-la-presidentielle-2027/",
+      "new_status": "declared_presidential",
+      "owner": "Nouvelle Énergie",
+      "processed_at": "2026-09-07T22:01:11+00:00",
+      "status": "already_current"
+    }
+  },
+  "last_error_count": 3,
+  "last_run_at": "2026-09-07T22:01:24+00:00",
+  "last_updated_count": 0,
+  "version": 1
+}

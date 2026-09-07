@@ -1546,9 +1546,9 @@
       "verified_at": "2026-08-13T08:51:16+00:00"
     }
   },
-  "last_error_count": 0,
-  "last_processed_count": 3,
-  "last_run_at": "2026-09-07T13:42:22+00:00",
+  "last_error_count": 1,
+  "last_processed_count": 2,
+  "last_run_at": "2026-09-07T22:04:14+00:00",
   "source_chunks": {
     "009ea6ddfcaa5e8d4f6a7064": {
       "canonical_confirmations": [],
@@ -2140,6 +2140,28 @@
       "total": 1,
       "updated_at": "2026-08-30T22:02:59+00:00",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
+    "0c9e40fbe3ed5b1f5fb4734c": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-09-07T22:04:01+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [
+        "2026-08-25"
+      ],
+      "sha256": "a5ae8f0059e4d5658bf4ef21d7f584e0628b3be224a00580f60a1ccfe860da65",
+      "source_title": "Le processus de désignation du ou de la candidat·e socialiste à l'élection présidentielle est lancé - Parti Socialiste",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-07T22:04:03+00:00",
+      "url": "https://parti-socialiste.fr/actualites/choisir-2027-le-processus-de-designation-du-ou-de-la-candidat-e-socialiste-a-lelection-presidentielle-est-lance/"
     },
     "0d1c8e880d3045b492702087": {
       "claims": [
@@ -11305,6 +11327,58 @@
       "total": 1,
       "updated_at": "2026-08-13T03:40:17+00:00",
       "url": "https://melenchon2027.fr/programme2025/livre/chapitre5/"
+    },
+    "7b19fa990a25c998f476a922": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "solution-democratique",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Solution Démocratique souhaite instaurer en France la démocratie directe et la décentralisation par le bas.",
+            "relevance": "direct",
+            "statement": "Instaurer la démocratie directe et la décentralisation par le bas en France.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La proposition est déjà présente dans le canonique avec le même sens.",
+            "related_proposal_id": "auto-solution-democratique-institutions-democratie-4ea1c22d52ea",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-09-07T22:04:13+00:00",
+      "created_at": "2026-09-07T22:04:06+00:00",
+      "document_types": [
+        "official_press_release"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-09-07"
+      ],
+      "sha256": "eda4becec9cf862ad7bfadefc41808e1a55f4f285a9cf7d336d3cb519ea53a72",
+      "source_title": "Dans la Drôme, Solution Démocratique organise neuf votations citoyennes avant la venue de la candidate à la présidentielle Clara Egger - Solution Démocratique - Parti politique pour instaurer la démocratie directe",
+      "statuses": [
+        {
+          "status": {
+            "candidate_id": "clara-egger",
+            "effective_date": "2026-09-07",
+            "evidence_quote": "candidate à l’élection présidentielle de 2027",
+            "explicit": true,
+            "new_status": "declared_presidential"
+          }
+        }
+      ],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-07T22:04:10+00:00",
+      "url": "https://solutiondemocratique.fr/dans-la-drome-solution-democratique-organise-neuf-votations-citoyennes-avant-la-venue-de-la-candidate-a-la-presidentielle-clara-egger/"
     },
     "7c26580df0dcf99dd5450bfb": {
       "canonical_confirmations": [],
@@ -24659,6 +24733,14 @@
       "status": "promoted",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
+    "1e67d8d2b142": {
+      "attempts": 1,
+      "error": "ValueError: HTTP 403",
+      "next_retry_at": "2026-09-08T04:04:14+00:00",
+      "processed_at": "2026-09-07T22:04:14+00:00",
+      "status": "technical_error",
+      "url": "https://www.pcf.fr/presidentielle2027_fabien_roussel_designe_candidat"
+    },
     "1f2bf87480b3": {
       "chunks_done": null,
       "chunks_total": null,
@@ -26444,6 +26526,15 @@
       "status": "not_confirmed",
       "url": "https://solutiondemocratique.fr/marine-tondelier-programme-2027/"
     },
+    "c9816a18ec8b": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-09-07T22:04:13+00:00",
+      "reason": null,
+      "source_sha256": "eda4becec9cf862ad7bfadefc41808e1a55f4f285a9cf7d336d3cb519ea53a72",
+      "status": "promoted",
+      "url": "https://solutiondemocratique.fr/dans-la-drome-solution-democratique-organise-neuf-votations-citoyennes-avant-la-venue-de-la-candidate-a-la-presidentielle-clara-egger/"
+    },
     "ca7634736c34": {
       "chunks_done": null,
       "chunks_total": null,
@@ -26684,6 +26775,15 @@
       "source_sha256": "aacd580bbf19f7dbb667f488ef1aa251593e69a65edc6fa06ee29f2c1d4c7556",
       "status": "promoted",
       "url": "https://www.unenouvelleenergie.fr/notre-programme/immigration/"
+    },
+    "dbca55962195": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-07T22:04:03+00:00",
+      "reason": null,
+      "source_sha256": "a5ae8f0059e4d5658bf4ef21d7f584e0628b3be224a00580f60a1ccfe860da65",
+      "status": "not_confirmed",
+      "url": "https://parti-socialiste.fr/actualites/choisir-2027-le-processus-de-designation-du-ou-de-la-candidat-e-socialiste-a-lelection-presidentielle-est-lance/"
     },
     "dd900967c0ea": {
       "chunks_done": null,
