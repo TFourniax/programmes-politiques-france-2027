@@ -1,0 +1,47 @@
+{
+  "errors": [],
+  "generated_at": "2026-09-07T06:18:01+00:00",
+  "historical_skipped": 0,
+  "partial": 0,
+  "processed": 3,
+  "promoted": 2,
+  "proposals_created": 0,
+  "results": [
+    {
+      "sha256": "652d7d7f0c53698a681559ee96addac869f957bfcd060838e68351fa30ec7459",
+      "status": "not_confirmed",
+      "url": "https://npa-revolutionnaires.org/articles/communique-presidentielle-2027-selma-labib-une-candidature-ouvriere-et-revolutionnaire-soutenue-par-gael-quirante"
+    },
+    {
+      "document": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-60856e8f9b24.md",
+      "provenance_updates": [
+        "auto-bruno-retailleau-immigration-integration-39955feaadc3",
+        "auto-bruno-retailleau-institutions-democratie-916dbcbd3347",
+        "auto-bruno-retailleau-institutions-democratie-f5a91461b7da",
+        "auto-bruno-retailleau-securite-justice-703dc438f470"
+      ],
+      "reason": "canonical_duplicate_evidence",
+      "sha256": "a47e2640ada1adf6f03407cfec318c752f9c80c869f5e9b24e14ab585014d593",
+      "status": "promoted",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/",
+      "verified_at": "2026-09-07T06:17:50+00:00"
+    },
+    {
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/candidates/gabriel-attal/2026-09-07-339da5119b58.md",
+      "proposals": [],
+      "provenance_updates": [
+        "auto-gabriel-attal-economie-finances-9f45e1d61977",
+        "auto-gabriel-attal-immigration-integration-948caa2232b2",
+        "auto-gabriel-attal-pouvoir-achat-travail-7a91e45ad6d8",
+        "auto-gabriel-attal-services-publics-0b16aea25279"
+      ],
+      "sha256": "64c45da36a32d401ab74ddce449436ad1a478b2a03847264f2e5f2747d800938",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://attalpresident.fr/programme",
+      "verified_at": "2026-09-07T06:18:00+00:00"
+    }
+  ],
+  "status_updates": 0
+}

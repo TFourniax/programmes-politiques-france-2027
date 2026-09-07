@@ -1543,7 +1543,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-09-06T21:33:59+00:00",
+  "last_run_at": "2026-09-07T06:18:01+00:00",
   "source_chunks": {
     "009ea6ddfcaa5e8d4f6a7064": {
       "canonical_confirmations": [],
@@ -4504,7 +4504,7 @@
           }
         }
       ],
-      "completed_at": "2026-09-06T21:33:52+00:00",
+      "completed_at": "2026-09-07T06:18:00+00:00",
       "created_at": "2026-09-05T05:56:41+00:00",
       "document_types": [
         "campaign_website_page"
@@ -4519,7 +4519,7 @@
       "statuses": [],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-09-06T21:33:52+00:00",
+      "updated_at": "2026-09-07T06:17:52+00:00",
       "url": "https://attalpresident.fr/programme"
     },
     "344690d0791e1668301a3cf8": {
@@ -8534,6 +8534,112 @@
       "total": 1,
       "updated_at": "2026-08-14T08:47:21+00:00",
       "url": "https://solutiondemocratique.fr/delphine-batho-programme-2027/"
+    },
+    "60856e8f9b24a62f691c955e": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "réduire drastiquement l’immigration",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau souhaite réduire drastiquement l'immigration par référendum.",
+            "topic": "immigration-integration"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Présent à l'identique dans le canonique.",
+            "related_proposal_id": "auto-bruno-retailleau-immigration-integration-39955feaadc3",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "engager une véritable révolution de notre justice pénale",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau veut engager une révolution de la justice pénale par référendum.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "Présent à l'identique dans le canonique.",
+            "related_proposal_id": "auto-bruno-retailleau-securite-justice-703dc438f470",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "je vous soumettrai directement par référendum plusieurs grands textes de loi",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau souhaite soumettre plusieurs grands textes de loi directement par référendum.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "Présent à l'identique dans le canonique.",
+            "related_proposal_id": "auto-bruno-retailleau-institutions-democratie-f5a91461b7da",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "redonner la primauté à notre droit national",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau veut redonner la primauté au droit national par référendum.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 3,
+            "reason": "Présent à l'identique dans le canonique.",
+            "related_proposal_id": "auto-bruno-retailleau-institutions-democratie-916dbcbd3347",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-09-07T06:17:50+00:00",
+      "created_at": "2026-09-07T06:17:36+00:00",
+      "document_types": [
+        "candidacy_declaration"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-02-12"
+      ],
+      "sha256": "a47e2640ada1adf6f03407cfec318c752f9c80c869f5e9b24e14ab585014d593",
+      "source_title": "Je suis candidat à l'élection présidentielle. - Les Républicains",
+      "statuses": [
+        {
+          "status": {
+            "candidate_id": "bruno-retailleau",
+            "effective_date": "2026-02-12",
+            "evidence_quote": "Je suis candidat à l’élection présidentielle.",
+            "explicit": true,
+            "new_status": "declared_presidential"
+          }
+        }
+      ],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-07T06:17:41+00:00",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
     "609af4974bdc97b177cbe20d": {
       "canonical_confirmations": [
@@ -22187,6 +22293,28 @@
       "updated_at": "2026-09-04T06:06:56+00:00",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
+    "e99d192935eb2f1a3c3b2f10": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-09-07T06:17:32+00:00",
+      "document_types": [
+        "official_press_release"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [
+        "2026-06-17"
+      ],
+      "sha256": "652d7d7f0c53698a681559ee96addac869f957bfcd060838e68351fa30ec7459",
+      "source_title": "CommuniquÃ© â PrÃ©sidentielle 2027Â : Selma Labib, une candidature ouvriÃ¨re et rÃ©volutionnaire, soutenue par GaÃ«l Quirante â NPA RÃ©volutionnaires",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-07T06:17:34+00:00",
+      "url": "https://npa-revolutionnaires.org/articles/communique-presidentielle-2027-selma-labib-une-candidature-ouvriere-et-revolutionnaire-soutenue-par-gael-quirante"
+    },
     "eaf315e0b87b6138d49376ea": {
       "canonical_confirmations": [
         {
@@ -24231,6 +24359,15 @@
       "status": "promoted",
       "url": "https://solutiondemocratique.fr/francois-asselineau-2027-programme/"
     },
+    "1128581105a5": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-07T06:17:50+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "a47e2640ada1adf6f03407cfec318c752f9c80c869f5e9b24e14ab585014d593",
+      "status": "promoted",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
     "118fd2d45809": {
       "chunks_done": null,
       "chunks_total": null,
@@ -25386,6 +25523,15 @@
       "status": "promoted",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
+    "8289e0af7717": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-07T06:17:34+00:00",
+      "reason": null,
+      "source_sha256": "652d7d7f0c53698a681559ee96addac869f957bfcd060838e68351fa30ec7459",
+      "status": "not_confirmed",
+      "url": "https://npa-revolutionnaires.org/articles/communique-presidentielle-2027-selma-labib-une-candidature-ouvriere-et-revolutionnaire-soutenue-par-gael-quirante"
+    },
     "8591ccc8cece": {
       "chunks_done": null,
       "chunks_total": 1,
@@ -25806,6 +25952,15 @@
       "source_sha256": "489cdb9d0baed3197bf590637c35ed22724d9b2d52d5d0b05dc6d9eaf35e6dcb",
       "status": "promoted",
       "url": "https://www.unenouvelleenergie.fr/notre-programme/"
+    },
+    "b2d448d77064": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-09-07T06:18:00+00:00",
+      "reason": null,
+      "source_sha256": "64c45da36a32d401ab74ddce449436ad1a478b2a03847264f2e5f2747d800938",
+      "status": "promoted",
+      "url": "https://attalpresident.fr/programme"
     },
     "b33fbda7545e": {
       "chunks_done": null,
