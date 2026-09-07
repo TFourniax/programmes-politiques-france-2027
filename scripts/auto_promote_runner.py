@@ -103,6 +103,7 @@ STATUS_CHANGE_HINTS = (
 )
 STATUS_PRIORITY_BONUS = 1000
 DEFAULT_REPEAT_URL_COOLDOWN_HOURS = 18.0
+SUPPRESSIBLE_TERMINAL_STATES = {"no_canonical_data", "not_confirmed", "historical_skipped"}
 MONTHS_FR = {
     1: "janvier", 2: "fevrier", 3: "mars", 4: "avril", 5: "mai", 6: "juin",
     7: "juillet", 8: "aout", 9: "septembre", 10: "octobre", 11: "novembre", 12: "decembre",
@@ -268,6 +269,13 @@ def _parse_timestamp(value: Any) -> datetime | None:
     return parsed.astimezone(timezone.utc)
 
 
+def _suppressible_terminal_record(record: dict[str, Any]) -> bool:
+    status = str(record.get("status") or "")
+    if status in SUPPRESSIBLE_TERMINAL_STATES:
+        return True
+    return status == "promoted" and record.get("reason") == "canonical_duplicate_evidence"
+
+
 def suppress_recent_repeat_changes(
     events: list[dict[str, Any]],
     promotion_state: dict[str, Any],
@@ -275,22 +283,20 @@ def suppress_recent_repeat_changes(
     now_utc: datetime | None = None,
     cooldown_hours: float = DEFAULT_REPEAT_URL_COOLDOWN_HOURS,
 ) -> list[dict[str, Any]]:
-    """Throttle non-critical HTML churn while never suppressing new URLs or status transitions."""
+    """Throttle proven non-actionable churn without delaying potentially new canonical content."""
     if cooldown_hours <= 0:
         return events
     now_utc = (now_utc or datetime.now(timezone.utc)).astimezone(timezone.utc)
-    latest_terminal: dict[str, datetime] = {}
+    latest_suppressible: dict[str, datetime] = {}
     for record in (promotion_state.get("sources") or {}).values():
-        if not isinstance(record, dict):
-            continue
-        if record.get("status") not in auto_promote.TERMINAL_SOURCE_STATES:
+        if not isinstance(record, dict) or not _suppressible_terminal_record(record):
             continue
         url = str(record.get("url") or "").strip()
         processed = _parse_timestamp(record.get("processed_at"))
         if not url or not processed:
             continue
-        if url not in latest_terminal or processed > latest_terminal[url]:
-            latest_terminal[url] = processed
+        if url not in latest_suppressible or processed > latest_suppressible[url]:
+            latest_suppressible[url] = processed
 
     cooldown = timedelta(hours=float(cooldown_hours))
     out: list[dict[str, Any]] = []
@@ -298,7 +304,7 @@ def suppress_recent_repeat_changes(
         if event.get("event_type") != "official_source_changed" or is_status_critical_event(event):
             out.append(event)
             continue
-        processed = latest_terminal.get(str(event.get("url") or "").strip())
+        processed = latest_suppressible.get(str(event.get("url") or "").strip())
         if processed is None:
             out.append(event)
             continue
