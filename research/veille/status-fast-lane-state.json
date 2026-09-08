@@ -1,5 +1,12 @@
 {
   "events": {
+    "0de45182a5ce": {
+      "error": "ValueError: HTTP 403",
+      "event_url": "https://www.pcf.fr/une_candidature_de_gauche_au_service_de_l_aube_et_de_ses_communes",
+      "owner": "Parti communiste français",
+      "processed_at": "2026-09-08T12:14:38+00:00",
+      "status": "technical_error"
+    },
     "11b463101679": {
       "event_url": "https://solutiondemocratique.fr/presidentielle-2027-dans-les-yvelines-hugo-ancien-candidat-aux-municipales-rencontre-les-elus-locaux-pour-solution-democratique/",
       "owner": "Solution démocratique",
@@ -18,7 +25,7 @@
       "error": "ValueError: HTTP 403",
       "event_url": "https://www.pcf.fr/presidentielle2027_fabien_roussel_designe_candidat",
       "owner": "Parti communiste français",
-      "processed_at": "2026-09-08T06:04:46+00:00",
+      "processed_at": "2026-09-08T12:14:31+00:00",
       "status": "technical_error"
     },
     "219a1b4f2b48": {
@@ -65,10 +72,24 @@
       "reason": "no_deterministic_transition",
       "status": "not_applicable"
     },
+    "472924b7a00c": {
+      "event_url": "https://www.revolutionpermanente.fr/Neoliberalisme-social-et-militarisme-de-gauche-Glucksmann-lance-sa-candidature",
+      "owner": "Anasse Kazib",
+      "processed_at": "2026-09-08T12:14:39+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
     "4af04e5ddf0c": {
       "event_url": "https://solutiondemocratique.fr/presidentielle-2027-une-votation-organisee-a-chambery-autour-de-la-candidature-citoyenne-de-clara-egger/",
       "owner": "Solution démocratique",
       "processed_at": "2026-09-08T06:04:51+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
+    "57314cd1fca3": {
+      "event_url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne",
+      "owner": "Gabriel Attal",
+      "processed_at": "2026-09-08T12:14:38+00:00",
       "reason": "no_deterministic_transition",
       "status": "not_applicable"
     },
@@ -114,6 +135,21 @@
       "reason": "no_deterministic_transition",
       "status": "not_applicable"
     },
+    "9204eb2aa11d": {
+      "event_url": "https://www.debout-la-france.fr/actualite/je-serai-le-seul-candidat-en-2027-qui-veut-en-finir-avec-lunion-europeenne-%c2%b7-frontieres14-03-25/",
+      "owner": "Debout la France",
+      "processed_at": "2026-09-08T12:14:36+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
+    "9fc896a8d11d": {
+      "candidate_id": "gabriel-attal",
+      "event_url": "https://attalpresident.fr/actualites/annonce-de-candidature",
+      "new_status": "declared_presidential",
+      "owner": "Gabriel Attal",
+      "processed_at": "2026-09-08T12:14:38+00:00",
+      "status": "already_current"
+    },
     "a2dbf807320f": {
       "event_url": "https://npa-revolutionnaires.org/dans-bfm-presidentielle-2027-le-npa-revolutionnaires-annonce-presenter-la-candidature-de-sa-porte-parole-selma-labib/",
       "owner": "NPA-Révolutionnaires",
@@ -125,7 +161,7 @@
       "error": "ValueError: HTTP 403",
       "event_url": "https://www.pcf.fr/presidentielle_2027_mjcf_s_engage_pour_candidature_communiste",
       "owner": "Parti communiste français",
-      "processed_at": "2026-09-08T06:04:46+00:00",
+      "processed_at": "2026-09-08T12:14:31+00:00",
       "status": "technical_error"
     },
     "b88c50cd309b": {
@@ -139,6 +175,13 @@
       "event_url": "https://npa-revolutionnaires.org/dans-liberation-election-presidentielle-2027-le-npa-revolutionnaires-designe-selma-labib-comme-candidate-du-parti/",
       "owner": "NPA-Révolutionnaires",
       "processed_at": "2026-09-07T22:09:51+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
+    "c27668dc7ad7": {
+      "event_url": "https://rassemblementnational.fr/",
+      "owner": "Rassemblement national",
+      "processed_at": "2026-09-08T12:14:38+00:00",
       "reason": "no_deterministic_transition",
       "status": "not_applicable"
     },
@@ -161,8 +204,15 @@
       "error": "ValueError: HTTP 404",
       "event_url": "https://parti-equinoxe.fr/articles/2022/05/la-transition-energetique-selon-les-ex-candidats-a-la-presidentielle-2/",
       "owner": "Équinoxe",
-      "processed_at": "2026-09-08T06:04:49+00:00",
+      "processed_at": "2026-09-08T12:14:33+00:00",
       "status": "technical_error"
+    },
+    "cce2ef2e9953": {
+      "event_url": "https://npa-revolutionnaires.org/selma-labib-une-candidature-ouvriere-et-revolutionnaire-soutenue-par-gael-quirante/",
+      "owner": "NPA-Révolutionnaires",
+      "processed_at": "2026-09-08T12:14:40+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
     },
     "cf09f4269bf5": {
       "event_url": "https://npa-revolutionnaires.org/dans-le-telegramme-presidentielle-2027-selma-labib-conductrice-de-bus-sera-la-candidate-du-parti-dextreme-gauche-npa-revolutionnaires/",
@@ -192,10 +242,24 @@
       "reason": "no_deterministic_transition",
       "status": "not_applicable"
     },
+    "dd75fcba2cf0": {
+      "event_url": "https://www.revolutionpermanente.fr/Redonner-confiance-dans-ses-forces-a-la-classe-ouvriere-Anasse-Kazib-presente-sa-candidature-au",
+      "owner": "Anasse Kazib",
+      "processed_at": "2026-09-08T12:14:39+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
     "de0b5dbdade3": {
       "event_url": "https://solutiondemocratique.fr/presidentielle2027-annonce-candidature-clara-egger/",
       "owner": "Solution démocratique",
       "processed_at": "2026-09-07T22:01:24+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
+    "ea941f1f97d5": {
+      "event_url": "https://www.debout-la-france.fr/actualite/presidentielle-2027-il-faut-une-candidature-independantiste-jirai-%c2%b7-boulevard-voltaire-08-03-25/",
+      "owner": "Debout la France",
+      "processed_at": "2026-09-08T12:14:37+00:00",
       "reason": "no_deterministic_transition",
       "status": "not_applicable"
     },
@@ -217,8 +281,8 @@
       "status": "not_applicable"
     }
   },
-  "last_error_count": 3,
-  "last_run_at": "2026-09-08T06:04:57+00:00",
+  "last_error_count": 4,
+  "last_run_at": "2026-09-08T12:14:40+00:00",
   "last_updated_count": 0,
   "version": 1
 }

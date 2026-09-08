@@ -1556,9 +1556,9 @@
       "verified_at": "2026-08-13T08:51:16+00:00"
     }
   },
-  "last_error_count": 3,
-  "last_processed_count": 0,
-  "last_run_at": "2026-09-08T06:08:57+00:00",
+  "last_error_count": 2,
+  "last_processed_count": 1,
+  "last_run_at": "2026-09-08T12:17:26+00:00",
   "source_chunks": {
     "009ea6ddfcaa5e8d4f6a7064": {
       "canonical_confirmations": [],
@@ -2064,16 +2064,45 @@
       "url": "https://solutiondemocratique.fr/juan-branco-2027-programme/"
     },
     "0a901488d31e931549ca0cf5": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "solution-democratique",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Solution Démocratique souhaite instaurer en France la démocratie directe et la décentralisation par le bas.",
+            "relevance": "direct",
+            "statement": "Solution démocratique souhaite instaurer en France la démocratie directe et la décentralisation par le bas.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La source indique explicitement que Solution Démocratique souhaite instaurer en France la démocratie directe et la décentralisation par le bas, ce qui correspond exactement à l'entrée canonique existante.",
+            "related_proposal_id": "auto-solution-democratique-institutions-democratie-4ea1c22d52ea",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
       "claims": [],
+      "completed_at": "2026-09-08T12:17:24+00:00",
       "created_at": "2026-09-08T06:07:26+00:00",
-      "document_types": [],
-      "done": [],
-      "published_candidates": [],
+      "document_types": [
+        "official_press_release"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-06-22"
+      ],
       "sha256": "894755da83ca5db442aa73c0b6727b734f575a3b34fc0e6610ae428c91feb8d9",
       "source_title": "Présidentielle 2027 : dans les Yvelines, Hugo, ancien candidat aux municipales, rencontre les élus locaux pour Solution Démocratique - Solution Démocratique - Parti politique pour instaurer la démocratie directe",
       "statuses": [],
       "text_truncated": false,
       "total": 1,
+      "updated_at": "2026-09-08T12:17:20+00:00",
       "url": "https://solutiondemocratique.fr/presidentielle-2027-dans-les-yvelines-hugo-ancien-candidat-aux-municipales-rencontre-les-elus-locaux-pour-solution-democratique/"
     },
     "0ac4e9f064279d7e429fcfc7": {
@@ -18979,6 +19008,26 @@
       "updated_at": "2026-08-31T23:23:01+00:00",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
+    "bdbae5b927ce9987ac201125": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-09-08T12:17:26+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "3d6b9ffb18b0ae4ca6110037772cf27fb5ff4987b1cb2639cb0f024fbe91f599",
+      "source_title": "SÉBASTIEN CHENU : « Marine Le Pen, c'est la candidate des Français ! » (FRANCE 2)",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-08T12:17:27+00:00",
+      "url": "https://www.youtube.com/watch?v=ge4fO8vYZCE"
+    },
     "bf324b16a96399d90bd56b1a": {
       "canonical_confirmations": [
         {
@@ -24776,11 +24825,12 @@
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
     "11b463101679": {
-      "attempts": 1,
-      "error": "ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
-      "next_retry_at": "2026-09-08T12:08:56+00:00",
-      "processed_at": "2026-09-08T06:08:56+00:00",
-      "status": "technical_error",
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-08T12:17:24+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "894755da83ca5db442aa73c0b6727b734f575a3b34fc0e6610ae428c91feb8d9",
+      "status": "promoted",
       "url": "https://solutiondemocratique.fr/presidentielle-2027-dans-les-yvelines-hugo-ancien-candidat-aux-municipales-rencontre-les-elus-locaux-pour-solution-democratique/"
     },
     "130012fb6774": {
@@ -26755,6 +26805,14 @@
       "status": "promoted",
       "url": "https://attalpresident.fr/programme/dette-de-letat"
     },
+    "cb0c4447dcfa": {
+      "attempts": 1,
+      "error": "ValueError: HTTP 404",
+      "next_retry_at": "2026-09-08T18:17:25+00:00",
+      "processed_at": "2026-09-08T12:17:25+00:00",
+      "status": "technical_error",
+      "url": "https://parti-equinoxe.fr/articles/2022/05/la-transition-energetique-selon-les-ex-candidats-a-la-presidentielle-2/"
+    },
     "cc205066844c": {
       "chunks_done": null,
       "chunks_total": null,
@@ -26977,6 +27035,14 @@
       "source_sha256": "47f2d8a521b1f673a815daa7481fa644cc8106b2850340f4ea981c2a1ba84518",
       "status": "promoted",
       "url": "https://solutiondemocratique.fr/manolo-mlekuz-programme-presidentielle-2027/"
+    },
+    "de0b5dbdade3": {
+      "attempts": 1,
+      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+      "next_retry_at": "2026-09-08T18:17:25+00:00",
+      "processed_at": "2026-09-08T12:17:25+00:00",
+      "status": "technical_error",
+      "url": "https://solutiondemocratique.fr/presidentielle2027-annonce-candidature-clara-egger/"
     },
     "de73b4b6213c": {
       "chunks_done": null,

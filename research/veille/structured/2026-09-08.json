@@ -1,8 +1,8 @@
 {
   "events": [],
-  "generated_at": "2026-09-08T06:04:45+00:00",
+  "generated_at": "2026-09-08T12:14:30+00:00",
   "health": [],
   "warnings": [
-    "lfi-programme-chapters: ValueError: official HTML unavailable for https://melenchon2027.fr/programme2025/livre/chapitre1/: HTTP 521 https://melenchon2027.fr/programme2025/livre/chapitre1/; HTTP 521 https://melenchon2027.fr/programme2025/livre/chapitre1/"
+    "lfi-programme-chapters: ValueError: mandatory programme chapter 1 returned 404"
   ]
 }
