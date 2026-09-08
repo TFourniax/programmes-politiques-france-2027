@@ -16,7 +16,8 @@ source_document_ids: [auto-solution-democratique-2026-04-05-2490d151b5b8, auto-s
   auto-solution-democratique-2026-05-03-8d4f255a6ea9, auto-solution-democratique-2025-04-09-624555f164b4, auto-solution-democratique-2026-05-03-4462d0edc49c,
   auto-solution-democratique-2026-05-13-e5e9484e2b9c, auto-solution-democratique-2026-08-16-a0db326b1cb1, auto-solution-democratique-2025-04-09-7fa3658e1707,
   auto-solution-democratique-2026-08-19-64ce907dede0, auto-solution-democratique-2025-04-09-3a8ec20cb386, auto-solution-democratique-2026-02-15-65d32cffad67,
-  auto-solution-democratique-2026-08-19-adcc906c08e8, auto-solution-democratique-2026-09-07-7b19fa990a25, auto-solution-democratique-2026-06-22-0a901488d31e]
+  auto-solution-democratique-2026-08-19-adcc906c08e8, auto-solution-democratique-2026-09-07-7b19fa990a25, auto-solution-democratique-2026-06-22-0a901488d31e,
+  auto-solution-democratique-2026-07-17-1a899874ca3f]
 source_url: https://solutiondemocratique.fr/segolene-royal-programme-presidentielle2027/
 source_tier: tier_1_primary_official
 first_documented_at: '2026-04-05'
@@ -39,7 +40,8 @@ source_urls: ['https://solutiondemocratique.fr/segolene-royal-programme-presiden
   'https://solutiondemocratique.fr/programme-lfi-2027/', 'https://solutiondemocratique.fr/comparatif-candidats-programme-elections-presidentielles-france-2027/',
   'https://solutiondemocratique.fr/parti-socialiste-programme-2027/', 'https://solutiondemocratique.fr/parrainage2027/', 'https://solutiondemocratique.fr/francis-lalanne-2027-programme/',
   'https://solutiondemocratique.fr/dans-la-drome-solution-democratique-organise-neuf-votations-citoyennes-avant-la-venue-de-la-candidate-a-la-presidentielle-clara-egger/',
-  'https://solutiondemocratique.fr/presidentielle-2027-dans-les-yvelines-hugo-ancien-candidat-aux-municipales-rencontre-les-elus-locaux-pour-solution-democratique/']
+  'https://solutiondemocratique.fr/presidentielle-2027-dans-les-yvelines-hugo-ancien-candidat-aux-municipales-rencontre-les-elus-locaux-pour-solution-democratique/',
+  'https://solutiondemocratique.fr/presidentielle-2027-une-votation-organisee-a-lyon-4-autour-de-la-candidature-citoyenne-de-clara-egger/']
 evidence_sha256s: [0b013c630f2281528d927d3c6ac7bbed832efeb82d7536d7e0ad37cee3b09409, 1841b8fd670f23d8045bd9619c332a46ba1aa9a12785e4fc938ebb64d3dac6e6,
   689874aee6e56ea9aa4502364cf191c20b803ea320fcef3db7e477f412daa0bb, 41335891eed587b269834e5162f66c954482d42c2e94b71259eed15f9033f81e,
   181a8380bfef45b18c49d80b3b5d0de72a83fc476ef514ca5705b2065249f82e, 9996d86efff8ca030f3a7263822e19e41b2af39c488fc9ec1eb26f9b606d100e,
@@ -57,9 +59,9 @@ evidence_sha256s: [0b013c630f2281528d927d3c6ac7bbed832efeb82d7536d7e0ad37cee3b09
   b045adcfd01d55b0a2cf58cc708ba21427bd51c95b4af7bafd81fae736c4d0b9, 55514c96c00e6dea0226461e8e59611a4007ae0ebdd92e7421743d1aeb521d52,
   a77be3d4888001d749c351fb0625671fcf3ea4c6b52900fa43ddf5a430f97c4c, f9aaa84cbaf2b847d9a1d7cdaab45af257c054eb83a27e116fd6292f8260703a,
   b715bed5d020ec4ca700a21e55db8acae28293b85be633f8e89682cafad4a09b, eda4becec9cf862ad7bfadefc41808e1a55f4f285a9cf7d336d3cb519ea53a72,
-  894755da83ca5db442aa73c0b6727b734f575a3b34fc0e6610ae428c91feb8d9]
-confirmation_count: 35
-last_confirmed_at: '2026-06-22'
+  894755da83ca5db442aa73c0b6727b734f575a3b34fc0e6610ae428c91feb8d9, 158e832488c0fe78a65cc43e209f4a56bd3c6c88abf255aa6adee21458cbb82c]
+confirmation_count: 36
+last_confirmed_at: '2026-07-17'
 ---
 
 # Solution Démocratique souhaite instaurer la démocratie directe et la décentralisation par le bas en France

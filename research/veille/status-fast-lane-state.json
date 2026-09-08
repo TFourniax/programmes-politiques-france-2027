@@ -1,10 +1,17 @@
 {
   "events": {
+    "096c42db7d18": {
+      "event_url": "https://republicains.fr/actualites/2026/05/31/ma-candidature-ira-jusquau-bout/",
+      "owner": "Bruno Retailleau",
+      "processed_at": "2026-09-08T17:20:02+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
     "0de45182a5ce": {
       "error": "ValueError: HTTP 403",
       "event_url": "https://www.pcf.fr/une_candidature_de_gauche_au_service_de_l_aube_et_de_ses_communes",
       "owner": "Parti communiste français",
-      "processed_at": "2026-09-08T12:14:38+00:00",
+      "processed_at": "2026-09-08T17:20:00+00:00",
       "status": "technical_error"
     },
     "11b463101679": {
@@ -21,11 +28,18 @@
       "reason": "no_deterministic_transition",
       "status": "not_applicable"
     },
+    "17029b81677f": {
+      "event_url": "https://www.generationecologie.fr/newsletter/une-candidature-pour-sauver-lecologie/",
+      "owner": "Génération Écologie",
+      "processed_at": "2026-09-08T17:20:01+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
     "1e67d8d2b142": {
       "error": "ValueError: HTTP 403",
       "event_url": "https://www.pcf.fr/presidentielle2027_fabien_roussel_designe_candidat",
       "owner": "Parti communiste français",
-      "processed_at": "2026-09-08T12:14:31+00:00",
+      "processed_at": "2026-09-08T17:19:56+00:00",
       "status": "technical_error"
     },
     "219a1b4f2b48": {
@@ -51,12 +65,27 @@
       "reason": "no_deterministic_transition",
       "status": "not_applicable"
     },
+    "3136ec582e42": {
+      "event_url": "https://www.generationecologie.fr/2026/06/07/une-candidature-pour-sauver-lecologie/",
+      "owner": "Génération Écologie",
+      "processed_at": "2026-09-08T17:20:01+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
     "348e8977e452": {
       "event_url": "https://www.revolutionpermanente.fr/Budget-2027-le-gouvernement-relance-l-offensive-sur-la-desindexation-des-retraites",
       "owner": "Anasse Kazib",
       "processed_at": "2026-09-07T22:01:16+00:00",
       "reason": "no_deterministic_transition",
       "status": "not_applicable"
+    },
+    "37beb4064b9e": {
+      "candidate_id": "gabriel-attal",
+      "event_url": "https://attalpresident.fr/actualites/annonce-de-candidature",
+      "new_status": "declared_presidential",
+      "owner": "Gabriel Attal",
+      "processed_at": "2026-09-08T17:20:00+00:00",
+      "status": "already_current"
     },
     "4244fc9bd303": {
       "event_url": "https://www.debout-la-france.fr/actualite/je-suis-en-candidat-en-2027-pour-defendre-la-sortie-de-lunion-europeenne-france-info-tv-23-01-26/",
@@ -93,6 +122,13 @@
       "reason": "no_deterministic_transition",
       "status": "not_applicable"
     },
+    "58bd449539f2": {
+      "event_url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne",
+      "owner": "Gabriel Attal",
+      "processed_at": "2026-09-08T17:20:00+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
     "69ee6fd57e7c": {
       "event_url": "https://republicains.fr/actualites/2026/04/21/candidat-a-la-presidentielle-jirai-jusquau-bout/",
       "owner": "Bruno Retailleau",
@@ -111,6 +147,13 @@
       "event_url": "https://npa-revolutionnaires.org/sur-rtl-presidentielle-2027-selma-labib-officiellement-candidate-pour-le-npa-revolutionnaires/",
       "owner": "NPA-Révolutionnaires",
       "processed_at": "2026-09-07T22:09:50+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
+    "8370398f2524": {
+      "event_url": "https://rassemblementnational.fr/",
+      "owner": "Rassemblement national",
+      "processed_at": "2026-09-08T17:19:59+00:00",
       "reason": "no_deterministic_transition",
       "status": "not_applicable"
     },
@@ -142,6 +185,14 @@
       "reason": "no_deterministic_transition",
       "status": "not_applicable"
     },
+    "92755c4b736d": {
+      "candidate_matches": [],
+      "event_url": "https://www.generationecologie.fr/candidatures-aux-instances-de-generation-ecologie/",
+      "owner": "Génération Écologie",
+      "processed_at": "2026-09-08T17:20:03+00:00",
+      "reason": "candidate_match_not_unique",
+      "status": "ambiguous"
+    },
     "9fc896a8d11d": {
       "candidate_id": "gabriel-attal",
       "event_url": "https://attalpresident.fr/actualites/annonce-de-candidature",
@@ -161,7 +212,7 @@
       "error": "ValueError: HTTP 403",
       "event_url": "https://www.pcf.fr/presidentielle_2027_mjcf_s_engage_pour_candidature_communiste",
       "owner": "Parti communiste français",
-      "processed_at": "2026-09-08T12:14:31+00:00",
+      "processed_at": "2026-09-08T17:19:56+00:00",
       "status": "technical_error"
     },
     "b88c50cd309b": {
@@ -204,7 +255,7 @@
       "error": "ValueError: HTTP 404",
       "event_url": "https://parti-equinoxe.fr/articles/2022/05/la-transition-energetique-selon-les-ex-candidats-a-la-presidentielle-2/",
       "owner": "Équinoxe",
-      "processed_at": "2026-09-08T12:14:33+00:00",
+      "processed_at": "2026-09-08T17:19:59+00:00",
       "status": "technical_error"
     },
     "cce2ef2e9953": {
@@ -282,7 +333,7 @@
     }
   },
   "last_error_count": 4,
-  "last_run_at": "2026-09-08T12:14:40+00:00",
+  "last_run_at": "2026-09-08T17:20:03+00:00",
   "last_updated_count": 0,
   "version": 1
 }
