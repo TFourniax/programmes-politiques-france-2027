@@ -4,34 +4,34 @@
       "error": "ValueError: HTTP 403",
       "event_url": "https://www.pcf.fr/presidentielle2027_fabien_roussel_designe_candidat",
       "owner": "Parti communiste français",
-      "processed_at": "2026-09-08T17:19:56+00:00"
+      "processed_at": "2026-09-08T21:58:38+00:00"
     },
     {
       "error": "ValueError: HTTP 403",
       "event_url": "https://www.pcf.fr/presidentielle_2027_mjcf_s_engage_pour_candidature_communiste",
       "owner": "Parti communiste français",
-      "processed_at": "2026-09-08T17:19:56+00:00"
+      "processed_at": "2026-09-08T21:58:38+00:00"
     },
     {
       "error": "ValueError: HTTP 404",
       "event_url": "https://parti-equinoxe.fr/articles/2022/05/la-transition-energetique-selon-les-ex-candidats-a-la-presidentielle-2/",
       "owner": "Équinoxe",
-      "processed_at": "2026-09-08T17:19:59+00:00"
+      "processed_at": "2026-09-08T21:58:42+00:00"
     },
     {
       "error": "ValueError: HTTP 403",
       "event_url": "https://www.pcf.fr/une_candidature_de_gauche_au_service_de_l_aube_et_de_ses_communes",
       "owner": "Parti communiste français",
-      "processed_at": "2026-09-08T17:20:00+00:00"
+      "processed_at": "2026-09-08T21:58:44+00:00"
     }
   ],
-  "generated_at": "2026-09-08T17:20:03+00:00",
-  "processed": 7,
+  "generated_at": "2026-09-08T21:58:44+00:00",
+  "processed": 3,
   "results": [
     {
       "event_url": "https://rassemblementnational.fr/",
       "owner": "Rassemblement national",
-      "processed_at": "2026-09-08T17:19:59+00:00",
+      "processed_at": "2026-09-08T21:58:43+00:00",
       "reason": "no_deterministic_transition",
       "status": "not_applicable"
     },
@@ -40,44 +40,15 @@
       "event_url": "https://attalpresident.fr/actualites/annonce-de-candidature",
       "new_status": "declared_presidential",
       "owner": "Gabriel Attal",
-      "processed_at": "2026-09-08T17:20:00+00:00",
+      "processed_at": "2026-09-08T21:58:43+00:00",
       "status": "already_current"
     },
     {
       "event_url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne",
       "owner": "Gabriel Attal",
-      "processed_at": "2026-09-08T17:20:00+00:00",
+      "processed_at": "2026-09-08T21:58:44+00:00",
       "reason": "no_deterministic_transition",
       "status": "not_applicable"
-    },
-    {
-      "event_url": "https://www.generationecologie.fr/newsletter/une-candidature-pour-sauver-lecologie/",
-      "owner": "Génération Écologie",
-      "processed_at": "2026-09-08T17:20:01+00:00",
-      "reason": "no_deterministic_transition",
-      "status": "not_applicable"
-    },
-    {
-      "event_url": "https://www.generationecologie.fr/2026/06/07/une-candidature-pour-sauver-lecologie/",
-      "owner": "Génération Écologie",
-      "processed_at": "2026-09-08T17:20:01+00:00",
-      "reason": "no_deterministic_transition",
-      "status": "not_applicable"
-    },
-    {
-      "event_url": "https://republicains.fr/actualites/2026/05/31/ma-candidature-ira-jusquau-bout/",
-      "owner": "Bruno Retailleau",
-      "processed_at": "2026-09-08T17:20:02+00:00",
-      "reason": "no_deterministic_transition",
-      "status": "not_applicable"
-    },
-    {
-      "candidate_matches": [],
-      "event_url": "https://www.generationecologie.fr/candidatures-aux-instances-de-generation-ecologie/",
-      "owner": "Génération Écologie",
-      "processed_at": "2026-09-08T17:20:03+00:00",
-      "reason": "candidate_match_not_unique",
-      "status": "ambiguous"
     }
   ],
   "updated": 0

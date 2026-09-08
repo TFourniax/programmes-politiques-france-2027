@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created_at": "2026-08-17T19:57:19.441897+00:00",
-  "updated_at": "2026-09-08T17:23:02.945050+00:00",
+  "updated_at": "2026-09-08T22:02:13.717204+00:00",
   "files": [
     {
       "path": "corpus/2027/auto/candidates/anasse-kazib/2026-08-28-38891602d9d9.md",
@@ -694,6 +694,16 @@
       "size": 1756
     },
     {
+      "path": "corpus/2027/auto/partys/solution-democratique/2026-04-19-8d31a195667f.md",
+      "sha256": "ca474b60818b61f61fb393572c914f97f567b0af9587a46fc68991763ae2349f",
+      "size": 1730
+    },
+    {
+      "path": "corpus/2027/auto/partys/solution-democratique/2026-06-19-420a5d767890.md",
+      "sha256": "315236dc63702fa305117993e41e8f8e244955bfeaae947152c5835d2de0e044",
+      "size": 2335
+    },
+    {
       "path": "corpus/2027/auto/partys/solution-democratique/2026-06-22-0a901488d31e.md",
       "sha256": "a19cb9320b5ebda0f074216215d356b544980a43dcb80e29df02f19ec612f683",
       "size": 2160
@@ -1065,8 +1075,8 @@
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-clara-egger-institutions-democratie-ef5123784bab.md",
-      "sha256": "e15bb08762acfa459aaf402429dda75e0bf89d38cd0344e46e88ea3ec4efd991",
-      "size": 2710
+      "sha256": "4980ceefcb94ba3c15d0809c7c2b025ba9578efb80cb92a8015db73384402d02",
+      "size": 2976
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-david-lisnard-institutions-democratie-8a7a7019b8f9.md",
@@ -1160,8 +1170,8 @@
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-solution-democratique-institutions-democratie-4ea1c22d52ea.md",
-      "sha256": "972254aec4f1496b689b940b060668494cd7958f4b38ffdfb14aa35952859188",
-      "size": 8469
+      "sha256": "2d6aef02b8e7279fca815357abe08aab2582f10b14b7f0d4acaf370c525fd6b1",
+      "size": 8940
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-solution-democratique-institutions-democratie-60c5ea22a7f1.md",

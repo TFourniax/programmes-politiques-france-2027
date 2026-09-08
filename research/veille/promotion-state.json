@@ -1556,9 +1556,9 @@
       "verified_at": "2026-08-13T08:51:16+00:00"
     }
   },
-  "last_error_count": 0,
-  "last_processed_count": 3,
-  "last_run_at": "2026-09-08T17:22:51+00:00",
+  "last_error_count": 1,
+  "last_processed_count": 2,
+  "last_run_at": "2026-09-08T22:02:09+00:00",
   "source_chunks": {
     "009ea6ddfcaa5e8d4f6a7064": {
       "canonical_confirmations": [],
@@ -6929,6 +6929,66 @@
       "total": 1,
       "updated_at": "2026-08-27T11:22:22+00:00",
       "url": "https://www.youtube.com/shorts/9xPvFX4nB2I"
+    },
+    "420a5d76789042a7e9b5cddc": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "solution-democratique",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Solution Démocratique souhaite instaurer en France la démocratie directe et la décentralisation par le bas.",
+            "relevance": "direct",
+            "statement": "Solution Démocratique souhaite instaurer en France la démocratie directe et la décentralisation par le bas.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La proposition est explicitement soutenue par la source et constitue un doublon d'une entrée canonique existante.",
+            "related_proposal_id": "auto-solution-democratique-institutions-democratie-4ea1c22d52ea",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "clara-egger",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "Clara Egger porte une candidature transpartisane centrée sur la réforme des institutions",
+            "relevance": "direct",
+            "statement": "Clara Egger porte une candidature centrée sur la réforme des institutions pour renforcer le contrôle citoyen.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La candidature transpartisane centrée sur la réforme des institutions est explicitement présente dans la source et dans le canonique.",
+            "related_proposal_id": "auto-clara-egger-institutions-democratie-ef5123784bab",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-09-08T22:02:09+00:00",
+      "created_at": "2026-09-08T22:01:57+00:00",
+      "document_types": [
+        "official_press_release"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-06-19"
+      ],
+      "sha256": "f287ff07bb5f24911282b3c14ae3ece25d984974ab175b5ec42857ee2fbc45ae",
+      "source_title": "Présidentielle 2027 : une votation organisée à Charolles (71) autour de la candidature citoyenne de Clara Egger - Solution Démocratique - Parti politique pour instaurer la démocratie directe",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-08T22:02:04+00:00",
+      "url": "https://solutiondemocratique.fr/presidentielle-2027-une-votation-organisee-a-charolles-71-autour-de-la-candidature-citoyenne-de-clara-egger/"
     },
     "436adfca7d7956c24aecea5b": {
       "canonical_confirmations": [
@@ -12914,6 +12974,76 @@
       "total": 1,
       "updated_at": "2026-09-01T17:31:34+00:00",
       "url": "https://bsky.app/profile/marinetondelier.fr/post/3muhjqq3dws2x"
+    },
+    "8d31a195667fbc3f7bdf9880": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "clara-egger",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "instaurer la démocratie directe en France",
+            "relevance": "direct",
+            "statement": "Clara Egger propose d'instaurer la démocratie directe en France.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La proposition de Clara Egger sur la démocratie directe est déjà présente dans le canon.",
+            "related_proposal_id": "auto-clara-egger-institutions-democratie-ef5123784bab",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "solution-democratique",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "instaurer en France la démocratie directe et la décentralisation par le bas",
+            "relevance": "direct",
+            "statement": "Solution démocratique souhaite instaurer en France la démocratie directe et la décentralisation par le bas.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La position de Solution démocratique sur la démocratie directe et la décentralisation est déjà enregistrée.",
+            "related_proposal_id": "auto-solution-democratique-institutions-democratie-4ea1c22d52ea",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-09-08T22:01:55+00:00",
+      "created_at": "2026-09-08T22:01:45+00:00",
+      "document_types": [
+        "official_press_release"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-04-19"
+      ],
+      "sha256": "d6a688c9e203fa3533f22613fc957c5c7f692370331b716ad6ecc52ab2aa6398",
+      "source_title": "Présidentielle 2027 : Clara Egger annonce sa candidature",
+      "statuses": [
+        {
+          "status": {
+            "candidate_id": "clara-egger",
+            "effective_date": "2026-04-19",
+            "evidence_quote": "Clara Egger annonce sa candidature à l’élection",
+            "explicit": true,
+            "new_status": "declared_presidential"
+          }
+        }
+      ],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-08T22:01:52+00:00",
+      "url": "https://solutiondemocratique.fr/presidentielle2027-annonce-candidature-clara-egger/"
     },
     "8d3f42028c5b18915fac9600": {
       "canonical_confirmations": [
@@ -25606,6 +25736,15 @@
       "status": "promoted",
       "url": "https://attalpresident.fr/programme/dette-de-letat"
     },
+    "449c8e979028": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-08T22:02:09+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "f287ff07bb5f24911282b3c14ae3ece25d984974ab175b5ec42857ee2fbc45ae",
+      "status": "promoted",
+      "url": "https://solutiondemocratique.fr/presidentielle-2027-une-votation-organisee-a-charolles-71-autour-de-la-candidature-citoyenne-de-clara-egger/"
+    },
     "45f141b066fd": {
       "chunks_done": null,
       "chunks_total": null,
@@ -27006,10 +27145,10 @@
       "url": "https://attalpresident.fr/programme/dette-de-letat"
     },
     "cb0c4447dcfa": {
-      "attempts": 1,
+      "attempts": 2,
       "error": "ValueError: HTTP 404",
-      "next_retry_at": "2026-09-08T18:17:25+00:00",
-      "processed_at": "2026-09-08T12:17:25+00:00",
+      "next_retry_at": "2026-09-09T22:01:42+00:00",
+      "processed_at": "2026-09-08T22:01:42+00:00",
       "status": "technical_error",
       "url": "https://parti-equinoxe.fr/articles/2022/05/la-transition-energetique-selon-les-ex-candidats-a-la-presidentielle-2/"
     },
@@ -27246,11 +27385,12 @@
       "url": "https://solutiondemocratique.fr/manolo-mlekuz-programme-presidentielle-2027/"
     },
     "de0b5dbdade3": {
-      "attempts": 1,
-      "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
-      "next_retry_at": "2026-09-08T18:17:25+00:00",
-      "processed_at": "2026-09-08T12:17:25+00:00",
-      "status": "technical_error",
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-08T22:01:55+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "d6a688c9e203fa3533f22613fc957c5c7f692370331b716ad6ecc52ab2aa6398",
+      "status": "promoted",
       "url": "https://solutiondemocratique.fr/presidentielle2027-annonce-candidature-clara-egger/"
     },
     "de73b4b6213c": {
