@@ -1556,9 +1556,9 @@
       "verified_at": "2026-08-13T08:51:16+00:00"
     }
   },
-  "last_error_count": 1,
-  "last_processed_count": 2,
-  "last_run_at": "2026-09-07T22:12:27+00:00",
+  "last_error_count": 3,
+  "last_processed_count": 0,
+  "last_run_at": "2026-09-08T06:08:57+00:00",
   "source_chunks": {
     "009ea6ddfcaa5e8d4f6a7064": {
       "canonical_confirmations": [],
@@ -2062,6 +2062,19 @@
       "total": 2,
       "updated_at": "2026-08-15T10:45:25+00:00",
       "url": "https://solutiondemocratique.fr/juan-branco-2027-programme/"
+    },
+    "0a901488d31e931549ca0cf5": {
+      "claims": [],
+      "created_at": "2026-09-08T06:07:26+00:00",
+      "document_types": [],
+      "done": [],
+      "published_candidates": [],
+      "sha256": "894755da83ca5db442aa73c0b6727b734f575a3b34fc0e6610ae428c91feb8d9",
+      "source_title": "Présidentielle 2027 : dans les Yvelines, Hugo, ancien candidat aux municipales, rencontre les élus locaux pour Solution Démocratique - Solution Démocratique - Parti politique pour instaurer la démocratie directe",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "url": "https://solutiondemocratique.fr/presidentielle-2027-dans-les-yvelines-hugo-ancien-candidat-aux-municipales-rencontre-les-elus-locaux-pour-solution-democratique/"
     },
     "0ac4e9f064279d7e429fcfc7": {
       "canonical_confirmations": [
@@ -24762,6 +24775,14 @@
       "status": "promoted",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
+    "11b463101679": {
+      "attempts": 1,
+      "error": "ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
+      "next_retry_at": "2026-09-08T12:08:56+00:00",
+      "processed_at": "2026-09-08T06:08:56+00:00",
+      "status": "technical_error",
+      "url": "https://solutiondemocratique.fr/presidentielle-2027-dans-les-yvelines-hugo-ancien-candidat-aux-municipales-rencontre-les-elus-locaux-pour-solution-democratique/"
+    },
     "130012fb6774": {
       "chunks_done": null,
       "chunks_total": null,
@@ -24871,10 +24892,10 @@
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
     "1e67d8d2b142": {
-      "attempts": 1,
+      "attempts": 2,
       "error": "ValueError: HTTP 403",
-      "next_retry_at": "2026-09-08T04:04:14+00:00",
-      "processed_at": "2026-09-07T22:04:14+00:00",
+      "next_retry_at": "2026-09-09T06:07:23+00:00",
+      "processed_at": "2026-09-08T06:07:23+00:00",
       "status": "technical_error",
       "url": "https://www.pcf.fr/presidentielle2027_fabien_roussel_designe_candidat"
     },
@@ -26464,10 +26485,10 @@
       "url": "https://attalpresident.fr/programme"
     },
     "b6e972fce670": {
-      "attempts": 1,
+      "attempts": 2,
       "error": "ValueError: HTTP 403",
-      "next_retry_at": "2026-09-08T04:12:12+00:00",
-      "processed_at": "2026-09-07T22:12:12+00:00",
+      "next_retry_at": "2026-09-09T06:07:24+00:00",
+      "processed_at": "2026-09-08T06:07:24+00:00",
       "status": "technical_error",
       "url": "https://www.pcf.fr/presidentielle_2027_mjcf_s_engage_pour_candidature_communiste"
     },

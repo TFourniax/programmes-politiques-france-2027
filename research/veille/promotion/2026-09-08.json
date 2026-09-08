@@ -1,0 +1,27 @@
+{
+  "errors": [
+    {
+      "at": "2026-09-08T06:07:23+00:00",
+      "error": "ValueError: HTTP 403",
+      "url": "https://www.pcf.fr/presidentielle2027_fabien_roussel_designe_candidat"
+    },
+    {
+      "at": "2026-09-08T06:07:24+00:00",
+      "error": "ValueError: HTTP 403",
+      "url": "https://www.pcf.fr/presidentielle_2027_mjcf_s_engage_pour_candidature_communiste"
+    },
+    {
+      "at": "2026-09-08T06:08:56+00:00",
+      "error": "ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
+      "url": "https://solutiondemocratique.fr/presidentielle-2027-dans-les-yvelines-hugo-ancien-candidat-aux-municipales-rencontre-les-elus-locaux-pour-solution-democratique/"
+    }
+  ],
+  "generated_at": "2026-09-08T06:08:57+00:00",
+  "historical_skipped": 0,
+  "partial": 0,
+  "processed": 0,
+  "promoted": 0,
+  "proposals_created": 0,
+  "results": [],
+  "status_updates": 0
+}

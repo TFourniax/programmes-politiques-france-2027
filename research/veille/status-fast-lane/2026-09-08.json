@@ -1,0 +1,92 @@
+{
+  "errors": [
+    {
+      "error": "ValueError: HTTP 403",
+      "event_url": "https://www.pcf.fr/presidentielle2027_fabien_roussel_designe_candidat",
+      "owner": "Parti communiste français",
+      "processed_at": "2026-09-08T06:04:46+00:00"
+    },
+    {
+      "error": "ValueError: HTTP 403",
+      "event_url": "https://www.pcf.fr/presidentielle_2027_mjcf_s_engage_pour_candidature_communiste",
+      "owner": "Parti communiste français",
+      "processed_at": "2026-09-08T06:04:46+00:00"
+    },
+    {
+      "error": "ValueError: HTTP 404",
+      "event_url": "https://parti-equinoxe.fr/articles/2022/05/la-transition-energetique-selon-les-ex-candidats-a-la-presidentielle-2/",
+      "owner": "Équinoxe",
+      "processed_at": "2026-09-08T06:04:49+00:00"
+    }
+  ],
+  "generated_at": "2026-09-08T06:04:57+00:00",
+  "processed": 9,
+  "results": [
+    {
+      "event_url": "https://solutiondemocratique.fr/presidentielle-2027-une-votation-organisee-a-chambery-autour-de-la-candidature-citoyenne-de-clara-egger/",
+      "owner": "Solution démocratique",
+      "processed_at": "2026-09-08T06:04:51+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
+    {
+      "event_url": "https://npa-revolutionnaires.org/dans-le-telegramme-presidentielle-2027-selma-labib-conductrice-de-bus-sera-la-candidate-du-parti-dextreme-gauche-npa-revolutionnaires/",
+      "owner": "NPA-Révolutionnaires",
+      "processed_at": "2026-09-08T06:04:52+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
+    {
+      "event_url": "https://npa-revolutionnaires.org/dans-sud-ouest-presidentielle-2027-le-npa-revolutionnaires-annonce-presenter-une-candidature-avec-selma-labib-conductrice-de-bus-de-30-ans/",
+      "owner": "NPA-Révolutionnaires",
+      "processed_at": "2026-09-08T06:04:52+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
+    {
+      "event_url": "https://npa-revolutionnaires.org/dans-bfm-presidentielle-2027-le-npa-revolutionnaires-annonce-presenter-la-candidature-de-sa-porte-parole-selma-labib/",
+      "owner": "NPA-Révolutionnaires",
+      "processed_at": "2026-09-08T06:04:52+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
+    {
+      "event_url": "https://npa-revolutionnaires.org/presidentielle-selma-labib-une-candidate-ouvriere-et-revolutionnaire/",
+      "owner": "NPA-Révolutionnaires",
+      "processed_at": "2026-09-08T06:04:53+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
+    {
+      "event_url": "https://www.generationecologie.fr/publication/investiture-de-delphine-batho-a-lelection-presidentielle/",
+      "owner": "Génération Écologie",
+      "processed_at": "2026-09-08T06:04:54+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
+    {
+      "event_url": "https://republicains.fr/actualites/2026/04/21/candidat-a-la-presidentielle-jirai-jusquau-bout/",
+      "owner": "Bruno Retailleau",
+      "processed_at": "2026-09-08T06:04:55+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
+    {
+      "candidate_id": "bruno-retailleau",
+      "event_url": "https://republicains.fr/actualites/2026/04/20/bruno-retailleau-largement-designe-comme-candidat-des-republicains-pour-lelection-presidentielle/",
+      "new_status": "declared_presidential",
+      "owner": "Bruno Retailleau",
+      "processed_at": "2026-09-08T06:04:56+00:00",
+      "reason": "apply_status_guard_rejected",
+      "status": "not_applicable"
+    },
+    {
+      "event_url": "https://www.debout-la-france.fr/actualite/je-suis-en-candidat-en-2027-pour-defendre-la-sortie-de-lunion-europeenne-france-info-tv-23-01-26/",
+      "owner": "Debout la France",
+      "processed_at": "2026-09-08T06:04:57+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    }
+  ],
+  "updated": 0
+}
