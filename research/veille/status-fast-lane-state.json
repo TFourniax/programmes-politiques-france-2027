@@ -11,7 +11,7 @@
       "error": "ValueError: HTTP 403",
       "event_url": "https://www.pcf.fr/une_candidature_de_gauche_au_service_de_l_aube_et_de_ses_communes",
       "owner": "Parti communiste français",
-      "processed_at": "2026-09-09T12:26:52+00:00",
+      "processed_at": "2026-09-09T17:14:58+00:00",
       "status": "technical_error"
     },
     "11b463101679": {
@@ -46,7 +46,7 @@
       "error": "ValueError: HTTP 403",
       "event_url": "https://www.pcf.fr/presidentielle2027_fabien_roussel_designe_candidat",
       "owner": "Parti communiste français",
-      "processed_at": "2026-09-09T12:26:45+00:00",
+      "processed_at": "2026-09-09T17:14:53+00:00",
       "status": "technical_error"
     },
     "219a1b4f2b48": {
@@ -56,6 +56,13 @@
       "processed_at": "2026-09-07T22:09:49+00:00",
       "reason": "candidate_match_not_unique",
       "status": "ambiguous"
+    },
+    "22095a0ed05c": {
+      "event_url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne",
+      "owner": "Gabriel Attal",
+      "processed_at": "2026-09-09T17:14:58+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
     },
     "25461981014b": {
       "candidate_id": "clara-egger",
@@ -69,6 +76,13 @@
       "event_url": "https://npa-revolutionnaires.org/presidentielle-selma-labib-une-candidate-ouvriere-et-revolutionnaire/",
       "owner": "NPA-Révolutionnaires",
       "processed_at": "2026-09-08T06:04:53+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
+    "30948729d4ea": {
+      "event_url": "https://rassemblementnational.fr/",
+      "owner": "Rassemblement national",
+      "processed_at": "2026-09-09T17:14:57+00:00",
       "reason": "no_deterministic_transition",
       "status": "not_applicable"
     },
@@ -250,7 +264,7 @@
       "error": "ValueError: HTTP 403",
       "event_url": "https://www.pcf.fr/presidentielle_2027_mjcf_s_engage_pour_candidature_communiste",
       "owner": "Parti communiste français",
-      "processed_at": "2026-09-09T12:26:46+00:00",
+      "processed_at": "2026-09-09T17:14:53+00:00",
       "status": "technical_error"
     },
     "b88c50cd309b": {
@@ -300,7 +314,7 @@
       "error": "ValueError: HTTP 404",
       "event_url": "https://parti-equinoxe.fr/articles/2022/05/la-transition-energetique-selon-les-ex-candidats-a-la-presidentielle-2/",
       "owner": "Équinoxe",
-      "processed_at": "2026-09-09T12:26:50+00:00",
+      "processed_at": "2026-09-09T17:14:56+00:00",
       "status": "technical_error"
     },
     "cce2ef2e9953": {
@@ -368,6 +382,14 @@
       "reason": "no_deterministic_transition",
       "status": "not_applicable"
     },
+    "e47a0aceba6a": {
+      "candidate_id": "gabriel-attal",
+      "event_url": "https://attalpresident.fr/actualites/annonce-de-candidature",
+      "new_status": "declared_presidential",
+      "owner": "Gabriel Attal",
+      "processed_at": "2026-09-09T17:14:58+00:00",
+      "status": "already_current"
+    },
     "ea941f1f97d5": {
       "event_url": "https://www.debout-la-france.fr/actualite/presidentielle-2027-il-faut-une-candidature-independantiste-jirai-%c2%b7-boulevard-voltaire-08-03-25/",
       "owner": "Debout la France",
@@ -405,10 +427,17 @@
       "processed_at": "2026-09-09T12:26:52+00:00",
       "reason": "no_deterministic_transition",
       "status": "not_applicable"
+    },
+    "faaf9d3c80a6": {
+      "event_url": "https://lafranceinsoumise.fr/2026/09/09/500-parrainages-le-reic-dans-la-bataille-pour-la-candidature-de-jean-luc-melenchon/",
+      "owner": "Jean-Luc Mélenchon",
+      "processed_at": "2026-09-09T17:14:57+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
     }
   },
   "last_error_count": 4,
-  "last_run_at": "2026-09-09T12:26:52+00:00",
+  "last_run_at": "2026-09-09T17:14:58+00:00",
   "last_updated_count": 0,
   "version": 1
 }

@@ -1305,6 +1305,11 @@
       "source_url": "https://solutiondemocratique.fr/a-quelle-condition-nous-sommes-pret-a-retirer-notre-candidature-a-la-presidentielle/",
       "verified_at": "2026-09-07T22:12:21+00:00"
     },
+    "d84184880c738a970ea844d7ad32ac128cfd2028d0306965332ce7e86f124843": {
+      "proposal_id": "auto-selma-labib-ecologie-energie-d84184880c73",
+      "source_url": "https://npa-revolutionnaires.org/articles/dans-le-monde-presidentielle-2027-le-npa-revolutionnaires-presente-une-troisieme-candidature-dextreme-gauche",
+      "verified_at": "2026-09-09T17:18:18+00:00"
+    },
     "d9229129fdc8ba9d219492b808c7a1d3eb66a3a35193cdfa64ef4bef6999be57": {
       "proposal_id": "auto-la-france-insoumise-immigration-integration-d9229129fdc8",
       "source_url": "https://melenchon2027.fr/programme2025/livre/chapitre16/",
@@ -1409,6 +1414,11 @@
       "proposal_id": "auto-la-france-insoumise-services-publics-e887a38c2185",
       "source_url": "https://melenchon2027.fr/programme2025/livre/chapitre5/",
       "verified_at": "2026-08-13T03:40:17+00:00"
+    },
+    "e91313406b4ac2fb96bce1a4b6dce3892880a8f80cf3242746bc0fc0e7eb7914": {
+      "proposal_id": "auto-selma-labib-pouvoir-achat-travail-e91313406b4a",
+      "source_url": "https://npa-revolutionnaires.org/articles/dans-le-monde-presidentielle-2027-le-npa-revolutionnaires-presente-une-troisieme-candidature-dextreme-gauche",
+      "verified_at": "2026-09-09T17:18:18+00:00"
     },
     "eaab58ef1acee459a77799b976b7fbef247a1b997beb99fea7e314e1d8422abe": {
       "proposal_id": "auto-la-france-insoumise-economie-finances-eaab58ef1ace",
@@ -1558,7 +1568,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-09-09T12:29:57+00:00",
+  "last_run_at": "2026-09-09T17:18:28+00:00",
   "source_chunks": {
     "009ea6ddfcaa5e8d4f6a7064": {
       "canonical_confirmations": [],
@@ -2638,6 +2648,103 @@
       "total": 1,
       "updated_at": "2026-08-12T03:37:53+00:00",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
+    "14781613317c036e4355adb2": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "selma-labib",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "Il faut travailler moins.",
+            "relevance": "direct",
+            "statement": "Il faut travailler moins pour faire face à la situation climatique.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La source indique explicitement que Selma Labib propose de travailler moins face à la situation climatique pour la présidentielle de 2027.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "selma-labib",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "Interdiction des licenciements.",
+            "relevance": "direct",
+            "statement": "Interdiction des licenciements pour lutter contre le chômage.",
+            "topic": "pouvoir-achat-travail"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La source mentionne explicitement la proposition de Selma Labib d'interdire les licenciements pour lutter contre le chômage.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [
+        {
+          "claim": {
+            "actor_id": "selma-labib",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "Il faut travailler moins.",
+            "relevance": "direct",
+            "statement": "Il faut travailler moins pour faire face à la situation climatique.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La source indique explicitement que Selma Labib propose de travailler moins face à la situation climatique pour la présidentielle de 2027.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "selma-labib",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "Interdiction des licenciements.",
+            "relevance": "direct",
+            "statement": "Interdiction des licenciements pour lutter contre le chômage.",
+            "topic": "pouvoir-achat-travail"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La source mentionne explicitement la proposition de Selma Labib d'interdire les licenciements pour lutter contre le chômage.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "completed_at": "2026-09-09T17:18:18+00:00",
+      "created_at": "2026-09-09T17:17:40+00:00",
+      "document_types": [
+        "other"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-07-04"
+      ],
+      "sha256": "90bb8298277120128b2356f094702e732a7897b3f3cf04b962be148621051e97",
+      "source_title": "Dans Le Monde â PrÃ©sidentielle 2027Â : le NPA-RÃ©volutionnaires prÃ©sente une troisiÃ¨me candidature dâextrÃªme gauche â NPA RÃ©volutionnaires",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-09T17:18:18+00:00",
+      "url": "https://npa-revolutionnaires.org/articles/dans-le-monde-presidentielle-2027-le-npa-revolutionnaires-presente-une-troisieme-candidature-dextreme-gauche"
     },
     "1545b5d7674f7c79cc29970b": {
       "claims": [],
@@ -10842,6 +10949,26 @@
       "updated_at": "2026-09-08T17:22:56+00:00",
       "url": "https://bsky.app/profile/lesecologistes.fr/post/3muzakuekws2b"
     },
+    "73eeae3c6347f360c8a4371b": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-09-09T17:18:29+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "6fb50cf2e62163dd399f1e4a67b6fd1db82bfc6ae699743c80b97426ad950ce4",
+      "source_title": "🟢 À 22h30, je participerai au débat sur l'écologie que nous avons demandé et que BFM a accepté d'organiser. Je précise que je n'y suis pour rien dans le choix du titre de la soiré",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-09T17:18:30+00:00",
+      "url": "https://bsky.app/profile/marinetondelier.fr/post/3mv42224bzk2l"
+    },
     "745e65d0a80dc4494e7c17a0": {
       "canonical_confirmations": [
         {
@@ -12593,6 +12720,28 @@
       "total": 1,
       "updated_at": "2026-08-14T20:06:05+00:00",
       "url": "https://solutiondemocratique.fr/sarah-knafo-2027-programme-presidentiel/"
+    },
+    "88b80447f9fe23d815a8cf6a": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-09-09T17:18:24+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [
+        "2026-06-23"
+      ],
+      "sha256": "9559eb06c2c97dcdb27bee66ad0cd1580dc3fb9de0308d13a24c8a305114899f",
+      "source_title": "[DOSSIER] PrÃ©sidentielle 2027Â : Selma Labib, une candidature ouvriÃ¨re et rÃ©volutionnaire soutenue par GaÃ«l Quirante â paru dans RÃ©volutionnaires nÂ° 60 â NPA RÃ©volutionnaires",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-09T17:18:26+00:00",
+      "url": "https://npa-revolutionnaires.org/articles/dossier-presidentielle-2027-selma-labib-une-candidature-ouvriere-et-revolutionnaire-soutenue-par-gael-quirante-paru-dans-revolutionnaires-n-60"
     },
     "8990fd43063e34fcfbcb39fd": {
       "canonical_confirmations": [
@@ -22397,6 +22546,28 @@
       "updated_at": "2026-09-01T12:44:59+00:00",
       "url": "https://www.unenouvelleenergie.fr/notre-programme/"
     },
+    "de6449de60198c977760838d": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-09-09T17:18:26+00:00",
+      "document_types": [
+        "official_press_release"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [
+        "2026-06-18"
+      ],
+      "sha256": "e43afb8c248d46cb6e5ecb865944a34f5699c871312f38061b79166ead590edc",
+      "source_title": "Sur RTL â PrÃ©sidentielle 2027Â : Selma Labib officiellement candidate pour le NPA-RÃ©volutionnaires â NPA RÃ©volutionnaires",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-09T17:18:28+00:00",
+      "url": "https://npa-revolutionnaires.org/articles/sur-rtl-presidentielle-2027-selma-labib-officiellement-candidate-pour-le-npa-revolutionnaires"
+    },
     "dee7b77531b4b4c2fe8f1328": {
       "claims": [
         {
@@ -26520,6 +26691,15 @@
       "status": "not_confirmed",
       "url": "https://npa-revolutionnaires.org/articles/communique-presidentielle-2027-selma-labib-une-candidature-ouvriere-et-revolutionnaire-soutenue-par-gael-quirante"
     },
+    "8333c74044b7": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-09T17:18:28+00:00",
+      "reason": null,
+      "source_sha256": "e43afb8c248d46cb6e5ecb865944a34f5699c871312f38061b79166ead590edc",
+      "status": "not_confirmed",
+      "url": "https://npa-revolutionnaires.org/sur-rtl-presidentielle-2027-selma-labib-officiellement-candidate-pour-le-npa-revolutionnaires/"
+    },
     "83d9635c04a5": {
       "chunks_done": null,
       "chunks_total": null,
@@ -26573,6 +26753,15 @@
       "source_sha256": "0d8a65a8dc74d4f3b80db285ed2a18b91b378305bd81ab393f4f26637b9e888d",
       "status": "promoted",
       "url": "https://attalpresident.fr/programme"
+    },
+    "8732f9affb47": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-09-09T17:18:23+00:00",
+      "reason": null,
+      "source_sha256": "90bb8298277120128b2356f094702e732a7897b3f3cf04b962be148621051e97",
+      "status": "promoted",
+      "url": "https://npa-revolutionnaires.org/dans-le-monde-presidentielle-2027-le-npa-revolutionnaires-presente-une-troisieme-candidature-dextreme-gauche/"
     },
     "87b3545cfb91": {
       "chunks_done": null,
@@ -27090,6 +27279,15 @@
       "source_sha256": "9b661c0499797137efeb35690ec043928d18823d645ad4fbbb5827c305f50656",
       "status": "promoted",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
+    "b88c50cd309b": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-09T17:18:26+00:00",
+      "reason": null,
+      "source_sha256": "9559eb06c2c97dcdb27bee66ad0cd1580dc3fb9de0308d13a24c8a305114899f",
+      "status": "not_confirmed",
+      "url": "https://npa-revolutionnaires.org/dossier-presidentielle-2027-selma-labib-une-candidature-ouvriere-et-revolutionnaire-soutenue-par-gael-quirante-paru-dans-revolutionnaires-n-60/"
     },
     "b8920657eb06": {
       "attempts": 5,

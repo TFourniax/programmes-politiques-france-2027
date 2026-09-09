@@ -8,10 +8,10 @@ Ce rapport est dérivé automatiquement du corpus courant. Il sert à piloter la
 
 - 68 acteurs référencés ;
 - 27 candidatures actives ou déclarées suivies ;
-- 1273 propositions atomiques courantes ;
-- 131 / 816 cases acteur × thème couvertes (16.1 %) ;
-- 54 / 324 cases candidat actif × thème couvertes (16.7 %) ;
-- 1235 propositions marquées vérifiées ; 42 appuyées par au moins deux documents de preuve.
+- 1275 propositions atomiques courantes ;
+- 133 / 816 cases acteur × thème couvertes (16.3 %) ;
+- 56 / 324 cases candidat actif × thème couvertes (17.3 %) ;
+- 1237 propositions marquées vérifiées ; 42 appuyées par au moins deux documents de preuve.
 
 ## Priorités documentaires
 
@@ -27,9 +27,9 @@ Ce rapport est dérivé automatiquement du corpus courant. Il sert à piloter la
 - **Lydie Massard** — 0 % des thèmes ; 0 proposition(s) ; lacunes prioritaires : pouvoir-achat-travail, retraites, fiscalite-redistribution, immigration-integration, europe-souverainete, defense-international…
 - **Nathalie Arthaud** — 0 % des thèmes ; 0 proposition(s) ; lacunes prioritaires : pouvoir-achat-travail, retraites, fiscalite-redistribution, immigration-integration, europe-souverainete, defense-international…
 - **Philippe Brun** — 0 % des thèmes ; 0 proposition(s) ; lacunes prioritaires : pouvoir-achat-travail, retraites, fiscalite-redistribution, immigration-integration, europe-souverainete, defense-international…
-- **Selma Labib** — 0 % des thèmes ; 0 proposition(s) ; lacunes prioritaires : pouvoir-achat-travail, retraites, fiscalite-redistribution, immigration-integration, europe-souverainete, defense-international…
 - **Ségolène Royal** — 0 % des thèmes ; 0 proposition(s) ; lacunes prioritaires : pouvoir-achat-travail, retraites, fiscalite-redistribution, immigration-integration, europe-souverainete, defense-international…
 - **Xavier Bertrand** — 0 % des thèmes ; 0 proposition(s) ; lacunes prioritaires : pouvoir-achat-travail, retraites, fiscalite-redistribution, immigration-integration, europe-souverainete, defense-international…
+- **Édouard Philippe** — 0 % des thèmes ; 0 proposition(s) ; lacunes prioritaires : pouvoir-achat-travail, retraites, fiscalite-redistribution, immigration-integration, europe-souverainete, defense-international…
 
 ## Couverture par thème
 
@@ -42,8 +42,8 @@ Ce rapport est dérivé automatiquement du corpus courant. Il sert à piloter la
 - **Économie & finances publiques** (`economie-finances`) — 12 acteur(s), 117 proposition(s), dernière preuve 2026-09-07.
 - **Sécurité & justice** (`securite-justice`) — 12 acteur(s), 136 proposition(s), dernière preuve 2026-09-04.
 - **Services publics** (`services-publics`) — 12 acteur(s), 228 proposition(s), dernière preuve 2026-09-07.
-- **Écologie & énergie** (`ecologie-energie`) — 13 acteur(s), 190 proposition(s), dernière preuve 2026-08-19.
 - **Institutions & démocratie** (`institutions-democratie`) — 13 acteur(s), 261 proposition(s), dernière preuve 2026-09-06.
-- **Pouvoir d’achat & travail** (`pouvoir-achat-travail`) — 16 acteur(s), 64 proposition(s), dernière preuve 2026-09-07.
+- **Écologie & énergie** (`ecologie-energie`) — 14 acteur(s), 191 proposition(s), dernière preuve 2026-08-19.
+- **Pouvoir d’achat & travail** (`pouvoir-achat-travail`) — 17 acteur(s), 65 proposition(s), dernière preuve 2026-09-07.
 
 > Ce rapport est un indicateur de couverture structurée, de fraîcheur et de profondeur de preuve, pas un score de qualité politique ni d'exhaustivité absolue.

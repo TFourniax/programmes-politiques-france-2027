@@ -6,18 +6,18 @@
     "actors": 68,
     "declared_or_active_candidates": 27,
     "topics": 12,
-    "current_proposals": 1273,
-    "covered_actor_topic_cells": 131,
+    "current_proposals": 1275,
+    "covered_actor_topic_cells": 133,
     "total_actor_topic_cells": 816,
-    "actor_topic_coverage_ratio": 0.1605,
-    "active_candidate_covered_cells": 54,
+    "actor_topic_coverage_ratio": 0.163,
+    "active_candidate_covered_cells": 56,
     "active_candidate_total_cells": 324,
-    "active_candidate_topic_coverage_ratio": 0.1667,
-    "verified_proposals": 1235,
+    "active_candidate_topic_coverage_ratio": 0.1728,
+    "verified_proposals": 1237,
     "multi_source_proposals": 42,
     "latest_evidence_at": "2026-09-07",
     "certainty_counts": {
-      "explicit": 1249,
+      "explicit": 1251,
       "explicit_but_conditional": 3,
       "explicit_but_underspecified": 21
     }
@@ -1707,25 +1707,26 @@
       "type": "candidate",
       "status": "party_designated",
       "confidence": "high",
-      "current_proposals": 0,
-      "covered_topics": [],
-      "coverage_ratio": 0.0,
+      "current_proposals": 2,
+      "covered_topics": [
+        "ecologie-energie",
+        "pouvoir-achat-travail"
+      ],
+      "coverage_ratio": 0.1667,
       "gaps": [
-        "pouvoir-achat-travail",
         "retraites",
         "fiscalite-redistribution",
         "immigration-integration",
         "europe-souverainete",
         "defense-international",
-        "ecologie-energie",
         "institutions-democratie",
         "services-publics",
         "securite-justice",
         "economie-finances",
         "numerique-ia"
       ],
-      "latest_evidence_at": null,
-      "verified_proposals": 0,
+      "latest_evidence_at": "2026-07-04",
+      "verified_proposals": 2,
       "multi_source_proposals": 0
     },
     {
@@ -1951,11 +1952,11 @@
     {
       "id": "pouvoir-achat-travail",
       "label": "Pouvoir d’achat & travail",
-      "current_proposals": 64,
-      "actors_covered": 16,
-      "actor_coverage_ratio": 0.2353,
+      "current_proposals": 65,
+      "actors_covered": 17,
+      "actor_coverage_ratio": 0.25,
       "latest_evidence_at": "2026-09-07",
-      "verified_proposals": 56,
+      "verified_proposals": 57,
       "multi_source_proposals": 4
     },
     {
@@ -2011,11 +2012,11 @@
     {
       "id": "ecologie-energie",
       "label": "Écologie & énergie",
-      "current_proposals": 190,
-      "actors_covered": 13,
-      "actor_coverage_ratio": 0.1912,
+      "current_proposals": 191,
+      "actors_covered": 14,
+      "actor_coverage_ratio": 0.2059,
       "latest_evidence_at": "2026-08-19",
-      "verified_proposals": 184,
+      "verified_proposals": 185,
       "multi_source_proposals": 1
     },
     {
@@ -4788,17 +4789,17 @@
       "id": "selma-labib",
       "name": "Selma Labib",
       "status": "party_designated",
-      "coverage_ratio": 0.0,
-      "current_proposals": 0,
-      "latest_evidence_at": null,
+      "coverage_ratio": 0.1667,
+      "current_proposals": 2,
+      "latest_evidence_at": "2026-07-04",
       "topics": [
         {
           "id": "pouvoir-achat-travail",
           "label": "Pouvoir d’achat & travail",
-          "covered": false,
-          "current_proposals": 0,
-          "latest_evidence_at": null,
-          "verified_proposals": 0,
+          "covered": true,
+          "current_proposals": 1,
+          "latest_evidence_at": "2026-07-04",
+          "verified_proposals": 1,
           "multi_source_proposals": 0
         },
         {
@@ -4849,10 +4850,10 @@
         {
           "id": "ecologie-energie",
           "label": "Écologie & énergie",
-          "covered": false,
-          "current_proposals": 0,
-          "latest_evidence_at": null,
-          "verified_proposals": 0,
+          "covered": true,
+          "current_proposals": 1,
+          "latest_evidence_at": "2026-07-04",
+          "verified_proposals": 1,
           "multi_source_proposals": 0
         },
         {
@@ -5523,28 +5524,6 @@
       ]
     },
     {
-      "id": "selma-labib",
-      "name": "Selma Labib",
-      "status": "party_designated",
-      "coverage_ratio": 0.0,
-      "current_proposals": 0,
-      "latest_evidence_at": null,
-      "gaps": [
-        "pouvoir-achat-travail",
-        "retraites",
-        "fiscalite-redistribution",
-        "immigration-integration",
-        "europe-souverainete",
-        "defense-international",
-        "ecologie-energie",
-        "institutions-democratie",
-        "services-publics",
-        "securite-justice",
-        "economie-finances",
-        "numerique-ia"
-      ]
-    },
-    {
       "id": "segolene-royal",
       "name": "Ségolène Royal",
       "status": "declared_primary",
@@ -5667,6 +5646,26 @@
         "europe-souverainete",
         "defense-international",
         "ecologie-energie",
+        "services-publics",
+        "securite-justice",
+        "economie-finances",
+        "numerique-ia"
+      ]
+    },
+    {
+      "id": "selma-labib",
+      "name": "Selma Labib",
+      "status": "party_designated",
+      "coverage_ratio": 0.1667,
+      "current_proposals": 2,
+      "latest_evidence_at": "2026-07-04",
+      "gaps": [
+        "retraites",
+        "fiscalite-redistribution",
+        "immigration-integration",
+        "europe-souverainete",
+        "defense-international",
+        "institutions-democratie",
         "services-publics",
         "securite-justice",
         "economie-finances",
