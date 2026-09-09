@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created_at": "2026-08-17T19:57:19.441897+00:00",
-  "updated_at": "2026-09-09T17:18:34.715376+00:00",
+  "updated_at": "2026-09-09T21:52:08.758081+00:00",
   "files": [
     {
       "path": "corpus/2027/auto/candidates/anasse-kazib/2026-08-28-38891602d9d9.md",
@@ -519,6 +519,11 @@
       "size": 1926
     },
     {
+      "path": "corpus/2027/auto/candidates/marine-tondelier/2026-09-09-4b4379969ba5.md",
+      "sha256": "d13701af3994c17b8792498f6a1052e7b9b6d1ad6a859eb496bda4fcd8f499d7",
+      "size": 1778
+    },
+    {
       "path": "corpus/2027/auto/candidates/selma-labib/2026-06-17-dbd0ca0c9e42.md",
       "sha256": "1e073da4b66644d40456d54bcfdfe07fdad40d2410cee7ac3678fa881209731f",
       "size": 1828
@@ -702,6 +707,11 @@
       "path": "corpus/2027/auto/partys/solution-democratique/2026-04-19-8d31a195667f.md",
       "sha256": "ca474b60818b61f61fb393572c914f97f567b0af9587a46fc68991763ae2349f",
       "size": 1730
+    },
+    {
+      "path": "corpus/2027/auto/partys/solution-democratique/2026-06-12-bb25ba4ecb58.md",
+      "sha256": "03f097f8fb67c7a7849bba3128439977cf87fd36fe402a9c4d193da2b5505d14",
+      "size": 2381
     },
     {
       "path": "corpus/2027/auto/partys/solution-democratique/2026-06-19-420a5d767890.md",
@@ -892,6 +902,11 @@
       "path": "proposals/auto/ecologie-energie/auto-les-ecologistes-ecologie-energie-f8c5a96b3b61.md",
       "sha256": "2698e54e484a9b9b3832c74df5e9f41d4724060c7eb75f1dd9d8b3bf31c356c9",
       "size": 1423
+    },
+    {
+      "path": "proposals/auto/ecologie-energie/auto-marine-tondelier-ecologie-energie-5faff2263045.md",
+      "sha256": "51d66da0cc270e3d6422d16da7a3ad9537c667ffb6efc6e57ff056ccf8b51aea",
+      "size": 1339
     },
     {
       "path": "proposals/auto/ecologie-energie/auto-selma-labib-ecologie-energie-d84184880c73.md",
@@ -1085,8 +1100,8 @@
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-clara-egger-institutions-democratie-ef5123784bab.md",
-      "sha256": "4980ceefcb94ba3c15d0809c7c2b025ba9578efb80cb92a8015db73384402d02",
-      "size": 2976
+      "sha256": "80df58d7464a0416c66f61cebbcf66acbd0142b550ec56ebefd6911d9ae3e309",
+      "size": 3236
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-david-lisnard-institutions-democratie-8a7a7019b8f9.md",
@@ -1180,8 +1195,8 @@
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-solution-democratique-institutions-democratie-4ea1c22d52ea.md",
-      "sha256": "2d6aef02b8e7279fca815357abe08aab2582f10b14b7f0d4acaf370c525fd6b1",
-      "size": 8940
+      "sha256": "8c9ff817bdc19850949101443a06e20fd66f5dc7ab60a1cdeaae8522a368ff24",
+      "size": 9204
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-solution-democratique-institutions-democratie-60c5ea22a7f1.md",

@@ -560,6 +560,11 @@
       "source_url": "https://lesecologistes.fr/document/5ZhR2m5t2ZaGKqIdD1bJaD/vdef-programme-1.pdf",
       "verified_at": "2026-08-19T02:42:33+00:00"
     },
+    "5faff2263045ae7bee5a12340557c8610dbb612c666e0ecc6b1e58d30eb0d6f6": {
+      "proposal_id": "auto-marine-tondelier-ecologie-energie-5faff2263045",
+      "source_url": "https://bsky.app/profile/marinetondelier.fr/post/3mv4ib3ecq22l",
+      "verified_at": "2026-09-09T21:51:56+00:00"
+    },
     "600bd1c6a55ef8d22defced19e8bd5353297b33662ecec718585421e45129002": {
       "proposal_id": "auto-la-france-insoumise-fiscalite-redistribution-600bd1c6a55e",
       "source_url": "https://melenchon2027.fr/programme2025/livre/chapitre10/",
@@ -1568,7 +1573,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-09-09T17:18:28+00:00",
+  "last_run_at": "2026-09-09T21:51:46+00:00",
   "source_chunks": {
     "009ea6ddfcaa5e8d4f6a7064": {
       "canonical_confirmations": [],
@@ -1976,6 +1981,28 @@
       "total": 1,
       "updated_at": "2026-08-20T10:10:41+00:00",
       "url": "https://www.unenouvelleenergie.fr/notre-programme/"
+    },
+    "0695cf098b39f9229090921f": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-09-09T21:50:51+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [
+        "2026-06-18"
+      ],
+      "sha256": "2652d1dff230f7b8a3d9385e9da331dc3d348583fcd2018a2704577b5aa97c1b",
+      "source_title": "Dans LibÃ©ration â Election PrÃ©sidentielle 2027Â : le NPA-RÃ©volutionnaires dÃ©signe Selma Labib comme candidate du parti â NPA RÃ©volutionnaires",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-09T21:51:05+00:00",
+      "url": "https://npa-revolutionnaires.org/articles/dans-liberation-election-presidentielle-2027-le-npa-revolutionnaires-designe-selma-labib-comme-candidate-du-parti"
     },
     "0708f8189b7d53b54ec86b7e": {
       "canonical_confirmations": [],
@@ -7853,6 +7880,65 @@
       "total": 1,
       "updated_at": "2026-08-19T02:45:42+00:00",
       "url": "https://anasse2027.fr/"
+    },
+    "4b4379969ba599260f1f1b70": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "marine-tondelier",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "il faut d'abord aider les personnes précaires pour leurs pleins d'essence.",
+            "relevance": "party_platform",
+            "statement": "Les Écologistes défendent une politique d'aide aux personnes précaires pour le carburant.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La source soutient explicitement la position de Marine Tondelier (Les Écologistes) concernant l'aide aux personnes précaires pour le carburant.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [
+        {
+          "claim": {
+            "actor_id": "marine-tondelier",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "il faut d'abord aider les personnes précaires pour leurs pleins d'essence.",
+            "relevance": "party_platform",
+            "statement": "Les Écologistes défendent une politique d'aide aux personnes précaires pour le carburant.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La source soutient explicitement la position de Marine Tondelier (Les Écologistes) concernant l'aide aux personnes précaires pour le carburant.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "completed_at": "2026-09-09T21:51:56+00:00",
+      "created_at": "2026-09-09T21:51:46+00:00",
+      "document_types": [
+        "other"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "5a35ad1f74c39db437b6e700ca2f95c2c7641d7c3e94ae68d8cba4f0aa666cc4",
+      "source_title": "Les Écologistes défendent une écologie populaire. Ça signifie entre autres qu'il faut d'abord aider les personnes précaires pour leurs pleins d'essence. Une personne qui utilise",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-09T21:51:56+00:00",
+      "url": "https://bsky.app/profile/marinetondelier.fr/post/3mv4ib3ecq22l"
     },
     "4b438222176cb0cc90a8be14": {
       "canonical_confirmations": [
@@ -14833,6 +14919,26 @@
       "updated_at": "2026-09-03T21:53:27+00:00",
       "url": "https://npa-revolutionnaires.org/articles/communique-presidentielle-2027-selma-labib-une-candidature-ouvriere-et-revolutionnaire-soutenue-par-gael-quirante"
     },
+    "a9de93129e9fc0797dd26589": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-09-09T21:52:00+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "c7cd879a1675deabda46d895458cdf24ac8a426da6ad7624e91cb22cf5a2a69b",
+      "source_title": "Les pompiers ont été sur le front tout l'été pour sauver ce qui pouvait l'être. On les qualifie légitimement de héros. Mais pour beaucoup travailler avec eux sur leurs besoins, n",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-09T21:52:04+00:00",
+      "url": "https://bsky.app/profile/marinetondelier.fr/post/3mv4gnbqif22s"
+    },
     "ab02beb53591d050d5972133": {
       "canonical_confirmations": [
         {
@@ -19348,6 +19454,76 @@
       "total": 1,
       "updated_at": "2026-08-20T20:02:01+00:00",
       "url": "https://bsky.app/profile/lesecologistes.fr/post/3mtjqtlraxs2h"
+    },
+    "bb25ba4ecb5846880c703bb9": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "solution-democratique",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Solution Démocratique souhaite instaurer en France la démocratie directe et la décentralisation par le bas.",
+            "relevance": "direct",
+            "statement": "Solution démocratique souhaite instaurer en France la démocratie directe et la décentralisation par le bas.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La proposition est explicitement soutenue par la source et constitue un doublon d'une entrée canonique existante.",
+            "related_proposal_id": "auto-solution-democratique-institutions-democratie-4ea1c22d52ea",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "clara-egger",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "Clara Egger porte une candidature transpartisane centrée sur l’évolution des institutions et le renforcement du pouvoir citoyen.",
+            "relevance": "direct",
+            "statement": "Clara Egger porte une candidature transpartisane centrée sur l'évolution des institutions et le renforcement du pouvoir citoyen.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La citation dans la source confirme la nature de la candidature de Clara Egger, correspondant à un doublon d'une entrée existante.",
+            "related_proposal_id": "auto-clara-egger-institutions-democratie-ef5123784bab",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-09-09T21:51:39+00:00",
+      "created_at": "2026-09-09T21:51:08+00:00",
+      "document_types": [
+        "official_press_release"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-06-12"
+      ],
+      "sha256": "bfd9e9ef84ff76dcaf050e2729f841e7f6907dab609cfa2b7c399fecc42204d8",
+      "source_title": "Présidentielle 2027 : une votation organisée à Chambéry autour de la candidature citoyenne de Clara Egger - Solution Démocratique - Parti politique pour instaurer la démocratie directe",
+      "statuses": [
+        {
+          "status": {
+            "candidate_id": "clara-egger",
+            "effective_date": "2026-06-12",
+            "evidence_quote": "Clara Egger, candidate déclarée à l’élection présidentielle de 2027",
+            "explicit": true,
+            "new_status": "declared_presidential"
+          }
+        }
+      ],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-09T21:51:34+00:00",
+      "url": "https://solutiondemocratique.fr/presidentielle-2027-une-votation-organisee-a-chambery-autour-de-la-candidature-citoyenne-de-clara-egger/"
     },
     "bb6a39605aa3086fe0c3696e": {
       "canonical_confirmations": [],
@@ -24367,6 +24543,28 @@
       "updated_at": "2026-08-14T08:33:38+00:00",
       "url": "https://solutiondemocratique.fr/jean-luc-melenchon-programme-presidentielle2027/"
     },
+    "f59fa60eb367923f2ab1f481": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-09-09T21:51:40+00:00",
+      "document_types": [
+        "official_press_release"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [
+        "2026-06-18"
+      ],
+      "sha256": "649fbe98384f4a08af65437debd048cd79effead38663114f7eb7408a99aeaa9",
+      "source_title": "Dans Le TÃ©lÃ©gramme â PrÃ©sidentielle 2027Â : Selma Labib, conductrice de bus, sera la candidate du parti dâextrÃªme gauche NPA-RÃ©volutionnaires â NPA RÃ©volutionnaires",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-09T21:51:45+00:00",
+      "url": "https://npa-revolutionnaires.org/articles/dans-le-telegramme-presidentielle-2027-selma-labib-conductrice-de-bus-sera-la-candidate-du-parti-dextreme-gauche-npa-revolutionnaires"
+    },
     "f5a063386c8b7c0bcfbfab46": {
       "canonical_confirmations": [
         {
@@ -26137,6 +26335,15 @@
       "status": "promoted",
       "url": "https://melenchon2027.fr/programme2025/livre/chapitre13/"
     },
+    "4af04e5ddf0c": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-09T21:51:39+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "bfd9e9ef84ff76dcaf050e2729f841e7f6907dab609cfa2b7c399fecc42204d8",
+      "status": "promoted",
+      "url": "https://solutiondemocratique.fr/presidentielle-2027-une-votation-organisee-a-chambery-autour-de-la-candidature-citoyenne-de-clara-egger/"
+    },
     "4b569c637ab7": {
       "chunks_done": null,
       "chunks_total": 1,
@@ -27367,6 +27574,15 @@
       "status": "promoted",
       "url": "https://attalpresident.fr/programme"
     },
+    "c08fcee138df": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-09T21:51:05+00:00",
+      "reason": null,
+      "source_sha256": "2652d1dff230f7b8a3d9385e9da331dc3d348583fcd2018a2704577b5aa97c1b",
+      "status": "not_confirmed",
+      "url": "https://npa-revolutionnaires.org/dans-liberation-election-presidentielle-2027-le-npa-revolutionnaires-designe-selma-labib-comme-candidate-du-parti/"
+    },
     "c0fc1bef6abd": {
       "chunks_done": null,
       "chunks_total": 1,
@@ -27624,6 +27840,15 @@
       "source_sha256": "2748744e1250b3647b5d1fbca05e0a8caaa9109b9e03ed020a2e4f227fc8beea",
       "status": "not_confirmed",
       "url": "https://place-publique.eu/posts/bVzEHsiKIArL1KpEE13hB/rejoignez-place-publique-et-choisissez-votre-candidat-pour-2027"
+    },
+    "cf09f4269bf5": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-09T21:51:45+00:00",
+      "reason": null,
+      "source_sha256": "649fbe98384f4a08af65437debd048cd79effead38663114f7eb7408a99aeaa9",
+      "status": "not_confirmed",
+      "url": "https://npa-revolutionnaires.org/dans-le-telegramme-presidentielle-2027-selma-labib-conductrice-de-bus-sera-la-candidate-du-parti-dextreme-gauche-npa-revolutionnaires/"
     },
     "cfd8d5efcf10": {
       "chunks_done": null,
