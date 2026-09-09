@@ -11,13 +11,20 @@
       "error": "ValueError: HTTP 403",
       "event_url": "https://www.pcf.fr/une_candidature_de_gauche_au_service_de_l_aube_et_de_ses_communes",
       "owner": "Parti communiste français",
-      "processed_at": "2026-09-09T06:07:21+00:00",
+      "processed_at": "2026-09-09T12:26:52+00:00",
       "status": "technical_error"
     },
     "11b463101679": {
       "event_url": "https://solutiondemocratique.fr/presidentielle-2027-dans-les-yvelines-hugo-ancien-candidat-aux-municipales-rencontre-les-elus-locaux-pour-solution-democratique/",
       "owner": "Solution démocratique",
       "processed_at": "2026-09-07T22:01:18+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
+    "1217435cd385": {
+      "event_url": "https://rassemblementnational.fr/",
+      "owner": "Rassemblement national",
+      "processed_at": "2026-09-09T12:26:51+00:00",
       "reason": "no_deterministic_transition",
       "status": "not_applicable"
     },
@@ -39,7 +46,7 @@
       "error": "ValueError: HTTP 403",
       "event_url": "https://www.pcf.fr/presidentielle2027_fabien_roussel_designe_candidat",
       "owner": "Parti communiste français",
-      "processed_at": "2026-09-09T06:07:18+00:00",
+      "processed_at": "2026-09-09T12:26:45+00:00",
       "status": "technical_error"
     },
     "219a1b4f2b48": {
@@ -231,11 +238,19 @@
       "reason": "no_deterministic_transition",
       "status": "not_applicable"
     },
+    "b3007bd1598d": {
+      "candidate_id": "gabriel-attal",
+      "event_url": "https://attalpresident.fr/actualites/annonce-de-candidature",
+      "new_status": "declared_presidential",
+      "owner": "Gabriel Attal",
+      "processed_at": "2026-09-09T12:26:51+00:00",
+      "status": "already_current"
+    },
     "b6e972fce670": {
       "error": "ValueError: HTTP 403",
       "event_url": "https://www.pcf.fr/presidentielle_2027_mjcf_s_engage_pour_candidature_communiste",
       "owner": "Parti communiste français",
-      "processed_at": "2026-09-09T06:07:18+00:00",
+      "processed_at": "2026-09-09T12:26:46+00:00",
       "status": "technical_error"
     },
     "b88c50cd309b": {
@@ -259,6 +274,13 @@
       "reason": "no_deterministic_transition",
       "status": "not_applicable"
     },
+    "c74bb10a05af": {
+      "event_url": "https://parti-socialiste.fr/actualites/choisir-2027-le-processus-de-designation-du-ou-de-la-candidat-e-socialiste-a-lelection-presidentielle-est-lance/",
+      "owner": "Parti socialiste",
+      "processed_at": "2026-09-09T12:26:46+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
     "c9816a18ec8b": {
       "event_url": "https://solutiondemocratique.fr/dans-la-drome-solution-democratique-organise-neuf-votations-citoyennes-avant-la-venue-de-la-candidate-a-la-presidentielle-clara-egger/",
       "owner": "Solution démocratique",
@@ -278,7 +300,7 @@
       "error": "ValueError: HTTP 404",
       "event_url": "https://parti-equinoxe.fr/articles/2022/05/la-transition-energetique-selon-les-ex-candidats-a-la-presidentielle-2/",
       "owner": "Équinoxe",
-      "processed_at": "2026-09-09T06:07:21+00:00",
+      "processed_at": "2026-09-09T12:26:50+00:00",
       "status": "technical_error"
     },
     "cce2ef2e9953": {
@@ -287,6 +309,15 @@
       "processed_at": "2026-09-08T12:14:40+00:00",
       "reason": "no_deterministic_transition",
       "status": "not_applicable"
+    },
+    "ce83cd4edb0f": {
+      "candidate_id": "raphael-glucksmann",
+      "event_url": "https://place-publique.eu/posts/bVzEHsiKIArL1KpEE13hB/rejoignez-place-publique-et-choisissez-votre-candidat-pour-2027",
+      "new_status": "declared_presidential",
+      "owner": "Place publique",
+      "processed_at": "2026-09-09T12:26:45+00:00",
+      "reason": "event_date_not_explicit_in_source",
+      "status": "date_unverified"
     },
     "ceeac9300d65": {
       "event_url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne",
@@ -367,10 +398,17 @@
       "processed_at": "2026-09-08T06:04:56+00:00",
       "reason": "apply_status_guard_rejected",
       "status": "not_applicable"
+    },
+    "f7eca14260d8": {
+      "event_url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne",
+      "owner": "Gabriel Attal",
+      "processed_at": "2026-09-09T12:26:52+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
     }
   },
   "last_error_count": 4,
-  "last_run_at": "2026-09-09T06:07:21+00:00",
+  "last_run_at": "2026-09-09T12:26:52+00:00",
   "last_updated_count": 0,
   "version": 1
 }

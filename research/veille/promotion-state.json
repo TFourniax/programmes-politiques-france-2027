@@ -1556,9 +1556,9 @@
       "verified_at": "2026-08-13T08:51:16+00:00"
     }
   },
-  "last_error_count": 2,
-  "last_processed_count": 1,
-  "last_run_at": "2026-09-09T06:09:48+00:00",
+  "last_error_count": 0,
+  "last_processed_count": 3,
+  "last_run_at": "2026-09-09T12:29:57+00:00",
   "source_chunks": {
     "009ea6ddfcaa5e8d4f6a7064": {
       "canonical_confirmations": [],
@@ -3888,6 +3888,26 @@
       "updated_at": "2026-09-01T22:00:30+00:00",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
+    "234474be19d0c3af36562c81": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-09-09T12:29:57+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "af56669828c8f237c64c7c3698d72a49547ae9cd215d961788da1205521f71eb",
+      "source_title": "🔴 GLUCKSMANN ET LE PARTI SOCIALISTE : LA GAUCHE DES TRAHISONS",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-09T12:30:05+00:00",
+      "url": "https://www.youtube.com/shorts/EyLHRsCPnx0"
+    },
     "2486060ff06e6325d1f219f6": {
       "canonical_confirmations": [],
       "claims": [],
@@ -4694,6 +4714,26 @@
       "total": 1,
       "updated_at": "2026-09-06T16:27:47+00:00",
       "url": "https://bsky.app/profile/marinetondelier.fr/post/3muubfzwmes2y"
+    },
+    "338eae41dc5127b6b8859753": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-09-09T12:30:06+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "74109ee4cbd0d439005aff1aafbf22004c2549b19eee9df81e87c7e358e68de2",
+      "source_title": "STOP au matraquage fiscal !",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-09T12:30:07+00:00",
+      "url": "https://www.youtube.com/shorts/wDWvZgkAJf8"
     },
     "339da5119b58baecb28aa7ef": {
       "canonical_confirmations": [
@@ -12158,6 +12198,26 @@
       "updated_at": "2026-08-15T13:55:02+00:00",
       "url": "https://solutiondemocratique.fr/francois-ruffin-2027-programme/"
     },
+    "84274b208a3154b75bf6c83d": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-09-09T12:29:15+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "2748744e1250b3647b5d1fbca05e0a8caaa9109b9e03ed020a2e4f227fc8beea",
+      "source_title": "Rejoignez Place publique et choisissez votre candidat pour 2027 ! | Place publique",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-09T12:29:17+00:00",
+      "url": "https://place-publique.eu/posts/bVzEHsiKIArL1KpEE13hB/rejoignez-place-publique-et-choisissez-votre-candidat-pour-2027"
+    },
     "84687a6089b875f87e4b7fa0": {
       "claims": [
         {
@@ -13740,6 +13800,26 @@
       "updated_at": "2026-08-25T19:57:41+00:00",
       "url": "https://www.youtube.com/shorts/I17JDK-quMM"
     },
+    "9e5caf1cafc9f9ad71221841": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-09-09T12:30:10+00:00",
+      "document_types": [
+        "other"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "91df48d5c0ccb057179645a68cc7e6dcea2e68aad320dc58d8e7874ced7b62b7",
+      "source_title": "Notre dépendance au pétrole nous met dans une situation de surendettement climatique. On vit à crédit sur la planète, et les ménages sont étranglés financièrement par le coût de l",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-09T12:30:12+00:00",
+      "url": "https://bsky.app/profile/marinetondelier.fr/post/3mv35gxg6gs2x"
+    },
     "9e957a43490ff4192bfb9c7c": {
       "canonical_confirmations": [
         {
@@ -14347,6 +14427,26 @@
       "total": 1,
       "updated_at": "2026-09-06T11:47:09+00:00",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
+    "a4faeee520ece4a5b8449f51": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-09-09T12:30:08+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "bef2a313c7aa526edbb289f4aba1a776e3127bef8c05f0db6d072d6a7de79e92",
+      "source_title": "Et si la santé reproductive devenait enfin un sujet de la campagne présidentielle ? À 11h, je présenterai avec Anne Souyris, Aminata Niakaté, Léa Balage, Majdouline Sbaï et Marion",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-09T12:30:09+00:00",
+      "url": "https://bsky.app/profile/marinetondelier.fr/post/3mv36p7kn4s27"
     },
     "a62ba97f9981703fdc3fc130": {
       "canonical_confirmations": [],
@@ -19505,6 +19605,38 @@
       "updated_at": "2026-08-25T19:57:26+00:00",
       "url": "https://npa-revolutionnaires.org/communique-presidentielle-2027-selma-labib-une-candidature-ouvriere-et-revolutionnaire-soutenue-par-gael-quirante/"
     },
+    "c213132e3d756d5001d20a16": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-09-09T12:29:21+00:00",
+      "document_types": [
+        "official_interview"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [
+        "2026-07-07"
+      ],
+      "sha256": "cc94151424770ac08724e9b3c5e6711aaefa982032741966e8134467e76fc283",
+      "source_title": "UPR - FranÃ§ois Asselineau invitÃ© de L.-A. Michelet sur TV Finance â 07/07/2026",
+      "statuses": [
+        {
+          "status": {
+            "candidate_id": "francois-asselineau",
+            "effective_date": "2026-07-07",
+            "evidence_quote": "En 2027, je serai le seul candidat",
+            "explicit": true,
+            "new_status": "declared_presidential"
+          }
+        }
+      ],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-09T12:29:56+00:00",
+      "url": "https://upr.fr/medias/francois-asselineau-en-2027-je-serai-le-seul-candidat-a-la-presidence-de-la-republique-francaise"
+    },
     "c2d6831ddd4d6717d5558308": {
       "canonical_confirmations": [],
       "claims": [],
@@ -23164,6 +23296,28 @@
       "updated_at": "2026-08-21T02:44:55+00:00",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
+    "ebdf9e3b3ba73235730df593": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-09-09T12:29:18+00:00",
+      "document_types": [
+        "official_press_release"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [
+        "2026-08-25"
+      ],
+      "sha256": "3fac1992d619ec7ec42d14cf1ede71ce1847256ae3986890173983bc8b42ee21",
+      "source_title": "Le processus de désignation du ou de la candidat·e socialiste à l'élection présidentielle est lancé - Parti Socialiste",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-09T12:29:20+00:00",
+      "url": "https://parti-socialiste.fr/actualites/choisir-2027-le-processus-de-designation-du-ou-de-la-candidat-e-socialiste-a-lelection-presidentielle-est-lance/"
+    },
     "ec14f01505b067ced072b9d6": {
       "canonical_confirmations": [],
       "claims": [],
@@ -26375,6 +26529,15 @@
       "status": "promoted",
       "url": "https://solutiondemocratique.fr/presidentielle-2027-une-votation-organisee-a-lyon-4-autour-de-la-candidature-citoyenne-de-clara-egger/"
     },
+    "8400f79c0913": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-09T12:29:56+00:00",
+      "reason": "chronology_or_scope_guard",
+      "source_sha256": "cc94151424770ac08724e9b3c5e6711aaefa982032741966e8134467e76fc283",
+      "status": "not_confirmed",
+      "url": "https://upr.fr/medias/francois-asselineau-en-2027-je-serai-le-seul-candidat-a-la-presidence-de-la-republique-francaise"
+    },
     "8591ccc8cece": {
       "chunks_done": null,
       "chunks_total": 1,
@@ -27087,6 +27250,15 @@
       "status": "promoted",
       "url": "https://www.unenouvelleenergie.fr/notre-programme/"
     },
+    "c74bb10a05af": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-09T12:29:20+00:00",
+      "reason": null,
+      "source_sha256": "3fac1992d619ec7ec42d14cf1ede71ce1847256ae3986890173983bc8b42ee21",
+      "status": "not_confirmed",
+      "url": "https://parti-socialiste.fr/actualites/choisir-2027-le-processus-de-designation-du-ou-de-la-candidat-e-socialiste-a-lelection-presidentielle-est-lance/"
+    },
     "c783010b972b": {
       "chunks_done": null,
       "chunks_total": 1,
@@ -27245,6 +27417,15 @@
       "source_sha256": "887b889f5bcfc6ec15d924b13e4156d23f149ae3fe38f286546244ffa1a50516",
       "status": "promoted",
       "url": "https://melenchon2027.fr/programme2025/livre/chapitre7/"
+    },
+    "ce83cd4edb0f": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-09T12:29:17+00:00",
+      "reason": null,
+      "source_sha256": "2748744e1250b3647b5d1fbca05e0a8caaa9109b9e03ed020a2e4f227fc8beea",
+      "status": "not_confirmed",
+      "url": "https://place-publique.eu/posts/bVzEHsiKIArL1KpEE13hB/rejoignez-place-publique-et-choisissez-votre-candidat-pour-2027"
     },
     "cfd8d5efcf10": {
       "chunks_done": null,
