@@ -1,0 +1,28 @@
+{
+  "errors": [
+    {
+      "at": "2026-09-09T06:09:44+00:00",
+      "error": "ValueError: HTTP 403",
+      "url": "https://www.pcf.fr/presidentielle2027_fabien_roussel_designe_candidat"
+    },
+    {
+      "at": "2026-09-09T06:09:45+00:00",
+      "error": "ValueError: HTTP 403",
+      "url": "https://www.pcf.fr/presidentielle_2027_mjcf_s_engage_pour_candidature_communiste"
+    }
+  ],
+  "generated_at": "2026-09-09T06:09:48+00:00",
+  "historical_skipped": 0,
+  "partial": 0,
+  "processed": 1,
+  "promoted": 0,
+  "proposals_created": 0,
+  "results": [
+    {
+      "sha256": "3d0f63e842fdec4f165a27d4469282525d52a4308e796bbaffb1d2a850d1cc19",
+      "status": "not_confirmed",
+      "url": "https://upr.fr/analyses/la-justice-laisse-habilement-a-marine-le-pen-le-choix-detre-candidate-en-2027"
+    }
+  ],
+  "status_updates": 0
+}

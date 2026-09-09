@@ -1,14 +1,14 @@
 {
   "direct_feed_health": {
     "https://lafranceinsoumise.fr/feed/": {
-      "checked_at": "2026-09-08T21:58:37+00:00",
+      "checked_at": "2026-09-09T06:07:16+00:00",
       "item_count": 30,
       "owner": "La France insoumise",
       "resolved_url": "https://lafranceinsoumise.fr/feed/",
       "status": 200
     },
     "https://pcf.nationbuilder.com/actualites.rss": {
-      "checked_at": "2026-09-08T21:58:35+00:00",
+      "checked_at": "2026-09-09T06:07:15+00:00",
       "item_count": 20,
       "owner": "Parti communiste français",
       "resolved_url": "https://www.pcf.fr/actualites.rss",
@@ -19,14 +19,14 @@
     "https://lafranceinsoumise.fr/feed/": {
       "initialized_at": "2026-08-12T21:44:46+00:00",
       "item_count": 30,
-      "last_success_at": "2026-09-08T21:58:37+00:00",
+      "last_success_at": "2026-09-09T06:07:16+00:00",
       "owner": "La France insoumise",
       "resolved_url": "https://lafranceinsoumise.fr/feed/"
     },
     "https://pcf.nationbuilder.com/actualites.rss": {
       "initialized_at": "2026-08-12T21:44:44+00:00",
       "item_count": 20,
-      "last_success_at": "2026-09-08T21:58:35+00:00",
+      "last_success_at": "2026-09-09T06:07:15+00:00",
       "owner": "Parti communiste français",
       "resolved_url": "https://www.pcf.fr/actualites.rss"
     }
@@ -34,18 +34,18 @@
   "discovery_seen_urls": {},
   "feeds": {},
   "last_direct_feed_event_count": 0,
-  "last_direct_feed_run_at": "2026-09-08T21:58:37+00:00",
+  "last_direct_feed_run_at": "2026-09-09T06:07:16+00:00",
   "last_gdelt_event_count": 0,
   "last_gdelt_request_count": 5,
-  "last_gdelt_run_at": "2026-09-08T22:01:05+00:00",
-  "last_run_at": "2026-09-08T21:58:34+00:00",
+  "last_gdelt_run_at": "2026-09-09T06:09:18+00:00",
+  "last_run_at": "2026-09-09T06:07:15+00:00",
   "last_run_error_count": 8,
-  "last_run_event_count": 19,
-  "last_social_event_count": 2,
-  "last_social_profile_count": 44,
-  "last_social_run_at": "2026-09-08T22:01:34+00:00",
+  "last_run_event_count": 15,
+  "last_social_event_count": 0,
+  "last_social_profile_count": 43,
+  "last_social_run_at": "2026-09-09T06:09:39+00:00",
   "last_structured_primary_event_count": 0,
-  "last_structured_primary_run_at": "2026-09-08T21:58:38+00:00",
+  "last_structured_primary_run_at": "2026-09-09T06:07:17+00:00",
   "official_seen_urls": {
     "http://lesecologistes.fr/document/18CTGbDRkzn7XaKkp61X04/huma2024-programme-lesecologistes.pdf": {
       "first_seen_at": "2026-08-11T06:53:37+00:00",
@@ -382,128 +382,128 @@
     },
     "https://attalpresident.fr/actualites": {
       "first_seen_at": "2026-08-13T12:58:56+00:00",
-      "last_seen_at": "2026-09-08T21:56:14+00:00",
-      "lastmod": "2026-09-08T21:33:10.272Z",
+      "last_seen_at": "2026-09-09T06:05:29+00:00",
+      "lastmod": "2026-09-09T05:23:12.627Z",
       "owner": "Gabriel Attal"
     },
     "https://attalpresident.fr/actualites/1-000-bistrots-partout-en-france-la-campagne-de-gabriel-attal-vient-a-votre-rencontre": {
       "first_seen_at": "2026-09-08T17:18:00+00:00",
-      "last_seen_at": "2026-09-08T21:56:14+00:00",
-      "lastmod": "2026-09-08T21:33:10.272Z",
+      "last_seen_at": "2026-09-09T06:05:29+00:00",
+      "lastmod": "2026-09-09T05:23:12.627Z",
       "owner": "Gabriel Attal"
     },
     "https://attalpresident.fr/actualites/a-la-ref-gabriel-attal-grand-gagnant-du-premier-debat-de-la-presidentielle-2027": {
       "first_seen_at": "2026-09-01T12:38:06+00:00",
-      "last_seen_at": "2026-09-08T21:56:14+00:00",
-      "lastmod": "2026-09-08T21:33:10.272Z",
+      "last_seen_at": "2026-09-09T06:05:29+00:00",
+      "lastmod": "2026-09-09T05:23:12.627Z",
       "owner": "Gabriel Attal"
     },
     "https://attalpresident.fr/actualites/annonce-de-candidature": {
       "first_seen_at": "2026-08-13T12:58:56+00:00",
-      "last_seen_at": "2026-09-08T21:56:14+00:00",
-      "lastmod": "2026-09-08T21:33:10.272Z",
+      "last_seen_at": "2026-09-09T06:05:29+00:00",
+      "lastmod": "2026-09-09T05:23:12.627Z",
       "owner": "Gabriel Attal"
     },
     "https://attalpresident.fr/actualites/appel-500-elus-gabriel-attal-presidentielle": {
       "first_seen_at": "2026-08-13T12:58:56+00:00",
-      "last_seen_at": "2026-09-08T21:56:14+00:00",
-      "lastmod": "2026-09-08T21:33:10.272Z",
+      "last_seen_at": "2026-09-09T06:05:29+00:00",
+      "lastmod": "2026-09-09T05:23:12.627Z",
       "owner": "Gabriel Attal"
     },
     "https://attalpresident.fr/actualites/attal-president-l-application-de-campagne-de-gabriel-attal-boostee-a-l-ia": {
       "first_seen_at": "2026-08-13T12:58:56+00:00",
-      "last_seen_at": "2026-09-08T21:56:14+00:00",
-      "lastmod": "2026-09-08T21:33:10.272Z",
+      "last_seen_at": "2026-09-09T06:05:29+00:00",
+      "lastmod": "2026-09-09T05:23:12.627Z",
       "owner": "Gabriel Attal"
     },
     "https://attalpresident.fr/actualites/aux-rencontres-economiques-d-aix-en-provence-gabriel-attal-appelle-la-france-a-preparer-les-guerres-de-demain": {
       "first_seen_at": "2026-08-13T12:58:56+00:00",
-      "last_seen_at": "2026-09-08T21:56:14+00:00",
-      "lastmod": "2026-09-08T21:33:10.272Z",
+      "last_seen_at": "2026-09-09T06:05:29+00:00",
+      "lastmod": "2026-09-09T05:23:12.627Z",
       "owner": "Gabriel Attal"
     },
     "https://attalpresident.fr/actualites/bfm-tv-gabriel-attal-veut-changer-de-modele-pour-redonner-de-la-puissance-a-la-france": {
       "first_seen_at": "2026-09-08T17:18:00+00:00",
-      "last_seen_at": "2026-09-08T21:56:14+00:00",
-      "lastmod": "2026-09-08T21:33:10.272Z",
+      "last_seen_at": "2026-09-09T06:05:29+00:00",
+      "lastmod": "2026-09-09T05:23:12.627Z",
       "owner": "Gabriel Attal"
     },
     "https://attalpresident.fr/actualites/dans-la-tribune-dimanche-gabriel-attal-veut-un-referendum-pour-interdire-les-reseaux-sociaux-aux-moins-de-15-ans": {
       "first_seen_at": "2026-08-17T02:36:46+00:00",
-      "last_seen_at": "2026-09-08T21:56:14+00:00",
-      "lastmod": "2026-09-08T21:33:10.272Z",
+      "last_seen_at": "2026-09-09T06:05:29+00:00",
+      "lastmod": "2026-09-09T05:23:12.627Z",
       "owner": "Gabriel Attal"
     },
     "https://attalpresident.fr/actualites/dans-le-jdd-gabriel-attal-veut-proposer-la-plus-grande-reforme-institutionnelle-depuis-1958": {
       "first_seen_at": "2026-08-13T12:58:56+00:00",
-      "last_seen_at": "2026-09-08T21:56:14+00:00",
-      "lastmod": "2026-09-08T21:33:10.272Z",
+      "last_seen_at": "2026-09-09T06:05:29+00:00",
+      "lastmod": "2026-09-09T05:23:12.627Z",
       "owner": "Gabriel Attal"
     },
     "https://attalpresident.fr/actualites/dans-le-monde-gabriel-attal-devoile-son-projet-pour-faire-notre-ecole-la-meilleure-d-europe": {
       "first_seen_at": "2026-08-25T19:50:09+00:00",
-      "last_seen_at": "2026-09-08T21:56:14+00:00",
-      "lastmod": "2026-09-08T21:33:10.272Z",
+      "last_seen_at": "2026-09-09T06:05:29+00:00",
+      "lastmod": "2026-09-09T05:23:12.627Z",
       "owner": "Gabriel Attal"
     },
     "https://attalpresident.fr/actualites/dans-le-parisien-gabriel-attal-vise-le-zero-deficit-en-2037": {
       "first_seen_at": "2026-08-13T12:58:56+00:00",
-      "last_seen_at": "2026-09-08T21:56:14+00:00",
-      "lastmod": "2026-09-08T21:33:10.272Z",
+      "last_seen_at": "2026-09-09T06:05:29+00:00",
+      "lastmod": "2026-09-09T05:23:12.627Z",
       "owner": "Gabriel Attal"
     },
     "https://attalpresident.fr/actualites/dans-le-telegramme-gabriel-attal-veut-un-choc-de-salaires-et-instaurer-le-droit-au-brut": {
       "first_seen_at": "2026-08-13T12:58:56+00:00",
-      "last_seen_at": "2026-09-08T21:56:14+00:00",
-      "lastmod": "2026-09-08T21:33:10.272Z",
+      "last_seen_at": "2026-09-09T06:05:29+00:00",
+      "lastmod": "2026-09-09T05:23:12.627Z",
       "owner": "Gabriel Attal"
     },
     "https://attalpresident.fr/actualites/en-aveyron-gabriel-attal-lance-sa-campagne-presidentielle": {
       "first_seen_at": "2026-08-13T12:58:56+00:00",
-      "last_seen_at": "2026-09-08T21:56:14+00:00",
-      "lastmod": "2026-09-08T21:33:10.272Z",
+      "last_seen_at": "2026-09-09T06:05:29+00:00",
+      "lastmod": "2026-09-09T05:23:12.627Z",
       "owner": "Gabriel Attal"
     },
     "https://attalpresident.fr/actualites/en-deplacement-a-la-grande-motte-gabriel-attal-va-a-la-rencontre-de-la-france-qui-travaille-l-ete": {
       "first_seen_at": "2026-08-17T02:36:46+00:00",
-      "last_seen_at": "2026-09-08T21:56:14+00:00",
-      "lastmod": "2026-09-08T21:33:10.272Z",
+      "last_seen_at": "2026-09-09T06:05:29+00:00",
+      "lastmod": "2026-09-09T05:23:12.627Z",
       "owner": "Gabriel Attal"
     },
     "https://attalpresident.fr/actualites/en-mayenne-gabriel-attal-au-contact-de-la-france-qui-travaille": {
       "first_seen_at": "2026-09-01T12:38:06+00:00",
-      "last_seen_at": "2026-09-08T21:56:14+00:00",
-      "lastmod": "2026-09-08T21:33:10.272Z",
+      "last_seen_at": "2026-09-09T06:05:29+00:00",
+      "lastmod": "2026-09-09T05:23:12.627Z",
       "owner": "Gabriel Attal"
     },
     "https://attalpresident.fr/actualites/en-vendee-gabriel-attal-exige-le-respect-du-droit-par-tous-face-aux-occupations-illegales-des-gens-du-voyage-et-fait-des-propositions": {
       "first_seen_at": "2026-08-17T02:36:46+00:00",
-      "last_seen_at": "2026-09-08T21:56:14+00:00",
-      "lastmod": "2026-09-08T21:33:10.272Z",
+      "last_seen_at": "2026-09-09T06:05:29+00:00",
+      "lastmod": "2026-09-09T05:23:12.627Z",
       "owner": "Gabriel Attal"
     },
     "https://attalpresident.fr/actualites/eurosatory-gabriel-attal-presente-sa-strategie-de-souverainete-technologique-et-d-independance-europeenne-au-salon": {
       "first_seen_at": "2026-08-13T12:58:56+00:00",
-      "last_seen_at": "2026-09-08T21:56:14+00:00",
-      "lastmod": "2026-09-08T21:33:10.272Z",
+      "last_seen_at": "2026-09-09T06:05:29+00:00",
+      "lastmod": "2026-09-09T05:23:12.627Z",
       "owner": "Gabriel Attal"
     },
     "https://attalpresident.fr/actualites/face-aux-canicules-gabriel-attal-veut-faire-de-la-geoenergie-le-grand-projet-energetique-de-la-france-du-xxie-siecle": {
       "first_seen_at": "2026-08-13T12:58:56+00:00",
-      "last_seen_at": "2026-09-08T21:56:14+00:00",
-      "lastmod": "2026-09-08T21:33:10.272Z",
+      "last_seen_at": "2026-09-09T06:05:29+00:00",
+      "lastmod": "2026-09-09T05:23:12.627Z",
       "owner": "Gabriel Attal"
     },
     "https://attalpresident.fr/actualites/force-d-agir-une-mobilisation-eclair-des-militants-renaissance-partout-en-france": {
       "first_seen_at": "2026-08-13T12:58:56+00:00",
-      "last_seen_at": "2026-09-08T21:56:14+00:00",
-      "lastmod": "2026-09-08T21:33:10.272Z",
+      "last_seen_at": "2026-09-09T06:05:29+00:00",
+      "lastmod": "2026-09-09T05:23:12.627Z",
       "owner": "Gabriel Attal"
     },
     "https://attalpresident.fr/actualites/france-2-gabriel-attal-fait-de-l-ecole-une-priorite-pour-preparer-l-avenir-du-pays": {
       "first_seen_at": "2026-09-04T21:34:59+00:00",
-      "last_seen_at": "2026-09-08T21:56:14+00:00",
-      "lastmod": "2026-09-08T21:33:10.272Z",
+      "last_seen_at": "2026-09-09T06:05:29+00:00",
+      "lastmod": "2026-09-09T05:23:12.627Z",
       "owner": "Gabriel Attal"
     },
     "https://attalpresident.fr/actualites/gabriel-attal": {
@@ -514,242 +514,242 @@
     },
     "https://attalpresident.fr/actualites/gabriel-attal-20h-tf1-quatre-chantiers-capitaux-pour-la-france": {
       "first_seen_at": "2026-08-13T12:58:56+00:00",
-      "last_seen_at": "2026-09-08T21:56:14+00:00",
-      "lastmod": "2026-09-08T21:33:10.272Z",
+      "last_seen_at": "2026-09-09T06:05:29+00:00",
+      "lastmod": "2026-09-09T05:23:12.627Z",
       "owner": "Gabriel Attal"
     },
     "https://attalpresident.fr/actualites/gabriel-attal-a-annecy-aux-cotes-des-francais-qui-travaillent": {
       "first_seen_at": "2026-08-13T12:58:56+00:00",
-      "last_seen_at": "2026-09-08T21:56:14+00:00",
-      "lastmod": "2026-09-08T21:33:10.272Z",
+      "last_seen_at": "2026-09-09T06:05:29+00:00",
+      "lastmod": "2026-09-09T05:23:12.627Z",
       "owner": "Gabriel Attal"
     },
     "https://attalpresident.fr/actualites/gabriel-attal-a-creil-poursuivre-le-combat-pour-desserrer-la-tenaille-des-extremes": {
       "first_seen_at": "2026-08-13T12:58:56+00:00",
-      "last_seen_at": "2026-09-08T21:56:14+00:00",
-      "lastmod": "2026-09-08T21:33:10.272Z",
+      "last_seen_at": "2026-09-09T06:05:29+00:00",
+      "lastmod": "2026-09-09T05:23:12.627Z",
       "owner": "Gabriel Attal"
     },
     "https://attalpresident.fr/actualites/gabriel-attal-a-la-braderie-de-lille-aller-a-la-rencontre-des-francais-partout-sur-le-territoire": {
       "first_seen_at": "2026-09-08T17:18:00+00:00",
-      "last_seen_at": "2026-09-08T21:56:14+00:00",
-      "lastmod": "2026-09-08T21:33:10.272Z",
+      "last_seen_at": "2026-09-09T06:05:29+00:00",
+      "lastmod": "2026-09-09T05:23:12.627Z",
       "owner": "Gabriel Attal"
     },
     "https://attalpresident.fr/actualites/gabriel-attal-a-la-spa-de-plaisir-premieres-propositions-contre-labandon-animal": {
       "first_seen_at": "2026-08-13T12:58:56+00:00",
-      "last_seen_at": "2026-09-08T21:56:14+00:00",
-      "lastmod": "2026-09-08T21:33:10.272Z",
+      "last_seen_at": "2026-09-09T06:05:29+00:00",
+      "lastmod": "2026-09-09T05:23:12.627Z",
       "owner": "Gabriel Attal"
     },
     "https://attalpresident.fr/actualites/gabriel-attal-a-tarbes-la-geoenergie-pour-adapter-la-france-aux-grandes-canicules": {
       "first_seen_at": "2026-08-13T12:58:56+00:00",
-      "last_seen_at": "2026-09-08T21:56:14+00:00",
-      "lastmod": "2026-09-08T21:33:10.272Z",
+      "last_seen_at": "2026-09-09T06:05:29+00:00",
+      "lastmod": "2026-09-09T05:23:12.627Z",
       "owner": "Gabriel Attal"
     },
     "https://attalpresident.fr/actualites/gabriel-attal-a-villers-cotterets-briser-la-tenaille-des-extremes": {
       "first_seen_at": "2026-08-13T12:58:56+00:00",
-      "last_seen_at": "2026-09-08T21:56:14+00:00",
-      "lastmod": "2026-09-08T21:33:10.272Z",
+      "last_seen_at": "2026-09-09T06:05:29+00:00",
+      "lastmod": "2026-09-09T05:23:12.627Z",
       "owner": "Gabriel Attal"
     },
     "https://attalpresident.fr/actualites/gabriel-attal-annonce-ses-premieres-mesures-pour-les-familles-monoparentales-a-la-premiere-universite-d-ete": {
       "first_seen_at": "2026-09-02T12:10:00+00:00",
-      "last_seen_at": "2026-09-08T21:56:14+00:00",
-      "lastmod": "2026-09-08T21:33:10.272Z",
+      "last_seen_at": "2026-09-09T06:05:29+00:00",
+      "lastmod": "2026-09-09T05:23:12.627Z",
       "owner": "Gabriel Attal"
     },
     "https://attalpresident.fr/actualites/gabriel-attal-annonce-un-grand-meeting-regional-10-octobre-a-lyon": {
       "first_seen_at": "2026-08-13T12:58:56+00:00",
-      "last_seen_at": "2026-09-08T21:56:14+00:00",
-      "lastmod": "2026-09-08T21:33:10.272Z",
+      "last_seen_at": "2026-09-09T06:05:29+00:00",
+      "lastmod": "2026-09-09T05:23:12.627Z",
       "owner": "Gabriel Attal"
     },
     "https://attalpresident.fr/actualites/gabriel-attal-appelle-a-une-rupture-economique-dans-les-echos": {
       "first_seen_at": "2026-08-13T12:58:56+00:00",
-      "last_seen_at": "2026-09-08T21:56:14+00:00",
-      "lastmod": "2026-09-08T21:33:10.272Z",
+      "last_seen_at": "2026-09-09T06:05:29+00:00",
+      "lastmod": "2026-09-09T05:23:12.627Z",
       "owner": "Gabriel Attal"
     },
     "https://attalpresident.fr/actualites/gabriel-attal-au-contact-du-monde-agricole-et-de-ceux-qui-font-vivre-nos-territoires-a-la-foire-de-chalons": {
       "first_seen_at": "2026-09-04T21:34:59+00:00",
-      "last_seen_at": "2026-09-08T21:56:14+00:00",
-      "lastmod": "2026-09-08T21:33:10.272Z",
+      "last_seen_at": "2026-09-09T06:05:29+00:00",
+      "lastmod": "2026-09-09T05:23:12.627Z",
       "owner": "Gabriel Attal"
     },
     "https://attalpresident.fr/actualites/gabriel-attal-avec-les-francais-qui-travaillent-l-ete-visite-du-marche-de-chateaurenard": {
       "first_seen_at": "2026-08-17T02:36:46+00:00",
-      "last_seen_at": "2026-09-08T21:56:14+00:00",
-      "lastmod": "2026-09-08T21:33:10.272Z",
+      "last_seen_at": "2026-09-09T06:05:29+00:00",
+      "lastmod": "2026-09-09T05:23:12.627Z",
       "owner": "Gabriel Attal"
     },
     "https://attalpresident.fr/actualites/gabriel-attal-continue-son-tour-de-france-a-nevers": {
       "first_seen_at": "2026-08-13T12:58:56+00:00",
-      "last_seen_at": "2026-09-08T21:56:14+00:00",
-      "lastmod": "2026-09-08T21:33:10.272Z",
+      "last_seen_at": "2026-09-09T06:05:29+00:00",
+      "lastmod": "2026-09-09T05:23:12.627Z",
       "owner": "Gabriel Attal"
     },
     "https://attalpresident.fr/actualites/gabriel-attal-dans-l-ain-et-la-saone-et-loire": {
       "first_seen_at": "2026-08-13T12:58:56+00:00",
-      "last_seen_at": "2026-09-08T21:56:14+00:00",
-      "lastmod": "2026-09-08T21:33:10.272Z",
+      "last_seen_at": "2026-09-09T06:05:29+00:00",
+      "lastmod": "2026-09-09T05:23:12.627Z",
       "owner": "Gabriel Attal"
     },
     "https://attalpresident.fr/actualites/gabriel-attal-dans-le-figaro-appelle-a-une-nouvelle-justice": {
       "first_seen_at": "2026-08-13T12:58:56+00:00",
-      "last_seen_at": "2026-09-08T21:56:14+00:00",
-      "lastmod": "2026-09-08T21:33:10.272Z",
+      "last_seen_at": "2026-09-09T06:05:29+00:00",
+      "lastmod": "2026-09-09T05:23:12.627Z",
       "owner": "Gabriel Attal"
     },
     "https://attalpresident.fr/actualites/gabriel-attal-dans-les-yvelines-l-intelligence-artificielle-au-service-de-l-exception-agricole": {
       "first_seen_at": "2026-08-13T12:58:56+00:00",
-      "last_seen_at": "2026-09-08T21:56:14+00:00",
-      "lastmod": "2026-09-08T21:33:10.272Z",
+      "last_seen_at": "2026-09-09T06:05:29+00:00",
+      "lastmod": "2026-09-09T05:23:12.627Z",
       "owner": "Gabriel Attal"
     },
     "https://attalpresident.fr/actualites/gabriel-attal-deplacement-lycee-jean-zay-orleans-education-ia": {
       "first_seen_at": "2026-08-13T12:58:56+00:00",
-      "last_seen_at": "2026-09-08T21:56:14+00:00",
-      "lastmod": "2026-09-08T21:33:10.272Z",
+      "last_seen_at": "2026-09-09T06:05:29+00:00",
+      "lastmod": "2026-09-09T05:23:12.627Z",
       "owner": "Gabriel Attal"
     },
     "https://attalpresident.fr/actualites/gabriel-attal-en-bretagne-trois-jours-au-contact-de-la-france-qui-travaille": {
       "first_seen_at": "2026-08-13T12:58:56+00:00",
-      "last_seen_at": "2026-09-08T21:56:14+00:00",
-      "lastmod": "2026-09-08T21:33:10.272Z",
+      "last_seen_at": "2026-09-09T06:05:29+00:00",
+      "lastmod": "2026-09-09T05:23:12.627Z",
       "owner": "Gabriel Attal"
     },
     "https://attalpresident.fr/actualites/gabriel-attal-fin-de-vie-l-aboutissement-d-un-long-chemin-et-la-consecration-d-un-droit-nouveau": {
       "first_seen_at": "2026-08-13T12:58:56+00:00",
-      "last_seen_at": "2026-09-08T21:56:14+00:00",
-      "lastmod": "2026-09-08T21:33:10.272Z",
+      "last_seen_at": "2026-09-09T06:05:29+00:00",
+      "lastmod": "2026-09-09T05:23:12.627Z",
       "owner": "Gabriel Attal"
     },
     "https://attalpresident.fr/actualites/gabriel-attal-france-inter-election-presidentielle": {
       "first_seen_at": "2026-08-13T12:58:56+00:00",
-      "last_seen_at": "2026-09-08T21:56:14+00:00",
-      "lastmod": "2026-09-08T21:33:10.272Z",
+      "last_seen_at": "2026-09-09T06:05:29+00:00",
+      "lastmod": "2026-09-09T05:23:12.627Z",
       "owner": "Gabriel Attal"
     },
     "https://attalpresident.fr/actualites/gabriel-attal-plan-eau-argeles-sur-mer": {
       "first_seen_at": "2026-08-19T14:02:48+00:00",
-      "last_seen_at": "2026-09-08T21:56:14+00:00",
-      "lastmod": "2026-09-08T21:33:10.272Z",
+      "last_seen_at": "2026-09-09T06:05:29+00:00",
+      "lastmod": "2026-09-09T05:23:12.627Z",
       "owner": "Gabriel Attal"
     },
     "https://attalpresident.fr/actualites/gabriel-attal-pour-le-retour-du-royaume-uni-dans-l-union-europeenne-dans-le-figaro": {
       "first_seen_at": "2026-08-13T12:58:56+00:00",
-      "last_seen_at": "2026-09-08T21:56:14+00:00",
-      "lastmod": "2026-09-08T21:33:10.272Z",
+      "last_seen_at": "2026-09-09T06:05:29+00:00",
+      "lastmod": "2026-09-09T05:23:12.627Z",
       "owner": "Gabriel Attal"
     },
     "https://attalpresident.fr/actualites/gabriel-attal-premier-meeting-presidentiel": {
       "first_seen_at": "2026-08-13T12:58:56+00:00",
-      "last_seen_at": "2026-09-08T21:56:14+00:00",
-      "lastmod": "2026-09-08T21:33:10.272Z",
+      "last_seen_at": "2026-09-09T06:05:29+00:00",
+      "lastmod": "2026-09-09T05:23:12.627Z",
       "owner": "Gabriel Attal"
     },
     "https://attalpresident.fr/actualites/gabriel-attal-presente-son-equipe-de-campagne-pour-l-election-presidentielle-de-2027": {
       "first_seen_at": "2026-09-04T21:34:59+00:00",
-      "last_seen_at": "2026-09-08T21:56:14+00:00",
-      "lastmod": "2026-09-08T21:33:10.272Z",
+      "last_seen_at": "2026-09-09T06:05:29+00:00",
+      "lastmod": "2026-09-09T05:23:12.627Z",
       "owner": "Gabriel Attal"
     },
     "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne": {
       "first_seen_at": "2026-08-13T12:58:56+00:00",
-      "last_seen_at": "2026-09-08T21:56:14+00:00",
-      "lastmod": "2026-09-08T21:33:10.272Z",
+      "last_seen_at": "2026-09-09T06:05:29+00:00",
+      "lastmod": "2026-09-09T05:23:12.627Z",
       "owner": "Gabriel Attal"
     },
     "https://attalpresident.fr/actualites/gabriel-attal-sur-bfm-tv-la-france-a-toujours-un-role-a-jouer-c-est-sa-mission-c-est-son-destin": {
       "first_seen_at": "2026-08-13T12:58:56+00:00",
-      "last_seen_at": "2026-09-08T21:56:14+00:00",
-      "lastmod": "2026-09-08T21:33:10.272Z",
+      "last_seen_at": "2026-09-09T06:05:29+00:00",
+      "lastmod": "2026-09-09T05:23:12.627Z",
       "owner": "Gabriel Attal"
     },
     "https://attalpresident.fr/actualites/gabriel-attal-sur-bfm-tv-sa-strategie-de-rupture-pour-rebatir-la-justice-et-proteger-les-enfants": {
       "first_seen_at": "2026-08-13T12:58:56+00:00",
-      "last_seen_at": "2026-09-08T21:56:14+00:00",
-      "lastmod": "2026-09-08T21:33:10.272Z",
+      "last_seen_at": "2026-09-09T06:05:29+00:00",
+      "lastmod": "2026-09-09T05:23:12.627Z",
       "owner": "Gabriel Attal"
     },
     "https://attalpresident.fr/actualites/gabriel-attal-sur-france-info-ia-pouvoir-d-achat-et-climat-au-coeur-de-sa-campagne": {
       "first_seen_at": "2026-08-13T12:58:56+00:00",
-      "last_seen_at": "2026-09-08T21:56:14+00:00",
-      "lastmod": "2026-09-08T21:33:10.272Z",
+      "last_seen_at": "2026-09-09T06:05:29+00:00",
+      "lastmod": "2026-09-09T05:23:12.627Z",
       "owner": "Gabriel Attal"
     },
     "https://attalpresident.fr/actualites/gabriel-attal-sur-france-inter-la-france-merite-mieux-qu-une-guerilla-judiciaire": {
       "first_seen_at": "2026-08-13T12:58:56+00:00",
-      "last_seen_at": "2026-09-08T21:56:14+00:00",
-      "lastmod": "2026-09-08T21:33:10.272Z",
+      "last_seen_at": "2026-09-09T06:05:29+00:00",
+      "lastmod": "2026-09-09T05:23:12.627Z",
       "owner": "Gabriel Attal"
     },
     "https://attalpresident.fr/actualites/gabriel-attal-sur-tf1-le-choix-du-rassemblement-national-est-un-choix-qui-nous-emmenerait-dans-le-mur": {
       "first_seen_at": "2026-08-13T12:58:56+00:00",
-      "last_seen_at": "2026-09-08T21:56:14+00:00",
-      "lastmod": "2026-09-08T21:33:10.272Z",
+      "last_seen_at": "2026-09-09T06:05:29+00:00",
+      "lastmod": "2026-09-09T05:23:12.627Z",
       "owner": "Gabriel Attal"
     },
     "https://attalpresident.fr/actualites/gabriel-attal-veut-briser-la-tenaille-rn-lfi-dans-la-tribune-dimanche": {
       "first_seen_at": "2026-08-13T12:58:56+00:00",
-      "last_seen_at": "2026-09-08T21:56:14+00:00",
-      "lastmod": "2026-09-08T21:33:10.272Z",
+      "last_seen_at": "2026-09-09T06:05:29+00:00",
+      "lastmod": "2026-09-09T05:23:12.627Z",
       "owner": "Gabriel Attal"
     },
     "https://attalpresident.fr/actualites/grand-entretien-de-gabriel-attal-sur-lci": {
       "first_seen_at": "2026-08-13T12:58:56+00:00",
-      "last_seen_at": "2026-09-08T21:56:14+00:00",
-      "lastmod": "2026-09-08T21:33:10.272Z",
+      "last_seen_at": "2026-09-09T06:05:29+00:00",
+      "lastmod": "2026-09-09T05:23:12.627Z",
       "owner": "Gabriel Attal"
     },
     "https://attalpresident.fr/actualites/interdiction-des-reseaux-sociaux-aux-moins-de-15-ans-une-victoire-decisive-pour-proteger-notre-jeunesse": {
       "first_seen_at": "2026-08-13T12:58:56+00:00",
-      "last_seen_at": "2026-09-08T21:56:14+00:00",
-      "lastmod": "2026-09-08T21:33:10.272Z",
+      "last_seen_at": "2026-09-09T06:05:29+00:00",
+      "lastmod": "2026-09-09T05:23:12.627Z",
       "owner": "Gabriel Attal"
     },
     "https://attalpresident.fr/actualites/lci-gabriel-attal-defend-un-projet-de-rupture-pour-repondre-aux-grands-defis-du-pays": {
       "first_seen_at": "2026-09-01T12:38:06+00:00",
-      "last_seen_at": "2026-09-08T21:56:14+00:00",
-      "lastmod": "2026-09-08T21:33:10.272Z",
+      "last_seen_at": "2026-09-09T06:05:29+00:00",
+      "lastmod": "2026-09-09T05:23:12.627Z",
       "owner": "Gabriel Attal"
     },
     "https://attalpresident.fr/actualites/livre-en-homme-libre-gabriel-attal": {
       "first_seen_at": "2026-08-13T12:58:56+00:00",
-      "last_seen_at": "2026-09-08T21:56:14+00:00",
-      "lastmod": "2026-09-08T21:33:10.272Z",
+      "last_seen_at": "2026-09-09T06:05:29+00:00",
+      "lastmod": "2026-09-09T05:23:12.627Z",
       "owner": "Gabriel Attal"
     },
     "https://attalpresident.fr/actualites/meeting-de-gabriel-attal-a-paris-l-elan-d-une-france-qui-choisit-l-avenir": {
       "first_seen_at": "2026-08-13T12:58:56+00:00",
-      "last_seen_at": "2026-09-08T21:56:14+00:00",
-      "lastmod": "2026-09-08T21:33:10.272Z",
+      "last_seen_at": "2026-09-09T06:05:29+00:00",
+      "lastmod": "2026-09-09T05:23:12.627Z",
       "owner": "Gabriel Attal"
     },
     "https://attalpresident.fr/actualites/protection-de-l-enfance-gabriel-attal-en-visite-a-aulnay-sous-bois-pour-rencontrer-les-jeunes-et-leurs-encadrants": {
       "first_seen_at": "2026-08-25T19:50:09+00:00",
-      "last_seen_at": "2026-09-08T21:56:14+00:00",
-      "lastmod": "2026-09-08T21:33:10.272Z",
+      "last_seen_at": "2026-09-09T06:05:29+00:00",
+      "lastmod": "2026-09-09T05:23:12.627Z",
       "owner": "Gabriel Attal"
     },
     "https://attalpresident.fr/actualites/rtl-gabriel-attal-appelle-a-sortir-de-la-chronique-judiciaire-du-rn-et-recentrer-le-debat-sur-les-francais": {
       "first_seen_at": "2026-08-13T12:58:56+00:00",
-      "last_seen_at": "2026-09-08T21:56:14+00:00",
-      "lastmod": "2026-09-08T21:33:10.272Z",
+      "last_seen_at": "2026-09-09T06:05:29+00:00",
+      "lastmod": "2026-09-09T05:23:12.627Z",
       "owner": "Gabriel Attal"
     },
     "https://attalpresident.fr/actualites/six-porte-paroles-pour-porter-les-idees-de-gabriel-attal": {
       "first_seen_at": "2026-09-04T21:34:59+00:00",
-      "last_seen_at": "2026-09-08T21:56:14+00:00",
-      "lastmod": "2026-09-08T21:33:10.272Z",
+      "last_seen_at": "2026-09-09T06:05:29+00:00",
+      "lastmod": "2026-09-09T05:23:12.627Z",
       "owner": "Gabriel Attal"
     },
     "https://attalpresident.fr/actualites/vivatech-gabriel-attal-place-l-intelligence-artificielle-et-la-souverainete-au-coeur-de-son-projet": {
       "first_seen_at": "2026-08-13T12:58:56+00:00",
-      "last_seen_at": "2026-09-08T21:56:14+00:00",
-      "lastmod": "2026-09-08T21:33:10.272Z",
+      "last_seen_at": "2026-09-09T06:05:29+00:00",
+      "lastmod": "2026-09-09T05:23:12.627Z",
       "owner": "Gabriel Attal"
     },
     "https://attalpresident.fr/consultation": {
@@ -769,116 +769,116 @@
     },
     "https://attalpresident.fr/mon-equipe": {
       "first_seen_at": "2026-09-04T16:55:37+00:00",
-      "last_seen_at": "2026-09-08T21:56:14+00:00",
-      "lastmod": "2026-09-08T21:33:10.272Z",
+      "last_seen_at": "2026-09-09T06:05:29+00:00",
+      "lastmod": "2026-09-09T05:23:12.627Z",
       "owner": "Gabriel Attal"
     },
     "https://attalpresident.fr/mon-equipe/abdoulaye-kante-porte-parole": {
       "first_seen_at": "2026-09-04T16:55:37+00:00",
-      "last_seen_at": "2026-09-08T21:56:14+00:00",
-      "lastmod": "2026-09-08T21:33:10.272Z",
+      "last_seen_at": "2026-09-09T06:05:29+00:00",
+      "lastmod": "2026-09-09T05:23:12.627Z",
       "owner": "Gabriel Attal"
     },
     "https://attalpresident.fr/mon-equipe/celine-geraud-porte-parole": {
       "first_seen_at": "2026-09-04T16:55:37+00:00",
-      "last_seen_at": "2026-09-08T21:56:14+00:00",
-      "lastmod": "2026-09-08T21:33:10.272Z",
+      "last_seen_at": "2026-09-09T06:05:29+00:00",
+      "lastmod": "2026-09-09T05:23:12.627Z",
       "owner": "Gabriel Attal"
     },
     "https://attalpresident.fr/mon-equipe/fanny-anor-directrice-de-campagne": {
       "first_seen_at": "2026-09-04T16:55:37+00:00",
-      "last_seen_at": "2026-09-08T21:56:14+00:00",
-      "lastmod": "2026-09-08T21:33:10.272Z",
+      "last_seen_at": "2026-09-09T06:05:29+00:00",
+      "lastmod": "2026-09-09T05:23:12.627Z",
       "owner": "Gabriel Attal"
     },
     "https://attalpresident.fr/mon-equipe/franck-riester-directeur-de-campagne": {
       "first_seen_at": "2026-09-04T16:55:37+00:00",
-      "last_seen_at": "2026-09-08T21:56:14+00:00",
-      "lastmod": "2026-09-08T21:33:10.272Z",
+      "last_seen_at": "2026-09-09T06:05:29+00:00",
+      "lastmod": "2026-09-09T05:23:12.627Z",
       "owner": "Gabriel Attal"
     },
     "https://attalpresident.fr/mon-equipe/jad-zahab-porte-parole": {
       "first_seen_at": "2026-09-04T16:55:37+00:00",
-      "last_seen_at": "2026-09-08T21:56:14+00:00",
-      "lastmod": "2026-09-08T21:33:10.272Z",
+      "last_seen_at": "2026-09-09T06:05:29+00:00",
+      "lastmod": "2026-09-09T05:23:12.627Z",
       "owner": "Gabriel Attal"
     },
     "https://attalpresident.fr/mon-equipe/jean-charles-orsucci-porte-parole": {
       "first_seen_at": "2026-09-04T16:55:37+00:00",
-      "last_seen_at": "2026-09-08T21:56:14+00:00",
-      "lastmod": "2026-09-08T21:33:10.272Z",
+      "last_seen_at": "2026-09-09T06:05:29+00:00",
+      "lastmod": "2026-09-09T05:23:12.627Z",
       "owner": "Gabriel Attal"
     },
     "https://attalpresident.fr/mon-equipe/maxime-cordier-directeur-de-campagne": {
       "first_seen_at": "2026-09-04T16:55:37+00:00",
-      "last_seen_at": "2026-09-08T21:56:14+00:00",
-      "lastmod": "2026-09-08T21:33:10.272Z",
+      "last_seen_at": "2026-09-09T06:05:29+00:00",
+      "lastmod": "2026-09-09T05:23:12.627Z",
       "owner": "Gabriel Attal"
     },
     "https://attalpresident.fr/mon-equipe/prisca-thevenot": {
       "first_seen_at": "2026-09-04T16:55:37+00:00",
-      "last_seen_at": "2026-09-08T21:56:14+00:00",
-      "lastmod": "2026-09-08T21:33:10.272Z",
+      "last_seen_at": "2026-09-09T06:05:29+00:00",
+      "lastmod": "2026-09-09T05:23:12.627Z",
       "owner": "Gabriel Attal"
     },
     "https://attalpresident.fr/mon-equipe/rachel-flore-pardo-porte-parole": {
       "first_seen_at": "2026-09-04T16:55:37+00:00",
-      "last_seen_at": "2026-09-08T21:56:14+00:00",
-      "lastmod": "2026-09-08T21:33:10.272Z",
+      "last_seen_at": "2026-09-09T06:05:29+00:00",
+      "lastmod": "2026-09-09T05:23:12.627Z",
       "owner": "Gabriel Attal"
     },
     "https://attalpresident.fr/mon-equipe/thomas-cazenave-president-comite-maires": {
       "first_seen_at": "2026-09-04T16:55:37+00:00",
-      "last_seen_at": "2026-09-08T21:56:14+00:00",
-      "lastmod": "2026-09-08T21:33:10.272Z",
+      "last_seen_at": "2026-09-09T06:05:29+00:00",
+      "lastmod": "2026-09-09T05:23:12.627Z",
       "owner": "Gabriel Attal"
     },
     "https://attalpresident.fr/mon-equipe/violette-spillebout-porte-parole": {
       "first_seen_at": "2026-09-04T16:55:37+00:00",
-      "last_seen_at": "2026-09-08T21:56:14+00:00",
-      "lastmod": "2026-09-08T21:33:10.272Z",
+      "last_seen_at": "2026-09-09T06:05:29+00:00",
+      "lastmod": "2026-09-09T05:23:12.627Z",
       "owner": "Gabriel Attal"
     },
     "https://attalpresident.fr/programme": {
       "first_seen_at": "2026-08-13T12:58:56+00:00",
-      "last_seen_at": "2026-09-08T21:56:14+00:00",
-      "lastmod": "2026-09-08T21:33:10.272Z",
+      "last_seen_at": "2026-09-09T06:05:29+00:00",
+      "lastmod": "2026-09-09T05:23:12.627Z",
       "owner": "Gabriel Attal"
     },
     "https://attalpresident.fr/programme/dette-de-letat": {
       "first_seen_at": "2026-08-13T12:58:56+00:00",
-      "last_seen_at": "2026-09-08T21:56:14+00:00",
-      "lastmod": "2026-09-08T21:33:10.272Z",
+      "last_seen_at": "2026-09-09T06:05:29+00:00",
+      "lastmod": "2026-09-09T05:23:12.627Z",
       "owner": "Gabriel Attal"
     },
     "https://attalpresident.fr/programme/dette-ecologique": {
       "first_seen_at": "2026-08-13T12:58:56+00:00",
-      "last_seen_at": "2026-09-08T21:56:14+00:00",
-      "lastmod": "2026-09-08T21:33:10.272Z",
+      "last_seen_at": "2026-09-09T06:05:29+00:00",
+      "lastmod": "2026-09-09T05:23:12.627Z",
       "owner": "Gabriel Attal"
     },
     "https://attalpresident.fr/programme/education": {
       "first_seen_at": "2026-08-13T12:58:56+00:00",
-      "last_seen_at": "2026-09-08T21:56:14+00:00",
-      "lastmod": "2026-09-08T21:33:10.272Z",
+      "last_seen_at": "2026-09-09T06:05:29+00:00",
+      "lastmod": "2026-09-09T05:23:12.627Z",
       "owner": "Gabriel Attal"
     },
     "https://attalpresident.fr/programme/frontieres": {
       "first_seen_at": "2026-08-13T12:58:56+00:00",
-      "last_seen_at": "2026-09-08T21:56:14+00:00",
-      "lastmod": "2026-09-08T21:33:10.272Z",
+      "last_seen_at": "2026-09-09T06:05:29+00:00",
+      "lastmod": "2026-09-09T05:23:12.627Z",
       "owner": "Gabriel Attal"
     },
     "https://attalpresident.fr/programme/intelligence-artificielle": {
       "first_seen_at": "2026-08-13T12:58:56+00:00",
-      "last_seen_at": "2026-09-08T21:56:14+00:00",
-      "lastmod": "2026-09-08T21:33:10.272Z",
+      "last_seen_at": "2026-09-09T06:05:29+00:00",
+      "lastmod": "2026-09-09T05:23:12.627Z",
       "owner": "Gabriel Attal"
     },
     "https://attalpresident.fr/programme/travail-salaires": {
       "first_seen_at": "2026-08-13T12:58:56+00:00",
-      "last_seen_at": "2026-09-08T21:56:14+00:00",
-      "lastmod": "2026-09-08T21:33:10.272Z",
+      "last_seen_at": "2026-09-09T06:05:29+00:00",
+      "lastmod": "2026-09-09T05:23:12.627Z",
       "owner": "Gabriel Attal"
     },
     "https://bc2027.fr/": {
@@ -1533,55 +1533,55 @@
     },
     "https://lafranceinsoumise.fr/2026/07/07/marine-le-pen-rn-cp/": {
       "first_seen_at": "2026-08-11T06:54:39+00:00",
-      "last_seen_at": "2026-09-08T21:58:37+00:00",
+      "last_seen_at": "2026-09-09T06:07:16+00:00",
       "owner": "Jean-Luc Mélenchon",
       "published_at": "Tue, 07 Jul 2026 14:56:22 +0000"
     },
     "https://lafranceinsoumise.fr/2026/07/29/amfis-2026-les-premieres-annonces-sur-le-programme-des-universites-dete-de-la-france-insoumise/": {
       "first_seen_at": "2026-08-11T06:54:39+00:00",
-      "last_seen_at": "2026-09-08T21:58:37+00:00",
+      "last_seen_at": "2026-09-09T06:07:16+00:00",
       "owner": "Jean-Luc Mélenchon",
       "published_at": "Wed, 29 Jul 2026 15:42:15 +0000"
     },
     "https://lafranceinsoumise.fr/2026/08/10/amfis-2026-le-programme-est-en-ligne/": {
       "first_seen_at": "2026-08-11T06:54:39+00:00",
-      "last_seen_at": "2026-09-08T21:58:37+00:00",
+      "last_seen_at": "2026-09-09T06:07:16+00:00",
       "owner": "Jean-Luc Mélenchon",
       "published_at": "Mon, 10 Aug 2026 13:13:51 +0000"
     },
     "https://lafranceinsoumise.fr/2026/08/19/tribune-le-29-octobre-pesticides/": {
       "first_seen_at": "2026-08-19T14:06:02+00:00",
-      "last_seen_at": "2026-09-08T21:58:37+00:00",
+      "last_seen_at": "2026-09-09T06:07:16+00:00",
       "owner": "Jean-Luc Mélenchon",
       "published_at": "Wed, 19 Aug 2026 09:01:11 +0000"
     },
     "https://lafranceinsoumise.fr/2026/08/27/larmee-na-pas-a-etre-utilisee-pour-faire-avancer-lagenda-reactionnaire-de-sebastien-lecornu/": {
       "first_seen_at": "2026-08-27T23:02:49+00:00",
-      "last_seen_at": "2026-09-08T21:58:37+00:00",
+      "last_seen_at": "2026-09-09T06:07:16+00:00",
       "owner": "Jean-Luc Mélenchon",
       "published_at": "Thu, 27 Aug 2026 12:49:09 +0000"
     },
     "https://lafranceinsoumise.fr/2026/08/28/melenchon-braderie-lille-2026/": {
       "first_seen_at": "2026-09-07T13:37:50+00:00",
-      "last_seen_at": "2026-09-08T21:58:37+00:00",
+      "last_seen_at": "2026-09-09T06:07:16+00:00",
       "owner": "Jean-Luc Mélenchon",
       "published_at": "Fri, 28 Aug 2026 16:11:25 +0000"
     },
     "https://lafranceinsoumise.fr/2026/08/31/cp-rima-hassan-rapporteurs-onu/": {
       "first_seen_at": "2026-08-31T23:17:21+00:00",
-      "last_seen_at": "2026-09-08T21:58:37+00:00",
+      "last_seen_at": "2026-09-09T06:07:16+00:00",
       "owner": "Jean-Luc Mélenchon",
       "published_at": "Mon, 31 Aug 2026 17:52:37 +0000"
     },
     "https://lafranceinsoumise.fr/2026/09/08/communique-de-presse-ukraine-critiquer-la-guerre-ne-peut-pas-valoir-quinze-ans-de-prison/": {
       "first_seen_at": "2026-09-08T17:19:34+00:00",
-      "last_seen_at": "2026-09-08T21:58:37+00:00",
+      "last_seen_at": "2026-09-09T06:07:16+00:00",
       "owner": "Jean-Luc Mélenchon",
       "published_at": "Tue, 08 Sep 2026 14:36:33 +0000"
     },
     "https://lafranceinsoumise.fr/2026/09/08/plan-durgence-2026-reconstruire-la-securite-civile/": {
       "first_seen_at": "2026-09-08T12:14:02+00:00",
-      "last_seen_at": "2026-09-08T21:58:37+00:00",
+      "last_seen_at": "2026-09-09T06:07:16+00:00",
       "owner": "Jean-Luc Mélenchon",
       "published_at": "Tue, 08 Sep 2026 07:53:06 +0000"
     },
@@ -3910,44 +3910,44 @@
     },
     "https://ruches.org/bibliotheque/desindustrialisation-francaise-l-emploi-industriel-de-1974-a-2020": {
       "first_seen_at": "2026-08-13T13:00:42+00:00",
-      "last_seen_at": "2026-09-08T21:57:12+00:00",
-      "lastmod": "2026-09-08T21:34:39.228Z",
+      "last_seen_at": "2026-09-09T06:06:11+00:00",
+      "lastmod": "2026-09-09T05:51:44.794Z",
       "owner": "Juan Branco"
     },
     "https://ruches.org/bibliotheque/guide-d-autodefense-numerique-sixieme-edition": {
       "first_seen_at": "2026-08-14T15:43:16+00:00",
-      "last_seen_at": "2026-09-08T21:57:12+00:00",
-      "lastmod": "2026-09-08T21:34:39.228Z",
+      "last_seen_at": "2026-09-09T06:06:11+00:00",
+      "lastmod": "2026-09-09T05:51:44.794Z",
       "owner": "Juan Branco"
     },
     "https://ruches.org/bibliotheque/histoire-de-la-projection-numerique-le-prototype-texas-instruments-mark-v": {
       "first_seen_at": "2026-08-14T15:43:16+00:00",
-      "last_seen_at": "2026-09-08T21:57:12+00:00",
-      "lastmod": "2026-09-08T21:34:39.228Z",
+      "last_seen_at": "2026-09-09T06:06:11+00:00",
+      "lastmod": "2026-09-09T05:51:44.794Z",
       "owner": "Juan Branco"
     },
     "https://ruches.org/bibliotheque/la-cour-penale-internationale-conference-de-juan-branco-a-new-delhi": {
       "first_seen_at": "2026-08-14T15:43:16+00:00",
-      "last_seen_at": "2026-09-08T21:57:12+00:00",
-      "lastmod": "2026-09-08T21:34:39.228Z",
+      "last_seen_at": "2026-09-09T06:06:11+00:00",
+      "lastmod": "2026-09-09T05:51:44.794Z",
       "owner": "Juan Branco"
     },
     "https://ruches.org/bibliotheque/la-republique-ne-vous-appartient-pas-discours-a-polytechnique": {
       "first_seen_at": "2026-08-13T13:00:42+00:00",
-      "last_seen_at": "2026-09-08T21:57:12+00:00",
-      "lastmod": "2026-09-08T21:34:39.228Z",
+      "last_seen_at": "2026-09-09T06:06:11+00:00",
+      "lastmod": "2026-09-09T05:51:44.794Z",
       "owner": "Juan Branco"
     },
     "https://ruches.org/bibliotheque/resistances-symposium-international-leffest-2019": {
       "first_seen_at": "2026-08-14T15:43:16+00:00",
-      "last_seen_at": "2026-09-08T21:57:12+00:00",
-      "lastmod": "2026-09-08T21:34:39.228Z",
+      "last_seen_at": "2026-09-09T06:06:11+00:00",
+      "lastmod": "2026-09-09T05:51:44.794Z",
       "owner": "Juan Branco"
     },
     "https://ruches.org/le-projet": {
       "first_seen_at": "2026-08-13T13:00:42+00:00",
-      "last_seen_at": "2026-09-08T21:57:12+00:00",
-      "lastmod": "2026-09-08T21:34:39.228Z",
+      "last_seen_at": "2026-09-09T06:06:11+00:00",
+      "lastmod": "2026-09-09T05:51:44.794Z",
       "owner": "Juan Branco"
     },
     "https://solutiondemocratique.fr/a-quelle-condition-nous-sommes-pret-a-retirer-notre-candidature-a-la-presidentielle/": {
@@ -6099,7 +6099,7 @@
     },
     "https://www.pcf.fr/le_non_islandais_victoire_peuples_europeens": {
       "first_seen_at": "2026-09-01T12:39:44+00:00",
-      "last_seen_at": "2026-09-08T21:58:35+00:00",
+      "last_seen_at": "2026-09-09T06:07:15+00:00",
       "lastmod": "2026-09-01T07:38:06Z",
       "owner": "Parti communiste français",
       "published_at": "Mon, 31 Aug 2026 16:35:00 +0200"
@@ -6226,14 +6226,14 @@
     },
     "https://www.pcf.fr/presidentielle2027_fabien_roussel_designe_candidat": {
       "first_seen_at": "2026-09-06T21:28:57+00:00",
-      "last_seen_at": "2026-09-08T21:58:35+00:00",
+      "last_seen_at": "2026-09-09T06:07:15+00:00",
       "lastmod": "2026-09-06T18:39:35Z",
       "owner": "Parti communiste français",
       "published_at": "Sun, 06 Sep 2026 20:34:00 +0200"
     },
     "https://www.pcf.fr/presidentielle_2027_mjcf_s_engage_pour_candidature_communiste": {
       "first_seen_at": "2026-09-02T17:14:47+00:00",
-      "last_seen_at": "2026-09-08T21:58:35+00:00",
+      "last_seen_at": "2026-09-09T06:07:15+00:00",
       "lastmod": "2026-09-02T12:15:48Z",
       "owner": "Parti communiste français",
       "published_at": "Wed, 02 Sep 2026 14:15:00 +0200"
@@ -6344,7 +6344,7 @@
     },
     "https://www.pcf.fr/securite_numerique_sursaut": {
       "first_seen_at": "2026-09-07T13:37:23+00:00",
-      "last_seen_at": "2026-09-08T21:58:35+00:00",
+      "last_seen_at": "2026-09-09T06:07:15+00:00",
       "lastmod": "2026-09-07T08:02:53Z",
       "owner": "Parti communiste français",
       "published_at": "Wed, 02 Sep 2026 19:02:00 +0200"
@@ -6398,7 +6398,7 @@
     },
     "https://www.pcf.fr/une_candidature_de_gauche_au_service_de_l_aube_et_de_ses_communes": {
       "first_seen_at": "2026-09-02T12:12:16+00:00",
-      "last_seen_at": "2026-09-08T21:58:35+00:00",
+      "last_seen_at": "2026-09-09T06:07:15+00:00",
       "lastmod": "2026-09-02T12:11:25Z",
       "owner": "Parti communiste français",
       "published_at": "Wed, 02 Sep 2026 14:10:00 +0200"
@@ -6815,8 +6815,8 @@
     },
     "https://www.unenouvelleenergie.fr/questions/candidat/": {
       "first_seen_at": "2026-08-22T02:33:33+00:00",
-      "last_seen_at": "2026-09-08T21:58:06+00:00",
-      "lastmod": "2026-09-08T21:02:58.819Z",
+      "last_seen_at": "2026-09-09T06:06:53+00:00",
+      "lastmod": "2026-09-09T05:58:23.606Z",
       "owner": "Nouvelle Énergie"
     },
     "https://www.unenouvelleenergie.fr/questions/david-lisnard-est-il-candidat-a-la-presidentielle-2027/": {
@@ -6833,20 +6833,20 @@
     },
     "https://www.unenouvelleenergie.fr/questions/ecologie/": {
       "first_seen_at": "2026-08-22T02:33:33+00:00",
-      "last_seen_at": "2026-09-08T21:58:06+00:00",
-      "lastmod": "2026-09-08T21:02:58.819Z",
+      "last_seen_at": "2026-09-09T06:06:53+00:00",
+      "lastmod": "2026-09-09T05:58:23.606Z",
       "owner": "Nouvelle Énergie"
     },
     "https://www.unenouvelleenergie.fr/questions/education/": {
       "first_seen_at": "2026-08-22T02:33:33+00:00",
-      "last_seen_at": "2026-09-08T21:58:06+00:00",
-      "lastmod": "2026-09-08T21:02:58.819Z",
+      "last_seen_at": "2026-09-09T06:06:53+00:00",
+      "lastmod": "2026-09-09T05:58:23.606Z",
       "owner": "Nouvelle Énergie"
     },
     "https://www.unenouvelleenergie.fr/questions/immigration/": {
       "first_seen_at": "2026-08-22T02:33:33+00:00",
-      "last_seen_at": "2026-09-08T21:58:06+00:00",
-      "lastmod": "2026-09-08T21:02:58.819Z",
+      "last_seen_at": "2026-09-09T06:06:53+00:00",
+      "lastmod": "2026-09-09T05:58:23.606Z",
       "owner": "Nouvelle Énergie"
     },
     "https://www.unenouvelleenergie.fr/questions/ou-trouver-le-programme-de-david-lisnard/": {
@@ -7009,20 +7009,20 @@
     },
     "https://www.unenouvelleenergie.fr/questions/retraites/": {
       "first_seen_at": "2026-08-22T02:33:33+00:00",
-      "last_seen_at": "2026-09-08T21:58:06+00:00",
-      "lastmod": "2026-09-08T21:02:58.819Z",
+      "last_seen_at": "2026-09-09T06:06:53+00:00",
+      "lastmod": "2026-09-09T05:58:23.606Z",
       "owner": "Nouvelle Énergie"
     },
     "https://www.unenouvelleenergie.fr/questions/sante/": {
       "first_seen_at": "2026-08-22T02:33:33+00:00",
-      "last_seen_at": "2026-09-08T21:58:06+00:00",
-      "lastmod": "2026-09-08T21:02:58.819Z",
+      "last_seen_at": "2026-09-09T06:06:53+00:00",
+      "lastmod": "2026-09-09T05:58:23.606Z",
       "owner": "Nouvelle Énergie"
     },
     "https://www.unenouvelleenergie.fr/questions/securite/": {
       "first_seen_at": "2026-08-22T02:33:33+00:00",
-      "last_seen_at": "2026-09-08T21:58:06+00:00",
-      "lastmod": "2026-09-08T21:02:58.819Z",
+      "last_seen_at": "2026-09-09T06:06:53+00:00",
+      "lastmod": "2026-09-09T05:58:23.606Z",
       "owner": "Nouvelle Énergie"
     },
     "https://www.unenouvelleenergie.fr/reaction-de-david-lisnard-a-sa-reelection-au-1er-tour-78-des-elections-departementales/": {
@@ -7329,7 +7329,7 @@
       "entity_type": "candidate",
       "identifier": "marinetondelier.fr",
       "identifier_type": "actor",
-      "last_confirmed_at": "2026-09-08T22:01:08+00:00",
+      "last_confirmed_at": "2026-09-09T06:09:20+00:00",
       "platform": "bluesky",
       "profile_url": "https://bsky.app/profile/marinetondelier.fr",
       "provenance": "linked_from_official_website",
@@ -7343,7 +7343,7 @@
       "entity_type": "party",
       "identifier": "generationecologie.bsky.social",
       "identifier_type": "actor",
-      "last_confirmed_at": "2026-09-08T22:01:12+00:00",
+      "last_confirmed_at": "2026-09-09T06:09:23+00:00",
       "platform": "bluesky",
       "profile_url": "https://bsky.app/profile/generationecologie.bsky.social",
       "provenance": "linked_from_official_website",
@@ -7357,7 +7357,7 @@
       "entity_type": "party",
       "identifier": "lesecologistes.fr",
       "identifier_type": "actor",
-      "last_confirmed_at": "2026-09-08T22:01:17+00:00",
+      "last_confirmed_at": "2026-09-09T06:09:29+00:00",
       "platform": "bluesky",
       "profile_url": "https://bsky.app/profile/lesecologistes.fr",
       "provenance": "linked_from_official_website",
@@ -7371,7 +7371,7 @@
       "entity_type": "party",
       "identifier": "did:plc:vgokjilonzbartfu2wce3qei",
       "identifier_type": "actor",
-      "last_confirmed_at": "2026-09-08T22:01:22+00:00",
+      "last_confirmed_at": "2026-09-09T06:09:32+00:00",
       "platform": "bluesky",
       "profile_url": "https://bsky.app/profile/did:plc:vgokjilonzbartfu2wce3qei",
       "provenance": "linked_from_official_website",
@@ -7385,7 +7385,7 @@
       "entity_type": "candidate",
       "identifier": "anatolium",
       "identifier_type": "handle",
-      "last_confirmed_at": "2026-09-08T22:01:07+00:00",
+      "last_confirmed_at": "2026-09-09T06:09:20+00:00",
       "platform": "x",
       "profile_url": "https://x.com/anatolium",
       "provenance": "linked_from_official_website",
@@ -7399,7 +7399,7 @@
       "entity_type": "candidate",
       "identifier": "marinetondelier",
       "identifier_type": "handle",
-      "last_confirmed_at": "2026-09-08T22:01:08+00:00",
+      "last_confirmed_at": "2026-09-09T06:09:20+00:00",
       "platform": "x",
       "profile_url": "https://x.com/marinetondelier",
       "provenance": "linked_from_official_website",
@@ -7453,11 +7453,11 @@
       "entity_id": "debout-la-france",
       "entity_name": "Debout la France",
       "entity_type": "party",
-      "identifier": "BFMTV",
+      "identifier": "bfmtv",
       "identifier_type": "handle",
-      "last_confirmed_at": "2026-09-08T22:01:10+00:00",
+      "last_confirmed_at": "2026-09-09T06:09:22+00:00",
       "platform": "x",
-      "profile_url": "https://x.com/BFMTV",
+      "profile_url": "https://x.com/bfmtv",
       "provenance": "linked_from_official_website",
       "source_site": "https://www.debout-la-france.fr/",
       "source_tier": "tier_1_primary_official"
@@ -7539,7 +7539,7 @@
       "entity_type": "party",
       "identifier": "dupontaignan",
       "identifier_type": "handle",
-      "last_confirmed_at": "2026-09-08T22:01:10+00:00",
+      "last_confirmed_at": "2026-09-09T06:09:22+00:00",
       "platform": "x",
       "profile_url": "https://x.com/dupontaignan",
       "provenance": "linked_from_official_website",
@@ -7553,7 +7553,7 @@
       "entity_type": "party",
       "identifier": "Europe1",
       "identifier_type": "handle",
-      "last_confirmed_at": "2026-09-06T21:32:39+00:00",
+      "last_confirmed_at": "2026-09-09T06:09:22+00:00",
       "platform": "x",
       "profile_url": "https://x.com/Europe1",
       "provenance": "linked_from_official_website",
@@ -7721,7 +7721,7 @@
       "entity_type": "party",
       "identifier": "Valeurs",
       "identifier_type": "handle",
-      "last_confirmed_at": "2026-09-03T21:52:31+00:00",
+      "last_confirmed_at": "2026-09-09T06:09:22+00:00",
       "platform": "x",
       "profile_url": "https://x.com/Valeurs",
       "provenance": "linked_from_official_website",
@@ -7777,7 +7777,7 @@
       "entity_type": "party",
       "identifier": "horizonsleparti",
       "identifier_type": "handle",
-      "last_confirmed_at": "2026-09-08T22:01:14+00:00",
+      "last_confirmed_at": "2026-09-09T06:09:24+00:00",
       "platform": "x",
       "profile_url": "https://x.com/horizonsleparti",
       "provenance": "linked_from_official_website",
@@ -7791,7 +7791,7 @@
       "entity_type": "party",
       "identifier": "FranceInsoumise",
       "identifier_type": "handle",
-      "last_confirmed_at": "2026-09-08T22:01:14+00:00",
+      "last_confirmed_at": "2026-09-09T06:09:25+00:00",
       "platform": "x",
       "profile_url": "https://x.com/FranceInsoumise",
       "provenance": "linked_from_official_website",
@@ -7805,7 +7805,7 @@
       "entity_type": "party",
       "identifier": "eelv",
       "identifier_type": "handle",
-      "last_confirmed_at": "2026-09-08T22:01:17+00:00",
+      "last_confirmed_at": "2026-09-09T06:09:29+00:00",
       "platform": "x",
       "profile_url": "https://x.com/eelv",
       "provenance": "linked_from_official_website",
@@ -7819,7 +7819,7 @@
       "entity_type": "party",
       "identifier": "f_philippot",
       "identifier_type": "handle",
-      "last_confirmed_at": "2026-09-08T22:01:14+00:00",
+      "last_confirmed_at": "2026-09-09T06:09:27+00:00",
       "platform": "x",
       "profile_url": "https://x.com/f_philippot",
       "provenance": "linked_from_official_website",
@@ -7833,7 +7833,7 @@
       "entity_type": "party",
       "identifier": "agnesevren",
       "identifier_type": "handle",
-      "last_confirmed_at": "2026-09-08T22:01:17+00:00",
+      "last_confirmed_at": "2026-09-09T06:09:28+00:00",
       "platform": "x",
       "profile_url": "https://x.com/agnesevren",
       "provenance": "linked_from_official_website",
@@ -7847,7 +7847,7 @@
       "entity_type": "party",
       "identifier": "brunoretailleau",
       "identifier_type": "handle",
-      "last_confirmed_at": "2026-09-08T22:01:17+00:00",
+      "last_confirmed_at": "2026-09-09T06:09:28+00:00",
       "platform": "x",
       "profile_url": "https://x.com/brunoretailleau",
       "provenance": "linked_from_official_website",
@@ -7861,7 +7861,7 @@
       "entity_type": "party",
       "identifier": "lesrep_senat",
       "identifier_type": "handle",
-      "last_confirmed_at": "2026-09-08T22:01:17+00:00",
+      "last_confirmed_at": "2026-09-09T06:09:28+00:00",
       "platform": "x",
       "profile_url": "https://x.com/lesrep_senat",
       "provenance": "linked_from_official_website",
@@ -7875,7 +7875,7 @@
       "entity_type": "party",
       "identifier": "lesrepublicains",
       "identifier_type": "handle",
-      "last_confirmed_at": "2026-09-08T22:01:17+00:00",
+      "last_confirmed_at": "2026-09-09T06:09:28+00:00",
       "platform": "x",
       "profile_url": "https://x.com/lesrepublicains",
       "provenance": "linked_from_official_website",
@@ -7889,7 +7889,7 @@
       "entity_type": "party",
       "identifier": "LutteOuvriere",
       "identifier_type": "handle",
-      "last_confirmed_at": "2026-09-08T22:01:18+00:00",
+      "last_confirmed_at": "2026-09-09T06:09:29+00:00",
       "platform": "x",
       "profile_url": "https://x.com/LutteOuvriere",
       "provenance": "linked_from_official_website",
@@ -7903,7 +7903,7 @@
       "entity_type": "party",
       "identifier": "nouv_energie",
       "identifier_type": "handle",
-      "last_confirmed_at": "2026-09-08T22:01:19+00:00",
+      "last_confirmed_at": "2026-09-09T06:09:30+00:00",
       "platform": "x",
       "profile_url": "https://x.com/nouv_energie",
       "provenance": "linked_from_official_website",
@@ -7917,7 +7917,7 @@
       "entity_type": "party",
       "identifier": "partisocialiste",
       "identifier_type": "handle",
-      "last_confirmed_at": "2026-09-08T22:01:21+00:00",
+      "last_confirmed_at": "2026-09-09T06:09:31+00:00",
       "platform": "x",
       "profile_url": "https://x.com/partisocialiste",
       "provenance": "linked_from_official_website",
@@ -7931,7 +7931,7 @@
       "entity_type": "party",
       "identifier": "placepublique_",
       "identifier_type": "handle",
-      "last_confirmed_at": "2026-09-08T22:01:22+00:00",
+      "last_confirmed_at": "2026-09-09T06:09:32+00:00",
       "platform": "x",
       "profile_url": "https://x.com/placepublique_",
       "provenance": "linked_from_official_website",
@@ -7945,7 +7945,7 @@
       "entity_type": "party",
       "identifier": "RNational_off",
       "identifier_type": "handle",
-      "last_confirmed_at": "2026-09-08T22:01:23+00:00",
+      "last_confirmed_at": "2026-09-09T06:09:32+00:00",
       "platform": "x",
       "profile_url": "https://x.com/RNational_off",
       "provenance": "linked_from_official_website",
@@ -7959,7 +7959,7 @@
       "entity_type": "party",
       "identifier": "Reconquete_off",
       "identifier_type": "handle",
-      "last_confirmed_at": "2026-09-08T22:01:24+00:00",
+      "last_confirmed_at": "2026-09-09T06:09:33+00:00",
       "platform": "x",
       "profile_url": "https://x.com/Reconquete_off",
       "provenance": "linked_from_official_website",
@@ -7973,7 +7973,7 @@
       "entity_type": "party",
       "identifier": "renaissance",
       "identifier_type": "handle",
-      "last_confirmed_at": "2026-09-08T22:01:24+00:00",
+      "last_confirmed_at": "2026-09-09T06:09:33+00:00",
       "platform": "x",
       "profile_url": "https://x.com/renaissance",
       "provenance": "linked_from_official_website",
@@ -7987,7 +7987,7 @@
       "entity_type": "party",
       "identifier": "RevPermanente",
       "identifier_type": "handle",
-      "last_confirmed_at": "2026-09-08T22:01:25+00:00",
+      "last_confirmed_at": "2026-09-09T06:09:33+00:00",
       "platform": "x",
       "profile_url": "https://x.com/RevPermanente",
       "provenance": "linked_from_official_website",
@@ -8001,7 +8001,7 @@
       "entity_type": "party",
       "identifier": "f_asselineau",
       "identifier_type": "handle",
-      "last_confirmed_at": "2026-09-08T22:01:26+00:00",
+      "last_confirmed_at": "2026-09-09T06:09:34+00:00",
       "platform": "x",
       "profile_url": "https://x.com/f_asselineau",
       "provenance": "linked_from_official_website",
@@ -8009,61 +8009,46 @@
       "source_tier": "tier_1_primary_official"
     },
     "youtube:candidate:juan-branco:@juanbrancofr": {
-      "channel_id": "UCMOrzCo7Jdp6qqEX24CXuog",
-      "channel_title": "Juan Branco",
       "discovered_at": "2026-08-13T13:05:05+00:00",
-      "display_name": "Juan Branco",
       "entity_id": "juan-branco",
       "entity_name": "Juan Branco",
       "entity_type": "candidate",
-      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCMOrzCo7Jdp6qqEX24CXuog",
       "identifier": "@JuanBrancoFR",
       "identifier_type": "handle",
-      "last_confirmed_at": "2026-09-08T22:01:27+00:00",
+      "last_confirmed_at": "2026-09-09T06:09:20+00:00",
       "platform": "youtube",
       "profile_url": "https://www.youtube.com/@JuanBrancoFR",
       "provenance": "linked_from_official_website",
       "source_site": "https://ruches.org/",
-      "source_tier": "tier_1_primary_official",
-      "youtube_transport": "public_atom_feed"
+      "source_tier": "tier_1_primary_official"
     },
     "youtube:party:debout-la-france:ndatv": {
-      "channel_id": "UCfA5DnCDX3Ixy5QOAMGtBlA",
-      "channel_title": "Nicolas Dupont-Aignan",
       "discovered_at": "2026-08-11T07:14:58+00:00",
-      "display_name": "Nicolas Dupont-Aignan",
       "entity_id": "debout-la-france",
       "entity_name": "Debout la France",
       "entity_type": "party",
-      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCfA5DnCDX3Ixy5QOAMGtBlA",
       "identifier": "ndatv",
       "identifier_type": "username",
-      "last_confirmed_at": "2026-09-08T22:01:28+00:00",
+      "last_confirmed_at": "2026-09-09T06:09:22+00:00",
       "platform": "youtube",
       "profile_url": "https://www.youtube.com/user/ndatv",
       "provenance": "linked_from_official_website",
       "source_site": "https://www.debout-la-france.fr/",
-      "source_tier": "tier_1_primary_official",
-      "youtube_transport": "public_atom_feed"
+      "source_tier": "tier_1_primary_official"
     },
     "youtube:party:equinoxe:uc5kuxcr5oqs3uarodboaqsa": {
-      "channel_id": "UC5kUxcR5oqS3UArodBOaqsA",
-      "channel_title": "Parti Équinoxe",
       "discovered_at": "2026-08-11T07:15:11+00:00",
-      "display_name": "Parti Équinoxe",
       "entity_id": "equinoxe",
       "entity_name": "Équinoxe",
       "entity_type": "party",
-      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC5kUxcR5oqS3UArodBOaqsA",
       "identifier": "UC5kUxcR5oqS3UArodBOaqsA",
       "identifier_type": "channel_id",
-      "last_confirmed_at": "2026-09-08T22:01:34+00:00",
+      "last_confirmed_at": "2026-09-09T06:09:34+00:00",
       "platform": "youtube",
       "profile_url": "https://www.youtube.com/channel/UC5kUxcR5oqS3UArodBOaqsA",
       "provenance": "linked_from_official_website",
       "source_site": "https://parti-equinoxe.fr/",
-      "source_tier": "tier_1_primary_official",
-      "youtube_transport": "public_atom_feed"
+      "source_tier": "tier_1_primary_official"
     },
     "youtube:party:horizons:@horizonsleparti": {
       "discovered_at": "2026-08-11T07:15:01+00:00",
@@ -8072,7 +8057,7 @@
       "entity_type": "party",
       "identifier": "@Horizonsleparti",
       "identifier_type": "handle",
-      "last_confirmed_at": "2026-09-08T22:01:14+00:00",
+      "last_confirmed_at": "2026-09-09T06:09:24+00:00",
       "platform": "youtube",
       "profile_url": "https://www.youtube.com/@Horizonsleparti",
       "provenance": "linked_from_official_website",
@@ -8080,194 +8065,144 @@
       "source_tier": "tier_1_primary_official"
     },
     "youtube:party:la-france-insoumise:uckhksd-yany2zwwu_4tgf0w": {
-      "channel_id": "UCKHKSD-yanY2ZwwU_4Tgf0w",
-      "channel_title": "La France insoumise",
       "discovered_at": "2026-08-11T07:15:01+00:00",
-      "display_name": "La France insoumise",
       "entity_id": "la-france-insoumise",
       "entity_name": "La France insoumise",
       "entity_type": "party",
-      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCKHKSD-yanY2ZwwU_4Tgf0w",
       "identifier": "UCKHKSD-yanY2ZwwU_4Tgf0w",
       "identifier_type": "channel_id",
-      "last_confirmed_at": "2026-09-08T22:01:28+00:00",
+      "last_confirmed_at": "2026-09-09T06:09:25+00:00",
       "platform": "youtube",
       "profile_url": "https://www.youtube.com/channel/UCKHKSD-yanY2ZwwU_4Tgf0w",
       "provenance": "linked_from_official_website",
       "source_site": "https://lafranceinsoumise.fr/",
-      "source_tier": "tier_1_primary_official",
-      "youtube_transport": "public_atom_feed"
+      "source_tier": "tier_1_primary_official"
     },
     "youtube:party:les-ecologistes:@lesecologistesfr": {
-      "channel_id": "UCB8Q3N-nvX1YlMUL7Zl_16w",
-      "channel_title": "Les Écologistes",
       "discovered_at": "2026-08-11T07:15:03+00:00",
-      "display_name": "Les Écologistes",
       "entity_id": "les-ecologistes",
       "entity_name": "Les Écologistes",
       "entity_type": "party",
-      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCB8Q3N-nvX1YlMUL7Zl_16w",
       "identifier": "@LesEcologistesFR",
       "identifier_type": "handle",
-      "last_confirmed_at": "2026-09-08T22:01:30+00:00",
+      "last_confirmed_at": "2026-09-09T06:09:29+00:00",
       "platform": "youtube",
       "profile_url": "https://www.youtube.com/@LesEcologistesFR",
       "provenance": "linked_from_official_website",
       "source_site": "https://lesecologistes.fr/",
-      "source_tier": "tier_1_primary_official",
-      "youtube_transport": "public_atom_feed"
+      "source_tier": "tier_1_primary_official"
     },
     "youtube:party:les-patriotes:ucjb9thdxxl4wmeb8arpna9g": {
-      "channel_id": "UCjb9thdXXl4wmeb8ArPna9g",
-      "channel_title": "Les Patriotes",
       "discovered_at": "2026-08-11T07:15:03+00:00",
-      "display_name": "Les Patriotes",
       "entity_id": "les-patriotes",
       "entity_name": "Les Patriotes",
       "entity_type": "party",
-      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCjb9thdXXl4wmeb8ArPna9g",
       "identifier": "UCjb9thdXXl4wmeb8ArPna9g",
       "identifier_type": "channel_id",
-      "last_confirmed_at": "2026-09-08T22:01:29+00:00",
+      "last_confirmed_at": "2026-09-09T06:09:27+00:00",
       "platform": "youtube",
       "profile_url": "https://www.youtube.com/channel/UCjb9thdXXl4wmeb8ArPna9g",
       "provenance": "linked_from_official_website",
       "source_site": "https://les-patriotes.fr/",
-      "source_tier": "tier_1_primary_official",
-      "youtube_transport": "public_atom_feed"
+      "source_tier": "tier_1_primary_official"
     },
     "youtube:party:les-patriotes:uclaa_cwoqemso9mb_m1f91g": {
-      "channel_id": "UClaa_CwoQEmSo9Mb_M1f91g",
-      "channel_title": "FLORIAN PHILIPPOT",
       "discovered_at": "2026-08-11T07:15:03+00:00",
-      "display_name": "FLORIAN PHILIPPOT",
       "entity_id": "les-patriotes",
       "entity_name": "Les Patriotes",
       "entity_type": "party",
-      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UClaa_CwoQEmSo9Mb_M1f91g",
       "identifier": "UClaa_CwoQEmSo9Mb_M1f91g",
       "identifier_type": "channel_id",
-      "last_confirmed_at": "2026-09-08T22:01:29+00:00",
+      "last_confirmed_at": "2026-09-09T06:09:27+00:00",
       "platform": "youtube",
       "profile_url": "https://www.youtube.com/channel/UClaa_CwoQEmSo9Mb_M1f91g",
       "provenance": "linked_from_official_website",
       "source_site": "https://les-patriotes.fr/",
-      "source_tier": "tier_1_primary_official",
-      "youtube_transport": "public_atom_feed"
+      "source_tier": "tier_1_primary_official"
     },
     "youtube:party:les-republicains:uc3ma4trfxx85ozi_xkvtpwg": {
-      "channel_id": "UC3Ma4tRFxx85oZI_XKVTPwg",
-      "channel_title": "les Républicains",
       "discovered_at": "2026-08-11T14:42:26+00:00",
-      "display_name": "les Républicains",
       "entity_id": "les-republicains",
       "entity_name": "Les Républicains",
       "entity_type": "party",
-      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC3Ma4tRFxx85oZI_XKVTPwg",
       "identifier": "UC3Ma4tRFxx85oZI_XKVTPwg",
       "identifier_type": "channel_id",
-      "last_confirmed_at": "2026-09-08T22:01:29+00:00",
+      "last_confirmed_at": "2026-09-09T06:09:28+00:00",
       "platform": "youtube",
       "profile_url": "https://www.youtube.com/channel/UC3Ma4tRFxx85oZI_XKVTPwg",
       "provenance": "linked_from_official_website",
       "source_site": "https://republicains.fr/",
-      "source_tier": "tier_1_primary_official",
-      "youtube_transport": "public_atom_feed"
+      "source_tier": "tier_1_primary_official"
     },
     "youtube:party:nouvelle-energie:@david_lisnard": {
-      "channel_id": "UC2XZY-bjIEmyLZ9MPJQytZg",
-      "channel_title": "David Lisnard",
       "discovered_at": "2026-08-11T07:15:04+00:00",
-      "display_name": "David Lisnard",
       "entity_id": "nouvelle-energie",
       "entity_name": "Nouvelle Énergie",
       "entity_type": "party",
-      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC2XZY-bjIEmyLZ9MPJQytZg",
       "identifier": "@david_lisnard",
       "identifier_type": "handle",
-      "last_confirmed_at": "2026-09-08T22:01:30+00:00",
+      "last_confirmed_at": "2026-09-09T06:09:30+00:00",
       "platform": "youtube",
       "profile_url": "https://www.youtube.com/@david_lisnard",
       "provenance": "linked_from_official_website",
       "source_site": "https://www.unenouvelleenergie.fr/",
-      "source_tier": "tier_1_primary_official",
-      "youtube_transport": "public_atom_feed"
+      "source_tier": "tier_1_primary_official"
     },
     "youtube:party:parti-socialiste:partisocialiste": {
-      "channel_id": "UCREhQcvc7n7zLWPzK--CopA",
-      "channel_title": "Députés Socialistes et apparentés",
       "discovered_at": "2026-08-11T07:15:06+00:00",
-      "display_name": "Députés Socialistes et apparentés",
       "entity_id": "parti-socialiste",
       "entity_name": "Parti socialiste",
       "entity_type": "party",
-      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCREhQcvc7n7zLWPzK--CopA",
       "identifier": "partisocialiste",
       "identifier_type": "username",
-      "last_confirmed_at": "2026-09-08T22:01:31+00:00",
+      "last_confirmed_at": "2026-09-09T06:09:31+00:00",
       "platform": "youtube",
       "profile_url": "https://www.youtube.com/user/partisocialiste",
       "provenance": "linked_from_official_website",
       "source_site": "https://parti-socialiste.fr/",
-      "source_tier": "tier_1_primary_official",
-      "youtube_transport": "public_atom_feed"
+      "source_tier": "tier_1_primary_official"
     },
     "youtube:party:place-publique:@mouvementplacepublique": {
-      "channel_id": "UCmsItLlgl5NK0OQfvTkqsig",
-      "channel_title": "Aurore Lalucq",
       "discovered_at": "2026-08-11T07:15:07+00:00",
-      "display_name": "Aurore Lalucq",
       "entity_id": "place-publique",
       "entity_name": "Place publique",
       "entity_type": "party",
-      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCmsItLlgl5NK0OQfvTkqsig",
       "identifier": "@mouvementplacepublique",
       "identifier_type": "handle",
-      "last_confirmed_at": "2026-09-08T22:01:31+00:00",
+      "last_confirmed_at": "2026-09-09T06:09:32+00:00",
       "platform": "youtube",
       "profile_url": "https://www.youtube.com/@mouvementplacepublique",
       "provenance": "linked_from_official_website",
       "source_site": "https://place-publique.eu/",
-      "source_tier": "tier_1_primary_official",
-      "youtube_transport": "public_atom_feed"
+      "source_tier": "tier_1_primary_official"
     },
     "youtube:party:rassemblement-national:fnofficiel": {
-      "channel_id": "UCeWMp4Frgyv275gSnWNYoZQ",
-      "channel_title": "Rassemblement National",
       "discovered_at": "2026-08-11T07:15:07+00:00",
-      "display_name": "Rassemblement National",
       "entity_id": "rassemblement-national",
       "entity_name": "Rassemblement national",
       "entity_type": "party",
-      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCeWMp4Frgyv275gSnWNYoZQ",
       "identifier": "fnofficiel",
       "identifier_type": "username",
-      "last_confirmed_at": "2026-09-08T22:01:32+00:00",
+      "last_confirmed_at": "2026-09-09T06:09:32+00:00",
       "platform": "youtube",
       "profile_url": "https://www.youtube.com/user/fnofficiel",
       "provenance": "linked_from_official_website",
       "source_site": "https://rassemblementnational.fr/",
-      "source_tier": "tier_1_primary_official",
-      "youtube_transport": "public_atom_feed"
+      "source_tier": "tier_1_primary_official"
     },
     "youtube:party:renaissance:@parti-renaissance": {
-      "channel_id": "UCOcDPuYTuxoRBtfmTBXtqBA",
-      "channel_title": "Gabriel Attal",
       "discovered_at": "2026-08-11T07:15:08+00:00",
-      "display_name": "Gabriel Attal",
       "entity_id": "renaissance",
       "entity_name": "Renaissance",
       "entity_type": "party",
-      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCOcDPuYTuxoRBtfmTBXtqBA",
       "identifier": "@parti-renaissance",
       "identifier_type": "handle",
-      "last_confirmed_at": "2026-09-08T22:01:33+00:00",
+      "last_confirmed_at": "2026-09-09T06:09:33+00:00",
       "platform": "youtube",
       "profile_url": "https://www.youtube.com/@parti-renaissance",
       "provenance": "linked_from_official_website",
       "source_site": "https://parti-renaissance.fr/",
-      "source_tier": "tier_1_primary_official",
-      "youtube_transport": "public_atom_feed"
+      "source_tier": "tier_1_primary_official"
     },
     "youtube:party:revolution-permanente:ucwllr_fo9dpdj9uhq4a7pja": {
       "channel_id": "UCwLLr_Fo9dpdJ9UHq4A7PjA",
@@ -8280,7 +8215,7 @@
       "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCwLLr_Fo9dpdJ9UHq4A7PjA",
       "identifier": "UCwLLr_Fo9dpdJ9UHq4A7PjA",
       "identifier_type": "channel_id",
-      "last_confirmed_at": "2026-09-08T22:01:33+00:00",
+      "last_confirmed_at": "2026-09-09T06:09:39+00:00",
       "platform": "youtube",
       "profile_url": "https://www.youtube.com/channel/UCwLLr_Fo9dpdJ9UHq4A7PjA",
       "provenance": "linked_from_official_website",
@@ -8289,23 +8224,18 @@
       "youtube_transport": "public_atom_feed"
     },
     "youtube:party:upr:@f_asselineau": {
-      "channel_id": "UCJEJTYYZkYjLnGCgRDqnIGA",
-      "channel_title": "François Asselineau",
       "discovered_at": "2026-08-11T07:15:09+00:00",
-      "display_name": "François Asselineau",
       "entity_id": "upr",
       "entity_name": "Union populaire républicaine",
       "entity_type": "party",
-      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCJEJTYYZkYjLnGCgRDqnIGA",
       "identifier": "@f_asselineau",
       "identifier_type": "handle",
-      "last_confirmed_at": "2026-09-08T22:01:33+00:00",
+      "last_confirmed_at": "2026-09-09T06:09:34+00:00",
       "platform": "youtube",
       "profile_url": "https://www.youtube.com/@f_asselineau",
       "provenance": "linked_from_official_website",
       "source_site": "https://upr.fr/",
-      "source_tier": "tier_1_primary_official",
-      "youtube_transport": "public_atom_feed"
+      "source_tier": "tier_1_primary_official"
     }
   },
   "social_seen_items": {
@@ -8558,207 +8488,213 @@
       },
       "at://did:plc:gixn227k63od3d4cyrwp67w5/app.bsky.feed.post/3mujpr3xyw223": {
         "first_seen_at": "2026-09-02T12:17:29+00:00",
-        "last_seen_at": "2026-09-08T22:01:27+00:00",
+        "last_seen_at": "2026-09-09T06:09:35+00:00",
         "published_at": "2026-09-02T10:23:45.200Z",
         "url": "https://bsky.app/profile/marinetondelier.fr/post/3mujpr3xyw223"
       },
       "at://did:plc:gixn227k63od3d4cyrwp67w5/app.bsky.feed.post/3mup4wicwvc2n": {
         "first_seen_at": "2026-09-04T17:02:13+00:00",
-        "last_seen_at": "2026-09-08T22:01:27+00:00",
+        "last_seen_at": "2026-09-09T06:09:35+00:00",
         "published_at": "2026-09-04T14:02:43.249Z",
         "url": "https://bsky.app/profile/marinetondelier.fr/post/3mup4wicwvc2n"
       },
       "at://did:plc:gixn227k63od3d4cyrwp67w5/app.bsky.feed.post/3mupbpc232s2j": {
         "first_seen_at": "2026-09-04T17:02:13+00:00",
-        "last_seen_at": "2026-09-08T22:01:27+00:00",
+        "last_seen_at": "2026-09-09T06:09:35+00:00",
         "published_at": "2026-09-04T15:28:10.495Z",
         "url": "https://bsky.app/profile/marinetondelier.fr/post/3mupbpc232s2j"
       },
       "at://did:plc:gixn227k63od3d4cyrwp67w5/app.bsky.feed.post/3muplkruznc2a": {
         "first_seen_at": "2026-09-04T21:42:11+00:00",
-        "last_seen_at": "2026-09-08T22:01:27+00:00",
+        "last_seen_at": "2026-09-09T06:09:35+00:00",
         "published_at": "2026-09-04T18:24:36.749Z",
         "url": "https://bsky.app/profile/marinetondelier.fr/post/3muplkruznc2a"
       },
       "at://did:plc:gixn227k63od3d4cyrwp67w5/app.bsky.feed.post/3mus26s7zc22j": {
         "first_seen_at": "2026-09-05T21:27:13+00:00",
-        "last_seen_at": "2026-09-08T22:01:27+00:00",
+        "last_seen_at": "2026-09-09T06:09:35+00:00",
         "published_at": "2026-09-05T17:51:40.065Z",
         "url": "https://bsky.app/profile/marinetondelier.fr/post/3mus26s7zc22j"
       },
       "at://did:plc:gixn227k63od3d4cyrwp67w5/app.bsky.feed.post/3muscitvyw222": {
         "first_seen_at": "2026-09-05T21:27:13+00:00",
-        "last_seen_at": "2026-09-08T22:01:27+00:00",
+        "last_seen_at": "2026-09-09T06:09:35+00:00",
         "published_at": "2026-09-05T20:20:27.311Z",
         "url": "https://bsky.app/profile/marinetondelier.fr/post/3muscitvyw222"
       },
       "at://did:plc:gixn227k63od3d4cyrwp67w5/app.bsky.feed.post/3muu6wakqz22t": {
         "first_seen_at": "2026-09-06T16:27:02+00:00",
-        "last_seen_at": "2026-09-08T22:01:27+00:00",
+        "last_seen_at": "2026-09-09T06:09:35+00:00",
         "published_at": "2026-09-06T14:21:41.292Z",
         "url": "https://bsky.app/profile/marinetondelier.fr/post/3muu6wakqz22t"
       },
       "at://did:plc:gixn227k63od3d4cyrwp67w5/app.bsky.feed.post/3muubfzwmes2y": {
         "first_seen_at": "2026-09-06T16:27:02+00:00",
-        "last_seen_at": "2026-09-08T22:01:27+00:00",
+        "last_seen_at": "2026-09-09T06:09:35+00:00",
         "published_at": "2026-09-06T15:06:18.695Z",
         "url": "https://bsky.app/profile/marinetondelier.fr/post/3muubfzwmes2y"
       },
       "at://did:plc:gixn227k63od3d4cyrwp67w5/app.bsky.feed.post/3muuentr35s2j": {
         "first_seen_at": "2026-09-06T16:27:02+00:00",
-        "last_seen_at": "2026-09-08T22:01:27+00:00",
+        "last_seen_at": "2026-09-09T06:09:35+00:00",
         "published_at": "2026-09-06T16:04:21.884Z",
         "url": "https://bsky.app/profile/marinetondelier.fr/post/3muuentr35s2j"
       },
       "at://did:plc:gixn227k63od3d4cyrwp67w5/app.bsky.feed.post/3muw4e6ptws2h": {
         "first_seen_at": "2026-09-07T13:41:46+00:00",
-        "last_seen_at": "2026-09-08T22:01:27+00:00",
+        "last_seen_at": "2026-09-09T06:09:35+00:00",
         "published_at": "2026-09-07T08:41:07.375Z",
         "url": "https://bsky.app/profile/marinetondelier.fr/post/3muw4e6ptws2h"
       },
       "at://did:plc:gixn227k63od3d4cyrwp67w5/app.bsky.feed.post/3muwqljaiv22n": {
         "first_seen_at": "2026-09-07T21:47:51+00:00",
-        "last_seen_at": "2026-09-08T22:01:27+00:00",
+        "last_seen_at": "2026-09-09T06:09:35+00:00",
         "published_at": "2026-09-07T14:43:08.121Z",
         "url": "https://bsky.app/profile/marinetondelier.fr/post/3muwqljaiv22n"
       },
       "at://did:plc:gixn227k63od3d4cyrwp67w5/app.bsky.feed.post/3muxep7i7jc2d": {
         "first_seen_at": "2026-09-07T21:47:51+00:00",
-        "last_seen_at": "2026-09-08T22:01:27+00:00",
+        "last_seen_at": "2026-09-09T06:09:35+00:00",
         "published_at": "2026-09-07T20:43:06.945Z",
         "url": "https://bsky.app/profile/marinetondelier.fr/post/3muxep7i7jc2d"
       },
       "at://did:plc:gixn227k63od3d4cyrwp67w5/app.bsky.feed.post/3muxghbzsns2e": {
         "first_seen_at": "2026-09-07T21:47:51+00:00",
-        "last_seen_at": "2026-09-08T22:01:27+00:00",
+        "last_seen_at": "2026-09-09T06:09:35+00:00",
         "published_at": "2026-09-07T21:14:28.668Z",
         "url": "https://bsky.app/profile/marinetondelier.fr/post/3muxghbzsns2e"
       },
       "at://did:plc:gixn227k63od3d4cyrwp67w5/app.bsky.feed.post/3muyqtlx55s2e": {
         "first_seen_at": "2026-09-08T12:17:03+00:00",
-        "last_seen_at": "2026-09-08T22:01:27+00:00",
+        "last_seen_at": "2026-09-09T06:09:35+00:00",
         "published_at": "2026-09-08T09:52:58.875Z",
         "url": "https://bsky.app/profile/marinetondelier.fr/post/3muyqtlx55s2e"
       },
       "at://did:plc:gixn227k63od3d4cyrwp67w5/app.bsky.feed.post/3muyyaibrvk2i": {
         "first_seen_at": "2026-09-08T12:17:03+00:00",
-        "last_seen_at": "2026-09-08T22:01:27+00:00",
+        "last_seen_at": "2026-09-09T06:09:35+00:00",
         "published_at": "2026-09-08T12:05:27.431Z",
         "url": "https://bsky.app/profile/marinetondelier.fr/post/3muyyaibrvk2i"
       },
       "at://did:plc:gixn227k63od3d4cyrwp67w5/app.bsky.feed.post/3muyzjlt5522n": {
         "first_seen_at": "2026-09-08T17:22:21+00:00",
-        "last_seen_at": "2026-09-08T22:01:27+00:00",
+        "last_seen_at": "2026-09-09T06:09:35+00:00",
         "published_at": "2026-09-08T12:28:26.876Z",
         "url": "https://bsky.app/profile/marinetondelier.fr/post/3muyzjlt5522n"
       },
       "at://did:plc:gixn227k63od3d4cyrwp67w5/app.bsky.feed.post/3muz6raw3ms2z": {
         "first_seen_at": "2026-09-08T17:22:21+00:00",
-        "last_seen_at": "2026-09-08T22:01:27+00:00",
+        "last_seen_at": "2026-09-09T06:09:35+00:00",
         "published_at": "2026-09-08T14:02:12.583Z",
         "url": "https://bsky.app/profile/marinetondelier.fr/post/3muz6raw3ms2z"
       },
       "at://did:plc:gixn227k63od3d4cyrwp67w5/app.bsky.feed.post/3muzrwpb2dc2h": {
         "first_seen_at": "2026-09-08T22:01:27+00:00",
-        "last_seen_at": "2026-09-08T22:01:27+00:00",
+        "last_seen_at": "2026-09-09T06:09:35+00:00",
         "published_at": "2026-09-08T19:45:16.489Z",
         "url": "https://bsky.app/profile/marinetondelier.fr/post/3muzrwpb2dc2h"
+      },
+      "at://did:plc:gixn227k63od3d4cyrwp67w5/app.bsky.feed.post/3mv2gcmbyo22c": {
+        "first_seen_at": "2026-09-09T06:09:35+00:00",
+        "last_seen_at": "2026-09-09T06:09:35+00:00",
+        "published_at": "2026-09-09T01:49:50.860Z",
+        "url": "https://bsky.app/profile/marinetondelier.fr/post/3mv2gcmbyo22c"
       }
     },
     "bluesky:party:generation-ecologie:generationecologie.bsky.social": {
       "at://did:plc:n4sy7zwkasxrteadohpssei5/app.bsky.feed.post/3luhs2ynq522q": {
         "first_seen_at": "2026-08-11T07:15:12+00:00",
-        "last_seen_at": "2026-09-08T22:01:28+00:00",
+        "last_seen_at": "2026-09-09T06:09:36+00:00",
         "published_at": "2025-07-21T10:33:33.177Z",
         "url": "https://bsky.app/profile/generationecologie.bsky.social/post/3luhs2ynq522q"
       },
       "at://did:plc:n4sy7zwkasxrteadohpssei5/app.bsky.feed.post/3lxcioabcmc2n": {
         "first_seen_at": "2026-08-11T07:15:12+00:00",
-        "last_seen_at": "2026-09-08T22:01:28+00:00",
+        "last_seen_at": "2026-09-09T06:09:36+00:00",
         "published_at": "2025-08-26T12:17:37.468Z",
         "url": "https://bsky.app/profile/generationecologie.bsky.social/post/3lxcioabcmc2n"
       },
       "at://did:plc:n4sy7zwkasxrteadohpssei5/app.bsky.feed.post/3lykfghy5as2h": {
         "first_seen_at": "2026-08-11T07:15:12+00:00",
-        "last_seen_at": "2026-09-08T22:01:28+00:00",
+        "last_seen_at": "2026-09-09T06:09:36+00:00",
         "published_at": "2025-09-11T09:06:05.431Z",
         "url": "https://bsky.app/profile/generationecologie.bsky.social/post/3lykfghy5as2h"
       },
       "at://did:plc:n4sy7zwkasxrteadohpssei5/app.bsky.feed.post/3lyzdfq4vkc2c": {
         "first_seen_at": "2026-08-11T07:15:12+00:00",
-        "last_seen_at": "2026-09-08T22:01:28+00:00",
+        "last_seen_at": "2026-09-09T06:09:36+00:00",
         "published_at": "2025-09-17T07:39:49.012Z",
         "url": "https://bsky.app/profile/generationecologie.bsky.social/post/3lyzdfq4vkc2c"
       },
       "at://did:plc:n4sy7zwkasxrteadohpssei5/app.bsky.feed.post/3lz4p27trjs2m": {
         "first_seen_at": "2026-08-11T07:15:12+00:00",
-        "last_seen_at": "2026-09-08T22:01:28+00:00",
+        "last_seen_at": "2026-09-09T06:09:36+00:00",
         "published_at": "2025-09-18T15:46:06.955Z",
         "url": "https://bsky.app/profile/generationecologie.bsky.social/post/3lz4p27trjs2m"
       },
       "at://did:plc:n4sy7zwkasxrteadohpssei5/app.bsky.feed.post/3lzikvwib622h": {
         "first_seen_at": "2026-08-11T07:15:12+00:00",
-        "last_seen_at": "2026-09-08T22:01:28+00:00",
+        "last_seen_at": "2026-09-09T06:09:36+00:00",
         "published_at": "2025-09-23T09:04:04.813Z",
         "url": "https://bsky.app/profile/generationecologie.bsky.social/post/3lzikvwib622h"
       },
       "at://did:plc:n4sy7zwkasxrteadohpssei5/app.bsky.feed.post/3lzj5t6mgyc22": {
         "first_seen_at": "2026-08-11T07:15:12+00:00",
-        "last_seen_at": "2026-09-08T22:01:28+00:00",
+        "last_seen_at": "2026-09-09T06:09:36+00:00",
         "published_at": "2025-09-23T14:42:33.770Z",
         "url": "https://bsky.app/profile/generationecologie.bsky.social/post/3lzj5t6mgyc22"
       },
       "at://did:plc:n4sy7zwkasxrteadohpssei5/app.bsky.feed.post/3lzo2z4hjx22l": {
         "first_seen_at": "2026-08-11T07:15:12+00:00",
-        "last_seen_at": "2026-09-08T22:01:28+00:00",
+        "last_seen_at": "2026-09-09T06:09:36+00:00",
         "published_at": "2025-09-25T13:35:30.304Z",
         "url": "https://bsky.app/profile/generationecologie.bsky.social/post/3lzo2z4hjx22l"
       },
       "at://did:plc:n4sy7zwkasxrteadohpssei5/app.bsky.feed.post/3m24ri4htx22a": {
         "first_seen_at": "2026-08-11T07:15:12+00:00",
-        "last_seen_at": "2026-09-08T22:01:28+00:00",
+        "last_seen_at": "2026-09-09T06:09:36+00:00",
         "published_at": "2025-10-01T09:54:52.292Z",
         "url": "https://bsky.app/profile/generationecologie.bsky.social/post/3m24ri4htx22a"
       },
       "at://did:plc:n4sy7zwkasxrteadohpssei5/app.bsky.feed.post/3m25dojsqo22c": {
         "first_seen_at": "2026-08-11T07:15:12+00:00",
-        "last_seen_at": "2026-09-08T22:01:28+00:00",
+        "last_seen_at": "2026-09-09T06:09:36+00:00",
         "published_at": "2025-10-01T15:20:34.960Z",
         "url": "https://bsky.app/profile/generationecologie.bsky.social/post/3m25dojsqo22c"
       },
       "at://did:plc:n4sy7zwkasxrteadohpssei5/app.bsky.feed.post/3m27cbumewc2o": {
         "first_seen_at": "2026-08-11T07:15:12+00:00",
-        "last_seen_at": "2026-09-08T22:01:28+00:00",
+        "last_seen_at": "2026-09-09T06:09:36+00:00",
         "published_at": "2025-10-02T10:00:55.811Z",
         "url": "https://bsky.app/profile/generationecologie.bsky.social/post/3m27cbumewc2o"
       },
       "at://did:plc:n4sy7zwkasxrteadohpssei5/app.bsky.feed.post/3m3677swdec2w": {
         "first_seen_at": "2026-08-11T07:15:12+00:00",
-        "last_seen_at": "2026-09-08T22:01:28+00:00",
+        "last_seen_at": "2026-09-09T06:09:36+00:00",
         "published_at": "2025-10-14T16:58:37.597Z",
         "url": "https://bsky.app/profile/generationecologie.bsky.social/post/3m3677swdec2w"
       },
       "at://did:plc:n4sy7zwkasxrteadohpssei5/app.bsky.feed.post/3m5gbsgqu4s22": {
         "first_seen_at": "2026-08-11T07:15:12+00:00",
-        "last_seen_at": "2026-09-08T22:01:28+00:00",
+        "last_seen_at": "2026-09-09T06:09:36+00:00",
         "published_at": "2025-11-12T08:56:31.015Z",
         "url": "https://bsky.app/profile/generationecologie.bsky.social/post/3m5gbsgqu4s22"
       },
       "at://did:plc:n4sy7zwkasxrteadohpssei5/app.bsky.feed.post/3m6htyaxwlc2w": {
         "first_seen_at": "2026-08-11T07:15:12+00:00",
-        "last_seen_at": "2026-09-08T22:01:28+00:00",
+        "last_seen_at": "2026-09-09T06:09:36+00:00",
         "published_at": "2025-11-25T17:19:45.001Z",
         "url": "https://bsky.app/profile/generationecologie.bsky.social/post/3m6htyaxwlc2w"
       },
       "at://did:plc:n4sy7zwkasxrteadohpssei5/app.bsky.feed.post/3m73ph6inqk2f": {
         "first_seen_at": "2026-08-11T07:15:12+00:00",
-        "last_seen_at": "2026-09-08T22:01:28+00:00",
+        "last_seen_at": "2026-09-09T06:09:36+00:00",
         "published_at": "2025-12-03T14:51:51.776Z",
         "url": "https://bsky.app/profile/generationecologie.bsky.social/post/3m73ph6inqk2f"
       },
       "at://did:plc:n4sy7zwkasxrteadohpssei5/app.bsky.feed.post/3ma4puy3cbc27": {
         "first_seen_at": "2026-08-11T07:15:12+00:00",
-        "last_seen_at": "2026-09-08T22:01:28+00:00",
+        "last_seen_at": "2026-09-09T06:09:36+00:00",
         "published_at": "2025-12-16T17:57:26.176Z",
         "url": "https://bsky.app/profile/generationecologie.bsky.social/post/3ma4puy3cbc27"
       }
@@ -8880,25 +8816,25 @@
       },
       "at://did:plc:sdlol7kfpl4on4g6dooigtcb/app.bsky.feed.post/3msioouu5jc2q": {
         "first_seen_at": "2026-08-11T07:15:12+00:00",
-        "last_seen_at": "2026-09-08T22:01:29+00:00",
+        "last_seen_at": "2026-09-09T06:09:36+00:00",
         "published_at": "2026-08-07T13:41:33.889Z",
         "url": "https://bsky.app/profile/lesecologistes.fr/post/3msioouu5jc2q"
       },
       "at://did:plc:sdlol7kfpl4on4g6dooigtcb/app.bsky.feed.post/3mtciamjwfk2f": {
         "first_seen_at": "2026-08-17T19:56:08+00:00",
-        "last_seen_at": "2026-09-08T22:01:29+00:00",
+        "last_seen_at": "2026-09-09T06:09:36+00:00",
         "published_at": "2026-08-17T19:55:26.145Z",
         "url": "https://bsky.app/profile/lesecologistes.fr/post/3mtciamjwfk2f"
       },
       "at://did:plc:sdlol7kfpl4on4g6dooigtcb/app.bsky.feed.post/3mtegnahkgk26": {
         "first_seen_at": "2026-08-18T19:52:38+00:00",
-        "last_seen_at": "2026-09-08T22:01:29+00:00",
+        "last_seen_at": "2026-09-09T06:09:36+00:00",
         "published_at": "2026-08-18T14:32:01.682Z",
         "url": "https://bsky.app/profile/lesecologistes.fr/post/3mtegnahkgk26"
       },
       "at://did:plc:sdlol7kfpl4on4g6dooigtcb/app.bsky.feed.post/3mtesiemjlc2x": {
         "first_seen_at": "2026-08-18T19:52:38+00:00",
-        "last_seen_at": "2026-09-08T22:01:29+00:00",
+        "last_seen_at": "2026-09-09T06:09:36+00:00",
         "published_at": "2026-08-18T18:04:03.169Z",
         "url": "https://bsky.app/profile/lesecologistes.fr/post/3mtesiemjlc2x"
       },
@@ -8910,85 +8846,85 @@
       },
       "at://did:plc:sdlol7kfpl4on4g6dooigtcb/app.bsky.feed.post/3mtghdcqo222a": {
         "first_seen_at": "2026-08-19T14:10:03+00:00",
-        "last_seen_at": "2026-09-08T22:01:29+00:00",
+        "last_seen_at": "2026-09-09T06:09:36+00:00",
         "published_at": "2026-08-19T09:49:41.756Z",
         "url": "https://bsky.app/profile/lesecologistes.fr/post/3mtghdcqo222a"
       },
       "at://did:plc:sdlol7kfpl4on4g6dooigtcb/app.bsky.feed.post/3mtjmarb6ek2f": {
         "first_seen_at": "2026-08-20T20:01:18+00:00",
-        "last_seen_at": "2026-09-08T22:01:29+00:00",
+        "last_seen_at": "2026-09-09T06:09:36+00:00",
         "published_at": "2026-08-20T15:55:44.239Z",
         "url": "https://bsky.app/profile/lesecologistes.fr/post/3mtjmarb6ek2f"
       },
       "at://did:plc:sdlol7kfpl4on4g6dooigtcb/app.bsky.feed.post/3mtjmwmcths27": {
         "first_seen_at": "2026-08-20T20:01:18+00:00",
-        "last_seen_at": "2026-09-08T22:01:29+00:00",
+        "last_seen_at": "2026-09-09T06:09:36+00:00",
         "published_at": "2026-08-20T16:07:57.248Z",
         "url": "https://bsky.app/profile/lesecologistes.fr/post/3mtjmwmcths27"
       },
       "at://did:plc:sdlol7kfpl4on4g6dooigtcb/app.bsky.feed.post/3mtjqtlraxs2h": {
         "first_seen_at": "2026-08-20T20:01:18+00:00",
-        "last_seen_at": "2026-09-08T22:01:29+00:00",
+        "last_seen_at": "2026-09-09T06:09:36+00:00",
         "published_at": "2026-08-20T17:17:50.974Z",
         "url": "https://bsky.app/profile/lesecologistes.fr/post/3mtjqtlraxs2h"
       },
       "at://did:plc:sdlol7kfpl4on4g6dooigtcb/app.bsky.feed.post/3mtllas32lc2h": {
         "first_seen_at": "2026-08-21T14:10:40+00:00",
-        "last_seen_at": "2026-09-08T22:01:29+00:00",
+        "last_seen_at": "2026-09-09T06:09:36+00:00",
         "published_at": "2026-08-21T10:43:10.817Z",
         "url": "https://bsky.app/profile/lesecologistes.fr/post/3mtllas32lc2h"
       },
       "at://did:plc:sdlol7kfpl4on4g6dooigtcb/app.bsky.feed.post/3mtm63wu5j22l": {
         "first_seen_at": "2026-08-21T19:50:18+00:00",
-        "last_seen_at": "2026-09-08T22:01:29+00:00",
+        "last_seen_at": "2026-09-09T06:09:36+00:00",
         "published_at": "2026-08-21T16:20:29.156Z",
         "url": "https://bsky.app/profile/lesecologistes.fr/post/3mtm63wu5j22l"
       },
       "at://did:plc:sdlol7kfpl4on4g6dooigtcb/app.bsky.feed.post/3mtocutkwic27": {
         "first_seen_at": "2026-08-22T13:53:29+00:00",
-        "last_seen_at": "2026-09-08T22:01:29+00:00",
+        "last_seen_at": "2026-09-09T06:09:36+00:00",
         "published_at": "2026-08-22T12:51:19.022Z",
         "url": "https://bsky.app/profile/lesecologistes.fr/post/3mtocutkwic27"
       },
       "at://did:plc:sdlol7kfpl4on4g6dooigtcb/app.bsky.feed.post/3mtolvim24k2j": {
         "first_seen_at": "2026-08-22T19:47:51+00:00",
-        "last_seen_at": "2026-09-08T22:01:29+00:00",
+        "last_seen_at": "2026-09-09T06:09:36+00:00",
         "published_at": "2026-08-22T15:32:44.754Z",
         "url": "https://bsky.app/profile/lesecologistes.fr/post/3mtolvim24k2j"
       },
       "at://did:plc:sdlol7kfpl4on4g6dooigtcb/app.bsky.feed.post/3mtxypxo3i227": {
         "first_seen_at": "2026-08-26T14:17:57+00:00",
-        "last_seen_at": "2026-09-08T22:01:29+00:00",
+        "last_seen_at": "2026-09-09T06:09:36+00:00",
         "published_at": "2026-08-26T09:16:15.513Z",
         "url": "https://bsky.app/profile/lesecologistes.fr/post/3mtxypxo3i227"
       },
       "at://did:plc:sdlol7kfpl4on4g6dooigtcb/app.bsky.feed.post/3mukbog222k2e": {
         "first_seen_at": "2026-09-02T17:20:19+00:00",
-        "last_seen_at": "2026-09-08T22:01:29+00:00",
+        "last_seen_at": "2026-09-09T06:09:36+00:00",
         "published_at": "2026-09-02T15:44:22.442Z",
         "url": "https://bsky.app/profile/lesecologistes.fr/post/3mukbog222k2e"
       },
       "at://did:plc:sdlol7kfpl4on4g6dooigtcb/app.bsky.feed.post/3muww5gwjsc2v": {
         "first_seen_at": "2026-09-07T21:47:53+00:00",
-        "last_seen_at": "2026-09-08T22:01:29+00:00",
+        "last_seen_at": "2026-09-09T06:09:36+00:00",
         "published_at": "2026-09-07T16:22:38.389Z",
         "url": "https://bsky.app/profile/lesecologistes.fr/post/3muww5gwjsc2v"
       },
       "at://did:plc:sdlol7kfpl4on4g6dooigtcb/app.bsky.feed.post/3muzakuekws2b": {
         "first_seen_at": "2026-09-08T17:22:23+00:00",
-        "last_seen_at": "2026-09-08T22:01:29+00:00",
+        "last_seen_at": "2026-09-09T06:09:36+00:00",
         "published_at": "2026-09-08T14:34:25.582Z",
         "url": "https://bsky.app/profile/lesecologistes.fr/post/3muzakuekws2b"
       },
       "at://did:plc:sdlol7kfpl4on4g6dooigtcb/app.bsky.feed.post/3muzap7fbdk2i": {
         "first_seen_at": "2026-09-08T17:22:23+00:00",
-        "last_seen_at": "2026-09-08T22:01:29+00:00",
+        "last_seen_at": "2026-09-09T06:09:36+00:00",
         "published_at": "2026-09-08T14:36:51.356Z",
         "url": "https://bsky.app/profile/lesecologistes.fr/post/3muzap7fbdk2i"
       },
       "at://did:plc:sdlol7kfpl4on4g6dooigtcb/app.bsky.feed.post/3muzfzszle22l": {
         "first_seen_at": "2026-09-08T17:22:23+00:00",
-        "last_seen_at": "2026-09-08T22:01:29+00:00",
+        "last_seen_at": "2026-09-09T06:09:36+00:00",
         "published_at": "2026-09-08T16:12:16.198Z",
         "url": "https://bsky.app/profile/lesecologistes.fr/post/3muzfzszle22l"
       }
@@ -11465,13 +11401,13 @@
     "youtube:party:revolution-permanente:ucwllr_fo9dpdj9uhq4a7pja": {
       "-6XYbiRsdGo": {
         "first_seen_at": "2026-08-12T21:47:57+00:00",
-        "last_seen_at": "2026-09-08T22:01:33+00:00",
+        "last_seen_at": "2026-09-09T06:09:39+00:00",
         "published_at": "2026-07-26T15:51:33+00:00",
         "url": "https://www.youtube.com/shorts/-6XYbiRsdGo"
       },
       "6CdyXyjXlTE": {
         "first_seen_at": "2026-08-12T21:47:57+00:00",
-        "last_seen_at": "2026-09-08T22:01:33+00:00",
+        "last_seen_at": "2026-09-09T06:09:39+00:00",
         "published_at": "2026-07-29T15:06:12+00:00",
         "url": "https://www.youtube.com/shorts/6CdyXyjXlTE"
       },
@@ -11489,25 +11425,25 @@
       },
       "I17JDK-quMM": {
         "first_seen_at": "2026-08-25T19:57:05+00:00",
-        "last_seen_at": "2026-09-08T22:01:33+00:00",
+        "last_seen_at": "2026-09-09T06:09:39+00:00",
         "published_at": "2026-08-25T16:36:29+00:00",
         "url": "https://www.youtube.com/shorts/I17JDK-quMM"
       },
       "Ubuq2UmF-UA": {
         "first_seen_at": "2026-08-12T21:47:57+00:00",
-        "last_seen_at": "2026-09-08T22:01:33+00:00",
+        "last_seen_at": "2026-09-09T06:09:39+00:00",
         "published_at": "2026-07-27T10:45:16+00:00",
         "url": "https://www.youtube.com/shorts/Ubuq2UmF-UA"
       },
       "d0HSyO7BWt8": {
         "first_seen_at": "2026-08-12T21:47:57+00:00",
-        "last_seen_at": "2026-09-08T22:01:33+00:00",
+        "last_seen_at": "2026-09-09T06:09:39+00:00",
         "published_at": "2026-07-27T10:11:38+00:00",
         "url": "https://www.youtube.com/shorts/d0HSyO7BWt8"
       },
       "dn5GCi0eQdQ": {
         "first_seen_at": "2026-08-12T21:47:57+00:00",
-        "last_seen_at": "2026-09-08T22:01:33+00:00",
+        "last_seen_at": "2026-09-09T06:09:39+00:00",
         "published_at": "2026-07-27T13:25:07+00:00",
         "url": "https://www.youtube.com/shorts/dn5GCi0eQdQ"
       },
@@ -11519,25 +11455,25 @@
       },
       "hMxjuvLFSfY": {
         "first_seen_at": "2026-08-12T21:47:57+00:00",
-        "last_seen_at": "2026-09-08T22:01:33+00:00",
+        "last_seen_at": "2026-09-09T06:09:39+00:00",
         "published_at": "2026-07-26T13:28:23+00:00",
         "url": "https://www.youtube.com/shorts/hMxjuvLFSfY"
       },
       "j4PiHg1oQxY": {
         "first_seen_at": "2026-08-12T21:47:57+00:00",
-        "last_seen_at": "2026-09-08T22:01:33+00:00",
+        "last_seen_at": "2026-09-09T06:09:39+00:00",
         "published_at": "2026-07-31T15:39:52+00:00",
         "url": "https://www.youtube.com/watch?v=j4PiHg1oQxY"
       },
       "nt2PU5a_hyY": {
         "first_seen_at": "2026-08-27T11:21:50+00:00",
-        "last_seen_at": "2026-09-08T22:01:33+00:00",
+        "last_seen_at": "2026-09-09T06:09:39+00:00",
         "published_at": "2026-08-27T09:39:08+00:00",
         "url": "https://www.youtube.com/watch?v=nt2PU5a_hyY"
       },
       "uLbeQ7rWGKY": {
         "first_seen_at": "2026-08-12T21:47:57+00:00",
-        "last_seen_at": "2026-09-08T22:01:33+00:00",
+        "last_seen_at": "2026-09-09T06:09:39+00:00",
         "published_at": "2026-07-23T19:22:26+00:00",
         "url": "https://www.youtube.com/shorts/uLbeQ7rWGKY"
       },
@@ -11549,13 +11485,13 @@
       },
       "wlsK4MIzu1U": {
         "first_seen_at": "2026-09-02T12:17:34+00:00",
-        "last_seen_at": "2026-09-08T22:01:33+00:00",
+        "last_seen_at": "2026-09-09T06:09:39+00:00",
         "published_at": "2026-09-02T11:40:56+00:00",
         "url": "https://www.youtube.com/watch?v=wlsK4MIzu1U"
       },
       "x4vUcrG4Vso": {
         "first_seen_at": "2026-08-24T19:56:03+00:00",
-        "last_seen_at": "2026-09-08T22:01:33+00:00",
+        "last_seen_at": "2026-09-09T06:09:39+00:00",
         "published_at": "2026-08-24T17:13:12+00:00",
         "url": "https://www.youtube.com/shorts/x4vUcrG4Vso"
       }
@@ -11685,7 +11621,7 @@
   },
   "sources": {
     "https://anasse2027.fr/": {
-      "checked_at": "2026-09-08T21:55:01+00:00",
+      "checked_at": "2026-09-09T06:04:28+00:00",
       "content_type": "text/html; charset=utf-8",
       "etag": null,
       "excerpt": "Anasse Kazib 2027 Accueil Notre candidature Notre programme Participer à la campagne Parrainer Anasse Actualités Nous contacter Faire un don ✊ Menu Présidentielle 2027 · Clip de campagne La candidature d'Anasse Kazib Je m'appelle Anasse Kazib, j'ai 39 ans, je suis cheminot, militant politique et syndical, et père de trois enfants. Ces dernières années, j'ai pris part à l'ensemble des grands combats qui ont traversé le pays, qu'ils soient ouvriers, en défense des retraites et des droits des travailleurs, contre le génocide en Palestine, ou encore antiracistes, écologistes ou féministes. Je refuse que les travailleuses et les travailleurs, qui sont en première ligne face à la crise, à l'inflat",
@@ -11697,7 +11633,7 @@
       "status": 200
     },
     "https://attalpresident.fr/": {
-      "checked_at": "2026-09-08T21:55:19+00:00",
+      "checked_at": "2026-09-09T06:04:40+00:00",
       "content_type": "text/html; charset=utf-8",
       "etag": null,
       "excerpt": "Gabriel Attal Président · LA FORCE D'AGIR · 2027 Aller au contenu principal Accueil Meeting de Lyon Gabriel Attal Chantiers capitaux Actualités Consultation Me connecter Nous rejoindre Me connecter Accueil Meeting de Lyon Gabriel Attal Chantiers capitaux Actualités Consultation LA FORCE D’AGIR LA FORCE D’AGIR rejoindre la campagne Soutiens la candidature en quelques secondes, depuis le web ou l’app campagne. On vous tient au courant des prochains rendez-vous, près de chez vous. Je rejoins venir au meeting Le prochain grand meeting de campagne. Inscription libre et gratuite, places limitées. Je m'inscris mes chantiers capitaux Refuser le déclin, débloquer la société. Les engagements concrets ",
@@ -11709,7 +11645,7 @@
       "status": 200
     },
     "https://bc2027.fr/": {
-      "checked_at": "2026-09-08T21:55:07+00:00",
+      "checked_at": "2026-09-09T06:04:30+00:00",
       "content_type": "text/html; charset=utf-8",
       "etag": null,
       "excerpt": "Bernard Cazeneuve, La France, ensemble. Présidentielle 2027 Bernard Cazeneuve Bernard Cazeneuve Accueil Mon parcours Ma démarche Actualités Contact Lire ma lettre aux Françaises et aux Français Rejoindre le mouvement Découvrir la démarche Lire ma lettre aux Françaises et aux Français Rejoindre le mouvement Découvrir la démarche Lettre aux Françaises et aux Français Tenir la promesse de la France Ma lettre dit le projet que je soumets aux Françaises et aux Français et qui m’engage. Lire ma lettre et y répondre Mon parcours Un engagement au service des Françaises et des Français. Je suis le fils d'enseignants. J'ai grandi avec cette idée simple que la République n'est pas un mot abstrait : ell",
@@ -11721,7 +11657,7 @@
       "status": 200
     },
     "https://bc2027.fr/ma-demarche": {
-      "checked_at": "2026-09-08T21:55:07+00:00",
+      "checked_at": "2026-09-09T06:04:30+00:00",
       "content_type": "text/html; charset=utf-8",
       "etag": null,
       "excerpt": "Ma démarche - Bernard Cazeneuve Bernard Cazeneuve Bernard Cazeneuve Accueil Mon parcours Ma démarche Actualités Contact Ma démarche La France traverse une période d’épreuves. Les fractures sociales, territoriales et démocratiques se sont creusées. Beaucoup de nos concitoyens doutent de la capacité de la République à tenir ses promesses : l’égalité, la fraternité, la liberté. La France possède pourtant des atouts immenses : la richesse de son histoire et de sa culture, des salariés et des entrepreneurs inventifs, une géographie et une position exceptionnelles. Ma démarche s’adresse à toutes celles et tous ceux qui font vivre la République au quotidien. Elle s’adresse aussi à toutes les França",
@@ -11733,7 +11669,7 @@
       "status": 200
     },
     "https://debout.fr/": {
-      "checked_at": "2026-09-08T21:55:09+00:00",
+      "checked_at": "2026-09-09T06:04:32+00:00",
       "content_type": "text/html; charset=UTF-8",
       "etag": null,
       "excerpt": "Debout! Aller au contenu ACCUEIL NOTRE MOUVEMENT NOTRE MANIFESTE Faire un don Rejoignez-nous La campagne de François Ruffin Nous président ! Rejoignez-nous Ils ont l’argent, on a les gens ! Faire un don Devenir militant Soutenir comme élu Nos réseaux sociaux X (Twitter) Telegram WhatsAPP TikTok Instagram Youtube Facebook En savoir plus En quelques lignes, en quelques mots, des explications sur notre mouvement national présidé par François Ruffin Debout! c’est quoi ? Retrouvez le document cadre de Debout!, sa ligne politique, idéologique, sa raison d’être. Notre manifeste Mentions Légales Politique de Confidentialité Facebook Instagram X YouTube WhatsApp Telegram Bluesky TikTok ©Debout! 2026 ",
@@ -11745,7 +11681,7 @@
       "status": 200
     },
     "https://doc.parti.re/Conventions-thematiques_Nouvelle-donne.pdf": {
-      "checked_at": "2026-09-08T21:55:51+00:00",
+      "checked_at": "2026-09-09T06:05:10+00:00",
       "content_type": "application/pdf",
       "etag": "\"254ec694a0afb977e666d329db191ee9\"",
       "excerpt": "",
@@ -11757,7 +11693,7 @@
       "status": 200
     },
     "https://doc.parti.re/conventions/Restitution-Regalien-Une-Republique-ferme-une-France-apaisee.pdf": {
-      "checked_at": "2026-09-08T21:55:53+00:00",
+      "checked_at": "2026-09-09T06:05:10+00:00",
       "content_type": "application/pdf",
       "etag": "\"69eee20d84cd32683464e9228e165f68\"",
       "excerpt": "",
@@ -11769,7 +11705,7 @@
       "status": 200
     },
     "https://generationecologie.fr/": {
-      "checked_at": "2026-09-08T21:55:21+00:00",
+      "checked_at": "2026-09-09T06:04:42+00:00",
       "content_type": "text/html; charset=UTF-8",
       "etag": null,
       "excerpt": "Génération Écologie - Le parti de la décroissance pour vivre autrement Aller au contenu Le parti de la décroissance pour vivre autrement À propos Notre raison d’être Qui sommes-nous ? Nos valeurs Notre projet Notre organisation L’équipe Le réseau des élues et élus Les groupes locaux Les commissions thématiques S’informer Nos positions Nos actualités Nos communiqués Nos résolutions politiques Nos ressources Nos podcasts Nos publications Nous suivre S'abonner à la newsletter Nos prochains évènements Agir avec nous Échanger Nous contacter S’engager Adhérer Faire un don Militer Matériel de campagne Action locale Newsletter “Je suis candidate à l’élection présidentielle pour reconstruire une écol",
@@ -11781,7 +11717,7 @@
       "status": 200
     },
     "https://horizonsleparti.fr/": {
-      "checked_at": "2026-09-08T21:55:23+00:00",
+      "checked_at": "2026-09-09T06:04:44+00:00",
       "content_type": "text/html; charset=UTF-8",
       "etag": null,
       "excerpt": "Horizons Le parti - Édouard Philippe Le parti Les instances nationales Iéna Commission nationale d’investiture Les parlementaires L’Assemblée des maires Secrétaires nationaux Le pôle Idées Le pôle Jeunes Dans les territoires Les référents régionaux Les délégués départementaux Les comités et délégués municipaux Publications Le Manifeste Les Revues Les Notes Autres publications Actualités À la une L’agenda Les grands événements (ré)Adhérer Donner Boutique Rejoignez Horizons et Édouard Philippe ! Prénom * Nom * E-mail * RGPD * J'accepte la politique de confidentialité * CAPTCHA NOUS SUIVRE “Pour construire ensemble une France plus forte, plus libre, plus juste et plus durable” “Pour construire ",
@@ -11793,7 +11729,7 @@
       "status": 200
     },
     "https://horizonsleparti.fr/evenement/grand-meeting-dedouard-philippe-a-ladidas-arena/": {
-      "checked_at": "2026-09-08T21:56:07+00:00",
+      "checked_at": "2026-09-09T06:05:22+00:00",
       "content_type": "text/html; charset=UTF-8",
       "etag": null,
       "excerpt": "Grand meeting d'Édouard Philippe à l'Adidas Arena - Horizons Le parti Le parti Les instances nationales Iéna Commission nationale d’investiture Les parlementaires L’Assemblée des maires Secrétaires nationaux Le pôle Idées Le pôle Jeunes Dans les territoires Les référents régionaux Les délégués départementaux Les comités et délégués municipaux Publications Le Manifeste Les Revues Les Notes Autres publications Actualités À la une L’agenda Les grands événements (ré)Adhérer Donner Boutique Adidas Arena – Paris 5 juillet 2026 Dimanche 5 juillet, Édouard Philippe a officiellement lancé sa campagne à l’Adidas Arena ! Plus de 5 200 sympathisants et militants se sont réunis pour le grand meeting d’Éd",
@@ -11805,7 +11741,7 @@
       "status": 200
     },
     "https://horizonsleparti.fr/le-pole-idees/": {
-      "checked_at": "2026-09-08T21:55:24+00:00",
+      "checked_at": "2026-09-09T06:04:45+00:00",
       "content_type": "text/html; charset=UTF-8",
       "etag": null,
       "excerpt": "Le pôle Idées - Horizons Le parti Le parti Les instances nationales Iéna Commission nationale d’investiture Les parlementaires L’Assemblée des maires Secrétaires nationaux Le pôle Idées Le pôle Jeunes Dans les territoires Les référents régionaux Les délégués départementaux Les comités et délégués municipaux Publications Le Manifeste Les Revues Les Notes Autres publications Actualités À la une L’agenda Les grands événements (ré)Adhérer Donner Boutique Le pôle Idées Le pôle Idées a pour mission, sous l’impulsion d’Édouard Philippe, de formuler des propositions ambitieuses et pragmatiques pour répondre aux défis du pays. Le pôle Idées s’organise autour d’une trentaine de groupes de travail réun",
@@ -11817,7 +11753,7 @@
       "status": 200
     },
     "https://lafrancehumaniste.fr/articles/le-moment-francais-sorbonne.html": {
-      "checked_at": "2026-09-08T21:55:13+00:00",
+      "checked_at": "2026-09-09T06:04:35+00:00",
       "content_type": "text/html",
       "etag": null,
       "excerpt": "Le moment franÃ§ais â La France Humaniste Cercles Humanistes Chroniques Newsletter AdhÃ©rer Soutenir Cercles Humanistes Chroniques Newsletter AdhÃ©rer Soutenir Chroniques Le moment franÃ§ais Dominique de Villepin Discours lors de la ConfÃ©rence Ã La Sorbonne le 27 mars 2026 par Dominique de Villepin Article Toutes les chroniques Aujourd'hui, je suis venu vous parler de la France, parce que personne n'en parle plus vraiment. Pas de la nouvelle France, je nây crois pas. Pas de la France de souche, elle nâexiste pas. Non, la France tout court, celle qui nous unit, celle que nous aimons, universelle et humaniste, celle que nous voulons dÃ©fendre et protÃ©ger. Le mot France lui-mÃªme s'est ",
@@ -11829,7 +11765,7 @@
       "status": 200
     },
     "https://lafranceinsoumise.fr/": {
-      "checked_at": "2026-09-08T21:55:29+00:00",
+      "checked_at": "2026-09-09T06:04:48+00:00",
       "content_type": "text/html; charset=UTF-8",
       "etag": null,
       "excerpt": "La France insoumise - Accueil - La France insoumise Aller au contenu Tous les sites Actus Toute l’actu Actualités du mouvement Actualités parlementaires Communiqués de presse L’Agenda national Agir Créer ou rejoindre un groupe d’action Créer ou rejoindre un événement Les Caravanes populaires Commander du matériel Faire un don Les fiches pratiques pour agir Rejoindre un groupe thématique Les ateliers des lois Le mouvement La France insoumise, comment ça marche ? Charte graphique de la France insoumise Les principes de la France insoumise Charte des groupes d’action de la France insoumise Achat et animation des QG insoumis Nos parlementaires Élections consulaires des 30–31 mai 2026 Les médias ",
@@ -11841,7 +11777,7 @@
       "status": 200
     },
     "https://lafranceinsoumise.fr/2026/06/22/parrainages-elus-pour-election-presidentielle-2027/": {
-      "checked_at": "2026-09-08T21:55:24+00:00",
+      "checked_at": "2026-09-09T06:04:45+00:00",
       "content_type": "text/html; charset=UTF-8",
       "etag": null,
       "excerpt": "Parrainages d'élu·es pour l'élection présidentielle 2027 - La France insoumise Aller au contenu Tous les sites Actus Toute l'actu Actualités du mouvement Actualités parlementaires Communiqués de presse L'Agenda national Agir Créer ou rejoindre un groupe d’action Créer ou rejoindre un événement Les Caravanes populaires Commander du matériel Faire un don Les fiches pratiques pour agir Rejoindre un groupe thématique Les ateliers des lois Le mouvement La France insoumise, comment ça marche ? Charte graphique de la France insoumise Les principes de la France insoumise Charte des groupes d’action de la France insoumise Achat et animation des QG insoumis Nos parlementaires Élections consulaires des",
@@ -11853,9 +11789,9 @@
       "status": 200
     },
     "https://les-patriotes.fr/": {
-      "checked_at": "2026-09-08T21:55:30+00:00",
+      "checked_at": "2026-09-09T06:04:53+00:00",
       "content_type": "text/html; charset=UTF-8",
-      "etag": "\"150908-1788904398;gz\"",
+      "etag": "\"151278-1788933892;gz\"",
       "excerpt": "Les Patriotes – Rejoignez le combat pour la France Mouvement S’impliquer Les référents Patriotes Les Jeunes Patriotes L’Académie des Patriotes Équipe nationale Comité Exécutif Les statuts Charte des Patriotes Photos des derniers événements Tracts et affiches Prochains événements Projet pour la France Pétitions Boutique Adhérer Ré-Adhérer Donner Voir toutes les vidéos de la chaîne Dernière vidéo de la chaine des Patriotes : Voir toutes les vidéos de la chaîne Assises de la Souveraineté – Arras 2026 : S’inscrire aux Assises de la Souveraineté Événements à venir : Pôle d'expertise Mouvement Projet pour la France L’Équipe Nationale La Charte S'engager Adhérer Faire un don Signer les pétitions En",
       "kind": "party_official",
       "last_modified": null,
@@ -11865,9 +11801,9 @@
       "status": 200
     },
     "https://les-patriotes.fr/projetpourlafrance/": {
-      "checked_at": "2026-09-08T21:55:31+00:00",
+      "checked_at": "2026-09-09T06:04:55+00:00",
       "content_type": "text/html; charset=UTF-8",
-      "etag": "\"150912-1788904531;gz\"",
+      "etag": "\"151279-1788933894;gz\"",
       "excerpt": "Projet pour la France – Les Patriotes Mouvement S’impliquer Les référents Patriotes Les Jeunes Patriotes L’Académie des Patriotes Équipe nationale Comité Exécutif Les statuts Charte des Patriotes Photos des derniers événements Tracts et affiches Prochains événements Projet pour la France Pétitions Boutique Adhérer Ré-Adhérer Donner Home / Projet pour la France Projet pour la France lespatriotes_projet Télécharger Pôle d'expertise Mouvement Projet pour la France L’Équipe Nationale La Charte S'engager Adhérer Faire un don Signer les pétitions En savoir plus Facebook-f Twitter Youtube Contact Questions fréquentes (FAQ) Politique de confidentialité Mentions légales Conditions générales de vente ",
       "kind": "party_programme",
       "last_modified": null,
@@ -11877,7 +11813,7 @@
       "status": 200
     },
     "https://lesecologistes.fr/": {
-      "checked_at": "2026-09-08T21:55:34+00:00",
+      "checked_at": "2026-09-09T06:04:58+00:00",
       "content_type": "text/html; charset=UTF-8",
       "etag": null,
       "excerpt": "Les Écologistes Le mouvement Programme Projet 2027 Carnets de doctrine Livrets thématiques Dossiers d'actu Actus Journées d'été Plus Adhérer Donner Le mouvement Programme Projet 2027 Carnets de doctrine Livrets thématiques Dossiers d'actu Actus Journées d'été Adhérer Donner Se connecter Nous sommes Les Écologistes Rejoignez-nous, organisons-nous partout en France pour gagner les batailles à venir et construire un avenir meilleur. Nous rejoindre Passer à l'action (...) Pour l'avenir de nos enfants et de ceux qui naîtront demain, ou la semaine prochaine, ou le mois prochain et tous ceux qui suivront. Pour qu'ils aient le droit à une vie digne, libre, égale aux autres, dans une société qui prot",
@@ -11889,7 +11825,7 @@
       "status": 200
     },
     "https://lesecologistes.fr/document/5ZhR2m5t2ZaGKqIdD1bJaD/vdef-programme-1.pdf": {
-      "checked_at": "2026-09-08T21:55:35+00:00",
+      "checked_at": "2026-09-09T06:04:58+00:00",
       "content_type": "text/html; charset=UTF-8",
       "etag": null,
       "excerpt": "",
@@ -11902,9 +11838,9 @@
       "status": 404
     },
     "https://marinetondelier.fr/": {
-      "checked_at": "2026-09-08T21:55:37+00:00",
+      "checked_at": "2026-09-09T06:05:00+00:00",
       "content_type": "text/html;charset=utf-8",
-      "etag": "W/\"9f76a81d1b3a2e2fdf8c6b73552fee98\"",
+      "etag": "W/\"4a9a2544fbc662ceab8f86f5b0bc2fd5--gzip\"",
       "excerpt": "Marine Tondelier – Candidate à l’élection présidentielle 0 Passer au contenu Marine Tondelier La campagne Rejoignez-nous ! Actus Le conseil scientifique Journal de campagne Le programme 557 mesures Livrets thématiques Carnets de doctrine Mes publications Le manifeste BLOG Podcast Livre Contact Dons Ouvrir le menu Fermer le menu Marine Tondelier La campagne Rejoignez-nous ! Actus Le conseil scientifique Journal de campagne Le programme 557 mesures Livrets thématiques Carnets de doctrine Mes publications Le manifeste BLOG Podcast Livre Contact Dons Ouvrir le menu Fermer le menu Dossier : La campagne Retour Rejoignez-nous ! Actus Le conseil scientifique Journal de campagne Dossier : Le programm",
       "kind": "registry_source",
       "last_modified": null,
@@ -11914,9 +11850,9 @@
       "status": 200
     },
     "https://marinetondelier.fr/blog/instinct-primaire": {
-      "checked_at": "2026-09-08T21:55:37+00:00",
+      "checked_at": "2026-09-09T06:05:00+00:00",
       "content_type": "text/html;charset=utf-8",
-      "etag": "W/\"af52c9b4f4e2d05d869685d77f65a3ce--gzip\"",
+      "etag": "W/\"e1318e47a439038d99e0f52fc5fa5fad\"",
       "excerpt": "Instinct primaire — Marine Tondelier 0 Passer au contenu Marine Tondelier La campagne Rejoignez-nous ! Actus Le conseil scientifique Journal de campagne Le programme 557 mesures Livrets thématiques Carnets de doctrine Mes publications Le manifeste BLOG Podcast Livre Contact Dons Ouvrir le menu Fermer le menu Marine Tondelier La campagne Rejoignez-nous ! Actus Le conseil scientifique Journal de campagne Le programme 557 mesures Livrets thématiques Carnets de doctrine Mes publications Le manifeste BLOG Podcast Livre Contact Dons Ouvrir le menu Fermer le menu Dossier : La campagne Retour Rejoignez-nous ! Actus Le conseil scientifique Journal de campagne Dossier : Le programme Retour 557 mesures",
       "kind": "candidate_official_evidence",
       "last_modified": null,
@@ -11926,9 +11862,9 @@
       "status": 200
     },
     "https://marinetondelier.fr/journal-de-campagne": {
-      "checked_at": "2026-09-08T21:55:37+00:00",
+      "checked_at": "2026-09-09T06:05:00+00:00",
       "content_type": "text/html;charset=utf-8",
-      "etag": "W/\"b8b907aff66a0c60b7a86bc2ae5ff7a2--gzip\"",
+      "etag": "W/\"42260cdbeff2e96eadf2a3beeecf5a02--gzip\"",
       "excerpt": "Journal de campagne des Présidentielles 2027 — Marine Tondelier 0 Passer au contenu Marine Tondelier La campagne Rejoignez-nous ! Actus Le conseil scientifique Journal de campagne Le programme 557 mesures Livrets thématiques Carnets de doctrine Mes publications Le manifeste BLOG Podcast Livre Contact Dons Ouvrir le menu Fermer le menu Marine Tondelier La campagne Rejoignez-nous ! Actus Le conseil scientifique Journal de campagne Le programme 557 mesures Livrets thématiques Carnets de doctrine Mes publications Le manifeste BLOG Podcast Livre Contact Dons Ouvrir le menu Fermer le menu Dossier : La campagne Retour Rejoignez-nous ! Actus Le conseil scientifique Journal de campagne Dossier : Le p",
       "kind": "registry_source",
       "last_modified": null,
@@ -11938,7 +11874,7 @@
       "status": 200
     },
     "https://marinetondelier.fr/manifeste": {
-      "checked_at": "2026-09-08T21:55:37+00:00",
+      "checked_at": "2026-09-09T06:05:00+00:00",
       "content_type": "text/html;charset=utf-8",
       "etag": "W/\"26966104099d034bd7f08240283c415c\"",
       "excerpt": "Ce que nous vous devons, le manifeste de Marine Tondelier pour une primaire — Marine Tondelier 0 Passer au contenu Marine Tondelier La campagne Rejoignez-nous ! Actus Le conseil scientifique Journal de campagne Le programme 557 mesures Livrets thématiques Carnets de doctrine Mes publications Le manifeste BLOG Podcast Livre Contact Dons Ouvrir le menu Fermer le menu Marine Tondelier La campagne Rejoignez-nous ! Actus Le conseil scientifique Journal de campagne Le programme 557 mesures Livrets thématiques Carnets de doctrine Mes publications Le manifeste BLOG Podcast Livre Contact Dons Ouvrir le menu Fermer le menu Dossier : La campagne Retour Rejoignez-nous ! Actus Le conseil scientifique Jou",
@@ -11950,7 +11886,7 @@
       "status": 200
     },
     "https://melenchon2027.fr/programme2025/livre/": {
-      "checked_at": "2026-09-08T21:55:29+00:00",
+      "checked_at": "2026-09-09T06:04:48+00:00",
       "content_type": "text/html; charset=UTF-8",
       "kind": "party_programme",
       "last_fetch_error": "HTTP 403",
@@ -11959,19 +11895,19 @@
       "status": 403
     },
     "https://nouspresident.fr/": {
-      "checked_at": "2026-09-08T21:55:15+00:00",
+      "checked_at": "2026-09-09T06:04:36+00:00",
       "content_type": "text/html; charset=UTF-8",
       "etag": null,
-      "excerpt": "François Ruffin 2027 Nous Président ! Nous Président ! Faire un don Indiquer son soutien Devenir bénévole Partager la campagne Grand meeting à Lyon ! L’agenda Cahiers de campagne Pour le travail Faire un don Agir Je soutiens la campagne Je deviens bénévole Je partage la campagne Je soutiens comme élu 124 552 Nous Président ! Pendant 25 ans, François Ruffin a porté votre voix. Maintenant, elle doit prendre le pouvoir, pour qu’on remette tout à plat et la France debout. Cette campagne, nous la mènerons ensemble. Je soutiens Je fais un don Suivez François Ruffin : Soutenez la campagne ! Toutes les actions Partager la campagne Diffusez la plateforme sur vos réseaux sociaux, à vos proches : vous ",
+      "excerpt": "François Ruffin 2027 Nous Président ! Nous Président ! Faire un don Indiquer son soutien Devenir bénévole Partager la campagne Grand meeting à Lyon ! L’agenda Cahiers de campagne Pour le travail Faire un don Agir Je soutiens la campagne Je deviens bénévole Je partage la campagne Je soutiens comme élu 124 555 Nous Président ! Pendant 25 ans, François Ruffin a porté votre voix. Maintenant, elle doit prendre le pouvoir, pour qu’on remette tout à plat et la France debout. Cette campagne, nous la mènerons ensemble. Je soutiens Je fais un don Suivez François Ruffin : Soutenez la campagne ! Toutes les actions Partager la campagne Diffusez la plateforme sur vos réseaux sociaux, à vos proches : vous ",
       "kind": "registry_source",
       "last_modified": null,
       "owner": "François Ruffin",
       "resolved_url": "https://nouspresident.fr/",
-      "sha256": "facd7206292141875ee14f00689ef06e44e3c25115a23a3d2ff755335215d835",
+      "sha256": "7f771f741ae11994630886b41f0021001785316376131e27a8db20afda0ce6a5",
       "status": 200
     },
     "https://nouspresident.fr/pour-le-travail/": {
-      "checked_at": "2026-09-08T21:55:16+00:00",
+      "checked_at": "2026-09-09T06:04:37+00:00",
       "content_type": "text/html; charset=UTF-8",
       "etag": null,
       "excerpt": "Pour le travail - Ruffin 2027 Nous Président ! Nous Président ! Faire un don Indiquer son soutien Devenir bénévole Partager la campagne Grand meeting à Lyon ! L’agenda Cahiers de campagne Pour le travail Faire un don Agir Je soutiens la campagne Je deviens bénévole Je partage la campagne Je soutiens comme élu Pour le travail Cahier de campagne Pour un statut des travailleurs et travailleuses essentielles Nos mesures pour les 7 millions de femmes et d’hommes qui tiennent le pays debout ! En savoir plus Témoignez Participez à la grande enquête sur le travail Pour porter au cœur du débat présidentiel les thèmes qui nous sont chers : la dignité et la valeur du travail. Je participe événement TRa",
@@ -11983,7 +11919,7 @@
       "status": 200
     },
     "https://nouspresident.fr/separation-argent-etat/": {
-      "checked_at": "2026-09-08T21:55:17+00:00",
+      "checked_at": "2026-09-09T06:04:38+00:00",
       "content_type": "text/html; charset=UTF-8",
       "etag": null,
       "excerpt": "Pour une séparation de l’argent et de l’État - Ruffin 2027 Nous Président ! Nous Président ! Faire un don Indiquer son soutien Devenir bénévole Partager la campagne Grand meeting à Lyon ! L’agenda Cahiers de campagne Pour le travail Faire un don Agir Je soutiens la campagne Je deviens bénévole Je partage la campagne Je soutiens comme élu Pour une séparation de l’argent et de l’État L’édito de François Ruffin « Crime contre la Nation. » L’expression figure dans le jugement rendu, en première instance, contre Nicolas Sarkozy. C’est qu’il a envoyé ses lieutenants, Hortefeux et Guéant, discuter avec Abdallah Senoussi, beau-frère de Mohamed Kadhafi, lui-même condamné pour terrorisme, par contumac",
@@ -11995,7 +11931,7 @@
       "status": 200
     },
     "https://nouspresident.fr/temps-loisirs/": {
-      "checked_at": "2026-09-08T21:55:18+00:00",
+      "checked_at": "2026-09-09T06:04:40+00:00",
       "content_type": "text/html; charset=UTF-8",
       "etag": null,
       "excerpt": "Pour renouer avec le temps des loisirs - Ruffin 2027 Nous Président ! Nous Président ! Faire un don Indiquer son soutien Devenir bénévole Partager la campagne Grand meeting à Lyon ! L’agenda Cahiers de campagne Pour le travail Faire un don Agir Je soutiens la campagne Je deviens bénévole Je partage la campagne Je soutiens comme élu Pour renouer avec le temps des loisirs Édito de François Ruffin Gloire aux associations ! C’est par là que le pays tient encore debout : non par le haut, par l’Élysée ou l’Assemblée. Mais par le bas, par les travailleurs, par des entrepreneurs, par les élus locaux, et pour beaucoup, par les assos. Si dans (presque) tous les quartiers de toutes les villes, si dans ",
@@ -12007,7 +11943,7 @@
       "status": 200
     },
     "https://npa-revolutionnaires.org/": {
-      "checked_at": "2026-09-08T21:55:38+00:00",
+      "checked_at": "2026-09-09T06:05:01+00:00",
       "content_type": "text/html",
       "etag": null,
       "excerpt": "NPA RÃ©volutionnaires â ActualitÃ©s et luttes Aller au contenu NPA â RÃ©volutionnaires Nos vies valent plus que leurs profits RÃ©volutionnaires le journal Vie militante PrÃ©sidentielle 2027 NPA Jeunes rÃ©volutionnaires Nous contacter Nous contacter Politique International Dossiers PremiÃ¨res lignes BrÃ¨ves Culture et Histoire Ãditos Le journal VidÃ©os Dans les mÃ©dias Agenda Ãditos Leur rentrÃ©e et la nÃ´tre Philippe, Lecornu, AttalÂ : cet Ã©tÃ©, ces prÃ©tendants Ã lâÃlysÃ©e y sont allÃ©s de leur dÃ©magogie anti-immigrÃ©s. Ã lâunisson raciste avec Marine Le Pen qui propose un rÃ©fÃ©rendum sur lâinterdiction du voile dans les espaces publics. FranÃ§ais-immigrÃ©s, nous sommes tou",
@@ -12019,7 +11955,7 @@
       "status": 200
     },
     "https://npa-revolutionnaires.org/communique-presidentielle-2027-selma-labib-une-candidature-ouvriere-et-revolutionnaire-soutenue-par-gael-quirante/": {
-      "checked_at": "2026-09-08T21:55:55+00:00",
+      "checked_at": "2026-09-09T06:05:11+00:00",
       "content_type": "text/html",
       "etag": null,
       "excerpt": "CommuniquÃ© â PrÃ©sidentielle 2027Â : Selma Labib, une candidature ouvriÃ¨re et rÃ©volutionnaire, soutenue par GaÃ«l Quirante â NPA RÃ©volutionnaires Aller au contenu NPA â RÃ©volutionnaires Nos vies valent plus que leurs profits RÃ©volutionnaires le journal Vie militante PrÃ©sidentielle 2027 NPA Jeunes rÃ©volutionnaires Nous contacter Nous contacter Politique International Dossiers PremiÃ¨res lignes BrÃ¨ves Culture et Histoire Ãditos Le journal VidÃ©os Dans les mÃ©dias Agenda Accueil âº Politique âº CommuniquÃ©s de presse âº CommuniquÃ© â PrÃ©sidentielle 2027Â : Selma Labib, une candidature ouvriÃ¨re et rÃ©volutionnaire, soutenue par GaÃ«l Quirante Politique CommuniquÃ©s de pres",
@@ -12031,7 +11967,7 @@
       "status": 200
     },
     "https://parti-equinoxe.fr/": {
-      "checked_at": "2026-09-08T21:56:10+00:00",
+      "checked_at": "2026-09-09T06:05:24+00:00",
       "content_type": "text/html; charset=UTF-8",
       "etag": "\"35437-1788894639;gz\"",
       "excerpt": "Accueil - Parti Équinoxe Aller au contenu Le parti Notre histoire Notre méthode Nos actualités Nous rencontrer Nos groupes locaux Nos événements Présidentielle 2027 Faire un don Faire un don Adhérer Adhérer Le parti Notre histoire Notre méthode Nos actualités Nous rencontrer Nos groupes locaux Nos événements Présidentielle 2027 Nous rejoindre Faire un don Se connecter Équinoxe, un parti pour le monde qui vient Tout va toujours plus vite. Politique, économie, environnement, social… Nous sommes entrés dans l’ère de la démesure . Les mots sont vidés de leur sens, les gouvernements se succèdent, les politiques s’invectivent, les crises persistent et s’empirent. Équinoxe vous propose de reprendre",
@@ -12043,7 +11979,7 @@
       "status": 200
     },
     "https://parti-equinoxe.fr/le-projet/": {
-      "checked_at": "2026-09-08T21:56:13+00:00",
+      "checked_at": "2026-09-09T06:05:28+00:00",
       "content_type": "text/html; charset=UTF-8",
       "etag": "\"7365-1787126269;gz\"",
       "excerpt": "Le projet - Parti Équinoxe Aller au contenu Le parti Notre histoire Nos actualités Le projet Nous rencontrer Nos groupes locaux Nos événements FAIRE UN DON FAIRE UN DON Adhérer Adhérer Le parti Notre histoire Nos actualités Le projet Nous rencontrer Nos groupes locaux Nos événements Nous rejoindre Faire un don Se connecter le projet Antoine Mikolajczak Antoine Mikolajczak Candidat à l’élection présidentielle Ingénieur · 28 ans Antoine Mikolajczak est le candidat à l’élection présidentielle de 2027 pour Équinoxe, suite à l’élection au jugement majoritaire des adhérents du parti. Diplômé de l’ICAM de Lille comme ingénieur, Antoine s’est ensuite forgé une solide expérience sur le terrain à trav",
@@ -12056,7 +11992,7 @@
       "status": 404
     },
     "https://parti-equinoxe.fr/qui-est-antoine-mikolajczak/": {
-      "checked_at": "2026-09-08T21:55:05+00:00",
+      "checked_at": "2026-09-09T06:04:29+00:00",
       "content_type": "text/html; charset=UTF-8",
       "etag": "\"35642-1788904504;gz\"",
       "excerpt": "Qui est Antoine Mikolajczak ? - Parti Équinoxe Aller au contenu Le parti Notre histoire Notre méthode Nos actualités Nous rencontrer Nos groupes locaux Nos événements Présidentielle 2027 Faire un don Faire un don Adhérer Adhérer Le parti Notre histoire Notre méthode Nos actualités Nous rencontrer Nos groupes locaux Nos événements Présidentielle 2027 Nous rejoindre Faire un don Se connecter qui est Antoine Mikolajczak ? Antoine Mikolajczak Antoine Mikolajczak Candidat à l’élection présidentielle Ingénieur · 28 ans Antoine Mikolajczak est le candidat à l’élection présidentielle de 2027 pour Équinoxe, suite à l’élection au jugement majoritaire des adhérents du parti. Diplômé de l’ICAM de Lille ",
@@ -12068,31 +12004,31 @@
       "status": 200
     },
     "https://parti-renaissance.fr/": {
-      "checked_at": "2026-09-08T21:55:53+00:00",
+      "checked_at": "2026-09-09T06:05:10+00:00",
       "content_type": "text/html",
       "etag": null,
       "excerpt": "Renaissance â Parti politique franÃ§ais | ProgrÃ¨s, Europe, RÃ©publique Le parti Nos dÃ©partements Nos Ã©vÃ©nements Mon espace J'adhÃ¨re BÃ¢tissons ensemble une Nouvelle RÃ©publique Thank you! Your submission has been received! Oops! Une erreur est survenue. DÃ©jÃ adhÃ©rent ? Mon espace Tout doit changer NOUVELLE RÃPUBLIQUE Participez Ã la grande consultation et contribuez â¨Ã bÃ¢tir une Nouvelle RÃ©publique ! Je participe CONVENTIONSÂ ThÃ©matiques Pour une nouvelle donne Ã©conomique et climatique DÃ©couvrez toutes propositions pour un nouveau modÃ¨le Ã©conomique, social et Ã©cologique pour la France ð±ð«ð· Voir nos propositions CONVENTIONSÂ ThÃ©matiques Une RÃ©publique ferme, une ",
       "kind": "party_official",
-      "last_modified": "Tue, 08 Sep 2026 10:30:39 GMT",
+      "last_modified": "Wed, 09 Sep 2026 00:41:13 GMT",
       "owner": "Renaissance",
       "resolved_url": "https://parti-renaissance.fr/",
       "sha256": "db5d689505f34a004cbe6d8d728181dc84b81551b219760e74d652a0a0b40028",
       "status": 200
     },
     "https://parti-socialiste.fr/": {
-      "checked_at": "2026-09-08T21:55:44+00:00",
+      "checked_at": "2026-09-09T06:05:05+00:00",
       "content_type": "text/html; charset=UTF-8",
       "etag": null,
       "excerpt": "Parti Socialiste Aller au contenu Le Parti Socialiste Fermer Le Parti Socialiste Ouvrir Le Parti Socialiste Le Parti Socialiste Le Premier Secrétaire Figure clé du rassemblement de la gauche en France, Olivier Faure a mené une carrière de conseiller politique et de député avant de devenir premier secrétaire du Parti socialiste en 2018 Les instances Comprendre les instances de démocratie interne Nos fédérations Les fédérations socialistes, actrices du militantisme quotidien Nos élu·e·s Le Parti socialiste bénéficie du maillage territorial le plus fin des partis politiques de gauche Nos porte-parole Découvrez celles et ceux qui s’engagent au quotidien pour faire entendre nos valeurs Nos parten",
       "kind": "registry_source",
-      "last_modified": "Tue, 08 Sep 2026 20:26:51 GMT",
+      "last_modified": "Wed, 09 Sep 2026 03:59:04 GMT",
       "owner": "Parti socialiste",
       "resolved_url": "https://parti-socialiste.fr/",
       "sha256": "5cc01cf7799b6b7be791480d03412c314b41dc9d345ac5912a8e67cd44894225",
       "status": 200
     },
     "https://place-publique.eu/": {
-      "checked_at": "2026-09-08T21:55:49+00:00",
+      "checked_at": "2026-09-09T06:05:08+00:00",
       "content_type": "text/html; charset=UTF-8",
       "etag": null,
       "excerpt": "Place publique Le parti Le projet Nos actualités Agir Adhérer Faire un don Participer à un événement Trouver sa Place publique locale Événements locaux Mobilisation numérique Nous contacter Primaire 2027 Adhérer Faire un don Le parti Le projet Nos actualités Agir Adhérer Faire un don Participer à un événement Trouver sa Place publique locale Événements locaux Mobilisation numérique Nous contacter Adhérer Faire un don Primaire 2027 Il est temps d'agir Rejoins-nous À la une Réveiller la France Raphaël Glucksmann est candidat à l'élection présidentielle. Vous souhaitez faire gagner la gauche ? Rendez-vous sur glucks2027.fr Retrouvez également sa lettre aux Français sur Ouest France. Votre adhés",
@@ -12104,7 +12040,7 @@
       "status": 200
     },
     "https://place-publique.eu/pages/69jA2SKIG5udlNX7wI3dmc/le-projet": {
-      "checked_at": "2026-09-08T21:55:49+00:00",
+      "checked_at": "2026-09-09T06:05:09+00:00",
       "content_type": "text/html; charset=UTF-8",
       "etag": null,
       "excerpt": "Le projet | Place publique Le parti Le projet Nos actualités Agir Adhérer Faire un don Participer à un événement Trouver sa Place publique locale Événements locaux Mobilisation numérique Nous contacter Primaire 2027 Adhérer Faire un don Le parti Le projet Nos actualités Agir Adhérer Faire un don Participer à un événement Trouver sa Place publique locale Événements locaux Mobilisation numérique Nous contacter Adhérer Faire un don Primaire 2027 Le projet Une prise de conscience collective « Il est des moments dans l’histoire qui définissent le destin des peuples et des nations. Nous en vivons un, et les choix que nous ferons dans les mois et les années qui viennent détermineront notre avenir p",
@@ -12116,7 +12052,7 @@
       "status": 200
     },
     "https://place-publique.eu/pages/6mRSwq5tuSrSi68Cw1IADX/l-acte-i": {
-      "checked_at": "2026-09-08T21:55:50+00:00",
+      "checked_at": "2026-09-09T06:05:09+00:00",
       "content_type": "text/html; charset=UTF-8",
       "etag": null,
       "excerpt": "L'Acte I | Place publique Le parti Le projet Nos actualités Agir Adhérer Faire un don Participer à un événement Trouver sa Place publique locale Événements locaux Mobilisation numérique Nous contacter Primaire 2027 Adhérer Faire un don Le parti Le projet Nos actualités Agir Adhérer Faire un don Participer à un événement Trouver sa Place publique locale Événements locaux Mobilisation numérique Nous contacter Adhérer Faire un don Primaire 2027 L'Acte I Description La politique prise au sérieux suppose d’abord de proposer une vision claire aux citoyens. Voici donc le premier acte : notre vision pour la France. Faisons la vivre et grandir ensemble ! Ce document propose une vision pour notre nati",
@@ -12128,7 +12064,7 @@
       "status": 200
     },
     "https://programme.lafranceinsoumise.fr/": {
-      "checked_at": "2026-09-08T21:55:29+00:00",
+      "checked_at": "2026-09-09T06:04:48+00:00",
       "content_type": "text/html; charset=UTF-8",
       "etag": null,
       "excerpt": "Just a moment...",
@@ -12141,7 +12077,7 @@
       "status": 403
     },
     "https://projet-socialiste.fr/": {
-      "checked_at": "2026-09-08T21:55:46+00:00",
+      "checked_at": "2026-09-09T06:05:06+00:00",
       "content_type": "text/html; charset=UTF-8",
       "etag": null,
       "excerpt": "Le Projet Socialiste Aller au contenu Le Projet Socialiste Accueil Le projet en bref Le projet À propos La construction du projet L’actualité du projet Découvrez aussi : Notre Parti Notre Think Tank Rechercher Rechercher Rechercher Menu Le projet en bref Consulter le projet Le projet en bref Consulter le projet Le Projet Socialiste Face aux grands défis du 21e siècle, notre responsabilité est immense. Notre ambition l’est aussi. Bienvenue sur le site du projet du Parti socialiste. Cette ambition, nous l’avons traduite en six grands engagements. Retournez chaque carte pour en découvrir les mesures principales : Vivre libres Mieux vivre au travail et de son travail Coût de la vie quotidienne, ",
@@ -12153,7 +12089,7 @@
       "status": 200
     },
     "https://rassemblementnational.fr/": {
-      "checked_at": "2026-09-08T21:55:50+00:00",
+      "checked_at": "2026-09-09T06:05:09+00:00",
       "content_type": "text/html; charset=utf-8",
       "etag": null,
       "excerpt": "Rassemblement National - Accueil RN Menu Les Français de l'étranger Les fédérations Les fédérations métropolitaines Les fédérations d’Outre-mer Les Français de l’étranger Instances Bureau Exécutif Bureau National Commission Nationale d'Investiture Commission des Conflits Conseil national Le Congrès 18ème congrès Les adhérents Assemblée générale extraordinaire Actualités Communiqués Tribunes libres Lettre ouverte Vidéos Projet de gouvernement Découvrez le programme Contre-Budget 2026 Présidentielle 2022 Livrets thématiques Les 22 mesures Organisation Fédérations Les fédérations métropolitaines Les fédérations d’Outre-mer Les Français de l’étranger Les instances Bureau exécutif Bureau national",
@@ -12165,7 +12101,7 @@
       "status": 200
     },
     "https://republicains.fr/": {
-      "checked_at": "2026-09-08T21:55:33+00:00",
+      "checked_at": "2026-09-09T06:04:56+00:00",
       "content_type": "text/html; charset=UTF-8",
       "etag": null,
       "excerpt": "Les Républicains Skip to the content Qui sommes-nous ? Votre Fédération Nos propositions Actualités Je donne J'adhère Qui sommes-nous ? Votre Fédération Nos propositions Actualités Je donne J'adhère Je donne J'adhère Qui sommes-nous ? Votre Fédération Nos propositions Actualités Les républicains Rassembler et bâtir la France de demain Je souhaite m'engager VIDEOS à LA UNE 06.09.2026 Passage TV Vidéos à la une On est dans un gouvernement des juges 26.08.2026 Passage TV Vidéos à la une La France insoumise est un parti de collabos 15.07.2026 Passage TV Une grande nation ne répond pas à la souffrance par la mort. 15.07.2026 Interview Vidéos à la une Les yeux dans les yeux avec Jean-Jacques Bourd",
@@ -12173,11 +12109,11 @@
       "last_modified": null,
       "owner": "Les Républicains",
       "resolved_url": "https://republicains.fr/",
-      "sha256": "9ff6fc05390841b6cb698fc5293c3b59e3d45225026908ecaf04a100333e10f1",
+      "sha256": "5d6e38add1228236586c977d6b91827b03d239d25ce05359555b1a69940c5b81",
       "status": 200
     },
     "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/": {
-      "checked_at": "2026-09-08T21:55:09+00:00",
+      "checked_at": "2026-09-09T06:04:31+00:00",
       "content_type": "text/html; charset=UTF-8",
       "etag": null,
       "excerpt": "Je suis candidat à l'élection présidentielle. - Les Républicains Skip to the content Qui sommes-nous ? Votre Fédération Nos propositions Actualités Je donne J'adhère Qui sommes-nous ? Votre Fédération Nos propositions Actualités Je donne J'adhère Je donne J'adhère Qui sommes-nous ? Votre Fédération Nos propositions Actualités 12.02.2026 By Bruno Retailleau Vidéos à la une Je suis candidat à l’élection présidentielle. Mes chers compatriotes, J’ai pris la décision d’être candidat à l’élection présidentielle, car je refuse de laisser notre pays dans l’état où il se trouve aujourd’hui : une France qui s’enfonce, une France qui s’efface, dans un monde de plus en plus menaçant. Qui d’entre nous pe",
@@ -12185,11 +12121,11 @@
       "last_modified": null,
       "owner": "Bruno Retailleau",
       "resolved_url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/",
-      "sha256": "6109d303ed9bb6f239eed9fe02d6f65ea130c77a7cf50c2212a1ce1d87a3fe07",
+      "sha256": "888df8336ce020425e43803831d517e37b2dec19bcb0c5ac717855619281bfff",
       "status": 200
     },
     "https://republicains.fr/nos-propositions/": {
-      "checked_at": "2026-09-08T21:55:34+00:00",
+      "checked_at": "2026-09-09T06:04:57+00:00",
       "content_type": "text/html; charset=UTF-8",
       "etag": null,
       "excerpt": "Nos propositions - Les Républicains Skip to the content Qui sommes-nous ? Votre Fédération Nos propositions Actualités Je donne J'adhère Qui sommes-nous ? Votre Fédération Nos propositions Actualités Je donne J'adhère Je donne J'adhère Qui sommes-nous ? Votre Fédération Nos propositions Actualités Les idées qui nous rassemblent Nos propositions Compétitivité et pouvoir d'achat Le pouvoir d’achat et la compétitivité sont au cœur des préoccupations des Français. Pour répondre à ces enjeux majeurs, nous portons une vision fondée sur le travail, la responsabilité et la création de richesse. Nos propositions visent à protéger les ménages, renforcer nos entreprises et préparer l’avenir économique ",
@@ -12201,9 +12137,9 @@
       "status": 200
     },
     "https://ruches.org/": {
-      "checked_at": "2026-09-08T21:55:25+00:00",
+      "checked_at": "2026-09-09T06:04:46+00:00",
       "content_type": "text/html; charset=utf-8",
-      "etag": "\"5afllmavnmb1ux\"",
+      "etag": "\"nhxu76jmtkb2b2\"",
       "excerpt": "Les Ruches — Mouvement citoyen pour Juan Branco en 2027 Le Mouvement Branco 2027 Ressources Connexion Le Mouvement Un mouvement citoyen organisé en cellules locales. Sans parti, sans chef, financé à 100 % par le peuple. Découvrir Présentation Qui nous sommes Les équipes Votre Ruche Carte des ruches Agenda Événements & réunions Branco 2027 La candidature et le projet pour la présidentielle 2027 — construire une alternative citoyenne. Le projet Juan Branco Le candidat Foire aux questions Juan Branco en 100 questions La Voie Programme politique Parrainages 2027 Soutiens & élus Ressources Comprendre, se former et s'outiller pour le débat public et l'action. Explorer Bibliothèque Les livres Vidéo",
       "kind": "registry_source",
       "last_modified": null,
@@ -12213,9 +12149,9 @@
       "status": 200
     },
     "https://ruches.org/le-projet": {
-      "checked_at": "2026-09-08T21:55:26+00:00",
+      "checked_at": "2026-09-09T06:04:46+00:00",
       "content_type": "text/html; charset=utf-8",
-      "etag": "\"oxe9kfniy4bqbo\"",
+      "etag": "\"3zig1ejl7rbqcv\"",
       "excerpt": "Le Projet 2027 — Programme en 6 piliers | Ruches Françaises Le Mouvement Branco 2027 Ressources Connexion Le Mouvement Un mouvement citoyen organisé en cellules locales. Sans parti, sans chef, financé à 100 % par le peuple. Découvrir Présentation Qui nous sommes Les équipes Votre Ruche Carte des ruches Agenda Événements & réunions Branco 2027 La candidature et le projet pour la présidentielle 2027 — construire une alternative citoyenne. Le projet Juan Branco Le candidat Foire aux questions Juan Branco en 100 questions La Voie Programme politique Parrainages 2027 Soutiens & élus Ressources Comprendre, se former et s'outiller pour le débat public et l'action. Explorer Bibliothèque Les livres V",
       "kind": "registry_source",
       "last_modified": null,
@@ -12225,7 +12161,7 @@
       "status": 200
     },
     "https://segolene-ordrejuste.fr/": {
-      "checked_at": "2026-09-08T21:56:03+00:00",
+      "checked_at": "2026-09-09T06:05:18+00:00",
       "content_type": "text/html; charset=utf-8",
       "etag": null,
       "excerpt": "France Tranquille — Soutenir la candidature de Ségolène Royal",
@@ -12237,7 +12173,7 @@
       "status": 200
     },
     "https://solutiondemocratique.fr/": {
-      "checked_at": "2026-09-08T21:55:58+00:00",
+      "checked_at": "2026-09-09T06:05:13+00:00",
       "content_type": "text/html; charset=UTF-8",
       "etag": null,
       "excerpt": "Solution Démocratique, parti politique pour la démocratie directe Aller au contenu Accueil Notre solution Qui sommes-nous ? Adhérez Faites un don 🛒 Rechercher : Rechercher Rechercher Rechercher : Rechercher Rechercher Accueil Notre solution Qui sommes-nous ? Adhérez Faites un don 🛒 Solution Démocratique souhaite changer les règles du jeu à l’avantage de tous. En s’inspirant de ce qui marche bien ailleurs depuis longtemps. Adhérez Recevez notre newsletter Ce que nous voulons Comme beaucoup de Français, nous sommes préoccupés par la sécurité, le pouvoir d’achat, le changement climatique, la pauvreté ou les questions migratoires. Mais un constat s’impose : malgré les alternances politiques, les",
@@ -12249,7 +12185,7 @@
       "status": 200
     },
     "https://solutiondemocratique.fr/notre-solution/calendrier-president/": {
-      "checked_at": "2026-09-08T21:56:00+00:00",
+      "checked_at": "2026-09-09T06:05:15+00:00",
       "content_type": "text/html; charset=UTF-8",
       "etag": null,
       "excerpt": "Présidentielle 2027 : découvrez le programme de notre candidat Aller au contenu Accueil Notre solution Qui sommes-nous ? Adhérez Faites un don 🛒 Rechercher : Rechercher Rechercher Accueil Notre solution (et notre stratégie) Calendrier une fois élu président Rechercher : Rechercher Rechercher Accueil Notre solution (et notre stratégie) Calendrier une fois élu président Accueil Notre solution Qui sommes-nous ? Adhérez Faites un don 🛒 Présidentielle 2027 : comment enfin donner aux élus locaux et citoyens marge de manoeuvre et contrôle La plupart des candidats à l’élection présidentielle proposent des programmes détaillés couvrant de nombreux sujets, sans expliquer comment ces promesses pourraie",
@@ -12261,7 +12197,7 @@
       "status": 200
     },
     "https://solutiondemocratique.fr/parrainage2027/": {
-      "checked_at": "2026-09-08T21:56:01+00:00",
+      "checked_at": "2026-09-09T06:05:17+00:00",
       "content_type": "text/html; charset=UTF-8",
       "etag": null,
       "excerpt": "Parrainage 2027 - Solution Démocratique - Parti politique pour instaurer la démocratie directe Aller au contenu Accueil Notre solution Qui sommes-nous ? Adhérez Faites un don 🛒 Rechercher : Rechercher Rechercher Accueil Parrainage 2027 Rechercher : Rechercher Rechercher Accueil Parrainage 2027 Accueil Notre solution Qui sommes-nous ? Adhérez Faites un don 🛒 Avec Clara Egger, un projet pour répondre à une crise de confiance devenue centrale dans notre vie démocratique, en replaçant les citoyens et les élus locaux au cœur du fonctionnement politique. Accédez à notre formulaire d’intérêt Ce que nous voulons Depuis plusieurs années, un constat s’impose : une grande partie des Français ne croit p",
@@ -12273,7 +12209,7 @@
       "status": 200
     },
     "https://trajectoire2027.fr/programme.html": {
-      "checked_at": "2026-09-08T21:55:36+00:00",
+      "checked_at": "2026-09-09T06:04:59+00:00",
       "content_type": "text/html",
       "etag": null,
       "excerpt": "Trajectoire â Programme Accueil Programme Carte interactive ActualitÃ©s Qui sommes-nous ? Soutenir FAQ Programme Un seul objectif : rÃ©partir le pouvoir politique pour que les dÃ©cisions soient prises par tous et pour tous. 1 Une fois au pouvoir RÃ©union d'un collÃ¨ge de constitutionnalistes Un collÃ¨ge de constitutionnalistes est rÃ©uni dans le but de rÃ©diger les modalitÃ©s de convocation de l'assemblÃ©e constituante . 2 Article 11 RÃ©fÃ©rendum sur les modalitÃ©s Ces modalitÃ©s sont soumises Ã rÃ©fÃ©rendum par le biais de l'article 11. Deux scÃ©narios possibles : â AcceptÃ©es L'assemblÃ©e constituante est convoquÃ©e. âº RefusÃ©es Le collÃ¨ge se rÃ©unit Ã nouveau, jusqu'Ã trouver des m",
@@ -12285,7 +12221,7 @@
       "status": 200
     },
     "https://trajectoire2027.fr/qui-sommes-nous.html": {
-      "checked_at": "2026-09-08T21:55:37+00:00",
+      "checked_at": "2026-09-09T06:04:59+00:00",
       "content_type": "text/html",
       "etag": null,
       "excerpt": "Trajectoire â Qui sommes-nous ? Accueil Programme Carte interactive ActualitÃ©s Qui sommes-nous ? Soutenir FAQ Qui sommes-nous ? Une Ã©quipe de sept personnes convaincues qu'une dÃ©mocratie plus juste est possible. 7 personnes dans l'Ã©quipe 1 candidat Ã temps plein 12 000â¬ de fonds disponibles Manolo Mlekuz Candidat Ã©lection prÃ©sidentielle PremiÃ¨re adhÃ©sion au PS Ã 15 ans, stage au sein de La France Insoumise et militantisme actif sous l'Ã©tiquette Nouveau Front Populaire dans le 93. RÃ©sultats ? Un dÃ©senchantement profond de la politique traditionnelle, de son fonctionnement et ses petits arrangements, de son entre-soi et de ses acteurs qui vivent la politique comme une carriÃ¨re.",
@@ -12297,7 +12233,7 @@
       "status": 200
     },
     "https://upr.fr/": {
-      "checked_at": "2026-09-08T21:56:04+00:00",
+      "checked_at": "2026-09-09T06:05:18+00:00",
       "content_type": "text/html",
       "etag": null,
       "excerpt": "Union Populaire RÃ©publicaine DÃ©couvrir l'UPR Programme ActualitÃ©s S'engager Presse Boutique Contact Espace membre N i g a u c h e n i d r o i t e : u n i s p o u r l a F r a n c e ! R e j o i g n e z l e m o u v e m e n t . AdhÃ©rer Ã l'UPR Faire un don Union Populaire RÃ©publicaine Pour le Frexit , avec FranÃ§ois Asselineau AdhÃ©rer Ã l'UPR Faire un don Le programme Nos engagements Notre programme Voulant redonner toute son actualitÃ© au programme du Conseil national de la RÃ©sistance de 1944, FranÃ§ois Asselineau propose aux FranÃ§ais de se rassembler, afin de rendre Ã la France sa libertÃ© et son indÃ©pendance. LibÃ©rons-nous de l'UE, de l'â¬, de l'OTAN, protÃ©geons nos services publi",
@@ -12305,11 +12241,11 @@
       "last_modified": null,
       "owner": "Union populaire républicaine",
       "resolved_url": "https://upr.fr/",
-      "sha256": "4abec3c28857c1870164ef028f56eb8512d90840b1e4ec6f2afcda6c66b7dfdd",
+      "sha256": "6c3392a613387e9bfa4b8d9c84b0faf88b2d7204b3dd7baa8f454408dedea59f",
       "status": 200
     },
     "https://www.debout-la-france.fr/": {
-      "checked_at": "2026-09-08T21:55:11+00:00",
+      "checked_at": "2026-09-09T06:04:34+00:00",
       "content_type": "text/html; charset=UTF-8",
       "etag": null,
       "excerpt": "Debout La France - Une France Indépendante, des Français Libres Passer au contenu Debout La France Projet Actualités NDA Organisation DLF Près de chez vous Le Bureau National Les Chargés de mission régionaux Les Conseillers Nationaux Espace Militant Statuts Debout La France Boutique Contact Nous contacter DLF près de chez vous Recherche : DONNER ADHÉRER Projet Actualités NDA Organisation DLF Près de chez vous Le Bureau National Les Chargés de mission régionaux Les Conseillers Nationaux Espace Militant Statuts Debout La France Boutique Contact Nous contacter DLF près de chez vous UNE FRANCE INDÉPENDANTE, DES FRANÇAIS LIBRES ! ILS ONT DES MILLIONS, NOUS AVONS DES CONVICTIONS ! AIDEZ-NOUS À LIB",
@@ -12317,11 +12253,11 @@
       "last_modified": null,
       "owner": "Debout la France",
       "resolved_url": "https://www.debout-la-france.fr/",
-      "sha256": "17be30a0d587ea748c5c3f63b41a76dc04c4944cc245cf4ec31a109b0e99610b",
+      "sha256": "91c3a053f07a2b05be32139b0cc29aa3a419b15bcfd75eda998a384ddfe54d86",
       "status": 200
     },
     "https://www.debout-la-france.fr/notre-projet/": {
-      "checked_at": "2026-09-08T21:55:12+00:00",
+      "checked_at": "2026-09-09T06:04:34+00:00",
       "content_type": "text/html; charset=UTF-8",
       "etag": null,
       "excerpt": "Projet - Debout La France Passer au contenu Debout La France Projet Actualités NDA Organisation DLF Près de chez vous Le Bureau National Les Chargés de mission régionaux Les Conseillers Nationaux Espace Militant Statuts Debout La France Boutique Contact Nous contacter DLF près de chez vous Recherche : DONNER ADHÉRER Projet Actualités NDA Organisation DLF Près de chez vous Le Bureau National Les Chargés de mission régionaux Les Conseillers Nationaux Espace Militant Statuts Debout La France Boutique Contact Nous contacter DLF près de chez vous Le Projet de Debout La France Retrouvez notre projet, nos idées pour permettre de retrouver l'indépendance de la France et la liberté des Français Le pr",
@@ -12333,7 +12269,7 @@
       "status": 200
     },
     "https://www.dupontaignan.fr/": {
-      "checked_at": "2026-09-08T21:55:40+00:00",
+      "checked_at": "2026-09-09T06:05:02+00:00",
       "content_type": "text/html; charset=UTF-8",
       "etag": null,
       "excerpt": "Nicolas Dupont-Aignan - Candidat à l'élection présidentielle 2027 ! Aller au contenu NICOLAS DUPONT-AIGNAN 2027 NICOLAS DUPONT-AIGNAN 2027 NICOLAS DUPONT-AIGNAN 2027 Projet Actualités NDA Contact Je parraine Je donne Oui je suis candidat à l'élection présidentielle pour proposer 2 éléctrochocs Un électrochoc « démocratique » pour rendre le pouvoir aux Français Un électrochoc « indépendantiste » pour rendre sa liberté à la France Mes mesures prioritaires SUIVEZ L'ACTUALITÉ DE NICOLAS DUPONT-AIGNAN Courriel * Je souhaite recevoir les informations de Debout la France et Nicolas Dupont-Aignan concernant l’actualité politique et les campagnes électorales. J'accepte la politique de confidentialité",
@@ -12341,11 +12277,11 @@
       "last_modified": null,
       "owner": "Nicolas Dupont-Aignan",
       "resolved_url": "https://www.dupontaignan.fr/",
-      "sha256": "fadebd8e12dbce405c4e8cc1373c3e3849ed3dd96492d8198a6ae11683c1f8b4",
+      "sha256": "af6fb1b1785d2be0e0e9426a275470070f7a9c32a9602d1f286ed40f24a1ae88",
       "status": 200
     },
     "https://www.edouardphilippe.fr/": {
-      "checked_at": "2026-09-08T21:56:09+00:00",
+      "checked_at": "2026-09-09T06:05:23+00:00",
       "content_type": "text/html; charset=utf-8",
       "etag": null,
       "excerpt": "Avec Édouard — Édouard Philippe, présidentielle 2027 Aller au contenu principal Édouard Philippe — Présidentielle 2027 Prendre part Les priorités Donner Rejoindre Rejoindre → Prendre part Les priorités Donner Rejoindre Rejoindre → Édouard Philippe Rejoindre Rejoindre → Défiler À la une L’actu à ne pas manquer. ▶ 5 juillet 2026 Grand meeting d’Édouard Philippe à l’Adidas Arena ! Voir la vidéo Voir la vidéo → S'engager Prendre part. Choisissez la manière dont vous voulez contribuer : sur le terrain, par un don ou en restant informé. Agir S'engager S'engager → Donner Faire un don Faire un don → Rejoindre Rejoindre Rejoindre → Les élus avec Édouard Rejoindre Rejoindre → En mouvement Voir loin. D",
@@ -12357,7 +12293,7 @@
       "status": 200
     },
     "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-conquerante": {
-      "checked_at": "2026-09-08T21:56:09+00:00",
+      "checked_at": "2026-09-09T06:05:23+00:00",
       "content_type": "text/html; charset=utf-8",
       "etag": null,
       "excerpt": "Pour une France plus conquérante — Avec Édouard 2027 Prendre part Les priorités Donner Rejoindre Rejoindre → Prendre part Les priorités Donner Rejoindre Rejoindre → → Retour Les priorités Pour une France plus conquérante S’adapter aux grandes transitions technologique et climatique L'intelligence artificielle et le dérèglement climatique sont aujourd’hui les deux grandes bascules qui redessinent les rapports de force mondiaux : qui maîtrisera le calcul et s'adaptera le mieux gouvernera le monde de demain. La France a déjà su être au rendez-vous des grandes ruptures technologiques et énergétiques, du nucléaire au spatial : elle a les talents, les chercheurs et les infrastructures pour réussir",
@@ -12369,7 +12305,7 @@
       "status": 200
     },
     "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere": {
-      "checked_at": "2026-09-08T21:56:10+00:00",
+      "checked_at": "2026-09-09T06:05:24+00:00",
       "content_type": "text/html; charset=utf-8",
       "etag": null,
       "excerpt": "Pour une France plus prospère — Avec Édouard 2027 Prendre part Les priorités Donner Rejoindre Rejoindre → Prendre part Les priorités Donner Rejoindre Rejoindre → → Retour Les priorités Pour une France plus prospère Libérer l’économie française, protéger le marché européen, tenir nos comptes La France décroche. Pendant des décennies, nous avons cru pouvoir financer notre modèle en augmentant sans cesse impôts et contraintes sur nos entreprises, et en empruntant pour combler le reste. Ce temps-là est révolu. Notre modèle social a été bâti en 1945, pour une France jeune, en pleine reconstruction, portée par une démographie florissante. Ce monde a disparu. Nous vivons plus longtemps, nous faison",
@@ -12381,7 +12317,7 @@
       "status": 200
     },
     "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-sure": {
-      "checked_at": "2026-09-08T21:56:10+00:00",
+      "checked_at": "2026-09-09T06:05:24+00:00",
       "content_type": "text/html; charset=utf-8",
       "etag": null,
       "excerpt": "Pour une France plus sûre — Avec Édouard 2027 Prendre part Les priorités Donner Rejoindre Rejoindre → Prendre part Les priorités Donner Rejoindre Rejoindre → → Retour Les priorités Pour une France plus sûre Remettre de l’ordre dans nos rues et à nos frontières Il faut remettre de l’ordre chez nous, dans nos rues. Première mission régalienne de l'État, la Justice est devenue un facteur de désordre. Résultat, tout se délite. Les Français n’ont plus confiance en l’État. Entre dysfonctionnements à répétition, surcharges, lenteurs incompréhensibles, sanctions inadaptées, il faut refonder la Justice. De fond en comble. Pour qu'enfin elle puisse mettre fin aux fléaux qui minent notre société, à com",
@@ -12393,7 +12329,7 @@
       "status": 200
     },
     "https://www.generationecologie.fr/a-propos/generation-ecologie/notre-projet/": {
-      "checked_at": "2026-09-08T21:55:22+00:00",
+      "checked_at": "2026-09-09T06:04:42+00:00",
       "content_type": "text/html; charset=UTF-8",
       "etag": null,
       "excerpt": "Notre projet - Génération Écologie Aller au contenu À propos Notre raison d’être Qui sommes-nous ? Nos valeurs Notre projet Notre organisation L’équipe Le réseau des élues et élus Les groupes locaux Les commissions thématiques S’informer Nos positions Nos actualités Nos communiqués Nos résolutions politiques Nos ressources Nos podcasts Nos publications Nous suivre S'abonner à la newsletter Nos prochains évènements Agir avec nous Échanger Nous contacter S’engager Adhérer Faire un don Militer Matériel de campagne Action locale Newsletter Retour à l'accueil À propos Notre raison d’être Notre projet Notre projet Les réponses à l’état d’urgence écologique qui ont prévalu jusqu’ici ont échoué. Gén",
@@ -12405,31 +12341,31 @@
       "status": 200
     },
     "https://www.jerome-guedj.fr/": {
-      "checked_at": "2026-09-08T21:55:26+00:00",
+      "checked_at": "2026-09-09T06:04:46+00:00",
       "content_type": "text/html; charset=utf-8",
       "etag": "W/\"2d9f3269fa0f2f29f3ef1f889b9cfa24\"",
       "excerpt": "Jérôme Guedj — Député de l'Essonne",
       "kind": "registry_source",
-      "last_modified": "Mon, 07 Sep 2026 00:21:33 GMT",
+      "last_modified": "Sun, 06 Sep 2026 22:29:23 GMT",
       "owner": "Jérôme Guedj",
       "resolved_url": "https://www.jerome-guedj.fr/",
       "sha256": "8f0fc94b5094bf91786320a525737bbfe73aed3536110e6e63aecdae12df2c62",
       "status": 200
     },
     "https://www.jerome-guedj.fr/la-clarte-plutot-que-les-slogans-pourquoi-jai-annonce-ma-candidature-pour-2027/": {
-      "checked_at": "2026-09-08T21:55:26+00:00",
+      "checked_at": "2026-09-09T06:04:46+00:00",
       "content_type": "text/html; charset=utf-8",
       "etag": "W/\"2d9f3269fa0f2f29f3ef1f889b9cfa24\"",
       "excerpt": "Jérôme Guedj — Député de l'Essonne",
       "kind": "candidate_official_evidence",
-      "last_modified": "Sun, 06 Sep 2026 22:34:10 GMT",
+      "last_modified": "Sun, 06 Sep 2026 22:15:53 GMT",
       "owner": "Jérôme Guedj",
       "resolved_url": "https://www.jerome-guedj.fr/la-clarte-plutot-que-les-slogans-pourquoi-jai-annonce-ma-candidature-pour-2027/",
       "sha256": "8f0fc94b5094bf91786320a525737bbfe73aed3536110e6e63aecdae12df2c62",
       "status": 200
     },
     "https://www.karimbouamrane2027.org/": {
-      "checked_at": "2026-09-08T21:55:27+00:00",
+      "checked_at": "2026-09-09T06:04:47+00:00",
       "content_type": "text/html; charset=UTF-8",
       "etag": "W/\"bfe6-19fc377d82b\"",
       "excerpt": "Karim Bouamrane 2027 — La France Humaine & Forte ♥ Je soutiens Je fais un don → Parce que nous avons pris conscience de notre force Je soutiens → Mes chèr-e-s compatriotes, Je suis candidat à la présidence de la République parce que je veux une France humaine, une France forte. Je suis candidat parce que nous sommes la majorité à vouloir un projet qui améliore concrètement la vie des Françaises et des Français, en les respectant tous, sans les opposer, sans les stigmatiser, en leur donnant un véritable espoir républicain. Une France forte ne peut être durablement forte que si elle est humaine. Une France humaine ne peut protéger ses citoyens que si elle est forte. Lire le manifeste complet →",
@@ -12441,7 +12377,7 @@
       "status": 200
     },
     "https://www.la-convention.fr/": {
-      "checked_at": "2026-09-08T21:55:28+00:00",
+      "checked_at": "2026-09-09T06:04:47+00:00",
       "content_type": "text/html; charset=UTF-8",
       "kind": "registry_source",
       "last_fetch_error": "HTTP 403",
@@ -12450,7 +12386,7 @@
       "status": 403
     },
     "https://www.lafrancehumaniste.fr/": {
-      "checked_at": "2026-09-08T21:55:28+00:00",
+      "checked_at": "2026-09-09T06:04:48+00:00",
       "content_type": "text/html",
       "etag": null,
       "excerpt": "La France Humaniste Cercles Humanistes Chroniques Newsletter AdhÃ©rer Soutenir Cercles Humanistes Chroniques Newsletter AdhÃ©rer Soutenir Rejoignez la France Humaniste Rejoindre dÃ¨s maintenant Faire un don Rejoignez la France Humaniste Rejoindre dÃ¨s maintenant Faire un don contact@lafrancehumaniste.fr 15 rue Le Sueur, 75116 Paris 2026 La France Humaniste Notice dâinformations Politique de confidentialitÃ©",
@@ -12462,31 +12398,31 @@
       "status": 200
     },
     "https://www.lutte-ouvriere.org/": {
-      "checked_at": "2026-09-08T21:55:36+00:00",
+      "checked_at": "2026-09-09T06:04:59+00:00",
       "content_type": "text/html",
-      "etag": "\"14a4c-65af7ea9f6300-gzip\"",
+      "etag": null,
       "excerpt": "Portail de Lutte ouvriÃ¨re Portail Journal Revue CLT AudioLO Union communiste internationaliste FÃªte Nous soutenir Les autres sites Portail Journal Revue CLT AudioLO Union communiste internationaliste FÃªte Nous soutenir ActualitÃ©s Dans le monde Dans les entreprises Leur sociÃ©tÃ© Municipales 2026 Ãditoriaux CommuniquÃ©s BrÃ¨ves Agenda Meetings Affiches Autocollants Revue de presse Qui sommes-nousÂ ? PrÃ©sentation Notre organisation Nos idÃ©es et positions politiques En rÃ©gions Auvergne-RhÃ´ne-Alpes Bourgogne-Franche-ComtÃ© Bretagne Centre-Val de Loire Grand Est Hauts-de-France Ãle-de-France Normandie Nouvelle-Aquitaine Occitanie PACA-Corse Pays de la Loire Ãle de la RÃ©union Mayotte G",
       "kind": "party_official",
-      "last_modified": "Tue, 08 Sep 2026 12:31:40 GMT",
+      "last_modified": null,
       "owner": "Lutte ouvrière",
       "resolved_url": "https://www.lutte-ouvriere.org/",
       "sha256": "1e07dafb3c49ecb53de709db3e40d8f53d9bd604be7ade1cc87b0a410dc7cf34",
       "status": 200
     },
     "https://www.lutte-ouvriere.org/portail/nathalie-arthaud.html": {
-      "checked_at": "2026-09-08T21:55:39+00:00",
+      "checked_at": "2026-09-09T06:05:01+00:00",
       "content_type": "text/html",
-      "etag": "\"7b8e-65af7ea719c40-gzip\"",
+      "etag": null,
       "excerpt": "Le site de Nathalie Arthaud > Le site de Lutte ouvriÃ¨re > L'hebdomadaire Lutte ouvriÃ¨re Nous soutenir Les autres sites Le site de Lutte ouvriÃ¨re L'hebdomadaire Lutte ouvriÃ¨re Nous soutenir ActualitÃ©s Agenda MultimÃ©dia Nos positions Souscription Contact Menu Menu Accueil ActualitÃ©s Agenda MultimÃ©dia Nos positions Souscription Contact Ã la Une Face aux mensonges patronaux, affirmer les intÃ©rÃªts des travailleurs ! La campagne prÃ©sidentielle est partout. Les meetings se multiplient et les dÃ©clarations des uns et des autres sâenchaÃ®nent. Ãditorial Â 07/09/2026 Le camp des travailleurs ou celui du Medef ! Ãditorial Â 31/08/2026 L'Ã©ditorial en vidÃ©oÂ : Face aux mensonges patrona",
       "kind": "registry_source",
-      "last_modified": "Tue, 08 Sep 2026 12:31:37 GMT",
+      "last_modified": null,
       "owner": "Nathalie Arthaud",
       "resolved_url": "https://www.lutte-ouvriere.org/portail/nathalie-arthaud.html",
       "sha256": "2289e5c32dfe59a0b073a898da5acb1751cfb9ddd7c3d9f932bb0643d02a6533",
       "status": 200
     },
     "https://www.parti-reconquete.fr/": {
-      "checked_at": "2026-09-08T21:55:51+00:00",
+      "checked_at": "2026-09-09T06:05:10+00:00",
       "content_type": "text/html; charset=UTF-8",
       "etag": null,
       "excerpt": "RECONQUÊTE — Le mouvement d'Éric Zemmour Notre mouvement J'agis Contact Athos, votre espace adhérent Faire un don J'adhère Notre mouvement J'agis Athos, votre espace adhérent Contact Faire un don J'adhère Le mouvement d'Éric Zemmour Rejoignez nos 100 000 adhérents ! J'adhère Engagement Les priorités d'Éric Zemmour pour la France Cela fait 30 ans qu'Éric Zemmour pose les bons diagnostics sur les principaux maux de la France, quitte à souvent prêcher seul dans le désert et contre tous. Ses priorités sont extrêmement claires et faciles à retenir : Identité, Immigration, Islam, Insécurité, Instruction, Impôts, Industrie et Indépendance, il est temps de remettre, en France, les points sur les i !",
@@ -12498,19 +12434,19 @@
       "status": 200
     },
     "https://www.parti-socialiste.fr/": {
-      "checked_at": "2026-09-08T21:55:47+00:00",
+      "checked_at": "2026-09-09T06:05:07+00:00",
       "content_type": "text/html; charset=UTF-8",
       "etag": null,
       "excerpt": "Parti Socialiste Aller au contenu Le Parti Socialiste Fermer Le Parti Socialiste Ouvrir Le Parti Socialiste Le Parti Socialiste Le Premier Secrétaire Figure clé du rassemblement de la gauche en France, Olivier Faure a mené une carrière de conseiller politique et de député avant de devenir premier secrétaire du Parti socialiste en 2018 Les instances Comprendre les instances de démocratie interne Nos fédérations Les fédérations socialistes, actrices du militantisme quotidien Nos élu·e·s Le Parti socialiste bénéficie du maillage territorial le plus fin des partis politiques de gauche Nos porte-parole Découvrez celles et ceux qui s’engagent au quotidien pour faire entendre nos valeurs Nos parten",
       "kind": "party_official",
-      "last_modified": "Tue, 08 Sep 2026 20:26:51 GMT",
+      "last_modified": "Wed, 09 Sep 2026 03:59:04 GMT",
       "owner": "Parti socialiste",
       "resolved_url": "https://parti-socialiste.fr/",
       "sha256": "5cc01cf7799b6b7be791480d03412c314b41dc9d345ac5912a8e67cd44894225",
       "status": 200
     },
     "https://www.pcf.fr/": {
-      "checked_at": "2026-09-08T21:55:42+00:00",
+      "checked_at": "2026-09-09T06:05:04+00:00",
       "content_type": "text/html; charset=UTF-8",
       "etag": null,
       "excerpt": "Just a moment...",
@@ -12523,7 +12459,7 @@
       "status": 403
     },
     "https://www.pcf.fr/le_programme": {
-      "checked_at": "2026-09-08T21:55:42+00:00",
+      "checked_at": "2026-09-09T06:05:04+00:00",
       "content_type": "text/html; charset=UTF-8",
       "kind": "party_programme",
       "last_fetch_error": "HTTP 403",
@@ -12532,7 +12468,7 @@
       "status": 403
     },
     "https://www.philippe-brun.fr/": {
-      "checked_at": "2026-09-08T21:55:48+00:00",
+      "checked_at": "2026-09-09T06:05:07+00:00",
       "content_type": "text/html; charset=utf-8",
       "etag": "W/\"f4e4dc367270fb57b057dcea9b87d6c5\"",
       "excerpt": "Philippe Brun · Le candidat des salaires Philippe Brun, le candidat des salaires. Rejoignez une campagne nationale de proximité pour remettre les salaires, les factures, le logement et les services publics au centre du débat. Nom Code postal Email Téléphone Rejoindre J’accepte d’être contacté par l’équipe de campagne de Philippe Brun. Philippe Brun Menu Pouvoir d'achat Programme Simulateur La caisse populaire Signer la pétition Notre proposition : le salaire Brun Le salaire Brun rend la CSG progressive pour augmenter le salaire net des travailleurs qui en ont le plus besoin. Le principe est simple : les bas salaires paient moins de CSG, puis le taux remonte progressivement jusqu’au niveau ac",
@@ -12544,7 +12480,7 @@
       "status": 200
     },
     "https://www.philippe-brun.fr/actualites/salaire-brun-proposition-pouvoir-achat": {
-      "checked_at": "2026-09-08T21:55:48+00:00",
+      "checked_at": "2026-09-09T06:05:07+00:00",
       "content_type": "text/html; charset=utf-8",
       "etag": "W/\"rhmkej29swlde\"",
       "excerpt": "Le salaire brun, proposition centrale pour augmenter le net · Philippe Brun Philippe Brun Menu Pouvoir d'achat Programme Simulateur La caisse populaire Signer la pétition Retour Pouvoir d'achat · 21 juin 2026 Le salaire brun, proposition centrale pour augmenter le net Une CSG progressive pour redonner du pouvoir d’achat aux bas et moyens salaires sans complexifier la fiche de paie. Le salaire brun part d’un constat simple : beaucoup de Français travaillent, mais ne voient pas assez la différence sur leur salaire net à la fin du mois. La proposition consiste à rendre la CSG progressive. Les bas et moyens salaires paieraient moins, puis le taux remonterait graduellement jusqu’au niveau actuel ",
@@ -12556,31 +12492,31 @@
       "status": 200
     },
     "https://www.revolutionpermanente.fr/": {
-      "checked_at": "2026-09-08T21:55:53+00:00",
+      "checked_at": "2026-09-09T06:05:11+00:00",
       "content_type": "text/html; charset=utf-8",
       "etag": null,
       "excerpt": "Revolution Permanente × Qui sommes-nous ? Nous rejoindre Faire un don Formations marxistes Politique Notre Classe International Racisme et violences d’État Genre et Sexualités Écologie Jeunesse Débats Armes de la critique Nous rejoindre Faire un don Extrême droite Victoire de l’extrême droite en Allemagne : l’AfD avance sur la misère, le racisme et la peur de la guerre Rentrée politique Révolution Permanente à la Fête de l’Humanité : découvrez le programme ! Analyse Witkoff et Kushner en Ukraine. Reprendre les négociations pour éviter une débâcle ? Billet « Critique du militarisme allemand ou défense de l’impérialisme français ? » : Anasse Kazib répond à Mélenchon Crise politique Budget 2027",
       "kind": "party_official",
-      "last_modified": "Tue, 08 Sep 2026 21:55:53 GMT",
+      "last_modified": "Wed, 09 Sep 2026 06:04:53 GMT",
       "owner": "Révolution Permanente",
       "resolved_url": "https://www.revolutionpermanente.fr/",
-      "sha256": "9635009a1e863a5c7d68ada9f49c235c2e24ced64ed1247c45dee2d286209031",
+      "sha256": "5199b1ff217f88d83057ced8e5fffa425d18c79cebab26fc23d94ad838681c66",
       "status": 200
     },
     "https://www.revolutionpermanente.fr/Anasse-Kazib-2027": {
-      "checked_at": "2026-09-08T21:55:01+00:00",
+      "checked_at": "2026-09-09T06:04:28+00:00",
       "content_type": "text/html; charset=utf-8",
       "etag": null,
       "excerpt": "Anasse Kazib 2027 × Qui sommes-nous ? Nous rejoindre Faire un don Formations marxistes Politique Notre Classe International Racisme et violences d’État Genre et Sexualités Écologie Jeunesse Débats Armes de la critique Nous rejoindre Faire un don Anasse Kazib 2027 Rentrée politique Révolution Permanente à la Fête de l’Humanité : découvrez le programme ! 8 septembre Islamophobie Anasse Kazib sur l’interdiction de l’abaya : « Il faut l’abroger ainsi que toutes les lois islamophobes » 7 septembre Présidentielle 2027 Attaque contre l’assurance-chômage, arrêts de travail : Edouard Philippe révèle ses premières mesures 28 août Présidentielles 2027 Entre alignement avec le patronat et espoir d’un co",
       "kind": "registry_source",
-      "last_modified": "Tue, 08 Sep 2026 21:53:37 GMT",
+      "last_modified": "Wed, 09 Sep 2026 06:04:28 GMT",
       "owner": "Anasse Kazib",
       "resolved_url": "https://www.revolutionpermanente.fr/Anasse-Kazib-2027",
       "sha256": "b414af3441e48e4ef888e87506a662bffc4d1cde846947702f2ba42479a461bb",
       "status": 200
     },
     "https://www.unenouvelleenergie.fr/": {
-      "checked_at": "2026-09-08T21:55:42+00:00",
+      "checked_at": "2026-09-09T06:05:03+00:00",
       "content_type": "text/html; charset=utf-8",
       "etag": "\"brghxs2ay43ido\"",
       "excerpt": "Nouvelle Énergie - David Lisnard Aller au contenu Adhérer Agenda Faire un don Nous contacter Découvrir notre parti Programme Actualités J’adhère Élection présidentielle française de 2027 David Lisnard ouvre le chemin du sursaut français Invité du journal de 20h sur France 2 face à Léa Salamé, David Lisnard a posé un acte politique majeur. Présidentielle 2027 : David Lisnard ouvre le chemin du sursaut français Interview pour le JDD Vive la liberté et AFUERA le collectivisme ! David Lisnard étrille l’asphyxie bureaucratique et accuse l’État d’étouffer les communes. Vive la liberté et AFUERA le collectivisme ! Entretien « Ce qu’on veut, c’est une vraie rupture libérale » Confortablement réélu, ",
@@ -12592,9 +12528,9 @@
       "status": 200
     },
     "https://www.unenouvelleenergie.fr/notre-programme/": {
-      "checked_at": "2026-09-08T21:55:42+00:00",
+      "checked_at": "2026-09-09T06:05:03+00:00",
       "content_type": "text/html; charset=utf-8",
-      "etag": "\"bmdud52kr740vz\"",
+      "etag": "\"15zx4ieuy8y41ci\"",
       "excerpt": "Le programme de David Lisnard | Nouvelle Énergie Aller au contenu Adhérer Agenda Faire un don Nous contacter Découvrir notre parti Programme Actualités J’adhère Notre programme Découvrez notre programme politique pour la France, articulé autour de 9 thématiques principales et d’une vision de refondation nationale. “ « Une révolution de la liberté pour une France forte, juste et rayonnante Notre pays a besoin d’un sursaut. Je veux rompre avec l’étatisme et la bureaucratie qui paralysent la France. Mon projet repose sur trois principes fondamentaux : un État recentré sur ses missions régaliennes de sécurité et de défense ; la libération des énergies créatrices par une profonde débureaucratisat",
       "kind": "party_programme",
       "last_modified": null,
@@ -12604,7 +12540,7 @@
       "status": 200
     },
     "https://www.upr.fr/": {
-      "checked_at": "2026-09-08T21:56:05+00:00",
+      "checked_at": "2026-09-09T06:05:19+00:00",
       "content_type": "text/html",
       "etag": null,
       "excerpt": "Union Populaire RÃ©publicaine DÃ©couvrir l'UPR Programme ActualitÃ©s S'engager Presse Boutique Contact Espace membre N i g a u c h e n i d r o i t e : u n i s p o u r l a F r a n c e ! R e j o i g n e z l e m o u v e m e n t . AdhÃ©rer Ã l'UPR Faire un don Union Populaire RÃ©publicaine Pour le Frexit , avec FranÃ§ois Asselineau AdhÃ©rer Ã l'UPR Faire un don Le programme Nos engagements Notre programme Voulant redonner toute son actualitÃ© au programme du Conseil national de la RÃ©sistance de 1944, FranÃ§ois Asselineau propose aux FranÃ§ais de se rassembler, afin de rendre Ã la France sa libertÃ© et son indÃ©pendance. LibÃ©rons-nous de l'UE, de l'â¬, de l'OTAN, protÃ©geons nos services publi",
@@ -12612,7 +12548,7 @@
       "last_modified": null,
       "owner": "Union populaire républicaine",
       "resolved_url": "https://upr.fr/",
-      "sha256": "4abec3c28857c1870164ef028f56eb8512d90840b1e4ec6f2afcda6c66b7dfdd",
+      "sha256": "6c3392a613387e9bfa4b8d9c84b0faf88b2d7204b3dd7baa8f454408dedea59f",
       "status": 200
     }
   },
@@ -12639,7 +12575,7 @@
         17,
         18
       ],
-      "checked_at": "2026-09-08T21:58:38+00:00",
+      "checked_at": "2026-09-09T06:07:17+00:00",
       "complete": false,
       "contiguous": true,
       "coverage_urls": [
