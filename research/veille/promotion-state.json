@@ -425,6 +425,11 @@
       "source_url": "https://attalpresident.fr/programme/dette-de-letat",
       "verified_at": "2026-09-05T05:56:58+00:00"
     },
+    "462170ab9083d8e6eab7d0955f438ecfbf644400bc0a65b1c27a80607753d88e": {
+      "proposal_id": "auto-rassemblement-national-pouvoir-achat-travail-462170ab9083",
+      "source_url": "https://www.youtube.com/shorts/uLNSr5UoXWA",
+      "verified_at": "2026-09-10T12:22:21+00:00"
+    },
     "468010a5d31b4e619ed227a9904b4e7b535af7bc492639de3847a96978e789f6": {
       "proposal_id": "auto-la-france-insoumise-europe-souverainete-468010a5d31b",
       "source_url": "https://melenchon2027.fr/programme2025/livre/chapitre16/",
@@ -1160,6 +1165,11 @@
       "source_url": "https://lesecologistes.fr/document/5ZhR2m5t2ZaGKqIdD1bJaD/vdef-programme-1.pdf",
       "verified_at": "2026-08-19T02:42:33+00:00"
     },
+    "be18774ae19dfc592861839143b9b3cd5a49680f35deeeb5d7d313013b291041": {
+      "proposal_id": "auto-clara-egger-institutions-democratie-be18774ae19d",
+      "source_url": "https://solutiondemocratique.fr/presidentielle2027-annonce-candidature-clara-egger/",
+      "verified_at": "2026-09-10T12:22:05+00:00"
+    },
     "be21161e85632e336ce6a04ce944d73196f38bd1a09341ad9f365b40e8421f0e": {
       "proposal_id": "auto-la-france-insoumise-services-publics-be21161e8563",
       "source_url": "https://melenchon2027.fr/programme2025/livre/chapitre5/",
@@ -1571,9 +1581,9 @@
       "verified_at": "2026-08-13T08:51:16+00:00"
     }
   },
-  "last_error_count": 1,
-  "last_processed_count": 2,
-  "last_run_at": "2026-09-10T06:08:39+00:00",
+  "last_error_count": 0,
+  "last_processed_count": 3,
+  "last_run_at": "2026-09-10T12:22:15+00:00",
   "source_chunks": {
     "009ea6ddfcaa5e8d4f6a7064": {
       "canonical_confirmations": [],
@@ -1594,6 +1604,65 @@
       "total": 1,
       "updated_at": "2026-08-30T13:07:06+00:00",
       "url": "https://www.youtube.com/shorts/BwT5Q0kidGk"
+    },
+    "01223e623cf3c66d70a986a2": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "rassemblement-national",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "🚨 Prix du carburant : baissons les taxes !",
+            "relevance": "party_platform",
+            "statement": "Le Rassemblement national propose de baisser les taxes sur le prix du carburant.",
+            "topic": "pouvoir-achat-travail"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La source soutient explicitement la proposition de baisser les taxes sur le carburant par le Rassemblement national, sans doublon direct dans le canon actuel.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [
+        {
+          "claim": {
+            "actor_id": "rassemblement-national",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "🚨 Prix du carburant : baissons les taxes !",
+            "relevance": "party_platform",
+            "statement": "Le Rassemblement national propose de baisser les taxes sur le prix du carburant.",
+            "topic": "pouvoir-achat-travail"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La source soutient explicitement la proposition de baisser les taxes sur le carburant par le Rassemblement national, sans doublon direct dans le canon actuel.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "completed_at": "2026-09-10T12:22:21+00:00",
+      "created_at": "2026-09-10T12:22:16+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "e659c3e076a695f82d289923edf0eb3006851753f524cb12250c5098d1976238",
+      "source_title": "🚨 Prix du carburant : baissons les taxes !",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-10T12:22:21+00:00",
+      "url": "https://www.youtube.com/shorts/uLNSr5UoXWA"
     },
     "020221717496955b329ee982": {
       "canonical_confirmations": [],
@@ -2624,6 +2693,77 @@
       "total": 1,
       "updated_at": "2026-08-16T19:46:19+00:00",
       "url": "https://trajectoire2027.fr/qui-sommes-nous.html"
+    },
+    "13a388f3fbab5ffc413bb2fe": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "clara-egger",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "instaurer la démocratie directe en France",
+            "relevance": "direct",
+            "statement": "Instaurer la démocratie directe en France.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La source confirme explicitement la volonté d'instaurer la démocratie directe en France (« instaurer la démocratie directe en France »), ce qui constitue un ajout cohérent et non présent sous cette forme exacte dans le canonique.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [
+        {
+          "claim": {
+            "actor_id": "clara-egger",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "instaurer la démocratie directe en France",
+            "relevance": "direct",
+            "statement": "Instaurer la démocratie directe en France.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La source confirme explicitement la volonté d'instaurer la démocratie directe en France (« instaurer la démocratie directe en France »), ce qui constitue un ajout cohérent et non présent sous cette forme exacte dans le canonique.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "completed_at": "2026-09-10T12:22:05+00:00",
+      "created_at": "2026-09-10T12:21:58+00:00",
+      "document_types": [
+        "official_press_release"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-04-19"
+      ],
+      "sha256": "494ef263d4355130f2a03a16ddd9ea82e829f7ed40313834b871150a9fba55bd",
+      "source_title": "Présidentielle 2027 : Clara Egger annonce sa candidature",
+      "statuses": [
+        {
+          "status": {
+            "candidate_id": "clara-egger",
+            "effective_date": "2026-04-19",
+            "evidence_quote": "Clara Egger annonce sa candidature à l’élection",
+            "explicit": true,
+            "new_status": "declared_presidential"
+          }
+        }
+      ],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-10T12:22:05+00:00",
+      "url": "https://solutiondemocratique.fr/presidentielle2027-annonce-candidature-clara-egger/"
     },
     "13baacfdd1312304cc64af73": {
       "claims": [
@@ -10655,6 +10795,38 @@
       "updated_at": "2026-09-06T21:33:18+00:00",
       "url": "https://www.unenouvelleenergie.fr/notre-programme/"
     },
+    "6b9f0e3d1e99f4f4fc113f98": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-09-10T12:22:12+00:00",
+      "document_types": [
+        "official_press_release"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [
+        "2026-06-06"
+      ],
+      "sha256": "8ba6d7a7605baacd7af676ab9da81e776d3021bd9213498f050422af866fe621",
+      "source_title": "Investiture de Delphine Batho à l’élection présidentielle",
+      "statuses": [
+        {
+          "status": {
+            "candidate_id": "delphine-batho",
+            "effective_date": "2026-06-06",
+            "evidence_quote": "La convention nationale de Génération Écologie décide d’investir officiellement Delphine Batho",
+            "explicit": true,
+            "new_status": "party_designated"
+          }
+        }
+      ],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-10T12:22:15+00:00",
+      "url": "https://www.generationecologie.fr/publication/investiture-de-delphine-batho-a-lelection-presidentielle/"
+    },
     "6ddba0297dcbdc84d71ad546": {
       "canonical_confirmations": [
         {
@@ -12391,6 +12563,26 @@
       "updated_at": "2026-08-23T07:58:26+00:00",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
+    "82b7216c02eacd5b0d473110": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-09-10T12:22:25+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "19d150e2f6b8ac7ddcae6b6a00773f7c1c9d7e248be92beb54ce91251b95c348",
+      "source_title": "JEAN-PHILLIPE TANGUY est SEUL CONTRE TOUS dans ALERTE CLIMAT sur BFMTV !",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-10T12:23:02+00:00",
+      "url": "https://www.youtube.com/watch?v=eXFpfLrJN6w"
+    },
     "83d5eda15af3555f983a572b": {
       "canonical_confirmations": [
         {
@@ -13473,6 +13665,28 @@
       "total": 1,
       "updated_at": "2026-08-15T13:55:10+00:00",
       "url": "https://solutiondemocratique.fr/programme-lfi-2027/"
+    },
+    "92b14c73d818c94d7a97e735": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-09-10T12:22:09+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [
+        "2026-06-17"
+      ],
+      "sha256": "4ac708c9427100d73b6d9b36fc4155d2180f3c0f93757654fb77b4d183cd81ef",
+      "source_title": "PrÃ©sidentielleÂ : Selma Labib, une candidate ouvriÃ¨re et rÃ©volutionnaire â NPA RÃ©volutionnaires",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-10T12:22:11+00:00",
+      "url": "https://npa-revolutionnaires.org/articles/presidentielle-selma-labib-une-candidate-ouvriere-et-revolutionnaire"
     },
     "967ffb543e9150cca464964d": {
       "canonical_confirmations": [],
@@ -25761,6 +25975,15 @@
       "status": "promoted",
       "url": "https://solutiondemocratique.fr/delphine-batho-programme-2027/"
     },
+    "16e3b7c95459": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-10T12:22:15+00:00",
+      "reason": "chronology_or_scope_guard",
+      "source_sha256": "8ba6d7a7605baacd7af676ab9da81e776d3021bd9213498f050422af866fe621",
+      "status": "not_confirmed",
+      "url": "https://www.generationecologie.fr/publication/investiture-de-delphine-batho-a-lelection-presidentielle/"
+    },
     "17598c1d3f43": {
       "chunks_done": null,
       "chunks_total": 1,
@@ -25991,6 +26214,15 @@
       "source_sha256": "40f296481e7910c032f81867d263bfe066e8181515a0a6437d97b763e0f17142",
       "status": "promoted",
       "url": "https://melenchon2027.fr/programme2025/livre/chapitre17/"
+    },
+    "2acc709ce310": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-10T12:22:11+00:00",
+      "reason": null,
+      "source_sha256": "4ac708c9427100d73b6d9b36fc4155d2180f3c0f93757654fb77b4d183cd81ef",
+      "status": "not_confirmed",
+      "url": "https://npa-revolutionnaires.org/presidentielle-selma-labib-une-candidate-ouvriere-et-revolutionnaire/"
     },
     "2b471bce7cb8": {
       "chunks_done": null,
@@ -27067,6 +27299,15 @@
       "source_sha256": "ed477781633623166c7a9a45247cdc01b13b4fadbc7641b71469d027b63713d3",
       "status": "promoted",
       "url": "https://attalpresident.fr/programme/dette-de-letat"
+    },
+    "8daf357a68d2": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-09-10T12:22:08+00:00",
+      "reason": null,
+      "source_sha256": "494ef263d4355130f2a03a16ddd9ea82e829f7ed40313834b871150a9fba55bd",
+      "status": "promoted",
+      "url": "https://solutiondemocratique.fr/presidentielle2027-annonce-candidature-clara-egger/"
     },
     "8e31fea5ce0c": {
       "chunks_done": null,
