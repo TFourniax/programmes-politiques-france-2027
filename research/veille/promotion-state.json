@@ -1571,9 +1571,9 @@
       "verified_at": "2026-08-13T08:51:16+00:00"
     }
   },
-  "last_error_count": 0,
-  "last_processed_count": 3,
-  "last_run_at": "2026-09-09T21:51:46+00:00",
+  "last_error_count": 1,
+  "last_processed_count": 2,
+  "last_run_at": "2026-09-10T06:08:39+00:00",
   "source_chunks": {
     "009ea6ddfcaa5e8d4f6a7064": {
       "canonical_confirmations": [],
@@ -7851,6 +7851,28 @@
       "updated_at": "2026-08-14T03:40:42+00:00",
       "url": "https://solutiondemocratique.fr/jerome-guedj-programme-presidentielle-2027/"
     },
+    "48699f2867bf0d3bba95335e": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-09-10T06:08:35+00:00",
+      "document_types": [
+        "other"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [
+        "2026-06-18"
+      ],
+      "sha256": "66f2259c473c5c20d9e1b4a8d997db570128c8683bf7b23aaa4eb39bd3cfa86e",
+      "source_title": "Dans BFM â PrÃ©sidentielle 2027: le NPA-RÃ©volutionnaires annonce prÃ©senter la candidature de sa porte-parole Selma Labib â NPA RÃ©volutionnaires",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-10T06:08:38+00:00",
+      "url": "https://npa-revolutionnaires.org/articles/dans-bfm-presidentielle-2027-le-npa-revolutionnaires-annonce-presenter-la-candidature-de-sa-porte-parole-selma-labib"
+    },
     "48d415c0a024d26a3676b469": {
       "canonical_confirmations": [],
       "claims": [],
@@ -13491,6 +13513,28 @@
       "total": 1,
       "updated_at": "2026-09-03T12:19:52+00:00",
       "url": "https://www.youtube.com/shorts/P_IwjLmmLbw"
+    },
+    "986c5ea9243e70f9aedf8c29": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-09-10T06:08:32+00:00",
+      "document_types": [
+        "other"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [
+        "2026-06-18"
+      ],
+      "sha256": "38e16aa0efd0604effa50f4d381b3a561980dcb5df54470c94aecb7e95c1fc61",
+      "source_title": "Dans Sud-Ouest â PrÃ©sidentielle 2027Â : le NPA-RÃ©volutionnaires annonce prÃ©senter une candidature avec Selma Labib, conductrice de bus de 30 ans â NPA RÃ©volutionnaires",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-10T06:08:34+00:00",
+      "url": "https://npa-revolutionnaires.org/articles/dans-sud-ouest-presidentielle-2027-le-npa-revolutionnaires-annonce-presenter-une-candidature-avec-selma-labib-conductrice-de-bus-de-30-ans"
     },
     "9928d460b937be002f1f6982": {
       "canonical_confirmations": [
@@ -27184,6 +27228,15 @@
       "status": "promoted",
       "url": "https://www.parti-reconquete.fr/"
     },
+    "a2dbf807320f": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-10T06:08:38+00:00",
+      "reason": null,
+      "source_sha256": "66f2259c473c5c20d9e1b4a8d997db570128c8683bf7b23aaa4eb39bd3cfa86e",
+      "status": "not_confirmed",
+      "url": "https://npa-revolutionnaires.org/dans-bfm-presidentielle-2027-le-npa-revolutionnaires-annonce-presenter-la-candidature-de-sa-porte-parole-selma-labib/"
+    },
     "a69ac01ebbb7": {
       "chunks_done": null,
       "chunks_total": null,
@@ -27762,10 +27815,10 @@
       "url": "https://attalpresident.fr/programme/dette-de-letat"
     },
     "cb0c4447dcfa": {
-      "attempts": 2,
+      "attempts": 3,
       "error": "ValueError: HTTP 404",
-      "next_retry_at": "2026-09-09T22:01:42+00:00",
-      "processed_at": "2026-09-08T22:01:42+00:00",
+      "next_retry_at": "2026-09-13T06:08:31+00:00",
+      "processed_at": "2026-09-10T06:08:31+00:00",
       "status": "technical_error",
       "url": "https://parti-equinoxe.fr/articles/2022/05/la-transition-energetique-selon-les-ex-candidats-a-la-presidentielle-2/"
     },
@@ -27930,6 +27983,15 @@
       "source_sha256": "b715bed5d020ec4ca700a21e55db8acae28293b85be633f8e89682cafad4a09b",
       "status": "promoted",
       "url": "https://solutiondemocratique.fr/francis-lalanne-2027-programme/"
+    },
+    "d47a15069fd0": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-10T06:08:34+00:00",
+      "reason": null,
+      "source_sha256": "38e16aa0efd0604effa50f4d381b3a561980dcb5df54470c94aecb7e95c1fc61",
+      "status": "not_confirmed",
+      "url": "https://npa-revolutionnaires.org/dans-sud-ouest-presidentielle-2027-le-npa-revolutionnaires-annonce-presenter-une-candidature-avec-selma-labib-conductrice-de-bus-de-30-ans/"
     },
     "d5d359c8e31c": {
       "chunks_done": null,

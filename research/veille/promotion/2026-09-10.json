@@ -1,0 +1,28 @@
+{
+  "errors": [
+    {
+      "at": "2026-09-10T06:08:31+00:00",
+      "error": "ValueError: HTTP 404",
+      "url": "https://parti-equinoxe.fr/articles/2022/05/la-transition-energetique-selon-les-ex-candidats-a-la-presidentielle-2/"
+    }
+  ],
+  "generated_at": "2026-09-10T06:08:39+00:00",
+  "historical_skipped": 0,
+  "partial": 0,
+  "processed": 2,
+  "promoted": 0,
+  "proposals_created": 0,
+  "results": [
+    {
+      "sha256": "38e16aa0efd0604effa50f4d381b3a561980dcb5df54470c94aecb7e95c1fc61",
+      "status": "not_confirmed",
+      "url": "https://npa-revolutionnaires.org/articles/dans-sud-ouest-presidentielle-2027-le-npa-revolutionnaires-annonce-presenter-une-candidature-avec-selma-labib-conductrice-de-bus-de-30-ans"
+    },
+    {
+      "sha256": "66f2259c473c5c20d9e1b4a8d997db570128c8683bf7b23aaa4eb39bd3cfa86e",
+      "status": "not_confirmed",
+      "url": "https://npa-revolutionnaires.org/articles/dans-bfm-presidentielle-2027-le-npa-revolutionnaires-annonce-presenter-la-candidature-de-sa-porte-parole-selma-labib"
+    }
+  ],
+  "status_updates": 0
+}
