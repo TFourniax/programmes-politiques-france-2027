@@ -7,11 +7,19 @@
       "reason": "no_deterministic_transition",
       "status": "not_applicable"
     },
+    "0ca673bcc9db": {
+      "candidate_id": "gabriel-attal",
+      "event_url": "https://attalpresident.fr/actualites/annonce-de-candidature",
+      "new_status": "declared_presidential",
+      "owner": "Gabriel Attal",
+      "processed_at": "2026-09-10T21:44:25+00:00",
+      "status": "already_current"
+    },
     "0de45182a5ce": {
       "error": "ValueError: HTTP 403",
       "event_url": "https://www.pcf.fr/une_candidature_de_gauche_au_service_de_l_aube_et_de_ses_communes",
       "owner": "Parti communiste français",
-      "processed_at": "2026-09-10T17:09:18+00:00",
+      "processed_at": "2026-09-10T21:44:25+00:00",
       "status": "technical_error"
     },
     "11b463101679": {
@@ -54,8 +62,15 @@
       "error": "ValueError: HTTP 403",
       "event_url": "https://www.pcf.fr/presidentielle2027_fabien_roussel_designe_candidat",
       "owner": "Parti communiste français",
-      "processed_at": "2026-09-10T17:09:14+00:00",
+      "processed_at": "2026-09-10T21:44:20+00:00",
       "status": "technical_error"
+    },
+    "1fd1e63d4f5d": {
+      "event_url": "https://anasse2027.fr/",
+      "owner": "Anasse Kazib",
+      "processed_at": "2026-09-10T21:44:20+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
     },
     "219a1b4f2b48": {
       "candidate_matches": [],
@@ -323,7 +338,7 @@
       "error": "ValueError: HTTP 403",
       "event_url": "https://www.pcf.fr/presidentielle_2027_mjcf_s_engage_pour_candidature_communiste",
       "owner": "Parti communiste français",
-      "processed_at": "2026-09-10T17:09:14+00:00",
+      "processed_at": "2026-09-10T21:44:20+00:00",
       "status": "technical_error"
     },
     "b88c50cd309b": {
@@ -388,7 +403,7 @@
       "error": "ValueError: HTTP 404",
       "event_url": "https://parti-equinoxe.fr/articles/2022/05/la-transition-energetique-selon-les-ex-candidats-a-la-presidentielle-2/",
       "owner": "Équinoxe",
-      "processed_at": "2026-09-10T17:09:17+00:00",
+      "processed_at": "2026-09-10T21:44:23+00:00",
       "status": "technical_error"
     },
     "cce2ef2e9953": {
@@ -471,10 +486,24 @@
       "processed_at": "2026-09-09T17:14:58+00:00",
       "status": "already_current"
     },
+    "ea7986b7bde0": {
+      "event_url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne",
+      "owner": "Gabriel Attal",
+      "processed_at": "2026-09-10T21:44:25+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
     "ea941f1f97d5": {
       "event_url": "https://www.debout-la-france.fr/actualite/presidentielle-2027-il-faut-une-candidature-independantiste-jirai-%c2%b7-boulevard-voltaire-08-03-25/",
       "owner": "Debout la France",
       "processed_at": "2026-09-08T12:14:37+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
+    "eb48576fd156": {
+      "event_url": "https://rassemblementnational.fr/",
+      "owner": "Rassemblement national",
+      "processed_at": "2026-09-10T21:44:24+00:00",
       "reason": "no_deterministic_transition",
       "status": "not_applicable"
     },
@@ -525,7 +554,7 @@
     }
   },
   "last_error_count": 4,
-  "last_run_at": "2026-09-10T17:09:18+00:00",
+  "last_run_at": "2026-09-10T21:44:25+00:00",
   "last_updated_count": 0,
   "version": 1
 }
