@@ -6,18 +6,18 @@
     "actors": 68,
     "declared_or_active_candidates": 27,
     "topics": 12,
-    "current_proposals": 1281,
-    "covered_actor_topic_cells": 135,
+    "current_proposals": 1283,
+    "covered_actor_topic_cells": 137,
     "total_actor_topic_cells": 816,
-    "actor_topic_coverage_ratio": 0.1654,
-    "active_candidate_covered_cells": 58,
+    "actor_topic_coverage_ratio": 0.1679,
+    "active_candidate_covered_cells": 60,
     "active_candidate_total_cells": 324,
-    "active_candidate_topic_coverage_ratio": 0.179,
-    "verified_proposals": 1244,
+    "active_candidate_topic_coverage_ratio": 0.1852,
+    "verified_proposals": 1246,
     "multi_source_proposals": 51,
     "latest_evidence_at": "2026-09-11",
     "certainty_counts": {
-      "explicit": 1257,
+      "explicit": 1259,
       "explicit_but_conditional": 3,
       "explicit_but_underspecified": 21
     }
@@ -581,15 +581,16 @@
       "type": "candidate",
       "status": "declared_presidential",
       "confidence": "high",
-      "current_proposals": 0,
-      "covered_topics": [],
-      "coverage_ratio": 0.0,
+      "current_proposals": 2,
+      "covered_topics": [
+        "europe-souverainete",
+        "pouvoir-achat-travail"
+      ],
+      "coverage_ratio": 0.1667,
       "gaps": [
-        "pouvoir-achat-travail",
         "retraites",
         "fiscalite-redistribution",
         "immigration-integration",
-        "europe-souverainete",
         "defense-international",
         "ecologie-energie",
         "institutions-democratie",
@@ -598,8 +599,8 @@
         "economie-finances",
         "numerique-ia"
       ],
-      "latest_evidence_at": null,
-      "verified_proposals": 0,
+      "latest_evidence_at": "2026-09-11",
+      "verified_proposals": 2,
       "multi_source_proposals": 0
     },
     {
@@ -1952,11 +1953,11 @@
     {
       "id": "pouvoir-achat-travail",
       "label": "Pouvoir d’achat & travail",
-      "current_proposals": 66,
-      "actors_covered": 17,
-      "actor_coverage_ratio": 0.25,
-      "latest_evidence_at": "2026-09-10",
-      "verified_proposals": 58,
+      "current_proposals": 67,
+      "actors_covered": 18,
+      "actor_coverage_ratio": 0.2647,
+      "latest_evidence_at": "2026-09-11",
+      "verified_proposals": 59,
       "multi_source_proposals": 4
     },
     {
@@ -1992,11 +1993,11 @@
     {
       "id": "europe-souverainete",
       "label": "Europe & souveraineté",
-      "current_proposals": 109,
-      "actors_covered": 10,
-      "actor_coverage_ratio": 0.1471,
-      "latest_evidence_at": "2026-08-19",
-      "verified_proposals": 108,
+      "current_proposals": 110,
+      "actors_covered": 11,
+      "actor_coverage_ratio": 0.1618,
+      "latest_evidence_at": "2026-09-11",
+      "verified_proposals": 109,
       "multi_source_proposals": 3
     },
     {
@@ -3137,17 +3138,17 @@
       "id": "francois-asselineau",
       "name": "François Asselineau",
       "status": "declared_presidential",
-      "coverage_ratio": 0.0,
-      "current_proposals": 0,
-      "latest_evidence_at": null,
+      "coverage_ratio": 0.1667,
+      "current_proposals": 2,
+      "latest_evidence_at": "2026-09-11",
       "topics": [
         {
           "id": "pouvoir-achat-travail",
           "label": "Pouvoir d’achat & travail",
-          "covered": false,
-          "current_proposals": 0,
-          "latest_evidence_at": null,
-          "verified_proposals": 0,
+          "covered": true,
+          "current_proposals": 1,
+          "latest_evidence_at": "2026-09-11",
+          "verified_proposals": 1,
           "multi_source_proposals": 0
         },
         {
@@ -3180,10 +3181,10 @@
         {
           "id": "europe-souverainete",
           "label": "Europe & souveraineté",
-          "covered": false,
-          "current_proposals": 0,
-          "latest_evidence_at": null,
-          "verified_proposals": 0,
+          "covered": true,
+          "current_proposals": 1,
+          "latest_evidence_at": "2026-09-11",
+          "verified_proposals": 1,
           "multi_source_proposals": 0
         },
         {
@@ -5370,28 +5371,6 @@
       ]
     },
     {
-      "id": "francois-asselineau",
-      "name": "François Asselineau",
-      "status": "declared_presidential",
-      "coverage_ratio": 0.0,
-      "current_proposals": 0,
-      "latest_evidence_at": null,
-      "gaps": [
-        "pouvoir-achat-travail",
-        "retraites",
-        "fiscalite-redistribution",
-        "immigration-integration",
-        "europe-souverainete",
-        "defense-international",
-        "ecologie-energie",
-        "institutions-democratie",
-        "services-publics",
-        "securite-justice",
-        "economie-finances",
-        "numerique-ia"
-      ]
-    },
-    {
       "id": "francois-ruffin",
       "name": "François Ruffin",
       "status": "declared_primary",
@@ -5625,6 +5604,26 @@
         "europe-souverainete",
         "defense-international",
         "ecologie-energie",
+        "services-publics",
+        "securite-justice",
+        "economie-finances",
+        "numerique-ia"
+      ]
+    },
+    {
+      "id": "francois-asselineau",
+      "name": "François Asselineau",
+      "status": "declared_presidential",
+      "coverage_ratio": 0.1667,
+      "current_proposals": 2,
+      "latest_evidence_at": "2026-09-11",
+      "gaps": [
+        "retraites",
+        "fiscalite-redistribution",
+        "immigration-integration",
+        "defense-international",
+        "ecologie-energie",
+        "institutions-democratie",
         "services-publics",
         "securite-justice",
         "economie-finances",
