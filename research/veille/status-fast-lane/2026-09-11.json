@@ -4,42 +4,56 @@
       "error": "ValueError: HTTP 403",
       "event_url": "https://www.pcf.fr/presidentielle2027_fabien_roussel_designe_candidat",
       "owner": "Parti communiste français",
-      "processed_at": "2026-09-11T06:09:11+00:00"
+      "processed_at": "2026-09-11T12:17:56+00:00"
     },
     {
       "error": "ValueError: HTTP 403",
       "event_url": "https://www.pcf.fr/presidentielle_2027_mjcf_s_engage_pour_candidature_communiste",
       "owner": "Parti communiste français",
-      "processed_at": "2026-09-11T06:09:11+00:00"
+      "processed_at": "2026-09-11T12:17:56+00:00"
     },
     {
       "error": "ValueError: HTTP 404",
       "event_url": "https://parti-equinoxe.fr/articles/2022/05/la-transition-energetique-selon-les-ex-candidats-a-la-presidentielle-2/",
       "owner": "Équinoxe",
-      "processed_at": "2026-09-11T06:09:14+00:00"
+      "processed_at": "2026-09-11T12:17:59+00:00"
     },
     {
       "error": "ValueError: HTTP 403",
       "event_url": "https://www.pcf.fr/une_candidature_de_gauche_au_service_de_l_aube_et_de_ses_communes",
       "owner": "Parti communiste français",
-      "processed_at": "2026-09-11T06:09:16+00:00"
+      "processed_at": "2026-09-11T12:18:00+00:00"
     }
   ],
-  "generated_at": "2026-09-11T06:09:16+00:00",
-  "processed": 2,
+  "generated_at": "2026-09-11T12:18:00+00:00",
+  "processed": 4,
   "results": [
+    {
+      "event_url": "https://www.revolutionpermanente.fr/Une-candidature-ouvriere-revolutionnaire-et-communiste-en-2027-pour-quoi-faire",
+      "owner": "Anasse Kazib",
+      "processed_at": "2026-09-11T12:17:56+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
+    {
+      "event_url": "https://rassemblementnational.fr/",
+      "owner": "Rassemblement national",
+      "processed_at": "2026-09-11T12:17:59+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
     {
       "candidate_id": "gabriel-attal",
       "event_url": "https://attalpresident.fr/actualites/annonce-de-candidature",
       "new_status": "declared_presidential",
       "owner": "Gabriel Attal",
-      "processed_at": "2026-09-11T06:09:15+00:00",
+      "processed_at": "2026-09-11T12:17:59+00:00",
       "status": "already_current"
     },
     {
       "event_url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne",
       "owner": "Gabriel Attal",
-      "processed_at": "2026-09-11T06:09:15+00:00",
+      "processed_at": "2026-09-11T12:18:00+00:00",
       "reason": "no_deterministic_transition",
       "status": "not_applicable"
     }
