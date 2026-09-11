@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created_at": "2026-08-17T19:57:19.441897+00:00",
-  "updated_at": "2026-09-11T17:11:08.891416+00:00",
+  "updated_at": "2026-09-11T21:51:56.528368+00:00",
   "files": [
     {
       "path": "corpus/2027/auto/candidates/anasse-kazib/2026-08-28-38891602d9d9.md",
@@ -367,6 +367,11 @@
       "path": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-ff01a7667fd9.md",
       "sha256": "c5dc1c9dfafbd4a5614bba04585221cf1459a8ed7626249e73b0a554a4922b7f",
       "size": 2060
+    },
+    {
+      "path": "corpus/2027/auto/candidates/gabriel-attal/2026-06-01-36681da9ebbd.md",
+      "sha256": "914491e5e41c0be1e575100a4819024c09f5d38ff8cadd38618edaa910f4d036",
+      "size": 2517
     },
     {
       "path": "corpus/2027/auto/candidates/gabriel-attal/2026-08-23-20c668171ad6.md",
@@ -1374,6 +1379,16 @@
       "size": 1292
     },
     {
+      "path": "proposals/auto/retraites/auto-gabriel-attal-retraites-5213be62bb01.md",
+      "sha256": "ca54de47131d00be96e3ab1112a4cc372e1b66e99ad35187522b2d7fcdf3e74b",
+      "size": 1314
+    },
+    {
+      "path": "proposals/auto/retraites/auto-gabriel-attal-retraites-57839af08199.md",
+      "sha256": "6a0244c0f22c304085b81c3daf9869f4b1139c005b4f0bbdb8c23df196d1e66d",
+      "size": 1429
+    },
+    {
       "path": "proposals/auto/retraites/auto-les-ecologistes-retraites-c34ed71b2ee5.md",
       "sha256": "c7bd67b63e9363f6e68fbf9615131eacaaa8764fc791b6556dfc70ba95f18329",
       "size": 1342
@@ -1419,9 +1434,19 @@
       "size": 1268
     },
     {
+      "path": "proposals/auto/securite-justice/auto-gabriel-attal-securite-justice-31a5c3cc3c36.md",
+      "sha256": "3c26cecd2262a022def7f85bec7a8f0a3fecd12d7c1eec870b52f95044a93f85",
+      "size": 1463
+    },
+    {
       "path": "proposals/auto/securite-justice/auto-gabriel-attal-securite-justice-43664388aa97.md",
       "sha256": "3d19bf3fbd8421ffeecb30c2bbf949ad4f600ab287d549e5090a83619f799f83",
       "size": 1818
+    },
+    {
+      "path": "proposals/auto/securite-justice/auto-gabriel-attal-securite-justice-4591f47237a6.md",
+      "sha256": "2d817855d177168f7847fd8184c5e8b26856111f7a8caac8f8a95da685060fdf",
+      "size": 1448
     },
     {
       "path": "proposals/auto/securite-justice/auto-les-ecologistes-securite-justice-0d29bfb3d832.md",
@@ -1497,6 +1522,11 @@
       "path": "proposals/auto/services-publics/auto-gabriel-attal-services-publics-0b16aea25279.md",
       "sha256": "a2b0023721a30a57e44acdee6e89ca46b92797799e04377438d2adb18004dce9",
       "size": 2038
+    },
+    {
+      "path": "proposals/auto/services-publics/auto-gabriel-attal-services-publics-e66e98f0b2cf.md",
+      "sha256": "5b94b6f86885ae9406cee06d780d572ccdc3986e4b9e69a3c37b4f44e190f9d0",
+      "size": 1463
     },
     {
       "path": "proposals/auto/services-publics/auto-les-ecologistes-services-publics-06776c72e505.md",

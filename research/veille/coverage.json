@@ -6,18 +6,18 @@
     "actors": 68,
     "declared_or_active_candidates": 27,
     "topics": 12,
-    "current_proposals": 1283,
-    "covered_actor_topic_cells": 137,
+    "current_proposals": 1288,
+    "covered_actor_topic_cells": 138,
     "total_actor_topic_cells": 816,
-    "actor_topic_coverage_ratio": 0.1679,
-    "active_candidate_covered_cells": 60,
+    "actor_topic_coverage_ratio": 0.1691,
+    "active_candidate_covered_cells": 61,
     "active_candidate_total_cells": 324,
-    "active_candidate_topic_coverage_ratio": 0.1852,
-    "verified_proposals": 1246,
+    "active_candidate_topic_coverage_ratio": 0.1883,
+    "verified_proposals": 1251,
     "multi_source_proposals": 51,
     "latest_evidence_at": "2026-09-11",
     "certainty_counts": {
-      "explicit": 1259,
+      "explicit": 1264,
       "explicit_but_conditional": 3,
       "explicit_but_underspecified": 21
     }
@@ -663,17 +663,17 @@
       "type": "candidate",
       "status": "declared_presidential",
       "confidence": "high",
-      "current_proposals": 7,
+      "current_proposals": 12,
       "covered_topics": [
         "economie-finances",
         "immigration-integration",
         "pouvoir-achat-travail",
+        "retraites",
         "securite-justice",
         "services-publics"
       ],
-      "coverage_ratio": 0.4167,
+      "coverage_ratio": 0.5,
       "gaps": [
-        "retraites",
         "fiscalite-redistribution",
         "europe-souverainete",
         "defense-international",
@@ -682,7 +682,7 @@
         "numerique-ia"
       ],
       "latest_evidence_at": "2026-09-07",
-      "verified_proposals": 7,
+      "verified_proposals": 12,
       "multi_source_proposals": 7
     },
     {
@@ -1963,11 +1963,11 @@
     {
       "id": "retraites",
       "label": "Retraites",
-      "current_proposals": 19,
-      "actors_covered": 11,
-      "actor_coverage_ratio": 0.1618,
+      "current_proposals": 21,
+      "actors_covered": 12,
+      "actor_coverage_ratio": 0.1765,
       "latest_evidence_at": "2026-09-11",
-      "verified_proposals": 17,
+      "verified_proposals": 19,
       "multi_source_proposals": 5
     },
     {
@@ -2033,21 +2033,21 @@
     {
       "id": "services-publics",
       "label": "Services publics",
-      "current_proposals": 228,
+      "current_proposals": 229,
       "actors_covered": 12,
       "actor_coverage_ratio": 0.1765,
       "latest_evidence_at": "2026-09-07",
-      "verified_proposals": 224,
+      "verified_proposals": 225,
       "multi_source_proposals": 4
     },
     {
       "id": "securite-justice",
       "label": "Sécurité & justice",
-      "current_proposals": 138,
+      "current_proposals": 140,
       "actors_covered": 12,
       "actor_coverage_ratio": 0.1765,
       "latest_evidence_at": "2026-09-11",
-      "verified_proposals": 135,
+      "verified_proposals": 137,
       "multi_source_proposals": 5
     },
     {
@@ -3374,8 +3374,8 @@
       "id": "gabriel-attal",
       "name": "Gabriel Attal",
       "status": "declared_presidential",
-      "coverage_ratio": 0.4167,
-      "current_proposals": 7,
+      "coverage_ratio": 0.5,
+      "current_proposals": 12,
       "latest_evidence_at": "2026-09-07",
       "topics": [
         {
@@ -3390,10 +3390,10 @@
         {
           "id": "retraites",
           "label": "Retraites",
-          "covered": false,
-          "current_proposals": 0,
-          "latest_evidence_at": null,
-          "verified_proposals": 0,
+          "covered": true,
+          "current_proposals": 2,
+          "latest_evidence_at": "2026-06-01",
+          "verified_proposals": 2,
           "multi_source_proposals": 0
         },
         {
@@ -3454,18 +3454,18 @@
           "id": "services-publics",
           "label": "Services publics",
           "covered": true,
-          "current_proposals": 1,
+          "current_proposals": 2,
           "latest_evidence_at": "2026-09-07",
-          "verified_proposals": 1,
+          "verified_proposals": 2,
           "multi_source_proposals": 1
         },
         {
           "id": "securite-justice",
           "label": "Sécurité & justice",
           "covered": true,
-          "current_proposals": 1,
+          "current_proposals": 3,
           "latest_evidence_at": "2026-09-04",
-          "verified_proposals": 1,
+          "verified_proposals": 3,
           "multi_source_proposals": 1
         },
         {
@@ -5730,11 +5730,10 @@
       "id": "gabriel-attal",
       "name": "Gabriel Attal",
       "status": "declared_presidential",
-      "coverage_ratio": 0.4167,
-      "current_proposals": 7,
+      "coverage_ratio": 0.5,
+      "current_proposals": 12,
       "latest_evidence_at": "2026-09-07",
       "gaps": [
-        "retraites",
         "fiscalite-redistribution",
         "europe-souverainete",
         "defense-international",
