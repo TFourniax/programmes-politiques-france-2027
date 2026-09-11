@@ -6,18 +6,18 @@
     "actors": 68,
     "declared_or_active_candidates": 27,
     "topics": 12,
-    "current_proposals": 1279,
+    "current_proposals": 1281,
     "covered_actor_topic_cells": 135,
     "total_actor_topic_cells": 816,
     "actor_topic_coverage_ratio": 0.1654,
     "active_candidate_covered_cells": 58,
     "active_candidate_total_cells": 324,
     "active_candidate_topic_coverage_ratio": 0.179,
-    "verified_proposals": 1241,
-    "multi_source_proposals": 43,
-    "latest_evidence_at": "2026-09-10",
+    "verified_proposals": 1243,
+    "multi_source_proposals": 48,
+    "latest_evidence_at": "2026-09-11",
     "certainty_counts": {
-      "explicit": 1255,
+      "explicit": 1257,
       "explicit_but_conditional": 3,
       "explicit_but_underspecified": 21
     }
@@ -1568,7 +1568,7 @@
       "type": "party",
       "status": null,
       "confidence": null,
-      "current_proposals": 14,
+      "current_proposals": 16,
       "covered_topics": [
         "ecologie-energie",
         "fiscalite-redistribution",
@@ -1586,9 +1586,9 @@
         "economie-finances",
         "numerique-ia"
       ],
-      "latest_evidence_at": "2026-09-10",
-      "verified_proposals": 14,
-      "multi_source_proposals": 0
+      "latest_evidence_at": "2026-09-11",
+      "verified_proposals": 16,
+      "multi_source_proposals": 5
     },
     {
       "id": "reconquete",
@@ -1965,9 +1965,9 @@
       "current_proposals": 19,
       "actors_covered": 11,
       "actor_coverage_ratio": 0.1618,
-      "latest_evidence_at": "2026-09-06",
+      "latest_evidence_at": "2026-09-11",
       "verified_proposals": 16,
-      "multi_source_proposals": 3
+      "multi_source_proposals": 4
     },
     {
       "id": "fiscalite-redistribution",
@@ -1975,9 +1975,9 @@
       "current_proposals": 74,
       "actors_covered": 11,
       "actor_coverage_ratio": 0.1618,
-      "latest_evidence_at": "2026-08-29",
+      "latest_evidence_at": "2026-09-11",
       "verified_proposals": 72,
-      "multi_source_proposals": 2
+      "multi_source_proposals": 3
     },
     {
       "id": "immigration-integration",
@@ -1985,9 +1985,9 @@
       "current_proposals": 63,
       "actors_covered": 11,
       "actor_coverage_ratio": 0.1618,
-      "latest_evidence_at": "2026-09-07",
+      "latest_evidence_at": "2026-09-11",
       "verified_proposals": 57,
-      "multi_source_proposals": 3
+      "multi_source_proposals": 4
     },
     {
       "id": "europe-souverainete",
@@ -2015,9 +2015,9 @@
       "current_proposals": 192,
       "actors_covered": 15,
       "actor_coverage_ratio": 0.2206,
-      "latest_evidence_at": "2026-09-09",
+      "latest_evidence_at": "2026-09-11",
       "verified_proposals": 186,
-      "multi_source_proposals": 1
+      "multi_source_proposals": 2
     },
     {
       "id": "institutions-democratie",
@@ -2025,9 +2025,9 @@
       "current_proposals": 262,
       "actors_covered": 13,
       "actor_coverage_ratio": 0.1912,
-      "latest_evidence_at": "2026-09-06",
+      "latest_evidence_at": "2026-09-11",
       "verified_proposals": 258,
-      "multi_source_proposals": 11
+      "multi_source_proposals": 12
     },
     {
       "id": "services-publics",
@@ -2042,11 +2042,11 @@
     {
       "id": "securite-justice",
       "label": "Sécurité & justice",
-      "current_proposals": 136,
+      "current_proposals": 138,
       "actors_covered": 12,
       "actor_coverage_ratio": 0.1765,
-      "latest_evidence_at": "2026-09-04",
-      "verified_proposals": 133,
+      "latest_evidence_at": "2026-09-11",
+      "verified_proposals": 135,
       "multi_source_proposals": 3
     },
     {
