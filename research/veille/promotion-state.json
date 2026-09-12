@@ -1631,9 +1631,9 @@
       "verified_at": "2026-08-13T08:51:16+00:00"
     }
   },
-  "last_error_count": 0,
-  "last_processed_count": 3,
-  "last_run_at": "2026-09-12T16:34:58+00:00",
+  "last_error_count": 1,
+  "last_processed_count": 2,
+  "last_run_at": "2026-09-12T21:35:27+00:00",
   "source_chunks": {
     "009ea6ddfcaa5e8d4f6a7064": {
       "canonical_confirmations": [],
@@ -2517,7 +2517,7 @@
       ],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-09-12T16:34:31+00:00",
+      "updated_at": "2026-09-12T21:35:13+00:00",
       "url": "https://attalpresident.fr/actualites/annonce-de-candidature"
     },
     "0d1c8e880d3045b492702087": {
@@ -3552,6 +3552,26 @@
       "total": 1,
       "updated_at": "2026-09-08T17:22:58+00:00",
       "url": "https://bsky.app/profile/marinetondelier.fr/post/3muyzjlt5522n"
+    },
+    "1987c7c98e63b8042108bf26": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-09-12T21:35:27+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "1a52cf97174c15bbadecbbb0c4ea794566420b814a7f1eeb997826ef0991cf4e",
+      "source_title": "Rendez-vous demain à 13h30 pour un live en direct de la Fête de l’Huma, exclusivement sur Instagram ! Je serai accompagnée par Sarah Durocher, présidente du Planning familial, qui",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-12T21:35:29+00:00",
+      "url": "https://bsky.app/profile/marinetondelier.fr/post/3mvdta4iaw227"
     },
     "1a899874ca3fe4077733342e": {
       "canonical_confirmations": [
@@ -6465,7 +6485,7 @@
           }
         }
       ],
-      "completed_at": "2026-09-12T16:34:33+00:00",
+      "completed_at": "2026-09-12T21:35:16+00:00",
       "created_at": "2026-09-11T21:51:33+00:00",
       "document_types": [
         "official_interview"
@@ -6482,7 +6502,7 @@
       "statuses": [],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-09-12T16:34:33+00:00",
+      "updated_at": "2026-09-12T21:35:16+00:00",
       "url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne"
     },
     "3671cfb92c0144e2481ae990": {
@@ -27900,6 +27920,15 @@
       "status": "not_confirmed",
       "url": "https://npa-revolutionnaires.org/communique-presidentielle-2027-selma-labib-une-candidature-ouvriere-et-revolutionnaire-soutenue-par-gael-quirante/"
     },
+    "3221afcd832d": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-12T21:35:13+00:00",
+      "reason": "chronology_or_scope_guard",
+      "source_sha256": "c9c2e5a23bd2b9e70a20ded250fdb4cce89b4024bddaa8a1bf479f1c2fc6e2aa",
+      "status": "not_confirmed",
+      "url": "https://attalpresident.fr/actualites/annonce-de-candidature"
+    },
     "325fb7fe5597": {
       "chunks_done": null,
       "chunks_total": null,
@@ -28196,6 +28225,14 @@
       "source_sha256": "9f1aedea543f9fcb8603979afa155a21305b4df4a6b677a5227e7e6d74955c6e",
       "status": "promoted",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
+    "472924b7a00c": {
+      "attempts": 1,
+      "error": "ValueError: HTTP 404",
+      "next_retry_at": "2026-09-13T03:35:26+00:00",
+      "processed_at": "2026-09-12T21:35:26+00:00",
+      "status": "technical_error",
+      "url": "https://www.revolutionpermanente.fr/Neoliberalisme-social-et-militarisme-de-gauche-Glucksmann-lance-sa-candidature"
     },
     "47f0f12206f4": {
       "chunks_done": null,
@@ -29153,6 +29190,15 @@
       "source_sha256": "66f2259c473c5c20d9e1b4a8d997db570128c8683bf7b23aaa4eb39bd3cfa86e",
       "status": "not_confirmed",
       "url": "https://npa-revolutionnaires.org/dans-bfm-presidentielle-2027-le-npa-revolutionnaires-annonce-presenter-la-candidature-de-sa-porte-parole-selma-labib/"
+    },
+    "a59ba774e3a8": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-09-12T21:35:25+00:00",
+      "reason": null,
+      "source_sha256": "89240073cf8b5ad476043aa3c1a429c5833d6ad111411795e3d30ab8468ad280",
+      "status": "promoted",
+      "url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne"
     },
     "a69ac01ebbb7": {
       "chunks_done": null,

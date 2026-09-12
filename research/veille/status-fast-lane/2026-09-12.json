@@ -4,49 +4,42 @@
       "error": "ValueError: HTTP 403",
       "event_url": "https://www.pcf.fr/presidentielle2027_fabien_roussel_designe_candidat",
       "owner": "Parti communiste français",
-      "processed_at": "2026-09-12T16:30:33+00:00"
+      "processed_at": "2026-09-12T21:32:39+00:00"
     },
     {
       "error": "ValueError: HTTP 403",
       "event_url": "https://www.pcf.fr/presidentielle_2027_mjcf_s_engage_pour_candidature_communiste",
       "owner": "Parti communiste français",
-      "processed_at": "2026-09-12T16:30:33+00:00"
+      "processed_at": "2026-09-12T21:32:39+00:00"
     },
     {
       "error": "ValueError: HTTP 404",
       "event_url": "https://parti-equinoxe.fr/articles/2022/05/la-transition-energetique-selon-les-ex-candidats-a-la-presidentielle-2/",
       "owner": "Équinoxe",
-      "processed_at": "2026-09-12T16:30:37+00:00"
+      "processed_at": "2026-09-12T21:32:43+00:00"
     },
     {
       "error": "ValueError: HTTP 403",
       "event_url": "https://www.pcf.fr/une_candidature_de_gauche_au_service_de_l_aube_et_de_ses_communes",
       "owner": "Parti communiste français",
-      "processed_at": "2026-09-12T16:30:38+00:00"
+      "processed_at": "2026-09-12T21:32:44+00:00"
     }
   ],
-  "generated_at": "2026-09-12T16:30:38+00:00",
-  "processed": 3,
+  "generated_at": "2026-09-12T21:32:44+00:00",
+  "processed": 2,
   "results": [
     {
       "candidate_id": "gabriel-attal",
       "event_url": "https://attalpresident.fr/actualites/annonce-de-candidature",
       "new_status": "declared_presidential",
       "owner": "Gabriel Attal",
-      "processed_at": "2026-09-12T16:30:37+00:00",
+      "processed_at": "2026-09-12T21:32:44+00:00",
       "status": "already_current"
     },
     {
       "event_url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne",
       "owner": "Gabriel Attal",
-      "processed_at": "2026-09-12T16:30:38+00:00",
-      "reason": "no_deterministic_transition",
-      "status": "not_applicable"
-    },
-    {
-      "event_url": "https://www.revolutionpermanente.fr/Pourquoi-defendre-une-candidature-revolutionnaire-de-la-nouvelle-classe-ouvriere-RP-en-direct-de-la",
-      "owner": "Anasse Kazib",
-      "processed_at": "2026-09-12T16:30:38+00:00",
+      "processed_at": "2026-09-12T21:32:44+00:00",
       "reason": "no_deterministic_transition",
       "status": "not_applicable"
     }
