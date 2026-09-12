@@ -1631,9 +1631,9 @@
       "verified_at": "2026-08-13T08:51:16+00:00"
     }
   },
-  "last_error_count": 1,
-  "last_processed_count": 2,
-  "last_run_at": "2026-09-12T05:59:19+00:00",
+  "last_error_count": 2,
+  "last_processed_count": 1,
+  "last_run_at": "2026-09-12T11:47:53+00:00",
   "source_chunks": {
     "009ea6ddfcaa5e8d4f6a7064": {
       "canonical_confirmations": [],
@@ -2197,6 +2197,26 @@
       "total": 1,
       "updated_at": "2026-08-20T10:10:41+00:00",
       "url": "https://www.unenouvelleenergie.fr/notre-programme/"
+    },
+    "0652beba7c5d2a0eafbc8684": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-09-12T11:47:53+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "02751611231a5004280395ef6704aaf50636259b320491e00e416631b1e19bc5",
+      "source_title": "Canicule, incendies : quelle écologie révolutionnaire après un été de catastrophes ? RP à l'Huma",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-12T11:47:55+00:00",
+      "url": "https://www.youtube.com/watch?v=9OqwL6Bd0GU"
     },
     "0695cf098b39f9229090921f": {
       "canonical_confirmations": [],
@@ -4886,6 +4906,26 @@
       "total": 1,
       "updated_at": "2026-09-04T21:42:50+00:00",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
+    "2791910f5473f88ddb4c1636": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-09-12T11:47:51+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "393d2bb50801d92f09e91a169fb82aac0a1cebba15b2471235eb7de6c46c7b26",
+      "source_title": "« Redonner confiance dans ses forces à la classe ouvrière » : Anasse Kazib présente sa candidature au Média",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-12T11:47:53+00:00",
+      "url": "https://www.revolutionpermanente.fr/Redonner-confiance-dans-ses-forces-a-la-classe-ouvriere-Anasse-Kazib-presente-sa-candidature-au"
     },
     "2808a96b91bf539120f54a6c": {
       "canonical_confirmations": [
@@ -8223,6 +8263,28 @@
       "updated_at": "2026-09-08T22:02:04+00:00",
       "url": "https://solutiondemocratique.fr/presidentielle-2027-une-votation-organisee-a-charolles-71-autour-de-la-candidature-citoyenne-de-clara-egger/"
     },
+    "429782155df7876cb624c93b": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-09-12T11:48:02+00:00",
+      "document_types": [
+        "official_interview"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [
+        "2026-09-12"
+      ],
+      "sha256": "aa1dc57b78242eb18b8208aac87bdb78f7bc9e28ee7f8dd0a96e228bbfb90223",
+      "source_title": "Marine Tondelier : \"vu le prix d'un EHPAD, je ne sais pas ce qu'est un retraité aisé\" (France Info)",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-12T11:48:03+00:00",
+      "url": "https://www.youtube.com/watch?v=X4IoL3pAjOY"
+    },
     "436adfca7d7956c24aecea5b": {
       "canonical_confirmations": [
         {
@@ -10197,6 +10259,26 @@
       "total": 1,
       "updated_at": "2026-09-05T11:24:37+00:00",
       "url": "https://www.unenouvelleenergie.fr/notre-programme/"
+    },
+    "5d60e91bd748b7d1230e55db": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-09-12T11:47:55+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "f4fe54cee32b4c060f18d62f79937afa4e846a3278700c385e25c752618ede96",
+      "source_title": "Le logement, l'alimentation et le transport sont les premières dépenses des Français. Face à la baisse du pouvoir d'achat, nous proposons un bouclier social et environnemental. P",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-12T11:47:59+00:00",
+      "url": "https://bsky.app/profile/marinetondelier.fr/post/3mvcoesties27"
     },
     "5d7fac62541be4ec06898433": {
       "canonical_confirmations": [],
@@ -14259,6 +14341,26 @@
       "total": 1,
       "updated_at": "2026-08-22T07:58:02+00:00",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
+    "8b97f368b319f7df2b97e646": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-09-12T11:48:00+00:00",
+      "document_types": [
+        "other"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "c2ddd8202e2e1508a46746feb54dbae0560ced6905e19741b0dabb414a7de762",
+      "source_title": "Le gouvernement veut taxer les retraités aisés, mais je ne sais pas qui ça comprend. Un EHPAD coûte entre 2000 et 3000 euros par mois. Regardons plutôt du côté des cadeaux fiscau",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-12T11:48:01+00:00",
+      "url": "https://bsky.app/profile/marinetondelier.fr/post/3mvcn2nf2ic22"
     },
     "8ba84deeef3e6545e2fb2f9e": {
       "canonical_confirmations": [],
@@ -27450,10 +27552,10 @@
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
     "1e67d8d2b142": {
-      "attempts": 3,
+      "attempts": 4,
       "error": "ValueError: HTTP 403",
-      "next_retry_at": "2026-09-12T06:09:44+00:00",
-      "processed_at": "2026-09-09T06:09:44+00:00",
+      "next_retry_at": "2026-09-19T11:47:50+00:00",
+      "processed_at": "2026-09-12T11:47:50+00:00",
       "status": "technical_error",
       "url": "https://www.pcf.fr/presidentielle2027_fabien_roussel_designe_candidat"
     },
@@ -29232,10 +29334,10 @@
       "url": "https://attalpresident.fr/programme"
     },
     "b6e972fce670": {
-      "attempts": 3,
+      "attempts": 4,
       "error": "ValueError: HTTP 403",
-      "next_retry_at": "2026-09-12T06:09:45+00:00",
-      "processed_at": "2026-09-09T06:09:45+00:00",
+      "next_retry_at": "2026-09-19T11:47:50+00:00",
+      "processed_at": "2026-09-12T11:47:50+00:00",
       "status": "technical_error",
       "url": "https://www.pcf.fr/presidentielle_2027_mjcf_s_engage_pour_candidature_communiste"
     },
@@ -29804,6 +29906,15 @@
       "source_sha256": "a5ae8f0059e4d5658bf4ef21d7f584e0628b3be224a00580f60a1ccfe860da65",
       "status": "not_confirmed",
       "url": "https://parti-socialiste.fr/actualites/choisir-2027-le-processus-de-designation-du-ou-de-la-candidat-e-socialiste-a-lelection-presidentielle-est-lance/"
+    },
+    "dd75fcba2cf0": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-12T11:47:53+00:00",
+      "reason": null,
+      "source_sha256": "393d2bb50801d92f09e91a169fb82aac0a1cebba15b2471235eb7de6c46c7b26",
+      "status": "not_confirmed",
+      "url": "https://www.revolutionpermanente.fr/Redonner-confiance-dans-ses-forces-a-la-classe-ouvriere-Anasse-Kazib-presente-sa-candidature-au"
     },
     "dd900967c0ea": {
       "chunks_done": null,
