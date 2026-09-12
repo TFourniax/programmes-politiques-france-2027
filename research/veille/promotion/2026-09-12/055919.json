@@ -1,0 +1,34 @@
+{
+  "errors": [
+    {
+      "at": "2026-09-12T05:59:19+00:00",
+      "error": "ValueError: HTTP 403",
+      "url": "https://www.pcf.fr/une_candidature_de_gauche_au_service_de_l_aube_et_de_ses_communes"
+    }
+  ],
+  "generated_at": "2026-09-12T05:59:19+00:00",
+  "historical_skipped": 0,
+  "partial": 0,
+  "processed": 2,
+  "promoted": 1,
+  "proposals_created": 0,
+  "results": [
+    {
+      "reason": "chronology_or_scope_guard",
+      "sha256": "c9c2e5a23bd2b9e70a20ded250fdb4cce89b4024bddaa8a1bf479f1c2fc6e2aa",
+      "status": "not_confirmed",
+      "url": "https://attalpresident.fr/actualites/annonce-de-candidature"
+    },
+    {
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/candidates/gabriel-attal/2026-06-01-36681da9ebbd.md",
+      "proposals": [],
+      "sha256": "89240073cf8b5ad476043aa3c1a429c5833d6ad111411795e3d30ab8468ad280",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne",
+      "verified_at": "2026-09-12T05:59:08+00:00"
+    }
+  ],
+  "status_updates": 0
+}

@@ -1633,7 +1633,7 @@
   },
   "last_error_count": 1,
   "last_processed_count": 2,
-  "last_run_at": "2026-09-11T21:51:52+00:00",
+  "last_run_at": "2026-09-12T05:59:19+00:00",
   "source_chunks": {
     "009ea6ddfcaa5e8d4f6a7064": {
       "canonical_confirmations": [],
@@ -2497,7 +2497,7 @@
       ],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-09-11T21:51:32+00:00",
+      "updated_at": "2026-09-12T05:59:06+00:00",
       "url": "https://attalpresident.fr/actualites/annonce-de-candidature"
     },
     "0d1c8e880d3045b492702087": {
@@ -6425,7 +6425,7 @@
           }
         }
       ],
-      "completed_at": "2026-09-11T21:51:41+00:00",
+      "completed_at": "2026-09-12T05:59:08+00:00",
       "created_at": "2026-09-11T21:51:33+00:00",
       "document_types": [
         "official_interview"
@@ -6442,7 +6442,7 @@
       "statuses": [],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-09-11T21:51:41+00:00",
+      "updated_at": "2026-09-12T05:59:08+00:00",
       "url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne"
     },
     "3671cfb92c0144e2481ae990": {
@@ -27180,6 +27180,15 @@
       "status": "promoted",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
+    "04eea7432ba6": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-09-12T05:59:18+00:00",
+      "reason": null,
+      "source_sha256": "89240073cf8b5ad476043aa3c1a429c5833d6ad111411795e3d30ab8468ad280",
+      "status": "promoted",
+      "url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne"
+    },
     "05befecc9e86": {
       "chunks_done": null,
       "chunks_total": 1,
@@ -27244,10 +27253,10 @@
       "url": "https://www.revolutionpermanente.fr/Anasse-Kazib-2027"
     },
     "0de45182a5ce": {
-      "attempts": 1,
+      "attempts": 2,
       "error": "ValueError: HTTP 403",
-      "next_retry_at": "2026-09-12T03:51:52+00:00",
-      "processed_at": "2026-09-11T21:51:52+00:00",
+      "next_retry_at": "2026-09-13T05:59:19+00:00",
+      "processed_at": "2026-09-12T05:59:19+00:00",
       "status": "technical_error",
       "url": "https://www.pcf.fr/une_candidature_de_gauche_au_service_de_l_aube_et_de_ses_communes"
     },
@@ -29314,6 +29323,15 @@
       "source_sha256": "0d8a65a8dc74d4f3b80db285ed2a18b91b378305bd81ab393f4f26637b9e888d",
       "status": "promoted",
       "url": "https://attalpresident.fr/programme"
+    },
+    "bc2109b91de1": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-12T05:59:06+00:00",
+      "reason": "chronology_or_scope_guard",
+      "source_sha256": "c9c2e5a23bd2b9e70a20ded250fdb4cce89b4024bddaa8a1bf479f1c2fc6e2aa",
+      "status": "not_confirmed",
+      "url": "https://attalpresident.fr/actualites/annonce-de-candidature"
     },
     "bcf4beaca465": {
       "chunks_done": null,
