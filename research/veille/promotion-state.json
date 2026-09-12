@@ -1631,9 +1631,9 @@
       "verified_at": "2026-08-13T08:51:16+00:00"
     }
   },
-  "last_error_count": 2,
-  "last_processed_count": 1,
-  "last_run_at": "2026-09-12T11:47:53+00:00",
+  "last_error_count": 0,
+  "last_processed_count": 3,
+  "last_run_at": "2026-09-12T16:34:58+00:00",
   "source_chunks": {
     "009ea6ddfcaa5e8d4f6a7064": {
       "canonical_confirmations": [],
@@ -2517,7 +2517,7 @@
       ],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-09-12T05:59:06+00:00",
+      "updated_at": "2026-09-12T16:34:31+00:00",
       "url": "https://attalpresident.fr/actualites/annonce-de-candidature"
     },
     "0d1c8e880d3045b492702087": {
@@ -6465,7 +6465,7 @@
           }
         }
       ],
-      "completed_at": "2026-09-12T05:59:08+00:00",
+      "completed_at": "2026-09-12T16:34:33+00:00",
       "created_at": "2026-09-11T21:51:33+00:00",
       "document_types": [
         "official_interview"
@@ -6482,7 +6482,7 @@
       "statuses": [],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-09-12T05:59:08+00:00",
+      "updated_at": "2026-09-12T16:34:33+00:00",
       "url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne"
     },
     "3671cfb92c0144e2481ae990": {
@@ -8202,6 +8202,26 @@
       "total": 1,
       "updated_at": "2026-08-27T11:22:22+00:00",
       "url": "https://www.youtube.com/shorts/9xPvFX4nB2I"
+    },
+    "41ee6abe158a7279ea0d6354": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-09-12T16:35:07+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "7e59f4ed6627e62888ae7de198cde8414bccde45a4795c1feab1537288c7eaf2",
+      "source_title": "Présidentielle : pourquoi défendre une candidature révolutionnaire de la nouvelle classe ouvrière ?",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-12T16:35:17+00:00",
+      "url": "https://www.youtube.com/watch?v=4zd39v4AiZs"
     },
     "420a5d76789042a7e9b5cddc": {
       "canonical_confirmations": [
@@ -20614,6 +20634,46 @@
       "updated_at": "2026-08-20T14:12:35+00:00",
       "url": "https://www.youtube.com/watch?v=_eUy3z_ryhg"
     },
+    "b128933ee90eee371efcc11b": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "anasse-kazib",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "Anasse Kazib 2027 : découvre la campagne",
+            "relevance": "direct",
+            "statement": "Anasse Kazib mène une campagne pour l'élection présidentielle de 2027.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La source confirme explicitement la campagne d'Anasse Kazib pour l'élection présidentielle de 2027, ce qui constitue un doublon exact de l'entrée canonique existante.",
+            "related_proposal_id": "auto-anasse-kazib-institutions-democratie-1a9f657935f4",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-09-12T16:34:57+00:00",
+      "created_at": "2026-09-12T16:34:43+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "9a075b2b81e33a6a5dfbddfaadbcbda75f3f96ba4f7423829a2958de578230da",
+      "source_title": "Pourquoi défendre une candidature révolutionnaire de la nouvelle classe ouvrière ? - RP en direct de la fête de l'Huma",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-12T16:34:55+00:00",
+      "url": "https://www.revolutionpermanente.fr/Pourquoi-defendre-une-candidature-revolutionnaire-de-la-nouvelle-classe-ouvriere-RP-en-direct-de-la"
+    },
     "b1362e94378ea3cd61dfd643": {
       "canonical_confirmations": [],
       "claims": [],
@@ -24447,6 +24507,28 @@
       "updated_at": "2026-08-16T02:44:52+00:00",
       "url": "https://solutiondemocratique.fr/laurent-wauquiez-programme-presidentielle2027/"
     },
+    "e17bd43d907600d6f9e74d34": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-09-12T16:34:58+00:00",
+      "document_types": [
+        "official_speech"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [
+        "2026-09-12"
+      ],
+      "sha256": "607b81ae03b90621b0ef46ee28ac0e529ce80607d8eff6c00f579a63ae0bcaa4",
+      "source_title": "\"Pour l'écologie et pour l'union\" : discours de Marine Tondelier à la Fête de l'Humanité 2026",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-12T16:35:06+00:00",
+      "url": "https://www.youtube.com/watch?v=_4mH1T6dJcU"
+    },
     "e1966b1108dd5b6e07853fb4": {
       "canonical_confirmations": [
         {
@@ -27971,6 +28053,15 @@
       "status": "not_confirmed",
       "url": "https://anasse2027.fr/"
     },
+    "3cd7cda6848c": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-09-12T16:34:42+00:00",
+      "reason": null,
+      "source_sha256": "89240073cf8b5ad476043aa3c1a429c5833d6ad111411795e3d30ab8468ad280",
+      "status": "promoted",
+      "url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne"
+    },
     "3d062a785ed0": {
       "chunks_done": null,
       "chunks_total": 1,
@@ -27988,6 +28079,15 @@
       "source_sha256": "0d8a65a8dc74d4f3b80db285ed2a18b91b378305bd81ab393f4f26637b9e888d",
       "status": "promoted",
       "url": "https://attalpresident.fr/programme"
+    },
+    "3faf83ad5c00": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-12T16:34:57+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "9a075b2b81e33a6a5dfbddfaadbcbda75f3f96ba4f7423829a2958de578230da",
+      "status": "promoted",
+      "url": "https://www.revolutionpermanente.fr/Pourquoi-defendre-une-candidature-revolutionnaire-de-la-nouvelle-classe-ouvriere-RP-en-direct-de-la"
     },
     "400a8bd42a8a": {
       "chunks_done": null,
@@ -29746,6 +29846,15 @@
       "source_sha256": "c2b274e0ad808d020636cf61344043be96dd9dbcfda2047a5e37c24e34e93f21",
       "status": "promoted",
       "url": "https://www.unenouvelleenergie.fr/questions/david-lisnard-est-il-candidat-a-la-presidentielle-2027/"
+    },
+    "d0a871bb0f19": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-12T16:34:31+00:00",
+      "reason": "chronology_or_scope_guard",
+      "source_sha256": "c9c2e5a23bd2b9e70a20ded250fdb4cce89b4024bddaa8a1bf479f1c2fc6e2aa",
+      "status": "not_confirmed",
+      "url": "https://attalpresident.fr/actualites/annonce-de-candidature"
     },
     "d12b3e301bd0": {
       "chunks_done": null,

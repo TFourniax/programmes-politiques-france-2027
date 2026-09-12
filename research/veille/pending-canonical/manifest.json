@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created_at": "2026-08-17T19:57:19.441897+00:00",
-  "updated_at": "2026-09-12T11:48:07.901266+00:00",
+  "updated_at": "2026-09-12T16:35:21.531574+00:00",
   "files": [
     {
       "path": "corpus/2027/auto/candidates/anasse-kazib/2026-08-28-38891602d9d9.md",
@@ -12,6 +12,11 @@
       "path": "corpus/2027/auto/candidates/anasse-kazib/2026-09-11-2422f4421dc9.md",
       "sha256": "e4167eebfa2102d5988421bae3a03868f75927c11a3632e0913df74afe8e3f7f",
       "size": 1674
+    },
+    {
+      "path": "corpus/2027/auto/candidates/anasse-kazib/2026-09-12-b128933ee90e.md",
+      "sha256": "2382d3c5caa4a279d6809eea54ba8025b5c578d8c0546ba29caf7d5d11c50fda",
+      "size": 1812
     },
     {
       "path": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-02b6fd496b7b.md",
@@ -1160,8 +1165,8 @@
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-anasse-kazib-institutions-democratie-1a9f657935f4.md",
-      "sha256": "13560b0993f575cc047ef5e0116253afc7e52b9690e753a897e5c00b4481c7cb",
-      "size": 1261
+      "sha256": "17308d132dc07070556bb96fdbec3cf3fa45f9c2899348f38ea5616d80e64dd8",
+      "size": 1719
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-bruno-retailleau-institutions-democratie-916dbcbd3347.md",
