@@ -6,7 +6,7 @@ topic: securite-justice
 certainty: explicit
 proposal_status: current
 source_document_ids: [auto-rassemblement-national-2026-09-11-168804013684, auto-rassemblement-national-2026-09-11-2fa66d59ca64,
-  auto-rassemblement-national-2026-09-11-fb44baf077bf]
+  auto-rassemblement-national-2026-09-11-fb44baf077bf, auto-rassemblement-national-2026-09-13-e581ec850364]
 source_url: https://rassemblementnational.fr/
 source_tier: tier_1_primary_official
 first_documented_at: '2026-09-11'
@@ -17,9 +17,9 @@ evidence_sha256: 3fef1671cc9b008965b97ae3f8fbb393c59d4b44033a5837b89130b92645165
 generated_by: scripts/auto_promote.py
 source_urls: ['https://rassemblementnational.fr/']
 evidence_sha256s: [3fef1671cc9b008965b97ae3f8fbb393c59d4b44033a5837b89130b926451659, 8137916a5825cbdbda3c09afad8786ab1cbf49608abbe21a505c86ec07ca30e0,
-  d7dd92622f7cd3683d10803902a76e7991d0cad7b234a5930aaaae968178db28]
-confirmation_count: 3
-last_confirmed_at: '2026-09-11'
+  d7dd92622f7cd3683d10803902a76e7991d0cad7b234a5930aaaae968178db28, b7982dc45e752c5832f163d5f3e8af9af3b8f82002341dc7d1be803faee571cc]
+confirmation_count: 4
+last_confirmed_at: '2026-09-13'
 ---
 
 # Interdiction du port du burkini
