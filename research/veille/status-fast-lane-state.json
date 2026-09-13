@@ -40,7 +40,7 @@
       "error": "ValueError: HTTP 403",
       "event_url": "https://www.pcf.fr/une_candidature_de_gauche_au_service_de_l_aube_et_de_ses_communes",
       "owner": "Parti communiste français",
-      "processed_at": "2026-09-13T17:02:48+00:00",
+      "processed_at": "2026-09-13T21:31:17+00:00",
       "status": "technical_error"
     },
     "11b463101679": {
@@ -79,6 +79,13 @@
       "processed_at": "2026-09-13T12:48:30+00:00",
       "status": "already_current"
     },
+    "17c3535908af": {
+      "event_url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne",
+      "owner": "Gabriel Attal",
+      "processed_at": "2026-09-13T21:31:17+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
     "1cde73dcc36c": {
       "candidate_id": "gabriel-attal",
       "event_url": "https://attalpresident.fr/actualites/annonce-de-candidature",
@@ -91,7 +98,7 @@
       "error": "ValueError: HTTP 403",
       "event_url": "https://www.pcf.fr/presidentielle2027_fabien_roussel_designe_candidat",
       "owner": "Parti communiste français",
-      "processed_at": "2026-09-13T17:02:43+00:00",
+      "processed_at": "2026-09-13T21:31:12+00:00",
       "status": "technical_error"
     },
     "1fd1e63d4f5d": {
@@ -289,6 +296,13 @@
       "processed_at": "2026-09-09T21:48:13+00:00",
       "status": "already_current"
     },
+    "6914f708a59d": {
+      "event_url": "https://www.revolutionpermanente.fr/REVOIR-Une-candidature-ouvriere-et-revolutionnaire-en-2027-Avec-Anasse-Kazib-Elsa-Marcel",
+      "owner": "Anasse Kazib",
+      "processed_at": "2026-09-13T21:31:12+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
     "69ee6fd57e7c": {
       "event_url": "https://republicains.fr/actualites/2026/04/21/candidat-a-la-presidentielle-jirai-jusquau-bout/",
       "owner": "Bruno Retailleau",
@@ -459,6 +473,14 @@
       "processed_at": "2026-09-08T12:14:38+00:00",
       "status": "already_current"
     },
+    "a09b00bacb8d": {
+      "candidate_id": "gabriel-attal",
+      "event_url": "https://attalpresident.fr/actualites/annonce-de-candidature",
+      "new_status": "declared_presidential",
+      "owner": "Gabriel Attal",
+      "processed_at": "2026-09-13T21:31:17+00:00",
+      "status": "already_current"
+    },
     "a2dbf807320f": {
       "event_url": "https://npa-revolutionnaires.org/dans-bfm-presidentielle-2027-le-npa-revolutionnaires-annonce-presenter-la-candidature-de-sa-porte-parole-selma-labib/",
       "owner": "NPA-Révolutionnaires",
@@ -499,7 +521,7 @@
       "error": "ValueError: HTTP 403",
       "event_url": "https://www.pcf.fr/presidentielle_2027_mjcf_s_engage_pour_candidature_communiste",
       "owner": "Parti communiste français",
-      "processed_at": "2026-09-13T17:02:43+00:00",
+      "processed_at": "2026-09-13T21:31:12+00:00",
       "status": "technical_error"
     },
     "b88c50cd309b": {
@@ -538,6 +560,13 @@
       "reason": "no_deterministic_transition",
       "status": "not_applicable"
     },
+    "c2eca2d6a15f": {
+      "event_url": "https://anasse2027.fr/",
+      "owner": "Anasse Kazib",
+      "processed_at": "2026-09-13T21:31:12+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
     "c5b2de6d381b": {
       "candidate_id": "gabriel-attal",
       "event_url": "https://attalpresident.fr/actualites/annonce-de-candidature",
@@ -572,7 +601,7 @@
       "error": "ValueError: HTTP 404",
       "event_url": "https://parti-equinoxe.fr/articles/2022/05/la-transition-energetique-selon-les-ex-candidats-a-la-presidentielle-2/",
       "owner": "Équinoxe",
-      "processed_at": "2026-09-13T17:02:46+00:00",
+      "processed_at": "2026-09-13T21:31:16+00:00",
       "status": "technical_error"
     },
     "cce2ef2e9953": {
@@ -760,7 +789,7 @@
     }
   },
   "last_error_count": 4,
-  "last_run_at": "2026-09-13T17:02:48+00:00",
+  "last_run_at": "2026-09-13T21:31:17+00:00",
   "last_updated_count": 0,
   "version": 1
 }

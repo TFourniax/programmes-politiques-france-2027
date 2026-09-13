@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created_at": "2026-08-17T19:57:19.441897+00:00",
-  "updated_at": "2026-09-13T17:07:22.792906+00:00",
+  "updated_at": "2026-09-13T21:34:15.940697+00:00",
   "files": [
     {
       "path": "corpus/2027/auto/candidates/anasse-kazib/2026-08-28-38891602d9d9.md",
@@ -17,6 +17,11 @@
       "path": "corpus/2027/auto/candidates/anasse-kazib/2026-09-12-b128933ee90e.md",
       "sha256": "2382d3c5caa4a279d6809eea54ba8025b5c578d8c0546ba29caf7d5d11c50fda",
       "size": 1812
+    },
+    {
+      "path": "corpus/2027/auto/candidates/anasse-kazib/2026-09-13-13c583a0bf4a.md",
+      "sha256": "32bf1e7912c902f6a461f7c709c6f1620bcc97aac9904b8b3e878c1c5aa1da74",
+      "size": 1710
     },
     {
       "path": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-02b6fd496b7b.md",
@@ -739,6 +744,11 @@
       "size": 1549
     },
     {
+      "path": "corpus/2027/auto/partys/revolution-permanente/2026-09-13-487961cbb0d6.md",
+      "sha256": "4598cc9e84f1a409544275aed945787a186c10c61d1dccfa73564e4518de70ae",
+      "size": 1699
+    },
+    {
       "path": "corpus/2027/auto/partys/solution-democratique/2025-04-09-3a8ec20cb386.md",
       "sha256": "268b288b348cf4405f1cd419a74efaaba0adce4475aeff9b10af9796146281ac",
       "size": 1763
@@ -1047,6 +1057,11 @@
       "path": "proposals/auto/economie-finances/auto-revolution-permanente-economie-finances-4aee04b7eb52.md",
       "sha256": "8a39d7f64a92c2d25f7dfa54de140785589bbd5aaed2b10cdd78d364877b597c",
       "size": 1185
+    },
+    {
+      "path": "proposals/auto/economie-finances/auto-revolution-permanente-economie-finances-4e82c7f1f3b0.md",
+      "sha256": "01ae1808d1c4f66eea860de847536c6925813be06a750732ba69b9f99ddb7d56",
+      "size": 1563
     },
     {
       "path": "proposals/auto/europe-souverainete/auto-bruno-retailleau-europe-souverainete-ed8d0d14bccb.md",
@@ -1382,6 +1397,16 @@
       "path": "proposals/auto/pouvoir-achat-travail/auto-rassemblement-national-pouvoir-achat-travail-462170ab9083.md",
       "sha256": "79aebbce8ee896423f9ad3f7ba21bbbeaea3e4b4dfe1a704acdf372c6ab39820",
       "size": 1287
+    },
+    {
+      "path": "proposals/auto/pouvoir-achat-travail/auto-revolution-permanente-pouvoir-achat-travail-0a812c69e566.md",
+      "sha256": "e0523e9afff99f35a1064b3b47419d144b365630e0d0ef7579d2ef5ca95df3e2",
+      "size": 1265
+    },
+    {
+      "path": "proposals/auto/pouvoir-achat-travail/auto-revolution-permanente-pouvoir-achat-travail-3f8e466769b0.md",
+      "sha256": "d1456ddb0ca8b90f3d0ace8a1c80f7db6888929394d0b40040593d64c3c9104c",
+      "size": 1247
     },
     {
       "path": "proposals/auto/pouvoir-achat-travail/auto-selma-labib-pouvoir-achat-travail-e91313406b4a.md",

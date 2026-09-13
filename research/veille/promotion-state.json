@@ -70,6 +70,11 @@
       "source_url": "https://lesecologistes.fr/document/5ZhR2m5t2ZaGKqIdD1bJaD/vdef-programme-1.pdf",
       "verified_at": "2026-08-19T02:42:33+00:00"
     },
+    "0a812c69e5661b11c24f27410e0760ab1e722483bb43fc755335715ad0e12f27": {
+      "proposal_id": "auto-revolution-permanente-pouvoir-achat-travail-0a812c69e566",
+      "source_url": "https://www.youtube.com/shorts/Rgf5OeJIVtM",
+      "verified_at": "2026-09-13T21:34:04+00:00"
+    },
     "0b16aea25279f48c5ecd6d746ff884df4ff006dd4327ea0729af35d03262738e": {
       "proposal_id": "auto-gabriel-attal-services-publics-0b16aea25279",
       "source_url": "https://attalpresident.fr/programme",
@@ -410,6 +415,11 @@
       "source_url": "https://melenchon2027.fr/programme2025/livre/chapitre14/",
       "verified_at": "2026-08-12T23:32:54+00:00"
     },
+    "3f8e466769b0c09c84885dba8cce062d4c524b33181e778bff3b5b4f2b7fa27d": {
+      "proposal_id": "auto-revolution-permanente-pouvoir-achat-travail-3f8e466769b0",
+      "source_url": "https://www.youtube.com/shorts/Rgf5OeJIVtM",
+      "verified_at": "2026-09-13T21:34:04+00:00"
+    },
     "4200a876eb9112b9d12343b119ee154cd18f134f96c8d2c1e8994e6513238d5c": {
       "proposal_id": "auto-solution-democratique-institutions-democratie-4200a876eb91",
       "source_url": "https://solutiondemocratique.fr/parrainage2027/",
@@ -499,6 +509,11 @@
       "proposal_id": "auto-solution-democratique-institutions-democratie-4e498b3ec06e",
       "source_url": "https://solutiondemocratique.fr/parrainage2027/",
       "verified_at": "2026-08-16T13:55:56+00:00"
+    },
+    "4e82c7f1f3b000d8da27951827bac2a87fec22f557902526f8d4ecda57087cc7": {
+      "proposal_id": "auto-revolution-permanente-economie-finances-4e82c7f1f3b0",
+      "source_url": "https://www.revolutionpermanente.fr/REVOIR-Une-candidature-ouvriere-et-revolutionnaire-en-2027-Avec-Anasse-Kazib-Elsa-Marcel",
+      "verified_at": "2026-09-13T21:33:53+00:00"
     },
     "4ea1c22d52eae5284bda1e387a5178acb54c8520f6cb85cf5e07af1d2cd95008": {
       "proposal_id": "auto-solution-democratique-institutions-democratie-4ea1c22d52ea",
@@ -1638,7 +1653,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-09-13T17:06:39+00:00",
+  "last_run_at": "2026-09-13T21:33:58+00:00",
   "source_chunks": {
     "009ea6ddfcaa5e8d4f6a7064": {
       "canonical_confirmations": [],
@@ -2522,7 +2537,7 @@
       ],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-09-13T17:06:27+00:00",
+      "updated_at": "2026-09-13T21:33:57+00:00",
       "url": "https://attalpresident.fr/actualites/annonce-de-candidature"
     },
     "0d1c8e880d3045b492702087": {
@@ -3039,6 +3054,65 @@
       "total": 1,
       "updated_at": "2026-08-12T03:37:53+00:00",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
+    "13c583a0bf4a61f4c53a7741": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "revolution-permanente",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "nous portons un programme anticapitaliste, anti-impérialiste et révolutionnaire",
+            "relevance": "direct",
+            "statement": "Révolution Permanente porte un programme anticapitaliste, anti-impérialiste et révolutionnaire pour l'élection présidentielle de 2027.",
+            "topic": "economie-finances"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Le claim est explicitement soutenu par la source pour Révolution Permanente et l'élection présidentielle de 2027.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [
+        {
+          "claim": {
+            "actor_id": "revolution-permanente",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "nous portons un programme anticapitaliste, anti-impérialiste et révolutionnaire",
+            "relevance": "direct",
+            "statement": "Révolution Permanente porte un programme anticapitaliste, anti-impérialiste et révolutionnaire pour l'élection présidentielle de 2027.",
+            "topic": "economie-finances"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Le claim est explicitement soutenu par la source pour Révolution Permanente et l'élection présidentielle de 2027.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "completed_at": "2026-09-13T21:33:53+00:00",
+      "created_at": "2026-09-13T21:33:47+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "183be0e364ee29aebb0119dbfb1a2aaf2e0e25207ebbe1adb358e557e0039817",
+      "source_title": "Une candidature ouvrière et révolutionnaire en 2027 ! Avec Anasse Kazib, Elsa Marcel...",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-13T21:33:53+00:00",
+      "url": "https://www.revolutionpermanente.fr/REVOIR-Une-candidature-ouvriere-et-revolutionnaire-en-2027-Avec-Anasse-Kazib-Elsa-Marcel"
     },
     "14781613317c036e4355adb2": {
       "canonical_confirmations": [
@@ -9079,6 +9153,101 @@
       "updated_at": "2026-09-10T06:08:38+00:00",
       "url": "https://npa-revolutionnaires.org/articles/dans-bfm-presidentielle-2027-le-npa-revolutionnaires-annonce-presenter-la-candidature-de-sa-porte-parole-selma-labib"
     },
+    "487961cbb0d6d3243ef2cf53": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "revolution-permanente",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "nous revendiquons donc le partage du temps de travail et la semaine de 28h.",
+            "relevance": "party_platform",
+            "statement": "Revendiquer le partage du temps de travail et la semaine de 28h.",
+            "topic": "pouvoir-achat-travail"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Le parti Révolution Permanente revendique explicitement le partage du temps de travail et la semaine de 28h dans la source pour la campagne 2027.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "revolution-permanente",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "à travail égal, salaire égal !",
+            "relevance": "party_platform",
+            "statement": "Garantir à travail égal, salaire égal pour les stages et alternances.",
+            "topic": "pouvoir-achat-travail"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La source soutient explicitement la revendication d'un salaire égal pour les stages et alternances à travail égal pour le parti.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [
+        {
+          "claim": {
+            "actor_id": "revolution-permanente",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "nous revendiquons donc le partage du temps de travail et la semaine de 28h.",
+            "relevance": "party_platform",
+            "statement": "Revendiquer le partage du temps de travail et la semaine de 28h.",
+            "topic": "pouvoir-achat-travail"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Le parti Révolution Permanente revendique explicitement le partage du temps de travail et la semaine de 28h dans la source pour la campagne 2027.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "revolution-permanente",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "à travail égal, salaire égal !",
+            "relevance": "party_platform",
+            "statement": "Garantir à travail égal, salaire égal pour les stages et alternances.",
+            "topic": "pouvoir-achat-travail"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La source soutient explicitement la revendication d'un salaire égal pour les stages et alternances à travail égal pour le parti.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "completed_at": "2026-09-13T21:34:04+00:00",
+      "created_at": "2026-09-13T21:33:58+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "e60284d87f7ffebae3f58e03f0e0d2954a5f816f9ae2333afc819e5283de7f43",
+      "source_title": "🔴 Anasse 2027 : un programme pour tous les jeunes nationaux et étrangers !",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-13T21:34:04+00:00",
+      "url": "https://www.youtube.com/shorts/Rgf5OeJIVtM"
+    },
     "48d415c0a024d26a3676b469": {
       "canonical_confirmations": [],
       "claims": [],
@@ -11548,6 +11717,26 @@
       "total": 1,
       "updated_at": "2026-08-24T19:56:25+00:00",
       "url": "https://solutiondemocratique.fr/francois-asselineau-2027-programme/"
+    },
+    "66fe4ba3773987568fe9c217": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-09-13T21:34:10+00:00",
+      "document_types": [
+        "other"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "76b8f2311e0fc35a0efa93186e75382252d6d7c1e3cab44bfb16a0b03b3462a2",
+      "source_title": "Macron applique déjà le programme sécuritaire du RN - Elsa Marcel à la fête de l'Huma",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-13T21:34:11+00:00",
+      "url": "https://www.youtube.com/shorts/Jt0wIc8pDwo"
     },
     "677b90d46be6aa27c0852e0e": {
       "canonical_confirmations": [
@@ -21626,6 +21815,36 @@
       "updated_at": "2026-08-24T19:56:52+00:00",
       "url": "https://www.youtube.com/shorts/x4vUcrG4Vso"
     },
+    "c2e191bf223ce866a68cf0ed": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-09-13T21:33:44+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "fc15c0ac3507b31338b47dd7862a5f21a97e8da09ba50405c07334111dcb846d",
+      "source_title": "Anasse Kazib 2027",
+      "statuses": [
+        {
+          "status": {
+            "candidate_id": "anasse-kazib",
+            "effective_date": "2026-06-02",
+            "evidence_quote": "Anasse Kazib se déclare candidat pour 2027 au nom de Révolution Permanente",
+            "explicit": true,
+            "new_status": "declared_presidential"
+          }
+        }
+      ],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-13T21:33:47+00:00",
+      "url": "https://anasse2027.fr/"
+    },
     "c56c63e454ffe7798351ab54": {
       "canonical_confirmations": [
         {
@@ -28878,6 +29097,15 @@
       "status": "promoted",
       "url": "https://attalpresident.fr/programme"
     },
+    "6914f708a59d": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-09-13T21:33:56+00:00",
+      "reason": null,
+      "source_sha256": "183be0e364ee29aebb0119dbfb1a2aaf2e0e25207ebbe1adb358e557e0039817",
+      "status": "promoted",
+      "url": "https://www.revolutionpermanente.fr/REVOIR-Une-candidature-ouvriere-et-revolutionnaire-en-2027-Avec-Anasse-Kazib-Elsa-Marcel"
+    },
     "694050d4bc2c": {
       "chunks_done": null,
       "chunks_total": 1,
@@ -29490,6 +29718,15 @@
       "status": "promoted",
       "url": "https://attalpresident.fr/programme"
     },
+    "a09b00bacb8d": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-13T21:33:57+00:00",
+      "reason": "chronology_or_scope_guard",
+      "source_sha256": "c9c2e5a23bd2b9e70a20ded250fdb4cce89b4024bddaa8a1bf479f1c2fc6e2aa",
+      "status": "not_confirmed",
+      "url": "https://attalpresident.fr/actualites/annonce-de-candidature"
+    },
     "a180dc38cc57": {
       "chunks_done": null,
       "chunks_total": 1,
@@ -29967,6 +30204,15 @@
       "source_sha256": "7c84be79997947741a46e4745ca3f72ca8a8aabea66d4960ee413c1801822dde",
       "status": "promoted",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
+    "c2eca2d6a15f": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-13T21:33:47+00:00",
+      "reason": "chronology_or_scope_guard",
+      "source_sha256": "fc15c0ac3507b31338b47dd7862a5f21a97e8da09ba50405c07334111dcb846d",
+      "status": "not_confirmed",
+      "url": "https://anasse2027.fr/"
     },
     "c3045aeb9053": {
       "chunks_done": null,
