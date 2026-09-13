@@ -1631,9 +1631,9 @@
       "verified_at": "2026-08-13T08:51:16+00:00"
     }
   },
-  "last_error_count": 1,
-  "last_processed_count": 2,
-  "last_run_at": "2026-09-13T06:23:38+00:00",
+  "last_error_count": 0,
+  "last_processed_count": 3,
+  "last_run_at": "2026-09-13T12:51:09+00:00",
   "source_chunks": {
     "009ea6ddfcaa5e8d4f6a7064": {
       "canonical_confirmations": [],
@@ -2517,7 +2517,7 @@
       ],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-09-13T06:23:27+00:00",
+      "updated_at": "2026-09-13T12:50:54+00:00",
       "url": "https://attalpresident.fr/actualites/annonce-de-candidature"
     },
     "0d1c8e880d3045b492702087": {
@@ -6485,7 +6485,7 @@
           }
         }
       ],
-      "completed_at": "2026-09-13T06:23:29+00:00",
+      "completed_at": "2026-09-13T12:50:56+00:00",
       "created_at": "2026-09-11T21:51:33+00:00",
       "document_types": [
         "official_interview"
@@ -6502,7 +6502,7 @@
       "statuses": [],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-09-13T06:23:29+00:00",
+      "updated_at": "2026-09-13T12:50:56+00:00",
       "url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne"
     },
     "3671cfb92c0144e2481ae990": {
@@ -11679,6 +11679,26 @@
       "total": 1,
       "updated_at": "2026-08-26T22:28:43+00:00",
       "url": "https://www.youtube.com/watch?v=1DIYBZ6be7c"
+    },
+    "69196ad3ac3a39ce64791e56": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-09-13T12:51:07+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "0763c175ffe985f8b88c815cb91b29228a00186b7d5ba53458b3b2351beaa614",
+      "source_title": "REVOIR. Pourquoi défendre une candidature révolutionnaire de la nouvelle classe ouvrière ? - RP à la fête de l'Huma",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-13T12:51:08+00:00",
+      "url": "https://www.revolutionpermanente.fr/Pourquoi-defendre-une-candidature-revolutionnaire-de-la-nouvelle-classe-ouvriere-RP-en-direct-de-la"
     },
     "6939196706886c3dea8ef80e": {
       "canonical_confirmations": [
@@ -27366,6 +27386,15 @@
       "status": "promoted",
       "url": "https://attalpresident.fr/programme"
     },
+    "03b38f13108d": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-09-13T12:51:06+00:00",
+      "reason": null,
+      "source_sha256": "89240073cf8b5ad476043aa3c1a429c5833d6ad111411795e3d30ab8468ad280",
+      "status": "promoted",
+      "url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne"
+    },
     "0452e2c81d91": {
       "chunks_done": null,
       "chunks_total": null,
@@ -27590,6 +27619,15 @@
       "status": "promoted",
       "url": "https://www.unenouvelleenergie.fr/notre-programme/"
     },
+    "1779f838f26d": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-13T12:50:54+00:00",
+      "reason": "chronology_or_scope_guard",
+      "source_sha256": "c9c2e5a23bd2b9e70a20ded250fdb4cce89b4024bddaa8a1bf479f1c2fc6e2aa",
+      "status": "not_confirmed",
+      "url": "https://attalpresident.fr/actualites/annonce-de-candidature"
+    },
     "182b9bf51ee5": {
       "chunks_done": null,
       "chunks_total": null,
@@ -27687,6 +27725,15 @@
       "source_sha256": "47a465d572c76dbde25c5f7417e2d80a52fa25ed795c1784fd60aa17dd49a778",
       "status": "not_confirmed",
       "url": "https://anasse2027.fr/"
+    },
+    "20224fdf56bc": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-13T12:51:08+00:00",
+      "reason": null,
+      "source_sha256": "0763c175ffe985f8b88c815cb91b29228a00186b7d5ba53458b3b2351beaa614",
+      "status": "not_confirmed",
+      "url": "https://www.revolutionpermanente.fr/Pourquoi-defendre-une-candidature-revolutionnaire-de-la-nouvelle-classe-ouvriere-RP-en-direct-de-la"
     },
     "2028f307a0d0": {
       "chunks_done": null,
