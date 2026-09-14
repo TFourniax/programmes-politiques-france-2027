@@ -21,6 +21,13 @@
       "reason": "no_deterministic_transition",
       "status": "not_applicable"
     },
+    "09c574046f28": {
+      "event_url": "https://rassemblementnational.fr/",
+      "owner": "Rassemblement national",
+      "processed_at": "2026-09-14T14:15:34+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
     "0b0401b030de": {
       "event_url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne",
       "owner": "Gabriel Attal",
@@ -40,7 +47,7 @@
       "error": "ValueError: HTTP 403",
       "event_url": "https://www.pcf.fr/une_candidature_de_gauche_au_service_de_l_aube_et_de_ses_communes",
       "owner": "Parti communiste français",
-      "processed_at": "2026-09-14T06:28:30+00:00",
+      "processed_at": "2026-09-14T14:15:35+00:00",
       "status": "technical_error"
     },
     "11b463101679": {
@@ -105,7 +112,7 @@
       "error": "ValueError: HTTP 403",
       "event_url": "https://www.pcf.fr/presidentielle2027_fabien_roussel_designe_candidat",
       "owner": "Parti communiste français",
-      "processed_at": "2026-09-14T06:28:26+00:00",
+      "processed_at": "2026-09-14T14:15:30+00:00",
       "status": "technical_error"
     },
     "1fd1e63d4f5d": {
@@ -202,6 +209,13 @@
       "owner": "Gabriel Attal",
       "processed_at": "2026-09-08T17:20:00+00:00",
       "status": "already_current"
+    },
+    "381cc6ea87d2": {
+      "event_url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne",
+      "owner": "Gabriel Attal",
+      "processed_at": "2026-09-14T14:15:35+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
     },
     "3a1bdd8c323c": {
       "candidate_id": "gabriel-attal",
@@ -535,7 +549,7 @@
       "error": "ValueError: HTTP 403",
       "event_url": "https://www.pcf.fr/presidentielle_2027_mjcf_s_engage_pour_candidature_communiste",
       "owner": "Parti communiste français",
-      "processed_at": "2026-09-14T06:28:26+00:00",
+      "processed_at": "2026-09-14T14:15:30+00:00",
       "status": "technical_error"
     },
     "b88c50cd309b": {
@@ -623,8 +637,15 @@
       "error": "ValueError: HTTP 404",
       "event_url": "https://parti-equinoxe.fr/articles/2022/05/la-transition-energetique-selon-les-ex-candidats-a-la-presidentielle-2/",
       "owner": "Équinoxe",
-      "processed_at": "2026-09-14T06:28:29+00:00",
+      "processed_at": "2026-09-14T14:15:34+00:00",
       "status": "technical_error"
+    },
+    "cb3428b2b6d3": {
+      "event_url": "https://solutiondemocratique.fr/comparatif-candidats-programme-elections-presidentielles-france-2027/",
+      "owner": "Solution démocratique",
+      "processed_at": "2026-09-14T14:15:30+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
     },
     "cce2ef2e9953": {
       "event_url": "https://npa-revolutionnaires.org/selma-labib-une-candidature-ouvriere-et-revolutionnaire-soutenue-par-gael-quirante/",
@@ -771,6 +792,14 @@
       "reason": "no_deterministic_transition",
       "status": "not_applicable"
     },
+    "f023d069036e": {
+      "candidate_id": "gabriel-attal",
+      "event_url": "https://attalpresident.fr/actualites/annonce-de-candidature",
+      "new_status": "declared_presidential",
+      "owner": "Gabriel Attal",
+      "processed_at": "2026-09-14T14:15:34+00:00",
+      "status": "already_current"
+    },
     "f2bdc1bda515": {
       "event_url": "https://solutiondemocratique.fr/presidentielle2027-annonce-candidature-clara-egger/",
       "owner": "Solution démocratique",
@@ -811,7 +840,7 @@
     }
   },
   "last_error_count": 4,
-  "last_run_at": "2026-09-14T06:28:30+00:00",
+  "last_run_at": "2026-09-14T14:15:35+00:00",
   "last_updated_count": 0,
   "version": 1
 }

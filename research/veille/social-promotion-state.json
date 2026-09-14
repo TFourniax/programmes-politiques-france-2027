@@ -321,6 +321,24 @@
       "status": "not_confirmed",
       "url": "https://www.youtube.com/shorts/0C2BXI3g_qs"
     },
+    "63037f25d8db623b007d": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-14T14:18:23+00:00",
+      "provenance_updates": [],
+      "source_sha256": "e3f80fd9ab0a9194797ad54aba83d1f080f80dbb77f93c5d01d1c31e457d4301",
+      "status": "not_confirmed",
+      "url": "https://bsky.app/profile/marinetondelier.fr/post/3mvi2atwy4k2m"
+    },
+    "66ce683d93b0f25c2d7f": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-14T14:18:21+00:00",
+      "provenance_updates": [],
+      "source_sha256": "23ad315995507724f7a59bad08dcd233aa9b542ff93f56d3a1ceb9dcda22a5a1",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/shorts/qULBEFlHYN0"
+    },
     "6caefa996167771b6cbd": {
       "chunks_done": null,
       "chunks_total": null,
@@ -759,6 +777,15 @@
       "status": "not_confirmed",
       "url": "https://bsky.app/profile/lesecologistes.fr/post/3mtgcdeayzs2q"
     },
+    "f0bd4f8f3ce04a761785": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-14T14:18:19+00:00",
+      "provenance_updates": [],
+      "source_sha256": "c93987b183b2d464fe4680da7672be0eab8a834692d23292e9c576a57923312a",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/shorts/_SzArSKAJws"
+    },
     "f259c6abaf688e6d5285": {
       "chunks_done": null,
       "chunks_total": 1,
@@ -839,10 +866,19 @@
       "source_sha256": "26208244c668c3cfd2155c75926f7955c82e2fd6188fce53eb69c0c6708acb5d",
       "status": "not_confirmed",
       "url": "https://www.youtube.com/watch?v=TPT5Slg7A4A"
+    },
+    "ff917a11860aaa0bd7e7": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-14T14:18:17+00:00",
+      "provenance_updates": [],
+      "source_sha256": "c7ecac8abe890880d7ec85a5624e859eba2eab780b937334efc55ef0e9de2153",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/shorts/A0p5m8f1qZk"
     }
   },
   "last_error_count": 0,
-  "last_processed_count": 0,
-  "last_run_at": "2026-09-14T06:31:23+00:00",
+  "last_processed_count": 4,
+  "last_run_at": "2026-09-14T14:18:24+00:00",
   "version": 2
 }
