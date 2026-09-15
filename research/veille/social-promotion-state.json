@@ -216,6 +216,15 @@
       "status": "not_confirmed",
       "url": "https://www.youtube.com/shorts/qnpgwVn_x2Q"
     },
+    "4209ae23cd479579d6a5": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-15T12:50:05+00:00",
+      "provenance_updates": [],
+      "source_sha256": "6f154ad0f6cea8a658fa483e1af9053c7f3436dd5a127973305c9cb55a20cc98",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/watch?v=6wdb8ocAPR4"
+    },
     "45b2d09a0cb907422eed": {
       "chunks_done": null,
       "chunks_total": null,
@@ -366,6 +375,15 @@
       "status": "not_confirmed",
       "url": "https://bsky.app/profile/marinetondelier.fr/post/3mten2mik7224"
     },
+    "73b360753ad369b862cc": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-15T12:50:03+00:00",
+      "provenance_updates": [],
+      "source_sha256": "9a75cc3bd58be8eefa6d6ebe9540ac2def52d9e4f3cd608b4ac1b8af72bd4834",
+      "status": "not_confirmed",
+      "url": "https://bsky.app/profile/lesecologistes.fr/post/3mvkmgep4n22s"
+    },
     "775cc31ce5a07eae4c26": {
       "attempts": 1,
       "error": "ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
@@ -391,6 +409,15 @@
       "source_sha256": "1a52cf97174c15bbadecbbb0c4ea794566420b814a7f1eeb997826ef0991cf4e",
       "status": "not_confirmed",
       "url": "https://bsky.app/profile/marinetondelier.fr/post/3mvdta4iaw227"
+    },
+    "7e6359a6c9f753fbed27": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-15T12:50:07+00:00",
+      "provenance_updates": [],
+      "source_sha256": "7cf5577530ceac49dc6c9b8366e28a6492e7c9c9479980ac8deda58157e334eb",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/watch?v=LFDm8pJdl94"
     },
     "818b2a43a50092a702d9": {
       "chunks_done": null,
@@ -887,7 +914,7 @@
     }
   },
   "last_error_count": 0,
-  "last_processed_count": 0,
-  "last_run_at": "2026-09-15T06:18:47+00:00",
+  "last_processed_count": 3,
+  "last_run_at": "2026-09-15T12:50:08+00:00",
   "version": 2
 }
