@@ -1,0 +1,33 @@
+{
+  "errors": [],
+  "generated_at": "2026-09-15T06:18:46+00:00",
+  "historical_skipped": 0,
+  "partial": 0,
+  "processed": 3,
+  "promoted": 1,
+  "proposals_created": 0,
+  "results": [
+    {
+      "sha256": "f3da9230540ab5af713daf59e34fae0e1d31741d877e301741a2f5d010045683",
+      "status": "not_confirmed",
+      "url": "https://www.revolutionpermanente.fr/6-milliards-de-moins-pour-les-retraites-le-gouvernement-prepare-un-budget-2027-ultra-austeritaire"
+    },
+    {
+      "reason": "chronology_or_scope_guard",
+      "sha256": "c9c2e5a23bd2b9e70a20ded250fdb4cce89b4024bddaa8a1bf479f1c2fc6e2aa",
+      "status": "not_confirmed",
+      "url": "https://attalpresident.fr/actualites/annonce-de-candidature"
+    },
+    {
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/candidates/gabriel-attal/2026-06-01-36681da9ebbd.md",
+      "proposals": [],
+      "sha256": "89240073cf8b5ad476043aa3c1a429c5833d6ad111411795e3d30ab8468ad280",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne",
+      "verified_at": "2026-09-15T06:18:36+00:00"
+    }
+  ],
+  "status_updates": 0
+}
