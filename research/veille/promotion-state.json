@@ -1651,9 +1651,9 @@
       "verified_at": "2026-08-13T08:51:16+00:00"
     }
   },
-  "last_error_count": 0,
-  "last_processed_count": 3,
-  "last_run_at": "2026-09-15T22:28:14+00:00",
+  "last_error_count": 2,
+  "last_processed_count": 1,
+  "last_run_at": "2026-09-16T06:13:26+00:00",
   "source_chunks": {
     "009ea6ddfcaa5e8d4f6a7064": {
       "canonical_confirmations": [],
@@ -6942,7 +6942,7 @@
           }
         }
       ],
-      "completed_at": "2026-09-15T22:27:59+00:00",
+      "completed_at": "2026-09-16T06:13:14+00:00",
       "created_at": "2026-09-11T21:51:33+00:00",
       "document_types": [
         "official_interview"
@@ -6959,7 +6959,7 @@
       "statuses": [],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-09-15T22:27:59+00:00",
+      "updated_at": "2026-09-16T06:13:14+00:00",
       "url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne"
     },
     "3671cfb92c0144e2481ae990": {
@@ -24624,6 +24624,26 @@
       "updated_at": "2026-08-27T23:09:40+00:00",
       "url": "https://www.unenouvelleenergie.fr/notre-programme/"
     },
+    "d4c2a3b6e5a529b45e5c4047": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-09-16T06:13:27+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "2a78dc8b7c016863e10e5dc00ece4cfa25b359a97d69dab270fd859a9391e117",
+      "source_title": "🟢 Juste avant un déplacement à Strasbourg sur le thème de l'Europe, je serai demain à 7h50 dans la Grande Matinale de @franceinter.fr !",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-16T06:13:28+00:00",
+      "url": "https://bsky.app/profile/marinetondelier.fr/post/3mvldo7y2as2x"
+    },
     "d5103e764df82a4a446947de": {
       "canonical_confirmations": [],
       "claims": [],
@@ -26827,6 +26847,26 @@
       "total": 1,
       "updated_at": "2026-08-21T02:44:55+00:00",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
+    "eb27e10111da16af3088c583": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-09-16T06:13:28+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "7d72b911a68a9b0d8ba96c7f5a36efa43d752b51755a1cb71b71409d2578f346",
+      "source_title": "La plupart des candidat·es ont surtout des hommes, des blancs, et/ou des privilégié·es dans leur équipe de campagne. Je ne le supporte plus. Très fière de vous présenter ma nouve",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-16T06:13:30+00:00",
+      "url": "https://bsky.app/profile/marinetondelier.fr/post/3mvlarotai22r"
     },
     "ebdf9e3b3ba73235730df593": {
       "canonical_confirmations": [],
@@ -29154,10 +29194,10 @@
       "url": "https://www.revolutionpermanente.fr/Anasse-Kazib-2027"
     },
     "0de45182a5ce": {
-      "attempts": 2,
+      "attempts": 3,
       "error": "ValueError: HTTP 403",
-      "next_retry_at": "2026-09-13T05:59:19+00:00",
-      "processed_at": "2026-09-12T05:59:19+00:00",
+      "next_retry_at": "2026-09-19T06:13:25+00:00",
+      "processed_at": "2026-09-16T06:13:25+00:00",
       "status": "technical_error",
       "url": "https://www.pcf.fr/une_candidature_de_gauche_au_service_de_l_aube_et_de_ses_communes"
     },
@@ -29490,6 +29530,15 @@
       "source_sha256": "888a357228234b2c9bdba423098dc9dd03c73b0ff63727c3f94177babe70c2d1",
       "status": "promoted",
       "url": "https://solutiondemocratique.fr/a-quelle-condition-nous-sommes-pret-a-retirer-notre-candidature-a-la-presidentielle/"
+    },
+    "2683e0c83e7d": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-09-16T06:13:24+00:00",
+      "reason": null,
+      "source_sha256": "89240073cf8b5ad476043aa3c1a429c5833d6ad111411795e3d30ab8468ad280",
+      "status": "promoted",
+      "url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne"
     },
     "27000418eea5": {
       "chunks_done": null,
@@ -30032,10 +30081,10 @@
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
     "472924b7a00c": {
-      "attempts": 1,
+      "attempts": 2,
       "error": "ValueError: HTTP 404",
-      "next_retry_at": "2026-09-13T03:35:26+00:00",
-      "processed_at": "2026-09-12T21:35:26+00:00",
+      "next_retry_at": "2026-09-17T06:13:26+00:00",
+      "processed_at": "2026-09-16T06:13:26+00:00",
       "status": "technical_error",
       "url": "https://www.revolutionpermanente.fr/Neoliberalisme-social-et-militarisme-de-gauche-Glucksmann-lance-sa-candidature"
     },

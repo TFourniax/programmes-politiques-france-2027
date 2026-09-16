@@ -1,0 +1,33 @@
+{
+  "errors": [
+    {
+      "at": "2026-09-16T06:13:25+00:00",
+      "error": "ValueError: HTTP 403",
+      "url": "https://www.pcf.fr/une_candidature_de_gauche_au_service_de_l_aube_et_de_ses_communes"
+    },
+    {
+      "at": "2026-09-16T06:13:26+00:00",
+      "error": "ValueError: HTTP 404",
+      "url": "https://www.revolutionpermanente.fr/Neoliberalisme-social-et-militarisme-de-gauche-Glucksmann-lance-sa-candidature"
+    }
+  ],
+  "generated_at": "2026-09-16T06:13:26+00:00",
+  "historical_skipped": 0,
+  "partial": 0,
+  "processed": 1,
+  "promoted": 1,
+  "proposals_created": 0,
+  "results": [
+    {
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/candidates/gabriel-attal/2026-06-01-36681da9ebbd.md",
+      "proposals": [],
+      "sha256": "89240073cf8b5ad476043aa3c1a429c5833d6ad111411795e3d30ab8468ad280",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne",
+      "verified_at": "2026-09-16T06:13:14+00:00"
+    }
+  ],
+  "status_updates": 0
+}
