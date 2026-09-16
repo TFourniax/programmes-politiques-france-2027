@@ -1,26 +1,23 @@
 {
   "errors": [],
-  "generated_at": "2026-09-16T17:46:13+00:00",
+  "generated_at": "2026-09-16T22:19:25+00:00",
   "partial": 0,
-  "processed": 3,
-  "promoted": 0,
-  "proposals_created": 0,
+  "processed": 1,
+  "promoted": 1,
+  "proposals_created": 1,
   "provenance_updates": 0,
   "results": [
     {
-      "sha256": "87e9fc5dd7a54b47659b1555bd6b2a7ede585b0d0acfc8aa6a8369aecad5d448",
-      "status": "not_confirmed",
-      "url": "https://bsky.app/profile/lesecologistes.fr/post/3mvnmiyuxns2k"
-    },
-    {
-      "sha256": "3830fc89582729eddef8df8282a86ad24a5f994957ebd6af51c468629ea7575a",
-      "status": "not_confirmed",
-      "url": "https://www.youtube.com/watch?v=NeAAEPTCyZk"
-    },
-    {
-      "sha256": "4437d31bc65aaaa9d7680ec8a13f9fe0d73abea92f71f221993a114145f29567",
-      "status": "not_confirmed",
-      "url": "https://www.youtube.com/watch?v=UZXE6Gt2C2w"
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/partys/revolution-permanente/2026-09-16-6a047f4d1deb.md",
+      "proposals": [
+        "proposals/auto/pouvoir-achat-travail/auto-revolution-permanente-pouvoir-achat-travail-278029a02d45.md"
+      ],
+      "sha256": "8545476dcd46b7f6b8011d43961896a574df880f4651f65d794a71e473eba1d4",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://www.youtube.com/shorts/EFHWdroskKY",
+      "verified_at": "2026-09-16T22:19:22+00:00"
     }
   ],
   "status_updates": 0

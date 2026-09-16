@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created_at": "2026-08-17T19:57:19.441897+00:00",
-  "updated_at": "2026-09-16T17:46:16.719329+00:00",
+  "updated_at": "2026-09-16T22:19:29.008741+00:00",
   "files": [
     {
       "path": "corpus/2027/auto/candidates/anasse-kazib/2026-08-28-38891602d9d9.md",
@@ -34,9 +34,19 @@
       "size": 1825
     },
     {
+      "path": "corpus/2027/auto/candidates/anasse-kazib/2026-09-16-1690872ca35a.md",
+      "sha256": "94c05a67e75b44ea2d34e3f010c640bf15eb66536ce957f4ee735a577c4c3544",
+      "size": 1597
+    },
+    {
       "path": "corpus/2027/auto/candidates/anasse-kazib/2026-09-16-a333ab310bdb.md",
       "sha256": "db8f10a3b1aa4af11c26680dedf95a969f0ad2e3f9428f834ebb5256c22c818c",
       "size": 1759
+    },
+    {
+      "path": "corpus/2027/auto/candidates/anasse-kazib/2026-09-16-aec48c88f60a.md",
+      "sha256": "4f89fa5d50b8d197a46dd2dcdb8ba4706fbfe4ffb7760887cd27d3ff149c2b7b",
+      "size": 2218
     },
     {
       "path": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-02b6fd496b7b.md",
@@ -804,6 +814,11 @@
       "size": 1699
     },
     {
+      "path": "corpus/2027/auto/partys/revolution-permanente/2026-09-16-6a047f4d1deb.md",
+      "sha256": "d4d86c7214c24b796ee7b4bf26079c2c32ab8df2443f9d274294abba607d0a25",
+      "size": 1534
+    },
+    {
       "path": "corpus/2027/auto/partys/solution-democratique/2025-04-09-3a8ec20cb386.md",
       "sha256": "268b288b348cf4405f1cd419a74efaaba0adce4475aeff9b10af9796146281ac",
       "size": 1763
@@ -1049,6 +1064,11 @@
       "size": 1294
     },
     {
+      "path": "proposals/auto/economie-finances/auto-anasse-kazib-economie-finances-98fed100363d.md",
+      "sha256": "a22bd34fedcddaf98fe35972a6ed3491758eb6c184b6e8826c6deaea9d946fb2",
+      "size": 1415
+    },
+    {
       "path": "proposals/auto/economie-finances/auto-david-lisnard-economie-finances-3591e11af1e3.md",
       "sha256": "a199e89b218887303ec295fff8e8dddeacd4bc6245367a081b752a751dc68c65",
       "size": 2027
@@ -1122,6 +1142,11 @@
       "path": "proposals/auto/economie-finances/auto-revolution-permanente-economie-finances-4e82c7f1f3b0.md",
       "sha256": "7255f4ab411a1dae91dfa1e8a9e9974a2b26a83a374df471bdae0c179d8201a7",
       "size": 2119
+    },
+    {
+      "path": "proposals/auto/economie-finances/auto-revolution-permanente-economie-finances-9a3a787c0c18.md",
+      "sha256": "e8630d2d5b42df796f53b31a705781a6e1a24d39435e62b5126e7a4b554b6898",
+      "size": 1337
     },
     {
       "path": "proposals/auto/europe-souverainete/auto-bruno-retailleau-europe-souverainete-ed8d0d14bccb.md",
@@ -1247,6 +1272,11 @@
       "path": "proposals/auto/institutions-democratie/auto-anasse-kazib-institutions-democratie-1a9f657935f4.md",
       "sha256": "17308d132dc07070556bb96fdbec3cf3fa45f9c2899348f38ea5616d80e64dd8",
       "size": 1719
+    },
+    {
+      "path": "proposals/auto/institutions-democratie/auto-anasse-kazib-institutions-democratie-c09dd0700402.md",
+      "sha256": "09d92648028e85a95097ca05057db9623ff8c5f1497ff194edbccacc5478e5bd",
+      "size": 1414
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-bruno-retailleau-institutions-democratie-916dbcbd3347.md",
@@ -1462,6 +1492,11 @@
       "path": "proposals/auto/pouvoir-achat-travail/auto-revolution-permanente-pouvoir-achat-travail-0a812c69e566.md",
       "sha256": "e0523e9afff99f35a1064b3b47419d144b365630e0d0ef7579d2ef5ca95df3e2",
       "size": 1265
+    },
+    {
+      "path": "proposals/auto/pouvoir-achat-travail/auto-revolution-permanente-pouvoir-achat-travail-278029a02d45.md",
+      "sha256": "b0f4bea76a40133946dac032bc151e5efcf0ded1c6658c4834bda4d3a7eb4924",
+      "size": 1244
     },
     {
       "path": "proposals/auto/pouvoir-achat-travail/auto-revolution-permanente-pouvoir-achat-travail-3f8e466769b0.md",
@@ -1810,8 +1845,8 @@
     },
     {
       "path": "proposals/retraites/anasse-kazib-60-55.md",
-      "sha256": "551a510dc77b2e672030105d2f130eb631f835c766c9c77d5c83f069bdac4234",
-      "size": 997
+      "sha256": "d911b7abccd4d24f1cc50191265e63ea73252ac404e17b6e6948c1bf55efd77e",
+      "size": 1241
     },
     {
       "path": "proposals/retraites/david-lisnard-capitalisation.md",

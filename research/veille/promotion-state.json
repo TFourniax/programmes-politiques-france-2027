@@ -260,6 +260,11 @@
       "source_url": "https://melenchon2027.fr/programme2025/livre/chapitre5/",
       "verified_at": "2026-08-13T03:40:17+00:00"
     },
+    "278029a02d45f1c7a61fe9b97f35b3fc4a19a465556dd815be0ee3ac5c80aeb8": {
+      "proposal_id": "auto-revolution-permanente-pouvoir-achat-travail-278029a02d45",
+      "source_url": "https://www.youtube.com/shorts/EFHWdroskKY",
+      "verified_at": "2026-09-16T22:19:22+00:00"
+    },
     "297324494965ddd5e28b00a283fe49121f8d43d466c1dbe09e2c3676cbbceb1a": {
       "proposal_id": "auto-la-france-insoumise-institutions-democratie-297324494965",
       "source_url": "https://melenchon2027.fr/programme2025/livre/chapitre1/",
@@ -1000,10 +1005,20 @@
       "source_url": "https://lesecologistes.fr/document/5ZhR2m5t2ZaGKqIdD1bJaD/vdef-programme-1.pdf",
       "verified_at": "2026-08-19T02:42:33+00:00"
     },
+    "98fed100363d5e1e0f98971089509110a761b0ebe23454fe0c7f760f64a46444": {
+      "proposal_id": "auto-anasse-kazib-economie-finances-98fed100363d",
+      "source_url": "https://www.revolutionpermanente.fr/28h-expropriation-des-secteurs-strategiques-RP-presente-les-premieres-mesures-de-sa-candidature",
+      "verified_at": "2026-09-16T22:19:11+00:00"
+    },
     "99ccd79b1d52b3e85e4019dbdfea4f4d4ffa0ae64e915a9be64b7c5ed960bba3": {
       "proposal_id": "auto-la-france-insoumise-ecologie-energie-99ccd79b1d52",
       "source_url": "https://melenchon2027.fr/programme2025/livre/chapitre14/",
       "verified_at": "2026-08-12T23:32:54+00:00"
+    },
+    "9a3a787c0c18103341594b364f39074e4743b9ae6ad9de0ff67eeea0b2064b18": {
+      "proposal_id": "auto-revolution-permanente-economie-finances-9a3a787c0c18",
+      "source_url": "https://www.revolutionpermanente.fr/Une-candidature-ouvriere-et-revolutionnaire-en-2027-Avec-Anasse-Kazib-Elsa-Marcel",
+      "verified_at": "2026-09-16T22:18:53+00:00"
     },
     "9a833ee3fa45c9ad65d8f264203de302eb93b859003111e5fdc2e48adaedb249": {
       "proposal_id": "auto-les-ecologistes-ecologie-energie-9a833ee3fa45",
@@ -1259,6 +1274,11 @@
       "proposal_id": "auto-la-france-insoumise-securite-justice-c029bd01a6ac",
       "source_url": "https://melenchon2027.fr/programme2025/livre/chapitre16/",
       "verified_at": "2026-08-13T00:20:23+00:00"
+    },
+    "c09dd0700402db00622fcc7e71d039f0adcaa34437f1f7fb6b38f5e793da3066": {
+      "proposal_id": "auto-anasse-kazib-institutions-democratie-c09dd0700402",
+      "source_url": "https://www.revolutionpermanente.fr/28h-expropriation-des-secteurs-strategiques-RP-presente-les-premieres-mesures-de-sa-candidature",
+      "verified_at": "2026-09-16T22:19:11+00:00"
     },
     "c1998cd60de17f2f8e28de7e901df4d1873ed2922f034bdc22b5e7727fc9a5d4": {
       "proposal_id": "auto-les-ecologistes-europe-souverainete-c1998cd60de1",
@@ -1658,7 +1678,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-09-16T17:46:07+00:00",
+  "last_run_at": "2026-09-16T22:19:16+00:00",
   "source_chunks": {
     "009ea6ddfcaa5e8d4f6a7064": {
       "canonical_confirmations": [],
@@ -3651,6 +3671,65 @@
       "total": 1,
       "updated_at": "2026-09-11T06:12:07+00:00",
       "url": "https://rassemblementnational.fr/"
+    },
+    "1690872ca35a252836a8fe20": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "revolution-permanente",
+            "actor_type": "party",
+            "certainty": "explicit_but_underspecified",
+            "evidence_quote": "expropriation des secteurs stratégiques",
+            "relevance": "party_platform",
+            "statement": "Révolution Permanente propose l'expropriation des secteurs stratégiques.",
+            "topic": "economie-finances"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La source mentionne explicitement l'expropriation des secteurs stratégiques parmi les premières mesures présentées par Révolution Permanente pour sa candidature en 2027.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [
+        {
+          "claim": {
+            "actor_id": "revolution-permanente",
+            "actor_type": "party",
+            "certainty": "explicit_but_underspecified",
+            "evidence_quote": "expropriation des secteurs stratégiques",
+            "relevance": "party_platform",
+            "statement": "Révolution Permanente propose l'expropriation des secteurs stratégiques.",
+            "topic": "economie-finances"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La source mentionne explicitement l'expropriation des secteurs stratégiques parmi les premières mesures présentées par Révolution Permanente pour sa candidature en 2027.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "completed_at": "2026-09-16T22:18:53+00:00",
+      "created_at": "2026-09-16T22:18:48+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "be0bfff9537da8e45deaa0b51690f72124f3b6ba23a28e39f47b3b5e0c71ff22",
+      "source_title": "Une candidature ouvrière et révolutionnaire en 2027 ! Avec Anasse Kazib, Elsa Marcel...",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-16T22:18:53+00:00",
+      "url": "https://www.revolutionpermanente.fr/Une-candidature-ouvriere-et-revolutionnaire-en-2027-Avec-Anasse-Kazib-Elsa-Marcel"
     },
     "170a10d674b56149b768f432": {
       "claims": [
@@ -9130,6 +9209,26 @@
       "updated_at": "2026-08-21T08:09:18+00:00",
       "url": "https://solutiondemocratique.fr/programme-lfi-2027/"
     },
+    "44d1922695ea243e322ba72c": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-09-16T22:18:46+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "7146f1459602cf65c0e657f5494c89b475830fc06d4431278beb88e08f41c59d",
+      "source_title": "Budget 2027 : Lecornu veut prendre 6 milliards d'euros dans les poches des retraités",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-16T22:18:47+00:00",
+      "url": "https://www.revolutionpermanente.fr/6-milliards-de-moins-pour-les-retraites-le-gouvernement-prepare-un-budget-2027-ultra-austeritaire"
+    },
     "450a073afaed905f4ffa2f25": {
       "canonical_confirmations": [],
       "claims": [],
@@ -12762,6 +12861,65 @@
       "total": 1,
       "updated_at": "2026-09-06T21:33:18+00:00",
       "url": "https://www.unenouvelleenergie.fr/notre-programme/"
+    },
+    "6a047f4d1deb4ee08efeeb44": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "revolution-permanente",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "arracher le blocage des prix et la hausse des salaires",
+            "relevance": "party_platform",
+            "statement": "Le parti réclame le blocage des prix et la hausse des salaires.",
+            "topic": "pouvoir-achat-travail"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La source soutient explicitement que le parti Révolution Permanente, par la voix d'Elsa Marcel, réclame le blocage des prix et la hausse des salaires. Ce sujet (pouvoir-achat-travail) est nouveau et ne fait pas double emploi avec les propositions canoniques existantes sur le temps de travail ou l'égalité salariale des stages.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [
+        {
+          "claim": {
+            "actor_id": "revolution-permanente",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "arracher le blocage des prix et la hausse des salaires",
+            "relevance": "party_platform",
+            "statement": "Le parti réclame le blocage des prix et la hausse des salaires.",
+            "topic": "pouvoir-achat-travail"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La source soutient explicitement que le parti Révolution Permanente, par la voix d'Elsa Marcel, réclame le blocage des prix et la hausse des salaires. Ce sujet (pouvoir-achat-travail) est nouveau et ne fait pas double emploi avec les propositions canoniques existantes sur le temps de travail ou l'égalité salariale des stages.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "completed_at": "2026-09-16T22:19:22+00:00",
+      "created_at": "2026-09-16T22:19:17+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "8545476dcd46b7f6b8011d43961896a574df880f4651f65d794a71e473eba1d4",
+      "source_title": "🔴🦺 Le retour du spectre des GILETS JAUNES est une excellente nouvelle !",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-16T22:19:22+00:00",
+      "url": "https://www.youtube.com/shorts/EFHWdroskKY"
     },
     "6b9f0e3d1e99f4f4fc113f98": {
       "canonical_confirmations": [],
@@ -21895,6 +22053,175 @@
       "updated_at": "2026-08-31T15:20:10+00:00",
       "url": "https://solutiondemocratique.fr/francis-lalanne-2027-programme/"
     },
+    "aec48c88f60a2acc503c3a26": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "anasse-kazib",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "la semaine de 28 heures",
+            "relevance": "direct",
+            "statement": "Instaurer la semaine de 28 heures.",
+            "topic": "pouvoir-achat-travail"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La source soutient explicitement la semaine de 28 heures pour Anasse Kazib.",
+            "related_proposal_id": "prop-kazib-embauche-precaires",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "anasse-kazib",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "la retraite à 60 ans, 55 ans pour les métiers pénibles",
+            "relevance": "direct",
+            "statement": "Fixer l'âge de départ à la retraite à 60 ans, et 55 ans pour les métiers pénibles.",
+            "topic": "retraites"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La source soutient explicitement la retraite à 60 ans et 55 ans pour les métiers pénibles.",
+            "related_proposal_id": "prop-kazib-retraite-60-55",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "anasse-kazib",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "l’augmentation du SMIC à 2000 euros et de l’ensemble des salaires",
+            "relevance": "direct",
+            "statement": "Augmenter le SMIC à 2000 euros et l'ensemble des salaires indexés sur les prix.",
+            "topic": "pouvoir-achat-travail"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "La source soutient explicitement l'augmentation du SMIC à 2000 euros et l'indexation des salaires.",
+            "related_proposal_id": "prop-kazib-smic-2000",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "anasse-kazib",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "exproprier sans indemnité ni rachat, sous contrôle des travailleurs",
+            "relevance": "direct",
+            "statement": "Exproprier sans indemnité les entreprises et secteurs stratégiques sous contrôle des travailleurs.",
+            "topic": "economie-finances"
+          },
+          "verdict": {
+            "index": 3,
+            "reason": "La source soutient explicitement l'expropriation des secteurs stratégiques sous contrôle des travailleurs.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "anasse-kazib",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "démantèlement, « à commencer par la loi de 2004 et la loi séparatisme »",
+            "relevance": "direct",
+            "statement": "Démanteler l'édifice législatif islamophobe incluant la loi de 2004 et la loi séparatisme.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 4,
+            "reason": "La source soutient explicitement le démantèlement de l'édifice législatif islamophobe (loi de 2004 et loi séparatisme).",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "revolution-permanente",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Une candidature ouvrière et révolutionnaire en 2027 !",
+            "relevance": "direct",
+            "statement": "Anasse Kazib présente une candidature ouvrière et révolutionnaire en 2027.",
+            "topic": "economie-finances"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La source confirme explicitement une candidature révolutionnaire pour 2027 avec Anasse Kazib, ce qui recoupe la position canonique existante.",
+            "related_proposal_id": "auto-revolution-permanente-economie-finances-4e82c7f1f3b0",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [
+        {
+          "claim": {
+            "actor_id": "anasse-kazib",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "exproprier sans indemnité ni rachat, sous contrôle des travailleurs",
+            "relevance": "direct",
+            "statement": "Exproprier sans indemnité les entreprises et secteurs stratégiques sous contrôle des travailleurs.",
+            "topic": "economie-finances"
+          },
+          "verdict": {
+            "index": 3,
+            "reason": "La source soutient explicitement l'expropriation des secteurs stratégiques sous contrôle des travailleurs.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "anasse-kazib",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "démantèlement, « à commencer par la loi de 2004 et la loi séparatisme »",
+            "relevance": "direct",
+            "statement": "Démanteler l'édifice législatif islamophobe incluant la loi de 2004 et la loi séparatisme.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 4,
+            "reason": "La source soutient explicitement le démantèlement de l'édifice législatif islamophobe (loi de 2004 et loi séparatisme).",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "completed_at": "2026-09-16T22:19:16+00:00",
+      "created_at": "2026-09-16T22:18:56+00:00",
+      "document_types": [
+        "campaign_website_page",
+        "campaign_website_page"
+      ],
+      "done": [
+        0,
+        1
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "f9bd53f5cb8ca780ff236e3644f4e936ba8e95d351aa92e4a8eecedd03179c38",
+      "source_title": "28h, expropriation des secteurs stratégiques... : RP présente les premières mesures de sa candidature",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 2,
+      "updated_at": "2026-09-16T22:19:11+00:00",
+      "url": "https://www.revolutionpermanente.fr/28h-expropriation-des-secteurs-strategiques-RP-presente-les-premieres-mesures-de-sa-candidature"
+    },
     "af3984a6ce57f0e5c89b834e": {
       "claims": [
         {
@@ -30718,6 +31045,15 @@
       "status": "not_confirmed",
       "url": "https://www.unenouvelleenergie.fr/notre-programme/"
     },
+    "4f47883dd923": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-09-16T22:18:56+00:00",
+      "reason": null,
+      "source_sha256": "be0bfff9537da8e45deaa0b51690f72124f3b6ba23a28e39f47b3b5e0c71ff22",
+      "status": "promoted",
+      "url": "https://www.revolutionpermanente.fr/Une-candidature-ouvriere-et-revolutionnaire-en-2027-Avec-Anasse-Kazib-Elsa-Marcel"
+    },
     "4f4e22cba7e5": {
       "chunks_done": null,
       "chunks_total": 1,
@@ -31118,6 +31454,15 @@
       "source_sha256": "ad5b3421c577d5e985416254564fe73a4f56fb93ca62926d7a619737e18fb596",
       "status": "promoted",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
+    "75648ec7daad": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-16T22:18:47+00:00",
+      "reason": null,
+      "source_sha256": "7146f1459602cf65c0e657f5494c89b475830fc06d4431278beb88e08f41c59d",
+      "status": "not_confirmed",
+      "url": "https://www.revolutionpermanente.fr/6-milliards-de-moins-pour-les-retraites-le-gouvernement-prepare-un-budget-2027-ultra-austeritaire"
     },
     "75b9e60cfecd": {
       "chunks_done": null,
@@ -32082,6 +32427,15 @@
       "source_sha256": "8e3b670dd3a500641302a75cc4dd8a762901c341df3e35565fad4025232391ba",
       "status": "promoted",
       "url": "https://www.unenouvelleenergie.fr/notre-programme/"
+    },
+    "bd108f124ab1": {
+      "chunks_done": null,
+      "chunks_total": 2,
+      "processed_at": "2026-09-16T22:19:16+00:00",
+      "reason": null,
+      "source_sha256": "f9bd53f5cb8ca780ff236e3644f4e936ba8e95d351aa92e4a8eecedd03179c38",
+      "status": "promoted",
+      "url": "https://www.revolutionpermanente.fr/28h-expropriation-des-secteurs-strategiques-RP-presente-les-premieres-mesures-de-sa-candidature"
     },
     "bdaab3e0894d": {
       "chunks_done": null,
