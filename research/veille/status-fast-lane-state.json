@@ -29,6 +29,13 @@
       "reason": "no_deterministic_transition",
       "status": "not_applicable"
     },
+    "08c19ef04aa7": {
+      "event_url": "https://rassemblementnational.fr/",
+      "owner": "Rassemblement national",
+      "processed_at": "2026-09-16T17:43:00+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
     "096c42db7d18": {
       "event_url": "https://republicains.fr/actualites/2026/05/31/ma-candidature-ira-jusquau-bout/",
       "owner": "Bruno Retailleau",
@@ -62,7 +69,7 @@
       "error": "ValueError: HTTP 403",
       "event_url": "https://www.pcf.fr/une_candidature_de_gauche_au_service_de_l_aube_et_de_ses_communes",
       "owner": "Parti communiste français",
-      "processed_at": "2026-09-16T12:43:09+00:00",
+      "processed_at": "2026-09-16T17:43:01+00:00",
       "status": "technical_error"
     },
     "11b463101679": {
@@ -134,7 +141,7 @@
       "error": "ValueError: HTTP 403",
       "event_url": "https://www.pcf.fr/presidentielle2027_fabien_roussel_designe_candidat",
       "owner": "Parti communiste français",
-      "processed_at": "2026-09-16T12:43:05+00:00",
+      "processed_at": "2026-09-16T17:42:57+00:00",
       "status": "technical_error"
     },
     "1fd1e63d4f5d": {
@@ -461,6 +468,13 @@
       "processed_at": "2026-09-10T06:06:13+00:00",
       "status": "already_current"
     },
+    "77d88cdeb0c5": {
+      "event_url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne",
+      "owner": "Gabriel Attal",
+      "processed_at": "2026-09-16T17:43:01+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
     "78f4bd751746": {
       "event_url": "https://solutiondemocratique.fr/comparatif-candidats-programme-elections-presidentielles-france-2027/",
       "owner": "Solution démocratique",
@@ -656,7 +670,7 @@
       "error": "ValueError: HTTP 403",
       "event_url": "https://www.pcf.fr/presidentielle_2027_mjcf_s_engage_pour_candidature_communiste",
       "owner": "Parti communiste français",
-      "processed_at": "2026-09-16T12:43:06+00:00",
+      "processed_at": "2026-09-16T17:42:57+00:00",
       "status": "technical_error"
     },
     "b88c50cd309b": {
@@ -752,7 +766,7 @@
       "error": "ValueError: HTTP 404",
       "event_url": "https://parti-equinoxe.fr/articles/2022/05/la-transition-energetique-selon-les-ex-candidats-a-la-presidentielle-2/",
       "owner": "Équinoxe",
-      "processed_at": "2026-09-16T12:43:08+00:00",
+      "processed_at": "2026-09-16T17:43:00+00:00",
       "status": "technical_error"
     },
     "cb3428b2b6d3": {
@@ -976,7 +990,7 @@
     }
   },
   "last_error_count": 4,
-  "last_run_at": "2026-09-16T12:43:09+00:00",
+  "last_run_at": "2026-09-16T17:43:01+00:00",
   "last_updated_count": 0,
   "version": 1
 }
