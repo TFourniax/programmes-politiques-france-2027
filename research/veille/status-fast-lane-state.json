@@ -69,7 +69,7 @@
       "error": "ValueError: HTTP 403",
       "event_url": "https://www.pcf.fr/une_candidature_de_gauche_au_service_de_l_aube_et_de_ses_communes",
       "owner": "Parti communiste français",
-      "processed_at": "2026-09-17T17:42:42+00:00",
+      "processed_at": "2026-09-17T22:18:21+00:00",
       "status": "technical_error"
     },
     "11b463101679": {
@@ -141,7 +141,7 @@
       "error": "ValueError: HTTP 403",
       "event_url": "https://www.pcf.fr/presidentielle2027_fabien_roussel_designe_candidat",
       "owner": "Parti communiste français",
-      "processed_at": "2026-09-17T17:42:38+00:00",
+      "processed_at": "2026-09-17T22:18:18+00:00",
       "status": "technical_error"
     },
     "1fd1e63d4f5d": {
@@ -444,6 +444,13 @@
       "reason": "no_deterministic_transition",
       "status": "not_applicable"
     },
+    "5f95c161616c": {
+      "event_url": "https://rassemblementnational.fr/",
+      "owner": "Rassemblement national",
+      "processed_at": "2026-09-17T22:18:21+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
     "66d846bfaf4e": {
       "candidate_id": "gabriel-attal",
       "event_url": "https://attalpresident.fr/actualites/annonce-de-candidature",
@@ -566,6 +573,13 @@
       "event_url": "https://upr.fr/medias/francois-asselineau-en-2027-je-serai-le-seul-candidat-a-la-presidence-de-la-republique-francaise",
       "owner": "Union populaire républicaine",
       "processed_at": "2026-09-07T22:09:49+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
+    "86bd70e9d3f1": {
+      "event_url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne",
+      "owner": "Gabriel Attal",
+      "processed_at": "2026-09-17T22:18:21+00:00",
       "reason": "no_deterministic_transition",
       "status": "not_applicable"
     },
@@ -719,7 +733,7 @@
       "error": "ValueError: HTTP 403",
       "event_url": "https://www.pcf.fr/presidentielle_2027_mjcf_s_engage_pour_candidature_communiste",
       "owner": "Parti communiste français",
-      "processed_at": "2026-09-17T17:42:38+00:00",
+      "processed_at": "2026-09-17T22:18:18+00:00",
       "status": "technical_error"
     },
     "b88c50cd309b": {
@@ -822,7 +836,7 @@
       "error": "ValueError: HTTP 404",
       "event_url": "https://parti-equinoxe.fr/articles/2022/05/la-transition-energetique-selon-les-ex-candidats-a-la-presidentielle-2/",
       "owner": "Équinoxe",
-      "processed_at": "2026-09-17T17:42:41+00:00",
+      "processed_at": "2026-09-17T22:18:21+00:00",
       "status": "technical_error"
     },
     "cb3428b2b6d3": {
@@ -1060,7 +1074,7 @@
     }
   },
   "last_error_count": 4,
-  "last_run_at": "2026-09-17T17:42:42+00:00",
+  "last_run_at": "2026-09-17T22:18:21+00:00",
   "last_updated_count": 0,
   "version": 1
 }

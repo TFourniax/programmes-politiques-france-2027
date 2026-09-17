@@ -8,10 +8,10 @@ Ce rapport est dérivé automatiquement du corpus courant. Il sert à piloter la
 
 - 68 acteurs référencés ;
 - 27 candidatures actives ou déclarées suivies ;
-- 1298 propositions atomiques courantes ;
+- 1304 propositions atomiques courantes ;
 - 141 / 816 cases acteur × thème couvertes (17.3 %) ;
 - 63 / 324 cases candidat actif × thème couvertes (19.4 %) ;
-- 1261 propositions marquées vérifiées ; 54 appuyées par au moins deux documents de preuve.
+- 1268 propositions marquées vérifiées ; 55 appuyées par au moins deux documents de preuve.
 
 ## Priorités documentaires
 
@@ -37,13 +37,13 @@ Ce rapport est dérivé automatiquement du corpus courant. Il sert à piloter la
 - **Défense & international** (`defense-international`) — 6 acteur(s), 7 proposition(s), dernière preuve 2026-08-14.
 - **Europe & souveraineté** (`europe-souverainete`) — 11 acteur(s), 110 proposition(s), dernière preuve 2026-09-11.
 - **Fiscalité & redistribution** (`fiscalite-redistribution`) — 11 acteur(s), 74 proposition(s), dernière preuve 2026-09-17.
-- **Immigration & intégration** (`immigration-integration`) — 11 acteur(s), 63 proposition(s), dernière preuve 2026-09-17.
+- **Immigration & intégration** (`immigration-integration`) — 11 acteur(s), 66 proposition(s), dernière preuve 2026-09-17.
 - **Retraites** (`retraites`) — 12 acteur(s), 21 proposition(s), dernière preuve 2026-09-17.
 - **Services publics** (`services-publics`) — 12 acteur(s), 230 proposition(s), dernière preuve 2026-09-16.
 - **Économie & finances publiques** (`economie-finances`) — 13 acteur(s), 120 proposition(s), dernière preuve 2026-09-16.
 - **Institutions & démocratie** (`institutions-democratie`) — 13 acteur(s), 263 proposition(s), dernière preuve 2026-09-17.
-- **Sécurité & justice** (`securite-justice`) — 13 acteur(s), 142 proposition(s), dernière preuve 2026-09-17.
+- **Sécurité & justice** (`securite-justice`) — 13 acteur(s), 145 proposition(s), dernière preuve 2026-09-17.
 - **Écologie & énergie** (`ecologie-energie`) — 15 acteur(s), 192 proposition(s), dernière preuve 2026-09-17.
-- **Pouvoir d’achat & travail** (`pouvoir-achat-travail`) — 19 acteur(s), 70 proposition(s), dernière preuve 2026-09-16.
+- **Pouvoir d’achat & travail** (`pouvoir-achat-travail`) — 19 acteur(s), 70 proposition(s), dernière preuve 2026-09-17.
 
 > Ce rapport est un indicateur de couverture structurée, de fraîcheur et de profondeur de preuve, pas un score de qualité politique ni d'exhaustivité absolue.

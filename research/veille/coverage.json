@@ -6,20 +6,20 @@
     "actors": 68,
     "declared_or_active_candidates": 27,
     "topics": 12,
-    "current_proposals": 1298,
+    "current_proposals": 1304,
     "covered_actor_topic_cells": 141,
     "total_actor_topic_cells": 816,
     "actor_topic_coverage_ratio": 0.1728,
     "active_candidate_covered_cells": 63,
     "active_candidate_total_cells": 324,
     "active_candidate_topic_coverage_ratio": 0.1944,
-    "verified_proposals": 1261,
-    "multi_source_proposals": 54,
+    "verified_proposals": 1268,
+    "multi_source_proposals": 55,
     "latest_evidence_at": "2026-09-17",
     "certainty_counts": {
-      "explicit": 1273,
+      "explicit": 1280,
       "explicit_but_conditional": 3,
-      "explicit_but_underspecified": 22
+      "explicit_but_underspecified": 21
     }
   },
   "topic_catalog": [
@@ -281,7 +281,7 @@
       "type": "candidate",
       "status": "party_designated",
       "confidence": "high",
-      "current_proposals": 13,
+      "current_proposals": 19,
       "covered_topics": [
         "defense-international",
         "europe-souverainete",
@@ -300,7 +300,7 @@
         "economie-finances"
       ],
       "latest_evidence_at": "2026-08-14",
-      "verified_proposals": 11,
+      "verified_proposals": 18,
       "multi_source_proposals": 9
     },
     {
@@ -1590,7 +1590,7 @@
       ],
       "latest_evidence_at": "2026-09-17",
       "verified_proposals": 17,
-      "multi_source_proposals": 8
+      "multi_source_proposals": 9
     },
     {
       "id": "reconquete",
@@ -1957,9 +1957,9 @@
       "current_proposals": 70,
       "actors_covered": 19,
       "actor_coverage_ratio": 0.2794,
-      "latest_evidence_at": "2026-09-16",
+      "latest_evidence_at": "2026-09-17",
       "verified_proposals": 62,
-      "multi_source_proposals": 4
+      "multi_source_proposals": 5
     },
     {
       "id": "retraites",
@@ -1984,11 +1984,11 @@
     {
       "id": "immigration-integration",
       "label": "Immigration & intégration",
-      "current_proposals": 63,
+      "current_proposals": 66,
       "actors_covered": 11,
       "actor_coverage_ratio": 0.1618,
       "latest_evidence_at": "2026-09-17",
-      "verified_proposals": 57,
+      "verified_proposals": 61,
       "multi_source_proposals": 4
     },
     {
@@ -2044,11 +2044,11 @@
     {
       "id": "securite-justice",
       "label": "Sécurité & justice",
-      "current_proposals": 142,
+      "current_proposals": 145,
       "actors_covered": 13,
       "actor_coverage_ratio": 0.1912,
       "latest_evidence_at": "2026-09-17",
-      "verified_proposals": 139,
+      "verified_proposals": 142,
       "multi_source_proposals": 6
     },
     {
@@ -2550,7 +2550,7 @@
       "name": "Bruno Retailleau",
       "status": "party_designated",
       "coverage_ratio": 0.6667,
-      "current_proposals": 13,
+      "current_proposals": 19,
       "latest_evidence_at": "2026-08-14",
       "topics": [
         {
@@ -2584,9 +2584,9 @@
           "id": "immigration-integration",
           "label": "Immigration & intégration",
           "covered": true,
-          "current_proposals": 3,
+          "current_proposals": 6,
           "latest_evidence_at": "2026-05-31",
-          "verified_proposals": 2,
+          "verified_proposals": 6,
           "multi_source_proposals": 2
         },
         {
@@ -2638,9 +2638,9 @@
           "id": "securite-justice",
           "label": "Sécurité & justice",
           "covered": true,
-          "current_proposals": 2,
-          "latest_evidence_at": "2026-02-12",
-          "verified_proposals": 2,
+          "current_proposals": 5,
+          "latest_evidence_at": "2026-05-31",
+          "verified_proposals": 5,
           "multi_source_proposals": 2
         },
         {
@@ -5761,7 +5761,7 @@
       "name": "Bruno Retailleau",
       "status": "party_designated",
       "coverage_ratio": 0.6667,
-      "current_proposals": 13,
+      "current_proposals": 19,
       "latest_evidence_at": "2026-08-14",
       "gaps": [
         "fiscalite-redistribution",

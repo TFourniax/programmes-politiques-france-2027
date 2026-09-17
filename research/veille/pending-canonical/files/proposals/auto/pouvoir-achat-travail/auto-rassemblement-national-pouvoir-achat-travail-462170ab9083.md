@@ -5,7 +5,7 @@ entity_id: rassemblement-national
 topic: pouvoir-achat-travail
 certainty: explicit
 proposal_status: current
-source_document_ids: [auto-rassemblement-national-2026-09-10-01223e623cf3]
+source_document_ids: [auto-rassemblement-national-2026-09-10-01223e623cf3, auto-rassemblement-national-2026-09-17-6c92a262a6f7]
 source_url: https://www.youtube.com/shorts/uLNSr5UoXWA
 source_tier: tier_1_primary_official
 first_documented_at: '2026-09-10'
@@ -14,6 +14,10 @@ verification_state: verified
 verification_method: primary_source_exact_quote_plus_independent_gemini_verifier_plus_chronology_guard
 evidence_sha256: e659c3e076a695f82d289923edf0eb3006851753f524cb12250c5098d1976238
 generated_by: scripts/auto_promote.py
+source_urls: ['https://www.youtube.com/shorts/uLNSr5UoXWA', 'https://rassemblementnational.fr/']
+evidence_sha256s: [e659c3e076a695f82d289923edf0eb3006851753f524cb12250c5098d1976238, 8e9844ebff76145e1ddca0cd9cfbc9631757e7ea8f012f22e8244666c350ece1]
+confirmation_count: 2
+last_confirmed_at: '2026-09-17'
 ---
 
 # Le Rassemblement national propose de baisser les taxes sur le prix du carburant
