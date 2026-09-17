@@ -11,7 +11,7 @@ Ce rapport est dérivé automatiquement du corpus courant. Il sert à piloter la
 - 1297 propositions atomiques courantes ;
 - 140 / 816 cases acteur × thème couvertes (17.2 %) ;
 - 62 / 324 cases candidat actif × thème couvertes (19.1 %) ;
-- 1260 propositions marquées vérifiées ; 53 appuyées par au moins deux documents de preuve.
+- 1260 propositions marquées vérifiées ; 54 appuyées par au moins deux documents de preuve.
 
 ## Priorités documentaires
 
