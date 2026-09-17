@@ -6,18 +6,18 @@
     "actors": 68,
     "declared_or_active_candidates": 27,
     "topics": 12,
-    "current_proposals": 1297,
-    "covered_actor_topic_cells": 140,
+    "current_proposals": 1298,
+    "covered_actor_topic_cells": 141,
     "total_actor_topic_cells": 816,
-    "actor_topic_coverage_ratio": 0.1716,
-    "active_candidate_covered_cells": 62,
+    "actor_topic_coverage_ratio": 0.1728,
+    "active_candidate_covered_cells": 63,
     "active_candidate_total_cells": 324,
-    "active_candidate_topic_coverage_ratio": 0.1914,
-    "verified_proposals": 1260,
+    "active_candidate_topic_coverage_ratio": 0.1944,
+    "verified_proposals": 1261,
     "multi_source_proposals": 54,
     "latest_evidence_at": "2026-09-17",
     "certainty_counts": {
-      "explicit": 1272,
+      "explicit": 1273,
       "explicit_but_conditional": 3,
       "explicit_but_underspecified": 22
     }
@@ -446,9 +446,11 @@
       "type": "candidate",
       "status": "party_designated",
       "confidence": "high",
-      "current_proposals": 0,
-      "covered_topics": [],
-      "coverage_ratio": 0.0,
+      "current_proposals": 1,
+      "covered_topics": [
+        "securite-justice"
+      ],
+      "coverage_ratio": 0.0833,
       "gaps": [
         "pouvoir-achat-travail",
         "retraites",
@@ -459,12 +461,11 @@
         "ecologie-energie",
         "institutions-democratie",
         "services-publics",
-        "securite-justice",
         "economie-finances",
         "numerique-ia"
       ],
-      "latest_evidence_at": null,
-      "verified_proposals": 0,
+      "latest_evidence_at": "2026-06-07",
+      "verified_proposals": 1,
       "multi_source_proposals": 0
     },
     {
@@ -1976,7 +1977,7 @@
       "current_proposals": 74,
       "actors_covered": 11,
       "actor_coverage_ratio": 0.1618,
-      "latest_evidence_at": "2026-09-16",
+      "latest_evidence_at": "2026-09-17",
       "verified_proposals": 72,
       "multi_source_proposals": 3
     },
@@ -2043,11 +2044,11 @@
     {
       "id": "securite-justice",
       "label": "Sécurité & justice",
-      "current_proposals": 141,
-      "actors_covered": 12,
-      "actor_coverage_ratio": 0.1765,
+      "current_proposals": 142,
+      "actors_covered": 13,
+      "actor_coverage_ratio": 0.1912,
       "latest_evidence_at": "2026-09-17",
-      "verified_proposals": 138,
+      "verified_proposals": 139,
       "multi_source_proposals": 6
     },
     {
@@ -2902,9 +2903,9 @@
       "id": "delphine-batho",
       "name": "Delphine Batho",
       "status": "party_designated",
-      "coverage_ratio": 0.0,
-      "current_proposals": 0,
-      "latest_evidence_at": null,
+      "coverage_ratio": 0.0833,
+      "current_proposals": 1,
+      "latest_evidence_at": "2026-06-07",
       "topics": [
         {
           "id": "pouvoir-achat-travail",
@@ -2990,10 +2991,10 @@
         {
           "id": "securite-justice",
           "label": "Sécurité & justice",
-          "covered": false,
-          "current_proposals": 0,
-          "latest_evidence_at": null,
-          "verified_proposals": 0,
+          "covered": true,
+          "current_proposals": 1,
+          "latest_evidence_at": "2026-06-07",
+          "verified_proposals": 1,
           "multi_source_proposals": 0
         },
         {
@@ -5327,28 +5328,6 @@
       ]
     },
     {
-      "id": "delphine-batho",
-      "name": "Delphine Batho",
-      "status": "party_designated",
-      "coverage_ratio": 0.0,
-      "current_proposals": 0,
-      "latest_evidence_at": null,
-      "gaps": [
-        "pouvoir-achat-travail",
-        "retraites",
-        "fiscalite-redistribution",
-        "immigration-integration",
-        "europe-souverainete",
-        "defense-international",
-        "ecologie-energie",
-        "institutions-democratie",
-        "services-publics",
-        "securite-justice",
-        "economie-finances",
-        "numerique-ia"
-      ]
-    },
-    {
       "id": "florian-philippot",
       "name": "Florian Philippot",
       "status": "declared_conditional",
@@ -5564,6 +5543,27 @@
         "institutions-democratie",
         "services-publics",
         "securite-justice",
+        "economie-finances",
+        "numerique-ia"
+      ]
+    },
+    {
+      "id": "delphine-batho",
+      "name": "Delphine Batho",
+      "status": "party_designated",
+      "coverage_ratio": 0.0833,
+      "current_proposals": 1,
+      "latest_evidence_at": "2026-06-07",
+      "gaps": [
+        "pouvoir-achat-travail",
+        "retraites",
+        "fiscalite-redistribution",
+        "immigration-integration",
+        "europe-souverainete",
+        "defense-international",
+        "ecologie-energie",
+        "institutions-democratie",
+        "services-publics",
         "economie-finances",
         "numerique-ia"
       ]

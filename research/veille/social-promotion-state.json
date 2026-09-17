@@ -294,6 +294,15 @@
       "status": "no_canonical_data",
       "url": "https://bsky.app/profile/marinetondelier.fr/post/3mssc7juvxc26"
     },
+    "530848e8d153ef27e442": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-17T17:46:01+00:00",
+      "provenance_updates": [],
+      "source_sha256": "b7839db48307b0646c9fa518edfd9844670ca90bd9213492fc1fae2c5a41e009",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/watch?v=EbY02dtsne4"
+    },
     "532a426432de2d05113d": {
       "chunks_done": null,
       "chunks_total": null,
@@ -329,6 +338,15 @@
       "source_sha256": "ce6578e9ae39bd52b3c087e5fefb41267ffb661e4abf62800be34b254ebe2a78",
       "status": "not_confirmed",
       "url": "https://www.youtube.com/watch?v=Eh-YhWOo3Co"
+    },
+    "5f5c2eb7cc6c09d8a53e": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-17T17:45:59+00:00",
+      "provenance_updates": [],
+      "source_sha256": "3707a96c8b9f0638ca49b2a06d67efe039b802cd7c40c3d0c2582a570132a35c",
+      "status": "not_confirmed",
+      "url": "https://bsky.app/profile/marinetondelier.fr/post/3mvpx3br7m22f"
     },
     "60ab2890502215a54d4d": {
       "chunks_done": null,
@@ -463,6 +481,15 @@
       "source_sha256": "f4fe54cee32b4c060f18d62f79937afa4e846a3278700c385e25c752618ede96",
       "status": "not_confirmed",
       "url": "https://bsky.app/profile/marinetondelier.fr/post/3mvcoesties27"
+    },
+    "8879e00da6aa573e494f": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-17T17:45:40+00:00",
+      "provenance_updates": [],
+      "source_sha256": "4b4aeccdb7c43e4cae9513c3fb4936f535f62182d5ce4cb1856184c01240205e",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/shorts/-MJb3pQiQRY"
     },
     "892a086b0578e2350a68": {
       "chunks_done": null,
@@ -840,6 +867,17 @@
       "status": "not_confirmed",
       "url": "https://bsky.app/profile/marinetondelier.fr/post/3mus26s7zc22j"
     },
+    "db065798f91e19d89b55": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-17T17:46:06+00:00",
+      "provenance_updates": [
+        "auto-rassemblement-national-fiscalite-redistribution-650411362d03"
+      ],
+      "source_sha256": "401b1d14849dbd64576011e8d93617d97936832d74e013a60d00e353e7d65101",
+      "status": "promoted",
+      "url": "https://www.youtube.com/shorts/vDzn0yFUgKY"
+    },
     "db87f17090fb50f146cc": {
       "chunks_done": null,
       "chunks_total": null,
@@ -1022,7 +1060,7 @@
     }
   },
   "last_error_count": 0,
-  "last_processed_count": 1,
-  "last_run_at": "2026-09-17T12:43:57+00:00",
+  "last_processed_count": 4,
+  "last_run_at": "2026-09-17T17:46:07+00:00",
   "version": 2
 }
