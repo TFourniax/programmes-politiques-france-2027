@@ -1,16 +1,38 @@
 {
   "errors": [],
-  "generated_at": "2026-09-18T12:22:52+00:00",
+  "generated_at": "2026-09-18T17:13:33+00:00",
   "partial": 0,
-  "processed": 1,
-  "promoted": 0,
-  "proposals_created": 0,
+  "processed": 4,
+  "promoted": 1,
+  "proposals_created": 1,
   "provenance_updates": 0,
   "results": [
     {
-      "sha256": "99d586a2060f35a1a3dc9012f3b33fcd5866850fc200f04d46368ac063e554d4",
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/partys/rassemblement-national/2026-09-18-6c4252da548f.md",
+      "proposals": [
+        "proposals/auto/services-publics/auto-rassemblement-national-services-publics-a4a03d3f5488.md"
+      ],
+      "sha256": "7eb048d12d018e6dcdf8407a6c00f31eeff50ab61040a3db65ed9c94f993ee64",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://www.youtube.com/shorts/UCOue-ztNdA",
+      "verified_at": "2026-09-18T17:13:19+00:00"
+    },
+    {
+      "sha256": "3457f315042e2a10d17de4072816aaca6d48af224937c8cbeef922f906dc5b56",
       "status": "not_confirmed",
-      "url": "https://bsky.app/profile/marinetondelier.fr/post/3mvrstgh3jc22"
+      "url": "https://www.youtube.com/shorts/ZG4omLW4YKQ"
+    },
+    {
+      "sha256": "1cf83df63623567a31a7243419eb38311c4462bb9348ac1030e1f16e58889631",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/shorts/23UBCfFPFck"
+    },
+    {
+      "sha256": "a2ef503f01f9d48dc02dc031d6edf89a3c1f3593d3872b18b2d233ff9092cbbb",
+      "status": "not_confirmed",
+      "url": "https://bsky.app/profile/marinetondelier.fr/post/3mvs6d3fj3k23"
     }
   ],
   "status_updates": 0

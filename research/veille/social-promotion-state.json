@@ -225,6 +225,15 @@
       "status": "promoted",
       "url": "https://bsky.app/profile/marinetondelier.fr/post/3muhjqq3dws2x"
     },
+    "3e7e68bb472ba463e5d8": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-18T17:13:28+00:00",
+      "provenance_updates": [],
+      "source_sha256": "3457f315042e2a10d17de4072816aaca6d48af224937c8cbeef922f906dc5b56",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/shorts/ZG4omLW4YKQ"
+    },
     "4052b204749c59687351": {
       "chunks_done": null,
       "chunks_total": null,
@@ -518,6 +527,15 @@
       "status": "not_confirmed",
       "url": "https://www.youtube.com/shorts/XY8N8mFt7I8"
     },
+    "8ba4dfee19ca9021844e": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-09-18T17:13:23+00:00",
+      "provenance_updates": [],
+      "source_sha256": "7eb048d12d018e6dcdf8407a6c00f31eeff50ab61040a3db65ed9c94f993ee64",
+      "status": "promoted",
+      "url": "https://www.youtube.com/shorts/UCOue-ztNdA"
+    },
     "8c25332d17d9b559c0f6": {
       "chunks_done": null,
       "chunks_total": null,
@@ -598,6 +616,15 @@
       "source_sha256": "a84bb26d39fb64ab71cba423b16b322248fa14347fd7a589012769bbb67b6f1a",
       "status": "not_confirmed",
       "url": "https://www.youtube.com/watch?v=Uqe5vvsXsZ4"
+    },
+    "9d165d6280d0e41a6019": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-18T17:13:30+00:00",
+      "provenance_updates": [],
+      "source_sha256": "1cf83df63623567a31a7243419eb38311c4462bb9348ac1030e1f16e58889631",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/shorts/23UBCfFPFck"
     },
     "9e7eb61a531b86cb2cd8": {
       "chunks_done": null,
@@ -821,6 +848,15 @@
       "source_sha256": "1ced63c07900981dd3cfc4475e5c849bc0997c3c2545e86a60dd24eea23a3a13",
       "status": "not_confirmed",
       "url": "https://www.youtube.com/watch?v=HW03wZDi6Tk"
+    },
+    "c9ecafc985bda157e901": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-18T17:13:32+00:00",
+      "provenance_updates": [],
+      "source_sha256": "a2ef503f01f9d48dc02dc031d6edf89a3c1f3593d3872b18b2d233ff9092cbbb",
+      "status": "not_confirmed",
+      "url": "https://bsky.app/profile/marinetondelier.fr/post/3mvs6d3fj3k23"
     },
     "cbd7c8fb4cd034202e1d": {
       "chunks_done": null,
@@ -1078,7 +1114,7 @@
     }
   },
   "last_error_count": 0,
-  "last_processed_count": 1,
-  "last_run_at": "2026-09-18T12:22:51+00:00",
+  "last_processed_count": 4,
+  "last_run_at": "2026-09-18T17:13:33+00:00",
   "version": 2
 }
