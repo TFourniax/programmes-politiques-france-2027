@@ -6,18 +6,18 @@
     "actors": 68,
     "declared_or_active_candidates": 27,
     "topics": 12,
-    "current_proposals": 1307,
-    "covered_actor_topic_cells": 143,
+    "current_proposals": 1309,
+    "covered_actor_topic_cells": 144,
     "total_actor_topic_cells": 816,
-    "actor_topic_coverage_ratio": 0.1752,
+    "actor_topic_coverage_ratio": 0.1765,
     "active_candidate_covered_cells": 64,
     "active_candidate_total_cells": 324,
     "active_candidate_topic_coverage_ratio": 0.1975,
-    "verified_proposals": 1271,
-    "multi_source_proposals": 55,
+    "verified_proposals": 1273,
+    "multi_source_proposals": 56,
     "latest_evidence_at": "2026-09-18",
     "certainty_counts": {
-      "explicit": 1283,
+      "explicit": 1285,
       "explicit_but_conditional": 3,
       "explicit_but_underspecified": 21
     }
@@ -91,7 +91,7 @@
       "type": "candidate",
       "status": "declared_presidential",
       "confidence": "high",
-      "current_proposals": 12,
+      "current_proposals": 13,
       "covered_topics": [
         "economie-finances",
         "immigration-integration",
@@ -109,8 +109,8 @@
         "securite-justice",
         "numerique-ia"
       ],
-      "latest_evidence_at": "2026-09-17",
-      "verified_proposals": 7,
+      "latest_evidence_at": "2026-09-18",
+      "verified_proposals": 8,
       "multi_source_proposals": 2
     },
     {
@@ -1654,12 +1654,13 @@
       "type": "party",
       "status": null,
       "confidence": null,
-      "current_proposals": 6,
+      "current_proposals": 7,
       "covered_topics": [
         "economie-finances",
-        "pouvoir-achat-travail"
+        "pouvoir-achat-travail",
+        "securite-justice"
       ],
-      "coverage_ratio": 0.1667,
+      "coverage_ratio": 0.25,
       "gaps": [
         "retraites",
         "fiscalite-redistribution",
@@ -1669,12 +1670,11 @@
         "ecologie-energie",
         "institutions-democratie",
         "services-publics",
-        "securite-justice",
         "numerique-ia"
       ],
-      "latest_evidence_at": "2026-09-16",
-      "verified_proposals": 6,
-      "multi_source_proposals": 1
+      "latest_evidence_at": "2026-09-18",
+      "verified_proposals": 7,
+      "multi_source_proposals": 2
     },
     {
       "id": "sarah-knafo",
@@ -2044,22 +2044,22 @@
     {
       "id": "securite-justice",
       "label": "Sécurité & justice",
-      "current_proposals": 145,
-      "actors_covered": 13,
-      "actor_coverage_ratio": 0.1912,
+      "current_proposals": 146,
+      "actors_covered": 14,
+      "actor_coverage_ratio": 0.2059,
       "latest_evidence_at": "2026-09-18",
-      "verified_proposals": 142,
+      "verified_proposals": 143,
       "multi_source_proposals": 6
     },
     {
       "id": "economie-finances",
       "label": "Économie & finances publiques",
-      "current_proposals": 120,
+      "current_proposals": 121,
       "actors_covered": 13,
       "actor_coverage_ratio": 0.1912,
-      "latest_evidence_at": "2026-09-16",
-      "verified_proposals": 119,
-      "multi_source_proposals": 10
+      "latest_evidence_at": "2026-09-18",
+      "verified_proposals": 120,
+      "multi_source_proposals": 11
     },
     {
       "id": "numerique-ia",
@@ -2078,8 +2078,8 @@
       "name": "Anasse Kazib",
       "status": "declared_presidential",
       "coverage_ratio": 0.5,
-      "current_proposals": 12,
-      "latest_evidence_at": "2026-09-17",
+      "current_proposals": 13,
+      "latest_evidence_at": "2026-09-18",
       "topics": [
         {
           "id": "pouvoir-achat-travail",
@@ -2175,9 +2175,9 @@
           "id": "economie-finances",
           "label": "Économie & finances publiques",
           "covered": true,
-          "current_proposals": 1,
-          "latest_evidence_at": "2026-09-16",
-          "verified_proposals": 1,
+          "current_proposals": 2,
+          "latest_evidence_at": "2026-09-18",
+          "verified_proposals": 2,
           "multi_source_proposals": 0
         },
         {
@@ -5709,22 +5709,6 @@
       ]
     },
     {
-      "id": "anasse-kazib",
-      "name": "Anasse Kazib",
-      "status": "declared_presidential",
-      "coverage_ratio": 0.5,
-      "current_proposals": 12,
-      "latest_evidence_at": "2026-09-17",
-      "gaps": [
-        "fiscalite-redistribution",
-        "europe-souverainete",
-        "defense-international",
-        "ecologie-energie",
-        "securite-justice",
-        "numerique-ia"
-      ]
-    },
-    {
       "id": "gabriel-attal",
       "name": "Gabriel Attal",
       "status": "declared_presidential",
@@ -5737,6 +5721,22 @@
         "defense-international",
         "ecologie-energie",
         "institutions-democratie",
+        "numerique-ia"
+      ]
+    },
+    {
+      "id": "anasse-kazib",
+      "name": "Anasse Kazib",
+      "status": "declared_presidential",
+      "coverage_ratio": 0.5,
+      "current_proposals": 13,
+      "latest_evidence_at": "2026-09-18",
+      "gaps": [
+        "fiscalite-redistribution",
+        "europe-souverainete",
+        "defense-international",
+        "ecologie-energie",
+        "securite-justice",
         "numerique-ia"
       ]
     },

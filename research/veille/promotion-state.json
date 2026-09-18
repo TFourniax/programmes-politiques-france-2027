@@ -205,6 +205,11 @@
       "source_url": "https://www.unenouvelleenergie.fr/notre-programme/",
       "verified_at": "2026-08-12T14:41:17+00:00"
     },
+    "1f3732277e481dcc0174911285693663485767afbca1bb4675496df269a2c624": {
+      "proposal_id": "auto-revolution-permanente-securite-justice-1f3732277e48",
+      "source_url": "https://www.youtube.com/shorts/vyExyN2b4QI",
+      "verified_at": "2026-09-18T21:50:57+00:00"
+    },
     "1f404ff5323946df981dadfeef1a78fd62ba16cc812efeea2846446eb59bd785": {
       "proposal_id": "auto-les-ecologistes-services-publics-1f404ff53239",
       "source_url": "https://lesecologistes.fr/document/5ZhR2m5t2ZaGKqIdD1bJaD/vdef-programme-1.pdf",
@@ -1135,6 +1140,11 @@
       "source_url": "https://www.unenouvelleenergie.fr/notre-programme/sante/",
       "verified_at": "2026-08-12T08:48:28+00:00"
     },
+    "a5e746dd25a5d6f5d6c96e279ace080778043dc7e81d7ab2f2f72ab210c630da": {
+      "proposal_id": "auto-anasse-kazib-economie-finances-a5e746dd25a5",
+      "source_url": "https://www.revolutionpermanente.fr/",
+      "verified_at": "2026-09-18T21:49:32+00:00"
+    },
     "a61e7bbd006d7c4d3c3c49baf17bf67d874ce8ba2540fb2e226e5e6a822b79dc": {
       "proposal_id": "auto-les-ecologistes-services-publics-a61e7bbd006d",
       "source_url": "https://lesecologistes.fr/document/5ZhR2m5t2ZaGKqIdD1bJaD/vdef-programme-1.pdf",
@@ -1733,7 +1743,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-09-18T17:13:11+00:00",
+  "last_run_at": "2026-09-18T21:50:17+00:00",
   "source_chunks": {
     "007774a3a0a3267f16b687a1": {
       "canonical_confirmations": [
@@ -4584,6 +4594,83 @@
       "updated_at": "2026-09-02T06:02:17+00:00",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
+    "1d4a4d813343f94f5d066c8e": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "revolution-permanente",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "28h, expropriation des secteurs stratégiques... : RP présente les premières mesures de sa candidature",
+            "relevance": "direct",
+            "statement": "Révolution Permanente présente l'expropriation des secteurs stratégiques comme mesure pour 2027.",
+            "topic": "economie-finances"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La source mentionne explicitement l'expropriation des secteurs stratégiques par RP pour 2027, ce qui est déjà présent dans le canon.",
+            "related_proposal_id": "auto-revolution-permanente-economie-finances-9a3a787c0c18",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "anasse-kazib",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "Une candidature ouvrière et révolutionnaire en 2027 ! Avec Anasse Kazib",
+            "relevance": "direct",
+            "statement": "Anasse Kazib est présenté par Révolution Permanente avec des mesures pour 2027.",
+            "topic": "economie-finances"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La source confirme la candidature d'Anasse Kazib avec RP pour 2027.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [
+        {
+          "claim": {
+            "actor_id": "anasse-kazib",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "Une candidature ouvrière et révolutionnaire en 2027 ! Avec Anasse Kazib",
+            "relevance": "direct",
+            "statement": "Anasse Kazib est présenté par Révolution Permanente avec des mesures pour 2027.",
+            "topic": "economie-finances"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La source confirme la candidature d'Anasse Kazib avec RP pour 2027.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "completed_at": "2026-09-18T21:49:37+00:00",
+      "created_at": "2026-09-18T21:49:24+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "d01d4a19b2cb12f8ec1adc25d1254bf970d1a2459262ad91f27bb0fb67ae0a18",
+      "source_title": "Revolution Permanente",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-18T21:49:32+00:00",
+      "url": "https://www.revolutionpermanente.fr/"
+    },
     "1dd97534aced615fba9d657b": {
       "claims": [],
       "created_at": "2026-08-12T08:48:15+00:00",
@@ -7370,7 +7457,7 @@
           }
         }
       ],
-      "completed_at": "2026-09-18T17:12:39+00:00",
+      "completed_at": "2026-09-18T21:49:40+00:00",
       "created_at": "2026-09-11T21:51:33+00:00",
       "document_types": [
         "official_interview"
@@ -7387,7 +7474,7 @@
       "statuses": [],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-09-18T17:12:39+00:00",
+      "updated_at": "2026-09-18T21:49:40+00:00",
       "url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne"
     },
     "3671cfb92c0144e2481ae990": {
@@ -10102,6 +10189,26 @@
       "total": 1,
       "updated_at": "2026-08-14T03:40:42+00:00",
       "url": "https://solutiondemocratique.fr/jerome-guedj-programme-presidentielle-2027/"
+    },
+    "480572ac36f23bc056260284": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-09-18T21:50:17+00:00",
+      "document_types": [
+        "other"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "fd689d902ecc4662cbb7a6b740c74591f8fddacd8fc65763fc7bbe3d5aa19b24",
+      "source_title": "La Russie semble prête à mener des actions sur le territoire européen et à y faire des victimes civiles. Et pas qu’aux frontières de l’Ukraine, comme en témoigne la tentative d’a",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-18T21:50:42+00:00",
+      "url": "https://bsky.app/profile/marinetondelier.fr/post/3mvsx57wkok2h"
     },
     "4851506e7f45950a3f209166": {
       "canonical_confirmations": [],
@@ -18736,6 +18843,65 @@
       "updated_at": "2026-09-14T06:30:56+00:00",
       "url": "https://rassemblementnational.fr/"
     },
+    "a2bddb34357e54b66f00a3fd": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "revolution-permanente",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "pour l’abrogation de toutes les lois sécuritaires",
+            "relevance": "party_platform",
+            "statement": "Révolution Permanente demande l'abrogation de toutes les lois sécuritaires.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La source soutient explicitement que Révolution Permanente appelle à l'abrogation de toutes les lois sécuritaires.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [
+        {
+          "claim": {
+            "actor_id": "revolution-permanente",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "pour l’abrogation de toutes les lois sécuritaires",
+            "relevance": "party_platform",
+            "statement": "Révolution Permanente demande l'abrogation de toutes les lois sécuritaires.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La source soutient explicitement que Révolution Permanente appelle à l'abrogation de toutes les lois sécuritaires.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "completed_at": "2026-09-18T21:50:57+00:00",
+      "created_at": "2026-09-18T21:50:42+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "04757d6e9858f034c418f9e47ca6f47c469688002783c6d48cd5fdb2696babd5",
+      "source_title": "🔴 Contre le permis de tuer, pour l’abrogation de toutes les lois sécuritaires : dans la rue le 20 s",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-18T21:50:57+00:00",
+      "url": "https://www.youtube.com/shorts/vyExyN2b4QI"
+    },
     "a311805f380578a6f3dbff04": {
       "canonical_confirmations": [],
       "claims": [],
@@ -24758,6 +24924,48 @@
       "total": 1,
       "updated_at": "2026-09-07T13:42:00+00:00",
       "url": "https://npa-revolutionnaires.org/articles/communique-presidentielle-2027-selma-labib-une-candidature-ouvriere-et-revolutionnaire-soutenue-par-gael-quirante"
+    },
+    "bfbed75d30d614c137a50551": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-09-18T21:51:01+00:00",
+      "document_types": [
+        "other"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "2a4226ab383cb8103ceacb3b97288aadb5f3e7a0745a25ffe415657d30b11dad",
+      "source_title": "🔴 La défense des militants algériens du FLN a servi à révéler l'ampleur de la torture pratiquée par",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-18T21:51:08+00:00",
+      "url": "https://www.youtube.com/shorts/pAwKzn3-Ghk"
+    },
+    "c05a267005088ed149efc5fc": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-09-18T21:49:52+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [
+        "2026-09-14"
+      ],
+      "sha256": "f19cf786d85c7316c27aefc2e1018ded4a951bb82811ff690c3094372518642e",
+      "source_title": "Selma Labib 2027 : démocratie directe, programme présidentiel",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-18T21:50:17+00:00",
+      "url": "https://solutiondemocratique.fr/selma-labib-programme-presidentielle2027/"
     },
     "c0b6e95470c93cad5d1bc2a7": {
       "canonical_confirmations": [],
@@ -32889,6 +33097,15 @@
       "status": "promoted",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
+    "4c1959c3885a": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-09-18T21:49:50+00:00",
+      "reason": null,
+      "source_sha256": "89240073cf8b5ad476043aa3c1a429c5833d6ad111411795e3d30ab8468ad280",
+      "status": "promoted",
+      "url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne"
+    },
     "4d6a66225faa": {
       "chunks_done": null,
       "chunks_total": 1,
@@ -33901,6 +34118,15 @@
       "source_sha256": "c9c2e5a23bd2b9e70a20ded250fdb4cce89b4024bddaa8a1bf479f1c2fc6e2aa",
       "status": "not_confirmed",
       "url": "https://attalpresident.fr/actualites/annonce-de-candidature"
+    },
+    "a16a3cf84ff9": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-09-18T21:49:37+00:00",
+      "reason": null,
+      "source_sha256": "d01d4a19b2cb12f8ec1adc25d1254bf970d1a2459262ad91f27bb0fb67ae0a18",
+      "status": "promoted",
+      "url": "https://www.revolutionpermanente.fr/"
     },
     "a180dc38cc57": {
       "chunks_done": null,
@@ -35022,6 +35248,15 @@
       "source_sha256": "641692c8b3e3f9d0b6ac42c34ac6027c28d854c7551be88d2d8b3b948cee9def",
       "status": "promoted",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
+    "e4fca2d6aa4d": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-18T21:50:17+00:00",
+      "reason": null,
+      "source_sha256": "f19cf786d85c7316c27aefc2e1018ded4a951bb82811ff690c3094372518642e",
+      "status": "not_confirmed",
+      "url": "https://solutiondemocratique.fr/selma-labib-programme-presidentielle2027/"
     },
     "e533825aca0f": {
       "chunks_done": null,

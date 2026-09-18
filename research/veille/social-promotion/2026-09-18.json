@@ -1,38 +1,33 @@
 {
   "errors": [],
-  "generated_at": "2026-09-18T17:13:33+00:00",
+  "generated_at": "2026-09-18T21:51:09+00:00",
   "partial": 0,
-  "processed": 4,
+  "processed": 3,
   "promoted": 1,
   "proposals_created": 1,
   "provenance_updates": 0,
   "results": [
     {
+      "sha256": "fd689d902ecc4662cbb7a6b740c74591f8fddacd8fc65763fc7bbe3d5aa19b24",
+      "status": "not_confirmed",
+      "url": "https://bsky.app/profile/marinetondelier.fr/post/3mvsx57wkok2h"
+    },
+    {
       "chunks_total": 1,
-      "document": "corpus/2027/auto/partys/rassemblement-national/2026-09-18-6c4252da548f.md",
+      "document": "corpus/2027/auto/partys/revolution-permanente/2026-09-18-a2bddb34357e.md",
       "proposals": [
-        "proposals/auto/services-publics/auto-rassemblement-national-services-publics-a4a03d3f5488.md"
+        "proposals/auto/securite-justice/auto-revolution-permanente-securite-justice-1f3732277e48.md"
       ],
-      "sha256": "7eb048d12d018e6dcdf8407a6c00f31eeff50ab61040a3db65ed9c94f993ee64",
+      "sha256": "04757d6e9858f034c418f9e47ca6f47c469688002783c6d48cd5fdb2696babd5",
       "status": "promoted",
       "status_updates": [],
-      "url": "https://www.youtube.com/shorts/UCOue-ztNdA",
-      "verified_at": "2026-09-18T17:13:19+00:00"
+      "url": "https://www.youtube.com/shorts/vyExyN2b4QI",
+      "verified_at": "2026-09-18T21:50:57+00:00"
     },
     {
-      "sha256": "3457f315042e2a10d17de4072816aaca6d48af224937c8cbeef922f906dc5b56",
+      "sha256": "2a4226ab383cb8103ceacb3b97288aadb5f3e7a0745a25ffe415657d30b11dad",
       "status": "not_confirmed",
-      "url": "https://www.youtube.com/shorts/ZG4omLW4YKQ"
-    },
-    {
-      "sha256": "1cf83df63623567a31a7243419eb38311c4462bb9348ac1030e1f16e58889631",
-      "status": "not_confirmed",
-      "url": "https://www.youtube.com/shorts/23UBCfFPFck"
-    },
-    {
-      "sha256": "a2ef503f01f9d48dc02dc031d6edf89a3c1f3593d3872b18b2d233ff9092cbbb",
-      "status": "not_confirmed",
-      "url": "https://bsky.app/profile/marinetondelier.fr/post/3mvs6d3fj3k23"
+      "url": "https://www.youtube.com/shorts/pAwKzn3-Ghk"
     }
   ],
   "status_updates": 0

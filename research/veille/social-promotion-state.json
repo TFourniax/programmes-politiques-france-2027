@@ -99,6 +99,15 @@
       "status": "not_confirmed",
       "url": "https://bsky.app/profile/marinetondelier.fr/post/3muuentr35s2j"
     },
+    "12f249773a13455f5b18": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-18T21:50:42+00:00",
+      "provenance_updates": [],
+      "source_sha256": "fd689d902ecc4662cbb7a6b740c74591f8fddacd8fc65763fc7bbe3d5aa19b24",
+      "status": "not_confirmed",
+      "url": "https://bsky.app/profile/marinetondelier.fr/post/3mvsx57wkok2h"
+    },
     "14d1aa8c65c77273ad3a": {
       "chunks_done": null,
       "chunks_total": null,
@@ -338,6 +347,15 @@
       "source_sha256": "b08dcc3f606bfeb6860e8e2d23ae27205592a9da70f9fe96607656aae8fcec82",
       "status": "not_confirmed",
       "url": "https://bsky.app/profile/lesecologistes.fr/post/3mtjmwmcths27"
+    },
+    "56c5ce3941c36ac18c0f": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-09-18T21:51:00+00:00",
+      "provenance_updates": [],
+      "source_sha256": "04757d6e9858f034c418f9e47ca6f47c469688002783c6d48cd5fdb2696babd5",
+      "status": "promoted",
+      "url": "https://www.youtube.com/shorts/vyExyN2b4QI"
     },
     "5a2af832fb093b87b8b5": {
       "chunks_done": null,
@@ -687,6 +705,15 @@
       "source_sha256": "87e9fc5dd7a54b47659b1555bd6b2a7ede585b0d0acfc8aa6a8369aecad5d448",
       "status": "not_confirmed",
       "url": "https://bsky.app/profile/lesecologistes.fr/post/3mvnmiyuxns2k"
+    },
+    "ac0096adc3e64100cb7c": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-18T21:51:08+00:00",
+      "provenance_updates": [],
+      "source_sha256": "2a4226ab383cb8103ceacb3b97288aadb5f3e7a0745a25ffe415657d30b11dad",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/shorts/pAwKzn3-Ghk"
     },
     "ac2a36fbf2addcc8a741": {
       "chunks_done": null,
@@ -1114,7 +1141,7 @@
     }
   },
   "last_error_count": 0,
-  "last_processed_count": 4,
-  "last_run_at": "2026-09-18T17:13:33+00:00",
+  "last_processed_count": 3,
+  "last_run_at": "2026-09-18T21:51:09+00:00",
   "version": 2
 }

@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created_at": "2026-08-17T19:57:19.441897+00:00",
-  "updated_at": "2026-09-18T17:13:36.866613+00:00",
+  "updated_at": "2026-09-18T21:51:12.908335+00:00",
   "files": [
     {
       "path": "corpus/2027/auto/candidates/anasse-kazib/2026-08-28-38891602d9d9.md",
@@ -874,6 +874,16 @@
       "size": 1534
     },
     {
+      "path": "corpus/2027/auto/partys/revolution-permanente/2026-09-18-1d4a4d813343.md",
+      "sha256": "b0d2a48ca91fb691797e09adafffee7efff0e172cf0856c1263f6c92ca60ad0b",
+      "size": 1777
+    },
+    {
+      "path": "corpus/2027/auto/partys/revolution-permanente/2026-09-18-a2bddb34357e.md",
+      "sha256": "316eddd9316b23b263d0518af2c796f999b38b2e69d955d87f2f63008b71673b",
+      "size": 1598
+    },
+    {
       "path": "corpus/2027/auto/partys/solution-democratique/2025-04-09-3a8ec20cb386.md",
       "sha256": "268b288b348cf4405f1cd419a74efaaba0adce4475aeff9b10af9796146281ac",
       "size": 1763
@@ -1124,6 +1134,11 @@
       "size": 1415
     },
     {
+      "path": "proposals/auto/economie-finances/auto-anasse-kazib-economie-finances-a5e746dd25a5.md",
+      "sha256": "8fdfbb14a8cfa180e10ab465a64dbe56ab521dfb77a9adee75b627227fbd7c94",
+      "size": 1276
+    },
+    {
       "path": "proposals/auto/economie-finances/auto-david-lisnard-economie-finances-3591e11af1e3.md",
       "sha256": "a199e89b218887303ec295fff8e8dddeacd4bc6245367a081b752a751dc68c65",
       "size": 2027
@@ -1200,8 +1215,8 @@
     },
     {
       "path": "proposals/auto/economie-finances/auto-revolution-permanente-economie-finances-9a3a787c0c18.md",
-      "sha256": "e8630d2d5b42df796f53b31a705781a6e1a24d39435e62b5126e7a4b554b6898",
-      "size": 1337
+      "sha256": "b21e9eb249074b27050d482096a66b289334421bec5eebe0df72fb4de58eae4a",
+      "size": 1771
     },
     {
       "path": "proposals/auto/europe-souverainete/auto-bruno-retailleau-europe-souverainete-ed8d0d14bccb.md",
@@ -1752,6 +1767,11 @@
       "path": "proposals/auto/securite-justice/auto-rassemblement-national-securite-justice-f810f54b67af.md",
       "sha256": "659f83a16d57bb5e856107f325b5caec6f2f7ce38cbd370eb70eda00e20764f0",
       "size": 1204
+    },
+    {
+      "path": "proposals/auto/securite-justice/auto-revolution-permanente-securite-justice-1f3732277e48.md",
+      "sha256": "c8d96f4296eb6ba17891c6ca2321d33adbd32aae5fa1284b13dc18d2a17be81c",
+      "size": 1271
     },
     {
       "path": "proposals/auto/services-publics/auto-anasse-kazib-services-publics-055309a451a7.md",

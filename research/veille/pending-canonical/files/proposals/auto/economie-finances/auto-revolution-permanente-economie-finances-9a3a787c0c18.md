@@ -5,7 +5,7 @@ entity_id: revolution-permanente
 topic: economie-finances
 certainty: explicit_but_underspecified
 proposal_status: current
-source_document_ids: [auto-anasse-kazib-2026-09-16-1690872ca35a]
+source_document_ids: [auto-anasse-kazib-2026-09-16-1690872ca35a, auto-revolution-permanente-2026-09-18-1d4a4d813343]
 source_url: https://www.revolutionpermanente.fr/Une-candidature-ouvriere-et-revolutionnaire-en-2027-Avec-Anasse-Kazib-Elsa-Marcel
 source_tier: tier_1_primary_official
 first_documented_at: '2026-09-16'
@@ -14,6 +14,11 @@ verification_state: verified
 verification_method: primary_source_exact_quote_plus_independent_gemini_verifier_plus_chronology_guard
 evidence_sha256: be0bfff9537da8e45deaa0b51690f72124f3b6ba23a28e39f47b3b5e0c71ff22
 generated_by: scripts/auto_promote.py
+source_urls: ['https://www.revolutionpermanente.fr/Une-candidature-ouvriere-et-revolutionnaire-en-2027-Avec-Anasse-Kazib-Elsa-Marcel',
+  'https://www.revolutionpermanente.fr/']
+evidence_sha256s: [be0bfff9537da8e45deaa0b51690f72124f3b6ba23a28e39f47b3b5e0c71ff22, d01d4a19b2cb12f8ec1adc25d1254bf970d1a2459262ad91f27bb0fb67ae0a18]
+confirmation_count: 2
+last_confirmed_at: '2026-09-18'
 ---
 
 # Révolution Permanente propose l'expropriation des secteurs stratégiques
