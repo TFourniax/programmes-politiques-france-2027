@@ -15,6 +15,11 @@
       "source_url": "https://melenchon2027.fr/programme2025/livre/chapitre5/",
       "verified_at": "2026-08-13T03:40:17+00:00"
     },
+    "028f0b96e1e48a82dd9e87b360ad92325824cf9acdfc5972e36967ae1c60ab74": {
+      "proposal_id": "auto-revolution-permanente-pouvoir-achat-travail-028f0b96e1e4",
+      "source_url": "https://www.revolutionpermanente.fr/",
+      "verified_at": "2026-09-19T06:05:25+00:00"
+    },
     "02d999500b957088b7b0c9362ecaf64c0d920aa09e2c78dd02303e3efadc5ad6": {
       "proposal_id": "auto-la-france-insoumise-ecologie-energie-02d999500b95",
       "source_url": "https://melenchon2027.fr/programme2025/livre/chapitre12/",
@@ -1743,7 +1748,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-09-18T21:50:17+00:00",
+  "last_run_at": "2026-09-19T06:05:29+00:00",
   "source_chunks": {
     "007774a3a0a3267f16b687a1": {
       "canonical_confirmations": [
@@ -5301,6 +5306,65 @@
       "total": 1,
       "updated_at": "2026-09-18T17:13:32+00:00",
       "url": "https://bsky.app/profile/marinetondelier.fr/post/3mvs6d3fj3k23"
+    },
+    "2245c756869d677a704bc005": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "revolution-permanente",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "28h, expropriation des secteurs stratégiques... : RP présente les premières mesures de sa candidature",
+            "relevance": "direct",
+            "statement": "RP présente des mesures incluant le passage aux 28 heures et l'expropriation des secteurs stratégiques dans le cadre de la présidentielle 2027.",
+            "topic": "pouvoir-achat-travail"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La source mentionne explicitement la présentation des mesures de RP pour les présidentielles 2027 (semaine de 28h, expropriation).",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [
+        {
+          "claim": {
+            "actor_id": "revolution-permanente",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "28h, expropriation des secteurs stratégiques... : RP présente les premières mesures de sa candidature",
+            "relevance": "direct",
+            "statement": "RP présente des mesures incluant le passage aux 28 heures et l'expropriation des secteurs stratégiques dans le cadre de la présidentielle 2027.",
+            "topic": "pouvoir-achat-travail"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La source mentionne explicitement la présentation des mesures de RP pour les présidentielles 2027 (semaine de 28h, expropriation).",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "completed_at": "2026-09-19T06:05:25+00:00",
+      "created_at": "2026-09-19T06:05:19+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "2aebb71dae904dcb561e399b905bb5525f0b8318a250ea13305d03528e14bed3",
+      "source_title": "Revolution Permanente",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-19T06:05:25+00:00",
+      "url": "https://www.revolutionpermanente.fr/"
     },
     "2275fa1fb15593131b386431": {
       "canonical_confirmations": [
@@ -9920,6 +9984,28 @@
       "total": 1,
       "updated_at": "2026-09-03T17:14:25+00:00",
       "url": "https://www.unenouvelleenergie.fr/notre-programme/"
+    },
+    "46a27b90f85618298390839e": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-09-19T06:05:00+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [
+        "2026-09-18"
+      ],
+      "sha256": "93ea006ae5cd80c55333414bd41fccb87754b8424c1aacaec0bb24d589534755",
+      "source_title": "UPR - La sÃ©lection de Macron parmi les candidats Ã la prÃ©sidentielle 2027",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-19T06:05:02+00:00",
+      "url": "https://upr.fr/actualites/la-selection-de-macron-parmi-les-candidats-a-la-presidentielle-2027"
     },
     "46b893c63e59f84816677498": {
       "canonical_confirmations": [
@@ -28523,6 +28609,120 @@
       "updated_at": "2026-08-16T02:44:52+00:00",
       "url": "https://solutiondemocratique.fr/laurent-wauquiez-programme-presidentielle2027/"
     },
+    "e09c48211f3a6c81ad984a9b": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "anasse-kazib",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "la semaine de 28 heures",
+            "relevance": "direct",
+            "statement": "Instaurer la semaine de 28 heures.",
+            "topic": "pouvoir-achat-travail"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La semaine de 28 heures est explicitement soutenue dans la source.",
+            "related_proposal_id": "auto-anasse-kazib-pouvoir-achat-travail-81103508afc3",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "anasse-kazib",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "la retraite à 60 ans, 55 ans pour les métiers pénibles, sans condition d’annuités.",
+            "relevance": "direct",
+            "statement": "Fixer l'âge de départ à la retraite à 60 ans, et 55 ans pour les métiers pénibles sans condition d'annuités.",
+            "topic": "retraites"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La retraite à 60 ans et 55 ans pour les métiers pénibles sans condition d'annuités est explicitement soutenue.",
+            "related_proposal_id": "prop-kazib-retraite-60-55",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "anasse-kazib",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "l’augmentation du SMIC à 2000 euros et de l’ensemble des salaires, indexés sur les prix.",
+            "relevance": "direct",
+            "statement": "Augmenter le SMIC à 2000 euros et l'ensemble des salaires indexés sur les prix.",
+            "topic": "pouvoir-achat-travail"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "L'augmentation du SMIC à 2000 euros et l'indexation des salaires sont explicitement soutenues.",
+            "related_proposal_id": "prop-kazib-smic-2000",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "anasse-kazib",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "la fin de la sous-traitance, le CDI pour toutes et tous, l’embauche des précaires",
+            "relevance": "direct",
+            "statement": "Imposer la fin de la sous-traitance, le CDI pour tous et l'embauche des précaires, intérimaires et contractuels.",
+            "topic": "pouvoir-achat-travail"
+          },
+          "verdict": {
+            "index": 3,
+            "reason": "La fin de la sous-traitance et l'embauche des précaires sont explicitement soutenues.",
+            "related_proposal_id": "prop-kazib-embauche-precaires",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "anasse-kazib",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "exproprier sans indemnité ni rachat, sous contrôle des travailleurs, les entreprises qui refuseraient ces mesures",
+            "relevance": "direct",
+            "statement": "Exproprier sans indemnité ni rachat, sous contrôle des travailleurs, les entreprises refusant les mesures et les secteurs stratégiques.",
+            "topic": "economie-finances"
+          },
+          "verdict": {
+            "index": 4,
+            "reason": "L'expropriation sans indemnité ni rachat sous contrôle des travailleurs est explicitement soutenue.",
+            "related_proposal_id": "auto-anasse-kazib-economie-finances-98fed100363d",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-09-19T06:05:19+00:00",
+      "created_at": "2026-09-19T06:05:02+00:00",
+      "document_types": [
+        "campaign_website_page",
+        "campaign_website_page"
+      ],
+      "done": [
+        0,
+        1
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "b0d865952126cdbde308b5f4526abedb5988a1ed61d61b6978ce0df76c98868c",
+      "source_title": "28h, expropriation des secteurs stratégiques... : RP présente les premières mesures de sa candidature",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 2,
+      "updated_at": "2026-09-19T06:05:10+00:00",
+      "url": "https://www.revolutionpermanente.fr/28h-expropriation-des-secteurs-strategiques-RP-presente-les-premieres-mesures-de-sa-candidature"
+    },
     "e17bd43d907600d6f9e74d34": {
       "canonical_confirmations": [],
       "claims": [],
@@ -32612,6 +32812,15 @@
       "status": "promoted",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
+    "30520ab34405": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-19T06:05:19+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "b0d865952126cdbde308b5f4526abedb5988a1ed61d61b6978ce0df76c98868c",
+      "status": "promoted",
+      "url": "https://www.revolutionpermanente.fr/28h-expropriation-des-secteurs-strategiques-RP-presente-les-premieres-mesures-de-sa-candidature"
+    },
     "3136ec582e42": {
       "chunks_done": null,
       "chunks_total": 1,
@@ -32629,6 +32838,15 @@
       "source_sha256": "f83ed996800de1ca3d22132af1bd9f6b2bb7e37bc5bd1f3527330dcac509d49a",
       "status": "promoted",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
+    "31d9a48a1d30": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-09-19T06:05:28+00:00",
+      "reason": null,
+      "source_sha256": "2aebb71dae904dcb561e399b905bb5525f0b8318a250ea13305d03528e14bed3",
+      "status": "promoted",
+      "url": "https://www.revolutionpermanente.fr/"
     },
     "31f41f7fa9e6": {
       "chunks_done": null,
@@ -35400,6 +35618,15 @@
       "source_sha256": "c7571eb18ab5aa86107951287a70922ea6cd6db418c225d2662b5dd43e99b6fc",
       "status": "promoted",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
+    "eed7dd12c6f4": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-19T06:05:02+00:00",
+      "reason": null,
+      "source_sha256": "93ea006ae5cd80c55333414bd41fccb87754b8424c1aacaec0bb24d589534755",
+      "status": "not_confirmed",
+      "url": "https://upr.fr/actualites/la-selection-de-macron-parmi-les-candidats-a-la-presidentielle-2027"
     },
     "ef4b0ed43845": {
       "chunks_done": null,

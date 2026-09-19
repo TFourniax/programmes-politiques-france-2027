@@ -1,0 +1,43 @@
+{
+  "errors": [],
+  "generated_at": "2026-09-19T06:05:29+00:00",
+  "historical_skipped": 0,
+  "partial": 0,
+  "processed": 3,
+  "promoted": 2,
+  "proposals_created": 1,
+  "results": [
+    {
+      "sha256": "93ea006ae5cd80c55333414bd41fccb87754b8424c1aacaec0bb24d589534755",
+      "status": "not_confirmed",
+      "url": "https://upr.fr/actualites/la-selection-de-macron-parmi-les-candidats-a-la-presidentielle-2027"
+    },
+    {
+      "document": "corpus/2027/auto/candidates/anasse-kazib/2026-09-18-e09c48211f3a.md",
+      "provenance_updates": [
+        "auto-anasse-kazib-economie-finances-98fed100363d",
+        "auto-anasse-kazib-pouvoir-achat-travail-81103508afc3",
+        "prop-kazib-embauche-precaires",
+        "prop-kazib-retraite-60-55"
+      ],
+      "reason": "canonical_duplicate_evidence",
+      "sha256": "b0d865952126cdbde308b5f4526abedb5988a1ed61d61b6978ce0df76c98868c",
+      "status": "promoted",
+      "url": "https://www.revolutionpermanente.fr/28h-expropriation-des-secteurs-strategiques-RP-presente-les-premieres-mesures-de-sa-candidature",
+      "verified_at": "2026-09-19T06:05:19+00:00"
+    },
+    {
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/partys/revolution-permanente/2026-09-19-2245c756869d.md",
+      "proposals": [
+        "proposals/auto/pouvoir-achat-travail/auto-revolution-permanente-pouvoir-achat-travail-028f0b96e1e4.md"
+      ],
+      "sha256": "2aebb71dae904dcb561e399b905bb5525f0b8318a250ea13305d03528e14bed3",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://www.revolutionpermanente.fr/",
+      "verified_at": "2026-09-19T06:05:25+00:00"
+    }
+  ],
+  "status_updates": 0
+}

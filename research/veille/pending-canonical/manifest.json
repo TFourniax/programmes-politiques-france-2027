@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created_at": "2026-08-17T19:57:19.441897+00:00",
-  "updated_at": "2026-09-18T21:51:12.908335+00:00",
+  "updated_at": "2026-09-19T06:05:33.750096+00:00",
   "files": [
     {
       "path": "corpus/2027/auto/candidates/anasse-kazib/2026-08-28-38891602d9d9.md",
@@ -52,6 +52,11 @@
       "path": "corpus/2027/auto/candidates/anasse-kazib/2026-09-17-007774a3a0a3.md",
       "sha256": "a5d0075af18056be70c6d6bcd57065786c9470ced283b4b3f6aed5924ca99bf5",
       "size": 1975
+    },
+    {
+      "path": "corpus/2027/auto/candidates/anasse-kazib/2026-09-18-e09c48211f3a.md",
+      "sha256": "1e496e914407a982fa485d0271d9d1c087f8fafdc4420a25bc6552226c56eae6",
+      "size": 2504
     },
     {
       "path": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-02b6fd496b7b.md",
@@ -884,6 +889,11 @@
       "size": 1598
     },
     {
+      "path": "corpus/2027/auto/partys/revolution-permanente/2026-09-19-2245c756869d.md",
+      "sha256": "15cb4a082e1057a953dcd7a54837693dbde6d391cfcecbdf97c315b30b92fe7c",
+      "size": 1541
+    },
+    {
       "path": "corpus/2027/auto/partys/solution-democratique/2025-04-09-3a8ec20cb386.md",
       "sha256": "268b288b348cf4405f1cd419a74efaaba0adce4475aeff9b10af9796146281ac",
       "size": 1763
@@ -1130,8 +1140,8 @@
     },
     {
       "path": "proposals/auto/economie-finances/auto-anasse-kazib-economie-finances-98fed100363d.md",
-      "sha256": "a22bd34fedcddaf98fe35972a6ed3491758eb6c184b6e8826c6deaea9d946fb2",
-      "size": 1415
+      "sha256": "bfaecf0b479d51f7d10be2a2a36cffce6317c1a0b7001c6c105bf444c315f632",
+      "size": 1812
     },
     {
       "path": "proposals/auto/economie-finances/auto-anasse-kazib-economie-finances-a5e746dd25a5.md",
@@ -1505,8 +1515,8 @@
     },
     {
       "path": "proposals/auto/pouvoir-achat-travail/auto-anasse-kazib-pouvoir-achat-travail-81103508afc3.md",
-      "sha256": "0de871c98b3e985f30722eb1ebdbedf3266eb4f3f66d20ec69e956f2aabcc5a8",
-      "size": 1214
+      "sha256": "f74e89ec049bece7cc5b0e8c3341c003b718fa01abd9f5a47b40306b5ef332e1",
+      "size": 1646
     },
     {
       "path": "proposals/auto/pouvoir-achat-travail/auto-bruno-retailleau-pouvoir-achat-travail-122f072f74ad.md",
@@ -1587,6 +1597,11 @@
       "path": "proposals/auto/pouvoir-achat-travail/auto-rassemblement-national-pouvoir-achat-travail-462170ab9083.md",
       "sha256": "bb10ad0a0b6ae01168273edb6905b4434460dfe69edbb15fd9207944be6a56d8",
       "size": 1642
+    },
+    {
+      "path": "proposals/auto/pouvoir-achat-travail/auto-revolution-permanente-pouvoir-achat-travail-028f0b96e1e4.md",
+      "sha256": "17d8b6791d4d57a57cd6a9c4bd84f38553d8aeaaa442018bdfbe02131ff49615",
+      "size": 1536
     },
     {
       "path": "proposals/auto/pouvoir-achat-travail/auto-revolution-permanente-pouvoir-achat-travail-0a812c69e566.md",
@@ -1969,6 +1984,11 @@
       "size": 947
     },
     {
+      "path": "proposals/pouvoir-achat-travail/anasse-kazib-embauche-precaires.md",
+      "sha256": "755cdd0b687cafc531a458f7175810c36884f0800a663c56ac095300cd1156f0",
+      "size": 1025
+    },
+    {
       "path": "proposals/pouvoir-achat-travail/les-ecologistes-conge-climatique.md",
       "sha256": "74624ea3d99ca3379e90ffa8fecd8d950f4079cd3e96bdeba1c3ed05af79fc72",
       "size": 920
@@ -1980,8 +2000,8 @@
     },
     {
       "path": "proposals/retraites/anasse-kazib-60-55.md",
-      "sha256": "f2d5c1dc85fa22006ad8c1b0258f59434d67bb5d69a752627e73716a256f90d6",
-      "size": 1391
+      "sha256": "f63463499df1960aa098f8722f24bb5cc3f819cbe2fee62243d92958a5433ecc",
+      "size": 1500
     },
     {
       "path": "proposals/retraites/david-lisnard-capitalisation.md",

@@ -5,7 +5,7 @@ entity_id: anasse-kazib
 topic: pouvoir-achat-travail
 certainty: explicit
 proposal_status: current
-source_document_ids: [auto-anasse-kazib-2026-09-17-007774a3a0a3]
+source_document_ids: [auto-anasse-kazib-2026-09-17-007774a3a0a3, auto-anasse-kazib-2026-09-18-e09c48211f3a]
 source_url: https://anasse2027.fr/programme
 source_tier: tier_1_primary_official
 first_documented_at: '2026-09-17'
@@ -14,6 +14,10 @@ verification_state: verified
 verification_method: primary_source_exact_quote_plus_independent_gemini_verifier_plus_chronology_guard
 evidence_sha256: 829902af75ceb79807f462ed617e367bf6b410cec2841045e65d98171c0624f4
 generated_by: scripts/auto_promote.py
+source_urls: ['https://anasse2027.fr/programme', 'https://www.revolutionpermanente.fr/28h-expropriation-des-secteurs-strategiques-RP-presente-les-premieres-mesures-de-sa-candidature']
+evidence_sha256s: [829902af75ceb79807f462ed617e367bf6b410cec2841045e65d98171c0624f4, b0d865952126cdbde308b5f4526abedb5988a1ed61d61b6978ce0df76c98868c]
+confirmation_count: 2
+last_confirmed_at: '2026-09-18'
 ---
 
 # Mettre en place une semaine de travail de 28 heures sans baisse de salaire

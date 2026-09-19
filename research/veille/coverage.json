@@ -6,18 +6,18 @@
     "actors": 68,
     "declared_or_active_candidates": 27,
     "topics": 12,
-    "current_proposals": 1309,
+    "current_proposals": 1310,
     "covered_actor_topic_cells": 144,
     "total_actor_topic_cells": 816,
     "actor_topic_coverage_ratio": 0.1765,
     "active_candidate_covered_cells": 64,
     "active_candidate_total_cells": 324,
     "active_candidate_topic_coverage_ratio": 0.1975,
-    "verified_proposals": 1273,
-    "multi_source_proposals": 56,
-    "latest_evidence_at": "2026-09-18",
+    "verified_proposals": 1275,
+    "multi_source_proposals": 59,
+    "latest_evidence_at": "2026-09-19",
     "certainty_counts": {
-      "explicit": 1285,
+      "explicit": 1286,
       "explicit_but_conditional": 3,
       "explicit_but_underspecified": 21
     }
@@ -110,8 +110,8 @@
         "numerique-ia"
       ],
       "latest_evidence_at": "2026-09-18",
-      "verified_proposals": 8,
-      "multi_source_proposals": 2
+      "verified_proposals": 9,
+      "multi_source_proposals": 5
     },
     {
       "id": "antoine-mikolajczak",
@@ -1654,7 +1654,7 @@
       "type": "party",
       "status": null,
       "confidence": null,
-      "current_proposals": 7,
+      "current_proposals": 8,
       "covered_topics": [
         "economie-finances",
         "pouvoir-achat-travail",
@@ -1672,8 +1672,8 @@
         "services-publics",
         "numerique-ia"
       ],
-      "latest_evidence_at": "2026-09-18",
-      "verified_proposals": 7,
+      "latest_evidence_at": "2026-09-19",
+      "verified_proposals": 8,
       "multi_source_proposals": 2
     },
     {
@@ -1954,12 +1954,12 @@
     {
       "id": "pouvoir-achat-travail",
       "label": "Pouvoir d’achat & travail",
-      "current_proposals": 71,
+      "current_proposals": 72,
       "actors_covered": 19,
       "actor_coverage_ratio": 0.2794,
-      "latest_evidence_at": "2026-09-17",
-      "verified_proposals": 63,
-      "multi_source_proposals": 5
+      "latest_evidence_at": "2026-09-19",
+      "verified_proposals": 65,
+      "multi_source_proposals": 7
     },
     {
       "id": "retraites",
@@ -2059,7 +2059,7 @@
       "actor_coverage_ratio": 0.1912,
       "latest_evidence_at": "2026-09-18",
       "verified_proposals": 120,
-      "multi_source_proposals": 11
+      "multi_source_proposals": 12
     },
     {
       "id": "numerique-ia",
@@ -2086,16 +2086,16 @@
           "label": "Pouvoir d’achat & travail",
           "covered": true,
           "current_proposals": 5,
-          "latest_evidence_at": "2026-09-17",
-          "verified_proposals": 1,
-          "multi_source_proposals": 0
+          "latest_evidence_at": "2026-09-18",
+          "verified_proposals": 2,
+          "multi_source_proposals": 2
         },
         {
           "id": "retraites",
           "label": "Retraites",
           "covered": true,
           "current_proposals": 1,
-          "latest_evidence_at": "2026-09-17",
+          "latest_evidence_at": "2026-09-18",
           "verified_proposals": 1,
           "multi_source_proposals": 1
         },
@@ -2178,7 +2178,7 @@
           "current_proposals": 2,
           "latest_evidence_at": "2026-09-18",
           "verified_proposals": 2,
-          "multi_source_proposals": 0
+          "multi_source_proposals": 1
         },
         {
           "id": "numerique-ia",
