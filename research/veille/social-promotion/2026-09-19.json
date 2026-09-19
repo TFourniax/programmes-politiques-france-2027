@@ -1,11 +1,33 @@
 {
   "errors": [],
-  "generated_at": "2026-09-19T16:39:03+00:00",
+  "generated_at": "2026-09-19T21:35:39+00:00",
   "partial": 0,
-  "processed": 0,
-  "promoted": 0,
+  "processed": 3,
+  "promoted": 1,
   "proposals_created": 0,
-  "provenance_updates": 0,
-  "results": [],
+  "provenance_updates": 1,
+  "results": [
+    {
+      "document": "corpus/2027/auto/partys/revolution-permanente/2026-09-19-4055a48499f5.md",
+      "provenance_updates": [
+        "auto-revolution-permanente-securite-justice-1f3732277e48"
+      ],
+      "reason": "canonical_duplicate_evidence",
+      "sha256": "2563cd2fa27ac05d4d3ca61a8c68c1da10016f543df8c2cd5f104d9c9e648742",
+      "status": "promoted",
+      "url": "https://www.youtube.com/shorts/DzWwSNAjje4",
+      "verified_at": "2026-09-19T21:35:09+00:00"
+    },
+    {
+      "sha256": "b08a62b5da8a67563f17b1889a24e52abff55ea6108d6c641ef71334c979ed0b",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/watch?v=ukRB2FqtM0g"
+    },
+    {
+      "sha256": "b08a62b5da8a67563f17b1889a24e52abff55ea6108d6c641ef71334c979ed0b",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/shorts/kWEpluTit9Q"
+    }
+  ],
   "status_updates": 0
 }

@@ -1753,7 +1753,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-09-19T16:39:02+00:00",
+  "last_run_at": "2026-09-19T21:35:03+00:00",
   "source_chunks": {
     "007774a3a0a3267f16b687a1": {
       "canonical_confirmations": [
@@ -2794,6 +2794,26 @@
       "total": 1,
       "updated_at": "2026-09-18T17:13:28+00:00",
       "url": "https://www.youtube.com/shorts/ZG4omLW4YKQ"
+    },
+    "0c6db79ab616726f5fdd1754": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-09-19T21:35:37+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "b08a62b5da8a67563f17b1889a24e52abff55ea6108d6c641ef71334c979ed0b",
+      "source_title": "Il n’y a aucune fatalité au matraquage fiscal !",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-19T21:35:38+00:00",
+      "url": "https://www.youtube.com/shorts/kWEpluTit9Q"
     },
     "0c9e40fbe3ed5b1f5fb4734c": {
       "canonical_confirmations": [],
@@ -6840,6 +6860,26 @@
       "updated_at": "2026-08-21T08:09:41+00:00",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
+    "31b8727e741cd035620c9b5c": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-09-19T21:34:54+00:00",
+      "document_types": [
+        "other"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "f1b1565b58819ab454ff244c562553762e23bef6e5efb39e66476febf017b2e5",
+      "source_title": "Revalorisation des retraites en 2027 : Lecornu veut attaquer les pensions dès 1260€",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-19T21:34:55+00:00",
+      "url": "https://www.revolutionpermanente.fr/Revalorisation-des-retraites-en-2027-Lecornu-veut-attaquer-les-pensions-des-1260EUR"
+    },
     "31ebed3018ddcd9c9bd920a2": {
       "canonical_confirmations": [],
       "claims": [],
@@ -7622,7 +7662,7 @@
           }
         }
       ],
-      "completed_at": "2026-09-18T21:49:40+00:00",
+      "completed_at": "2026-09-19T21:34:57+00:00",
       "created_at": "2026-09-11T21:51:33+00:00",
       "document_types": [
         "official_interview"
@@ -7639,7 +7679,7 @@
       "statuses": [],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-09-18T21:49:40+00:00",
+      "updated_at": "2026-09-19T21:34:57+00:00",
       "url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne"
     },
     "3671cfb92c0144e2481ae990": {
@@ -9505,6 +9545,46 @@
       "total": 1,
       "updated_at": "2026-08-25T14:22:48+00:00",
       "url": "https://www.youtube.com/watch?v=pE8eIp2HdIk"
+    },
+    "4055a48499f53153ae7c7194": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "revolution-permanente",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "pour l’abrogation de toutes les lois sécuritaires",
+            "relevance": "party_platform",
+            "statement": "Révolution Permanente appelle à l'abrogation de toutes les lois sécuritaires.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La source confirme l'appel de Révolution Permanente à l'abrogation de toutes les lois sécuritaires, déjà présent dans le canon.",
+            "related_proposal_id": "auto-revolution-permanente-securite-justice-1f3732277e48",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-09-19T21:35:09+00:00",
+      "created_at": "2026-09-19T21:35:04+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "2563cd2fa27ac05d4d3ca61a8c68c1da10016f543df8c2cd5f104d9c9e648742",
+      "source_title": "🔴 Contre le permis de tuer, pour l’abrogation de toutes les lois sécuritaires : dans la rue le 20 s",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-19T21:35:07+00:00",
+      "url": "https://www.youtube.com/shorts/DzWwSNAjje4"
     },
     "41b2229d63c3b320e3a86b37": {
       "canonical_confirmations": [],
@@ -18199,6 +18279,26 @@
       "total": 1,
       "updated_at": "2026-08-14T20:05:51+00:00",
       "url": "https://solutiondemocratique.fr/marine-tondelier-programme-2027/"
+    },
+    "9abb5671298853b3192bc1ca": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-09-19T21:35:09+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "b08a62b5da8a67563f17b1889a24e52abff55ea6108d6c641ef71334c979ed0b",
+      "source_title": "Il n’y a aucune fatalité au matraquage fiscal !",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-19T21:35:36+00:00",
+      "url": "https://www.youtube.com/watch?v=ukRB2FqtM0g"
     },
     "9ae9913ab888f4c0fb5bba9e": {
       "claims": [
@@ -31456,7 +31556,7 @@
       "statuses": [],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-09-19T16:38:32+00:00",
+      "updated_at": "2026-09-19T21:34:53+00:00",
       "url": "https://npa-revolutionnaires.org/articles/selma-labib-candidate-aux-presidentielles-pour-le-npa-revolutionnaires-a-la-braderie-de-lille"
     },
     "f9ac60c3599abd96096571b3": {
@@ -33389,6 +33489,15 @@
       "status": "not_confirmed",
       "url": "https://attalpresident.fr/actualites/annonce-de-candidature"
     },
+    "3adcf55293e1": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-19T21:34:53+00:00",
+      "reason": null,
+      "source_sha256": "650f087465f8be7dc1ed202096b425cdf79194bce8b8bf50aebec06f3903ae41",
+      "status": "not_confirmed",
+      "url": "https://npa-revolutionnaires.org/articles/selma-labib-candidate-aux-presidentielles-pour-le-npa-revolutionnaires-a-la-braderie-de-lille"
+    },
     "3b157e826c21": {
       "chunks_done": null,
       "chunks_total": 1,
@@ -34292,6 +34401,15 @@
       "source_sha256": "c3d861717e97dee7c501720812983877ae67f87fa15fab086d451152b723c74c",
       "status": "promoted",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
+    "7e32315e2f2a": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-19T21:34:55+00:00",
+      "reason": null,
+      "source_sha256": "f1b1565b58819ab454ff244c562553762e23bef6e5efb39e66476febf017b2e5",
+      "status": "not_confirmed",
+      "url": "https://www.revolutionpermanente.fr/Revalorisation-des-retraites-en-2027-Lecornu-veut-attaquer-les-pensions-des-1260EUR"
     },
     "7e3fbc86e21a": {
       "chunks_done": null,
@@ -35935,6 +36053,15 @@
       "source_sha256": "1013df0aa67528326f155b21fcc5c8d369b7c552bdfa0ae1ad65e7f15163139b",
       "status": "not_confirmed",
       "url": "https://parti-equinoxe.fr/legislatives-2022-programme-environnement/"
+    },
+    "e944b1f8498d": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-09-19T21:35:03+00:00",
+      "reason": null,
+      "source_sha256": "89240073cf8b5ad476043aa3c1a429c5833d6ad111411795e3d30ab8468ad280",
+      "status": "promoted",
+      "url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne"
     },
     "e9cdb6654237": {
       "chunks_done": null,

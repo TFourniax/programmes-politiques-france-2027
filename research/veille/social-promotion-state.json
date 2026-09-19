@@ -429,6 +429,17 @@
       "status": "not_confirmed",
       "url": "https://www.youtube.com/shorts/qULBEFlHYN0"
     },
+    "6c341f759ca7a512323e": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-19T21:35:09+00:00",
+      "provenance_updates": [
+        "auto-revolution-permanente-securite-justice-1f3732277e48"
+      ],
+      "source_sha256": "2563cd2fa27ac05d4d3ca61a8c68c1da10016f543df8c2cd5f104d9c9e648742",
+      "status": "promoted",
+      "url": "https://www.youtube.com/shorts/DzWwSNAjje4"
+    },
     "6caefa996167771b6cbd": {
       "chunks_done": null,
       "chunks_total": null,
@@ -687,6 +698,15 @@
       "source_sha256": "11c4e76ba04582d47c20e57a031ada55a791dbd352e2f4335fe65717ebb8d1b8",
       "status": "not_confirmed",
       "url": "https://bsky.app/profile/marinetondelier.fr/post/3mtiodeoqu22q"
+    },
+    "a46d7057245490f58d34": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-19T21:35:38+00:00",
+      "provenance_updates": [],
+      "source_sha256": "b08a62b5da8a67563f17b1889a24e52abff55ea6108d6c641ef71334c979ed0b",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/shorts/kWEpluTit9Q"
     },
     "a4b104ec63b2b2511cd7": {
       "chunks_done": null,
@@ -1013,6 +1033,15 @@
       "status": "not_confirmed",
       "url": "https://www.youtube.com/shorts/9xPvFX4nB2I"
     },
+    "e54f21b9844bce255001": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-19T21:35:36+00:00",
+      "provenance_updates": [],
+      "source_sha256": "b08a62b5da8a67563f17b1889a24e52abff55ea6108d6c641ef71334c979ed0b",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/watch?v=ukRB2FqtM0g"
+    },
     "eaa5526fe6786b74e9f1": {
       "chunks_done": null,
       "chunks_total": null,
@@ -1159,7 +1188,7 @@
     }
   },
   "last_error_count": 0,
-  "last_processed_count": 0,
-  "last_run_at": "2026-09-19T16:39:03+00:00",
+  "last_processed_count": 3,
+  "last_run_at": "2026-09-19T21:35:39+00:00",
   "version": 2
 }
