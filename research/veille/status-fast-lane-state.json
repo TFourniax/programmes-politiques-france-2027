@@ -69,7 +69,7 @@
       "error": "ValueError: HTTP 403",
       "event_url": "https://www.pcf.fr/une_candidature_de_gauche_au_service_de_l_aube_et_de_ses_communes",
       "owner": "Parti communiste français",
-      "processed_at": "2026-09-19T12:01:23+00:00",
+      "processed_at": "2026-09-19T16:36:19+00:00",
       "status": "technical_error"
     },
     "11b463101679": {
@@ -99,6 +99,14 @@
       "new_status": "declared_presidential",
       "owner": "Révolution Permanente",
       "processed_at": "2026-09-19T12:01:23+00:00",
+      "status": "already_current"
+    },
+    "149e3b0c7608": {
+      "candidate_id": "anasse-kazib",
+      "event_url": "https://www.revolutionpermanente.fr/",
+      "new_status": "declared_presidential",
+      "owner": "Révolution Permanente",
+      "processed_at": "2026-09-19T16:36:18+00:00",
       "status": "already_current"
     },
     "16e3b7c95459": {
@@ -156,7 +164,7 @@
       "error": "ValueError: HTTP 403",
       "event_url": "https://www.pcf.fr/presidentielle2027_fabien_roussel_designe_candidat",
       "owner": "Parti communiste français",
-      "processed_at": "2026-09-19T12:01:17+00:00",
+      "processed_at": "2026-09-19T16:36:15+00:00",
       "status": "technical_error"
     },
     "1fd1e63d4f5d": {
@@ -193,6 +201,13 @@
       "event_url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne",
       "owner": "Gabriel Attal",
       "processed_at": "2026-09-09T17:14:58+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
+    "236a5822d1a7": {
+      "event_url": "https://npa-revolutionnaires.org/articles/selma-labib-candidate-aux-presidentielles-pour-le-npa-revolutionnaires-a-la-braderie-de-lille",
+      "owner": "NPA-Révolutionnaires",
+      "processed_at": "2026-09-19T16:36:15+00:00",
       "reason": "no_deterministic_transition",
       "status": "not_applicable"
     },
@@ -800,11 +815,18 @@
       "processed_at": "2026-09-09T12:26:51+00:00",
       "status": "already_current"
     },
+    "b545c11450ae": {
+      "event_url": "https://rassemblementnational.fr/",
+      "owner": "Rassemblement national",
+      "processed_at": "2026-09-19T16:36:19+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
     "b6e972fce670": {
       "error": "ValueError: HTTP 403",
       "event_url": "https://www.pcf.fr/presidentielle_2027_mjcf_s_engage_pour_candidature_communiste",
       "owner": "Parti communiste français",
-      "processed_at": "2026-09-19T12:01:17+00:00",
+      "processed_at": "2026-09-19T16:36:15+00:00",
       "status": "technical_error"
     },
     "b88c50cd309b": {
@@ -914,7 +936,7 @@
       "error": "ValueError: HTTP 404",
       "event_url": "https://parti-equinoxe.fr/articles/2022/05/la-transition-energetique-selon-les-ex-candidats-a-la-presidentielle-2/",
       "owner": "Équinoxe",
-      "processed_at": "2026-09-19T12:01:22+00:00",
+      "processed_at": "2026-09-19T16:36:18+00:00",
       "status": "technical_error"
     },
     "cb3428b2b6d3": {
@@ -1181,7 +1203,7 @@
     }
   },
   "last_error_count": 4,
-  "last_run_at": "2026-09-19T12:01:23+00:00",
+  "last_run_at": "2026-09-19T16:36:19+00:00",
   "last_updated_count": 0,
   "version": 1
 }

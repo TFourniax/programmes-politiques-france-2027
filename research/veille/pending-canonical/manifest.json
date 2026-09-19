@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created_at": "2026-08-17T19:57:19.441897+00:00",
-  "updated_at": "2026-09-19T12:04:35.815597+00:00",
+  "updated_at": "2026-09-19T16:39:06.614534+00:00",
   "files": [
     {
       "path": "corpus/2027/auto/candidates/anasse-kazib/2026-08-28-38891602d9d9.md",
@@ -869,6 +869,11 @@
       "size": 2585
     },
     {
+      "path": "corpus/2027/auto/partys/rassemblement-national/2026-09-19-713c6b5b8cce.md",
+      "sha256": "8df1835244d2463f1de6f9f5209ba66458ca86f93637b09921b2786ea4532bcf",
+      "size": 2432
+    },
+    {
       "path": "corpus/2027/auto/partys/revolution-permanente/2026-08-27-f9d94839bc75.md",
       "sha256": "58df822340ff178f177274b7acf415128e8b810d9f83da4950b0239e782812f6",
       "size": 1549
@@ -897,6 +902,11 @@
       "path": "corpus/2027/auto/partys/revolution-permanente/2026-09-19-2245c756869d.md",
       "sha256": "15cb4a082e1057a953dcd7a54837693dbde6d391cfcecbdf97c315b30b92fe7c",
       "size": 1541
+    },
+    {
+      "path": "corpus/2027/auto/partys/revolution-permanente/2026-09-19-b3b34e620fc0.md",
+      "sha256": "6413c349641a2e66f445faa32d4da978cfa49d0daa6b75a24a54c0216fcd80fb",
+      "size": 1465
     },
     {
       "path": "corpus/2027/auto/partys/solution-democratique/2025-04-09-3a8ec20cb386.md",
@@ -1135,8 +1145,8 @@
     },
     {
       "path": "proposals/auto/ecologie-energie/auto-rassemblement-national-ecologie-energie-e7de1a3e9e8e.md",
-      "sha256": "472ed035bf69f538a4ac4f6508ca0b51d3a22e31567cb38ce11be4537c410c64",
-      "size": 3535
+      "sha256": "f923fb03c968a9bbc9414ad3659ff6c79202174aff25fcdbc999d17ed371825e",
+      "size": 3654
     },
     {
       "path": "proposals/auto/ecologie-energie/auto-selma-labib-ecologie-energie-d84184880c73.md",
@@ -1320,8 +1330,8 @@
     },
     {
       "path": "proposals/auto/fiscalite-redistribution/auto-rassemblement-national-fiscalite-redistribution-650411362d03.md",
-      "sha256": "5e87dd7de73cd05af77abe9276f5311480fe549256a0479fd9460e2b7d789d18",
-      "size": 2831
+      "sha256": "36cd8f85bf9b1ff97fa6ccf3fea953882286d45d34f11c20a8ce27df20dea4f5",
+      "size": 2952
     },
     {
       "path": "proposals/auto/immigration-integration/auto-anasse-kazib-immigration-integration-f008b1970a86.md",
@@ -1375,8 +1385,8 @@
     },
     {
       "path": "proposals/auto/immigration-integration/auto-rassemblement-national-immigration-integration-65a64162aec9.md",
-      "sha256": "ab344e4328f72e85ffb7ed95c55089a9a4abe5db8bc745325f203ba4c437bd6f",
-      "size": 3545
+      "sha256": "8d1728c8f2e379a8f5adc2e21b8b684283adcf856684712c5b2e4db3f4846176",
+      "size": 3664
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-anasse-kazib-institutions-democratie-1a9f657935f4.md",
@@ -1500,8 +1510,8 @@
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-rassemblement-national-institutions-democratie-2ec6a69712fb.md",
-      "sha256": "01b15cbbd2d3578ca90e4f09a60fbdaa3f23f5235feaa4a304d5b32410069e09",
-      "size": 3643
+      "sha256": "4332d591bab9fb53e1b3dcb5d94c472fdfb060db45f1f89d3eeb40bc42082b3b",
+      "size": 3762
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-solution-democratique-institutions-democratie-4ea1c22d52ea.md",
@@ -1522,6 +1532,11 @@
       "path": "proposals/auto/pouvoir-achat-travail/auto-anasse-kazib-pouvoir-achat-travail-81103508afc3.md",
       "sha256": "1b99b5b88f6b6b6c8c266746bd52491d570d5b720090a27e9ddd67e82c2cd2dc",
       "size": 1757
+    },
+    {
+      "path": "proposals/auto/pouvoir-achat-travail/auto-anasse-kazib-pouvoir-achat-travail-9dd581e1c937.md",
+      "sha256": "8bc84e730053fd3e4d898f8159d5900ac6943cab5d8f16ca98fe7a4562dc197d",
+      "size": 1393
     },
     {
       "path": "proposals/auto/pouvoir-achat-travail/auto-bruno-retailleau-pouvoir-achat-travail-122f072f74ad.md",
@@ -1650,8 +1665,8 @@
     },
     {
       "path": "proposals/auto/retraites/auto-rassemblement-national-retraites-fd538617cfee.md",
-      "sha256": "73c81511e733bdf029b305390fbd91bd60e64b80d1cd8e2b2c827c5d4a9c22c3",
-      "size": 3534
+      "sha256": "adb7d91244ae945385e1126e09e3b45b6623e732e3c76d2083b07d1f523c84e0",
+      "size": 3655
     },
     {
       "path": "proposals/auto/securite-justice/auto-bruno-retailleau-securite-justice-2d49955c8949.md",
@@ -1775,13 +1790,13 @@
     },
     {
       "path": "proposals/auto/securite-justice/auto-rassemblement-national-securite-justice-25fe73df9ce3.md",
-      "sha256": "a6eb688a27ff3781a209712399f6ddf59d5e73840be548dc75912bef979ee3d0",
-      "size": 3112
+      "sha256": "37d04b190abf1c99b1c462aee67239476028a5a7cac43f17d50fec4ce80fb3bd",
+      "size": 3233
     },
     {
       "path": "proposals/auto/securite-justice/auto-rassemblement-national-securite-justice-5cb19d0cbcca.md",
-      "sha256": "033264099e5259f88c9f25a9c43806792e0108da80d2aaffc5afd9cd8b6a6989",
-      "size": 3408
+      "sha256": "8032a906eb6d7549cb7d6cb0707751cf1adec7ed3b52667ed977978920e83c8f",
+      "size": 3529
     },
     {
       "path": "proposals/auto/securite-justice/auto-rassemblement-national-securite-justice-f810f54b67af.md",

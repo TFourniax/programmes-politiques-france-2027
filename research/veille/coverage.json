@@ -6,18 +6,18 @@
     "actors": 68,
     "declared_or_active_candidates": 27,
     "topics": 12,
-    "current_proposals": 1310,
+    "current_proposals": 1311,
     "covered_actor_topic_cells": 144,
     "total_actor_topic_cells": 816,
     "actor_topic_coverage_ratio": 0.1765,
     "active_candidate_covered_cells": 64,
     "active_candidate_total_cells": 324,
     "active_candidate_topic_coverage_ratio": 0.1975,
-    "verified_proposals": 1275,
+    "verified_proposals": 1276,
     "multi_source_proposals": 60,
     "latest_evidence_at": "2026-09-19",
     "certainty_counts": {
-      "explicit": 1286,
+      "explicit": 1287,
       "explicit_but_conditional": 3,
       "explicit_but_underspecified": 21
     }
@@ -91,7 +91,7 @@
       "type": "candidate",
       "status": "declared_presidential",
       "confidence": "high",
-      "current_proposals": 13,
+      "current_proposals": 14,
       "covered_topics": [
         "economie-finances",
         "immigration-integration",
@@ -110,7 +110,7 @@
         "numerique-ia"
       ],
       "latest_evidence_at": "2026-09-19",
-      "verified_proposals": 9,
+      "verified_proposals": 10,
       "multi_source_proposals": 6
     },
     {
@@ -1588,7 +1588,7 @@
         "economie-finances",
         "numerique-ia"
       ],
-      "latest_evidence_at": "2026-09-18",
+      "latest_evidence_at": "2026-09-19",
       "verified_proposals": 18,
       "multi_source_proposals": 9
     },
@@ -1954,11 +1954,11 @@
     {
       "id": "pouvoir-achat-travail",
       "label": "Pouvoir d’achat & travail",
-      "current_proposals": 72,
+      "current_proposals": 73,
       "actors_covered": 19,
       "actor_coverage_ratio": 0.2794,
       "latest_evidence_at": "2026-09-19",
-      "verified_proposals": 65,
+      "verified_proposals": 66,
       "multi_source_proposals": 7
     },
     {
@@ -1977,7 +1977,7 @@
       "current_proposals": 74,
       "actors_covered": 11,
       "actor_coverage_ratio": 0.1618,
-      "latest_evidence_at": "2026-09-18",
+      "latest_evidence_at": "2026-09-19",
       "verified_proposals": 72,
       "multi_source_proposals": 3
     },
@@ -2017,7 +2017,7 @@
       "current_proposals": 192,
       "actors_covered": 15,
       "actor_coverage_ratio": 0.2206,
-      "latest_evidence_at": "2026-09-18",
+      "latest_evidence_at": "2026-09-19",
       "verified_proposals": 186,
       "multi_source_proposals": 2
     },
@@ -2027,7 +2027,7 @@
       "current_proposals": 263,
       "actors_covered": 13,
       "actor_coverage_ratio": 0.1912,
-      "latest_evidence_at": "2026-09-18",
+      "latest_evidence_at": "2026-09-19",
       "verified_proposals": 259,
       "multi_source_proposals": 13
     },
@@ -2047,7 +2047,7 @@
       "current_proposals": 146,
       "actors_covered": 14,
       "actor_coverage_ratio": 0.2059,
-      "latest_evidence_at": "2026-09-18",
+      "latest_evidence_at": "2026-09-19",
       "verified_proposals": 143,
       "multi_source_proposals": 6
     },
@@ -2078,16 +2078,16 @@
       "name": "Anasse Kazib",
       "status": "declared_presidential",
       "coverage_ratio": 0.5,
-      "current_proposals": 13,
+      "current_proposals": 14,
       "latest_evidence_at": "2026-09-19",
       "topics": [
         {
           "id": "pouvoir-achat-travail",
           "label": "Pouvoir d’achat & travail",
           "covered": true,
-          "current_proposals": 5,
+          "current_proposals": 6,
           "latest_evidence_at": "2026-09-19",
-          "verified_proposals": 2,
+          "verified_proposals": 3,
           "multi_source_proposals": 2
         },
         {
@@ -5729,7 +5729,7 @@
       "name": "Anasse Kazib",
       "status": "declared_presidential",
       "coverage_ratio": 0.5,
-      "current_proposals": 13,
+      "current_proposals": 14,
       "latest_evidence_at": "2026-09-19",
       "gaps": [
         "fiscalite-redistribution",
