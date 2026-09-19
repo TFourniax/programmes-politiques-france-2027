@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created_at": "2026-08-17T19:57:19.441897+00:00",
-  "updated_at": "2026-09-19T06:05:33.750096+00:00",
+  "updated_at": "2026-09-19T12:04:35.815597+00:00",
   "files": [
     {
       "path": "corpus/2027/auto/candidates/anasse-kazib/2026-08-28-38891602d9d9.md",
@@ -57,6 +57,11 @@
       "path": "corpus/2027/auto/candidates/anasse-kazib/2026-09-18-e09c48211f3a.md",
       "sha256": "1e496e914407a982fa485d0271d9d1c087f8fafdc4420a25bc6552226c56eae6",
       "size": 2504
+    },
+    {
+      "path": "corpus/2027/auto/candidates/anasse-kazib/2026-09-19-20fd280fc591.md",
+      "sha256": "a23c07525f99ec902d0fae54be4d92c0e83262a598f6798591a59a160c77316d",
+      "size": 2213
     },
     {
       "path": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-02b6fd496b7b.md",
@@ -1320,8 +1325,8 @@
     },
     {
       "path": "proposals/auto/immigration-integration/auto-anasse-kazib-immigration-integration-f008b1970a86.md",
-      "sha256": "ba851c0c3224bbe8c7f698011b3d38d1c211b77cfcaf79bf7a7876eee32b6935",
-      "size": 1315
+      "sha256": "5dadbd3cdfb1a76314f9a82246aad1445d0e5b420951b5e333a7722a065ab105",
+      "size": 1747
     },
     {
       "path": "proposals/auto/immigration-integration/auto-bruno-retailleau-immigration-integration-080032bab3da.md",
@@ -1515,8 +1520,8 @@
     },
     {
       "path": "proposals/auto/pouvoir-achat-travail/auto-anasse-kazib-pouvoir-achat-travail-81103508afc3.md",
-      "sha256": "f74e89ec049bece7cc5b0e8c3341c003b718fa01abd9f5a47b40306b5ef332e1",
-      "size": 1646
+      "sha256": "1b99b5b88f6b6b6c8c266746bd52491d570d5b720090a27e9ddd67e82c2cd2dc",
+      "size": 1757
     },
     {
       "path": "proposals/auto/pouvoir-achat-travail/auto-bruno-retailleau-pouvoir-achat-travail-122f072f74ad.md",
@@ -2000,8 +2005,8 @@
     },
     {
       "path": "proposals/retraites/anasse-kazib-60-55.md",
-      "sha256": "f63463499df1960aa098f8722f24bb5cc3f819cbe2fee62243d92958a5433ecc",
-      "size": 1500
+      "sha256": "f07fc9b770bc6e20548adc15b2b089c2f3d6d25814040e046b30d2c156f91e80",
+      "size": 1611
     },
     {
       "path": "proposals/retraites/david-lisnard-capitalisation.md",

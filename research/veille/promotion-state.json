@@ -1746,9 +1746,9 @@
       "verified_at": "2026-08-13T08:51:16+00:00"
     }
   },
-  "last_error_count": 0,
-  "last_processed_count": 3,
-  "last_run_at": "2026-09-19T06:05:29+00:00",
+  "last_error_count": 2,
+  "last_processed_count": 1,
+  "last_run_at": "2026-09-19T12:04:27+00:00",
   "source_chunks": {
     "007774a3a0a3267f16b687a1": {
       "canonical_confirmations": [
@@ -5286,6 +5286,102 @@
       "total": 1,
       "updated_at": "2026-09-14T22:40:26+00:00",
       "url": "https://rassemblementnational.fr/"
+    },
+    "20fd280fc591b9c1e4dae077": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "anasse-kazib",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "la semaine de 28 heures",
+            "relevance": "direct",
+            "statement": "Instaurer la semaine de 28 heures.",
+            "topic": "pouvoir-achat-travail"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La semaine de 28 heures est explicitement soutenue dans la source et déjà présente dans le canon.",
+            "related_proposal_id": "auto-anasse-kazib-pouvoir-achat-travail-81103508afc3",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "anasse-kazib",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "la retraite à 60 ans, 55 ans pour les métiers pénibles, sans condition d’annuités",
+            "relevance": "direct",
+            "statement": "Fixer l'âge de départ à la retraite à 60 ans, et 55 ans pour les métiers pénibles, sans condition d’annuités.",
+            "topic": "retraites"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "L'âge de départ à la retraite à 60 ans et 55 ans pour les métiers pénibles sans condition d'annuités est explicitement soutenu et présent dans le canon.",
+            "related_proposal_id": "prop-kazib-retraite-60-55",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "anasse-kazib",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "l’augmentation du SMIC à 2000 euros et de l’ensemble des salaires, indexés sur les prix",
+            "relevance": "direct",
+            "statement": "Augmenter le SMIC à 2000 euros et l’ensemble des salaires, indexés sur les prix.",
+            "topic": "pouvoir-achat-travail"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "L'augmentation du SMIC à 2000 euros et des salaires indexés sur les prix est explicitement présente dans la source et le canon.",
+            "related_proposal_id": "prop-kazib-smic-2000",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "anasse-kazib",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "la régularisation de tous les sans-papiers et la liberté de circulation et d’installation",
+            "relevance": "direct",
+            "statement": "Régulariser tous les sans-papiers et garantir la liberté de circulation et d’installation.",
+            "topic": "immigration-integration"
+          },
+          "verdict": {
+            "index": 3,
+            "reason": "La régularisation de tous les sans-papiers et la liberté de circulation sont explicitement soutenues et présentes dans le canon.",
+            "related_proposal_id": "auto-anasse-kazib-immigration-integration-f008b1970a86",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-09-19T12:04:26+00:00",
+      "created_at": "2026-09-19T12:04:12+00:00",
+      "document_types": [
+        "campaign_website_page",
+        "campaign_website_page"
+      ],
+      "done": [
+        0,
+        1
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "21c0cc78548d5a32241ba6722f0bcf7e34b7dcb69bfd242536fea974132375cf",
+      "source_title": "28h, expropriation des secteurs stratégiques... : RP présente les premières mesures de sa candidature",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 2,
+      "updated_at": "2026-09-19T12:04:19+00:00",
+      "url": "https://www.revolutionpermanente.fr/28h-expropriation-des-secteurs-strategiques-RP-presente-les-premieres-mesures-de-sa-candidature"
     },
     "21a4a85c85022759cc513523": {
       "canonical_confirmations": [],
@@ -15612,6 +15708,26 @@
       "total": 1,
       "updated_at": "2026-08-13T03:40:17+00:00",
       "url": "https://melenchon2027.fr/programme2025/livre/chapitre5/"
+    },
+    "7a0e0ef3db28b127d01831e9": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-09-19T12:04:27+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "5b469a3cbd1c33802891852895ab0bcda6ead58f82073ae0ec4e07a0e7b36383",
+      "source_title": "Notre Podcast Est De Retour !",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-19T12:04:28+00:00",
+      "url": "https://www.youtube.com/shorts/n-YsxWSjT6M"
     },
     "7b19fa990a25c998f476a922": {
       "canonical_confirmations": [
@@ -31930,6 +32046,26 @@
       "updated_at": "2026-08-22T02:38:10+00:00",
       "url": "https://www.unenouvelleenergie.fr/notre-programme/"
     },
+    "fd963bf99643387a00853715": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-09-19T12:04:29+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "f9758aaea9bdf3b76154a2d1f00d07677d77b161114912a931b4f7cfb0de8632",
+      "source_title": "🔴 L'ÉTAT CONDAMNE LES ENFANTS DES QUARTIERS POPULAIRES À LA MISÈRE",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-19T12:04:31+00:00",
+      "url": "https://www.youtube.com/shorts/LGNh8wHiOKo"
+    },
     "fdf140209a7bb322e5b00f05": {
       "canonical_confirmations": [
         {
@@ -32510,10 +32646,10 @@
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
     "1e67d8d2b142": {
-      "attempts": 4,
+      "attempts": 5,
       "error": "ValueError: HTTP 403",
-      "next_retry_at": "2026-09-19T11:47:50+00:00",
-      "processed_at": "2026-09-12T11:47:50+00:00",
+      "next_retry_at": "2026-10-03T12:04:10+00:00",
+      "processed_at": "2026-09-19T12:04:10+00:00",
       "status": "technical_error",
       "url": "https://www.pcf.fr/presidentielle2027_fabien_roussel_designe_candidat"
     },
@@ -34669,10 +34805,10 @@
       "url": "https://attalpresident.fr/programme"
     },
     "b6e972fce670": {
-      "attempts": 4,
+      "attempts": 5,
       "error": "ValueError: HTTP 403",
-      "next_retry_at": "2026-09-19T11:47:50+00:00",
-      "processed_at": "2026-09-12T11:47:50+00:00",
+      "next_retry_at": "2026-10-03T12:04:11+00:00",
+      "processed_at": "2026-09-19T12:04:11+00:00",
       "status": "technical_error",
       "url": "https://www.pcf.fr/presidentielle_2027_mjcf_s_engage_pour_candidature_communiste"
     },
@@ -35708,6 +35844,15 @@
       "source_sha256": "64c45da36a32d401ab74ddce449436ad1a478b2a03847264f2e5f2747d800938",
       "status": "promoted",
       "url": "https://attalpresident.fr/programme"
+    },
+    "f4dce1d08639": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-19T12:04:26+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "21c0cc78548d5a32241ba6722f0bcf7e34b7dcb69bfd242536fea974132375cf",
+      "status": "promoted",
+      "url": "https://www.revolutionpermanente.fr/28h-expropriation-des-secteurs-strategiques-RP-presente-les-premieres-mesures-de-sa-candidature"
     },
     "f7961afe0215": {
       "chunks_done": null,
