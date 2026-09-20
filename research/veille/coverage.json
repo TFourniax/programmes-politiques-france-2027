@@ -6,18 +6,18 @@
     "actors": 68,
     "declared_or_active_candidates": 27,
     "topics": 12,
-    "current_proposals": 1312,
+    "current_proposals": 1314,
     "covered_actor_topic_cells": 144,
     "total_actor_topic_cells": 816,
     "actor_topic_coverage_ratio": 0.1765,
     "active_candidate_covered_cells": 64,
     "active_candidate_total_cells": 324,
     "active_candidate_topic_coverage_ratio": 0.1975,
-    "verified_proposals": 1277,
+    "verified_proposals": 1279,
     "multi_source_proposals": 61,
     "latest_evidence_at": "2026-09-20",
     "certainty_counts": {
-      "explicit": 1288,
+      "explicit": 1290,
       "explicit_but_conditional": 3,
       "explicit_but_underspecified": 21
     }
@@ -109,7 +109,7 @@
         "securite-justice",
         "numerique-ia"
       ],
-      "latest_evidence_at": "2026-09-19",
+      "latest_evidence_at": "2026-09-20",
       "verified_proposals": 10,
       "multi_source_proposals": 6
     },
@@ -1102,7 +1102,7 @@
       "type": "party",
       "status": null,
       "confidence": null,
-      "current_proposals": 116,
+      "current_proposals": 117,
       "covered_topics": [
         "defense-international",
         "ecologie-energie",
@@ -1119,8 +1119,8 @@
       ],
       "coverage_ratio": 1.0,
       "gaps": [],
-      "latest_evidence_at": "2026-08-26",
-      "verified_proposals": 116,
+      "latest_evidence_at": "2026-09-01",
+      "verified_proposals": 117,
       "multi_source_proposals": 6
     },
     {
@@ -1570,7 +1570,7 @@
       "type": "party",
       "status": null,
       "confidence": null,
-      "current_proposals": 18,
+      "current_proposals": 19,
       "covered_topics": [
         "ecologie-energie",
         "fiscalite-redistribution",
@@ -1589,7 +1589,7 @@
         "numerique-ia"
       ],
       "latest_evidence_at": "2026-09-20",
-      "verified_proposals": 18,
+      "verified_proposals": 19,
       "multi_source_proposals": 9
     },
     {
@@ -1954,11 +1954,11 @@
     {
       "id": "pouvoir-achat-travail",
       "label": "Pouvoir d’achat & travail",
-      "current_proposals": 73,
+      "current_proposals": 74,
       "actors_covered": 19,
       "actor_coverage_ratio": 0.2794,
       "latest_evidence_at": "2026-09-20",
-      "verified_proposals": 66,
+      "verified_proposals": 67,
       "multi_source_proposals": 7
     },
     {
@@ -1967,7 +1967,7 @@
       "current_proposals": 21,
       "actors_covered": 12,
       "actor_coverage_ratio": 0.1765,
-      "latest_evidence_at": "2026-09-19",
+      "latest_evidence_at": "2026-09-20",
       "verified_proposals": 19,
       "multi_source_proposals": 5
     },
@@ -2014,11 +2014,11 @@
     {
       "id": "ecologie-energie",
       "label": "Écologie & énergie",
-      "current_proposals": 192,
+      "current_proposals": 193,
       "actors_covered": 15,
       "actor_coverage_ratio": 0.2206,
       "latest_evidence_at": "2026-09-19",
-      "verified_proposals": 186,
+      "verified_proposals": 187,
       "multi_source_proposals": 2
     },
     {
@@ -2079,14 +2079,14 @@
       "status": "declared_presidential",
       "coverage_ratio": 0.5,
       "current_proposals": 14,
-      "latest_evidence_at": "2026-09-19",
+      "latest_evidence_at": "2026-09-20",
       "topics": [
         {
           "id": "pouvoir-achat-travail",
           "label": "Pouvoir d’achat & travail",
           "covered": true,
           "current_proposals": 6,
-          "latest_evidence_at": "2026-09-19",
+          "latest_evidence_at": "2026-09-20",
           "verified_proposals": 3,
           "multi_source_proposals": 2
         },
@@ -2095,7 +2095,7 @@
           "label": "Retraites",
           "covered": true,
           "current_proposals": 1,
-          "latest_evidence_at": "2026-09-19",
+          "latest_evidence_at": "2026-09-20",
           "verified_proposals": 1,
           "multi_source_proposals": 1
         },
@@ -2113,7 +2113,7 @@
           "label": "Immigration & intégration",
           "covered": true,
           "current_proposals": 1,
-          "latest_evidence_at": "2026-09-19",
+          "latest_evidence_at": "2026-09-20",
           "verified_proposals": 1,
           "multi_source_proposals": 1
         },
@@ -5730,7 +5730,7 @@
       "status": "declared_presidential",
       "coverage_ratio": 0.5,
       "current_proposals": 14,
-      "latest_evidence_at": "2026-09-19",
+      "latest_evidence_at": "2026-09-20",
       "gaps": [
         "fiscalite-redistribution",
         "europe-souverainete",

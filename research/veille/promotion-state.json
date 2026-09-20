@@ -335,6 +335,11 @@
       "source_url": "https://rassemblementnational.fr/",
       "verified_at": "2026-08-11T08:56:04+00:00"
     },
+    "2efb471d84410dc2d19e7e8dcd5f44ca04e2de985ca2c0b2ae3068bf9f587f76": {
+      "proposal_id": "auto-les-ecologistes-ecologie-energie-2efb471d8441",
+      "source_url": "https://marinetondelier.fr/programme-2027",
+      "verified_at": "2026-09-20T21:43:37+00:00"
+    },
     "2fe1576c84df8b5e959e5c089d26811dfd3faa3d71014cf79db30b49a8f71b79": {
       "proposal_id": "auto-equinoxe-securite-justice-2fe1576c84df",
       "source_url": "https://parti-equinoxe.fr/legislative-partielle-2025-isere/programme-cohesion/",
@@ -809,6 +814,11 @@
       "proposal_id": "auto-la-france-insoumise-ecologie-energie-7277ce67ceab",
       "source_url": "https://melenchon2027.fr/programme2025/livre/chapitre15/",
       "verified_at": "2026-08-12T23:32:59+00:00"
+    },
+    "74f11aa767076cb1c58683369ebed54bcb613ce4a51749ff3141f0ec1b7c39dc": {
+      "proposal_id": "auto-rassemblement-national-pouvoir-achat-travail-74f11aa76707",
+      "source_url": "https://www.youtube.com/shorts/galkHDewlFY",
+      "verified_at": "2026-09-20T21:43:47+00:00"
     },
     "776d0731a842b7372af1bded8d0e08e1f25621a3c49f5439c84f1289be6cef6f": {
       "proposal_id": "auto-la-france-insoumise-europe-souverainete-776d0731a842",
@@ -1756,9 +1766,9 @@
       "verified_at": "2026-08-13T08:51:16+00:00"
     }
   },
-  "last_error_count": 2,
-  "last_processed_count": 1,
-  "last_run_at": "2026-09-20T16:58:04+00:00",
+  "last_error_count": 0,
+  "last_processed_count": 3,
+  "last_run_at": "2026-09-20T21:43:41+00:00",
   "source_chunks": {
     "007774a3a0a3267f16b687a1": {
       "canonical_confirmations": [
@@ -1891,7 +1901,7 @@
           }
         }
       ],
-      "completed_at": "2026-09-18T17:13:11+00:00",
+      "completed_at": "2026-09-20T21:43:30+00:00",
       "created_at": "2026-09-18T17:12:53+00:00",
       "document_types": [
         "campaign_website_page"
@@ -1906,7 +1916,7 @@
       "statuses": [],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-09-18T17:13:04+00:00",
+      "updated_at": "2026-09-20T21:43:24+00:00",
       "url": "https://anasse2027.fr/programme"
     },
     "009ea6ddfcaa5e8d4f6a7064": {
@@ -2606,6 +2616,65 @@
       "updated_at": "2026-08-20T20:02:05+00:00",
       "url": "https://bsky.app/profile/lesecologistes.fr/post/3mtjmarb6ek2f"
     },
+    "08d9a1c29b2d5a84a1df3d4a": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Le nouveau programme des Écologistes rassemble 557 mesures, pour répondre aux défis écologiques",
+            "relevance": "party_platform",
+            "statement": "Le nouveau programme des Écologistes rassemble 557 mesures pour répondre aux défis écologiques.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La source confirme explicitement que le programme des Écologistes rassemble 557 mesures pour répondre aux défis écologiques, ce qui constitue une information générale nouvelle par rapport aux propositions thématiques existantes.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Le nouveau programme des Écologistes rassemble 557 mesures, pour répondre aux défis écologiques",
+            "relevance": "party_platform",
+            "statement": "Le nouveau programme des Écologistes rassemble 557 mesures pour répondre aux défis écologiques.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La source confirme explicitement que le programme des Écologistes rassemble 557 mesures pour répondre aux défis écologiques, ce qui constitue une information générale nouvelle par rapport aux propositions thématiques existantes.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "completed_at": "2026-09-20T21:43:37+00:00",
+      "created_at": "2026-09-20T21:43:31+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "bb3f1ee86e5f74de59f1a60a10101b2480dc17496b11b73bc8b01380aa7a47ba",
+      "source_title": "Le programme présidentiel des écologistes pour 2027 — Marine Tondelier",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-20T21:43:37+00:00",
+      "url": "https://marinetondelier.fr/programme-2027"
+    },
     "0955a3c5e387ba94dd83adf9": {
       "canonical_confirmations": [
         {
@@ -2779,6 +2848,65 @@
       "total": 1,
       "updated_at": "2026-08-30T22:02:59+00:00",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
+    "0ae88fbce69cb2bd45ee7d89": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "rassemblement-national",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Permettre aux Français de mieux vivre du fruit de leur travail !",
+            "relevance": "party_platform",
+            "statement": "Permettre aux Français de mieux vivre du fruit de leur travail.",
+            "topic": "pouvoir-achat-travail"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La déclaration est explicitement soutenue par la source et concerne un axe programmatique général non présent sous cette formulation exacte dans le canon.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [
+        {
+          "claim": {
+            "actor_id": "rassemblement-national",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Permettre aux Français de mieux vivre du fruit de leur travail !",
+            "relevance": "party_platform",
+            "statement": "Permettre aux Français de mieux vivre du fruit de leur travail.",
+            "topic": "pouvoir-achat-travail"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La déclaration est explicitement soutenue par la source et concerne un axe programmatique général non présent sous cette formulation exacte dans le canon.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "completed_at": "2026-09-20T21:43:47+00:00",
+      "created_at": "2026-09-20T21:43:41+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "3be8897557011cb9b5ca9cd6c9a4c9dc9007e5d6ac5216b83b93b3b474e421e8",
+      "source_title": "Permettre aux Français de mieux vivre du fruit de leur travail !",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-20T21:43:47+00:00",
+      "url": "https://www.youtube.com/shorts/galkHDewlFY"
     },
     "0bee298db235c0aeca75ea90": {
       "canonical_confirmations": [],
@@ -7687,7 +7815,7 @@
           }
         }
       ],
-      "completed_at": "2026-09-20T16:57:56+00:00",
+      "completed_at": "2026-09-20T21:43:11+00:00",
       "created_at": "2026-09-11T21:51:33+00:00",
       "document_types": [
         "official_interview"
@@ -7704,7 +7832,7 @@
       "statuses": [],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-09-20T16:57:56+00:00",
+      "updated_at": "2026-09-20T21:43:11+00:00",
       "url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne"
     },
     "3671cfb92c0144e2481ae990": {
@@ -12337,6 +12465,26 @@
       "updated_at": "2026-09-17T12:43:54+00:00",
       "url": "https://www.generationecologie.fr/newsletter/une-candidature-pour-sauver-lecologie/"
     },
+    "5b48d10c09b4209549a7b6b5": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-09-20T21:43:51+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "ab247a07de1f315f2a6ef91dc861c238b06203e06683c1209cd9dd0d0ad9963b",
+      "source_title": "🔴 Le mouvement ouvrier doit entrer dans la bataille contre la loi Permis de tuer XXL !",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-20T21:43:53+00:00",
+      "url": "https://www.youtube.com/shorts/XDeSuEynIcw"
+    },
     "5c757605a9c3d828f126a19a": {
       "canonical_confirmations": [
         {
@@ -14152,6 +14300,26 @@
       "total": 1,
       "updated_at": "2026-09-06T16:27:29+00:00",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
+    "69a209bfc3ac1f2bad92c019": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-09-20T21:43:53+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "c28d5542b9275d99b12f1b3dfd13f912f8c4294359ba83143e3d9d16db5fc9a9",
+      "source_title": "🔴 SOUTIEN AUX GRÉVISTES DE RADIO FRANCE",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-20T21:43:55+00:00",
+      "url": "https://www.youtube.com/shorts/XTWvkzVXfKM"
     },
     "6a0186575ca9571dff789b65": {
       "canonical_confirmations": [
@@ -33095,6 +33263,15 @@
       "status": "promoted",
       "url": "https://solutiondemocratique.fr/delphine-batho-programme-2027/"
     },
+    "1579110ce168": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-09-20T21:43:41+00:00",
+      "reason": null,
+      "source_sha256": "bb3f1ee86e5f74de59f1a60a10101b2480dc17496b11b73bc8b01380aa7a47ba",
+      "status": "promoted",
+      "url": "https://marinetondelier.fr/programme-2027"
+    },
     "16e3b7c95459": {
       "chunks_done": null,
       "chunks_total": null,
@@ -34590,6 +34767,15 @@
       "status": "promoted",
       "url": "https://attalpresident.fr/programme/dette-de-letat"
     },
+    "7980da35e6f3": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-09-20T21:43:30+00:00",
+      "reason": null,
+      "source_sha256": "829902af75ceb79807f462ed617e367bf6b410cec2841045e65d98171c0624f4",
+      "status": "promoted",
+      "url": "https://anasse2027.fr/programme"
+    },
     "7a7d3a342bb5": {
       "chunks_done": null,
       "chunks_total": 1,
@@ -35553,6 +35739,15 @@
       "source_sha256": "0d8a65a8dc74d4f3b80db285ed2a18b91b378305bd81ab393f4f26637b9e888d",
       "status": "promoted",
       "url": "https://attalpresident.fr/programme"
+    },
+    "bbc19d3772fe": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-09-20T21:43:21+00:00",
+      "reason": null,
+      "source_sha256": "89240073cf8b5ad476043aa3c1a429c5833d6ad111411795e3d30ab8468ad280",
+      "status": "promoted",
+      "url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne"
     },
     "bc2109b91de1": {
       "chunks_done": null,

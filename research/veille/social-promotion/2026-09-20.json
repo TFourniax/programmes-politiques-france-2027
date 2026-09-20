@@ -1,6 +1,6 @@
 {
   "errors": [],
-  "generated_at": "2026-09-20T16:58:15+00:00",
+  "generated_at": "2026-09-20T21:43:56+00:00",
   "partial": 0,
   "processed": 3,
   "promoted": 1,
@@ -8,26 +8,26 @@
   "provenance_updates": 0,
   "results": [
     {
-      "sha256": "a4bd37c28812b8507a0f4d78d02eb94f9d86bdf33be9086c633be0edc37e25c7",
-      "status": "not_confirmed",
-      "url": "https://www.youtube.com/shorts/UWvr83QWUa8"
-    },
-    {
       "chunks_total": 1,
-      "document": "corpus/2027/auto/partys/la-france-insoumise/2026-09-20-4c4b7f46bf81.md",
+      "document": "corpus/2027/auto/partys/rassemblement-national/2026-09-20-0ae88fbce69c.md",
       "proposals": [
-        "proposals/auto/securite-justice/auto-la-france-insoumise-securite-justice-6eacad103737.md"
+        "proposals/auto/pouvoir-achat-travail/auto-rassemblement-national-pouvoir-achat-travail-74f11aa76707.md"
       ],
-      "sha256": "da0af2dd47771c6bc52d170f6432c086a7bd63ffce38105db3b27cad79a6596c",
+      "sha256": "3be8897557011cb9b5ca9cd6c9a4c9dc9007e5d6ac5216b83b93b3b474e421e8",
       "status": "promoted",
       "status_updates": [],
-      "url": "https://www.youtube.com/watch?v=1AlcbLvqoZ0",
-      "verified_at": "2026-09-20T16:58:10+00:00"
+      "url": "https://www.youtube.com/shorts/galkHDewlFY",
+      "verified_at": "2026-09-20T21:43:47+00:00"
     },
     {
-      "sha256": "720567269c4f047b2da8b4085558b71d329b58c8ba4fcf5bbf442a52ceba112d",
+      "sha256": "ab247a07de1f315f2a6ef91dc861c238b06203e06683c1209cd9dd0d0ad9963b",
       "status": "not_confirmed",
-      "url": "https://www.youtube.com/shorts/GRNYZKhkh5A"
+      "url": "https://www.youtube.com/shorts/XDeSuEynIcw"
+    },
+    {
+      "sha256": "c28d5542b9275d99b12f1b3dfd13f912f8c4294359ba83143e3d9d16db5fc9a9",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/shorts/XTWvkzVXfKM"
     }
   ],
   "status_updates": 0

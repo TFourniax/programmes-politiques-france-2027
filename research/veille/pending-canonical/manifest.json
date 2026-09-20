@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created_at": "2026-08-17T19:57:19.441897+00:00",
-  "updated_at": "2026-09-20T16:58:17.604746+00:00",
+  "updated_at": "2026-09-20T21:44:00.024489+00:00",
   "files": [
     {
       "path": "corpus/2027/auto/candidates/anasse-kazib/2026-08-28-38891602d9d9.md",
@@ -62,6 +62,11 @@
       "path": "corpus/2027/auto/candidates/anasse-kazib/2026-09-19-20fd280fc591.md",
       "sha256": "a23c07525f99ec902d0fae54be4d92c0e83262a598f6798591a59a160c77316d",
       "size": 2213
+    },
+    {
+      "path": "corpus/2027/auto/candidates/anasse-kazib/2026-09-20-007774a3a0a3.md",
+      "sha256": "a9b79451dba63b734ce1cbbfd7d2e54de6141c1e236b3137aa328190825f7b6e",
+      "size": 1975
     },
     {
       "path": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-02b6fd496b7b.md",
@@ -579,6 +584,11 @@
       "size": 1739
     },
     {
+      "path": "corpus/2027/auto/candidates/marine-tondelier/2026-09-01-08d9a1c29b2d.md",
+      "sha256": "64f8364220d9d310f5c08b8363dc81c36cf370a929dd18ff4ef6e292f293d70a",
+      "size": 1586
+    },
+    {
       "path": "corpus/2027/auto/candidates/marine-tondelier/2026-09-01-8cf319be7749.md",
       "sha256": "b730d6d37ff8c1cb2b1c83003a18b43d9f556a9540b876609811d6b1fd410179",
       "size": 1926
@@ -879,6 +889,11 @@
       "size": 2432
     },
     {
+      "path": "corpus/2027/auto/partys/rassemblement-national/2026-09-20-0ae88fbce69c.md",
+      "sha256": "952c6bcd36e15c07698c9d90ddd1de18776073162a6c85640fa40f2ba900d87c",
+      "size": 1523
+    },
+    {
       "path": "corpus/2027/auto/partys/rassemblement-national/2026-09-20-51c1546392cf.md",
       "sha256": "c675b0921c099d16ebb2cd928b1def78ce71d5fefed672e75ef248025c5d9155",
       "size": 1733
@@ -1022,6 +1037,11 @@
       "path": "proposals/auto/ecologie-energie/auto-les-ecologistes-ecologie-energie-29d14540a588.md",
       "sha256": "6d5efdd4d7921338c1d9fcbee0aeac058dd9b52a7d28531b6651271905fc59aa",
       "size": 1453
+    },
+    {
+      "path": "proposals/auto/ecologie-energie/auto-les-ecologistes-ecologie-energie-2efb471d8441.md",
+      "sha256": "6b683da6c7bea4147b2e05c3fc971b1ae9d0bacd81f7e648191e98df62656381",
+      "size": 1360
     },
     {
       "path": "proposals/auto/ecologie-energie/auto-les-ecologistes-ecologie-energie-39cf0924a36d.md",
@@ -1350,8 +1370,8 @@
     },
     {
       "path": "proposals/auto/immigration-integration/auto-anasse-kazib-immigration-integration-f008b1970a86.md",
-      "sha256": "5dadbd3cdfb1a76314f9a82246aad1445d0e5b420951b5e333a7722a065ab105",
-      "size": 1747
+      "sha256": "d6cb98b38b481e84f04e8030b32cc00bc6914581707bdf067db75ff3a609f5de",
+      "size": 1790
     },
     {
       "path": "proposals/auto/immigration-integration/auto-bruno-retailleau-immigration-integration-080032bab3da.md",
@@ -1545,8 +1565,8 @@
     },
     {
       "path": "proposals/auto/pouvoir-achat-travail/auto-anasse-kazib-pouvoir-achat-travail-81103508afc3.md",
-      "sha256": "1b99b5b88f6b6b6c8c266746bd52491d570d5b720090a27e9ddd67e82c2cd2dc",
-      "size": 1757
+      "sha256": "877e8c49d0f3d0458656dcf824de7db4783a5b4962e2defa7c84b43e7ba497f7",
+      "size": 1802
     },
     {
       "path": "proposals/auto/pouvoir-achat-travail/auto-anasse-kazib-pouvoir-achat-travail-9dd581e1c937.md",
@@ -1632,6 +1652,11 @@
       "path": "proposals/auto/pouvoir-achat-travail/auto-rassemblement-national-pouvoir-achat-travail-462170ab9083.md",
       "sha256": "c023d017f4b0cd1b008ac6bb150efb8443a84fa4f9bcbaa9e079a216fabf2ab7",
       "size": 1765
+    },
+    {
+      "path": "proposals/auto/pouvoir-achat-travail/auto-rassemblement-national-pouvoir-achat-travail-74f11aa76707.md",
+      "sha256": "02f0b26130c2a245d4cb0cd79e960da00127f2bc2c97bd4557a0b33c1cbe6e5b",
+      "size": 1259
     },
     {
       "path": "proposals/auto/pouvoir-achat-travail/auto-revolution-permanente-pouvoir-achat-travail-028f0b96e1e4.md",
@@ -2040,8 +2065,8 @@
     },
     {
       "path": "proposals/retraites/anasse-kazib-60-55.md",
-      "sha256": "f07fc9b770bc6e20548adc15b2b089c2f3d6d25814040e046b30d2c156f91e80",
-      "size": 1611
+      "sha256": "26088b48a09a783b51e67b409e0a9561cdaaa1c12e61c62350fab8b5aa77cec5",
+      "size": 1656
     },
     {
       "path": "proposals/retraites/david-lisnard-capitalisation.md",
