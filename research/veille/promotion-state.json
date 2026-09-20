@@ -780,6 +780,11 @@
       "source_url": "https://melenchon2027.fr/programme2025/livre/chapitre8/",
       "verified_at": "2026-08-13T08:51:10+00:00"
     },
+    "6eacad1037373de6a8720f45dcbcbe7430d229b0b0b335b39f1f2cff07605c8c": {
+      "proposal_id": "auto-la-france-insoumise-securite-justice-6eacad103737",
+      "source_url": "https://www.youtube.com/watch?v=1AlcbLvqoZ0",
+      "verified_at": "2026-09-20T16:58:10+00:00"
+    },
     "703dc438f470887f6e8b5470fb7e5ab16c319d78084c8c08d3e5b782df15affb": {
       "proposal_id": "auto-bruno-retailleau-securite-justice-703dc438f470",
       "source_url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/",
@@ -1751,9 +1756,9 @@
       "verified_at": "2026-08-13T08:51:16+00:00"
     }
   },
-  "last_error_count": 0,
-  "last_processed_count": 3,
-  "last_run_at": "2026-09-20T12:34:28+00:00",
+  "last_error_count": 2,
+  "last_processed_count": 1,
+  "last_run_at": "2026-09-20T16:58:04+00:00",
   "source_chunks": {
     "007774a3a0a3267f16b687a1": {
       "canonical_confirmations": [
@@ -7682,7 +7687,7 @@
           }
         }
       ],
-      "completed_at": "2026-09-20T12:34:20+00:00",
+      "completed_at": "2026-09-20T16:57:56+00:00",
       "created_at": "2026-09-11T21:51:33+00:00",
       "document_types": [
         "official_interview"
@@ -7699,7 +7704,7 @@
       "statuses": [],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-09-20T12:34:20+00:00",
+      "updated_at": "2026-09-20T16:57:56+00:00",
       "url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne"
     },
     "3671cfb92c0144e2481ae990": {
@@ -10986,6 +10991,67 @@
       "total": 1,
       "updated_at": "2026-08-15T19:47:55+00:00",
       "url": "https://solutiondemocratique.fr/jean-luc-melenchon-programme-presidentielle2027/"
+    },
+    "4c4b7f46bf8192dc70abef1e": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Non à la loi « Permis de tuer XXL » !",
+            "relevance": "direct",
+            "statement": "La France insoumise s'oppose à la proposition de loi visant à reconnaître une présomption de légitime défense pour les forces de l'ordre.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La source soutient explicitement l'opposition de La France insoumise (via Mathilde Panot et la conférence de presse unitaire) à la proposition de loi visant à reconnaître une présomption de légitime défense pour les forces de l'ordre, formulée sous le terme « Permis de tuer XXL ». Aucun élément similaire n'est présent dans le canonique.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Non à la loi « Permis de tuer XXL » !",
+            "relevance": "direct",
+            "statement": "La France insoumise s'oppose à la proposition de loi visant à reconnaître une présomption de légitime défense pour les forces de l'ordre.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La source soutient explicitement l'opposition de La France insoumise (via Mathilde Panot et la conférence de presse unitaire) à la proposition de loi visant à reconnaître une présomption de légitime défense pour les forces de l'ordre, formulée sous le terme « Permis de tuer XXL ». Aucun élément similaire n'est présent dans le canonique.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "completed_at": "2026-09-20T16:58:10+00:00",
+      "created_at": "2026-09-20T16:58:06+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-09-20"
+      ],
+      "sha256": "da0af2dd47771c6bc52d170f6432c086a7bd63ffce38105db3b27cad79a6596c",
+      "source_title": "Conférence de presse | Non à la loi « Permis de tuer XXL » !",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-20T16:58:10+00:00",
+      "url": "https://www.youtube.com/watch?v=1AlcbLvqoZ0"
     },
     "4f98878606ec4cbd0e16da97": {
       "canonical_confirmations": [
@@ -16632,6 +16698,26 @@
       "total": 1,
       "updated_at": "2026-09-10T12:23:02+00:00",
       "url": "https://www.youtube.com/watch?v=eXFpfLrJN6w"
+    },
+    "83491f6ae962b62204ba9891": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-09-20T16:58:04+00:00",
+      "document_types": [
+        "other"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "a4bd37c28812b8507a0f4d78d02eb94f9d86bdf33be9086c633be0edc37e25c7",
+      "source_title": "« Je ne lâcherai rien pour mon fils. Tous les jours, je pense à la balle qui a traversé son cœur. Ju",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-20T16:58:05+00:00",
+      "url": "https://www.youtube.com/shorts/UWvr83QWUa8"
     },
     "83d5eda15af3555f983a572b": {
       "canonical_confirmations": [
@@ -31470,6 +31556,26 @@
       "updated_at": "2026-09-16T17:46:09+00:00",
       "url": "https://bsky.app/profile/lesecologistes.fr/post/3mvnmiyuxns2k"
     },
+    "f64ceb050fd88a9925036397": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-09-20T16:58:13+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "720567269c4f047b2da8b4085558b71d329b58c8ba4fcf5bbf442a52ceba112d",
+      "source_title": "🔴 PARIS, TOULOUSE, MARSEILLE | Manifestations contre la loi permis de tuer",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-20T16:58:14+00:00",
+      "url": "https://www.youtube.com/shorts/GRNYZKhkh5A"
+    },
     "f7e06807a93360efa8c6f859": {
       "canonical_confirmations": [],
       "claims": [],
@@ -32865,10 +32971,10 @@
       "url": "https://www.revolutionpermanente.fr/Anasse-Kazib-2027"
     },
     "0de45182a5ce": {
-      "attempts": 3,
+      "attempts": 4,
       "error": "ValueError: HTTP 403",
-      "next_retry_at": "2026-09-19T06:13:25+00:00",
-      "processed_at": "2026-09-16T06:13:25+00:00",
+      "next_retry_at": "2026-09-27T16:58:02+00:00",
+      "processed_at": "2026-09-20T16:58:02+00:00",
       "status": "technical_error",
       "url": "https://www.pcf.fr/une_candidature_de_gauche_au_service_de_l_aube_et_de_ses_communes"
     },
@@ -33869,10 +33975,10 @@
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
     "472924b7a00c": {
-      "attempts": 3,
+      "attempts": 4,
       "error": "ValueError: HTTP 404",
-      "next_retry_at": "2026-09-20T06:18:45+00:00",
-      "processed_at": "2026-09-17T06:18:45+00:00",
+      "next_retry_at": "2026-09-27T16:58:03+00:00",
+      "processed_at": "2026-09-20T16:58:03+00:00",
       "status": "technical_error",
       "url": "https://www.revolutionpermanente.fr/Neoliberalisme-social-et-militarisme-de-gauche-Glucksmann-lance-sa-candidature"
     },
@@ -35591,6 +35697,15 @@
       "source_sha256": "6cfc68242b12568c508b460060460a472a4c661fd9e2f30eae0909a770249078",
       "status": "not_confirmed",
       "url": "https://lafranceinsoumise.fr/2026/08/10/amfis-2026-le-programme-est-en-ligne/"
+    },
+    "c668f945cb00": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-09-20T16:58:01+00:00",
+      "reason": null,
+      "source_sha256": "89240073cf8b5ad476043aa3c1a429c5833d6ad111411795e3d30ab8468ad280",
+      "status": "promoted",
+      "url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne"
     },
     "c67f19288486": {
       "chunks_done": null,

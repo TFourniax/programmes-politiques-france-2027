@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created_at": "2026-08-17T19:57:19.441897+00:00",
-  "updated_at": "2026-09-20T12:34:31.358537+00:00",
+  "updated_at": "2026-09-20T16:58:17.604746+00:00",
   "files": [
     {
       "path": "corpus/2027/auto/candidates/anasse-kazib/2026-08-28-38891602d9d9.md",
@@ -612,6 +612,11 @@
       "path": "corpus/2027/auto/partys/generation-ecologie/2026-06-07-8b101fa96a72.md",
       "sha256": "5fc30acb50d945afb015a60cdf0ded8e70bc65a41a90e743b263bb2bf12aa301",
       "size": 1608
+    },
+    {
+      "path": "corpus/2027/auto/partys/la-france-insoumise/2026-09-20-4c4b7f46bf81.md",
+      "sha256": "770540010bc82e466361ee5004eeef803793e727426f80d1c0530fa57e905671",
+      "size": 1562
     },
     {
       "path": "corpus/2027/auto/partys/les-ecologistes/2026-08-17-9c2f01b4f3fc.md",
@@ -1742,6 +1747,11 @@
       "path": "proposals/auto/securite-justice/auto-gabriel-attal-securite-justice-4591f47237a6.md",
       "sha256": "2d817855d177168f7847fd8184c5e8b26856111f7a8caac8f8a95da685060fdf",
       "size": 1448
+    },
+    {
+      "path": "proposals/auto/securite-justice/auto-la-france-insoumise-securite-justice-6eacad103737.md",
+      "sha256": "a99d3e900c2efe4f4a57eda261d478c0eaf8066f73cee68e74c17f1e6eca6833",
+      "size": 1452
     },
     {
       "path": "proposals/auto/securite-justice/auto-les-ecologistes-securite-justice-0d29bfb3d832.md",

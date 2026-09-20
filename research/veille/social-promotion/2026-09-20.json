@@ -1,11 +1,34 @@
 {
   "errors": [],
-  "generated_at": "2026-09-20T12:34:28+00:00",
+  "generated_at": "2026-09-20T16:58:15+00:00",
   "partial": 0,
-  "processed": 0,
-  "promoted": 0,
-  "proposals_created": 0,
+  "processed": 3,
+  "promoted": 1,
+  "proposals_created": 1,
   "provenance_updates": 0,
-  "results": [],
+  "results": [
+    {
+      "sha256": "a4bd37c28812b8507a0f4d78d02eb94f9d86bdf33be9086c633be0edc37e25c7",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/shorts/UWvr83QWUa8"
+    },
+    {
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/partys/la-france-insoumise/2026-09-20-4c4b7f46bf81.md",
+      "proposals": [
+        "proposals/auto/securite-justice/auto-la-france-insoumise-securite-justice-6eacad103737.md"
+      ],
+      "sha256": "da0af2dd47771c6bc52d170f6432c086a7bd63ffce38105db3b27cad79a6596c",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://www.youtube.com/watch?v=1AlcbLvqoZ0",
+      "verified_at": "2026-09-20T16:58:10+00:00"
+    },
+    {
+      "sha256": "720567269c4f047b2da8b4085558b71d329b58c8ba4fcf5bbf442a52ceba112d",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/shorts/GRNYZKhkh5A"
+    }
+  ],
   "status_updates": 0
 }

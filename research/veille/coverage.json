@@ -6,18 +6,18 @@
     "actors": 68,
     "declared_or_active_candidates": 27,
     "topics": 12,
-    "current_proposals": 1311,
+    "current_proposals": 1312,
     "covered_actor_topic_cells": 144,
     "total_actor_topic_cells": 816,
     "actor_topic_coverage_ratio": 0.1765,
     "active_candidate_covered_cells": 64,
     "active_candidate_total_cells": 324,
     "active_candidate_topic_coverage_ratio": 0.1975,
-    "verified_proposals": 1276,
+    "verified_proposals": 1277,
     "multi_source_proposals": 61,
     "latest_evidence_at": "2026-09-20",
     "certainty_counts": {
-      "explicit": 1287,
+      "explicit": 1288,
       "explicit_but_conditional": 3,
       "explicit_but_underspecified": 21
     }
@@ -991,7 +991,7 @@
       "type": "party",
       "status": null,
       "confidence": null,
-      "current_proposals": 123,
+      "current_proposals": 124,
       "covered_topics": [
         "ecologie-energie",
         "economie-finances",
@@ -1009,8 +1009,8 @@
         "defense-international",
         "numerique-ia"
       ],
-      "latest_evidence_at": "2026-08-13",
-      "verified_proposals": 120,
+      "latest_evidence_at": "2026-09-20",
+      "verified_proposals": 121,
       "multi_source_proposals": 2
     },
     {
@@ -2044,11 +2044,11 @@
     {
       "id": "securite-justice",
       "label": "Sécurité & justice",
-      "current_proposals": 146,
+      "current_proposals": 147,
       "actors_covered": 14,
       "actor_coverage_ratio": 0.2059,
-      "latest_evidence_at": "2026-09-19",
-      "verified_proposals": 143,
+      "latest_evidence_at": "2026-09-20",
+      "verified_proposals": 144,
       "multi_source_proposals": 7
     },
     {
