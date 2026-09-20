@@ -1751,9 +1751,9 @@
       "verified_at": "2026-08-13T08:51:16+00:00"
     }
   },
-  "last_error_count": 0,
-  "last_processed_count": 3,
-  "last_run_at": "2026-09-19T21:35:03+00:00",
+  "last_error_count": 1,
+  "last_processed_count": 2,
+  "last_run_at": "2026-09-20T06:29:12+00:00",
   "source_chunks": {
     "007774a3a0a3267f16b687a1": {
       "canonical_confirmations": [
@@ -7662,7 +7662,7 @@
           }
         }
       ],
-      "completed_at": "2026-09-19T21:34:57+00:00",
+      "completed_at": "2026-09-20T06:29:02+00:00",
       "created_at": "2026-09-11T21:51:33+00:00",
       "document_types": [
         "official_interview"
@@ -7679,7 +7679,7 @@
       "statuses": [],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-09-19T21:34:57+00:00",
+      "updated_at": "2026-09-20T06:29:02+00:00",
       "url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne"
     },
     "3671cfb92c0144e2481ae990": {
@@ -28250,6 +28250,28 @@
       "updated_at": "2026-09-10T21:46:59+00:00",
       "url": "https://www.debout-la-france.fr/actualite/je-suis-en-candidat-en-2027-pour-defendre-la-sortie-de-lunion-europeenne-france-info-tv-23-01-26/"
     },
+    "da8e8eb22aa0bf5b8fb86f8b": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-09-20T06:28:57+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [
+        "2026-09-18"
+      ],
+      "sha256": "f1c7a23e16396b34b132bd909b226f53f4e5f32e1d663997f1d7f0c77bf73b47",
+      "source_title": "UPR - La sÃ©lection de Macron parmi les candidats Ã la prÃ©sidentielle 2027",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-20T06:28:58+00:00",
+      "url": "https://upr.fr/analyses/la-selection-de-macron-parmi-les-candidats-a-la-presidentielle-2027"
+    },
     "daf38b4b7d9859ed7f72340d": {
       "claims": [],
       "created_at": "2026-08-11T12:15:03+00:00",
@@ -33147,6 +33169,15 @@
       "status": "promoted",
       "url": "https://solutiondemocratique.fr/bernard-cazeneuve-programme-presidentielle2027/"
     },
+    "283cc65d7f6b": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-09-20T06:29:12+00:00",
+      "reason": null,
+      "source_sha256": "89240073cf8b5ad476043aa3c1a429c5833d6ad111411795e3d30ab8468ad280",
+      "status": "promoted",
+      "url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne"
+    },
     "28888366e39d": {
       "chunks_done": null,
       "chunks_total": null,
@@ -34886,6 +34917,15 @@
       "status": "not_confirmed",
       "url": "https://npa-revolutionnaires.org/dans-bfm-presidentielle-2027-le-npa-revolutionnaires-annonce-presenter-la-candidature-de-sa-porte-parole-selma-labib/"
     },
+    "a468a78fab8b": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-20T06:28:58+00:00",
+      "reason": null,
+      "source_sha256": "f1c7a23e16396b34b132bd909b226f53f4e5f32e1d663997f1d7f0c77bf73b47",
+      "status": "not_confirmed",
+      "url": "https://upr.fr/analyses/la-selection-de-macron-parmi-les-candidats-a-la-presidentielle-2027"
+    },
     "a59ba774e3a8": {
       "chunks_done": null,
       "chunks_total": 1,
@@ -35536,10 +35576,10 @@
       "url": "https://attalpresident.fr/programme/dette-de-letat"
     },
     "cb0c4447dcfa": {
-      "attempts": 4,
+      "attempts": 5,
       "error": "ValueError: HTTP 404",
-      "next_retry_at": "2026-09-20T06:23:26+00:00",
-      "processed_at": "2026-09-13T06:23:26+00:00",
+      "next_retry_at": "2026-10-04T06:28:59+00:00",
+      "processed_at": "2026-09-20T06:28:59+00:00",
       "status": "technical_error",
       "url": "https://parti-equinoxe.fr/articles/2022/05/la-transition-energetique-selon-les-ex-candidats-a-la-presidentielle-2/"
     },

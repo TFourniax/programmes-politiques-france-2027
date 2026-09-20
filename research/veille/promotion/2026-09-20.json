@@ -1,0 +1,33 @@
+{
+  "errors": [
+    {
+      "at": "2026-09-20T06:28:59+00:00",
+      "error": "ValueError: HTTP 404",
+      "url": "https://parti-equinoxe.fr/articles/2022/05/la-transition-energetique-selon-les-ex-candidats-a-la-presidentielle-2/"
+    }
+  ],
+  "generated_at": "2026-09-20T06:29:13+00:00",
+  "historical_skipped": 0,
+  "partial": 0,
+  "processed": 2,
+  "promoted": 1,
+  "proposals_created": 0,
+  "results": [
+    {
+      "sha256": "f1c7a23e16396b34b132bd909b226f53f4e5f32e1d663997f1d7f0c77bf73b47",
+      "status": "not_confirmed",
+      "url": "https://upr.fr/analyses/la-selection-de-macron-parmi-les-candidats-a-la-presidentielle-2027"
+    },
+    {
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/candidates/gabriel-attal/2026-06-01-36681da9ebbd.md",
+      "proposals": [],
+      "sha256": "89240073cf8b5ad476043aa3c1a429c5833d6ad111411795e3d30ab8468ad280",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne",
+      "verified_at": "2026-09-20T06:29:02+00:00"
+    }
+  ],
+  "status_updates": 0
+}
