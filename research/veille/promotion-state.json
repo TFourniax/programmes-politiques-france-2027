@@ -1751,9 +1751,9 @@
       "verified_at": "2026-08-13T08:51:16+00:00"
     }
   },
-  "last_error_count": 1,
-  "last_processed_count": 2,
-  "last_run_at": "2026-09-20T06:29:12+00:00",
+  "last_error_count": 0,
+  "last_processed_count": 3,
+  "last_run_at": "2026-09-20T12:34:28+00:00",
   "source_chunks": {
     "007774a3a0a3267f16b687a1": {
       "canonical_confirmations": [
@@ -2774,6 +2774,26 @@
       "total": 1,
       "updated_at": "2026-08-30T22:02:59+00:00",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
+    "0bee298db235c0aeca75ea90": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-09-20T12:34:07+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "0aeb347b89a0fbccd33c82bf3d870eed30cbe1c526f6de4ea190b2312cf2e16e",
+      "source_title": "Revalorisation des retraites en 2027 : Lecornu veut attaquer les pensions dès 1260€",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-20T12:34:08+00:00",
+      "url": "https://www.revolutionpermanente.fr/Revalorisation-des-retraites-en-2027-Lecornu-veut-attaquer-les-pensions-des-1260EUR"
     },
     "0c15f908f46bf6bdf9404b5e": {
       "canonical_confirmations": [],
@@ -7662,7 +7682,7 @@
           }
         }
       ],
-      "completed_at": "2026-09-20T06:29:02+00:00",
+      "completed_at": "2026-09-20T12:34:20+00:00",
       "created_at": "2026-09-11T21:51:33+00:00",
       "document_types": [
         "official_interview"
@@ -7679,7 +7699,7 @@
       "statuses": [],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-09-20T06:29:02+00:00",
+      "updated_at": "2026-09-20T12:34:20+00:00",
       "url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne"
     },
     "3671cfb92c0144e2481ae990": {
@@ -11277,6 +11297,82 @@
       "total": 1,
       "updated_at": "2026-08-22T19:48:45+00:00",
       "url": "https://bsky.app/profile/lesecologistes.fr/post/3mtolvim24k2j"
+    },
+    "51c1546392cf79a438f625b2": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "rassemblement-national",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "la baisse des taxes sur l’énergie et les carburants",
+            "relevance": "party_platform",
+            "statement": "Le Rassemblement National propose la baisse de la TVA sur l'énergie et les carburants.",
+            "topic": "pouvoir-achat-travail"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La baisse des taxes sur l'énergie et les carburants est explicitement présente dans la source et déjà enregistrée dans le canon.",
+            "related_proposal_id": "auto-rassemblement-national-pouvoir-achat-travail-462170ab9083",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "rassemblement-national",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "le rétablissement de la sécurité et la fin de l’impunité judiciaire",
+            "relevance": "party_platform",
+            "statement": "Le Rassemblement National propose le rétablissement de la sécurité et la fin de l'impunité judiciaire.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "Le rétablissement de la sécurité et la fin de l'impunité judiciaire sont explicitement soutenus par la source et présents dans le canon.",
+            "related_proposal_id": "auto-rassemblement-national-securite-justice-17a1d014b3c7",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "rassemblement-national",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "la maîtrise de l’immigration",
+            "relevance": "party_platform",
+            "statement": "Le Rassemblement National propose la maîtrise de l'immigration.",
+            "topic": "immigration-integration"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "La maîtrise de l'immigration est explicitement présente dans la source et correspond aux positions canoniques du parti.",
+            "related_proposal_id": "auto-rassemblement-national-immigration-integration-65a64162aec9",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-09-20T12:34:18+00:00",
+      "created_at": "2026-09-20T12:34:09+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "41d96becc5d8cdefadd39959b658a5eb3060772b8fbf9786e634a72cb691df6c",
+      "source_title": "Rassemblement National - Accueil",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-20T12:34:14+00:00",
+      "url": "https://rassemblementnational.fr/"
     },
     "522dd63a67298aa6acafdc43": {
       "canonical_confirmations": [
@@ -32678,6 +32774,15 @@
       "status": "promoted",
       "url": "https://solutiondemocratique.fr/clementine-autain-programme-presidentielle2027/"
     },
+    "05e87b129a87": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-09-20T12:34:27+00:00",
+      "reason": null,
+      "source_sha256": "89240073cf8b5ad476043aa3c1a429c5833d6ad111411795e3d30ab8468ad280",
+      "status": "promoted",
+      "url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne"
+    },
     "05ee66cd2193": {
       "chunks_done": null,
       "chunks_total": null,
@@ -34820,6 +34925,15 @@
       "status": "promoted",
       "url": "https://rassemblementnational.fr/"
     },
+    "9bbcaaca6440": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-20T12:34:18+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "41d96becc5d8cdefadd39959b658a5eb3060772b8fbf9786e634a72cb691df6c",
+      "status": "promoted",
+      "url": "https://rassemblementnational.fr/"
+    },
     "9bee1f791096": {
       "chunks_done": null,
       "chunks_total": 1,
@@ -35342,6 +35456,15 @@
       "source_sha256": "c9c2e5a23bd2b9e70a20ded250fdb4cce89b4024bddaa8a1bf479f1c2fc6e2aa",
       "status": "not_confirmed",
       "url": "https://attalpresident.fr/actualites/annonce-de-candidature"
+    },
+    "bccf08cb1bc4": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-20T12:34:08+00:00",
+      "reason": null,
+      "source_sha256": "0aeb347b89a0fbccd33c82bf3d870eed30cbe1c526f6de4ea190b2312cf2e16e",
+      "status": "not_confirmed",
+      "url": "https://www.revolutionpermanente.fr/Revalorisation-des-retraites-en-2027-Lecornu-veut-attaquer-les-pensions-des-1260EUR"
     },
     "bcf4beaca465": {
       "chunks_done": null,

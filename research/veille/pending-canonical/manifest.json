@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created_at": "2026-08-17T19:57:19.441897+00:00",
-  "updated_at": "2026-09-20T06:29:17.135348+00:00",
+  "updated_at": "2026-09-20T12:34:31.358537+00:00",
   "files": [
     {
       "path": "corpus/2027/auto/candidates/anasse-kazib/2026-08-28-38891602d9d9.md",
@@ -874,6 +874,11 @@
       "size": 2432
     },
     {
+      "path": "corpus/2027/auto/partys/rassemblement-national/2026-09-20-51c1546392cf.md",
+      "sha256": "c675b0921c099d16ebb2cd928b1def78ce71d5fefed672e75ef248025c5d9155",
+      "size": 1733
+    },
+    {
       "path": "corpus/2027/auto/partys/revolution-permanente/2026-08-27-f9d94839bc75.md",
       "sha256": "58df822340ff178f177274b7acf415128e8b810d9f83da4950b0239e782812f6",
       "size": 1549
@@ -1390,8 +1395,8 @@
     },
     {
       "path": "proposals/auto/immigration-integration/auto-rassemblement-national-immigration-integration-65a64162aec9.md",
-      "sha256": "8d1728c8f2e379a8f5adc2e21b8b684283adcf856684712c5b2e4db3f4846176",
-      "size": 3664
+      "sha256": "3d86a21d312fd5d2fde1f2f3d2ae031cb647b1c0143c736f11ff7bf7fc46c15f",
+      "size": 3787
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-anasse-kazib-institutions-democratie-1a9f657935f4.md",
@@ -1620,8 +1625,8 @@
     },
     {
       "path": "proposals/auto/pouvoir-achat-travail/auto-rassemblement-national-pouvoir-achat-travail-462170ab9083.md",
-      "sha256": "bb10ad0a0b6ae01168273edb6905b4434460dfe69edbb15fd9207944be6a56d8",
-      "size": 1642
+      "sha256": "c023d017f4b0cd1b008ac6bb150efb8443a84fa4f9bcbaa9e079a216fabf2ab7",
+      "size": 1765
     },
     {
       "path": "proposals/auto/pouvoir-achat-travail/auto-revolution-permanente-pouvoir-achat-travail-028f0b96e1e4.md",
