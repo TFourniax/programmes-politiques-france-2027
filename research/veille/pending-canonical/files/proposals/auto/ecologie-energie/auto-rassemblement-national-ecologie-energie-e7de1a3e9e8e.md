@@ -11,7 +11,8 @@ source_document_ids: [auto-rassemblement-national-2026-08-11-b4e6fdd3c6e7, auto-
   auto-rassemblement-national-2026-09-15-f9ac60c3599a, auto-rassemblement-national-2026-09-15-945a9073689a, auto-rassemblement-national-2026-09-15-dbe6c460a4b3,
   auto-rassemblement-national-2026-09-16-5402ae42cf5e, auto-rassemblement-national-2026-09-16-b24a17290d0e, auto-rassemblement-national-2026-09-17-ebe0c3ba6d21,
   auto-rassemblement-national-2026-09-17-3fb1a4e268d6, auto-rassemblement-national-2026-09-17-ccc718aea647, auto-rassemblement-national-2026-09-17-6c92a262a6f7,
-  auto-rassemblement-national-2026-09-18-b690d3045225, auto-rassemblement-national-2026-09-18-7b37c7a97b58, auto-rassemblement-national-2026-09-19-713c6b5b8cce]
+  auto-rassemblement-national-2026-09-18-b690d3045225, auto-rassemblement-national-2026-09-18-7b37c7a97b58, auto-rassemblement-national-2026-09-19-713c6b5b8cce,
+  auto-rassemblement-national-2026-09-21-06e9d30a51fb]
 source_url: https://rassemblementnational.fr/
 source_tier: tier_1_primary_official
 first_documented_at: '2026-08-11'
@@ -29,9 +30,10 @@ evidence_sha256s: [e9d2ee7a0fba8b07f65a57d2e71d6dd2dda1128fec6a240299a2bf5e3241d
   5358062f136007393f632f7cd258593b58d5dbd4b0ddf29b075161e206414187, b9b09ec9aa288574aca51af50793bcdc9ad8776af995d02b37d1200658ee232d,
   86dd28e3d04e6862343da2c400a56a1ecdc1c25d1a5561ea1db8eba6a253bad9, dda0abbd3bfd4fda329f4586754e1731223a012fc7879e8fbd9aaa59ef62d2b7,
   8e9844ebff76145e1ddca0cd9cfbc9631757e7ea8f012f22e8244666c350ece1, 1ffb9822e9c57ccf1dbabbdcbbaf26486d319ee23883b009edd424657867f4be,
-  cf4a01593e807e13977e92939f19c98201e6106fe6bfb45ce0d47ac09894d0cc, 25bb0cdc246b85c8470317a5fc06e4ca628829c354466bfd2aa9c98b44696cd3]
-confirmation_count: 20
-last_confirmed_at: '2026-09-19'
+  cf4a01593e807e13977e92939f19c98201e6106fe6bfb45ce0d47ac09894d0cc, 25bb0cdc246b85c8470317a5fc06e4ca628829c354466bfd2aa9c98b44696cd3,
+  380e480eabb87de8a05fe7cd7c0ac056ce38fd6f59bfb49da1d06ddbcf53bb59]
+confirmation_count: 21
+last_confirmed_at: '2026-09-21'
 ---
 
 # Le Rassemblement National soutient l'investissement dans le nucléaire
