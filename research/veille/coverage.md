@@ -8,14 +8,13 @@ Ce rapport est dérivé automatiquement du corpus courant. Il sert à piloter la
 
 - 68 acteurs référencés ;
 - 27 candidatures actives ou déclarées suivies ;
-- 1314 propositions atomiques courantes ;
-- 144 / 816 cases acteur × thème couvertes (17.6 %) ;
-- 64 / 324 cases candidat actif × thème couvertes (19.8 %) ;
-- 1279 propositions marquées vérifiées ; 61 appuyées par au moins deux documents de preuve.
+- 1316 propositions atomiques courantes ;
+- 146 / 816 cases acteur × thème couvertes (17.9 %) ;
+- 66 / 324 cases candidat actif × thème couvertes (20.4 %) ;
+- 1281 propositions marquées vérifiées ; 61 appuyées par au moins deux documents de preuve.
 
 ## Priorités documentaires
 
-- **Antoine Mikolajczak** — 0 % des thèmes ; 0 proposition(s) ; lacunes prioritaires : pouvoir-achat-travail, retraites, fiscalite-redistribution, immigration-integration, europe-souverainete, defense-international…
 - **Benoît Mathieu** — 0 % des thèmes ; 0 proposition(s) ; lacunes prioritaires : pouvoir-achat-travail, retraites, fiscalite-redistribution, immigration-integration, europe-souverainete, defense-international…
 - **Bernard Cazeneuve** — 0 % des thèmes ; 0 proposition(s) ; lacunes prioritaires : pouvoir-achat-travail, retraites, fiscalite-redistribution, immigration-integration, europe-souverainete, defense-international…
 - **Florian Philippot** — 0 % des thèmes ; 0 proposition(s) ; lacunes prioritaires : pouvoir-achat-travail, retraites, fiscalite-redistribution, immigration-integration, europe-souverainete, defense-international…
@@ -30,19 +29,20 @@ Ce rapport est dérivé automatiquement du corpus courant. Il sert à piloter la
 - **Édouard Philippe** — 0 % des thèmes ; 0 proposition(s) ; lacunes prioritaires : pouvoir-achat-travail, retraites, fiscalite-redistribution, immigration-integration, europe-souverainete, defense-international…
 - **Delphine Batho** — 8 % des thèmes ; 1 proposition(s) ; dernière preuve 2026-06-07 ; lacunes prioritaires : pouvoir-achat-travail, retraites, fiscalite-redistribution, immigration-integration, europe-souverainete, defense-international…
 - **Clara Egger** — 8 % des thèmes ; 2 proposition(s) ; dernière preuve 2026-06-12 ; lacunes prioritaires : pouvoir-achat-travail, retraites, fiscalite-redistribution, immigration-integration, europe-souverainete, defense-international…
+- **Manolo Mlekuz** — 8 % des thèmes ; 7 proposition(s) ; dernière preuve 2026-08-13 ; lacunes prioritaires : pouvoir-achat-travail, retraites, fiscalite-redistribution, immigration-integration, europe-souverainete, defense-international…
 
 ## Couverture par thème
 
 - **Numérique & IA** (`numerique-ia`) — 5 acteur(s), 6 proposition(s), dernière preuve 2026-08-14.
 - **Défense & international** (`defense-international`) — 6 acteur(s), 7 proposition(s), dernière preuve 2026-08-14.
 - **Europe & souveraineté** (`europe-souverainete`) — 11 acteur(s), 110 proposition(s), dernière preuve 2026-09-11.
-- **Fiscalité & redistribution** (`fiscalite-redistribution`) — 11 acteur(s), 74 proposition(s), dernière preuve 2026-09-19.
+- **Fiscalité & redistribution** (`fiscalite-redistribution`) — 11 acteur(s), 74 proposition(s), dernière preuve 2026-09-21.
 - **Immigration & intégration** (`immigration-integration`) — 12 acteur(s), 67 proposition(s), dernière preuve 2026-09-21.
 - **Retraites** (`retraites`) — 12 acteur(s), 21 proposition(s), dernière preuve 2026-09-21.
-- **Économie & finances publiques** (`economie-finances`) — 13 acteur(s), 121 proposition(s), dernière preuve 2026-09-21.
 - **Institutions & démocratie** (`institutions-democratie`) — 13 acteur(s), 263 proposition(s), dernière preuve 2026-09-21.
-- **Services publics** (`services-publics`) — 13 acteur(s), 231 proposition(s), dernière preuve 2026-09-18.
+- **Économie & finances publiques** (`economie-finances`) — 14 acteur(s), 122 proposition(s), dernière preuve 2026-09-21.
 - **Sécurité & justice** (`securite-justice`) — 14 acteur(s), 147 proposition(s), dernière preuve 2026-09-21.
+- **Services publics** (`services-publics`) — 14 acteur(s), 232 proposition(s), dernière preuve 2026-09-21.
 - **Écologie & énergie** (`ecologie-energie`) — 15 acteur(s), 193 proposition(s), dernière preuve 2026-09-21.
 - **Pouvoir d’achat & travail** (`pouvoir-achat-travail`) — 19 acteur(s), 74 proposition(s), dernière preuve 2026-09-20.
 
