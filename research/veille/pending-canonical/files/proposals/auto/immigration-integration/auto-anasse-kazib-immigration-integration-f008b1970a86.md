@@ -5,7 +5,8 @@ entity_id: anasse-kazib
 topic: immigration-integration
 certainty: explicit
 proposal_status: current
-source_document_ids: [auto-anasse-kazib-2026-09-17-007774a3a0a3, auto-anasse-kazib-2026-09-19-20fd280fc591, auto-anasse-kazib-2026-09-20-007774a3a0a3]
+source_document_ids: [auto-anasse-kazib-2026-09-17-007774a3a0a3, auto-anasse-kazib-2026-09-19-20fd280fc591, auto-anasse-kazib-2026-09-20-007774a3a0a3,
+  auto-anasse-kazib-2026-09-21-299a4c628590]
 source_url: https://anasse2027.fr/programme
 source_tier: tier_1_primary_official
 first_documented_at: '2026-09-17'
@@ -15,9 +16,10 @@ verification_method: primary_source_exact_quote_plus_independent_gemini_verifier
 evidence_sha256: 829902af75ceb79807f462ed617e367bf6b410cec2841045e65d98171c0624f4
 generated_by: scripts/auto_promote.py
 source_urls: ['https://anasse2027.fr/programme', 'https://www.revolutionpermanente.fr/28h-expropriation-des-secteurs-strategiques-RP-presente-les-premieres-mesures-de-sa-candidature']
-evidence_sha256s: [829902af75ceb79807f462ed617e367bf6b410cec2841045e65d98171c0624f4, 21c0cc78548d5a32241ba6722f0bcf7e34b7dcb69bfd242536fea974132375cf]
-confirmation_count: 3
-last_confirmed_at: '2026-09-20'
+evidence_sha256s: [829902af75ceb79807f462ed617e367bf6b410cec2841045e65d98171c0624f4, 21c0cc78548d5a32241ba6722f0bcf7e34b7dcb69bfd242536fea974132375cf,
+  48802746a32d5a5cbca32f5bb66f2ed789b29b10c353f9ec0ac7ee66df916b4b]
+confirmation_count: 4
+last_confirmed_at: '2026-09-21'
 ---
 
 # Régulariser tous les sans-papiers et garantir la liberté de circulation et d'installation

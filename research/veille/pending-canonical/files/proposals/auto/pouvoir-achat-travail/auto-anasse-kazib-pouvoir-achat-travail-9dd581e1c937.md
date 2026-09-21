@@ -5,7 +5,7 @@ entity_id: anasse-kazib
 topic: pouvoir-achat-travail
 certainty: explicit
 proposal_status: current
-source_document_ids: [auto-revolution-permanente-2026-09-19-b3b34e620fc0]
+source_document_ids: [auto-revolution-permanente-2026-09-19-b3b34e620fc0, auto-anasse-kazib-2026-09-21-299a4c628590]
 source_url: https://www.revolutionpermanente.fr/
 source_tier: tier_1_primary_official
 first_documented_at: '2026-09-19'
@@ -14,6 +14,10 @@ verification_state: verified
 verification_method: primary_source_exact_quote_plus_independent_gemini_verifier_plus_chronology_guard
 evidence_sha256: 95186331fcc122ba3a242bc551fcf7a2f4128506a75751fa83a0bc3a74efd8ff
 generated_by: scripts/auto_promote.py
+source_urls: ['https://www.revolutionpermanente.fr/', 'https://www.revolutionpermanente.fr/28h-expropriation-des-secteurs-strategiques-RP-presente-les-premieres-mesures-de-sa-candidature']
+evidence_sha256s: [95186331fcc122ba3a242bc551fcf7a2f4128506a75751fa83a0bc3a74efd8ff, 48802746a32d5a5cbca32f5bb66f2ed789b29b10c353f9ec0ac7ee66df916b4b]
+confirmation_count: 2
+last_confirmed_at: '2026-09-21'
 ---
 
 # Anasse Kazib est candidat à l'élection présidentielle pour porter une candidature ouvrière, communiste et révolutionnaire

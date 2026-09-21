@@ -205,6 +205,11 @@
       "source_url": "https://www.unenouvelleenergie.fr/notre-programme/",
       "verified_at": "2026-08-18T19:52:57+00:00"
     },
+    "1d658d91f4a39e6bf37efaead73590959f8762ecd6b5fe8f58433d9942c7b743": {
+      "proposal_id": "auto-rassemblement-national-pouvoir-achat-travail-1d658d91f4a3",
+      "source_url": "https://rassemblementnational.fr/",
+      "verified_at": "2026-09-21T22:44:26+00:00"
+    },
     "1d98a3b70af1962a49df403962541ec6a1485eef2eb0949d52d01434584269b5": {
       "proposal_id": "auto-nouvelle-energie-institutions-democratie-1d98a3b70af1",
       "source_url": "https://www.unenouvelleenergie.fr/notre-programme/",
@@ -1778,7 +1783,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-09-21T14:26:14+00:00",
+  "last_run_at": "2026-09-21T22:44:47+00:00",
   "source_chunks": {
     "007774a3a0a3267f16b687a1": {
       "canonical_confirmations": [
@@ -6693,6 +6698,156 @@
       "updated_at": "2026-08-12T21:48:14+00:00",
       "url": "https://melenchon2027.fr/programme2025/livre/chapitre2/"
     },
+    "299a4c628590b96aa937b428": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "anasse-kazib",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "la semaine de 28 heures",
+            "relevance": "direct",
+            "statement": "Instaurer la semaine de travail à 28 heures.",
+            "topic": "pouvoir-achat-travail"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La semaine de travail à 28 heures est explicitement soutenue dans la source et déjà présente dans le canon.",
+            "related_proposal_id": "auto-anasse-kazib-pouvoir-achat-travail-81103508afc3",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "anasse-kazib",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "la retraite à 60 ans, 55 ans pour les métiers pénibles, sans condition d’annuités",
+            "relevance": "direct",
+            "statement": "Fixer l'âge de départ à la retraite à 60 ans, et 55 ans pour les métiers pénibles, sans condition d’annuités.",
+            "topic": "retraites"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "L'âge de départ à la retraite à 60 ans et 55 ans pour les métiers pénibles sans condition d'annuités est explicitement présent dans la source et le canon.",
+            "related_proposal_id": "prop-kazib-retraite-60-55",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "anasse-kazib",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "l’augmentation du SMIC à 2000 euros et de l’ensemble des salaires, indexés sur les prix",
+            "relevance": "direct",
+            "statement": "Augmenter le SMIC à 2000 euros et l’ensemble des salaires, indexés sur les prix.",
+            "topic": "pouvoir-achat-travail"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "L'augmentation du SMIC à 2000 euros et des salaires indexés sur les prix est explicitement présente dans la source et le canon.",
+            "related_proposal_id": "prop-kazib-smic-2000",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "anasse-kazib",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "exproprier sans indemnité ni rachat, sous contrôle des travailleurs, les entreprises qui refuseraient ces mesures",
+            "relevance": "direct",
+            "statement": "Exproprier sans indemnité ni rachat, sous contrôle des travailleurs, les entreprises refusant les mesures et les secteurs stratégiques.",
+            "topic": "economie-finances"
+          },
+          "verdict": {
+            "index": 3,
+            "reason": "L'expropriation sans indemnité ni rachat sous contrôle des travailleurs est explicitement soutenue.",
+            "related_proposal_id": "auto-anasse-kazib-economie-finances-98fed100363d",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "anasse-kazib",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "démantèlement, « à commencer par la loi de 2004 et la loi séparatisme »",
+            "relevance": "direct",
+            "statement": "Démanteler l'arsenal législatif islamophobe en abrogeant notamment la loi de 2004 et la loi séparatisme.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 4,
+            "reason": "Le démantèlement de l'arsenal législatif islamophobe (loi de 2004 et loi séparatisme) est explicitement soutenu.",
+            "related_proposal_id": "auto-anasse-kazib-institutions-democratie-c09dd0700402",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "anasse-kazib",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "la régularisation de tous les sans-papiers et la liberté de circulation et d’installation",
+            "relevance": "direct",
+            "statement": "Régulariser tous les sans-papiers et garantir la liberté de circulation et d’installation.",
+            "topic": "immigration-integration"
+          },
+          "verdict": {
+            "index": 5,
+            "reason": "La régularisation de tous les sans-papiers et la liberté de circulation sont explicitement soutenues.",
+            "related_proposal_id": "auto-anasse-kazib-immigration-integration-f008b1970a86",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "anasse-kazib",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "porter une candidature ouvrière et révolutionnaire",
+            "relevance": "direct",
+            "statement": "Anasse Kazib porte une candidature ouvrière et révolutionnaire pour préparer le monde du travail à l'affrontement avec le grand patronat.",
+            "topic": "pouvoir-achat-travail"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La source confirme explicitement qu'Anasse Kazib porte une candidature ouvrière et révolutionnaire pour préparer le monde du travail à l'affrontement avec le grand patronat dans le cadre de l'élection présidentielle 2027, ce qui fait doublon avec l'entrée canonique existante.",
+            "related_proposal_id": "auto-anasse-kazib-pouvoir-achat-travail-9dd581e1c937",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-09-21T22:44:17+00:00",
+      "created_at": "2026-09-21T22:43:57+00:00",
+      "document_types": [
+        "campaign_website_page",
+        "campaign_website_page"
+      ],
+      "done": [
+        0,
+        1
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "48802746a32d5a5cbca32f5bb66f2ed789b29b10c353f9ec0ac7ee66df916b4b",
+      "source_title": "28h, expropriation des secteurs stratégiques... : RP présente les premières mesures de sa candidature",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 2,
+      "updated_at": "2026-09-21T22:44:08+00:00",
+      "url": "https://www.revolutionpermanente.fr/28h-expropriation-des-secteurs-strategiques-RP-presente-les-premieres-mesures-de-sa-candidature"
+    },
     "2a5df851ae6bd6de8a5f446c": {
       "canonical_confirmations": [
         {
@@ -7973,7 +8128,7 @@
           }
         }
       ],
-      "completed_at": "2026-09-21T14:25:29+00:00",
+      "completed_at": "2026-09-21T22:44:38+00:00",
       "created_at": "2026-09-11T21:51:33+00:00",
       "document_types": [
         "official_interview"
@@ -7990,7 +8145,7 @@
       "statuses": [],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-09-21T14:25:29+00:00",
+      "updated_at": "2026-09-21T22:44:38+00:00",
       "url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne"
     },
     "3671cfb92c0144e2481ae990": {
@@ -8499,6 +8654,173 @@
       "total": 1,
       "updated_at": "2026-08-24T19:56:16+00:00",
       "url": "https://solutiondemocratique.fr/comparatif-candidats-programme-elections-presidentielles-france-2027/"
+    },
+    "3bd3d5dbdf483f501e032f41": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "rassemblement-national",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Pour la réduction de la TVA de 20% à 5,5% sur l’énergie",
+            "relevance": "direct",
+            "statement": "Le Rassemblement National propose la réduction de la TVA de 20% à 5,5% sur l'énergie.",
+            "topic": "pouvoir-achat-travail"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Explicitement soutenu par la source pour le Rassemblement National.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "rassemblement-national",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Pour le RIC le référendum initiative citoyenne",
+            "relevance": "direct",
+            "statement": "Le Rassemblement National soutient la mise en place du RIC (référendum d'initiative citoyenne).",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "Présent à l'identique dans le canon actuel.",
+            "related_proposal_id": "auto-rassemblement-national-institutions-democratie-2ec6a69712fb",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "rassemblement-national",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Pour investir dans le nucléaire",
+            "relevance": "direct",
+            "statement": "Le Rassemblement National propose d'investir dans le nucléaire.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "Présent à l'identique dans le canon actuel.",
+            "related_proposal_id": "auto-rassemblement-national-ecologie-energie-e7de1a3e9e8e",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "rassemblement-national",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Pour stopper la submersion migratoire",
+            "relevance": "direct",
+            "statement": "Le Rassemblement National souhaite stopper la submersion migratoire.",
+            "topic": "immigration-integration"
+          },
+          "verdict": {
+            "index": 3,
+            "reason": "Présent à l'identique dans le canon actuel.",
+            "related_proposal_id": "auto-rassemblement-national-immigration-integration-65a64162aec9",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "rassemblement-national",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Pour fermer les mosquées radicales",
+            "relevance": "direct",
+            "statement": "Le Rassemblement National propose de fermer les mosquées radicales.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 4,
+            "reason": "Présent à l'identique dans le canon actuel.",
+            "related_proposal_id": "auto-rassemblement-national-securite-justice-5cb19d0cbcca",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "rassemblement-national",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Pour interdire le port du burkini",
+            "relevance": "direct",
+            "statement": "Le Rassemblement National propose d'interdire le port du burkini.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 5,
+            "reason": "Présent à l'identique dans le canon actuel.",
+            "related_proposal_id": "auto-rassemblement-national-securite-justice-25fe73df9ce3",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "rassemblement-national",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Pour la retraite à 60 ans pour ceux qui commencent à travailler tôt",
+            "relevance": "direct",
+            "statement": "Le Rassemblement National propose la retraite à 60 ans pour ceux qui commencent à travailler tôt.",
+            "topic": "retraites"
+          },
+          "verdict": {
+            "index": 6,
+            "reason": "Présent à l'identique dans le canon actuel.",
+            "related_proposal_id": "auto-rassemblement-national-retraites-fd538617cfee",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [
+        {
+          "claim": {
+            "actor_id": "rassemblement-national",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Pour la réduction de la TVA de 20% à 5,5% sur l’énergie",
+            "relevance": "direct",
+            "statement": "Le Rassemblement National propose la réduction de la TVA de 20% à 5,5% sur l'énergie.",
+            "topic": "pouvoir-achat-travail"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Explicitement soutenu par la source pour le Rassemblement National.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "completed_at": "2026-09-21T22:44:36+00:00",
+      "created_at": "2026-09-21T22:44:18+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "2113a75c6820ffdd535c9be26185ee5a21d9d2cb7ccb3a7a1c842ff161dedb4d",
+      "source_title": "Rassemblement National - Accueil",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-21T22:44:26+00:00",
+      "url": "https://rassemblementnational.fr/"
     },
     "3c1ba39c8e7810522f130b53": {
       "canonical_confirmations": [
@@ -28701,6 +29023,26 @@
       "updated_at": "2026-09-10T21:46:53+00:00",
       "url": "https://anasse2027.fr/"
     },
+    "d60139f1747f64395ac98db4": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-09-21T22:44:47+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "88ef7702c132f6ecaf38f97f2c71edbf55f65d885748be8f49ba773a5a38c0e7",
+      "source_title": "🎥 🔴 L'héritage du travail de Jacques Vergès pour organiser aujourd'hui une défense de rupture.",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-21T22:44:48+00:00",
+      "url": "https://www.youtube.com/shorts/w24wUjy92hs"
+    },
     "d6ae1ed48005448e8d819230": {
       "canonical_confirmations": [],
       "claims": [],
@@ -33796,6 +34138,15 @@
       "status": "promoted",
       "url": "https://marinetondelier.fr/programme-2027"
     },
+    "1682c8867e6b": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-21T22:44:17+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "48802746a32d5a5cbca32f5bb66f2ed789b29b10c353f9ec0ac7ee66df916b4b",
+      "status": "promoted",
+      "url": "https://www.revolutionpermanente.fr/28h-expropriation-des-secteurs-strategiques-RP-presente-les-premieres-mesures-de-sa-candidature"
+    },
     "16e3b7c95459": {
       "chunks_done": null,
       "chunks_total": null,
@@ -35552,6 +35903,15 @@
       "status": "promoted",
       "url": "https://attalpresident.fr/programme/dette-de-letat"
     },
+    "87cf11677df4": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-09-21T22:44:36+00:00",
+      "reason": null,
+      "source_sha256": "2113a75c6820ffdd535c9be26185ee5a21d9d2cb7ccb3a7a1c842ff161dedb4d",
+      "status": "promoted",
+      "url": "https://rassemblementnational.fr/"
+    },
     "88d74021b497": {
       "chunks_done": null,
       "chunks_total": null,
@@ -37086,6 +37446,15 @@
       "source_sha256": "1013df0aa67528326f155b21fcc5c8d369b7c552bdfa0ae1ad65e7f15163139b",
       "status": "not_confirmed",
       "url": "https://parti-equinoxe.fr/legislatives-2022-programme-environnement/"
+    },
+    "e8892115392b": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-09-21T22:44:46+00:00",
+      "reason": null,
+      "source_sha256": "89240073cf8b5ad476043aa3c1a429c5833d6ad111411795e3d30ab8468ad280",
+      "status": "promoted",
+      "url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne"
     },
     "e8f4cbe1f94f": {
       "chunks_done": null,

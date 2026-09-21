@@ -673,6 +673,15 @@
       "status": "not_confirmed",
       "url": "https://bsky.app/profile/lesecologistes.fr/post/3mvzo7n2yr22e"
     },
+    "9b488d301a563061bad8": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-21T22:44:48+00:00",
+      "provenance_updates": [],
+      "source_sha256": "88ef7702c132f6ecaf38f97f2c71edbf55f65d885748be8f49ba773a5a38c0e7",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/shorts/w24wUjy92hs"
+    },
     "9c962dcc1b16d632a606": {
       "chunks_done": null,
       "chunks_total": null,
@@ -1252,6 +1261,6 @@
   },
   "last_error_count": 0,
   "last_processed_count": 1,
-  "last_run_at": "2026-09-21T14:26:18+00:00",
+  "last_run_at": "2026-09-21T22:44:49+00:00",
   "version": 2
 }
