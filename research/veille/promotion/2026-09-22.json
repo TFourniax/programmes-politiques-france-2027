@@ -1,0 +1,45 @@
+{
+  "errors": [],
+  "generated_at": "2026-09-22T06:26:34+00:00",
+  "historical_skipped": 0,
+  "partial": 0,
+  "processed": 3,
+  "promoted": 3,
+  "proposals_created": 0,
+  "results": [
+    {
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/partys/solution-democratique/2026-09-07-287c1d7f2a11.md",
+      "proposals": [],
+      "provenance_updates": [
+        "auto-solution-democratique-institutions-democratie-4ea1c22d52ea"
+      ],
+      "sha256": "4079359144d91e9924de77758611653c0af8b4901188217b1da036b74da2233a",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://solutiondemocratique.fr/dans-la-drome-solution-democratique-organise-neuf-votations-citoyennes-avant-la-venue-de-la-candidate-a-la-presidentielle-clara-egger/",
+      "verified_at": "2026-09-22T06:26:09+00:00"
+    },
+    {
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/partys/solution-democratique/2026-09-22-8990afa6764e.md",
+      "proposals": [],
+      "sha256": "5705c367c34a7c030926f6ae8e8a692f84048010f30037b62930525100beb799",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://solutiondemocratique.fr/henri-rognon-maire-minerve-solution-democratique/",
+      "verified_at": "2026-09-22T06:26:19+00:00"
+    },
+    {
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/candidates/gabriel-attal/2026-06-01-36681da9ebbd.md",
+      "proposals": [],
+      "sha256": "89240073cf8b5ad476043aa3c1a429c5833d6ad111411795e3d30ab8468ad280",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne",
+      "verified_at": "2026-09-22T06:26:23+00:00"
+    }
+  ],
+  "status_updates": 0
+}

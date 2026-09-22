@@ -1783,7 +1783,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-09-21T22:44:47+00:00",
+  "last_run_at": "2026-09-22T06:26:34+00:00",
   "source_chunks": {
     "007774a3a0a3267f16b687a1": {
       "canonical_confirmations": [
@@ -6547,6 +6547,58 @@
       "updated_at": "2026-08-13T03:40:11+00:00",
       "url": "https://melenchon2027.fr/programme2025/livre/chapitre4/"
     },
+    "287c1d7f2a111b3e6c434820": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "solution-democratique",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Solution Démocratique souhaite instaurer en France la démocratie directe et la décentralisation par le bas.",
+            "relevance": "direct",
+            "statement": "Instaurer en France la démocratie directe et la décentralisation par le bas.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La position de Solution Démocratique souhaitant instaurer en France la démocratie directe et la décentralisation par le bas est explicitement soutenue dans la source et correspond à un doublon d'une proposition canonique existante.",
+            "related_proposal_id": "auto-solution-democratique-institutions-democratie-4ea1c22d52ea",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-09-22T06:26:09+00:00",
+      "created_at": "2026-09-22T06:25:57+00:00",
+      "document_types": [
+        "official_press_release"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-09-07"
+      ],
+      "sha256": "4079359144d91e9924de77758611653c0af8b4901188217b1da036b74da2233a",
+      "source_title": "Dans la Drôme, Solution Démocratique organise neuf votations citoyennes avant la venue de la candidate à la présidentielle Clara Egger - Solution Démocratique - Parti politique pour instaurer la démocratie directe",
+      "statuses": [
+        {
+          "status": {
+            "candidate_id": "clara-egger",
+            "effective_date": "2026-09-07",
+            "evidence_quote": "conférence de Clara Egger, candidate à l’élection présidentielle de 2027",
+            "explicit": true,
+            "new_status": "declared_presidential"
+          }
+        }
+      ],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-22T06:26:06+00:00",
+      "url": "https://solutiondemocratique.fr/dans-la-drome-solution-democratique-organise-neuf-votations-citoyennes-avant-la-venue-de-la-candidate-a-la-presidentielle-clara-egger/"
+    },
     "28f9f0b38443a16219c478cb": {
       "canonical_confirmations": [],
       "claims": [],
@@ -8128,7 +8180,7 @@
           }
         }
       ],
-      "completed_at": "2026-09-21T22:44:38+00:00",
+      "completed_at": "2026-09-22T06:26:23+00:00",
       "created_at": "2026-09-11T21:51:33+00:00",
       "document_types": [
         "official_interview"
@@ -8145,7 +8197,7 @@
       "statuses": [],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-09-21T22:44:38+00:00",
+      "updated_at": "2026-09-22T06:26:23+00:00",
       "url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne"
     },
     "3671cfb92c0144e2481ae990": {
@@ -18183,6 +18235,58 @@
       "total": 1,
       "updated_at": "2026-09-09T17:18:26+00:00",
       "url": "https://npa-revolutionnaires.org/articles/dossier-presidentielle-2027-selma-labib-une-candidature-ouvriere-et-revolutionnaire-soutenue-par-gael-quirante-paru-dans-revolutionnaires-n-60"
+    },
+    "8990afa6764ecd1a6fd3d82c": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "solution-democratique",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "développement de mécanismes de démocratie directe et une évolution du fonctionnement institutionnel",
+            "relevance": "direct",
+            "statement": "Solution Démocratique défend le développement de mécanismes de démocratie directe et une évolution du fonctionnement institutionnel.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La position sur le développement de la démocratie directe et l'évolution institutionnelle est déjà présente dans le canonique.",
+            "related_proposal_id": "auto-solution-democratique-institutions-democratie-4ea1c22d52ea",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-09-22T06:26:19+00:00",
+      "created_at": "2026-09-22T06:26:12+00:00",
+      "document_types": [
+        "official_press_release"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-09-22"
+      ],
+      "sha256": "5705c367c34a7c030926f6ae8e8a692f84048010f30037b62930525100beb799",
+      "source_title": "Henri Rognon, maire de Minerve, et Solution Démocratique",
+      "statuses": [
+        {
+          "status": {
+            "candidate_id": "clara-egger",
+            "effective_date": "2026-09-22",
+            "evidence_quote": "Clara Egger, candidate à l’élection présidentielle pour Solution Démocratique",
+            "explicit": true,
+            "new_status": "declared_presidential"
+          }
+        }
+      ],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-22T06:26:19+00:00",
+      "url": "https://solutiondemocratique.fr/henri-rognon-maire-minerve-solution-democratique/"
     },
     "8990fd43063e34fcfbcb39fd": {
       "canonical_confirmations": [
@@ -35471,6 +35575,15 @@
       "status": "promoted",
       "url": "https://melenchon2027.fr/programme2025/livre/chapitre15/"
     },
+    "6c693f48e4e8": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-09-22T06:26:33+00:00",
+      "reason": null,
+      "source_sha256": "89240073cf8b5ad476043aa3c1a429c5833d6ad111411795e3d30ab8468ad280",
+      "status": "promoted",
+      "url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne"
+    },
     "6cbfa6396db3": {
       "chunks_done": null,
       "chunks_total": null,
@@ -36919,6 +37032,15 @@
       "status": "promoted",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
+    "caeda2db56e8": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-09-22T06:26:21+00:00",
+      "reason": null,
+      "source_sha256": "5705c367c34a7c030926f6ae8e8a692f84048010f30037b62930525100beb799",
+      "status": "promoted",
+      "url": "https://solutiondemocratique.fr/henri-rognon-maire-minerve-solution-democratique/"
+    },
     "cb066acae2f0": {
       "chunks_done": null,
       "chunks_total": 1,
@@ -37652,6 +37774,15 @@
       "source_sha256": "21c0cc78548d5a32241ba6722f0bcf7e34b7dcb69bfd242536fea974132375cf",
       "status": "promoted",
       "url": "https://www.revolutionpermanente.fr/28h-expropriation-des-secteurs-strategiques-RP-presente-les-premieres-mesures-de-sa-candidature"
+    },
+    "f5761ed4ff5c": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-09-22T06:26:09+00:00",
+      "reason": null,
+      "source_sha256": "4079359144d91e9924de77758611653c0af8b4901188217b1da036b74da2233a",
+      "status": "promoted",
+      "url": "https://solutiondemocratique.fr/dans-la-drome-solution-democratique-organise-neuf-votations-citoyennes-avant-la-venue-de-la-candidate-a-la-presidentielle-clara-egger/"
     },
     "f7961afe0215": {
       "chunks_done": null,
