@@ -6,18 +6,18 @@
     "actors": 68,
     "declared_or_active_candidates": 27,
     "topics": 12,
-    "current_proposals": 1318,
+    "current_proposals": 1319,
     "covered_actor_topic_cells": 146,
     "total_actor_topic_cells": 816,
     "actor_topic_coverage_ratio": 0.1789,
     "active_candidate_covered_cells": 66,
     "active_candidate_total_cells": 324,
     "active_candidate_topic_coverage_ratio": 0.2037,
-    "verified_proposals": 1283,
-    "multi_source_proposals": 64,
+    "verified_proposals": 1284,
+    "multi_source_proposals": 67,
     "latest_evidence_at": "2026-09-22",
     "certainty_counts": {
-      "explicit": 1294,
+      "explicit": 1295,
       "explicit_but_conditional": 3,
       "explicit_but_underspecified": 21
     }
@@ -1591,7 +1591,7 @@
       ],
       "latest_evidence_at": "2026-09-22",
       "verified_proposals": 21,
-      "multi_source_proposals": 10
+      "multi_source_proposals": 11
     },
     {
       "id": "reconquete",
@@ -1738,7 +1738,7 @@
       "type": "party",
       "status": null,
       "confidence": null,
-      "current_proposals": 8,
+      "current_proposals": 9,
       "covered_topics": [
         "institutions-democratie"
       ],
@@ -1756,9 +1756,9 @@
         "economie-finances",
         "numerique-ia"
       ],
-      "latest_evidence_at": "2026-09-07",
-      "verified_proposals": 8,
-      "multi_source_proposals": 1
+      "latest_evidence_at": "2026-09-22",
+      "verified_proposals": 9,
+      "multi_source_proposals": 3
     },
     {
       "id": "segolene-royal",
@@ -2025,12 +2025,12 @@
     {
       "id": "institutions-democratie",
       "label": "Institutions & démocratie",
-      "current_proposals": 263,
+      "current_proposals": 264,
       "actors_covered": 13,
       "actor_coverage_ratio": 0.1912,
       "latest_evidence_at": "2026-09-22",
-      "verified_proposals": 259,
-      "multi_source_proposals": 14
+      "verified_proposals": 260,
+      "multi_source_proposals": 16
     },
     {
       "id": "services-publics",
@@ -2050,7 +2050,7 @@
       "actor_coverage_ratio": 0.2059,
       "latest_evidence_at": "2026-09-22",
       "verified_proposals": 144,
-      "multi_source_proposals": 7
+      "multi_source_proposals": 8
     },
     {
       "id": "economie-finances",

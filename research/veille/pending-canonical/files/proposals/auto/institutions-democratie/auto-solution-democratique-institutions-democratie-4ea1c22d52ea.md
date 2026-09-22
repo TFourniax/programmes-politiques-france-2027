@@ -18,7 +18,8 @@ source_document_ids: [auto-solution-democratique-2026-04-05-2490d151b5b8, auto-s
   auto-solution-democratique-2026-08-19-64ce907dede0, auto-solution-democratique-2025-04-09-3a8ec20cb386, auto-solution-democratique-2026-02-15-65d32cffad67,
   auto-solution-democratique-2026-08-19-adcc906c08e8, auto-solution-democratique-2026-09-07-7b19fa990a25, auto-solution-democratique-2026-06-22-0a901488d31e,
   auto-solution-democratique-2026-07-17-1a899874ca3f, auto-solution-democratique-2026-04-19-8d31a195667f, auto-solution-democratique-2026-06-19-420a5d767890,
-  auto-solution-democratique-2026-06-12-bb25ba4ecb58, auto-solution-democratique-2025-04-09-b383d487d67a, auto-solution-democratique-2026-09-07-287c1d7f2a11]
+  auto-solution-democratique-2026-06-12-bb25ba4ecb58, auto-solution-democratique-2025-04-09-b383d487d67a, auto-solution-democratique-2026-09-07-287c1d7f2a11,
+  auto-solution-democratique-2026-09-22-19bf77383424]
 source_url: https://solutiondemocratique.fr/segolene-royal-programme-presidentielle2027/
 source_tier: tier_1_primary_official
 first_documented_at: '2026-04-05'
@@ -65,9 +66,9 @@ evidence_sha256s: [0b013c630f2281528d927d3c6ac7bbed832efeb82d7536d7e0ad37cee3b09
   894755da83ca5db442aa73c0b6727b734f575a3b34fc0e6610ae428c91feb8d9, 158e832488c0fe78a65cc43e209f4a56bd3c6c88abf255aa6adee21458cbb82c,
   d6a688c9e203fa3533f22613fc957c5c7f692370331b716ad6ecc52ab2aa6398, f287ff07bb5f24911282b3c14ae3ece25d984974ab175b5ec42857ee2fbc45ae,
   bfd9e9ef84ff76dcaf050e2729f841e7f6907dab609cfa2b7c399fecc42204d8, 88947b7f3e685f572b3c4246220845e5f21fa9f484c981524c94cefe74c1a000,
-  4079359144d91e9924de77758611653c0af8b4901188217b1da036b74da2233a]
-confirmation_count: 41
-last_confirmed_at: '2026-09-07'
+  4079359144d91e9924de77758611653c0af8b4901188217b1da036b74da2233a, 6ecb73a9503ee86225ab19bf48cd9d6837084ff998fcd7d5e15b1b8d316fff2b]
+confirmation_count: 42
+last_confirmed_at: '2026-09-22'
 ---
 
 # Solution Démocratique souhaite instaurer la démocratie directe et la décentralisation par le bas en France
