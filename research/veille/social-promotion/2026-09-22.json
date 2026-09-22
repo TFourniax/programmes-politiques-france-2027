@@ -1,38 +1,21 @@
 {
   "errors": [],
-  "generated_at": "2026-09-22T12:46:37+00:00",
+  "generated_at": "2026-09-22T17:51:02+00:00",
   "partial": 0,
-  "processed": 4,
-  "promoted": 1,
-  "proposals_created": 1,
+  "processed": 2,
+  "promoted": 0,
+  "proposals_created": 0,
   "provenance_updates": 0,
   "results": [
     {
-      "sha256": "81e49f17bfb9fc2ac06b7f1ae8f56bdc54b2f90c3e6e5ce509c4ea0c1fbc100c",
+      "sha256": "6e52ae413c3541fd3dc1cb74d6db270fa9657dc91c76a029d7d7ff2c00ee241d",
       "status": "not_confirmed",
-      "url": "https://www.youtube.com/watch?v=DLVou_cIeB0"
+      "url": "https://www.youtube.com/watch?v=oS9N4ZItdmM"
     },
     {
-      "sha256": "b7506eba3e66152168686a43e915b91721bcb9060959b380750a928fc874e1fd",
+      "sha256": "eec10ab6e2072ccc67469f4892f2f71fabcd982b1ad08a2953200324836da0fa",
       "status": "not_confirmed",
-      "url": "https://www.youtube.com/shorts/1AqVhXMu5GU"
-    },
-    {
-      "sha256": "91ef80151924506da7b784614e498846f86bd5518ee5c14bf9cbf3d3682150d5",
-      "status": "not_confirmed",
-      "url": "https://www.youtube.com/watch?v=eYO7_TqeIPY"
-    },
-    {
-      "chunks_total": 1,
-      "document": "corpus/2027/auto/partys/rassemblement-national/2026-09-22-85f9b04de583.md",
-      "proposals": [
-        "proposals/auto/ecologie-energie/auto-rassemblement-national-ecologie-energie-0424b54fd7f8.md"
-      ],
-      "sha256": "929d0cda38d7aa18d63a6984e3cb9fc8ade317b87e7dd6725d7f2130209d66d2",
-      "status": "promoted",
-      "status_updates": [],
-      "url": "https://www.youtube.com/watch?v=CJN4LAYKscs",
-      "verified_at": "2026-09-22T12:46:34+00:00"
+      "url": "https://bsky.app/profile/lesecologistes.fr/post/3mw4cxfhqyc2i"
     }
   ],
   "status_updates": 0
