@@ -1791,9 +1791,9 @@
       "verified_at": "2026-08-13T08:51:16+00:00"
     }
   },
-  "last_error_count": 1,
-  "last_processed_count": 2,
-  "last_run_at": "2026-09-23T06:10:24+00:00",
+  "last_error_count": 0,
+  "last_processed_count": 3,
+  "last_run_at": "2026-09-23T12:54:51+00:00",
   "source_chunks": {
     "007774a3a0a3267f16b687a1": {
       "canonical_confirmations": [
@@ -5203,6 +5203,26 @@
       "updated_at": "2026-08-12T08:48:19+00:00",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
+    "1ddb7eda329ee1ee4800cfd0": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-09-23T12:54:52+00:00",
+      "document_types": [
+        "other"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "35802c4022eebcc31cef330c8e1c36b91c83e219a5018f18bc3c6aed9434d92e",
+      "source_title": "GAËTAN DUSSAUSAYE : « Le gouvernement ne dit pas vérité aux Français sur le budget. » (PUBLIC SÉNAT)",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-23T12:54:53+00:00",
+      "url": "https://www.youtube.com/watch?v=7L3HpvhAwvE"
+    },
     "1de813c6e0b183801f26917c": {
       "canonical_confirmations": [
         {
@@ -8384,7 +8404,7 @@
           }
         }
       ],
-      "completed_at": "2026-09-23T06:10:03+00:00",
+      "completed_at": "2026-09-23T12:54:23+00:00",
       "created_at": "2026-09-11T21:51:33+00:00",
       "document_types": [
         "official_interview"
@@ -8401,7 +8421,7 @@
       "statuses": [],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-09-23T06:10:03+00:00",
+      "updated_at": "2026-09-23T12:54:23+00:00",
       "url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne"
     },
     "3671cfb92c0144e2481ae990": {
@@ -16931,6 +16951,136 @@
       "total": 1,
       "updated_at": "2026-08-14T15:48:41+00:00",
       "url": "https://solutiondemocratique.fr/bruno-retailleau-programme-presidentielle2027/"
+    },
+    "7836ee56479352c1c7883235": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "david-lisnard",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "un État recentré sur ses missions régaliennes de sécurité et de défense",
+            "relevance": "direct",
+            "statement": "Recentrer l'État sur ses missions régaliennes de sécurité et de défense.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Présent explicitement dans le texte de la source et déjà présent dans le canon.",
+            "related_proposal_id": "auto-david-lisnard-institutions-democratie-8a7a7019b8f9",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "nouvelle-energie",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "la réduction drastique des dépenses publiques",
+            "relevance": "direct",
+            "statement": "Mettre en œuvre une réduction drastique des dépenses publiques.",
+            "topic": "economie-finances"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "Soutenu par la source pour Nouvelle Énergie et déjà présent dans le canon.",
+            "related_proposal_id": "auto-nouvelle-energie-economie-finances-1ce2938e1f05",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "nouvelle-energie",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "la création d’un choc massif de dérégulation",
+            "relevance": "direct",
+            "statement": "Mettre en place un choc massif de dérégulation.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "Soutenu par la source pour Nouvelle Énergie et déjà présent dans le canon.",
+            "related_proposal_id": "auto-nouvelle-energie-economie-finances-6b725b0ab72c",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "nouvelle-energie",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "la décentralisation de l’action publique vers l’échelon local",
+            "relevance": "direct",
+            "statement": "Décentraliser l'action publique vers l'échelon local.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 3,
+            "reason": "Soutenu par la source pour Nouvelle Énergie et déjà présent dans le canon.",
+            "related_proposal_id": "auto-nouvelle-energie-institutions-democratie-fca2d2126785",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "nouvelle-energie",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "suppression de la carte scolaire",
+            "relevance": "direct",
+            "statement": "Supprimer la carte scolaire pour permettre aux parents de scolariser leurs enfants où ils le veulent.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 4,
+            "reason": "Soutenu par la source et déjà présent dans le canon.",
+            "related_proposal_id": "auto-nouvelle-energie-services-publics-2dd30b44dc9c",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "nouvelle-energie",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "la liberté pour les travailleurs de se constituer un capital pour leur retraite (capitalisation)",
+            "relevance": "direct",
+            "statement": "Instaurer la liberté pour les travailleurs de se constituer un capital pour leur retraite par capitalisation.",
+            "topic": "retraites"
+          },
+          "verdict": {
+            "index": 5,
+            "reason": "Soutenu par la source et déjà présent dans le canon.",
+            "related_proposal_id": "auto-nouvelle-energie-retraites-4b9149336ab7",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-09-23T12:54:51+00:00",
+      "created_at": "2026-09-23T12:54:34+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "d4fcff90ce49e13e11165295a8a499b36bab01da11ca270fb56dd48af650c542",
+      "source_title": "Le programme de David Lisnard | Nouvelle Énergie",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-23T12:54:42+00:00",
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/"
     },
     "794b854bb33b512ac4ce68a0": {
       "canonical_confirmations": [],
@@ -30383,6 +30533,26 @@
       "updated_at": "2026-08-23T13:56:17+00:00",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
+    "d8e8138cb36860ff4e563063": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-09-23T12:54:54+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "21fd88f9bccb6ed8d5f08525bdf31cad1ec51d40ac48522b6e4e403fc81ec82d",
+      "source_title": "BAISSONS LES TAXES ! #viral #france",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-23T12:55:00+00:00",
+      "url": "https://www.youtube.com/shorts/z8WnlyJcnxI"
+    },
     "d92ade041132929d0e3efd5f": {
       "canonical_confirmations": [],
       "claims": [],
@@ -30526,6 +30696,154 @@
       "total": 1,
       "updated_at": "2026-08-11T12:15:04+00:00",
       "url": "https://bsky.app/profile/marinetondelier.fr/post/3mssha7jd2s2c"
+    },
+    "db1cf5d984995ce5e816a343": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "rassemblement-national",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Pour la réduction de la TVA de 20% à 5,5% sur l’énergie",
+            "relevance": "direct",
+            "statement": "Le Rassemblement National propose la réduction de la TVA de 20% à 5,5% sur l’énergie.",
+            "topic": "fiscalite-redistribution"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Présent dans le canon actuel avec la même proposition de réduction de TVA sur l'énergie.",
+            "related_proposal_id": "auto-rassemblement-national-fiscalite-redistribution-650411362d03",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "rassemblement-national",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Pour le RIC le référendum initiative citoyenne",
+            "relevance": "direct",
+            "statement": "Le Rassemblement National soutient la mise en place du RIC (référendum d'initiative citoyenne).",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "Présent dans le canon actuel avec le même soutien au RIC.",
+            "related_proposal_id": "auto-rassemblement-national-institutions-democratie-2ec6a69712fb",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "rassemblement-national",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Pour investir dans le nucléaire",
+            "relevance": "direct",
+            "statement": "Le Rassemblement National soutient l'investissement dans l'énergie nucléaire.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "Présent dans le canon actuel concernant l'investissement dans le nucléaire.",
+            "related_proposal_id": "auto-rassemblement-national-ecologie-energie-e7de1a3e9e8e",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "rassemblement-national",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Pour stopper la submersion migratoire",
+            "relevance": "direct",
+            "statement": "Le Rassemblement National propose de stopper la submersion migratoire et de protéger les frontières.",
+            "topic": "immigration-integration"
+          },
+          "verdict": {
+            "index": 3,
+            "reason": "Présent dans le canon actuel sur la submersion migratoire.",
+            "related_proposal_id": "auto-rassemblement-national-immigration-integration-65a64162aec9",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "rassemblement-national",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Pour fermer les mosquées radicales",
+            "relevance": "direct",
+            "statement": "Le Rassemblement National propose de fermer les mosquées radicales.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 4,
+            "reason": "Présent dans le canon actuel sur la fermeture des mosquées radicales.",
+            "related_proposal_id": "auto-rassemblement-national-securite-justice-5cb19d0cbcca",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "rassemblement-national",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Pour interdire le port du burkini",
+            "relevance": "direct",
+            "statement": "Le Rassemblement National propose d'interdire le port du burkini.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 5,
+            "reason": "Présent dans le canon actuel concernant l'interdiction du burkini.",
+            "related_proposal_id": "auto-rassemblement-national-securite-justice-25fe73df9ce3",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "rassemblement-national",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Pour la retraite à 60 ans pour ceux qui commencent à travailler tôt",
+            "relevance": "direct",
+            "statement": "Le Rassemblement National propose le retour de la retraite à 60 ans pour ceux qui ont commencé à travailler tôt.",
+            "topic": "retraites"
+          },
+          "verdict": {
+            "index": 6,
+            "reason": "Présent dans le canon actuel sur la retraite à 60 ans pour les carriéres longues.",
+            "related_proposal_id": "auto-rassemblement-national-retraites-fd538617cfee",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-09-23T12:54:19+00:00",
+      "created_at": "2026-09-23T12:53:44+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "f86a821a8cfb520a2ecb6b33bb6bbb69c480db8b231329c04ec955da1d24cc27",
+      "source_title": "Rassemblement National - Accueil",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-23T12:54:06+00:00",
+      "url": "https://rassemblementnational.fr/"
     },
     "db33c30a151a6f6683fa3706": {
       "canonical_confirmations": [
@@ -34817,6 +35135,15 @@
     }
   },
   "sources": {
+    "002a17656ac0": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-09-23T12:54:33+00:00",
+      "reason": null,
+      "source_sha256": "89240073cf8b5ad476043aa3c1a429c5833d6ad111411795e3d30ab8468ad280",
+      "status": "promoted",
+      "url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne"
+    },
     "00ba77fa1821": {
       "chunks_done": null,
       "chunks_total": null,
@@ -37310,6 +37637,15 @@
       "status": "promoted",
       "url": "https://solutiondemocratique.fr/parrainage2027/"
     },
+    "a201de5e4111": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-23T12:54:19+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "f86a821a8cfb520a2ecb6b33bb6bbb69c480db8b231329c04ec955da1d24cc27",
+      "status": "promoted",
+      "url": "https://rassemblementnational.fr/"
+    },
     "a29032baac55": {
       "processed_at": "2026-08-11T08:55:59+00:00",
       "reason": null,
@@ -37769,6 +38105,15 @@
       "source_sha256": "0aeb347b89a0fbccd33c82bf3d870eed30cbe1c526f6de4ea190b2312cf2e16e",
       "status": "not_confirmed",
       "url": "https://www.revolutionpermanente.fr/Revalorisation-des-retraites-en-2027-Lecornu-veut-attaquer-les-pensions-des-1260EUR"
+    },
+    "bcd4551a70f3": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-23T12:54:51+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "d4fcff90ce49e13e11165295a8a499b36bab01da11ca270fb56dd48af650c542",
+      "status": "promoted",
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/"
     },
     "bcf4beaca465": {
       "chunks_done": null,

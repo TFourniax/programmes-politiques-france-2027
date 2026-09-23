@@ -10,7 +10,7 @@ source_document_ids: [auto-rassemblement-national-2026-08-11-b4e6fdd3c6e7, auto-
   auto-rassemblement-national-2026-09-15-f9ac60c3599a, auto-rassemblement-national-2026-09-15-dbe6c460a4b3, auto-rassemblement-national-2026-09-16-5402ae42cf5e,
   auto-rassemblement-national-2026-09-16-b24a17290d0e, auto-rassemblement-national-2026-09-17-24a37a0400e7, auto-rassemblement-national-2026-09-18-b690d3045225,
   auto-rassemblement-national-2026-09-18-7b37c7a97b58, auto-rassemblement-national-2026-09-19-713c6b5b8cce, auto-rassemblement-national-2026-09-21-876a59766f29,
-  auto-rassemblement-national-2026-09-22-c4b1ac011548, auto-rassemblement-national-2026-09-22-d07a6d0a9f19]
+  auto-rassemblement-national-2026-09-22-c4b1ac011548, auto-rassemblement-national-2026-09-22-d07a6d0a9f19, auto-rassemblement-national-2026-09-23-db1cf5d98499]
 source_url: https://rassemblementnational.fr/
 source_tier: tier_1_primary_official
 first_documented_at: '2026-08-11'
@@ -26,9 +26,10 @@ evidence_sha256s: [e9d2ee7a0fba8b07f65a57d2e71d6dd2dda1128fec6a240299a2bf5e3241d
   5358062f136007393f632f7cd258593b58d5dbd4b0ddf29b075161e206414187, 401b1d14849dbd64576011e8d93617d97936832d74e013a60d00e353e7d65101,
   1ffb9822e9c57ccf1dbabbdcbbaf26486d319ee23883b009edd424657867f4be, cf4a01593e807e13977e92939f19c98201e6106fe6bfb45ce0d47ac09894d0cc,
   25bb0cdc246b85c8470317a5fc06e4ca628829c354466bfd2aa9c98b44696cd3, 9acf6b9c400a4d134367aca890fbb95efb6a9d6987168f028c83da5f04292960,
-  08f691167d6a0e8a79d5aaa5bf1e06237d1bdab57400b02050acd362fdd6f80a, f8540fd8ce02ada816a1cf3269e44ed8c30846847dbd4d7a1926c597616534e7]
-confirmation_count: 16
-last_confirmed_at: '2026-09-22'
+  08f691167d6a0e8a79d5aaa5bf1e06237d1bdab57400b02050acd362fdd6f80a, f8540fd8ce02ada816a1cf3269e44ed8c30846847dbd4d7a1926c597616534e7,
+  f86a821a8cfb520a2ecb6b33bb6bbb69c480db8b231329c04ec955da1d24cc27]
+confirmation_count: 17
+last_confirmed_at: '2026-09-23'
 ---
 
 # Le Rassemblement National propose la réduction de la TVA de 20% à 5,5% sur l'énergie
