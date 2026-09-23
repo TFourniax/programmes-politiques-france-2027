@@ -1791,9 +1791,9 @@
       "verified_at": "2026-08-13T08:51:16+00:00"
     }
   },
-  "last_error_count": 0,
-  "last_processed_count": 3,
-  "last_run_at": "2026-09-22T22:24:16+00:00",
+  "last_error_count": 1,
+  "last_processed_count": 2,
+  "last_run_at": "2026-09-23T06:10:24+00:00",
   "source_chunks": {
     "007774a3a0a3267f16b687a1": {
       "canonical_confirmations": [
@@ -4437,6 +4437,26 @@
       "total": 1,
       "updated_at": "2026-08-20T20:02:03+00:00",
       "url": "https://bsky.app/profile/lesecologistes.fr/post/3mtjmwmcths27"
+    },
+    "17ce5e5850ac80a8b5521433": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-09-23T06:10:11+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "715738fe05c9291d9abfb36b93c3187058443e88f44124ecaaacf543ae642e06",
+      "source_title": "Parrainages d'élu·es pour l'élection présidentielle 2027 - La France insoumise",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-23T06:10:23+00:00",
+      "url": "https://lafranceinsoumise.fr/2026/06/22/parrainages-elus-pour-election-presidentielle-2027/"
     },
     "18adc77ed98bad26f9bed8b3": {
       "canonical_confirmations": [
@@ -8364,7 +8384,7 @@
           }
         }
       ],
-      "completed_at": "2026-09-22T22:23:47+00:00",
+      "completed_at": "2026-09-23T06:10:03+00:00",
       "created_at": "2026-09-11T21:51:33+00:00",
       "document_types": [
         "official_interview"
@@ -8381,7 +8401,7 @@
       "statuses": [],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-09-22T22:23:47+00:00",
+      "updated_at": "2026-09-23T06:10:03+00:00",
       "url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne"
     },
     "3671cfb92c0144e2481ae990": {
@@ -35057,6 +35077,15 @@
       "status": "promoted",
       "url": "https://solutiondemocratique.fr/francois-asselineau-2027-programme/"
     },
+    "105fe2728ec8": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-23T06:10:23+00:00",
+      "reason": null,
+      "source_sha256": "715738fe05c9291d9abfb36b93c3187058443e88f44124ecaaacf543ae642e06",
+      "status": "not_confirmed",
+      "url": "https://lafranceinsoumise.fr/2026/06/22/parrainages-elus-pour-election-presidentielle-2027/"
+    },
     "1128581105a5": {
       "chunks_done": null,
       "chunks_total": null,
@@ -37646,10 +37675,10 @@
       "url": "https://npa-revolutionnaires.org/dossier-presidentielle-2027-selma-labib-une-candidature-ouvriere-et-revolutionnaire-soutenue-par-gael-quirante-paru-dans-revolutionnaires-n-60/"
     },
     "b8920657eb06": {
-      "attempts": 5,
+      "attempts": 6,
       "error": "ValueError: source text too short",
-      "next_retry_at": "2026-09-12T08:04:06+00:00",
-      "processed_at": "2026-08-29T08:04:06+00:00",
+      "next_retry_at": "2026-10-07T06:10:10+00:00",
+      "processed_at": "2026-09-23T06:10:10+00:00",
       "status": "technical_error",
       "url": "https://www.jerome-guedj.fr/la-clarte-plutot-que-les-slogans-pourquoi-jai-annonce-ma-candidature-pour-2027/"
     },
@@ -38115,6 +38144,15 @@
       "source_sha256": "c2b274e0ad808d020636cf61344043be96dd9dbcfda2047a5e37c24e34e93f21",
       "status": "promoted",
       "url": "https://www.unenouvelleenergie.fr/questions/david-lisnard-est-il-candidat-a-la-presidentielle-2027/"
+    },
+    "d0185fb1d24e": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-09-23T06:10:10+00:00",
+      "reason": null,
+      "source_sha256": "89240073cf8b5ad476043aa3c1a429c5833d6ad111411795e3d30ab8468ad280",
+      "status": "promoted",
+      "url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne"
     },
     "d0a871bb0f19": {
       "chunks_done": null,

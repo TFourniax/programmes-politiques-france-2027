@@ -1,0 +1,33 @@
+{
+  "errors": [
+    {
+      "at": "2026-09-23T06:10:10+00:00",
+      "error": "ValueError: source text too short",
+      "url": "https://www.jerome-guedj.fr/la-clarte-plutot-que-les-slogans-pourquoi-jai-annonce-ma-candidature-pour-2027/"
+    }
+  ],
+  "generated_at": "2026-09-23T06:10:24+00:00",
+  "historical_skipped": 0,
+  "partial": 0,
+  "processed": 2,
+  "promoted": 1,
+  "proposals_created": 0,
+  "results": [
+    {
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/candidates/gabriel-attal/2026-06-01-36681da9ebbd.md",
+      "proposals": [],
+      "sha256": "89240073cf8b5ad476043aa3c1a429c5833d6ad111411795e3d30ab8468ad280",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne",
+      "verified_at": "2026-09-23T06:10:03+00:00"
+    },
+    {
+      "sha256": "715738fe05c9291d9abfb36b93c3187058443e88f44124ecaaacf543ae642e06",
+      "status": "not_confirmed",
+      "url": "https://lafranceinsoumise.fr/2026/06/22/parrainages-elus-pour-election-presidentielle-2027/"
+    }
+  ],
+  "status_updates": 0
+}
