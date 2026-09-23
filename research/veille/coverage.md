@@ -44,6 +44,6 @@ Ce rapport est dérivé automatiquement du corpus courant. Il sert à piloter la
 - **Sécurité & justice** (`securite-justice`) — 14 acteur(s), 147 proposition(s), dernière preuve 2026-09-23.
 - **Services publics** (`services-publics`) — 14 acteur(s), 232 proposition(s), dernière preuve 2026-09-23.
 - **Écologie & énergie** (`ecologie-energie`) — 15 acteur(s), 194 proposition(s), dernière preuve 2026-09-23.
-- **Pouvoir d’achat & travail** (`pouvoir-achat-travail`) — 19 acteur(s), 75 proposition(s), dernière preuve 2026-09-22.
+- **Pouvoir d’achat & travail** (`pouvoir-achat-travail`) — 19 acteur(s), 75 proposition(s), dernière preuve 2026-09-23.
 
 > Ce rapport est un indicateur de couverture structurée, de fraîcheur et de profondeur de preuve, pas un score de qualité politique ni d'exhaustivité absolue.
