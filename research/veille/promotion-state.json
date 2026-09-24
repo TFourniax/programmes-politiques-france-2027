@@ -1793,7 +1793,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-09-24T12:54:55+00:00",
+  "last_run_at": "2026-09-24T18:02:34+00:00",
   "source_chunks": {
     "007774a3a0a3267f16b687a1": {
       "canonical_confirmations": [
@@ -8594,7 +8594,7 @@
           }
         }
       ],
-      "completed_at": "2026-09-24T12:54:17+00:00",
+      "completed_at": "2026-09-24T18:01:32+00:00",
       "created_at": "2026-09-11T21:51:33+00:00",
       "document_types": [
         "official_interview"
@@ -8611,7 +8611,7 @@
       "statuses": [],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-09-24T12:54:17+00:00",
+      "updated_at": "2026-09-24T18:01:32+00:00",
       "url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne"
     },
     "3671cfb92c0144e2481ae990": {
@@ -21577,6 +21577,46 @@
       "updated_at": "2026-09-18T21:50:57+00:00",
       "url": "https://www.youtube.com/shorts/vyExyN2b4QI"
     },
+    "a2e6afdd7f4bca5092a72ea4": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "anasse-kazib",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "Candidature Anasse 2027",
+            "relevance": "direct",
+            "statement": "Anasse Kazib pose sa candidature pour l'élection présidentielle de 2027.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La candidature d'Anasse Kazib pour la présidentielle 2027 est explicitement présente dans la source et déjà enregistrée dans le canonique.",
+            "related_proposal_id": "auto-anasse-kazib-institutions-democratie-1a9f657935f4",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-09-24T18:02:06+00:00",
+      "created_at": "2026-09-24T18:01:40+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "6fae51ee8d9ec9e37e0c08a5ee1df3ef264e23d6150a380e7276415c4ca60ef3",
+      "source_title": "Anasse Kazib 2027",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-24T18:02:04+00:00",
+      "url": "https://www.revolutionpermanente.fr/Anasse-Kazib-2027"
+    },
     "a311805f380578a6f3dbff04": {
       "canonical_confirmations": [],
       "claims": [],
@@ -28015,6 +28055,26 @@
       "updated_at": "2026-09-09T12:29:56+00:00",
       "url": "https://upr.fr/medias/francois-asselineau-en-2027-je-serai-le-seul-candidat-a-la-presidence-de-la-republique-francaise"
     },
+    "c27f9f79a5c9039ad6799718": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-09-24T18:02:35+00:00",
+      "document_types": [
+        "other"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "9c927bb856dc5f9518595e64795627dd682581e2928d8512d852abc62a5dd126",
+      "source_title": "🚨 Les lycéens dans toute l'Ile-de-France se mobilisent contre le 8h-18h et pour des meilleures cond",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-24T18:02:36+00:00",
+      "url": "https://www.youtube.com/shorts/2ZFI-GWf3f0"
+    },
     "c2d6831ddd4d6717d5558308": {
       "canonical_confirmations": [],
       "claims": [],
@@ -34388,6 +34448,28 @@
       "updated_at": "2026-08-14T08:33:38+00:00",
       "url": "https://solutiondemocratique.fr/jean-luc-melenchon-programme-presidentielle2027/"
     },
+    "f59121bfeed9749c28ace2fa": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-09-24T18:02:08+00:00",
+      "document_types": [
+        "official_press_release"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [
+        "2026-06-17"
+      ],
+      "sha256": "e80f987005a34ae26cddf42671737410a8ec4017719e765898789076c247b973",
+      "source_title": "CommuniquÃ© â PrÃ©sidentielle 2027Â : Selma Labib, une candidature ouvriÃ¨re et rÃ©volutionnaire, soutenue par GaÃ«l Quirante â NPA RÃ©volutionnaires",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-24T18:02:34+00:00",
+      "url": "https://npa-revolutionnaires.org/articles/communique-presidentielle-2027-selma-labib-une-candidature-ouvriere-et-revolutionnaire-soutenue-par-gael-quirante"
+    },
     "f59fa60eb367923f2ab1f481": {
       "canonical_confirmations": [],
       "claims": [],
@@ -35913,6 +35995,15 @@
       "status": "promoted",
       "url": "https://rassemblementnational.fr/"
     },
+    "0a55c0bbca63": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-24T18:02:06+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "6fae51ee8d9ec9e37e0c08a5ee1df3ef264e23d6150a380e7276415c4ca60ef3",
+      "status": "promoted",
+      "url": "https://www.revolutionpermanente.fr/Anasse-Kazib-2027"
+    },
     "0b0401b030de": {
       "chunks_done": null,
       "chunks_total": 1,
@@ -36646,6 +36737,15 @@
       "source_sha256": "cf7d6681b5e7c8a9f63bfb52f345a502d13bf53b949b61f1af98d3a29ee6504f",
       "status": "promoted",
       "url": "https://melenchon2027.fr/programme2025/livre/chapitre10/"
+    },
+    "3465e50a537b": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-24T18:02:34+00:00",
+      "reason": null,
+      "source_sha256": "e80f987005a34ae26cddf42671737410a8ec4017719e765898789076c247b973",
+      "status": "not_confirmed",
+      "url": "https://npa-revolutionnaires.org/articles/communique-presidentielle-2027-selma-labib-une-candidature-ouvriere-et-revolutionnaire-soutenue-par-gael-quirante"
     },
     "348e8977e452": {
       "chunks_done": null,
@@ -38081,6 +38181,15 @@
       "source_sha256": "f21a9330c5d2d1e040a522e9ac119b6b19637d25d493ea7fac1eb18ec55ea356",
       "status": "not_confirmed",
       "url": "https://www.generationecologie.fr/candidatures-aux-instances-de-generation-ecologie/"
+    },
+    "92bd34d2b6b4": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-09-24T18:01:39+00:00",
+      "reason": null,
+      "source_sha256": "89240073cf8b5ad476043aa3c1a429c5833d6ad111411795e3d30ab8468ad280",
+      "status": "promoted",
+      "url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne"
     },
     "93860d837062": {
       "chunks_done": null,
