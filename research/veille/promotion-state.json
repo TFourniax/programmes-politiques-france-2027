@@ -1793,7 +1793,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-09-23T22:28:52+00:00",
+  "last_run_at": "2026-09-24T06:19:43+00:00",
   "source_chunks": {
     "007774a3a0a3267f16b687a1": {
       "canonical_confirmations": [
@@ -8424,7 +8424,7 @@
           }
         }
       ],
-      "completed_at": "2026-09-23T22:28:31+00:00",
+      "completed_at": "2026-09-24T06:19:14+00:00",
       "created_at": "2026-09-11T21:51:33+00:00",
       "document_types": [
         "official_interview"
@@ -8441,7 +8441,7 @@
       "statuses": [],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-09-23T22:28:31+00:00",
+      "updated_at": "2026-09-24T06:19:14+00:00",
       "url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne"
     },
     "3671cfb92c0144e2481ae990": {
@@ -10723,6 +10723,84 @@
       "total": 1,
       "updated_at": "2026-09-21T14:26:17+00:00",
       "url": "https://bsky.app/profile/lesecologistes.fr/post/3mvzo7n2yr22e"
+    },
+    "4110993d0751b9aafbc2eb74": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "réduire drastiquement l’immigration",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau souhaite réduire drastiquement l'immigration par référendum.",
+            "topic": "immigration-integration"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La proposition est explicitement soutenue par la source et existe déjà dans le canonique.",
+            "related_proposal_id": "auto-bruno-retailleau-immigration-integration-39955feaadc3",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "révolution de notre justice pénale",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau souhaite engager une révolution de la justice pénale par référendum.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La proposition est explicitement soutenue par la source et présente dans le canonique.",
+            "related_proposal_id": "auto-bruno-retailleau-securite-justice-703dc438f470",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "redonner la primauté à notre droit national",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau souhaite redonner la primauté au droit national.",
+            "topic": "europe-souverainete"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "La proposition est explicitement soutenue par la source et présente dans le canonique.",
+            "related_proposal_id": "auto-bruno-retailleau-europe-souverainete-ed8d0d14bccb",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-09-24T06:19:38+00:00",
+      "created_at": "2026-09-24T06:19:26+00:00",
+      "document_types": [
+        "candidacy_declaration"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-02-12"
+      ],
+      "sha256": "682c208fabd8e30381d261dab60088d70b7b9dd8d98f1f179a85b046e2636c85",
+      "source_title": "Je suis candidat à l'élection présidentielle. - Les Républicains",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-24T06:19:31+00:00",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
     "41b2229d63c3b320e3a86b37": {
       "canonical_confirmations": [],
@@ -28844,6 +28922,36 @@
       "updated_at": "2026-09-16T12:47:30+00:00",
       "url": "https://bsky.app/profile/marinetondelier.fr/post/3mvmvhehfxs2w"
     },
+    "c8428369cdc19a6af7f732a1": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-09-24T06:19:40+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "1d0b746a121a536dcee0b50a46673d6e283a616624a94ac7587510e09d9081c5",
+      "source_title": "Anasse Kazib 2027",
+      "statuses": [
+        {
+          "status": {
+            "candidate_id": "anasse-kazib",
+            "effective_date": "2026-06-02",
+            "evidence_quote": "Anasse Kazib se déclare candidat pour 2027",
+            "explicit": true,
+            "new_status": "declared_presidential"
+          }
+        }
+      ],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-24T06:19:42+00:00",
+      "url": "https://anasse2027.fr/"
+    },
     "c96b268b282c0a8145742f08": {
       "canonical_confirmations": [
         {
@@ -37184,6 +37292,15 @@
       "status": "not_confirmed",
       "url": "https://www.revolutionpermanente.fr/6-milliards-de-moins-pour-les-retraites-le-gouvernement-prepare-un-budget-2027-ultra-austeritaire"
     },
+    "75a06d551047": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-24T06:19:42+00:00",
+      "reason": "chronology_or_scope_guard",
+      "source_sha256": "1d0b746a121a536dcee0b50a46673d6e283a616624a94ac7587510e09d9081c5",
+      "status": "not_confirmed",
+      "url": "https://anasse2027.fr/"
+    },
     "75b9e60cfecd": {
       "chunks_done": null,
       "chunks_total": 1,
@@ -37481,6 +37598,15 @@
       "status": "promoted",
       "url": "https://npa-revolutionnaires.org/dans-le-monde-presidentielle-2027-le-npa-revolutionnaires-presente-une-troisieme-candidature-dextreme-gauche/"
     },
+    "879426b2937a": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-09-24T06:19:24+00:00",
+      "reason": null,
+      "source_sha256": "89240073cf8b5ad476043aa3c1a429c5833d6ad111411795e3d30ab8468ad280",
+      "status": "promoted",
+      "url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne"
+    },
     "87b3545cfb91": {
       "chunks_done": null,
       "chunks_total": 1,
@@ -37687,6 +37813,15 @@
       "source_sha256": "d3a2d4879c7df6fdd0a35524a535f39001a7f8484d6d243e97ab58f38e6434f6",
       "status": "not_confirmed",
       "url": "https://npa-revolutionnaires.org/communique-presidentielle-2027-selma-labib-une-candidature-ouvriere-et-revolutionnaire-soutenue-par-gael-quirante/"
+    },
+    "98c27c5585ef": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-24T06:19:38+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "682c208fabd8e30381d261dab60088d70b7b9dd8d98f1f179a85b046e2636c85",
+      "status": "promoted",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
     "991e6eed6c48": {
       "chunks_done": null,
