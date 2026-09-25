@@ -6,18 +6,18 @@
     "actors": 68,
     "declared_or_active_candidates": 27,
     "topics": 12,
-    "current_proposals": 1323,
+    "current_proposals": 1324,
     "covered_actor_topic_cells": 148,
     "total_actor_topic_cells": 816,
     "actor_topic_coverage_ratio": 0.1814,
     "active_candidate_covered_cells": 66,
     "active_candidate_total_cells": 324,
     "active_candidate_topic_coverage_ratio": 0.2037,
-    "verified_proposals": 1288,
-    "multi_source_proposals": 72,
+    "verified_proposals": 1289,
+    "multi_source_proposals": 73,
     "latest_evidence_at": "2026-09-25",
     "certainty_counts": {
-      "explicit": 1299,
+      "explicit": 1300,
       "explicit_but_conditional": 3,
       "explicit_but_underspecified": 21
     }
@@ -382,9 +382,9 @@
       ],
       "coverage_ratio": 1.0,
       "gaps": [],
-      "latest_evidence_at": "2026-09-24",
+      "latest_evidence_at": "2026-09-25",
       "verified_proposals": 35,
-      "multi_source_proposals": 5
+      "multi_source_proposals": 6
     },
     {
       "id": "debout",
@@ -1103,7 +1103,7 @@
       "type": "party",
       "status": null,
       "confidence": null,
-      "current_proposals": 117,
+      "current_proposals": 118,
       "covered_topics": [
         "defense-international",
         "ecologie-energie",
@@ -1120,8 +1120,8 @@
       ],
       "coverage_ratio": 1.0,
       "gaps": [],
-      "latest_evidence_at": "2026-09-01",
-      "verified_proposals": 117,
+      "latest_evidence_at": "2026-09-25",
+      "verified_proposals": 118,
       "multi_source_proposals": 6
     },
     {
@@ -2015,11 +2015,11 @@
     {
       "id": "ecologie-energie",
       "label": "Écologie & énergie",
-      "current_proposals": 195,
+      "current_proposals": 196,
       "actors_covered": 16,
       "actor_coverage_ratio": 0.2353,
       "latest_evidence_at": "2026-09-25",
-      "verified_proposals": 189,
+      "verified_proposals": 190,
       "multi_source_proposals": 2
     },
     {
@@ -2040,7 +2040,7 @@
       "actor_coverage_ratio": 0.2059,
       "latest_evidence_at": "2026-09-25",
       "verified_proposals": 228,
-      "multi_source_proposals": 5
+      "multi_source_proposals": 6
     },
     {
       "id": "securite-justice",
@@ -2788,7 +2788,7 @@
       "status": "declared_presidential",
       "coverage_ratio": 1.0,
       "current_proposals": 39,
-      "latest_evidence_at": "2026-09-24",
+      "latest_evidence_at": "2026-09-25",
       "topics": [
         {
           "id": "pouvoir-achat-travail",
@@ -2858,7 +2858,7 @@
           "label": "Institutions & démocratie",
           "covered": true,
           "current_proposals": 4,
-          "latest_evidence_at": "2026-09-24",
+          "latest_evidence_at": "2026-09-25",
           "verified_proposals": 3,
           "multi_source_proposals": 2
         },
@@ -2867,9 +2867,9 @@
           "label": "Services publics",
           "covered": true,
           "current_proposals": 7,
-          "latest_evidence_at": "2026-08-22",
+          "latest_evidence_at": "2026-09-25",
           "verified_proposals": 6,
-          "multi_source_proposals": 0
+          "multi_source_proposals": 1
         },
         {
           "id": "securite-justice",
@@ -2885,7 +2885,7 @@
           "label": "Économie & finances publiques",
           "covered": true,
           "current_proposals": 5,
-          "latest_evidence_at": "2026-09-22",
+          "latest_evidence_at": "2026-09-25",
           "verified_proposals": 4,
           "multi_source_proposals": 2
         },

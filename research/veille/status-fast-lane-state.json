@@ -83,7 +83,7 @@
       "error": "ValueError: HTTP 403",
       "event_url": "https://www.pcf.fr/une_candidature_de_gauche_au_service_de_l_aube_et_de_ses_communes",
       "owner": "Parti communiste français",
-      "processed_at": "2026-09-25T18:02:09+00:00",
+      "processed_at": "2026-09-25T22:31:35+00:00",
       "status": "technical_error"
     },
     "11b463101679": {
@@ -199,7 +199,7 @@
       "error": "ValueError: HTTP 403",
       "event_url": "https://www.pcf.fr/presidentielle2027_fabien_roussel_designe_candidat",
       "owner": "Parti communiste français",
-      "processed_at": "2026-09-25T18:02:04+00:00",
+      "processed_at": "2026-09-25T22:31:29+00:00",
       "status": "technical_error"
     },
     "1fd1e63d4f5d": {
@@ -408,6 +408,13 @@
       "event_url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne",
       "owner": "Gabriel Attal",
       "processed_at": "2026-09-12T16:30:38+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
+    "3d2433c12cff": {
+      "event_url": "https://rassemblementnational.fr/",
+      "owner": "Rassemblement national",
+      "processed_at": "2026-09-25T22:31:33+00:00",
       "reason": "no_deterministic_transition",
       "status": "not_applicable"
     },
@@ -1037,7 +1044,7 @@
       "error": "ValueError: HTTP 403",
       "event_url": "https://www.pcf.fr/presidentielle_2027_mjcf_s_engage_pour_candidature_communiste",
       "owner": "Parti communiste français",
-      "processed_at": "2026-09-25T18:02:04+00:00",
+      "processed_at": "2026-09-25T22:31:29+00:00",
       "status": "technical_error"
     },
     "b88c50cd309b": {
@@ -1182,7 +1189,7 @@
       "error": "ValueError: HTTP 404",
       "event_url": "https://parti-equinoxe.fr/articles/2022/05/la-transition-energetique-selon-les-ex-candidats-a-la-presidentielle-2/",
       "owner": "Équinoxe",
-      "processed_at": "2026-09-25T18:02:08+00:00",
+      "processed_at": "2026-09-25T22:31:33+00:00",
       "status": "technical_error"
     },
     "cb3428b2b6d3": {
@@ -1219,6 +1226,13 @@
       "event_url": "https://npa-revolutionnaires.org/dans-le-telegramme-presidentielle-2027-selma-labib-conductrice-de-bus-sera-la-candidate-du-parti-dextreme-gauche-npa-revolutionnaires/",
       "owner": "NPA-Révolutionnaires",
       "processed_at": "2026-09-08T06:04:52+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
+    "cf6a1f80d590": {
+      "event_url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne",
+      "owner": "Gabriel Attal",
+      "processed_at": "2026-09-25T22:31:35+00:00",
       "reason": "no_deterministic_transition",
       "status": "not_applicable"
     },
@@ -1498,7 +1512,7 @@
     }
   },
   "last_error_count": 4,
-  "last_run_at": "2026-09-25T18:02:09+00:00",
+  "last_run_at": "2026-09-25T22:31:35+00:00",
   "last_updated_count": 0,
   "version": 1
 }
