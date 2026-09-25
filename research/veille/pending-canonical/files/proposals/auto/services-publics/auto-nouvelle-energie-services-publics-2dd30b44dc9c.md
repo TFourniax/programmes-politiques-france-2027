@@ -8,7 +8,8 @@ proposal_status: current
 source_document_ids: [auto-nouvelle-energie-2026-08-12-84687a6089b8, auto-nouvelle-energie-2026-08-16-391f5104d410, auto-nouvelle-energie-2026-08-18-f489a53bb3fe,
   auto-nouvelle-energie-2026-08-20-062668f762e9, auto-nouvelle-energie-2026-08-20-db461737a8b9, auto-nouvelle-energie-2026-08-21-d893b570dcb9,
   auto-nouvelle-energie-2026-08-22-bc9d1a3db945, auto-nouvelle-energie-2026-08-23-46b893c63e59, auto-nouvelle-energie-2026-08-24-1de813c6e0b1,
-  auto-nouvelle-energie-2026-08-29-60ca0cf36405, auto-nouvelle-energie-2026-09-06-6a0186575ca9, auto-nouvelle-energie-2026-09-23-7836ee564793]
+  auto-nouvelle-energie-2026-08-29-60ca0cf36405, auto-nouvelle-energie-2026-09-06-6a0186575ca9, auto-nouvelle-energie-2026-09-23-7836ee564793,
+  auto-nouvelle-energie-2026-09-25-36cf82556469]
 source_url: https://www.unenouvelleenergie.fr/notre-programme/
 source_tier: tier_1_primary_official
 first_documented_at: '2026-08-12'
@@ -23,9 +24,10 @@ evidence_sha256s: [483c5cca9ce4e53d7ffece152c3d6584b2f150047b234270422894776a01f
   489cdb9d0baed3197bf590637c35ed22724d9b2d52d5d0b05dc6d9eaf35e6dcb, db4acdaa7874beb278bda20f4bc46f0116fe58fa31cdb52eff75e8d20049d13f,
   a56355959f1a0b8984c0f2c800c0fd7072ab38315bbb71a971a60f0ec5990d48, 01e68bb03df0856f4c03b38eef2deb040f0b9477eba182bb820351721bbec0d2,
   939f7338f9f67b72b1e442381a044cb577b9f4f74d4860ca778843fba076263d, b5896d4573e65bd008a5b7697893011932cde3a7379a3c0da5e6a0b37268e332,
-  adcdf2acaa158399a7b16231e8444690e99313251a57183f285e54e279431fdf, d4fcff90ce49e13e11165295a8a499b36bab01da11ca270fb56dd48af650c542]
-confirmation_count: 12
-last_confirmed_at: '2026-09-23'
+  adcdf2acaa158399a7b16231e8444690e99313251a57183f285e54e279431fdf, d4fcff90ce49e13e11165295a8a499b36bab01da11ca270fb56dd48af650c542,
+  af63b2db6041ba8119da44da82ac46eff6442e33cb0a09c3825f3c1fa16f8bb9]
+confirmation_count: 13
+last_confirmed_at: '2026-09-25'
 ---
 
 # Il faut supprimer la carte scolaire pour garantir la liberté des parents de scolariser leurs enfants où ils le veulent

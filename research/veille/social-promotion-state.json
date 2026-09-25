@@ -288,6 +288,15 @@
       "status": "not_confirmed",
       "url": "https://www.youtube.com/shorts/qnpgwVn_x2Q"
     },
+    "41b6801ff4cc34f4e5c7": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-25T12:55:47+00:00",
+      "provenance_updates": [],
+      "source_sha256": "65a2728fcf1ffdd3db553a3f83c8a9311b4251f0f0b280af90d317f33cb023d0",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/shorts/NibokOrwR84"
+    },
     "4209ae23cd479579d6a5": {
       "chunks_done": null,
       "chunks_total": null,
@@ -374,6 +383,15 @@
       "source_sha256": "da7bc8766121382e319fa73ba59c2f5b52f2f8294b6685558b5d203ccd1880a8",
       "status": "not_confirmed",
       "url": "https://www.youtube.com/watch?v=mnoKyc018To"
+    },
+    "53bf98387d65a0d0e0da": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-25T12:56:06+00:00",
+      "provenance_updates": [],
+      "source_sha256": "62823d58caa97a62d2d16553b25236ece0ddaa0ebda5445082ee1c1da28f92b5",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/watch?v=vYpRL7gAM9Q"
     },
     "53f6e5f8b8c5c66cfeee": {
       "chunks_done": null,
@@ -996,6 +1014,15 @@
       "status": "not_confirmed",
       "url": "https://www.youtube.com/watch?v=UZXE6Gt2C2w"
     },
+    "bc45e936db37ebe40844": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-09-25T12:56:04+00:00",
+      "provenance_updates": [],
+      "source_sha256": "cf9843e259953c4f83f435f3e5ee05d94546f8c512ae0322a5be88be75f82363",
+      "status": "promoted",
+      "url": "https://www.youtube.com/shorts/cSfm9WOl4Zk"
+    },
     "bca1e94256a77cf110ac": {
       "chunks_done": null,
       "chunks_total": null,
@@ -1167,6 +1194,15 @@
       "source_sha256": "401b1d14849dbd64576011e8d93617d97936832d74e013a60d00e353e7d65101",
       "status": "promoted",
       "url": "https://www.youtube.com/shorts/vDzn0yFUgKY"
+    },
+    "db4a196a89fe174abc9f": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-25T12:55:49+00:00",
+      "provenance_updates": [],
+      "source_sha256": "13faed336588eb090850919ff95a99b040bd1155507b6c0e1fed8df49ffde418",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/shorts/soDszHL-2MA"
     },
     "db87f17090fb50f146cc": {
       "chunks_done": null,
@@ -1422,7 +1458,7 @@
     }
   },
   "last_error_count": 0,
-  "last_processed_count": 2,
-  "last_run_at": "2026-09-25T06:20:17+00:00",
+  "last_processed_count": 4,
+  "last_run_at": "2026-09-25T12:56:07+00:00",
   "version": 2
 }
