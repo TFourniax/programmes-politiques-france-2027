@@ -83,7 +83,7 @@
       "error": "ValueError: HTTP 403",
       "event_url": "https://www.pcf.fr/une_candidature_de_gauche_au_service_de_l_aube_et_de_ses_communes",
       "owner": "Parti communiste français",
-      "processed_at": "2026-09-25T22:31:35+00:00",
+      "processed_at": "2026-09-26T06:15:10+00:00",
       "status": "technical_error"
     },
     "11b463101679": {
@@ -199,7 +199,7 @@
       "error": "ValueError: HTTP 403",
       "event_url": "https://www.pcf.fr/presidentielle2027_fabien_roussel_designe_candidat",
       "owner": "Parti communiste français",
-      "processed_at": "2026-09-25T22:31:29+00:00",
+      "processed_at": "2026-09-26T06:15:06+00:00",
       "status": "technical_error"
     },
     "1fd1e63d4f5d": {
@@ -910,6 +910,13 @@
       "processed_at": "2026-09-11T06:09:15+00:00",
       "status": "already_current"
     },
+    "9a8e3897631c": {
+      "event_url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne",
+      "owner": "Gabriel Attal",
+      "processed_at": "2026-09-26T06:15:10+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
     "9a97b6c793ed": {
       "event_url": "https://rassemblementnational.fr/",
       "owner": "Rassemblement national",
@@ -1044,7 +1051,7 @@
       "error": "ValueError: HTTP 403",
       "event_url": "https://www.pcf.fr/presidentielle_2027_mjcf_s_engage_pour_candidature_communiste",
       "owner": "Parti communiste français",
-      "processed_at": "2026-09-25T22:31:29+00:00",
+      "processed_at": "2026-09-26T06:15:06+00:00",
       "status": "technical_error"
     },
     "b88c50cd309b": {
@@ -1189,7 +1196,7 @@
       "error": "ValueError: HTTP 404",
       "event_url": "https://parti-equinoxe.fr/articles/2022/05/la-transition-energetique-selon-les-ex-candidats-a-la-presidentielle-2/",
       "owner": "Équinoxe",
-      "processed_at": "2026-09-25T22:31:33+00:00",
+      "processed_at": "2026-09-26T06:15:09+00:00",
       "status": "technical_error"
     },
     "cb3428b2b6d3": {
@@ -1512,7 +1519,7 @@
     }
   },
   "last_error_count": 4,
-  "last_run_at": "2026-09-25T22:31:35+00:00",
+  "last_run_at": "2026-09-26T06:15:10+00:00",
   "last_updated_count": 0,
   "version": 1
 }
