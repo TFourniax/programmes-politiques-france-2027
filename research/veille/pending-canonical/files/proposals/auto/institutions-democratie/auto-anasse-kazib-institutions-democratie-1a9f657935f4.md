@@ -5,7 +5,8 @@ entity_id: anasse-kazib
 topic: institutions-democratie
 certainty: explicit
 proposal_status: current
-source_document_ids: [auto-anasse-kazib-2026-08-28-38891602d9d9, auto-anasse-kazib-2026-09-12-b128933ee90e, auto-anasse-kazib-2026-09-24-a2e6afdd7f4b]
+source_document_ids: [auto-anasse-kazib-2026-08-28-38891602d9d9, auto-anasse-kazib-2026-09-12-b128933ee90e, auto-anasse-kazib-2026-09-24-a2e6afdd7f4b,
+  auto-anasse-kazib-2026-09-26-a2e6afdd7f4b]
 source_url: https://www.revolutionpermanente.fr/Anasse-Kazib-2027
 source_tier: tier_1_primary_official
 first_documented_at: '2026-08-28'
@@ -17,8 +18,8 @@ generated_by: scripts/auto_promote.py
 source_urls: ['https://www.revolutionpermanente.fr/Anasse-Kazib-2027', 'https://www.revolutionpermanente.fr/Pourquoi-defendre-une-candidature-revolutionnaire-de-la-nouvelle-classe-ouvriere-RP-en-direct-de-la']
 evidence_sha256s: [558a0f4c960090bf8770b5f38e136b3c5109b0515e714cfd95c33471bf3ce2a7, 9a075b2b81e33a6a5dfbddfaadbcbda75f3f96ba4f7423829a2958de578230da,
   6fae51ee8d9ec9e37e0c08a5ee1df3ef264e23d6150a380e7276415c4ca60ef3]
-confirmation_count: 3
-last_confirmed_at: '2026-09-24'
+confirmation_count: 4
+last_confirmed_at: '2026-09-26'
 ---
 
 # Anasse Kazib présente sa candidature pour l'élection présidentielle de 2027

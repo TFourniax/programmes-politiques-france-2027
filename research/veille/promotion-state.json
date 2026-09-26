@@ -685,6 +685,11 @@
       "source_url": "https://bsky.app/profile/marinetondelier.fr/post/3mv4ib3ecq22l",
       "verified_at": "2026-09-09T21:51:56+00:00"
     },
+    "5ff0180070cebd38ec57812e18cfe7edbecce4d93d6f2162e758f09cb9ba5ebe": {
+      "proposal_id": "auto-anasse-kazib-pouvoir-achat-travail-5ff0180070ce",
+      "source_url": "https://anasse2027.fr/",
+      "verified_at": "2026-09-26T12:22:38+00:00"
+    },
     "600bd1c6a55ef8d22defced19e8bd5353297b33662ecec718585421e45129002": {
       "proposal_id": "auto-la-france-insoumise-fiscalite-redistribution-600bd1c6a55e",
       "source_url": "https://melenchon2027.fr/programme2025/livre/chapitre10/",
@@ -1818,7 +1823,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-09-26T06:18:21+00:00",
+  "last_run_at": "2026-09-26T12:22:45+00:00",
   "source_chunks": {
     "007774a3a0a3267f16b687a1": {
       "canonical_confirmations": [
@@ -13050,7 +13055,7 @@
       ],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-09-26T06:17:52+00:00",
+      "updated_at": "2026-09-26T12:22:17+00:00",
       "url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne"
     },
     "4c4b7f46bf8192dc70abef1e": {
@@ -15722,6 +15727,75 @@
       "total": 1,
       "updated_at": "2026-08-19T08:04:47+00:00",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
+    "643133e0b030d41844ea789a": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "anasse-kazib",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "je veux faire entendre la voix de la nouvelle classe ouvrière",
+            "relevance": "direct",
+            "statement": "Anasse Kazib souhaite faire entendre la voix de la nouvelle classe ouvrière et défendre ses intérêts.",
+            "topic": "pouvoir-achat-travail"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La citation correspond explicitement aux déclarations d'Anasse Kazib sur sa volonté de porter la voix de la nouvelle classe ouvrière pour 2027.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [
+        {
+          "claim": {
+            "actor_id": "anasse-kazib",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "je veux faire entendre la voix de la nouvelle classe ouvrière",
+            "relevance": "direct",
+            "statement": "Anasse Kazib souhaite faire entendre la voix de la nouvelle classe ouvrière et défendre ses intérêts.",
+            "topic": "pouvoir-achat-travail"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La citation correspond explicitement aux déclarations d'Anasse Kazib sur sa volonté de porter la voix de la nouvelle classe ouvrière pour 2027.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "completed_at": "2026-09-26T12:22:38+00:00",
+      "created_at": "2026-09-26T12:22:31+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "d20aeb693c5201cada07e979808d96a7f039ba477a05bf3ed563c47958011e79",
+      "source_title": "Anasse Kazib 2027",
+      "statuses": [
+        {
+          "status": {
+            "candidate_id": "anasse-kazib",
+            "effective_date": "2026-06-01",
+            "evidence_quote": "Anasse Kazib se déclare candidat pour 2027",
+            "explicit": true,
+            "new_status": "declared_presidential"
+          }
+        }
+      ],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-26T12:22:38+00:00",
+      "url": "https://anasse2027.fr/"
     },
     "64ce907dede074d2e1429e4d": {
       "canonical_confirmations": [
@@ -22417,7 +22491,7 @@
         }
       ],
       "claims": [],
-      "completed_at": "2026-09-24T18:02:06+00:00",
+      "completed_at": "2026-09-26T12:22:45+00:00",
       "created_at": "2026-09-24T18:01:40+00:00",
       "document_types": [
         "campaign_website_page"
@@ -22432,7 +22506,7 @@
       "statuses": [],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-09-24T18:02:04+00:00",
+      "updated_at": "2026-09-26T12:22:42+00:00",
       "url": "https://www.revolutionpermanente.fr/Anasse-Kazib-2027"
     },
     "a311805f380578a6f3dbff04": {
@@ -38643,6 +38717,15 @@
       "status": "promoted",
       "url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne"
     },
+    "4c6485abd813": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-09-26T12:22:41+00:00",
+      "reason": null,
+      "source_sha256": "d20aeb693c5201cada07e979808d96a7f039ba477a05bf3ed563c47958011e79",
+      "status": "promoted",
+      "url": "https://anasse2027.fr/"
+    },
     "4d6a66225faa": {
       "chunks_done": null,
       "chunks_total": 1,
@@ -38989,6 +39072,15 @@
       "source_sha256": "0d8a65a8dc74d4f3b80db285ed2a18b91b378305bd81ab393f4f26637b9e888d",
       "status": "promoted",
       "url": "https://attalpresident.fr/programme"
+    },
+    "6844d0fcdaed": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-26T12:22:30+00:00",
+      "reason": "chronology_or_scope_guard",
+      "source_sha256": "21df166f2bb506c159efbb805448f781c07309d4a5250fd027e43089abf927b8",
+      "status": "not_confirmed",
+      "url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne"
     },
     "6914f708a59d": {
       "chunks_done": null,
@@ -41459,6 +41551,15 @@
       "source_sha256": "2e85fb2c14c1ca4c38ba38b56cad5e34ca1ec5296415d1d6376e8a963117971f",
       "status": "not_confirmed",
       "url": "https://npa-revolutionnaires.org/articles/communique-presidentielle-2027-selma-labib-une-candidature-ouvriere-et-revolutionnaire-soutenue-par-gael-quirante"
+    },
+    "fbdd68e487ae": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-26T12:22:45+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "6fae51ee8d9ec9e37e0c08a5ee1df3ef264e23d6150a380e7276415c4ca60ef3",
+      "status": "promoted",
+      "url": "https://www.revolutionpermanente.fr/Anasse-Kazib-2027"
     },
     "fc44011d49c2": {
       "chunks_done": null,

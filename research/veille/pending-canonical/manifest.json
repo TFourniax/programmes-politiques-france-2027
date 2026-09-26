@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created_at": "2026-08-17T19:57:19.441897+00:00",
-  "updated_at": "2026-09-26T06:18:25.701163+00:00",
+  "updated_at": "2026-09-26T12:22:50.290284+00:00",
   "files": [
     {
       "path": "corpus/2027/auto/candidates/anasse-kazib/2026-08-28-38891602d9d9.md",
@@ -81,6 +81,16 @@
     {
       "path": "corpus/2027/auto/candidates/anasse-kazib/2026-09-24-a2e6afdd7f4b.md",
       "sha256": "4cd6edbb375a29a847943b6503bcbc0d34b29305e9e995dd85c3768584ce0b4d",
+      "size": 1500
+    },
+    {
+      "path": "corpus/2027/auto/candidates/anasse-kazib/2026-09-26-643133e0b030.md",
+      "sha256": "5cd7e69c54ef7c1924126ab2cca6ef0a123f936774e087918bea93624b17a3fd",
+      "size": 1412
+    },
+    {
+      "path": "corpus/2027/auto/candidates/anasse-kazib/2026-09-26-a2e6afdd7f4b.md",
+      "sha256": "8b73bdd633aca8cbbe28b87e460bfa91877dbe02d1a0a4e68c1adf52228f17c4",
       "size": 1500
     },
     {
@@ -1605,8 +1615,8 @@
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-anasse-kazib-institutions-democratie-1a9f657935f4.md",
-      "sha256": "5aba8a344fa833747b760aa35e36cddc99f4a90a2090656008b6615edf1866c9",
-      "size": 1830
+      "sha256": "e650cbbc683785ba8c4e749be0cca42ee30a7a11a96750c927e1e6be395b30bb",
+      "size": 1875
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-anasse-kazib-institutions-democratie-c09dd0700402.md",
@@ -1757,6 +1767,11 @@
       "path": "proposals/auto/institutions-democratie/auto-solution-democratique-institutions-democratie-d83bac99ca3a.md",
       "sha256": "d414d7a8aedeaa8052a0ff2bed8a637c6971f0757e2790ae961ca8f24aabdba7",
       "size": 1311
+    },
+    {
+      "path": "proposals/auto/pouvoir-achat-travail/auto-anasse-kazib-pouvoir-achat-travail-5ff0180070ce.md",
+      "sha256": "bb0565f605d57c200ad9cf51b9136d80bd1e726b22e771e2c47c49a65ae623f7",
+      "size": 1319
     },
     {
       "path": "proposals/auto/pouvoir-achat-travail/auto-anasse-kazib-pouvoir-achat-travail-81103508afc3.md",
