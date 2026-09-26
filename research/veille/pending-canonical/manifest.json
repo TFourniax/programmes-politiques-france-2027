@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created_at": "2026-08-17T19:57:19.441897+00:00",
-  "updated_at": "2026-09-26T12:22:50.290284+00:00",
+  "updated_at": "2026-09-26T17:21:48.215918+00:00",
   "files": [
     {
       "path": "corpus/2027/auto/candidates/anasse-kazib/2026-08-28-38891602d9d9.md",
@@ -624,6 +624,11 @@
       "size": 1960
     },
     {
+      "path": "corpus/2027/auto/candidates/jean-luc-melenchon/2026-09-18-a1a666a8c110.md",
+      "sha256": "99f12b6306b3eb9f82656ab72619f2e05a9b7b4048172fc10120f2b1a06bc179",
+      "size": 1790
+    },
+    {
       "path": "corpus/2027/auto/candidates/marine-tondelier/2026-08-27-75d9454c00ef.md",
       "sha256": "27bcec4b5daff789fd20324369c8549d895d07a84b49a5869e2a92993727aef3",
       "size": 1739
@@ -847,6 +852,11 @@
       "path": "corpus/2027/auto/partys/nouvelle-energie/2026-09-25-b3e70f26c1e9.md",
       "sha256": "dfaa3a2de0d73b307295fb5c8d82c7339cc80858acedfccae5fb0b5ff693a879",
       "size": 2332
+    },
+    {
+      "path": "corpus/2027/auto/partys/nouvelle-energie/2026-09-26-67e42d23e6b8.md",
+      "sha256": "082fdbd2e97f5af542efcf31dca04f3f563d764f8896ef3b89d9fa5836fed9f4",
+      "size": 2209
     },
     {
       "path": "corpus/2027/auto/partys/npa-revolutionnaires/2026-07-04-14781613317c.md",
@@ -1440,8 +1450,8 @@
     },
     {
       "path": "proposals/auto/economie-finances/auto-nouvelle-energie-economie-finances-1ce2938e1f05.md",
-      "sha256": "00cebacf2f5f67b0f9cdfd2ae5f57cdbffe4f7c87f7a0fec6056cd87de001007",
-      "size": 2580
+      "sha256": "bcac31f9626fe0b1eadf11e58c2588fb2d49971021ec5c02bf902da6ad6dde9f",
+      "size": 2693
     },
     {
       "path": "proposals/auto/economie-finances/auto-nouvelle-energie-economie-finances-6b725b0ab72c.md",
@@ -1645,8 +1655,8 @@
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-david-lisnard-institutions-democratie-8a7a7019b8f9.md",
-      "sha256": "b386b28b99f82b1b5ea4be7ba27f9a274e779ca22de67e526cd1aa690de86252",
-      "size": 2986
+      "sha256": "72dadd8fcef66eaa38c6efcf39d759d998b44bd64696ef6c72b39eee9926f831",
+      "size": 3101
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-david-lisnard-institutions-democratie-8dc9338c9297.md",
@@ -1925,8 +1935,8 @@
     },
     {
       "path": "proposals/auto/retraites/auto-nouvelle-energie-retraites-4b9149336ab7.md",
-      "sha256": "eddf8eb085dde4d0f142b3b9dcd7e3cce05e1fc460dc2f341effbc67e3329752",
-      "size": 4459
+      "sha256": "4e1b6fac344e5bf6c4b80430eaa8af8d5444e9c65a653e9d12c15c1aa76c8e3a",
+      "size": 4574
     },
     {
       "path": "proposals/auto/retraites/auto-rassemblement-national-retraites-fd538617cfee.md",
@@ -2109,6 +2119,11 @@
       "size": 1832
     },
     {
+      "path": "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-b88105fd5e4a.md",
+      "sha256": "4491d85fd7d9460d3445351b77ab154e01426be32dca5497e0e3ca1380a37cba",
+      "size": 1528
+    },
+    {
       "path": "proposals/auto/services-publics/auto-les-ecologistes-services-publics-06776c72e505.md",
       "sha256": "6e097225a4696b532b2748db570f28e93eb37f41f15e09ed0a706436b7a602c1",
       "size": 1228
@@ -2245,8 +2260,8 @@
     },
     {
       "path": "proposals/auto/services-publics/auto-nouvelle-energie-services-publics-2dd30b44dc9c.md",
-      "sha256": "617f393f70e3bda8e3c6aa841871935dbb61ab3e22b5177c9aedc154034637b1",
-      "size": 2955
+      "sha256": "72fd669120bddef33ede13eb8088c5a815d3814d0a3ebf4d76f00e7258ad077d",
+      "size": 3068
     },
     {
       "path": "proposals/auto/services-publics/auto-rassemblement-national-services-publics-a4a03d3f5488.md",
