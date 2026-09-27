@@ -144,6 +144,15 @@
       "status": "not_confirmed",
       "url": "https://bsky.app/profile/marinetondelier.fr/post/3mtty4ed7hc26"
     },
+    "1b3cfafdd66d619dbb6f": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-27T17:55:56+00:00",
+      "provenance_updates": [],
+      "source_sha256": "e61aabc9330d8e26db814fc9ab3689f17a39fd3959da55301b068a2aeb8e857f",
+      "status": "not_confirmed",
+      "url": "https://bsky.app/profile/lesecologistes.fr/post/3mwj6sofxts2b"
+    },
     "1fa470b1a69c4982f735": {
       "chunks_done": null,
       "chunks_total": null,
@@ -969,6 +978,15 @@
       "status": "not_confirmed",
       "url": "https://www.youtube.com/shorts/w08tZZQ91Zg"
     },
+    "b2b1d92321842372e726": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-27T17:55:54+00:00",
+      "provenance_updates": [],
+      "source_sha256": "973b2e852bc1eb95400485829880dead0018e55e3efd00a0cd487271eaf1f112",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/watch?v=4dEZl5D1eVw"
+    },
     "b35a458aa0724c09fd41": {
       "chunks_done": null,
       "chunks_total": null,
@@ -1138,6 +1156,15 @@
       "source_sha256": "6fb50cf2e62163dd399f1e4a67b6fd1db82bfc6ae699743c80b97426ad950ce4",
       "status": "not_confirmed",
       "url": "https://bsky.app/profile/marinetondelier.fr/post/3mv42224bzk2l"
+    },
+    "cc8fff8b68a86360dd9e": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-27T17:55:52+00:00",
+      "provenance_updates": [],
+      "source_sha256": "fa18ac7f062438df8d7c986b6bf5b3c420fc690f50ad2377279b5d6473088e7d",
+      "status": "not_confirmed",
+      "url": "https://bsky.app/profile/lesecologistes.fr/post/3mwjcx7ztrc2i"
     },
     "cd8009b6b7971c005a88": {
       "chunks_done": null,
@@ -1503,7 +1530,7 @@
     }
   },
   "last_error_count": 0,
-  "last_processed_count": 2,
-  "last_run_at": "2026-09-27T13:15:31+00:00",
+  "last_processed_count": 3,
+  "last_run_at": "2026-09-27T17:55:56+00:00",
   "version": 2
 }
