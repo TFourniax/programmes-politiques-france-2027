@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created_at": "2026-08-17T19:57:19.441897+00:00",
-  "updated_at": "2026-09-27T06:45:39.176316+00:00",
+  "updated_at": "2026-09-27T13:15:35.258249+00:00",
   "files": [
     {
       "path": "corpus/2027/auto/candidates/anasse-kazib/2026-08-28-38891602d9d9.md",
@@ -92,6 +92,11 @@
       "path": "corpus/2027/auto/candidates/anasse-kazib/2026-09-26-a2e6afdd7f4b.md",
       "sha256": "8b73bdd633aca8cbbe28b87e460bfa91877dbe02d1a0a4e68c1adf52228f17c4",
       "size": 1500
+    },
+    {
+      "path": "corpus/2027/auto/candidates/anasse-kazib/2026-09-27-007774a3a0a3.md",
+      "sha256": "0e578d803ce5ed0a05c19574b9be3d2390bb5a2872b5af9fc331c6ba94ab3dee",
+      "size": 1975
     },
     {
       "path": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-02b6fd496b7b.md",
@@ -627,6 +632,11 @@
       "path": "corpus/2027/auto/candidates/gabriel-attal/2026-09-07-339da5119b58.md",
       "sha256": "da4db447d2b5300d88819bc27ea585e49974845878663deeb108117bbedffc2c",
       "size": 1960
+    },
+    {
+      "path": "corpus/2027/auto/candidates/gabriel-attal/2026-09-25-dec47fed2066.md",
+      "sha256": "65fe7a0a60971be6f2087f2e2004fae8729eef489cf96aed0056b20b3671f383",
+      "size": 2310
     },
     {
       "path": "corpus/2027/auto/candidates/jean-luc-melenchon/2026-09-18-a1a666a8c110.md",
@@ -1199,6 +1209,16 @@
       "size": 1768
     },
     {
+      "path": "proposals/auto/ecologie-energie/auto-gabriel-attal-ecologie-energie-35e8ce5873ae.md",
+      "sha256": "6fb944930d0b0421083370afd080ff7cb42a48ea92c696bd718c342107fc8cec",
+      "size": 1362
+    },
+    {
+      "path": "proposals/auto/ecologie-energie/auto-gabriel-attal-ecologie-energie-cdd542c0f78a.md",
+      "sha256": "49ab145daf64631ffc3b62694987b6d8522ec27a0cb7f753a06ab1cfe6ae6f5e",
+      "size": 1361
+    },
+    {
       "path": "proposals/auto/ecologie-energie/auto-les-ecologistes-ecologie-energie-1219b8a35f2d.md",
       "sha256": "60c5636d9ad53bee676dcb6045f9811119e662f79ecb8ae4da4ee4cfbac07b31",
       "size": 1355
@@ -1494,6 +1514,11 @@
       "size": 1263
     },
     {
+      "path": "proposals/auto/europe-souverainete/auto-gabriel-attal-europe-souverainete-ca9b5b615592.md",
+      "sha256": "5ccd08fe7ebb0aa50de09837093a88de47d7fe9d422da5ccc15d457f9ca6b7c7",
+      "size": 1451
+    },
+    {
       "path": "proposals/auto/europe-souverainete/auto-les-ecologistes-europe-souverainete-06952d144d39.md",
       "sha256": "1729a07fc89e1e6f47a4fed6a74ceb107d850314096b99c6261af9fef662080e",
       "size": 1442
@@ -1575,8 +1600,8 @@
     },
     {
       "path": "proposals/auto/immigration-integration/auto-anasse-kazib-immigration-integration-f008b1970a86.md",
-      "sha256": "599b051a4a437a08155daf40228823750d63e9ce5ecd2f803afb732864f3478f",
-      "size": 1946
+      "sha256": "464025b8ca7aeff3be88dbebdc29ad56c3ffcef66d912fa56238a94e043d08c2",
+      "size": 1989
     },
     {
       "path": "proposals/auto/immigration-integration/auto-bruno-retailleau-immigration-integration-080032bab3da.md",
@@ -1790,8 +1815,8 @@
     },
     {
       "path": "proposals/auto/pouvoir-achat-travail/auto-anasse-kazib-pouvoir-achat-travail-81103508afc3.md",
-      "sha256": "1d299595c797a969286cfbf081b90f0d319c7ef782a63459246bf28650f1d2e0",
-      "size": 1954
+      "sha256": "344bc7b961c977b17680519c1484ceff1d06c51663154a5c947740f0476385da",
+      "size": 1999
     },
     {
       "path": "proposals/auto/pouvoir-achat-travail/auto-anasse-kazib-pouvoir-achat-travail-9dd581e1c937.md",
@@ -2320,8 +2345,8 @@
     },
     {
       "path": "proposals/retraites/anasse-kazib-60-55.md",
-      "sha256": "12a2c691b90fb81ab64db386158c4cc008bd0f249ccfc6ec78a349f0e7495007",
-      "size": 1808
+      "sha256": "fda3011ee53c5c17237eb87e7b44d919a01518656f7557b59a7a06f8fff1a51c",
+      "size": 1854
     },
     {
       "path": "proposals/retraites/david-lisnard-capitalisation.md",

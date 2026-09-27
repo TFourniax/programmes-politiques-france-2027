@@ -6,18 +6,18 @@
     "actors": 68,
     "declared_or_active_candidates": 27,
     "topics": 12,
-    "current_proposals": 1326,
-    "covered_actor_topic_cells": 148,
+    "current_proposals": 1329,
+    "covered_actor_topic_cells": 150,
     "total_actor_topic_cells": 816,
-    "actor_topic_coverage_ratio": 0.1814,
-    "active_candidate_covered_cells": 66,
+    "actor_topic_coverage_ratio": 0.1838,
+    "active_candidate_covered_cells": 68,
     "active_candidate_total_cells": 324,
-    "active_candidate_topic_coverage_ratio": 0.2037,
-    "verified_proposals": 1291,
+    "active_candidate_topic_coverage_ratio": 0.2099,
+    "verified_proposals": 1294,
     "multi_source_proposals": 73,
-    "latest_evidence_at": "2026-09-26",
+    "latest_evidence_at": "2026-09-27",
     "certainty_counts": {
-      "explicit": 1302,
+      "explicit": 1305,
       "explicit_but_conditional": 3,
       "explicit_but_underspecified": 21
     }
@@ -109,7 +109,7 @@
         "securite-justice",
         "numerique-ia"
       ],
-      "latest_evidence_at": "2026-09-26",
+      "latest_evidence_at": "2026-09-27",
       "verified_proposals": 11,
       "multi_source_proposals": 8
     },
@@ -665,26 +665,26 @@
       "type": "candidate",
       "status": "declared_presidential",
       "confidence": "high",
-      "current_proposals": 12,
+      "current_proposals": 15,
       "covered_topics": [
+        "ecologie-energie",
         "economie-finances",
+        "europe-souverainete",
         "immigration-integration",
         "pouvoir-achat-travail",
         "retraites",
         "securite-justice",
         "services-publics"
       ],
-      "coverage_ratio": 0.5,
+      "coverage_ratio": 0.6667,
       "gaps": [
         "fiscalite-redistribution",
-        "europe-souverainete",
         "defense-international",
-        "ecologie-energie",
         "institutions-democratie",
         "numerique-ia"
       ],
-      "latest_evidence_at": "2026-09-07",
-      "verified_proposals": 12,
+      "latest_evidence_at": "2026-09-25",
+      "verified_proposals": 15,
       "multi_source_proposals": 11
     },
     {
@@ -1958,7 +1958,7 @@
       "current_proposals": 78,
       "actors_covered": 19,
       "actor_coverage_ratio": 0.2794,
-      "latest_evidence_at": "2026-09-26",
+      "latest_evidence_at": "2026-09-27",
       "verified_proposals": 71,
       "multi_source_proposals": 9
     },
@@ -1968,7 +1968,7 @@
       "current_proposals": 22,
       "actors_covered": 13,
       "actor_coverage_ratio": 0.1912,
-      "latest_evidence_at": "2026-09-26",
+      "latest_evidence_at": "2026-09-27",
       "verified_proposals": 20,
       "multi_source_proposals": 7
     },
@@ -1988,18 +1988,18 @@
       "current_proposals": 67,
       "actors_covered": 12,
       "actor_coverage_ratio": 0.1765,
-      "latest_evidence_at": "2026-09-25",
+      "latest_evidence_at": "2026-09-27",
       "verified_proposals": 62,
       "multi_source_proposals": 6
     },
     {
       "id": "europe-souverainete",
       "label": "Europe & souveraineté",
-      "current_proposals": 110,
-      "actors_covered": 11,
-      "actor_coverage_ratio": 0.1618,
-      "latest_evidence_at": "2026-09-11",
-      "verified_proposals": 109,
+      "current_proposals": 111,
+      "actors_covered": 12,
+      "actor_coverage_ratio": 0.1765,
+      "latest_evidence_at": "2026-09-25",
+      "verified_proposals": 110,
       "multi_source_proposals": 3
     },
     {
@@ -2015,11 +2015,11 @@
     {
       "id": "ecologie-energie",
       "label": "Écologie & énergie",
-      "current_proposals": 196,
-      "actors_covered": 16,
-      "actor_coverage_ratio": 0.2353,
+      "current_proposals": 198,
+      "actors_covered": 17,
+      "actor_coverage_ratio": 0.25,
       "latest_evidence_at": "2026-09-25",
-      "verified_proposals": 190,
+      "verified_proposals": 192,
       "multi_source_proposals": 2
     },
     {
@@ -2080,14 +2080,14 @@
       "status": "declared_presidential",
       "coverage_ratio": 0.5,
       "current_proposals": 15,
-      "latest_evidence_at": "2026-09-26",
+      "latest_evidence_at": "2026-09-27",
       "topics": [
         {
           "id": "pouvoir-achat-travail",
           "label": "Pouvoir d’achat & travail",
           "covered": true,
           "current_proposals": 7,
-          "latest_evidence_at": "2026-09-26",
+          "latest_evidence_at": "2026-09-27",
           "verified_proposals": 4,
           "multi_source_proposals": 3
         },
@@ -2096,7 +2096,7 @@
           "label": "Retraites",
           "covered": true,
           "current_proposals": 1,
-          "latest_evidence_at": "2026-09-23",
+          "latest_evidence_at": "2026-09-27",
           "verified_proposals": 1,
           "multi_source_proposals": 1
         },
@@ -2114,7 +2114,7 @@
           "label": "Immigration & intégration",
           "covered": true,
           "current_proposals": 1,
-          "latest_evidence_at": "2026-09-23",
+          "latest_evidence_at": "2026-09-27",
           "verified_proposals": 1,
           "multi_source_proposals": 1
         },
@@ -3376,9 +3376,9 @@
       "id": "gabriel-attal",
       "name": "Gabriel Attal",
       "status": "declared_presidential",
-      "coverage_ratio": 0.5,
-      "current_proposals": 12,
-      "latest_evidence_at": "2026-09-07",
+      "coverage_ratio": 0.6667,
+      "current_proposals": 15,
+      "latest_evidence_at": "2026-09-25",
       "topics": [
         {
           "id": "pouvoir-achat-travail",
@@ -3419,10 +3419,10 @@
         {
           "id": "europe-souverainete",
           "label": "Europe & souveraineté",
-          "covered": false,
-          "current_proposals": 0,
-          "latest_evidence_at": null,
-          "verified_proposals": 0,
+          "covered": true,
+          "current_proposals": 1,
+          "latest_evidence_at": "2026-09-25",
+          "verified_proposals": 1,
           "multi_source_proposals": 0
         },
         {
@@ -3437,10 +3437,10 @@
         {
           "id": "ecologie-energie",
           "label": "Écologie & énergie",
-          "covered": false,
-          "current_proposals": 0,
-          "latest_evidence_at": null,
-          "verified_proposals": 0,
+          "covered": true,
+          "current_proposals": 2,
+          "latest_evidence_at": "2026-09-25",
+          "verified_proposals": 2,
           "multi_source_proposals": 0
         },
         {
@@ -5708,28 +5708,12 @@
       ]
     },
     {
-      "id": "gabriel-attal",
-      "name": "Gabriel Attal",
-      "status": "declared_presidential",
-      "coverage_ratio": 0.5,
-      "current_proposals": 12,
-      "latest_evidence_at": "2026-09-07",
-      "gaps": [
-        "fiscalite-redistribution",
-        "europe-souverainete",
-        "defense-international",
-        "ecologie-energie",
-        "institutions-democratie",
-        "numerique-ia"
-      ]
-    },
-    {
       "id": "anasse-kazib",
       "name": "Anasse Kazib",
       "status": "declared_presidential",
       "coverage_ratio": 0.5,
       "current_proposals": 15,
-      "latest_evidence_at": "2026-09-26",
+      "latest_evidence_at": "2026-09-27",
       "gaps": [
         "fiscalite-redistribution",
         "europe-souverainete",
@@ -5748,6 +5732,20 @@
       "latest_evidence_at": "2026-08-17",
       "gaps": [
         "retraites",
+        "fiscalite-redistribution",
+        "defense-international",
+        "institutions-democratie",
+        "numerique-ia"
+      ]
+    },
+    {
+      "id": "gabriel-attal",
+      "name": "Gabriel Attal",
+      "status": "declared_presidential",
+      "coverage_ratio": 0.6667,
+      "current_proposals": 15,
+      "latest_evidence_at": "2026-09-25",
+      "gaps": [
         "fiscalite-redistribution",
         "defense-international",
         "institutions-democratie",
