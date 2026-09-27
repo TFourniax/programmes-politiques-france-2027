@@ -83,7 +83,7 @@
       "error": "ValueError: HTTP 403",
       "event_url": "https://www.pcf.fr/une_candidature_de_gauche_au_service_de_l_aube_et_de_ses_communes",
       "owner": "Parti communiste français",
-      "processed_at": "2026-09-27T17:52:42+00:00",
+      "processed_at": "2026-09-27T22:22:29+00:00",
       "status": "technical_error"
     },
     "11b463101679": {
@@ -199,7 +199,7 @@
       "error": "ValueError: HTTP 403",
       "event_url": "https://www.pcf.fr/presidentielle2027_fabien_roussel_designe_candidat",
       "owner": "Parti communiste français",
-      "processed_at": "2026-09-27T17:52:38+00:00",
+      "processed_at": "2026-09-27T22:22:26+00:00",
       "status": "technical_error"
     },
     "1fd1e63d4f5d": {
@@ -438,6 +438,14 @@
       "processed_at": "2026-09-12T16:30:38+00:00",
       "reason": "no_deterministic_transition",
       "status": "not_applicable"
+    },
+    "4051c86bb078": {
+      "candidate_id": "gabriel-attal",
+      "event_url": "https://attalpresident.fr/actualites/gabriel-attal-sur-rtl-je-suis-candidat-pour-gagner-cette-election-presidentielle",
+      "new_status": "declared_presidential",
+      "owner": "Gabriel Attal",
+      "processed_at": "2026-09-27T22:22:26+00:00",
+      "status": "already_current"
     },
     "4244fc9bd303": {
       "event_url": "https://www.debout-la-france.fr/actualite/je-suis-en-candidat-en-2027-pour-defendre-la-sortie-de-lunion-europeenne-france-info-tv-23-01-26/",
@@ -879,6 +887,13 @@
       "reason": "no_deterministic_transition",
       "status": "not_applicable"
     },
+    "922360c86a1b": {
+      "event_url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne",
+      "owner": "Gabriel Attal",
+      "processed_at": "2026-09-27T22:22:29+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
     "92755c4b736d": {
       "candidate_matches": [],
       "event_url": "https://www.generationecologie.fr/candidatures-aux-instances-de-generation-ecologie/",
@@ -1094,7 +1109,7 @@
       "error": "ValueError: HTTP 403",
       "event_url": "https://www.pcf.fr/presidentielle_2027_mjcf_s_engage_pour_candidature_communiste",
       "owner": "Parti communiste français",
-      "processed_at": "2026-09-27T17:52:38+00:00",
+      "processed_at": "2026-09-27T22:22:26+00:00",
       "status": "technical_error"
     },
     "b88c50cd309b": {
@@ -1239,7 +1254,7 @@
       "error": "ValueError: HTTP 404",
       "event_url": "https://parti-equinoxe.fr/articles/2022/05/la-transition-energetique-selon-les-ex-candidats-a-la-presidentielle-2/",
       "owner": "Équinoxe",
-      "processed_at": "2026-09-27T17:52:41+00:00",
+      "processed_at": "2026-09-27T22:22:28+00:00",
       "status": "technical_error"
     },
     "cb3428b2b6d3": {
@@ -1584,7 +1599,7 @@
     }
   },
   "last_error_count": 4,
-  "last_run_at": "2026-09-27T17:52:42+00:00",
+  "last_run_at": "2026-09-27T22:22:29+00:00",
   "last_updated_count": 0,
   "version": 1
 }
