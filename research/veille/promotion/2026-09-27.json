@@ -1,0 +1,39 @@
+{
+  "errors": [],
+  "generated_at": "2026-09-27T06:45:35+00:00",
+  "historical_skipped": 0,
+  "partial": 1,
+  "processed": 3,
+  "promoted": 1,
+  "proposals_created": 0,
+  "results": [
+    {
+      "reason": "chronology_or_scope_guard",
+      "sha256": "21df166f2bb506c159efbb805448f781c07309d4a5250fd027e43089abf927b8",
+      "status": "not_confirmed",
+      "url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne"
+    },
+    {
+      "chunks_done": 2,
+      "chunks_remaining": 1,
+      "chunks_total": 3,
+      "sha256": "eece34e9de755bac785fa15181e5ddcd5e2e25a604110a95f47be82eeb8fd872",
+      "status": "partial",
+      "url": "https://solutiondemocratique.fr/parrainage2027/"
+    },
+    {
+      "document": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-b9e23ee4afab.md",
+      "provenance_updates": [
+        "auto-bruno-retailleau-europe-souverainete-ed8d0d14bccb",
+        "auto-bruno-retailleau-immigration-integration-39955feaadc3",
+        "auto-bruno-retailleau-securite-justice-703dc438f470"
+      ],
+      "reason": "canonical_duplicate_evidence",
+      "sha256": "2c95f4c79d527455edf34cc6c452e519b4376170c04af4587fce3c5d1124ef00",
+      "status": "promoted",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/",
+      "verified_at": "2026-09-27T06:45:34+00:00"
+    }
+  ],
+  "status_updates": 0
+}

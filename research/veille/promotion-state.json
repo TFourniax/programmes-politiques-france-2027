@@ -1828,7 +1828,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-09-26T22:06:20+00:00",
+  "last_run_at": "2026-09-27T06:45:35+00:00",
   "source_chunks": {
     "007774a3a0a3267f16b687a1": {
       "canonical_confirmations": [
@@ -13121,7 +13121,7 @@
       ],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-09-26T22:05:52+00:00",
+      "updated_at": "2026-09-27T06:44:59+00:00",
       "url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne"
     },
     "4c4b7f46bf8192dc70abef1e": {
@@ -15683,6 +15683,64 @@
       "total": 1,
       "updated_at": "2026-08-20T10:10:54+00:00",
       "url": "https://www.youtube.com/watch?v=Uqe5vvsXsZ4"
+    },
+    "634688ad31e855c893b99e89": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "solution-democratique",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "introduisant le droit d’initiative citoyenne",
+            "relevance": "direct",
+            "statement": "Introduire un droit d'initiative citoyenne pour proposer des changements constitutionnels.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La source confirme explicitement l'instauration d'un droit d'initiative citoyenne pour proposer des changements constitutionnels (« introduisant le droit d’initiative citoyenne »), ce qui correspond au claim et est déjà présent dans le canon.",
+            "related_proposal_id": "auto-solution-democratique-institutions-democratie-62ad6abc00a3",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "solution-democratique",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Nous proposons de pouvoir lancer une telle initiative une fois le soutien de 700 000 citoyens recueilli.",
+            "relevance": "direct",
+            "statement": "Introduire une initiative citoyenne permettant de réclamer un changement de la Constitution avec le soutien de 700 000 citoyens.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La source soutient explicitement l'élément : 'Nous proposons de pouvoir lancer une telle initiative une fois le soutien de 700 000 citoyens recueilli.' L'élément est identique au claim canonique existant.",
+            "related_proposal_id": "auto-solution-democratique-institutions-democratie-4e498b3ec06e",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "created_at": "2026-09-27T06:45:12+00:00",
+      "document_types": [
+        "campaign_website_page",
+        "campaign_website_page"
+      ],
+      "done": [
+        0,
+        1
+      ],
+      "published_candidates": [],
+      "sha256": "eece34e9de755bac785fa15181e5ddcd5e2e25a604110a95f47be82eeb8fd872",
+      "source_title": "Parrainage 2027 - Solution Démocratique - Parti politique pour instaurer la démocratie directe",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 3,
+      "updated_at": "2026-09-27T06:45:22+00:00",
+      "url": "https://solutiondemocratique.fr/parrainage2027/"
     },
     "63c5faa46073e1a62b9c8915": {
       "canonical_confirmations": [],
@@ -28709,6 +28767,94 @@
       "updated_at": "2026-09-22T17:50:26+00:00",
       "url": "https://www.youtube.com/watch?v=oS9N4ZItdmM"
     },
+    "b9e23ee4afabc395b58b8610": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "réduire drastiquement l’immigration",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau propose de soumettre par référendum des textes pour réduire drastiquement l'immigration.",
+            "topic": "immigration-integration"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La proposition de soumettre par référendum un texte pour réduire drastiquement l'immigration est déjà présente dans le canonique à la date du 2026-02-12.",
+            "related_proposal_id": "auto-bruno-retailleau-immigration-integration-39955feaadc3",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "révolution de notre justice pénale",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau propose de réformer la justice pénale par référendum.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La proposition de révolutionner la justice pénale par référendum est déjà enregistrée dans le canonique.",
+            "related_proposal_id": "auto-bruno-retailleau-securite-justice-703dc438f470",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "bruno-retailleau",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "redonner la primauté à notre droit national",
+            "relevance": "direct",
+            "statement": "Bruno Retailleau propose de redonner la primauté au droit national par référendum.",
+            "topic": "europe-souverainete"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "La proposition de redonner la primauté au droit national par référendum est déjà présente dans le canonique.",
+            "related_proposal_id": "auto-bruno-retailleau-europe-souverainete-ed8d0d14bccb",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-09-27T06:45:34+00:00",
+      "created_at": "2026-09-27T06:45:24+00:00",
+      "document_types": [
+        "candidacy_declaration"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-02-12"
+      ],
+      "sha256": "2c95f4c79d527455edf34cc6c452e519b4376170c04af4587fce3c5d1124ef00",
+      "source_title": "Je suis candidat à l'élection présidentielle. - Les Républicains",
+      "statuses": [
+        {
+          "status": {
+            "candidate_id": "bruno-retailleau",
+            "effective_date": "2026-02-12",
+            "evidence_quote": "J’ai pris la décision d’être candidat à l’élection présidentielle",
+            "explicit": true,
+            "new_status": "declared_presidential"
+          }
+        }
+      ],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-27T06:45:29+00:00",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
     "bb25ba4ecb5846880c703bb9": {
       "canonical_confirmations": [
         {
@@ -39362,6 +39508,15 @@
       "status": "promoted",
       "url": "https://attalpresident.fr/programme"
     },
+    "68066e4698a7": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-27T06:45:34+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "2c95f4c79d527455edf34cc6c452e519b4376170c04af4587fce3c5d1124ef00",
+      "status": "promoted",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
     "6844d0fcdaed": {
       "chunks_done": null,
       "chunks_total": null,
@@ -39577,6 +39732,15 @@
       "source_sha256": "72f33e93fc1108060500fec9a8b8c91ec965cd76dbd91ffcec4c987955a0c255",
       "status": "promoted",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
+    "769996c0a1bf": {
+      "chunks_done": 2,
+      "chunks_total": 3,
+      "processed_at": "2026-09-27T06:45:22+00:00",
+      "reason": null,
+      "source_sha256": "eece34e9de755bac785fa15181e5ddcd5e2e25a604110a95f47be82eeb8fd872",
+      "status": "partial",
+      "url": "https://solutiondemocratique.fr/parrainage2027/"
     },
     "77171b3f0157": {
       "chunks_done": null,
@@ -40484,6 +40648,15 @@
       "source_sha256": "a98deebae6b48095d1430f0d022c7bc9043a6814583c0b58671493549d74be37",
       "status": "promoted",
       "url": "https://solutiondemocratique.fr/jean-luc-melenchon-programme-presidentielle2027/"
+    },
+    "af60cb740d62": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-27T06:45:09+00:00",
+      "reason": "chronology_or_scope_guard",
+      "source_sha256": "21df166f2bb506c159efbb805448f781c07309d4a5250fd027e43089abf927b8",
+      "status": "not_confirmed",
+      "url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne"
     },
     "af706114bc91": {
       "chunks_done": null,
