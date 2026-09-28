@@ -369,6 +369,15 @@
       "status": "not_confirmed",
       "url": "https://bsky.app/profile/marinetondelier.fr/post/3mugxlc6mic22"
     },
+    "47b2b67acb0714c36a68": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-28T23:56:59+00:00",
+      "provenance_updates": [],
+      "source_sha256": "a6d5d48b5f8db8eb399c93c1c20b79b29f5ad86dc5e6b64fd36816d7a1201cd4",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/watch?v=zEfhekhO6i0"
+    },
     "4997ba57e16aac1794e5": {
       "chunks_done": null,
       "chunks_total": null,
@@ -620,6 +629,24 @@
       "status": "not_confirmed",
       "url": "https://bsky.app/profile/lesecologistes.fr/post/3mvkmgep4n22s"
     },
+    "761cb5a2738c611d899a": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-28T23:56:57+00:00",
+      "provenance_updates": [],
+      "source_sha256": "1f5cebc9f9e82262cc480c9208fc8069adf06f24b986f557189ae257d19b6d55",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/shorts/rJBYjJj_R4U"
+    },
+    "7700259217da41ea6a2d": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-28T23:56:53+00:00",
+      "provenance_updates": [],
+      "source_sha256": "e3e242943829f4449dc69d67917890498c6d9d7f3e9efed3d280dbeb8db4b029",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/shorts/iLASk-Gw6aI"
+    },
     "775cc31ce5a07eae4c26": {
       "attempts": 1,
       "error": "ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
@@ -744,6 +771,15 @@
       "source_sha256": "872c3a7d2f4c0c6a7fe2e16871f23d1cde31c7dbaa9aed81bd91c8f64edf3f11",
       "status": "not_confirmed",
       "url": "https://www.youtube.com/watch?v=iaYU1YrTyAE"
+    },
+    "8e13920ed1601632cb3a": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-28T23:56:55+00:00",
+      "provenance_updates": [],
+      "source_sha256": "e0f35a59c028a111b3f8d226ed08978794649b82dd4856922f460958327ec2a4",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/watch?v=asozmhj8gtk"
     },
     "8f6df6cb42c66ad31d8c": {
       "chunks_done": null,
@@ -1566,7 +1602,7 @@
     }
   },
   "last_error_count": 0,
-  "last_processed_count": 0,
-  "last_run_at": "2026-09-28T07:09:24+00:00",
+  "last_processed_count": 4,
+  "last_run_at": "2026-09-28T23:57:00+00:00",
   "version": 2
 }
