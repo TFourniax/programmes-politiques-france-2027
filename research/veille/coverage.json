@@ -6,18 +6,18 @@
     "actors": 68,
     "declared_or_active_candidates": 27,
     "topics": 12,
-    "current_proposals": 1329,
-    "covered_actor_topic_cells": 150,
+    "current_proposals": 1330,
+    "covered_actor_topic_cells": 151,
     "total_actor_topic_cells": 816,
-    "actor_topic_coverage_ratio": 0.1838,
-    "active_candidate_covered_cells": 68,
+    "actor_topic_coverage_ratio": 0.185,
+    "active_candidate_covered_cells": 69,
     "active_candidate_total_cells": 324,
-    "active_candidate_topic_coverage_ratio": 0.2099,
-    "verified_proposals": 1294,
+    "active_candidate_topic_coverage_ratio": 0.213,
+    "verified_proposals": 1295,
     "multi_source_proposals": 77,
     "latest_evidence_at": "2026-09-29",
     "certainty_counts": {
-      "explicit": 1305,
+      "explicit": 1306,
       "explicit_but_conditional": 3,
       "explicit_but_underspecified": 21
     }
@@ -1847,12 +1847,13 @@
       "type": "candidate",
       "status": "declared_presidential",
       "confidence": "high",
-      "current_proposals": 0,
-      "covered_topics": [],
-      "coverage_ratio": 0.0,
+      "current_proposals": 1,
+      "covered_topics": [
+        "retraites"
+      ],
+      "coverage_ratio": 0.0833,
       "gaps": [
         "pouvoir-achat-travail",
-        "retraites",
         "fiscalite-redistribution",
         "immigration-integration",
         "europe-souverainete",
@@ -1864,8 +1865,8 @@
         "economie-finances",
         "numerique-ia"
       ],
-      "latest_evidence_at": null,
-      "verified_proposals": 0,
+      "latest_evidence_at": "2026-09-29",
+      "verified_proposals": 1,
       "multi_source_proposals": 0
     },
     {
@@ -1965,11 +1966,11 @@
     {
       "id": "retraites",
       "label": "Retraites",
-      "current_proposals": 22,
-      "actors_covered": 13,
-      "actor_coverage_ratio": 0.1912,
+      "current_proposals": 23,
+      "actors_covered": 14,
+      "actor_coverage_ratio": 0.2059,
       "latest_evidence_at": "2026-09-29",
-      "verified_proposals": 20,
+      "verified_proposals": 21,
       "multi_source_proposals": 7
     },
     {
@@ -5146,9 +5147,9 @@
       "id": "edouard-philippe",
       "name": "Édouard Philippe",
       "status": "declared_presidential",
-      "coverage_ratio": 0.0,
-      "current_proposals": 0,
-      "latest_evidence_at": null,
+      "coverage_ratio": 0.0833,
+      "current_proposals": 1,
+      "latest_evidence_at": "2026-09-29",
       "topics": [
         {
           "id": "pouvoir-achat-travail",
@@ -5162,10 +5163,10 @@
         {
           "id": "retraites",
           "label": "Retraites",
-          "covered": false,
-          "current_proposals": 0,
-          "latest_evidence_at": null,
-          "verified_proposals": 0,
+          "covered": true,
+          "current_proposals": 1,
+          "latest_evidence_at": "2026-09-29",
+          "verified_proposals": 1,
           "multi_source_proposals": 0
         },
         {
@@ -5505,28 +5506,6 @@
       ]
     },
     {
-      "id": "edouard-philippe",
-      "name": "Édouard Philippe",
-      "status": "declared_presidential",
-      "coverage_ratio": 0.0,
-      "current_proposals": 0,
-      "latest_evidence_at": null,
-      "gaps": [
-        "pouvoir-achat-travail",
-        "retraites",
-        "fiscalite-redistribution",
-        "immigration-integration",
-        "europe-souverainete",
-        "defense-international",
-        "ecologie-energie",
-        "institutions-democratie",
-        "services-publics",
-        "securite-justice",
-        "economie-finances",
-        "numerique-ia"
-      ]
-    },
-    {
       "id": "delphine-batho",
       "name": "Delphine Batho",
       "status": "party_designated",
@@ -5543,6 +5522,27 @@
         "ecologie-energie",
         "institutions-democratie",
         "services-publics",
+        "economie-finances",
+        "numerique-ia"
+      ]
+    },
+    {
+      "id": "edouard-philippe",
+      "name": "Édouard Philippe",
+      "status": "declared_presidential",
+      "coverage_ratio": 0.0833,
+      "current_proposals": 1,
+      "latest_evidence_at": "2026-09-29",
+      "gaps": [
+        "pouvoir-achat-travail",
+        "fiscalite-redistribution",
+        "immigration-integration",
+        "europe-souverainete",
+        "defense-international",
+        "ecologie-energie",
+        "institutions-democratie",
+        "services-publics",
+        "securite-justice",
         "economie-finances",
         "numerique-ia"
       ]

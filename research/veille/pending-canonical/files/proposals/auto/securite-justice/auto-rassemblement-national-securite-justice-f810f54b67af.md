@@ -5,7 +5,8 @@ entity_id: rassemblement-national
 topic: securite-justice
 certainty: explicit
 proposal_status: current
-source_document_ids: [auto-rassemblement-national-2026-09-11-168804013684, auto-rassemblement-national-2026-09-22-d07a6d0a9f19]
+source_document_ids: [auto-rassemblement-national-2026-09-11-168804013684, auto-rassemblement-national-2026-09-22-d07a6d0a9f19,
+  auto-rassemblement-national-2026-09-29-75a7531e97af]
 source_url: https://rassemblementnational.fr/
 source_tier: tier_1_primary_official
 first_documented_at: '2026-09-11'
@@ -15,9 +16,10 @@ verification_method: primary_source_exact_quote_plus_independent_gemini_verifier
 evidence_sha256: 3fef1671cc9b008965b97ae3f8fbb393c59d4b44033a5837b89130b926451659
 generated_by: scripts/auto_promote.py
 source_urls: ['https://rassemblementnational.fr/']
-evidence_sha256s: [3fef1671cc9b008965b97ae3f8fbb393c59d4b44033a5837b89130b926451659, f8540fd8ce02ada816a1cf3269e44ed8c30846847dbd4d7a1926c597616534e7]
-confirmation_count: 2
-last_confirmed_at: '2026-09-22'
+evidence_sha256s: [3fef1671cc9b008965b97ae3f8fbb393c59d4b44033a5837b89130b926451659, f8540fd8ce02ada816a1cf3269e44ed8c30846847dbd4d7a1926c597616534e7,
+  a8f27dd22ec3e7fca88c035d53328f5f58bb446f0618db399a813996460b549d]
+confirmation_count: 3
+last_confirmed_at: '2026-09-29'
 ---
 
 # Remettre la France en ordre et fermer les mosquées radicales

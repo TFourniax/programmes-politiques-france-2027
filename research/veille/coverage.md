@@ -8,10 +8,10 @@ Ce rapport est dérivé automatiquement du corpus courant. Il sert à piloter la
 
 - 68 acteurs référencés ;
 - 27 candidatures actives ou déclarées suivies ;
-- 1329 propositions atomiques courantes ;
-- 150 / 816 cases acteur × thème couvertes (18.4 %) ;
-- 68 / 324 cases candidat actif × thème couvertes (21.0 %) ;
-- 1294 propositions marquées vérifiées ; 77 appuyées par au moins deux documents de preuve.
+- 1330 propositions atomiques courantes ;
+- 151 / 816 cases acteur × thème couvertes (18.5 %) ;
+- 69 / 324 cases candidat actif × thème couvertes (21.3 %) ;
+- 1295 propositions marquées vérifiées ; 77 appuyées par au moins deux documents de preuve.
 
 ## Priorités documentaires
 
@@ -26,8 +26,8 @@ Ce rapport est dérivé automatiquement du corpus courant. Il sert à piloter la
 - **Philippe Brun** — 0 % des thèmes ; 0 proposition(s) ; lacunes prioritaires : pouvoir-achat-travail, retraites, fiscalite-redistribution, immigration-integration, europe-souverainete, defense-international…
 - **Ségolène Royal** — 0 % des thèmes ; 0 proposition(s) ; lacunes prioritaires : pouvoir-achat-travail, retraites, fiscalite-redistribution, immigration-integration, europe-souverainete, defense-international…
 - **Xavier Bertrand** — 0 % des thèmes ; 0 proposition(s) ; lacunes prioritaires : pouvoir-achat-travail, retraites, fiscalite-redistribution, immigration-integration, europe-souverainete, defense-international…
-- **Édouard Philippe** — 0 % des thèmes ; 0 proposition(s) ; lacunes prioritaires : pouvoir-achat-travail, retraites, fiscalite-redistribution, immigration-integration, europe-souverainete, defense-international…
 - **Delphine Batho** — 8 % des thèmes ; 1 proposition(s) ; dernière preuve 2026-06-07 ; lacunes prioritaires : pouvoir-achat-travail, retraites, fiscalite-redistribution, immigration-integration, europe-souverainete, defense-international…
+- **Édouard Philippe** — 8 % des thèmes ; 1 proposition(s) ; dernière preuve 2026-09-29 ; lacunes prioritaires : pouvoir-achat-travail, fiscalite-redistribution, immigration-integration, europe-souverainete, defense-international, ecologie-energie…
 - **Clara Egger** — 8 % des thèmes ; 2 proposition(s) ; dernière preuve 2026-06-12 ; lacunes prioritaires : pouvoir-achat-travail, retraites, fiscalite-redistribution, immigration-integration, europe-souverainete, defense-international…
 - **Manolo Mlekuz** — 8 % des thèmes ; 7 proposition(s) ; dernière preuve 2026-08-13 ; lacunes prioritaires : pouvoir-achat-travail, retraites, fiscalite-redistribution, immigration-integration, europe-souverainete, defense-international…
 
@@ -39,8 +39,8 @@ Ce rapport est dérivé automatiquement du corpus courant. Il sert à piloter la
 - **Europe & souveraineté** (`europe-souverainete`) — 12 acteur(s), 111 proposition(s), dernière preuve 2026-09-25.
 - **Immigration & intégration** (`immigration-integration`) — 12 acteur(s), 67 proposition(s), dernière preuve 2026-09-29.
 - **Institutions & démocratie** (`institutions-democratie`) — 13 acteur(s), 264 proposition(s), dernière preuve 2026-09-29.
-- **Retraites** (`retraites`) — 13 acteur(s), 22 proposition(s), dernière preuve 2026-09-29.
 - **Économie & finances publiques** (`economie-finances`) — 14 acteur(s), 122 proposition(s), dernière preuve 2026-09-26.
+- **Retraites** (`retraites`) — 14 acteur(s), 23 proposition(s), dernière preuve 2026-09-29.
 - **Sécurité & justice** (`securite-justice`) — 14 acteur(s), 147 proposition(s), dernière preuve 2026-09-29.
 - **Services publics** (`services-publics`) — 14 acteur(s), 233 proposition(s), dernière preuve 2026-09-26.
 - **Écologie & énergie** (`ecologie-energie`) — 17 acteur(s), 198 proposition(s), dernière preuve 2026-09-29.
