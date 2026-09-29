@@ -1843,7 +1843,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-09-28T23:56:52+00:00",
+  "last_run_at": "2026-09-29T07:06:35+00:00",
   "source_chunks": {
     "007774a3a0a3267f16b687a1": {
       "canonical_confirmations": [
@@ -5341,6 +5341,26 @@
       "total": 1,
       "updated_at": "2026-09-02T06:02:17+00:00",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
+    "1c8ea087e1e12780a16f2bf9": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-09-29T07:06:37+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "35a51f14ad61add32f4cdd0250493b19177d463558f085771f5239ac6406060f",
+      "source_title": "🔴 « Avec leur immense courage les lycéens nous montrent que c'est avec la mobilisation et le rappor",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-29T07:06:39+00:00",
+      "url": "https://www.youtube.com/shorts/-GAf9URr70Y"
     },
     "1d4a4d813343f94f5d066c8e": {
       "canonical_confirmations": [
@@ -12844,6 +12864,26 @@
       "updated_at": "2026-08-19T02:45:42+00:00",
       "url": "https://anasse2027.fr/"
     },
+    "4aecfb525605b098e62530fb": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-09-29T07:06:35+00:00",
+      "document_types": [
+        "other"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "7078a96741f4a5798b303ceff5e628cca309983a7d01a7638e87678e6f005e77",
+      "source_title": "PRIVATISATION des dépôts de bus : ATM Fontenay MALTRAITE les travailleurs et les usagers",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-29T07:06:36+00:00",
+      "url": "https://www.youtube.com/watch?v=GqCkZnGMOes"
+    },
     "4b25130d6bb56b9b96932b59": {
       "canonical_confirmations": [],
       "claims": [],
@@ -16222,7 +16262,7 @@
         }
       ],
       "claims": [],
-      "completed_at": "2026-09-28T23:56:01+00:00",
+      "completed_at": "2026-09-29T07:06:05+00:00",
       "created_at": "2026-09-28T23:55:49+00:00",
       "document_types": [
         "official_interview"
@@ -16249,7 +16289,7 @@
       ],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-09-28T23:55:54+00:00",
+      "updated_at": "2026-09-29T07:06:05+00:00",
       "url": "https://attalpresident.fr/actualites/gabriel-attal-sur-rtl-je-suis-candidat-pour-gagner-cette-election-presidentielle"
     },
     "64ce907dede074d2e1429e4d": {
@@ -16331,6 +16371,154 @@
       "total": 1,
       "updated_at": "2026-09-15T06:18:33+00:00",
       "url": "https://www.revolutionpermanente.fr/6-milliards-de-moins-pour-les-retraites-le-gouvernement-prepare-un-budget-2027-ultra-austeritaire"
+    },
+    "656ace2fb6a17e440426b9b2": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "rassemblement-national",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "réduction de la TVA de 20% à 5,5% sur l’énergie",
+            "relevance": "direct",
+            "statement": "Le Rassemblement National propose la réduction de la TVA sur l'énergie de 20% à 5,5%.",
+            "topic": "fiscalite-redistribution"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Présent dans CURRENT_CANONICAL.",
+            "related_proposal_id": "auto-rassemblement-national-fiscalite-redistribution-650411362d03",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "rassemblement-national",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Pour le RIC le référendum initiative citoyenne",
+            "relevance": "direct",
+            "statement": "Le Rassemblement National propose l'instauration du référendum d'initiative citoyenne (RIC).",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "Présent dans CURRENT_CANONICAL.",
+            "related_proposal_id": "auto-rassemblement-national-institutions-democratie-2ec6a69712fb",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "rassemblement-national",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Pour investir dans le nucléaire",
+            "relevance": "direct",
+            "statement": "Le Rassemblement National propose d'investir dans le nucléaire.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "Présent dans CURRENT_CANONICAL.",
+            "related_proposal_id": "auto-rassemblement-national-ecologie-energie-e7de1a3e9e8e",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "rassemblement-national",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Pour stopper la submersion migratoire",
+            "relevance": "direct",
+            "statement": "Le Rassemblement National propose de stopper la submersion migratoire.",
+            "topic": "immigration-integration"
+          },
+          "verdict": {
+            "index": 3,
+            "reason": "Présent dans CURRENT_CANONICAL.",
+            "related_proposal_id": "auto-rassemblement-national-immigration-integration-65a64162aec9",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "rassemblement-national",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Pour fermer les mosquées radicales",
+            "relevance": "direct",
+            "statement": "Le Rassemblement National propose de fermer les mosquées radicales.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 4,
+            "reason": "Présent dans CURRENT_CANONICAL.",
+            "related_proposal_id": "auto-rassemblement-national-securite-justice-5cb19d0cbcca",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "rassemblement-national",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Pour interdire le port du burkini",
+            "relevance": "direct",
+            "statement": "Le Rassemblement National propose d'interdire le port du burkini.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 5,
+            "reason": "Présent dans CURRENT_CANONICAL.",
+            "related_proposal_id": "auto-rassemblement-national-securite-justice-25fe73df9ce3",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "rassemblement-national",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "la retraite à 60 ans pour ceux qui commencent à travailler tôt",
+            "relevance": "direct",
+            "statement": "Le Rassemblement National propose la retraite à 60 ans pour ceux qui ont commencé à travailler tôt.",
+            "topic": "retraites"
+          },
+          "verdict": {
+            "index": 6,
+            "reason": "Présent dans CURRENT_CANONICAL.",
+            "related_proposal_id": "auto-rassemblement-national-retraites-fd538617cfee",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-09-29T07:06:26+00:00",
+      "created_at": "2026-09-29T07:06:09+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "bdeac4ff311981fe12279ae18a91d98151d4bcfa4229d11cfeeedc99b21652b6",
+      "source_title": "Rassemblement National - Accueil",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-29T07:06:19+00:00",
+      "url": "https://rassemblementnational.fr/"
     },
     "658d569cbe241bbe8d5e7c8c": {
       "canonical_confirmations": [
@@ -23535,7 +23723,7 @@
       "done": [
         0
       ],
-      "final_status": "promoted",
+      "final_status": "not_confirmed",
       "published_candidates": [
         "2026-06-01"
       ],
@@ -23554,7 +23742,7 @@
       ],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-09-28T23:56:39+00:00",
+      "updated_at": "2026-09-29T07:06:28+00:00",
       "url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne"
     },
     "a1a666a8c110678127d793a7": {
@@ -23923,6 +24111,26 @@
       "total": 1,
       "updated_at": "2026-08-15T02:36:16+00:00",
       "url": "https://www.youtube.com/watch?v=_h4KueBVAsw"
+    },
+    "a6fbf8b07cdf6cd592cf7af1": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-09-29T07:06:39+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "669948ecad668f75b0e40541d80ead9c9c6e8f97cd3d3563563e9a3eb2d5685c",
+      "source_title": "Cet été, ils ont combattu des incendies hors norme. Ils ont évacué, secouru, protégé. Ils étaient en première ligne face à un dérèglement climatique qui s’intensifie. Mais derrièr",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-29T07:06:41+00:00",
+      "url": "https://bsky.app/profile/lesecologistes.fr/post/3mwlvd73ajc2i"
     },
     "a80a5e517aa0bae2c664077a": {
       "canonical_confirmations": [],
@@ -38482,6 +38690,26 @@
       "updated_at": "2026-09-11T17:10:44+00:00",
       "url": "https://rassemblementnational.fr/"
     },
+    "fbfdd2a6e7e25958dd7bfd81": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-09-29T07:06:42+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "87c08364f6cc341d4dacf350b812ab6ee1347205b5f08626bc537cf8ed3076b8",
+      "source_title": "L’inscription de la liberté de recourir à l’IVG dans la Constitution a été une victoire historique. Mais inscrire un droit ne suffit pas : encore faut-il pouvoir l’exercer, parto",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-09-29T07:06:43+00:00",
+      "url": "https://bsky.app/profile/lesecologistes.fr/post/3mwlpnqan7c2w"
+    },
     "fc1ee1bf2c827e5f9aabb527": {
       "claims": [],
       "created_at": "2026-08-11T14:42:49+00:00",
@@ -40530,6 +40758,15 @@
       "status": "promoted",
       "url": "https://rassemblementnational.fr/"
     },
+    "5fe7cc7d8492": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-29T07:06:26+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "bdeac4ff311981fe12279ae18a91d98151d4bcfa4229d11cfeeedc99b21652b6",
+      "status": "promoted",
+      "url": "https://rassemblementnational.fr/"
+    },
     "600ba256f238": {
       "chunks_done": null,
       "chunks_total": 1,
@@ -40584,6 +40821,15 @@
       "status": "promoted",
       "url": "https://attalpresident.fr/actualites/gabriel-attal-sur-rtl-je-suis-candidat-pour-gagner-cette-election-presidentielle"
     },
+    "64f6d7b0d230": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-09-29T07:06:09+00:00",
+      "reason": null,
+      "source_sha256": "d8625c75b5424ceef471db8e4f900e66c75963d5e5ab0b751e1feda184154b96",
+      "status": "promoted",
+      "url": "https://attalpresident.fr/actualites/gabriel-attal-sur-rtl-je-suis-candidat-pour-gagner-cette-election-presidentielle"
+    },
     "6539f765e3fc": {
       "chunks_done": null,
       "chunks_total": null,
@@ -40635,6 +40881,15 @@
       "source_sha256": "0d8a65a8dc74d4f3b80db285ed2a18b91b378305bd81ab393f4f26637b9e888d",
       "status": "promoted",
       "url": "https://attalpresident.fr/programme"
+    },
+    "67a36d47d059": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-29T07:06:35+00:00",
+      "reason": "chronology_or_scope_guard",
+      "source_sha256": "4c6bd22546e2f26a2204cc4f2f1db5439e5326af69519dc2f03165f8ef4770eb",
+      "status": "not_confirmed",
+      "url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne"
     },
     "68066e4698a7": {
       "chunks_done": null,
