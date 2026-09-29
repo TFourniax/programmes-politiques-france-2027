@@ -683,6 +683,15 @@
       "status": "not_confirmed",
       "url": "https://www.youtube.com/shorts/rJBYjJj_R4U"
     },
+    "766e7ebc8b12d7a864e4": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-29T23:07:17+00:00",
+      "provenance_updates": [],
+      "source_sha256": "da1481fdc9bd19ddff661987f9abead2539b8e3f3b9c7599267e2239705ab1ed",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/shorts/YgXtGo1JfbE"
+    },
     "7700259217da41ea6a2d": {
       "chunks_done": null,
       "chunks_total": null,
@@ -735,6 +744,15 @@
       "source_sha256": "1a52cf97174c15bbadecbbb0c4ea794566420b814a7f1eeb997826ef0991cf4e",
       "status": "not_confirmed",
       "url": "https://bsky.app/profile/marinetondelier.fr/post/3mvdta4iaw227"
+    },
+    "7d02a464874d5e8e2275": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-29T23:07:15+00:00",
+      "provenance_updates": [],
+      "source_sha256": "9129e4e8c55e90086edbb80961e30695ae9469bf6351f903e35b3beb324dd9f9",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/shorts/H0BrTZN6gPE"
     },
     "7e6359a6c9f753fbed27": {
       "chunks_done": null,
@@ -1337,6 +1355,15 @@
       "status": "promoted",
       "url": "https://bsky.app/profile/marinetondelier.fr/post/3mu3gt3dnb22b"
     },
+    "d1491b0c524c32b7fb20": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-29T23:07:12+00:00",
+      "provenance_updates": [],
+      "source_sha256": "e85a698dea3714be114c4058c635a6030da6b0891e5f07a840b88ae6a06c6d18",
+      "status": "not_confirmed",
+      "url": "https://bsky.app/profile/lesecologistes.fr/post/3mwobysjxl22n"
+    },
     "d28a433547e88839dff1": {
       "chunks_done": null,
       "chunks_total": null,
@@ -1591,6 +1618,15 @@
       "status": "not_confirmed",
       "url": "https://www.youtube.com/watch?v=R-AJI1bI2gk"
     },
+    "f7aaa4217349db55c65d": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-29T23:07:13+00:00",
+      "provenance_updates": [],
+      "source_sha256": "d2030ee156b10d9285a53a0913437ae8117910a39272789f94f524d8cd943240",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/shorts/CmEEoxUPnsE"
+    },
     "f7b2e911df77c6a1673c": {
       "chunks_done": null,
       "chunks_total": null,
@@ -1675,6 +1711,6 @@
   },
   "last_error_count": 0,
   "last_processed_count": 4,
-  "last_run_at": "2026-09-29T14:16:07+00:00",
+  "last_run_at": "2026-09-29T23:07:18+00:00",
   "version": 2
 }
