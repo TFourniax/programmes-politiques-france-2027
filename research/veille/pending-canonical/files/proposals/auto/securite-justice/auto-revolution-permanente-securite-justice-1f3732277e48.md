@@ -5,7 +5,8 @@ entity_id: revolution-permanente
 topic: securite-justice
 certainty: explicit
 proposal_status: current
-source_document_ids: [auto-revolution-permanente-2026-09-18-a2bddb34357e, auto-revolution-permanente-2026-09-19-4055a48499f5]
+source_document_ids: [auto-revolution-permanente-2026-09-18-a2bddb34357e, auto-revolution-permanente-2026-09-19-4055a48499f5,
+  auto-revolution-permanente-2026-09-30-0e1a79e13a50]
 source_url: https://www.youtube.com/shorts/vyExyN2b4QI
 source_tier: tier_1_primary_official
 first_documented_at: '2026-09-18'
@@ -14,10 +15,11 @@ verification_state: verified
 verification_method: primary_source_exact_quote_plus_independent_gemini_verifier_plus_chronology_guard
 evidence_sha256: 04757d6e9858f034c418f9e47ca6f47c469688002783c6d48cd5fdb2696babd5
 generated_by: scripts/auto_promote.py
-source_urls: ['https://www.youtube.com/shorts/vyExyN2b4QI', 'https://www.youtube.com/shorts/DzWwSNAjje4']
-evidence_sha256s: [04757d6e9858f034c418f9e47ca6f47c469688002783c6d48cd5fdb2696babd5, 2563cd2fa27ac05d4d3ca61a8c68c1da10016f543df8c2cd5f104d9c9e648742]
-confirmation_count: 2
-last_confirmed_at: '2026-09-19'
+source_urls: ['https://www.youtube.com/shorts/vyExyN2b4QI', 'https://www.youtube.com/shorts/DzWwSNAjje4', 'https://www.youtube.com/shorts/TzFVB-iKU-k']
+evidence_sha256s: [04757d6e9858f034c418f9e47ca6f47c469688002783c6d48cd5fdb2696babd5, 2563cd2fa27ac05d4d3ca61a8c68c1da10016f543df8c2cd5f104d9c9e648742,
+  5a8e71ddad029a0782533e21899c67214fb500292087db72557d02a606970834]
+confirmation_count: 3
+last_confirmed_at: '2026-09-30'
 ---
 
 # Révolution Permanente demande l'abrogation de toutes les lois sécuritaires

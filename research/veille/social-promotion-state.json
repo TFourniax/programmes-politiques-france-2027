@@ -1,5 +1,16 @@
 {
   "events": {
+    "0002b9188378fcc9acc4": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-30T23:10:33+00:00",
+      "provenance_updates": [
+        "auto-revolution-permanente-securite-justice-1f3732277e48"
+      ],
+      "source_sha256": "5a8e71ddad029a0782533e21899c67214fb500292087db72557d02a606970834",
+      "status": "promoted",
+      "url": "https://www.youtube.com/shorts/TzFVB-iKU-k"
+    },
     "017bf3e1274ebef25fd1": {
       "chunks_done": null,
       "chunks_total": null,
@@ -98,6 +109,15 @@
       "source_sha256": "3d6b9ffb18b0ae4ca6110037772cf27fb5ff4987b1cb2639cb0f024fbe91f599",
       "status": "not_confirmed",
       "url": "https://www.youtube.com/watch?v=ge4fO8vYZCE"
+    },
+    "0c420747a0847f335ac4": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-30T23:10:35+00:00",
+      "provenance_updates": [],
+      "source_sha256": "c5bb60068f83675ea4c8eea86627d53b2e8ae423ccaab34ab829382f35bb823c",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/watch?v=iAjYlBZ__Y8"
     },
     "12582846766f128f2093": {
       "chunks_done": null,
@@ -816,6 +836,15 @@
       "source_sha256": "f4fe54cee32b4c060f18d62f79937afa4e846a3278700c385e25c752618ede96",
       "status": "not_confirmed",
       "url": "https://bsky.app/profile/marinetondelier.fr/post/3mvcoesties27"
+    },
+    "873116f4100bfd44d0ea": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-09-30T23:10:26+00:00",
+      "provenance_updates": [],
+      "source_sha256": "e55e7199b935f9dc8f1010fbea665ed4307de6e944ba567f7ce7d9e6890b3b02",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/shorts/ThNr2Z8iMJo"
     },
     "87589a2d1a142044ae27": {
       "chunks_done": null,
@@ -1764,7 +1793,7 @@
     }
   },
   "last_error_count": 0,
-  "last_processed_count": 4,
-  "last_run_at": "2026-09-30T13:59:31+00:00",
+  "last_processed_count": 3,
+  "last_run_at": "2026-09-30T23:10:35+00:00",
   "version": 2
 }

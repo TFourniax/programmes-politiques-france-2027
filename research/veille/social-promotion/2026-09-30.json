@@ -1,31 +1,32 @@
 {
   "errors": [],
-  "generated_at": "2026-09-30T13:59:31+00:00",
+  "generated_at": "2026-09-30T23:10:35+00:00",
   "partial": 0,
-  "processed": 4,
-  "promoted": 0,
+  "processed": 3,
+  "promoted": 1,
   "proposals_created": 0,
-  "provenance_updates": 0,
+  "provenance_updates": 1,
   "results": [
     {
-      "sha256": "c1409cbe1890178d730150340dc1db7a7046ab6d52ffd4207fead03e45d11e8a",
+      "sha256": "e55e7199b935f9dc8f1010fbea665ed4307de6e944ba567f7ce7d9e6890b3b02",
       "status": "not_confirmed",
-      "url": "https://www.youtube.com/watch?v=qrNUIShug6c"
+      "url": "https://www.youtube.com/shorts/ThNr2Z8iMJo"
     },
     {
-      "sha256": "b664583b365034559edc842920e60574bc039b94982b824f1e8310239f96e21a",
-      "status": "not_confirmed",
-      "url": "https://www.youtube.com/shorts/xX6dQdeIdsE"
+      "document": "corpus/2027/auto/partys/revolution-permanente/2026-09-30-0e1a79e13a50.md",
+      "provenance_updates": [
+        "auto-revolution-permanente-securite-justice-1f3732277e48"
+      ],
+      "reason": "canonical_duplicate_evidence",
+      "sha256": "5a8e71ddad029a0782533e21899c67214fb500292087db72557d02a606970834",
+      "status": "promoted",
+      "url": "https://www.youtube.com/shorts/TzFVB-iKU-k",
+      "verified_at": "2026-09-30T23:10:33+00:00"
     },
     {
-      "sha256": "e0b9b5d22eb9b2720d8e9ee3f005f1c5d3ee17f42df9ca07f49b6ee76fb5df8c",
+      "sha256": "c5bb60068f83675ea4c8eea86627d53b2e8ae423ccaab34ab829382f35bb823c",
       "status": "not_confirmed",
-      "url": "https://bsky.app/profile/lesecologistes.fr/post/3mwq5huigis2z"
-    },
-    {
-      "sha256": "2227740ed2e0323c13309c2d2b30e0eb2553747f9a2ea53c0c1c52908686a2d3",
-      "status": "not_confirmed",
-      "url": "https://www.youtube.com/watch?v=8chhFQ8KvLY"
+      "url": "https://www.youtube.com/watch?v=iAjYlBZ__Y8"
     }
   ],
   "status_updates": 0
