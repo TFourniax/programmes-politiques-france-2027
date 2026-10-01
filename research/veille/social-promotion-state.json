@@ -1375,6 +1375,15 @@
       "status": "not_confirmed",
       "url": "https://www.youtube.com/watch?v=HW03wZDi6Tk"
     },
+    "c80a578cc0488f1f7d3e": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-10-01T23:22:34+00:00",
+      "provenance_updates": [],
+      "source_sha256": "d057ea1a82554e0d611885f815a14d43b7f6be0d1a521c2a40b32e0b6febe0dd",
+      "status": "not_confirmed",
+      "url": "https://bsky.app/profile/lesecologistes.fr/post/3mwtjdtudo222"
+    },
     "c9ecafc985bda157e901": {
       "chunks_done": null,
       "chunks_total": null,
@@ -1383,6 +1392,17 @@
       "source_sha256": "a2ef503f01f9d48dc02dc031d6edf89a3c1f3593d3872b18b2d233ff9092cbbb",
       "status": "not_confirmed",
       "url": "https://bsky.app/profile/marinetondelier.fr/post/3mvs6d3fj3k23"
+    },
+    "cbd3791a2d6ddc14df7d": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-10-01T23:22:48+00:00",
+      "provenance_updates": [
+        "auto-revolution-permanente-pouvoir-achat-travail-19d0ccdf2147"
+      ],
+      "source_sha256": "dd8c456b5e579808c615b37e3e05914cbf03ee90131aa783aefe8d9f960a9a64",
+      "status": "promoted",
+      "url": "https://www.youtube.com/shorts/0eLRcjQWoDg"
     },
     "cbd7c8fb4cd034202e1d": {
       "chunks_done": null,
@@ -1647,6 +1667,15 @@
       "status": "not_confirmed",
       "url": "https://www.youtube.com/shorts/pBdk568DlEY"
     },
+    "ef1f642d3e090fcccb3d": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-10-01T23:22:36+00:00",
+      "provenance_updates": [],
+      "source_sha256": "d97071984820c68e024e81da4585c225ab68417ba99add204505518b20a784c3",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/shorts/Oj3OvVLH04o"
+    },
     "f02200a3100c96169fda": {
       "chunks_done": null,
       "chunks_total": null,
@@ -1655,6 +1684,15 @@
       "source_sha256": "b287288e7fd9a242b2540d8d29ffc7df8198dd2d641d9bac3536f9c5676e2001",
       "status": "not_confirmed",
       "url": "https://www.youtube.com/watch?v=YOrc3Ebz7T4"
+    },
+    "f05d3db389414216194e": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-10-01T23:22:31+00:00",
+      "provenance_updates": [],
+      "source_sha256": "01429449a922e1ff9bb66b85c7c0d4967019bbef3eba31f6c71e8be391107276",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/watch?v=RThJc18UjSc"
     },
     "f0bd4f8f3ce04a761785": {
       "chunks_done": null,
@@ -1811,7 +1849,7 @@
     }
   },
   "last_error_count": 0,
-  "last_processed_count": 2,
-  "last_run_at": "2026-10-01T14:40:36+00:00",
+  "last_processed_count": 4,
+  "last_run_at": "2026-10-01T23:22:48+00:00",
   "version": 2
 }

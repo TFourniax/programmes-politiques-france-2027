@@ -6,20 +6,20 @@
     "actors": 68,
     "declared_or_active_candidates": 27,
     "topics": 12,
-    "current_proposals": 1331,
-    "covered_actor_topic_cells": 151,
+    "current_proposals": 1332,
+    "covered_actor_topic_cells": 152,
     "total_actor_topic_cells": 816,
-    "actor_topic_coverage_ratio": 0.185,
+    "actor_topic_coverage_ratio": 0.1863,
     "active_candidate_covered_cells": 69,
     "active_candidate_total_cells": 324,
     "active_candidate_topic_coverage_ratio": 0.213,
-    "verified_proposals": 1296,
-    "multi_source_proposals": 78,
+    "verified_proposals": 1297,
+    "multi_source_proposals": 79,
     "latest_evidence_at": "2026-10-01",
     "certainty_counts": {
       "explicit": 1307,
       "explicit_but_conditional": 3,
-      "explicit_but_underspecified": 21
+      "explicit_but_underspecified": 22
     }
   },
   "topic_catalog": [
@@ -1655,27 +1655,27 @@
       "type": "party",
       "status": null,
       "confidence": null,
-      "current_proposals": 12,
+      "current_proposals": 13,
       "covered_topics": [
         "ecologie-energie",
         "economie-finances",
         "pouvoir-achat-travail",
         "retraites",
-        "securite-justice"
+        "securite-justice",
+        "services-publics"
       ],
-      "coverage_ratio": 0.4167,
+      "coverage_ratio": 0.5,
       "gaps": [
         "fiscalite-redistribution",
         "immigration-integration",
         "europe-souverainete",
         "defense-international",
         "institutions-democratie",
-        "services-publics",
         "numerique-ia"
       ],
-      "latest_evidence_at": "2026-09-30",
-      "verified_proposals": 12,
-      "multi_source_proposals": 3
+      "latest_evidence_at": "2026-10-01",
+      "verified_proposals": 13,
+      "multi_source_proposals": 4
     },
     {
       "id": "sarah-knafo",
@@ -1959,9 +1959,9 @@
       "current_proposals": 78,
       "actors_covered": 19,
       "actor_coverage_ratio": 0.2794,
-      "latest_evidence_at": "2026-09-27",
+      "latest_evidence_at": "2026-10-01",
       "verified_proposals": 71,
-      "multi_source_proposals": 9
+      "multi_source_proposals": 10
     },
     {
       "id": "retraites",
@@ -2036,11 +2036,11 @@
     {
       "id": "services-publics",
       "label": "Services publics",
-      "current_proposals": 233,
-      "actors_covered": 14,
-      "actor_coverage_ratio": 0.2059,
-      "latest_evidence_at": "2026-09-30",
-      "verified_proposals": 229,
+      "current_proposals": 234,
+      "actors_covered": 15,
+      "actor_coverage_ratio": 0.2206,
+      "latest_evidence_at": "2026-10-01",
+      "verified_proposals": 230,
       "multi_source_proposals": 6
     },
     {
