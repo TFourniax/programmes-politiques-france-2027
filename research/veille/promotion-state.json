@@ -1853,7 +1853,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-10-01T07:19:47+00:00",
+  "last_run_at": "2026-10-01T14:40:33+00:00",
   "source_chunks": {
     "007774a3a0a3267f16b687a1": {
       "canonical_confirmations": [
@@ -16729,7 +16729,7 @@
         }
       ],
       "claims": [],
-      "completed_at": "2026-10-01T07:19:01+00:00",
+      "completed_at": "2026-10-01T14:39:54+00:00",
       "created_at": "2026-09-28T23:55:49+00:00",
       "document_types": [
         "official_interview"
@@ -16756,7 +16756,7 @@
       ],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-10-01T07:19:01+00:00",
+      "updated_at": "2026-10-01T14:39:54+00:00",
       "url": "https://attalpresident.fr/actualites/gabriel-attal-sur-rtl-je-suis-candidat-pour-gagner-cette-election-presidentielle"
     },
     "64ce907dede074d2e1429e4d": {
@@ -24457,7 +24457,7 @@
       ],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-10-01T07:19:33+00:00",
+      "updated_at": "2026-10-01T14:40:20+00:00",
       "url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne"
     },
     "a1a666a8c110678127d793a7": {
@@ -37196,6 +37196,118 @@
       "updated_at": "2026-08-30T17:43:42+00:00",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
+    "e89b6fbab4355c6d0995d15f": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "rassemblement-national",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "réduction de la TVA de 20% à 5,5% sur l’énergie",
+            "relevance": "direct",
+            "statement": "Le Rassemblement National propose la réduction de la TVA sur l'énergie de 20% à 5,5%.",
+            "topic": "fiscalite-redistribution"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Présent explicitement dans la source et déjà dans le canon.",
+            "related_proposal_id": "auto-rassemblement-national-fiscalite-redistribution-650411362d03",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "rassemblement-national",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Pour le RIC le référendum initiative citoyenne",
+            "relevance": "direct",
+            "statement": "Le Rassemblement National soutient la mise en place du RIC (référendum d'initiative citoyenne).",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "Présent explicitement dans la source et déjà dans le canon.",
+            "related_proposal_id": "auto-rassemblement-national-institutions-democratie-2ec6a69712fb",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "rassemblement-national",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Pour investir dans le nucléaire",
+            "relevance": "direct",
+            "statement": "Le Rassemblement National est favorable aux investissements dans l'énergie nucléaire.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "Présent explicitement dans la source et déjà dans le canon.",
+            "related_proposal_id": "auto-rassemblement-national-ecologie-energie-e7de1a3e9e8e",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "rassemblement-national",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Pour fermer les mosquées radicales",
+            "relevance": "direct",
+            "statement": "Le Rassemblement National propose de fermer les mosquées radicales.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 3,
+            "reason": "Présent explicitement dans la source et déjà dans le canon.",
+            "related_proposal_id": "auto-rassemblement-national-securite-justice-5cb19d0cbcca",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "rassemblement-national",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "retraite à 60 ans pour ceux qui commencent à travailler tôt",
+            "relevance": "direct",
+            "statement": "Le Rassemblement National soutient le départ à la retraite à 60 ans pour ceux qui ont commencé à travailler tôt.",
+            "topic": "retraites"
+          },
+          "verdict": {
+            "index": 4,
+            "reason": "Présent explicitement dans la source et déjà dans le canon.",
+            "related_proposal_id": "auto-rassemblement-national-retraites-fd538617cfee",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-10-01T14:40:18+00:00",
+      "created_at": "2026-10-01T14:40:02+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "87db9de4d1c6a45555962ef7a8f57412be924e7c6d9fabd30c3ea668252883ee",
+      "source_title": "Rassemblement National - Accueil",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-10-01T14:40:07+00:00",
+      "url": "https://rassemblementnational.fr/"
+    },
     "e8ad53223c2b2d3ba2b667a2": {
       "canonical_confirmations": [
         {
@@ -37349,6 +37461,26 @@
       "total": 1,
       "updated_at": "2026-09-07T06:17:34+00:00",
       "url": "https://npa-revolutionnaires.org/articles/communique-presidentielle-2027-selma-labib-une-candidature-ouvriere-et-revolutionnaire-soutenue-par-gael-quirante"
+    },
+    "ea2d30f3e6270263211886bb": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-10-01T14:40:33+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "b61ce18dd239073f0a6737c1c2168c8baeef5d4808c7ea18728284f480150f1a",
+      "source_title": "🔴 Le mouvement doit S'AMPLIFIER ! Eustache, militant lycéen à RP, au micro de BFMTV",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-10-01T14:40:34+00:00",
+      "url": "https://www.youtube.com/shorts/u7nty7NqPL8"
     },
     "eac9b8b5ce6f9c899b007891": {
       "canonical_confirmations": [
@@ -39699,6 +39831,26 @@
       "updated_at": "2026-08-12T08:48:28+00:00",
       "url": "https://www.unenouvelleenergie.fr/notre-programme/sante/"
     },
+    "fa6714380734886113dd7c00": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-10-01T14:40:35+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "68f2ad4ff32e0a8fffb1e55ec19284ed2dc2f561474dc7e0d68b272b84c27a78",
+      "source_title": "🔴 LE HAVRE | Les TRAVAILLEURS font une CHAÎNE HUMAINE pour protéger les LYCÉENS",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-10-01T14:40:36+00:00",
+      "url": "https://www.youtube.com/shorts/FTQ1Gxul28Q"
+    },
     "facf4ffe97176ab0d35ba0cf": {
       "canonical_confirmations": [
         {
@@ -40558,6 +40710,15 @@
       "status": "promoted",
       "url": "https://www.revolutionpermanente.fr/Anasse-Kazib-2027"
     },
+    "0abd46fd7058": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-10-01T14:40:32+00:00",
+      "reason": "chronology_or_scope_guard",
+      "source_sha256": "4c6bd22546e2f26a2204cc4f2f1db5439e5326af69519dc2f03165f8ef4770eb",
+      "status": "not_confirmed",
+      "url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne"
+    },
     "0b0401b030de": {
       "chunks_done": null,
       "chunks_total": 1,
@@ -41084,6 +41245,15 @@
       "source_sha256": "1841b8fd670f23d8045bd9619c332a46ba1aa9a12785e4fc938ebb64d3dac6e6",
       "status": "promoted",
       "url": "https://solutiondemocratique.fr/bernard-cazeneuve-programme-presidentielle2027/"
+    },
+    "283c99145254": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-10-01T14:40:18+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "87db9de4d1c6a45555962ef7a8f57412be924e7c6d9fabd30c3ea668252883ee",
+      "status": "promoted",
+      "url": "https://rassemblementnational.fr/"
     },
     "283cc65d7f6b": {
       "chunks_done": null,
@@ -41633,6 +41803,15 @@
       "source_sha256": "ed477781633623166c7a9a45247cdc01b13b4fadbc7641b71469d027b63713d3",
       "status": "promoted",
       "url": "https://attalpresident.fr/programme/dette-de-letat"
+    },
+    "4154019e3aa1": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-10-01T14:40:01+00:00",
+      "reason": null,
+      "source_sha256": "d8625c75b5424ceef471db8e4f900e66c75963d5e5ab0b751e1feda184154b96",
+      "status": "promoted",
+      "url": "https://attalpresident.fr/actualites/gabriel-attal-sur-rtl-je-suis-candidat-pour-gagner-cette-election-presidentielle"
     },
     "41c0f6e8cdcb": {
       "chunks_done": null,
