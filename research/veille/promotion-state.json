@@ -1858,7 +1858,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-10-02T14:03:43+00:00",
+  "last_run_at": "2026-10-02T23:07:59+00:00",
   "source_chunks": {
     "007774a3a0a3267f16b687a1": {
       "canonical_confirmations": [
@@ -14158,6 +14158,28 @@
       "updated_at": "2026-09-20T16:58:10+00:00",
       "url": "https://www.youtube.com/watch?v=1AlcbLvqoZ0"
     },
+    "4c886a460cd6f7e814dea48e": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-10-02T23:07:57+00:00",
+      "document_types": [
+        "official_press_release"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [
+        "2026-06-17"
+      ],
+      "sha256": "d91895af2d29467784d823392f66adec6f12bd342ab0c7c7a72eb6db418914ac",
+      "source_title": "CommuniquÃ© â PrÃ©sidentielle 2027Â : Selma Labib, une candidature ouvriÃ¨re et rÃ©volutionnaire, soutenue par GaÃ«l Quirante â NPA RÃ©volutionnaires",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-10-02T23:07:58+00:00",
+      "url": "https://npa-revolutionnaires.org/articles/communique-presidentielle-2027-selma-labib-une-candidature-ouvriere-et-revolutionnaire-soutenue-par-gael-quirante"
+    },
     "4f98878606ec4cbd0e16da97": {
       "canonical_confirmations": [
         {
@@ -17221,7 +17243,7 @@
         }
       ],
       "claims": [],
-      "completed_at": "2026-10-02T14:03:05+00:00",
+      "completed_at": "2026-10-02T23:07:37+00:00",
       "created_at": "2026-09-28T23:55:49+00:00",
       "document_types": [
         "official_interview"
@@ -17248,7 +17270,7 @@
       ],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-10-02T14:03:05+00:00",
+      "updated_at": "2026-10-02T23:07:37+00:00",
       "url": "https://attalpresident.fr/actualites/gabriel-attal-sur-rtl-je-suis-candidat-pour-gagner-cette-election-presidentielle"
     },
     "64ce907dede074d2e1429e4d": {
@@ -25029,7 +25051,7 @@
       ],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-10-02T14:03:34+00:00",
+      "updated_at": "2026-10-02T23:07:45+00:00",
       "url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne"
     },
     "a1a666a8c110678127d793a7": {
@@ -41319,6 +41341,15 @@
       "status": "promoted",
       "url": "https://attalpresident.fr/programme"
     },
+    "078f0143e634": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-10-02T23:07:58+00:00",
+      "reason": null,
+      "source_sha256": "d91895af2d29467784d823392f66adec6f12bd342ab0c7c7a72eb6db418914ac",
+      "status": "not_confirmed",
+      "url": "https://npa-revolutionnaires.org/articles/communique-presidentielle-2027-selma-labib-une-candidature-ouvriere-et-revolutionnaire-soutenue-par-gael-quirante"
+    },
     "08c19ef04aa7": {
       "chunks_done": null,
       "chunks_total": null,
@@ -42295,6 +42326,15 @@
       "source_sha256": "ed477781633623166c7a9a45247cdc01b13b4fadbc7641b71469d027b63713d3",
       "status": "promoted",
       "url": "https://attalpresident.fr/programme/dette-de-letat"
+    },
+    "38cb9928968c": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-10-02T23:07:56+00:00",
+      "reason": "chronology_or_scope_guard",
+      "source_sha256": "4c6bd22546e2f26a2204cc4f2f1db5439e5326af69519dc2f03165f8ef4770eb",
+      "status": "not_confirmed",
+      "url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne"
     },
     "390437fd5fed": {
       "chunks_done": null,
@@ -44838,6 +44878,15 @@
       "source_sha256": "64c45da36a32d401ab74ddce449436ad1a478b2a03847264f2e5f2747d800938",
       "status": "promoted",
       "url": "https://attalpresident.fr/programme"
+    },
+    "c57b8f660f62": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-10-02T23:07:43+00:00",
+      "reason": null,
+      "source_sha256": "d8625c75b5424ceef471db8e4f900e66c75963d5e5ab0b751e1feda184154b96",
+      "status": "promoted",
+      "url": "https://attalpresident.fr/actualites/gabriel-attal-sur-rtl-je-suis-candidat-pour-gagner-cette-election-presidentielle"
     },
     "c57bd865c4a4": {
       "chunks_done": null,
