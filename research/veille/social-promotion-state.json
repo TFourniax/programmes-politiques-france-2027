@@ -236,6 +236,15 @@
       "status": "not_confirmed",
       "url": "https://www.youtube.com/shorts/xX6dQdeIdsE"
     },
+    "2466a2f92648169f4d2c": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-10-02T14:04:47+00:00",
+      "provenance_updates": [],
+      "source_sha256": "8eb53b228d60bd90649f74c1742df7a0d7d1c1964aa7d46172e32b7c13c7b724",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/watch?v=wPwTkuiHZOI"
+    },
     "257d2785046663a97d1a": {
       "chunks_done": null,
       "chunks_total": null,
@@ -397,6 +406,15 @@
       "source_sha256": "d3d61197ab4a1733f9ed5b355734ee16df743744a062a2848039fe847e044aac",
       "status": "not_confirmed",
       "url": "https://www.youtube.com/shorts/qnpgwVn_x2Q"
+    },
+    "413b3c620a01a182c433": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-10-02T14:03:54+00:00",
+      "provenance_updates": [],
+      "source_sha256": "900c1099ef791229ac2596cdbb6cdee0476fa4feaf9f319f799e8933c56b88de",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/watch?v=_ZC64Hlpwts"
     },
     "41b6801ff4cc34f4e5c7": {
       "chunks_done": null,
@@ -583,6 +601,15 @@
       "source_sha256": "02751611231a5004280395ef6704aaf50636259b320491e00e416631b1e19bc5",
       "status": "not_confirmed",
       "url": "https://www.youtube.com/watch?v=9OqwL6Bd0GU"
+    },
+    "5a3f05d3dde79a582bec": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-10-02T14:04:49+00:00",
+      "provenance_updates": [],
+      "source_sha256": "31d7aa38885bbc87a7fa6eb91fc1089515c434abaeea86b553ae26e86efe4a20",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/watch?v=6l19fqUDXas"
     },
     "5f1129692c934e76e0ec": {
       "chunks_done": null,
@@ -1114,6 +1141,15 @@
       "source_sha256": "683ca5af03fdd8691cbfa4779303efddac403b91ea39e548417c3ce2c75d8ecc",
       "status": "not_confirmed",
       "url": "https://bsky.app/profile/marinetondelier.fr/post/3muu6wakqz22t"
+    },
+    "aa76034ac6ded86ed2db": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-10-02T14:03:52+00:00",
+      "provenance_updates": [],
+      "source_sha256": "fa988bf2a9c1902e12f78d60b37889d1bc978c513a20adb6dbf72eb4ea74d1cd",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/shorts/D1BfgJEtFE4"
     },
     "ab0abf918fd9e86c851a": {
       "chunks_done": null,
@@ -1858,7 +1894,7 @@
     }
   },
   "last_error_count": 0,
-  "last_processed_count": 1,
-  "last_run_at": "2026-10-02T07:09:58+00:00",
+  "last_processed_count": 4,
+  "last_run_at": "2026-10-02T14:04:50+00:00",
   "version": 2
 }
