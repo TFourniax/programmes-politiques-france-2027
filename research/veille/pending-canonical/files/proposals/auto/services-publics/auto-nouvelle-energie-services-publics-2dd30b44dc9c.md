@@ -9,7 +9,8 @@ source_document_ids: [auto-nouvelle-energie-2026-08-12-84687a6089b8, auto-nouvel
   auto-nouvelle-energie-2026-08-20-062668f762e9, auto-nouvelle-energie-2026-08-20-db461737a8b9, auto-nouvelle-energie-2026-08-21-d893b570dcb9,
   auto-nouvelle-energie-2026-08-22-bc9d1a3db945, auto-nouvelle-energie-2026-08-23-46b893c63e59, auto-nouvelle-energie-2026-08-24-1de813c6e0b1,
   auto-nouvelle-energie-2026-08-29-60ca0cf36405, auto-nouvelle-energie-2026-09-06-6a0186575ca9, auto-nouvelle-energie-2026-09-23-7836ee564793,
-  auto-nouvelle-energie-2026-09-25-36cf82556469, auto-nouvelle-energie-2026-09-26-67e42d23e6b8, auto-nouvelle-energie-2026-09-30-eeeb26d50c88]
+  auto-nouvelle-energie-2026-09-25-36cf82556469, auto-nouvelle-energie-2026-09-26-67e42d23e6b8, auto-nouvelle-energie-2026-09-30-eeeb26d50c88,
+  auto-nouvelle-energie-2026-10-02-27442a1b35db]
 source_url: https://www.unenouvelleenergie.fr/notre-programme/
 source_tier: tier_1_primary_official
 first_documented_at: '2026-08-12'
@@ -26,9 +27,9 @@ evidence_sha256s: [483c5cca9ce4e53d7ffece152c3d6584b2f150047b234270422894776a01f
   939f7338f9f67b72b1e442381a044cb577b9f4f74d4860ca778843fba076263d, b5896d4573e65bd008a5b7697893011932cde3a7379a3c0da5e6a0b37268e332,
   adcdf2acaa158399a7b16231e8444690e99313251a57183f285e54e279431fdf, d4fcff90ce49e13e11165295a8a499b36bab01da11ca270fb56dd48af650c542,
   af63b2db6041ba8119da44da82ac46eff6442e33cb0a09c3825f3c1fa16f8bb9, c40499931ba4e8be04d29703fd525b3104eba7caa2bb0c49384382ff6b772abb,
-  cbd49848d737ad61a0f85b292919ef4410b853c74918639eb61d1520b44460ce]
-confirmation_count: 15
-last_confirmed_at: '2026-09-30'
+  cbd49848d737ad61a0f85b292919ef4410b853c74918639eb61d1520b44460ce, 1fda4ebc9b3384312897828c7c32ca5845fa7a15dc825d31a8605603b40af9c5]
+confirmation_count: 16
+last_confirmed_at: '2026-10-02'
 ---
 
 # Il faut supprimer la carte scolaire pour garantir la liberté des parents de scolariser leurs enfants où ils le veulent

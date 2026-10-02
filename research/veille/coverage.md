@@ -38,11 +38,11 @@ Ce rapport est dérivé automatiquement du corpus courant. Il sert à piloter la
 - **Fiscalité & redistribution** (`fiscalite-redistribution`) — 11 acteur(s), 74 proposition(s), dernière preuve 2026-10-01.
 - **Europe & souveraineté** (`europe-souverainete`) — 12 acteur(s), 111 proposition(s), dernière preuve 2026-09-25.
 - **Immigration & intégration** (`immigration-integration`) — 12 acteur(s), 67 proposition(s), dernière preuve 2026-10-01.
-- **Institutions & démocratie** (`institutions-democratie`) — 13 acteur(s), 265 proposition(s), dernière preuve 2026-10-01.
-- **Économie & finances publiques** (`economie-finances`) — 14 acteur(s), 122 proposition(s), dernière preuve 2026-09-26.
-- **Retraites** (`retraites`) — 14 acteur(s), 23 proposition(s), dernière preuve 2026-10-01.
+- **Institutions & démocratie** (`institutions-democratie`) — 13 acteur(s), 265 proposition(s), dernière preuve 2026-10-02.
+- **Économie & finances publiques** (`economie-finances`) — 14 acteur(s), 122 proposition(s), dernière preuve 2026-10-02.
+- **Retraites** (`retraites`) — 14 acteur(s), 23 proposition(s), dernière preuve 2026-10-02.
 - **Sécurité & justice** (`securite-justice`) — 14 acteur(s), 147 proposition(s), dernière preuve 2026-10-01.
-- **Services publics** (`services-publics`) — 15 acteur(s), 234 proposition(s), dernière preuve 2026-10-01.
+- **Services publics** (`services-publics`) — 15 acteur(s), 234 proposition(s), dernière preuve 2026-10-02.
 - **Écologie & énergie** (`ecologie-energie`) — 17 acteur(s), 198 proposition(s), dernière preuve 2026-10-01.
 - **Pouvoir d’achat & travail** (`pouvoir-achat-travail`) — 19 acteur(s), 78 proposition(s), dernière preuve 2026-10-01.
 
