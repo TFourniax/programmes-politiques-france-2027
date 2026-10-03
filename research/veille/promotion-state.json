@@ -1861,9 +1861,9 @@
       "verified_at": "2026-08-13T08:51:16+00:00"
     }
   },
-  "last_error_count": 0,
-  "last_processed_count": 3,
-  "last_run_at": "2026-10-03T06:43:06+00:00",
+  "last_error_count": 2,
+  "last_processed_count": 1,
+  "last_run_at": "2026-10-03T12:42:43+00:00",
   "source_chunks": {
     "007774a3a0a3267f16b687a1": {
       "canonical_confirmations": [
@@ -3128,6 +3128,26 @@
       "total": 2,
       "updated_at": "2026-08-15T10:45:25+00:00",
       "url": "https://solutiondemocratique.fr/juan-branco-2027-programme/"
+    },
+    "09b3191dfe1c401f1d075b3a": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-10-03T12:42:43+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "4d2b1e9ffcb7e191899e3812ad318f2801b91a584831d6956463805ed02bbf83",
+      "source_title": "Sarcelles : BLOCUS lycéen + profs EN GRÈVE face à la RÉPRESSION - Avec Anasse Kazib",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-10-03T12:42:44+00:00",
+      "url": "https://www.youtube.com/watch?v=IbgQp18l998"
     },
     "0a901488d31e931549ca0cf5": {
       "canonical_confirmations": [
@@ -17379,7 +17399,7 @@
         }
       ],
       "claims": [],
-      "completed_at": "2026-10-03T06:42:26+00:00",
+      "completed_at": "2026-10-03T12:42:34+00:00",
       "created_at": "2026-09-28T23:55:49+00:00",
       "document_types": [
         "official_interview"
@@ -17406,7 +17426,7 @@
       ],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-10-03T06:42:26+00:00",
+      "updated_at": "2026-10-03T12:42:34+00:00",
       "url": "https://attalpresident.fr/actualites/gabriel-attal-sur-rtl-je-suis-candidat-pour-gagner-cette-election-presidentielle"
     },
     "64ce907dede074d2e1429e4d": {
@@ -39261,6 +39281,26 @@
       "updated_at": "2026-09-26T06:18:13+00:00",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
+    "f220535f9833c1aa197f1761": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-10-03T12:42:45+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "c0017665f1b5facbe6cacaa288578b975a281e3b1bd8465d73797983cb648912",
+      "source_title": "🌓 Université d'Automne 2025 - Intervention du Shift Project, joute oratoire et discours de clôture",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-10-03T12:42:46+00:00",
+      "url": "https://www.youtube.com/watch?v=SDOe9xfgcxg"
+    },
     "f2380b9cb64f04946419a6f5": {
       "claims": [
         {
@@ -41873,10 +41913,10 @@
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
     "1e67d8d2b142": {
-      "attempts": 5,
+      "attempts": 6,
       "error": "ValueError: HTTP 403",
-      "next_retry_at": "2026-10-03T12:04:10+00:00",
-      "processed_at": "2026-09-19T12:04:10+00:00",
+      "next_retry_at": "2026-10-17T12:42:42+00:00",
+      "processed_at": "2026-10-03T12:42:42+00:00",
       "status": "technical_error",
       "url": "https://www.pcf.fr/presidentielle2027_fabien_roussel_designe_candidat"
     },
@@ -43466,6 +43506,15 @@
       "status": "promoted",
       "url": "https://solutiondemocratique.fr/jordan-bardella-programme-presidentielle-2027/"
     },
+    "714bfa807244": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-10-03T12:42:41+00:00",
+      "reason": null,
+      "source_sha256": "d8625c75b5424ceef471db8e4f900e66c75963d5e5ab0b751e1feda184154b96",
+      "status": "promoted",
+      "url": "https://attalpresident.fr/actualites/gabriel-attal-sur-rtl-je-suis-candidat-pour-gagner-cette-election-presidentielle"
+    },
     "72d3e99ceb3b": {
       "chunks_done": null,
       "chunks_total": null,
@@ -44743,10 +44792,10 @@
       "url": "https://attalpresident.fr/programme"
     },
     "b6e972fce670": {
-      "attempts": 5,
+      "attempts": 6,
       "error": "ValueError: HTTP 403",
-      "next_retry_at": "2026-10-03T12:04:11+00:00",
-      "processed_at": "2026-09-19T12:04:11+00:00",
+      "next_retry_at": "2026-10-17T12:42:42+00:00",
+      "processed_at": "2026-10-03T12:42:42+00:00",
       "status": "technical_error",
       "url": "https://www.pcf.fr/presidentielle_2027_mjcf_s_engage_pour_candidature_communiste"
     },
