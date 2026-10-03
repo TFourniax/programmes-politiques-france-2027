@@ -8,10 +8,10 @@ Ce rapport est dérivé automatiquement du corpus courant. Il sert à piloter la
 
 - 68 acteurs référencés ;
 - 27 candidatures actives ou déclarées suivies ;
-- 1332 propositions atomiques courantes ;
+- 1333 propositions atomiques courantes ;
 - 152 / 816 cases acteur × thème couvertes (18.6 %) ;
 - 69 / 324 cases candidat actif × thème couvertes (21.3 %) ;
-- 1297 propositions marquées vérifiées ; 79 appuyées par au moins deux documents de preuve.
+- 1298 propositions marquées vérifiées ; 79 appuyées par au moins deux documents de preuve.
 
 ## Priorités documentaires
 
@@ -38,9 +38,9 @@ Ce rapport est dérivé automatiquement du corpus courant. Il sert à piloter la
 - **Fiscalité & redistribution** (`fiscalite-redistribution`) — 11 acteur(s), 74 proposition(s), dernière preuve 2026-10-02.
 - **Europe & souveraineté** (`europe-souverainete`) — 12 acteur(s), 111 proposition(s), dernière preuve 2026-09-25.
 - **Immigration & intégration** (`immigration-integration`) — 12 acteur(s), 67 proposition(s), dernière preuve 2026-10-02.
-- **Institutions & démocratie** (`institutions-democratie`) — 13 acteur(s), 265 proposition(s), dernière preuve 2026-10-02.
-- **Économie & finances publiques** (`economie-finances`) — 14 acteur(s), 122 proposition(s), dernière preuve 2026-10-02.
-- **Retraites** (`retraites`) — 14 acteur(s), 23 proposition(s), dernière preuve 2026-10-02.
+- **Institutions & démocratie** (`institutions-democratie`) — 13 acteur(s), 266 proposition(s), dernière preuve 2026-10-03.
+- **Économie & finances publiques** (`economie-finances`) — 14 acteur(s), 122 proposition(s), dernière preuve 2026-10-03.
+- **Retraites** (`retraites`) — 14 acteur(s), 23 proposition(s), dernière preuve 2026-10-03.
 - **Sécurité & justice** (`securite-justice`) — 14 acteur(s), 147 proposition(s), dernière preuve 2026-10-02.
 - **Services publics** (`services-publics`) — 15 acteur(s), 234 proposition(s), dernière preuve 2026-10-02.
 - **Écologie & énergie** (`ecologie-energie`) — 17 acteur(s), 198 proposition(s), dernière preuve 2026-10-02.

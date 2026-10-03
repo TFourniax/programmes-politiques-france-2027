@@ -930,6 +930,11 @@
       "source_url": "https://www.youtube.com/shorts/cSfm9WOl4Zk",
       "verified_at": "2026-09-25T12:55:56+00:00"
     },
+    "7f7cea07de80e649acf54c71b233cb6c0bf9f32be96a437a000491429e0449a7": {
+      "proposal_id": "auto-nouvelle-energie-institutions-democratie-7f7cea07de80",
+      "source_url": "https://www.unenouvelleenergie.fr/notre-programme/",
+      "verified_at": "2026-10-03T06:42:58+00:00"
+    },
     "7fa0ceb0e5c14111a2807c9d8129f274433f7f34b81b0c1275a9a561f58753be": {
       "proposal_id": "auto-les-ecologistes-services-publics-7fa0ceb0e5c1",
       "source_url": "https://lesecologistes.fr/document/5ZhR2m5t2ZaGKqIdD1bJaD/vdef-programme-1.pdf",
@@ -1858,7 +1863,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-10-02T23:07:59+00:00",
+  "last_run_at": "2026-10-03T06:43:06+00:00",
   "source_chunks": {
     "007774a3a0a3267f16b687a1": {
       "canonical_confirmations": [
@@ -13230,6 +13235,137 @@
       "updated_at": "2026-08-18T02:40:10+00:00",
       "url": "https://bc2027.fr/ma-demarche"
     },
+    "47538c2b5df37301215e6ad3": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "david-lisnard",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "un État recentré sur ses missions régaliennes de sécurité et de défense",
+            "relevance": "direct",
+            "statement": "Recentrer l'État sur ses missions régaliennes de sécurité et de défense.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La proposition est explicitement présente dans la source et correspond au canonique existant.",
+            "related_proposal_id": "auto-david-lisnard-institutions-democratie-8a7a7019b8f9",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "nouvelle-energie",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "la réduction drastique des dépenses publiques",
+            "relevance": "direct",
+            "statement": "Mettre en œuvre une réduction drastique des dépenses publiques.",
+            "topic": "economie-finances"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "Présent dans le texte source et déjà enregistré dans le canonique.",
+            "related_proposal_id": "auto-nouvelle-energie-economie-finances-1ce2938e1f05",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "nouvelle-energie",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "la décentralisation radicale",
+            "relevance": "direct",
+            "statement": "Mettre en place une décentralisation radicale de l'action publique.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "La décentralisation radicale est mentionnée dans la source et constitue une formulation nouvelle par rapport aux entrées canoniques existantes.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "nouvelle-energie",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "suppression de la carte scolaire",
+            "relevance": "direct",
+            "statement": "Supprimer la carte scolaire pour garantir la liberté de choix des parents.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 3,
+            "reason": "Explicitement soutenu par la source et déjà présent dans le canonique.",
+            "related_proposal_id": "auto-nouvelle-energie-institutions-democratie-09aff9de5202",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "nouvelle-energie",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "la liberté pour les travailleurs de se constituer un capital pour leur retraite",
+            "relevance": "direct",
+            "statement": "Permettre aux travailleurs de se constituer un capital pour leur retraite par capitalisation.",
+            "topic": "retraites"
+          },
+          "verdict": {
+            "index": 4,
+            "reason": "Explicitement soutenu par la source et déjà présent dans le canonique.",
+            "related_proposal_id": "auto-nouvelle-energie-retraites-4b9149336ab7",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [
+        {
+          "claim": {
+            "actor_id": "nouvelle-energie",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "la décentralisation radicale",
+            "relevance": "direct",
+            "statement": "Mettre en place une décentralisation radicale de l'action publique.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "La décentralisation radicale est mentionnée dans la source et constitue une formulation nouvelle par rapport aux entrées canoniques existantes.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "completed_at": "2026-10-03T06:43:06+00:00",
+      "created_at": "2026-10-03T06:42:49+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "305a93b82e1ffb05af0c6a6cf8c4686de105876739e313d2a2231e036671963c",
+      "source_title": "Le programme de David Lisnard | Nouvelle Énergie",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-10-03T06:42:58+00:00",
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/"
+    },
     "4778ea3965c15a56f57aa1e6": {
       "canonical_confirmations": [
         {
@@ -17243,7 +17379,7 @@
         }
       ],
       "claims": [],
-      "completed_at": "2026-10-02T23:07:37+00:00",
+      "completed_at": "2026-10-03T06:42:26+00:00",
       "created_at": "2026-09-28T23:55:49+00:00",
       "document_types": [
         "official_interview"
@@ -17270,7 +17406,7 @@
       ],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-10-02T23:07:37+00:00",
+      "updated_at": "2026-10-03T06:42:26+00:00",
       "url": "https://attalpresident.fr/actualites/gabriel-attal-sur-rtl-je-suis-candidat-pour-gagner-cette-election-presidentielle"
     },
     "64ce907dede074d2e1429e4d": {
@@ -25051,7 +25187,7 @@
       ],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-10-02T23:07:45+00:00",
+      "updated_at": "2026-10-03T06:42:37+00:00",
       "url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne"
     },
     "a1a666a8c110678127d793a7": {
@@ -43906,6 +44042,15 @@
       "status": "promoted",
       "url": "https://www.debout-la-france.fr/actualite/je-serai-le-seul-candidat-en-2027-qui-veut-en-finir-avec-lunion-europeenne-%c2%b7-frontieres14-03-25/"
     },
+    "921b3502f55d": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-10-03T06:43:06+00:00",
+      "reason": null,
+      "source_sha256": "305a93b82e1ffb05af0c6a6cf8c4686de105876739e313d2a2231e036671963c",
+      "status": "promoted",
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/"
+    },
     "922360c86a1b": {
       "chunks_done": null,
       "chunks_total": null,
@@ -45101,6 +45246,15 @@
       "status": "not_confirmed",
       "url": "https://bc2027.fr/ma-demarche"
     },
+    "cd75d630515f": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-10-03T06:42:32+00:00",
+      "reason": null,
+      "source_sha256": "d8625c75b5424ceef471db8e4f900e66c75963d5e5ab0b751e1feda184154b96",
+      "status": "promoted",
+      "url": "https://attalpresident.fr/actualites/gabriel-attal-sur-rtl-je-suis-candidat-pour-gagner-cette-election-presidentielle"
+    },
     "cd820846e896": {
       "chunks_done": null,
       "chunks_total": null,
@@ -45907,6 +46061,15 @@
       "source_sha256": "4079359144d91e9924de77758611653c0af8b4901188217b1da036b74da2233a",
       "status": "promoted",
       "url": "https://solutiondemocratique.fr/dans-la-drome-solution-democratique-organise-neuf-votations-citoyennes-avant-la-venue-de-la-candidate-a-la-presidentielle-clara-egger/"
+    },
+    "f755fa9b3c49": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-10-03T06:42:47+00:00",
+      "reason": "chronology_or_scope_guard",
+      "source_sha256": "4c6bd22546e2f26a2204cc4f2f1db5439e5326af69519dc2f03165f8ef4770eb",
+      "status": "not_confirmed",
+      "url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne"
     },
     "f7961afe0215": {
       "chunks_done": null,
