@@ -1863,7 +1863,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-10-03T17:31:46+00:00",
+  "last_run_at": "2026-10-03T22:16:20+00:00",
   "source_chunks": {
     "007774a3a0a3267f16b687a1": {
       "canonical_confirmations": [
@@ -13655,6 +13655,26 @@
       "updated_at": "2026-08-19T02:45:42+00:00",
       "url": "https://anasse2027.fr/"
     },
+    "49570a3db61b1243b1ab7e65": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-10-03T22:16:20+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "4e29e7275fdf813530e5046256db71bb652bad37c5724f16f03015067647499d",
+      "source_title": "🔴 Sarcelles : BLOCUS lycéen et profs EN GRÈVE - Reportage avec Anasse Kazib",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-10-03T22:16:22+00:00",
+      "url": "https://www.youtube.com/shorts/HPgW59j9d7s"
+    },
     "4aecfb525605b098e62530fb": {
       "canonical_confirmations": [],
       "claims": [],
@@ -17432,7 +17452,7 @@
         }
       ],
       "claims": [],
-      "completed_at": "2026-10-03T17:31:24+00:00",
+      "completed_at": "2026-10-03T22:15:56+00:00",
       "created_at": "2026-09-28T23:55:49+00:00",
       "document_types": [
         "official_interview"
@@ -17459,7 +17479,7 @@
       ],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-10-03T17:31:24+00:00",
+      "updated_at": "2026-10-03T22:15:56+00:00",
       "url": "https://attalpresident.fr/actualites/gabriel-attal-sur-rtl-je-suis-candidat-pour-gagner-cette-election-presidentielle"
     },
     "64ce907dede074d2e1429e4d": {
@@ -20087,6 +20107,28 @@
       "total": 1,
       "updated_at": "2026-08-27T11:22:24+00:00",
       "url": "https://www.youtube.com/watch?v=zM1uI9xNHso"
+    },
+    "76adfa77a355d2857296ea9f": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-10-03T22:16:18+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [
+        "2026-10-03"
+      ],
+      "sha256": "41f64560d93a775fce2cbc9072684f23d9511d026a264ea96f0101f36888fe3b",
+      "source_title": "Où trouver le programme de David Lisnard ? | Nouvelle Énergie",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-10-03T22:16:20+00:00",
+      "url": "https://www.unenouvelleenergie.fr/questions/ou-trouver-le-programme-de-david-lisnard/"
     },
     "770e23bdd556f60748a40833": {
       "canonical_confirmations": [
@@ -25240,7 +25282,7 @@
       ],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-10-03T17:31:33+00:00",
+      "updated_at": "2026-10-03T22:16:05+00:00",
       "url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne"
     },
     "a1a666a8c110678127d793a7": {
@@ -42068,6 +42110,15 @@
       "status": "not_confirmed",
       "url": "https://npa-revolutionnaires.org/articles/selma-labib-candidate-aux-presidentielles-pour-le-npa-revolutionnaires-a-la-braderie-de-lille"
     },
+    "23e9a0d243d3": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-10-03T22:16:03+00:00",
+      "reason": null,
+      "source_sha256": "d8625c75b5424ceef471db8e4f900e66c75963d5e5ab0b751e1feda184154b96",
+      "status": "promoted",
+      "url": "https://attalpresident.fr/actualites/gabriel-attal-sur-rtl-je-suis-candidat-pour-gagner-cette-election-presidentielle"
+    },
     "240a37fd6045": {
       "chunks_done": null,
       "chunks_total": null,
@@ -42111,6 +42162,15 @@
       "reason": null,
       "source_sha256": "89240073cf8b5ad476043aa3c1a429c5833d6ad111411795e3d30ab8468ad280",
       "status": "promoted",
+      "url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne"
+    },
+    "26cca297c39a": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-10-03T22:16:17+00:00",
+      "reason": "chronology_or_scope_guard",
+      "source_sha256": "4c6bd22546e2f26a2204cc4f2f1db5439e5326af69519dc2f03165f8ef4770eb",
+      "status": "not_confirmed",
       "url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne"
     },
     "26eec3d4b452": {
@@ -43484,6 +43544,15 @@
       "source_sha256": "89240073cf8b5ad476043aa3c1a429c5833d6ad111411795e3d30ab8468ad280",
       "status": "promoted",
       "url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne"
+    },
+    "6eaa57371f2a": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-10-03T22:16:20+00:00",
+      "reason": null,
+      "source_sha256": "41f64560d93a775fce2cbc9072684f23d9511d026a264ea96f0101f36888fe3b",
+      "status": "not_confirmed",
+      "url": "https://www.unenouvelleenergie.fr/questions/ou-trouver-le-programme-de-david-lisnard/"
     },
     "6ecb0dc77a63": {
       "chunks_done": null,

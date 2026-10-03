@@ -90,7 +90,7 @@
       "error": "ValueError: HTTP 403",
       "event_url": "https://www.pcf.fr/une_candidature_de_gauche_au_service_de_l_aube_et_de_ses_communes",
       "owner": "Parti communiste français",
-      "processed_at": "2026-10-03T17:28:53+00:00",
+      "processed_at": "2026-10-03T22:13:41+00:00",
       "status": "technical_error"
     },
     "11b463101679": {
@@ -213,7 +213,7 @@
       "error": "ValueError: HTTP 403",
       "event_url": "https://www.pcf.fr/presidentielle2027_fabien_roussel_designe_candidat",
       "owner": "Parti communiste français",
-      "processed_at": "2026-10-03T17:28:48+00:00",
+      "processed_at": "2026-10-03T22:13:37+00:00",
       "status": "technical_error"
     },
     "1f6b60872535": {
@@ -275,6 +275,14 @@
       "reason": "no_deterministic_transition",
       "status": "not_applicable"
     },
+    "23e9a0d243d3": {
+      "candidate_id": "gabriel-attal",
+      "event_url": "https://attalpresident.fr/actualites/gabriel-attal-sur-rtl-je-suis-candidat-pour-gagner-cette-election-presidentielle",
+      "new_status": "declared_presidential",
+      "owner": "Gabriel Attal",
+      "processed_at": "2026-10-03T22:13:37+00:00",
+      "status": "already_current"
+    },
     "25461981014b": {
       "candidate_id": "clara-egger",
       "event_url": "https://solutiondemocratique.fr/a-quelle-condition-nous-sommes-pret-a-retirer-notre-candidature-a-la-presidentielle/",
@@ -294,6 +302,13 @@
       "event_url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne",
       "owner": "Gabriel Attal",
       "processed_at": "2026-09-16T06:10:51+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
+    "26cca297c39a": {
+      "event_url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne",
+      "owner": "Gabriel Attal",
+      "processed_at": "2026-10-03T22:13:41+00:00",
       "reason": "no_deterministic_transition",
       "status": "not_applicable"
     },
@@ -1340,7 +1355,7 @@
       "error": "ValueError: HTTP 403",
       "event_url": "https://www.pcf.fr/presidentielle_2027_mjcf_s_engage_pour_candidature_communiste",
       "owner": "Parti communiste français",
-      "processed_at": "2026-10-03T17:28:48+00:00",
+      "processed_at": "2026-10-03T22:13:37+00:00",
       "status": "technical_error"
     },
     "b7a4e7e6c4cd": {
@@ -1515,7 +1530,7 @@
       "error": "ValueError: HTTP 404",
       "event_url": "https://parti-equinoxe.fr/articles/2022/05/la-transition-energetique-selon-les-ex-candidats-a-la-presidentielle-2/",
       "owner": "Équinoxe",
-      "processed_at": "2026-10-03T17:28:50+00:00",
+      "processed_at": "2026-10-03T22:13:39+00:00",
       "status": "technical_error"
     },
     "cb3428b2b6d3": {
@@ -1965,7 +1980,7 @@
     }
   },
   "last_error_count": 4,
-  "last_run_at": "2026-10-03T17:28:53+00:00",
+  "last_run_at": "2026-10-03T22:13:41+00:00",
   "last_updated_count": 0,
   "version": 1
 }
