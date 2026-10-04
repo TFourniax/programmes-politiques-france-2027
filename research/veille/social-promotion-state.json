@@ -1421,6 +1421,15 @@
       "status": "not_confirmed",
       "url": "https://bsky.app/profile/marinetondelier.fr/post/3mvmp4gdjis2a"
     },
+    "c26a5a1b9c26e9ede010": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-10-04T17:47:28+00:00",
+      "provenance_updates": [],
+      "source_sha256": "2cd21febd3ccb10413fe4a4bc3e646119a8743d10d726cf2dd561202e68a7f4f",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/shorts/N8k5JWcOh4E"
+    },
     "c2bbde6d51142344e357": {
       "attempts": 1,
       "error": "RuntimeError: Gemini HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 57.874284555s.",
@@ -1437,6 +1446,15 @@
       "source_sha256": "766a92738105687285cd7e0d8e333dae264f4d39826e8635a67d3858f8a69fd8",
       "status": "not_confirmed",
       "url": "https://www.youtube.com/watch?v=iUutQpwP1ms"
+    },
+    "c69e03fdfaa4dd247059": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-10-04T17:47:32+00:00",
+      "provenance_updates": [],
+      "source_sha256": "dacd21d926fdca6d6e22f9a62244beda3392ab9eb3f6273b146a40e30aa244b2",
+      "status": "not_confirmed",
+      "url": "https://bsky.app/profile/marinetondelier.fr/post/3mx2ojqcrls2p"
     },
     "c6e552b73e0cdb7ffced": {
       "chunks_done": null,
@@ -1930,7 +1948,7 @@
     }
   },
   "last_error_count": 0,
-  "last_processed_count": 1,
-  "last_run_at": "2026-10-04T13:22:59+00:00",
+  "last_processed_count": 2,
+  "last_run_at": "2026-10-04T17:47:33+00:00",
   "version": 2
 }

@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created_at": "2026-08-17T19:57:19.441897+00:00",
-  "updated_at": "2026-10-04T13:23:01.854963+00:00",
+  "updated_at": "2026-10-04T17:47:36.622469+00:00",
   "files": [
     {
       "path": "corpus/2027/auto/candidates/anasse-kazib/2026-08-28-38891602d9d9.md",
@@ -657,6 +657,11 @@
       "path": "corpus/2027/auto/candidates/jean-luc-melenchon/2026-09-18-a1a666a8c110.md",
       "sha256": "99f12b6306b3eb9f82656ab72619f2e05a9b7b4048172fc10120f2b1a06bc179",
       "size": 1790
+    },
+    {
+      "path": "corpus/2027/auto/candidates/manolo-mlekuz/2026-10-03-de42d453bbd0.md",
+      "sha256": "7ffc971090961a8f93e982bf9d5f9703338ed5d73b36f6a8843f1d89e7ade1e7",
+      "size": 2328
     },
     {
       "path": "corpus/2027/auto/candidates/manolo-mlekuz/2026-10-04-6af4f91ca5c5.md",
@@ -2494,14 +2499,24 @@
       "size": 884
     },
     {
+      "path": "proposals/structured/institutions-democratie/structured-manolo-mlekuz-institutions-democratie-1e48ecb36bd7.md",
+      "sha256": "2b38a294e93b477af697e4cd8d359ee2b7ed6684e8aa42f87b9e3fbb5732dfe2",
+      "size": 1699
+    },
+    {
       "path": "proposals/structured/institutions-democratie/structured-manolo-mlekuz-institutions-democratie-586513b172e4.md",
-      "sha256": "f0c54956d20f9c65dad1266416cc97afa7f0bf99d0ce74520f5c0db7a7e3fca1",
-      "size": 1727
+      "sha256": "8a8a90a3725522c34ed2ae4b964c17361d79323f52567bdaf703a96ed5a813fc",
+      "size": 1811
     },
     {
       "path": "proposals/structured/institutions-democratie/structured-manolo-mlekuz-institutions-democratie-83fef3c4a224.md",
-      "sha256": "30c6bb286960dbc51bdbf8557030db2440d05ac08df89b9cf83536e1d76a43bb",
-      "size": 1757
+      "sha256": "cfe2d22b8331509bd3ad2b052d4dc1db278056e043d2f62851b580547c6c358f",
+      "size": 1841
+    },
+    {
+      "path": "proposals/structured/institutions-democratie/structured-manolo-mlekuz-institutions-democratie-951090d9b4d7.md",
+      "sha256": "cd2687ef5a875414389c769ab1002536489d15ee759b078f054deda786864223",
+      "size": 1779
     },
     {
       "path": "proposals/structured/institutions-democratie/structured-manolo-mlekuz-institutions-democratie-9a0c77e0006a.md",
@@ -2515,8 +2530,8 @@
     },
     {
       "path": "proposals/structured/institutions-democratie/structured-manolo-mlekuz-institutions-democratie-d23be58ce2a0.md",
-      "sha256": "4344dac25da5a4e56696491a9fec9be88aec4f229f72d2c3a4c4ce290795c24d",
-      "size": 1706
+      "sha256": "3f442ed0c114325fad87bac17841f9b11c0f3d185fad8335f2e1c7e1a0d94798",
+      "size": 1790
     }
   ],
   "deleted_files": []
