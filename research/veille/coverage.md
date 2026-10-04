@@ -11,7 +11,7 @@ Ce rapport est dérivé automatiquement du corpus courant. Il sert à piloter la
 - 1333 propositions atomiques courantes ;
 - 152 / 816 cases acteur × thème couvertes (18.6 %) ;
 - 69 / 324 cases candidat actif × thème couvertes (21.3 %) ;
-- 1298 propositions marquées vérifiées ; 79 appuyées par au moins deux documents de preuve.
+- 1298 propositions marquées vérifiées ; 84 appuyées par au moins deux documents de preuve.
 
 ## Priorités documentaires
 
@@ -29,7 +29,7 @@ Ce rapport est dérivé automatiquement du corpus courant. Il sert à piloter la
 - **Delphine Batho** — 8 % des thèmes ; 1 proposition(s) ; dernière preuve 2026-06-07 ; lacunes prioritaires : pouvoir-achat-travail, retraites, fiscalite-redistribution, immigration-integration, europe-souverainete, defense-international…
 - **Édouard Philippe** — 8 % des thèmes ; 1 proposition(s) ; dernière preuve 2026-09-29 ; lacunes prioritaires : pouvoir-achat-travail, fiscalite-redistribution, immigration-integration, europe-souverainete, defense-international, ecologie-energie…
 - **Clara Egger** — 8 % des thèmes ; 2 proposition(s) ; dernière preuve 2026-06-12 ; lacunes prioritaires : pouvoir-achat-travail, retraites, fiscalite-redistribution, immigration-integration, europe-souverainete, defense-international…
-- **Manolo Mlekuz** — 8 % des thèmes ; 7 proposition(s) ; dernière preuve 2026-08-13 ; lacunes prioritaires : pouvoir-achat-travail, retraites, fiscalite-redistribution, immigration-integration, europe-souverainete, defense-international…
+- **Manolo Mlekuz** — 8 % des thèmes ; 7 proposition(s) ; dernière preuve 2026-10-04 ; lacunes prioritaires : pouvoir-achat-travail, retraites, fiscalite-redistribution, immigration-integration, europe-souverainete, defense-international…
 
 ## Couverture par thème
 
@@ -38,7 +38,7 @@ Ce rapport est dérivé automatiquement du corpus courant. Il sert à piloter la
 - **Fiscalité & redistribution** (`fiscalite-redistribution`) — 11 acteur(s), 74 proposition(s), dernière preuve 2026-10-02.
 - **Europe & souveraineté** (`europe-souverainete`) — 12 acteur(s), 111 proposition(s), dernière preuve 2026-09-25.
 - **Immigration & intégration** (`immigration-integration`) — 12 acteur(s), 67 proposition(s), dernière preuve 2026-10-02.
-- **Institutions & démocratie** (`institutions-democratie`) — 13 acteur(s), 266 proposition(s), dernière preuve 2026-10-03.
+- **Institutions & démocratie** (`institutions-democratie`) — 13 acteur(s), 266 proposition(s), dernière preuve 2026-10-04.
 - **Économie & finances publiques** (`economie-finances`) — 14 acteur(s), 122 proposition(s), dernière preuve 2026-10-03.
 - **Retraites** (`retraites`) — 14 acteur(s), 23 proposition(s), dernière preuve 2026-10-03.
 - **Sécurité & justice** (`securite-justice`) — 14 acteur(s), 147 proposition(s), dernière preuve 2026-10-02.

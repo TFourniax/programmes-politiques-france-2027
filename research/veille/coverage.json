@@ -14,8 +14,8 @@
     "active_candidate_total_cells": 324,
     "active_candidate_topic_coverage_ratio": 0.213,
     "verified_proposals": 1298,
-    "multi_source_proposals": 79,
-    "latest_evidence_at": "2026-10-03",
+    "multi_source_proposals": 84,
+    "latest_evidence_at": "2026-10-04",
     "certainty_counts": {
       "explicit": 1308,
       "explicit_but_conditional": 3,
@@ -1202,9 +1202,9 @@
         "economie-finances",
         "numerique-ia"
       ],
-      "latest_evidence_at": "2026-08-13",
+      "latest_evidence_at": "2026-10-04",
       "verified_proposals": 7,
-      "multi_source_proposals": 0
+      "multi_source_proposals": 5
     },
     {
       "id": "marine-le-pen",
@@ -2029,9 +2029,9 @@
       "current_proposals": 266,
       "actors_covered": 13,
       "actor_coverage_ratio": 0.1912,
-      "latest_evidence_at": "2026-10-03",
+      "latest_evidence_at": "2026-10-04",
       "verified_proposals": 262,
-      "multi_source_proposals": 17
+      "multi_source_proposals": 22
     },
     {
       "id": "services-publics",
@@ -4087,7 +4087,7 @@
       "status": "declared_presidential",
       "coverage_ratio": 0.0833,
       "current_proposals": 7,
-      "latest_evidence_at": "2026-08-13",
+      "latest_evidence_at": "2026-10-04",
       "topics": [
         {
           "id": "pouvoir-achat-travail",
@@ -4157,9 +4157,9 @@
           "label": "Institutions & démocratie",
           "covered": true,
           "current_proposals": 7,
-          "latest_evidence_at": "2026-08-13",
+          "latest_evidence_at": "2026-10-04",
           "verified_proposals": 7,
-          "multi_source_proposals": 0
+          "multi_source_proposals": 5
         },
         {
           "id": "services-publics",
@@ -5574,7 +5574,7 @@
       "status": "declared_presidential",
       "coverage_ratio": 0.0833,
       "current_proposals": 7,
-      "latest_evidence_at": "2026-08-13",
+      "latest_evidence_at": "2026-10-04",
       "gaps": [
         "pouvoir-achat-travail",
         "retraites",

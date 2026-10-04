@@ -1658,6 +1658,15 @@
       "status": "not_confirmed",
       "url": "https://www.youtube.com/watch?v=4zd39v4AiZs"
     },
+    "dfb99c328a1c2e6f4d81": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-10-04T13:22:58+00:00",
+      "provenance_updates": [],
+      "source_sha256": "26830fc9a1fe24cff3e9a6d412e6b4dfec7f33c37b3d92a6d392d2b7638780e2",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/shorts/Kontv3UhUPM"
+    },
     "dfce7bc773c49d3ca9a0": {
       "chunks_done": null,
       "chunks_total": null,
@@ -1921,7 +1930,7 @@
     }
   },
   "last_error_count": 0,
-  "last_processed_count": 0,
-  "last_run_at": "2026-10-04T07:06:15+00:00",
+  "last_processed_count": 1,
+  "last_run_at": "2026-10-04T13:22:59+00:00",
   "version": 2
 }

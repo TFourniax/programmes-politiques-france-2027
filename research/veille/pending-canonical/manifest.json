@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created_at": "2026-08-17T19:57:19.441897+00:00",
-  "updated_at": "2026-10-04T07:06:19.340091+00:00",
+  "updated_at": "2026-10-04T13:23:01.854963+00:00",
   "files": [
     {
       "path": "corpus/2027/auto/candidates/anasse-kazib/2026-08-28-38891602d9d9.md",
@@ -657,6 +657,11 @@
       "path": "corpus/2027/auto/candidates/jean-luc-melenchon/2026-09-18-a1a666a8c110.md",
       "sha256": "99f12b6306b3eb9f82656ab72619f2e05a9b7b4048172fc10120f2b1a06bc179",
       "size": 1790
+    },
+    {
+      "path": "corpus/2027/auto/candidates/manolo-mlekuz/2026-10-04-6af4f91ca5c5.md",
+      "sha256": "9f00222cc6d843064cef254da77a1fcd5aacc110cb6fbcdbc2776a3561b1f8b1",
+      "size": 2487
     },
     {
       "path": "corpus/2027/auto/candidates/marine-tondelier/2026-08-27-75d9454c00ef.md",
@@ -2487,6 +2492,31 @@
       "path": "proposals/services-publics/les-ecologistes-2000-centres-sante.md",
       "sha256": "252638f1c4d87f93d0e00847063b87e5fcd3e475edcc7df8d44cd51306c2dbf8",
       "size": 884
+    },
+    {
+      "path": "proposals/structured/institutions-democratie/structured-manolo-mlekuz-institutions-democratie-586513b172e4.md",
+      "sha256": "f0c54956d20f9c65dad1266416cc97afa7f0bf99d0ce74520f5c0db7a7e3fca1",
+      "size": 1727
+    },
+    {
+      "path": "proposals/structured/institutions-democratie/structured-manolo-mlekuz-institutions-democratie-83fef3c4a224.md",
+      "sha256": "30c6bb286960dbc51bdbf8557030db2440d05ac08df89b9cf83536e1d76a43bb",
+      "size": 1757
+    },
+    {
+      "path": "proposals/structured/institutions-democratie/structured-manolo-mlekuz-institutions-democratie-9a0c77e0006a.md",
+      "sha256": "5a3652fb220398f7f9ab01da9ca27a7156bd50a1fa4d7ca2456caca67b409c68",
+      "size": 1691
+    },
+    {
+      "path": "proposals/structured/institutions-democratie/structured-manolo-mlekuz-institutions-democratie-9eb9efe01d58.md",
+      "sha256": "3c24fb3d4b9640807b9140763fcdf9c229b3b9c74e39e342cae853d98aeec887",
+      "size": 1709
+    },
+    {
+      "path": "proposals/structured/institutions-democratie/structured-manolo-mlekuz-institutions-democratie-d23be58ce2a0.md",
+      "sha256": "4344dac25da5a4e56696491a9fec9be88aec4f229f72d2c3a4c4ce290795c24d",
+      "size": 1706
     }
   ],
   "deleted_files": []
