@@ -17,7 +17,7 @@ source_document_ids: [auto-rassemblement-national-2026-09-11-168804013684, auto-
   auto-rassemblement-national-2026-09-25-b108a2844eb0, auto-rassemblement-national-2026-09-27-6b49643160e3, auto-rassemblement-national-2026-09-28-87183a4d8c64,
   auto-rassemblement-national-2026-09-28-4698908ef42b, auto-rassemblement-national-2026-09-29-656ace2fb6a1, auto-rassemblement-national-2026-09-29-75a7531e97af,
   auto-rassemblement-national-2026-09-30-40fdde23af63, auto-rassemblement-national-2026-10-01-cf8abc2824f7, auto-rassemblement-national-2026-10-02-307814c90023,
-  auto-rassemblement-national-2026-10-04-97c200df8f73]
+  auto-rassemblement-national-2026-10-04-97c200df8f73, auto-rassemblement-national-2026-10-05-c4b0a43c3be3]
 source_url: https://rassemblementnational.fr/
 source_tier: tier_1_primary_official
 first_documented_at: '2026-09-11'
@@ -44,9 +44,10 @@ evidence_sha256s: [3fef1671cc9b008965b97ae3f8fbb393c59d4b44033a5837b89130b926451
   95dade7cf9f6af92e2c3be5f82dde05f4bebdfbcfd76d39bb70522ddee200128, e36cd8ea4219edadc71a4ddff783dceb0bd67049a6f30e2832739a109c375616,
   bdeac4ff311981fe12279ae18a91d98151d4bcfa4229d11cfeeedc99b21652b6, a8f27dd22ec3e7fca88c035d53328f5f58bb446f0618db399a813996460b549d,
   77b9bb881b91952bfd85d89bbdffa5a4e7f957532c381609f831d9519366c307, 0c70c8298ac2e290733dc75fe8cda471f58d1e4da4fe7c44c779ad91e333c892,
-  9fb9a3df5cae79bfbbc305dd65d069f5bcfb3595a4d40821b973c0cac9b9974b, 7bf3829fb9ac87ef223d8cca16ef7e4a5933da185e6b9000499aa3735703fe9e]
-confirmation_count: 36
-last_confirmed_at: '2026-10-04'
+  9fb9a3df5cae79bfbbc305dd65d069f5bcfb3595a4d40821b973c0cac9b9974b, 7bf3829fb9ac87ef223d8cca16ef7e4a5933da185e6b9000499aa3735703fe9e,
+  417f06a1ce817e5b06659b980a8be4b453ea65e35f34e8a98c95907ee6552e8d]
+confirmation_count: 37
+last_confirmed_at: '2026-10-05'
 ---
 
 # Interdiction du port du burkini
