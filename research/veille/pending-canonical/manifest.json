@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created_at": "2026-08-17T19:57:19.441897+00:00",
-  "updated_at": "2026-10-04T22:27:43.975543+00:00",
+  "updated_at": "2026-10-05T07:16:58.312861+00:00",
   "files": [
     {
       "path": "corpus/2027/auto/candidates/anasse-kazib/2026-08-28-38891602d9d9.md",
@@ -919,6 +919,11 @@
       "size": 1548
     },
     {
+      "path": "corpus/2027/auto/partys/nouvelle-energie/2026-10-05-13bccb7f1b6e.md",
+      "sha256": "aa071b2cdcaa3788437f30286e5ec0cecf1cf805002484ce8e34db194fb8f386",
+      "size": 2241
+    },
+    {
       "path": "corpus/2027/auto/partys/npa-revolutionnaires/2026-07-04-14781613317c.md",
       "sha256": "221540dc18694a3ea4a52f600be2d1761259f9107c24cc4c93c8d8b70b23185f",
       "size": 1946
@@ -1550,8 +1555,8 @@
     },
     {
       "path": "proposals/auto/economie-finances/auto-david-lisnard-economie-finances-3591e11af1e3.md",
-      "sha256": "deb5ed989e866fd227c7a46020ddbbbd951700a99b5144217e1a231a53e19b00",
-      "size": 2370
+      "sha256": "c6ba4e0c694ae7e5ce13359fb9add9b69e7d4e66c5c62e52ac7ffa56bb6be4eb",
+      "size": 2485
     },
     {
       "path": "proposals/auto/economie-finances/auto-gabriel-attal-economie-finances-44c5426415ce.md",
@@ -1810,8 +1815,8 @@
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-david-lisnard-institutions-democratie-8a7a7019b8f9.md",
-      "sha256": "583b81d7b76a7737e72bf99060daeb1a6f165b64eaf9eefbd2d2e9221c5f91b9",
-      "size": 3331
+      "sha256": "eadebcfe697e4886bec3776331b5423c185746b0310c15d5997bb0d5c889e158",
+      "size": 3444
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-david-lisnard-institutions-democratie-8dc9338c9297.md",
@@ -1875,8 +1880,8 @@
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-nouvelle-energie-institutions-democratie-09aff9de5202.md",
-      "sha256": "ef5bbb14c4503b545fb4c36dc3b31f9adb1a8c0257409a93744727e115aece8b",
-      "size": 1785
+      "sha256": "dfa0b974c1004b93de9d87e0c2e3788ae622321e0db3d610f5219791b7c56456",
+      "size": 1900
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-nouvelle-energie-institutions-democratie-1d98a3b70af1.md",
@@ -2105,8 +2110,8 @@
     },
     {
       "path": "proposals/auto/retraites/auto-nouvelle-energie-retraites-4b9149336ab7.md",
-      "sha256": "d4b5e0b881b056af19a340b1285e0a8b285a5b5c2c1a1305cbccec23399bd1a7",
-      "size": 4917
+      "sha256": "3ab82e7a602b8a04643548046569567e51f52371263e4006aa40ca7255331274",
+      "size": 5034
     },
     {
       "path": "proposals/auto/retraites/auto-rassemblement-national-retraites-fd538617cfee.md",

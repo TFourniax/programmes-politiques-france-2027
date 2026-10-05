@@ -15,7 +15,7 @@
     "active_candidate_topic_coverage_ratio": 0.213,
     "verified_proposals": 1298,
     "multi_source_proposals": 86,
-    "latest_evidence_at": "2026-10-04",
+    "latest_evidence_at": "2026-10-05",
     "certainty_counts": {
       "explicit": 1308,
       "explicit_but_conditional": 3,
@@ -382,7 +382,7 @@
       ],
       "coverage_ratio": 1.0,
       "gaps": [],
-      "latest_evidence_at": "2026-10-03",
+      "latest_evidence_at": "2026-10-05",
       "verified_proposals": 35,
       "multi_source_proposals": 6
     },
@@ -1341,7 +1341,7 @@
         "securite-justice",
         "numerique-ia"
       ],
-      "latest_evidence_at": "2026-10-03",
+      "latest_evidence_at": "2026-10-05",
       "verified_proposals": 15,
       "multi_source_proposals": 11
     },
@@ -1969,7 +1969,7 @@
       "current_proposals": 23,
       "actors_covered": 14,
       "actor_coverage_ratio": 0.2059,
-      "latest_evidence_at": "2026-10-04",
+      "latest_evidence_at": "2026-10-05",
       "verified_proposals": 21,
       "multi_source_proposals": 7
     },
@@ -2029,7 +2029,7 @@
       "current_proposals": 266,
       "actors_covered": 13,
       "actor_coverage_ratio": 0.1912,
-      "latest_evidence_at": "2026-10-04",
+      "latest_evidence_at": "2026-10-05",
       "verified_proposals": 262,
       "multi_source_proposals": 24
     },
@@ -2059,7 +2059,7 @@
       "current_proposals": 122,
       "actors_covered": 14,
       "actor_coverage_ratio": 0.2059,
-      "latest_evidence_at": "2026-10-03",
+      "latest_evidence_at": "2026-10-05",
       "verified_proposals": 121,
       "multi_source_proposals": 12
     },
@@ -2789,7 +2789,7 @@
       "status": "declared_presidential",
       "coverage_ratio": 1.0,
       "current_proposals": 39,
-      "latest_evidence_at": "2026-10-03",
+      "latest_evidence_at": "2026-10-05",
       "topics": [
         {
           "id": "pouvoir-achat-travail",
@@ -2859,7 +2859,7 @@
           "label": "Institutions & démocratie",
           "covered": true,
           "current_proposals": 4,
-          "latest_evidence_at": "2026-10-03",
+          "latest_evidence_at": "2026-10-05",
           "verified_proposals": 3,
           "multi_source_proposals": 2
         },
@@ -2886,7 +2886,7 @@
           "label": "Économie & finances publiques",
           "covered": true,
           "current_proposals": 5,
-          "latest_evidence_at": "2026-10-02",
+          "latest_evidence_at": "2026-10-05",
           "verified_proposals": 4,
           "multi_source_proposals": 2
         },

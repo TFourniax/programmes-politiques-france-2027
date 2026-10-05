@@ -38,9 +38,9 @@ Ce rapport est dérivé automatiquement du corpus courant. Il sert à piloter la
 - **Fiscalité & redistribution** (`fiscalite-redistribution`) — 11 acteur(s), 74 proposition(s), dernière preuve 2026-10-04.
 - **Europe & souveraineté** (`europe-souverainete`) — 12 acteur(s), 111 proposition(s), dernière preuve 2026-09-25.
 - **Immigration & intégration** (`immigration-integration`) — 12 acteur(s), 67 proposition(s), dernière preuve 2026-10-04.
-- **Institutions & démocratie** (`institutions-democratie`) — 13 acteur(s), 266 proposition(s), dernière preuve 2026-10-04.
-- **Économie & finances publiques** (`economie-finances`) — 14 acteur(s), 122 proposition(s), dernière preuve 2026-10-03.
-- **Retraites** (`retraites`) — 14 acteur(s), 23 proposition(s), dernière preuve 2026-10-04.
+- **Institutions & démocratie** (`institutions-democratie`) — 13 acteur(s), 266 proposition(s), dernière preuve 2026-10-05.
+- **Économie & finances publiques** (`economie-finances`) — 14 acteur(s), 122 proposition(s), dernière preuve 2026-10-05.
+- **Retraites** (`retraites`) — 14 acteur(s), 23 proposition(s), dernière preuve 2026-10-05.
 - **Sécurité & justice** (`securite-justice`) — 14 acteur(s), 147 proposition(s), dernière preuve 2026-10-04.
 - **Services publics** (`services-publics`) — 15 acteur(s), 234 proposition(s), dernière preuve 2026-10-02.
 - **Écologie & énergie** (`ecologie-energie`) — 17 acteur(s), 198 proposition(s), dernière preuve 2026-10-04.
