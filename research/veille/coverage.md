@@ -35,7 +35,7 @@ Ce rapport est dérivé automatiquement du corpus courant. Il sert à piloter la
 
 - **Numérique & IA** (`numerique-ia`) — 5 acteur(s), 6 proposition(s), dernière preuve 2026-08-14.
 - **Défense & international** (`defense-international`) — 6 acteur(s), 7 proposition(s), dernière preuve 2026-08-14.
-- **Fiscalité & redistribution** (`fiscalite-redistribution`) — 11 acteur(s), 74 proposition(s), dernière preuve 2026-10-05.
+- **Fiscalité & redistribution** (`fiscalite-redistribution`) — 11 acteur(s), 74 proposition(s), dernière preuve 2026-10-06.
 - **Europe & souveraineté** (`europe-souverainete`) — 12 acteur(s), 111 proposition(s), dernière preuve 2026-09-25.
 - **Immigration & intégration** (`immigration-integration`) — 12 acteur(s), 67 proposition(s), dernière preuve 2026-10-06.
 - **Institutions & démocratie** (`institutions-democratie`) — 13 acteur(s), 266 proposition(s), dernière preuve 2026-10-06.
