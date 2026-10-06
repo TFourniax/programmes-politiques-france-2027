@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created_at": "2026-08-17T19:57:19.441897+00:00",
-  "updated_at": "2026-10-06T00:58:14.976897+00:00",
+  "updated_at": "2026-10-06T07:43:56.982303+00:00",
   "files": [
     {
       "path": "corpus/2027/auto/candidates/anasse-kazib/2026-08-28-38891602d9d9.md",
@@ -102,6 +102,11 @@
       "path": "corpus/2027/auto/candidates/anasse-kazib/2026-10-05-71ca461628b7.md",
       "sha256": "def9db27fd4e8598154ca64b9d8d03cafc489bb2900384503a283b819ef649d3",
       "size": 2088
+    },
+    {
+      "path": "corpus/2027/auto/candidates/anasse-kazib/2026-10-06-438c7e6ce789.md",
+      "sha256": "bee0b760374d1a3ded7f46c496e5ccf50c65fa96acc2c3d59b196edab43bd3fa",
+      "size": 1777
     },
     {
       "path": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-02b6fd496b7b.md",
@@ -1254,6 +1259,11 @@
       "size": 1751
     },
     {
+      "path": "corpus/2027/auto/partys/revolution-permanente/2026-10-05-b2fcd6801c67.md",
+      "sha256": "08049709a20e35bbe091f5c56818bebe6107abab0e4fdb05cc0347a3fdf4d6e8",
+      "size": 1644
+    },
+    {
       "path": "corpus/2027/auto/partys/solution-democratique/2025-04-09-3a8ec20cb386.md",
       "sha256": "268b288b348cf4405f1cd419a74efaaba0adce4475aeff9b10af9796146281ac",
       "size": 1763
@@ -2075,8 +2085,8 @@
     },
     {
       "path": "proposals/auto/pouvoir-achat-travail/auto-revolution-permanente-pouvoir-achat-travail-19d0ccdf2147.md",
-      "sha256": "217fad893e356c772dacd5431dddbb0864a0356d27434f58709ae01e2e8bd33b",
-      "size": 1752
+      "sha256": "02e9da919a2a3ad4ec3357d840ab591d796670c8f72805bf771916243a278867",
+      "size": 1861
     },
     {
       "path": "proposals/auto/pouvoir-achat-travail/auto-revolution-permanente-pouvoir-achat-travail-278029a02d45.md",
@@ -2457,6 +2467,11 @@
       "path": "proposals/auto/services-publics/auto-revolution-permanente-services-publics-a47c2801f2e7.md",
       "sha256": "411ad78aff46da2593ea76a1c30d4d3fd8d12a05b0537045851daa03c707a31f",
       "size": 1156
+    },
+    {
+      "path": "proposals/auto/services-publics/auto-revolution-permanente-services-publics-df4151efa088.md",
+      "sha256": "fe5bcc53b9604ec18107b151e31ff92aaddd27237e931ce71138ef3a18b6b746",
+      "size": 1568
     },
     {
       "path": "proposals/auto/services-publics/auto-revolution-permanente-services-publics-e1dc161102d7.md",

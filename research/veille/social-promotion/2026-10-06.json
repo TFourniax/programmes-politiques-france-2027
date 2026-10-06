@@ -1,11 +1,39 @@
 {
   "errors": [],
-  "generated_at": "2026-10-06T00:58:10+00:00",
+  "generated_at": "2026-10-06T07:43:54+00:00",
   "partial": 0,
-  "processed": 0,
-  "promoted": 0,
-  "proposals_created": 0,
+  "processed": 4,
+  "promoted": 1,
+  "proposals_created": 1,
   "provenance_updates": 0,
-  "results": [],
+  "results": [
+    {
+      "sha256": "3edaf37d9fd1b5863dcac1b6b2ab1139a3b6d4bbe80a72b6fe944960c43c8899",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/shorts/7bKwkUEy2rk"
+    },
+    {
+      "sha256": "4e7f086f7349e0f7a4d2917b5a605349822165e13528c5f23f3b6ef80f86f329",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/shorts/swlMKqB2YI0"
+    },
+    {
+      "sha256": "0a47268cefcf624fe6a986d9e8f2af4c8d23e4a039e0a2edb830373dba6cb6d4",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/shorts/mGpNtRHhtxQ"
+    },
+    {
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/partys/revolution-permanente/2026-10-05-b2fcd6801c67.md",
+      "proposals": [
+        "proposals/auto/services-publics/auto-revolution-permanente-services-publics-df4151efa088.md"
+      ],
+      "sha256": "161a9c9a90881d0840997376f3067af4fb4202bfea9f6745322a177b63ed52ba",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://www.youtube.com/watch?v=MFihvemEMVs",
+      "verified_at": "2026-10-06T07:43:50+00:00"
+    }
+  ],
   "status_updates": 0
 }

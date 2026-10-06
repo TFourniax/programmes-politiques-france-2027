@@ -1625,6 +1625,11 @@
       "source_url": "https://melenchon2027.fr/programme2025/livre/chapitre2/",
       "verified_at": "2026-08-12T21:48:14+00:00"
     },
+    "df4151efa088c0ef0ce60f90f8c1a7551d96412c9ebca18e51cc38a53f6d542c": {
+      "proposal_id": "auto-revolution-permanente-services-publics-df4151efa088",
+      "source_url": "https://www.youtube.com/watch?v=MFihvemEMVs",
+      "verified_at": "2026-10-06T07:43:50+00:00"
+    },
     "e190899e4938763414d4df594180d5334054178fe887fccbf2ed0748731e116f": {
       "proposal_id": "auto-la-france-insoumise-services-publics-e190899e4938",
       "source_url": "https://melenchon2027.fr/programme2025/livre/chapitre18/",
@@ -1868,7 +1873,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-10-06T00:58:10+00:00",
+  "last_run_at": "2026-10-06T07:43:40+00:00",
   "source_chunks": {
     "007774a3a0a3267f16b687a1": {
       "canonical_confirmations": [
@@ -12784,6 +12789,82 @@
       "updated_at": "2026-08-13T00:20:30+00:00",
       "url": "https://melenchon2027.fr/programme2025/livre/chapitre17/"
     },
+    "438c7e6ce789d9a669ffb1ae": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "revolution-permanente",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "l’augmentation du SMIC à 2000€",
+            "relevance": "direct",
+            "statement": "Augmentation du SMIC à 2000 euros.",
+            "topic": "pouvoir-achat-travail"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La source confirme explicitement l'augmentation du SMIC à 2000€ pour la campagne, déjà présent dans le canonique.",
+            "related_proposal_id": "auto-revolution-permanente-pouvoir-achat-travail-19d0ccdf2147",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "revolution-permanente",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "la semaine de 28h",
+            "relevance": "direct",
+            "statement": "Mise en place de la semaine de 28 heures.",
+            "topic": "pouvoir-achat-travail"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La source confirme explicitement la semaine de 28h, déjà présent dans le canonique.",
+            "related_proposal_id": "auto-revolution-permanente-pouvoir-achat-travail-0a812c69e566",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "revolution-permanente",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "l’abrogation de Parcoursup",
+            "relevance": "direct",
+            "statement": "Abrogation de Parcoursup.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "La source confirme explicitement l'abrogation de Parcoursup, déjà présent dans le canonique.",
+            "related_proposal_id": "auto-revolution-permanente-services-publics-e1dc161102d7",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-10-06T07:43:28+00:00",
+      "created_at": "2026-10-06T07:43:21+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "99519f0c8652e83d04b960c2407d227c92970f18f37b7644a68708130fff099a",
+      "source_title": "Colère lycéenne & campagne révolutionnaire : assemblée de RP avec Anasse Kazib & Elsa Marcel à Saint-Denis le 11 octobre !",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-10-06T07:43:26+00:00",
+      "url": "https://www.revolutionpermanente.fr/Une-candidature-ouvriere-et-revolutionnaire-en-2027-pour-quoi-faire-Assemblee-ouverte-de-RP-avec"
+    },
     "439f8b8605e67c8d9f92eb69": {
       "canonical_confirmations": [
         {
@@ -17613,7 +17694,7 @@
         }
       ],
       "claims": [],
-      "completed_at": "2026-10-06T00:57:45+00:00",
+      "completed_at": "2026-10-06T07:43:15+00:00",
       "created_at": "2026-09-28T23:55:49+00:00",
       "document_types": [
         "official_interview"
@@ -17640,7 +17721,7 @@
       ],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-10-06T00:57:45+00:00",
+      "updated_at": "2026-10-06T07:43:15+00:00",
       "url": "https://attalpresident.fr/actualites/gabriel-attal-sur-rtl-je-suis-candidat-pour-gagner-cette-election-presidentielle"
     },
     "64ce907dede074d2e1429e4d": {
@@ -19192,6 +19273,26 @@
       "total": 1,
       "updated_at": "2026-09-10T17:13:21+00:00",
       "url": "https://bsky.app/profile/lesecologistes.fr/post/3mv6c5s72hc2t"
+    },
+    "6c2a6bf7c4d0e2d0ceb99e48": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-10-06T07:43:44+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "0a47268cefcf624fe6a986d9e8f2af4c8d23e4a039e0a2edb830373dba6cb6d4",
+      "source_title": "🔴 TOULOUSE | Assemblée Générale massive à l'université du Mirail",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-10-06T07:43:45+00:00",
+      "url": "https://www.youtube.com/shorts/mGpNtRHhtxQ"
     },
     "6c4252da548f2dd662890dda": {
       "canonical_confirmations": [
@@ -24877,6 +24978,26 @@
       "updated_at": "2026-09-10T17:13:10+00:00",
       "url": "https://www.youtube.com/watch?v=ZaSkBxmMUa4"
     },
+    "9cd1f5a9b25249af15d52e47": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-10-06T07:43:42+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "4e7f086f7349e0f7a4d2917b5a605349822165e13528c5f23f3b6ef80f86f329",
+      "source_title": "Manifestations Dans Les Lycées",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-10-06T07:43:43+00:00",
+      "url": "https://www.youtube.com/shorts/swlMKqB2YI0"
+    },
     "9d20c22e1b43e420b517170c": {
       "canonical_confirmations": [],
       "claims": [],
@@ -25888,7 +26009,7 @@
       ],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-10-05T07:16:32+00:00",
+      "updated_at": "2026-10-06T07:43:31+00:00",
       "url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne"
     },
     "a1a666a8c110678127d793a7": {
@@ -31443,6 +31564,65 @@
       "updated_at": "2026-08-15T07:55:30+00:00",
       "url": "https://solutiondemocratique.fr/clementine-autain-programme-presidentielle2027/"
     },
+    "b2fcd6801c6774a9665c3e0a": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "revolution-permanente",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "pour en finir avec une éducation au service du grand patronat",
+            "relevance": "party_platform",
+            "statement": "Révolution Permanente défend un programme pour en finir avec une éducation au service du grand patronat et pour une école sous contrôle des travailleurs et des élèves.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La source soutient explicitement que Révolution Permanente défend un programme pour une éducation hors du service du grand patronat et sous contrôle des travailleurs et des élèves dans le cadre de la campagne présidentielle.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [
+        {
+          "claim": {
+            "actor_id": "revolution-permanente",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "pour en finir avec une éducation au service du grand patronat",
+            "relevance": "party_platform",
+            "statement": "Révolution Permanente défend un programme pour en finir avec une éducation au service du grand patronat et pour une école sous contrôle des travailleurs et des élèves.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La source soutient explicitement que Révolution Permanente défend un programme pour une éducation hors du service du grand patronat et sous contrôle des travailleurs et des élèves dans le cadre de la campagne présidentielle.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "completed_at": "2026-10-06T07:43:50+00:00",
+      "created_at": "2026-10-06T07:43:46+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "161a9c9a90881d0840997376f3067af4fb4202bfea9f6745322a177b63ed52ba",
+      "source_title": "De la RÉVOLTE LYCÉENNE à la GRÈVE GÉNÉRALE ?? - Édito d'Anasse Kazib",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-10-06T07:43:50+00:00",
+      "url": "https://www.youtube.com/watch?v=MFihvemEMVs"
+    },
     "b3109e2f42f11a8504c9d6f4": {
       "canonical_confirmations": [
         {
@@ -34289,6 +34469,26 @@
       "total": 1,
       "updated_at": "2026-09-23T22:28:14+00:00",
       "url": "https://rassemblementnational.fr/"
+    },
+    "c77059184bf7e5fb94381a34": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-10-06T07:43:40+00:00",
+      "document_types": [
+        "other"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "3edaf37d9fd1b5863dcac1b6b2ab1139a3b6d4bbe80a72b6fe944960c43c8899",
+      "source_title": "🔴 PARIS | Les lycéens de Hélène Boucher BLOQUENT le cours de Vincennes, les travailleurs FORMENT UN",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-10-06T07:43:41+00:00",
+      "url": "https://www.youtube.com/shorts/7bKwkUEy2rk"
     },
     "c7c8938c5ac2e171aea656f8": {
       "canonical_confirmations": [
@@ -44383,12 +44583,30 @@
       "status": "promoted",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
+    "61c2a0722836": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-10-06T07:43:28+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "99519f0c8652e83d04b960c2407d227c92970f18f37b7644a68708130fff099a",
+      "status": "promoted",
+      "url": "https://www.revolutionpermanente.fr/Une-candidature-ouvriere-et-revolutionnaire-en-2027-pour-quoi-faire-Assemblee-ouverte-de-RP-avec"
+    },
     "6430891b488a": {
       "chunks_done": null,
       "chunks_total": 1,
       "processed_at": "2026-09-28T07:08:34+00:00",
       "reason": null,
       "source_sha256": "032b696091e1ccfa4e191e356803d31216d15ec35809f7292cfb6f9154aab495",
+      "status": "promoted",
+      "url": "https://attalpresident.fr/actualites/gabriel-attal-sur-rtl-je-suis-candidat-pour-gagner-cette-election-presidentielle"
+    },
+    "64b741fe5ac2": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-10-06T07:43:20+00:00",
+      "reason": null,
+      "source_sha256": "d8625c75b5424ceef471db8e4f900e66c75963d5e5ab0b751e1feda184154b96",
       "status": "promoted",
       "url": "https://attalpresident.fr/actualites/gabriel-attal-sur-rtl-je-suis-candidat-pour-gagner-cette-election-presidentielle"
     },
@@ -44550,6 +44768,15 @@
       "reason": null,
       "source_sha256": "89240073cf8b5ad476043aa3c1a429c5833d6ad111411795e3d30ab8468ad280",
       "status": "promoted",
+      "url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne"
+    },
+    "6e2edc90e62b": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-10-06T07:43:39+00:00",
+      "reason": "chronology_or_scope_guard",
+      "source_sha256": "4c6bd22546e2f26a2204cc4f2f1db5439e5326af69519dc2f03165f8ef4770eb",
+      "status": "not_confirmed",
       "url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne"
     },
     "6eaa57371f2a": {
