@@ -1630,6 +1630,11 @@
       "source_url": "https://melenchon2027.fr/programme2025/livre/chapitre18/",
       "verified_at": "2026-08-13T00:20:36+00:00"
     },
+    "e1dc161102d7acf9e26cd1467d2c713640d7469b250a73ecb40f2031e7063e52": {
+      "proposal_id": "auto-revolution-permanente-services-publics-e1dc161102d7",
+      "source_url": "https://www.revolutionpermanente.fr/Une-candidature-ouvriere-et-revolutionnaire-en-2027-pour-quoi-faire-Assemblee-ouverte-de-RP-avec",
+      "verified_at": "2026-10-06T00:58:02+00:00"
+    },
     "e3ad7d091ec92566b628c4eba17c1f31f73d6d5529037f9fcd1e642670ea4e23": {
       "proposal_id": "auto-la-france-insoumise-securite-justice-e3ad7d091ec9",
       "source_url": "https://melenchon2027.fr/programme2025/livre/chapitre7/",
@@ -1863,7 +1868,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-10-05T16:15:00+00:00",
+  "last_run_at": "2026-10-06T00:58:10+00:00",
   "source_chunks": {
     "007774a3a0a3267f16b687a1": {
       "canonical_confirmations": [
@@ -17608,7 +17613,7 @@
         }
       ],
       "claims": [],
-      "completed_at": "2026-10-05T16:14:34+00:00",
+      "completed_at": "2026-10-06T00:57:45+00:00",
       "created_at": "2026-09-28T23:55:49+00:00",
       "document_types": [
         "official_interview"
@@ -17635,7 +17640,7 @@
       ],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-10-05T16:14:34+00:00",
+      "updated_at": "2026-10-06T00:57:45+00:00",
       "url": "https://attalpresident.fr/actualites/gabriel-attal-sur-rtl-je-suis-candidat-pour-gagner-cette-election-presidentielle"
     },
     "64ce907dede074d2e1429e4d": {
@@ -19986,6 +19991,101 @@
       "total": 1,
       "updated_at": "2026-08-16T02:44:49+00:00",
       "url": "https://solutiondemocratique.fr/marine-le-pen-programme-2027/"
+    },
+    "71ca461628b74842eeb029a0": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "revolution-permanente",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "l’augmentation du SMIC à 2000€",
+            "relevance": "direct",
+            "statement": "Augmentation du SMIC à 2000 euros.",
+            "topic": "pouvoir-achat-travail"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La proposition d'augmentation du SMIC à 2000€ est explicitement présente dans la source et correspond au claim canonique existant.",
+            "related_proposal_id": "auto-revolution-permanente-pouvoir-achat-travail-19d0ccdf2147",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "revolution-permanente",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "les 28h de travail par semaine",
+            "relevance": "direct",
+            "statement": "Instauration de la semaine de travail de 28 heures.",
+            "topic": "pouvoir-achat-travail"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La mesure des 28 heures par semaine est explicitement soutenue par la source et déjà présente dans le canon.",
+            "related_proposal_id": "auto-revolution-permanente-pouvoir-achat-travail-0a812c69e566",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "revolution-permanente",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "l’abolition de Parcoursup, des moyens massifs pour l’éducation",
+            "relevance": "direct",
+            "statement": "Abolition de Parcoursup et investissement massif dans l'éducation.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "L'abolition de Parcoursup et les moyens massifs pour l'éducation constituent une nouvelle mesure explicite non présente dans le canon actuel.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [
+        {
+          "claim": {
+            "actor_id": "revolution-permanente",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "l’abolition de Parcoursup, des moyens massifs pour l’éducation",
+            "relevance": "direct",
+            "statement": "Abolition de Parcoursup et investissement massif dans l'éducation.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "L'abolition de Parcoursup et les moyens massifs pour l'éducation constituent une nouvelle mesure explicite non présente dans le canon actuel.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "completed_at": "2026-10-06T00:58:09+00:00",
+      "created_at": "2026-10-06T00:57:55+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "763ca7ac0cc5db9ea3b5f612afa4a83881a1778cd3d600eee18d8991650e6d91",
+      "source_title": "Une candidature ouvrière et révolutionnaire en 2027 : pour quoi faire ? Assemblée ouverte de RP avec Anasse Kazib & Elsa Marcel à Saint-Denis",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-10-06T00:58:02+00:00",
+      "url": "https://www.revolutionpermanente.fr/Une-candidature-ouvriere-et-revolutionnaire-en-2027-pour-quoi-faire-Assemblee-ouverte-de-RP-avec"
     },
     "725374f4769744927ec636e3": {
       "canonical_confirmations": [],
@@ -39641,6 +39741,26 @@
       "updated_at": "2026-08-27T11:22:20+00:00",
       "url": "https://www.youtube.com/shorts/0C2BXI3g_qs"
     },
+    "ec83e3ee34fd45b4555eda57": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-10-06T00:57:53+00:00",
+      "document_types": [
+        "other"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "5a2af28962105894becbb8f89e3f7210047f048e3e7284e6306adc0b8e097671",
+      "source_title": "Budget 2027 : l'austérité sur le dos des travailleurs et des retraités pour préserver les cadeaux du patronat",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-10-06T00:57:54+00:00",
+      "url": "https://www.revolutionpermanente.fr/Budget-2027-l-austerite-sur-le-dos-des-travailleurs-et-des-retraites-pour-preserver-les-cadeaux-du"
+    },
     "ecda18f08a71ef5f7fb0c5c4": {
       "canonical_confirmations": [],
       "claims": [],
@@ -45600,6 +45720,15 @@
       "status": "promoted",
       "url": "https://attalpresident.fr/programme/dette-de-letat"
     },
+    "ae88d322fd58": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-10-06T00:57:52+00:00",
+      "reason": null,
+      "source_sha256": "d8625c75b5424ceef471db8e4f900e66c75963d5e5ab0b751e1feda184154b96",
+      "status": "promoted",
+      "url": "https://attalpresident.fr/actualites/gabriel-attal-sur-rtl-je-suis-candidat-pour-gagner-cette-election-presidentielle"
+    },
     "ae946f8bbaf8": {
       "chunks_done": null,
       "chunks_total": 1,
@@ -45841,6 +45970,15 @@
       "source_sha256": "351fc0c685122756d7196c609a5987fcb21afc969b167fea443bb0b1fe4da9ec",
       "status": "not_confirmed",
       "url": "https://trajectoire2027.fr/programme.html"
+    },
+    "b79e654dac4a": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-10-06T00:57:54+00:00",
+      "reason": null,
+      "source_sha256": "5a2af28962105894becbb8f89e3f7210047f048e3e7284e6306adc0b8e097671",
+      "status": "not_confirmed",
+      "url": "https://www.revolutionpermanente.fr/Budget-2027-l-austerite-sur-le-dos-des-travailleurs-et-des-retraites-pour-preserver-les-cadeaux-du"
     },
     "b7a4e7e6c4cd": {
       "chunks_done": null,
@@ -46785,6 +46923,15 @@
       "source_sha256": "8cc3a8c96c51c33a46afacbfcbabae1df3c4834eb396f2bdd6445cc6f5970f17",
       "status": "not_confirmed",
       "url": "https://npa-revolutionnaires.org/communique-presidentielle-2027-selma-labib-une-candidature-ouvriere-et-revolutionnaire-soutenue-par-gael-quirante/"
+    },
+    "e0a937fb5871": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-10-06T00:58:09+00:00",
+      "reason": null,
+      "source_sha256": "763ca7ac0cc5db9ea3b5f612afa4a83881a1778cd3d600eee18d8991650e6d91",
+      "status": "promoted",
+      "url": "https://www.revolutionpermanente.fr/Une-candidature-ouvriere-et-revolutionnaire-en-2027-pour-quoi-faire-Assemblee-ouverte-de-RP-avec"
     },
     "e0b37c4e9712": {
       "chunks_done": null,

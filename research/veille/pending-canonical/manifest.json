@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created_at": "2026-08-17T19:57:19.441897+00:00",
-  "updated_at": "2026-10-05T16:15:09.855966+00:00",
+  "updated_at": "2026-10-06T00:58:14.976897+00:00",
   "files": [
     {
       "path": "corpus/2027/auto/candidates/anasse-kazib/2026-08-28-38891602d9d9.md",
@@ -97,6 +97,11 @@
       "path": "corpus/2027/auto/candidates/anasse-kazib/2026-09-27-007774a3a0a3.md",
       "sha256": "0e578d803ce5ed0a05c19574b9be3d2390bb5a2872b5af9fc331c6ba94ab3dee",
       "size": 1975
+    },
+    {
+      "path": "corpus/2027/auto/candidates/anasse-kazib/2026-10-05-71ca461628b7.md",
+      "sha256": "def9db27fd4e8598154ca64b9d8d03cafc489bb2900384503a283b819ef649d3",
+      "size": 2088
     },
     {
       "path": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-02b6fd496b7b.md",
@@ -2065,13 +2070,13 @@
     },
     {
       "path": "proposals/auto/pouvoir-achat-travail/auto-revolution-permanente-pouvoir-achat-travail-0a812c69e566.md",
-      "sha256": "e0523e9afff99f35a1064b3b47419d144b365630e0d0ef7579d2ef5ca95df3e2",
-      "size": 1265
+      "sha256": "8352458bbeef25395c65b02a5455f5688cfd77c6136141a10a51cd4ec74a59e2",
+      "size": 1709
     },
     {
       "path": "proposals/auto/pouvoir-achat-travail/auto-revolution-permanente-pouvoir-achat-travail-19d0ccdf2147.md",
-      "sha256": "6e80fa4c19172da44be1248a59964137b749ed7460dec7158164ab06d392ec2b",
-      "size": 1503
+      "sha256": "217fad893e356c772dacd5431dddbb0864a0356d27434f58709ae01e2e8bd33b",
+      "size": 1752
     },
     {
       "path": "proposals/auto/pouvoir-achat-travail/auto-revolution-permanente-pouvoir-achat-travail-278029a02d45.md",
@@ -2452,6 +2457,11 @@
       "path": "proposals/auto/services-publics/auto-revolution-permanente-services-publics-a47c2801f2e7.md",
       "sha256": "411ad78aff46da2593ea76a1c30d4d3fd8d12a05b0537045851daa03c707a31f",
       "size": 1156
+    },
+    {
+      "path": "proposals/auto/services-publics/auto-revolution-permanente-services-publics-e1dc161102d7.md",
+      "sha256": "a4b348315f92549f17db7987b2b297a3b92c60f6cd589e2a490edb7fd5fe8bce",
+      "size": 1337
     },
     {
       "path": "proposals/ecologie-energie/les-ecologistes-location-sociale-vehicules-electriques.md",
