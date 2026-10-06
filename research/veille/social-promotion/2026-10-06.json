@@ -1,38 +1,31 @@
 {
   "errors": [],
-  "generated_at": "2026-10-06T07:43:54+00:00",
+  "generated_at": "2026-10-06T19:03:11+00:00",
   "partial": 0,
   "processed": 4,
-  "promoted": 1,
-  "proposals_created": 1,
+  "promoted": 0,
+  "proposals_created": 0,
   "provenance_updates": 0,
   "results": [
     {
-      "sha256": "3edaf37d9fd1b5863dcac1b6b2ab1139a3b6d4bbe80a72b6fe944960c43c8899",
+      "sha256": "8dbf378ba1dad08270132564a210a474001e0f29f26517945363fd18a173e90f",
       "status": "not_confirmed",
-      "url": "https://www.youtube.com/shorts/7bKwkUEy2rk"
+      "url": "https://www.youtube.com/shorts/ewC-o33J-uM"
     },
     {
-      "sha256": "4e7f086f7349e0f7a4d2917b5a605349822165e13528c5f23f3b6ef80f86f329",
+      "sha256": "e782b6d5ac4c5645127e66209dd58030b59495a158ad66adbef56334f0ef25de",
       "status": "not_confirmed",
-      "url": "https://www.youtube.com/shorts/swlMKqB2YI0"
+      "url": "https://www.youtube.com/shorts/bHaPHwBEEck"
     },
     {
-      "sha256": "0a47268cefcf624fe6a986d9e8f2af4c8d23e4a039e0a2edb830373dba6cb6d4",
+      "sha256": "3ecd0e87f26aa680a229fac3f4b05e625bf4397fa03f7c871a959cb73ecf0b98",
       "status": "not_confirmed",
-      "url": "https://www.youtube.com/shorts/mGpNtRHhtxQ"
+      "url": "https://www.youtube.com/shorts/9m9xlVUz99w"
     },
     {
-      "chunks_total": 1,
-      "document": "corpus/2027/auto/partys/revolution-permanente/2026-10-05-b2fcd6801c67.md",
-      "proposals": [
-        "proposals/auto/services-publics/auto-revolution-permanente-services-publics-df4151efa088.md"
-      ],
-      "sha256": "161a9c9a90881d0840997376f3067af4fb4202bfea9f6745322a177b63ed52ba",
-      "status": "promoted",
-      "status_updates": [],
-      "url": "https://www.youtube.com/watch?v=MFihvemEMVs",
-      "verified_at": "2026-10-06T07:43:50+00:00"
+      "sha256": "c4c209b006427a0f3a5390997c4017202f76bba0ce744e5d26aabe94ef816459",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/shorts/7wf-aMZnG_k"
     }
   ],
   "status_updates": 0

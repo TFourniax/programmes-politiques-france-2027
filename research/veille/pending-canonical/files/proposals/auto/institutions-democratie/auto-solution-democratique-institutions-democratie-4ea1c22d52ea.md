@@ -19,7 +19,7 @@ source_document_ids: [auto-solution-democratique-2026-04-05-2490d151b5b8, auto-s
   auto-solution-democratique-2026-08-19-adcc906c08e8, auto-solution-democratique-2026-09-07-7b19fa990a25, auto-solution-democratique-2026-06-22-0a901488d31e,
   auto-solution-democratique-2026-07-17-1a899874ca3f, auto-solution-democratique-2026-04-19-8d31a195667f, auto-solution-democratique-2026-06-19-420a5d767890,
   auto-solution-democratique-2026-06-12-bb25ba4ecb58, auto-solution-democratique-2025-04-09-b383d487d67a, auto-solution-democratique-2026-09-07-287c1d7f2a11,
-  auto-solution-democratique-2026-09-22-19bf77383424, auto-solution-democratique-2026-09-30-634688ad31e8]
+  auto-solution-democratique-2026-09-22-19bf77383424, auto-solution-democratique-2026-09-30-634688ad31e8, auto-solution-democratique-2026-05-03-19e00d67de67]
 source_url: https://solutiondemocratique.fr/segolene-royal-programme-presidentielle2027/
 source_tier: tier_1_primary_official
 first_documented_at: '2026-04-05'
@@ -67,9 +67,9 @@ evidence_sha256s: [0b013c630f2281528d927d3c6ac7bbed832efeb82d7536d7e0ad37cee3b09
   d6a688c9e203fa3533f22613fc957c5c7f692370331b716ad6ecc52ab2aa6398, f287ff07bb5f24911282b3c14ae3ece25d984974ab175b5ec42857ee2fbc45ae,
   bfd9e9ef84ff76dcaf050e2729f841e7f6907dab609cfa2b7c399fecc42204d8, 88947b7f3e685f572b3c4246220845e5f21fa9f484c981524c94cefe74c1a000,
   4079359144d91e9924de77758611653c0af8b4901188217b1da036b74da2233a, 6ecb73a9503ee86225ab19bf48cd9d6837084ff998fcd7d5e15b1b8d316fff2b,
-  eece34e9de755bac785fa15181e5ddcd5e2e25a604110a95f47be82eeb8fd872]
-confirmation_count: 43
-last_confirmed_at: '2026-09-30'
+  eece34e9de755bac785fa15181e5ddcd5e2e25a604110a95f47be82eeb8fd872, dd069495a022fe1a39f1df30a72ab26543fcfd3b6446906fd19c750a957a3f54]
+confirmation_count: 44
+last_confirmed_at: '2026-05-03'
 ---
 
 # Solution Démocratique souhaite instaurer la démocratie directe et la décentralisation par le bas en France

@@ -19,7 +19,7 @@ source_document_ids: [auto-rassemblement-national-2026-08-11-b4e6fdd3c6e7, auto-
   auto-rassemblement-national-2026-09-28-4698908ef42b, auto-rassemblement-national-2026-09-29-656ace2fb6a1, auto-rassemblement-national-2026-09-29-75a7531e97af,
   auto-rassemblement-national-2026-09-30-40fdde23af63, auto-rassemblement-national-2026-09-30-51ec78e50e2b, auto-rassemblement-national-2026-10-01-cf8abc2824f7,
   auto-rassemblement-national-2026-10-01-e89b6fbab435, auto-rassemblement-national-2026-10-01-3b1ce8439647, auto-rassemblement-national-2026-10-02-307814c90023,
-  auto-rassemblement-national-2026-10-04-97c200df8f73, auto-rassemblement-national-2026-10-05-c4b0a43c3be3]
+  auto-rassemblement-national-2026-10-04-97c200df8f73, auto-rassemblement-national-2026-10-05-c4b0a43c3be3, auto-rassemblement-national-2026-10-06-c6fcefcc76a6]
 source_url: https://rassemblementnational.fr/
 source_tier: tier_1_primary_official
 first_documented_at: '2026-08-11'
@@ -49,9 +49,9 @@ evidence_sha256s: [e9d2ee7a0fba8b07f65a57d2e71d6dd2dda1128fec6a240299a2bf5e3241d
   46ebc26d4b8013f4c049d9a29211f60824dc43e75c114108e34af6bc6c41620c, 0c70c8298ac2e290733dc75fe8cda471f58d1e4da4fe7c44c779ad91e333c892,
   87db9de4d1c6a45555962ef7a8f57412be924e7c6d9fabd30c3ea668252883ee, ae5d8b6dff456258701772caf6d7b67db821e35bc64a4b9b2d4751ff4ab4ba23,
   9fb9a3df5cae79bfbbc305dd65d069f5bcfb3595a4d40821b973c0cac9b9974b, 7bf3829fb9ac87ef223d8cca16ef7e4a5933da185e6b9000499aa3735703fe9e,
-  417f06a1ce817e5b06659b980a8be4b453ea65e35f34e8a98c95907ee6552e8d]
-confirmation_count: 43
-last_confirmed_at: '2026-10-05'
+  417f06a1ce817e5b06659b980a8be4b453ea65e35f34e8a98c95907ee6552e8d, daa537b860f24336e94935e2d5c7faee4cb57f1b4fb36d99f68b411c850c68d9]
+confirmation_count: 44
+last_confirmed_at: '2026-10-06'
 ---
 
 # Le Rassemblement National propose la retraite à 60 ans pour ceux qui ont commencé à travailler tôt
