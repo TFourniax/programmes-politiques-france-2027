@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created_at": "2026-08-17T19:57:19.441897+00:00",
-  "updated_at": "2026-10-06T23:12:59.376257+00:00",
+  "updated_at": "2026-10-07T07:24:20.516766+00:00",
   "files": [
     {
       "path": "corpus/2027/auto/candidates/anasse-kazib/2026-08-28-38891602d9d9.md",
@@ -102,6 +102,11 @@
       "path": "corpus/2027/auto/candidates/anasse-kazib/2026-10-05-71ca461628b7.md",
       "sha256": "def9db27fd4e8598154ca64b9d8d03cafc489bb2900384503a283b819ef649d3",
       "size": 2088
+    },
+    {
+      "path": "corpus/2027/auto/candidates/anasse-kazib/2026-10-06-007774a3a0a3.md",
+      "sha256": "4f7bca86d573145700b9ed5337bb489a5a951d78daba63489ca64af5e3e35408",
+      "size": 1975
     },
     {
       "path": "corpus/2027/auto/candidates/anasse-kazib/2026-10-06-438c7e6ce789.md",
@@ -1274,6 +1279,11 @@
       "size": 1644
     },
     {
+      "path": "corpus/2027/auto/partys/revolution-permanente/2026-10-07-52a925bcab4b.md",
+      "sha256": "519a409376a0886415523cd9a35ea4218b8767947956866b810832dea5a92a68",
+      "size": 1535
+    },
+    {
       "path": "corpus/2027/auto/partys/solution-democratique/2025-04-09-3a8ec20cb386.md",
       "sha256": "268b288b348cf4405f1cd419a74efaaba0adce4475aeff9b10af9796146281ac",
       "size": 1763
@@ -1765,8 +1775,8 @@
     },
     {
       "path": "proposals/auto/immigration-integration/auto-anasse-kazib-immigration-integration-f008b1970a86.md",
-      "sha256": "464025b8ca7aeff3be88dbebdc29ad56c3ffcef66d912fa56238a94e043d08c2",
-      "size": 1989
+      "sha256": "2e827914b3f4f0b94d3816d3fb4887b166724de1a936598fee61ae5c61e1c9da",
+      "size": 2034
     },
     {
       "path": "proposals/auto/immigration-integration/auto-bruno-retailleau-immigration-integration-080032bab3da.md",
@@ -1990,8 +2000,8 @@
     },
     {
       "path": "proposals/auto/pouvoir-achat-travail/auto-anasse-kazib-pouvoir-achat-travail-81103508afc3.md",
-      "sha256": "344bc7b961c977b17680519c1484ceff1d06c51663154a5c947740f0476385da",
-      "size": 1999
+      "sha256": "66f71b3a130f387937e07bd3db0fe5672411e421ce1515319ce26129dbe28953",
+      "size": 2042
     },
     {
       "path": "proposals/auto/pouvoir-achat-travail/auto-anasse-kazib-pouvoir-achat-travail-9dd581e1c937.md",
@@ -2117,6 +2127,11 @@
       "path": "proposals/auto/pouvoir-achat-travail/auto-revolution-permanente-pouvoir-achat-travail-699e34ed1546.md",
       "sha256": "8cb54b2cb29389d59836e7705a290e12c1b3a49fa868757bffdbd8aa8306e8ec",
       "size": 1303
+    },
+    {
+      "path": "proposals/auto/pouvoir-achat-travail/auto-revolution-permanente-pouvoir-achat-travail-6d4d731e6887.md",
+      "sha256": "016a679de9d806d55f6f166d484980dcd8c0c40790a971619264626ef8600da5",
+      "size": 1213
     },
     {
       "path": "proposals/auto/pouvoir-achat-travail/auto-selma-labib-pouvoir-achat-travail-e91313406b4a.md",
@@ -2540,8 +2555,8 @@
     },
     {
       "path": "proposals/retraites/anasse-kazib-60-55.md",
-      "sha256": "fda3011ee53c5c17237eb87e7b44d919a01518656f7557b59a7a06f8fff1a51c",
-      "size": 1854
+      "sha256": "e15df728431d1a842a74fc3267c8931d3b30c843f8f171c1077ef99b02644060",
+      "size": 1897
     },
     {
       "path": "proposals/retraites/david-lisnard-capitalisation.md",
