@@ -1,23 +1,26 @@
 {
   "errors": [],
-  "generated_at": "2026-10-07T07:24:17+00:00",
+  "generated_at": "2026-10-07T19:29:19+00:00",
   "partial": 0,
-  "processed": 1,
-  "promoted": 1,
-  "proposals_created": 1,
+  "processed": 3,
+  "promoted": 0,
+  "proposals_created": 0,
   "provenance_updates": 0,
   "results": [
     {
-      "chunks_total": 1,
-      "document": "corpus/2027/auto/partys/revolution-permanente/2026-10-07-52a925bcab4b.md",
-      "proposals": [
-        "proposals/auto/pouvoir-achat-travail/auto-revolution-permanente-pouvoir-achat-travail-6d4d731e6887.md"
-      ],
-      "sha256": "1b3b463c5808d39bf34da93f6ba1c7f578bb528bdeda2fed9b27095e3d11d893",
-      "status": "promoted",
-      "status_updates": [],
-      "url": "https://www.youtube.com/shorts/XIOsQ_-NeiY",
-      "verified_at": "2026-10-07T07:24:14+00:00"
+      "sha256": "92cc82caffccb6033194fa0b76737912754baafe4baee799eaf7a5a711bb3b2e",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/watch?v=1U58KDM71sI"
+    },
+    {
+      "sha256": "551ec2559306003b73b9a9ba2c5b2e6e40e5bc880c8d0bdfd32bda90cb409e08",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/watch?v=BKtsgfkwv2k"
+    },
+    {
+      "sha256": "f7304347ce8d37cfc304289d3fe727c6182e9cd5daed0d5d8515df0914df9892",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/shorts/fTgadas1a7I"
     }
   ],
   "status_updates": 0

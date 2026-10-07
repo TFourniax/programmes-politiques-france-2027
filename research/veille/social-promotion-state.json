@@ -927,6 +927,15 @@
       "status": "not_confirmed",
       "url": "https://www.youtube.com/watch?v=LFDm8pJdl94"
     },
+    "7f421a155f247e99495f": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-10-07T19:29:17+00:00",
+      "provenance_updates": [],
+      "source_sha256": "551ec2559306003b73b9a9ba2c5b2e6e40e5bc880c8d0bdfd32bda90cb409e08",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/watch?v=BKtsgfkwv2k"
+    },
     "806eca65417892877781": {
       "chunks_done": null,
       "chunks_total": null,
@@ -1116,6 +1125,15 @@
       "status": "not_confirmed",
       "url": "https://www.youtube.com/watch?v=hC9tvqbWUbE"
     },
+    "98cdb02d757c6a92f511": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-10-07T19:29:19+00:00",
+      "provenance_updates": [],
+      "source_sha256": "f7304347ce8d37cfc304289d3fe727c6182e9cd5daed0d5d8515df0914df9892",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/shorts/fTgadas1a7I"
+    },
     "9a0bc54027ce0f544e55": {
       "chunks_done": null,
       "chunks_total": null,
@@ -1303,6 +1321,15 @@
       "source_sha256": "4460dc074d84c144da3f8f1e65e2919e7f31c2a73889c975fe34f1251179ca81",
       "status": "not_confirmed",
       "url": "https://bsky.app/profile/lesecologistes.fr/post/3mtjmarb6ek2f"
+    },
+    "ae95313625adf5b95dcc": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-10-07T19:29:15+00:00",
+      "provenance_updates": [],
+      "source_sha256": "92cc82caffccb6033194fa0b76737912754baafe4baee799eaf7a5a711bb3b2e",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/watch?v=1U58KDM71sI"
     },
     "af7726596340d4a02728": {
       "chunks_done": null,
@@ -2074,7 +2101,7 @@
     }
   },
   "last_error_count": 0,
-  "last_processed_count": 1,
-  "last_run_at": "2026-10-07T07:24:17+00:00",
+  "last_processed_count": 3,
+  "last_run_at": "2026-10-07T19:29:19+00:00",
   "version": 2
 }
