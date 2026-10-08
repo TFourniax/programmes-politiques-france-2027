@@ -1,31 +1,32 @@
 {
-  "errors": [],
-  "generated_at": "2026-10-08T07:36:46+00:00",
+  "errors": [
+    {
+      "at": "2026-10-08T19:29:44+00:00",
+      "error": "RuntimeError: Gemini HTTP 503: gemini-3.5-flash-lite is currently experiencing high demand, spikes in demand are usually temporary. Please try again later.",
+      "url": "https://www.youtube.com/watch?v=WlkLdRzR2W8"
+    }
+  ],
+  "generated_at": "2026-10-08T19:30:15+00:00",
   "partial": 0,
-  "processed": 4,
+  "processed": 3,
   "promoted": 0,
   "proposals_created": 0,
   "provenance_updates": 0,
   "results": [
     {
-      "sha256": "79cda6cf1a48592af9c3b433c0189672aa7770179b298ce1ee78d1d793ed75f3",
+      "sha256": "1faad69baa492f0f924ecd2b2ed1bc5569afcff104ffd11bea5805fd90ab0ee3",
       "status": "not_confirmed",
-      "url": "https://www.youtube.com/watch?v=3JPfFBMg50U"
+      "url": "https://www.youtube.com/shorts/_OTSxMCS-Zk"
     },
     {
-      "sha256": "cb98cfdfa3f33661420f15778e03cfe25842f117e0724420cadcb47f751bfe4d",
+      "sha256": "da9c429b8b0cbb208cc85752831f1ecc0078ed5fcfcde8f47dd038813e97436e",
       "status": "not_confirmed",
-      "url": "https://www.youtube.com/shorts/O0FplC_9P98"
+      "url": "https://www.youtube.com/watch?v=_3OaligzQgM"
     },
     {
-      "sha256": "71a7f2e99b62d16b33dcf22dc0529bac1ec6e3d4c5ca4c6b87d74a363278f471",
+      "sha256": "5ba086e3ff4b5ac9a9d6546621828df9197eaba3a53bca58a5d14aeccdc852d4",
       "status": "not_confirmed",
-      "url": "https://www.youtube.com/shorts/scSqrieGgc0"
-    },
-    {
-      "sha256": "d64e57141268f1d5a2fc3051ce84afc8a94860e3092328d226dfcfb030f9adf2",
-      "status": "not_confirmed",
-      "url": "https://www.youtube.com/watch?v=ViJ5Wqaxco4"
+      "url": "https://www.youtube.com/shorts/CKdyzt_Zbz0"
     }
   ],
   "status_updates": 0

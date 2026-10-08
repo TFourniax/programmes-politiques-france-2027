@@ -146,6 +146,15 @@
       "status": "not_confirmed",
       "url": "https://www.youtube.com/shorts/090n7h1teTY"
     },
+    "1276b17bae86694c3657": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-10-08T19:29:55+00:00",
+      "provenance_updates": [],
+      "source_sha256": "1faad69baa492f0f924ecd2b2ed1bc5569afcff104ffd11bea5805fd90ab0ee3",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/shorts/_OTSxMCS-Zk"
+    },
     "12c24a3665f627852d4d": {
       "chunks_done": null,
       "chunks_total": null,
@@ -1143,6 +1152,15 @@
       "status": "not_confirmed",
       "url": "https://www.youtube.com/watch?v=hC9tvqbWUbE"
     },
+    "98733e3bcdf11a2d7cc2": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-10-08T19:30:14+00:00",
+      "provenance_updates": [],
+      "source_sha256": "5ba086e3ff4b5ac9a9d6546621828df9197eaba3a53bca58a5d14aeccdc852d4",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/shorts/CKdyzt_Zbz0"
+    },
     "98cdb02d757c6a92f511": {
       "chunks_done": null,
       "chunks_total": null,
@@ -1205,6 +1223,14 @@
       "source_sha256": "7d72b911a68a9b0d8ba96c7f5a36efa43d752b51755a1cb71b71409d2578f346",
       "status": "not_confirmed",
       "url": "https://bsky.app/profile/marinetondelier.fr/post/3mvlarotai22r"
+    },
+    "a07daa74108e74d341f7": {
+      "attempts": 1,
+      "error": "RuntimeError: Gemini HTTP 503: gemini-3.5-flash-lite is currently experiencing high demand, spikes in demand are usually temporary. Please try again later.",
+      "next_retry_at": "2026-10-09T01:29:44+00:00",
+      "processed_at": "2026-10-08T19:29:44+00:00",
+      "status": "technical_error",
+      "url": "https://www.youtube.com/watch?v=WlkLdRzR2W8"
     },
     "a1217d66ece64251251c": {
       "chunks_done": null,
@@ -2036,6 +2062,15 @@
       "status": "not_confirmed",
       "url": "https://bsky.app/profile/marinetondelier.fr/post/3muyzjlt5522n"
     },
+    "f5599d9c3a2155c727ff": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-10-08T19:30:05+00:00",
+      "provenance_updates": [],
+      "source_sha256": "da9c429b8b0cbb208cc85752831f1ecc0078ed5fcfcde8f47dd038813e97436e",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/watch?v=_3OaligzQgM"
+    },
     "f5d1aa634336ded9ce32": {
       "chunks_done": null,
       "chunks_total": null,
@@ -2136,8 +2171,8 @@
       "url": "https://www.youtube.com/shorts/A0p5m8f1qZk"
     }
   },
-  "last_error_count": 0,
-  "last_processed_count": 4,
-  "last_run_at": "2026-10-08T07:36:46+00:00",
+  "last_error_count": 1,
+  "last_processed_count": 3,
+  "last_run_at": "2026-10-08T19:30:15+00:00",
   "version": 2
 }
