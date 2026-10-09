@@ -41,7 +41,7 @@ Ce rapport est dérivé automatiquement du corpus courant. Il sert à piloter la
 - **Institutions & démocratie** (`institutions-democratie`) — 13 acteur(s), 266 proposition(s), dernière preuve 2026-10-09.
 - **Économie & finances publiques** (`economie-finances`) — 14 acteur(s), 122 proposition(s), dernière preuve 2026-10-05.
 - **Retraites** (`retraites`) — 14 acteur(s), 23 proposition(s), dernière preuve 2026-10-09.
-- **Sécurité & justice** (`securite-justice`) — 14 acteur(s), 147 proposition(s), dernière preuve 2026-10-08.
+- **Sécurité & justice** (`securite-justice`) — 14 acteur(s), 147 proposition(s), dernière preuve 2026-10-09.
 - **Services publics** (`services-publics`) — 15 acteur(s), 236 proposition(s), dernière preuve 2026-10-05.
 - **Écologie & énergie** (`ecologie-energie`) — 17 acteur(s), 198 proposition(s), dernière preuve 2026-10-09.
 - **Pouvoir d’achat & travail** (`pouvoir-achat-travail`) — 19 acteur(s), 79 proposition(s), dernière preuve 2026-10-07.
