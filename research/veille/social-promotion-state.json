@@ -710,6 +710,15 @@
       "status": "not_confirmed",
       "url": "https://www.youtube.com/watch?v=6l19fqUDXas"
     },
+    "5d85fd1823d3704aa823": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-10-09T07:35:13+00:00",
+      "provenance_updates": [],
+      "source_sha256": "cdd16f0b5cab1cb88449da31b0a2075a286ef6a2ae05729df2a44f4c52d28eb5",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/shorts/3Lv8wgDpLtQ"
+    },
     "5f1129692c934e76e0ec": {
       "chunks_done": null,
       "chunks_total": null,
@@ -790,6 +799,15 @@
       "source_sha256": "bfb9ee9898330c43c1a0e16bde4c73a2915bcc8546db6c1d2a1db775041db88f",
       "status": "not_confirmed",
       "url": "https://www.youtube.com/shorts/LfWYSf0nj9A"
+    },
+    "6600dce6705bf1cac520": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-10-09T07:35:09+00:00",
+      "provenance_updates": [],
+      "source_sha256": "8582d64a7744908b1bf5a71c69473361398637f8d1d95229a35c70335748eaa5",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/shorts/DMGIKMN4I78"
     },
     "66ce683d93b0f25c2d7f": {
       "chunks_done": null,
@@ -908,6 +926,15 @@
       "source_sha256": "669948ecad668f75b0e40541d80ead9c9c6e8f97cd3d3563563e9a3eb2d5685c",
       "status": "not_confirmed",
       "url": "https://bsky.app/profile/lesecologistes.fr/post/3mwlvd73ajc2i"
+    },
+    "78df4f4fb289909065da": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-10-09T07:35:07+00:00",
+      "provenance_updates": [],
+      "source_sha256": "e6b717fb2e6ab250f408d6094ace17d818cd99ac6ac40ee25a40ce43181641f6",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/shorts/g684_FP5uio"
     },
     "7975460ec8a0ae4b2794": {
       "chunks_done": null,
@@ -1225,11 +1252,12 @@
       "url": "https://bsky.app/profile/marinetondelier.fr/post/3mvlarotai22r"
     },
     "a07daa74108e74d341f7": {
-      "attempts": 1,
-      "error": "RuntimeError: Gemini HTTP 503: gemini-3.5-flash-lite is currently experiencing high demand, spikes in demand are usually temporary. Please try again later.",
-      "next_retry_at": "2026-10-09T01:29:44+00:00",
-      "processed_at": "2026-10-08T19:29:44+00:00",
-      "status": "technical_error",
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-10-09T07:35:11+00:00",
+      "provenance_updates": [],
+      "source_sha256": "57a5f5bf109ccfe165f111f41a75867c9d2996ce04ab5a12a6ba78dbbee220e2",
+      "status": "not_confirmed",
       "url": "https://www.youtube.com/watch?v=WlkLdRzR2W8"
     },
     "a1217d66ece64251251c": {
@@ -2171,8 +2199,8 @@
       "url": "https://www.youtube.com/shorts/A0p5m8f1qZk"
     }
   },
-  "last_error_count": 1,
-  "last_processed_count": 3,
-  "last_run_at": "2026-10-08T19:30:15+00:00",
+  "last_error_count": 0,
+  "last_processed_count": 4,
+  "last_run_at": "2026-10-09T07:35:14+00:00",
   "version": 2
 }
