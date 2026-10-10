@@ -6,18 +6,18 @@
     "actors": 68,
     "declared_or_active_candidates": 27,
     "topics": 12,
-    "current_proposals": 1336,
-    "covered_actor_topic_cells": 152,
+    "current_proposals": 1337,
+    "covered_actor_topic_cells": 153,
     "total_actor_topic_cells": 816,
-    "actor_topic_coverage_ratio": 0.1863,
-    "active_candidate_covered_cells": 69,
+    "actor_topic_coverage_ratio": 0.1875,
+    "active_candidate_covered_cells": 70,
     "active_candidate_total_cells": 324,
-    "active_candidate_topic_coverage_ratio": 0.213,
-    "verified_proposals": 1302,
-    "multi_source_proposals": 88,
+    "active_candidate_topic_coverage_ratio": 0.216,
+    "verified_proposals": 1303,
+    "multi_source_proposals": 90,
     "latest_evidence_at": "2026-10-10",
     "certainty_counts": {
-      "explicit": 1311,
+      "explicit": 1312,
       "explicit_but_conditional": 3,
       "explicit_but_underspecified": 22
     }
@@ -119,12 +119,13 @@
       "type": "candidate",
       "status": "party_designated",
       "confidence": "high",
-      "current_proposals": 2,
+      "current_proposals": 3,
       "covered_topics": [
         "economie-finances",
+        "institutions-democratie",
         "services-publics"
       ],
-      "coverage_ratio": 0.1667,
+      "coverage_ratio": 0.25,
       "gaps": [
         "pouvoir-achat-travail",
         "retraites",
@@ -133,13 +134,12 @@
         "europe-souverainete",
         "defense-international",
         "ecologie-energie",
-        "institutions-democratie",
         "securite-justice",
         "numerique-ia"
       ],
-      "latest_evidence_at": "2026-09-21",
-      "verified_proposals": 2,
-      "multi_source_proposals": 0
+      "latest_evidence_at": "2026-10-10",
+      "verified_proposals": 3,
+      "multi_source_proposals": 2
     },
     {
       "id": "benjamin-lucas",
@@ -2026,11 +2026,11 @@
     {
       "id": "institutions-democratie",
       "label": "Institutions & démocratie",
-      "current_proposals": 266,
-      "actors_covered": 13,
-      "actor_coverage_ratio": 0.1912,
+      "current_proposals": 267,
+      "actors_covered": 14,
+      "actor_coverage_ratio": 0.2059,
       "latest_evidence_at": "2026-10-10",
-      "verified_proposals": 262,
+      "verified_proposals": 263,
       "multi_source_proposals": 24
     },
     {
@@ -2039,9 +2039,9 @@
       "current_proposals": 236,
       "actors_covered": 15,
       "actor_coverage_ratio": 0.2206,
-      "latest_evidence_at": "2026-10-05",
+      "latest_evidence_at": "2026-10-10",
       "verified_proposals": 232,
-      "multi_source_proposals": 6
+      "multi_source_proposals": 7
     },
     {
       "id": "securite-justice",
@@ -2061,7 +2061,7 @@
       "actor_coverage_ratio": 0.2059,
       "latest_evidence_at": "2026-10-10",
       "verified_proposals": 121,
-      "multi_source_proposals": 12
+      "multi_source_proposals": 13
     },
     {
       "id": "numerique-ia",
@@ -2197,9 +2197,9 @@
       "id": "antoine-mikolajczak",
       "name": "Antoine Mikolajczak",
       "status": "party_designated",
-      "coverage_ratio": 0.1667,
-      "current_proposals": 2,
-      "latest_evidence_at": "2026-09-21",
+      "coverage_ratio": 0.25,
+      "current_proposals": 3,
+      "latest_evidence_at": "2026-10-10",
       "topics": [
         {
           "id": "pouvoir-achat-travail",
@@ -2267,10 +2267,10 @@
         {
           "id": "institutions-democratie",
           "label": "Institutions & démocratie",
-          "covered": false,
-          "current_proposals": 0,
-          "latest_evidence_at": null,
-          "verified_proposals": 0,
+          "covered": true,
+          "current_proposals": 1,
+          "latest_evidence_at": "2026-10-10",
+          "verified_proposals": 1,
           "multi_source_proposals": 0
         },
         {
@@ -2278,9 +2278,9 @@
           "label": "Services publics",
           "covered": true,
           "current_proposals": 1,
-          "latest_evidence_at": "2026-09-21",
+          "latest_evidence_at": "2026-10-10",
           "verified_proposals": 1,
-          "multi_source_proposals": 0
+          "multi_source_proposals": 1
         },
         {
           "id": "securite-justice",
@@ -2296,9 +2296,9 @@
           "label": "Économie & finances publiques",
           "covered": true,
           "current_proposals": 1,
-          "latest_evidence_at": "2026-09-21",
+          "latest_evidence_at": "2026-10-10",
           "verified_proposals": 1,
-          "multi_source_proposals": 0
+          "multi_source_proposals": 1
         },
         {
           "id": "numerique-ia",
@@ -5590,26 +5590,6 @@
       ]
     },
     {
-      "id": "antoine-mikolajczak",
-      "name": "Antoine Mikolajczak",
-      "status": "party_designated",
-      "coverage_ratio": 0.1667,
-      "current_proposals": 2,
-      "latest_evidence_at": "2026-09-21",
-      "gaps": [
-        "pouvoir-achat-travail",
-        "retraites",
-        "fiscalite-redistribution",
-        "immigration-integration",
-        "europe-souverainete",
-        "defense-international",
-        "ecologie-energie",
-        "institutions-democratie",
-        "securite-justice",
-        "numerique-ia"
-      ]
-    },
-    {
       "id": "francois-asselineau",
       "name": "François Asselineau",
       "status": "declared_presidential",
@@ -5666,6 +5646,25 @@
         "services-publics",
         "securite-justice",
         "economie-finances",
+        "numerique-ia"
+      ]
+    },
+    {
+      "id": "antoine-mikolajczak",
+      "name": "Antoine Mikolajczak",
+      "status": "party_designated",
+      "coverage_ratio": 0.25,
+      "current_proposals": 3,
+      "latest_evidence_at": "2026-10-10",
+      "gaps": [
+        "pouvoir-achat-travail",
+        "retraites",
+        "fiscalite-redistribution",
+        "immigration-integration",
+        "europe-souverainete",
+        "defense-international",
+        "ecologie-energie",
+        "securite-justice",
         "numerique-ia"
       ]
     },

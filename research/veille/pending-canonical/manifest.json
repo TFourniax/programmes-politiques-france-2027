@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created_at": "2026-08-17T19:57:19.441897+00:00",
-  "updated_at": "2026-10-10T13:58:05.984679+00:00",
+  "updated_at": "2026-10-10T22:44:53.098973+00:00",
   "files": [
     {
       "path": "corpus/2027/auto/candidates/anasse-kazib/2026-08-28-38891602d9d9.md",
@@ -737,6 +737,11 @@
       "path": "corpus/2027/auto/partys/equinoxe/2026-09-21-40bcc8194422.md",
       "sha256": "768a1abda8f3ea9cdf9099992fd1bec3c41eb5b9b3072c15c6640e8380fdfc35",
       "size": 1684
+    },
+    {
+      "path": "corpus/2027/auto/partys/equinoxe/2026-10-10-9dd030bcdcf0.md",
+      "sha256": "ada8fe2e87a409e2279d27a1d91c123bd61835c26b14b88c4bdf989ff6395eb4",
+      "size": 1985
     },
     {
       "path": "corpus/2027/auto/partys/generation-ecologie/2026-06-07-8b101fa96a72.md",
@@ -1645,8 +1650,8 @@
     },
     {
       "path": "proposals/auto/economie-finances/auto-antoine-mikolajczak-economie-finances-e76dad8b837c.md",
-      "sha256": "869fad6385406d777f59b92b6241167a10745a09fe540c4cca5356cf0506e62e",
-      "size": 1332
+      "sha256": "30bd8e2dfc8e4b9ebc4a975aa681d9539cbfc03b17029ac0695156ea28b790a4",
+      "size": 1640
     },
     {
       "path": "proposals/auto/economie-finances/auto-david-lisnard-economie-finances-3591e11af1e3.md",
@@ -1887,6 +1892,11 @@
       "path": "proposals/auto/institutions-democratie/auto-anasse-kazib-institutions-democratie-c09dd0700402.md",
       "sha256": "bbc9e2f5d85a297da6648e2348aa88a39b7a5fe399efe7b2b0cd7ed97f97905b",
       "size": 1811
+    },
+    {
+      "path": "proposals/auto/institutions-democratie/auto-antoine-mikolajczak-institutions-democratie-39438520e042.md",
+      "sha256": "53bdf92cad02331b0cde0a43a764dc3d8cbc0ff5a904b4423f85267d378f36ee",
+      "size": 1408
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-bruno-retailleau-institutions-democratie-916dbcbd3347.md",
@@ -2375,8 +2385,8 @@
     },
     {
       "path": "proposals/auto/services-publics/auto-antoine-mikolajczak-services-publics-b8a1cdca271a.md",
-      "sha256": "105f653604ae7e4f66b02e8db98cb52178694d5583943ee3812d2934ba6092a9",
-      "size": 1397
+      "sha256": "b53a2873064a45af907faa1ce574ef779bb6f98e8551dbecf6e232346371d3e8",
+      "size": 1705
     },
     {
       "path": "proposals/auto/services-publics/auto-david-lisnard-services-publics-16a78fe89ce6.md",
