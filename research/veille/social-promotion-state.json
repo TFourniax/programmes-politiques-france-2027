@@ -1251,6 +1251,15 @@
       "status": "not_confirmed",
       "url": "https://www.youtube.com/shorts/CKdyzt_Zbz0"
     },
+    "98cc9a35e666bd3d5835": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-10-10T07:20:54+00:00",
+      "provenance_updates": [],
+      "source_sha256": "077f607139f3b5936aca94fc0189c3cd4452d68f6781788ce601bd2122f59e77",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/shorts/5MvFYRa5jQM"
+    },
     "98cdb02d757c6a92f511": {
       "chunks_done": null,
       "chunks_total": null,
@@ -2272,7 +2281,7 @@
     }
   },
   "last_error_count": 0,
-  "last_processed_count": 4,
-  "last_run_at": "2026-10-09T23:25:25+00:00",
+  "last_processed_count": 1,
+  "last_run_at": "2026-10-10T07:20:55+00:00",
   "version": 2
 }

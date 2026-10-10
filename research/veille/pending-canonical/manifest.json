@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created_at": "2026-08-17T19:57:19.441897+00:00",
-  "updated_at": "2026-10-09T23:25:29.695608+00:00",
+  "updated_at": "2026-10-10T07:20:58.821538+00:00",
   "files": [
     {
       "path": "corpus/2027/auto/candidates/anasse-kazib/2026-08-28-38891602d9d9.md",
@@ -947,6 +947,11 @@
       "path": "corpus/2027/auto/partys/nouvelle-energie/2026-10-05-13bccb7f1b6e.md",
       "sha256": "aa071b2cdcaa3788437f30286e5ec0cecf1cf805002484ce8e34db194fb8f386",
       "size": 2241
+    },
+    {
+      "path": "corpus/2027/auto/partys/nouvelle-energie/2026-10-10-5c2b4b719398.md",
+      "sha256": "93abc9e1a19df7d802f7b059304b0ae3d7523752038e20130d9129787146d39c",
+      "size": 2286
     },
     {
       "path": "corpus/2027/auto/partys/npa-revolutionnaires/2026-07-04-14781613317c.md",
@@ -1905,8 +1910,8 @@
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-david-lisnard-institutions-democratie-8dc9338c9297.md",
-      "sha256": "d05d5219534a6cde057a13c6d97a58764b8855fadff35925751525ccdc4a9671",
-      "size": 1845
+      "sha256": "511fcfd46302f53e29c6d88e1acf1305d654744ee9e73eecbdbc1fe55f05a33a",
+      "size": 1960
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-david-lisnard-institutions-democratie-a9f097879743.md",
@@ -2555,13 +2560,18 @@
     },
     {
       "path": "proposals/economie-finances/david-lisnard-reduction-depenses.md",
-      "sha256": "510d53f0d6a6638c6c3e2208d5420c4204c136fae0ed987d787e014abd76f547",
-      "size": 958
+      "sha256": "634bf495dc339a8fe27acbc7f32e4eb7c00f5ea4b62851b2c578ccb9e5134ef7",
+      "size": 1071
     },
     {
       "path": "proposals/fiscalite-redistribution/les-ecologistes-impot-plancher-patrimoine.md",
       "sha256": "2a8a890a0d0b316d7cb71a8fa85eec03cd49be65fde246eda6d1a0ff1e621eff",
       "size": 927
+    },
+    {
+      "path": "proposals/immigration-integration/david-lisnard-referendum-migration.md",
+      "sha256": "22cac13d4209f7c2f3e0e77fe24b5e6693b55725172e055a9663d09ebf52d231",
+      "size": 903
     },
     {
       "path": "proposals/immigration/bruno-retailleau-etudiants-extra-europeens.md",
@@ -2600,8 +2610,8 @@
     },
     {
       "path": "proposals/retraites/david-lisnard-capitalisation.md",
-      "sha256": "2a4b5d355c9c47c4c0851effe97bfddf881e725a0fda176b43a362208f037216",
-      "size": 1095
+      "sha256": "9e2bc314872c1b635499c50d157c957ae9926253671b97f2279d2045462160a9",
+      "size": 1208
     },
     {
       "path": "proposals/services-publics/les-ecologistes-2000-centres-sante.md",
