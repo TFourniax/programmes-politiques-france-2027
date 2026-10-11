@@ -5,7 +5,7 @@ entity_id: david-lisnard
 topic: services-publics
 certainty: explicit
 proposal_status: current
-source_document_ids: [auto-nouvelle-energie-2026-08-22-77217a0982c6, auto-nouvelle-energie-2026-09-25-b3e70f26c1e9]
+source_document_ids: [auto-nouvelle-energie-2026-08-22-77217a0982c6, auto-nouvelle-energie-2026-09-25-b3e70f26c1e9, auto-nouvelle-energie-2026-10-11-40d33244d53f]
 source_url: https://www.unenouvelleenergie.fr/notre-programme/
 source_tier: tier_1_primary_official
 first_documented_at: '2026-08-22'
@@ -15,9 +15,10 @@ verification_method: primary_source_exact_quote_plus_independent_gemini_verifier
 evidence_sha256: b49ebb3be6fd75962fe825fe761a77d59bec9802b13d22d4834416924b4327aa
 generated_by: scripts/auto_promote.py
 source_urls: ['https://www.unenouvelleenergie.fr/notre-programme/']
-evidence_sha256s: [b49ebb3be6fd75962fe825fe761a77d59bec9802b13d22d4834416924b4327aa, 81a6bf2f91d9bf8c774618554b315a2b17086655b4da9157050b069cdd0db851]
-confirmation_count: 2
-last_confirmed_at: '2026-09-25'
+evidence_sha256s: [b49ebb3be6fd75962fe825fe761a77d59bec9802b13d22d4834416924b4327aa, 81a6bf2f91d9bf8c774618554b315a2b17086655b4da9157050b069cdd0db851,
+  e9d2b6bd68245d87fcab9ef340c0168abb4abb869751db9329d8c085d5b38b01]
+confirmation_count: 3
+last_confirmed_at: '2026-10-11'
 ---
 
 # Il faut promouvoir une école d'excellence pour faire de la France une superpuissance éducative et scientifique

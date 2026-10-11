@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created_at": "2026-08-17T19:57:19.441897+00:00",
-  "updated_at": "2026-10-10T22:44:53.098973+00:00",
+  "updated_at": "2026-10-11T07:23:48.786783+00:00",
   "files": [
     {
       "path": "corpus/2027/auto/candidates/anasse-kazib/2026-08-28-38891602d9d9.md",
@@ -959,6 +959,11 @@
       "size": 2286
     },
     {
+      "path": "corpus/2027/auto/partys/nouvelle-energie/2026-10-11-40d33244d53f.md",
+      "sha256": "a9b0a3e0974814efdc8d3aed0669d3f4d5438f1f6162674de6edaf210892bcaf",
+      "size": 2625
+    },
+    {
       "path": "corpus/2027/auto/partys/npa-revolutionnaires/2026-07-04-14781613317c.md",
       "sha256": "221540dc18694a3ea4a52f600be2d1761259f9107c24cc4c93c8d8b70b23185f",
       "size": 1946
@@ -1339,6 +1344,11 @@
       "size": 1535
     },
     {
+      "path": "corpus/2027/auto/partys/revolution-permanente/2026-10-10-69e8d7f53128.md",
+      "sha256": "09b11a939e862c71c6da78647fadf3aa95bbcac1d9beed6c73db809730dd73ed",
+      "size": 1675
+    },
+    {
       "path": "corpus/2027/auto/partys/solution-democratique/2025-04-09-3a8ec20cb386.md",
       "sha256": "268b288b348cf4405f1cd419a74efaaba0adce4475aeff9b10af9796146281ac",
       "size": 1763
@@ -1715,8 +1725,8 @@
     },
     {
       "path": "proposals/auto/economie-finances/auto-nouvelle-energie-economie-finances-ce6ab5f9ca2a.md",
-      "sha256": "af96828ec48b8ae9c6953c12af32f31ef8b75c6e08ce6617a71b8f5b30d38104",
-      "size": 1991
+      "sha256": "11be99f151baa65d404773970fc577ce883bb8d047792f05a41e2739b8d148d2",
+      "size": 2104
     },
     {
       "path": "proposals/auto/economie-finances/auto-revolution-permanente-economie-finances-4aee04b7eb52.md",
@@ -1920,8 +1930,8 @@
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-david-lisnard-institutions-democratie-8a7a7019b8f9.md",
-      "sha256": "eadebcfe697e4886bec3776331b5423c185746b0310c15d5997bb0d5c889e158",
-      "size": 3444
+      "sha256": "6a8c1832824fbdae47b53e123e9600f2c8c4df2f92301ea268ef4706e9e5a1fc",
+      "size": 3561
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-david-lisnard-institutions-democratie-8dc9338c9297.md",
@@ -2022,6 +2032,11 @@
       "path": "proposals/auto/institutions-democratie/auto-rassemblement-national-institutions-democratie-2ec6a69712fb.md",
       "sha256": "de0e2a070ad00b11ac9ff057ed8c99813fe22c9a3272222c7597fa487a40861d",
       "size": 7987
+    },
+    {
+      "path": "proposals/auto/institutions-democratie/auto-revolution-permanente-institutions-democratie-dcbc5ab5164c.md",
+      "sha256": "9870566b7c63a379f5914eac691ca80e5605d66bc73a6167295897a2fcb926f4",
+      "size": 1453
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-solution-democratique-institutions-democratie-4e498b3ec06e.md",
@@ -2220,8 +2235,8 @@
     },
     {
       "path": "proposals/auto/retraites/auto-nouvelle-energie-retraites-4b9149336ab7.md",
-      "sha256": "3ab82e7a602b8a04643548046569567e51f52371263e4006aa40ca7255331274",
-      "size": 5034
+      "sha256": "2b39bf7ac59d3e9cfeb924508f8e8d628a3e7d48ef20d2b7e68aebe6603082c1",
+      "size": 5147
     },
     {
       "path": "proposals/auto/retraites/auto-rassemblement-national-retraites-fd538617cfee.md",
@@ -2390,8 +2405,8 @@
     },
     {
       "path": "proposals/auto/services-publics/auto-david-lisnard-services-publics-16a78fe89ce6.md",
-      "sha256": "18fe75619f923f5595b2c96540b0ab703b8e63e03ca765c4df180c63baafa9ea",
-      "size": 1721
+      "sha256": "93bcc808f0833362dc12b113832d95940c449bd277a160c6c2b6cebe5331a535",
+      "size": 1836
     },
     {
       "path": "proposals/auto/services-publics/auto-gabriel-attal-services-publics-0b16aea25279.md",
@@ -2545,8 +2560,8 @@
     },
     {
       "path": "proposals/auto/services-publics/auto-nouvelle-energie-services-publics-2dd30b44dc9c.md",
-      "sha256": "39929de7e2adc2b1c868db997c790aa18f3b347580949a671bbf86eded7c6672",
-      "size": 3298
+      "sha256": "136e508f6b16a201d7ff07f17ada5f3c7229befaefa2f92e2dc2cb316ce3da7b",
+      "size": 3413
     },
     {
       "path": "proposals/auto/services-publics/auto-rassemblement-national-services-publics-a4a03d3f5488.md",

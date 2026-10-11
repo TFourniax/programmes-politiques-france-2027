@@ -1,0 +1,29 @@
+{
+  "errors": [],
+  "generated_at": "2026-10-11T07:23:44+00:00",
+  "partial": 0,
+  "processed": 2,
+  "promoted": 1,
+  "proposals_created": 1,
+  "provenance_updates": 0,
+  "results": [
+    {
+      "sha256": "f917dfd76bbbcec187bfe495a2f95e1e710e88eab4a98d33394f8a707d0d26e5",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/shorts/UHS3rDAhqmw"
+    },
+    {
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/partys/revolution-permanente/2026-10-10-69e8d7f53128.md",
+      "proposals": [
+        "proposals/auto/institutions-democratie/auto-revolution-permanente-institutions-democratie-dcbc5ab5164c.md"
+      ],
+      "sha256": "9e9e2aed04ede61b0cb41e0d388d963904df927a2c30d97107875d0570d0fc47",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://www.youtube.com/shorts/if4BP91wA4M",
+      "verified_at": "2026-10-11T07:23:40+00:00"
+    }
+  ],
+  "status_updates": 0
+}
