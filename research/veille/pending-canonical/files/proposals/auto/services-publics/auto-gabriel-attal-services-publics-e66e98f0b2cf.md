@@ -7,7 +7,7 @@ topic: services-publics
 certainty: explicit
 proposal_status: current
 source_document_ids: [auto-gabriel-attal-2026-06-01-36681da9ebbd, auto-gabriel-attal-2026-06-01-4c3eeb2d8ac5, auto-gabriel-attal-2026-06-01-a1570f0a3692,
-  auto-gabriel-attal-2026-06-01-fe41da2eec3c]
+  auto-gabriel-attal-2026-06-01-fe41da2eec3c, auto-gabriel-attal-2026-06-01-e9ea54a8309d]
 source_url: https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne
 source_tier: tier_1_primary_official
 first_documented_at: '2026-06-01'
@@ -18,8 +18,9 @@ evidence_sha256: 89240073cf8b5ad476043aa3c1a429c5833d6ad111411795e3d30ab8468ad28
 generated_by: scripts/auto_promote.py
 source_urls: ['https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne']
 evidence_sha256s: [89240073cf8b5ad476043aa3c1a429c5833d6ad111411795e3d30ab8468ad280, 21df166f2bb506c159efbb805448f781c07309d4a5250fd027e43089abf927b8,
-  4c6bd22546e2f26a2204cc4f2f1db5439e5326af69519dc2f03165f8ef4770eb, 98fc29b6b69b4583f33dd13db221c1757968b8a092e3a2601422817d786327d6]
-confirmation_count: 4
+  4c6bd22546e2f26a2204cc4f2f1db5439e5326af69519dc2f03165f8ef4770eb, 98fc29b6b69b4583f33dd13db221c1757968b8a092e3a2601422817d786327d6,
+  38bc4e7cfa05caee7f2058672780228263e7acac89d105f73c982f52f1f05ed2]
+confirmation_count: 5
 last_confirmed_at: '2026-06-01'
 ---
 

@@ -20,7 +20,8 @@ source_document_ids: [auto-rassemblement-national-2026-08-11-b4e6fdd3c6e7, auto-
   auto-rassemblement-national-2026-09-30-51ec78e50e2b, auto-rassemblement-national-2026-10-01-cf8abc2824f7, auto-rassemblement-national-2026-10-01-e89b6fbab435,
   auto-rassemblement-national-2026-10-01-3b1ce8439647, auto-rassemblement-national-2026-10-02-307814c90023, auto-rassemblement-national-2026-10-05-c4b0a43c3be3,
   auto-rassemblement-national-2026-10-06-c6fcefcc76a6, auto-rassemblement-national-2026-10-06-5ce40cdceeb0, auto-rassemblement-national-2026-10-08-4e5de25cf39b,
-  auto-rassemblement-national-2026-10-09-093c09e6e6f4, auto-rassemblement-national-2026-10-09-0dd87fdf7f14, auto-rassemblement-national-2026-10-10-8d78e18c1d6e]
+  auto-rassemblement-national-2026-10-09-093c09e6e6f4, auto-rassemblement-national-2026-10-09-0dd87fdf7f14, auto-rassemblement-national-2026-10-10-8d78e18c1d6e,
+  auto-rassemblement-national-2026-10-09-ffa7ea6225e6]
 source_url: https://rassemblementnational.fr/
 source_tier: tier_1_primary_official
 first_documented_at: '2026-08-11'
@@ -52,9 +53,9 @@ evidence_sha256s: [e9d2ee7a0fba8b07f65a57d2e71d6dd2dda1128fec6a240299a2bf5e3241d
   417f06a1ce817e5b06659b980a8be4b453ea65e35f34e8a98c95907ee6552e8d, daa537b860f24336e94935e2d5c7faee4cb57f1b4fb36d99f68b411c850c68d9,
   cdbdd63e47fd98911ac4172319a2a8b73a85564c2513dd7fbef192ff0714b1e6, da5817f161df7339fd9ff0618624844d2b6d4987e948ec26f42158f8d2772344,
   a180b712c360a984aa2a69c88dc0649c72a5c0168e00b3292c1d16f594780969, 00aec857ba04af63ae1afc6b2222d19df0237aaa8c2f1d0d402944060fae0a45,
-  991633c6e9077df753e5095de8d15e21acb3b0ef7c1d422b5a1dbe9efeb9241d]
-confirmation_count: 47
-last_confirmed_at: '2026-10-10'
+  991633c6e9077df753e5095de8d15e21acb3b0ef7c1d422b5a1dbe9efeb9241d, abd43369617407fbe4a385a875d87cb04fd14949feeef964c813cdeb994fcd0f]
+confirmation_count: 48
+last_confirmed_at: '2026-10-09'
 ---
 
 # Le Rassemblement National propose de fermer les mosquées radicales
