@@ -1,14 +1,24 @@
 {
   "errors": [],
-  "generated_at": "2026-10-12T07:33:12+00:00",
+  "generated_at": "2026-10-12T21:52:33+00:00",
   "historical_skipped": 0,
-  "partial": 1,
+  "partial": 0,
   "processed": 3,
-  "promoted": 1,
+  "promoted": 2,
   "proposals_created": 0,
   "results": [
     {
-      "document": "corpus/2027/auto/partys/rassemblement-national/2026-10-12-a103c3ef4a61.md",
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/candidates/gabriel-attal/2026-09-25-ab8b400934f1.md",
+      "proposals": [],
+      "sha256": "3c794333a53bdb23e3567ecd4b1449f54f9c91468710ba6324818b69c5782a48",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://attalpresident.fr/actualites/gabriel-attal-sur-rtl-je-suis-candidat-pour-gagner-cette-election-presidentielle",
+      "verified_at": "2026-10-12T21:51:51+00:00"
+    },
+    {
+      "document": "corpus/2027/auto/partys/rassemblement-national/2026-10-12-3fe6acf98b4c.md",
       "provenance_updates": [
         "auto-rassemblement-national-ecologie-energie-e7de1a3e9e8e",
         "auto-rassemblement-national-fiscalite-redistribution-650411362d03",
@@ -19,23 +29,15 @@
         "auto-rassemblement-national-securite-justice-5cb19d0cbcca"
       ],
       "reason": "canonical_duplicate_evidence",
-      "sha256": "5ae4807cc0c30cb4f423c45547b90c7f510191da445aef56164fe5fc062ecb78",
+      "sha256": "7d28f8b74e49e8e54fede60f3d0be6d2fdf71e992a46863d8f934c2e7492afba",
       "status": "promoted",
       "url": "https://rassemblementnational.fr/",
-      "verified_at": "2026-10-12T07:32:57+00:00"
+      "verified_at": "2026-10-12T21:52:19+00:00"
     },
     {
-      "chunks_done": 2,
-      "chunks_remaining": 1,
-      "chunks_total": 3,
-      "sha256": "d2c451c7cd35303b20ab508bd4c261584e10f6cb5feaded9a23a5f80e3f8f4ab",
-      "status": "partial",
-      "url": "https://solutiondemocratique.fr/parrainage2027/"
-    },
-    {
-      "sha256": "9b0dfda9136d2f2ad036e84c3402285c7eb3c232ef1f85119c7fb3cd9f845000",
+      "sha256": "38bc4e7cfa05caee7f2058672780228263e7acac89d105f73c982f52f1f05ed2",
       "status": "not_confirmed",
-      "url": "https://trajectoire2027.fr:443/equipe"
+      "url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne"
     }
   ],
   "status_updates": 0
