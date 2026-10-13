@@ -389,6 +389,15 @@
       "status": "not_confirmed",
       "url": "https://www.youtube.com/shorts/LGNh8wHiOKo"
     },
+    "31b865969263b589f884": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-10-13T19:59:12+00:00",
+      "provenance_updates": [],
+      "source_sha256": "14fd6fa85bcca514dd1519e0f5251aafe61d7b507d02897bf5abea3ac065adc3",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/shorts/iWtC75FZtko"
+    },
     "32f05987b23fe7b3c8ea": {
       "chunks_done": null,
       "chunks_total": null,
@@ -691,6 +700,15 @@
       "source_sha256": "5bdb4626cdee4cee696e8a46519e7e49bea0468d23479387101d6cc40383a20d",
       "status": "not_confirmed",
       "url": "https://bsky.app/profile/lesecologistes.fr/post/3mwjeyuoo6c2u"
+    },
+    "510418e4170dbe136952": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-10-13T19:59:05+00:00",
+      "provenance_updates": [],
+      "source_sha256": "b9c80d0eb421ea07ddab3c63875e499c9c3e16fcb5c960328ed8d2b331616817",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/shorts/bsgsA1OPX_Y"
     },
     "530848e8d153ef27e442": {
       "chunks_done": null,
@@ -1349,6 +1367,15 @@
       "source_sha256": "83798444dc47fd0fb227038a786f907dd97fbf036f34545e9064244a27c26bad",
       "status": "not_confirmed",
       "url": "https://www.youtube.com/watch?v=s4W3GoNCfiY"
+    },
+    "9a892f12cb39604ead44": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-10-13T19:59:10+00:00",
+      "provenance_updates": [],
+      "source_sha256": "1e93bb05786394a96560e38a8c5773783cc0010e966ef97ff8b45844d3042538",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/shorts/bn6EcJLYlkg"
     },
     "9aec887f05e17cf416fe": {
       "chunks_done": null,
@@ -2395,10 +2422,19 @@
       "source_sha256": "c7ecac8abe890880d7ec85a5624e859eba2eab780b937334efc55ef0e9de2153",
       "status": "not_confirmed",
       "url": "https://www.youtube.com/shorts/A0p5m8f1qZk"
+    },
+    "ff960284ca6c1f3a625d": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-10-13T19:59:08+00:00",
+      "provenance_updates": [],
+      "source_sha256": "81ee5f15a973dd3041554d40f13dd8cde8360c83242767b29c9d81a300edc5c5",
+      "status": "not_confirmed",
+      "url": "https://bsky.app/profile/marinetondelier.fr/post/3mxrli2yxo223"
     }
   },
   "last_error_count": 0,
-  "last_processed_count": 2,
-  "last_run_at": "2026-10-13T07:54:28+00:00",
+  "last_processed_count": 4,
+  "last_run_at": "2026-10-13T19:59:13+00:00",
   "version": 2
 }
