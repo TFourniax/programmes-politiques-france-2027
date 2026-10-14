@@ -1,38 +1,31 @@
 {
   "errors": [],
-  "generated_at": "2026-10-14T13:01:01+00:00",
+  "generated_at": "2026-10-14T18:09:11+00:00",
   "partial": 0,
   "processed": 4,
-  "promoted": 1,
-  "proposals_created": 1,
+  "promoted": 0,
+  "proposals_created": 0,
   "provenance_updates": 0,
   "results": [
     {
-      "sha256": "feea4320fb7b70006bd2ca479c1201c5bc6d87654fc228e75b616ba6e4166f01",
+      "sha256": "d9b2cbcbadd1336b77bc34a1f0bfbd99d0fb28823eb6de5d916c6cd28e700884",
       "status": "not_confirmed",
-      "url": "https://www.youtube.com/shorts/3wdX9W-rrMs"
+      "url": "https://bsky.app/profile/marinetondelier.fr/post/3mxtywnlcpk2u"
     },
     {
-      "sha256": "8575a4738ca6c7641215812952c578a4cb724de5593cd876712412344ce4e52a",
+      "sha256": "16341f1cf2e4d1b650509e9001f1ff65b3debe3936f425b6b933babd261b026c",
       "status": "not_confirmed",
-      "url": "https://www.youtube.com/shorts/Juzrv3ODIRQ"
+      "url": "https://www.youtube.com/watch?v=XPsRrNyJzbA"
     },
     {
-      "sha256": "a722a6c2caa9e7e85416a60937b7f85c17f9695d1eb5f3c3454680580c4ef5c3",
+      "sha256": "46eb6da9b276073c8283448be6acbd89f0ab4d806ba62e65ade5b17a634f0787",
       "status": "not_confirmed",
-      "url": "https://www.youtube.com/shorts/726SKB4ZUXw"
+      "url": "https://www.youtube.com/watch?v=8Q9Sc5EHdNg"
     },
     {
-      "chunks_total": 1,
-      "document": "corpus/2027/auto/partys/rassemblement-national/2026-10-14-795b9b5d107f.md",
-      "proposals": [
-        "proposals/auto/services-publics/auto-rassemblement-national-services-publics-50aa4c63c170.md"
-      ],
-      "sha256": "5441ab837d4ccf6c308abd4d9944a12532543de74bcfc8e86052c73cb11bdef2",
-      "status": "promoted",
-      "status_updates": [],
-      "url": "https://www.youtube.com/shorts/fIpKEvV7qxk",
-      "verified_at": "2026-10-14T13:00:56+00:00"
+      "sha256": "6a5d27c614f8220cc224973305c278668e0c5f1692af4a9890a504a4717f7c10",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/shorts/e65xyfhRFNg"
     }
   ],
   "status_updates": 0
