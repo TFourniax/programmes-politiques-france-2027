@@ -148,7 +148,7 @@
       "error": "ValueError: HTTP 403",
       "event_url": "https://www.pcf.fr/une_candidature_de_gauche_au_service_de_l_aube_et_de_ses_communes",
       "owner": "Parti communiste français",
-      "processed_at": "2026-10-14T18:06:11+00:00",
+      "processed_at": "2026-10-14T22:24:30+00:00",
       "status": "technical_error"
     },
     "11790ff34ddd": {
@@ -303,7 +303,7 @@
       "error": "ValueError: HTTP 403",
       "event_url": "https://www.pcf.fr/presidentielle2027_fabien_roussel_designe_candidat",
       "owner": "Parti communiste français",
-      "processed_at": "2026-10-14T18:06:07+00:00",
+      "processed_at": "2026-10-14T22:24:28+00:00",
       "status": "technical_error"
     },
     "1f5b28d9f616": {
@@ -768,6 +768,13 @@
       "reason": "no_deterministic_transition",
       "status": "not_applicable"
     },
+    "4616fa6b877a": {
+      "event_url": "https://anasse2027.fr/",
+      "owner": "Anasse Kazib",
+      "processed_at": "2026-10-14T22:24:28+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
     "46a247dd176b": {
       "event_url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne",
       "owner": "Gabriel Attal",
@@ -1204,6 +1211,13 @@
       "processed_at": "2026-09-10T06:06:13+00:00",
       "status": "already_current"
     },
+    "742ef32f4c5b": {
+      "event_url": "https://rassemblementnational.fr/",
+      "owner": "Rassemblement national",
+      "processed_at": "2026-10-14T22:24:30+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
     "746941169479": {
       "event_url": "https://rassemblementnational.fr/",
       "owner": "Rassemblement national",
@@ -1280,6 +1294,13 @@
       "event_url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne",
       "owner": "Gabriel Attal",
       "processed_at": "2026-10-10T07:18:02+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
+    "7a9f04886e06": {
+      "event_url": "https://www.revolutionpermanente.fr/Nouvelle-classe-ouvriere-revolte-lyceenne-150-personnes-a-Marseille-pour-la-candidature-d-Anasse",
+      "owner": "Anasse Kazib",
+      "processed_at": "2026-10-14T22:24:30+00:00",
       "reason": "no_deterministic_transition",
       "status": "not_applicable"
     },
@@ -1843,7 +1864,7 @@
       "error": "ValueError: HTTP 403",
       "event_url": "https://www.pcf.fr/presidentielle_2027_mjcf_s_engage_pour_candidature_communiste",
       "owner": "Parti communiste français",
-      "processed_at": "2026-10-14T18:06:07+00:00",
+      "processed_at": "2026-10-14T22:24:28+00:00",
       "status": "technical_error"
     },
     "b79e654dac4a": {
@@ -2041,7 +2062,7 @@
       "error": "ValueError: HTTP 404",
       "event_url": "https://parti-equinoxe.fr/articles/2022/05/la-transition-energetique-selon-les-ex-candidats-a-la-presidentielle-2/",
       "owner": "Équinoxe",
-      "processed_at": "2026-10-14T18:06:08+00:00",
+      "processed_at": "2026-10-14T22:24:29+00:00",
       "status": "technical_error"
     },
     "cb3428b2b6d3": {
@@ -2557,7 +2578,7 @@
     }
   },
   "last_error_count": 4,
-  "last_run_at": "2026-10-14T18:06:11+00:00",
+  "last_run_at": "2026-10-14T22:24:30+00:00",
   "last_updated_count": 0,
   "version": 1
 }

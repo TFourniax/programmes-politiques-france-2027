@@ -506,6 +506,15 @@
       "status": "not_confirmed",
       "url": "https://www.youtube.com/watch?v=DLVou_cIeB0"
     },
+    "3ae8a75e3270f37ffbbf": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-10-14T22:30:56+00:00",
+      "provenance_updates": [],
+      "source_sha256": "59c44f3c422b24bbb13d7d79a20ac20cfa804246f728341a23d9a5a578c47529",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/shorts/A2hI819Y8Mg"
+    },
     "3ba59c11db6b87298d84": {
       "chunks_done": null,
       "chunks_total": null,
@@ -640,6 +649,15 @@
       "source_sha256": "2c545841f99c8253103527d399387f9813073d21ed937f3162b3b3da1844d2e6",
       "status": "not_confirmed",
       "url": "https://bsky.app/profile/marinetondelier.fr/post/3mwlogxertk2k"
+    },
+    "489d3fbd69c6c9bda42f": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-10-14T22:31:06+00:00",
+      "provenance_updates": [],
+      "source_sha256": "0128eede71be8bb8701f5c5e60eba934c63623ffffb411f3caaa650736154567",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/shorts/uMclyrPhvdI"
     },
     "4997ba57e16aac1794e5": {
       "chunks_done": null,
@@ -898,6 +916,15 @@
       "source_sha256": "e3f80fd9ab0a9194797ad54aba83d1f080f80dbb77f93c5d01d1c31e457d4301",
       "status": "not_confirmed",
       "url": "https://bsky.app/profile/marinetondelier.fr/post/3mvi2atwy4k2m"
+    },
+    "63a016f549a06c88909f": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-10-14T22:31:02+00:00",
+      "provenance_updates": [],
+      "source_sha256": "6a5d27c614f8220cc224973305c278668e0c5f1692af4a9890a504a4717f7c10",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/shorts/4fBBKT_-ctI"
     },
     "63b87572edbf9f3d1c54": {
       "chunks_done": null,
@@ -2542,7 +2569,7 @@
     }
   },
   "last_error_count": 0,
-  "last_processed_count": 4,
-  "last_run_at": "2026-10-14T18:09:11+00:00",
+  "last_processed_count": 3,
+  "last_run_at": "2026-10-14T22:31:07+00:00",
   "version": 2
 }
