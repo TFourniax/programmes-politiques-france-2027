@@ -8,10 +8,10 @@ Ce rapport est dérivé automatiquement du corpus courant. Il sert à piloter la
 
 - 68 acteurs référencés ;
 - 27 candidatures actives ou déclarées suivies ;
-- 1338 propositions atomiques courantes ;
+- 1339 propositions atomiques courantes ;
 - 154 / 816 cases acteur × thème couvertes (18.9 %) ;
 - 70 / 324 cases candidat actif × thème couvertes (21.6 %) ;
-- 1304 propositions marquées vérifiées ; 90 appuyées par au moins deux documents de preuve.
+- 1305 propositions marquées vérifiées ; 90 appuyées par au moins deux documents de preuve.
 
 ## Priorités documentaires
 
@@ -42,7 +42,7 @@ Ce rapport est dérivé automatiquement du corpus courant. Il sert à piloter la
 - **Retraites** (`retraites`) — 14 acteur(s), 23 proposition(s), dernière preuve 2026-10-14.
 - **Sécurité & justice** (`securite-justice`) — 14 acteur(s), 147 proposition(s), dernière preuve 2026-10-14.
 - **Institutions & démocratie** (`institutions-democratie`) — 15 acteur(s), 268 proposition(s), dernière preuve 2026-10-14.
-- **Services publics** (`services-publics`) — 15 acteur(s), 236 proposition(s), dernière preuve 2026-10-11.
+- **Services publics** (`services-publics`) — 15 acteur(s), 237 proposition(s), dernière preuve 2026-10-14.
 - **Écologie & énergie** (`ecologie-energie`) — 17 acteur(s), 198 proposition(s), dernière preuve 2026-10-14.
 - **Pouvoir d’achat & travail** (`pouvoir-achat-travail`) — 19 acteur(s), 79 proposition(s), dernière preuve 2026-10-13.
 

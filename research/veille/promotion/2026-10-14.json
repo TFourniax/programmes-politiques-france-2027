@@ -1,6 +1,6 @@
 {
   "errors": [],
-  "generated_at": "2026-10-14T06:19:16+00:00",
+  "generated_at": "2026-10-14T13:00:44+00:00",
   "historical_skipped": 0,
   "partial": 0,
   "processed": 3,
@@ -15,10 +15,10 @@
       "status": "promoted",
       "status_updates": [],
       "url": "https://attalpresident.fr/actualites/gabriel-attal-sur-rtl-je-suis-candidat-pour-gagner-cette-election-presidentielle",
-      "verified_at": "2026-10-14T06:18:37+00:00"
+      "verified_at": "2026-10-14T13:00:02+00:00"
     },
     {
-      "document": "corpus/2027/auto/partys/rassemblement-national/2026-10-14-2813f79d2d1b.md",
+      "document": "corpus/2027/auto/partys/rassemblement-national/2026-10-14-e9b69d608298.md",
       "provenance_updates": [
         "auto-rassemblement-national-ecologie-energie-e7de1a3e9e8e",
         "auto-rassemblement-national-fiscalite-redistribution-650411362d03",
@@ -29,10 +29,10 @@
         "auto-rassemblement-national-securite-justice-5cb19d0cbcca"
       ],
       "reason": "canonical_duplicate_evidence",
-      "sha256": "493697d0d5fbe982cde436b57bee1da454700b855f66a54c900741c68b2a3e6a",
+      "sha256": "8e2fdd116c65440de9877d840c347e1ebd42f422795442ef9309bc16081024c8",
       "status": "promoted",
       "url": "https://rassemblementnational.fr/",
-      "verified_at": "2026-10-14T06:19:03+00:00"
+      "verified_at": "2026-10-14T13:00:31+00:00"
     },
     {
       "sha256": "38bc4e7cfa05caee7f2058672780228263e7acac89d105f73c982f52f1f05ed2",

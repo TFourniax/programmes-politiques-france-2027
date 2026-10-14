@@ -1,31 +1,38 @@
 {
   "errors": [],
-  "generated_at": "2026-10-14T06:19:24+00:00",
+  "generated_at": "2026-10-14T13:01:01+00:00",
   "partial": 0,
   "processed": 4,
-  "promoted": 0,
-  "proposals_created": 0,
+  "promoted": 1,
+  "proposals_created": 1,
   "provenance_updates": 0,
   "results": [
     {
-      "sha256": "344ed34c2a500388bd7018a2fb10caf520bace1c2ba2430a4d30a87990a6d3d3",
+      "sha256": "feea4320fb7b70006bd2ca479c1201c5bc6d87654fc228e75b616ba6e4166f01",
       "status": "not_confirmed",
-      "url": "https://www.youtube.com/shorts/U3cr5-K1Gy8"
+      "url": "https://www.youtube.com/shorts/3wdX9W-rrMs"
     },
     {
-      "sha256": "7ac389a866251afc9e1ce5c53647372233c0f1addadbdca63adfac61ccbde421",
+      "sha256": "8575a4738ca6c7641215812952c578a4cb724de5593cd876712412344ce4e52a",
       "status": "not_confirmed",
-      "url": "https://www.youtube.com/shorts/cudxHeDPVqk"
+      "url": "https://www.youtube.com/shorts/Juzrv3ODIRQ"
     },
     {
-      "sha256": "8eafab072e059b7b0d0fbf402444ead6788e97fbb35d50d92f8536eed9c597c8",
+      "sha256": "a722a6c2caa9e7e85416a60937b7f85c17f9695d1eb5f3c3454680580c4ef5c3",
       "status": "not_confirmed",
-      "url": "https://www.youtube.com/shorts/6Fk8Bgj9yFg"
+      "url": "https://www.youtube.com/shorts/726SKB4ZUXw"
     },
     {
-      "sha256": "43ac065d0f88ea5f7757453fda2e6e5594d03183c20b8ac5cf8e62d9b19cd3d8",
-      "status": "not_confirmed",
-      "url": "https://www.youtube.com/shorts/f-4rsArrXYI"
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/partys/rassemblement-national/2026-10-14-795b9b5d107f.md",
+      "proposals": [
+        "proposals/auto/services-publics/auto-rassemblement-national-services-publics-50aa4c63c170.md"
+      ],
+      "sha256": "5441ab837d4ccf6c308abd4d9944a12532543de74bcfc8e86052c73cb11bdef2",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://www.youtube.com/shorts/fIpKEvV7qxk",
+      "verified_at": "2026-10-14T13:00:56+00:00"
     }
   ],
   "status_updates": 0
