@@ -6,7 +6,7 @@ topic: pouvoir-achat-travail
 certainty: explicit
 proposal_status: current
 source_document_ids: [auto-rassemblement-national-2026-09-21-3bd3d5dbdf48, auto-rassemblement-national-2026-09-22-be75b2a00fa1,
-  auto-rassemblement-national-2026-10-13-a11a8891709a, auto-rassemblement-national-2026-10-15-f60884c8eebf]
+  auto-rassemblement-national-2026-10-13-a11a8891709a, auto-rassemblement-national-2026-10-15-f60884c8eebf, auto-rassemblement-national-2026-10-16-bf6e9778b3a1]
 source_url: https://rassemblementnational.fr/
 source_tier: tier_1_primary_official
 first_documented_at: '2026-09-21'
@@ -17,9 +17,10 @@ evidence_sha256: 2113a75c6820ffdd535c9be26185ee5a21d9d2cb7ccb3a7a1c842ff161dedb4
 generated_by: scripts/auto_promote.py
 source_urls: ['https://rassemblementnational.fr/']
 evidence_sha256s: [2113a75c6820ffdd535c9be26185ee5a21d9d2cb7ccb3a7a1c842ff161dedb4d, 0102be493b40047bc7f54364be37edc49fe6001ab957466131a34f57b1610c81,
-  daee53e3f81c61ce34cb9eb1bf7ba8427d28caa7118bea817cee096f5190fda6, 2a24fce10857cf24097db0a6923baeaefd8e742feaca9461f26f4d4b44984f7c]
-confirmation_count: 4
-last_confirmed_at: '2026-10-15'
+  daee53e3f81c61ce34cb9eb1bf7ba8427d28caa7118bea817cee096f5190fda6, 2a24fce10857cf24097db0a6923baeaefd8e742feaca9461f26f4d4b44984f7c,
+  da661ba614f53c4d6543f8c4e8ccb8b650e6d05e873cdfd18343868770a407d1]
+confirmation_count: 5
+last_confirmed_at: '2026-10-16'
 ---
 
 # Le Rassemblement National propose la réduction de la TVA de 20% à 5,5% sur l'énergie
