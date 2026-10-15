@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created_at": "2026-08-17T19:57:19.441897+00:00",
-  "updated_at": "2026-10-14T22:31:11.311342+00:00",
+  "updated_at": "2026-10-15T06:03:45.009446+00:00",
   "files": [
     {
       "path": "corpus/2027/auto/candidates/anasse-kazib/2026-08-28-38891602d9d9.md",
@@ -754,6 +754,11 @@
       "size": 1985
     },
     {
+      "path": "corpus/2027/auto/partys/equinoxe/2026-10-15-cefb1f8b5e57.md",
+      "sha256": "f2fb42e93f8440a5899836efa07b410418d4d722d88d6cd7255731425f5c8353",
+      "size": 1690
+    },
+    {
       "path": "corpus/2027/auto/partys/generation-ecologie/2026-06-07-8b101fa96a72.md",
       "sha256": "5fc30acb50d945afb015a60cdf0ded8e70bc65a41a90e743b263bb2bf12aa301",
       "size": 1608
@@ -972,6 +977,11 @@
       "path": "corpus/2027/auto/partys/nouvelle-energie/2026-10-11-40d33244d53f.md",
       "sha256": "a9b0a3e0974814efdc8d3aed0669d3f4d5438f1f6162674de6edaf210892bcaf",
       "size": 2625
+    },
+    {
+      "path": "corpus/2027/auto/partys/nouvelle-energie/2026-10-15-6c2b22af71f4.md",
+      "sha256": "ba95bc0b1c8754d7d0e2155c5da3e266db1ae398786cd4cb867507b077abdb6f",
+      "size": 2031
     },
     {
       "path": "corpus/2027/auto/partys/npa-revolutionnaires/2026-07-04-14781613317c.md",
@@ -1729,6 +1739,11 @@
       "size": 2485
     },
     {
+      "path": "proposals/auto/economie-finances/auto-equinoxe-economie-finances-8a1dc37729be.md",
+      "sha256": "d0b00357f2b25ab8c4a640b71e502fc4a252555f87dd10c212ffb6cb6db8188b",
+      "size": 1248
+    },
+    {
       "path": "proposals/auto/economie-finances/auto-gabriel-attal-economie-finances-44c5426415ce.md",
       "sha256": "12443df1a05fed6812b6eada06231bc691852202a99d950087e3e969decc2b2d",
       "size": 1544
@@ -1775,8 +1790,8 @@
     },
     {
       "path": "proposals/auto/economie-finances/auto-nouvelle-energie-economie-finances-1ce2938e1f05.md",
-      "sha256": "49100cb20a11e88a535649972c4bbd03a32abbb76fcb6857ede7313dcdb3acc0",
-      "size": 2810
+      "sha256": "e457b80a2e4b3c490c58b7dd92a0c97c9018ebf1cd281ca27aaf4944fcd6df48",
+      "size": 2923
     },
     {
       "path": "proposals/auto/economie-finances/auto-nouvelle-energie-economie-finances-6b725b0ab72c.md",
@@ -1990,8 +2005,8 @@
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-david-lisnard-institutions-democratie-8a7a7019b8f9.md",
-      "sha256": "6a8c1832824fbdae47b53e123e9600f2c8c4df2f92301ea268ef4706e9e5a1fc",
-      "size": 3561
+      "sha256": "e408fa21408f41c21fe68640c7fc69d01f5a135c57219886c0a398c2786d1c4c",
+      "size": 3674
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-david-lisnard-institutions-democratie-8dc9338c9297.md",
@@ -2212,6 +2227,11 @@
       "path": "proposals/auto/pouvoir-achat-travail/auto-marine-tondelier-pouvoir-achat-travail-81b7bcfe37ed.md",
       "sha256": "e3beb056445ff52ad2e4fe7e36a5e8438ce7fe7c1daca046bb709ee18e512f02",
       "size": 1161
+    },
+    {
+      "path": "proposals/auto/pouvoir-achat-travail/auto-nouvelle-energie-pouvoir-achat-travail-e2e3d97f581c.md",
+      "sha256": "a5de851c4aa82575fafac520afa66d595aa800b5c0775502f8c33b8afa7b9dc5",
+      "size": 1413
     },
     {
       "path": "proposals/auto/pouvoir-achat-travail/auto-npa-revolutionnaires-pouvoir-achat-travail-7c180228264c.md",
@@ -2467,6 +2487,11 @@
       "path": "proposals/auto/services-publics/auto-david-lisnard-services-publics-16a78fe89ce6.md",
       "sha256": "93bcc808f0833362dc12b113832d95940c449bd277a160c6c2b6cebe5331a535",
       "size": 1836
+    },
+    {
+      "path": "proposals/auto/services-publics/auto-equinoxe-services-publics-98a29435a0c9.md",
+      "sha256": "fe4b15619b8288cab423dc95ae5305188f09feec147f37cce64a8573c7ee10d3",
+      "size": 1369
     },
     {
       "path": "proposals/auto/services-publics/auto-gabriel-attal-services-publics-0b16aea25279.md",

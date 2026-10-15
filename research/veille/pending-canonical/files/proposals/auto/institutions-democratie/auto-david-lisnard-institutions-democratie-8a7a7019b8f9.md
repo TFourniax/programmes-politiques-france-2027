@@ -11,7 +11,7 @@ source_document_ids: [auto-nouvelle-energie-2026-08-20-062668f762e9, auto-nouvel
   auto-nouvelle-energie-2026-09-21-6a48f96e1c57, auto-nouvelle-energie-2026-09-22-3aa691299861, auto-nouvelle-energie-2026-09-23-7836ee564793,
   auto-nouvelle-energie-2026-09-24-8e9da27c49c0, auto-nouvelle-energie-2026-09-25-b3e70f26c1e9, auto-nouvelle-energie-2026-09-26-67e42d23e6b8,
   auto-nouvelle-energie-2026-10-02-27442a1b35db, auto-nouvelle-energie-2026-10-03-47538c2b5df3, auto-nouvelle-energie-2026-10-05-13bccb7f1b6e,
-  auto-nouvelle-energie-2026-10-11-40d33244d53f]
+  auto-nouvelle-energie-2026-10-11-40d33244d53f, auto-nouvelle-energie-2026-10-15-6c2b22af71f4]
 source_url: https://www.unenouvelleenergie.fr/notre-programme/
 source_tier: tier_1_primary_official
 first_documented_at: '2026-08-20'
@@ -30,9 +30,9 @@ evidence_sha256s: [1eb28a14537fd7186cd6df902ba6b6b140cc6de4de1701724f76346ce9ed3
   6d74d157cb3c6b49bb8f31e8c6ded4706c96343774871784e58e1fd19a11bbb4, 81a6bf2f91d9bf8c774618554b315a2b17086655b4da9157050b069cdd0db851,
   c40499931ba4e8be04d29703fd525b3104eba7caa2bb0c49384382ff6b772abb, 1fda4ebc9b3384312897828c7c32ca5845fa7a15dc825d31a8605603b40af9c5,
   305a93b82e1ffb05af0c6a6cf8c4686de105876739e313d2a2231e036671963c, 7e748d47e81aefb409579efaaf99c4a0d986d131eca93c5f8c4992ee1a6c5525,
-  e9d2b6bd68245d87fcab9ef340c0168abb4abb869751db9329d8c085d5b38b01]
-confirmation_count: 19
-last_confirmed_at: '2026-10-11'
+  e9d2b6bd68245d87fcab9ef340c0168abb4abb869751db9329d8c085d5b38b01, 9450d8272a4eab8510ab3806088622270c62bbc6922030dceaafb039bc52f629]
+confirmation_count: 20
+last_confirmed_at: '2026-10-15'
 ---
 
 # Recentrer l'État sur ses missions régaliennes de sécurité et de défense

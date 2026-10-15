@@ -1,0 +1,47 @@
+{
+  "errors": [
+    {
+      "at": "2026-10-15T06:02:43+00:00",
+      "error": "ValueError: HTTP 404",
+      "url": "https://www.revolutionpermanente.fr/Neoliberalisme-social-et-militarisme-de-gauche-Glucksmann-lance-sa-candidature"
+    }
+  ],
+  "generated_at": "2026-10-15T06:03:30+00:00",
+  "historical_skipped": 0,
+  "partial": 0,
+  "processed": 2,
+  "promoted": 2,
+  "proposals_created": 3,
+  "results": [
+    {
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/partys/nouvelle-energie/2026-10-15-6c2b22af71f4.md",
+      "proposals": [
+        "proposals/auto/pouvoir-achat-travail/auto-nouvelle-energie-pouvoir-achat-travail-e2e3d97f581c.md"
+      ],
+      "provenance_updates": [
+        "auto-david-lisnard-institutions-democratie-8a7a7019b8f9",
+        "auto-nouvelle-energie-economie-finances-1ce2938e1f05"
+      ],
+      "sha256": "9450d8272a4eab8510ab3806088622270c62bbc6922030dceaafb039bc52f629",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/",
+      "verified_at": "2026-10-15T06:03:10+00:00"
+    },
+    {
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/partys/equinoxe/2026-10-15-cefb1f8b5e57.md",
+      "proposals": [
+        "proposals/auto/economie-finances/auto-equinoxe-economie-finances-8a1dc37729be.md",
+        "proposals/auto/services-publics/auto-equinoxe-services-publics-98a29435a0c9.md"
+      ],
+      "sha256": "5243303e49ecb9f8320c1315deda28ea9b3c7c34928806bc5e2929ec4ebe94db",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://parti-equinoxe.fr/presidentielle-2027/",
+      "verified_at": "2026-10-15T06:03:24+00:00"
+    }
+  ],
+  "status_updates": 0
+}

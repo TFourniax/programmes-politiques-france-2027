@@ -1040,6 +1040,11 @@
       "source_url": "https://www.unenouvelleenergie.fr/notre-programme/immigration/",
       "verified_at": "2026-08-12T03:38:03+00:00"
     },
+    "8a1dc37729be169906552c4b500a22bb12eade5bb66422225258e0b4a1e849f4": {
+      "proposal_id": "auto-equinoxe-economie-finances-8a1dc37729be",
+      "source_url": "https://parti-equinoxe.fr/presidentielle-2027/",
+      "verified_at": "2026-10-15T06:03:24+00:00"
+    },
     "8a7a7019b8f9937ed11d89a09677c3d729a264cbb26ea30b42d29063edcb259e": {
       "proposal_id": "auto-david-lisnard-institutions-democratie-8a7a7019b8f9",
       "source_url": "https://www.unenouvelleenergie.fr/notre-programme/",
@@ -1124,6 +1129,11 @@
       "proposal_id": "auto-les-ecologistes-pouvoir-achat-travail-9813c2e92818",
       "source_url": "https://lesecologistes.fr/document/5ZhR2m5t2ZaGKqIdD1bJaD/vdef-programme-1.pdf",
       "verified_at": "2026-08-19T02:42:33+00:00"
+    },
+    "98a29435a0c95f431df562d26466f0007378f0d3de6373d3b858abc1310f8feb": {
+      "proposal_id": "auto-equinoxe-services-publics-98a29435a0c9",
+      "source_url": "https://parti-equinoxe.fr/presidentielle-2027/",
+      "verified_at": "2026-10-15T06:03:24+00:00"
     },
     "98b58d717e2223e1344a1d9a501cdf45daf63751f3b8cb47801c559934c8a9ea": {
       "proposal_id": "auto-les-ecologistes-ecologie-energie-98b58d717e22",
@@ -1660,6 +1670,11 @@
       "source_url": "https://www.revolutionpermanente.fr/Une-candidature-ouvriere-et-revolutionnaire-en-2027-pour-quoi-faire-Assemblee-ouverte-de-RP-avec",
       "verified_at": "2026-10-06T00:58:02+00:00"
     },
+    "e2e3d97f581cad6b36e08ec873e926a52d353e35c9f1af0799681be6ad1ae031": {
+      "proposal_id": "auto-nouvelle-energie-pouvoir-achat-travail-e2e3d97f581c",
+      "source_url": "https://www.unenouvelleenergie.fr/notre-programme/",
+      "verified_at": "2026-10-15T06:03:03+00:00"
+    },
     "e3ad7d091ec92566b628c4eba17c1f31f73d6d5529037f9fcd1e642670ea4e23": {
       "proposal_id": "auto-la-france-insoumise-securite-justice-e3ad7d091ec9",
       "source_url": "https://melenchon2027.fr/programme2025/livre/chapitre7/",
@@ -1891,9 +1906,9 @@
       "verified_at": "2026-08-13T08:51:16+00:00"
     }
   },
-  "last_error_count": 0,
-  "last_processed_count": 3,
-  "last_run_at": "2026-10-14T22:30:52+00:00",
+  "last_error_count": 1,
+  "last_processed_count": 2,
+  "last_run_at": "2026-10-15T06:03:30+00:00",
   "source_chunks": {
     "000e79baea11403029d335b1": {
       "canonical_confirmations": [
@@ -9373,6 +9388,26 @@
       "total": 1,
       "updated_at": "2026-09-13T17:07:08+00:00",
       "url": "https://www.youtube.com/shorts/59bueV-BWyg"
+    },
+    "32678a77071623545b757df8": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-10-15T06:03:35+00:00",
+      "document_types": [
+        "other"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "e3327b8e779f83e204573b272d60a079422638e73f0cc52141aa441e444c2db0",
+      "source_title": "Oui, je serai dans la rue samedi ! Lycéens, agriculteurs, fonctionnaires… Les raisons de leur colère sont multiples, mais tous disent la même chose : après dix ans de mépris, nous",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-10-15T06:03:39+00:00",
+      "url": "https://bsky.app/profile/marinetondelier.fr/post/3mxud7lgclc25"
     },
     "3299a69f24ab3892bfb1b2ed": {
       "canonical_confirmations": [],
@@ -20289,6 +20324,26 @@
       "updated_at": "2026-08-11T14:42:42+00:00",
       "url": "https://parti-equinoxe.fr/legislatives-2022-programme-democratie/"
     },
+    "684577723adbbfc273e39c73": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-10-15T06:03:30+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "1e2473eb0143b746045c69bd942d1e4493c4279f985e24e9fae444634edf9671",
+      "source_title": "Je veux porter en politique les sujets qui touchent les femmes. Et il y a du travail ! Infertilité, endométriose, interruption de grossesse, post-partum… Des millions de femmes vi",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-10-15T06:03:35+00:00",
+      "url": "https://bsky.app/profile/marinetondelier.fr/post/3mxufucgrok25"
+    },
     "6865c35656df3497bd2dfd62": {
       "canonical_confirmations": [],
       "claims": [],
@@ -21211,6 +21266,101 @@
       "total": 1,
       "updated_at": "2026-10-06T07:43:45+00:00",
       "url": "https://www.youtube.com/shorts/mGpNtRHhtxQ"
+    },
+    "6c2b22af71f49147ea6609e8": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "david-lisnard",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "un État recentré sur ses missions régaliennes de sécurité et de défense",
+            "relevance": "direct",
+            "statement": "Recentrer l'État sur ses missions régaliennes de sécurité et de défense.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Explicitement présent dans le canon actuel.",
+            "related_proposal_id": "auto-david-lisnard-institutions-democratie-8a7a7019b8f9",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "nouvelle-energie",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "la réduction drastique des dépenses publiques",
+            "relevance": "direct",
+            "statement": "Mettre en œuvre une réduction drastique des dépenses publiques.",
+            "topic": "economie-finances"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "Explicitement présent dans le canon actuel.",
+            "related_proposal_id": "auto-nouvelle-energie-economie-finances-1ce2938e1f05",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "nouvelle-energie",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "la liberté pour les travailleurs de se constituer un capital pour leur retraite (capitalisation)",
+            "relevance": "direct",
+            "statement": "Permettre la liberté pour les travailleurs de se constituer un capital pour leur retraite par capitalisation.",
+            "topic": "pouvoir-achat-travail"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "Nouvelle proposition explicitement soutenue par la source pour Nouvelle Énergie.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [
+        {
+          "claim": {
+            "actor_id": "nouvelle-energie",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "la liberté pour les travailleurs de se constituer un capital pour leur retraite (capitalisation)",
+            "relevance": "direct",
+            "statement": "Permettre la liberté pour les travailleurs de se constituer un capital pour leur retraite par capitalisation.",
+            "topic": "pouvoir-achat-travail"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "Nouvelle proposition explicitement soutenue par la source pour Nouvelle Énergie.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "completed_at": "2026-10-15T06:03:10+00:00",
+      "created_at": "2026-10-15T06:02:45+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "9450d8272a4eab8510ab3806088622270c62bbc6922030dceaafb039bc52f629",
+      "source_title": "Le programme de David Lisnard | Nouvelle Énergie",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-10-15T06:03:03+00:00",
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/"
     },
     "6c4252da548f2dd662890dda": {
       "canonical_confirmations": [
@@ -39283,6 +39433,101 @@
       "updated_at": "2026-08-13T08:51:03+00:00",
       "url": "https://melenchon2027.fr/programme2025/livre/chapitre7/"
     },
+    "cefb1f8b5e57a07100d25f69": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "equinoxe",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Relocaliser les productions agricoles et industrielles",
+            "relevance": "direct",
+            "statement": "Il est proposé de relocaliser les productions agricoles et industrielles en France.",
+            "topic": "economie-finances"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La relocalisation des productions agricoles et industrielles est explicitement affirmée par le parti Équinoxe pour la présidentielle 2027.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "equinoxe",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Garantir l’accès à une alimentation de qualité et aux soins sur l’ensemble du territoire.",
+            "relevance": "direct",
+            "statement": "Il est proposé de garantir l'accès à une alimentation de qualité et aux soins sur l'ensemble du territoire.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "Garantir l'accès à une alimentation de qualité et aux soins est explicitement soutenu par le parti Équinoxe.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [
+        {
+          "claim": {
+            "actor_id": "equinoxe",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Relocaliser les productions agricoles et industrielles",
+            "relevance": "direct",
+            "statement": "Il est proposé de relocaliser les productions agricoles et industrielles en France.",
+            "topic": "economie-finances"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La relocalisation des productions agricoles et industrielles est explicitement affirmée par le parti Équinoxe pour la présidentielle 2027.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "equinoxe",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Garantir l’accès à une alimentation de qualité et aux soins sur l’ensemble du territoire.",
+            "relevance": "direct",
+            "statement": "Il est proposé de garantir l'accès à une alimentation de qualité et aux soins sur l'ensemble du territoire.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "Garantir l'accès à une alimentation de qualité et aux soins est explicitement soutenu par le parti Équinoxe.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "completed_at": "2026-10-15T06:03:24+00:00",
+      "created_at": "2026-10-15T06:03:12+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "5243303e49ecb9f8320c1315deda28ea9b3c7c34928806bc5e2929ec4ebe94db",
+      "source_title": "Présidentielle 2027 - Parti Équinoxe",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-10-15T06:03:24+00:00",
+      "url": "https://parti-equinoxe.fr/presidentielle-2027/"
+    },
     "cf05007782121b73c8fa752a": {
       "canonical_confirmations": [
         {
@@ -49151,10 +49396,10 @@
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
     "472924b7a00c": {
-      "attempts": 5,
+      "attempts": 6,
       "error": "ValueError: HTTP 404",
-      "next_retry_at": "2026-10-14T06:55:56+00:00",
-      "processed_at": "2026-09-30T06:55:56+00:00",
+      "next_retry_at": "2026-10-29T06:02:43+00:00",
+      "processed_at": "2026-10-15T06:02:43+00:00",
       "status": "technical_error",
       "url": "https://www.revolutionpermanente.fr/Neoliberalisme-social-et-militarisme-de-gauche-Glucksmann-lance-sa-candidature"
     },
@@ -51641,6 +51886,15 @@
       "status": "not_confirmed",
       "url": "https://attalpresident.fr/actualites/annonce-de-candidature"
     },
+    "b9bfab2c65c9": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-10-15T06:03:10+00:00",
+      "reason": null,
+      "source_sha256": "9450d8272a4eab8510ab3806088622270c62bbc6922030dceaafb039bc52f629",
+      "status": "promoted",
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/"
+    },
     "b9ea09e1f9b0": {
       "processed_at": "2026-08-11T09:26:30+00:00",
       "reason": "explicit_old_election_context",
@@ -52049,6 +52303,15 @@
       "processed_at": "2026-10-04T07:06:01+00:00",
       "status": "technical_error",
       "url": "https://parti-equinoxe.fr/articles/2022/05/la-transition-energetique-selon-les-ex-candidats-a-la-presidentielle-2/"
+    },
+    "cb19864ae669": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-10-15T06:03:29+00:00",
+      "reason": null,
+      "source_sha256": "5243303e49ecb9f8320c1315deda28ea9b3c7c34928806bc5e2929ec4ebe94db",
+      "status": "promoted",
+      "url": "https://parti-equinoxe.fr/presidentielle-2027/"
     },
     "cb3428b2b6d3": {
       "chunks_done": null,
