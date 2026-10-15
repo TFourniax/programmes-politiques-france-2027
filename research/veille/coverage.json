@@ -6,18 +6,18 @@
     "actors": 68,
     "declared_or_active_candidates": 27,
     "topics": 12,
-    "current_proposals": 1342,
+    "current_proposals": 1344,
     "covered_actor_topic_cells": 157,
     "total_actor_topic_cells": 816,
     "actor_topic_coverage_ratio": 0.1924,
     "active_candidate_covered_cells": 70,
     "active_candidate_total_cells": 324,
     "active_candidate_topic_coverage_ratio": 0.216,
-    "verified_proposals": 1308,
-    "multi_source_proposals": 90,
+    "verified_proposals": 1310,
+    "multi_source_proposals": 91,
     "latest_evidence_at": "2026-10-15",
     "certainty_counts": {
-      "explicit": 1317,
+      "explicit": 1319,
       "explicit_but_conditional": 3,
       "explicit_but_underspecified": 22
     }
@@ -365,7 +365,7 @@
       "type": "candidate",
       "status": "declared_presidential",
       "confidence": "high",
-      "current_proposals": 39,
+      "current_proposals": 40,
       "covered_topics": [
         "defense-international",
         "ecologie-energie",
@@ -383,7 +383,7 @@
       "coverage_ratio": 1.0,
       "gaps": [],
       "latest_evidence_at": "2026-10-15",
-      "verified_proposals": 36,
+      "verified_proposals": 37,
       "multi_source_proposals": 7
     },
     {
@@ -1240,7 +1240,7 @@
       "type": "candidate",
       "status": "declared_primary",
       "confidence": "high",
-      "current_proposals": 4,
+      "current_proposals": 5,
       "covered_topics": [
         "ecologie-energie",
         "pouvoir-achat-travail",
@@ -1258,8 +1258,8 @@
         "economie-finances",
         "numerique-ia"
       ],
-      "latest_evidence_at": "2026-09-09",
-      "verified_proposals": 4,
+      "latest_evidence_at": "2026-10-15",
+      "verified_proposals": 5,
       "multi_source_proposals": 0
     },
     {
@@ -1589,7 +1589,7 @@
         "economie-finances",
         "numerique-ia"
       ],
-      "latest_evidence_at": "2026-10-14",
+      "latest_evidence_at": "2026-10-15",
       "verified_proposals": 22,
       "multi_source_proposals": 11
     },
@@ -1756,9 +1756,9 @@
         "economie-finances",
         "numerique-ia"
       ],
-      "latest_evidence_at": "2026-09-30",
+      "latest_evidence_at": "2026-10-15",
       "verified_proposals": 9,
-      "multi_source_proposals": 3
+      "multi_source_proposals": 4
     },
     {
       "id": "segolene-royal",
@@ -1969,7 +1969,7 @@
       "current_proposals": 23,
       "actors_covered": 14,
       "actor_coverage_ratio": 0.2059,
-      "latest_evidence_at": "2026-10-14",
+      "latest_evidence_at": "2026-10-15",
       "verified_proposals": 21,
       "multi_source_proposals": 7
     },
@@ -1979,7 +1979,7 @@
       "current_proposals": 74,
       "actors_covered": 11,
       "actor_coverage_ratio": 0.1618,
-      "latest_evidence_at": "2026-10-14",
+      "latest_evidence_at": "2026-10-15",
       "verified_proposals": 72,
       "multi_source_proposals": 3
     },
@@ -1989,7 +1989,7 @@
       "current_proposals": 67,
       "actors_covered": 12,
       "actor_coverage_ratio": 0.1765,
-      "latest_evidence_at": "2026-10-14",
+      "latest_evidence_at": "2026-10-15",
       "verified_proposals": 63,
       "multi_source_proposals": 7
     },
@@ -2016,22 +2016,22 @@
     {
       "id": "ecologie-energie",
       "label": "Écologie & énergie",
-      "current_proposals": 198,
+      "current_proposals": 199,
       "actors_covered": 17,
       "actor_coverage_ratio": 0.25,
-      "latest_evidence_at": "2026-10-14",
-      "verified_proposals": 192,
+      "latest_evidence_at": "2026-10-15",
+      "verified_proposals": 193,
       "multi_source_proposals": 4
     },
     {
       "id": "institutions-democratie",
       "label": "Institutions & démocratie",
-      "current_proposals": 268,
+      "current_proposals": 269,
       "actors_covered": 15,
       "actor_coverage_ratio": 0.2206,
       "latest_evidence_at": "2026-10-15",
-      "verified_proposals": 264,
-      "multi_source_proposals": 24
+      "verified_proposals": 265,
+      "multi_source_proposals": 25
     },
     {
       "id": "services-publics",
@@ -2049,7 +2049,7 @@
       "current_proposals": 147,
       "actors_covered": 14,
       "actor_coverage_ratio": 0.2059,
-      "latest_evidence_at": "2026-10-14",
+      "latest_evidence_at": "2026-10-15",
       "verified_proposals": 144,
       "multi_source_proposals": 10
     },
@@ -2788,7 +2788,7 @@
       "name": "David Lisnard",
       "status": "declared_presidential",
       "coverage_ratio": 1.0,
-      "current_proposals": 39,
+      "current_proposals": 40,
       "latest_evidence_at": "2026-10-15",
       "topics": [
         {
@@ -2858,9 +2858,9 @@
           "id": "institutions-democratie",
           "label": "Institutions & démocratie",
           "covered": true,
-          "current_proposals": 4,
+          "current_proposals": 5,
           "latest_evidence_at": "2026-10-15",
-          "verified_proposals": 3,
+          "verified_proposals": 4,
           "multi_source_proposals": 2
         },
         {
@@ -4322,8 +4322,8 @@
       "name": "Marine Tondelier",
       "status": "declared_primary",
       "coverage_ratio": 0.25,
-      "current_proposals": 4,
-      "latest_evidence_at": "2026-09-09",
+      "current_proposals": 5,
+      "latest_evidence_at": "2026-10-15",
       "topics": [
         {
           "id": "pouvoir-achat-travail",
@@ -4383,9 +4383,9 @@
           "id": "ecologie-energie",
           "label": "Écologie & énergie",
           "covered": true,
-          "current_proposals": 1,
-          "latest_evidence_at": "2026-09-09",
-          "verified_proposals": 1,
+          "current_proposals": 2,
+          "latest_evidence_at": "2026-10-15",
+          "verified_proposals": 2,
           "multi_source_proposals": 0
         },
         {
@@ -5669,25 +5669,6 @@
       ]
     },
     {
-      "id": "marine-tondelier",
-      "name": "Marine Tondelier",
-      "status": "declared_primary",
-      "coverage_ratio": 0.25,
-      "current_proposals": 4,
-      "latest_evidence_at": "2026-09-09",
-      "gaps": [
-        "retraites",
-        "fiscalite-redistribution",
-        "immigration-integration",
-        "europe-souverainete",
-        "defense-international",
-        "institutions-democratie",
-        "securite-justice",
-        "economie-finances",
-        "numerique-ia"
-      ]
-    },
-    {
       "id": "marine-le-pen",
       "name": "Marine Le Pen",
       "status": "declared_presidential",
@@ -5703,6 +5684,25 @@
         "institutions-democratie",
         "services-publics",
         "securite-justice",
+        "numerique-ia"
+      ]
+    },
+    {
+      "id": "marine-tondelier",
+      "name": "Marine Tondelier",
+      "status": "declared_primary",
+      "coverage_ratio": 0.25,
+      "current_proposals": 5,
+      "latest_evidence_at": "2026-10-15",
+      "gaps": [
+        "retraites",
+        "fiscalite-redistribution",
+        "immigration-integration",
+        "europe-souverainete",
+        "defense-international",
+        "institutions-democratie",
+        "securite-justice",
+        "economie-finances",
         "numerique-ia"
       ]
     },

@@ -1,21 +1,38 @@
 {
   "errors": [],
-  "generated_at": "2026-10-15T06:03:40+00:00",
+  "generated_at": "2026-10-15T12:50:28+00:00",
   "partial": 0,
-  "processed": 2,
-  "promoted": 0,
-  "proposals_created": 0,
+  "processed": 4,
+  "promoted": 1,
+  "proposals_created": 1,
   "provenance_updates": 0,
   "results": [
     {
-      "sha256": "1e2473eb0143b746045c69bd942d1e4493c4279f985e24e9fae444634edf9671",
+      "sha256": "6ad13a00442881d70dde2a8019a26dc22febcc48b80108f1dba67c18a7721d3d",
       "status": "not_confirmed",
-      "url": "https://bsky.app/profile/marinetondelier.fr/post/3mxufucgrok25"
+      "url": "https://bsky.app/profile/marinetondelier.fr/post/3mxvt3k6wyc2g"
     },
     {
-      "sha256": "e3327b8e779f83e204573b272d60a079422638e73f0cc52141aa441e444c2db0",
+      "sha256": "59ffb41912d1b2a585b50e22407aff3638781fdd6e68b8c6226a0406d400269c",
       "status": "not_confirmed",
-      "url": "https://bsky.app/profile/marinetondelier.fr/post/3mxud7lgclc25"
+      "url": "https://bsky.app/profile/marinetondelier.fr/post/3mxvrv2qyqs2g"
+    },
+    {
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/candidates/marine-tondelier/2026-10-15-14e2fc1d19e0.md",
+      "proposals": [
+        "proposals/auto/ecologie-energie/auto-marine-tondelier-ecologie-energie-da9061d46e28.md"
+      ],
+      "sha256": "bb5ce5bdee2a713c2cab9f52ed455930d76ef33b10ba7b520ac9492ff9313363",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://bsky.app/profile/marinetondelier.fr/post/3mxvqglw7bc2x",
+      "verified_at": "2026-10-15T12:50:16+00:00"
+    },
+    {
+      "sha256": "c4a95279eaa51efbe687961310d8b7afc362c37ffecdf570bec3961e5b782877",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/shorts/OU6_9xMI2GQ"
     }
   ],
   "status_updates": 0
