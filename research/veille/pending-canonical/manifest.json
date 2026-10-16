@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created_at": "2026-08-17T19:57:19.441897+00:00",
-  "updated_at": "2026-10-16T17:37:11.710062+00:00",
+  "updated_at": "2026-10-16T22:13:51.513951+00:00",
   "files": [
     {
       "path": "corpus/2027/auto/candidates/anasse-kazib/2026-08-28-38891602d9d9.md",
@@ -1384,6 +1384,11 @@
       "size": 2478
     },
     {
+      "path": "corpus/2027/auto/partys/rassemblement-national/2026-10-16-6dc49efccb71.md",
+      "sha256": "5df0954b93c505cfa8da462cc2ba77b86da38f0cd6abbcfd2f15f9f17133c03d",
+      "size": 2373
+    },
+    {
       "path": "corpus/2027/auto/partys/rassemblement-national/2026-10-16-bf6e9778b3a1.md",
       "sha256": "d44c78bb9566c11ecb0206557f5564aee80a61c100c0185d25e94940e46f52d9",
       "size": 2385
@@ -1765,8 +1770,8 @@
     },
     {
       "path": "proposals/auto/ecologie-energie/auto-rassemblement-national-ecologie-energie-e7de1a3e9e8e.md",
-      "sha256": "d43d8eac8203b0fe3816a5ffd2f9bc34b05a900da9677b21af13ceb100c95d6f",
-      "size": 9446
+      "sha256": "09f51628064a380b016f24cec53e28a015f152a6fd9b5b899a9ce718f636c926",
+      "size": 9569
     },
     {
       "path": "proposals/auto/ecologie-energie/auto-revolution-permanente-ecologie-energie-7f47182d047a.md",
@@ -1970,8 +1975,8 @@
     },
     {
       "path": "proposals/auto/fiscalite-redistribution/auto-rassemblement-national-fiscalite-redistribution-650411362d03.md",
-      "sha256": "7b3b2ad85c120003029916d67230223bb8140879b94294b2009d38e548b2caef",
-      "size": 7899
+      "sha256": "3b59719dccdcbf9b2a9d636f13b7f2fdf7780db901ad11100716ef3eef3c1637",
+      "size": 8020
     },
     {
       "path": "proposals/auto/immigration-integration/auto-anasse-kazib-immigration-integration-f008b1970a86.md",
@@ -2025,8 +2030,8 @@
     },
     {
       "path": "proposals/auto/immigration-integration/auto-rassemblement-national-immigration-integration-65a64162aec9.md",
-      "sha256": "cd27dd62b4995f33f1da7bc8f06e65bdfb8a0fd7996351c972fcc2ca960182e6",
-      "size": 9456
+      "sha256": "98b71bbf2a2f087f2351b84ccf5898a4e9e1d884c89eb4f65847bd3fb6620ca5",
+      "size": 9579
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-anasse-kazib-institutions-democratie-1a9f657935f4.md",
@@ -2170,8 +2175,8 @@
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-rassemblement-national-institutions-democratie-2ec6a69712fb.md",
-      "sha256": "ba87a4d1edc5cc6337f6b0c9c9f19c02630f5c8db9bc82ec80c5785ce102fa97",
-      "size": 9554
+      "sha256": "c2b3eb464e828dd3b61d28bb39708da970bf27dde47bcc0abb40635a8a124d71",
+      "size": 9677
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-revolution-permanente-institutions-democratie-dcbc5ab5164c.md",
@@ -2400,8 +2405,8 @@
     },
     {
       "path": "proposals/auto/retraites/auto-rassemblement-national-retraites-fd538617cfee.md",
-      "sha256": "5a39ff41b159dccd03915b692df95f52151af8258b8a12a1b75ac4be7884feab",
-      "size": 9205
+      "sha256": "713c4a93e48143db45d3b907d0db9d74fcea96ff73f7ebf537fa9cd45eb8d4a7",
+      "size": 9326
     },
     {
       "path": "proposals/auto/retraites/auto-revolution-permanente-retraites-13fa936216a8.md",
@@ -2550,13 +2555,13 @@
     },
     {
       "path": "proposals/auto/securite-justice/auto-rassemblement-national-securite-justice-25fe73df9ce3.md",
-      "sha256": "c89cff8f2913cb3a4b49423de15a31efe6612fef09a4192fedb27da4c9758d3d",
-      "size": 7456
+      "sha256": "939ca8cb9523ba3aceec477c3b6cff5cd69fc9be5de6b9ca706a2801fe6eec7a",
+      "size": 7577
     },
     {
       "path": "proposals/auto/securite-justice/auto-rassemblement-national-securite-justice-5cb19d0cbcca.md",
-      "sha256": "3d96332652c91dcf98b5d2513070e4e2113ad4a6a1c58ce47db4a0dd9c814479",
-      "size": 8355
+      "sha256": "84d251d85a1ad1070d64786a33d17d515be98066a20b2ef3f329600a9ff5e67c",
+      "size": 8476
     },
     {
       "path": "proposals/auto/securite-justice/auto-rassemblement-national-securite-justice-f810f54b67af.md",
