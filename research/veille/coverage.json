@@ -6,18 +6,18 @@
     "actors": 68,
     "declared_or_active_candidates": 27,
     "topics": 12,
-    "current_proposals": 1347,
+    "current_proposals": 1349,
     "covered_actor_topic_cells": 157,
     "total_actor_topic_cells": 816,
     "actor_topic_coverage_ratio": 0.1924,
     "active_candidate_covered_cells": 70,
     "active_candidate_total_cells": 324,
     "active_candidate_topic_coverage_ratio": 0.216,
-    "verified_proposals": 1313,
-    "multi_source_proposals": 91,
+    "verified_proposals": 1315,
+    "multi_source_proposals": 93,
     "latest_evidence_at": "2026-10-16",
     "certainty_counts": {
-      "explicit": 1322,
+      "explicit": 1324,
       "explicit_but_conditional": 3,
       "explicit_but_underspecified": 22
     }
@@ -1738,7 +1738,7 @@
       "type": "party",
       "status": null,
       "confidence": null,
-      "current_proposals": 9,
+      "current_proposals": 11,
       "covered_topics": [
         "institutions-democratie"
       ],
@@ -1757,8 +1757,8 @@
         "numerique-ia"
       ],
       "latest_evidence_at": "2026-10-15",
-      "verified_proposals": 9,
-      "multi_source_proposals": 4
+      "verified_proposals": 11,
+      "multi_source_proposals": 6
     },
     {
       "id": "segolene-royal",
@@ -1979,7 +1979,7 @@
       "current_proposals": 74,
       "actors_covered": 11,
       "actor_coverage_ratio": 0.1618,
-      "latest_evidence_at": "2026-10-15",
+      "latest_evidence_at": "2026-10-16",
       "verified_proposals": 72,
       "multi_source_proposals": 3
     },
@@ -2026,12 +2026,12 @@
     {
       "id": "institutions-democratie",
       "label": "Institutions & démocratie",
-      "current_proposals": 269,
+      "current_proposals": 271,
       "actors_covered": 15,
       "actor_coverage_ratio": 0.2206,
       "latest_evidence_at": "2026-10-16",
-      "verified_proposals": 265,
-      "multi_source_proposals": 25
+      "verified_proposals": 267,
+      "multi_source_proposals": 27
     },
     {
       "id": "services-publics",
