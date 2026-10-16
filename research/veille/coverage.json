@@ -6,18 +6,18 @@
     "actors": 68,
     "declared_or_active_candidates": 27,
     "topics": 12,
-    "current_proposals": 1344,
+    "current_proposals": 1347,
     "covered_actor_topic_cells": 157,
     "total_actor_topic_cells": 816,
     "actor_topic_coverage_ratio": 0.1924,
     "active_candidate_covered_cells": 70,
     "active_candidate_total_cells": 324,
     "active_candidate_topic_coverage_ratio": 0.216,
-    "verified_proposals": 1310,
+    "verified_proposals": 1313,
     "multi_source_proposals": 91,
     "latest_evidence_at": "2026-10-16",
     "certainty_counts": {
-      "explicit": 1319,
+      "explicit": 1322,
       "explicit_but_conditional": 3,
       "explicit_but_underspecified": 22
     }
@@ -365,7 +365,7 @@
       "type": "candidate",
       "status": "declared_presidential",
       "confidence": "high",
-      "current_proposals": 40,
+      "current_proposals": 43,
       "covered_topics": [
         "defense-international",
         "ecologie-energie",
@@ -382,8 +382,8 @@
       ],
       "coverage_ratio": 1.0,
       "gaps": [],
-      "latest_evidence_at": "2026-10-15",
-      "verified_proposals": 37,
+      "latest_evidence_at": "2026-10-16",
+      "verified_proposals": 40,
       "multi_source_proposals": 7
     },
     {
@@ -2046,11 +2046,11 @@
     {
       "id": "securite-justice",
       "label": "Sécurité & justice",
-      "current_proposals": 147,
+      "current_proposals": 150,
       "actors_covered": 14,
       "actor_coverage_ratio": 0.2059,
       "latest_evidence_at": "2026-10-16",
-      "verified_proposals": 144,
+      "verified_proposals": 147,
       "multi_source_proposals": 10
     },
     {
@@ -2788,8 +2788,8 @@
       "name": "David Lisnard",
       "status": "declared_presidential",
       "coverage_ratio": 1.0,
-      "current_proposals": 40,
-      "latest_evidence_at": "2026-10-15",
+      "current_proposals": 43,
+      "latest_evidence_at": "2026-10-16",
       "topics": [
         {
           "id": "pouvoir-achat-travail",
@@ -2876,9 +2876,9 @@
           "id": "securite-justice",
           "label": "Sécurité & justice",
           "covered": true,
-          "current_proposals": 6,
-          "latest_evidence_at": "2026-07-31",
-          "verified_proposals": 6,
+          "current_proposals": 9,
+          "latest_evidence_at": "2026-10-16",
+          "verified_proposals": 9,
           "multi_source_proposals": 0
         },
         {

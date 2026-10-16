@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created_at": "2026-08-17T19:57:19.441897+00:00",
-  "updated_at": "2026-10-16T06:00:35.182886+00:00",
+  "updated_at": "2026-10-16T12:39:23.901128+00:00",
   "files": [
     {
       "path": "corpus/2027/auto/candidates/anasse-kazib/2026-08-28-38891602d9d9.md",
@@ -997,6 +997,16 @@
       "path": "corpus/2027/auto/partys/nouvelle-energie/2026-10-15-dead912f0867.md",
       "sha256": "e99f58144874ee9abf1c122909ff45a61ac3665b6ada4877cf5b525c17023e89",
       "size": 1654
+    },
+    {
+      "path": "corpus/2027/auto/partys/nouvelle-energie/2026-10-16-1a428230491d.md",
+      "sha256": "6e3e8e5ad96ac6401a9ba3abb592483fa939ce0e91b9b9b5b71b63de7667a99e",
+      "size": 1548
+    },
+    {
+      "path": "corpus/2027/auto/partys/nouvelle-energie/2026-10-16-6759a2a7ca56.md",
+      "sha256": "625a3217a41d6c295bc42497a6e5c011695379a4c8e900e6110b9c7541be4e73",
+      "size": 2135
     },
     {
       "path": "corpus/2027/auto/partys/npa-revolutionnaires/2026-07-04-14781613317c.md",
@@ -2402,6 +2412,21 @@
       "path": "proposals/auto/securite-justice/auto-bruno-retailleau-securite-justice-82f2073a175c.md",
       "sha256": "c809fdf71a82b21d73cab29fad6059f1025dcbe0fa26f4c18e82164dfa507adc",
       "size": 1498
+    },
+    {
+      "path": "proposals/auto/securite-justice/auto-david-lisnard-securite-justice-5bcd6572a1e1.md",
+      "sha256": "00f1c5346c3e26cddc1dc288dc91cd291a9d518a9ae2e360689431fed5aafc05",
+      "size": 1456
+    },
+    {
+      "path": "proposals/auto/securite-justice/auto-david-lisnard-securite-justice-a17ddd0542c4.md",
+      "sha256": "7893d72d562496b428242f2981ac087018b91278b00918ff050b7b7a7149dbd2",
+      "size": 1397
+    },
+    {
+      "path": "proposals/auto/securite-justice/auto-david-lisnard-securite-justice-ab38ea16f55d.md",
+      "sha256": "215c0d9837cf14d9cef25efee01da5b781c9e88bd9a70a054a7033865587d5db",
+      "size": 1399
     },
     {
       "path": "proposals/auto/securite-justice/auto-delphine-batho-securite-justice-a34aaad24087.md",

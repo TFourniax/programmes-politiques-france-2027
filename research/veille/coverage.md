@@ -8,10 +8,10 @@ Ce rapport est dérivé automatiquement du corpus courant. Il sert à piloter la
 
 - 68 acteurs référencés ;
 - 27 candidatures actives ou déclarées suivies ;
-- 1344 propositions atomiques courantes ;
+- 1347 propositions atomiques courantes ;
 - 157 / 816 cases acteur × thème couvertes (19.2 %) ;
 - 70 / 324 cases candidat actif × thème couvertes (21.6 %) ;
-- 1310 propositions marquées vérifiées ; 91 appuyées par au moins deux documents de preuve.
+- 1313 propositions marquées vérifiées ; 91 appuyées par au moins deux documents de preuve.
 
 ## Priorités documentaires
 
@@ -39,7 +39,7 @@ Ce rapport est dérivé automatiquement du corpus courant. Il sert à piloter la
 - **Europe & souveraineté** (`europe-souverainete`) — 12 acteur(s), 111 proposition(s), dernière preuve 2026-09-25.
 - **Immigration & intégration** (`immigration-integration`) — 12 acteur(s), 67 proposition(s), dernière preuve 2026-10-16.
 - **Retraites** (`retraites`) — 14 acteur(s), 23 proposition(s), dernière preuve 2026-10-16.
-- **Sécurité & justice** (`securite-justice`) — 14 acteur(s), 147 proposition(s), dernière preuve 2026-10-16.
+- **Sécurité & justice** (`securite-justice`) — 14 acteur(s), 150 proposition(s), dernière preuve 2026-10-16.
 - **Économie & finances publiques** (`economie-finances`) — 15 acteur(s), 123 proposition(s), dernière preuve 2026-10-15.
 - **Institutions & démocratie** (`institutions-democratie`) — 15 acteur(s), 269 proposition(s), dernière preuve 2026-10-16.
 - **Services publics** (`services-publics`) — 16 acteur(s), 238 proposition(s), dernière preuve 2026-10-15.
