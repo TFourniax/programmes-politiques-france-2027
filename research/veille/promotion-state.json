@@ -1951,9 +1951,9 @@
       "verified_at": "2026-08-13T08:51:16+00:00"
     }
   },
-  "last_error_count": 0,
-  "last_processed_count": 3,
-  "last_run_at": "2026-10-17T11:45:33+00:00",
+  "last_error_count": 2,
+  "last_processed_count": 1,
+  "last_run_at": "2026-10-17T16:35:16+00:00",
   "source_chunks": {
     "000e79baea11403029d335b1": {
       "canonical_confirmations": [
@@ -6420,6 +6420,26 @@
       "total": 1,
       "updated_at": "2026-09-18T21:49:32+00:00",
       "url": "https://www.revolutionpermanente.fr/"
+    },
+    "1d592d6805ba040633811d7f": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-10-17T16:35:16+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "8c52c7d93805e761e4b91656c26856c1c32c0664c97a1860d5d073bf3f15fe1a",
+      "source_title": "Magnifique mobilisation joyeuse et pleine d’énergie à Paris aujourd’hui 🫶",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-10-17T16:35:17+00:00",
+      "url": "https://www.youtube.com/shorts/rzzHNdOACGs"
     },
     "1da89c203f60b6aca11ca954": {
       "canonical_confirmations": [
@@ -19336,6 +19356,26 @@
       "updated_at": "2026-08-29T08:03:56+00:00",
       "url": "https://www.unenouvelleenergie.fr/notre-programme/"
     },
+    "6226c7a84c2b9d38b5b4e1df": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-10-17T16:35:22+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "1d91c363481f90f4fc08b7e39798a122a6bbb41fce9c368ae4260541e8d39cce",
+      "source_title": "🔴 Jonction des cheminots en grève et de la jeunesse !",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-10-17T16:35:23+00:00",
+      "url": "https://www.youtube.com/shorts/-hsI-qENrpM"
+    },
     "62335aba880a8396fc4478c6": {
       "canonical_confirmations": [
         {
@@ -23888,6 +23928,26 @@
       "total": 1,
       "updated_at": "2026-08-26T14:18:37+00:00",
       "url": "https://www.unenouvelleenergie.fr/notre-programme/"
+    },
+    "778902f05b490d323ee7e601": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-10-17T16:35:18+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "4065ba079c1981b0f60ccaab18347ef0bd445ee695c0f620f9829cbe76d5615c",
+      "source_title": "🔴 Un jeune a perdu sa main à Saint-Etienne à cause d'une grenade policière. Les images sont insoute",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-10-17T16:35:19+00:00",
+      "url": "https://www.youtube.com/shorts/wc5TNyXN4E8"
     },
     "77f522277be2ac88fdba0417": {
       "canonical_confirmations": [
@@ -45201,6 +45261,26 @@
       "updated_at": "2026-09-13T17:06:13+00:00",
       "url": "https://rassemblementnational.fr/"
     },
+    "e5e84161d092b1e826c19985": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-10-17T16:35:20+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "1bacdea684e88d4bdce93326aba78051334995564b4d8764b3156ca56cd04de5",
+      "source_title": "🔴 Grève des cheminots pour l'union de la jeunesse et des travailleurs !",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-10-17T16:35:21+00:00",
+      "url": "https://www.youtube.com/shorts/keHnyxm2Px0"
+    },
     "e5e9484e2b9c610de1db2022": {
       "canonical_confirmations": [
         {
@@ -45369,6 +45449,28 @@
       "total": 1,
       "updated_at": "2026-08-30T17:43:42+00:00",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
+    "e7400171a2076629cf6c3c95": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-10-17T16:35:14+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [
+        "2026-10-16"
+      ],
+      "sha256": "1013aeeb0f18383eef52fe72b90787b48adb9ebcd555cce63e67b960331c8bb7",
+      "source_title": "Où trouver le programme de David Lisnard ? | Nouvelle Énergie",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-10-17T16:35:16+00:00",
+      "url": "https://www.unenouvelleenergie.fr/questions/ou-trouver-le-programme-de-david-lisnard/"
     },
     "e7a904915039ef48dca16b36": {
       "canonical_confirmations": [],
@@ -50345,10 +50447,10 @@
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
     "1e67d8d2b142": {
-      "attempts": 6,
+      "attempts": 7,
       "error": "ValueError: HTTP 403",
-      "next_retry_at": "2026-10-17T12:42:42+00:00",
-      "processed_at": "2026-10-03T12:42:42+00:00",
+      "next_retry_at": "2026-10-31T16:35:13+00:00",
+      "processed_at": "2026-10-17T16:35:13+00:00",
       "status": "technical_error",
       "url": "https://www.pcf.fr/presidentielle2027_fabien_roussel_designe_candidat"
     },
@@ -51032,6 +51134,15 @@
       "source_sha256": "3e726547b375cf833eaf5cde733f5b84ec6e8cc1959d3635b89b0b160eed9aa6",
       "status": "promoted",
       "url": "https://solutiondemocratique.fr/edouard-philippe-presidentielle-2027-programme/"
+    },
+    "3575272f4745": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-10-17T16:35:16+00:00",
+      "reason": null,
+      "source_sha256": "1013aeeb0f18383eef52fe72b90787b48adb9ebcd555cce63e67b960331c8bb7",
+      "status": "not_confirmed",
+      "url": "https://www.unenouvelleenergie.fr/questions/ou-trouver-le-programme-de-david-lisnard/"
     },
     "365aebea6dd5": {
       "chunks_done": null,
@@ -53943,10 +54054,10 @@
       "url": "https://attalpresident.fr/programme"
     },
     "b6e972fce670": {
-      "attempts": 6,
+      "attempts": 7,
       "error": "ValueError: HTTP 403",
-      "next_retry_at": "2026-10-17T12:42:42+00:00",
-      "processed_at": "2026-10-03T12:42:42+00:00",
+      "next_retry_at": "2026-10-31T16:35:13+00:00",
+      "processed_at": "2026-10-17T16:35:13+00:00",
       "status": "technical_error",
       "url": "https://www.pcf.fr/presidentielle_2027_mjcf_s_engage_pour_candidature_communiste"
     },

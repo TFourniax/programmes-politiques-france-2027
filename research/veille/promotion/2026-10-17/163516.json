@@ -1,0 +1,28 @@
+{
+  "errors": [
+    {
+      "at": "2026-10-17T16:35:13+00:00",
+      "error": "ValueError: HTTP 403",
+      "url": "https://www.pcf.fr/presidentielle2027_fabien_roussel_designe_candidat"
+    },
+    {
+      "at": "2026-10-17T16:35:13+00:00",
+      "error": "ValueError: HTTP 403",
+      "url": "https://www.pcf.fr/presidentielle_2027_mjcf_s_engage_pour_candidature_communiste"
+    }
+  ],
+  "generated_at": "2026-10-17T16:35:16+00:00",
+  "historical_skipped": 0,
+  "partial": 0,
+  "processed": 1,
+  "promoted": 0,
+  "proposals_created": 0,
+  "results": [
+    {
+      "sha256": "1013aeeb0f18383eef52fe72b90787b48adb9ebcd555cce63e67b960331c8bb7",
+      "status": "not_confirmed",
+      "url": "https://www.unenouvelleenergie.fr/questions/ou-trouver-le-programme-de-david-lisnard/"
+    }
+  ],
+  "status_updates": 0
+}

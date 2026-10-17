@@ -1034,6 +1034,15 @@
       "status": "not_confirmed",
       "url": "https://www.youtube.com/shorts/pjljCgF1gsQ"
     },
+    "6bb50618804b618a93b5": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-10-17T16:35:19+00:00",
+      "provenance_updates": [],
+      "source_sha256": "4065ba079c1981b0f60ccaab18347ef0bd445ee695c0f620f9829cbe76d5615c",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/shorts/wc5TNyXN4E8"
+    },
     "6bbcb090ad3b29a38db2": {
       "chunks_done": null,
       "chunks_total": null,
@@ -1664,6 +1673,15 @@
       "status": "not_confirmed",
       "url": "https://www.youtube.com/watch?v=8qTzLHEV0U8"
     },
+    "a4bdbda8fc7d720519a2": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-10-17T16:35:17+00:00",
+      "provenance_updates": [],
+      "source_sha256": "8c52c7d93805e761e4b91656c26856c1c32c0664c97a1860d5d073bf3f15fe1a",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/shorts/rzzHNdOACGs"
+    },
     "a887e8a629400891c5da": {
       "chunks_done": null,
       "chunks_total": null,
@@ -2214,6 +2232,15 @@
       "status": "promoted",
       "url": "https://www.youtube.com/watch?v=CJN4LAYKscs"
     },
+    "d86d01fceb8bc64c5c5a": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-10-17T16:35:21+00:00",
+      "provenance_updates": [],
+      "source_sha256": "1bacdea684e88d4bdce93326aba78051334995564b4d8764b3156ca56cd04de5",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/shorts/keHnyxm2Px0"
+    },
     "d8d31e4aaf6df046247d": {
       "chunks_done": null,
       "chunks_total": 1,
@@ -2422,6 +2449,15 @@
       "source_sha256": "43ac065d0f88ea5f7757453fda2e6e5594d03183c20b8ac5cf8e62d9b19cd3d8",
       "status": "not_confirmed",
       "url": "https://www.youtube.com/shorts/f-4rsArrXYI"
+    },
+    "e93ffb02bd549ac2a755": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-10-17T16:35:23+00:00",
+      "provenance_updates": [],
+      "source_sha256": "1d91c363481f90f4fc08b7e39798a122a6bbb41fce9c368ae4260541e8d39cce",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/shorts/-hsI-qENrpM"
     },
     "e9c62f0ee63eb0d5bc65": {
       "chunks_done": null,
@@ -2723,6 +2759,6 @@
   },
   "last_error_count": 0,
   "last_processed_count": 4,
-  "last_run_at": "2026-10-17T11:45:41+00:00",
+  "last_run_at": "2026-10-17T16:35:24+00:00",
   "version": 2
 }
