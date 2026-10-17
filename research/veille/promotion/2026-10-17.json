@@ -1,0 +1,37 @@
+{
+  "errors": [],
+  "generated_at": "2026-10-17T05:45:09+00:00",
+  "historical_skipped": 0,
+  "partial": 0,
+  "processed": 3,
+  "promoted": 2,
+  "proposals_created": 0,
+  "results": [
+    {
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/candidates/gabriel-attal/2026-09-25-ab8b400934f1.md",
+      "proposals": [],
+      "sha256": "3c794333a53bdb23e3567ecd4b1449f54f9c91468710ba6324818b69c5782a48",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://attalpresident.fr/actualites/gabriel-attal-sur-rtl-je-suis-candidat-pour-gagner-cette-election-presidentielle",
+      "verified_at": "2026-10-17T05:44:44+00:00"
+    },
+    {
+      "sha256": "38bc4e7cfa05caee7f2058672780228263e7acac89d105f73c982f52f1f05ed2",
+      "status": "not_confirmed",
+      "url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne"
+    },
+    {
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/partys/upr/2026-10-16-e52bee875550.md",
+      "proposals": [],
+      "sha256": "0378bb997c130a0f4a1adc1db31f254f32bed8fd7d88f1aaacf17e644978f45e",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://upr.fr/actualites/apres-villiers-cest-charles-gave-qui-feint-dignorer-ma-candidature",
+      "verified_at": "2026-10-17T05:45:08+00:00"
+    }
+  ],
+  "status_updates": 0
+}
