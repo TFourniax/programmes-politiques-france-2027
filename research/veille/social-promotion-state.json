@@ -443,6 +443,24 @@
       "status": "promoted",
       "url": "https://www.youtube.com/watch?v=MFihvemEMVs"
     },
+    "338bdaee7cb21dd56cdb": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-10-17T21:36:18+00:00",
+      "provenance_updates": [],
+      "source_sha256": "5d4f4f035627c58314f1f0b2cf434cc7d5f1cf9cdd44b3a1af46525577f8c75a",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/watch?v=1bA2IVS41ww"
+    },
+    "3446bb481cad443785fc": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-10-17T21:36:23+00:00",
+      "provenance_updates": [],
+      "source_sha256": "4eccd188195da5dc4153bef66cc72ecd4052a7866bd11e8d8055bc3daf8aa02f",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/shorts/eYfaPJarPZU"
+    },
     "35559c280a66ffcd1e0d": {
       "chunks_done": null,
       "chunks_total": null,
@@ -505,6 +523,15 @@
       "source_sha256": "a164cf70654d17896644c37ac5aee568b6fe4306d2a09a850d89173adc9d3dce",
       "status": "not_confirmed",
       "url": "https://www.youtube.com/watch?v=rWz3AEzBmG8"
+    },
+    "39da68d8b201f8e89d9f": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-10-17T21:36:19+00:00",
+      "provenance_updates": [],
+      "source_sha256": "e1f3c9b0faea39f5bd8d1a70ca1cbb2f89c2453990453a68da688e4e51de1b9a",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/shorts/bF42kYwLoKs"
     },
     "3ad50769708d7382066a": {
       "chunks_done": null,
@@ -1098,6 +1125,15 @@
       "source_sha256": "1c97ee87f3090771acbf7d2259573ec8f488cbbbc7f5f25eb0726dedabfdb08c",
       "status": "not_confirmed",
       "url": "https://bsky.app/profile/marinetondelier.fr/post/3mten2mik7224"
+    },
+    "71fa15236ca9ea22b3bc": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-10-17T21:36:14+00:00",
+      "provenance_updates": [],
+      "source_sha256": "b50c9fc88f64c4241456685df2b25a5bd7ca6360ee34548990067087912245e3",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/shorts/bWf-jnC-S20"
     },
     "7340edd12a2d68e256a7": {
       "chunks_done": null,
@@ -2759,6 +2795,6 @@
   },
   "last_error_count": 0,
   "last_processed_count": 4,
-  "last_run_at": "2026-10-17T16:35:24+00:00",
+  "last_run_at": "2026-10-17T21:36:24+00:00",
   "version": 2
 }

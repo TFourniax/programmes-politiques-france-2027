@@ -44,6 +44,6 @@ Ce rapport est dérivé automatiquement du corpus courant. Il sert à piloter la
 - **Institutions & démocratie** (`institutions-democratie`) — 15 acteur(s), 271 proposition(s), dernière preuve 2026-10-17.
 - **Services publics** (`services-publics`) — 16 acteur(s), 238 proposition(s), dernière preuve 2026-10-15.
 - **Écologie & énergie** (`ecologie-energie`) — 17 acteur(s), 199 proposition(s), dernière preuve 2026-10-17.
-- **Pouvoir d’achat & travail** (`pouvoir-achat-travail`) — 20 acteur(s), 80 proposition(s), dernière preuve 2026-10-16.
+- **Pouvoir d’achat & travail** (`pouvoir-achat-travail`) — 20 acteur(s), 80 proposition(s), dernière preuve 2026-10-17.
 
 > Ce rapport est un indicateur de couverture structurée, de fraîcheur et de profondeur de preuve, pas un score de qualité politique ni d'exhaustivité absolue.
