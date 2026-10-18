@@ -434,6 +434,15 @@
       "status": "not_confirmed",
       "url": "https://www.youtube.com/shorts/LGNh8wHiOKo"
     },
+    "31717fea0ac7047b77b2": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-10-18T21:39:57+00:00",
+      "provenance_updates": [],
+      "source_sha256": "52b1d74f77218730e37318c2af6b2b740080652ce80b09158a4df2bb867d640c",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/shorts/kNdwhaZC3e4"
+    },
     "31b865969263b589f884": {
       "chunks_done": null,
       "chunks_total": null,
@@ -1198,6 +1207,15 @@
       "status": "not_confirmed",
       "url": "https://www.youtube.com/shorts/rJBYjJj_R4U"
     },
+    "7647523014a1c1577b05": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-10-18T21:39:59+00:00",
+      "provenance_updates": [],
+      "source_sha256": "74378904744acbb9774689728e5d2a6e0c860febc92936118ccf0ff09e052c25",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/shorts/9kdZ4bxzvl8"
+    },
     "766e7ebc8b12d7a864e4": {
       "chunks_done": null,
       "chunks_total": null,
@@ -1358,6 +1376,15 @@
       "source_sha256": "97ce5f077e6dd241480b655b25e15845cecd1fe105b8b54cd5415d1cff025bb0",
       "status": "not_confirmed",
       "url": "https://www.youtube.com/watch?v=n2U8WahClm4"
+    },
+    "850d16db26fff9c1e7f5": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-10-18T21:39:55+00:00",
+      "provenance_updates": [],
+      "source_sha256": "89cc849c370d6949cd8d49ec87dab31e183060540bbd03f65b444e06d08ee386",
+      "status": "not_confirmed",
+      "url": "https://bsky.app/profile/marinetondelier.fr/post/3my6c2mbmvk2y"
     },
     "85ea77b3c5bb734521f5": {
       "chunks_done": null,
@@ -2830,7 +2857,7 @@
     }
   },
   "last_error_count": 0,
-  "last_processed_count": 0,
-  "last_run_at": "2026-10-18T16:41:21+00:00",
+  "last_processed_count": 3,
+  "last_run_at": "2026-10-18T21:40:00+00:00",
   "version": 2
 }
