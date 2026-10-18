@@ -1951,9 +1951,9 @@
       "verified_at": "2026-08-13T08:51:16+00:00"
     }
   },
-  "last_error_count": 1,
-  "last_processed_count": 2,
-  "last_run_at": "2026-10-18T12:11:39+00:00",
+  "last_error_count": 0,
+  "last_processed_count": 3,
+  "last_run_at": "2026-10-18T16:41:21+00:00",
   "source_chunks": {
     "000e79baea11403029d335b1": {
       "canonical_confirmations": [
@@ -7937,6 +7937,64 @@
       "total": 1,
       "updated_at": "2026-09-10T21:47:07+00:00",
       "url": "https://www.debout-la-france.fr/actualite/je-serai-le-seul-candidat-en-2027-qui-veut-en-finir-avec-lunion-europeenne-%C2%B7-frontieres14-03-25/"
+    },
+    "256b8b0276ede188d68712d6": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "david-lisnard",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "par le recours au référendum",
+            "relevance": "direct",
+            "statement": "David Lisnard propose de recourir au référendum pour maîtriser la politique migratoire indépendamment des hautes cours de justice.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Le claim sur le référendum migratoire est déjà présent dans le canonical à l'identique.",
+            "related_proposal_id": "auto-david-lisnard-institutions-democratie-a9f097879743",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "nouvelle-energie",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "la réduction drastique des dépenses publiques, la création d’un choc massif de dérégulation",
+            "relevance": "direct",
+            "statement": "Nouvelle Énergie défend la réduction drastique des dépenses publiques et un choc massif de dérégulation.",
+            "topic": "economie-finances"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La réduction des dépenses publiques et le choc de dérégulation sont déjà présents dans le canonique.",
+            "related_proposal_id": "auto-nouvelle-energie-economie-finances-1ce2938e1f05",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-10-18T16:41:15+00:00",
+      "created_at": "2026-10-18T16:41:07+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "3477e3e60d58646ae362eca341c48436a437b90b86f31e793d58911d987a536a",
+      "source_title": "Le programme de David Lisnard | Nouvelle Énergie",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-10-18T16:41:12+00:00",
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/"
     },
     "25f4091c1508c5d3d8713aa4": {
       "canonical_confirmations": [],
@@ -45028,6 +45086,48 @@
       "updated_at": "2026-09-16T12:47:28+00:00",
       "url": "https://bsky.app/profile/marinetondelier.fr/post/3mvn53pjphk2i"
     },
+    "e43f27a31d1b702d407791a7": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "david-lisnard",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "la retraite par capitalisation",
+            "relevance": "direct",
+            "statement": "David Lisnard mentionne la proposition de la retraite par capitalisation.",
+            "topic": "retraites"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Le texte source confirme que David Lisnard défend la proposition de la retraite par capitalisation, ce qui est déjà présent dans le canon actuel.",
+            "related_proposal_id": "prop-lisnard-retraite-capitalisation",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-10-18T16:41:21+00:00",
+      "created_at": "2026-10-18T16:41:15+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-10-16"
+      ],
+      "sha256": "a066a66fe3de9a6bd7aa040a0def8d06c8cf64a4987518a9216d913ec74f8a34",
+      "source_title": "David Lisnard peut-il gagner la présidentielle 2027 ? | Nouvelle Énergie",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-10-18T16:41:19+00:00",
+      "url": "https://www.unenouvelleenergie.fr/questions/david-lisnard-peut-il-gagner-la-presidentielle-2027/"
+    },
     "e48a275430039adcf5963dc2": {
       "canonical_confirmations": [],
       "claims": [],
@@ -46455,7 +46555,7 @@
       "statuses": [],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-10-17T21:36:07+00:00",
+      "updated_at": "2026-10-18T16:41:00+00:00",
       "url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne"
     },
     "ea2d30f3e6270263211886bb": {
@@ -51816,6 +51916,15 @@
       "status": "promoted",
       "url": "https://attalpresident.fr/programme"
     },
+    "3ee82df18c37": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-10-18T16:41:21+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "a066a66fe3de9a6bd7aa040a0def8d06c8cf64a4987518a9216d913ec74f8a34",
+      "status": "promoted",
+      "url": "https://www.unenouvelleenergie.fr/questions/david-lisnard-peut-il-gagner-la-presidentielle-2027/"
+    },
     "3faf83ad5c00": {
       "chunks_done": null,
       "chunks_total": null,
@@ -53755,6 +53864,15 @@
       "status": "not_confirmed",
       "url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne"
     },
+    "96914bf9b4d4": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-10-18T16:41:05+00:00",
+      "reason": null,
+      "source_sha256": "38bc4e7cfa05caee7f2058672780228263e7acac89d105f73c982f52f1f05ed2",
+      "status": "not_confirmed",
+      "url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne"
+    },
     "973df21eb8c2": {
       "chunks_done": null,
       "chunks_total": null,
@@ -54790,6 +54908,15 @@
       "source_sha256": "64c45da36a32d401ab74ddce449436ad1a478b2a03847264f2e5f2747d800938",
       "status": "promoted",
       "url": "https://attalpresident.fr/programme"
+    },
+    "c07b07b19f06": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-10-18T16:41:15+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "3477e3e60d58646ae362eca341c48436a437b90b86f31e793d58911d987a536a",
+      "status": "promoted",
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/"
     },
     "c08c9e0ff2e9": {
       "chunks_done": null,

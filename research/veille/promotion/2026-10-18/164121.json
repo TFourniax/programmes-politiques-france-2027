@@ -1,0 +1,40 @@
+{
+  "errors": [],
+  "generated_at": "2026-10-18T16:41:21+00:00",
+  "historical_skipped": 0,
+  "partial": 0,
+  "processed": 3,
+  "promoted": 2,
+  "proposals_created": 0,
+  "results": [
+    {
+      "sha256": "38bc4e7cfa05caee7f2058672780228263e7acac89d105f73c982f52f1f05ed2",
+      "status": "not_confirmed",
+      "url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne"
+    },
+    {
+      "document": "corpus/2027/auto/partys/nouvelle-energie/2026-10-18-256b8b0276ed.md",
+      "provenance_updates": [
+        "auto-david-lisnard-institutions-democratie-a9f097879743",
+        "auto-nouvelle-energie-economie-finances-1ce2938e1f05"
+      ],
+      "reason": "canonical_duplicate_evidence",
+      "sha256": "3477e3e60d58646ae362eca341c48436a437b90b86f31e793d58911d987a536a",
+      "status": "promoted",
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/",
+      "verified_at": "2026-10-18T16:41:15+00:00"
+    },
+    {
+      "document": "corpus/2027/auto/partys/nouvelle-energie/2026-10-16-e43f27a31d1b.md",
+      "provenance_updates": [
+        "prop-lisnard-retraite-capitalisation"
+      ],
+      "reason": "canonical_duplicate_evidence",
+      "sha256": "a066a66fe3de9a6bd7aa040a0def8d06c8cf64a4987518a9216d913ec74f8a34",
+      "status": "promoted",
+      "url": "https://www.unenouvelleenergie.fr/questions/david-lisnard-peut-il-gagner-la-presidentielle-2027/",
+      "verified_at": "2026-10-18T16:41:21+00:00"
+    }
+  ],
+  "status_updates": 0
+}

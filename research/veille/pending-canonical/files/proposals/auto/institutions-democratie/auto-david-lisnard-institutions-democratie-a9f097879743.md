@@ -6,7 +6,7 @@ entity_id: david-lisnard
 topic: institutions-democratie
 certainty: explicit
 proposal_status: current
-source_document_ids: [auto-nouvelle-energie-2026-09-03-458e5ab130b9]
+source_document_ids: [auto-nouvelle-energie-2026-09-03-458e5ab130b9, auto-nouvelle-energie-2026-10-18-256b8b0276ed]
 source_url: https://www.unenouvelleenergie.fr/notre-programme/
 source_tier: tier_1_primary_official
 first_documented_at: '2026-09-03'
@@ -15,6 +15,10 @@ verification_state: verified
 verification_method: primary_source_exact_quote_plus_independent_gemini_verifier_plus_chronology_guard
 evidence_sha256: 2fad5e14e31d04e5f175911a8970f9f94a9f468cb6d77e02255b39843959614a
 generated_by: scripts/auto_promote.py
+source_urls: ['https://www.unenouvelleenergie.fr/notre-programme/']
+evidence_sha256s: [2fad5e14e31d04e5f175911a8970f9f94a9f468cb6d77e02255b39843959614a, 3477e3e60d58646ae362eca341c48436a437b90b86f31e793d58911d987a536a]
+confirmation_count: 2
+last_confirmed_at: '2026-10-18'
 ---
 
 # David Lisnard propose le recours au référendum pour maîtriser la politique migratoire indépendamment des hautes cours de justice

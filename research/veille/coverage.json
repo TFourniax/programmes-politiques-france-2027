@@ -14,7 +14,7 @@
     "active_candidate_total_cells": 324,
     "active_candidate_topic_coverage_ratio": 0.216,
     "verified_proposals": 1317,
-    "multi_source_proposals": 93,
+    "multi_source_proposals": 94,
     "latest_evidence_at": "2026-10-18",
     "certainty_counts": {
       "explicit": 1326,
@@ -382,9 +382,9 @@
       ],
       "coverage_ratio": 1.0,
       "gaps": [],
-      "latest_evidence_at": "2026-10-16",
+      "latest_evidence_at": "2026-10-18",
       "verified_proposals": 42,
-      "multi_source_proposals": 7
+      "multi_source_proposals": 8
     },
     {
       "id": "debout",
@@ -1341,7 +1341,7 @@
         "securite-justice",
         "numerique-ia"
       ],
-      "latest_evidence_at": "2026-10-15",
+      "latest_evidence_at": "2026-10-18",
       "verified_proposals": 16,
       "multi_source_proposals": 11
     },
@@ -2031,7 +2031,7 @@
       "actor_coverage_ratio": 0.2206,
       "latest_evidence_at": "2026-10-18",
       "verified_proposals": 267,
-      "multi_source_proposals": 27
+      "multi_source_proposals": 28
     },
     {
       "id": "services-publics",
@@ -2059,7 +2059,7 @@
       "current_proposals": 123,
       "actors_covered": 15,
       "actor_coverage_ratio": 0.2206,
-      "latest_evidence_at": "2026-10-15",
+      "latest_evidence_at": "2026-10-18",
       "verified_proposals": 122,
       "multi_source_proposals": 13
     },
@@ -2789,7 +2789,7 @@
       "status": "declared_presidential",
       "coverage_ratio": 1.0,
       "current_proposals": 45,
-      "latest_evidence_at": "2026-10-16",
+      "latest_evidence_at": "2026-10-18",
       "topics": [
         {
           "id": "pouvoir-achat-travail",
@@ -2805,7 +2805,7 @@
           "label": "Retraites",
           "covered": true,
           "current_proposals": 1,
-          "latest_evidence_at": "2026-10-10",
+          "latest_evidence_at": "2026-10-16",
           "verified_proposals": 1,
           "multi_source_proposals": 1
         },
@@ -2859,9 +2859,9 @@
           "label": "Institutions & démocratie",
           "covered": true,
           "current_proposals": 5,
-          "latest_evidence_at": "2026-10-15",
+          "latest_evidence_at": "2026-10-18",
           "verified_proposals": 4,
-          "multi_source_proposals": 2
+          "multi_source_proposals": 3
         },
         {
           "id": "services-publics",
