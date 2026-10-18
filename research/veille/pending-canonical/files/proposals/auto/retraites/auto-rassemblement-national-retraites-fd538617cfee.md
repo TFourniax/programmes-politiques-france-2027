@@ -27,7 +27,8 @@ source_document_ids: [auto-rassemblement-national-2026-08-11-b4e6fdd3c6e7, auto-
   auto-rassemblement-national-2026-10-13-410e877e5597, auto-rassemblement-national-2026-10-14-2813f79d2d1b, auto-rassemblement-national-2026-10-14-e9b69d608298,
   auto-rassemblement-national-2026-10-14-9059b713644a, auto-rassemblement-national-2026-10-14-9fffc1b9d63b, auto-rassemblement-national-2026-10-15-4e5efb30cb93,
   auto-rassemblement-national-2026-10-15-f60884c8eebf, auto-rassemblement-national-2026-10-16-bf6e9778b3a1, auto-rassemblement-national-2026-10-16-c47b88d48cdf,
-  auto-rassemblement-national-2026-10-16-6dc49efccb71, auto-rassemblement-national-2026-10-17-c2a934964353, auto-rassemblement-national-2026-10-17-3f621d499ee8]
+  auto-rassemblement-national-2026-10-16-6dc49efccb71, auto-rassemblement-national-2026-10-17-c2a934964353, auto-rassemblement-national-2026-10-17-3f621d499ee8,
+  auto-rassemblement-national-2026-10-18-cad75c19a4ef]
 source_url: https://rassemblementnational.fr/
 source_tier: tier_1_primary_official
 first_documented_at: '2026-08-11'
@@ -69,9 +70,10 @@ evidence_sha256s: [e9d2ee7a0fba8b07f65a57d2e71d6dd2dda1128fec6a240299a2bf5e3241d
   3a7dea0b8b2774dd66102b144bca8979e82988a5a78a4fe92227932c6d175575, 53ee0dddcf34a4676b240d3738f26e66d71fcba25bb149383448914f48333919,
   2a24fce10857cf24097db0a6923baeaefd8e742feaca9461f26f4d4b44984f7c, da661ba614f53c4d6543f8c4e8ccb8b650e6d05e873cdfd18343868770a407d1,
   5f960bdc6dd99833ffea7eb7531ea1f1cbba019821d3b2ae0db86cdc829849d8, 3cc1e31a0ec7050da526034cabdfc1b7753097926f7d4534bc2cff27337b6a9d,
-  96ec86d0dd1c1b8d3b7b5df58d8660dafaf78b4521e20eda8ef75a945c7b6446, 41186b13f882a0b461d11687708acf9a645feb8b5b9b6feb8b8296426e21bf00]
-confirmation_count: 68
-last_confirmed_at: '2026-10-17'
+  96ec86d0dd1c1b8d3b7b5df58d8660dafaf78b4521e20eda8ef75a945c7b6446, 41186b13f882a0b461d11687708acf9a645feb8b5b9b6feb8b8296426e21bf00,
+  d75406b648a7b6047046d2f24663cf1048621347584b58e6e99778655d1d009a]
+confirmation_count: 69
+last_confirmed_at: '2026-10-18'
 ---
 
 # Le Rassemblement National propose la retraite à 60 ans pour ceux qui ont commencé à travailler tôt
