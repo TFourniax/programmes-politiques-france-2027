@@ -14,7 +14,7 @@
     "active_candidate_total_cells": 324,
     "active_candidate_topic_coverage_ratio": 0.216,
     "verified_proposals": 1317,
-    "multi_source_proposals": 94,
+    "multi_source_proposals": 95,
     "latest_evidence_at": "2026-10-19",
     "certainty_counts": {
       "explicit": 1326,
@@ -382,9 +382,9 @@
       ],
       "coverage_ratio": 1.0,
       "gaps": [],
-      "latest_evidence_at": "2026-10-18",
+      "latest_evidence_at": "2026-10-19",
       "verified_proposals": 42,
-      "multi_source_proposals": 8
+      "multi_source_proposals": 9
     },
     {
       "id": "debout",
@@ -1979,7 +1979,7 @@
       "current_proposals": 75,
       "actors_covered": 11,
       "actor_coverage_ratio": 0.1618,
-      "latest_evidence_at": "2026-10-18",
+      "latest_evidence_at": "2026-10-19",
       "verified_proposals": 73,
       "multi_source_proposals": 3
     },
@@ -1989,7 +1989,7 @@
       "current_proposals": 67,
       "actors_covered": 12,
       "actor_coverage_ratio": 0.1765,
-      "latest_evidence_at": "2026-10-18",
+      "latest_evidence_at": "2026-10-19",
       "verified_proposals": 63,
       "multi_source_proposals": 7
     },
@@ -2031,7 +2031,7 @@
       "actor_coverage_ratio": 0.2206,
       "latest_evidence_at": "2026-10-19",
       "verified_proposals": 267,
-      "multi_source_proposals": 28
+      "multi_source_proposals": 29
     },
     {
       "id": "services-publics",
@@ -2059,7 +2059,7 @@
       "current_proposals": 123,
       "actors_covered": 15,
       "actor_coverage_ratio": 0.2206,
-      "latest_evidence_at": "2026-10-18",
+      "latest_evidence_at": "2026-10-19",
       "verified_proposals": 122,
       "multi_source_proposals": 13
     },
@@ -2789,7 +2789,7 @@
       "status": "declared_presidential",
       "coverage_ratio": 1.0,
       "current_proposals": 45,
-      "latest_evidence_at": "2026-10-18",
+      "latest_evidence_at": "2026-10-19",
       "topics": [
         {
           "id": "pouvoir-achat-travail",
@@ -2861,7 +2861,7 @@
           "current_proposals": 5,
           "latest_evidence_at": "2026-10-18",
           "verified_proposals": 4,
-          "multi_source_proposals": 3
+          "multi_source_proposals": 4
         },
         {
           "id": "services-publics",
@@ -2886,7 +2886,7 @@
           "label": "Économie & finances publiques",
           "covered": true,
           "current_proposals": 5,
-          "latest_evidence_at": "2026-10-15",
+          "latest_evidence_at": "2026-10-19",
           "verified_proposals": 4,
           "multi_source_proposals": 2
         },
