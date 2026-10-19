@@ -1953,7 +1953,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-10-18T21:39:54+00:00",
+  "last_run_at": "2026-10-19T06:24:05+00:00",
   "source_chunks": {
     "000e79baea11403029d335b1": {
       "canonical_confirmations": [
@@ -35569,7 +35569,7 @@
         }
       ],
       "claims": [],
-      "completed_at": "2026-10-18T21:39:11+00:00",
+      "completed_at": "2026-10-19T06:23:26+00:00",
       "created_at": "2026-10-11T18:15:28+00:00",
       "document_types": [
         "campaign_website_page"
@@ -35596,7 +35596,7 @@
       ],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-10-18T21:39:11+00:00",
+      "updated_at": "2026-10-19T06:23:26+00:00",
       "url": "https://attalpresident.fr/actualites/gabriel-attal-sur-rtl-je-suis-candidat-pour-gagner-cette-election-presidentielle"
     },
     "abd06abf04a13a6ea519c0b4": {
@@ -36333,6 +36333,136 @@
       "total": 1,
       "updated_at": "2026-10-15T12:49:46+00:00",
       "url": "https://bsky.app/profile/marinetondelier.fr/post/3mxvt3k6wyc2g"
+    },
+    "b1baa02339e6e6f398a513af": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "rassemblement-national",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Pour la réduction de la TVA de 20% à 5,5% sur l’énergie",
+            "relevance": "direct",
+            "statement": "Réduction de la TVA de 20% à 5,5% sur l'énergie.",
+            "topic": "pouvoir-achat-travail"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Explicitement soutenu dans la source et déjà présent dans CURRENT_CANONICAL.",
+            "related_proposal_id": "auto-rassemblement-national-pouvoir-achat-travail-1d658d91f4a3",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "rassemblement-national",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Pour le RIC le référendum initiative citoyenne",
+            "relevance": "direct",
+            "statement": "Mise en place du référendum d'initiative citoyenne (RIC).",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "Explicitement soutenu dans la source et déjà présent dans CURRENT_CANONICAL.",
+            "related_proposal_id": "auto-rassemblement-national-institutions-democratie-2ec6a69712fb",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "rassemblement-national",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Pour investir dans le nucléaire",
+            "relevance": "direct",
+            "statement": "Investissement dans l'énergie nucléaire.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "Explicitement soutenu dans la source et déjà présent dans CURRENT_CANONICAL.",
+            "related_proposal_id": "auto-rassemblement-national-ecologie-energie-e7de1a3e9e8e",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "rassemblement-national",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Pour fermer les mosquées radicales",
+            "relevance": "direct",
+            "statement": "Fermer les mosquées radicales.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 3,
+            "reason": "Explicitement soutenu dans la source et déjà présent dans CURRENT_CANONICAL.",
+            "related_proposal_id": "auto-rassemblement-national-securite-justice-5cb19d0cbcca",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "rassemblement-national",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Pour interdire le port du burkini",
+            "relevance": "direct",
+            "statement": "Interdire le port du burkini.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 4,
+            "reason": "Explicitement soutenu dans la source et déjà présent dans CURRENT_CANONICAL.",
+            "related_proposal_id": "auto-rassemblement-national-securite-justice-25fe73df9ce3",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "rassemblement-national",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Pour la retraite à 60 ans pour ceux qui commencent à travailler tôt",
+            "relevance": "direct",
+            "statement": "Instaurer la retraite à 60 ans pour ceux qui ont commencé à travailler tôt.",
+            "topic": "retraites"
+          },
+          "verdict": {
+            "index": 5,
+            "reason": "Explicitement soutenu dans la source et déjà présent dans CURRENT_CANONICAL.",
+            "related_proposal_id": "auto-rassemblement-national-retraites-fd538617cfee",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-10-19T06:23:56+00:00",
+      "created_at": "2026-10-19T06:23:31+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "328e074716e8db5bcef241d76f4b54a3e7898ec6197db7d3c16004b82c51ed2b",
+      "source_title": "Rassemblement National - Accueil",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-10-19T06:23:50+00:00",
+      "url": "https://rassemblementnational.fr/"
     },
     "b24a17290d0ea8976efce9de": {
       "canonical_confirmations": [
@@ -46763,7 +46893,7 @@
       "statuses": [],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-10-18T21:39:43+00:00",
+      "updated_at": "2026-10-19T06:23:59+00:00",
       "url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne"
     },
     "ea2d30f3e6270263211886bb": {
@@ -53910,6 +54040,15 @@
       "status": "promoted",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
+    "8d0fe852d41a": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-10-19T06:24:04+00:00",
+      "reason": null,
+      "source_sha256": "38bc4e7cfa05caee7f2058672780228263e7acac89d105f73c982f52f1f05ed2",
+      "status": "not_confirmed",
+      "url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne"
+    },
     "8d60fd6ec11b": {
       "chunks_done": null,
       "chunks_total": 1,
@@ -54573,6 +54712,15 @@
       "source_sha256": "3c794333a53bdb23e3567ecd4b1449f54f9c91468710ba6324818b69c5782a48",
       "status": "promoted",
       "url": "https://attalpresident.fr/actualites/gabriel-attal-sur-rtl-je-suis-candidat-pour-gagner-cette-election-presidentielle"
+    },
+    "ac27b8681259": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-10-19T06:23:56+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "328e074716e8db5bcef241d76f4b54a3e7898ec6197db7d3c16004b82c51ed2b",
+      "status": "promoted",
+      "url": "https://rassemblementnational.fr/"
     },
     "ac7c166af846": {
       "chunks_done": null,
@@ -56101,6 +56249,15 @@
       "source_sha256": "f08f9b0a10ac4442bd16740cfb7849a8a3d2775bcdb644879452b9e1fded1212",
       "status": "not_confirmed",
       "url": "https://parti-equinoxe.fr/legislatives-2022-programme-technique/"
+    },
+    "e57e5cc3304e": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-10-19T06:23:30+00:00",
+      "reason": null,
+      "source_sha256": "3c794333a53bdb23e3567ecd4b1449f54f9c91468710ba6324818b69c5782a48",
+      "status": "promoted",
+      "url": "https://attalpresident.fr/actualites/gabriel-attal-sur-rtl-je-suis-candidat-pour-gagner-cette-election-presidentielle"
     },
     "e5fc21ff88d7": {
       "chunks_done": null,

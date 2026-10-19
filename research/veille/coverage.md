@@ -38,12 +38,12 @@ Ce rapport est dérivé automatiquement du corpus courant. Il sert à piloter la
 - **Fiscalité & redistribution** (`fiscalite-redistribution`) — 11 acteur(s), 75 proposition(s), dernière preuve 2026-10-18.
 - **Europe & souveraineté** (`europe-souverainete`) — 12 acteur(s), 111 proposition(s), dernière preuve 2026-09-25.
 - **Immigration & intégration** (`immigration-integration`) — 12 acteur(s), 67 proposition(s), dernière preuve 2026-10-18.
-- **Retraites** (`retraites`) — 14 acteur(s), 23 proposition(s), dernière preuve 2026-10-18.
-- **Sécurité & justice** (`securite-justice`) — 14 acteur(s), 151 proposition(s), dernière preuve 2026-10-18.
+- **Retraites** (`retraites`) — 14 acteur(s), 23 proposition(s), dernière preuve 2026-10-19.
+- **Sécurité & justice** (`securite-justice`) — 14 acteur(s), 151 proposition(s), dernière preuve 2026-10-19.
 - **Économie & finances publiques** (`economie-finances`) — 15 acteur(s), 123 proposition(s), dernière preuve 2026-10-18.
-- **Institutions & démocratie** (`institutions-democratie`) — 15 acteur(s), 271 proposition(s), dernière preuve 2026-10-18.
+- **Institutions & démocratie** (`institutions-democratie`) — 15 acteur(s), 271 proposition(s), dernière preuve 2026-10-19.
 - **Services publics** (`services-publics`) — 16 acteur(s), 238 proposition(s), dernière preuve 2026-10-15.
-- **Écologie & énergie** (`ecologie-energie`) — 17 acteur(s), 199 proposition(s), dernière preuve 2026-10-18.
-- **Pouvoir d’achat & travail** (`pouvoir-achat-travail`) — 20 acteur(s), 80 proposition(s), dernière preuve 2026-10-17.
+- **Écologie & énergie** (`ecologie-energie`) — 17 acteur(s), 199 proposition(s), dernière preuve 2026-10-19.
+- **Pouvoir d’achat & travail** (`pouvoir-achat-travail`) — 20 acteur(s), 80 proposition(s), dernière preuve 2026-10-19.
 
 > Ce rapport est un indicateur de couverture structurée, de fraîcheur et de profondeur de preuve, pas un score de qualité politique ni d'exhaustivité absolue.
