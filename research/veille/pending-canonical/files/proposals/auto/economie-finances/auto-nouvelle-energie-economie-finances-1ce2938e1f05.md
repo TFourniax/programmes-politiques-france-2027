@@ -9,7 +9,8 @@ source_document_ids: [auto-nouvelle-energie-2026-08-18-f489a53bb3fe, auto-nouvel
   auto-nouvelle-energie-2026-08-26-776be187f3e8, auto-nouvelle-energie-2026-08-27-d3b3aa749e94, auto-nouvelle-energie-2026-08-29-60ca0cf36405,
   auto-nouvelle-energie-2026-08-30-f2a6de9660d9, auto-nouvelle-energie-2026-09-21-6a48f96e1c57, auto-nouvelle-energie-2026-09-23-7836ee564793,
   auto-nouvelle-energie-2026-09-24-8e9da27c49c0, auto-nouvelle-energie-2026-09-25-36cf82556469, auto-nouvelle-energie-2026-09-26-67e42d23e6b8,
-  auto-nouvelle-energie-2026-10-03-47538c2b5df3, auto-nouvelle-energie-2026-10-15-6c2b22af71f4, auto-nouvelle-energie-2026-10-18-256b8b0276ed]
+  auto-nouvelle-energie-2026-10-03-47538c2b5df3, auto-nouvelle-energie-2026-10-15-6c2b22af71f4, auto-nouvelle-energie-2026-10-18-256b8b0276ed,
+  auto-nouvelle-energie-2026-10-20-0ad7e243015f]
 source_url: https://www.unenouvelleenergie.fr/notre-programme/
 source_tier: tier_1_primary_official
 first_documented_at: '2026-08-18'
@@ -26,9 +27,9 @@ evidence_sha256s: [839704023bb945c20944b4a1acf900e6e6b4d0b398d757b0aef2006518d08
   d4fcff90ce49e13e11165295a8a499b36bab01da11ca270fb56dd48af650c542, 6d74d157cb3c6b49bb8f31e8c6ded4706c96343774871784e58e1fd19a11bbb4,
   af63b2db6041ba8119da44da82ac46eff6442e33cb0a09c3825f3c1fa16f8bb9, c40499931ba4e8be04d29703fd525b3104eba7caa2bb0c49384382ff6b772abb,
   305a93b82e1ffb05af0c6a6cf8c4686de105876739e313d2a2231e036671963c, 9450d8272a4eab8510ab3806088622270c62bbc6922030dceaafb039bc52f629,
-  3477e3e60d58646ae362eca341c48436a437b90b86f31e793d58911d987a536a]
-confirmation_count: 15
-last_confirmed_at: '2026-10-18'
+  3477e3e60d58646ae362eca341c48436a437b90b86f31e793d58911d987a536a, 8062a7160d32f1efc82a386577daee82f0648e05c0ea81c8dfd79c21f9ab9016]
+confirmation_count: 16
+last_confirmed_at: '2026-10-20'
 ---
 
 # Il faut réaliser une réduction drastique des dépenses publiques
