@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created_at": "2026-08-17T19:57:19.441897+00:00",
-  "updated_at": "2026-10-20T18:08:25.368319+00:00",
+  "updated_at": "2026-10-20T22:30:31.442194+00:00",
   "files": [
     {
       "path": "corpus/2027/auto/candidates/anasse-kazib/2026-08-28-38891602d9d9.md",
@@ -702,6 +702,16 @@
       "path": "corpus/2027/auto/candidates/gabriel-attal/2026-09-25-dec47fed2066.md",
       "sha256": "65fe7a0a60971be6f2087f2e2004fae8729eef489cf96aed0056b20b3671f383",
       "size": 2310
+    },
+    {
+      "path": "corpus/2027/auto/candidates/gabriel-attal/2026-10-19-1e62de5f88d9.md",
+      "sha256": "7a3bea0a84c52843c9c6307a87dff9f8514afc1c375370b70ce114666ce48071",
+      "size": 1797
+    },
+    {
+      "path": "corpus/2027/auto/candidates/gabriel-attal/2026-10-19-6803d58018c5.md",
+      "sha256": "d9d97618ba789155e18e806387bc652abc7191f748a1c8d8732b35e9cef6d113",
+      "size": 1981
     },
     {
       "path": "corpus/2027/auto/candidates/jean-luc-melenchon/2026-09-18-a1a666a8c110.md",
@@ -1489,6 +1499,11 @@
       "size": 2586
     },
     {
+      "path": "corpus/2027/auto/partys/rassemblement-national/2026-10-20-9ab4e0db75b4.md",
+      "sha256": "3c94ad15d9f66d9c92f8d2f479af798fafbbd74099c098d967e60f599cb9823d",
+      "size": 2405
+    },
+    {
       "path": "corpus/2027/auto/partys/rassemblement-national/2026-10-20-9c3ba6ab671d.md",
       "sha256": "a0de3fdee26fb7385173122fa82e150af9dac5e867c174288d4d8c53aa1fe97b",
       "size": 2389
@@ -1875,8 +1890,8 @@
     },
     {
       "path": "proposals/auto/ecologie-energie/auto-rassemblement-national-ecologie-energie-e7de1a3e9e8e.md",
-      "sha256": "51c06968e54fba75736d03dff11f1a73e35b5ca7846cc6479817fcec30bf8847",
-      "size": 10654
+      "sha256": "ca48a78c4baa06ae4f134ef0ec0b5bfb8964067a986ce25ded1535f62a6be2b5",
+      "size": 10775
     },
     {
       "path": "proposals/auto/ecologie-energie/auto-revolution-permanente-ecologie-energie-7f47182d047a.md",
@@ -1915,18 +1930,18 @@
     },
     {
       "path": "proposals/auto/economie-finances/auto-gabriel-attal-economie-finances-44c5426415ce.md",
-      "sha256": "12443df1a05fed6812b6eada06231bc691852202a99d950087e3e969decc2b2d",
-      "size": 1544
+      "sha256": "558c658c5f16dc3fbe8495d1a1e4ae4bc3ef6951337e2a5835b2f83e5ed9dc52",
+      "size": 1654
     },
     {
       "path": "proposals/auto/economie-finances/auto-gabriel-attal-economie-finances-7d59510bf5b0.md",
-      "sha256": "ad85b635dd90e73b2cf39fbe906bc7d2106fa9ea8a2305d717c3aa3efa0b7e64",
-      "size": 1988
+      "sha256": "9a716f4f2352332224ff28df87b7dee7c36dd72b7c7b91199b4efb55c630af88",
+      "size": 2100
     },
     {
       "path": "proposals/auto/economie-finances/auto-gabriel-attal-economie-finances-9f45e1d61977.md",
-      "sha256": "40d5e7c599fc0517001fee0382e72472c2d502145d4107334fd2e1790f06d1c5",
-      "size": 2143
+      "sha256": "60f228c191e80b89b784ad6051b26ff75759216a9687e1e9bb4e09c174556c6c",
+      "size": 2255
     },
     {
       "path": "proposals/auto/economie-finances/auto-les-ecologistes-economie-finances-08d45ffdfcbf.md",
@@ -2140,8 +2155,8 @@
     },
     {
       "path": "proposals/auto/immigration-integration/auto-rassemblement-national-immigration-integration-65a64162aec9.md",
-      "sha256": "1089646c08a8b1a73da416a1e9e5efdd57eda8942e687d7a170339ab55099412",
-      "size": 10543
+      "sha256": "4bf3afe14f1dbee32be124e9b1e4fc8fd1afc5f99473835b322eb77623c397c1",
+      "size": 10664
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-anasse-kazib-institutions-democratie-1a9f657935f4.md",
@@ -2285,8 +2300,8 @@
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-rassemblement-national-institutions-democratie-2ec6a69712fb.md",
-      "sha256": "25f9a068f4094330c3184cbdc2a86270fe97c5baa54e6059d6fefe4d16ac5795",
-      "size": 10762
+      "sha256": "71dca69c46773b900c4adb8533780c4a000e9b6ab995b6b004667f7194a3a692",
+      "size": 10883
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-revolution-permanente-institutions-democratie-dcbc5ab5164c.md",
@@ -2365,8 +2380,8 @@
     },
     {
       "path": "proposals/auto/pouvoir-achat-travail/auto-gabriel-attal-pouvoir-achat-travail-7a91e45ad6d8.md",
-      "sha256": "757e37c2f6f30595682a63525cfe3b8ecdbc52f11e93bf23ae83e707212839af",
-      "size": 2121
+      "sha256": "6bbb43ff8abb9de3f208b86172a398951ae245d3924f2fc09736ebcd11338a90",
+      "size": 2233
     },
     {
       "path": "proposals/auto/pouvoir-achat-travail/auto-les-ecologistes-pouvoir-achat-travail-04b16919c921.md",
@@ -2435,8 +2450,8 @@
     },
     {
       "path": "proposals/auto/pouvoir-achat-travail/auto-rassemblement-national-pouvoir-achat-travail-1d658d91f4a3.md",
-      "sha256": "866da8f083004b40161599f0a2736cefc6d8667bbc88b690a5e687ad6841d5f0",
-      "size": 2350
+      "sha256": "a461ff3e8b090a8c8f8d05c120433d096976138d424ada87c75772d360611ccc",
+      "size": 2473
     },
     {
       "path": "proposals/auto/pouvoir-achat-travail/auto-rassemblement-national-pouvoir-achat-travail-462170ab9083.md",
@@ -2515,8 +2530,8 @@
     },
     {
       "path": "proposals/auto/retraites/auto-rassemblement-national-retraites-fd538617cfee.md",
-      "sha256": "f995e946994701da93630e9eaef8d933e1a787ab0a1e9cf27966d1c2374bcc74",
-      "size": 10413
+      "sha256": "a442d7b8ab266d76242342dda036a31d9fcff5b5ccea1ea0a082bf7449a9fa4b",
+      "size": 10532
     },
     {
       "path": "proposals/auto/retraites/auto-revolution-permanente-retraites-13fa936216a8.md",
@@ -2600,8 +2615,8 @@
     },
     {
       "path": "proposals/auto/securite-justice/auto-gabriel-attal-securite-justice-43664388aa97.md",
-      "sha256": "3d19bf3fbd8421ffeecb30c2bbf949ad4f600ab287d549e5090a83619f799f83",
-      "size": 1818
+      "sha256": "6b3bd5eff60fb8be6fa081621ce2395a39004cfe70f780c7df68adc50868bf51",
+      "size": 1928
     },
     {
       "path": "proposals/auto/securite-justice/auto-gabriel-attal-securite-justice-4591f47237a6.md",
@@ -2670,13 +2685,13 @@
     },
     {
       "path": "proposals/auto/securite-justice/auto-rassemblement-national-securite-justice-25fe73df9ce3.md",
-      "sha256": "5927bd3111c92571bbdf88219a8845e0703b54866fd263b5a92087ec826eda7c",
-      "size": 8543
+      "sha256": "35fa62dd08089555818680f76078f306772eba77b88f24db7fc03e4dc6f08c70",
+      "size": 8662
     },
     {
       "path": "proposals/auto/securite-justice/auto-rassemblement-national-securite-justice-5cb19d0cbcca.md",
-      "sha256": "6568b4e96390c0b2b36b589cc5f2592575c933a3c9c951765ec1d44a954c0859",
-      "size": 9563
+      "sha256": "6009dcb49599d7151c13a186865d9c69373352bbb51e17540c2b89745f7e36ab",
+      "size": 9682
     },
     {
       "path": "proposals/auto/securite-justice/auto-rassemblement-national-securite-justice-f810f54b67af.md",
@@ -2710,8 +2725,8 @@
     },
     {
       "path": "proposals/auto/services-publics/auto-gabriel-attal-services-publics-0b16aea25279.md",
-      "sha256": "a2b0023721a30a57e44acdee6e89ca46b92797799e04377438d2adb18004dce9",
-      "size": 2038
+      "sha256": "fef6ab3d4de51f3f67aef4bc85c10d526b470b0280e302d4617c492390a05585",
+      "size": 2150
     },
     {
       "path": "proposals/auto/services-publics/auto-gabriel-attal-services-publics-e66e98f0b2cf.md",

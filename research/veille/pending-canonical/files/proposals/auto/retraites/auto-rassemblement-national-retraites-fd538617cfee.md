@@ -30,7 +30,7 @@ source_document_ids: [auto-rassemblement-national-2026-08-11-b4e6fdd3c6e7, auto-
   auto-rassemblement-national-2026-10-16-6dc49efccb71, auto-rassemblement-national-2026-10-17-c2a934964353, auto-rassemblement-national-2026-10-17-3f621d499ee8,
   auto-rassemblement-national-2026-10-18-cad75c19a4ef, auto-rassemblement-national-2026-10-18-cffbc1ffdf21, auto-rassemblement-national-2026-10-19-b1baa02339e6,
   auto-rassemblement-national-2026-10-19-54955c663561, auto-rassemblement-national-2026-10-19-91fea7c7f321, auto-rassemblement-national-2026-10-20-9c3ba6ab671d,
-  auto-rassemblement-national-2026-10-20-5605b7d950c6]
+  auto-rassemblement-national-2026-10-20-5605b7d950c6, auto-rassemblement-national-2026-10-20-9ab4e0db75b4]
 source_url: https://rassemblementnational.fr/
 source_tier: tier_1_primary_official
 first_documented_at: '2026-08-11'
@@ -76,8 +76,8 @@ evidence_sha256s: [e9d2ee7a0fba8b07f65a57d2e71d6dd2dda1128fec6a240299a2bf5e3241d
   d75406b648a7b6047046d2f24663cf1048621347584b58e6e99778655d1d009a, 8d25d834bc9bb2d44ed0bb5730709eb53754e4d2815a86189877244e0234e0ce,
   328e074716e8db5bcef241d76f4b54a3e7898ec6197db7d3c16004b82c51ed2b, 2fd1c58db944d78168143b1acab6cefe5010f97b30db752517846ed62e52ab1d,
   3ae3ec9aa31d9bb1b88e2dc0a563930bdf04f23b191bd3435155cd06fcac0ab3, 70e8fa589ef36dfa00ad299139f916aab42a66f115c93f8648c18c6e575acd7e,
-  28685e69fb51d1ddfa69e20996448037ba555c3193375451523ce6ce1e08dbb6]
-confirmation_count: 75
+  28685e69fb51d1ddfa69e20996448037ba555c3193375451523ce6ce1e08dbb6, 55d07dba64e0c35b5475fddd8f6cc71b35793e451c0eb09755244aec11f6f467]
+confirmation_count: 76
 last_confirmed_at: '2026-10-20'
 ---
 
