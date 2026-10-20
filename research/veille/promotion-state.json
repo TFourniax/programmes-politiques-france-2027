@@ -1953,7 +1953,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-10-19T23:01:31+00:00",
+  "last_run_at": "2026-10-20T06:11:56+00:00",
   "source_chunks": {
     "000e79baea11403029d335b1": {
       "canonical_confirmations": [
@@ -15872,6 +15872,26 @@
       "updated_at": "2026-10-08T19:29:55+00:00",
       "url": "https://www.youtube.com/shorts/_OTSxMCS-Zk"
     },
+    "499dfa154b6aa11f109d6133": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-10-20T06:11:54+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "25a7907b09885268fa01a7d511fb711b3a9112ba0b012432a1b7c3501076f9ee",
+      "source_title": "Parrainages d'élu·es pour l'élection présidentielle 2027 - La France insoumise",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-10-20T06:11:56+00:00",
+      "url": "https://lafranceinsoumise.fr/2026/06/22/parrainages-elus-pour-election-presidentielle-2027/"
+    },
     "49d55600f28f5b885ec2a507": {
       "canonical_confirmations": [],
       "claims": [],
@@ -20325,6 +20345,58 @@
       "updated_at": "2026-08-20T10:10:54+00:00",
       "url": "https://www.youtube.com/watch?v=Uqe5vvsXsZ4"
     },
+    "630a2313fe905fb677e15a1f": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "solution-democratique",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Solution Démocratique souhaite instaurer en France la démocratie directe et la décentralisation par le bas.",
+            "relevance": "direct",
+            "statement": "Solution Démocratique souhaite instaurer la démocratie directe et la décentralisation par le bas en France.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La proposition est explicitement soutenue par la source et correspond à une entrée existante dans le canon.",
+            "related_proposal_id": "auto-solution-democratique-institutions-democratie-4ea1c22d52ea",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-10-20T06:11:45+00:00",
+      "created_at": "2026-10-20T06:11:37+00:00",
+      "document_types": [
+        "official_press_release"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-10-20"
+      ],
+      "sha256": "fc148f104fb2e791e0602d11f0af42bcc12281984e62b997fd5c540a4af6f126",
+      "source_title": "Présidentielle 2027 : Clara Egger, candidate de Solution Démocratique, à Gradignan le 24 octobre - Solution Démocratique - Parti politique pour instaurer la démocratie directe",
+      "statuses": [
+        {
+          "status": {
+            "candidate_id": "clara-egger",
+            "effective_date": "2026-10-24",
+            "evidence_quote": "Clara Egger, candidate de Solution Démocratique à l’élection présidentielle de 2027",
+            "explicit": true,
+            "new_status": "declared_presidential"
+          }
+        }
+      ],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-10-20T06:11:41+00:00",
+      "url": "https://solutiondemocratique.fr/presidentielle-2027-clara-egger-candidate-de-solution-democratique-a-gradignan-le-24-octobre/"
+    },
     "634688ad31e855c893b99e89": {
       "canonical_confirmations": [
         {
@@ -21550,6 +21622,46 @@
       "total": 1,
       "updated_at": "2026-08-11T14:42:42+00:00",
       "url": "https://parti-equinoxe.fr/legislatives-2022-programme-democratie/"
+    },
+    "681b83f50d8141e8d7ed9892": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "revolution-permanente",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "28h, expropriation des secteurs stratégiques... : RP présente les premières mesures de sa candidature",
+            "relevance": "party_platform",
+            "statement": "RP présente la mesure des 28h et l'expropriation des secteurs stratégiques pour sa candidature.",
+            "topic": "economie-finances"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La source mentionne explicitement « 28h, expropriation des secteurs stratégiques... : RP présente les premières mesures de sa candidature », ce qui est déjà partiellement couvert et redondant avec les propositions économiques existantes dans le canon.",
+            "related_proposal_id": "auto-revolution-permanente-economie-finances-9a3a787c0c18",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-10-20T06:11:53+00:00",
+      "created_at": "2026-10-20T06:11:46+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "210a8944d14b2990a374cb473da372a5caad1d99a86ea0b28174d00c0418812c",
+      "source_title": "Anasse Kazib 2027",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-10-20T06:11:50+00:00",
+      "url": "https://www.revolutionpermanente.fr/Anasse-Kazib-2027"
     },
     "684577723adbbfc273e39c73": {
       "canonical_confirmations": [],
@@ -55251,6 +55363,15 @@
       "status": "promoted",
       "url": "https://attalpresident.fr/programme"
     },
+    "ab231e673337": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-10-20T06:11:56+00:00",
+      "reason": null,
+      "source_sha256": "25a7907b09885268fa01a7d511fb711b3a9112ba0b012432a1b7c3501076f9ee",
+      "status": "not_confirmed",
+      "url": "https://lafranceinsoumise.fr/2026/06/22/parrainages-elus-pour-election-presidentielle-2027/"
+    },
     "ab49ce8a464c": {
       "chunks_done": null,
       "chunks_total": 1,
@@ -56000,6 +56121,15 @@
       "source_sha256": "6cfc68242b12568c508b460060460a472a4c661fd9e2f30eae0909a770249078",
       "status": "not_confirmed",
       "url": "https://lafranceinsoumise.fr/2026/08/10/amfis-2026-le-programme-est-en-ligne/"
+    },
+    "c64793eb3729": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-10-20T06:11:53+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "210a8944d14b2990a374cb473da372a5caad1d99a86ea0b28174d00c0418812c",
+      "status": "promoted",
+      "url": "https://www.revolutionpermanente.fr/Anasse-Kazib-2027"
     },
     "c668f945cb00": {
       "chunks_done": null,
@@ -57011,6 +57141,15 @@
       "source_sha256": "38bc4e7cfa05caee7f2058672780228263e7acac89d105f73c982f52f1f05ed2",
       "status": "not_confirmed",
       "url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne"
+    },
+    "ed8e98328daf": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-10-20T06:11:45+00:00",
+      "reason": null,
+      "source_sha256": "fc148f104fb2e791e0602d11f0af42bcc12281984e62b997fd5c540a4af6f126",
+      "status": "promoted",
+      "url": "https://solutiondemocratique.fr/presidentielle-2027-clara-egger-candidate-de-solution-democratique-a-gradignan-le-24-octobre/"
     },
     "ed9db9220f1a": {
       "chunks_done": null,

@@ -1,0 +1,41 @@
+{
+  "errors": [],
+  "generated_at": "2026-10-20T06:11:56+00:00",
+  "historical_skipped": 0,
+  "partial": 0,
+  "processed": 3,
+  "promoted": 2,
+  "proposals_created": 0,
+  "results": [
+    {
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/partys/solution-democratique/2026-10-20-630a2313fe90.md",
+      "proposals": [],
+      "provenance_updates": [
+        "auto-solution-democratique-institutions-democratie-4ea1c22d52ea"
+      ],
+      "sha256": "fc148f104fb2e791e0602d11f0af42bcc12281984e62b997fd5c540a4af6f126",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://solutiondemocratique.fr/presidentielle-2027-clara-egger-candidate-de-solution-democratique-a-gradignan-le-24-octobre/",
+      "verified_at": "2026-10-20T06:11:45+00:00"
+    },
+    {
+      "document": "corpus/2027/auto/candidates/anasse-kazib/2026-10-20-681b83f50d81.md",
+      "provenance_updates": [
+        "auto-revolution-permanente-economie-finances-9a3a787c0c18"
+      ],
+      "reason": "canonical_duplicate_evidence",
+      "sha256": "210a8944d14b2990a374cb473da372a5caad1d99a86ea0b28174d00c0418812c",
+      "status": "promoted",
+      "url": "https://www.revolutionpermanente.fr/Anasse-Kazib-2027",
+      "verified_at": "2026-10-20T06:11:53+00:00"
+    },
+    {
+      "sha256": "25a7907b09885268fa01a7d511fb711b3a9112ba0b012432a1b7c3501076f9ee",
+      "status": "not_confirmed",
+      "url": "https://lafranceinsoumise.fr/2026/06/22/parrainages-elus-pour-election-presidentielle-2027/"
+    }
+  ],
+  "status_updates": 0
+}

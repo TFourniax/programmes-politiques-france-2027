@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created_at": "2026-08-17T19:57:19.441897+00:00",
-  "updated_at": "2026-10-19T23:01:35.623035+00:00",
+  "updated_at": "2026-10-20T06:12:01.244319+00:00",
   "files": [
     {
       "path": "corpus/2027/auto/candidates/anasse-kazib/2026-08-28-38891602d9d9.md",
@@ -112,6 +112,11 @@
       "path": "corpus/2027/auto/candidates/anasse-kazib/2026-10-06-438c7e6ce789.md",
       "sha256": "bee0b760374d1a3ded7f46c496e5ccf50c65fa96acc2c3d59b196edab43bd3fa",
       "size": 1777
+    },
+    {
+      "path": "corpus/2027/auto/candidates/anasse-kazib/2026-10-20-681b83f50d81.md",
+      "sha256": "07c434464f883a5958d4b55259f634a96daf32fc02d71977cec8f4858b4e3b1a",
+      "size": 1598
     },
     {
       "path": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-02b6fd496b7b.md",
@@ -1644,6 +1649,11 @@
       "size": 2162
     },
     {
+      "path": "corpus/2027/auto/partys/solution-democratique/2026-10-20-630a2313fe90.md",
+      "sha256": "a178e540ce43e3f0161ea606704a6bca1b35e3e33543a968c6619226ee509af4",
+      "size": 2193
+    },
+    {
       "path": "corpus/2027/auto/partys/upr/2026-09-11-05dbcee1b2be.md",
       "sha256": "f80fa2018aed86daa02f79a44f96dd327b31d156515b64fba930c7c961f93b20",
       "size": 1768
@@ -1955,8 +1965,8 @@
     },
     {
       "path": "proposals/auto/economie-finances/auto-revolution-permanente-economie-finances-9a3a787c0c18.md",
-      "sha256": "b21e9eb249074b27050d482096a66b289334421bec5eebe0df72fb4de58eae4a",
-      "size": 1771
+      "sha256": "9b391bfcf8a970a85dc3b0b718609868f4a225530ca9b22ab8d879d345348426",
+      "size": 1939
     },
     {
       "path": "proposals/auto/europe-souverainete/auto-bruno-retailleau-europe-souverainete-ed8d0d14bccb.md",
@@ -2275,8 +2285,8 @@
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-solution-democratique-institutions-democratie-4ea1c22d52ea.md",
-      "sha256": "a3e2da46060832474b5e6bebcce2562723ca4bb5d49f9302ccd11a4ac0388152",
-      "size": 9922
+      "sha256": "e1ccc0d73774515ef67fb2527989f49a87b60a0be5441432b038092514efde17",
+      "size": 10171
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-solution-democratique-institutions-democratie-60c5ea22a7f1.md",
