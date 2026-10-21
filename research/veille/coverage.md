@@ -37,13 +37,13 @@ Ce rapport est dérivé automatiquement du corpus courant. Il sert à piloter la
 - **Défense & international** (`defense-international`) — 6 acteur(s), 7 proposition(s), dernière preuve 2026-08-14.
 - **Fiscalité & redistribution** (`fiscalite-redistribution`) — 11 acteur(s), 75 proposition(s), dernière preuve 2026-10-20.
 - **Europe & souveraineté** (`europe-souverainete`) — 12 acteur(s), 111 proposition(s), dernière preuve 2026-09-25.
-- **Immigration & intégration** (`immigration-integration`) — 12 acteur(s), 67 proposition(s), dernière preuve 2026-10-20.
+- **Immigration & intégration** (`immigration-integration`) — 12 acteur(s), 67 proposition(s), dernière preuve 2026-10-21.
 - **Retraites** (`retraites`) — 14 acteur(s), 23 proposition(s), dernière preuve 2026-10-20.
-- **Sécurité & justice** (`securite-justice`) — 14 acteur(s), 151 proposition(s), dernière preuve 2026-10-20.
+- **Sécurité & justice** (`securite-justice`) — 14 acteur(s), 151 proposition(s), dernière preuve 2026-10-21.
 - **Économie & finances publiques** (`economie-finances`) — 15 acteur(s), 123 proposition(s), dernière preuve 2026-10-21.
-- **Institutions & démocratie** (`institutions-democratie`) — 15 acteur(s), 271 proposition(s), dernière preuve 2026-10-20.
+- **Institutions & démocratie** (`institutions-democratie`) — 15 acteur(s), 271 proposition(s), dernière preuve 2026-10-21.
 - **Services publics** (`services-publics`) — 16 acteur(s), 242 proposition(s), dernière preuve 2026-10-20.
-- **Écologie & énergie** (`ecologie-energie`) — 17 acteur(s), 202 proposition(s), dernière preuve 2026-10-20.
-- **Pouvoir d’achat & travail** (`pouvoir-achat-travail`) — 20 acteur(s), 80 proposition(s), dernière preuve 2026-10-20.
+- **Écologie & énergie** (`ecologie-energie`) — 17 acteur(s), 202 proposition(s), dernière preuve 2026-10-21.
+- **Pouvoir d’achat & travail** (`pouvoir-achat-travail`) — 20 acteur(s), 80 proposition(s), dernière preuve 2026-10-21.
 
 > Ce rapport est un indicateur de couverture structurée, de fraîcheur et de profondeur de preuve, pas un score de qualité politique ni d'exhaustivité absolue.
