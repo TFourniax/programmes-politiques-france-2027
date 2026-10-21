@@ -1,0 +1,52 @@
+{
+  "errors": [],
+  "generated_at": "2026-10-21T06:12:13+00:00",
+  "historical_skipped": 0,
+  "partial": 0,
+  "processed": 3,
+  "promoted": 3,
+  "proposals_created": 7,
+  "results": [
+    {
+      "document": "corpus/2027/auto/candidates/anasse-kazib/2026-10-21-681b83f50d81.md",
+      "provenance_updates": [
+        "auto-revolution-permanente-economie-finances-9a3a787c0c18"
+      ],
+      "reason": "canonical_duplicate_evidence",
+      "sha256": "210a8944d14b2990a374cb473da372a5caad1d99a86ea0b28174d00c0418812c",
+      "status": "promoted",
+      "url": "https://www.revolutionpermanente.fr/Anasse-Kazib-2027",
+      "verified_at": "2026-10-21T06:11:44+00:00"
+    },
+    {
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/candidates/gabriel-attal/2026-10-19-0468263a66df.md",
+      "proposals": [
+        "proposals/auto/ecologie-energie/auto-gabriel-attal-ecologie-energie-0f8fda1fede5.md",
+        "proposals/auto/ecologie-energie/auto-gabriel-attal-ecologie-energie-566790780f4b.md",
+        "proposals/auto/ecologie-energie/auto-gabriel-attal-ecologie-energie-148cec76b3a1.md"
+      ],
+      "sha256": "2eb27c0efdc4ce5225f03ebffa0b2852ec3d9bf58de6526e197c8546a37ef43a",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://attalpresident.fr/programme/dette-ecologique",
+      "verified_at": "2026-10-21T06:11:53+00:00"
+    },
+    {
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/candidates/gabriel-attal/2026-10-19-eefd34e0edc0.md",
+      "proposals": [
+        "proposals/auto/services-publics/auto-gabriel-attal-services-publics-befe7e7f1373.md",
+        "proposals/auto/services-publics/auto-gabriel-attal-services-publics-931b7a50ea42.md",
+        "proposals/auto/services-publics/auto-gabriel-attal-services-publics-dcb5735bf336.md",
+        "proposals/auto/services-publics/auto-gabriel-attal-services-publics-8a75314add40.md"
+      ],
+      "sha256": "4f163e0267e933889331e479fe05dea6321f80962612c1185dc383e2c015361b",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://attalpresident.fr/programme/education",
+      "verified_at": "2026-10-21T06:12:06+00:00"
+    }
+  ],
+  "status_updates": 0
+}

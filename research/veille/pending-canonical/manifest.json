@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created_at": "2026-08-17T19:57:19.441897+00:00",
-  "updated_at": "2026-10-20T22:30:31.442194+00:00",
+  "updated_at": "2026-10-21T06:12:16.628075+00:00",
   "files": [
     {
       "path": "corpus/2027/auto/candidates/anasse-kazib/2026-08-28-38891602d9d9.md",
@@ -116,6 +116,11 @@
     {
       "path": "corpus/2027/auto/candidates/anasse-kazib/2026-10-20-681b83f50d81.md",
       "sha256": "07c434464f883a5958d4b55259f634a96daf32fc02d71977cec8f4858b4e3b1a",
+      "size": 1598
+    },
+    {
+      "path": "corpus/2027/auto/candidates/anasse-kazib/2026-10-21-681b83f50d81.md",
+      "sha256": "4129b4b1a48e035b3d58876a16b3d11338271da1507a122fb0216fe7975b1979",
       "size": 1598
     },
     {
@@ -704,6 +709,11 @@
       "size": 2310
     },
     {
+      "path": "corpus/2027/auto/candidates/gabriel-attal/2026-10-19-0468263a66df.md",
+      "sha256": "f5be363e84606570dd000a4d5fd0edc54aed11af783036cae56c3e8d63865ff4",
+      "size": 2008
+    },
+    {
       "path": "corpus/2027/auto/candidates/gabriel-attal/2026-10-19-1e62de5f88d9.md",
       "sha256": "7a3bea0a84c52843c9c6307a87dff9f8514afc1c375370b70ce114666ce48071",
       "size": 1797
@@ -712,6 +722,11 @@
       "path": "corpus/2027/auto/candidates/gabriel-attal/2026-10-19-6803d58018c5.md",
       "sha256": "d9d97618ba789155e18e806387bc652abc7191f748a1c8d8732b35e9cef6d113",
       "size": 1981
+    },
+    {
+      "path": "corpus/2027/auto/candidates/gabriel-attal/2026-10-19-eefd34e0edc0.md",
+      "sha256": "6add072becc5e419982e304286b8efbbd2f3a95cb11411894c7b92e1795c50d2",
+      "size": 1962
     },
     {
       "path": "corpus/2027/auto/candidates/jean-luc-melenchon/2026-09-18-a1a666a8c110.md",
@@ -1699,9 +1714,24 @@
       "size": 1524
     },
     {
+      "path": "proposals/auto/ecologie-energie/auto-gabriel-attal-ecologie-energie-0f8fda1fede5.md",
+      "sha256": "fc61f58a69b85840da1f7e36971e1c23deaadfe45276fa8c984d7c2d5c28ec89",
+      "size": 1380
+    },
+    {
+      "path": "proposals/auto/ecologie-energie/auto-gabriel-attal-ecologie-energie-148cec76b3a1.md",
+      "sha256": "fbea7a9cba9ca80bbf141fb51c6e7276fd438924c0cc657d0048a321ad773c96",
+      "size": 1336
+    },
+    {
       "path": "proposals/auto/ecologie-energie/auto-gabriel-attal-ecologie-energie-35e8ce5873ae.md",
       "sha256": "e6b6f29af2094e65541dec25b8ad530db690aa09270ffe0518dd8f448b950a62",
       "size": 1970
+    },
+    {
+      "path": "proposals/auto/ecologie-energie/auto-gabriel-attal-ecologie-energie-566790780f4b.md",
+      "sha256": "85de567d507bdb110c42b15489f0e897e7f794f0294fe084a1b29a9b5799fc13",
+      "size": 1264
     },
     {
       "path": "proposals/auto/ecologie-energie/auto-gabriel-attal-ecologie-energie-cdd542c0f78a.md",
@@ -2000,8 +2030,8 @@
     },
     {
       "path": "proposals/auto/economie-finances/auto-revolution-permanente-economie-finances-9a3a787c0c18.md",
-      "sha256": "9b391bfcf8a970a85dc3b0b718609868f4a225530ca9b22ab8d879d345348426",
-      "size": 1939
+      "sha256": "adb112d3cf9397a2547b6711e074628b70a02770c579942473beaaa9e4dba5a0",
+      "size": 1984
     },
     {
       "path": "proposals/auto/europe-souverainete/auto-bruno-retailleau-europe-souverainete-ed8d0d14bccb.md",
@@ -2727,6 +2757,26 @@
       "path": "proposals/auto/services-publics/auto-gabriel-attal-services-publics-0b16aea25279.md",
       "sha256": "fef6ab3d4de51f3f67aef4bc85c10d526b470b0280e302d4617c492390a05585",
       "size": 2150
+    },
+    {
+      "path": "proposals/auto/services-publics/auto-gabriel-attal-services-publics-8a75314add40.md",
+      "sha256": "47546cc43a7ba0062c61f03a33faa6e1122b1b2ca84bce6030da1429813e579a",
+      "size": 1344
+    },
+    {
+      "path": "proposals/auto/services-publics/auto-gabriel-attal-services-publics-931b7a50ea42.md",
+      "sha256": "19f5a3fb6e3677c049da2afaea21d01cc1b0fd821d066293441726a5bd4c70cd",
+      "size": 1164
+    },
+    {
+      "path": "proposals/auto/services-publics/auto-gabriel-attal-services-publics-befe7e7f1373.md",
+      "sha256": "f9ec705803347fa7559667447bac58030d9c22d61e083e131e72ec5f9cd7a576",
+      "size": 1272
+    },
+    {
+      "path": "proposals/auto/services-publics/auto-gabriel-attal-services-publics-dcb5735bf336.md",
+      "sha256": "73a7451ac34275137512ee0e67196d6bc38a5151255c3cd4f952d6380205772f",
+      "size": 1146
     },
     {
       "path": "proposals/auto/services-publics/auto-gabriel-attal-services-publics-e66e98f0b2cf.md",

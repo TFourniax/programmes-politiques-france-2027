@@ -8,10 +8,10 @@ Ce rapport est dérivé automatiquement du corpus courant. Il sert à piloter la
 
 - 68 acteurs référencés ;
 - 27 candidatures actives ou déclarées suivies ;
-- 1351 propositions atomiques courantes ;
+- 1358 propositions atomiques courantes ;
 - 157 / 816 cases acteur × thème couvertes (19.2 %) ;
 - 70 / 324 cases candidat actif × thème couvertes (21.6 %) ;
-- 1318 propositions marquées vérifiées ; 96 appuyées par au moins deux documents de preuve.
+- 1325 propositions marquées vérifiées ; 96 appuyées par au moins deux documents de preuve.
 
 ## Priorités documentaires
 
@@ -40,10 +40,10 @@ Ce rapport est dérivé automatiquement du corpus courant. Il sert à piloter la
 - **Immigration & intégration** (`immigration-integration`) — 12 acteur(s), 67 proposition(s), dernière preuve 2026-10-20.
 - **Retraites** (`retraites`) — 14 acteur(s), 23 proposition(s), dernière preuve 2026-10-20.
 - **Sécurité & justice** (`securite-justice`) — 14 acteur(s), 151 proposition(s), dernière preuve 2026-10-20.
-- **Économie & finances publiques** (`economie-finances`) — 15 acteur(s), 123 proposition(s), dernière preuve 2026-10-20.
+- **Économie & finances publiques** (`economie-finances`) — 15 acteur(s), 123 proposition(s), dernière preuve 2026-10-21.
 - **Institutions & démocratie** (`institutions-democratie`) — 15 acteur(s), 271 proposition(s), dernière preuve 2026-10-20.
-- **Services publics** (`services-publics`) — 16 acteur(s), 238 proposition(s), dernière preuve 2026-10-20.
-- **Écologie & énergie** (`ecologie-energie`) — 17 acteur(s), 199 proposition(s), dernière preuve 2026-10-20.
+- **Services publics** (`services-publics`) — 16 acteur(s), 242 proposition(s), dernière preuve 2026-10-20.
+- **Écologie & énergie** (`ecologie-energie`) — 17 acteur(s), 202 proposition(s), dernière preuve 2026-10-20.
 - **Pouvoir d’achat & travail** (`pouvoir-achat-travail`) — 20 acteur(s), 80 proposition(s), dernière preuve 2026-10-20.
 
 > Ce rapport est un indicateur de couverture structurée, de fraîcheur et de profondeur de preuve, pas un score de qualité politique ni d'exhaustivité absolue.
