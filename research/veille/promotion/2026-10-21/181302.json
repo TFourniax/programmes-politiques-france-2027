@@ -1,0 +1,47 @@
+{
+  "errors": [],
+  "generated_at": "2026-10-21T18:13:02+00:00",
+  "historical_skipped": 0,
+  "partial": 0,
+  "processed": 3,
+  "promoted": 3,
+  "proposals_created": 0,
+  "results": [
+    {
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/partys/debout-la-france/2026-10-21-7f042b13765a.md",
+      "proposals": [],
+      "sha256": "df07bae5d34edda04fe0182aae873fdd84ceced48814300824b1f7cdb14e9ce9",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://www.debout-la-france.fr/actualite/philippe-murer-apporte-son-soutien-a-la-candidature-presidentielle-de-nicolas-dupont-aignan/",
+      "verified_at": "2026-10-21T18:12:33+00:00"
+    },
+    {
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/candidates/nicolas-dupont-aignan/2026-10-21-8ae230201df1.md",
+      "proposals": [],
+      "sha256": "9ca2581127383925cf1196a509a6333445dd0b4b3cde9ba76272e559dcea4edb",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://www.dupontaignan.fr/actualite/philippe-murer-apporte-son-soutien-a-la-candidature-presidentielle-de-nicolas-dupont-aignan/",
+      "verified_at": "2026-10-21T18:12:37+00:00"
+    },
+    {
+      "document": "corpus/2027/auto/partys/rassemblement-national/2026-10-21-6dfb814fbd7b.md",
+      "provenance_updates": [
+        "auto-rassemblement-national-ecologie-energie-e7de1a3e9e8e",
+        "auto-rassemblement-national-immigration-integration-65a64162aec9",
+        "auto-rassemblement-national-institutions-democratie-2ec6a69712fb",
+        "auto-rassemblement-national-pouvoir-achat-travail-1d658d91f4a3",
+        "auto-rassemblement-national-securite-justice-f810f54b67af"
+      ],
+      "reason": "canonical_duplicate_evidence",
+      "sha256": "8771297648f547c455537b9d68ecace1ef6f3b49c441f2aa27f8a57318421789",
+      "status": "promoted",
+      "url": "https://rassemblementnational.fr/",
+      "verified_at": "2026-10-21T18:13:02+00:00"
+    }
+  ],
+  "status_updates": 0
+}

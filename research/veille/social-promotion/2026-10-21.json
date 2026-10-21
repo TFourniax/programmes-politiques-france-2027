@@ -1,26 +1,28 @@
 {
   "errors": [],
-  "generated_at": "2026-10-21T13:05:55+00:00",
+  "generated_at": "2026-10-21T18:13:16+00:00",
   "partial": 0,
-  "processed": 3,
-  "promoted": 0,
-  "proposals_created": 0,
+  "processed": 2,
+  "promoted": 1,
+  "proposals_created": 1,
   "provenance_updates": 0,
   "results": [
     {
-      "sha256": "f43c8fca1fc1a49b54cfb9f15bc2ebe27a6894661fc4e7c06856105e47fab488",
+      "sha256": "28aae7ba471a85cd3af6d12acdf7e247e211455df37606d23b00968f967b47db",
       "status": "not_confirmed",
-      "url": "https://bsky.app/profile/marinetondelier.fr/post/3myf3m2tkvs2e"
+      "url": "https://www.youtube.com/shorts/9wBnW2c-Wpc"
     },
     {
-      "sha256": "35dd39d32c2fb66e0aa65e449cb75d0146d53247fdec6444b527c46da3538bde",
-      "status": "not_confirmed",
-      "url": "https://www.youtube.com/watch?v=dBtd-0jDCDQ"
-    },
-    {
-      "sha256": "f36edf380c85443732776c374f0834381fab8ccf8c4d9fecd03ba79734a2ec08",
-      "status": "not_confirmed",
-      "url": "https://bsky.app/profile/marinetondelier.fr/post/3myeqw7nkfc2a"
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/partys/revolution-permanente/2026-10-21-790b6a08f6a7.md",
+      "proposals": [
+        "proposals/auto/securite-justice/auto-revolution-permanente-securite-justice-400d862a7ce5.md"
+      ],
+      "sha256": "5ccfc97a6b32768e771faf19357ca56065bdccbff1e69666a6f30b7dfbe82fd2",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://www.youtube.com/shorts/mSU--yi212o",
+      "verified_at": "2026-10-21T18:13:12+00:00"
     }
   ],
   "status_updates": 0
