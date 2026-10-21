@@ -6,18 +6,18 @@
     "actors": 68,
     "declared_or_active_candidates": 27,
     "topics": 12,
-    "current_proposals": 1359,
+    "current_proposals": 1367,
     "covered_actor_topic_cells": 157,
     "total_actor_topic_cells": 816,
     "actor_topic_coverage_ratio": 0.1924,
     "active_candidate_covered_cells": 70,
     "active_candidate_total_cells": 324,
     "active_candidate_topic_coverage_ratio": 0.216,
-    "verified_proposals": 1326,
-    "multi_source_proposals": 96,
+    "verified_proposals": 1334,
+    "multi_source_proposals": 97,
     "latest_evidence_at": "2026-10-21",
     "certainty_counts": {
-      "explicit": 1334,
+      "explicit": 1342,
       "explicit_but_conditional": 3,
       "explicit_but_underspecified": 22
     }
@@ -665,7 +665,7 @@
       "type": "candidate",
       "status": "declared_presidential",
       "confidence": "high",
-      "current_proposals": 22,
+      "current_proposals": 30,
       "covered_topics": [
         "ecologie-energie",
         "economie-finances",
@@ -684,7 +684,7 @@
         "numerique-ia"
       ],
       "latest_evidence_at": "2026-10-19",
-      "verified_proposals": 22,
+      "verified_proposals": 30,
       "multi_source_proposals": 15
     },
     {
@@ -1675,7 +1675,7 @@
       ],
       "latest_evidence_at": "2026-10-21",
       "verified_proposals": 18,
-      "multi_source_proposals": 5
+      "multi_source_proposals": 6
     },
     {
       "id": "sarah-knafo",
@@ -1969,7 +1969,7 @@
       "current_proposals": 23,
       "actors_covered": 14,
       "actor_coverage_ratio": 0.2059,
-      "latest_evidence_at": "2026-10-20",
+      "latest_evidence_at": "2026-10-21",
       "verified_proposals": 21,
       "multi_source_proposals": 7
     },
@@ -1979,28 +1979,28 @@
       "current_proposals": 75,
       "actors_covered": 11,
       "actor_coverage_ratio": 0.1618,
-      "latest_evidence_at": "2026-10-20",
+      "latest_evidence_at": "2026-10-21",
       "verified_proposals": 73,
       "multi_source_proposals": 3
     },
     {
       "id": "immigration-integration",
       "label": "Immigration & intégration",
-      "current_proposals": 67,
+      "current_proposals": 69,
       "actors_covered": 12,
       "actor_coverage_ratio": 0.1765,
       "latest_evidence_at": "2026-10-21",
-      "verified_proposals": 63,
+      "verified_proposals": 65,
       "multi_source_proposals": 7
     },
     {
       "id": "europe-souverainete",
       "label": "Europe & souveraineté",
-      "current_proposals": 111,
+      "current_proposals": 114,
       "actors_covered": 12,
       "actor_coverage_ratio": 0.1765,
-      "latest_evidence_at": "2026-09-25",
-      "verified_proposals": 110,
+      "latest_evidence_at": "2026-10-19",
+      "verified_proposals": 113,
       "multi_source_proposals": 4
     },
     {
@@ -2036,31 +2036,31 @@
     {
       "id": "services-publics",
       "label": "Services publics",
-      "current_proposals": 242,
+      "current_proposals": 243,
       "actors_covered": 16,
       "actor_coverage_ratio": 0.2353,
       "latest_evidence_at": "2026-10-20",
-      "verified_proposals": 239,
+      "verified_proposals": 240,
       "multi_source_proposals": 8
     },
     {
       "id": "securite-justice",
       "label": "Sécurité & justice",
-      "current_proposals": 152,
+      "current_proposals": 153,
       "actors_covered": 14,
       "actor_coverage_ratio": 0.2059,
       "latest_evidence_at": "2026-10-21",
-      "verified_proposals": 149,
-      "multi_source_proposals": 10
+      "verified_proposals": 150,
+      "multi_source_proposals": 11
     },
     {
       "id": "economie-finances",
       "label": "Économie & finances publiques",
-      "current_proposals": 123,
+      "current_proposals": 124,
       "actors_covered": 15,
       "actor_coverage_ratio": 0.2206,
       "latest_evidence_at": "2026-10-21",
-      "verified_proposals": 122,
+      "verified_proposals": 123,
       "multi_source_proposals": 13
     },
     {
@@ -3378,7 +3378,7 @@
       "name": "Gabriel Attal",
       "status": "declared_presidential",
       "coverage_ratio": 0.6667,
-      "current_proposals": 22,
+      "current_proposals": 30,
       "latest_evidence_at": "2026-10-19",
       "topics": [
         {
@@ -3412,18 +3412,18 @@
           "id": "immigration-integration",
           "label": "Immigration & intégration",
           "covered": true,
-          "current_proposals": 1,
-          "latest_evidence_at": "2026-09-07",
-          "verified_proposals": 1,
+          "current_proposals": 3,
+          "latest_evidence_at": "2026-10-19",
+          "verified_proposals": 3,
           "multi_source_proposals": 1
         },
         {
           "id": "europe-souverainete",
           "label": "Europe & souveraineté",
           "covered": true,
-          "current_proposals": 1,
-          "latest_evidence_at": "2026-09-25",
-          "verified_proposals": 1,
+          "current_proposals": 4,
+          "latest_evidence_at": "2026-10-19",
+          "verified_proposals": 4,
           "multi_source_proposals": 1
         },
         {
@@ -3457,27 +3457,27 @@
           "id": "services-publics",
           "label": "Services publics",
           "covered": true,
-          "current_proposals": 6,
+          "current_proposals": 7,
           "latest_evidence_at": "2026-10-19",
-          "verified_proposals": 6,
+          "verified_proposals": 7,
           "multi_source_proposals": 2
         },
         {
           "id": "securite-justice",
           "label": "Sécurité & justice",
           "covered": true,
-          "current_proposals": 3,
+          "current_proposals": 4,
           "latest_evidence_at": "2026-10-19",
-          "verified_proposals": 3,
+          "verified_proposals": 4,
           "multi_source_proposals": 3
         },
         {
           "id": "economie-finances",
           "label": "Économie & finances publiques",
           "covered": true,
-          "current_proposals": 3,
+          "current_proposals": 4,
           "latest_evidence_at": "2026-10-19",
-          "verified_proposals": 3,
+          "verified_proposals": 4,
           "multi_source_proposals": 3
         },
         {
@@ -5756,7 +5756,7 @@
       "name": "Gabriel Attal",
       "status": "declared_presidential",
       "coverage_ratio": 0.6667,
-      "current_proposals": 22,
+      "current_proposals": 30,
       "latest_evidence_at": "2026-10-19",
       "gaps": [
         "fiscalite-redistribution",

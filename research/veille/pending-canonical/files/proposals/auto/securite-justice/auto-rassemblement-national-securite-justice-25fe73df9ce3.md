@@ -25,7 +25,8 @@ source_document_ids: [auto-rassemblement-national-2026-09-11-168804013684, auto-
   auto-rassemblement-national-2026-10-16-bf6e9778b3a1, auto-rassemblement-national-2026-10-16-c47b88d48cdf, auto-rassemblement-national-2026-10-16-6dc49efccb71,
   auto-rassemblement-national-2026-10-17-c2a934964353, auto-rassemblement-national-2026-10-17-3f621d499ee8, auto-rassemblement-national-2026-10-18-cffbc1ffdf21,
   auto-rassemblement-national-2026-10-19-b1baa02339e6, auto-rassemblement-national-2026-10-19-54955c663561, auto-rassemblement-national-2026-10-19-91fea7c7f321,
-  auto-rassemblement-national-2026-10-20-9c3ba6ab671d, auto-rassemblement-national-2026-10-20-5605b7d950c6, auto-rassemblement-national-2026-10-20-9ab4e0db75b4]
+  auto-rassemblement-national-2026-10-20-9c3ba6ab671d, auto-rassemblement-national-2026-10-20-5605b7d950c6, auto-rassemblement-national-2026-10-20-9ab4e0db75b4,
+  auto-rassemblement-national-2026-10-21-ead3574ca75e]
 source_url: https://rassemblementnational.fr/
 source_tier: tier_1_primary_official
 first_documented_at: '2026-09-11'
@@ -65,9 +66,10 @@ evidence_sha256s: [3fef1671cc9b008965b97ae3f8fbb393c59d4b44033a5837b89130b926451
   41186b13f882a0b461d11687708acf9a645feb8b5b9b6feb8b8296426e21bf00, 8d25d834bc9bb2d44ed0bb5730709eb53754e4d2815a86189877244e0234e0ce,
   328e074716e8db5bcef241d76f4b54a3e7898ec6197db7d3c16004b82c51ed2b, 2fd1c58db944d78168143b1acab6cefe5010f97b30db752517846ed62e52ab1d,
   3ae3ec9aa31d9bb1b88e2dc0a563930bdf04f23b191bd3435155cd06fcac0ab3, 70e8fa589ef36dfa00ad299139f916aab42a66f115c93f8648c18c6e575acd7e,
-  28685e69fb51d1ddfa69e20996448037ba555c3193375451523ce6ce1e08dbb6, 55d07dba64e0c35b5475fddd8f6cc71b35793e451c0eb09755244aec11f6f467]
-confirmation_count: 62
-last_confirmed_at: '2026-10-20'
+  28685e69fb51d1ddfa69e20996448037ba555c3193375451523ce6ce1e08dbb6, 55d07dba64e0c35b5475fddd8f6cc71b35793e451c0eb09755244aec11f6f467,
+  4938805619354db2fef85feaeec16771aa2cef437c638a9237288bf764cd9f31]
+confirmation_count: 63
+last_confirmed_at: '2026-10-21'
 ---
 
 # Interdiction du port du burkini

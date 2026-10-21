@@ -1,28 +1,22 @@
 {
   "errors": [],
-  "generated_at": "2026-10-21T18:13:16+00:00",
+  "generated_at": "2026-10-21T22:34:56+00:00",
   "partial": 0,
-  "processed": 2,
+  "processed": 1,
   "promoted": 1,
-  "proposals_created": 1,
-  "provenance_updates": 0,
+  "proposals_created": 0,
+  "provenance_updates": 1,
   "results": [
     {
-      "sha256": "28aae7ba471a85cd3af6d12acdf7e247e211455df37606d23b00968f967b47db",
-      "status": "not_confirmed",
-      "url": "https://www.youtube.com/shorts/9wBnW2c-Wpc"
-    },
-    {
-      "chunks_total": 1,
-      "document": "corpus/2027/auto/partys/revolution-permanente/2026-10-21-790b6a08f6a7.md",
-      "proposals": [
-        "proposals/auto/securite-justice/auto-revolution-permanente-securite-justice-400d862a7ce5.md"
+      "document": "corpus/2027/auto/partys/revolution-permanente/2026-10-21-7ceb45026494.md",
+      "provenance_updates": [
+        "auto-revolution-permanente-securite-justice-400d862a7ce5"
       ],
+      "reason": "canonical_duplicate_evidence",
       "sha256": "5ccfc97a6b32768e771faf19357ca56065bdccbff1e69666a6f30b7dfbe82fd2",
       "status": "promoted",
-      "status_updates": [],
-      "url": "https://www.youtube.com/shorts/mSU--yi212o",
-      "verified_at": "2026-10-21T18:13:12+00:00"
+      "url": "https://www.youtube.com/shorts/k7Qx-ubuo6Y",
+      "verified_at": "2026-10-21T22:34:55+00:00"
     }
   ],
   "status_updates": 0
