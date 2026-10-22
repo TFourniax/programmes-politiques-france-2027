@@ -6,18 +6,18 @@
     "actors": 68,
     "declared_or_active_candidates": 27,
     "topics": 12,
-    "current_proposals": 1367,
-    "covered_actor_topic_cells": 157,
+    "current_proposals": 1371,
+    "covered_actor_topic_cells": 158,
     "total_actor_topic_cells": 816,
-    "actor_topic_coverage_ratio": 0.1924,
+    "actor_topic_coverage_ratio": 0.1936,
     "active_candidate_covered_cells": 70,
     "active_candidate_total_cells": 324,
     "active_candidate_topic_coverage_ratio": 0.216,
-    "verified_proposals": 1334,
+    "verified_proposals": 1338,
     "multi_source_proposals": 97,
-    "latest_evidence_at": "2026-10-21",
+    "latest_evidence_at": "2026-10-22",
     "certainty_counts": {
-      "explicit": 1342,
+      "explicit": 1346,
       "explicit_but_conditional": 3,
       "explicit_but_underspecified": 22
     }
@@ -475,9 +475,11 @@
       "type": "candidate",
       "status": "potential",
       "confidence": "medium",
-      "current_proposals": 0,
-      "covered_topics": [],
-      "coverage_ratio": 0.0,
+      "current_proposals": 1,
+      "covered_topics": [
+        "economie-finances"
+      ],
+      "coverage_ratio": 0.0833,
       "gaps": [
         "pouvoir-achat-travail",
         "retraites",
@@ -489,11 +491,10 @@
         "institutions-democratie",
         "services-publics",
         "securite-justice",
-        "economie-finances",
         "numerique-ia"
       ],
-      "latest_evidence_at": null,
-      "verified_proposals": 0,
+      "latest_evidence_at": "2026-10-22",
+      "verified_proposals": 1,
       "multi_source_proposals": 0
     },
     {
@@ -665,7 +666,7 @@
       "type": "candidate",
       "status": "declared_presidential",
       "confidence": "high",
-      "current_proposals": 30,
+      "current_proposals": 33,
       "covered_topics": [
         "ecologie-energie",
         "economie-finances",
@@ -684,7 +685,7 @@
         "numerique-ia"
       ],
       "latest_evidence_at": "2026-10-19",
-      "verified_proposals": 30,
+      "verified_proposals": 33,
       "multi_source_proposals": 15
     },
     {
@@ -1589,7 +1590,7 @@
         "economie-finances",
         "numerique-ia"
       ],
-      "latest_evidence_at": "2026-10-21",
+      "latest_evidence_at": "2026-10-22",
       "verified_proposals": 22,
       "multi_source_proposals": 11
     },
@@ -1956,11 +1957,11 @@
     {
       "id": "pouvoir-achat-travail",
       "label": "Pouvoir d’achat & travail",
-      "current_proposals": 80,
+      "current_proposals": 83,
       "actors_covered": 20,
       "actor_coverage_ratio": 0.2941,
-      "latest_evidence_at": "2026-10-21",
-      "verified_proposals": 73,
+      "latest_evidence_at": "2026-10-22",
+      "verified_proposals": 76,
       "multi_source_proposals": 11
     },
     {
@@ -1969,7 +1970,7 @@
       "current_proposals": 23,
       "actors_covered": 14,
       "actor_coverage_ratio": 0.2059,
-      "latest_evidence_at": "2026-10-21",
+      "latest_evidence_at": "2026-10-22",
       "verified_proposals": 21,
       "multi_source_proposals": 7
     },
@@ -1989,7 +1990,7 @@
       "current_proposals": 69,
       "actors_covered": 12,
       "actor_coverage_ratio": 0.1765,
-      "latest_evidence_at": "2026-10-21",
+      "latest_evidence_at": "2026-10-22",
       "verified_proposals": 65,
       "multi_source_proposals": 7
     },
@@ -2019,7 +2020,7 @@
       "current_proposals": 202,
       "actors_covered": 17,
       "actor_coverage_ratio": 0.25,
-      "latest_evidence_at": "2026-10-21",
+      "latest_evidence_at": "2026-10-22",
       "verified_proposals": 196,
       "multi_source_proposals": 4
     },
@@ -2029,7 +2030,7 @@
       "current_proposals": 271,
       "actors_covered": 15,
       "actor_coverage_ratio": 0.2206,
-      "latest_evidence_at": "2026-10-21",
+      "latest_evidence_at": "2026-10-22",
       "verified_proposals": 267,
       "multi_source_proposals": 29
     },
@@ -2049,18 +2050,18 @@
       "current_proposals": 153,
       "actors_covered": 14,
       "actor_coverage_ratio": 0.2059,
-      "latest_evidence_at": "2026-10-21",
+      "latest_evidence_at": "2026-10-22",
       "verified_proposals": 150,
       "multi_source_proposals": 11
     },
     {
       "id": "economie-finances",
       "label": "Économie & finances publiques",
-      "current_proposals": 124,
-      "actors_covered": 15,
-      "actor_coverage_ratio": 0.2206,
-      "latest_evidence_at": "2026-10-21",
-      "verified_proposals": 123,
+      "current_proposals": 125,
+      "actors_covered": 16,
+      "actor_coverage_ratio": 0.2353,
+      "latest_evidence_at": "2026-10-22",
+      "verified_proposals": 124,
       "multi_source_proposals": 13
     },
     {
@@ -3378,16 +3379,16 @@
       "name": "Gabriel Attal",
       "status": "declared_presidential",
       "coverage_ratio": 0.6667,
-      "current_proposals": 30,
+      "current_proposals": 33,
       "latest_evidence_at": "2026-10-19",
       "topics": [
         {
           "id": "pouvoir-achat-travail",
           "label": "Pouvoir d’achat & travail",
           "covered": true,
-          "current_proposals": 1,
+          "current_proposals": 4,
           "latest_evidence_at": "2026-10-19",
-          "verified_proposals": 1,
+          "verified_proposals": 4,
           "multi_source_proposals": 1
         },
         {
@@ -3395,7 +3396,7 @@
           "label": "Retraites",
           "covered": true,
           "current_proposals": 2,
-          "latest_evidence_at": "2026-06-01",
+          "latest_evidence_at": "2026-10-19",
           "verified_proposals": 2,
           "multi_source_proposals": 2
         },
@@ -5756,7 +5757,7 @@
       "name": "Gabriel Attal",
       "status": "declared_presidential",
       "coverage_ratio": 0.6667,
-      "current_proposals": 30,
+      "current_proposals": 33,
       "latest_evidence_at": "2026-10-19",
       "gaps": [
         "fiscalite-redistribution",
