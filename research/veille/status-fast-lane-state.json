@@ -115,6 +115,13 @@
       "reason": "no_deterministic_transition",
       "status": "not_applicable"
     },
+    "09c8863b81cc": {
+      "event_url": "https://generationecologie.fr/publication/investiture-de-delphine-batho-a-lelection-presidentielle/",
+      "owner": "Génération Écologie",
+      "processed_at": "2026-10-22T13:06:47+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
     "0a5cd2c6ac2f": {
       "candidate_id": "gabriel-attal",
       "event_url": "https://attalpresident.fr/actualites/gabriel-attal-sur-rtl-je-suis-candidat-pour-gagner-cette-election-presidentielle",
@@ -171,7 +178,7 @@
       "error": "ValueError: HTTP 403",
       "event_url": "https://www.pcf.fr/une_candidature_de_gauche_au_service_de_l_aube_et_de_ses_communes",
       "owner": "Parti communiste français",
-      "processed_at": "2026-10-22T06:13:56+00:00",
+      "processed_at": "2026-10-22T13:06:47+00:00",
       "status": "technical_error"
     },
     "11790ff34ddd": {
@@ -341,7 +348,7 @@
       "error": "ValueError: HTTP 403",
       "event_url": "https://www.pcf.fr/presidentielle2027_fabien_roussel_designe_candidat",
       "owner": "Parti communiste français",
-      "processed_at": "2026-10-22T06:13:54+00:00",
+      "processed_at": "2026-10-22T13:06:43+00:00",
       "status": "technical_error"
     },
     "1f5b28d9f616": {
@@ -652,6 +659,13 @@
       "event_url": "https://www.revolutionpermanente.fr/Budget-2027-le-gouvernement-relance-l-offensive-sur-la-desindexation-des-retraites",
       "owner": "Anasse Kazib",
       "processed_at": "2026-09-07T22:01:16+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
+    "351bb577ea16": {
+      "event_url": "https://generationecologie.fr/newsletter/une-candidature-pour-sauver-lecologie/",
+      "owner": "Génération Écologie",
+      "processed_at": "2026-10-22T13:06:50+00:00",
       "reason": "no_deterministic_transition",
       "status": "not_applicable"
     },
@@ -1436,6 +1450,13 @@
       "reason": "no_deterministic_transition",
       "status": "not_applicable"
     },
+    "77890f464e12": {
+      "event_url": "https://rassemblementnational.fr/",
+      "owner": "Rassemblement national",
+      "processed_at": "2026-10-22T13:06:47+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
     "77d88cdeb0c5": {
       "event_url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne",
       "owner": "Gabriel Attal",
@@ -1553,6 +1574,14 @@
       "owner": "Gabriel Attal",
       "processed_at": "2026-10-14T06:15:41+00:00",
       "status": "already_current"
+    },
+    "83329e15970d": {
+      "candidate_matches": [],
+      "event_url": "https://generationecologie.fr/candidatures-aux-instances-de-generation-ecologie/",
+      "owner": "Génération Écologie",
+      "processed_at": "2026-10-22T13:06:52+00:00",
+      "reason": "candidate_match_not_unique",
+      "status": "ambiguous"
     },
     "8333c74044b7": {
       "event_url": "https://npa-revolutionnaires.org/sur-rtl-presidentielle-2027-selma-labib-officiellement-candidate-pour-le-npa-revolutionnaires/",
@@ -2103,7 +2132,7 @@
       "error": "ValueError: HTTP 403",
       "event_url": "https://www.pcf.fr/presidentielle_2027_mjcf_s_engage_pour_candidature_communiste",
       "owner": "Parti communiste français",
-      "processed_at": "2026-10-22T06:13:54+00:00",
+      "processed_at": "2026-10-22T13:06:43+00:00",
       "status": "technical_error"
     },
     "b74ecaeff180": {
@@ -2369,13 +2398,20 @@
       "error": "ValueError: HTTP 404",
       "event_url": "https://parti-equinoxe.fr/articles/2022/05/la-transition-energetique-selon-les-ex-candidats-a-la-presidentielle-2/",
       "owner": "Équinoxe",
-      "processed_at": "2026-10-22T06:13:56+00:00",
+      "processed_at": "2026-10-22T13:06:46+00:00",
       "status": "technical_error"
     },
     "cb3428b2b6d3": {
       "event_url": "https://solutiondemocratique.fr/comparatif-candidats-programme-elections-presidentielles-france-2027/",
       "owner": "Solution démocratique",
       "processed_at": "2026-09-14T14:15:30+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
+    "cc4d0a997e9f": {
+      "event_url": "https://generationecologie.fr/2026/06/07/une-candidature-pour-sauver-lecologie/",
+      "owner": "Génération Écologie",
+      "processed_at": "2026-10-22T13:06:51+00:00",
       "reason": "no_deterministic_transition",
       "status": "not_applicable"
     },
@@ -2957,7 +2993,7 @@
     }
   },
   "last_error_count": 4,
-  "last_run_at": "2026-10-22T06:13:56+00:00",
+  "last_run_at": "2026-10-22T13:06:52+00:00",
   "last_updated_count": 0,
   "version": 1
 }
