@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created_at": "2026-08-17T19:57:19.441897+00:00",
-  "updated_at": "2026-10-22T18:08:46.840166+00:00",
+  "updated_at": "2026-10-22T22:32:59.701698+00:00",
   "files": [
     {
       "path": "corpus/2027/auto/candidates/anasse-kazib/2026-08-28-38891602d9d9.md",
@@ -839,6 +839,11 @@
       "size": 1690
     },
     {
+      "path": "corpus/2027/auto/partys/generation-ecologie/2026-06-07-3b6080336dbf.md",
+      "sha256": "914d8dfc750458270868580a4aa369ab7f9852bbb265553fd8ec8ff3bf58deed",
+      "size": 1766
+    },
+    {
       "path": "corpus/2027/auto/partys/generation-ecologie/2026-06-07-8b101fa96a72.md",
       "sha256": "5fc30acb50d945afb015a60cdf0ded8e70bc65a41a90e743b263bb2bf12aa301",
       "size": 1608
@@ -1584,6 +1589,11 @@
       "size": 2599
     },
     {
+      "path": "corpus/2027/auto/partys/rassemblement-national/2026-10-22-ec0064cf9d3c.md",
+      "sha256": "8a685322152796bda050bd36b4d192c1f7021159f5b2d374bf320fa0b869ab19",
+      "size": 2161
+    },
+    {
       "path": "corpus/2027/auto/partys/revolution-permanente/2026-08-27-f9d94839bc75.md",
       "sha256": "58df822340ff178f177274b7acf415128e8b810d9f83da4950b0239e782812f6",
       "size": 1549
@@ -1990,8 +2000,8 @@
     },
     {
       "path": "proposals/auto/ecologie-energie/auto-rassemblement-national-ecologie-energie-e7de1a3e9e8e.md",
-      "sha256": "98e7e5d5665872827ce1d3deba2f8e38f9f5d466c01179bd3e5b11bc2b201bac",
-      "size": 11378
+      "sha256": "62e5231716dc22b415c17d07bbb83ec4601fa46821e5d4f4011c522f4a070ef7",
+      "size": 11499
     },
     {
       "path": "proposals/auto/ecologie-energie/auto-revolution-permanente-ecologie-energie-7f47182d047a.md",
@@ -2225,8 +2235,8 @@
     },
     {
       "path": "proposals/auto/fiscalite-redistribution/auto-rassemblement-national-fiscalite-redistribution-650411362d03.md",
-      "sha256": "aaf21a194115a601992054f0c438d200794eb94a1ea8fb78f6df823e9a573178",
-      "size": 8986
+      "sha256": "52b506e97f4da1927654bfd0f5b1768dc6f1b66c623f2cfdda38432beb95833f",
+      "size": 9105
     },
     {
       "path": "proposals/auto/immigration-integration/auto-anasse-kazib-immigration-integration-f008b1970a86.md",
@@ -2435,8 +2445,8 @@
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-rassemblement-national-institutions-democratie-2ec6a69712fb.md",
-      "sha256": "6ad74ff9a6b03f74400dc9a0ef7740d12d360b01d086f0b294bdbebfbf514950",
-      "size": 11486
+      "sha256": "c53b238284584247b48e08afd67fcd04f3f6b422ee1a9274c53f97373da4695e",
+      "size": 11607
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-revolution-permanente-institutions-democratie-dcbc5ab5164c.md",
@@ -2680,8 +2690,8 @@
     },
     {
       "path": "proposals/auto/retraites/auto-rassemblement-national-retraites-fd538617cfee.md",
-      "sha256": "e51bb4fcbec23d7dd24594be26c2b503a03f32737897da2e8877fc8ff74457f3",
-      "size": 10895
+      "sha256": "8ebb42d3b192d8fcd0908664bdfa0125e538f8b097eaa2e67785992eb2f272ea",
+      "size": 11014
     },
     {
       "path": "proposals/auto/retraites/auto-revolution-permanente-retraites-13fa936216a8.md",
@@ -2735,8 +2745,8 @@
     },
     {
       "path": "proposals/auto/securite-justice/auto-delphine-batho-securite-justice-a34aaad24087.md",
-      "sha256": "299c87f1046e28a8e30f2be368233b007f26a166a17ef1acd00a20b44cc459f5",
-      "size": 1369
+      "sha256": "405689ff7a2bd8212a166a526ae8abbcbd21761f743b46c517c1c991df079f57",
+      "size": 1742
     },
     {
       "path": "proposals/auto/securite-justice/auto-equinoxe-securite-justice-2fe1576c84df.md",
@@ -2845,8 +2855,8 @@
     },
     {
       "path": "proposals/auto/securite-justice/auto-rassemblement-national-securite-justice-5cb19d0cbcca.md",
-      "sha256": "c051eb99d46fc417513b5bb32deec24086e961b8f923ee17103258da55ac9556",
-      "size": 10045
+      "sha256": "882b8c8ac68e5bbad489bc52e0d287b2bb6810335983984803eebe7e315344c2",
+      "size": 10164
     },
     {
       "path": "proposals/auto/securite-justice/auto-rassemblement-national-securite-justice-f810f54b67af.md",

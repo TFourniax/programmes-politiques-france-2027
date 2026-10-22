@@ -5,7 +5,7 @@ entity_id: delphine-batho
 topic: securite-justice
 certainty: explicit
 proposal_status: current
-source_document_ids: [auto-generation-ecologie-2026-06-07-8b101fa96a72]
+source_document_ids: [auto-generation-ecologie-2026-06-07-8b101fa96a72, auto-generation-ecologie-2026-06-07-3b6080336dbf]
 source_url: https://www.generationecologie.fr/2026/06/07/une-candidature-pour-sauver-lecologie/
 source_tier: tier_1_primary_official
 first_documented_at: '2026-06-07'
@@ -14,6 +14,10 @@ verification_state: verified
 verification_method: primary_source_exact_quote_plus_independent_gemini_verifier_plus_chronology_guard
 evidence_sha256: f380925a66e2b9aab7237233fe957435f32d274ee481df610dd2931058719392
 generated_by: scripts/auto_promote.py
+source_urls: ['https://www.generationecologie.fr/2026/06/07/une-candidature-pour-sauver-lecologie/', 'https://generationecologie.fr/2026/06/07/une-candidature-pour-sauver-lecologie/']
+evidence_sha256s: [f380925a66e2b9aab7237233fe957435f32d274ee481df610dd2931058719392]
+confirmation_count: 2
+last_confirmed_at: '2026-06-07'
 ---
 
 # Demander le réexamen immédiat de toutes les plaintes de mineurs pour des faits de violence

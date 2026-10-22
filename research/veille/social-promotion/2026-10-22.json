@@ -1,11 +1,17 @@
 {
   "errors": [],
-  "generated_at": "2026-10-22T18:08:42+00:00",
+  "generated_at": "2026-10-22T22:32:55+00:00",
   "partial": 0,
-  "processed": 0,
+  "processed": 1,
   "promoted": 0,
   "proposals_created": 0,
   "provenance_updates": 0,
-  "results": [],
+  "results": [
+    {
+      "sha256": "05f7343d38d42c439df8bbc23836369ce45965b1874e075cec063c8474c291e3",
+      "status": "not_confirmed",
+      "url": "https://bsky.app/profile/lesecologistes.fr/post/3myic5dqmls2y"
+    }
+  ],
   "status_updates": 0
 }

@@ -2053,7 +2053,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-10-22T18:08:42+00:00",
+  "last_run_at": "2026-10-22T22:32:53+00:00",
   "source_chunks": {
     "000e79baea11403029d335b1": {
       "canonical_confirmations": [
@@ -4303,6 +4303,26 @@
       "total": 1,
       "updated_at": "2026-09-15T12:49:47+00:00",
       "url": "https://attalpresident.fr/actualites/annonce-de-candidature"
+    },
+    "0cddf3dcd85afeb6c43cf0a6": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-10-22T22:32:51+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "f21a9330c5d2d1e040a522e9ac119b6b19637d25d493ea7fac1eb18ec55ea356",
+      "source_title": "Candidatures aux instances de Génération Écologie - Génération Écologie",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-10-22T22:32:52+00:00",
+      "url": "https://generationecologie.fr/candidatures-aux-instances-de-generation-ecologie/"
     },
     "0d1c8e880d3045b492702087": {
       "claims": [
@@ -10689,6 +10709,26 @@
       "updated_at": "2026-09-13T17:07:08+00:00",
       "url": "https://www.youtube.com/shorts/59bueV-BWyg"
     },
+    "32057ef3a823f7bfab9e2cc7": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-10-22T22:32:53+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "05f7343d38d42c439df8bbc23836369ce45965b1874e075cec063c8474c291e3",
+      "source_title": "3 heures à Matignon avec @marinetondelier.fr, @cyriellechatelain.fr et @melanievogel.bsky.social. 3 heures, aucune réponse. Aucune proposition. Aucun geste pour les lycéen·nes qu",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-10-22T22:32:54+00:00",
+      "url": "https://bsky.app/profile/lesecologistes.fr/post/3myic5dqmls2y"
+    },
     "32678a77071623545b757df8": {
       "canonical_confirmations": [],
       "claims": [],
@@ -12494,6 +12534,58 @@
       "total": 1,
       "updated_at": "2026-10-01T23:21:47+00:00",
       "url": "https://rassemblementnational.fr/"
+    },
+    "3b6080336dbff387e1662ed7": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "delphine-batho",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "Je demande que toutes ces plaintes soient réexaminées et traitées immédiatement.",
+            "relevance": "direct",
+            "statement": "Demander que toutes les 70 000 plaintes de mineurs pour des faits de violence soient réexaminées et traitées immédiatement.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Le claim sur le réexamen des 70 000 plaintes de mineurs est explicitement soutenu par la source et déjà présent à l'identique dans le canonique.",
+            "related_proposal_id": "auto-delphine-batho-securite-justice-a34aaad24087",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-10-22T22:32:49+00:00",
+      "created_at": "2026-10-22T22:32:42+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-06-07"
+      ],
+      "sha256": "f380925a66e2b9aab7237233fe957435f32d274ee481df610dd2931058719392",
+      "source_title": "« Une candidature pour sauver l’écologie » - Génération Écologie",
+      "statuses": [
+        {
+          "status": {
+            "candidate_id": "delphine-batho",
+            "effective_date": "2026-06-07",
+            "evidence_quote": "Au lendemain de son investiture pour Génération Écologie",
+            "explicit": true,
+            "new_status": "party_designated"
+          }
+        }
+      ],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-10-22T22:32:46+00:00",
+      "url": "https://generationecologie.fr/2026/06/07/une-candidature-pour-sauver-lecologie/"
     },
     "3bd3d5dbdf483f501e032f41": {
       "canonical_confirmations": [
@@ -50789,6 +50881,118 @@
       "updated_at": "2026-09-17T06:18:20+00:00",
       "url": "https://rassemblementnational.fr/"
     },
+    "ec0064cf9d3cd291c399f1a0": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "rassemblement-national",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Pour la réduction de la TVA de 20% à 5,5% sur l’énergie",
+            "relevance": "direct",
+            "statement": "Réduction de la TVA de 20% à 5,5% sur l'énergie.",
+            "topic": "fiscalite-redistribution"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Présent à l'identique dans le canonique.",
+            "related_proposal_id": "auto-rassemblement-national-fiscalite-redistribution-650411362d03",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "rassemblement-national",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Pour le RIC le référendum initiative citoyenne",
+            "relevance": "direct",
+            "statement": "Mise en place du RIC (référendum d'initiative citoyenne).",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "Présent à l'identique dans le canonique.",
+            "related_proposal_id": "auto-rassemblement-national-institutions-democratie-2ec6a69712fb",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "rassemblement-national",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Pour investir dans le nucléaire",
+            "relevance": "direct",
+            "statement": "Investissement dans le nucléaire.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "Présent à l'identique dans le canonique.",
+            "related_proposal_id": "auto-rassemblement-national-ecologie-energie-e7de1a3e9e8e",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "rassemblement-national",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Pour fermer les mosquées radicales",
+            "relevance": "direct",
+            "statement": "Fermeture des mosquées radicales.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 3,
+            "reason": "Présent à l'identique dans le canonique.",
+            "related_proposal_id": "auto-rassemblement-national-securite-justice-5cb19d0cbcca",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "rassemblement-national",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Pour la retraite à 60 ans pour ceux qui commencent à travailler tôt",
+            "relevance": "direct",
+            "statement": "Mise en place de la retraite à 60 ans pour ceux qui ont commencé à travailler tôt.",
+            "topic": "retraites"
+          },
+          "verdict": {
+            "index": 4,
+            "reason": "Présent à l'identique dans le canonique.",
+            "related_proposal_id": "auto-rassemblement-national-retraites-fd538617cfee",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-10-22T22:32:40+00:00",
+      "created_at": "2026-10-22T22:32:26+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "1a9ca4a5efbbc2c44aae658fec10cc97f7736bbd176c0c6499530adecc344186",
+      "source_title": "Rassemblement National - Accueil",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-10-22T22:32:32+00:00",
+      "url": "https://rassemblementnational.fr/"
+    },
     "ec14f01505b067ced072b9d6": {
       "canonical_confirmations": [],
       "claims": [],
@@ -57678,6 +57882,15 @@
       "status": "promoted",
       "url": "https://www.unenouvelleenergie.fr/notre-programme/"
     },
+    "83329e15970d": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-10-22T22:32:52+00:00",
+      "reason": null,
+      "source_sha256": "f21a9330c5d2d1e040a522e9ac119b6b19637d25d493ea7fac1eb18ec55ea356",
+      "status": "not_confirmed",
+      "url": "https://generationecologie.fr/candidatures-aux-instances-de-generation-ecologie/"
+    },
     "8333c74044b7": {
       "chunks_done": null,
       "chunks_total": null,
@@ -57884,6 +58097,15 @@
       "source_sha256": "1da39e163aa169aa5a57106362808bcf3891483c3d2f8d6ee2f96d7d71c05977",
       "status": "promoted",
       "url": "https://www.unenouvelleenergie.fr/questions/y-a-t-il-une-alternative-credible-a-marine-le-pen-et-a-la-gauche-en-2027/"
+    },
+    "8a57a02ab49c": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-10-22T22:32:40+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "1a9ca4a5efbbc2c44aae658fec10cc97f7736bbd176c0c6499530adecc344186",
+      "status": "promoted",
+      "url": "https://rassemblementnational.fr/"
     },
     "8ac5994fba17": {
       "chunks_done": null,
@@ -59574,6 +59796,15 @@
       "source_sha256": "93788d5e8b0428d594a0a98bfc8270053c46623395dfe55bc7e4170d9b4ef1a7",
       "status": "promoted",
       "url": "https://solutiondemocratique.fr/programme-lfi-2027/"
+    },
+    "cc4d0a997e9f": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-10-22T22:32:49+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "f380925a66e2b9aab7237233fe957435f32d274ee481df610dd2931058719392",
+      "status": "promoted",
+      "url": "https://generationecologie.fr/2026/06/07/une-candidature-pour-sauver-lecologie/"
     },
     "ccde951790fa": {
       "chunks_done": null,

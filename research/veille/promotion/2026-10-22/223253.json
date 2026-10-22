@@ -1,0 +1,43 @@
+{
+  "errors": [],
+  "generated_at": "2026-10-22T22:32:53+00:00",
+  "historical_skipped": 0,
+  "partial": 0,
+  "processed": 3,
+  "promoted": 2,
+  "proposals_created": 0,
+  "results": [
+    {
+      "document": "corpus/2027/auto/partys/rassemblement-national/2026-10-22-ec0064cf9d3c.md",
+      "provenance_updates": [
+        "auto-rassemblement-national-ecologie-energie-e7de1a3e9e8e",
+        "auto-rassemblement-national-fiscalite-redistribution-650411362d03",
+        "auto-rassemblement-national-institutions-democratie-2ec6a69712fb",
+        "auto-rassemblement-national-retraites-fd538617cfee",
+        "auto-rassemblement-national-securite-justice-5cb19d0cbcca"
+      ],
+      "reason": "canonical_duplicate_evidence",
+      "sha256": "1a9ca4a5efbbc2c44aae658fec10cc97f7736bbd176c0c6499530adecc344186",
+      "status": "promoted",
+      "url": "https://rassemblementnational.fr/",
+      "verified_at": "2026-10-22T22:32:40+00:00"
+    },
+    {
+      "document": "corpus/2027/auto/partys/generation-ecologie/2026-06-07-3b6080336dbf.md",
+      "provenance_updates": [
+        "auto-delphine-batho-securite-justice-a34aaad24087"
+      ],
+      "reason": "canonical_duplicate_evidence",
+      "sha256": "f380925a66e2b9aab7237233fe957435f32d274ee481df610dd2931058719392",
+      "status": "promoted",
+      "url": "https://generationecologie.fr/2026/06/07/une-candidature-pour-sauver-lecologie/",
+      "verified_at": "2026-10-22T22:32:49+00:00"
+    },
+    {
+      "sha256": "f21a9330c5d2d1e040a522e9ac119b6b19637d25d493ea7fac1eb18ec55ea356",
+      "status": "not_confirmed",
+      "url": "https://generationecologie.fr/candidatures-aux-instances-de-generation-ecologie/"
+    }
+  ],
+  "status_updates": 0
+}
