@@ -1,0 +1,42 @@
+{
+  "errors": [],
+  "generated_at": "2026-10-23T06:12:38+00:00",
+  "historical_skipped": 0,
+  "partial": 0,
+  "processed": 3,
+  "promoted": 2,
+  "proposals_created": 2,
+  "results": [
+    {
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/candidates/manolo-mlekuz/2026-10-23-344ac431d1be.md",
+      "proposals": [
+        "proposals/auto/institutions-democratie/auto-manolo-mlekuz-institutions-democratie-15f603ac8bc3.md",
+        "proposals/auto/institutions-democratie/auto-manolo-mlekuz-institutions-democratie-bea8348ed30b.md"
+      ],
+      "sha256": "4ac38beba00ee24b8d666b657128f20dede771848d9001749823fbc98ed95c93",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://trajectoire2027.fr:443/programme",
+      "verified_at": "2026-10-23T06:12:15+00:00"
+    },
+    {
+      "document": "corpus/2027/auto/partys/nouvelle-energie/2026-10-23-e612de79f19c.md",
+      "provenance_updates": [
+        "auto-david-lisnard-institutions-democratie-8dc9338c9297",
+        "auto-nouvelle-energie-retraites-4b9149336ab7"
+      ],
+      "reason": "canonical_duplicate_evidence",
+      "sha256": "019a883146912ede8ce478b89c6b1b0db2692d4fb88871783d962325605962d5",
+      "status": "promoted",
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/",
+      "verified_at": "2026-10-23T06:12:34+00:00"
+    },
+    {
+      "sha256": "486b47eff7ec0abbbe0074ab42ab9cde59a45de5c46603d5b89705fd5335f389",
+      "status": "not_confirmed",
+      "url": "https://npa-revolutionnaires.org/articles/communique-presidentielle-2027-selma-labib-une-candidature-ouvriere-et-revolutionnaire-soutenue-par-gael-quirante"
+    }
+  ],
+  "status_updates": 0
+}

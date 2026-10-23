@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created_at": "2026-08-17T19:57:19.441897+00:00",
-  "updated_at": "2026-10-22T22:32:59.701698+00:00",
+  "updated_at": "2026-10-23T06:12:42.787770+00:00",
   "files": [
     {
       "path": "corpus/2027/auto/candidates/anasse-kazib/2026-08-28-38891602d9d9.md",
@@ -769,6 +769,11 @@
       "size": 2487
     },
     {
+      "path": "corpus/2027/auto/candidates/manolo-mlekuz/2026-10-23-344ac431d1be.md",
+      "sha256": "3f22dc6307552c4fec697afd3c98df2ca709250b9c0aa6be05e174af2c9d5866",
+      "size": 1599
+    },
+    {
       "path": "corpus/2027/auto/candidates/marine-tondelier/2026-08-27-75d9454c00ef.md",
       "sha256": "27bcec4b5daff789fd20324369c8549d895d07a84b49a5869e2a92993727aef3",
       "size": 1739
@@ -1122,6 +1127,11 @@
       "path": "corpus/2027/auto/partys/nouvelle-energie/2026-10-20-0ad7e243015f.md",
       "sha256": "8f11cd501f945a800dc8472f13862d91360f5c74540327ee7fa0169f08700ec2",
       "size": 1769
+    },
+    {
+      "path": "corpus/2027/auto/partys/nouvelle-energie/2026-10-23-e612de79f19c.md",
+      "sha256": "d996d4f14f7faf58c7612556fcb17206f16baef01a746dfb0127ddb75744f252",
+      "size": 1807
     },
     {
       "path": "corpus/2027/auto/partys/npa-revolutionnaires/2026-07-04-14781613317c.md",
@@ -2345,8 +2355,8 @@
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-david-lisnard-institutions-democratie-8dc9338c9297.md",
-      "sha256": "511fcfd46302f53e29c6d88e1acf1305d654744ee9e73eecbdbc1fe55f05a33a",
-      "size": 1960
+      "sha256": "32ddf15835bf2775694004933764d7427230c2eaf0b2e063c6a69f17d5d41cc6",
+      "size": 2073
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-david-lisnard-institutions-democratie-a9f097879743.md",
@@ -2407,6 +2417,16 @@
       "path": "proposals/auto/institutions-democratie/auto-les-ecologistes-institutions-democratie-d440a4e0a243.md",
       "sha256": "a61bfaba33ef9391667959bf67f65816c7fc9f826908c8f7e24e815b89aab1c1",
       "size": 1150
+    },
+    {
+      "path": "proposals/auto/institutions-democratie/auto-manolo-mlekuz-institutions-democratie-15f603ac8bc3.md",
+      "sha256": "e3a65c8cce3589bb8608c9b8a93bd26d9da728fefa7692ab5de01b454f144268",
+      "size": 1249
+    },
+    {
+      "path": "proposals/auto/institutions-democratie/auto-manolo-mlekuz-institutions-democratie-bea8348ed30b.md",
+      "sha256": "42ed7f6ac1185ee7fa8daf72ffc483e3ce3b23aae4fd5b25c3699b40a3fdfb8e",
+      "size": 1327
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-nouvelle-energie-institutions-democratie-09aff9de5202.md",
@@ -2685,8 +2705,8 @@
     },
     {
       "path": "proposals/auto/retraites/auto-nouvelle-energie-retraites-4b9149336ab7.md",
-      "sha256": "78266cec1e19f2b870e5f07572b7a8d52704d5158444cb2c783e5140c4c31596",
-      "size": 5262
+      "sha256": "4aea70ae913965797ab144b8098ccc96e34165efb9d3f7454740f53569fe4d52",
+      "size": 5377
     },
     {
       "path": "proposals/auto/retraites/auto-rassemblement-national-retraites-fd538617cfee.md",
