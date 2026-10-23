@@ -1,0 +1,46 @@
+{
+  "errors": [],
+  "generated_at": "2026-10-23T18:00:23+00:00",
+  "historical_skipped": 0,
+  "partial": 0,
+  "processed": 3,
+  "promoted": 2,
+  "proposals_created": 6,
+  "results": [
+    {
+      "document": "corpus/2027/auto/candidates/anasse-kazib/2026-10-23-bbde63c51978.md",
+      "provenance_updates": [
+        "auto-anasse-kazib-pouvoir-achat-travail-81103508afc3",
+        "auto-revolution-permanente-economie-finances-9a3a787c0c18"
+      ],
+      "reason": "canonical_duplicate_evidence",
+      "sha256": "8025afb66ec8afdf40d6b0226638b1b85fbc3fb85af05b4f43ef20a3b01475d5",
+      "status": "promoted",
+      "url": "https://www.revolutionpermanente.fr/Anasse-Kazib-2027",
+      "verified_at": "2026-10-23T18:00:02+00:00"
+    },
+    {
+      "sha256": "c7b5f6838ce9b354dc65cbe4f8c68d9aa67f775c84796abbc9bd0e5bc1e4e1b3",
+      "status": "not_confirmed",
+      "url": "https://www.revolutionpermanente.fr/Les-lyceens-ONT-RAISON-pour-QUEL-PROGRAMME-lutter-dans-l-education"
+    },
+    {
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/candidates/francois-ruffin/2026-10-12-f23786115ab8.md",
+      "proposals": [
+        "proposals/auto/pouvoir-achat-travail/auto-francois-ruffin-pouvoir-achat-travail-a3540b9130a4.md",
+        "proposals/auto/economie-finances/auto-francois-ruffin-economie-finances-95267c769820.md",
+        "proposals/auto/pouvoir-achat-travail/auto-francois-ruffin-pouvoir-achat-travail-5ffd21aa9d06.md",
+        "proposals/auto/ecologie-energie/auto-francois-ruffin-ecologie-energie-523fbb17b32f.md",
+        "proposals/auto/services-publics/auto-francois-ruffin-services-publics-d5b6563e20db.md",
+        "proposals/auto/economie-finances/auto-francois-ruffin-economie-finances-b3d8f87fb7ab.md"
+      ],
+      "sha256": "4194011b55c076f92005c24bb7f36238518dd398d2db9b3a3a3e72119e13a66f",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://nouspresident.fr/notre-programme/",
+      "verified_at": "2026-10-23T18:00:13+00:00"
+    }
+  ],
+  "status_updates": 0
+}

@@ -6,18 +6,18 @@
     "actors": 68,
     "declared_or_active_candidates": 27,
     "topics": 12,
-    "current_proposals": 1373,
-    "covered_actor_topic_cells": 158,
+    "current_proposals": 1379,
+    "covered_actor_topic_cells": 162,
     "total_actor_topic_cells": 816,
-    "actor_topic_coverage_ratio": 0.1936,
-    "active_candidate_covered_cells": 70,
+    "actor_topic_coverage_ratio": 0.1985,
+    "active_candidate_covered_cells": 74,
     "active_candidate_total_cells": 324,
-    "active_candidate_topic_coverage_ratio": 0.216,
-    "verified_proposals": 1340,
+    "active_candidate_topic_coverage_ratio": 0.2284,
+    "verified_proposals": 1346,
     "multi_source_proposals": 98,
     "latest_evidence_at": "2026-10-23",
     "certainty_counts": {
-      "explicit": 1348,
+      "explicit": 1354,
       "explicit_but_conditional": 3,
       "explicit_but_underspecified": 22
     }
@@ -109,7 +109,7 @@
         "securite-justice",
         "numerique-ia"
       ],
-      "latest_evidence_at": "2026-10-06",
+      "latest_evidence_at": "2026-10-23",
       "verified_proposals": 11,
       "multi_source_proposals": 8
     },
@@ -639,25 +639,26 @@
       "type": "candidate",
       "status": "declared_primary",
       "confidence": "medium",
-      "current_proposals": 0,
-      "covered_topics": [],
-      "coverage_ratio": 0.0,
-      "gaps": [
+      "current_proposals": 6,
+      "covered_topics": [
+        "ecologie-energie",
+        "economie-finances",
         "pouvoir-achat-travail",
+        "services-publics"
+      ],
+      "coverage_ratio": 0.3333,
+      "gaps": [
         "retraites",
         "fiscalite-redistribution",
         "immigration-integration",
         "europe-souverainete",
         "defense-international",
-        "ecologie-energie",
         "institutions-democratie",
-        "services-publics",
         "securite-justice",
-        "economie-finances",
         "numerique-ia"
       ],
-      "latest_evidence_at": null,
-      "verified_proposals": 0,
+      "latest_evidence_at": "2026-10-12",
+      "verified_proposals": 6,
       "multi_source_proposals": 0
     },
     {
@@ -1674,7 +1675,7 @@
         "defense-international",
         "numerique-ia"
       ],
-      "latest_evidence_at": "2026-10-21",
+      "latest_evidence_at": "2026-10-23",
       "verified_proposals": 18,
       "multi_source_proposals": 6
     },
@@ -1957,11 +1958,11 @@
     {
       "id": "pouvoir-achat-travail",
       "label": "Pouvoir d’achat & travail",
-      "current_proposals": 83,
-      "actors_covered": 20,
-      "actor_coverage_ratio": 0.2941,
-      "latest_evidence_at": "2026-10-22",
-      "verified_proposals": 76,
+      "current_proposals": 85,
+      "actors_covered": 21,
+      "actor_coverage_ratio": 0.3088,
+      "latest_evidence_at": "2026-10-23",
+      "verified_proposals": 78,
       "multi_source_proposals": 11
     },
     {
@@ -2017,11 +2018,11 @@
     {
       "id": "ecologie-energie",
       "label": "Écologie & énergie",
-      "current_proposals": 202,
-      "actors_covered": 17,
-      "actor_coverage_ratio": 0.25,
+      "current_proposals": 203,
+      "actors_covered": 18,
+      "actor_coverage_ratio": 0.2647,
       "latest_evidence_at": "2026-10-23",
-      "verified_proposals": 196,
+      "verified_proposals": 197,
       "multi_source_proposals": 4
     },
     {
@@ -2037,11 +2038,11 @@
     {
       "id": "services-publics",
       "label": "Services publics",
-      "current_proposals": 243,
-      "actors_covered": 16,
-      "actor_coverage_ratio": 0.2353,
+      "current_proposals": 244,
+      "actors_covered": 17,
+      "actor_coverage_ratio": 0.25,
       "latest_evidence_at": "2026-10-20",
-      "verified_proposals": 240,
+      "verified_proposals": 241,
       "multi_source_proposals": 8
     },
     {
@@ -2057,11 +2058,11 @@
     {
       "id": "economie-finances",
       "label": "Économie & finances publiques",
-      "current_proposals": 125,
-      "actors_covered": 16,
-      "actor_coverage_ratio": 0.2353,
-      "latest_evidence_at": "2026-10-22",
-      "verified_proposals": 124,
+      "current_proposals": 127,
+      "actors_covered": 17,
+      "actor_coverage_ratio": 0.25,
+      "latest_evidence_at": "2026-10-23",
+      "verified_proposals": 126,
       "multi_source_proposals": 13
     },
     {
@@ -2082,14 +2083,14 @@
       "status": "declared_presidential",
       "coverage_ratio": 0.5,
       "current_proposals": 15,
-      "latest_evidence_at": "2026-10-06",
+      "latest_evidence_at": "2026-10-23",
       "topics": [
         {
           "id": "pouvoir-achat-travail",
           "label": "Pouvoir d’achat & travail",
           "covered": true,
           "current_proposals": 7,
-          "latest_evidence_at": "2026-10-06",
+          "latest_evidence_at": "2026-10-23",
           "verified_proposals": 4,
           "multi_source_proposals": 3
         },
@@ -3260,17 +3261,17 @@
       "id": "francois-ruffin",
       "name": "François Ruffin",
       "status": "declared_primary",
-      "coverage_ratio": 0.0,
-      "current_proposals": 0,
-      "latest_evidence_at": null,
+      "coverage_ratio": 0.3333,
+      "current_proposals": 6,
+      "latest_evidence_at": "2026-10-12",
       "topics": [
         {
           "id": "pouvoir-achat-travail",
           "label": "Pouvoir d’achat & travail",
-          "covered": false,
-          "current_proposals": 0,
-          "latest_evidence_at": null,
-          "verified_proposals": 0,
+          "covered": true,
+          "current_proposals": 2,
+          "latest_evidence_at": "2026-10-12",
+          "verified_proposals": 2,
           "multi_source_proposals": 0
         },
         {
@@ -3321,10 +3322,10 @@
         {
           "id": "ecologie-energie",
           "label": "Écologie & énergie",
-          "covered": false,
-          "current_proposals": 0,
-          "latest_evidence_at": null,
-          "verified_proposals": 0,
+          "covered": true,
+          "current_proposals": 1,
+          "latest_evidence_at": "2026-10-12",
+          "verified_proposals": 1,
           "multi_source_proposals": 0
         },
         {
@@ -3339,10 +3340,10 @@
         {
           "id": "services-publics",
           "label": "Services publics",
-          "covered": false,
-          "current_proposals": 0,
-          "latest_evidence_at": null,
-          "verified_proposals": 0,
+          "covered": true,
+          "current_proposals": 1,
+          "latest_evidence_at": "2026-10-12",
+          "verified_proposals": 1,
           "multi_source_proposals": 0
         },
         {
@@ -3357,10 +3358,10 @@
         {
           "id": "economie-finances",
           "label": "Économie & finances publiques",
-          "covered": false,
-          "current_proposals": 0,
-          "latest_evidence_at": null,
-          "verified_proposals": 0,
+          "covered": true,
+          "current_proposals": 2,
+          "latest_evidence_at": "2026-10-12",
+          "verified_proposals": 2,
           "multi_source_proposals": 0
         },
         {
@@ -5331,28 +5332,6 @@
       ]
     },
     {
-      "id": "francois-ruffin",
-      "name": "François Ruffin",
-      "status": "declared_primary",
-      "coverage_ratio": 0.0,
-      "current_proposals": 0,
-      "latest_evidence_at": null,
-      "gaps": [
-        "pouvoir-achat-travail",
-        "retraites",
-        "fiscalite-redistribution",
-        "immigration-integration",
-        "europe-souverainete",
-        "defense-international",
-        "ecologie-energie",
-        "institutions-democratie",
-        "services-publics",
-        "securite-justice",
-        "economie-finances",
-        "numerique-ia"
-      ]
-    },
-    {
       "id": "jean-luc-melenchon",
       "name": "Jean-Luc Mélenchon",
       "status": "declared_presidential",
@@ -5708,12 +5687,30 @@
       ]
     },
     {
+      "id": "francois-ruffin",
+      "name": "François Ruffin",
+      "status": "declared_primary",
+      "coverage_ratio": 0.3333,
+      "current_proposals": 6,
+      "latest_evidence_at": "2026-10-12",
+      "gaps": [
+        "retraites",
+        "fiscalite-redistribution",
+        "immigration-integration",
+        "europe-souverainete",
+        "defense-international",
+        "institutions-democratie",
+        "securite-justice",
+        "numerique-ia"
+      ]
+    },
+    {
       "id": "anasse-kazib",
       "name": "Anasse Kazib",
       "status": "declared_presidential",
       "coverage_ratio": 0.5,
       "current_proposals": 15,
-      "latest_evidence_at": "2026-10-06",
+      "latest_evidence_at": "2026-10-23",
       "gaps": [
         "fiscalite-redistribution",
         "europe-souverainete",

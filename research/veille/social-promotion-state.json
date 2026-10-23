@@ -2351,6 +2351,15 @@
       "status": "not_confirmed",
       "url": "https://www.youtube.com/shorts/FTQ1Gxul28Q"
     },
+    "d0a894756584f4dcd8fd": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-10-23T18:00:28+00:00",
+      "provenance_updates": [],
+      "source_sha256": "2be134f1dcbc299549cb30f6ef9f05f3a16e01c17270fb63c16ba719f46985aa",
+      "status": "not_confirmed",
+      "url": "https://bsky.app/profile/marinetondelier.fr/post/3mykd2m2mzs2m"
+    },
     "d0bfbfd06031a18d67d7": {
       "chunks_done": null,
       "chunks_total": 1,
@@ -2476,6 +2485,15 @@
       "source_sha256": "c8c37a68bab5f0faa19f240f2df4231b04a183ee1ba190aa08f2b40ae28debde",
       "status": "not_confirmed",
       "url": "https://bsky.app/profile/marinetondelier.fr/post/3mus26s7zc22j"
+    },
+    "daf66ac305f65aeba3e6": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-10-23T18:00:24+00:00",
+      "provenance_updates": [],
+      "source_sha256": "3b926f3332b854ea21742103ad745da13fb9386f34b963afb789b73cdb623f24",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/shorts/aDJmHNRsk2c"
     },
     "db065798f91e19d89b55": {
       "chunks_done": null,
@@ -2920,6 +2938,15 @@
       "status": "not_confirmed",
       "url": "https://www.youtube.com/watch?v=_G67MJsaJ9g"
     },
+    "fb7821c80753cfbba001": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-10-23T18:00:26+00:00",
+      "provenance_updates": [],
+      "source_sha256": "a71fc04a92c4877b7e2b7bb5702d3e45676c98bb9491a420f503384d5d05766c",
+      "status": "not_confirmed",
+      "url": "https://bsky.app/profile/lesecologistes.fr/post/3mykilomyd22u"
+    },
     "fbda7880a1104bc3845b": {
       "chunks_done": null,
       "chunks_total": null,
@@ -2976,7 +3003,7 @@
     }
   },
   "last_error_count": 0,
-  "last_processed_count": 1,
-  "last_run_at": "2026-10-23T12:48:58+00:00",
+  "last_processed_count": 3,
+  "last_run_at": "2026-10-23T18:00:29+00:00",
   "version": 2
 }

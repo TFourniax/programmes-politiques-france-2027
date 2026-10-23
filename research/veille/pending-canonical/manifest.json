@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created_at": "2026-08-17T19:57:19.441897+00:00",
-  "updated_at": "2026-10-23T12:49:01.769372+00:00",
+  "updated_at": "2026-10-23T18:00:32.769554+00:00",
   "files": [
     {
       "path": "corpus/2027/auto/candidates/anasse-kazib/2026-08-28-38891602d9d9.md",
@@ -122,6 +122,11 @@
       "path": "corpus/2027/auto/candidates/anasse-kazib/2026-10-21-681b83f50d81.md",
       "sha256": "4129b4b1a48e035b3d58876a16b3d11338271da1507a122fb0216fe7975b1979",
       "size": 1598
+    },
+    {
+      "path": "corpus/2027/auto/candidates/anasse-kazib/2026-10-23-bbde63c51978.md",
+      "sha256": "362a72a346ee99b0bc99a1e2bad69e0badd1fd1698369f42fe3958378a7d661b",
+      "size": 1802
     },
     {
       "path": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-02b6fd496b7b.md",
@@ -532,6 +537,11 @@
       "path": "corpus/2027/auto/candidates/edouard-philippe/2026-09-29-deb14342f571.md",
       "sha256": "ad33b44847e7eed5555d1d3b5381ded0ea9a2240d1047c635355b5d54ac7dd0f",
       "size": 1469
+    },
+    {
+      "path": "corpus/2027/auto/candidates/francois-ruffin/2026-10-12-f23786115ab8.md",
+      "sha256": "34d7d1d7f4b448c067a8ed81cd12d994697d3d4db86731781b5d5b4efea1d10c",
+      "size": 2359
     },
     {
       "path": "corpus/2027/auto/candidates/gabriel-attal/2026-06-01-36681da9ebbd.md",
@@ -1814,6 +1824,11 @@
       "size": 1524
     },
     {
+      "path": "proposals/auto/ecologie-energie/auto-francois-ruffin-ecologie-energie-523fbb17b32f.md",
+      "sha256": "e32873ecea50ed76663e06a254958f3c004e2859ce78cde05674882fb045af00",
+      "size": 1334
+    },
+    {
       "path": "proposals/auto/ecologie-energie/auto-gabriel-attal-ecologie-energie-0f8fda1fede5.md",
       "sha256": "fc61f58a69b85840da1f7e36971e1c23deaadfe45276fa8c984d7c2d5c28ec89",
       "size": 1380
@@ -2064,6 +2079,16 @@
       "size": 1248
     },
     {
+      "path": "proposals/auto/economie-finances/auto-francois-ruffin-economie-finances-95267c769820.md",
+      "sha256": "6fb79cd7b1cf53e4908d3a35f8a96901c5ad9506b95aebf103a6805b56d17571",
+      "size": 1297
+    },
+    {
+      "path": "proposals/auto/economie-finances/auto-francois-ruffin-economie-finances-b3d8f87fb7ab.md",
+      "sha256": "d420b6723a48b095549a424a8de250c4cf13ba66c4a3d2a8b728bf4fdc197d35",
+      "size": 1330
+    },
+    {
       "path": "proposals/auto/economie-finances/auto-gabriel-attal-economie-finances-23533158e959.md",
       "sha256": "af006f5d01c42ec07caf3523078acd6fa48d73df5456fbe2300472cb4abcea93",
       "size": 1368
@@ -2140,8 +2165,8 @@
     },
     {
       "path": "proposals/auto/economie-finances/auto-revolution-permanente-economie-finances-9a3a787c0c18.md",
-      "sha256": "adb112d3cf9397a2547b6711e074628b70a02770c579942473beaaa9e4dba5a0",
-      "size": 1984
+      "sha256": "8100ed4dc3436a0b63af27141984479073145b182eb444b20cbcc37da7792606",
+      "size": 2093
     },
     {
       "path": "proposals/auto/europe-souverainete/auto-bruno-retailleau-europe-souverainete-ed8d0d14bccb.md",
@@ -2535,8 +2560,8 @@
     },
     {
       "path": "proposals/auto/pouvoir-achat-travail/auto-anasse-kazib-pouvoir-achat-travail-81103508afc3.md",
-      "sha256": "66f71b3a130f387937e07bd3db0fe5672411e421ce1515319ce26129dbe28953",
-      "size": 2042
+      "sha256": "fa5d49d0cc323e741c89cbaf2595fecfdd027ba60c076409cf74ba43cd8d0711",
+      "size": 2212
     },
     {
       "path": "proposals/auto/pouvoir-achat-travail/auto-anasse-kazib-pouvoir-achat-travail-9dd581e1c937.md",
@@ -2552,6 +2577,16 @@
       "path": "proposals/auto/pouvoir-achat-travail/auto-francois-asselineau-pouvoir-achat-travail-ce11c3de0316.md",
       "sha256": "5aa37ea6e435f8caf124c1d03693d6fafa7df014d13bc99cf894e0f55c6b572b",
       "size": 1185
+    },
+    {
+      "path": "proposals/auto/pouvoir-achat-travail/auto-francois-ruffin-pouvoir-achat-travail-5ffd21aa9d06.md",
+      "sha256": "d775bf8186fbf520014e6ecc6fb18ff0d9edfd59707fa9d750e0b92fd63cbc81",
+      "size": 1236
+    },
+    {
+      "path": "proposals/auto/pouvoir-achat-travail/auto-francois-ruffin-pouvoir-achat-travail-a3540b9130a4.md",
+      "sha256": "c0240ddc4c55434e712ca32975d0270eb621b1c0478c4d0aeb6484c06b9a498b",
+      "size": 1352
     },
     {
       "path": "proposals/auto/pouvoir-achat-travail/auto-gabriel-attal-pouvoir-achat-travail-70a5d33eeebc.md",
@@ -2922,6 +2957,11 @@
       "path": "proposals/auto/services-publics/auto-equinoxe-services-publics-98a29435a0c9.md",
       "sha256": "fe4b15619b8288cab423dc95ae5305188f09feec147f37cce64a8573c7ee10d3",
       "size": 1369
+    },
+    {
+      "path": "proposals/auto/services-publics/auto-francois-ruffin-services-publics-d5b6563e20db.md",
+      "sha256": "3a8528922ef988f6cc0d0d716ef56fc02f5ac4cc1e5648acceb37ac5008668bd",
+      "size": 1303
     },
     {
       "path": "proposals/auto/services-publics/auto-gabriel-attal-services-publics-0b16aea25279.md",
