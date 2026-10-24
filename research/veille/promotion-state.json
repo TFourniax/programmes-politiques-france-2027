@@ -2103,7 +2103,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-10-24T16:48:52+00:00",
+  "last_run_at": "2026-10-24T21:45:43+00:00",
   "source_chunks": {
     "000e79baea11403029d335b1": {
       "canonical_confirmations": [
@@ -5358,6 +5358,46 @@
       "updated_at": "2026-10-14T06:19:18+00:00",
       "url": "https://www.youtube.com/shorts/U3cr5-K1Gy8"
     },
+    "133476e1ed0d8f0a7859ce6a": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "revolution-permanente",
+            "actor_type": "party",
+            "certainty": "explicit_but_underspecified",
+            "evidence_quote": "expropriation des secteurs stratégiques",
+            "relevance": "party_platform",
+            "statement": "Expropriation des secteurs stratégiques.",
+            "topic": "economie-finances"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La proposition concernant l'expropriation des secteurs stratégiques est déjà présente dans le canon courant pour Révolution Permanente.",
+            "related_proposal_id": "auto-revolution-permanente-economie-finances-9a3a787c0c18",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-10-24T21:45:36+00:00",
+      "created_at": "2026-10-24T21:45:29+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "7975d7a77a7ecd7ab8401bf74c25421834d47c69fde7650860a1f65c61fc8a54",
+      "source_title": "Anasse Kazib 2027",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-10-24T21:45:34+00:00",
+      "url": "https://www.revolutionpermanente.fr/Anasse-Kazib-2027"
+    },
     "13a2219faf547e5873baf8b4": {
       "canonical_confirmations": [
         {
@@ -8010,6 +8050,28 @@
       "updated_at": "2026-09-02T12:17:48+00:00",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
+    "1e55ed1682dbdd36615cb47d": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-10-24T21:45:26+00:00",
+      "document_types": [
+        "official_press_release"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [
+        "2026-06-17"
+      ],
+      "sha256": "173b5bef7b2837fb04c892ec5122dbb1a584f08b96b80832448fb38307232310",
+      "source_title": "CommuniquÃ© â PrÃ©sidentielle 2027Â : Selma Labib, une candidature ouvriÃ¨re et rÃ©volutionnaire, soutenue par GaÃ«l Quirante â NPA RÃ©volutionnaires",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-10-24T21:45:29+00:00",
+      "url": "https://npa-revolutionnaires.org/articles/communique-presidentielle-2027-selma-labib-une-candidature-ouvriere-et-revolutionnaire-soutenue-par-gael-quirante"
+    },
     "1e62de5f88d914deff21a15d": {
       "canonical_confirmations": [
         {
@@ -10404,6 +10466,26 @@
       "total": 1,
       "updated_at": "2026-08-20T20:01:50+00:00",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
+    "2aa15aeccb2ef13477e18e84": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-10-24T21:45:50+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "3987aa19c381e9a7ec429185a74b424aa5c77743238e9d54ac1f1b3c810927f7",
+      "source_title": "🔴 L'assemblée interpro de Saint-Denis organise un cortège massif à la manifestation à Paris !",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-10-24T21:45:52+00:00",
+      "url": "https://www.youtube.com/shorts/GR8hUPyS4Xc"
     },
     "2aedd6204c87400891aeeba7": {
       "canonical_confirmations": [],
@@ -20098,6 +20180,26 @@
       "total": 1,
       "updated_at": "2026-09-25T06:20:03+00:00",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
+    "53f5e1b4f2be92b3dd2c6d25": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-10-24T21:45:47+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "cd5eee92687f5101a3ed5c021b5f421b826abf8fc7d73330063e2cfb93dbb3e6",
+      "source_title": "🔴 APRÈS LE 24, préparons LA GRÈVE GÉNÉRALE pour mettre un KO final À MACRON ET SON MONDE",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-10-24T21:45:50+00:00",
+      "url": "https://www.youtube.com/shorts/jC1wOOy5ywA"
     },
     "5402ae42cf5e909807fa35b2": {
       "canonical_confirmations": [
@@ -33739,6 +33841,26 @@
       "updated_at": "2026-10-24T16:49:23+00:00",
       "url": "https://www.youtube.com/shorts/R1jNApGyGpE"
     },
+    "a0d0985b6e65073bf6a4ad7e": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-10-24T21:45:43+00:00",
+      "document_types": [
+        "other"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "518930def7471cdd4c1f44d6c98ae0b6436af5f0c1452ef748ac1c16769f1b54",
+      "source_title": "Je vois des chaînes en boucle sur les questions de sécurité, et ne plus parler des revendications sociales. Or, une manifestation, c'est d'abord ça. Et aujourd'hui, il y avait au",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-10-24T21:45:45+00:00",
+      "url": "https://bsky.app/profile/marinetondelier.fr/post/3mynmuqfvdc22"
+    },
     "a0db326b1cb13efe692a5ece": {
       "canonical_confirmations": [
         {
@@ -41696,6 +41818,26 @@
       "total": 1,
       "updated_at": "2026-09-10T17:12:59+00:00",
       "url": "https://www.youtube.com/watch?v=R-AJI1bI2gk"
+    },
+    "b724768f075001766b223ff3": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-10-24T21:45:46+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "81aaaf518cc73edcb5d4dcda6f4b6a5c79fd5e88e76b4ba82312be697dc6bb83",
+      "source_title": "🔴 Transformer la révolte en révolution. Venez à notre meeting le 21 novembre !",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-10-24T21:45:47+00:00",
+      "url": "https://www.youtube.com/shorts/A2yIYAAGeIw"
     },
     "b772bbfe48dc6b35c694e262": {
       "canonical_confirmations": [],
@@ -54742,6 +54884,30 @@
       "updated_at": "2026-09-20T16:58:14+00:00",
       "url": "https://www.youtube.com/shorts/GRNYZKhkh5A"
     },
+    "f7a5ca9657581326329c9671": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-10-24T21:45:37+00:00",
+      "document_types": [
+        "other",
+        "other"
+      ],
+      "done": [
+        0,
+        1
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [
+        "2021-08-01"
+      ],
+      "sha256": "a575241ec0363452f76356d150d16736be819551b8e369ec84c079850dbd9ce7",
+      "source_title": "À 88 ans de la fondation de la IVe Internationale : débats stratégiques sur le Programme de transition",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 2,
+      "updated_at": "2026-10-24T21:45:42+00:00",
+      "url": "https://www.revolutionpermanente.fr/A-88-ans-de-la-fondation-de-la-IVe-Internationale-debats-strategiques-sur-le-Programme-de"
+    },
     "f7e06807a93360efa8c6f859": {
       "canonical_confirmations": [],
       "claims": [],
@@ -57033,6 +57199,15 @@
       "source_sha256": "cf4a01593e807e13977e92939f19c98201e6106fe6bfb45ce0d47ac09894d0cc",
       "status": "promoted",
       "url": "https://rassemblementnational.fr/"
+    },
+    "1b2cf2ed5b6d": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-10-24T21:45:29+00:00",
+      "reason": null,
+      "source_sha256": "173b5bef7b2837fb04c892ec5122dbb1a584f08b96b80832448fb38307232310",
+      "status": "not_confirmed",
+      "url": "https://npa-revolutionnaires.org/articles/communique-presidentielle-2027-selma-labib-une-candidature-ouvriere-et-revolutionnaire-soutenue-par-gael-quirante"
     },
     "1b34190a8511": {
       "chunks_done": null,
@@ -59995,6 +60170,15 @@
       "status": "promoted",
       "url": "https://rassemblementnational.fr/"
     },
+    "8afa2e4818d4": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-10-24T21:45:36+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "7975d7a77a7ecd7ab8401bf74c25421834d47c69fde7650860a1f65c61fc8a54",
+      "status": "promoted",
+      "url": "https://www.revolutionpermanente.fr/Anasse-Kazib-2027"
+    },
     "8bda489d41b2": {
       "chunks_done": null,
       "chunks_total": null,
@@ -62743,6 +62927,15 @@
       "source_sha256": "032b696091e1ccfa4e191e356803d31216d15ec35809f7292cfb6f9154aab495",
       "status": "promoted",
       "url": "https://attalpresident.fr/actualites/gabriel-attal-sur-rtl-je-suis-candidat-pour-gagner-cette-election-presidentielle"
+    },
+    "f184ee4a5ca1": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-10-24T21:45:42+00:00",
+      "reason": null,
+      "source_sha256": "a575241ec0363452f76356d150d16736be819551b8e369ec84c079850dbd9ce7",
+      "status": "not_confirmed",
+      "url": "https://www.revolutionpermanente.fr/A-88-ans-de-la-fondation-de-la-IVe-Internationale-debats-strategiques-sur-le-Programme-de"
     },
     "f237b29c9a30": {
       "chunks_done": null,

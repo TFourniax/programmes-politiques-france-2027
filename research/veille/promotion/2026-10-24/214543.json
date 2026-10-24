@@ -1,0 +1,33 @@
+{
+  "errors": [],
+  "generated_at": "2026-10-24T21:45:43+00:00",
+  "historical_skipped": 0,
+  "partial": 0,
+  "processed": 3,
+  "promoted": 1,
+  "proposals_created": 0,
+  "results": [
+    {
+      "sha256": "173b5bef7b2837fb04c892ec5122dbb1a584f08b96b80832448fb38307232310",
+      "status": "not_confirmed",
+      "url": "https://npa-revolutionnaires.org/articles/communique-presidentielle-2027-selma-labib-une-candidature-ouvriere-et-revolutionnaire-soutenue-par-gael-quirante"
+    },
+    {
+      "document": "corpus/2027/auto/candidates/anasse-kazib/2026-10-24-133476e1ed0d.md",
+      "provenance_updates": [
+        "auto-revolution-permanente-economie-finances-9a3a787c0c18"
+      ],
+      "reason": "canonical_duplicate_evidence",
+      "sha256": "7975d7a77a7ecd7ab8401bf74c25421834d47c69fde7650860a1f65c61fc8a54",
+      "status": "promoted",
+      "url": "https://www.revolutionpermanente.fr/Anasse-Kazib-2027",
+      "verified_at": "2026-10-24T21:45:36+00:00"
+    },
+    {
+      "sha256": "a575241ec0363452f76356d150d16736be819551b8e369ec84c079850dbd9ce7",
+      "status": "not_confirmed",
+      "url": "https://www.revolutionpermanente.fr/A-88-ans-de-la-fondation-de-la-IVe-Internationale-debats-strategiques-sur-le-Programme-de"
+    }
+  ],
+  "status_updates": 0
+}
