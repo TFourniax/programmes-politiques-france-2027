@@ -34,7 +34,7 @@ source_document_ids: [auto-rassemblement-national-2026-08-11-b4e6fdd3c6e7, auto-
   auto-rassemblement-national-2026-10-20-5605b7d950c6, auto-rassemblement-national-2026-10-20-9ab4e0db75b4, auto-rassemblement-national-2026-10-21-01f8cb9375ec,
   auto-rassemblement-national-2026-10-21-6dfb814fbd7b, auto-rassemblement-national-2026-10-21-ead3574ca75e, auto-rassemblement-national-2026-10-22-9ec12618cdb1,
   auto-rassemblement-national-2026-10-22-155eb6c12012, auto-rassemblement-national-2026-10-22-ec0064cf9d3c, auto-rassemblement-national-2026-10-23-aa9528c4d131,
-  auto-rassemblement-national-2026-10-23-3eba3bc72b86]
+  auto-rassemblement-national-2026-10-23-3eba3bc72b86, auto-rassemblement-national-2026-10-24-153f6cdc001d]
 source_url: https://rassemblementnational.fr/
 source_tier: tier_1_primary_official
 first_documented_at: '2026-08-11'
@@ -86,9 +86,9 @@ evidence_sha256s: [e9d2ee7a0fba8b07f65a57d2e71d6dd2dda1128fec6a240299a2bf5e3241d
   8771297648f547c455537b9d68ecace1ef6f3b49c441f2aa27f8a57318421789, 4938805619354db2fef85feaeec16771aa2cef437c638a9237288bf764cd9f31,
   b8a37a57b4dbb3e19c621dc428c474ac707e55662b81a2258e6d2a67f37f67dd, f40b4254d028a32e9375c04261a2a1d55aa7788292a5b9046524be40068dc209,
   1a9ca4a5efbbc2c44aae658fec10cc97f7736bbd176c0c6499530adecc344186, 86901e723d8b42153ea198fb5e62a953d1028bc8f3efccac7b7e927b1ff7d5f4,
-  6fdd917ed10911653342ad484f4b3e9ada5c4a3335894b2e703a49df8fd87feb]
-confirmation_count: 87
-last_confirmed_at: '2026-10-23'
+  6fdd917ed10911653342ad484f4b3e9ada5c4a3335894b2e703a49df8fd87feb, 5382014d7c06e7ae4c1fe1162a3d37f2018988cb43edbed44a4e7b2128bef73b]
+confirmation_count: 88
+last_confirmed_at: '2026-10-24'
 ---
 
 # Le Rassemblement National soutient la mise en place du RIC (référendum d'initiative citoyenne)
