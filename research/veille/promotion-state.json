@@ -625,6 +625,11 @@
       "source_url": "https://www.karimbouamrane2027.org/",
       "verified_at": "2026-08-17T02:43:47+00:00"
     },
+    "4c73a72591ff57094ea41d9aa9153b1e21103d7c50695529ac225885d3fe0e43": {
+      "proposal_id": "auto-david-lisnard-institutions-democratie-4c73a72591ff",
+      "source_url": "https://www.unenouvelleenergie.fr/notre-programme/",
+      "verified_at": "2026-10-24T06:05:02+00:00"
+    },
     "4e498b3ec06eea8411eace40160774e04b48a7a862b49a83657ddc4fafe60146": {
       "proposal_id": "auto-solution-democratique-institutions-democratie-4e498b3ec06e",
       "source_url": "https://solutiondemocratique.fr/parrainage2027/",
@@ -669,6 +674,11 @@
       "proposal_id": "auto-la-france-insoumise-services-publics-514da6f5edf0",
       "source_url": "https://melenchon2027.fr/programme2025/livre/chapitre9/",
       "verified_at": "2026-08-13T08:51:16+00:00"
+    },
+    "51b299de467b8bcf000e3e7603fc41638d4b46e723a1b5005982777dcc5cdd1b": {
+      "proposal_id": "auto-david-lisnard-pouvoir-achat-travail-51b299de467b",
+      "source_url": "https://www.unenouvelleenergie.fr/notre-programme/",
+      "verified_at": "2026-10-24T06:05:02+00:00"
     },
     "5213be62bb015d685f8fe95810b445648c46ef95cfb1ef582bd9fc1880cda084": {
       "proposal_id": "auto-gabriel-attal-retraites-5213be62bb01",
@@ -2093,7 +2103,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-10-23T22:25:13+00:00",
+  "last_run_at": "2026-10-24T06:05:24+00:00",
   "source_chunks": {
     "000e79baea11403029d335b1": {
       "canonical_confirmations": [
@@ -4269,6 +4279,137 @@
       "total": 1,
       "updated_at": "2026-09-18T17:13:28+00:00",
       "url": "https://www.youtube.com/shorts/ZG4omLW4YKQ"
+    },
+    "0c3b4bc5874f431b69f1d720": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "david-lisnard",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "la décentralisation radicale",
+            "relevance": "direct",
+            "statement": "Mettre en place une décentralisation radicale de l'action publique vers l'échelon local.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La décentralisation radicale de l'action publique vers l'échelon local est explicitement soutenue pour David Lisnard.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "nouvelle-energie",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "réduction drastique des dépenses publiques",
+            "relevance": "direct",
+            "statement": "Réduire drastiquement les dépenses publiques.",
+            "topic": "economie-finances"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "Redondant avec une entrée existante pour Nouvelle Énergie sur la réduction des dépenses publiques.",
+            "related_proposal_id": "auto-nouvelle-energie-economie-finances-1ce2938e1f05",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "nouvelle-energie",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "choc massif de dérégulation",
+            "relevance": "direct",
+            "statement": "Créer un choc massif de dérégulation.",
+            "topic": "economie-finances"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "Redondant avec une entrée existante pour Nouvelle Énergie sur le choc de dérégulation.",
+            "related_proposal_id": "auto-nouvelle-energie-economie-finances-6b725b0ab72c",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "david-lisnard",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "la liberté pour les travailleurs de se constituer un capital pour leur retraite (capitalisation)",
+            "relevance": "direct",
+            "statement": "Permettre la liberté pour les travailleurs de se constituer un capital pour leur retraite par capitalisation.",
+            "topic": "pouvoir-achat-travail"
+          },
+          "verdict": {
+            "index": 3,
+            "reason": "La retraite par capitalisation pour les travailleurs est explicitement soutenue dans la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [
+        {
+          "claim": {
+            "actor_id": "david-lisnard",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "la décentralisation radicale",
+            "relevance": "direct",
+            "statement": "Mettre en place une décentralisation radicale de l'action publique vers l'échelon local.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La décentralisation radicale de l'action publique vers l'échelon local est explicitement soutenue pour David Lisnard.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "david-lisnard",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "la liberté pour les travailleurs de se constituer un capital pour leur retraite (capitalisation)",
+            "relevance": "direct",
+            "statement": "Permettre la liberté pour les travailleurs de se constituer un capital pour leur retraite par capitalisation.",
+            "topic": "pouvoir-achat-travail"
+          },
+          "verdict": {
+            "index": 3,
+            "reason": "La retraite par capitalisation pour les travailleurs est explicitement soutenue dans la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "completed_at": "2026-10-24T06:05:11+00:00",
+      "created_at": "2026-10-24T06:04:47+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "74c0291f967337d7f19d593c017974330ae9864015ab5316b8b0db6aa52d6df1",
+      "source_title": "Le programme de David Lisnard | Nouvelle Énergie",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-10-24T06:05:02+00:00",
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/"
     },
     "0c6db79ab616726f5fdd1754": {
       "canonical_confirmations": [],
@@ -8867,6 +9008,26 @@
       "total": 1,
       "updated_at": "2026-10-18T16:41:12+00:00",
       "url": "https://www.unenouvelleenergie.fr/notre-programme/"
+    },
+    "25acfd1aeda9d814f8a324e0": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-10-24T06:05:20+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "760d918e57ac3a9b57bbfd108ec136f3d82ad51db825974fb87810a5e8097935",
+      "source_title": "Programme - Parti Équinoxe",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-10-24T06:05:24+00:00",
+      "url": "https://parti-equinoxe.fr/programme/"
     },
     "25f4091c1508c5d3d8713aa4": {
       "canonical_confirmations": [],
@@ -14025,6 +14186,26 @@
       "total": 1,
       "updated_at": "2026-09-02T12:18:24+00:00",
       "url": "https://www.youtube.com/watch?v=mnoKyc018To"
+    },
+    "3e7e8d1965633b06a65683cf": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-10-24T06:05:12+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "40388ffef52f9548d653829df4860546bdb08c942a90b5859c1cb879cabcf523",
+      "source_title": "REVOIR. « Casse de l'école, mise au pas des élèves : pour quel programme lutter dans l'éducation » - RP à la Fête de l'Huma",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-10-24T06:05:16+00:00",
+      "url": "https://www.revolutionpermanente.fr/Casse-de-l-ecole-mise-au-pas-des-eleves-pour-quel-programme-lutter-dans-l-education-RP-a-la-Fete-de"
     },
     "3eba3bc72b8620389860985d": {
       "canonical_confirmations": [
@@ -57264,6 +57445,15 @@
       "status": "promoted",
       "url": "https://solutiondemocratique.fr/parti-socialiste-programme-2027/"
     },
+    "3c0e35866264": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-10-24T06:05:24+00:00",
+      "reason": null,
+      "source_sha256": "760d918e57ac3a9b57bbfd108ec136f3d82ad51db825974fb87810a5e8097935",
+      "status": "not_confirmed",
+      "url": "https://parti-equinoxe.fr/programme/"
+    },
     "3c2aa35771b6": {
       "chunks_done": null,
       "chunks_total": 1,
@@ -59707,6 +59897,15 @@
       "status": "promoted",
       "url": "https://www.unenouvelleenergie.fr/notre-programme/"
     },
+    "9ea6e465f8ed": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-10-24T06:05:16+00:00",
+      "reason": null,
+      "source_sha256": "40388ffef52f9548d653829df4860546bdb08c942a90b5859c1cb879cabcf523",
+      "status": "not_confirmed",
+      "url": "https://www.revolutionpermanente.fr/Casse-de-l-ecole-mise-au-pas-des-eleves-pour-quel-programme-lutter-dans-l-education-RP-a-la-Fete-de"
+    },
     "a09b00bacb8d": {
       "chunks_done": null,
       "chunks_total": null,
@@ -61342,6 +61541,15 @@
       "source_sha256": "537d24acd9bafe312cb9f3052b197f8d4ef4a492558bbef265ee8140daf7a88e",
       "status": "promoted",
       "url": "https://rassemblementnational.fr/"
+    },
+    "d7ca652603a1": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-10-24T06:05:11+00:00",
+      "reason": null,
+      "source_sha256": "74c0291f967337d7f19d593c017974330ae9864015ab5316b8b0db6aa52d6df1",
+      "status": "promoted",
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/"
     },
     "d8178654b694": {
       "chunks_done": null,

@@ -178,7 +178,7 @@
       "error": "ValueError: HTTP 403",
       "event_url": "https://www.pcf.fr/une_candidature_de_gauche_au_service_de_l_aube_et_de_ses_communes",
       "owner": "Parti communiste français",
-      "processed_at": "2026-10-23T22:22:13+00:00",
+      "processed_at": "2026-10-24T06:02:15+00:00",
       "status": "technical_error"
     },
     "11790ff34ddd": {
@@ -348,7 +348,7 @@
       "error": "ValueError: HTTP 403",
       "event_url": "https://www.pcf.fr/presidentielle2027_fabien_roussel_designe_candidat",
       "owner": "Parti communiste français",
-      "processed_at": "2026-10-23T22:22:11+00:00",
+      "processed_at": "2026-10-24T06:02:12+00:00",
       "status": "technical_error"
     },
     "1f5b28d9f616": {
@@ -2146,7 +2146,7 @@
       "error": "ValueError: HTTP 403",
       "event_url": "https://www.pcf.fr/presidentielle_2027_mjcf_s_engage_pour_candidature_communiste",
       "owner": "Parti communiste français",
-      "processed_at": "2026-10-23T22:22:11+00:00",
+      "processed_at": "2026-10-24T06:02:12+00:00",
       "status": "technical_error"
     },
     "b74ecaeff180": {
@@ -2419,7 +2419,7 @@
       "error": "ValueError: HTTP 404",
       "event_url": "https://parti-equinoxe.fr/articles/2022/05/la-transition-energetique-selon-les-ex-candidats-a-la-presidentielle-2/",
       "owner": "Équinoxe",
-      "processed_at": "2026-10-23T22:22:13+00:00",
+      "processed_at": "2026-10-24T06:02:15+00:00",
       "status": "technical_error"
     },
     "cb3428b2b6d3": {
@@ -3028,7 +3028,7 @@
     }
   },
   "last_error_count": 4,
-  "last_run_at": "2026-10-23T22:22:13+00:00",
+  "last_run_at": "2026-10-24T06:02:15+00:00",
   "last_updated_count": 0,
   "version": 1
 }

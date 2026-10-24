@@ -5,7 +5,8 @@ entity_id: nouvelle-energie
 topic: economie-finances
 certainty: explicit
 proposal_status: current
-source_document_ids: [auto-nouvelle-energie-2026-08-22-fccb4c9bb80f, auto-nouvelle-energie-2026-08-29-60ca0cf36405, auto-nouvelle-energie-2026-08-30-f2a6de9660d9]
+source_document_ids: [auto-nouvelle-energie-2026-08-22-fccb4c9bb80f, auto-nouvelle-energie-2026-08-29-60ca0cf36405, auto-nouvelle-energie-2026-08-30-f2a6de9660d9,
+  auto-nouvelle-energie-2026-10-24-0c3b4bc5874f]
 source_url: https://www.unenouvelleenergie.fr/notre-programme/
 source_tier: tier_1_primary_official
 first_documented_at: '2026-08-22'
@@ -16,9 +17,9 @@ evidence_sha256: 77fdb6513c25c5e6ed8f3a4b060cc91a6eed0600a3a753f635f794a8bcb564b
 generated_by: scripts/auto_promote.py
 source_urls: ['https://www.unenouvelleenergie.fr/notre-programme/']
 evidence_sha256s: [77fdb6513c25c5e6ed8f3a4b060cc91a6eed0600a3a753f635f794a8bcb564b0, b5896d4573e65bd008a5b7697893011932cde3a7379a3c0da5e6a0b37268e332,
-  cf8a55587f1b41dcedb1c036921959fbda585af488f58f610442c76bc4ee5424]
-confirmation_count: 3
-last_confirmed_at: '2026-08-30'
+  cf8a55587f1b41dcedb1c036921959fbda585af488f58f610442c76bc4ee5424, 74c0291f967337d7f19d593c017974330ae9864015ab5316b8b0db6aa52d6df1]
+confirmation_count: 4
+last_confirmed_at: '2026-10-24'
 ---
 
 # Créer un choc massif de dérégulation

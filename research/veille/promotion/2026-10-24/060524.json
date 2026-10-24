@@ -1,0 +1,39 @@
+{
+  "errors": [],
+  "generated_at": "2026-10-24T06:05:24+00:00",
+  "historical_skipped": 0,
+  "partial": 0,
+  "processed": 3,
+  "promoted": 1,
+  "proposals_created": 2,
+  "results": [
+    {
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/partys/nouvelle-energie/2026-10-24-0c3b4bc5874f.md",
+      "proposals": [
+        "proposals/auto/institutions-democratie/auto-david-lisnard-institutions-democratie-4c73a72591ff.md",
+        "proposals/auto/pouvoir-achat-travail/auto-david-lisnard-pouvoir-achat-travail-51b299de467b.md"
+      ],
+      "provenance_updates": [
+        "auto-nouvelle-energie-economie-finances-1ce2938e1f05",
+        "auto-nouvelle-energie-economie-finances-6b725b0ab72c"
+      ],
+      "sha256": "74c0291f967337d7f19d593c017974330ae9864015ab5316b8b0db6aa52d6df1",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/",
+      "verified_at": "2026-10-24T06:05:11+00:00"
+    },
+    {
+      "sha256": "40388ffef52f9548d653829df4860546bdb08c942a90b5859c1cb879cabcf523",
+      "status": "not_confirmed",
+      "url": "https://www.revolutionpermanente.fr/Casse-de-l-ecole-mise-au-pas-des-eleves-pour-quel-programme-lutter-dans-l-education-RP-a-la-Fete-de"
+    },
+    {
+      "sha256": "760d918e57ac3a9b57bbfd108ec136f3d82ad51db825974fb87810a5e8097935",
+      "status": "not_confirmed",
+      "url": "https://parti-equinoxe.fr/programme/"
+    }
+  ],
+  "status_updates": 0
+}

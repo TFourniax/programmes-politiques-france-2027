@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created_at": "2026-08-17T19:57:19.441897+00:00",
-  "updated_at": "2026-10-23T22:25:23.694525+00:00",
+  "updated_at": "2026-10-24T06:05:29.655376+00:00",
   "files": [
     {
       "path": "corpus/2027/auto/candidates/anasse-kazib/2026-08-28-38891602d9d9.md",
@@ -1154,6 +1154,11 @@
       "size": 1807
     },
     {
+      "path": "corpus/2027/auto/partys/nouvelle-energie/2026-10-24-0c3b4bc5874f.md",
+      "sha256": "ea76176183bbb72bea565af483120e97f22e2241641e1098a261ca824c79235e",
+      "size": 2078
+    },
+    {
       "path": "corpus/2027/auto/partys/npa-revolutionnaires/2026-07-04-14781613317c.md",
       "sha256": "221540dc18694a3ea4a52f600be2d1761259f9107c24cc4c93c8d8b70b23185f",
       "size": 1946
@@ -2150,13 +2155,13 @@
     },
     {
       "path": "proposals/auto/economie-finances/auto-nouvelle-energie-economie-finances-1ce2938e1f05.md",
-      "sha256": "6125151d1da78769e039585df4e3fc46ef1fac2c0e7a55f6bf4983cd7f9c1bc4",
-      "size": 3153
+      "sha256": "780a67e7196d288db49675db7cf99034c5eb5f485c66711d85061fa49cc5c214",
+      "size": 3268
     },
     {
       "path": "proposals/auto/economie-finances/auto-nouvelle-energie-economie-finances-6b725b0ab72c.md",
-      "sha256": "4c132acbe466ab98c93e71a3d7dbd9a679b4bcff88522905000df20e8ad0c901",
-      "size": 1582
+      "sha256": "23b628de5c94db52c4a33982e1e5eb88ba071a71e0ac88beaf14c11a26adc82f",
+      "size": 1697
     },
     {
       "path": "proposals/auto/economie-finances/auto-nouvelle-energie-economie-finances-ce6ab5f9ca2a.md",
@@ -2394,6 +2399,11 @@
       "size": 3236
     },
     {
+      "path": "proposals/auto/institutions-democratie/auto-david-lisnard-institutions-democratie-4c73a72591ff.md",
+      "sha256": "6167db8f76094ef965afe760f4955ce2f90e7c3e878e482848092e6368357562",
+      "size": 1280
+    },
+    {
       "path": "proposals/auto/institutions-democratie/auto-david-lisnard-institutions-democratie-8a7a7019b8f9.md",
       "sha256": "f54ace2413bed438c0d5e38107ccf8e01804c6c04c60fa0dd241cf1adf048d9d",
       "size": 3789
@@ -2582,6 +2592,11 @@
       "path": "proposals/auto/pouvoir-achat-travail/auto-bruno-retailleau-pouvoir-achat-travail-122f072f74ad.md",
       "sha256": "2447f1e9a0b2893931d30f5347333b1051dd8de000f3f50015d7016a479e1643",
       "size": 3038
+    },
+    {
+      "path": "proposals/auto/pouvoir-achat-travail/auto-david-lisnard-pouvoir-achat-travail-51b299de467b.md",
+      "sha256": "c2579f2bce66330d6b3fce4bdab7a25255fd5c6318a763376eb63bc55057fc05",
+      "size": 1404
     },
     {
       "path": "proposals/auto/pouvoir-achat-travail/auto-francois-asselineau-pouvoir-achat-travail-ce11c3de0316.md",
