@@ -1,0 +1,37 @@
+{
+  "errors": [],
+  "generated_at": "2026-10-25T12:43:51+00:00",
+  "historical_skipped": 0,
+  "partial": 1,
+  "processed": 3,
+  "promoted": 1,
+  "proposals_created": 1,
+  "results": [
+    {
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/partys/la-france-insoumise/2026-10-20-eca7bd5872c8.md",
+      "proposals": [
+        "proposals/auto/ecologie-energie/auto-la-france-insoumise-ecologie-energie-844b99af1c5e.md"
+      ],
+      "sha256": "d3e56803a000237facd3dcf3d08ed41f80a4fb2b9f8eecb8b0f151ff00940be4",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://melenchon2027.fr/programme/plans-investissement/",
+      "verified_at": "2026-10-25T12:43:33+00:00"
+    },
+    {
+      "sha256": "9f111f4744c84e849d8be1aefbd6e261ac829a79ac88ec23a1db131209ce8a0a",
+      "status": "not_confirmed",
+      "url": "https://melenchon2027.fr/programme/plan-investissement-productif/"
+    },
+    {
+      "chunks_done": 2,
+      "chunks_remaining": 1,
+      "chunks_total": 3,
+      "sha256": "a07cb77a5b5c4870cd726e62ff8193ba3d2b062c184e8629bdd37ccc11593d4c",
+      "status": "partial",
+      "url": "https://melenchon2027.fr/programme/plans-investissement/automobile/"
+    }
+  ],
+  "status_updates": 0
+}

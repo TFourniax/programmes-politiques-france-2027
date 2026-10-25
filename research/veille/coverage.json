@@ -6,18 +6,18 @@
     "actors": 68,
     "declared_or_active_candidates": 27,
     "topics": 12,
-    "current_proposals": 1381,
+    "current_proposals": 1382,
     "covered_actor_topic_cells": 162,
     "total_actor_topic_cells": 816,
     "actor_topic_coverage_ratio": 0.1985,
     "active_candidate_covered_cells": 74,
     "active_candidate_total_cells": 324,
     "active_candidate_topic_coverage_ratio": 0.2284,
-    "verified_proposals": 1348,
+    "verified_proposals": 1349,
     "multi_source_proposals": 98,
     "latest_evidence_at": "2026-10-24",
     "certainty_counts": {
-      "explicit": 1356,
+      "explicit": 1357,
       "explicit_but_conditional": 3,
       "explicit_but_underspecified": 22
     }
@@ -994,7 +994,7 @@
       "type": "party",
       "status": null,
       "confidence": null,
-      "current_proposals": 125,
+      "current_proposals": 126,
       "covered_topics": [
         "ecologie-energie",
         "economie-finances",
@@ -1012,8 +1012,8 @@
         "defense-international",
         "numerique-ia"
       ],
-      "latest_evidence_at": "2026-09-20",
-      "verified_proposals": 122,
+      "latest_evidence_at": "2026-10-20",
+      "verified_proposals": 123,
       "multi_source_proposals": 2
     },
     {
@@ -2018,11 +2018,11 @@
     {
       "id": "ecologie-energie",
       "label": "Écologie & énergie",
-      "current_proposals": 203,
+      "current_proposals": 204,
       "actors_covered": 18,
       "actor_coverage_ratio": 0.2647,
       "latest_evidence_at": "2026-10-24",
-      "verified_proposals": 197,
+      "verified_proposals": 198,
       "multi_source_proposals": 4
     },
     {

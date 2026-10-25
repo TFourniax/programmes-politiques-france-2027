@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created_at": "2026-08-17T19:57:19.441897+00:00",
-  "updated_at": "2026-10-25T06:21:22.673234+00:00",
+  "updated_at": "2026-10-25T12:43:56.117526+00:00",
   "files": [
     {
       "path": "corpus/2027/auto/candidates/anasse-kazib/2026-08-28-38891602d9d9.md",
@@ -892,6 +892,11 @@
       "path": "corpus/2027/auto/partys/la-france-insoumise/2026-09-20-4c4b7f46bf81.md",
       "sha256": "770540010bc82e466361ee5004eeef803793e727426f80d1c0530fa57e905671",
       "size": 1562
+    },
+    {
+      "path": "corpus/2027/auto/partys/la-france-insoumise/2026-10-20-eca7bd5872c8.md",
+      "sha256": "8f7dffc62b17b52ca8dde2fb22467c117dcb3068bf41422663d51475408d92c7",
+      "size": 1694
     },
     {
       "path": "corpus/2027/auto/partys/les-ecologistes/2026-08-17-9c2f01b4f3fc.md",
@@ -1897,6 +1902,11 @@
       "path": "proposals/auto/ecologie-energie/auto-gabriel-attal-ecologie-energie-cdd542c0f78a.md",
       "sha256": "f7f53223d96fbede6f16b3f489a60ba5c10948726b467c3efc49db6c1eb96cfd",
       "size": 1969
+    },
+    {
+      "path": "proposals/auto/ecologie-energie/auto-la-france-insoumise-ecologie-energie-844b99af1c5e.md",
+      "sha256": "481e88921f46db60d80ea6ad8a340499f80484359bc912118f7858fe1df05d92",
+      "size": 1480
     },
     {
       "path": "proposals/auto/ecologie-energie/auto-les-ecologistes-ecologie-energie-1219b8a35f2d.md",

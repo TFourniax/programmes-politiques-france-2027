@@ -1110,6 +1110,11 @@
       "source_url": "https://melenchon2027.fr/programme2025/livre/chapitre16/",
       "verified_at": "2026-08-13T00:20:23+00:00"
     },
+    "844b99af1c5e58a6d20d82181984ca388eb734b053151739c3de107fd9e0e3d6": {
+      "proposal_id": "auto-la-france-insoumise-ecologie-energie-844b99af1c5e",
+      "source_url": "https://melenchon2027.fr/programme/plans-investissement/",
+      "verified_at": "2026-10-25T12:43:33+00:00"
+    },
     "854d343e426eded8974860df719262c08a8ea31b613a16a17f95f33d4df0177d": {
       "proposal_id": "auto-la-france-insoumise-europe-souverainete-854d343e426e",
       "source_url": "https://melenchon2027.fr/programme2025/livre/chapitre16/",
@@ -2103,7 +2108,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-10-25T06:21:03+00:00",
+  "last_run_at": "2026-10-25T12:43:51+00:00",
   "source_chunks": {
     "000e79baea11403029d335b1": {
       "canonical_confirmations": [
@@ -21116,6 +21121,425 @@
       "total": 1,
       "updated_at": "2026-09-20T21:43:53+00:00",
       "url": "https://www.youtube.com/shorts/XDeSuEynIcw"
+    },
+    "5b62e3f1643e2e51b3dc98c4": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "20 millions de voitures électriques en circulation en 2040",
+            "relevance": "direct",
+            "statement": "L'objectif est d'atteindre 20 millions de véhicules particuliers électriques en circulation en 2040.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Explicitement soutenu par la source pour La France insoumise concernant le parc de véhicules électriques en 2040.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "10 000€ prix de départ à l’achat d’un véhicule électrique léger",
+            "relevance": "direct",
+            "statement": "L'objectif est d'atteindre un prix de départ de 10 000 euros à l'achat d'un véhicule électrique léger fabriqué en France.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "Explicitement soutenu par la source concernant le prix de départ à l'achat du véhicule électrique léger.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "2 millions de véhicules électriques produits en France par an",
+            "relevance": "direct",
+            "statement": "L'objectif est de produire 2 millions de véhicules électriques par an en France d'ici 2032.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "Explicitement soutenu par la source pour l'objectif de production de 2 millions de véhicules électriques par an en France d'ici 2032.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "nous viserons une forte hausse de la part de véhicules de segment A",
+            "relevance": "direct",
+            "statement": "Nous viserons une forte hausse de la part de véhicules de segment A dans les ventes.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Explicitement soutenu par la source : 'nous viserons une forte hausse de la part de véhicules de segment A'.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Nous proposons de porter à l’échelle européenne une réforme distinguant les petits véhicules",
+            "relevance": "direct",
+            "statement": "Nous proposerons de porter à l’échelle européenne une réforme distinguant les petits véhicules de moins de 3,6 mètres.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "Explicitement soutenu par la source : 'Nous proposons de porter à l’échelle européenne une réforme distinguant les petits véhicules'.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "de fixer un prix national de l’électricité, émancipé du marché européen libéralisé",
+            "relevance": "direct",
+            "statement": "Nous fixerons un prix national de l’électricité, émancipé du marché européen libéralisé.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "Explicitement soutenu par la source : 'de fixer un prix national de l’électricité, émancipé du marché européen libéralisé'.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "augmentation des seuils d’achat de véhicules électriques",
+            "relevance": "direct",
+            "statement": "Nous mettrons en place une augmentation des seuils d’achat de véhicules électriques pour les entreprises.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 3,
+            "reason": "Explicitement soutenu par la source : 'augmentation des seuils d’achat de véhicules électriques'.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Un moratoire sur les fermetures de site sera mis en place.",
+            "relevance": "direct",
+            "statement": "Un moratoire sur les fermetures de site sera mis en place dans l'industrie automobile.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 4,
+            "reason": "Explicitement soutenu par la source : 'Un moratoire sur les fermetures de site sera mis en place'.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "nous mettrons en place un véritable service public de la location abordable",
+            "relevance": "direct",
+            "statement": "Nous mettrons en place un service public de la location abordable de véhicules électriques.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 5,
+            "reason": "Explicitement soutenu par la source : 'nous mettrons en place un véritable service public de la location abordable'.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Nous en exclurons les véhicules coûtant plus de 30 000 euros",
+            "relevance": "direct",
+            "statement": "Nous exclurons du bonus écologique les véhicules coûtant plus de 30 000 euros.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 6,
+            "reason": "Explicitement soutenu par la source : 'Nous en exclurons les véhicules coûtant plus de 30 000 euros'.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "le dotant de 4 milliards d’euros pour sauver, moderniser et développer les PME",
+            "relevance": "direct",
+            "statement": "Nous réformerons et renforcerons le Fonds Avenir Automobile en le dotant de 4 milliards d’euros.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 7,
+            "reason": "Explicitement soutenu par la source : 'le dotant de 4 milliards d’euros pour sauver, moderniser et développer les PME'.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "20 millions de voitures électriques en circulation en 2040",
+            "relevance": "direct",
+            "statement": "L'objectif est d'atteindre 20 millions de véhicules particuliers électriques en circulation en 2040.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Explicitement soutenu par la source pour La France insoumise concernant le parc de véhicules électriques en 2040.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "10 000€ prix de départ à l’achat d’un véhicule électrique léger",
+            "relevance": "direct",
+            "statement": "L'objectif est d'atteindre un prix de départ de 10 000 euros à l'achat d'un véhicule électrique léger fabriqué en France.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "Explicitement soutenu par la source concernant le prix de départ à l'achat du véhicule électrique léger.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "2 millions de véhicules électriques produits en France par an",
+            "relevance": "direct",
+            "statement": "L'objectif est de produire 2 millions de véhicules électriques par an en France d'ici 2032.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "Explicitement soutenu par la source pour l'objectif de production de 2 millions de véhicules électriques par an en France d'ici 2032.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "nous viserons une forte hausse de la part de véhicules de segment A",
+            "relevance": "direct",
+            "statement": "Nous viserons une forte hausse de la part de véhicules de segment A dans les ventes.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Explicitement soutenu par la source : 'nous viserons une forte hausse de la part de véhicules de segment A'.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Nous proposons de porter à l’échelle européenne une réforme distinguant les petits véhicules",
+            "relevance": "direct",
+            "statement": "Nous proposerons de porter à l’échelle européenne une réforme distinguant les petits véhicules de moins de 3,6 mètres.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "Explicitement soutenu par la source : 'Nous proposons de porter à l’échelle européenne une réforme distinguant les petits véhicules'.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "de fixer un prix national de l’électricité, émancipé du marché européen libéralisé",
+            "relevance": "direct",
+            "statement": "Nous fixerons un prix national de l’électricité, émancipé du marché européen libéralisé.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "Explicitement soutenu par la source : 'de fixer un prix national de l’électricité, émancipé du marché européen libéralisé'.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "augmentation des seuils d’achat de véhicules électriques",
+            "relevance": "direct",
+            "statement": "Nous mettrons en place une augmentation des seuils d’achat de véhicules électriques pour les entreprises.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 3,
+            "reason": "Explicitement soutenu par la source : 'augmentation des seuils d’achat de véhicules électriques'.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Un moratoire sur les fermetures de site sera mis en place.",
+            "relevance": "direct",
+            "statement": "Un moratoire sur les fermetures de site sera mis en place dans l'industrie automobile.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 4,
+            "reason": "Explicitement soutenu par la source : 'Un moratoire sur les fermetures de site sera mis en place'.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "nous mettrons en place un véritable service public de la location abordable",
+            "relevance": "direct",
+            "statement": "Nous mettrons en place un service public de la location abordable de véhicules électriques.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 5,
+            "reason": "Explicitement soutenu par la source : 'nous mettrons en place un véritable service public de la location abordable'.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Nous en exclurons les véhicules coûtant plus de 30 000 euros",
+            "relevance": "direct",
+            "statement": "Nous exclurons du bonus écologique les véhicules coûtant plus de 30 000 euros.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 6,
+            "reason": "Explicitement soutenu par la source : 'Nous en exclurons les véhicules coûtant plus de 30 000 euros'.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "le dotant de 4 milliards d’euros pour sauver, moderniser et développer les PME",
+            "relevance": "direct",
+            "statement": "Nous réformerons et renforcerons le Fonds Avenir Automobile en le dotant de 4 milliards d’euros.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 7,
+            "reason": "Explicitement soutenu par la source : 'le dotant de 4 milliards d’euros pour sauver, moderniser et développer les PME'.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "created_at": "2026-10-25T12:43:40+00:00",
+      "document_types": [
+        "thematic_platform",
+        "thematic_platform"
+      ],
+      "done": [
+        0,
+        1
+      ],
+      "published_candidates": [],
+      "sha256": "a07cb77a5b5c4870cd726e62ff8193ba3d2b062c184e8629bdd37ccc11593d4c",
+      "source_title": "Automobile - Mélenchon 2027 : Soutenez ma candidature à l’élection présidentielle",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 3,
+      "updated_at": "2026-10-25T12:43:51+00:00",
+      "url": "https://melenchon2027.fr/programme/plans-investissement/automobile/"
     },
     "5bd11799cb8ca55d27ccc515": {
       "canonical_confirmations": [],
@@ -48084,6 +48508,26 @@
       "updated_at": "2026-10-24T16:47:42+00:00",
       "url": "https://rassemblementnational.fr/"
     },
+    "d457677ce47c4830097e0f59": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-10-25T12:43:37+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "9f111f4744c84e849d8be1aefbd6e261ac829a79ac88ec23a1db131209ce8a0a",
+      "source_title": "Plan d'investissement productif - Mélenchon 2027 : Soutenez ma candidature à l’élection présidentielle",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-10-25T12:43:39+00:00",
+      "url": "https://melenchon2027.fr/programme/plan-investissement-productif/"
+    },
     "d4c2a3b6e5a529b45e5c4047": {
       "canonical_confirmations": [],
       "claims": [],
@@ -52803,6 +53247,65 @@
       "updated_at": "2026-10-06T00:57:54+00:00",
       "url": "https://www.revolutionpermanente.fr/Budget-2027-l-austerite-sur-le-dos-des-travailleurs-et-des-retraites-pour-preserver-les-cadeaux-du"
     },
+    "eca7bd5872c86b3f356255ed": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "programmes d’investissements publics précis que mettra en place le gouvernement insoumis",
+            "relevance": "direct",
+            "statement": "La France insoumise mettra en place des programmes d'investissements publics précis dans le cadre de la planification écologique.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La source soutient explicitement l'investissement public précis pour la planification écologique par le gouvernement insoumis, constituant une nouvelle entrée pertinente non présente dans le corpus.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "programmes d’investissements publics précis que mettra en place le gouvernement insoumis",
+            "relevance": "direct",
+            "statement": "La France insoumise mettra en place des programmes d'investissements publics précis dans le cadre de la planification écologique.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La source soutient explicitement l'investissement public précis pour la planification écologique par le gouvernement insoumis, constituant une nouvelle entrée pertinente non présente dans le corpus.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "completed_at": "2026-10-25T12:43:33+00:00",
+      "created_at": "2026-10-25T12:43:27+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "d3e56803a000237facd3dcf3d08ed41f80a4fb2b9f8eecb8b0f151ff00940be4",
+      "source_title": "Les plans d’investissement - Mélenchon 2027 : Soutenez ma candidature à l’élection présidentielle",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-10-25T12:43:33+00:00",
+      "url": "https://melenchon2027.fr/programme/plans-investissement/"
+    },
     "ecda18f08a71ef5f7fb0c5c4": {
       "canonical_confirmations": [],
       "claims": [],
@@ -56826,6 +57329,15 @@
       "status": "not_confirmed",
       "url": "https://npa-revolutionnaires.org/articles/communique-presidentielle-2027-selma-labib-une-candidature-ouvriere-et-revolutionnaire-soutenue-par-gael-quirante"
     },
+    "06ed12260c13": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-10-25T12:43:36+00:00",
+      "reason": null,
+      "source_sha256": "d3e56803a000237facd3dcf3d08ed41f80a4fb2b9f8eecb8b0f151ff00940be4",
+      "status": "promoted",
+      "url": "https://melenchon2027.fr/programme/plans-investissement/"
+    },
     "06f38275c32e": {
       "chunks_done": null,
       "chunks_total": 1,
@@ -58557,6 +59069,15 @@
       "source_sha256": "ed477781633623166c7a9a45247cdc01b13b4fadbc7641b71469d027b63713d3",
       "status": "promoted",
       "url": "https://attalpresident.fr/programme/dette-de-letat"
+    },
+    "44265550bff8": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-10-25T12:43:39+00:00",
+      "reason": null,
+      "source_sha256": "9f111f4744c84e849d8be1aefbd6e261ac829a79ac88ec23a1db131209ce8a0a",
+      "status": "not_confirmed",
+      "url": "https://melenchon2027.fr/programme/plan-investissement-productif/"
     },
     "445c55526ae7": {
       "chunks_done": null,
@@ -62186,6 +62707,15 @@
       "source_sha256": "2748744e1250b3647b5d1fbca05e0a8caaa9109b9e03ed020a2e4f227fc8beea",
       "status": "not_confirmed",
       "url": "https://place-publique.eu/posts/bVzEHsiKIArL1KpEE13hB/rejoignez-place-publique-et-choisissez-votre-candidat-pour-2027"
+    },
+    "cec835a89ffb": {
+      "chunks_done": 2,
+      "chunks_total": 3,
+      "processed_at": "2026-10-25T12:43:51+00:00",
+      "reason": null,
+      "source_sha256": "a07cb77a5b5c4870cd726e62ff8193ba3d2b062c184e8629bdd37ccc11593d4c",
+      "status": "partial",
+      "url": "https://melenchon2027.fr/programme/plans-investissement/automobile/"
     },
     "cf09f4269bf5": {
       "chunks_done": null,

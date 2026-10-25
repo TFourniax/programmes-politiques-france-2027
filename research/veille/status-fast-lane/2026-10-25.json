@@ -4,29 +4,58 @@
       "error": "ValueError: HTTP 403",
       "event_url": "https://www.pcf.fr/presidentielle2027_fabien_roussel_designe_candidat",
       "owner": "Parti communiste français",
-      "processed_at": "2026-10-25T06:18:07+00:00"
+      "processed_at": "2026-10-25T12:40:50+00:00"
     },
     {
       "error": "ValueError: HTTP 403",
       "event_url": "https://www.pcf.fr/presidentielle_2027_mjcf_s_engage_pour_candidature_communiste",
       "owner": "Parti communiste français",
-      "processed_at": "2026-10-25T06:18:07+00:00"
+      "processed_at": "2026-10-25T12:40:50+00:00"
     },
     {
       "error": "ValueError: HTTP 404",
       "event_url": "https://parti-equinoxe.fr/articles/2022/05/la-transition-energetique-selon-les-ex-candidats-a-la-presidentielle-2/",
       "owner": "Équinoxe",
-      "processed_at": "2026-10-25T06:18:08+00:00"
+      "processed_at": "2026-10-25T12:40:52+00:00"
     },
     {
       "error": "ValueError: HTTP 403",
       "event_url": "https://www.pcf.fr/une_candidature_de_gauche_au_service_de_l_aube_et_de_ses_communes",
       "owner": "Parti communiste français",
-      "processed_at": "2026-10-25T06:18:08+00:00"
+      "processed_at": "2026-10-25T12:40:52+00:00"
     }
   ],
-  "generated_at": "2026-10-25T06:18:08+00:00",
-  "processed": 0,
-  "results": [],
+  "generated_at": "2026-10-25T12:40:52+00:00",
+  "processed": 4,
+  "results": [
+    {
+      "event_url": "https://melenchon2027.fr/programme/plans-investissement/",
+      "owner": "La France insoumise",
+      "processed_at": "2026-10-25T12:40:48+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
+    {
+      "event_url": "https://melenchon2027.fr/programme/plan-investissement-productif/",
+      "owner": "La France insoumise",
+      "processed_at": "2026-10-25T12:40:49+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
+    {
+      "event_url": "https://melenchon2027.fr/programme/plans-investissement/automobile/",
+      "owner": "La France insoumise",
+      "processed_at": "2026-10-25T12:40:49+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
+    {
+      "event_url": "https://melenchon2027.fr/programme/plans-investissement/btp-logement/",
+      "owner": "La France insoumise",
+      "processed_at": "2026-10-25T12:40:50+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    }
+  ],
   "updated": 0
 }
