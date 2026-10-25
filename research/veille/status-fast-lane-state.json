@@ -192,7 +192,7 @@
       "error": "ValueError: HTTP 403",
       "event_url": "https://www.pcf.fr/une_candidature_de_gauche_au_service_de_l_aube_et_de_ses_communes",
       "owner": "Parti communiste français",
-      "processed_at": "2026-10-25T12:40:52+00:00",
+      "processed_at": "2026-10-25T17:08:38+00:00",
       "status": "technical_error"
     },
     "11790ff34ddd": {
@@ -362,7 +362,7 @@
       "error": "ValueError: HTTP 403",
       "event_url": "https://www.pcf.fr/presidentielle2027_fabien_roussel_designe_candidat",
       "owner": "Parti communiste français",
-      "processed_at": "2026-10-25T12:40:50+00:00",
+      "processed_at": "2026-10-25T17:08:37+00:00",
       "status": "technical_error"
     },
     "1f5b28d9f616": {
@@ -523,6 +523,16 @@
       "owner": "Gabriel Attal",
       "processed_at": "2026-09-20T06:26:32+00:00",
       "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
+    "2967e7473d92": {
+      "candidate_id": "jean-luc-melenchon",
+      "current_status": "declared_presidential",
+      "event_url": "https://melenchon2027.fr/",
+      "new_status": "party_designated",
+      "owner": "La France insoumise",
+      "processed_at": "2026-10-25T17:08:37+00:00",
+      "reason": "transition_not_monotonic",
       "status": "not_applicable"
     },
     "2a2adedf99ff": {
@@ -2167,7 +2177,7 @@
       "error": "ValueError: HTTP 403",
       "event_url": "https://www.pcf.fr/presidentielle_2027_mjcf_s_engage_pour_candidature_communiste",
       "owner": "Parti communiste français",
-      "processed_at": "2026-10-25T12:40:50+00:00",
+      "processed_at": "2026-10-25T17:08:37+00:00",
       "status": "technical_error"
     },
     "b74ecaeff180": {
@@ -2440,7 +2450,7 @@
       "error": "ValueError: HTTP 404",
       "event_url": "https://parti-equinoxe.fr/articles/2022/05/la-transition-energetique-selon-les-ex-candidats-a-la-presidentielle-2/",
       "owner": "Équinoxe",
-      "processed_at": "2026-10-25T12:40:52+00:00",
+      "processed_at": "2026-10-25T17:08:38+00:00",
       "status": "technical_error"
     },
     "cb3428b2b6d3": {
@@ -3077,7 +3087,7 @@
     }
   },
   "last_error_count": 4,
-  "last_run_at": "2026-10-25T12:40:52+00:00",
+  "last_run_at": "2026-10-25T17:08:38+00:00",
   "last_updated_count": 0,
   "version": 1
 }

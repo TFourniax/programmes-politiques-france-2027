@@ -8,10 +8,10 @@ Ce rapport est dérivé automatiquement du corpus courant. Il sert à piloter la
 
 - 68 acteurs référencés ;
 - 27 candidatures actives ou déclarées suivies ;
-- 1382 propositions atomiques courantes ;
+- 1406 propositions atomiques courantes ;
 - 162 / 816 cases acteur × thème couvertes (19.9 %) ;
 - 74 / 324 cases candidat actif × thème couvertes (22.8 %) ;
-- 1349 propositions marquées vérifiées ; 98 appuyées par au moins deux documents de preuve.
+- 1373 propositions marquées vérifiées ; 99 appuyées par au moins deux documents de preuve.
 
 ## Priorités documentaires
 
@@ -41,9 +41,9 @@ Ce rapport est dérivé automatiquement du corpus courant. Il sert à piloter la
 - **Retraites** (`retraites`) — 14 acteur(s), 23 proposition(s), dernière preuve 2026-10-24.
 - **Sécurité & justice** (`securite-justice`) — 14 acteur(s), 153 proposition(s), dernière preuve 2026-10-24.
 - **Institutions & démocratie** (`institutions-democratie`) — 15 acteur(s), 274 proposition(s), dernière preuve 2026-10-24.
-- **Économie & finances publiques** (`economie-finances`) — 17 acteur(s), 127 proposition(s), dernière preuve 2026-10-24.
-- **Services publics** (`services-publics`) — 17 acteur(s), 244 proposition(s), dernière preuve 2026-10-20.
-- **Écologie & énergie** (`ecologie-energie`) — 18 acteur(s), 204 proposition(s), dernière preuve 2026-10-24.
-- **Pouvoir d’achat & travail** (`pouvoir-achat-travail`) — 21 acteur(s), 86 proposition(s), dernière preuve 2026-10-24.
+- **Économie & finances publiques** (`economie-finances`) — 17 acteur(s), 129 proposition(s), dernière preuve 2026-10-24.
+- **Services publics** (`services-publics`) — 17 acteur(s), 249 proposition(s), dernière preuve 2026-10-20.
+- **Écologie & énergie** (`ecologie-energie`) — 18 acteur(s), 220 proposition(s), dernière preuve 2026-10-24.
+- **Pouvoir d’achat & travail** (`pouvoir-achat-travail`) — 21 acteur(s), 87 proposition(s), dernière preuve 2026-10-24.
 
 > Ce rapport est un indicateur de couverture structurée, de fraîcheur et de profondeur de preuve, pas un score de qualité politique ni d'exhaustivité absolue.

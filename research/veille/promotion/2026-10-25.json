@@ -1,36 +1,65 @@
 {
   "errors": [],
-  "generated_at": "2026-10-25T12:43:51+00:00",
+  "generated_at": "2026-10-25T17:11:52+00:00",
   "historical_skipped": 0,
-  "partial": 1,
+  "partial": 0,
   "processed": 3,
-  "promoted": 1,
-  "proposals_created": 1,
+  "promoted": 2,
+  "proposals_created": 24,
   "results": [
     {
-      "chunks_total": 1,
-      "document": "corpus/2027/auto/partys/la-france-insoumise/2026-10-20-eca7bd5872c8.md",
+      "chunks_total": 3,
+      "document": "corpus/2027/auto/partys/la-france-insoumise/2026-10-16-5b62e3f1643e.md",
       "proposals": [
-        "proposals/auto/ecologie-energie/auto-la-france-insoumise-ecologie-energie-844b99af1c5e.md"
+        "proposals/auto/ecologie-energie/auto-la-france-insoumise-ecologie-energie-49df97d2c012.md",
+        "proposals/auto/ecologie-energie/auto-la-france-insoumise-ecologie-energie-ea0002707353.md",
+        "proposals/auto/ecologie-energie/auto-la-france-insoumise-ecologie-energie-ed838ced4585.md",
+        "proposals/auto/ecologie-energie/auto-la-france-insoumise-ecologie-energie-fa0790cd8752.md",
+        "proposals/auto/ecologie-energie/auto-la-france-insoumise-ecologie-energie-dbb23d7c1eee.md",
+        "proposals/auto/ecologie-energie/auto-la-france-insoumise-ecologie-energie-4e496c174e4c.md",
+        "proposals/auto/ecologie-energie/auto-la-france-insoumise-ecologie-energie-1539683a082c.md",
+        "proposals/auto/ecologie-energie/auto-la-france-insoumise-ecologie-energie-58205051dbd6.md",
+        "proposals/auto/ecologie-energie/auto-la-france-insoumise-ecologie-energie-28d74bfec8b6.md",
+        "proposals/auto/ecologie-energie/auto-la-france-insoumise-ecologie-energie-2b0855bec9bb.md",
+        "proposals/auto/ecologie-energie/auto-la-france-insoumise-ecologie-energie-cc311c1e2566.md",
+        "proposals/auto/ecologie-energie/auto-la-france-insoumise-ecologie-energie-273904836ac3.md",
+        "proposals/auto/ecologie-energie/auto-la-france-insoumise-ecologie-energie-2fb3a239f9b9.md",
+        "proposals/auto/pouvoir-achat-travail/auto-la-france-insoumise-pouvoir-achat-travail-1f0477dd0554.md"
       ],
-      "sha256": "d3e56803a000237facd3dcf3d08ed41f80a4fb2b9f8eecb8b0f151ff00940be4",
+      "sha256": "a07cb77a5b5c4870cd726e62ff8193ba3d2b062c184e8629bdd37ccc11593d4c",
       "status": "promoted",
       "status_updates": [],
-      "url": "https://melenchon2027.fr/programme/plans-investissement/",
-      "verified_at": "2026-10-25T12:43:33+00:00"
+      "url": "https://melenchon2027.fr/programme/plans-investissement/automobile/",
+      "verified_at": "2026-10-25T17:11:11+00:00"
     },
     {
-      "sha256": "9f111f4744c84e849d8be1aefbd6e261ac829a79ac88ec23a1db131209ce8a0a",
+      "chunks_total": 2,
+      "document": "corpus/2027/auto/partys/la-france-insoumise/2026-10-10-06335d335bb8.md",
+      "proposals": [
+        "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-118e7984ccc1.md",
+        "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-18d4ed0d931e.md",
+        "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-1635f012e6b3.md",
+        "proposals/auto/ecologie-energie/auto-la-france-insoumise-ecologie-energie-e638134301de.md",
+        "proposals/auto/ecologie-energie/auto-la-france-insoumise-ecologie-energie-25af8fe5a6a5.md",
+        "proposals/auto/ecologie-energie/auto-la-france-insoumise-ecologie-energie-c2b42978c7a7.md",
+        "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-95b2845a2d22.md",
+        "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-da56d75ef525.md",
+        "proposals/auto/economie-finances/auto-la-france-insoumise-economie-finances-0561b0f66b39.md",
+        "proposals/auto/economie-finances/auto-la-france-insoumise-economie-finances-169beebf7aeb.md"
+      ],
+      "provenance_updates": [
+        "auto-la-france-insoumise-ecologie-energie-4b27247d2f02"
+      ],
+      "sha256": "232dd48bd707a8042bcae7d80af36725aea2ac49016aaad51fc2e6148173b1ec",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://melenchon2027.fr/programme/plans-investissement/btp-logement/",
+      "verified_at": "2026-10-25T17:11:49+00:00"
+    },
+    {
+      "sha256": "6811569da16f7be6fd3185b50517842c3c994ede4c6715025b1113a2123ad0cb",
       "status": "not_confirmed",
-      "url": "https://melenchon2027.fr/programme/plan-investissement-productif/"
-    },
-    {
-      "chunks_done": 2,
-      "chunks_remaining": 1,
-      "chunks_total": 3,
-      "sha256": "a07cb77a5b5c4870cd726e62ff8193ba3d2b062c184e8629bdd37ccc11593d4c",
-      "status": "partial",
-      "url": "https://melenchon2027.fr/programme/plans-investissement/automobile/"
+      "url": "https://melenchon2027.fr/"
     }
   ],
   "status_updates": 0
