@@ -55,7 +55,7 @@ OLD_ELECTION_PATTERNS = (
     r"(?:departementales|départementales)[\s/_-]*(?:de[\s_-]*)?2021",
     r"(?:municipales)[\s/_-]*(?:de[\s_-]*)?2020",
 )
-TERMINAL_SOURCE_STATES = {"promoted", "no_canonical_data", "not_confirmed", "historical_skipped"}
+TERMINAL_SOURCE_STATES = {"promoted", "no_canonical_data", "not_confirmed", "historical_skipped", "retry_abandoned"}
 
 
 class Extractor(HTMLParser):
