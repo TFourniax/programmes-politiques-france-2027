@@ -1,0 +1,92 @@
+{
+  "errors": [
+    {
+      "error": "ValueError: HTTP 403",
+      "event_url": "https://www.pcf.fr/presidentielle2027_fabien_roussel_designe_candidat",
+      "owner": "Parti communiste français",
+      "processed_at": "2026-11-06T10:28:32+00:00"
+    },
+    {
+      "error": "ValueError: HTTP 403",
+      "event_url": "https://www.pcf.fr/presidentielle_2027_mjcf_s_engage_pour_candidature_communiste",
+      "owner": "Parti communiste français",
+      "processed_at": "2026-11-06T10:28:32+00:00"
+    },
+    {
+      "error": "ValueError: HTTP 404",
+      "event_url": "https://parti-equinoxe.fr/articles/2022/05/la-transition-energetique-selon-les-ex-candidats-a-la-presidentielle-2/",
+      "owner": "Équinoxe",
+      "processed_at": "2026-11-06T10:28:33+00:00"
+    },
+    {
+      "error": "ValueError: HTTP 403",
+      "event_url": "https://www.pcf.fr/une_candidature_de_gauche_au_service_de_l_aube_et_de_ses_communes",
+      "owner": "Parti communiste français",
+      "processed_at": "2026-11-06T10:28:33+00:00"
+    }
+  ],
+  "generated_at": "2026-11-06T10:28:33+00:00",
+  "processed": 8,
+  "results": [
+    {
+      "event_url": "https://melenchon2027.fr/programme/livre/",
+      "owner": "La France insoumise",
+      "processed_at": "2026-11-06T10:28:23+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
+    {
+      "event_url": "https://solutiondemocratique.fr/comparatif-candidats-programme-elections-presidentielles-france-2027/",
+      "owner": "Solution démocratique",
+      "processed_at": "2026-11-06T10:28:25+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
+    {
+      "event_url": "https://attalpresident.fr/programme/mesures/fonds-investissement-defense",
+      "owner": "Gabriel Attal",
+      "processed_at": "2026-11-06T10:28:28+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
+    {
+      "event_url": "https://attalpresident.fr/programme/mesures/interessement-vers-epargne-retraite",
+      "owner": "Gabriel Attal",
+      "processed_at": "2026-11-06T10:28:29+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
+    {
+      "candidate_id": "jean-luc-melenchon",
+      "current_status": "declared_presidential",
+      "event_url": "https://melenchon2027.fr/",
+      "new_status": "party_designated",
+      "owner": "La France insoumise",
+      "processed_at": "2026-11-06T10:28:29+00:00",
+      "reason": "transition_not_monotonic",
+      "status": "not_applicable"
+    },
+    {
+      "event_url": "https://anasse2027.fr/",
+      "owner": "Anasse Kazib",
+      "processed_at": "2026-11-06T10:28:29+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
+    {
+      "event_url": "https://attalpresident.fr/programme/publics/retraites",
+      "owner": "Gabriel Attal",
+      "processed_at": "2026-11-06T10:28:32+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
+    {
+      "event_url": "https://lafranceinsoumise.fr/2026/11/06/flnks-soutien-melenchon-2027/",
+      "owner": "Jean-Luc Mélenchon",
+      "processed_at": "2026-11-06T10:28:32+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    }
+  ],
+  "updated": 0
+}

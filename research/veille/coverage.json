@@ -6,18 +6,18 @@
     "actors": 68,
     "declared_or_active_candidates": 27,
     "topics": 12,
-    "current_proposals": 1406,
+    "current_proposals": 1407,
     "covered_actor_topic_cells": 162,
     "total_actor_topic_cells": 816,
     "actor_topic_coverage_ratio": 0.1985,
     "active_candidate_covered_cells": 74,
     "active_candidate_total_cells": 324,
     "active_candidate_topic_coverage_ratio": 0.2284,
-    "verified_proposals": 1373,
+    "verified_proposals": 1374,
     "multi_source_proposals": 99,
     "latest_evidence_at": "2026-10-24",
     "certainty_counts": {
-      "explicit": 1381,
+      "explicit": 1382,
       "explicit_but_conditional": 3,
       "explicit_but_underspecified": 22
     }
@@ -667,7 +667,7 @@
       "type": "candidate",
       "status": "declared_presidential",
       "confidence": "high",
-      "current_proposals": 33,
+      "current_proposals": 34,
       "covered_topics": [
         "ecologie-energie",
         "economie-finances",
@@ -686,7 +686,7 @@
         "numerique-ia"
       ],
       "latest_evidence_at": "2026-10-19",
-      "verified_proposals": 33,
+      "verified_proposals": 34,
       "multi_source_proposals": 15
     },
     {
@@ -1758,7 +1758,7 @@
         "economie-finances",
         "numerique-ia"
       ],
-      "latest_evidence_at": "2026-10-20",
+      "latest_evidence_at": "2026-10-15",
       "verified_proposals": 11,
       "multi_source_proposals": 6
     },
@@ -2058,11 +2058,11 @@
     {
       "id": "economie-finances",
       "label": "Économie & finances publiques",
-      "current_proposals": 129,
+      "current_proposals": 130,
       "actors_covered": 17,
       "actor_coverage_ratio": 0.25,
       "latest_evidence_at": "2026-10-24",
-      "verified_proposals": 128,
+      "verified_proposals": 129,
       "multi_source_proposals": 13
     },
     {
@@ -3380,7 +3380,7 @@
       "name": "Gabriel Attal",
       "status": "declared_presidential",
       "coverage_ratio": 0.6667,
-      "current_proposals": 33,
+      "current_proposals": 34,
       "latest_evidence_at": "2026-10-19",
       "topics": [
         {
@@ -3477,9 +3477,9 @@
           "id": "economie-finances",
           "label": "Économie & finances publiques",
           "covered": true,
-          "current_proposals": 4,
+          "current_proposals": 5,
           "latest_evidence_at": "2026-10-19",
-          "verified_proposals": 4,
+          "verified_proposals": 5,
           "multi_source_proposals": 3
         },
         {
@@ -5754,7 +5754,7 @@
       "name": "Gabriel Attal",
       "status": "declared_presidential",
       "coverage_ratio": 0.6667,
-      "current_proposals": 33,
+      "current_proposals": 34,
       "latest_evidence_at": "2026-10-19",
       "gaps": [
         "fiscalite-redistribution",

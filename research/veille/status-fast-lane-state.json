@@ -101,6 +101,13 @@
       "reason": "no_deterministic_transition",
       "status": "not_applicable"
     },
+    "0864c19bfd9c": {
+      "event_url": "https://attalpresident.fr/programme/mesures/fonds-investissement-defense",
+      "owner": "Gabriel Attal",
+      "processed_at": "2026-11-06T10:28:28+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
     "08c19ef04aa7": {
       "event_url": "https://rassemblementnational.fr/",
       "owner": "Rassemblement national",
@@ -192,7 +199,7 @@
       "error": "ValueError: HTTP 403",
       "event_url": "https://www.pcf.fr/une_candidature_de_gauche_au_service_de_l_aube_et_de_ses_communes",
       "owner": "Parti communiste français",
-      "processed_at": "2026-10-25T17:08:38+00:00",
+      "processed_at": "2026-11-06T10:28:33+00:00",
       "status": "technical_error"
     },
     "11790ff34ddd": {
@@ -362,7 +369,7 @@
       "error": "ValueError: HTTP 403",
       "event_url": "https://www.pcf.fr/presidentielle2027_fabien_roussel_designe_candidat",
       "owner": "Parti communiste français",
-      "processed_at": "2026-10-25T17:08:37+00:00",
+      "processed_at": "2026-11-06T10:28:32+00:00",
       "status": "technical_error"
     },
     "1f5b28d9f616": {
@@ -436,6 +443,13 @@
       "event_url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne",
       "owner": "Gabriel Attal",
       "processed_at": "2026-09-09T17:14:58+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
+    "228b635beb4a": {
+      "event_url": "https://anasse2027.fr/",
+      "owner": "Anasse Kazib",
+      "processed_at": "2026-11-06T10:28:29+00:00",
       "reason": "no_deterministic_transition",
       "status": "not_applicable"
     },
@@ -1245,6 +1259,13 @@
       "reason": "no_deterministic_transition",
       "status": "not_applicable"
     },
+    "62be82d12108": {
+      "event_url": "https://solutiondemocratique.fr/comparatif-candidats-programme-elections-presidentielles-france-2027/",
+      "owner": "Solution démocratique",
+      "processed_at": "2026-11-06T10:28:25+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
     "642dbec9ca0d": {
       "candidate_id": "gabriel-attal",
       "event_url": "https://attalpresident.fr/actualites/gabriel-attal-sur-rtl-je-suis-candidat-pour-gagner-cette-election-presidentielle",
@@ -1353,6 +1374,13 @@
       "event_url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne",
       "owner": "Gabriel Attal",
       "processed_at": "2026-09-22T06:23:37+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
+    "6dba0ad0a041": {
+      "event_url": "https://lafranceinsoumise.fr/2026/11/06/flnks-soutien-melenchon-2027/",
+      "owner": "Jean-Luc Mélenchon",
+      "processed_at": "2026-11-06T10:28:32+00:00",
       "reason": "no_deterministic_transition",
       "status": "not_applicable"
     },
@@ -2177,7 +2205,7 @@
       "error": "ValueError: HTTP 403",
       "event_url": "https://www.pcf.fr/presidentielle_2027_mjcf_s_engage_pour_candidature_communiste",
       "owner": "Parti communiste français",
-      "processed_at": "2026-10-25T17:08:37+00:00",
+      "processed_at": "2026-11-06T10:28:32+00:00",
       "status": "technical_error"
     },
     "b74ecaeff180": {
@@ -2439,6 +2467,13 @@
       "reason": "candidate_match_not_unique",
       "status": "ambiguous"
     },
+    "ca328908faa5": {
+      "event_url": "https://attalpresident.fr/programme/publics/retraites",
+      "owner": "Gabriel Attal",
+      "processed_at": "2026-11-06T10:28:32+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
     "caeda2db56e8": {
       "event_url": "https://solutiondemocratique.fr/henri-rognon-maire-minerve-solution-democratique/",
       "owner": "Solution démocratique",
@@ -2450,7 +2485,7 @@
       "error": "ValueError: HTTP 404",
       "event_url": "https://parti-equinoxe.fr/articles/2022/05/la-transition-energetique-selon-les-ex-candidats-a-la-presidentielle-2/",
       "owner": "Équinoxe",
-      "processed_at": "2026-10-25T17:08:38+00:00",
+      "processed_at": "2026-11-06T10:28:33+00:00",
       "status": "technical_error"
     },
     "cb3428b2b6d3": {
@@ -2465,6 +2500,16 @@
       "owner": "Génération Écologie",
       "processed_at": "2026-10-22T13:06:51+00:00",
       "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
+    "cc663db81833": {
+      "candidate_id": "jean-luc-melenchon",
+      "current_status": "declared_presidential",
+      "event_url": "https://melenchon2027.fr/",
+      "new_status": "party_designated",
+      "owner": "La France insoumise",
+      "processed_at": "2026-11-06T10:28:29+00:00",
+      "reason": "transition_not_monotonic",
       "status": "not_applicable"
     },
     "cce2ef2e9953": {
@@ -2647,6 +2692,13 @@
       "event_url": "https://rassemblementnational.fr/",
       "owner": "Rassemblement national",
       "processed_at": "2026-09-15T12:46:55+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
+    "d7ce25f6ddab": {
+      "event_url": "https://melenchon2027.fr/programme/livre/",
+      "owner": "La France insoumise",
+      "processed_at": "2026-11-06T10:28:23+00:00",
       "reason": "no_deterministic_transition",
       "status": "not_applicable"
     },
@@ -2960,6 +3012,13 @@
       "reason": "no_deterministic_transition",
       "status": "not_applicable"
     },
+    "f2cca80b39ce": {
+      "event_url": "https://attalpresident.fr/programme/mesures/interessement-vers-epargne-retraite",
+      "owner": "Gabriel Attal",
+      "processed_at": "2026-11-06T10:28:29+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
     "f338d43fc637": {
       "candidate_id": "david-lisnard",
       "event_url": "https://www.unenouvelleenergie.fr/questions/david-lisnard-est-il-candidat-a-la-presidentielle-2027/",
@@ -3087,7 +3146,7 @@
     }
   },
   "last_error_count": 4,
-  "last_run_at": "2026-10-25T17:08:38+00:00",
+  "last_run_at": "2026-11-06T10:28:33+00:00",
   "last_updated_count": 0,
   "version": 1
 }

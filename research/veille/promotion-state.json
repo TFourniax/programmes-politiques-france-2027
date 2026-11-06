@@ -1470,6 +1470,11 @@
       "source_url": "https://www.unenouvelleenergie.fr/notre-programme/sante/",
       "verified_at": "2026-08-12T08:48:28+00:00"
     },
+    "a5846dfc3c1ba07e730825f33214590a6d4c3468bab153e98b5dfd76c060927f": {
+      "proposal_id": "auto-gabriel-attal-economie-finances-a5846dfc3c1b",
+      "source_url": "https://attalpresident.fr/programme/mesures/fonds-investissement-defense",
+      "verified_at": "2026-11-06T10:31:19+00:00"
+    },
     "a5e746dd25a5d6f5d6c96e279ace080778043dc7e81d7ab2f2f72ab210c630da": {
       "proposal_id": "auto-anasse-kazib-economie-finances-a5e746dd25a5",
       "source_url": "https://www.revolutionpermanente.fr/",
@@ -2228,7 +2233,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-10-25T17:11:52+00:00",
+  "last_run_at": "2026-11-06T10:31:23+00:00",
   "source_chunks": {
     "000e79baea11403029d335b1": {
       "canonical_confirmations": [
@@ -13165,6 +13170,26 @@
       "updated_at": "2026-10-22T18:08:04+00:00",
       "url": "https://generationecologie.fr/publication/investiture-de-delphine-batho-a-lelection-presidentielle/"
     },
+    "38f9d010785f9ef6050d76fd": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-11-06T10:31:25+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "30fa75313d1cdac4c829205be34af7d7d783bfce44fcffcd7bd6a96efc55dd56",
+      "source_title": "🔴 Marcel, cheminot à Châtillon : « il faut refaire un nouveau mai 68 »",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-06T10:31:26+00:00",
+      "url": "https://www.youtube.com/shorts/KSpPpOdlKrA"
+    },
     "391f5104d4105ded8d7e64f5": {
       "canonical_confirmations": [
         {
@@ -15870,6 +15895,26 @@
       "updated_at": "2026-09-17T12:43:25+00:00",
       "url": "https://rassemblementnational.fr/"
     },
+    "3fd6856191b46119fe9ddc62": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-11-06T10:31:27+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "e3b1d374c78a64262481c4b954f79116f68ee2a4bca4038dffca378160d1501b",
+      "source_title": "🔴 5 NOVEMBRE : ANASSE KAZIB TIRE LES BILANS DE LA PREMIÈRE JOURNÉE DE GRÈVE",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-06T10:31:28+00:00",
+      "url": "https://www.youtube.com/shorts/nyJGaO6vZyI"
+    },
     "3fdd23de2b426d93e7f441bf": {
       "canonical_confirmations": [],
       "claims": [],
@@ -16862,6 +16907,58 @@
       "total": 1,
       "updated_at": "2026-10-12T21:52:36+00:00",
       "url": "https://www.youtube.com/watch?v=U07uEWUnGVY"
+    },
+    "425284e1b56d260aedb679ba": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "solution-democratique",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Solution Démocratique souhaite instaurer en France la démocratie directe et la décentralisation par le bas.",
+            "relevance": "direct",
+            "statement": "Solution Démocratique souhaite instaurer en France la démocratie directe et la décentralisation par le bas.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La claim est explicitement soutenue par la source et correspond à une entrée canonique existante.",
+            "related_proposal_id": "auto-solution-democratique-institutions-democratie-4ea1c22d52ea",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-11-06T10:31:07+00:00",
+      "created_at": "2026-11-06T10:30:58+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2025-04-09"
+      ],
+      "sha256": "a5c920646adc9008d5b94f390ec702d9d8bb0f5c69e1e82520c5e8d2ea75664c",
+      "source_title": "Comparatif du programme des candidats : présidentielle 2027",
+      "statuses": [
+        {
+          "status": {
+            "candidate_id": "clara-egger",
+            "effective_date": "2025-04-09",
+            "evidence_quote": "La candidate est l’Ardéchoise et chercheuse en science politique Clara Egger",
+            "explicit": true,
+            "new_status": "declared_presidential"
+          }
+        }
+      ],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-06T10:31:03+00:00",
+      "url": "https://solutiondemocratique.fr/comparatif-candidats-programme-elections-presidentielles-france-2027/"
     },
     "429782155df7876cb624c93b": {
       "canonical_confirmations": [],
@@ -25148,6 +25245,26 @@
       "total": 1,
       "updated_at": "2026-10-25T17:11:52+00:00",
       "url": "https://melenchon2027.fr/"
+    },
+    "68b64a16f27e55b0a8b1a90b": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-11-06T10:30:53+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "29ca92d3c1964a1250bb50c84343fd4e15e00533630b89e55c131a0c963eda50",
+      "source_title": "L’Avenir en commun - Mélenchon 2027 : Soutenez ma candidature à l’élection présidentielle",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-06T10:30:55+00:00",
+      "url": "https://melenchon2027.fr/programme/livre/"
     },
     "6913984731c4463f572e0392": {
       "canonical_confirmations": [
@@ -36365,6 +36482,26 @@
       "total": 1,
       "updated_at": "2026-09-06T11:47:09+00:00",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
+    "a3b704b079ced97ac21ec5fb": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-11-06T10:31:29+00:00",
+      "document_types": [
+        "other"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "8b9e934285b425f6a902ddbe12033146b059168918c97ffb2e5e3cc0030e7181",
+      "source_title": "🔴 INTERPRO PARIS SUD",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-06T10:31:30+00:00",
+      "url": "https://www.youtube.com/shorts/qw4qUYiXF60"
     },
     "a43814b1a524ab6233ebdd6e": {
       "canonical_confirmations": [
@@ -49880,6 +50017,26 @@
       "updated_at": "2026-08-11T12:15:04+00:00",
       "url": "https://bsky.app/profile/marinetondelier.fr/post/3mssha7jd2s2c"
     },
+    "dafde37338418dd4cb7533b2": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-11-06T10:31:23+00:00",
+      "document_types": [
+        "other"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "f519aca320fbbe2b0e2b06ed7de78f28d2d5a04243409796ab8e040334a63c9a",
+      "source_title": "🔴 JONCTION ENTRE LYCÉENS, ÉTUDIANTS, TRAVAILLEURS AU HAVRE",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-06T10:31:25+00:00",
+      "url": "https://www.youtube.com/shorts/0ue31m2s5-E"
+    },
     "db1cf5d984995ce5e816a343": {
       "canonical_confirmations": [
         {
@@ -56186,6 +56343,67 @@
       "updated_at": "2026-10-24T21:45:42+00:00",
       "url": "https://www.revolutionpermanente.fr/A-88-ans-de-la-fondation-de-la-IVe-Internationale-debats-strategiques-sur-le-Programme-de"
     },
+    "f7acc00ced15db9d83dd9716": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "gabriel-attal",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "Gabriel Attal veut créer des fonds pour investir dans les entreprises de la défense.",
+            "relevance": "direct",
+            "statement": "Gabriel Attal propose de créer des fonds d'investissement dédiés pour renforcer les fonds propres des PME et ETI de la défense.",
+            "topic": "economie-finances"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La proposition est explicitement soutenue par la source officielle de campagne pour 2027 avec un acteur, un sens, une portée et des modalités clairs, et ne figure pas dans le canon actuel.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [
+        {
+          "claim": {
+            "actor_id": "gabriel-attal",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "Gabriel Attal veut créer des fonds pour investir dans les entreprises de la défense.",
+            "relevance": "direct",
+            "statement": "Gabriel Attal propose de créer des fonds d'investissement dédiés pour renforcer les fonds propres des PME et ETI de la défense.",
+            "topic": "economie-finances"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La proposition est explicitement soutenue par la source officielle de campagne pour 2027 avec un acteur, un sens, une portée et des modalités clairs, et ne figure pas dans le canon actuel.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "completed_at": "2026-11-06T10:31:19+00:00",
+      "created_at": "2026-11-06T10:31:09+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-07-03"
+      ],
+      "sha256": "fddd7abda7692703590bac793d778fe923fced7a2992fa7578309169aafee04e",
+      "source_title": "Fonds d'investissement pour les PME de la défense | attalpresident.fr",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-06T10:31:19+00:00",
+      "url": "https://attalpresident.fr/programme/mesures/fonds-investissement-defense"
+    },
     "f7e06807a93360efa8c6f859": {
       "canonical_confirmations": [],
       "claims": [],
@@ -58028,6 +58246,15 @@
       "source_sha256": "d91895af2d29467784d823392f66adec6f12bd342ab0c7c7a72eb6db418914ac",
       "status": "not_confirmed",
       "url": "https://npa-revolutionnaires.org/articles/communique-presidentielle-2027-selma-labib-une-candidature-ouvriere-et-revolutionnaire-soutenue-par-gael-quirante"
+    },
+    "0864c19bfd9c": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-11-06T10:31:23+00:00",
+      "reason": null,
+      "source_sha256": "fddd7abda7692703590bac793d778fe923fced7a2992fa7578309169aafee04e",
+      "status": "promoted",
+      "url": "https://attalpresident.fr/programme/mesures/fonds-investissement-defense"
     },
     "08c19ef04aa7": {
       "chunks_done": null,
@@ -60459,6 +60686,15 @@
       "source_sha256": "8062a7160d32f1efc82a386577daee82f0648e05c0ea81c8dfd79c21f9ab9016",
       "status": "promoted",
       "url": "https://www.unenouvelleenergie.fr/notre-programme/"
+    },
+    "62be82d12108": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-11-06T10:31:07+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "a5c920646adc9008d5b94f390ec702d9d8bb0f5c69e1e82520c5e8d2ea75664c",
+      "status": "promoted",
+      "url": "https://solutiondemocratique.fr/comparatif-candidats-programme-elections-presidentielles-france-2027/"
     },
     "63d9fd62be47": {
       "chunks_done": null,
@@ -63659,6 +63895,15 @@
       "source_sha256": "74c0291f967337d7f19d593c017974330ae9864015ab5316b8b0db6aa52d6df1",
       "status": "promoted",
       "url": "https://www.unenouvelleenergie.fr/notre-programme/"
+    },
+    "d7ce25f6ddab": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-11-06T10:30:55+00:00",
+      "reason": null,
+      "source_sha256": "29ca92d3c1964a1250bb50c84343fd4e15e00533630b89e55c131a0c963eda50",
+      "status": "not_confirmed",
+      "url": "https://melenchon2027.fr/programme/livre/"
     },
     "d8178654b694": {
       "chunks_done": null,

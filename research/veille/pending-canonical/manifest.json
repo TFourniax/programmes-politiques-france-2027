@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created_at": "2026-08-17T19:57:19.441897+00:00",
-  "updated_at": "2026-10-25T17:11:55.334173+00:00",
+  "updated_at": "2026-11-06T10:31:35.814830+00:00",
   "files": [
     {
       "path": "corpus/2027/auto/candidates/anasse-kazib/2026-08-28-38891602d9d9.md",
@@ -587,6 +587,11 @@
       "path": "corpus/2027/auto/candidates/gabriel-attal/2026-06-01-fe41da2eec3c.md",
       "sha256": "b03ac3cc505dadca42b47d2a9aa98f257d9854529f70062d658b11edbcd6aa2b",
       "size": 2549
+    },
+    {
+      "path": "corpus/2027/auto/candidates/gabriel-attal/2026-07-03-f7acc00ced15.md",
+      "sha256": "896628770971a0520aeeeb6d630a93044694b4f471fd1e2213ddb75c5295e758",
+      "size": 1620
     },
     {
       "path": "corpus/2027/auto/candidates/gabriel-attal/2026-08-23-20c668171ad6.md",
@@ -1769,6 +1774,11 @@
       "size": 1763
     },
     {
+      "path": "corpus/2027/auto/partys/solution-democratique/2025-04-09-425284e1b56d.md",
+      "sha256": "f3de5da72b3f8b08f3ac91e090bf73aa452798352db87ce2f965f442b1c4490a",
+      "size": 1786
+    },
+    {
       "path": "corpus/2027/auto/partys/solution-democratique/2025-04-09-7fa3658e1707.md",
       "sha256": "bc8e4beb03c366beb6ff1a71e9f9930ae8bcb05577f4672185258425632d634e",
       "size": 1786
@@ -2259,6 +2269,11 @@
       "size": 2255
     },
     {
+      "path": "proposals/auto/economie-finances/auto-gabriel-attal-economie-finances-a5846dfc3c1b.md",
+      "sha256": "d6f04ed63d35f337326bf7b0f6f17914d54941c82f5fd146c1e89c61425c2925",
+      "size": 1469
+    },
+    {
       "path": "proposals/auto/economie-finances/auto-la-france-insoumise-economie-finances-0561b0f66b39.md",
       "sha256": "ce0a54f09b24a263eb90f2bc43e0e185db2c1f2df76ecb09c623621dd6b065ac",
       "size": 1352
@@ -2685,8 +2700,8 @@
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-solution-democratique-institutions-democratie-4ea1c22d52ea.md",
-      "sha256": "e1ccc0d73774515ef67fb2527989f49a87b60a0be5441432b038092514efde17",
-      "size": 10171
+      "sha256": "ca71d09203459f7032ce74d1b857c541e087db542f02a5dac8cc90eff00893fa",
+      "size": 10291
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-solution-democratique-institutions-democratie-60c5ea22a7f1.md",
