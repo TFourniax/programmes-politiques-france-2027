@@ -6,18 +6,18 @@
     "actors": 68,
     "declared_or_active_candidates": 27,
     "topics": 12,
-    "current_proposals": 1407,
+    "current_proposals": 1410,
     "covered_actor_topic_cells": 162,
     "total_actor_topic_cells": 816,
     "actor_topic_coverage_ratio": 0.1985,
     "active_candidate_covered_cells": 74,
     "active_candidate_total_cells": 324,
     "active_candidate_topic_coverage_ratio": 0.2284,
-    "verified_proposals": 1374,
-    "multi_source_proposals": 99,
-    "latest_evidence_at": "2026-10-24",
+    "verified_proposals": 1377,
+    "multi_source_proposals": 100,
+    "latest_evidence_at": "2026-11-06",
     "certainty_counts": {
-      "explicit": 1382,
+      "explicit": 1385,
       "explicit_but_conditional": 3,
       "explicit_but_underspecified": 22
     }
@@ -667,7 +667,7 @@
       "type": "candidate",
       "status": "declared_presidential",
       "confidence": "high",
-      "current_proposals": 34,
+      "current_proposals": 37,
       "covered_topics": [
         "ecologie-energie",
         "economie-finances",
@@ -685,9 +685,9 @@
         "institutions-democratie",
         "numerique-ia"
       ],
-      "latest_evidence_at": "2026-10-19",
-      "verified_proposals": 34,
-      "multi_source_proposals": 15
+      "latest_evidence_at": "2026-11-06",
+      "verified_proposals": 37,
+      "multi_source_proposals": 16
     },
     {
       "id": "generation-ecologie",
@@ -1968,12 +1968,12 @@
     {
       "id": "retraites",
       "label": "Retraites",
-      "current_proposals": 23,
+      "current_proposals": 24,
       "actors_covered": 14,
       "actor_coverage_ratio": 0.2059,
-      "latest_evidence_at": "2026-10-24",
-      "verified_proposals": 21,
-      "multi_source_proposals": 7
+      "latest_evidence_at": "2026-11-06",
+      "verified_proposals": 22,
+      "multi_source_proposals": 8
     },
     {
       "id": "fiscalite-redistribution",
@@ -1998,11 +1998,11 @@
     {
       "id": "europe-souverainete",
       "label": "Europe & souveraineté",
-      "current_proposals": 114,
+      "current_proposals": 115,
       "actors_covered": 12,
       "actor_coverage_ratio": 0.1765,
       "latest_evidence_at": "2026-10-19",
-      "verified_proposals": 113,
+      "verified_proposals": 114,
       "multi_source_proposals": 4
     },
     {
@@ -2038,11 +2038,11 @@
     {
       "id": "services-publics",
       "label": "Services publics",
-      "current_proposals": 249,
+      "current_proposals": 250,
       "actors_covered": 17,
       "actor_coverage_ratio": 0.25,
-      "latest_evidence_at": "2026-10-20",
-      "verified_proposals": 246,
+      "latest_evidence_at": "2026-11-06",
+      "verified_proposals": 247,
       "multi_source_proposals": 8
     },
     {
@@ -3380,8 +3380,8 @@
       "name": "Gabriel Attal",
       "status": "declared_presidential",
       "coverage_ratio": 0.6667,
-      "current_proposals": 34,
-      "latest_evidence_at": "2026-10-19",
+      "current_proposals": 37,
+      "latest_evidence_at": "2026-11-06",
       "topics": [
         {
           "id": "pouvoir-achat-travail",
@@ -3396,10 +3396,10 @@
           "id": "retraites",
           "label": "Retraites",
           "covered": true,
-          "current_proposals": 2,
-          "latest_evidence_at": "2026-10-19",
-          "verified_proposals": 2,
-          "multi_source_proposals": 2
+          "current_proposals": 3,
+          "latest_evidence_at": "2026-11-06",
+          "verified_proposals": 3,
+          "multi_source_proposals": 3
         },
         {
           "id": "fiscalite-redistribution",
@@ -3423,9 +3423,9 @@
           "id": "europe-souverainete",
           "label": "Europe & souveraineté",
           "covered": true,
-          "current_proposals": 4,
+          "current_proposals": 5,
           "latest_evidence_at": "2026-10-19",
-          "verified_proposals": 4,
+          "verified_proposals": 5,
           "multi_source_proposals": 1
         },
         {
@@ -3459,9 +3459,9 @@
           "id": "services-publics",
           "label": "Services publics",
           "covered": true,
-          "current_proposals": 7,
-          "latest_evidence_at": "2026-10-19",
-          "verified_proposals": 7,
+          "current_proposals": 8,
+          "latest_evidence_at": "2026-11-06",
+          "verified_proposals": 8,
           "multi_source_proposals": 2
         },
         {
@@ -5754,8 +5754,8 @@
       "name": "Gabriel Attal",
       "status": "declared_presidential",
       "coverage_ratio": 0.6667,
-      "current_proposals": 34,
-      "latest_evidence_at": "2026-10-19",
+      "current_proposals": 37,
+      "latest_evidence_at": "2026-11-06",
       "gaps": [
         "fiscalite-redistribution",
         "defense-international",

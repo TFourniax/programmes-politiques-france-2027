@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created_at": "2026-08-17T19:57:19.441897+00:00",
-  "updated_at": "2026-11-06T10:31:35.814830+00:00",
+  "updated_at": "2026-11-06T10:58:38.808207+00:00",
   "files": [
     {
       "path": "corpus/2027/auto/candidates/anasse-kazib/2026-08-28-38891602d9d9.md",
@@ -589,6 +589,16 @@
       "size": 2549
     },
     {
+      "path": "corpus/2027/auto/candidates/gabriel-attal/2026-06-17-e71513d3a614.md",
+      "sha256": "5f95290afdfad0c1ccddf975f639d795179761424357ebe17e41f03b59e84c5f",
+      "size": 1641
+    },
+    {
+      "path": "corpus/2027/auto/candidates/gabriel-attal/2026-07-03-825c32ee3aa8.md",
+      "sha256": "e384effc3c935891f7736638c467854c9af357562d669ebd75214678ed5ad5b3",
+      "size": 1550
+    },
+    {
       "path": "corpus/2027/auto/candidates/gabriel-attal/2026-07-03-f7acc00ced15.md",
       "sha256": "896628770971a0520aeeeb6d630a93044694b4f471fd1e2213ddb75c5295e758",
       "size": 1620
@@ -792,6 +802,11 @@
       "path": "corpus/2027/auto/candidates/gabriel-attal/2026-10-19-eefd34e0edc0.md",
       "sha256": "6add072becc5e419982e304286b8efbbd2f3a95cb11411894c7b92e1795c50d2",
       "size": 1962
+    },
+    {
+      "path": "corpus/2027/auto/candidates/gabriel-attal/2026-11-06-d93adb069b37.md",
+      "sha256": "0fb873c0ffd2cca0d12256b305edb5a54762bd771376e8f461e9abe3cfcdda12",
+      "size": 2035
     },
     {
       "path": "corpus/2027/auto/candidates/jean-luc-melenchon/2026-09-18-a1a666a8c110.md",
@@ -2359,6 +2374,11 @@
       "size": 1305
     },
     {
+      "path": "proposals/auto/europe-souverainete/auto-gabriel-attal-europe-souverainete-118612950ccd.md",
+      "sha256": "0d3dfcac79dd0fef1879ff0019bfcd5e5c4f16058e0a89e17fe251e5f7b8d8ad",
+      "size": 1316
+    },
+    {
       "path": "proposals/auto/europe-souverainete/auto-gabriel-attal-europe-souverainete-3fc3c7b88a77.md",
       "sha256": "e9608e375af59b914d24a309bec8d03a5036cfb0baa70dc40a43e0cf8c30af6f",
       "size": 1412
@@ -2930,8 +2950,13 @@
     },
     {
       "path": "proposals/auto/retraites/auto-gabriel-attal-retraites-57839af08199.md",
-      "sha256": "9b4dc3b99f49c5a772d1065a2ef61863c6b735992fdbdd6b361f8a90f67fc54f",
-      "size": 2300
+      "sha256": "1678e5fe7584762133ff0c8309df3e4ea28e2c1dced92cd3e57fdaa0db667517",
+      "size": 2473
+    },
+    {
+      "path": "proposals/auto/retraites/auto-gabriel-attal-retraites-96c306f4d208.md",
+      "sha256": "7163deb501a364cab8de67291a9908ed16edb1f4f2f2548a9d61e66bfe3cbb52",
+      "size": 1891
     },
     {
       "path": "proposals/auto/retraites/auto-les-ecologistes-retraites-c34ed71b2ee5.md",
@@ -3157,6 +3182,11 @@
       "path": "proposals/auto/services-publics/auto-gabriel-attal-services-publics-0b16aea25279.md",
       "sha256": "fef6ab3d4de51f3f67aef4bc85c10d526b470b0280e302d4617c492390a05585",
       "size": 2150
+    },
+    {
+      "path": "proposals/auto/services-publics/auto-gabriel-attal-services-publics-49648e2d66c3.md",
+      "sha256": "397cfc03cc7b233b99bebd760598e67c499b53f2f0b0a77104ffabd29c6ccce9",
+      "size": 1368
     },
     {
       "path": "proposals/auto/services-publics/auto-gabriel-attal-services-publics-573bafbf5935.md",

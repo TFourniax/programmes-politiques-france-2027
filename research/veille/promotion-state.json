@@ -150,6 +150,11 @@
       "source_url": "https://www.parti-reconquete.fr/",
       "verified_at": "2026-08-11T08:55:59+00:00"
     },
+    "118612950ccdcf6d1655ef556635b55e3d12168910d51eee48efec3504cbd245": {
+      "proposal_id": "auto-gabriel-attal-europe-souverainete-118612950ccd",
+      "source_url": "https://attalpresident.fr/programme/mesures/livre-blanc-defense-2027",
+      "verified_at": "2026-11-06T10:58:29+00:00"
+    },
     "118e7984ccc111ec08a6a581d8724c3bd8879c19c3da8c4e7ea2d3d23b35597f": {
       "proposal_id": "auto-la-france-insoumise-services-publics-118e7984ccc1",
       "source_url": "https://melenchon2027.fr/programme/plans-investissement/btp-logement/",
@@ -649,6 +654,11 @@
       "proposal_id": "auto-la-france-insoumise-services-publics-488e6c1fadc7",
       "source_url": "https://melenchon2027.fr/programme2025/livre/chapitre15/",
       "verified_at": "2026-08-12T23:32:59+00:00"
+    },
+    "49648e2d66c370bb4d045f0a4ef1b037695aac61fe46dac5971b03bf8690c3da": {
+      "proposal_id": "auto-gabriel-attal-services-publics-49648e2d66c3",
+      "source_url": "https://attalpresident.fr/programme/publics/retraites",
+      "verified_at": "2026-11-06T10:58:13+00:00"
     },
     "49df97d2c0122e3c77de4ab2df1f1421d6649af3b957130dc67f1ca6eea160db": {
       "proposal_id": "auto-la-france-insoumise-ecologie-energie-49df97d2c012",
@@ -1334,6 +1344,11 @@
       "proposal_id": "auto-la-france-insoumise-services-publics-95b2845a2d22",
       "source_url": "https://melenchon2027.fr/programme/plans-investissement/btp-logement/",
       "verified_at": "2026-10-25T17:11:38+00:00"
+    },
+    "96c306f4d2089c99c3722b61537f6a756c32477c4cfee12f7ea08122b69cc81f": {
+      "proposal_id": "auto-gabriel-attal-retraites-96c306f4d208",
+      "source_url": "https://attalpresident.fr/programme/mesures/interessement-vers-epargne-retraite",
+      "verified_at": "2026-11-06T10:57:59+00:00"
     },
     "9813c2e928183c1248bd0b46dc1ebb2167620e384fda5187aeb1953fa9c08e8a": {
       "proposal_id": "auto-les-ecologistes-pouvoir-achat-travail-9813c2e92818",
@@ -2233,7 +2248,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-11-06T10:31:23+00:00",
+  "last_run_at": "2026-11-06T10:58:32+00:00",
   "source_chunks": {
     "000e79baea11403029d335b1": {
       "canonical_confirmations": [
@@ -30175,6 +30190,67 @@
       "updated_at": "2026-08-23T07:58:26+00:00",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
+    "825c32ee3aa85db90c38fee0": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "gabriel-attal",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "Publier dès 2027 un nouveau Livre blanc de la défense",
+            "relevance": "direct",
+            "statement": "Gabriel Attal propose de publier dès 2027 un nouveau Livre blanc de la défense nationale.",
+            "topic": "europe-souverainete"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La proposition de publier un nouveau Livre blanc de la défense en 2027 est explicitement formulée par Gabriel Attal dans la source officielle pour l'élection présidentielle de 2027, et ne fait pas double emploi avec le canonique actuel.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [
+        {
+          "claim": {
+            "actor_id": "gabriel-attal",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "Publier dès 2027 un nouveau Livre blanc de la défense",
+            "relevance": "direct",
+            "statement": "Gabriel Attal propose de publier dès 2027 un nouveau Livre blanc de la défense nationale.",
+            "topic": "europe-souverainete"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La proposition de publier un nouveau Livre blanc de la défense en 2027 est explicitement formulée par Gabriel Attal dans la source officielle pour l'élection présidentielle de 2027, et ne fait pas double emploi avec le canonique actuel.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "completed_at": "2026-11-06T10:58:29+00:00",
+      "created_at": "2026-11-06T10:58:20+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-07-03"
+      ],
+      "sha256": "bda2abfba28691ea8e25ffa15fe1f5e6e2bdfc9957991a4bb1413782cadcdccd",
+      "source_title": "Défense nationale : la doctrine d'Attal pour 2027 | attalpresident.fr",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-06T10:58:29+00:00",
+      "url": "https://attalpresident.fr/programme/mesures/livre-blanc-defense-2027"
+    },
     "82b7216c02eacd5b0d473110": {
       "canonical_confirmations": [],
       "claims": [],
@@ -33133,6 +33209,26 @@
       "total": 1,
       "updated_at": "2026-09-30T06:56:18+00:00",
       "url": "https://www.youtube.com/watch?v=ATRtW3ULK1U"
+    },
+    "9517f631c1cfc06a5c6833cb": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-11-06T10:58:32+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "243056dfbb49fe1eb4c3be9d75ee7619ed8abc1a43386f84594063abed8fd62e",
+      "source_title": "5 NOVEMBRE : ANASSE KAZIB TIRE LES BILANS DE LA JOURNÉE DE GRÈVE",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-06T10:58:34+00:00",
+      "url": "https://www.youtube.com/watch?v=BLsxrM8AV_A"
     },
     "967ffb543e9150cca464964d": {
       "canonical_confirmations": [],
@@ -49895,6 +49991,101 @@
       "updated_at": "2026-08-18T08:07:47+00:00",
       "url": "https://npa-revolutionnaires.org/communique-presidentielle-2027-selma-labib-une-candidature-ouvriere-et-revolutionnaire-soutenue-par-gael-quirante/"
     },
+    "d93adb069b379dc986d75b74": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "gabriel-attal",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "Les petites pensions protégées, et l'âge légal remplacé par la durée de cotisation",
+            "relevance": "direct",
+            "statement": "Gabriel Attal propose de protéger les petites pensions et de remplacer l'âge légal par la durée de cotisation.",
+            "topic": "retraites"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Le contenu correspond exactement a la proposition deja existante sur la duree de cotisation.",
+            "related_proposal_id": "auto-gabriel-attal-retraites-57839af08199",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "gabriel-attal",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "Flécher la moitié de l'intéressement vers l'épargne retraite",
+            "relevance": "direct",
+            "statement": "Gabriel Attal propose de flécher la moitié de l'intéressement vers l'épargne retraite.",
+            "topic": "retraites"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "Le contenu correspond a la proposition existante sur l'interessement et l'epargne retraite.",
+            "related_proposal_id": "auto-gabriel-attal-retraites-96c306f4d208",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "gabriel-attal",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "Instaurer un droit à la climatisation",
+            "relevance": "direct",
+            "statement": "Gabriel Attal propose d'instaurer un droit à la climatisation pour la chaleur dans les logements et les établissements.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "Nouvelle mesure explicite concernant le droit a la climatisation.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [
+        {
+          "claim": {
+            "actor_id": "gabriel-attal",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "Instaurer un droit à la climatisation",
+            "relevance": "direct",
+            "statement": "Gabriel Attal propose d'instaurer un droit à la climatisation pour la chaleur dans les logements et les établissements.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "Nouvelle mesure explicite concernant le droit a la climatisation.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "completed_at": "2026-11-06T10:58:18+00:00",
+      "created_at": "2026-11-06T10:58:04+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "9f6e5a7a3bda1a50a03d30f8a1e8291e9ca8ce10642fd21c32204660609c1e8d",
+      "source_title": "Nos mesures pour les retraités | attalpresident.fr",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-06T10:58:13+00:00",
+      "url": "https://attalpresident.fr/programme/publics/retraites"
+    },
     "d95e21f720a4fd5562950b23": {
       "canonical_confirmations": [],
       "claims": [],
@@ -52614,6 +52805,67 @@
       "total": 1,
       "updated_at": "2026-08-11T20:16:20+00:00",
       "url": "https://parti-equinoxe.fr/legislatives-2022-programme-technique/"
+    },
+    "e71513d3a614b017a39ccda6": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "gabriel-attal",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "Gabriel Attal veut rendre obligatoire le fléchage de 50 % de l'intéressement",
+            "relevance": "direct",
+            "statement": "Gabriel Attal propose de rendre obligatoire le fléchage de 50 % de l'intéressement et de la participation vers des plans d'épargne retraite.",
+            "topic": "retraites"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La proposition de flécher 50 pour cent de l'intéressement et de la participation vers les plans d'épargne retraite est explicitement formulée par Gabriel Attal dans la source pour la campagne 2027 et constitue une mesure nouvelle par rapport au canonique existant.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [
+        {
+          "claim": {
+            "actor_id": "gabriel-attal",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "Gabriel Attal veut rendre obligatoire le fléchage de 50 % de l'intéressement",
+            "relevance": "direct",
+            "statement": "Gabriel Attal propose de rendre obligatoire le fléchage de 50 % de l'intéressement et de la participation vers des plans d'épargne retraite.",
+            "topic": "retraites"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La proposition de flécher 50 pour cent de l'intéressement et de la participation vers les plans d'épargne retraite est explicitement formulée par Gabriel Attal dans la source pour la campagne 2027 et constitue une mesure nouvelle par rapport au canonique existant.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "completed_at": "2026-11-06T10:57:59+00:00",
+      "created_at": "2026-11-06T10:57:51+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-06-17"
+      ],
+      "sha256": "8e9a1451397530e4b58111521aacebba8cc335c7b294128b3bd53d1bbcf4e7fb",
+      "source_title": "Intéressement et épargne retraite : la proposition Attal | attalpresident.fr",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-06T10:57:59+00:00",
+      "url": "https://attalpresident.fr/programme/mesures/interessement-vers-epargne-retraite"
     },
     "e71886b85d2519f27816829e": {
       "canonical_confirmations": [],
@@ -58383,11 +58635,12 @@
       "url": "https://rassemblementnational.fr/"
     },
     "0de45182a5ce": {
+      "abandoned_at": "2026-11-06T10:53:12+00:00",
       "attempts": 6,
       "error": "ValueError: HTTP 403",
-      "next_retry_at": "2026-10-25T23:04:19+00:00",
       "processed_at": "2026-10-11T23:04:19+00:00",
-      "status": "technical_error",
+      "reason": "permanent_error_retry_budget_exhausted",
+      "status": "retry_abandoned",
       "url": "https://www.pcf.fr/une_candidature_de_gauche_au_service_de_l_aube_et_de_ses_communes"
     },
     "0f060de7df66": {
@@ -58796,11 +59049,12 @@
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
     "1e67d8d2b142": {
+      "abandoned_at": "2026-11-06T10:53:12+00:00",
       "attempts": 7,
       "error": "ValueError: HTTP 403",
-      "next_retry_at": "2026-10-31T16:35:13+00:00",
       "processed_at": "2026-10-17T16:35:13+00:00",
-      "status": "technical_error",
+      "reason": "permanent_error_retry_budget_exhausted",
+      "status": "retry_abandoned",
       "url": "https://www.pcf.fr/presidentielle2027_fabien_roussel_designe_candidat"
     },
     "1f2bf87480b3": {
@@ -59144,11 +59398,12 @@
       "url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne"
     },
     "2a32503f7947": {
+      "abandoned_at": "2026-11-06T10:53:12+00:00",
       "attempts": 1,
       "error": "RuntimeError: Gemini HTTP 503: gemini-3.5-flash-lite is currently experiencing high demand, spikes in demand are usually temporary. Please try again later.",
-      "next_retry_at": "2026-10-09T01:29:36+00:00",
       "processed_at": "2026-10-08T19:29:36+00:00",
-      "status": "technical_error",
+      "reason": "retry_never_rescheduled",
+      "status": "retry_abandoned",
       "url": "https://www.unenouvelleenergie.fr/notre-programme/"
     },
     "2a3c291187fe": {
@@ -60061,11 +60316,12 @@
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
     "472924b7a00c": {
+      "abandoned_at": "2026-11-06T10:53:12+00:00",
       "attempts": 6,
       "error": "ValueError: HTTP 404",
-      "next_retry_at": "2026-10-29T06:02:43+00:00",
       "processed_at": "2026-10-15T06:02:43+00:00",
-      "status": "technical_error",
+      "reason": "permanent_error_retry_budget_exhausted",
+      "status": "retry_abandoned",
       "url": "https://www.revolutionpermanente.fr/Neoliberalisme-social-et-militarisme-de-gauche-Glucksmann-lance-sa-candidature"
     },
     "47d43bb22710": {
@@ -61774,6 +62030,15 @@
       "status": "not_confirmed",
       "url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne"
     },
+    "8d2bc9e79382": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-11-06T10:58:31+00:00",
+      "reason": null,
+      "source_sha256": "bda2abfba28691ea8e25ffa15fe1f5e6e2bdfc9957991a4bb1413782cadcdccd",
+      "status": "promoted",
+      "url": "https://attalpresident.fr/programme/mesures/livre-blanc-defense-2027"
+    },
     "8d60fd6ec11b": {
       "chunks_done": null,
       "chunks_total": 1,
@@ -62817,11 +63082,12 @@
       "url": "https://attalpresident.fr/programme"
     },
     "b6e972fce670": {
+      "abandoned_at": "2026-11-06T10:53:12+00:00",
       "attempts": 7,
       "error": "ValueError: HTTP 403",
-      "next_retry_at": "2026-10-31T16:35:13+00:00",
       "processed_at": "2026-10-17T16:35:13+00:00",
-      "status": "technical_error",
+      "reason": "permanent_error_retry_budget_exhausted",
+      "status": "retry_abandoned",
       "url": "https://www.pcf.fr/presidentielle_2027_mjcf_s_engage_pour_candidature_communiste"
     },
     "b74ecaeff180": {
@@ -62904,11 +63170,12 @@
       "url": "https://npa-revolutionnaires.org/dossier-presidentielle-2027-selma-labib-une-candidature-ouvriere-et-revolutionnaire-soutenue-par-gael-quirante-paru-dans-revolutionnaires-n-60/"
     },
     "b8920657eb06": {
+      "abandoned_at": "2026-11-06T10:53:12+00:00",
       "attempts": 7,
       "error": "ValueError: source text too short",
-      "next_retry_at": "2026-10-30T06:00:29+00:00",
       "processed_at": "2026-10-16T06:00:29+00:00",
-      "status": "technical_error",
+      "reason": "permanent_error_retry_budget_exhausted",
+      "status": "retry_abandoned",
       "url": "https://www.jerome-guedj.fr/la-clarte-plutot-que-les-slogans-pourquoi-jai-annonce-ma-candidature-pour-2027/"
     },
     "b8f466ca3a46": {
@@ -63411,6 +63678,15 @@
       "status": "not_confirmed",
       "url": "https://npa-revolutionnaires.org/echange-entre-le-npa-revolutionnaires-et-lutte-ouvriere-a-propos-dune-candidature-commune-aux-presidentielles-2027/"
     },
+    "ca328908faa5": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-11-06T10:58:18+00:00",
+      "reason": null,
+      "source_sha256": "9f6e5a7a3bda1a50a03d30f8a1e8291e9ca8ce10642fd21c32204660609c1e8d",
+      "status": "promoted",
+      "url": "https://attalpresident.fr/programme/publics/retraites"
+    },
     "ca6d2c0c3268": {
       "chunks_done": null,
       "chunks_total": null,
@@ -63466,11 +63742,12 @@
       "url": "https://attalpresident.fr/programme/dette-de-letat"
     },
     "cb0c4447dcfa": {
+      "abandoned_at": "2026-11-06T10:53:12+00:00",
       "attempts": 7,
       "error": "ValueError: HTTP 404",
-      "next_retry_at": "2026-11-01T12:11:19+00:00",
       "processed_at": "2026-10-18T12:11:19+00:00",
-      "status": "technical_error",
+      "reason": "permanent_error_retry_budget_exhausted",
+      "status": "retry_abandoned",
       "url": "https://parti-equinoxe.fr/articles/2022/05/la-transition-energetique-selon-les-ex-candidats-a-la-presidentielle-2/"
     },
     "cb19864ae669": {
@@ -64381,11 +64658,12 @@
       "url": "https://rassemblementnational.fr/"
     },
     "ec2e2746a750": {
+      "abandoned_at": "2026-11-06T10:53:12+00:00",
       "attempts": 1,
       "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
-      "next_retry_at": "2026-08-11T18:14:59+00:00",
       "processed_at": "2026-08-11T12:14:59+00:00",
-      "status": "technical_error",
+      "reason": "retry_never_rescheduled",
+      "status": "retry_abandoned",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
     "ecef7d803a53": {
@@ -64558,6 +64836,15 @@
       "source_sha256": "494ef263d4355130f2a03a16ddd9ea82e829f7ed40313834b871150a9fba55bd",
       "status": "promoted",
       "url": "https://solutiondemocratique.fr/presidentielle2027-annonce-candidature-clara-egger/"
+    },
+    "f2cca80b39ce": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-11-06T10:58:02+00:00",
+      "reason": null,
+      "source_sha256": "8e9a1451397530e4b58111521aacebba8cc335c7b294128b3bd53d1bbcf4e7fb",
+      "status": "promoted",
+      "url": "https://attalpresident.fr/programme/mesures/interessement-vers-epargne-retraite"
     },
     "f338d43fc637": {
       "chunks_done": null,
