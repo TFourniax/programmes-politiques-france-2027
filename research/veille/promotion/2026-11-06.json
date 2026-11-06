@@ -1,51 +1,38 @@
 {
   "errors": [],
-  "generated_at": "2026-11-06T10:58:32+00:00",
+  "generated_at": "2026-11-06T20:05:22+00:00",
   "historical_skipped": 0,
   "partial": 0,
   "processed": 3,
-  "promoted": 3,
-  "proposals_created": 3,
+  "promoted": 1,
+  "proposals_created": 6,
   "results": [
     {
-      "chunks_total": 1,
-      "document": "corpus/2027/auto/candidates/gabriel-attal/2026-06-17-e71513d3a614.md",
-      "proposals": [
-        "proposals/auto/retraites/auto-gabriel-attal-retraites-96c306f4d208.md"
-      ],
-      "sha256": "8e9a1451397530e4b58111521aacebba8cc335c7b294128b3bd53d1bbcf4e7fb",
-      "status": "promoted",
-      "status_updates": [],
-      "url": "https://attalpresident.fr/programme/mesures/interessement-vers-epargne-retraite",
-      "verified_at": "2026-11-06T10:57:59+00:00"
+      "sha256": "98a88ddc0a71b813558fed462ff7f2a583d1b76e2254703cfbd43cebbd80baa3",
+      "status": "not_confirmed",
+      "url": "https://melenchon2027.fr/programme/livre/"
+    },
+    {
+      "sha256": "9d44d364bd49e0e31870b075a7f1276f3134a421d4f233474d220765e08f3b90",
+      "status": "not_confirmed",
+      "url": "https://melenchon2027.fr/"
     },
     {
       "chunks_total": 1,
-      "document": "corpus/2027/auto/candidates/gabriel-attal/2026-11-06-d93adb069b37.md",
+      "document": "corpus/2027/auto/partys/equinoxe/2026-11-06-38fd42368084.md",
       "proposals": [
-        "proposals/auto/services-publics/auto-gabriel-attal-services-publics-49648e2d66c3.md"
+        "proposals/auto/institutions-democratie/auto-equinoxe-institutions-democratie-9b6cc8950f26.md",
+        "proposals/auto/institutions-democratie/auto-equinoxe-institutions-democratie-11e750b0f297.md",
+        "proposals/auto/institutions-democratie/auto-equinoxe-institutions-democratie-de8e41f8910c.md",
+        "proposals/auto/ecologie-energie/auto-equinoxe-ecologie-energie-6752e0b08a61.md",
+        "proposals/auto/fiscalite-redistribution/auto-equinoxe-fiscalite-redistribution-cb901a2355d2.md",
+        "proposals/auto/services-publics/auto-equinoxe-services-publics-b7c215b6dfb9.md"
       ],
-      "provenance_updates": [
-        "auto-gabriel-attal-retraites-57839af08199",
-        "auto-gabriel-attal-retraites-96c306f4d208"
-      ],
-      "sha256": "9f6e5a7a3bda1a50a03d30f8a1e8291e9ca8ce10642fd21c32204660609c1e8d",
+      "sha256": "91d31cc29af0ae299545442a8ae414fda852a1e70a0825c3a95fa4066a57aef8",
       "status": "promoted",
       "status_updates": [],
-      "url": "https://attalpresident.fr/programme/publics/retraites",
-      "verified_at": "2026-11-06T10:58:18+00:00"
-    },
-    {
-      "chunks_total": 1,
-      "document": "corpus/2027/auto/candidates/gabriel-attal/2026-07-03-825c32ee3aa8.md",
-      "proposals": [
-        "proposals/auto/europe-souverainete/auto-gabriel-attal-europe-souverainete-118612950ccd.md"
-      ],
-      "sha256": "bda2abfba28691ea8e25ffa15fe1f5e6e2bdfc9957991a4bb1413782cadcdccd",
-      "status": "promoted",
-      "status_updates": [],
-      "url": "https://attalpresident.fr/programme/mesures/livre-blanc-defense-2027",
-      "verified_at": "2026-11-06T10:58:29+00:00"
+      "url": "https://parti-equinoxe.fr/programme-2027/",
+      "verified_at": "2026-11-06T20:05:15+00:00"
     }
   ],
   "status_updates": 0

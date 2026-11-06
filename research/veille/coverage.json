@@ -6,18 +6,18 @@
     "actors": 68,
     "declared_or_active_candidates": 27,
     "topics": 12,
-    "current_proposals": 1410,
-    "covered_actor_topic_cells": 162,
+    "current_proposals": 1416,
+    "covered_actor_topic_cells": 163,
     "total_actor_topic_cells": 816,
-    "actor_topic_coverage_ratio": 0.1985,
+    "actor_topic_coverage_ratio": 0.1998,
     "active_candidate_covered_cells": 74,
     "active_candidate_total_cells": 324,
     "active_candidate_topic_coverage_ratio": 0.2284,
-    "verified_proposals": 1377,
+    "verified_proposals": 1383,
     "multi_source_proposals": 100,
     "latest_evidence_at": "2026-11-06",
     "certainty_counts": {
-      "explicit": 1385,
+      "explicit": 1391,
       "explicit_but_conditional": 3,
       "explicit_but_underspecified": 22
     }
@@ -1904,26 +1904,26 @@
       "type": "party",
       "status": null,
       "confidence": null,
-      "current_proposals": 8,
+      "current_proposals": 14,
       "covered_topics": [
         "ecologie-energie",
         "economie-finances",
         "fiscalite-redistribution",
+        "institutions-democratie",
         "securite-justice",
         "services-publics"
       ],
-      "coverage_ratio": 0.4167,
+      "coverage_ratio": 0.5,
       "gaps": [
         "pouvoir-achat-travail",
         "retraites",
         "immigration-integration",
         "europe-souverainete",
         "defense-international",
-        "institutions-democratie",
         "numerique-ia"
       ],
-      "latest_evidence_at": "2026-10-15",
-      "verified_proposals": 6,
+      "latest_evidence_at": "2026-11-06",
+      "verified_proposals": 12,
       "multi_source_proposals": 0
     },
     {
@@ -1978,11 +1978,11 @@
     {
       "id": "fiscalite-redistribution",
       "label": "Fiscalité & redistribution",
-      "current_proposals": 75,
+      "current_proposals": 76,
       "actors_covered": 11,
       "actor_coverage_ratio": 0.1618,
-      "latest_evidence_at": "2026-10-24",
-      "verified_proposals": 73,
+      "latest_evidence_at": "2026-11-06",
+      "verified_proposals": 74,
       "multi_source_proposals": 3
     },
     {
@@ -2018,31 +2018,31 @@
     {
       "id": "ecologie-energie",
       "label": "Écologie & énergie",
-      "current_proposals": 220,
+      "current_proposals": 221,
       "actors_covered": 18,
       "actor_coverage_ratio": 0.2647,
-      "latest_evidence_at": "2026-10-24",
-      "verified_proposals": 214,
+      "latest_evidence_at": "2026-11-06",
+      "verified_proposals": 215,
       "multi_source_proposals": 5
     },
     {
       "id": "institutions-democratie",
       "label": "Institutions & démocratie",
-      "current_proposals": 274,
-      "actors_covered": 15,
-      "actor_coverage_ratio": 0.2206,
-      "latest_evidence_at": "2026-10-24",
-      "verified_proposals": 270,
+      "current_proposals": 277,
+      "actors_covered": 16,
+      "actor_coverage_ratio": 0.2353,
+      "latest_evidence_at": "2026-11-06",
+      "verified_proposals": 273,
       "multi_source_proposals": 29
     },
     {
       "id": "services-publics",
       "label": "Services publics",
-      "current_proposals": 250,
+      "current_proposals": 251,
       "actors_covered": 17,
       "actor_coverage_ratio": 0.25,
       "latest_evidence_at": "2026-11-06",
-      "verified_proposals": 247,
+      "verified_proposals": 248,
       "multi_source_proposals": 8
     },
     {

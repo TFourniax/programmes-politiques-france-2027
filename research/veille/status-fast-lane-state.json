@@ -199,7 +199,7 @@
       "error": "ValueError: HTTP 403",
       "event_url": "https://www.pcf.fr/une_candidature_de_gauche_au_service_de_l_aube_et_de_ses_communes",
       "owner": "Parti communiste français",
-      "processed_at": "2026-11-06T10:55:55+00:00",
+      "processed_at": "2026-11-06T20:02:11+00:00",
       "status": "technical_error"
     },
     "11790ff34ddd": {
@@ -369,7 +369,7 @@
       "error": "ValueError: HTTP 403",
       "event_url": "https://www.pcf.fr/presidentielle2027_fabien_roussel_designe_candidat",
       "owner": "Parti communiste français",
-      "processed_at": "2026-11-06T10:55:54+00:00",
+      "processed_at": "2026-11-06T20:02:10+00:00",
       "status": "technical_error"
     },
     "1f5b28d9f616": {
@@ -1566,6 +1566,16 @@
       "reason": "no_deterministic_transition",
       "status": "not_applicable"
     },
+    "797c7ab724dc": {
+      "candidate_id": "jean-luc-melenchon",
+      "current_status": "declared_presidential",
+      "event_url": "https://melenchon2027.fr/",
+      "new_status": "party_designated",
+      "owner": "La France insoumise",
+      "processed_at": "2026-11-06T20:02:10+00:00",
+      "reason": "transition_not_monotonic",
+      "status": "not_applicable"
+    },
     "7a275a575925": {
       "event_url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne",
       "owner": "Gabriel Attal",
@@ -2205,7 +2215,7 @@
       "error": "ValueError: HTTP 403",
       "event_url": "https://www.pcf.fr/presidentielle_2027_mjcf_s_engage_pour_candidature_communiste",
       "owner": "Parti communiste français",
-      "processed_at": "2026-11-06T10:55:55+00:00",
+      "processed_at": "2026-11-06T20:02:10+00:00",
       "status": "technical_error"
     },
     "b74ecaeff180": {
@@ -2237,6 +2247,13 @@
       "owner": "Gabriel Attal",
       "processed_at": "2026-10-16T17:33:13+00:00",
       "status": "already_current"
+    },
+    "b87db6e07cab": {
+      "event_url": "https://melenchon2027.fr/programme/livre/",
+      "owner": "La France insoumise",
+      "processed_at": "2026-11-06T20:02:09+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
     },
     "b88c50cd309b": {
       "event_url": "https://npa-revolutionnaires.org/dossier-presidentielle-2027-selma-labib-une-candidature-ouvriere-et-revolutionnaire-soutenue-par-gael-quirante-paru-dans-revolutionnaires-n-60/",
@@ -2485,7 +2502,7 @@
       "error": "ValueError: HTTP 404",
       "event_url": "https://parti-equinoxe.fr/articles/2022/05/la-transition-energetique-selon-les-ex-candidats-a-la-presidentielle-2/",
       "owner": "Équinoxe",
-      "processed_at": "2026-11-06T10:55:55+00:00",
+      "processed_at": "2026-11-06T20:02:11+00:00",
       "status": "technical_error"
     },
     "cb3428b2b6d3": {
@@ -3146,7 +3163,7 @@
     }
   },
   "last_error_count": 4,
-  "last_run_at": "2026-11-06T10:55:55+00:00",
+  "last_run_at": "2026-11-06T20:02:11+00:00",
   "last_updated_count": 0,
   "version": 1
 }
