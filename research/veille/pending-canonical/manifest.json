@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created_at": "2026-08-17T19:57:19.441897+00:00",
-  "updated_at": "2026-11-07T07:22:14.301631+00:00",
+  "updated_at": "2026-11-07T14:18:20.206035+00:00",
   "files": [
     {
       "path": "corpus/2027/auto/candidates/anasse-kazib/2026-08-28-38891602d9d9.md",
@@ -942,6 +942,16 @@
       "path": "corpus/2027/auto/partys/la-france-insoumise/2026-10-20-eca7bd5872c8.md",
       "sha256": "8f7dffc62b17b52ca8dde2fb22467c117dcb3068bf41422663d51475408d92c7",
       "size": 1694
+    },
+    {
+      "path": "corpus/2027/auto/partys/la-france-insoumise/2026-11-07-8120ce4d3047.md",
+      "sha256": "6a67ccd08f500c6d1d4c45f165a1841647f066b5f0a7235ac83e6d939a126ac6",
+      "size": 1573
+    },
+    {
+      "path": "corpus/2027/auto/partys/la-france-insoumise/2026-11-07-c17cb83aa2f5.md",
+      "sha256": "e8e425383006b1cf62ba67e262910a23040e78c6b4cc78a4b75a95251e6b7465",
+      "size": 1684
     },
     {
       "path": "corpus/2027/auto/partys/les-ecologistes/2026-08-17-9c2f01b4f3fc.md",
@@ -1959,6 +1969,11 @@
       "size": 1969
     },
     {
+      "path": "proposals/auto/ecologie-energie/auto-jean-luc-melenchon-ecologie-energie-5d757538ea91.md",
+      "sha256": "8895b79e24ea0a77f251c752d0def286b4af3f68f96a9c2dc186e4af42dd3fa7",
+      "size": 1455
+    },
+    {
       "path": "proposals/auto/ecologie-energie/auto-la-france-insoumise-ecologie-energie-1539683a082c.md",
       "sha256": "d0faa4e6b7839fc63cef871397ffc7a5a9de141f6ba7baf478e87b042c06e489",
       "size": 1392
@@ -2647,6 +2662,11 @@
       "path": "proposals/auto/institutions-democratie/auto-equinoxe-institutions-democratie-de8e41f8910c.md",
       "sha256": "416729ecd713d8add4ebca98a8beb77ccddd20735792d8327045218e5a2e42a2",
       "size": 1445
+    },
+    {
+      "path": "proposals/auto/institutions-democratie/auto-jean-luc-melenchon-institutions-democratie-8e09285dec35.md",
+      "sha256": "bd8eb461176c42ec9ac52f5913bd60bf5f4d55d2a5ace877dd458f4a7c7be5a2",
+      "size": 1182
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-les-ecologistes-institutions-democratie-07f4bc74473a.md",

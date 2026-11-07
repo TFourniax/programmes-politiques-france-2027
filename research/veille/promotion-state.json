@@ -840,6 +840,11 @@
       "source_url": "https://melenchon2027.fr/programme2025/livre/chapitre17/",
       "verified_at": "2026-08-13T00:20:30+00:00"
     },
+    "5d757538ea91dce72e0af81e592c4c4b63e233844310425d424a7e5edcef2045": {
+      "proposal_id": "auto-jean-luc-melenchon-ecologie-energie-5d757538ea91",
+      "source_url": "https://melenchon2027.fr/programme/decouvrir/",
+      "verified_at": "2026-11-07T14:18:11+00:00"
+    },
     "5d7a975255702c33d7983d41e814a661bfb8b1f518de209645032df676c021c3": {
       "proposal_id": "auto-nouvelle-energie-fiscalite-redistribution-5d7a97525570",
       "source_url": "https://www.unenouvelleenergie.fr/notre-programme/",
@@ -1289,6 +1294,11 @@
       "proposal_id": "auto-david-lisnard-institutions-democratie-8dc9338c9297",
       "source_url": "https://www.unenouvelleenergie.fr/notre-programme/",
       "verified_at": "2026-08-20T20:01:37+00:00"
+    },
+    "8e09285dec35ddd00fcb396d74b02e88780f4fc7d82a84ab2a05d2429772be20": {
+      "proposal_id": "auto-jean-luc-melenchon-institutions-democratie-8e09285dec35",
+      "source_url": "https://melenchon2027.fr/programme/livre/",
+      "verified_at": "2026-11-07T14:17:35+00:00"
     },
     "8e4dff9f2d6cdb57e81be9a3dc5fd053196d870d2d65e7d53d494139435678c9": {
       "proposal_id": "auto-la-france-insoumise-services-publics-8e4dff9f2d6c",
@@ -2283,7 +2293,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-11-07T07:22:02+00:00",
+  "last_run_at": "2026-11-07T14:18:15+00:00",
   "source_chunks": {
     "000e79baea11403029d335b1": {
       "canonical_confirmations": [
@@ -30405,6 +30415,65 @@
       "updated_at": "2026-09-06T11:47:28+00:00",
       "url": "https://attalpresident.fr/programme/dette-de-letat"
     },
+    "8120ce4d30471b2750e2a415": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "jean-luc-melenchon",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "Fonder la 6 e République",
+            "relevance": "direct",
+            "statement": "Fonder la 6e République et donner le pouvoir au peuple",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La source mentionne explicitement la Partie 5 Fonder la 6e République et le Chapitre 1 Le pouvoir au peuple pour la campagne 2027 de Jean-Luc Mélenchon.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [
+        {
+          "claim": {
+            "actor_id": "jean-luc-melenchon",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "Fonder la 6 e République",
+            "relevance": "direct",
+            "statement": "Fonder la 6e République et donner le pouvoir au peuple",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La source mentionne explicitement la Partie 5 Fonder la 6e République et le Chapitre 1 Le pouvoir au peuple pour la campagne 2027 de Jean-Luc Mélenchon.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "completed_at": "2026-11-07T14:17:35+00:00",
+      "created_at": "2026-11-07T14:17:25+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "36c00c5620980f9ea501200ff79a5bcaf711d5867851f872d09658bc2d3c0b88",
+      "source_title": "L’Avenir en commun – Table des matières - Mélenchon 2027 : Soutenez ma candidature à l’élection présidentielle",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-07T14:17:35+00:00",
+      "url": "https://melenchon2027.fr/programme/livre/"
+    },
     "819677599e6ce43407d3f052": {
       "canonical_confirmations": [],
       "claims": [],
@@ -45138,6 +45207,65 @@
       "updated_at": "2026-08-21T19:51:12+00:00",
       "url": "https://bsky.app/profile/lesecologistes.fr/post/3mtm63wu5j22l"
     },
+    "c17cb83aa2f55935ccdae6ac": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "jean-luc-melenchon",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "Le pôle public bancaire soutiendra les investissements définis dans le cadre d’une planification écologique",
+            "relevance": "direct",
+            "statement": "Le pôle public bancaire soutiendra les investissements définis dans le cadre d'une planification écologique nationale.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La source confirme explicitement l'engagement de Jean-Luc Mélenchon pour 2027 concernant le pôle public bancaire et la planification écologique.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [
+        {
+          "claim": {
+            "actor_id": "jean-luc-melenchon",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "Le pôle public bancaire soutiendra les investissements définis dans le cadre d’une planification écologique",
+            "relevance": "direct",
+            "statement": "Le pôle public bancaire soutiendra les investissements définis dans le cadre d'une planification écologique nationale.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La source confirme explicitement l'engagement de Jean-Luc Mélenchon pour 2027 concernant le pôle public bancaire et la planification écologique.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "completed_at": "2026-11-07T14:18:11+00:00",
+      "created_at": "2026-11-07T14:17:55+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "1e5e3520f4987f08e14ee91e2000e76ed86b84f30611b8c09a6658cf881d0e37",
+      "source_title": "Découvrir le programme - Mélenchon 2027 : Soutenez ma candidature à l’élection présidentielle",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-07T14:18:11+00:00",
+      "url": "https://melenchon2027.fr/programme/decouvrir/"
+    },
     "c1e89d3cc55fcd81ac145aa0": {
       "canonical_confirmations": [],
       "claims": [],
@@ -52065,6 +52193,26 @@
       "total": 1,
       "updated_at": "2026-08-16T02:44:52+00:00",
       "url": "https://solutiondemocratique.fr/laurent-wauquiez-programme-presidentielle2027/"
+    },
+    "dfbdf57643e5ead363c5894e": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-11-07T14:17:39+00:00",
+      "document_types": [
+        "party_programme"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "36c00c5620980f9ea501200ff79a5bcaf711d5867851f872d09658bc2d3c0b88",
+      "source_title": "L’Avenir en commun – Table des matières - Mélenchon 2027 : Soutenez ma candidature à l’élection présidentielle",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-07T14:17:54+00:00",
+      "url": "https://melenchon2027.fr/programme/livre"
     },
     "e09c48211f3a6c81ad984a9b": {
       "canonical_confirmations": [
@@ -59456,6 +59604,15 @@
       "status": "promoted",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
+    "1afb6968939e": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-11-07T14:18:14+00:00",
+      "reason": null,
+      "source_sha256": "1e5e3520f4987f08e14ee91e2000e76ed86b84f30611b8c09a6658cf881d0e37",
+      "status": "promoted",
+      "url": "https://melenchon2027.fr/programme/decouvrir/"
+    },
     "1b04d4aaf36f": {
       "chunks_done": null,
       "chunks_total": 1,
@@ -59957,6 +60114,15 @@
       "source_sha256": "fa7a9d84c95e99f9c18318e5d9a1d3685639172dc6ce9147a62582d33c3b3abc",
       "status": "promoted",
       "url": "https://attalpresident.fr/programme/dette-de-letat"
+    },
+    "2c56312e78ed": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-11-07T14:17:38+00:00",
+      "reason": null,
+      "source_sha256": "36c00c5620980f9ea501200ff79a5bcaf711d5867851f872d09658bc2d3c0b88",
+      "status": "promoted",
+      "url": "https://melenchon2027.fr/programme/livre/"
     },
     "2c607fb7b1f5": {
       "chunks_done": null,
@@ -61206,6 +61372,15 @@
       "source_sha256": "b589e48ead6fd8e6f5166b52e0bcd92ea031cae723d4a69e288f2eb16e5afb21",
       "status": "promoted",
       "url": "https://npa-revolutionnaires.org/communique-presidentielle-2027-selma-labib-une-candidature-ouvriere-et-revolutionnaire-soutenue-par-gael-quirante/"
+    },
+    "57f286bd3551": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-11-07T14:17:54+00:00",
+      "reason": null,
+      "source_sha256": "36c00c5620980f9ea501200ff79a5bcaf711d5867851f872d09658bc2d3c0b88",
+      "status": "not_confirmed",
+      "url": "https://melenchon2027.fr/programme/livre"
     },
     "5899f526e371": {
       "chunks_done": null,
