@@ -1,0 +1,36 @@
+{
+  "errors": [],
+  "generated_at": "2026-11-07T07:22:02+00:00",
+  "historical_skipped": 0,
+  "partial": 0,
+  "processed": 3,
+  "promoted": 1,
+  "proposals_created": 0,
+  "results": [
+    {
+      "sha256": "c5c558ad138050cb87767b09b6c2e00ce8e0391d84c5c492d74c588c500cbe4d",
+      "status": "not_confirmed",
+      "url": "https://melenchon2027.fr/programme/livre/"
+    },
+    {
+      "document": "corpus/2027/auto/partys/equinoxe/2026-11-07-6cacea4f0848.md",
+      "provenance_updates": [
+        "auto-equinoxe-fiscalite-redistribution-cb901a2355d2",
+        "auto-equinoxe-institutions-democratie-11e750b0f297",
+        "auto-equinoxe-institutions-democratie-9b6cc8950f26",
+        "auto-equinoxe-services-publics-b7c215b6dfb9"
+      ],
+      "reason": "canonical_duplicate_evidence",
+      "sha256": "394556fda786eeaea7313b967df5fa65d8638c2b59d92cd9c10ca33cfd0ed18f",
+      "status": "promoted",
+      "url": "https://parti-equinoxe.fr/programme-2027/",
+      "verified_at": "2026-11-07T07:21:57+00:00"
+    },
+    {
+      "sha256": "ec8c95116b4f7bda8a2436136c80b9c6b2743be855506b5e71e323a73079e750",
+      "status": "not_confirmed",
+      "url": "https://melenchon2027.fr/"
+    }
+  ],
+  "status_updates": 0
+}

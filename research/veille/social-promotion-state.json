@@ -2387,6 +2387,15 @@
       "status": "not_confirmed",
       "url": "https://bsky.app/profile/lesecologistes.fr/post/3mwtjdtudo222"
     },
+    "c9ddbf9e1fb1f9674856": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-11-07T07:22:11+00:00",
+      "provenance_updates": [],
+      "source_sha256": "4bc786e6f95ddb9a6cda10c9aedd9af3d5275ba214eea4aac4a274945d0c78dd",
+      "status": "promoted",
+      "url": "https://bsky.app/profile/marinetondelier.fr/post/3mzo7yhwfoc2b"
+    },
     "c9ecafc985bda157e901": {
       "chunks_done": null,
       "chunks_total": null,
@@ -3158,7 +3167,7 @@
     }
   },
   "last_error_count": 0,
-  "last_processed_count": 0,
-  "last_run_at": "2026-11-06T20:05:22+00:00",
+  "last_processed_count": 1,
+  "last_run_at": "2026-11-07T07:22:11+00:00",
   "version": 2
 }

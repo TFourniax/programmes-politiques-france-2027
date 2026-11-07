@@ -1200,6 +1200,11 @@
       "source_url": "https://parti-equinoxe.fr/legislative-partielle-2025-isere/programme-cohesion/",
       "verified_at": "2026-09-02T12:18:04+00:00"
     },
+    "837366002f65615b322de883a159437014e9a4224fdffef527a1414a1e781e73": {
+      "proposal_id": "auto-marine-tondelier-ecologie-energie-837366002f65",
+      "source_url": "https://bsky.app/profile/marinetondelier.fr/post/3mzo7yhwfoc2b",
+      "verified_at": "2026-11-07T07:22:09+00:00"
+    },
     "83b09524e35ff31b7dc28990e86c431c6b0cb9f1499a0cb6dfc45e3b558bbf4d": {
       "proposal_id": "auto-la-france-insoumise-europe-souverainete-83b09524e35f",
       "source_url": "https://melenchon2027.fr/programme2025/livre/chapitre16/",
@@ -2278,7 +2283,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-11-06T20:05:21+00:00",
+  "last_run_at": "2026-11-07T07:22:02+00:00",
   "source_chunks": {
     "000e79baea11403029d335b1": {
       "canonical_confirmations": [
@@ -11423,6 +11428,26 @@
       "total": 1,
       "updated_at": "2026-10-09T07:35:07+00:00",
       "url": "https://www.youtube.com/shorts/g684_FP5uio"
+    },
+    "2ed5d5bfc211ffcff86cf9f1": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-11-07T07:21:32+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "c5c558ad138050cb87767b09b6c2e00ce8e0391d84c5c492d74c588c500cbe4d",
+      "source_title": "L’Avenir en commun – Table des matières - Mélenchon 2027 : Soutenez ma candidature à l’élection présidentielle",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-07T07:21:44+00:00",
+      "url": "https://melenchon2027.fr/programme/livre/"
     },
     "2fa66d59ca64b7b0ba5e4c35": {
       "canonical_confirmations": [
@@ -26647,6 +26672,65 @@
       "updated_at": "2026-09-18T17:13:19+00:00",
       "url": "https://www.youtube.com/shorts/UCOue-ztNdA"
     },
+    "6c49f3c359a6282e85cb9467": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "marine-tondelier",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "elle permet de réduire les dépenses contraintes",
+            "relevance": "direct",
+            "statement": "L'ecologie permet de reduire les depenses contraintes.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La source soutient explicitement la position de Marine Tondelier liant écologie et réduction des dépenses contraintes pour le contexte budgétaire actuel.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [
+        {
+          "claim": {
+            "actor_id": "marine-tondelier",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "elle permet de réduire les dépenses contraintes",
+            "relevance": "direct",
+            "statement": "L'ecologie permet de reduire les depenses contraintes.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La source soutient explicitement la position de Marine Tondelier liant écologie et réduction des dépenses contraintes pour le contexte budgétaire actuel.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "completed_at": "2026-11-07T07:22:09+00:00",
+      "created_at": "2026-11-07T07:22:02+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "4bc786e6f95ddb9a6cda10c9aedd9af3d5275ba214eea4aac4a274945d0c78dd",
+      "source_title": "L’écologie est l'une des conditions pour sortir de cette crise parce qu’elle permet de réduire les dépenses contraintes. Dans ma dernière note de blog, j'explique pourquoi l’absen",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-07T07:22:09+00:00",
+      "url": "https://bsky.app/profile/marinetondelier.fr/post/3mzo7yhwfoc2b"
+    },
     "6c61fbae682dcdc13ed9f702": {
       "canonical_confirmations": [],
       "claims": [],
@@ -26836,6 +26920,100 @@
       "total": 1,
       "updated_at": "2026-09-17T22:21:03+00:00",
       "url": "https://rassemblementnational.fr/"
+    },
+    "6cacea4f084833fa0d34a89e": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "equinoxe",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Sortir du présidentialisme : députés élus à la proportionnelle, un Sénat tiré au sort parmi les élus locaux",
+            "relevance": "direct",
+            "statement": "Sortir du présidentialisme en instaurant des députés élus à la proportionnelle et un Sénat tiré au sort.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La proposition est explicitement présente dans le programme 2027 et correspond au claim canonique existant.",
+            "related_proposal_id": "auto-equinoxe-institutions-democratie-9b6cc8950f26",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "equinoxe",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "350 pays de France dessinés en commun, une taxe Territoire unique et progressive",
+            "relevance": "direct",
+            "statement": "Créer 350 pays de France pour remplacer les départements et les intercommunalités.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La mesure sur les 350 pays de France est explicitement confirmée dans le programme 2027.",
+            "related_proposal_id": "auto-equinoxe-institutions-democratie-11e750b0f297",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "equinoxe",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "une taxe carbone dont 80 % reviennent chaque mois aux ménages",
+            "relevance": "direct",
+            "statement": "Mettre en place une taxe carbone dont 80 pour cent des revenus sont redistribués aux ménages.",
+            "topic": "fiscalite-redistribution"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "La taxe carbone avec 80 pour cent redistribués aux ménages est explicitement présente dans le programme 2027.",
+            "related_proposal_id": "auto-equinoxe-fiscalite-redistribution-cb901a2355d2",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "equinoxe",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Un Défenseur de la santé est nommé pour assurer la prise en compte",
+            "relevance": "direct",
+            "statement": "Instaurer un Défenseur de la santé pour assurer la prise en compte des enjeux de santé globale.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 3,
+            "reason": "La nomination d'un Défenseur de la santé est explicitement confirmée dans le programme 2027.",
+            "related_proposal_id": "auto-equinoxe-services-publics-b7c215b6dfb9",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-11-07T07:21:57+00:00",
+      "created_at": "2026-11-07T07:21:45+00:00",
+      "document_types": [
+        "party_programme"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "394556fda786eeaea7313b967df5fa65d8638c2b59d92cd9c10ca33cfd0ed18f",
+      "source_title": "Parti Équinoxe - Programme 2027",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-07T07:21:52+00:00",
+      "url": "https://parti-equinoxe.fr/programme-2027/"
     },
     "6cf83433e0643118383f4d11": {
       "canonical_confirmations": [],
@@ -49817,6 +49995,26 @@
       "updated_at": "2026-09-02T17:20:32+00:00",
       "url": "https://npa-revolutionnaires.org/articles/communique-presidentielle-2027-selma-labib-une-candidature-ouvriere-et-revolutionnaire-soutenue-par-gael-quirante"
     },
+    "d6e736f78d7c83f5a281fd88": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-11-07T07:21:58+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "ec8c95116b4f7bda8a2436136c80b9c6b2743be855506b5e71e323a73079e750",
+      "source_title": "JLM2027 – Soutenir la campagne ! - Mélenchon 2027 : Soutenez ma candidature à l’élection présidentielle",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-07T07:22:01+00:00",
+      "url": "https://melenchon2027.fr/"
+    },
     "d73594f41a902d83129191df": {
       "canonical_confirmations": [
         {
@@ -61403,6 +61601,15 @@
       "status": "not_confirmed",
       "url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne"
     },
+    "6851fde9466a": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-11-07T07:21:44+00:00",
+      "reason": null,
+      "source_sha256": "c5c558ad138050cb87767b09b6c2e00ce8e0391d84c5c492d74c588c500cbe4d",
+      "status": "not_confirmed",
+      "url": "https://melenchon2027.fr/programme/livre/"
+    },
     "6914f708a59d": {
       "chunks_done": null,
       "chunks_total": 1,
@@ -64032,6 +64239,15 @@
       "status": "promoted",
       "url": "https://solutiondemocratique.fr/programme-lfi-2027/"
     },
+    "ca6dcf9bcd80": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-11-07T07:22:01+00:00",
+      "reason": null,
+      "source_sha256": "ec8c95116b4f7bda8a2436136c80b9c6b2743be855506b5e71e323a73079e750",
+      "status": "not_confirmed",
+      "url": "https://melenchon2027.fr/programme/"
+    },
     "ca7634736c34": {
       "chunks_done": null,
       "chunks_total": null,
@@ -65010,6 +65226,15 @@
       "source_sha256": "dda0abbd3bfd4fda329f4586754e1731223a012fc7879e8fbd9aaa59ef62d2b7",
       "status": "promoted",
       "url": "https://rassemblementnational.fr/"
+    },
+    "ecf8640c88e0": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-11-07T07:21:57+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "394556fda786eeaea7313b967df5fa65d8638c2b59d92cd9c10ca33cfd0ed18f",
+      "status": "promoted",
+      "url": "https://parti-equinoxe.fr/programme-2027/"
     },
     "ed335235de12": {
       "chunks_done": null,

@@ -6,18 +6,18 @@
     "actors": 68,
     "declared_or_active_candidates": 27,
     "topics": 12,
-    "current_proposals": 1416,
+    "current_proposals": 1417,
     "covered_actor_topic_cells": 163,
     "total_actor_topic_cells": 816,
     "actor_topic_coverage_ratio": 0.1998,
     "active_candidate_covered_cells": 74,
     "active_candidate_total_cells": 324,
     "active_candidate_topic_coverage_ratio": 0.2284,
-    "verified_proposals": 1383,
-    "multi_source_proposals": 100,
-    "latest_evidence_at": "2026-11-06",
+    "verified_proposals": 1384,
+    "multi_source_proposals": 104,
+    "latest_evidence_at": "2026-11-07",
     "certainty_counts": {
-      "explicit": 1391,
+      "explicit": 1392,
       "explicit_but_conditional": 3,
       "explicit_but_underspecified": 22
     }
@@ -1242,7 +1242,7 @@
       "type": "candidate",
       "status": "declared_primary",
       "confidence": "high",
-      "current_proposals": 5,
+      "current_proposals": 6,
       "covered_topics": [
         "ecologie-energie",
         "pouvoir-achat-travail",
@@ -1260,8 +1260,8 @@
         "economie-finances",
         "numerique-ia"
       ],
-      "latest_evidence_at": "2026-10-15",
-      "verified_proposals": 5,
+      "latest_evidence_at": "2026-11-06",
+      "verified_proposals": 6,
       "multi_source_proposals": 0
     },
     {
@@ -1922,9 +1922,9 @@
         "defense-international",
         "numerique-ia"
       ],
-      "latest_evidence_at": "2026-11-06",
+      "latest_evidence_at": "2026-11-07",
       "verified_proposals": 12,
-      "multi_source_proposals": 0
+      "multi_source_proposals": 4
     },
     {
       "id": "eric-zemmour",
@@ -1981,9 +1981,9 @@
       "current_proposals": 76,
       "actors_covered": 11,
       "actor_coverage_ratio": 0.1618,
-      "latest_evidence_at": "2026-11-06",
+      "latest_evidence_at": "2026-11-07",
       "verified_proposals": 74,
-      "multi_source_proposals": 3
+      "multi_source_proposals": 4
     },
     {
       "id": "immigration-integration",
@@ -2018,11 +2018,11 @@
     {
       "id": "ecologie-energie",
       "label": "Écologie & énergie",
-      "current_proposals": 221,
+      "current_proposals": 222,
       "actors_covered": 18,
       "actor_coverage_ratio": 0.2647,
       "latest_evidence_at": "2026-11-06",
-      "verified_proposals": 215,
+      "verified_proposals": 216,
       "multi_source_proposals": 5
     },
     {
@@ -2031,9 +2031,9 @@
       "current_proposals": 277,
       "actors_covered": 16,
       "actor_coverage_ratio": 0.2353,
-      "latest_evidence_at": "2026-11-06",
+      "latest_evidence_at": "2026-11-07",
       "verified_proposals": 273,
-      "multi_source_proposals": 29
+      "multi_source_proposals": 31
     },
     {
       "id": "services-publics",
@@ -2041,9 +2041,9 @@
       "current_proposals": 251,
       "actors_covered": 17,
       "actor_coverage_ratio": 0.25,
-      "latest_evidence_at": "2026-11-06",
+      "latest_evidence_at": "2026-11-07",
       "verified_proposals": 248,
-      "multi_source_proposals": 8
+      "multi_source_proposals": 9
     },
     {
       "id": "securite-justice",
@@ -4324,8 +4324,8 @@
       "name": "Marine Tondelier",
       "status": "declared_primary",
       "coverage_ratio": 0.25,
-      "current_proposals": 5,
-      "latest_evidence_at": "2026-10-15",
+      "current_proposals": 6,
+      "latest_evidence_at": "2026-11-06",
       "topics": [
         {
           "id": "pouvoir-achat-travail",
@@ -4385,9 +4385,9 @@
           "id": "ecologie-energie",
           "label": "Écologie & énergie",
           "covered": true,
-          "current_proposals": 2,
-          "latest_evidence_at": "2026-10-15",
-          "verified_proposals": 2,
+          "current_proposals": 3,
+          "latest_evidence_at": "2026-11-06",
+          "verified_proposals": 3,
           "multi_source_proposals": 0
         },
         {
@@ -5672,8 +5672,8 @@
       "name": "Marine Tondelier",
       "status": "declared_primary",
       "coverage_ratio": 0.25,
-      "current_proposals": 5,
-      "latest_evidence_at": "2026-10-15",
+      "current_proposals": 6,
+      "latest_evidence_at": "2026-11-06",
       "gaps": [
         "retraites",
         "fiscalite-redistribution",
