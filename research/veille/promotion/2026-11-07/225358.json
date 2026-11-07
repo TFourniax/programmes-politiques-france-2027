@@ -1,0 +1,41 @@
+{
+  "errors": [],
+  "generated_at": "2026-11-07T22:53:58+00:00",
+  "historical_skipped": 0,
+  "partial": 0,
+  "processed": 3,
+  "promoted": 2,
+  "proposals_created": 3,
+  "results": [
+    {
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/partys/la-france-insoumise/2026-11-07-8120ce4d3047.md",
+      "proposals": [],
+      "sha256": "36c00c5620980f9ea501200ff79a5bcaf711d5867851f872d09658bc2d3c0b88",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://melenchon2027.fr/programme/livre/",
+      "verified_at": "2026-11-07T22:53:31+00:00"
+    },
+    {
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/candidates/antoine-mikolajczak/2026-11-07-de789e6ca149.md",
+      "proposals": [
+        "proposals/auto/services-publics/auto-equinoxe-services-publics-1f25d64f4199.md",
+        "proposals/auto/services-publics/auto-equinoxe-services-publics-9d38e96275d2.md",
+        "proposals/auto/services-publics/auto-equinoxe-services-publics-3c1de25af993.md"
+      ],
+      "sha256": "ebc4defd5019c71209763b2e13fd786482a72c10a84d2cb394ed24b55bcc67ab",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://parti-equinoxe.fr/programme-2027/un-soignant-pres-de-chez-vous/",
+      "verified_at": "2026-11-07T22:53:44+00:00"
+    },
+    {
+      "sha256": "cde16a4c7a3a55dfc17341800ad26cd65f0a6ec6bf3cf93daf986499220a8c0b",
+      "status": "not_confirmed",
+      "url": "https://parti-equinoxe.fr/programme-2027/ne-laisser-personne-seul/"
+    }
+  ],
+  "status_updates": 0
+}

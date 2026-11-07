@@ -205,6 +205,11 @@
       "source_url": "https://melenchon2027.fr/programme/plans-investissement/btp-logement/",
       "verified_at": "2026-10-25T17:11:38+00:00"
     },
+    "164ddf68c0322f5a8a3c347e206bc2379716c4374930e6f6e33693aa6bc6b978": {
+      "proposal_id": "auto-marine-tondelier-ecologie-energie-164ddf68c032",
+      "source_url": "https://bsky.app/profile/marinetondelier.fr/post/3mzqk53hvlk27",
+      "verified_at": "2026-11-07T22:54:07+00:00"
+    },
     "16933c3135fca8fe908b5812057de9b00bc54715d5a6fbf2c2dddc6484b37dda": {
       "proposal_id": "auto-la-france-insoumise-ecologie-energie-16933c3135fc",
       "source_url": "https://melenchon2027.fr/programme2025/livre/chapitre16/",
@@ -299,6 +304,11 @@
       "proposal_id": "auto-la-france-insoumise-pouvoir-achat-travail-1f0477dd0554",
       "source_url": "https://melenchon2027.fr/programme/plans-investissement/automobile/",
       "verified_at": "2026-10-25T17:11:11+00:00"
+    },
+    "1f25d64f4199a0482f371942d3a97242c0fceefac98d65aa7c08570c808fdca0": {
+      "proposal_id": "auto-equinoxe-services-publics-1f25d64f4199",
+      "source_url": "https://parti-equinoxe.fr/programme-2027/un-soignant-pres-de-chez-vous/",
+      "verified_at": "2026-11-07T22:53:44+00:00"
     },
     "1f3732277e481dcc0174911285693663485767afbca1bb4675496df269a2c624": {
       "proposal_id": "auto-revolution-permanente-securite-justice-1f3732277e48",
@@ -549,6 +559,11 @@
       "proposal_id": "auto-la-france-insoumise-europe-souverainete-3a8d6284fc4e",
       "source_url": "https://melenchon2027.fr/programme2025/livre/chapitre16/",
       "verified_at": "2026-08-13T00:20:23+00:00"
+    },
+    "3c1de25af9933b1d8214e3422e1afdd97c6fa37a7297d4623b005c1a1943aa5e": {
+      "proposal_id": "auto-equinoxe-services-publics-3c1de25af993",
+      "source_url": "https://parti-equinoxe.fr/programme-2027/un-soignant-pres-de-chez-vous/",
+      "verified_at": "2026-11-07T22:53:44+00:00"
     },
     "3c97c552b6b2d01eb8590145207f6528eb9b67b16c479a094a9dd8df61c30d44": {
       "proposal_id": "auto-les-ecologistes-ecologie-energie-3c97c552b6b2",
@@ -1425,6 +1440,11 @@
       "source_url": "https://www.unenouvelleenergie.fr/notre-programme/immigration/",
       "verified_at": "2026-08-12T03:38:03+00:00"
     },
+    "9d38e96275d2bce3de1fd8f01280a90a87b176b64d31fd9c6123e6f6536d4716": {
+      "proposal_id": "auto-equinoxe-services-publics-9d38e96275d2",
+      "source_url": "https://parti-equinoxe.fr/programme-2027/un-soignant-pres-de-chez-vous/",
+      "verified_at": "2026-11-07T22:53:44+00:00"
+    },
     "9d4093a26cc0eaab42a6f57867d9378716d863f5d24edfebd0e4b863667664bf": {
       "proposal_id": "auto-la-france-insoumise-securite-justice-9d4093a26cc0",
       "source_url": "https://melenchon2027.fr/programme2025/livre/chapitre7/",
@@ -2293,7 +2313,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-11-07T14:18:15+00:00",
+  "last_run_at": "2026-11-07T22:53:58+00:00",
   "source_chunks": {
     "000e79baea11403029d335b1": {
       "canonical_confirmations": [
@@ -30456,7 +30476,7 @@
           }
         }
       ],
-      "completed_at": "2026-11-07T14:17:35+00:00",
+      "completed_at": "2026-11-07T22:53:31+00:00",
       "created_at": "2026-11-07T14:17:25+00:00",
       "document_types": [
         "campaign_website_page"
@@ -30471,7 +30491,7 @@
       "statuses": [],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-11-07T14:17:35+00:00",
+      "updated_at": "2026-11-07T22:53:31+00:00",
       "url": "https://melenchon2027.fr/programme/livre/"
     },
     "819677599e6ce43407d3f052": {
@@ -37194,6 +37214,65 @@
       "total": 1,
       "updated_at": "2026-09-09T12:30:09+00:00",
       "url": "https://bsky.app/profile/marinetondelier.fr/post/3mv36p7kn4s27"
+    },
+    "a5da4917231cf9d4c0494b6b": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "marine-tondelier",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "On ne règlera pas les problèmes de pouvoir d'achat des Français·es sans mener une politique de transition écologique.",
+            "relevance": "direct",
+            "statement": "Mener une politique de transition écologique pour régler les problèmes de pouvoir d'achat.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La proposition est explicitement soutenue par la source et aborde le lien entre pouvoir d'achat et transition écologique, ce qui constitue une entrée inédite par rapport au canon actuel.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [
+        {
+          "claim": {
+            "actor_id": "marine-tondelier",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "On ne règlera pas les problèmes de pouvoir d'achat des Français·es sans mener une politique de transition écologique.",
+            "relevance": "direct",
+            "statement": "Mener une politique de transition écologique pour régler les problèmes de pouvoir d'achat.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La proposition est explicitement soutenue par la source et aborde le lien entre pouvoir d'achat et transition écologique, ce qui constitue une entrée inédite par rapport au canon actuel.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "completed_at": "2026-11-07T22:54:07+00:00",
+      "created_at": "2026-11-07T22:53:58+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "7174d4f23cb4d90a4f719f731741e6c996df8ffc1736fd7e9f3bc949cd2e363b",
+      "source_title": "On ne règlera pas les problèmes de pouvoir d'achat des Français·es sans mener une politique de transition écologique. Voilà pourquoi je n'attends pas seulement des réponses du gou",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-07T22:54:07+00:00",
+      "url": "https://bsky.app/profile/marinetondelier.fr/post/3mzqk53hvlk27"
     },
     "a62ba97f9981703fdc3fc130": {
       "canonical_confirmations": [],
@@ -50606,6 +50685,26 @@
       "updated_at": "2026-08-18T08:07:47+00:00",
       "url": "https://npa-revolutionnaires.org/communique-presidentielle-2027-selma-labib-une-candidature-ouvriere-et-revolutionnaire-soutenue-par-gael-quirante/"
     },
+    "d936bcd4de98563cb7a43fe8": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-11-07T22:53:53+00:00",
+      "document_types": [
+        "party_programme"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "cde16a4c7a3a55dfc17341800ad26cd65f0a6ec6bf3cf93daf986499220a8c0b",
+      "source_title": "Lutte contre la solitude : le lien social - Parti Équinoxe",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-07T22:53:58+00:00",
+      "url": "https://parti-equinoxe.fr/programme-2027/ne-laisser-personne-seul/"
+    },
     "d93adb069b379dc986d75b74": {
       "canonical_confirmations": [
         {
@@ -51779,6 +51878,137 @@
       "total": 1,
       "updated_at": "2026-09-09T17:18:28+00:00",
       "url": "https://npa-revolutionnaires.org/articles/sur-rtl-presidentielle-2027-selma-labib-officiellement-candidate-pour-le-npa-revolutionnaires"
+    },
+    "de789e6ca149857797a50112": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "equinoxe",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "les installations de médecins libéraux sont conditionnées aux besoins prioritaires",
+            "relevance": "direct",
+            "statement": "Conditionner les installations de médecins libéraux aux besoins prioritaires établis par bassin de vie.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La proposition est explicitement présente dans la source et absente du canonique.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "equinoxe",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Le Contrat d’engagement de service public (CESP) est systématisé pour tous les étudiants en médecine",
+            "relevance": "direct",
+            "statement": "Systématiser le Contrat d'engagement de service public (CESP) pour tous les étudiants en médecine.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La proposition sur le CESP est explicitement présente dans la source et nouvelle.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "equinoxe",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Le nombre de structures mobiles, sur le modèle des médicobus, est triplé.",
+            "relevance": "direct",
+            "statement": "Tripler le nombre de structures mobiles de santé sur le modèle des médicobus dans les zones sous-dotées.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "La proposition sur les structures mobiles est explicitement soutenue par la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [
+        {
+          "claim": {
+            "actor_id": "equinoxe",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "les installations de médecins libéraux sont conditionnées aux besoins prioritaires",
+            "relevance": "direct",
+            "statement": "Conditionner les installations de médecins libéraux aux besoins prioritaires établis par bassin de vie.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La proposition est explicitement présente dans la source et absente du canonique.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "equinoxe",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Le Contrat d’engagement de service public (CESP) est systématisé pour tous les étudiants en médecine",
+            "relevance": "direct",
+            "statement": "Systématiser le Contrat d'engagement de service public (CESP) pour tous les étudiants en médecine.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La proposition sur le CESP est explicitement présente dans la source et nouvelle.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "equinoxe",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Le nombre de structures mobiles, sur le modèle des médicobus, est triplé.",
+            "relevance": "direct",
+            "statement": "Tripler le nombre de structures mobiles de santé sur le modèle des médicobus dans les zones sous-dotées.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "La proposition sur les structures mobiles est explicitement soutenue par la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "completed_at": "2026-11-07T22:53:44+00:00",
+      "created_at": "2026-11-07T22:53:35+00:00",
+      "document_types": [
+        "party_programme"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "ebc4defd5019c71209763b2e13fd786482a72c10a84d2cb394ed24b55bcc67ab",
+      "source_title": "Déserts médicaux : un soignant près de vous - Parti Équinoxe",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-07T22:53:44+00:00",
+      "url": "https://parti-equinoxe.fr/programme-2027/un-soignant-pres-de-chez-vous/"
     },
     "dead912f08675f62838e371e": {
       "canonical_confirmations": [
@@ -59298,6 +59528,15 @@
       "status": "retry_abandoned",
       "url": "https://www.pcf.fr/une_candidature_de_gauche_au_service_de_l_aube_et_de_ses_communes"
     },
+    "0e6612a0a76a": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-11-07T22:53:58+00:00",
+      "reason": null,
+      "source_sha256": "cde16a4c7a3a55dfc17341800ad26cd65f0a6ec6bf3cf93daf986499220a8c0b",
+      "status": "not_confirmed",
+      "url": "https://parti-equinoxe.fr/programme-2027/ne-laisser-personne-seul/"
+    },
     "0f060de7df66": {
       "chunks_done": null,
       "chunks_total": null,
@@ -59880,6 +60119,15 @@
       "source_sha256": "ab0fbec179003fb8a598e04c796b1a7e422682681d31a744b1d8024ccba49f6a",
       "status": "promoted",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
+    "24e6e6c237a3": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-11-07T22:53:52+00:00",
+      "reason": null,
+      "source_sha256": "ebc4defd5019c71209763b2e13fd786482a72c10a84d2cb394ed24b55bcc67ab",
+      "status": "promoted",
+      "url": "https://parti-equinoxe.fr/programme-2027/un-soignant-pres-de-chez-vous/"
     },
     "25461981014b": {
       "chunks_done": null,
@@ -63411,6 +63659,15 @@
       "source_sha256": "829902af75ceb79807f462ed617e367bf6b410cec2841045e65d98171c0624f4",
       "status": "promoted",
       "url": "https://anasse2027.fr/programme"
+    },
+    "aad42f47fc42": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-11-07T22:53:34+00:00",
+      "reason": null,
+      "source_sha256": "36c00c5620980f9ea501200ff79a5bcaf711d5867851f872d09658bc2d3c0b88",
+      "status": "promoted",
+      "url": "https://melenchon2027.fr/programme/livre/"
     },
     "aae0b965160f": {
       "chunks_done": null,

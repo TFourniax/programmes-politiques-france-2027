@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created_at": "2026-08-17T19:57:19.441897+00:00",
-  "updated_at": "2026-11-07T14:18:20.206035+00:00",
+  "updated_at": "2026-11-07T22:54:16.374500+00:00",
   "files": [
     {
       "path": "corpus/2027/auto/candidates/anasse-kazib/2026-08-28-38891602d9d9.md",
@@ -142,6 +142,11 @@
       "path": "corpus/2027/auto/candidates/anasse-kazib/2026-10-24-133476e1ed0d.md",
       "sha256": "6a2cdd37deb2e2d10b0a5dcfa7eb95cef63c5209e7888e5d4c99c94e7356596a",
       "size": 1478
+    },
+    {
+      "path": "corpus/2027/auto/candidates/antoine-mikolajczak/2026-11-07-de789e6ca149.md",
+      "sha256": "417a188ebc29815acdd2aca45bffc39090afc163b4f160f5994f268aa27426e6",
+      "size": 2055
     },
     {
       "path": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-02b6fd496b7b.md",
@@ -857,6 +862,11 @@
       "path": "corpus/2027/auto/candidates/marine-tondelier/2026-11-06-6c49f3c359a6.md",
       "sha256": "671825b4daf1aaf5b8035cbbd92fd61b19ae2fae992180fc2a4426dd354e0c13",
       "size": 1744
+    },
+    {
+      "path": "corpus/2027/auto/candidates/marine-tondelier/2026-11-07-a5da4917231c.md",
+      "sha256": "f2ef07c707f7cd8c4019a7e01747d4b9be06be942153e0a0ca494e8f904008ef",
+      "size": 1850
     },
     {
       "path": "corpus/2027/auto/candidates/nicolas-dupont-aignan/2026-10-21-8ae230201df1.md",
@@ -2229,6 +2239,11 @@
       "size": 1423
     },
     {
+      "path": "proposals/auto/ecologie-energie/auto-marine-tondelier-ecologie-energie-164ddf68c032.md",
+      "sha256": "b9ca25aea529b53ea834493042fefd84d92267b4413b3f14ec50ec74cb42f640",
+      "size": 1389
+    },
+    {
       "path": "proposals/auto/ecologie-energie/auto-marine-tondelier-ecologie-energie-5faff2263045.md",
       "sha256": "51d66da0cc270e3d6422d16da7a3ad9537c667ffb6efc6e57ff056ccf8b51aea",
       "size": 1339
@@ -3234,9 +3249,24 @@
       "size": 1951
     },
     {
+      "path": "proposals/auto/services-publics/auto-equinoxe-services-publics-1f25d64f4199.md",
+      "sha256": "ff7d4cd9a662ee82ba04c558bf38a6267ebd66fb7b0f8aad03a539e9bbbd8aeb",
+      "size": 1379
+    },
+    {
+      "path": "proposals/auto/services-publics/auto-equinoxe-services-publics-3c1de25af993.md",
+      "sha256": "5278b4bfd923798985eff3532ed282933ea5cd7e97f4d11b4c3e2ac47108314f",
+      "size": 1376
+    },
+    {
       "path": "proposals/auto/services-publics/auto-equinoxe-services-publics-98a29435a0c9.md",
       "sha256": "fe4b15619b8288cab423dc95ae5305188f09feec147f37cce64a8573c7ee10d3",
       "size": 1369
+    },
+    {
+      "path": "proposals/auto/services-publics/auto-equinoxe-services-publics-9d38e96275d2.md",
+      "sha256": "b8b7411be0c8a3d3ecee3bf812b0986f7ce23f454f1336eb61e765b614944f26",
+      "size": 1385
     },
     {
       "path": "proposals/auto/services-publics/auto-equinoxe-services-publics-b7c215b6dfb9.md",

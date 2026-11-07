@@ -6,18 +6,18 @@
     "actors": 68,
     "declared_or_active_candidates": 27,
     "topics": 12,
-    "current_proposals": 1419,
+    "current_proposals": 1423,
     "covered_actor_topic_cells": 165,
     "total_actor_topic_cells": 816,
     "actor_topic_coverage_ratio": 0.2022,
     "active_candidate_covered_cells": 76,
     "active_candidate_total_cells": 324,
     "active_candidate_topic_coverage_ratio": 0.2346,
-    "verified_proposals": 1386,
+    "verified_proposals": 1390,
     "multi_source_proposals": 104,
     "latest_evidence_at": "2026-11-07",
     "certainty_counts": {
-      "explicit": 1394,
+      "explicit": 1398,
       "explicit_but_conditional": 3,
       "explicit_but_underspecified": 22
     }
@@ -1243,7 +1243,7 @@
       "type": "candidate",
       "status": "declared_primary",
       "confidence": "high",
-      "current_proposals": 6,
+      "current_proposals": 7,
       "covered_topics": [
         "ecologie-energie",
         "pouvoir-achat-travail",
@@ -1261,8 +1261,8 @@
         "economie-finances",
         "numerique-ia"
       ],
-      "latest_evidence_at": "2026-11-06",
-      "verified_proposals": 6,
+      "latest_evidence_at": "2026-11-07",
+      "verified_proposals": 7,
       "multi_source_proposals": 0
     },
     {
@@ -1905,7 +1905,7 @@
       "type": "party",
       "status": null,
       "confidence": null,
-      "current_proposals": 14,
+      "current_proposals": 17,
       "covered_topics": [
         "ecologie-energie",
         "economie-finances",
@@ -1924,7 +1924,7 @@
         "numerique-ia"
       ],
       "latest_evidence_at": "2026-11-07",
-      "verified_proposals": 12,
+      "verified_proposals": 15,
       "multi_source_proposals": 4
     },
     {
@@ -2019,11 +2019,11 @@
     {
       "id": "ecologie-energie",
       "label": "Écologie & énergie",
-      "current_proposals": 223,
+      "current_proposals": 224,
       "actors_covered": 19,
       "actor_coverage_ratio": 0.2794,
       "latest_evidence_at": "2026-11-07",
-      "verified_proposals": 217,
+      "verified_proposals": 218,
       "multi_source_proposals": 5
     },
     {
@@ -2039,11 +2039,11 @@
     {
       "id": "services-publics",
       "label": "Services publics",
-      "current_proposals": 251,
+      "current_proposals": 254,
       "actors_covered": 17,
       "actor_coverage_ratio": 0.25,
       "latest_evidence_at": "2026-11-07",
-      "verified_proposals": 248,
+      "verified_proposals": 251,
       "multi_source_proposals": 9
     },
     {
@@ -4325,8 +4325,8 @@
       "name": "Marine Tondelier",
       "status": "declared_primary",
       "coverage_ratio": 0.25,
-      "current_proposals": 6,
-      "latest_evidence_at": "2026-11-06",
+      "current_proposals": 7,
+      "latest_evidence_at": "2026-11-07",
       "topics": [
         {
           "id": "pouvoir-achat-travail",
@@ -4386,9 +4386,9 @@
           "id": "ecologie-energie",
           "label": "Écologie & énergie",
           "covered": true,
-          "current_proposals": 3,
-          "latest_evidence_at": "2026-11-06",
-          "verified_proposals": 3,
+          "current_proposals": 4,
+          "latest_evidence_at": "2026-11-07",
+          "verified_proposals": 4,
           "multi_source_proposals": 0
         },
         {
@@ -5671,8 +5671,8 @@
       "name": "Marine Tondelier",
       "status": "declared_primary",
       "coverage_ratio": 0.25,
-      "current_proposals": 6,
-      "latest_evidence_at": "2026-11-06",
+      "current_proposals": 7,
+      "latest_evidence_at": "2026-11-07",
       "gaps": [
         "retraites",
         "fiscalite-redistribution",

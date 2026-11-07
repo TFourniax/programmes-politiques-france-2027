@@ -1,11 +1,24 @@
 {
   "errors": [],
-  "generated_at": "2026-11-07T14:18:15+00:00",
+  "generated_at": "2026-11-07T22:54:12+00:00",
   "partial": 0,
-  "processed": 0,
-  "promoted": 0,
-  "proposals_created": 0,
+  "processed": 1,
+  "promoted": 1,
+  "proposals_created": 1,
   "provenance_updates": 0,
-  "results": [],
+  "results": [
+    {
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/candidates/marine-tondelier/2026-11-07-a5da4917231c.md",
+      "proposals": [
+        "proposals/auto/ecologie-energie/auto-marine-tondelier-ecologie-energie-164ddf68c032.md"
+      ],
+      "sha256": "7174d4f23cb4d90a4f719f731741e6c996df8ffc1736fd7e9f3bc949cd2e363b",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://bsky.app/profile/marinetondelier.fr/post/3mzqk53hvlk27",
+      "verified_at": "2026-11-07T22:54:07+00:00"
+    }
+  ],
   "status_updates": 0
 }
