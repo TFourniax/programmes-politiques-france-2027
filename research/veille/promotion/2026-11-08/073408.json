@@ -1,0 +1,51 @@
+{
+  "errors": [],
+  "generated_at": "2026-11-08T07:34:08+00:00",
+  "historical_skipped": 0,
+  "partial": 0,
+  "processed": 3,
+  "promoted": 2,
+  "proposals_created": 3,
+  "results": [
+    {
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/partys/equinoxe/2026-11-08-de3d6d3924ea.md",
+      "proposals": [
+        "proposals/auto/institutions-democratie/auto-equinoxe-institutions-democratie-60dd4a6545cd.md",
+        "proposals/auto/services-publics/auto-equinoxe-services-publics-01b6b4e114bd.md"
+      ],
+      "provenance_updates": [
+        "auto-equinoxe-fiscalite-redistribution-cb901a2355d2",
+        "auto-equinoxe-institutions-democratie-11e750b0f297",
+        "auto-equinoxe-institutions-democratie-de8e41f8910c",
+        "auto-equinoxe-services-publics-b7c215b6dfb9"
+      ],
+      "sha256": "ed07d8f7b1e3c6b8603db4244d36dd7da3ac21a9eabead9c1d03e33d2125e0d4",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://parti-equinoxe.fr/programme-2027/",
+      "verified_at": "2026-11-08T07:33:54+00:00"
+    },
+    {
+      "sha256": "7f233325adda2f36198937d62841419393fc671da8ce62fe849e7433e27c814e",
+      "status": "not_confirmed",
+      "url": "https://parti-equinoxe.fr/programme-2027/une-alimentation-saine-locale-abordable/"
+    },
+    {
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/candidates/antoine-mikolajczak/2026-11-07-4bb82148dfa8.md",
+      "proposals": [
+        "proposals/auto/services-publics/auto-equinoxe-services-publics-79f9511b2106.md"
+      ],
+      "provenance_updates": [
+        "auto-equinoxe-services-publics-b7c215b6dfb9"
+      ],
+      "sha256": "f56d776605d43bc089b46e75e89153144be1981bde796eba6556e3de912cd52c",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://parti-equinoxe.fr/programme-2027/prevenir-plutot-que-guerir/",
+      "verified_at": "2026-11-08T07:34:08+00:00"
+    }
+  ],
+  "status_updates": 0
+}

@@ -1,5 +1,10 @@
 {
   "claim_fingerprints": {
+    "01b6b4e114bdd07cd57b416927047194895dfffa4256e2592fd0aa31352e04dc": {
+      "proposal_id": "auto-equinoxe-services-publics-01b6b4e114bd",
+      "source_url": "https://parti-equinoxe.fr/programme-2027/",
+      "verified_at": "2026-11-08T07:33:47+00:00"
+    },
     "021c0847fa41385560edab60ce47229d9d575f60378fc643f543e6368c97722a": {
       "proposal_id": "auto-david-lisnard-securite-justice-021c0847fa41",
       "source_url": "https://www.unenouvelleenergie.fr/notre-programme/securite/",
@@ -910,6 +915,11 @@
       "source_url": "https://lesecologistes.fr/document/5ZhR2m5t2ZaGKqIdD1bJaD/vdef-programme-1.pdf",
       "verified_at": "2026-08-19T02:42:33+00:00"
     },
+    "60dd4a6545cd6e1b01d57f2106166f284974adb230fc246ff17f1941cb6ceb8a": {
+      "proposal_id": "auto-equinoxe-institutions-democratie-60dd4a6545cd",
+      "source_url": "https://parti-equinoxe.fr/programme-2027/",
+      "verified_at": "2026-11-08T07:33:47+00:00"
+    },
     "6203e4bed4a29bf7bf8ebd910009755630431fb573f00c5a752baffe7fc0e1a2": {
       "proposal_id": "auto-la-france-insoumise-ecologie-energie-6203e4bed4a2",
       "source_url": "https://melenchon2027.fr/programme2025/livre/chapitre12/",
@@ -1109,6 +1119,11 @@
       "proposal_id": "auto-la-france-insoumise-immigration-integration-7953c0db420d",
       "source_url": "https://melenchon2027.fr/programme2025/livre/chapitre10/",
       "verified_at": "2026-08-12T22:06:40+00:00"
+    },
+    "79f9511b210696ff0395f991c046a6d99b93959675b53ee8fb7fdf1699af7b02": {
+      "proposal_id": "auto-equinoxe-services-publics-79f9511b2106",
+      "source_url": "https://parti-equinoxe.fr/programme-2027/prevenir-plutot-que-guerir/",
+      "verified_at": "2026-11-08T07:34:05+00:00"
     },
     "7a91e45ad6d8947723c5be2a61775eab1e2ea0cc00e361dea49aa11c9a54f1fd": {
       "proposal_id": "auto-gabriel-attal-pouvoir-achat-travail-7a91e45ad6d8",
@@ -2313,7 +2328,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-11-07T22:53:58+00:00",
+  "last_run_at": "2026-11-08T07:34:08+00:00",
   "source_chunks": {
     "000e79baea11403029d335b1": {
       "canonical_confirmations": [
@@ -19150,6 +19165,83 @@
       "total": 1,
       "updated_at": "2026-10-01T23:22:43+00:00",
       "url": "https://www.youtube.com/shorts/0eLRcjQWoDg"
+    },
+    "4bb82148dfa8c72b46129110": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "equinoxe",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Un Défenseur de la santé est nommé pour assurer la prise en compte des enjeux",
+            "relevance": "direct",
+            "statement": "Nommer un Défenseur de la santé pour assurer la prise en compte des enjeux de santé globale dans les lois.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La proposition de nommer un Défenseur de la santé est explicitement présente dans le canonique et confirmée par la source.",
+            "related_proposal_id": "auto-equinoxe-services-publics-b7c215b6dfb9",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "equinoxe",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "La publicité pour les produits alimentaires trop gras, salés, sucrés et/ou ultra-transformés est interdite",
+            "relevance": "direct",
+            "statement": "Interdire la publicité pour les produits alimentaires trop gras, salés, sucrés ou ultra-transformés.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La proposition d'interdire la publicité pour les produits alimentaires trop gras, salés, sucrés ou ultra-transformés est explicitement soutenue et n'a pas d'équivalent exact dans les propositions courantes (la taxe santé étant distincte).",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [
+        {
+          "claim": {
+            "actor_id": "equinoxe",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "La publicité pour les produits alimentaires trop gras, salés, sucrés et/ou ultra-transformés est interdite",
+            "relevance": "direct",
+            "statement": "Interdire la publicité pour les produits alimentaires trop gras, salés, sucrés ou ultra-transformés.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La proposition d'interdire la publicité pour les produits alimentaires trop gras, salés, sucrés ou ultra-transformés est explicitement soutenue et n'a pas d'équivalent exact dans les propositions courantes (la taxe santé étant distincte).",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "completed_at": "2026-11-08T07:34:08+00:00",
+      "created_at": "2026-11-08T07:34:00+00:00",
+      "document_types": [
+        "party_programme"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "f56d776605d43bc089b46e75e89153144be1981bde796eba6556e3de912cd52c",
+      "source_title": "Prévention en santé : prévenir d’abord - Parti Équinoxe",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-08T07:34:05+00:00",
+      "url": "https://parti-equinoxe.fr/programme-2027/prevenir-plutot-que-guerir/"
     },
     "4bdad5eea2db503237859a88": {
       "canonical_confirmations": [
@@ -45409,6 +45501,63 @@
       "updated_at": "2026-09-09T12:29:56+00:00",
       "url": "https://upr.fr/medias/francois-asselineau-en-2027-je-serai-le-seul-candidat-a-la-presidence-de-la-republique-francaise"
     },
+    "c2779ca44776b5d3e25c1556": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "equinoxe",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "sécurité sociale de l’alimentation",
+            "relevance": "direct",
+            "statement": "Mettre en place une sécurité sociale de l'alimentation pour garantir à toutes et tous une alimentation de qualité.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La proposition concernant la sécurité sociale de l'alimentation est explicitement présente dans le source et correspond au claim canonique existant.",
+            "related_proposal_id": "auto-equinoxe-services-publics-98a29435a0c9",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "equinoxe",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "taxe « santé » sur les produits gras, salés, sucrés",
+            "relevance": "direct",
+            "statement": "Instaurer une taxe santé sur les produits gras, salés, sucrés, alcoolisés et ultra-transformés.",
+            "topic": "fiscalite-redistribution"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La taxe santé sur les produits gras, salés, sucrés est explicitement présente dans le source et correspond au claim canonique existant.",
+            "related_proposal_id": "auto-equinoxe-services-publics-01b6b4e114bd",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "created_at": "2026-11-08T07:33:55+00:00",
+      "document_types": [
+        "party_programme"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "7f233325adda2f36198937d62841419393fc671da8ce62fe849e7433e27c814e",
+      "source_title": "Sécurité sociale de l’alimentation pour tous - Parti Équinoxe",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-08T07:33:59+00:00",
+      "url": "https://parti-equinoxe.fr/programme-2027/une-alimentation-saine-locale-abordable/"
+    },
     "c27f9f79a5c9039ad6799718": {
       "canonical_confirmations": [],
       "claims": [],
@@ -51744,6 +51893,173 @@
       "total": 1,
       "updated_at": "2026-09-01T12:44:59+00:00",
       "url": "https://www.unenouvelleenergie.fr/notre-programme/"
+    },
+    "de3d6d3924ea70d7a1bfd586": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "equinoxe",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "350 pays de France dessinés en commun, une taxe Territoire unique et progressive.",
+            "relevance": "direct",
+            "statement": "Créer 350 pays de France pour remplacer les départements et les intercommunalités avec un seul responsable par compétence et une taxe Territoire unique et progressive.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La proposition est explicitement présente dans le programme 2027 et correspond exactement au claim canonique existant.",
+            "related_proposal_id": "auto-equinoxe-institutions-democratie-11e750b0f297",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "equinoxe",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "L’exercice des mandats électifs sera limité dans le temps, à deux mandats pour une même fonction",
+            "relevance": "direct",
+            "statement": "Limiter l'exercice des mandats électifs dans le temps à deux mandats pour une même fonction, sauf pour les maires des petites communes.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La limitation des mandats électifs est explicitement confirmée dans le programme 2027.",
+            "related_proposal_id": "auto-equinoxe-institutions-democratie-de8e41f8910c",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "equinoxe",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "l’inéligibilité définitive, dans le respect des garanties constitutionnelles applicables.",
+            "relevance": "direct",
+            "statement": "Sanctionner les atteintes graves à la probité par l'inéligibilité définitive des élus concernés.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "La sanction par l'inéligibilité définitive pour atteinte à la probité est explicitement formulée et constitue un nouvel ajout textuel par rapport au canonique.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "equinoxe",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "une taxe carbone dont 80 % reviennent chaque mois aux ménages et 20 % financent la transition.",
+            "relevance": "direct",
+            "statement": "Mettre en place une taxe carbone dont 80 pour cent des bénéfices sont redistribués aux ménages sous forme de revenu carbone mensuel.",
+            "topic": "fiscalite-redistribution"
+          },
+          "verdict": {
+            "index": 3,
+            "reason": "La taxe carbone avec redistribution de 80 pour cent est déjà présente dans les éléments canoniques.",
+            "related_proposal_id": "auto-equinoxe-fiscalite-redistribution-cb901a2355d2",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "equinoxe",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Un Défenseur de la santé est nommé pour assurer la prise en compte des enjeux de santé globale",
+            "relevance": "direct",
+            "statement": "Nommer un Défenseur de la santé pour assurer la prise en compte des enjeux de santé globale dans les lois.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 4,
+            "reason": "La nomination d'un Défenseur de la santé est explicitement confirmée dans le programme 2027.",
+            "related_proposal_id": "auto-equinoxe-services-publics-b7c215b6dfb9",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "equinoxe",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Une taxe « santé » est mise en place sur les produits gras, salés, sucrés, alcoolisés et ultra-transformés",
+            "relevance": "direct",
+            "statement": "Mettre en place une taxe santé sur les produits gras, salés, sucrés, alcoolisés et ultra-transformés.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 5,
+            "reason": "La taxe santé sur les produits spécifiques est une nouvelle mesure explicitement soutenue par le programme 2027.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [
+        {
+          "claim": {
+            "actor_id": "equinoxe",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "l’inéligibilité définitive, dans le respect des garanties constitutionnelles applicables.",
+            "relevance": "direct",
+            "statement": "Sanctionner les atteintes graves à la probité par l'inéligibilité définitive des élus concernés.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "La sanction par l'inéligibilité définitive pour atteinte à la probité est explicitement formulée et constitue un nouvel ajout textuel par rapport au canonique.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "equinoxe",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Une taxe « santé » est mise en place sur les produits gras, salés, sucrés, alcoolisés et ultra-transformés",
+            "relevance": "direct",
+            "statement": "Mettre en place une taxe santé sur les produits gras, salés, sucrés, alcoolisés et ultra-transformés.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 5,
+            "reason": "La taxe santé sur les produits spécifiques est une nouvelle mesure explicitement soutenue par le programme 2027.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "completed_at": "2026-11-08T07:33:54+00:00",
+      "created_at": "2026-11-08T07:33:41+00:00",
+      "document_types": [
+        "party_programme"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "ed07d8f7b1e3c6b8603db4244d36dd7da3ac21a9eabead9c1d03e33d2125e0d4",
+      "source_title": "Parti Équinoxe - Programme 2027",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-08T07:33:47+00:00",
+      "url": "https://parti-equinoxe.fr/programme-2027/"
     },
     "de42d453bbd07a1ba73e8cd4": {
       "canonical_confirmations": [
@@ -59312,6 +59628,15 @@
       "status": "promoted",
       "url": "https://solutiondemocratique.fr/clementine-autain-programme-presidentielle2027/"
     },
+    "05daa485e668": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-11-08T07:33:59+00:00",
+      "reason": null,
+      "source_sha256": "7f233325adda2f36198937d62841419393fc671da8ce62fe849e7433e27c814e",
+      "status": "not_confirmed",
+      "url": "https://parti-equinoxe.fr/programme-2027/une-alimentation-saine-locale-abordable/"
+    },
     "05e87b129a87": {
       "chunks_done": null,
       "chunks_total": 1,
@@ -60056,6 +60381,15 @@
       "source_sha256": "a124d68fa237b3543e9b1ee7a470f26edc1af0d85f2640ae2f87478ca4acca23",
       "status": "historical_skipped",
       "url": "https://parti-equinoxe.fr/programme-europeennes-2024-mesure-phare-10-legislation/"
+    },
+    "215441658243": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-11-08T07:33:54+00:00",
+      "reason": null,
+      "source_sha256": "ed07d8f7b1e3c6b8603db4244d36dd7da3ac21a9eabead9c1d03e33d2125e0d4",
+      "status": "promoted",
+      "url": "https://parti-equinoxe.fr/programme-2027/"
     },
     "21679b098914": {
       "chunks_done": null,
@@ -64188,6 +64522,15 @@
       "source_sha256": "9450d8272a4eab8510ab3806088622270c62bbc6922030dceaafb039bc52f629",
       "status": "promoted",
       "url": "https://www.unenouvelleenergie.fr/notre-programme/"
+    },
+    "b9c3ea9f6806": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-11-08T07:34:08+00:00",
+      "reason": null,
+      "source_sha256": "f56d776605d43bc089b46e75e89153144be1981bde796eba6556e3de912cd52c",
+      "status": "promoted",
+      "url": "https://parti-equinoxe.fr/programme-2027/prevenir-plutot-que-guerir/"
     },
     "b9ea09e1f9b0": {
       "processed_at": "2026-08-11T09:26:30+00:00",

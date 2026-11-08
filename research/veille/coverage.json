@@ -6,18 +6,18 @@
     "actors": 68,
     "declared_or_active_candidates": 27,
     "topics": 12,
-    "current_proposals": 1423,
+    "current_proposals": 1426,
     "covered_actor_topic_cells": 165,
     "total_actor_topic_cells": 816,
     "actor_topic_coverage_ratio": 0.2022,
     "active_candidate_covered_cells": 76,
     "active_candidate_total_cells": 324,
     "active_candidate_topic_coverage_ratio": 0.2346,
-    "verified_proposals": 1390,
-    "multi_source_proposals": 104,
-    "latest_evidence_at": "2026-11-07",
+    "verified_proposals": 1393,
+    "multi_source_proposals": 105,
+    "latest_evidence_at": "2026-11-08",
     "certainty_counts": {
-      "explicit": 1398,
+      "explicit": 1401,
       "explicit_but_conditional": 3,
       "explicit_but_underspecified": 22
     }
@@ -1905,7 +1905,7 @@
       "type": "party",
       "status": null,
       "confidence": null,
-      "current_proposals": 17,
+      "current_proposals": 20,
       "covered_topics": [
         "ecologie-energie",
         "economie-finances",
@@ -1923,9 +1923,9 @@
         "defense-international",
         "numerique-ia"
       ],
-      "latest_evidence_at": "2026-11-07",
-      "verified_proposals": 15,
-      "multi_source_proposals": 4
+      "latest_evidence_at": "2026-11-08",
+      "verified_proposals": 18,
+      "multi_source_proposals": 5
     },
     {
       "id": "eric-zemmour",
@@ -1982,7 +1982,7 @@
       "current_proposals": 76,
       "actors_covered": 11,
       "actor_coverage_ratio": 0.1618,
-      "latest_evidence_at": "2026-11-07",
+      "latest_evidence_at": "2026-11-08",
       "verified_proposals": 74,
       "multi_source_proposals": 4
     },
@@ -2029,21 +2029,21 @@
     {
       "id": "institutions-democratie",
       "label": "Institutions & démocratie",
-      "current_proposals": 278,
+      "current_proposals": 279,
       "actors_covered": 17,
       "actor_coverage_ratio": 0.25,
-      "latest_evidence_at": "2026-11-07",
-      "verified_proposals": 274,
-      "multi_source_proposals": 31
+      "latest_evidence_at": "2026-11-08",
+      "verified_proposals": 275,
+      "multi_source_proposals": 32
     },
     {
       "id": "services-publics",
       "label": "Services publics",
-      "current_proposals": 254,
+      "current_proposals": 256,
       "actors_covered": 17,
       "actor_coverage_ratio": 0.25,
-      "latest_evidence_at": "2026-11-07",
-      "verified_proposals": 251,
+      "latest_evidence_at": "2026-11-08",
+      "verified_proposals": 253,
       "multi_source_proposals": 9
     },
     {

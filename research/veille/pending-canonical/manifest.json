@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created_at": "2026-08-17T19:57:19.441897+00:00",
-  "updated_at": "2026-11-07T22:54:16.374500+00:00",
+  "updated_at": "2026-11-08T07:34:11.479444+00:00",
   "files": [
     {
       "path": "corpus/2027/auto/candidates/anasse-kazib/2026-08-28-38891602d9d9.md",
@@ -142,6 +142,11 @@
       "path": "corpus/2027/auto/candidates/anasse-kazib/2026-10-24-133476e1ed0d.md",
       "sha256": "6a2cdd37deb2e2d10b0a5dcfa7eb95cef63c5209e7888e5d4c99c94e7356596a",
       "size": 1478
+    },
+    {
+      "path": "corpus/2027/auto/candidates/antoine-mikolajczak/2026-11-07-4bb82148dfa8.md",
+      "sha256": "a287f0b78b0d3fa50b1ea9a47a56bb33d14030b98e4114352cffb25f82be04e6",
+      "size": 1929
     },
     {
       "path": "corpus/2027/auto/candidates/antoine-mikolajczak/2026-11-07-de789e6ca149.md",
@@ -922,6 +927,11 @@
       "path": "corpus/2027/auto/partys/equinoxe/2026-11-07-6cacea4f0848.md",
       "sha256": "8a641d6ec70bb7200edb1353630e72ec876d241bec9c4e0c491a19fac452be6c",
       "size": 2265
+    },
+    {
+      "path": "corpus/2027/auto/partys/equinoxe/2026-11-08-de3d6d3924ea.md",
+      "sha256": "73dce8e2c8d6526ac90482fa6d86fdffaa9bb99801ef32c80394088d05c47999",
+      "size": 2938
     },
     {
       "path": "corpus/2027/auto/partys/generation-ecologie/2026-06-07-3b6080336dbf.md",
@@ -2510,8 +2520,8 @@
     },
     {
       "path": "proposals/auto/fiscalite-redistribution/auto-equinoxe-fiscalite-redistribution-cb901a2355d2.md",
-      "sha256": "f9bae51ce23788edc6e23e1e346a1e17a02067410b5488b6c01e145313e788f2",
-      "size": 1762
+      "sha256": "f5e9323ba295ea8370197dbffbbc64f17295e4a07370fff48589ec4eba950330",
+      "size": 1869
     },
     {
       "path": "proposals/auto/fiscalite-redistribution/auto-les-ecologistes-fiscalite-redistribution-8245f1085aea.md",
@@ -2665,8 +2675,13 @@
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-equinoxe-institutions-democratie-11e750b0f297.md",
-      "sha256": "05a39eebc3a9710eaba1f9f38b3015a4d9ff71ad787c70375cf189ff1d4e5a2f",
-      "size": 1741
+      "sha256": "e8e47fd628e46538f4609eba6b871e9e6a145c1c84dde64cf870b99ef7d78985",
+      "size": 1848
+    },
+    {
+      "path": "proposals/auto/institutions-democratie/auto-equinoxe-institutions-democratie-60dd4a6545cd.md",
+      "sha256": "2edce31b8d6b2caf02b9cd69ec471f2aa8733a327995ca19907114f6313a60b3",
+      "size": 1352
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-equinoxe-institutions-democratie-9b6cc8950f26.md",
@@ -2675,8 +2690,8 @@
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-equinoxe-institutions-democratie-de8e41f8910c.md",
-      "sha256": "416729ecd713d8add4ebca98a8beb77ccddd20735792d8327045218e5a2e42a2",
-      "size": 1445
+      "sha256": "7ef0f55f8ef25aefcd532acd1481092cf689ea436fb360e5cf0ba01c49a2e9ef",
+      "size": 1748
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-jean-luc-melenchon-institutions-democratie-8e09285dec35.md",
@@ -3249,6 +3264,11 @@
       "size": 1951
     },
     {
+      "path": "proposals/auto/services-publics/auto-equinoxe-services-publics-01b6b4e114bd.md",
+      "sha256": "e9af10d70872e8798cff409491376d9d4190d49eddec78aec1acd7d28d2257b4",
+      "size": 1366
+    },
+    {
       "path": "proposals/auto/services-publics/auto-equinoxe-services-publics-1f25d64f4199.md",
       "sha256": "ff7d4cd9a662ee82ba04c558bf38a6267ebd66fb7b0f8aad03a539e9bbbd8aeb",
       "size": 1379
@@ -3257,6 +3277,11 @@
       "path": "proposals/auto/services-publics/auto-equinoxe-services-publics-3c1de25af993.md",
       "sha256": "5278b4bfd923798985eff3532ed282933ea5cd7e97f4d11b4c3e2ac47108314f",
       "size": 1376
+    },
+    {
+      "path": "proposals/auto/services-publics/auto-equinoxe-services-publics-79f9511b2106.md",
+      "sha256": "1286dec29dc561e0e9d23637c0f2d9e64a64bef6f80c2438e74be2048c924d3d",
+      "size": 1395
     },
     {
       "path": "proposals/auto/services-publics/auto-equinoxe-services-publics-98a29435a0c9.md",
@@ -3270,8 +3295,8 @@
     },
     {
       "path": "proposals/auto/services-publics/auto-equinoxe-services-publics-b7c215b6dfb9.md",
-      "sha256": "2352d7b88d5de038555df5373ffcc69884e915be9b2b0af66d365241e94e2001",
-      "size": 1658
+      "sha256": "104913dd01b16088902374fb68bf75ac4c98ae1c507b5ca8798207466afdf003",
+      "size": 1955
     },
     {
       "path": "proposals/auto/services-publics/auto-francois-ruffin-services-publics-d5b6563e20db.md",
