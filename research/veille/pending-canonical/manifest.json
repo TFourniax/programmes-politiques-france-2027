@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created_at": "2026-08-17T19:57:19.441897+00:00",
-  "updated_at": "2026-11-08T07:34:11.479444+00:00",
+  "updated_at": "2026-11-08T18:29:29.109618+00:00",
   "files": [
     {
       "path": "corpus/2027/auto/candidates/anasse-kazib/2026-08-28-38891602d9d9.md",
@@ -147,6 +147,21 @@
       "path": "corpus/2027/auto/candidates/antoine-mikolajczak/2026-11-07-4bb82148dfa8.md",
       "sha256": "a287f0b78b0d3fa50b1ea9a47a56bb33d14030b98e4114352cffb25f82be04e6",
       "size": 1929
+    },
+    {
+      "path": "corpus/2027/auto/candidates/antoine-mikolajczak/2026-11-07-579629e7e4d4.md",
+      "sha256": "bce2200775f8c1eefa480955787d1956ff52c936d3b8e6f65be2094d2a8b7e7b",
+      "size": 2018
+    },
+    {
+      "path": "corpus/2027/auto/candidates/antoine-mikolajczak/2026-11-07-6aa34ca6e553.md",
+      "sha256": "a524fb7185fc894219c5a3307d257f4dfc07925dcf3632a57c9653c91a2660b7",
+      "size": 1751
+    },
+    {
+      "path": "corpus/2027/auto/candidates/antoine-mikolajczak/2026-11-07-96e58145e860.md",
+      "sha256": "6bbc459f670713ff7f57dd5d4f5bd2fcbaebae86727ee8890423ec281e601ce6",
+      "size": 2007
     },
     {
       "path": "corpus/2027/auto/candidates/antoine-mikolajczak/2026-11-07-de789e6ca149.md",
@@ -1955,8 +1970,23 @@
     },
     {
       "path": "proposals/auto/ecologie-energie/auto-equinoxe-ecologie-energie-6752e0b08a61.md",
-      "sha256": "a96ac81e350552a2f084bb1ee994d7a7361d66c963899f70c286b3825a8f4ede",
-      "size": 1431
+      "sha256": "b784b633496d72a88106433d16253fc0bb2d29765f3a194079e802bf602b51c7",
+      "size": 1828
+    },
+    {
+      "path": "proposals/auto/ecologie-energie/auto-equinoxe-ecologie-energie-72a60779ed53.md",
+      "sha256": "01b8cee9b1b8e67168e246f2c01e00760f5b545a9f00b3bb63932e5d27f47675",
+      "size": 1425
+    },
+    {
+      "path": "proposals/auto/ecologie-energie/auto-equinoxe-ecologie-energie-9854691ab716.md",
+      "sha256": "e095233d9b8886c4ec12339b8417fff17dca10b9d6b5b34b1482ca4f53613ef8",
+      "size": 1390
+    },
+    {
+      "path": "proposals/auto/ecologie-energie/auto-equinoxe-ecologie-energie-cab213466554.md",
+      "sha256": "ca739ad3d7fbb0c801fb793b7e4a4f4d79221b8d754fc8ec9ff7d304f7145644",
+      "size": 1294
     },
     {
       "path": "proposals/auto/ecologie-energie/auto-francois-ruffin-ecologie-energie-523fbb17b32f.md",
@@ -2872,6 +2902,21 @@
       "path": "proposals/auto/pouvoir-achat-travail/auto-david-lisnard-pouvoir-achat-travail-51b299de467b.md",
       "sha256": "c2579f2bce66330d6b3fce4bdab7a25255fd5c6318a763376eb63bc55057fc05",
       "size": 1404
+    },
+    {
+      "path": "proposals/auto/pouvoir-achat-travail/auto-equinoxe-pouvoir-achat-travail-2ecc9e9dd374.md",
+      "sha256": "c1c0379d7e25f35f9dbcf1f6510d541c7f06eb2f2ce9b15935a00e1415e04a2c",
+      "size": 1344
+    },
+    {
+      "path": "proposals/auto/pouvoir-achat-travail/auto-equinoxe-pouvoir-achat-travail-961acbdcb337.md",
+      "sha256": "ccfc98504df2ef21f61e4da6fcc6a7fe1b29f179e35b081814820d02703cdf16",
+      "size": 1362
+    },
+    {
+      "path": "proposals/auto/pouvoir-achat-travail/auto-equinoxe-pouvoir-achat-travail-c394292b49bd.md",
+      "sha256": "a9f8e30e686056744dd2742edeaddcac9766d781d43392f224d6b5d934a66993",
+      "size": 1355
     },
     {
       "path": "proposals/auto/pouvoir-achat-travail/auto-francois-asselineau-pouvoir-achat-travail-ce11c3de0316.md",

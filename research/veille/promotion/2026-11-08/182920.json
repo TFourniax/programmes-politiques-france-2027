@@ -1,0 +1,51 @@
+{
+  "errors": [],
+  "generated_at": "2026-11-08T18:29:20+00:00",
+  "historical_skipped": 0,
+  "partial": 0,
+  "processed": 3,
+  "promoted": 3,
+  "proposals_created": 6,
+  "results": [
+    {
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/candidates/antoine-mikolajczak/2026-11-07-96e58145e860.md",
+      "proposals": [
+        "proposals/auto/pouvoir-achat-travail/auto-equinoxe-pouvoir-achat-travail-c394292b49bd.md",
+        "proposals/auto/pouvoir-achat-travail/auto-equinoxe-pouvoir-achat-travail-2ecc9e9dd374.md",
+        "proposals/auto/pouvoir-achat-travail/auto-equinoxe-pouvoir-achat-travail-961acbdcb337.md"
+      ],
+      "sha256": "f972dcc0c71ee207562c705f790765011fb6037db2a8f60b403d8fac12bb2b0d",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://parti-equinoxe.fr/programme-2027/une-production-une-formation-un-emploi/",
+      "verified_at": "2026-11-08T18:28:44+00:00"
+    },
+    {
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/candidates/antoine-mikolajczak/2026-11-07-579629e7e4d4.md",
+      "proposals": [
+        "proposals/auto/ecologie-energie/auto-equinoxe-ecologie-energie-72a60779ed53.md",
+        "proposals/auto/ecologie-energie/auto-equinoxe-ecologie-energie-cab213466554.md",
+        "proposals/auto/ecologie-energie/auto-equinoxe-ecologie-energie-9854691ab716.md"
+      ],
+      "sha256": "bf5fc304158470090bb7d15b0a6572da8b88e67324dc63d14da266dc23881d9f",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://parti-equinoxe.fr/programme-2027/recompenser-les-menages-les-plus-sobres/",
+      "verified_at": "2026-11-08T18:29:01+00:00"
+    },
+    {
+      "document": "corpus/2027/auto/candidates/antoine-mikolajczak/2026-11-07-6aa34ca6e553.md",
+      "provenance_updates": [
+        "auto-equinoxe-ecologie-energie-6752e0b08a61"
+      ],
+      "reason": "canonical_duplicate_evidence",
+      "sha256": "7f7af0468e282e87e72be37d383bbcf7f079a0ad75aa4fc07a81f7d01f563d87",
+      "status": "promoted",
+      "url": "https://parti-equinoxe.fr/programme-2027/proteger-le-climat-au-dela-dun-mandat/",
+      "verified_at": "2026-11-08T18:29:19+00:00"
+    }
+  ],
+  "status_updates": 0
+}

@@ -6,18 +6,18 @@
     "actors": 68,
     "declared_or_active_candidates": 27,
     "topics": 12,
-    "current_proposals": 1426,
-    "covered_actor_topic_cells": 165,
+    "current_proposals": 1432,
+    "covered_actor_topic_cells": 166,
     "total_actor_topic_cells": 816,
-    "actor_topic_coverage_ratio": 0.2022,
+    "actor_topic_coverage_ratio": 0.2034,
     "active_candidate_covered_cells": 76,
     "active_candidate_total_cells": 324,
     "active_candidate_topic_coverage_ratio": 0.2346,
-    "verified_proposals": 1393,
-    "multi_source_proposals": 105,
+    "verified_proposals": 1399,
+    "multi_source_proposals": 106,
     "latest_evidence_at": "2026-11-08",
     "certainty_counts": {
-      "explicit": 1401,
+      "explicit": 1407,
       "explicit_but_conditional": 3,
       "explicit_but_underspecified": 22
     }
@@ -1905,18 +1905,18 @@
       "type": "party",
       "status": null,
       "confidence": null,
-      "current_proposals": 20,
+      "current_proposals": 26,
       "covered_topics": [
         "ecologie-energie",
         "economie-finances",
         "fiscalite-redistribution",
         "institutions-democratie",
+        "pouvoir-achat-travail",
         "securite-justice",
         "services-publics"
       ],
-      "coverage_ratio": 0.5,
+      "coverage_ratio": 0.5833,
       "gaps": [
-        "pouvoir-achat-travail",
         "retraites",
         "immigration-integration",
         "europe-souverainete",
@@ -1924,8 +1924,8 @@
         "numerique-ia"
       ],
       "latest_evidence_at": "2026-11-08",
-      "verified_proposals": 18,
-      "multi_source_proposals": 5
+      "verified_proposals": 24,
+      "multi_source_proposals": 6
     },
     {
       "id": "eric-zemmour",
@@ -1959,11 +1959,11 @@
     {
       "id": "pouvoir-achat-travail",
       "label": "Pouvoir d’achat & travail",
-      "current_proposals": 87,
-      "actors_covered": 21,
-      "actor_coverage_ratio": 0.3088,
-      "latest_evidence_at": "2026-10-24",
-      "verified_proposals": 80,
+      "current_proposals": 90,
+      "actors_covered": 22,
+      "actor_coverage_ratio": 0.3235,
+      "latest_evidence_at": "2026-11-07",
+      "verified_proposals": 83,
       "multi_source_proposals": 11
     },
     {
@@ -2019,12 +2019,12 @@
     {
       "id": "ecologie-energie",
       "label": "Écologie & énergie",
-      "current_proposals": 224,
+      "current_proposals": 227,
       "actors_covered": 19,
       "actor_coverage_ratio": 0.2794,
       "latest_evidence_at": "2026-11-07",
-      "verified_proposals": 218,
-      "multi_source_proposals": 5
+      "verified_proposals": 221,
+      "multi_source_proposals": 6
     },
     {
       "id": "institutions-democratie",

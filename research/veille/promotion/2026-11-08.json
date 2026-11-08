@@ -1,50 +1,50 @@
 {
   "errors": [],
-  "generated_at": "2026-11-08T07:34:08+00:00",
+  "generated_at": "2026-11-08T18:29:20+00:00",
   "historical_skipped": 0,
   "partial": 0,
   "processed": 3,
-  "promoted": 2,
-  "proposals_created": 3,
+  "promoted": 3,
+  "proposals_created": 6,
   "results": [
     {
       "chunks_total": 1,
-      "document": "corpus/2027/auto/partys/equinoxe/2026-11-08-de3d6d3924ea.md",
+      "document": "corpus/2027/auto/candidates/antoine-mikolajczak/2026-11-07-96e58145e860.md",
       "proposals": [
-        "proposals/auto/institutions-democratie/auto-equinoxe-institutions-democratie-60dd4a6545cd.md",
-        "proposals/auto/services-publics/auto-equinoxe-services-publics-01b6b4e114bd.md"
+        "proposals/auto/pouvoir-achat-travail/auto-equinoxe-pouvoir-achat-travail-c394292b49bd.md",
+        "proposals/auto/pouvoir-achat-travail/auto-equinoxe-pouvoir-achat-travail-2ecc9e9dd374.md",
+        "proposals/auto/pouvoir-achat-travail/auto-equinoxe-pouvoir-achat-travail-961acbdcb337.md"
       ],
-      "provenance_updates": [
-        "auto-equinoxe-fiscalite-redistribution-cb901a2355d2",
-        "auto-equinoxe-institutions-democratie-11e750b0f297",
-        "auto-equinoxe-institutions-democratie-de8e41f8910c",
-        "auto-equinoxe-services-publics-b7c215b6dfb9"
-      ],
-      "sha256": "ed07d8f7b1e3c6b8603db4244d36dd7da3ac21a9eabead9c1d03e33d2125e0d4",
+      "sha256": "f972dcc0c71ee207562c705f790765011fb6037db2a8f60b403d8fac12bb2b0d",
       "status": "promoted",
       "status_updates": [],
-      "url": "https://parti-equinoxe.fr/programme-2027/",
-      "verified_at": "2026-11-08T07:33:54+00:00"
-    },
-    {
-      "sha256": "7f233325adda2f36198937d62841419393fc671da8ce62fe849e7433e27c814e",
-      "status": "not_confirmed",
-      "url": "https://parti-equinoxe.fr/programme-2027/une-alimentation-saine-locale-abordable/"
+      "url": "https://parti-equinoxe.fr/programme-2027/une-production-une-formation-un-emploi/",
+      "verified_at": "2026-11-08T18:28:44+00:00"
     },
     {
       "chunks_total": 1,
-      "document": "corpus/2027/auto/candidates/antoine-mikolajczak/2026-11-07-4bb82148dfa8.md",
+      "document": "corpus/2027/auto/candidates/antoine-mikolajczak/2026-11-07-579629e7e4d4.md",
       "proposals": [
-        "proposals/auto/services-publics/auto-equinoxe-services-publics-79f9511b2106.md"
+        "proposals/auto/ecologie-energie/auto-equinoxe-ecologie-energie-72a60779ed53.md",
+        "proposals/auto/ecologie-energie/auto-equinoxe-ecologie-energie-cab213466554.md",
+        "proposals/auto/ecologie-energie/auto-equinoxe-ecologie-energie-9854691ab716.md"
       ],
-      "provenance_updates": [
-        "auto-equinoxe-services-publics-b7c215b6dfb9"
-      ],
-      "sha256": "f56d776605d43bc089b46e75e89153144be1981bde796eba6556e3de912cd52c",
+      "sha256": "bf5fc304158470090bb7d15b0a6572da8b88e67324dc63d14da266dc23881d9f",
       "status": "promoted",
       "status_updates": [],
-      "url": "https://parti-equinoxe.fr/programme-2027/prevenir-plutot-que-guerir/",
-      "verified_at": "2026-11-08T07:34:08+00:00"
+      "url": "https://parti-equinoxe.fr/programme-2027/recompenser-les-menages-les-plus-sobres/",
+      "verified_at": "2026-11-08T18:29:01+00:00"
+    },
+    {
+      "document": "corpus/2027/auto/candidates/antoine-mikolajczak/2026-11-07-6aa34ca6e553.md",
+      "provenance_updates": [
+        "auto-equinoxe-ecologie-energie-6752e0b08a61"
+      ],
+      "reason": "canonical_duplicate_evidence",
+      "sha256": "7f7af0468e282e87e72be37d383bbcf7f079a0ad75aa4fc07a81f7d01f563d87",
+      "status": "promoted",
+      "url": "https://parti-equinoxe.fr/programme-2027/proteger-le-climat-au-dela-dun-mandat/",
+      "verified_at": "2026-11-08T18:29:19+00:00"
     }
   ],
   "status_updates": 0

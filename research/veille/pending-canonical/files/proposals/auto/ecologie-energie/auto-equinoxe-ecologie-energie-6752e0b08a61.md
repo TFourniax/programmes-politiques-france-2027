@@ -6,7 +6,7 @@ entity_id: equinoxe
 topic: ecologie-energie
 certainty: explicit
 proposal_status: current
-source_document_ids: [auto-equinoxe-2026-11-06-38fd42368084]
+source_document_ids: [auto-equinoxe-2026-11-06-38fd42368084, auto-antoine-mikolajczak-2026-11-07-6aa34ca6e553]
 source_url: https://parti-equinoxe.fr/programme-2027/
 source_tier: tier_1_primary_official
 first_documented_at: '2026-11-06'
@@ -15,6 +15,10 @@ verification_state: verified
 verification_method: primary_source_exact_quote_plus_independent_gemini_verifier_plus_chronology_guard
 evidence_sha256: 91d31cc29af0ae299545442a8ae414fda852a1e70a0825c3a95fa4066a57aef8
 generated_by: scripts/auto_promote.py
+source_urls: ['https://parti-equinoxe.fr/programme-2027/', 'https://parti-equinoxe.fr/programme-2027/proteger-le-climat-au-dela-dun-mandat/']
+evidence_sha256s: [91d31cc29af0ae299545442a8ae414fda852a1e70a0825c3a95fa4066a57aef8, 7f7af0468e282e87e72be37d383bbcf7f079a0ad75aa4fc07a81f7d01f563d87]
+confirmation_count: 2
+last_confirmed_at: '2026-11-07'
 ---
 
 # Le parti propose la création d'une Chambre citoyenne de 150 personnes tirées au sort dotée d'un droit de veto sur les lois écologiques
