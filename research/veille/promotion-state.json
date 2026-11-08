@@ -120,6 +120,11 @@
       "source_url": "https://bsky.app/profile/lesecologistes.fr/post/3mtciamjwfk2f",
       "verified_at": "2026-08-17T19:57:13+00:00"
     },
+    "0e54e84c7343d2e11a747d34c36bf9f9ba83d1cf01b4bcfb6b14ac7d58405c00": {
+      "proposal_id": "auto-equinoxe-services-publics-0e54e84c7343",
+      "source_url": "https://parti-equinoxe.fr/programme-2027/sortir-du-labyrinthe-administratif/",
+      "verified_at": "2026-11-08T23:02:54+00:00"
+    },
     "0f87ce617c4f01d28fd726adb8492ef165973212b0829e495089e2c589a563ac": {
       "proposal_id": "auto-les-ecologistes-europe-souverainete-0f87ce617c4f",
       "source_url": "https://lesecologistes.fr/document/5ZhR2m5t2ZaGKqIdD1bJaD/vdef-programme-1.pdf",
@@ -234,6 +239,11 @@
       "proposal_id": "auto-les-ecologistes-services-publics-16d0e2a8a0eb",
       "source_url": "https://lesecologistes.fr/document/5ZhR2m5t2ZaGKqIdD1bJaD/vdef-programme-1.pdf",
       "verified_at": "2026-08-19T02:42:33+00:00"
+    },
+    "17947e3f18b986d5b51314b3138a2d4122f2f072eaea769933e820e939e7f526": {
+      "proposal_id": "auto-equinoxe-services-publics-17947e3f18b9",
+      "source_url": "https://parti-equinoxe.fr/programme-2027/sortir-du-labyrinthe-administratif/",
+      "verified_at": "2026-11-08T23:02:54+00:00"
     },
     "17a1d014b3c70be30e330557bc0c97e5eeee35c2515de1ed1a33218ff7cc1d06": {
       "proposal_id": "auto-rassemblement-national-securite-justice-17a1d014b3c7",
@@ -569,6 +579,11 @@
       "proposal_id": "auto-la-france-insoumise-europe-souverainete-3a8d6284fc4e",
       "source_url": "https://melenchon2027.fr/programme2025/livre/chapitre16/",
       "verified_at": "2026-08-13T00:20:23+00:00"
+    },
+    "3b812f1947723387df9fdd987f434254e0e725b41366a41f3d09ea3fb3a123eb": {
+      "proposal_id": "auto-equinoxe-europe-souverainete-3b812f194772",
+      "source_url": "https://parti-equinoxe.fr/programme-2027/reprendre-la-main-sur-notre-production/",
+      "verified_at": "2026-11-08T23:02:44+00:00"
     },
     "3c1de25af9933b1d8214e3422e1afdd97c6fa37a7297d4623b005c1a1943aa5e": {
       "proposal_id": "auto-equinoxe-services-publics-3c1de25af993",
@@ -1465,6 +1480,11 @@
       "source_url": "https://lesecologistes.fr/document/5ZhR2m5t2ZaGKqIdD1bJaD/vdef-programme-1.pdf",
       "verified_at": "2026-08-19T02:42:33+00:00"
     },
+    "9b1847c0274cd9f97b094141a51c8f1481b9276bb94df490c8224adae2557461": {
+      "proposal_id": "auto-equinoxe-economie-finances-9b1847c0274c",
+      "source_url": "https://parti-equinoxe.fr/programme-2027/reprendre-la-main-sur-notre-production/",
+      "verified_at": "2026-11-08T23:02:44+00:00"
+    },
     "9b6cc8950f26f3c118aaea1ecbe4259c6972675f4158a5480af10b4ea31fab13": {
       "proposal_id": "auto-equinoxe-institutions-democratie-9b6cc8950f26",
       "source_url": "https://parti-equinoxe.fr/programme-2027/",
@@ -2230,6 +2250,11 @@
       "source_url": "https://melenchon2027.fr/programme2025/livre/chapitre18/",
       "verified_at": "2026-08-13T00:20:36+00:00"
     },
+    "ef916847a641daa8e9ebabe7526d79623d110bf4cdb78682210e6ae3aef7e99e": {
+      "proposal_id": "auto-equinoxe-services-publics-ef916847a641",
+      "source_url": "https://parti-equinoxe.fr/programme-2027/sortir-du-labyrinthe-administratif/",
+      "verified_at": "2026-11-08T23:02:54+00:00"
+    },
     "f008b1970a86132c05fac74052a22ed3c90301d3aee355464d21a0a72969cb98": {
       "proposal_id": "auto-anasse-kazib-immigration-integration-f008b1970a86",
       "source_url": "https://anasse2027.fr/programme",
@@ -2358,7 +2383,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-11-08T18:29:20+00:00",
+  "last_run_at": "2026-11-08T23:02:59+00:00",
   "source_chunks": {
     "000e79baea11403029d335b1": {
       "canonical_confirmations": [
@@ -22354,6 +22379,28 @@
       "updated_at": "2026-09-28T23:56:59+00:00",
       "url": "https://www.youtube.com/watch?v=zEfhekhO6i0"
     },
+    "5b4699f13bbb3d8510a0a6a2": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-11-08T23:02:35+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [
+        "2026-03-22"
+      ],
+      "sha256": "e6b967fd51e84a800c1922df3605ca779e9fd6d35154ac27f0e2fdafd9968d66",
+      "source_title": "David Lisnard 2027 : démocratie directe et programme présidentiel",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-08T23:02:37+00:00",
+      "url": "https://solutiondemocratique.fr/david-lisnard-programme-2027/"
+    },
     "5b48d10c09b4209549a7b6b5": {
       "canonical_confirmations": [],
       "claims": [],
@@ -33589,6 +33636,26 @@
       "updated_at": "2026-09-16T12:47:32+00:00",
       "url": "https://bsky.app/profile/marinetondelier.fr/post/3mvmp4gdjis2a"
     },
+    "91a194b18233b1d10cd1ce5d": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-11-08T23:02:59+00:00",
+      "document_types": [
+        "other"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "a3f77134b635c4e3964f9412e531c3dade1b802eedd4f9748dbb384d0293bcd5",
+      "source_title": "🔴 Des personnels de Paul Eluard sous le coup d'enquête administrative pour leur solidarité avec les",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-08T23:03:00+00:00",
+      "url": "https://www.youtube.com/shorts/fw0hWn5UfwQ"
+    },
     "91fea7c7f3215f8ea3a6995c": {
       "canonical_confirmations": [
         {
@@ -34448,6 +34515,26 @@
       "updated_at": "2026-09-29T14:15:37+00:00",
       "url": "https://www.youtube.com/shorts/Yh-GrqzOV2c"
     },
+    "9830a154be7416da3d89bf68": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-11-08T23:03:01+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "af89f1accc010ff9da64ef2ecbc2dac72134fa597aa8f14f67ee09efc49cbeb6",
+      "source_title": "🔴 Assa Traoré en solidarité avec la lutte des élèves et les personnels de Paul Eluard !",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-08T23:03:02+00:00",
+      "url": "https://www.youtube.com/shorts/yqesooDxBDk"
+    },
     "9832f6b237fd6b1467231609": {
       "canonical_confirmations": [],
       "claims": [],
@@ -34786,6 +34873,101 @@
       "total": 1,
       "updated_at": "2026-08-14T20:05:51+00:00",
       "url": "https://solutiondemocratique.fr/marine-tondelier-programme-2027/"
+    },
+    "99f20e59450251426394d737": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "equinoxe",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "La commande publique française et européenne privilégie la souveraineté",
+            "relevance": "direct",
+            "statement": "La commande publique française et européenne doit privilégier la souveraineté, notamment pour la défense, l'énergie et le numérique.",
+            "topic": "economie-finances"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La commande publique et la souveraineté sont explicitement soutenues dans la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "equinoxe",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "les traités de libre-échange sont donc suspendus, ou renégociés",
+            "relevance": "direct",
+            "statement": "Les traités de libre-échange doivent être suspendus ou renégociés pour assurer le respect de clauses sanitaires, sociales et environnementales.",
+            "topic": "europe-souverainete"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La suspension ou la renégociation des traités de libre-échange est explicitement présente dans la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [
+        {
+          "claim": {
+            "actor_id": "equinoxe",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "La commande publique française et européenne privilégie la souveraineté",
+            "relevance": "direct",
+            "statement": "La commande publique française et européenne doit privilégier la souveraineté, notamment pour la défense, l'énergie et le numérique.",
+            "topic": "economie-finances"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La commande publique et la souveraineté sont explicitement soutenues dans la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "equinoxe",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "les traités de libre-échange sont donc suspendus, ou renégociés",
+            "relevance": "direct",
+            "statement": "Les traités de libre-échange doivent être suspendus ou renégociés pour assurer le respect de clauses sanitaires, sociales et environnementales.",
+            "topic": "europe-souverainete"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La suspension ou la renégociation des traités de libre-échange est explicitement présente dans la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "completed_at": "2026-11-08T23:02:44+00:00",
+      "created_at": "2026-11-08T23:02:38+00:00",
+      "document_types": [
+        "party_programme"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "6c8feb179a2d2d3177614d6e0a70c645c93a6e61374906dbd5f6bbef83f4fde9",
+      "source_title": "Souveraineté industrielle : notre production - Parti Équinoxe",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-08T23:02:44+00:00",
+      "url": "https://parti-equinoxe.fr/programme-2027/reprendre-la-main-sur-notre-production/"
     },
     "9a96f219b316df0c1c9e2d23": {
       "canonical_confirmations": [],
@@ -44139,6 +44321,26 @@
       "total": 1,
       "updated_at": "2026-10-16T17:36:14+00:00",
       "url": "https://solutiondemocratique.fr/a-quelle-condition-nous-sommes-pret-a-retirer-notre-candidature-a-la-presidentielle/"
+    },
+    "b6585b58a5d1d3f948e73a18": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-11-08T23:03:03+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "f62c00c6cfae10f41ebd369e6bb29da04f773a0facae1b6d6d63f0ace8d433d6",
+      "source_title": "🔴 Ce qui se joue à Paul Eluard, c'est l'avenir du mouvement !",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-08T23:03:04+00:00",
+      "url": "https://www.youtube.com/shorts/aodw6zGUgCs"
     },
     "b690d30452252847beead0d1": {
       "canonical_confirmations": [
@@ -58189,6 +58391,137 @@
       "updated_at": "2026-11-06T10:31:19+00:00",
       "url": "https://attalpresident.fr/programme/mesures/fonds-investissement-defense"
     },
+    "f7ad33e18a9881c61e5673ed": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "equinoxe",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Les différents codes juridiques sont simplifiés",
+            "relevance": "direct",
+            "statement": "Les codes juridiques sont simplifiés en supprimant les dispositions inutiles ou redondantes et en clarifiant leur rédaction.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La proposition sur la simplification des codes juridiques est explicitement présente dans la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "equinoxe",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "pré-remplies à partir des informations déjà détenues par les administrations",
+            "relevance": "direct",
+            "statement": "Les démarches administratives sont pré-remplies à partir des informations déjà détenues par les administrations.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La proposition sur les démarches administratives pré-remplies est explicitement soutenue par la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "equinoxe",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "La gestion des aides sociales est regroupée au sein d’un organisme unique",
+            "relevance": "direct",
+            "statement": "La gestion des aides sociales est regroupée au sein d'un organisme unique pour faciliter leur attribution automatique.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "La proposition sur le regroupement de la gestion des aides sociales est clairement établie dans la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [
+        {
+          "claim": {
+            "actor_id": "equinoxe",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Les différents codes juridiques sont simplifiés",
+            "relevance": "direct",
+            "statement": "Les codes juridiques sont simplifiés en supprimant les dispositions inutiles ou redondantes et en clarifiant leur rédaction.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La proposition sur la simplification des codes juridiques est explicitement présente dans la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "equinoxe",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "pré-remplies à partir des informations déjà détenues par les administrations",
+            "relevance": "direct",
+            "statement": "Les démarches administratives sont pré-remplies à partir des informations déjà détenues par les administrations.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La proposition sur les démarches administratives pré-remplies est explicitement soutenue par la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "equinoxe",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "La gestion des aides sociales est regroupée au sein d’un organisme unique",
+            "relevance": "direct",
+            "statement": "La gestion des aides sociales est regroupée au sein d'un organisme unique pour faciliter leur attribution automatique.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "La proposition sur le regroupement de la gestion des aides sociales est clairement établie dans la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "completed_at": "2026-11-08T23:02:54+00:00",
+      "created_at": "2026-11-08T23:02:48+00:00",
+      "document_types": [
+        "party_programme"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "5c12d2c9b0b0bc80a616617a1eb55562120e96d4fbe169a5239e2207dfc8edd2",
+      "source_title": "Simplification administrative des démarches - Parti Équinoxe",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-08T23:02:54+00:00",
+      "url": "https://parti-equinoxe.fr/programme-2027/sortir-du-labyrinthe-administratif/"
+    },
     "f7e06807a93360efa8c6f859": {
       "canonical_confirmations": [],
       "claims": [],
@@ -59124,6 +59457,26 @@
       "total": 1,
       "updated_at": "2026-09-11T17:10:44+00:00",
       "url": "https://rassemblementnational.fr/"
+    },
+    "fb733c361dbe323f7b64054d": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-11-08T23:03:05+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "215d6ffd0e0f28e136c384c931d43012710b94c9d06af21294f86ad06f2569b0",
+      "source_title": "🔴 Contre la répression et le manque de moyens dans nos écoles, faisons front !",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-08T23:03:06+00:00",
+      "url": "https://www.youtube.com/shorts/_xo5ZmWwcUk"
     },
     "fb9952e965c4ef6ef19f07d8": {
       "canonical_confirmations": [],
@@ -61230,6 +61583,15 @@
       "source_sha256": "b0d865952126cdbde308b5f4526abedb5988a1ed61d61b6978ce0df76c98868c",
       "status": "promoted",
       "url": "https://www.revolutionpermanente.fr/28h-expropriation-des-secteurs-strategiques-RP-presente-les-premieres-mesures-de-sa-candidature"
+    },
+    "30ada7f362e9": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-11-08T23:02:59+00:00",
+      "reason": null,
+      "source_sha256": "5c12d2c9b0b0bc80a616617a1eb55562120e96d4fbe169a5239e2207dfc8edd2",
+      "status": "promoted",
+      "url": "https://parti-equinoxe.fr/programme-2027/sortir-du-labyrinthe-administratif/"
     },
     "30f7a524e76b": {
       "chunks_done": null,
@@ -64321,6 +64683,15 @@
       "status": "not_confirmed",
       "url": "https://anasse2027.fr/programme"
     },
+    "a7879c4d7f3c": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-11-08T23:02:37+00:00",
+      "reason": null,
+      "source_sha256": "e6b967fd51e84a800c1922df3605ca779e9fd6d35154ac27f0e2fdafd9968d66",
+      "status": "not_confirmed",
+      "url": "https://solutiondemocratique.fr/david-lisnard-programme-2027/"
+    },
     "a7b1898af154": {
       "chunks_done": null,
       "chunks_total": null,
@@ -66094,6 +66465,15 @@
       "source_sha256": "8cc3a8c96c51c33a46afacbfcbabae1df3c4834eb396f2bdd6445cc6f5970f17",
       "status": "not_confirmed",
       "url": "https://npa-revolutionnaires.org/communique-presidentielle-2027-selma-labib-une-candidature-ouvriere-et-revolutionnaire-soutenue-par-gael-quirante/"
+    },
+    "e07373f8bf7d": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-11-08T23:02:47+00:00",
+      "reason": null,
+      "source_sha256": "6c8feb179a2d2d3177614d6e0a70c645c93a6e61374906dbd5f6bbef83f4fde9",
+      "status": "promoted",
+      "url": "https://parti-equinoxe.fr/programme-2027/reprendre-la-main-sur-notre-production/"
     },
     "e0887846e332": {
       "chunks_done": null,

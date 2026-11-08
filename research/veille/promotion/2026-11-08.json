@@ -1,50 +1,43 @@
 {
   "errors": [],
-  "generated_at": "2026-11-08T18:29:20+00:00",
+  "generated_at": "2026-11-08T23:02:59+00:00",
   "historical_skipped": 0,
   "partial": 0,
   "processed": 3,
-  "promoted": 3,
-  "proposals_created": 6,
+  "promoted": 2,
+  "proposals_created": 5,
   "results": [
     {
-      "chunks_total": 1,
-      "document": "corpus/2027/auto/candidates/antoine-mikolajczak/2026-11-07-96e58145e860.md",
-      "proposals": [
-        "proposals/auto/pouvoir-achat-travail/auto-equinoxe-pouvoir-achat-travail-c394292b49bd.md",
-        "proposals/auto/pouvoir-achat-travail/auto-equinoxe-pouvoir-achat-travail-2ecc9e9dd374.md",
-        "proposals/auto/pouvoir-achat-travail/auto-equinoxe-pouvoir-achat-travail-961acbdcb337.md"
-      ],
-      "sha256": "f972dcc0c71ee207562c705f790765011fb6037db2a8f60b403d8fac12bb2b0d",
-      "status": "promoted",
-      "status_updates": [],
-      "url": "https://parti-equinoxe.fr/programme-2027/une-production-une-formation-un-emploi/",
-      "verified_at": "2026-11-08T18:28:44+00:00"
+      "sha256": "e6b967fd51e84a800c1922df3605ca779e9fd6d35154ac27f0e2fdafd9968d66",
+      "status": "not_confirmed",
+      "url": "https://solutiondemocratique.fr/david-lisnard-programme-2027/"
     },
     {
       "chunks_total": 1,
-      "document": "corpus/2027/auto/candidates/antoine-mikolajczak/2026-11-07-579629e7e4d4.md",
+      "document": "corpus/2027/auto/candidates/antoine-mikolajczak/2026-11-07-99f20e594502.md",
       "proposals": [
-        "proposals/auto/ecologie-energie/auto-equinoxe-ecologie-energie-72a60779ed53.md",
-        "proposals/auto/ecologie-energie/auto-equinoxe-ecologie-energie-cab213466554.md",
-        "proposals/auto/ecologie-energie/auto-equinoxe-ecologie-energie-9854691ab716.md"
+        "proposals/auto/economie-finances/auto-equinoxe-economie-finances-9b1847c0274c.md",
+        "proposals/auto/europe-souverainete/auto-equinoxe-europe-souverainete-3b812f194772.md"
       ],
-      "sha256": "bf5fc304158470090bb7d15b0a6572da8b88e67324dc63d14da266dc23881d9f",
+      "sha256": "6c8feb179a2d2d3177614d6e0a70c645c93a6e61374906dbd5f6bbef83f4fde9",
       "status": "promoted",
       "status_updates": [],
-      "url": "https://parti-equinoxe.fr/programme-2027/recompenser-les-menages-les-plus-sobres/",
-      "verified_at": "2026-11-08T18:29:01+00:00"
+      "url": "https://parti-equinoxe.fr/programme-2027/reprendre-la-main-sur-notre-production/",
+      "verified_at": "2026-11-08T23:02:44+00:00"
     },
     {
-      "document": "corpus/2027/auto/candidates/antoine-mikolajczak/2026-11-07-6aa34ca6e553.md",
-      "provenance_updates": [
-        "auto-equinoxe-ecologie-energie-6752e0b08a61"
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/candidates/antoine-mikolajczak/2026-11-07-f7ad33e18a98.md",
+      "proposals": [
+        "proposals/auto/services-publics/auto-equinoxe-services-publics-ef916847a641.md",
+        "proposals/auto/services-publics/auto-equinoxe-services-publics-0e54e84c7343.md",
+        "proposals/auto/services-publics/auto-equinoxe-services-publics-17947e3f18b9.md"
       ],
-      "reason": "canonical_duplicate_evidence",
-      "sha256": "7f7af0468e282e87e72be37d383bbcf7f079a0ad75aa4fc07a81f7d01f563d87",
+      "sha256": "5c12d2c9b0b0bc80a616617a1eb55562120e96d4fbe169a5239e2207dfc8edd2",
       "status": "promoted",
-      "url": "https://parti-equinoxe.fr/programme-2027/proteger-le-climat-au-dela-dun-mandat/",
-      "verified_at": "2026-11-08T18:29:19+00:00"
+      "status_updates": [],
+      "url": "https://parti-equinoxe.fr/programme-2027/sortir-du-labyrinthe-administratif/",
+      "verified_at": "2026-11-08T23:02:54+00:00"
     }
   ],
   "status_updates": 0

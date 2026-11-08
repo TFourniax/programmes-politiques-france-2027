@@ -1,0 +1,44 @@
+{
+  "errors": [],
+  "generated_at": "2026-11-08T23:02:59+00:00",
+  "historical_skipped": 0,
+  "partial": 0,
+  "processed": 3,
+  "promoted": 2,
+  "proposals_created": 5,
+  "results": [
+    {
+      "sha256": "e6b967fd51e84a800c1922df3605ca779e9fd6d35154ac27f0e2fdafd9968d66",
+      "status": "not_confirmed",
+      "url": "https://solutiondemocratique.fr/david-lisnard-programme-2027/"
+    },
+    {
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/candidates/antoine-mikolajczak/2026-11-07-99f20e594502.md",
+      "proposals": [
+        "proposals/auto/economie-finances/auto-equinoxe-economie-finances-9b1847c0274c.md",
+        "proposals/auto/europe-souverainete/auto-equinoxe-europe-souverainete-3b812f194772.md"
+      ],
+      "sha256": "6c8feb179a2d2d3177614d6e0a70c645c93a6e61374906dbd5f6bbef83f4fde9",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://parti-equinoxe.fr/programme-2027/reprendre-la-main-sur-notre-production/",
+      "verified_at": "2026-11-08T23:02:44+00:00"
+    },
+    {
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/candidates/antoine-mikolajczak/2026-11-07-f7ad33e18a98.md",
+      "proposals": [
+        "proposals/auto/services-publics/auto-equinoxe-services-publics-ef916847a641.md",
+        "proposals/auto/services-publics/auto-equinoxe-services-publics-0e54e84c7343.md",
+        "proposals/auto/services-publics/auto-equinoxe-services-publics-17947e3f18b9.md"
+      ],
+      "sha256": "5c12d2c9b0b0bc80a616617a1eb55562120e96d4fbe169a5239e2207dfc8edd2",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://parti-equinoxe.fr/programme-2027/sortir-du-labyrinthe-administratif/",
+      "verified_at": "2026-11-08T23:02:54+00:00"
+    }
+  ],
+  "status_updates": 0
+}

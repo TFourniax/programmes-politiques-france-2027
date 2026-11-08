@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created_at": "2026-08-17T19:57:19.441897+00:00",
-  "updated_at": "2026-11-08T18:29:29.109618+00:00",
+  "updated_at": "2026-11-08T23:03:10.016103+00:00",
   "files": [
     {
       "path": "corpus/2027/auto/candidates/anasse-kazib/2026-08-28-38891602d9d9.md",
@@ -164,9 +164,19 @@
       "size": 2007
     },
     {
+      "path": "corpus/2027/auto/candidates/antoine-mikolajczak/2026-11-07-99f20e594502.md",
+      "sha256": "837c8e118891ded7f4136f129b412aa5c87f9f012d23d8c9a3fc55421ee5ba79",
+      "size": 1896
+    },
+    {
       "path": "corpus/2027/auto/candidates/antoine-mikolajczak/2026-11-07-de789e6ca149.md",
       "sha256": "417a188ebc29815acdd2aca45bffc39090afc163b4f160f5994f268aa27426e6",
       "size": 2055
+    },
+    {
+      "path": "corpus/2027/auto/candidates/antoine-mikolajczak/2026-11-07-f7ad33e18a98.md",
+      "sha256": "7dbe059518fe962f36c6e4b9af22d51ba633985dcbd419cbd66c1f9e9367cd1b",
+      "size": 2041
     },
     {
       "path": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-02b6fd496b7b.md",
@@ -2349,6 +2359,11 @@
       "size": 1248
     },
     {
+      "path": "proposals/auto/economie-finances/auto-equinoxe-economie-finances-9b1847c0274c.md",
+      "sha256": "fbc5a47d0e46688d43f8ee0be7c76276bb70984bcbcdafeafc261f87b86dc66e",
+      "size": 1481
+    },
+    {
       "path": "proposals/auto/economie-finances/auto-francois-ruffin-economie-finances-95267c769820.md",
       "sha256": "6fb79cd7b1cf53e4908d3a35f8a96901c5ad9506b95aebf103a6805b56d17571",
       "size": 1297
@@ -2457,6 +2472,11 @@
       "path": "proposals/auto/europe-souverainete/auto-bruno-retailleau-europe-souverainete-ed8d0d14bccb.md",
       "sha256": "8921f12bff0b4d9051238ef7437ddcc534e011dc61100b4427b99ae7211c5d32",
       "size": 5692
+    },
+    {
+      "path": "proposals/auto/europe-souverainete/auto-equinoxe-europe-souverainete-3b812f194772.md",
+      "sha256": "79b05892b7906828cb2132c84e775d8f97cb8c91097ffc8c94109e39571162cd",
+      "size": 1504
     },
     {
       "path": "proposals/auto/europe-souverainete/auto-francois-asselineau-europe-souverainete-9031390f3289.md",
@@ -3314,6 +3334,16 @@
       "size": 1366
     },
     {
+      "path": "proposals/auto/services-publics/auto-equinoxe-services-publics-0e54e84c7343.md",
+      "sha256": "a08ab192ffef03c6416177998181b8611b3066ffdb8066b0714993451d10e8c8",
+      "size": 1416
+    },
+    {
+      "path": "proposals/auto/services-publics/auto-equinoxe-services-publics-17947e3f18b9.md",
+      "sha256": "08e156e3da75f5e32fd594c54a04635abd15cbb72a4ea749b007973935333da5",
+      "size": 1414
+    },
+    {
       "path": "proposals/auto/services-publics/auto-equinoxe-services-publics-1f25d64f4199.md",
       "sha256": "ff7d4cd9a662ee82ba04c558bf38a6267ebd66fb7b0f8aad03a539e9bbbd8aeb",
       "size": 1379
@@ -3342,6 +3372,11 @@
       "path": "proposals/auto/services-publics/auto-equinoxe-services-publics-b7c215b6dfb9.md",
       "sha256": "104913dd01b16088902374fb68bf75ac4c98ae1c507b5ca8798207466afdf003",
       "size": 1955
+    },
+    {
+      "path": "proposals/auto/services-publics/auto-equinoxe-services-publics-ef916847a641.md",
+      "sha256": "0da2fb03f5e6df3bacfbf7548b1b03211a083afb6ecbf4b6a2d8ae96e53433d4",
+      "size": 1408
     },
     {
       "path": "proposals/auto/services-publics/auto-francois-ruffin-services-publics-d5b6563e20db.md",
