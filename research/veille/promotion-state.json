@@ -2398,7 +2398,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-11-09T08:12:00+00:00",
+  "last_run_at": "2026-11-09T23:07:11+00:00",
   "source_chunks": {
     "000e79baea11403029d335b1": {
       "canonical_confirmations": [
@@ -17483,6 +17483,26 @@
       "total": 1,
       "updated_at": "2026-11-06T10:31:03+00:00",
       "url": "https://solutiondemocratique.fr/comparatif-candidats-programme-elections-presidentielles-france-2027/"
+    },
+    "4283b4ac8a3cfb779d257c4c": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-11-09T23:07:15+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "bd2c598087024b44c51f5bb4dcec968646e3b57519d044ae99ff389a01938f60",
+      "source_title": "Si j’étais à la place d’Emmanuel Macron, je serais à la COP31. Je respecterais les engagements climatiques de la France sur la baisse des émissions de CO2. Et je défendrais une é",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-09T23:07:16+00:00",
+      "url": "https://bsky.app/profile/marinetondelier.fr/post/3mzvx7otffk2j"
     },
     "429782155df7876cb624c93b": {
       "canonical_confirmations": [],
@@ -32981,6 +33001,26 @@
       "updated_at": "2026-09-06T16:27:49+00:00",
       "url": "https://bsky.app/profile/marinetondelier.fr/post/3muu6wakqz22t"
     },
+    "8bbde5f98637c24b18fcd873": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-11-09T23:07:17+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "eeb356dfa7803dfc1e910830c26414fad20fbc97cd8b45eb4162f61b5d8acdc6",
+      "source_title": "🔴 Négocier avec le gouvernement pour des MIETTES ?? Arrêtons la mascarade !",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-09T23:07:18+00:00",
+      "url": "https://www.youtube.com/shorts/hwJfWS5zrF4"
+    },
     "8bbe093a93f7c120d1b0a158": {
       "canonical_confirmations": [],
       "claims": [],
@@ -45057,6 +45097,26 @@
       "updated_at": "2026-10-22T06:17:16+00:00",
       "url": "https://lafrancehumaniste.fr/programme/economie.html"
     },
+    "b9c901a866fb245d64276fc5": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-11-09T23:07:03+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "41913611fa446b774d76844dce951897ae782e1937bf89777ad95c7b1f42ddcb",
+      "source_title": "Commander le programme - Mélenchon 2027 : Soutenez ma candidature à l’élection présidentielle",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-09T23:07:05+00:00",
+      "url": "https://melenchon2027.fr/programme/commander/"
+    },
     "b9e23ee4afabc395b58b8610": {
       "canonical_confirmations": [
         {
@@ -46350,7 +46410,7 @@
           }
         }
       ],
-      "completed_at": "2026-11-07T14:18:11+00:00",
+      "completed_at": "2026-11-09T23:07:07+00:00",
       "created_at": "2026-11-07T14:17:55+00:00",
       "document_types": [
         "campaign_website_page"
@@ -46365,7 +46425,7 @@
       "statuses": [],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-11-07T14:18:11+00:00",
+      "updated_at": "2026-11-09T23:07:07+00:00",
       "url": "https://melenchon2027.fr/programme/decouvrir/"
     },
     "c1e89d3cc55fcd81ac145aa0": {
@@ -51240,6 +51300,26 @@
       "updated_at": "2026-10-16T17:37:06+00:00",
       "url": "https://www.youtube.com/shorts/e0mymOVl7Hw"
     },
+    "d5b260808d9049b3ae801ed3": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-11-09T23:07:19+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "0552b4ed6eedd5938a237ffe11843f20d155ccac16598a39a5716b5817b41a6c",
+      "source_title": "🔴 Alexis de Paul Eluard appelle les parents et enseignants à FAIRE GRÈVE en solidarité avec les lyc",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-09T23:07:20+00:00",
+      "url": "https://www.youtube.com/shorts/OWlGUtJUCDE"
+    },
     "d60139f1747f64395ac98db4": {
       "canonical_confirmations": [],
       "claims": [],
@@ -52749,6 +52829,36 @@
       "updated_at": "2026-09-15T17:47:51+00:00",
       "url": "https://bsky.app/profile/marinetondelier.fr/post/3mvkoz6louk2e"
     },
+    "ddc5b70627b5f21524fa1f47": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-11-09T23:07:12+00:00",
+      "document_types": [
+        "official_interview"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "c5686efbd2fdd0a8d18162e7ec1be84fd359af390ff9348530549ef80cc83230",
+      "source_title": "Non, je ne me désisterai pas. Je ne vais pas disparaître de cette élection présidentielle comme ça d’un coup. Par contre, avec les Écologistes, nous sommes prêt·es à rejoindre un",
+      "statuses": [
+        {
+          "status": {
+            "candidate_id": "marine-tondelier",
+            "effective_date": null,
+            "evidence_quote": "Non, je ne me désisterai pas. Je ne vais pas disparaître de cette élection présidentielle",
+            "explicit": true,
+            "new_status": "declared_presidential"
+          }
+        }
+      ],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-09T23:07:14+00:00",
+      "url": "https://bsky.app/profile/marinetondelier.fr/post/3mzvz6dw6f22j"
+    },
     "de021ce42cb54872389644c6": {
       "canonical_confirmations": [
         {
@@ -53688,7 +53798,7 @@
       "statuses": [],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-11-07T14:17:54+00:00",
+      "updated_at": "2026-11-09T23:07:02+00:00",
       "url": "https://melenchon2027.fr/programme/livre"
     },
     "e09c48211f3a6c81ad984a9b": {
@@ -60840,6 +60950,15 @@
       "status": "promoted",
       "url": "https://attalpresident.fr/programme/mesures/fonds-investissement-defense"
     },
+    "08aa5f961057": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-11-09T23:07:02+00:00",
+      "reason": null,
+      "source_sha256": "36c00c5620980f9ea501200ff79a5bcaf711d5867851f872d09658bc2d3c0b88",
+      "status": "not_confirmed",
+      "url": "https://melenchon2027.fr/programme/"
+    },
     "08c19ef04aa7": {
       "chunks_done": null,
       "chunks_total": null,
@@ -62899,6 +63018,15 @@
       "status": "promoted",
       "url": "https://www.revolutionpermanente.fr/Le-Poing-Leve-a-Bordeaux-140-etudiants-reunis-pour-discuter-de-BEF-et-de-la-candidature-d-Anasse"
     },
+    "4e5a396974ca": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-11-09T23:07:11+00:00",
+      "reason": null,
+      "source_sha256": "1e5e3520f4987f08e14ee91e2000e76ed86b84f30611b8c09a6658cf881d0e37",
+      "status": "promoted",
+      "url": "https://melenchon2027.fr/programme/decouvrir/"
+    },
     "4ecdc921d889": {
       "chunks_done": null,
       "chunks_total": null,
@@ -62970,6 +63098,15 @@
       "source_sha256": "4c3b84a1fbbbeb9602acb2eed91a21b9a2559c8c44129d5b23b020f08682cada",
       "status": "not_confirmed",
       "url": "https://npa-revolutionnaires.org/communique-presidentielle-2027-selma-labib-une-candidature-ouvriere-et-revolutionnaire-soutenue-par-gael-quirante/"
+    },
+    "51b1ac656ce7": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-11-09T23:07:05+00:00",
+      "reason": null,
+      "source_sha256": "41913611fa446b774d76844dce951897ae782e1937bf89777ad95c7b1f42ddcb",
+      "status": "not_confirmed",
+      "url": "https://melenchon2027.fr/programme/commander/"
     },
     "5240a070dd52": {
       "chunks_done": null,

@@ -1,55 +1,31 @@
 {
   "errors": [],
-  "generated_at": "2026-11-09T08:12:00+00:00",
+  "generated_at": "2026-11-09T23:07:11+00:00",
   "historical_skipped": 0,
   "partial": 0,
   "processed": 3,
-  "promoted": 3,
-  "proposals_created": 3,
+  "promoted": 1,
+  "proposals_created": 0,
   "results": [
     {
-      "chunks_total": 1,
-      "document": "corpus/2027/auto/candidates/antoine-mikolajczak/2026-11-07-739cdf702f21.md",
-      "proposals": [
-        "proposals/auto/institutions-democratie/auto-equinoxe-institutions-democratie-36e224e79bef.md",
-        "proposals/auto/institutions-democratie/auto-equinoxe-institutions-democratie-48820898d310.md"
-      ],
-      "provenance_updates": [
-        "auto-equinoxe-institutions-democratie-60dd4a6545cd",
-        "auto-equinoxe-institutions-democratie-de8e41f8910c"
-      ],
-      "sha256": "e5d2a9d890caa40abac25a0fde9128f4b391706a8159ea0704fdc8f327515300",
-      "status": "promoted",
-      "status_updates": [],
-      "url": "https://parti-equinoxe.fr/programme-2027/des-elus-qui-rendent-des-comptes/",
-      "verified_at": "2026-11-09T08:11:33+00:00"
+      "sha256": "36c00c5620980f9ea501200ff79a5bcaf711d5867851f872d09658bc2d3c0b88",
+      "status": "not_confirmed",
+      "url": "https://melenchon2027.fr/programme/livre"
     },
     {
-      "document": "corpus/2027/auto/candidates/antoine-mikolajczak/2026-11-07-124eb3c2b558.md",
-      "provenance_updates": [
-        "auto-equinoxe-institutions-democratie-11e750b0f297"
-      ],
-      "reason": "canonical_duplicate_evidence",
-      "sha256": "0727f8f52f042d35e964f6f5d5bdee061d62e7bd0174afe797552a5c42c6fc91",
-      "status": "promoted",
-      "url": "https://parti-equinoxe.fr/programme-2027/une-competence-un-echelon-un-budget/",
-      "verified_at": "2026-11-09T08:11:43+00:00"
+      "sha256": "41913611fa446b774d76844dce951897ae782e1937bf89777ad95c7b1f42ddcb",
+      "status": "not_confirmed",
+      "url": "https://melenchon2027.fr/programme/commander/"
     },
     {
       "chunks_total": 1,
-      "document": "corpus/2027/auto/candidates/antoine-mikolajczak/2026-11-07-c0b087b78bee.md",
-      "proposals": [
-        "proposals/auto/institutions-democratie/auto-equinoxe-institutions-democratie-a4b3b16cd5dc.md"
-      ],
-      "provenance_updates": [
-        "auto-equinoxe-institutions-democratie-36e224e79bef",
-        "auto-equinoxe-institutions-democratie-9b6cc8950f26"
-      ],
-      "sha256": "b43f822e29b6ee64e462c344c2a0e84550bf7b89a55ea0bf9d691cf821ab28ed",
+      "document": "corpus/2027/auto/partys/la-france-insoumise/2026-11-07-c17cb83aa2f5.md",
+      "proposals": [],
+      "sha256": "1e5e3520f4987f08e14ee91e2000e76ed86b84f30611b8c09a6658cf881d0e37",
       "status": "promoted",
       "status_updates": [],
-      "url": "https://parti-equinoxe.fr/programme-2027/operation-montesquieu-partage-du-pouvoir/",
-      "verified_at": "2026-11-09T08:11:59+00:00"
+      "url": "https://melenchon2027.fr/programme/decouvrir/",
+      "verified_at": "2026-11-09T23:07:07+00:00"
     }
   ],
   "status_updates": 0

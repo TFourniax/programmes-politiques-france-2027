@@ -1,0 +1,32 @@
+{
+  "errors": [],
+  "generated_at": "2026-11-09T23:07:11+00:00",
+  "historical_skipped": 0,
+  "partial": 0,
+  "processed": 3,
+  "promoted": 1,
+  "proposals_created": 0,
+  "results": [
+    {
+      "sha256": "36c00c5620980f9ea501200ff79a5bcaf711d5867851f872d09658bc2d3c0b88",
+      "status": "not_confirmed",
+      "url": "https://melenchon2027.fr/programme/livre"
+    },
+    {
+      "sha256": "41913611fa446b774d76844dce951897ae782e1937bf89777ad95c7b1f42ddcb",
+      "status": "not_confirmed",
+      "url": "https://melenchon2027.fr/programme/commander/"
+    },
+    {
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/partys/la-france-insoumise/2026-11-07-c17cb83aa2f5.md",
+      "proposals": [],
+      "sha256": "1e5e3520f4987f08e14ee91e2000e76ed86b84f30611b8c09a6658cf881d0e37",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://melenchon2027.fr/programme/decouvrir/",
+      "verified_at": "2026-11-09T23:07:07+00:00"
+    }
+  ],
+  "status_updates": 0
+}
