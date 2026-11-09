@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created_at": "2026-08-17T19:57:19.441897+00:00",
-  "updated_at": "2026-11-08T23:03:10.016103+00:00",
+  "updated_at": "2026-11-09T08:12:11.912814+00:00",
   "files": [
     {
       "path": "corpus/2027/auto/candidates/anasse-kazib/2026-08-28-38891602d9d9.md",
@@ -144,6 +144,11 @@
       "size": 1478
     },
     {
+      "path": "corpus/2027/auto/candidates/antoine-mikolajczak/2026-11-07-124eb3c2b558.md",
+      "sha256": "16bda06e92051509ef9ce95eeca01e74edab48727ade1dffe881a39e7c773273",
+      "size": 1645
+    },
+    {
       "path": "corpus/2027/auto/candidates/antoine-mikolajczak/2026-11-07-4bb82148dfa8.md",
       "sha256": "a287f0b78b0d3fa50b1ea9a47a56bb33d14030b98e4114352cffb25f82be04e6",
       "size": 1929
@@ -159,6 +164,11 @@
       "size": 1751
     },
     {
+      "path": "corpus/2027/auto/candidates/antoine-mikolajczak/2026-11-07-739cdf702f21.md",
+      "sha256": "5941979fb03dc418b43461b7baccdddc7f5758979a3da0be2455436fb1d78265",
+      "size": 2286
+    },
+    {
       "path": "corpus/2027/auto/candidates/antoine-mikolajczak/2026-11-07-96e58145e860.md",
       "sha256": "6bbc459f670713ff7f57dd5d4f5bd2fcbaebae86727ee8890423ec281e601ce6",
       "size": 2007
@@ -167,6 +177,11 @@
       "path": "corpus/2027/auto/candidates/antoine-mikolajczak/2026-11-07-99f20e594502.md",
       "sha256": "837c8e118891ded7f4136f129b412aa5c87f9f012d23d8c9a3fc55421ee5ba79",
       "size": 1896
+    },
+    {
+      "path": "corpus/2027/auto/candidates/antoine-mikolajczak/2026-11-07-c0b087b78bee.md",
+      "sha256": "8a67829b034614018bc576c74f8bc7d4fb55e9d2c43f1f54f5257e7160c8fc5d",
+      "size": 2400
     },
     {
       "path": "corpus/2027/auto/candidates/antoine-mikolajczak/2026-11-07-de789e6ca149.md",
@@ -2725,23 +2740,38 @@
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-equinoxe-institutions-democratie-11e750b0f297.md",
-      "sha256": "e8e47fd628e46538f4609eba6b871e9e6a145c1c84dde64cf870b99ef7d78985",
-      "size": 1848
+      "sha256": "47421d070ace0477c282e793c8ef3959536eed586d7a3967e0bb0d97f3aaafa2",
+      "size": 2047
+    },
+    {
+      "path": "proposals/auto/institutions-democratie/auto-equinoxe-institutions-democratie-36e224e79bef.md",
+      "sha256": "f41ef454dbbafb3be8a86f17a38d3669ab708e50c15d1c5193277dc213b894b9",
+      "size": 1738
+    },
+    {
+      "path": "proposals/auto/institutions-democratie/auto-equinoxe-institutions-democratie-48820898d310.md",
+      "sha256": "b3bc5e280c7f1fe4a68f30600a00328b0c16ee24094054f0a6fd18ee491e0b00",
+      "size": 1349
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-equinoxe-institutions-democratie-60dd4a6545cd.md",
-      "sha256": "2edce31b8d6b2caf02b9cd69ec471f2aa8733a327995ca19907114f6313a60b3",
-      "size": 1352
+      "sha256": "f7ab7fd2d9a73bdc7b3697924a4cba00b76c6846dcfe592010dda6fb7d6b5978",
+      "size": 1744
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-equinoxe-institutions-democratie-9b6cc8950f26.md",
-      "sha256": "f39c0e27d04a45a3888681b9c3944071bcb55dce3608f10b6aa0f936c52fe920",
-      "size": 1858
+      "sha256": "ec67914bc1356454022b0ae904319587c5c1d6cc872964d09685ed4540a2652f",
+      "size": 2062
+    },
+    {
+      "path": "proposals/auto/institutions-democratie/auto-equinoxe-institutions-democratie-a4b3b16cd5dc.md",
+      "sha256": "4a7a573d62bc2f24ae22106873bf0a0d2b7aee1996f709e7d68f7cd9d61bfbe0",
+      "size": 1492
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-equinoxe-institutions-democratie-de8e41f8910c.md",
-      "sha256": "7ef0f55f8ef25aefcd532acd1481092cf689ea436fb360e5cf0ba01c49a2e9ef",
-      "size": 1748
+      "sha256": "6ea0faca42eb6e282848e07efa7fe1f0ba9c3b5ffaebc5d39dd4dc61644eb240",
+      "size": 1944
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-jean-luc-melenchon-institutions-democratie-8e09285dec35.md",
