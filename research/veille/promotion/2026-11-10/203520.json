@@ -1,0 +1,36 @@
+{
+  "errors": [],
+  "generated_at": "2026-11-10T20:35:20+00:00",
+  "historical_skipped": 0,
+  "partial": 1,
+  "processed": 3,
+  "promoted": 1,
+  "proposals_created": 0,
+  "results": [
+    {
+      "document": "corpus/2027/auto/partys/solution-democratique/2025-04-09-cd8105c4b93b.md",
+      "provenance_updates": [
+        "auto-solution-democratique-institutions-democratie-4ea1c22d52ea"
+      ],
+      "reason": "canonical_duplicate_evidence",
+      "sha256": "c17d9a970b958603d098930e427f40256969ed1de20c2bcd8fb868dbdfc4b41c",
+      "status": "promoted",
+      "url": "https://solutiondemocratique.fr/comparatif-candidats-programme-elections-presidentielles-france-2027/",
+      "verified_at": "2026-11-10T20:34:52+00:00"
+    },
+    {
+      "chunks_done": 2,
+      "chunks_remaining": 1,
+      "chunks_total": 3,
+      "sha256": "ee45c177e6a59f9c999dcbe1e76964103769d9caf9096ef59a65f5de3fef8b77",
+      "status": "partial",
+      "url": "https://melenchon2027.fr/programme/plans-thematiques/esr/"
+    },
+    {
+      "sha256": "b8837b705b155d5af38a35a8a1919b0b34d8a0d6ad7831abb70eea185a2774ff",
+      "status": "not_confirmed",
+      "url": "https://solutiondemocratique.fr/teddy-riner-programme-presidentielle/"
+    }
+  ],
+  "status_updates": 0
+}

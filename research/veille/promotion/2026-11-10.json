@@ -1,42 +1,35 @@
 {
   "errors": [],
-  "generated_at": "2026-11-10T08:35:14+00:00",
+  "generated_at": "2026-11-10T20:35:20+00:00",
   "historical_skipped": 0,
-  "partial": 0,
+  "partial": 1,
   "processed": 3,
-  "promoted": 2,
+  "promoted": 1,
   "proposals_created": 0,
   "results": [
     {
-      "sha256": "263cf7ac3fad83b6baadf0f8bbafe9b8436466ad07e2aacb0bb073511ca0e375",
+      "document": "corpus/2027/auto/partys/solution-democratique/2025-04-09-cd8105c4b93b.md",
+      "provenance_updates": [
+        "auto-solution-democratique-institutions-democratie-4ea1c22d52ea"
+      ],
+      "reason": "canonical_duplicate_evidence",
+      "sha256": "c17d9a970b958603d098930e427f40256969ed1de20c2bcd8fb868dbdfc4b41c",
+      "status": "promoted",
+      "url": "https://solutiondemocratique.fr/comparatif-candidats-programme-elections-presidentielles-france-2027/",
+      "verified_at": "2026-11-10T20:34:52+00:00"
+    },
+    {
+      "chunks_done": 2,
+      "chunks_remaining": 1,
+      "chunks_total": 3,
+      "sha256": "ee45c177e6a59f9c999dcbe1e76964103769d9caf9096ef59a65f5de3fef8b77",
+      "status": "partial",
+      "url": "https://melenchon2027.fr/programme/plans-thematiques/esr/"
+    },
+    {
+      "sha256": "b8837b705b155d5af38a35a8a1919b0b34d8a0d6ad7831abb70eea185a2774ff",
       "status": "not_confirmed",
-      "url": "https://melenchon2027.fr/comment-a-ete-concu-le-programme/"
-    },
-    {
-      "document": "corpus/2027/auto/partys/la-france-insoumise/2026-11-07-6979793aef76.md",
-      "provenance_updates": [
-        "auto-la-france-insoumise-institutions-democratie-6c9aaa63d884"
-      ],
-      "reason": "canonical_duplicate_evidence",
-      "sha256": "edee65df47acaaa4dda4813f779eb7ee6d89ce3d09bf9d0c48508df324cc5074",
-      "status": "promoted",
-      "url": "https://melenchon2027.fr/programme/livre/fonder-la-6e-republique/",
-      "verified_at": "2026-11-10T08:34:56+00:00"
-    },
-    {
-      "document": "corpus/2027/auto/partys/la-france-insoumise/2026-11-07-ba0eca7f2ed7.md",
-      "provenance_updates": [
-        "auto-la-france-insoumise-institutions-democratie-0235d763feca",
-        "auto-la-france-insoumise-institutions-democratie-1c86ced635bf",
-        "auto-la-france-insoumise-institutions-democratie-2c414f161928",
-        "auto-la-france-insoumise-institutions-democratie-57d6247ef4dd",
-        "auto-la-france-insoumise-institutions-democratie-6c9aaa63d884"
-      ],
-      "reason": "canonical_duplicate_evidence",
-      "sha256": "762f1bf3f3fdf3f45f6bfa1d0ba37c12bef19066515af9ba3c968deb8fba6a6c",
-      "status": "promoted",
-      "url": "https://melenchon2027.fr/programme/livre/fonder-la-6e-republique/chapitre1/",
-      "verified_at": "2026-11-10T08:35:14+00:00"
+      "url": "https://solutiondemocratique.fr/teddy-riner-programme-presidentielle/"
     }
   ],
   "status_updates": 0

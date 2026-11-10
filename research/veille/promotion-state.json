@@ -2398,7 +2398,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-11-10T08:35:14+00:00",
+  "last_run_at": "2026-11-10T20:35:20+00:00",
   "source_chunks": {
     "000e79baea11403029d335b1": {
       "canonical_confirmations": [
@@ -13866,6 +13866,26 @@
       "updated_at": "2026-08-16T07:54:48+00:00",
       "url": "https://www.unenouvelleenergie.fr/notre-programme/"
     },
+    "39f25cfa3a87148b971c468c": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-11-10T20:35:20+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "5a8336cce26fc16a6048660f3a9acec38c3f56a6ddea73b4e08458901f3beba7",
+      "source_title": "Dans certaines franges de la société et de la sphère politique, un climat nauséabond, hostile au milieu scientifique, s’installe. Le RN a notamment lancé une croisade contre les s",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-10T20:35:22+00:00",
+      "url": "https://bsky.app/profile/marinetondelier.fr/post/3mzy5bhypsc2q"
+    },
     "3a04c0c88356020d16f84af4": {
       "canonical_confirmations": [
         {
@@ -15553,6 +15573,335 @@
       "total": 1,
       "updated_at": "2026-10-24T06:05:16+00:00",
       "url": "https://www.revolutionpermanente.fr/Casse-de-l-ecole-mise-au-pas-des-eleves-pour-quel-programme-lutter-dans-l-education-RP-a-la-Fete-de"
+    },
+    "3e88cbbe4e1e8f7f0ce41bcb": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Notre première tâche sera d’abolir les plateformes Parcoursup et MonMaster",
+            "relevance": "direct",
+            "statement": "Abolir les plateformes Parcoursup et MonMaster.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Le claim sur l'abolition de Parcoursup et MonMaster est explicitement soutenu par la source et trouve un équivalent direct dans le canon.",
+            "related_proposal_id": "auto-la-france-insoumise-services-publics-22862e7a0234",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Créer 250 000 places dans les formations de l’ESR public",
+            "relevance": "direct",
+            "statement": "Créer 250 000 places dans les formations de l'enseignement supérieur et de la recherche public.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La création de 250 000 places dans les formations de l'ESR public est explicitement soutenue et absente du canon actuel.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Instaurer la gratuité de l’enseignement supérieur, de la licence au doctorat",
+            "relevance": "direct",
+            "statement": "Instaurer la gratuité de l'enseignement supérieur, de la licence au doctorat.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "La gratuité de l'enseignement supérieur de la licence au doctorat est explicitement soutenue.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Instaurer réellement le repas à un euro dans les CROUS pour tous les étudiant·es",
+            "relevance": "direct",
+            "statement": "Instaurer le repas à un euro dans les CROUS pour tous les étudiant·es.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 3,
+            "reason": "L'instauration du repas à un euro dans les CROUS pour tous les étudiants est explicitement soutenue.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Relancer la construction de logements pour les étudiant·es et jeunes travailleur·ses à hauteur de 30 000 par an",
+            "relevance": "direct",
+            "statement": "Relancer la construction de logements pour les étudiant·es et jeunes travailleur·ses à hauteur de 30 000 par an.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 4,
+            "reason": "La relance de la construction de logements étudiants à hauteur de 30 000 par an est explicitement soutenue.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Proposer 8 000 contrats doctoraux supplémentaires par an, avec l’extension du contrat doctoral à 4 ans",
+            "relevance": "direct",
+            "statement": "Proposer 8 000 contrats doctoraux supplémentaires par an avec l'extension du contrat doctoral à 4 ans.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 5,
+            "reason": "La proposition de 8 000 contrats doctoraux supplémentaires par an avec extension à 4 ans est explicitement soutenue.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "lancerons un plan pluriannuel de recrutement de 40 000 personnels statutaires à minima sur 5 ans",
+            "relevance": "direct",
+            "statement": "Le gouvernement insoumis lancera un plan pluriannuel de recrutement de 40 000 personnels statutaires minimum sur 5 ans dans l'enseignement supérieur et la recherche.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Explicitement soutenu par la source pour le recrutement de 40 000 personnels.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "La revalorisation de la valeur du point d’indice des fonctionnaires de 10 %",
+            "relevance": "direct",
+            "statement": "Le gouvernement insoumis mettra en œuvre la revalorisation de la valeur du point d’indice des fonctionnaires de 10 % et l’inscription de son dégel dans la loi.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "Présent dans le canon actuel avec la même formulation sur le point d'indice.",
+            "related_proposal_id": "auto-la-france-insoumise-services-publics-514da6f5edf0",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Nous abrogerons les lois LRU et Fioraso",
+            "relevance": "direct",
+            "statement": "Le gouvernement insoumis abrogera les lois LRU et Fioraso.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "Explicitement soutenu par la source concernant l'abrogation des lois LRU et Fioraso.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Nous supprimerons le Crédit d’impôt recherche au profit de dotations récurrentes",
+            "relevance": "direct",
+            "statement": "Le gouvernement insoumis supprimera le Crédit d’impôt recherche au profit de dotations récurrentes pour les universités et instituts de recherche.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 3,
+            "reason": "Présent dans le canon actuel sur la suppression du Crédit d'impôt recherche.",
+            "related_proposal_id": "auto-la-france-insoumise-services-publics-3da7b5d996b2",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Créer 250 000 places dans les formations de l’ESR public",
+            "relevance": "direct",
+            "statement": "Créer 250 000 places dans les formations de l'enseignement supérieur et de la recherche public.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La création de 250 000 places dans les formations de l'ESR public est explicitement soutenue et absente du canon actuel.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Instaurer la gratuité de l’enseignement supérieur, de la licence au doctorat",
+            "relevance": "direct",
+            "statement": "Instaurer la gratuité de l'enseignement supérieur, de la licence au doctorat.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "La gratuité de l'enseignement supérieur de la licence au doctorat est explicitement soutenue.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Instaurer réellement le repas à un euro dans les CROUS pour tous les étudiant·es",
+            "relevance": "direct",
+            "statement": "Instaurer le repas à un euro dans les CROUS pour tous les étudiant·es.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 3,
+            "reason": "L'instauration du repas à un euro dans les CROUS pour tous les étudiants est explicitement soutenue.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Relancer la construction de logements pour les étudiant·es et jeunes travailleur·ses à hauteur de 30 000 par an",
+            "relevance": "direct",
+            "statement": "Relancer la construction de logements pour les étudiant·es et jeunes travailleur·ses à hauteur de 30 000 par an.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 4,
+            "reason": "La relance de la construction de logements étudiants à hauteur de 30 000 par an est explicitement soutenue.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Proposer 8 000 contrats doctoraux supplémentaires par an, avec l’extension du contrat doctoral à 4 ans",
+            "relevance": "direct",
+            "statement": "Proposer 8 000 contrats doctoraux supplémentaires par an avec l'extension du contrat doctoral à 4 ans.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 5,
+            "reason": "La proposition de 8 000 contrats doctoraux supplémentaires par an avec extension à 4 ans est explicitement soutenue.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "lancerons un plan pluriannuel de recrutement de 40 000 personnels statutaires à minima sur 5 ans",
+            "relevance": "direct",
+            "statement": "Le gouvernement insoumis lancera un plan pluriannuel de recrutement de 40 000 personnels statutaires minimum sur 5 ans dans l'enseignement supérieur et la recherche.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Explicitement soutenu par la source pour le recrutement de 40 000 personnels.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Nous abrogerons les lois LRU et Fioraso",
+            "relevance": "direct",
+            "statement": "Le gouvernement insoumis abrogera les lois LRU et Fioraso.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "Explicitement soutenu par la source concernant l'abrogation des lois LRU et Fioraso.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "created_at": "2026-11-10T20:34:53+00:00",
+      "document_types": [
+        "thematic_platform",
+        "thematic_platform"
+      ],
+      "done": [
+        0,
+        1
+      ],
+      "published_candidates": [],
+      "sha256": "ee45c177e6a59f9c999dcbe1e76964103769d9caf9096ef59a65f5de3fef8b77",
+      "source_title": "Comment nous allons refonder l’enseignement supérieur, la recherche et la formation continue - Mélenchon 2027 : Soutenez ma candidature à l’élection présidentielle",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 3,
+      "updated_at": "2026-11-10T20:35:14+00:00",
+      "url": "https://melenchon2027.fr/programme/plans-thematiques/esr/"
     },
     "3eba3bc72b8620389860985d": {
       "canonical_confirmations": [
@@ -32693,6 +33042,26 @@
       "updated_at": "2026-09-09T17:18:26+00:00",
       "url": "https://npa-revolutionnaires.org/articles/dossier-presidentielle-2027-selma-labib-une-candidature-ouvriere-et-revolutionnaire-soutenue-par-gael-quirante-paru-dans-revolutionnaires-n-60"
     },
+    "88bfe266d97123c8d730d99f": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-11-10T20:35:27+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "a9fd36894912ad3570b79d92fb5083ffd1fba990f2be9800f7837f5c36e0b767",
+      "source_title": "🔴 Distribution des tracts au marché de Saint-Denis pour le meeting du 21 novembre !",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-10T20:35:29+00:00",
+      "url": "https://www.youtube.com/shorts/ZDv_jLWWLn4"
+    },
     "8922c0cd577aceddc773b56c": {
       "canonical_confirmations": [],
       "claims": [],
@@ -33855,6 +34224,26 @@
       "total": 1,
       "updated_at": "2026-09-16T12:47:34+00:00",
       "url": "https://www.youtube.com/watch?v=DeBcRGKyPzQ"
+    },
+    "8f8cd03a2ad60c02ee7b400f": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-11-10T20:35:25+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "589b17949b1b135c6f3673396a7c8b8560e92cd5c257b3106246376a2a07179d",
+      "source_title": "🔴 Comment battre l'extrême droite ? La méthode Minneapolis | VIENS A NOTRE MEETING 21 NOVEMBRE",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-10T20:35:26+00:00",
+      "url": "https://www.youtube.com/shorts/SbkCrtEo9IY"
     },
     "9059b713644a8bcc52b1325a": {
       "canonical_confirmations": [
@@ -49672,6 +50061,66 @@
       "updated_at": "2026-08-12T20:14:14+00:00",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
+    "cd8105c4b93b652c35094de6": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "solution-democratique",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "souhaite instaurer en France la démocratie directe et la décentralisation par le bas",
+            "relevance": "direct",
+            "statement": "Solution Démocratique souhaite instaurer en France la démocratie directe et la décentralisation par le bas.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La source confirme explicitement que Solution Démocratique souhaite instaurer en France la démocratie directe et la décentralisation par le bas, ce qui est déjà présent dans le canon.",
+            "related_proposal_id": "auto-solution-democratique-institutions-democratie-4ea1c22d52ea",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "clara-egger",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "Notre candidate à l'élection présidentielle 2027 : Clara Egger",
+            "relevance": "direct",
+            "statement": "Clara Egger est la candidate de Solution Démocratique à l'élection présidentielle 2027.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La source indique clairement que Clara Egger est la candidate de Solution Démocratique à l'élection présidentielle 2027, ce qui est déjà enregistré dans le canon.",
+            "related_proposal_id": "auto-solution-democratique-institutions-democratie-fb4b3d1432b9",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-11-10T20:34:52+00:00",
+      "created_at": "2026-11-10T20:34:37+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2025-04-09"
+      ],
+      "sha256": "c17d9a970b958603d098930e427f40256969ed1de20c2bcd8fb868dbdfc4b41c",
+      "source_title": "Comparatif du programme des candidats : présidentielle 2027",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-10T20:34:48+00:00",
+      "url": "https://solutiondemocratique.fr/comparatif-candidats-programme-elections-presidentielles-france-2027/"
+    },
     "cdd90ecd8a522be92434ec28": {
       "canonical_confirmations": [
         {
@@ -52233,6 +52682,28 @@
       "total": 1,
       "updated_at": "2026-08-27T23:11:53+00:00",
       "url": "https://bsky.app/profile/marinetondelier.fr/post/3mu3a43nsdk2b"
+    },
+    "d9fc8191d4d338fe31265bb7": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-11-10T20:35:17+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [
+        "2026-11-10"
+      ],
+      "sha256": "b8837b705b155d5af38a35a8a1919b0b34d8a0d6ad7831abb70eea185a2774ff",
+      "source_title": "Teddy Riner 2027 : démocratie directe dans son programme ?",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-10T20:35:19+00:00",
+      "url": "https://solutiondemocratique.fr/teddy-riner-programme-presidentielle/"
     },
     "da6befcc4c4480aee7d577ae": {
       "canonical_confirmations": [
@@ -55492,6 +55963,26 @@
       "total": 1,
       "updated_at": "2026-10-14T18:09:05+00:00",
       "url": "https://bsky.app/profile/marinetondelier.fr/post/3mxtywnlcpk2u"
+    },
+    "e7a9aab781a4c6ed12183bc2": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-11-10T20:35:23+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "9c6301ada89e3ff401c790e84e025e6a4663ccf6fc225ccfec7eaef8f49b9839",
+      "source_title": "Il se fait PERQUISITIONNER par le RAID pour son SOUTIEN à la Palestine - Interrègne",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-10T20:35:24+00:00",
+      "url": "https://www.youtube.com/watch?v=ZewqbKM0TvM"
     },
     "e89b6fbab4355c6d0995d15f": {
       "canonical_confirmations": [
@@ -64141,6 +64632,15 @@
       "status": "promoted",
       "url": "https://attalpresident.fr/actualites/gabriel-attal-sur-rtl-je-suis-candidat-pour-gagner-cette-election-presidentielle"
     },
+    "71b55f7c4a39": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-11-10T20:35:19+00:00",
+      "reason": null,
+      "source_sha256": "b8837b705b155d5af38a35a8a1919b0b34d8a0d6ad7831abb70eea185a2774ff",
+      "status": "not_confirmed",
+      "url": "https://solutiondemocratique.fr/teddy-riner-programme-presidentielle/"
+    },
     "725617d58485": {
       "chunks_done": null,
       "chunks_total": null,
@@ -64437,6 +64937,15 @@
       "source_sha256": "64c45da36a32d401ab74ddce449436ad1a478b2a03847264f2e5f2747d800938",
       "status": "promoted",
       "url": "https://attalpresident.fr/programme"
+    },
+    "7d53ce5c95c7": {
+      "chunks_done": 2,
+      "chunks_total": 3,
+      "processed_at": "2026-11-10T20:35:14+00:00",
+      "reason": null,
+      "source_sha256": "ee45c177e6a59f9c999dcbe1e76964103769d9caf9096ef59a65f5de3fef8b77",
+      "status": "partial",
+      "url": "https://melenchon2027.fr/programme/plans-thematiques/esr/"
     },
     "7d900f388017": {
       "chunks_done": null,
@@ -64896,6 +65405,15 @@
       "source_sha256": "bda2abfba28691ea8e25ffa15fe1f5e6e2bdfc9957991a4bb1413782cadcdccd",
       "status": "promoted",
       "url": "https://attalpresident.fr/programme/mesures/livre-blanc-defense-2027"
+    },
+    "8d330853a352": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-11-10T20:34:52+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "c17d9a970b958603d098930e427f40256969ed1de20c2bcd8fb868dbdfc4b41c",
+      "status": "promoted",
+      "url": "https://solutiondemocratique.fr/comparatif-candidats-programme-elections-presidentielles-france-2027/"
     },
     "8d60fd6ec11b": {
       "chunks_done": null,
