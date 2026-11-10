@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created_at": "2026-08-17T19:57:19.441897+00:00",
-  "updated_at": "2026-11-09T23:07:25.762146+00:00",
+  "updated_at": "2026-11-10T08:35:30.806763+00:00",
   "files": [
     {
       "path": "corpus/2027/auto/candidates/anasse-kazib/2026-08-28-38891602d9d9.md",
@@ -1004,9 +1004,19 @@
       "size": 1694
     },
     {
+      "path": "corpus/2027/auto/partys/la-france-insoumise/2026-11-07-6979793aef76.md",
+      "sha256": "839b9d7b1a0b5677449bc6305d2251c8cf4b12dbc4fdcad41c63f1598b08a03b",
+      "size": 1743
+    },
+    {
       "path": "corpus/2027/auto/partys/la-france-insoumise/2026-11-07-8120ce4d3047.md",
       "sha256": "6a67ccd08f500c6d1d4c45f165a1841647f066b5f0a7235ac83e6d939a126ac6",
       "size": 1573
+    },
+    {
+      "path": "corpus/2027/auto/partys/la-france-insoumise/2026-11-07-ba0eca7f2ed7.md",
+      "sha256": "b11ae46029c178554ec4a1eb8ae910ccb90a747d44e08b794aea50c45ea1b154",
+      "size": 2311
     },
     {
       "path": "corpus/2027/auto/partys/la-france-insoumise/2026-11-07-c17cb83aa2f5.md",
@@ -2777,6 +2787,31 @@
       "path": "proposals/auto/institutions-democratie/auto-jean-luc-melenchon-institutions-democratie-8e09285dec35.md",
       "sha256": "bd8eb461176c42ec9ac52f5913bd60bf5f4d55d2a5ace877dd458f4a7c7be5a2",
       "size": 1182
+    },
+    {
+      "path": "proposals/auto/institutions-democratie/auto-la-france-insoumise-institutions-democratie-0235d763feca.md",
+      "sha256": "7132a214180b14e3192a0d81d1c911ab11ee0557a402396d5dda4e483a6c7ccb",
+      "size": 1549
+    },
+    {
+      "path": "proposals/auto/institutions-democratie/auto-la-france-insoumise-institutions-democratie-1c86ced635bf.md",
+      "sha256": "e95e7a442558e427b8680eccd0bf94931257e62466bc0a5652f607bc332ca440",
+      "size": 1635
+    },
+    {
+      "path": "proposals/auto/institutions-democratie/auto-la-france-insoumise-institutions-democratie-2c414f161928.md",
+      "sha256": "8859d968eb0510213d02690efea8a2494b1500aecdc27813229eae6a667879e3",
+      "size": 1635
+    },
+    {
+      "path": "proposals/auto/institutions-democratie/auto-la-france-insoumise-institutions-democratie-57d6247ef4dd.md",
+      "sha256": "5a739f423bc46964dd2a906bee3ab384775fc21873d18e47e4568f4431bdb61b",
+      "size": 1681
+    },
+    {
+      "path": "proposals/auto/institutions-democratie/auto-la-france-insoumise-institutions-democratie-6c9aaa63d884.md",
+      "sha256": "da1b10615348c3bce2d22e096499410f985734a04e0191fc1584ac6c9897b825",
+      "size": 1994
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-les-ecologistes-institutions-democratie-07f4bc74473a.md",

@@ -2398,7 +2398,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-11-09T23:07:11+00:00",
+  "last_run_at": "2026-11-10T08:35:14+00:00",
   "source_chunks": {
     "000e79baea11403029d335b1": {
       "canonical_confirmations": [
@@ -9263,6 +9263,26 @@
       "updated_at": "2026-09-14T22:40:26+00:00",
       "url": "https://rassemblementnational.fr/"
     },
+    "20e3ce0bac3da17cf3a0f75e": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-11-10T08:35:17+00:00",
+      "document_types": [
+        "other"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "a7af908c964e8877c525606beacfc2befb8e63d90383d4893ed45d337e1b9e87",
+      "source_title": "🇵🇸 Les lycéens font le lien entre leur lutte et celle pour la libération Palestine !",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-10T08:35:19+00:00",
+      "url": "https://www.youtube.com/shorts/PjL7GJFKS-k"
+    },
     "20fd280fc591b9c1e4dae077": {
       "canonical_confirmations": [
         {
@@ -11378,6 +11398,26 @@
       "total": 1,
       "updated_at": "2026-08-31T23:22:44+00:00",
       "url": "https://www.unenouvelleenergie.fr/questions/ou-trouver-le-programme-de-david-lisnard/"
+    },
+    "2b8646a2be2d0bcd619e72aa": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-11-10T08:35:20+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "daf255fff0b85d71173b340ba9db46dc354d83ba7fd541748dd85551e2e7e638",
+      "source_title": "🔴 Un lycéen de Paul Eluard appelle le monde du travail à se joindre à leurs mobilisations !",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-10T08:35:23+00:00",
+      "url": "https://www.youtube.com/shorts/aYP7TgjTM1E"
     },
     "2d1d23664286544ce81fa577": {
       "canonical_confirmations": [
@@ -17291,6 +17331,26 @@
       "total": 1,
       "updated_at": "2026-09-24T06:19:31+00:00",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
+    "4111050a4f7c1f1fba629507": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-11-10T08:34:39+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "263cf7ac3fad83b6baadf0f8bbafe9b8436466ad07e2aacb0bb073511ca0e375",
+      "source_title": "Comment a été conçu le programme - Mélenchon 2027 : Soutenez ma candidature à l’élection présidentielle",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-10T08:34:41+00:00",
+      "url": "https://melenchon2027.fr/comment-a-ete-concu-le-programme/"
     },
     "41b2229d63c3b320e3a86b37": {
       "canonical_confirmations": [],
@@ -26265,6 +26325,46 @@
       "updated_at": "2026-09-25T12:55:49+00:00",
       "url": "https://www.youtube.com/shorts/soDszHL-2MA"
     },
+    "6979793aef763dd3e4b3c0b6": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Réunir une Assemblée constituante pour passer à la 6 e République",
+            "relevance": "direct",
+            "statement": "Réunir une Assemblée constituante pour passer à la 6e République.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La proposition de réunir une Assemblée constituante pour passer à la 6e République est explicitement présente dans la source et correspond à l'entrée canonique existante.",
+            "related_proposal_id": "auto-la-france-insoumise-institutions-democratie-6c9aaa63d884",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-11-10T08:34:56+00:00",
+      "created_at": "2026-11-10T08:34:42+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "edee65df47acaaa4dda4813f779eb7ee6d89ce3d09bf9d0c48508df324cc5074",
+      "source_title": "Fonder la 6e République - Mélenchon 2027 : Soutenez ma candidature à l’élection présidentielle",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-10T08:34:52+00:00",
+      "url": "https://melenchon2027.fr/programme/livre/fonder-la-6e-republique/"
+    },
     "69a209bfc3ac1f2bad92c019": {
       "canonical_confirmations": [],
       "claims": [],
@@ -31372,6 +31472,28 @@
       "updated_at": "2026-08-23T07:58:26+00:00",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
+    "822df60a85b0e0c6152557e8": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-11-10T08:35:14+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [
+        "2026-11-09"
+      ],
+      "sha256": "72bb40fdc006c8e0924126c5a9a67c2141142bf72000b3228c8150320805bf09",
+      "source_title": "Présentation de nos mesures pour la culture.",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-10T08:35:16+00:00",
+      "url": "https://www.youtube.com/watch?v=pxcX-DyK2uQ"
+    },
     "825c32ee3aa85db90c38fee0": {
       "canonical_confirmations": [
         {
@@ -34451,6 +34573,26 @@
       "total": 1,
       "updated_at": "2026-11-06T10:58:34+00:00",
       "url": "https://www.youtube.com/watch?v=BLsxrM8AV_A"
+    },
+    "95e08bc6611afbff5ba025bc": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-11-10T08:35:24+00:00",
+      "document_types": [
+        "other"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "5baabaea1bbc118d6ac903f39e8b18704f9ee0759c85c155bee50fa7d2a3dfa3",
+      "source_title": "🔴 Les lycéens de Paul Éluard font bloc face à la répression aux côtés du personnel mobilisé !",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-10T08:35:25+00:00",
+      "url": "https://www.youtube.com/shorts/jo7inIJamzY"
     },
     "967ffb543e9150cca464964d": {
       "canonical_confirmations": [],
@@ -45204,6 +45346,118 @@
       "total": 1,
       "updated_at": "2026-09-27T06:45:29+00:00",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
+    "ba0eca7f2ed71e5defa76594": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Instaurer le référendum d’initiative citoyenne (RIC)",
+            "relevance": "direct",
+            "statement": "Instaurer le référendum d'initiative citoyenne.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La source soutient explicitement l'instauration du référendum d'initiative citoyenne par La France insoumise, ce qui correspond exactement à une proposition déjà présente dans le canon.",
+            "related_proposal_id": "auto-la-france-insoumise-institutions-democratie-1c86ced635bf",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Donner le droit de vote à 16 ans",
+            "relevance": "direct",
+            "statement": "Donner le droit de vote à 16 ans.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La source soutient explicitement le droit de vote à 16 ans pour La France insoumise, déjà présent dans le canon.",
+            "related_proposal_id": "auto-la-france-insoumise-institutions-democratie-0235d763feca",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Réunir une Assemblée constituante pour passer à la 6 e République",
+            "relevance": "direct",
+            "statement": "Convoquer une Assemblée constituante pour passer à la 6e République.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "La source soutient explicitement la convocation d'une Assemblée constituante pour la 6e République, déjà présente dans le canon.",
+            "related_proposal_id": "auto-la-france-insoumise-institutions-democratie-6c9aaa63d884",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Élire l’Assemblée nationale au scrutin proportionnel",
+            "relevance": "direct",
+            "statement": "Elire l'Assemblée nationale au scrutin proportionnel.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 3,
+            "reason": "La source soutient explicitement l'élection de l'Assemblée nationale au scrutin proportionnel, déjà présente dans le canon.",
+            "related_proposal_id": "auto-la-france-insoumise-institutions-democratie-2c414f161928",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Abolir les procédures de « votes forcés » du Parlement comme l’article 49.3",
+            "relevance": "direct",
+            "statement": "Abolir l'article 49.3 de la Constitution.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 4,
+            "reason": "La source soutient explicitement l'abolition de l'article 49.3, déjà présente dans le canon.",
+            "related_proposal_id": "auto-la-france-insoumise-institutions-democratie-57d6247ef4dd",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-11-10T08:35:14+00:00",
+      "created_at": "2026-11-10T08:34:56+00:00",
+      "document_types": [
+        "party_programme"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "762f1bf3f3fdf3f45f6bfa1d0ba37c12bef19066515af9ba3c968deb8fba6a6c",
+      "source_title": "Chapitre 1 : Le pouvoir au peuple - Mélenchon 2027 : Soutenez ma candidature à l’élection présidentielle",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-10T08:35:02+00:00",
+      "url": "https://melenchon2027.fr/programme/livre/fonder-la-6e-republique/chapitre1/"
     },
     "bb1fbc77cd92d5f06c38b777": {
       "canonical_confirmations": [],
@@ -62343,6 +62597,15 @@
       "status": "promoted",
       "url": "https://www.unenouvelleenergie.fr/notre-programme/agriculture/"
     },
+    "37434c5066bb": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-11-10T08:34:41+00:00",
+      "reason": null,
+      "source_sha256": "263cf7ac3fad83b6baadf0f8bbafe9b8436466ad07e2aacb0bb073511ca0e375",
+      "status": "not_confirmed",
+      "url": "https://melenchon2027.fr/comment-a-ete-concu-le-programme/"
+    },
     "3750275802d7": {
       "chunks_done": null,
       "chunks_total": 1,
@@ -62892,6 +63155,15 @@
       "status": "promoted",
       "url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne"
     },
+    "4954620d4569": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-11-10T08:34:56+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "edee65df47acaaa4dda4813f779eb7ee6d89ce3d09bf9d0c48508df324cc5074",
+      "status": "promoted",
+      "url": "https://melenchon2027.fr/programme/livre/fonder-la-6e-republique/"
+    },
     "4964b966cd3b": {
       "chunks_done": null,
       "chunks_total": 1,
@@ -63071,6 +63343,15 @@
       "source_sha256": "be09b4c0ce5bea5f0d75dfe3f137f08851443353ac96f7d6a9b9182e6151ca56",
       "status": "promoted",
       "url": "https://melenchon2027.fr/programme2025/livre/chapitre5/"
+    },
+    "4f5d08876953": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-11-10T08:35:14+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "762f1bf3f3fdf3f45f6bfa1d0ba37c12bef19066515af9ba3c968deb8fba6a6c",
+      "status": "promoted",
+      "url": "https://melenchon2027.fr/programme/livre/fonder-la-6e-republique/chapitre1/"
     },
     "4f81f970cc88": {
       "chunks_done": null,
