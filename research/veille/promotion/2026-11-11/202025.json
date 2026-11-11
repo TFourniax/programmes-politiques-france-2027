@@ -1,0 +1,38 @@
+{
+  "errors": [],
+  "generated_at": "2026-11-11T20:20:25+00:00",
+  "historical_skipped": 0,
+  "partial": 0,
+  "processed": 3,
+  "promoted": 1,
+  "proposals_created": 5,
+  "results": [
+    {
+      "sha256": "c17d9a970b958603d098930e427f40256969ed1de20c2bcd8fb868dbdfc4b41c",
+      "status": "not_confirmed",
+      "url": "https://solutiondemocratique.fr/comparatif-candidats-programme-elections-presidentielles-france-2027/"
+    },
+    {
+      "sha256": "1f3833678994e1e8a1b44ca11a6e9284ca029bf4b87e91b235bc74efc42aa531",
+      "status": "not_confirmed",
+      "url": "https://parti-equinoxe.fr/le-programme-dequinoxe-pour-lelection-presidentielle/"
+    },
+    {
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/partys/la-france-insoumise/2026-11-07-8e70191493e9.md",
+      "proposals": [
+        "proposals/auto/institutions-democratie/auto-la-france-insoumise-institutions-democratie-2785d43edce4.md",
+        "proposals/auto/institutions-democratie/auto-la-france-insoumise-institutions-democratie-4b0572ff1df9.md",
+        "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-12a75366be57.md",
+        "proposals/auto/pouvoir-achat-travail/auto-la-france-insoumise-pouvoir-achat-travail-878839509754.md",
+        "proposals/auto/pouvoir-achat-travail/auto-la-france-insoumise-pouvoir-achat-travail-4937ef67462d.md"
+      ],
+      "sha256": "c969c47fbaa20c4365ca4a674c5518a3b449490429b3910a220664f64da6e57f",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://melenchon2027.fr/programme/livre/fonder-la-6e-republique/chapitre3/",
+      "verified_at": "2026-11-11T20:20:15+00:00"
+    }
+  ],
+  "status_updates": 0
+}

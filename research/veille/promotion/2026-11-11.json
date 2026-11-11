@@ -1,66 +1,37 @@
 {
   "errors": [],
-  "generated_at": "2026-11-11T07:54:05+00:00",
+  "generated_at": "2026-11-11T20:20:25+00:00",
   "historical_skipped": 0,
   "partial": 0,
   "processed": 3,
-  "promoted": 3,
-  "proposals_created": 14,
+  "promoted": 1,
+  "proposals_created": 5,
   "results": [
     {
-      "chunks_total": 3,
-      "document": "corpus/2027/auto/partys/la-france-insoumise/2026-11-10-3e88cbbe4e1e.md",
-      "proposals": [
-        "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-93e1d580262d.md",
-        "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-74cfbc8d3054.md",
-        "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-a1fb604e7b77.md",
-        "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-2489286c5631.md",
-        "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-2a33e6c3476f.md",
-        "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-e47289bfab91.md",
-        "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-c751d752a100.md",
-        "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-59aa1660b249.md",
-        "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-045c97d3c423.md",
-        "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-6c02d99c46e6.md"
-      ],
-      "provenance_updates": [
-        "auto-la-france-insoumise-services-publics-3da7b5d996b2",
-        "auto-la-france-insoumise-services-publics-514da6f5edf0"
-      ],
-      "sha256": "ee45c177e6a59f9c999dcbe1e76964103769d9caf9096ef59a65f5de3fef8b77",
-      "status": "promoted",
-      "status_updates": [],
-      "url": "https://melenchon2027.fr/programme/plans-thematiques/esr/",
-      "verified_at": "2026-11-11T07:53:43+00:00"
+      "sha256": "c17d9a970b958603d098930e427f40256969ed1de20c2bcd8fb868dbdfc4b41c",
+      "status": "not_confirmed",
+      "url": "https://solutiondemocratique.fr/comparatif-candidats-programme-elections-presidentielles-france-2027/"
+    },
+    {
+      "sha256": "1f3833678994e1e8a1b44ca11a6e9284ca029bf4b87e91b235bc74efc42aa531",
+      "status": "not_confirmed",
+      "url": "https://parti-equinoxe.fr/le-programme-dequinoxe-pour-lelection-presidentielle/"
     },
     {
       "chunks_total": 1,
-      "document": "corpus/2027/auto/candidates/antoine-mikolajczak/2026-11-10-3b8b66bbecef.md",
+      "document": "corpus/2027/auto/partys/la-france-insoumise/2026-11-07-8e70191493e9.md",
       "proposals": [
-        "proposals/auto/economie-finances/auto-equinoxe-economie-finances-402dd44aff5a.md",
-        "proposals/auto/economie-finances/auto-equinoxe-economie-finances-86188b3ad6ed.md"
+        "proposals/auto/institutions-democratie/auto-la-france-insoumise-institutions-democratie-2785d43edce4.md",
+        "proposals/auto/institutions-democratie/auto-la-france-insoumise-institutions-democratie-4b0572ff1df9.md",
+        "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-12a75366be57.md",
+        "proposals/auto/pouvoir-achat-travail/auto-la-france-insoumise-pouvoir-achat-travail-878839509754.md",
+        "proposals/auto/pouvoir-achat-travail/auto-la-france-insoumise-pouvoir-achat-travail-4937ef67462d.md"
       ],
-      "sha256": "024283b1daf8275ee9cb7303950107a8516a9b2ace8383399c53ab74feb28555",
+      "sha256": "c969c47fbaa20c4365ca4a674c5518a3b449490429b3910a220664f64da6e57f",
       "status": "promoted",
       "status_updates": [],
-      "url": "https://parti-equinoxe.fr/programme-2027/reprendre-la-main-sur-notre-production/",
-      "verified_at": "2026-11-11T07:53:50+00:00"
-    },
-    {
-      "chunks_total": 1,
-      "document": "corpus/2027/auto/partys/la-france-insoumise/2026-11-07-fe754e36935e.md",
-      "proposals": [
-        "proposals/auto/securite-justice/auto-la-france-insoumise-securite-justice-6e17a5da682a.md",
-        "proposals/auto/securite-justice/auto-la-france-insoumise-securite-justice-888ccadc321a.md"
-      ],
-      "provenance_updates": [
-        "auto-la-france-insoumise-securite-justice-6b4110e6be4a",
-        "auto-la-france-insoumise-securite-justice-9d4093a26cc0"
-      ],
-      "sha256": "7a61a54d5b7bdc0aecb9a6543d0ea364f3401d831c70d8f2d4a28978a537c11f",
-      "status": "promoted",
-      "status_updates": [],
-      "url": "https://melenchon2027.fr/programme/livre/fonder-la-6e-republique/chapitre2/",
-      "verified_at": "2026-11-11T07:54:04+00:00"
+      "url": "https://melenchon2027.fr/programme/livre/fonder-la-6e-republique/chapitre3/",
+      "verified_at": "2026-11-11T20:20:15+00:00"
     }
   ],
   "status_updates": 0

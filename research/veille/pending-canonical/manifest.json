@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created_at": "2026-08-17T19:57:19.441897+00:00",
-  "updated_at": "2026-11-11T07:54:14.059449+00:00",
+  "updated_at": "2026-11-11T20:20:57.958939+00:00",
   "files": [
     {
       "path": "corpus/2027/auto/candidates/anasse-kazib/2026-08-28-38891602d9d9.md",
@@ -1019,6 +1019,11 @@
       "size": 1573
     },
     {
+      "path": "corpus/2027/auto/partys/la-france-insoumise/2026-11-07-8e70191493e9.md",
+      "sha256": "35a7bf97f95d767d0ecda45aed38a3c7f9183161c5b77b38f0bd8890d7104391",
+      "size": 2552
+    },
+    {
       "path": "corpus/2027/auto/partys/la-france-insoumise/2026-11-07-ba0eca7f2ed7.md",
       "sha256": "b11ae46029c178554ec4a1eb8ae910ccb90a747d44e08b794aea50c45ea1b154",
       "size": 2311
@@ -1892,6 +1897,11 @@
       "path": "corpus/2027/auto/partys/revolution-permanente/2026-10-21-7ceb45026494.md",
       "sha256": "9a5e59eb5fe418866818d80ac634ab577d0627113bdb7451be0cb4a4e7473d91",
       "size": 1637
+    },
+    {
+      "path": "corpus/2027/auto/partys/revolution-permanente/2026-11-11-f353fe384c3e.md",
+      "sha256": "b9b0f5be1c96803594635226597638dfcfffab19f04776e92b1609251b8d0497",
+      "size": 1604
     },
     {
       "path": "corpus/2027/auto/partys/solution-democratique/2025-04-09-3a8ec20cb386.md",
@@ -2829,9 +2839,19 @@
       "size": 1635
     },
     {
+      "path": "proposals/auto/institutions-democratie/auto-la-france-insoumise-institutions-democratie-2785d43edce4.md",
+      "sha256": "e644fb571e6b96133ed4f66dc85d7131c6b42f5b5f1403354e33ef1e69f0a19f",
+      "size": 1434
+    },
+    {
       "path": "proposals/auto/institutions-democratie/auto-la-france-insoumise-institutions-democratie-2c414f161928.md",
       "sha256": "8859d968eb0510213d02690efea8a2494b1500aecdc27813229eae6a667879e3",
       "size": 1635
+    },
+    {
+      "path": "proposals/auto/institutions-democratie/auto-la-france-insoumise-institutions-democratie-4b0572ff1df9.md",
+      "sha256": "61829f64af3cdfc26efecb6b811a97ffa7dc7052b9fa652a83f81c8ab3b39c69",
+      "size": 1425
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-la-france-insoumise-institutions-democratie-57d6247ef4dd.md",
@@ -3074,6 +3094,16 @@
       "size": 1473
     },
     {
+      "path": "proposals/auto/pouvoir-achat-travail/auto-la-france-insoumise-pouvoir-achat-travail-4937ef67462d.md",
+      "sha256": "2b06b6929919787d94055ef617351f1601fd1004d7cbc43f1f7de2e4a4e46326",
+      "size": 1313
+    },
+    {
+      "path": "proposals/auto/pouvoir-achat-travail/auto-la-france-insoumise-pouvoir-achat-travail-878839509754.md",
+      "sha256": "ae1029234b0fe26def63dd3165d10cdeda83a465f77ea048560f0f47e2a1e91c",
+      "size": 1514
+    },
+    {
       "path": "proposals/auto/pouvoir-achat-travail/auto-les-ecologistes-pouvoir-achat-travail-04b16919c921.md",
       "sha256": "bca276a703f81e3b38f08c667d731c4fd76d68e9ea7fdedcba25634b5b76e862",
       "size": 1469
@@ -3187,6 +3217,11 @@
       "path": "proposals/auto/pouvoir-achat-travail/auto-revolution-permanente-pouvoir-achat-travail-6d4d731e6887.md",
       "sha256": "016a679de9d806d55f6f166d484980dcd8c0c40790a971619264626ef8600da5",
       "size": 1213
+    },
+    {
+      "path": "proposals/auto/pouvoir-achat-travail/auto-revolution-permanente-pouvoir-achat-travail-d0f59ec03b51.md",
+      "sha256": "23ff68a20a2cb4a1568e1573b5c95569c92dac7302c2ff900248f80af41ee731",
+      "size": 1283
     },
     {
       "path": "proposals/auto/pouvoir-achat-travail/auto-selma-labib-pouvoir-achat-travail-e91313406b4a.md",
@@ -3547,6 +3582,11 @@
       "path": "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-118e7984ccc1.md",
       "sha256": "6196708a60816c0c84b77f26f7bb3d37045e29ec4b403d04fb6b17a1397256d2",
       "size": 1367
+    },
+    {
+      "path": "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-12a75366be57.md",
+      "sha256": "a3d2a8917b2e737c2f2530954a68b545660afc18312edc924a202a1fb48b63f0",
+      "size": 1388
     },
     {
       "path": "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-1635f012e6b3.md",

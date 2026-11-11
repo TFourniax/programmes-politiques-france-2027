@@ -1,26 +1,38 @@
 {
   "errors": [],
-  "generated_at": "2026-11-11T07:54:11+00:00",
+  "generated_at": "2026-11-11T20:20:54+00:00",
   "partial": 0,
-  "processed": 3,
-  "promoted": 0,
-  "proposals_created": 0,
+  "processed": 4,
+  "promoted": 1,
+  "proposals_created": 1,
   "provenance_updates": 0,
   "results": [
     {
-      "sha256": "b7b65161afee5b58c0b9aa475aba5232c2b02e8d4140f5d83bb86e75a154ad14",
+      "sha256": "770d3ff07fe9286b6607a690c9188711a0fc772ec36dc9d456b8eab305b55004",
       "status": "not_confirmed",
-      "url": "https://www.youtube.com/shorts/OFABfN4oWng"
+      "url": "https://www.youtube.com/shorts/9vphZM0bfRc"
     },
     {
-      "sha256": "204518222198798e1b48ddf34e7709476e176238abe8d4555402e0ff53f89395",
+      "sha256": "48187b24df5858537358645be5849a0a1083cadf590b6d4d9a5215200c02e241",
       "status": "not_confirmed",
-      "url": "https://www.youtube.com/shorts/2jrLjsy7-CM"
+      "url": "https://www.youtube.com/shorts/dOwmq1_RKss"
     },
     {
-      "sha256": "c5de51a952707487eadb509c0c433d5e99689baf2902121bb3bedcb65b33491e",
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/partys/revolution-permanente/2026-11-11-f353fe384c3e.md",
+      "proposals": [
+        "proposals/auto/pouvoir-achat-travail/auto-revolution-permanente-pouvoir-achat-travail-d0f59ec03b51.md"
+      ],
+      "sha256": "666acb0d4cc256600a6497639ceb32cdc34a40636106ca7811df28fc91748bd2",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://www.youtube.com/shorts/8i96u6oVT8Y",
+      "verified_at": "2026-11-11T20:20:47+00:00"
+    },
+    {
+      "sha256": "02715716ee46c1080c7aa886aab84382a9c66b46bec579220b5d58a60dd14025",
       "status": "not_confirmed",
-      "url": "https://www.youtube.com/shorts/sdGr6Ku02cw"
+      "url": "https://www.youtube.com/shorts/PupkEbdrdM0"
     }
   ],
   "status_updates": 0

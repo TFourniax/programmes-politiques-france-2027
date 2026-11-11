@@ -6,18 +6,18 @@
     "actors": 68,
     "declared_or_active_candidates": 27,
     "topics": 12,
-    "current_proposals": 1454,
+    "current_proposals": 1460,
     "covered_actor_topic_cells": 167,
     "total_actor_topic_cells": 816,
     "actor_topic_coverage_ratio": 0.2047,
     "active_candidate_covered_cells": 76,
     "active_candidate_total_cells": 324,
     "active_candidate_topic_coverage_ratio": 0.2346,
-    "verified_proposals": 1421,
+    "verified_proposals": 1427,
     "multi_source_proposals": 117,
-    "latest_evidence_at": "2026-11-10",
+    "latest_evidence_at": "2026-11-11",
     "certainty_counts": {
-      "explicit": 1429,
+      "explicit": 1435,
       "explicit_but_conditional": 3,
       "explicit_but_underspecified": 22
     }
@@ -995,7 +995,7 @@
       "type": "party",
       "status": null,
       "confidence": null,
-      "current_proposals": 162,
+      "current_proposals": 167,
       "covered_topics": [
         "ecologie-energie",
         "economie-finances",
@@ -1014,7 +1014,7 @@
         "numerique-ia"
       ],
       "latest_evidence_at": "2026-11-10",
-      "verified_proposals": 159,
+      "verified_proposals": 164,
       "multi_source_proposals": 12
     },
     {
@@ -1658,7 +1658,7 @@
       "type": "party",
       "status": null,
       "confidence": null,
-      "current_proposals": 18,
+      "current_proposals": 19,
       "covered_topics": [
         "ecologie-energie",
         "economie-finances",
@@ -1676,8 +1676,8 @@
         "defense-international",
         "numerique-ia"
       ],
-      "latest_evidence_at": "2026-10-24",
-      "verified_proposals": 18,
+      "latest_evidence_at": "2026-11-11",
+      "verified_proposals": 19,
       "multi_source_proposals": 6
     },
     {
@@ -1959,11 +1959,11 @@
     {
       "id": "pouvoir-achat-travail",
       "label": "Pouvoir d’achat & travail",
-      "current_proposals": 90,
+      "current_proposals": 93,
       "actors_covered": 22,
       "actor_coverage_ratio": 0.3235,
-      "latest_evidence_at": "2026-11-07",
-      "verified_proposals": 83,
+      "latest_evidence_at": "2026-11-11",
+      "verified_proposals": 86,
       "multi_source_proposals": 11
     },
     {
@@ -2029,21 +2029,21 @@
     {
       "id": "institutions-democratie",
       "label": "Institutions & démocratie",
-      "current_proposals": 282,
+      "current_proposals": 284,
       "actors_covered": 17,
       "actor_coverage_ratio": 0.25,
       "latest_evidence_at": "2026-11-07",
-      "verified_proposals": 278,
+      "verified_proposals": 280,
       "multi_source_proposals": 39
     },
     {
       "id": "services-publics",
       "label": "Services publics",
-      "current_proposals": 269,
+      "current_proposals": 270,
       "actors_covered": 17,
       "actor_coverage_ratio": 0.25,
       "latest_evidence_at": "2026-11-10",
-      "verified_proposals": 266,
+      "verified_proposals": 267,
       "multi_source_proposals": 11
     },
     {
