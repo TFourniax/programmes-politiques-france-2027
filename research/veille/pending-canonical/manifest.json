@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created_at": "2026-08-17T19:57:19.441897+00:00",
-  "updated_at": "2026-11-10T20:35:34.434446+00:00",
+  "updated_at": "2026-11-11T07:54:14.059449+00:00",
   "files": [
     {
       "path": "corpus/2027/auto/candidates/anasse-kazib/2026-08-28-38891602d9d9.md",
@@ -192,6 +192,11 @@
       "path": "corpus/2027/auto/candidates/antoine-mikolajczak/2026-11-07-f7ad33e18a98.md",
       "sha256": "7dbe059518fe962f36c6e4b9af22d51ba633985dcbd419cbd66c1f9e9367cd1b",
       "size": 2041
+    },
+    {
+      "path": "corpus/2027/auto/candidates/antoine-mikolajczak/2026-11-10-3b8b66bbecef.md",
+      "sha256": "b33c6b73dca55197d48136491a8de98aa8a2b828dd4cab75745681b2c89d7b64",
+      "size": 1818
     },
     {
       "path": "corpus/2027/auto/candidates/bruno-retailleau/2026-02-12-02b6fd496b7b.md",
@@ -1022,6 +1027,16 @@
       "path": "corpus/2027/auto/partys/la-france-insoumise/2026-11-07-c17cb83aa2f5.md",
       "sha256": "e8e425383006b1cf62ba67e262910a23040e78c6b4cc78a4b75a95251e6b7465",
       "size": 1684
+    },
+    {
+      "path": "corpus/2027/auto/partys/la-france-insoumise/2026-11-07-fe754e36935e.md",
+      "sha256": "ae98815b1df574ad45834910d81b56904cb25fc9e54aba9b62f1c39c73857151",
+      "size": 2518
+    },
+    {
+      "path": "corpus/2027/auto/partys/la-france-insoumise/2026-11-10-3e88cbbe4e1e.md",
+      "sha256": "9840f0d711093b6ec7fe053621da9f2aa9fcbe533f465cc637ed9a2e82978b69",
+      "size": 4301
     },
     {
       "path": "corpus/2027/auto/partys/les-ecologistes/2026-08-17-9c2f01b4f3fc.md",
@@ -2384,6 +2399,16 @@
       "size": 1363
     },
     {
+      "path": "proposals/auto/economie-finances/auto-equinoxe-economie-finances-402dd44aff5a.md",
+      "sha256": "935aa2602d4cd985f5523be77ba4fbdbdfa147fba60ac570afcd68edbd3e6e49",
+      "size": 1436
+    },
+    {
+      "path": "proposals/auto/economie-finances/auto-equinoxe-economie-finances-86188b3ad6ed.md",
+      "sha256": "4bfc047c960c9f08595fdc1e9188fd47bdfe0064cbe2c560f05c9cb20d09a021",
+      "size": 1410
+    },
+    {
       "path": "proposals/auto/economie-finances/auto-equinoxe-economie-finances-8a1dc37729be.md",
       "sha256": "d0b00357f2b25ab8c4a640b71e502fc4a252555f87dd10c212ffb6cb6db8188b",
       "size": 1248
@@ -3299,9 +3324,29 @@
       "size": 1817
     },
     {
+      "path": "proposals/auto/securite-justice/auto-la-france-insoumise-securite-justice-6b4110e6be4a.md",
+      "sha256": "3ba98c70ca69407d1ae5826fadfee78135c5ac639d06a94416ad8603c21bec6b",
+      "size": 1778
+    },
+    {
+      "path": "proposals/auto/securite-justice/auto-la-france-insoumise-securite-justice-6e17a5da682a.md",
+      "sha256": "1c23f58038c25b3932b60af1427a671faf3c4e4a9e6d169f1874bd691a57c73a",
+      "size": 1376
+    },
+    {
       "path": "proposals/auto/securite-justice/auto-la-france-insoumise-securite-justice-6eacad103737.md",
       "sha256": "a99d3e900c2efe4f4a57eda261d478c0eaf8066f73cee68e74c17f1e6eca6833",
       "size": 1452
+    },
+    {
+      "path": "proposals/auto/securite-justice/auto-la-france-insoumise-securite-justice-888ccadc321a.md",
+      "sha256": "d9f05e24bc4dfd738e8f47f3860a2add5207bfb394cd9aa096f5f45648cb3cce",
+      "size": 1379
+    },
+    {
+      "path": "proposals/auto/securite-justice/auto-la-france-insoumise-securite-justice-9d4093a26cc0.md",
+      "sha256": "a6909a4646cecf2948f2f67471f2919de7bc1e3b9975e0e083ce3e0d3b46032d",
+      "size": 1711
     },
     {
       "path": "proposals/auto/securite-justice/auto-les-ecologistes-securite-justice-0d29bfb3d832.md",
@@ -3494,6 +3539,11 @@
       "size": 2168
     },
     {
+      "path": "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-045c97d3c423.md",
+      "sha256": "442e9e1df31c5d9c1e58234c09a51bdaf8b9f43d736442d7adb531a39368c6e5",
+      "size": 1249
+    },
+    {
       "path": "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-118e7984ccc1.md",
       "sha256": "6196708a60816c0c84b77f26f7bb3d37045e29ec4b403d04fb6b17a1397256d2",
       "size": 1367
@@ -3509,9 +3559,54 @@
       "size": 1493
     },
     {
+      "path": "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-2489286c5631.md",
+      "sha256": "fe664e263c3c851d8171ce3c30a6a4912d2df2382254559fc68e974b459d4c56",
+      "size": 1458
+    },
+    {
+      "path": "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-2a33e6c3476f.md",
+      "sha256": "ac056b856370db4beb6bcb9d40ffea300470fc9ccb2d9743884dbc568fb3de5c",
+      "size": 1413
+    },
+    {
+      "path": "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-3da7b5d996b2.md",
+      "sha256": "05daefba30e38b236d5993cfd3ec4feb1b4a030ab1929f7b94a347b164bdc80b",
+      "size": 1701
+    },
+    {
+      "path": "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-514da6f5edf0.md",
+      "sha256": "691b14131e7da973c4a39b1556d953ad98fe56a113a2b338736558247612c760",
+      "size": 1780
+    },
+    {
+      "path": "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-59aa1660b249.md",
+      "sha256": "6b94361beee4e08b1c6f7ca8e9e9dc6f7b7339e83271ad32eea168ae0f889318",
+      "size": 1299
+    },
+    {
+      "path": "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-6c02d99c46e6.md",
+      "sha256": "534bf0996b193c0e8d6f348334b872a963de48fb4e9d8802367765f46d11ebae",
+      "size": 1333
+    },
+    {
+      "path": "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-74cfbc8d3054.md",
+      "sha256": "ea19be963429bfca3289ed81e108d780f73604191168a4f1c8702921e17d04d7",
+      "size": 1312
+    },
+    {
+      "path": "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-93e1d580262d.md",
+      "sha256": "ca1d5179c766d72342a9b253143358bde44c6a53421b7c0d6dbb887d20bff0ee",
+      "size": 1345
+    },
+    {
       "path": "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-95b2845a2d22.md",
       "sha256": "cde7f3e0a2e4ed61eaaf27adbb788505c9398852808469988897a56aebc21f65",
       "size": 1426
+    },
+    {
+      "path": "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-a1fb604e7b77.md",
+      "sha256": "223341f5299e2e9c0df06aeb362410d86efad68ae8c0213684cf6c41a58809d2",
+      "size": 1298
     },
     {
       "path": "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-b88105fd5e4a.md",
@@ -3519,9 +3614,19 @@
       "size": 1528
     },
     {
+      "path": "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-c751d752a100.md",
+      "sha256": "75ce4f884c87c91c2b351c0a46dffea17eddd15d9b0024afae0a735368504017",
+      "size": 1208
+    },
+    {
       "path": "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-da56d75ef525.md",
       "sha256": "4008d9c67447724d231a0b827a7141465e42e69e4b00c440db9fc823d7a5819d",
       "size": 1332
+    },
+    {
+      "path": "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-e47289bfab91.md",
+      "sha256": "02c10167f392f87766fb3249e632fa933ab364c24684d15e05ea61c8d79ffd40",
+      "size": 1587
     },
     {
       "path": "proposals/auto/services-publics/auto-les-ecologistes-services-publics-06776c72e505.md",

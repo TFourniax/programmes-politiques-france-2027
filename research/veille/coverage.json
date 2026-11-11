@@ -6,18 +6,18 @@
     "actors": 68,
     "declared_or_active_candidates": 27,
     "topics": 12,
-    "current_proposals": 1440,
+    "current_proposals": 1454,
     "covered_actor_topic_cells": 167,
     "total_actor_topic_cells": 816,
     "actor_topic_coverage_ratio": 0.2047,
     "active_candidate_covered_cells": 76,
     "active_candidate_total_cells": 324,
     "active_candidate_topic_coverage_ratio": 0.2346,
-    "verified_proposals": 1407,
-    "multi_source_proposals": 113,
-    "latest_evidence_at": "2026-11-08",
+    "verified_proposals": 1421,
+    "multi_source_proposals": 117,
+    "latest_evidence_at": "2026-11-10",
     "certainty_counts": {
-      "explicit": 1415,
+      "explicit": 1429,
       "explicit_but_conditional": 3,
       "explicit_but_underspecified": 22
     }
@@ -995,7 +995,7 @@
       "type": "party",
       "status": null,
       "confidence": null,
-      "current_proposals": 150,
+      "current_proposals": 162,
       "covered_topics": [
         "ecologie-energie",
         "economie-finances",
@@ -1013,9 +1013,9 @@
         "defense-international",
         "numerique-ia"
       ],
-      "latest_evidence_at": "2026-11-07",
-      "verified_proposals": 147,
-      "multi_source_proposals": 8
+      "latest_evidence_at": "2026-11-10",
+      "verified_proposals": 159,
+      "multi_source_proposals": 12
     },
     {
       "id": "laurent-wauquiez",
@@ -1905,7 +1905,7 @@
       "type": "party",
       "status": null,
       "confidence": null,
-      "current_proposals": 34,
+      "current_proposals": 36,
       "covered_topics": [
         "ecologie-energie",
         "economie-finances",
@@ -1923,8 +1923,8 @@
         "defense-international",
         "numerique-ia"
       ],
-      "latest_evidence_at": "2026-11-08",
-      "verified_proposals": 32,
+      "latest_evidence_at": "2026-11-10",
+      "verified_proposals": 34,
       "multi_source_proposals": 8
     },
     {
@@ -2039,31 +2039,31 @@
     {
       "id": "services-publics",
       "label": "Services publics",
-      "current_proposals": 259,
+      "current_proposals": 269,
       "actors_covered": 17,
       "actor_coverage_ratio": 0.25,
-      "latest_evidence_at": "2026-11-08",
-      "verified_proposals": 256,
-      "multi_source_proposals": 9
+      "latest_evidence_at": "2026-11-10",
+      "verified_proposals": 266,
+      "multi_source_proposals": 11
     },
     {
       "id": "securite-justice",
       "label": "Sécurité & justice",
-      "current_proposals": 153,
+      "current_proposals": 155,
       "actors_covered": 14,
       "actor_coverage_ratio": 0.2059,
-      "latest_evidence_at": "2026-10-24",
-      "verified_proposals": 150,
-      "multi_source_proposals": 12
+      "latest_evidence_at": "2026-11-07",
+      "verified_proposals": 152,
+      "multi_source_proposals": 14
     },
     {
       "id": "economie-finances",
       "label": "Économie & finances publiques",
-      "current_proposals": 131,
+      "current_proposals": 133,
       "actors_covered": 17,
       "actor_coverage_ratio": 0.25,
-      "latest_evidence_at": "2026-11-07",
-      "verified_proposals": 130,
+      "latest_evidence_at": "2026-11-10",
+      "verified_proposals": 132,
       "multi_source_proposals": 13
     },
     {
