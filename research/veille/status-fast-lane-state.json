@@ -199,7 +199,7 @@
       "error": "ValueError: HTTP 403",
       "event_url": "https://www.pcf.fr/une_candidature_de_gauche_au_service_de_l_aube_et_de_ses_communes",
       "owner": "Parti communiste français",
-      "processed_at": "2026-11-12T08:27:42+00:00",
+      "processed_at": "2026-11-12T20:58:10+00:00",
       "status": "technical_error"
     },
     "11790ff34ddd": {
@@ -310,6 +310,13 @@
       "reason": "no_deterministic_transition",
       "status": "not_applicable"
     },
+    "17312245a6a9": {
+      "event_url": "https://solutiondemocratique.fr/presidentielle2027-annonce-candidature-clara-egger/",
+      "owner": "Solution démocratique",
+      "processed_at": "2026-11-12T20:58:09+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
     "174a06964c6b": {
       "candidate_matches": [
         "philippe-brun",
@@ -369,7 +376,7 @@
       "error": "ValueError: HTTP 403",
       "event_url": "https://www.pcf.fr/presidentielle2027_fabien_roussel_designe_candidat",
       "owner": "Parti communiste français",
-      "processed_at": "2026-11-12T08:27:41+00:00",
+      "processed_at": "2026-11-12T20:58:09+00:00",
       "status": "technical_error"
     },
     "1f5b28d9f616": {
@@ -1664,6 +1671,13 @@
       "reason": "no_deterministic_transition",
       "status": "not_applicable"
     },
+    "8004fa479692": {
+      "event_url": "https://melenchon2027.fr/programme/livre",
+      "owner": "La France insoumise",
+      "processed_at": "2026-11-12T20:58:07+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
     "800e98534f5d": {
       "event_url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne",
       "owner": "Gabriel Attal",
@@ -1762,6 +1776,13 @@
       "event_url": "https://rassemblementnational.fr/",
       "owner": "Rassemblement national",
       "processed_at": "2026-09-21T22:40:57+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
+    "889a72d0ac87": {
+      "event_url": "https://melenchon2027.fr/programme/plans-investissement/automobile/",
+      "owner": "La France insoumise",
+      "processed_at": "2026-11-12T20:58:07+00:00",
       "reason": "no_deterministic_transition",
       "status": "not_applicable"
     },
@@ -2250,7 +2271,7 @@
       "error": "ValueError: HTTP 403",
       "event_url": "https://www.pcf.fr/presidentielle_2027_mjcf_s_engage_pour_candidature_communiste",
       "owner": "Parti communiste français",
-      "processed_at": "2026-11-12T08:27:41+00:00",
+      "processed_at": "2026-11-12T20:58:09+00:00",
       "status": "technical_error"
     },
     "b74ecaeff180": {
@@ -2260,6 +2281,13 @@
       "owner": "Gabriel Attal",
       "processed_at": "2026-10-18T21:37:02+00:00",
       "status": "already_current"
+    },
+    "b77c28ebc416": {
+      "event_url": "https://melenchon2027.fr/programme/livre/",
+      "owner": "La France insoumise",
+      "processed_at": "2026-11-12T20:58:07+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
     },
     "b79e654dac4a": {
       "event_url": "https://www.revolutionpermanente.fr/Budget-2027-l-austerite-sur-le-dos-des-travailleurs-et-des-retraites-pour-preserver-les-cadeaux-du",
@@ -2537,7 +2565,7 @@
       "error": "ValueError: HTTP 404",
       "event_url": "https://parti-equinoxe.fr/articles/2022/05/la-transition-energetique-selon-les-ex-candidats-a-la-presidentielle-2/",
       "owner": "Équinoxe",
-      "processed_at": "2026-11-12T08:27:42+00:00",
+      "processed_at": "2026-11-12T20:58:10+00:00",
       "status": "technical_error"
     },
     "cb3428b2b6d3": {
@@ -3198,7 +3226,7 @@
     }
   },
   "last_error_count": 4,
-  "last_run_at": "2026-11-12T08:27:42+00:00",
+  "last_run_at": "2026-11-12T20:58:10+00:00",
   "last_updated_count": 0,
   "version": 1
 }

@@ -1,31 +1,45 @@
 {
   "errors": [],
-  "generated_at": "2026-11-12T08:31:06+00:00",
+  "generated_at": "2026-11-12T21:02:00+00:00",
   "partial": 0,
   "processed": 4,
-  "promoted": 0,
-  "proposals_created": 0,
+  "promoted": 2,
+  "proposals_created": 2,
   "provenance_updates": 0,
   "results": [
     {
-      "sha256": "526f1e06f25d27f869959c084098b841db10c204bf5e22dc139f339d1a21ca00",
-      "status": "not_confirmed",
-      "url": "https://bsky.app/profile/marinetondelier.fr/post/3n22u4s23zr2g"
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/candidates/marine-tondelier/2026-11-12-4d351107f098.md",
+      "proposals": [
+        "proposals/auto/institutions-democratie/auto-marine-tondelier-institutions-democratie-ccaa73e717e2.md"
+      ],
+      "sha256": "7257bb9c3cff05616a127a90214256c7e71d24facc54bd4d84be233e54c4b19e",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://bsky.app/profile/marinetondelier.fr/post/3n2564joxn22n",
+      "verified_at": "2026-11-12T21:01:29+00:00"
     },
     {
-      "sha256": "5fb91483f2027c8f78f4cf2ca85778cebf431e624a6fb1249b88f0249f24ee49",
+      "sha256": "75dfc91bf674845a1632351f9f235882573e59f1429cf665ce38d5e0521a67d6",
       "status": "not_confirmed",
-      "url": "https://www.youtube.com/watch?v=CDymORfGRJo"
+      "url": "https://www.youtube.com/shorts/oTzYoNXKKfk"
     },
     {
-      "sha256": "897f94ed00a279de720d6d78004672e4610920abdab1748a1f08d77e2ded5929",
-      "status": "not_confirmed",
-      "url": "https://www.youtube.com/watch?v=Dq9OdySdumA"
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/candidates/marine-tondelier/2026-11-12-9c3365dc9e7f.md",
+      "proposals": [
+        "proposals/auto/services-publics/auto-marine-tondelier-services-publics-c5eec8080ec7.md"
+      ],
+      "sha256": "48eb01d43b72fb61b32b8b2963529327e5df61405957b8a9c57bee78b9f007d5",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://bsky.app/profile/marinetondelier.fr/post/3n255dfousk2n",
+      "verified_at": "2026-11-12T21:01:50+00:00"
     },
     {
-      "sha256": "749ae848d352d88af54f2441371288678cd603218d33e486819207fc1acaccf6",
+      "sha256": "f7ab0d7a9a62055447d12fe3a47b77adde14370ff5036e2f12f85dec056c06b2",
       "status": "not_confirmed",
-      "url": "https://www.youtube.com/watch?v=TTAilkU-_94"
+      "url": "https://bsky.app/profile/marinetondelier.fr/post/3n2553wokpk2n"
     }
   ],
   "status_updates": 0

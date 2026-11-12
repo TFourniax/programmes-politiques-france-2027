@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created_at": "2026-08-17T19:57:19.441897+00:00",
-  "updated_at": "2026-11-12T08:31:09.948563+00:00",
+  "updated_at": "2026-11-12T21:02:04.509590+00:00",
   "files": [
     {
       "path": "corpus/2027/auto/candidates/anasse-kazib/2026-08-28-38891602d9d9.md",
@@ -919,6 +919,16 @@
       "size": 1850
     },
     {
+      "path": "corpus/2027/auto/candidates/marine-tondelier/2026-11-12-4d351107f098.md",
+      "sha256": "555b343e286549229469a4df1be39ac719d009ec5b6c86b0381d0c3a41fe1ee9",
+      "size": 1858
+    },
+    {
+      "path": "corpus/2027/auto/candidates/marine-tondelier/2026-11-12-9c3365dc9e7f.md",
+      "sha256": "4874ceee5b3f478354815570bf3440fa4ce6651b1ea250200ecb98715911f669",
+      "size": 1765
+    },
+    {
       "path": "corpus/2027/auto/candidates/nicolas-dupont-aignan/2026-10-21-8ae230201df1.md",
       "sha256": "854ca7459df8c74a69b2f3bcd98381fb5677f08fbee346d5710403bf9bac32a0",
       "size": 1676
@@ -1057,6 +1067,11 @@
       "path": "corpus/2027/auto/partys/la-france-insoumise/2026-11-10-3e88cbbe4e1e.md",
       "sha256": "9840f0d711093b6ec7fe053621da9f2aa9fcbe533f465cc637ed9a2e82978b69",
       "size": 4301
+    },
+    {
+      "path": "corpus/2027/auto/partys/la-france-insoumise/2026-11-12-f5439372e702.md",
+      "sha256": "1290e07f27cbe803db07f8c617e2a7b686a0eae4250ec8b00415a87f4d61c1e9",
+      "size": 1712
     },
     {
       "path": "corpus/2027/auto/partys/les-ecologistes/2026-08-17-9c2f01b4f3fc.md",
@@ -2865,8 +2880,8 @@
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-jean-luc-melenchon-institutions-democratie-8e09285dec35.md",
-      "sha256": "bd8eb461176c42ec9ac52f5913bd60bf5f4d55d2a5ace877dd458f4a7c7be5a2",
-      "size": 1182
+      "sha256": "518cbc205a36d4aa18809b2318200d2c7e6f93d2729e03299ad3013ce1288a68",
+      "size": 1496
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-la-france-insoumise-institutions-democratie-0235d763feca.md",
@@ -2962,6 +2977,11 @@
       "path": "proposals/auto/institutions-democratie/auto-manolo-mlekuz-institutions-democratie-bea8348ed30b.md",
       "sha256": "42ed7f6ac1185ee7fa8daf72ffc483e3ce3b23aae4fd5b25c3699b40a3fdfb8e",
       "size": 1327
+    },
+    {
+      "path": "proposals/auto/institutions-democratie/auto-marine-tondelier-institutions-democratie-ccaa73e717e2.md",
+      "sha256": "ae8d4bbc41e0abe8351d1ba6716a28b59d60fe28186b145bd6a5baca3c6a5956",
+      "size": 1460
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-nouvelle-energie-institutions-democratie-09aff9de5202.md",
@@ -3877,6 +3897,11 @@
       "path": "proposals/auto/services-publics/auto-marine-tondelier-services-publics-90d57483a5e8.md",
       "sha256": "bfde6d2d7ec2ef3efa6c1eef3a85df8e6b89579456bc2fc83cfc0616715cb22f",
       "size": 1304
+    },
+    {
+      "path": "proposals/auto/services-publics/auto-marine-tondelier-services-publics-c5eec8080ec7.md",
+      "sha256": "72c6ce0f5e4f80b07dbdba735fbf937395945f87358feccc767b02db914d886f",
+      "size": 1276
     },
     {
       "path": "proposals/auto/services-publics/auto-marine-tondelier-services-publics-eeee81ed97e3.md",

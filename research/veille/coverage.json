@@ -6,18 +6,18 @@
     "actors": 68,
     "declared_or_active_candidates": 27,
     "topics": 12,
-    "current_proposals": 1471,
-    "covered_actor_topic_cells": 168,
+    "current_proposals": 1473,
+    "covered_actor_topic_cells": 169,
     "total_actor_topic_cells": 816,
-    "actor_topic_coverage_ratio": 0.2059,
-    "active_candidate_covered_cells": 77,
+    "actor_topic_coverage_ratio": 0.2071,
+    "active_candidate_covered_cells": 78,
     "active_candidate_total_cells": 324,
-    "active_candidate_topic_coverage_ratio": 0.2377,
-    "verified_proposals": 1438,
-    "multi_source_proposals": 121,
-    "latest_evidence_at": "2026-11-11",
+    "active_candidate_topic_coverage_ratio": 0.2407,
+    "verified_proposals": 1440,
+    "multi_source_proposals": 122,
+    "latest_evidence_at": "2026-11-12",
     "certainty_counts": {
-      "explicit": 1446,
+      "explicit": 1448,
       "explicit_but_conditional": 3,
       "explicit_but_underspecified": 22
     }
@@ -821,9 +821,9 @@
         "economie-finances",
         "numerique-ia"
       ],
-      "latest_evidence_at": "2026-11-07",
+      "latest_evidence_at": "2026-11-12",
       "verified_proposals": 3,
-      "multi_source_proposals": 0
+      "multi_source_proposals": 1
     },
     {
       "id": "juan-branco",
@@ -1243,26 +1243,26 @@
       "type": "candidate",
       "status": "declared_primary",
       "confidence": "high",
-      "current_proposals": 7,
+      "current_proposals": 9,
       "covered_topics": [
         "ecologie-energie",
+        "institutions-democratie",
         "pouvoir-achat-travail",
         "services-publics"
       ],
-      "coverage_ratio": 0.25,
+      "coverage_ratio": 0.3333,
       "gaps": [
         "retraites",
         "fiscalite-redistribution",
         "immigration-integration",
         "europe-souverainete",
         "defense-international",
-        "institutions-democratie",
         "securite-justice",
         "economie-finances",
         "numerique-ia"
       ],
-      "latest_evidence_at": "2026-11-07",
-      "verified_proposals": 7,
+      "latest_evidence_at": "2026-11-12",
+      "verified_proposals": 9,
       "multi_source_proposals": 0
     },
     {
@@ -2029,21 +2029,21 @@
     {
       "id": "institutions-democratie",
       "label": "Institutions & démocratie",
-      "current_proposals": 284,
-      "actors_covered": 17,
-      "actor_coverage_ratio": 0.25,
-      "latest_evidence_at": "2026-11-07",
-      "verified_proposals": 280,
-      "multi_source_proposals": 39
+      "current_proposals": 285,
+      "actors_covered": 18,
+      "actor_coverage_ratio": 0.2647,
+      "latest_evidence_at": "2026-11-12",
+      "verified_proposals": 281,
+      "multi_source_proposals": 40
     },
     {
       "id": "services-publics",
       "label": "Services publics",
-      "current_proposals": 274,
+      "current_proposals": 275,
       "actors_covered": 18,
       "actor_coverage_ratio": 0.2647,
-      "latest_evidence_at": "2026-11-10",
-      "verified_proposals": 271,
+      "latest_evidence_at": "2026-11-12",
+      "verified_proposals": 272,
       "multi_source_proposals": 14
     },
     {
@@ -3500,7 +3500,7 @@
       "status": "declared_presidential",
       "coverage_ratio": 0.25,
       "current_proposals": 3,
-      "latest_evidence_at": "2026-11-07",
+      "latest_evidence_at": "2026-11-12",
       "topics": [
         {
           "id": "pouvoir-achat-travail",
@@ -3570,9 +3570,9 @@
           "label": "Institutions & démocratie",
           "covered": true,
           "current_proposals": 1,
-          "latest_evidence_at": "2026-11-07",
+          "latest_evidence_at": "2026-11-12",
           "verified_proposals": 1,
-          "multi_source_proposals": 0
+          "multi_source_proposals": 1
         },
         {
           "id": "services-publics",
@@ -4324,9 +4324,9 @@
       "id": "marine-tondelier",
       "name": "Marine Tondelier",
       "status": "declared_primary",
-      "coverage_ratio": 0.25,
-      "current_proposals": 7,
-      "latest_evidence_at": "2026-11-07",
+      "coverage_ratio": 0.3333,
+      "current_proposals": 9,
+      "latest_evidence_at": "2026-11-12",
       "topics": [
         {
           "id": "pouvoir-achat-travail",
@@ -4394,19 +4394,19 @@
         {
           "id": "institutions-democratie",
           "label": "Institutions & démocratie",
-          "covered": false,
-          "current_proposals": 0,
-          "latest_evidence_at": null,
-          "verified_proposals": 0,
+          "covered": true,
+          "current_proposals": 1,
+          "latest_evidence_at": "2026-11-12",
+          "verified_proposals": 1,
           "multi_source_proposals": 0
         },
         {
           "id": "services-publics",
           "label": "Services publics",
           "covered": true,
-          "current_proposals": 2,
-          "latest_evidence_at": "2026-09-01",
-          "verified_proposals": 2,
+          "current_proposals": 3,
+          "latest_evidence_at": "2026-11-12",
+          "verified_proposals": 3,
           "multi_source_proposals": 0
         },
         {
@@ -5633,7 +5633,7 @@
       "status": "declared_presidential",
       "coverage_ratio": 0.25,
       "current_proposals": 3,
-      "latest_evidence_at": "2026-11-07",
+      "latest_evidence_at": "2026-11-12",
       "gaps": [
         "pouvoir-achat-travail",
         "retraites",
@@ -5666,25 +5666,6 @@
       ]
     },
     {
-      "id": "marine-tondelier",
-      "name": "Marine Tondelier",
-      "status": "declared_primary",
-      "coverage_ratio": 0.25,
-      "current_proposals": 7,
-      "latest_evidence_at": "2026-11-07",
-      "gaps": [
-        "retraites",
-        "fiscalite-redistribution",
-        "immigration-integration",
-        "europe-souverainete",
-        "defense-international",
-        "institutions-democratie",
-        "securite-justice",
-        "economie-finances",
-        "numerique-ia"
-      ]
-    },
-    {
       "id": "francois-ruffin",
       "name": "François Ruffin",
       "status": "declared_primary",
@@ -5699,6 +5680,24 @@
         "defense-international",
         "institutions-democratie",
         "securite-justice",
+        "numerique-ia"
+      ]
+    },
+    {
+      "id": "marine-tondelier",
+      "name": "Marine Tondelier",
+      "status": "declared_primary",
+      "coverage_ratio": 0.3333,
+      "current_proposals": 9,
+      "latest_evidence_at": "2026-11-12",
+      "gaps": [
+        "retraites",
+        "fiscalite-redistribution",
+        "immigration-integration",
+        "europe-souverainete",
+        "defense-international",
+        "securite-justice",
+        "economie-finances",
         "numerique-ia"
       ]
     },

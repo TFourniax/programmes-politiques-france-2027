@@ -1,0 +1,36 @@
+{
+  "errors": [],
+  "generated_at": "2026-11-12T21:01:20+00:00",
+  "historical_skipped": 0,
+  "partial": 1,
+  "processed": 3,
+  "promoted": 1,
+  "proposals_created": 0,
+  "results": [
+    {
+      "sha256": "e1d9c55d01b9e5bae409818956a9bb5b8461d74f619ec9a544bb1f8c937ed2a0",
+      "status": "not_confirmed",
+      "url": "https://melenchon2027.fr/programme/livre"
+    },
+    {
+      "document": "corpus/2027/auto/partys/la-france-insoumise/2026-11-12-f5439372e702.md",
+      "provenance_updates": [
+        "auto-jean-luc-melenchon-institutions-democratie-8e09285dec35"
+      ],
+      "reason": "canonical_duplicate_evidence",
+      "sha256": "e1d9c55d01b9e5bae409818956a9bb5b8461d74f619ec9a544bb1f8c937ed2a0",
+      "status": "promoted",
+      "url": "https://melenchon2027.fr/programme/livre/",
+      "verified_at": "2026-11-12T21:00:49+00:00"
+    },
+    {
+      "chunks_done": 2,
+      "chunks_remaining": 1,
+      "chunks_total": 3,
+      "sha256": "ef38cbd313ca2c69fc90b8900f8a6f8aaf053b50c83d04ec71270c43bc05e989",
+      "status": "partial",
+      "url": "https://melenchon2027.fr/programme/plans-investissement/automobile/"
+    }
+  ],
+  "status_updates": 0
+}

@@ -1,63 +1,35 @@
 {
   "errors": [],
-  "generated_at": "2026-11-12T08:30:52+00:00",
+  "generated_at": "2026-11-12T21:01:20+00:00",
   "historical_skipped": 0,
-  "partial": 0,
+  "partial": 1,
   "processed": 3,
-  "promoted": 3,
-  "proposals_created": 11,
+  "promoted": 1,
+  "proposals_created": 0,
   "results": [
     {
-      "chunks_total": 1,
-      "document": "corpus/2027/auto/partys/la-france-insoumise/2026-11-07-b1995ce49020.md",
-      "proposals": [
-        "proposals/auto/services-publics/auto-jean-luc-melenchon-services-publics-804ddfef7adc.md"
-      ],
-      "sha256": "e972a862c40e5140c32b681649ea7d0e2e32fe8dc581418482045f3d22c3a9cb",
-      "status": "promoted",
-      "status_updates": [],
-      "url": "https://melenchon2027.fr/programme/livre/le-gout-du-futur-aux-nouvelles-frontieres-de-l-humanite/",
-      "verified_at": "2026-11-12T08:30:07+00:00"
+      "sha256": "e1d9c55d01b9e5bae409818956a9bb5b8461d74f619ec9a544bb1f8c937ed2a0",
+      "status": "not_confirmed",
+      "url": "https://melenchon2027.fr/programme/livre"
     },
     {
-      "chunks_total": 1,
-      "document": "corpus/2027/auto/partys/la-france-insoumise/2026-11-07-4be0d2d8900c.md",
-      "proposals": [
-        "proposals/auto/ecologie-energie/auto-la-france-insoumise-ecologie-energie-20a664961d88.md",
-        "proposals/auto/ecologie-energie/auto-la-france-insoumise-ecologie-energie-d0a90efca385.md",
-        "proposals/auto/ecologie-energie/auto-la-france-insoumise-ecologie-energie-0f044e533db4.md"
-      ],
+      "document": "corpus/2027/auto/partys/la-france-insoumise/2026-11-12-f5439372e702.md",
       "provenance_updates": [
-        "auto-la-france-insoumise-ecologie-energie-3f27917478be"
+        "auto-jean-luc-melenchon-institutions-democratie-8e09285dec35"
       ],
-      "sha256": "8d2fde140e440a7045558551a7c594a3d53813d942b1d2282148e5c85d97cc4c",
+      "reason": "canonical_duplicate_evidence",
+      "sha256": "e1d9c55d01b9e5bae409818956a9bb5b8461d74f619ec9a544bb1f8c937ed2a0",
       "status": "promoted",
-      "status_updates": [],
-      "url": "https://melenchon2027.fr/programme/livre/le-gout-du-futur-aux-nouvelles-frontieres-de-l-humanite/chapitre1/",
-      "verified_at": "2026-11-12T08:30:24+00:00"
+      "url": "https://melenchon2027.fr/programme/livre/",
+      "verified_at": "2026-11-12T21:00:49+00:00"
     },
     {
-      "chunks_total": 2,
-      "document": "corpus/2027/auto/partys/la-france-insoumise/2026-11-07-0de6c4c4f81f.md",
-      "proposals": [
-        "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-0db68e52bd7d.md",
-        "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-d23cbb44a0f8.md",
-        "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-71caef2785dd.md",
-        "proposals/auto/securite-justice/auto-la-france-insoumise-securite-justice-0e709568045a.md",
-        "proposals/auto/ecologie-energie/auto-la-france-insoumise-ecologie-energie-269cbb3d40da.md",
-        "proposals/auto/securite-justice/auto-la-france-insoumise-securite-justice-0f1916bb5c0b.md",
-        "proposals/auto/securite-justice/auto-la-france-insoumise-securite-justice-d6694de82b05.md"
-      ],
-      "provenance_updates": [
-        "auto-la-france-insoumise-services-publics-22862e7a0234",
-        "auto-la-france-insoumise-services-publics-74cfbc8d3054",
-        "auto-la-france-insoumise-services-publics-be21161e8563"
-      ],
-      "sha256": "e157fb1efcf52b69791a61cc87521bf894c00b63881e83f9ecd775a90fd7c4cb",
-      "status": "promoted",
-      "status_updates": [],
-      "url": "https://melenchon2027.fr/programme/livre/le-gout-du-futur-aux-nouvelles-frontieres-de-l-humanite/chapitre2/",
-      "verified_at": "2026-11-12T08:30:51+00:00"
+      "chunks_done": 2,
+      "chunks_remaining": 1,
+      "chunks_total": 3,
+      "sha256": "ef38cbd313ca2c69fc90b8900f8a6f8aaf053b50c83d04ec71270c43bc05e989",
+      "status": "partial",
+      "url": "https://melenchon2027.fr/programme/plans-investissement/automobile/"
     }
   ],
   "status_updates": 0
