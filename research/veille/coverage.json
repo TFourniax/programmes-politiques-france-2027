@@ -6,18 +6,18 @@
     "actors": 68,
     "declared_or_active_candidates": 27,
     "topics": 12,
-    "current_proposals": 1460,
-    "covered_actor_topic_cells": 167,
+    "current_proposals": 1471,
+    "covered_actor_topic_cells": 168,
     "total_actor_topic_cells": 816,
-    "actor_topic_coverage_ratio": 0.2047,
-    "active_candidate_covered_cells": 76,
+    "actor_topic_coverage_ratio": 0.2059,
+    "active_candidate_covered_cells": 77,
     "active_candidate_total_cells": 324,
-    "active_candidate_topic_coverage_ratio": 0.2346,
-    "verified_proposals": 1427,
-    "multi_source_proposals": 117,
+    "active_candidate_topic_coverage_ratio": 0.2377,
+    "verified_proposals": 1438,
+    "multi_source_proposals": 121,
     "latest_evidence_at": "2026-11-11",
     "certainty_counts": {
-      "explicit": 1435,
+      "explicit": 1446,
       "explicit_but_conditional": 3,
       "explicit_but_underspecified": 22
     }
@@ -803,12 +803,13 @@
       "type": "candidate",
       "status": "declared_presidential",
       "confidence": "high",
-      "current_proposals": 2,
+      "current_proposals": 3,
       "covered_topics": [
         "ecologie-energie",
-        "institutions-democratie"
+        "institutions-democratie",
+        "services-publics"
       ],
-      "coverage_ratio": 0.1667,
+      "coverage_ratio": 0.25,
       "gaps": [
         "pouvoir-achat-travail",
         "retraites",
@@ -816,13 +817,12 @@
         "immigration-integration",
         "europe-souverainete",
         "defense-international",
-        "services-publics",
         "securite-justice",
         "economie-finances",
         "numerique-ia"
       ],
       "latest_evidence_at": "2026-11-07",
-      "verified_proposals": 2,
+      "verified_proposals": 3,
       "multi_source_proposals": 0
     },
     {
@@ -995,7 +995,7 @@
       "type": "party",
       "status": null,
       "confidence": null,
-      "current_proposals": 167,
+      "current_proposals": 177,
       "covered_topics": [
         "ecologie-energie",
         "economie-finances",
@@ -1014,8 +1014,8 @@
         "numerique-ia"
       ],
       "latest_evidence_at": "2026-11-10",
-      "verified_proposals": 164,
-      "multi_source_proposals": 12
+      "verified_proposals": 174,
+      "multi_source_proposals": 16
     },
     {
       "id": "laurent-wauquiez",
@@ -2019,12 +2019,12 @@
     {
       "id": "ecologie-energie",
       "label": "Écologie & énergie",
-      "current_proposals": 227,
+      "current_proposals": 231,
       "actors_covered": 19,
       "actor_coverage_ratio": 0.2794,
       "latest_evidence_at": "2026-11-07",
-      "verified_proposals": 221,
-      "multi_source_proposals": 6
+      "verified_proposals": 225,
+      "multi_source_proposals": 7
     },
     {
       "id": "institutions-democratie",
@@ -2039,21 +2039,21 @@
     {
       "id": "services-publics",
       "label": "Services publics",
-      "current_proposals": 270,
-      "actors_covered": 17,
-      "actor_coverage_ratio": 0.25,
+      "current_proposals": 274,
+      "actors_covered": 18,
+      "actor_coverage_ratio": 0.2647,
       "latest_evidence_at": "2026-11-10",
-      "verified_proposals": 267,
-      "multi_source_proposals": 11
+      "verified_proposals": 271,
+      "multi_source_proposals": 14
     },
     {
       "id": "securite-justice",
       "label": "Sécurité & justice",
-      "current_proposals": 155,
+      "current_proposals": 158,
       "actors_covered": 14,
       "actor_coverage_ratio": 0.2059,
       "latest_evidence_at": "2026-11-07",
-      "verified_proposals": 152,
+      "verified_proposals": 155,
       "multi_source_proposals": 14
     },
     {
@@ -3498,8 +3498,8 @@
       "id": "jean-luc-melenchon",
       "name": "Jean-Luc Mélenchon",
       "status": "declared_presidential",
-      "coverage_ratio": 0.1667,
-      "current_proposals": 2,
+      "coverage_ratio": 0.25,
+      "current_proposals": 3,
       "latest_evidence_at": "2026-11-07",
       "topics": [
         {
@@ -3577,10 +3577,10 @@
         {
           "id": "services-publics",
           "label": "Services publics",
-          "covered": false,
-          "current_proposals": 0,
-          "latest_evidence_at": null,
-          "verified_proposals": 0,
+          "covered": true,
+          "current_proposals": 1,
+          "latest_evidence_at": "2026-11-07",
+          "verified_proposals": 1,
           "multi_source_proposals": 0
         },
         {
@@ -5569,26 +5569,6 @@
       ]
     },
     {
-      "id": "jean-luc-melenchon",
-      "name": "Jean-Luc Mélenchon",
-      "status": "declared_presidential",
-      "coverage_ratio": 0.1667,
-      "current_proposals": 2,
-      "latest_evidence_at": "2026-11-07",
-      "gaps": [
-        "pouvoir-achat-travail",
-        "retraites",
-        "fiscalite-redistribution",
-        "immigration-integration",
-        "europe-souverainete",
-        "defense-international",
-        "services-publics",
-        "securite-justice",
-        "economie-finances",
-        "numerique-ia"
-      ]
-    },
-    {
       "id": "nicolas-dupont-aignan",
       "name": "Nicolas Dupont-Aignan",
       "status": "declared_presidential",
@@ -5644,6 +5624,25 @@
         "defense-international",
         "ecologie-energie",
         "securite-justice",
+        "numerique-ia"
+      ]
+    },
+    {
+      "id": "jean-luc-melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "status": "declared_presidential",
+      "coverage_ratio": 0.25,
+      "current_proposals": 3,
+      "latest_evidence_at": "2026-11-07",
+      "gaps": [
+        "pouvoir-achat-travail",
+        "retraites",
+        "fiscalite-redistribution",
+        "immigration-integration",
+        "europe-souverainete",
+        "defense-international",
+        "securite-justice",
+        "economie-finances",
         "numerique-ia"
       ]
     },

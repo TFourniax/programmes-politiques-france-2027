@@ -8,10 +8,10 @@ Ce rapport est dérivé automatiquement du corpus courant. Il sert à piloter la
 
 - 68 acteurs référencés ;
 - 27 candidatures actives ou déclarées suivies ;
-- 1460 propositions atomiques courantes ;
-- 167 / 816 cases acteur × thème couvertes (20.5 %) ;
-- 76 / 324 cases candidat actif × thème couvertes (23.5 %) ;
-- 1427 propositions marquées vérifiées ; 117 appuyées par au moins deux documents de preuve.
+- 1471 propositions atomiques courantes ;
+- 168 / 816 cases acteur × thème couvertes (20.6 %) ;
+- 77 / 324 cases candidat actif × thème couvertes (23.8 %) ;
+- 1438 propositions marquées vérifiées ; 121 appuyées par au moins deux documents de preuve.
 
 ## Priorités documentaires
 
@@ -29,7 +29,7 @@ Ce rapport est dérivé automatiquement du corpus courant. Il sert à piloter la
 - **Clara Egger** — 8 % des thèmes ; 2 proposition(s) ; dernière preuve 2026-06-12 ; lacunes prioritaires : pouvoir-achat-travail, retraites, fiscalite-redistribution, immigration-integration, europe-souverainete, defense-international…
 - **Manolo Mlekuz** — 8 % des thèmes ; 9 proposition(s) ; dernière preuve 2026-10-23 ; lacunes prioritaires : pouvoir-achat-travail, retraites, fiscalite-redistribution, immigration-integration, europe-souverainete, defense-international…
 - **François Asselineau** — 17 % des thèmes ; 2 proposition(s) ; dernière preuve 2026-09-11 ; lacunes prioritaires : retraites, fiscalite-redistribution, immigration-integration, defense-international, ecologie-energie, institutions-democratie…
-- **Jean-Luc Mélenchon** — 17 % des thèmes ; 2 proposition(s) ; dernière preuve 2026-11-07 ; lacunes prioritaires : pouvoir-achat-travail, retraites, fiscalite-redistribution, immigration-integration, europe-souverainete, defense-international…
+- **Nicolas Dupont-Aignan** — 17 % des thèmes ; 2 proposition(s) ; dernière preuve 2026-08-11 ; lacunes prioritaires : pouvoir-achat-travail, retraites, fiscalite-redistribution, immigration-integration, defense-international, ecologie-energie…
 
 ## Couverture par thème
 
@@ -39,11 +39,11 @@ Ce rapport est dérivé automatiquement du corpus courant. Il sert à piloter la
 - **Immigration & intégration** (`immigration-integration`) — 12 acteur(s), 69 proposition(s), dernière preuve 2026-10-24.
 - **Europe & souveraineté** (`europe-souverainete`) — 13 acteur(s), 116 proposition(s), dernière preuve 2026-11-07.
 - **Retraites** (`retraites`) — 14 acteur(s), 24 proposition(s), dernière preuve 2026-11-06.
-- **Sécurité & justice** (`securite-justice`) — 14 acteur(s), 155 proposition(s), dernière preuve 2026-11-07.
+- **Sécurité & justice** (`securite-justice`) — 14 acteur(s), 158 proposition(s), dernière preuve 2026-11-07.
 - **Économie & finances publiques** (`economie-finances`) — 17 acteur(s), 133 proposition(s), dernière preuve 2026-11-10.
 - **Institutions & démocratie** (`institutions-democratie`) — 17 acteur(s), 284 proposition(s), dernière preuve 2026-11-07.
-- **Services publics** (`services-publics`) — 17 acteur(s), 270 proposition(s), dernière preuve 2026-11-10.
-- **Écologie & énergie** (`ecologie-energie`) — 19 acteur(s), 227 proposition(s), dernière preuve 2026-11-07.
+- **Services publics** (`services-publics`) — 18 acteur(s), 274 proposition(s), dernière preuve 2026-11-10.
+- **Écologie & énergie** (`ecologie-energie`) — 19 acteur(s), 231 proposition(s), dernière preuve 2026-11-07.
 - **Pouvoir d’achat & travail** (`pouvoir-achat-travail`) — 22 acteur(s), 93 proposition(s), dernière preuve 2026-11-11.
 
 > Ce rapport est un indicateur de couverture structurée, de fraîcheur et de profondeur de preuve, pas un score de qualité politique ni d'exhaustivité absolue.
