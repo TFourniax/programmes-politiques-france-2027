@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created_at": "2026-08-17T19:57:19.441897+00:00",
-  "updated_at": "2026-11-12T21:02:04.509590+00:00",
+  "updated_at": "2026-11-13T08:13:53.049102+00:00",
   "files": [
     {
       "path": "corpus/2027/auto/candidates/anasse-kazib/2026-08-28-38891602d9d9.md",
@@ -1069,6 +1069,11 @@
       "size": 4301
     },
     {
+      "path": "corpus/2027/auto/partys/la-france-insoumise/2026-11-12-3a47007384a0.md",
+      "sha256": "2307f6bb7278f708414722bbc428b78818ab966e0415b0bf3be448d3f8d4ccdb",
+      "size": 3218
+    },
+    {
       "path": "corpus/2027/auto/partys/la-france-insoumise/2026-11-12-f5439372e702.md",
       "sha256": "1290e07f27cbe803db07f8c617e2a7b686a0eae4250ec8b00415a87f4d61c1e9",
       "size": 1712
@@ -1969,6 +1974,11 @@
       "size": 1503
     },
     {
+      "path": "corpus/2027/auto/partys/solution-democratique/2026-04-19-3904681dcccd.md",
+      "sha256": "f0ce06679670f632a12488af05f7bd89b293275e947f88029163d4d35ec31a39",
+      "size": 1628
+    },
+    {
       "path": "corpus/2027/auto/partys/solution-democratique/2026-04-19-8d31a195667f.md",
       "sha256": "ca474b60818b61f61fb393572c914f97f567b0af9587a46fc68991763ae2349f",
       "size": 1730
@@ -2119,6 +2129,11 @@
       "size": 1455
     },
     {
+      "path": "proposals/auto/ecologie-energie/auto-la-france-insoumise-ecologie-energie-020dc14e177d.md",
+      "sha256": "af0136d65c1970bf5f680d77917f83aa2ac667309e443318fc5ad2e570579d07",
+      "size": 1352
+    },
+    {
       "path": "proposals/auto/ecologie-energie/auto-la-france-insoumise-ecologie-energie-0f044e533db4.md",
       "sha256": "1aee80d0d0b7a60a6f1ae8e288b1fcacf4d1d1713f2d504dcae3997c93a6b93d",
       "size": 1358
@@ -2127,6 +2142,11 @@
       "path": "proposals/auto/ecologie-energie/auto-la-france-insoumise-ecologie-energie-1539683a082c.md",
       "sha256": "d0faa4e6b7839fc63cef871397ffc7a5a9de141f6ba7baf478e87b042c06e489",
       "size": 1392
+    },
+    {
+      "path": "proposals/auto/ecologie-energie/auto-la-france-insoumise-ecologie-energie-1b46e8b6c8a9.md",
+      "sha256": "01c9151c702b3fafecad1abee02121d359fd1f304b26ebe8fdc1f8150d4fa026",
+      "size": 1395
     },
     {
       "path": "proposals/auto/ecologie-energie/auto-la-france-insoumise-ecologie-energie-20a664961d88.md",
@@ -2150,8 +2170,8 @@
     },
     {
       "path": "proposals/auto/ecologie-energie/auto-la-france-insoumise-ecologie-energie-28d74bfec8b6.md",
-      "sha256": "7cff60108ac7a07c3eb5c3ea5b8ec7ef57d6716853a94fed80824c58082b4f20",
-      "size": 1360
+      "sha256": "50ec300c3de628777975c4fafeb7de613f125e76f4bf338a8308417a7a3f5123",
+      "size": 1700
     },
     {
       "path": "proposals/auto/ecologie-energie/auto-la-france-insoumise-ecologie-energie-2b0855bec9bb.md",
@@ -2170,8 +2190,8 @@
     },
     {
       "path": "proposals/auto/ecologie-energie/auto-la-france-insoumise-ecologie-energie-49df97d2c012.md",
-      "sha256": "ab949e41d75fd24844583294993054e9f5c9b6fcbf74a29904f581ed9082256a",
-      "size": 1370
+      "sha256": "ed6380e369e22368ad5a0360e5ca63b3502dffb55cc4f79032bb14788ac8875c",
+      "size": 1710
     },
     {
       "path": "proposals/auto/ecologie-energie/auto-la-france-insoumise-ecologie-energie-4b27247d2f02.md",
@@ -2194,6 +2214,16 @@
       "size": 1480
     },
     {
+      "path": "proposals/auto/ecologie-energie/auto-la-france-insoumise-ecologie-energie-93cc35aa464c.md",
+      "sha256": "226383066b458a73949df52259fac62bb0479d019197a56d96ff494b98201b71",
+      "size": 1464
+    },
+    {
+      "path": "proposals/auto/ecologie-energie/auto-la-france-insoumise-ecologie-energie-a923df5071e8.md",
+      "sha256": "020791639c25b54e3119ce8057debed0a359e4f03f3153c9f4bc952e82438bca",
+      "size": 1480
+    },
+    {
       "path": "proposals/auto/ecologie-energie/auto-la-france-insoumise-ecologie-energie-c2b42978c7a7.md",
       "sha256": "b2270f10e56ed1c25660da99bb9bda3dbc6a61d1a791b34f15271c2862c2ef49",
       "size": 1427
@@ -2207,6 +2237,11 @@
       "path": "proposals/auto/ecologie-energie/auto-la-france-insoumise-ecologie-energie-d0a90efca385.md",
       "sha256": "94fb9370644d823c205e68359f3ac4e74695cf553650b2f8f5f86fb17c047a40",
       "size": 1269
+    },
+    {
+      "path": "proposals/auto/ecologie-energie/auto-la-france-insoumise-ecologie-energie-db8ba6ff4950.md",
+      "sha256": "26e5ab580e779cc490870b09f8c801729118030021c86f22f3df1f6abec71cf7",
+      "size": 1314
     },
     {
       "path": "proposals/auto/ecologie-energie/auto-la-france-insoumise-ecologie-energie-dbb23d7c1eee.md",
@@ -2810,8 +2845,8 @@
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-clara-egger-institutions-democratie-be18774ae19d.md",
-      "sha256": "6fe46d55abe3f285584259cc32fd83a1b0d80b9405c1d10332b72d7d8597e3fa",
-      "size": 1184
+      "sha256": "9f95ceafe8cc12293463f18850d6c501f310ced318813ac694c7a5b875848ced",
+      "size": 1542
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-clara-egger-institutions-democratie-ef5123784bab.md",
@@ -3702,6 +3737,11 @@
       "path": "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-3da7b5d996b2.md",
       "sha256": "05daefba30e38b236d5993cfd3ec4feb1b4a030ab1929f7b94a347b164bdc80b",
       "size": 1701
+    },
+    {
+      "path": "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-512f15b026c4.md",
+      "sha256": "d29719be9d835c37c249bac9d416bc6710538fbce077aa30adefaf4e0f25cdcd",
+      "size": 1440
     },
     {
       "path": "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-514da6f5edf0.md",

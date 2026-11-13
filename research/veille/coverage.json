@@ -6,18 +6,18 @@
     "actors": 68,
     "declared_or_active_candidates": 27,
     "topics": 12,
-    "current_proposals": 1473,
+    "current_proposals": 1479,
     "covered_actor_topic_cells": 169,
     "total_actor_topic_cells": 816,
     "actor_topic_coverage_ratio": 0.2071,
     "active_candidate_covered_cells": 78,
     "active_candidate_total_cells": 324,
     "active_candidate_topic_coverage_ratio": 0.2407,
-    "verified_proposals": 1440,
-    "multi_source_proposals": 122,
+    "verified_proposals": 1446,
+    "multi_source_proposals": 125,
     "latest_evidence_at": "2026-11-12",
     "certainty_counts": {
-      "explicit": 1448,
+      "explicit": 1454,
       "explicit_but_conditional": 3,
       "explicit_but_underspecified": 22
     }
@@ -330,7 +330,7 @@
       ],
       "latest_evidence_at": "2026-06-12",
       "verified_proposals": 2,
-      "multi_source_proposals": 1
+      "multi_source_proposals": 2
     },
     {
       "id": "clementine-autain",
@@ -995,7 +995,7 @@
       "type": "party",
       "status": null,
       "confidence": null,
-      "current_proposals": 177,
+      "current_proposals": 183,
       "covered_topics": [
         "ecologie-energie",
         "economie-finances",
@@ -1013,9 +1013,9 @@
         "defense-international",
         "numerique-ia"
       ],
-      "latest_evidence_at": "2026-11-10",
-      "verified_proposals": 174,
-      "multi_source_proposals": 16
+      "latest_evidence_at": "2026-11-12",
+      "verified_proposals": 180,
+      "multi_source_proposals": 18
     },
     {
       "id": "laurent-wauquiez",
@@ -2019,12 +2019,12 @@
     {
       "id": "ecologie-energie",
       "label": "Écologie & énergie",
-      "current_proposals": 231,
+      "current_proposals": 236,
       "actors_covered": 19,
       "actor_coverage_ratio": 0.2794,
-      "latest_evidence_at": "2026-11-07",
-      "verified_proposals": 225,
-      "multi_source_proposals": 7
+      "latest_evidence_at": "2026-11-12",
+      "verified_proposals": 230,
+      "multi_source_proposals": 9
     },
     {
       "id": "institutions-democratie",
@@ -2034,16 +2034,16 @@
       "actor_coverage_ratio": 0.2647,
       "latest_evidence_at": "2026-11-12",
       "verified_proposals": 281,
-      "multi_source_proposals": 40
+      "multi_source_proposals": 41
     },
     {
       "id": "services-publics",
       "label": "Services publics",
-      "current_proposals": 275,
+      "current_proposals": 276,
       "actors_covered": 18,
       "actor_coverage_ratio": 0.2647,
       "latest_evidence_at": "2026-11-12",
-      "verified_proposals": 272,
+      "verified_proposals": 273,
       "multi_source_proposals": 14
     },
     {
@@ -2746,7 +2746,7 @@
           "current_proposals": 2,
           "latest_evidence_at": "2026-06-12",
           "verified_proposals": 2,
-          "multi_source_proposals": 1
+          "multi_source_proposals": 2
         },
         {
           "id": "services-publics",

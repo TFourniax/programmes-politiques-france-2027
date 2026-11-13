@@ -1,0 +1,49 @@
+{
+  "errors": [],
+  "generated_at": "2026-11-13T08:13:37+00:00",
+  "historical_skipped": 0,
+  "partial": 0,
+  "processed": 3,
+  "promoted": 2,
+  "proposals_created": 6,
+  "results": [
+    {
+      "sha256": "762b91321cc5811fa9e704c9bdd9f09dfde99647a0d7510cdd65bdb1f552b5f0",
+      "status": "not_confirmed",
+      "url": "https://melenchon2027.fr/programme/plan-investissement-productif/"
+    },
+    {
+      "chunks_total": 3,
+      "document": "corpus/2027/auto/partys/la-france-insoumise/2026-11-12-3a47007384a0.md",
+      "proposals": [
+        "proposals/auto/ecologie-energie/auto-la-france-insoumise-ecologie-energie-a923df5071e8.md",
+        "proposals/auto/ecologie-energie/auto-la-france-insoumise-ecologie-energie-db8ba6ff4950.md",
+        "proposals/auto/ecologie-energie/auto-la-france-insoumise-ecologie-energie-020dc14e177d.md",
+        "proposals/auto/ecologie-energie/auto-la-france-insoumise-ecologie-energie-93cc35aa464c.md",
+        "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-512f15b026c4.md",
+        "proposals/auto/ecologie-energie/auto-la-france-insoumise-ecologie-energie-1b46e8b6c8a9.md"
+      ],
+      "provenance_updates": [
+        "auto-la-france-insoumise-ecologie-energie-28d74bfec8b6",
+        "auto-la-france-insoumise-ecologie-energie-49df97d2c012"
+      ],
+      "sha256": "ef38cbd313ca2c69fc90b8900f8a6f8aaf053b50c83d04ec71270c43bc05e989",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://melenchon2027.fr/programme/plans-investissement/automobile/",
+      "verified_at": "2026-11-13T08:13:28+00:00"
+    },
+    {
+      "document": "corpus/2027/auto/partys/solution-democratique/2026-04-19-3904681dcccd.md",
+      "provenance_updates": [
+        "auto-clara-egger-institutions-democratie-be18774ae19d"
+      ],
+      "reason": "canonical_duplicate_evidence",
+      "sha256": "d01c950135dede89d72d0ade337a419e49e5b1a967c2b3e54b5077465fe8ddae",
+      "status": "promoted",
+      "url": "https://solutiondemocratique.fr/presidentielle2027-annonce-candidature-clara-egger/",
+      "verified_at": "2026-11-13T08:13:37+00:00"
+    }
+  ],
+  "status_updates": 0
+}

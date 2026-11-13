@@ -5,7 +5,7 @@ entity_id: clara-egger
 topic: institutions-democratie
 certainty: explicit
 proposal_status: current
-source_document_ids: [auto-solution-democratique-2026-04-19-13a388f3fbab]
+source_document_ids: [auto-solution-democratique-2026-04-19-13a388f3fbab, auto-solution-democratique-2026-04-19-3904681dcccd]
 source_url: https://solutiondemocratique.fr/presidentielle2027-annonce-candidature-clara-egger/
 source_tier: tier_1_primary_official
 first_documented_at: '2026-04-19'
@@ -14,6 +14,10 @@ verification_state: verified
 verification_method: primary_source_exact_quote_plus_independent_gemini_verifier_plus_chronology_guard
 evidence_sha256: 494ef263d4355130f2a03a16ddd9ea82e829f7ed40313834b871150a9fba55bd
 generated_by: scripts/auto_promote.py
+source_urls: ['https://solutiondemocratique.fr/presidentielle2027-annonce-candidature-clara-egger/']
+evidence_sha256s: [494ef263d4355130f2a03a16ddd9ea82e829f7ed40313834b871150a9fba55bd, d01c950135dede89d72d0ade337a419e49e5b1a967c2b3e54b5077465fe8ddae]
+confirmation_count: 2
+last_confirmed_at: '2026-04-19'
 ---
 
 # Instaurer la démocratie directe en France

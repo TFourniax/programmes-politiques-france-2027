@@ -5,7 +5,7 @@ entity_id: la-france-insoumise
 topic: ecologie-energie
 certainty: explicit
 proposal_status: current
-source_document_ids: [auto-la-france-insoumise-2026-10-16-5b62e3f1643e]
+source_document_ids: [auto-la-france-insoumise-2026-10-16-5b62e3f1643e, auto-la-france-insoumise-2026-11-12-3a47007384a0]
 source_url: https://melenchon2027.fr/programme/plans-investissement/automobile/
 source_tier: tier_1_primary_official
 first_documented_at: '2026-10-16'
@@ -14,6 +14,10 @@ verification_state: verified
 verification_method: primary_source_exact_quote_plus_independent_gemini_verifier_plus_chronology_guard
 evidence_sha256: a07cb77a5b5c4870cd726e62ff8193ba3d2b062c184e8629bdd37ccc11593d4c
 generated_by: scripts/auto_promote.py
+source_urls: ['https://melenchon2027.fr/programme/plans-investissement/automobile/']
+evidence_sha256s: [a07cb77a5b5c4870cd726e62ff8193ba3d2b062c184e8629bdd37ccc11593d4c, ef38cbd313ca2c69fc90b8900f8a6f8aaf053b50c83d04ec71270c43bc05e989]
+confirmation_count: 2
+last_confirmed_at: '2026-11-12'
 ---
 
 # Nous mettrons en place un service public de la location abordable de véhicules électriques
