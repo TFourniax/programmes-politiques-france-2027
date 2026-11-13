@@ -840,6 +840,11 @@
       "source_url": "https://www.unenouvelleenergie.fr/notre-programme/",
       "verified_at": "2026-10-24T06:05:02+00:00"
     },
+    "4db9a93f86abe7fac3447714cee2b399fe057522f111e61908f85c9238ce5331": {
+      "proposal_id": "auto-la-france-insoumise-services-publics-4db9a93f86ab",
+      "source_url": "https://melenchon2027.fr/programme/livre/introduction/",
+      "verified_at": "2026-11-13T20:36:54+00:00"
+    },
     "4e496c174e4ca91495a1270a93e1895496cd32c8d329c8181c59aeb600293a32": {
       "proposal_id": "auto-la-france-insoumise-ecologie-energie-4e496c174e4c",
       "source_url": "https://melenchon2027.fr/programme/plans-investissement/automobile/",
@@ -2593,7 +2598,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-11-13T08:13:37+00:00",
+  "last_run_at": "2026-11-13T20:36:57+00:00",
   "source_chunks": {
     "000e79baea11403029d335b1": {
       "canonical_confirmations": [
@@ -7928,6 +7933,26 @@
       "total": 1,
       "updated_at": "2026-09-23T06:10:23+00:00",
       "url": "https://lafranceinsoumise.fr/2026/06/22/parrainages-elus-pour-election-presidentielle-2027/"
+    },
+    "185c07e8db33d9171eb8ea3d": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-11-13T20:36:59+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "b06cad8f1ff4cda245a83aceed187d38dfe6c78c59fb9e56474a0a7bacc36d8f",
+      "source_title": "Meeting du Bourget | Le clip",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-13T20:37:00+00:00",
+      "url": "https://www.youtube.com/watch?v=mCQptHqFb60"
     },
     "18adc77ed98bad26f9bed8b3": {
       "canonical_confirmations": [
@@ -27720,6 +27745,26 @@
       "updated_at": "2026-10-20T22:29:24+00:00",
       "url": "https://attalpresident.fr/programme"
     },
+    "6807c061c7cd667b27fab866": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-11-13T20:37:01+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "62478657a69a64749b5495199176939d54ff3f047d379c27cc1b12316458de00",
+      "source_title": "« Paul Éluard doit être une digue face à la répression pour tout le mouvement » - Anasse Kazib",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-13T20:37:02+00:00",
+      "url": "https://www.youtube.com/watch?v=NVyeCPFgSZk"
+    },
     "68159c2df48b8c9d236948d8": {
       "canonical_confirmations": [],
       "claims": [],
@@ -35094,6 +35139,26 @@
       "updated_at": "2026-08-16T13:56:12+00:00",
       "url": "https://npa-revolutionnaires.org/communique-presidentielle-2027-selma-labib-une-candidature-ouvriere-et-revolutionnaire-soutenue-par-gael-quirante/"
     },
+    "8cef667686ecd3d27d7f474d": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-11-13T20:37:03+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "2791ba28c65141f924e3a125ad6b55026f0b73f91f91e3dbc4bd08e6df990ce6",
+      "source_title": "🔴 Une seule solution : la révolution ! | VIENS A NOTRE MEETING 21 NOVEMBRE",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-13T20:37:04+00:00",
+      "url": "https://www.youtube.com/shorts/v0y6CclFtqc"
+    },
     "8cf319be77499fd83c725a6b": {
       "canonical_confirmations": [
         {
@@ -36125,6 +36190,26 @@
       "total": 1,
       "updated_at": "2026-11-12T21:01:38+00:00",
       "url": "https://www.youtube.com/shorts/oTzYoNXKKfk"
+    },
+    "91f2364404bfb8a630d322cd": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-11-13T20:36:57+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "5c78f910d799929ee5c1af7d8fab592fe472ec1ade60090a04035ac966fed310",
+      "source_title": "Et Si Équinoxe Était Au Pouvoir ?",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-13T20:36:58+00:00",
+      "url": "https://www.youtube.com/shorts/ssFxVLoMBLA"
     },
     "91fea7c7f3215f8ea3a6995c": {
       "canonical_confirmations": [
@@ -40429,6 +40514,155 @@
       "total": 1,
       "updated_at": "2026-10-19T14:50:37+00:00",
       "url": "https://www.unenouvelleenergie.fr/notre-programme/"
+    },
+    "a4afeee3559fa2cad89b0a9d": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Revaloriser immédiatement les salaires des soignants par une augmentation du point d’indice de 10%",
+            "relevance": "direct",
+            "statement": "Revaloriser immédiatement les salaires des soignants par une augmentation du point d’indice de 10%.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Le point d'indice de 10% pour les soignants est explicitement soutenu par la source et correspond à la position actuelle de La France insoumise.",
+            "related_proposal_id": "auto-la-france-insoumise-services-publics-514da6f5edf0",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Recruter des psychiatres et des soignant·es et créer 2 500 postes de psychologues dans les centres médico-psychologiques",
+            "relevance": "direct",
+            "statement": "Recruter des psychiatres et des soignants et créer 2 500 postes de psychologues dans les centres médico-psychologiques.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La création de 2 500 postes de psychologues et le recrutement de soignants sont explicitement soutenus par la source et absents du canonique actuel.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Ouvrir au moins 360 lits en pédopsychiatrie",
+            "relevance": "direct",
+            "statement": "Ouvrir au moins 360 lits en pédopsychiatrie pour mettre fin aux hospitalisations d'enfants dans les unités pour adultes.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "L'ouverture d'au moins 360 lits en pédopsychiatrie est explicitement soutenue par la source et absente du canonique actuel.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Supprimer les franchises médicales et les participations forfaitaires sur les soins",
+            "relevance": "direct",
+            "statement": "Supprimer les franchises médicales et les participations forfaitaires sur les soins.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 3,
+            "reason": "La suppression des franchises médicales et participations forfaitaires est explicitement soutenue par la source et absente du canonique actuel.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Recruter des psychiatres et des soignant·es et créer 2 500 postes de psychologues dans les centres médico-psychologiques",
+            "relevance": "direct",
+            "statement": "Recruter des psychiatres et des soignants et créer 2 500 postes de psychologues dans les centres médico-psychologiques.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La création de 2 500 postes de psychologues et le recrutement de soignants sont explicitement soutenus par la source et absents du canonique actuel.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Ouvrir au moins 360 lits en pédopsychiatrie",
+            "relevance": "direct",
+            "statement": "Ouvrir au moins 360 lits en pédopsychiatrie pour mettre fin aux hospitalisations d'enfants dans les unités pour adultes.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "L'ouverture d'au moins 360 lits en pédopsychiatrie est explicitement soutenue par la source et absente du canonique actuel.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Supprimer les franchises médicales et les participations forfaitaires sur les soins",
+            "relevance": "direct",
+            "statement": "Supprimer les franchises médicales et les participations forfaitaires sur les soins.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 3,
+            "reason": "La suppression des franchises médicales et participations forfaitaires est explicitement soutenue par la source et absente du canonique actuel.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "created_at": "2026-11-13T20:36:36+00:00",
+      "document_types": [
+        "thematic_platform",
+        "thematic_platform"
+      ],
+      "done": [
+        0,
+        1
+      ],
+      "published_candidates": [],
+      "sha256": "1732979b0459ed2921b034fe9c31c379f3bc9940e2afcca90b554fa2397b15df",
+      "source_title": "Comment nous allons reconstruire notre système de santé - Mélenchon 2027 : Soutenez ma candidature à l’élection présidentielle",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 4,
+      "updated_at": "2026-11-13T20:36:44+00:00",
+      "url": "https://melenchon2027.fr/programme/plans-thematiques/sante/"
     },
     "a4faeee520ece4a5b8449f51": {
       "canonical_confirmations": [],
@@ -45561,6 +45795,137 @@
       "total": 1,
       "updated_at": "2026-09-22T22:24:18+00:00",
       "url": "https://bsky.app/profile/lesecologistes.fr/post/3mw565zbdkk24"
+    },
+    "ae71e48bf30a0907879c71cc": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "viser une hausse de cette surface de 40 000 hectares",
+            "relevance": "direct",
+            "statement": "Nous proposons de viser une hausse de la surface de lin cultivée de 40 000 hectares.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La proposition est explicitement présente dans la source avec le même acteur et la même portée.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Nous viserons 65 000 hectares de culture de chanvre en 2032",
+            "relevance": "direct",
+            "statement": "Nous viserons 65 000 hectares de culture de chanvre en 2032.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La mesure est explicitement soutenue dans la source concernant l'objectif de 65 000 hectares de culture de chanvre en 2032 par La France insoumise.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "créer une plateforme nationale du vêtement français",
+            "relevance": "direct",
+            "statement": "Nous proposerons de creer une plateforme nationale du vetement francais.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La proposition de créer une plateforme nationale du vêtement français est explicitement mentionnée dans le texte source pour La France insoumise.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "viser une hausse de cette surface de 40 000 hectares",
+            "relevance": "direct",
+            "statement": "Nous proposons de viser une hausse de la surface de lin cultivée de 40 000 hectares.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La proposition est explicitement présente dans la source avec le même acteur et la même portée.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Nous viserons 65 000 hectares de culture de chanvre en 2032",
+            "relevance": "direct",
+            "statement": "Nous viserons 65 000 hectares de culture de chanvre en 2032.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La mesure est explicitement soutenue dans la source concernant l'objectif de 65 000 hectares de culture de chanvre en 2032 par La France insoumise.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "créer une plateforme nationale du vêtement français",
+            "relevance": "direct",
+            "statement": "Nous proposerons de creer une plateforme nationale du vetement francais.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La proposition de créer une plateforme nationale du vêtement français est explicitement mentionnée dans le texte source pour La France insoumise.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "created_at": "2026-11-13T20:36:27+00:00",
+      "document_types": [
+        "policy_proposal",
+        "policy_proposal"
+      ],
+      "done": [
+        0,
+        1
+      ],
+      "published_candidates": [],
+      "sha256": "55f655672cb7ed21a738ec4c9c9cdd5754f185ff7e51c7438b3902388c39c991",
+      "source_title": "Textile - Mélenchon 2027 : Soutenez ma candidature à l’élection présidentielle",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 3,
+      "updated_at": "2026-11-13T20:36:35+00:00",
+      "url": "https://melenchon2027.fr/plans-investissement/textile/"
     },
     "aec48c88f60a2acc503c3a26": {
       "canonical_confirmations": [
@@ -55488,6 +55853,103 @@
       "updated_at": "2026-10-01T23:22:28+00:00",
       "url": "https://parti-socialiste.fr/actualites/les-jeux-socialistes/"
     },
+    "dd2c5cf4443ec4df94908d10": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Fonder la 6 e République",
+            "relevance": "direct",
+            "statement": "Fonder la sixième République pour remplacer la Constitution de la Ve République.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La source soutient explicitement la proposition de fonder la sixieme Republique.",
+            "related_proposal_id": "auto-la-france-insoumise-institutions-democratie-6c9aaa63d884",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "mettre en sécurité sociale intégrale la population française.",
+            "relevance": "direct",
+            "statement": "Mettre en place une sécurité sociale intégrale pour la population française.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La source mentionne explicitement l'objectif de mettre en securite sociale integrale la population francaise.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "La Nouvelle France a besoin d’une nouvelle République : la 6 e République.",
+            "relevance": "direct",
+            "statement": "Mise en place de la 6e République avec des référendums citoyens.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La mise en place de la 6e République et des référendums citoyens est déjà présente dans le canon.",
+            "related_proposal_id": "auto-la-france-insoumise-institutions-democratie-6c9aaa63d884",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "mettre en sécurité sociale intégrale la population française.",
+            "relevance": "direct",
+            "statement": "Mettre en place une sécurité sociale intégrale pour la population française.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La source mentionne explicitement l'objectif de mettre en securite sociale integrale la population francaise.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "completed_at": "2026-11-13T20:36:54+00:00",
+      "created_at": "2026-11-13T20:36:44+00:00",
+      "document_types": [
+        "party_programme",
+        "campaign_website_page"
+      ],
+      "done": [
+        0,
+        1
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "271f36408234412a814a40cb635afefca6eeea232d7ea4d80ca714ff7e85325c",
+      "source_title": "Introduction : Vers une nouvelle France - Mélenchon 2027 : Soutenez ma candidature à l’élection présidentielle",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 2,
+      "updated_at": "2026-11-13T20:36:54+00:00",
+      "url": "https://melenchon2027.fr/programme/livre/introduction/"
+    },
     "ddabc784341ef3fff56f051f": {
       "canonical_confirmations": [],
       "claims": [],
@@ -64155,6 +64617,15 @@
       "status": "not_confirmed",
       "url": "https://lafranceinsoumise.fr/2026/06/22/parrainages-elus-pour-election-presidentielle-2027/"
     },
+    "110bac27f1f6": {
+      "chunks_done": 2,
+      "chunks_total": 4,
+      "processed_at": "2026-11-13T20:36:44+00:00",
+      "reason": null,
+      "source_sha256": "1732979b0459ed2921b034fe9c31c379f3bc9940e2afcca90b554fa2397b15df",
+      "status": "partial",
+      "url": "https://melenchon2027.fr/programme/plans-thematiques/sante/"
+    },
     "1128581105a5": {
       "chunks_done": null,
       "chunks_total": null,
@@ -66687,6 +67158,15 @@
       "status": "promoted",
       "url": "https://rassemblementnational.fr/"
     },
+    "6784df40f22d": {
+      "chunks_done": 2,
+      "chunks_total": 3,
+      "processed_at": "2026-11-13T20:36:35+00:00",
+      "reason": null,
+      "source_sha256": "55f655672cb7ed21a738ec4c9c9cdd5754f185ff7e51c7438b3902388c39c991",
+      "status": "partial",
+      "url": "https://melenchon2027.fr/plans-investissement/textile/"
+    },
     "67a36d47d059": {
       "chunks_done": null,
       "chunks_total": null,
@@ -68304,6 +68784,15 @@
       "source_sha256": "f1c7a23e16396b34b132bd909b226f53f4e5f32e1d663997f1d7f0c77bf73b47",
       "status": "not_confirmed",
       "url": "https://upr.fr/analyses/la-selection-de-macron-parmi-les-candidats-a-la-presidentielle-2027"
+    },
+    "a5759eadd06b": {
+      "chunks_done": null,
+      "chunks_total": 2,
+      "processed_at": "2026-11-13T20:36:56+00:00",
+      "reason": null,
+      "source_sha256": "271f36408234412a814a40cb635afefca6eeea232d7ea4d80ca714ff7e85325c",
+      "status": "promoted",
+      "url": "https://melenchon2027.fr/programme/livre/introduction/"
     },
     "a59ba774e3a8": {
       "chunks_done": null,

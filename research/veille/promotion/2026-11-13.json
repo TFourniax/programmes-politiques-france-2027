@@ -1,48 +1,39 @@
 {
   "errors": [],
-  "generated_at": "2026-11-13T08:13:37+00:00",
+  "generated_at": "2026-11-13T20:36:57+00:00",
   "historical_skipped": 0,
-  "partial": 0,
+  "partial": 2,
   "processed": 3,
-  "promoted": 2,
-  "proposals_created": 6,
+  "promoted": 1,
+  "proposals_created": 1,
   "results": [
     {
-      "sha256": "762b91321cc5811fa9e704c9bdd9f09dfde99647a0d7510cdd65bdb1f552b5f0",
-      "status": "not_confirmed",
-      "url": "https://melenchon2027.fr/programme/plan-investissement-productif/"
+      "chunks_done": 2,
+      "chunks_remaining": 1,
+      "chunks_total": 3,
+      "sha256": "55f655672cb7ed21a738ec4c9c9cdd5754f185ff7e51c7438b3902388c39c991",
+      "status": "partial",
+      "url": "https://melenchon2027.fr/plans-investissement/textile/"
     },
     {
-      "chunks_total": 3,
-      "document": "corpus/2027/auto/partys/la-france-insoumise/2026-11-12-3a47007384a0.md",
+      "chunks_done": 2,
+      "chunks_remaining": 2,
+      "chunks_total": 4,
+      "sha256": "1732979b0459ed2921b034fe9c31c379f3bc9940e2afcca90b554fa2397b15df",
+      "status": "partial",
+      "url": "https://melenchon2027.fr/programme/plans-thematiques/sante/"
+    },
+    {
+      "chunks_total": 2,
+      "document": "corpus/2027/auto/partys/la-france-insoumise/2026-11-12-dd2c5cf4443e.md",
       "proposals": [
-        "proposals/auto/ecologie-energie/auto-la-france-insoumise-ecologie-energie-a923df5071e8.md",
-        "proposals/auto/ecologie-energie/auto-la-france-insoumise-ecologie-energie-db8ba6ff4950.md",
-        "proposals/auto/ecologie-energie/auto-la-france-insoumise-ecologie-energie-020dc14e177d.md",
-        "proposals/auto/ecologie-energie/auto-la-france-insoumise-ecologie-energie-93cc35aa464c.md",
-        "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-512f15b026c4.md",
-        "proposals/auto/ecologie-energie/auto-la-france-insoumise-ecologie-energie-1b46e8b6c8a9.md"
+        "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-4db9a93f86ab.md"
       ],
-      "provenance_updates": [
-        "auto-la-france-insoumise-ecologie-energie-28d74bfec8b6",
-        "auto-la-france-insoumise-ecologie-energie-49df97d2c012"
-      ],
-      "sha256": "ef38cbd313ca2c69fc90b8900f8a6f8aaf053b50c83d04ec71270c43bc05e989",
+      "sha256": "271f36408234412a814a40cb635afefca6eeea232d7ea4d80ca714ff7e85325c",
       "status": "promoted",
       "status_updates": [],
-      "url": "https://melenchon2027.fr/programme/plans-investissement/automobile/",
-      "verified_at": "2026-11-13T08:13:28+00:00"
-    },
-    {
-      "document": "corpus/2027/auto/partys/solution-democratique/2026-04-19-3904681dcccd.md",
-      "provenance_updates": [
-        "auto-clara-egger-institutions-democratie-be18774ae19d"
-      ],
-      "reason": "canonical_duplicate_evidence",
-      "sha256": "d01c950135dede89d72d0ade337a419e49e5b1a967c2b3e54b5077465fe8ddae",
-      "status": "promoted",
-      "url": "https://solutiondemocratique.fr/presidentielle2027-annonce-candidature-clara-egger/",
-      "verified_at": "2026-11-13T08:13:37+00:00"
+      "url": "https://melenchon2027.fr/programme/livre/introduction/",
+      "verified_at": "2026-11-13T20:36:54+00:00"
     }
   ],
   "status_updates": 0

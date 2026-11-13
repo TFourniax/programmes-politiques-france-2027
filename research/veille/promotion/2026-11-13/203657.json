@@ -1,0 +1,40 @@
+{
+  "errors": [],
+  "generated_at": "2026-11-13T20:36:57+00:00",
+  "historical_skipped": 0,
+  "partial": 2,
+  "processed": 3,
+  "promoted": 1,
+  "proposals_created": 1,
+  "results": [
+    {
+      "chunks_done": 2,
+      "chunks_remaining": 1,
+      "chunks_total": 3,
+      "sha256": "55f655672cb7ed21a738ec4c9c9cdd5754f185ff7e51c7438b3902388c39c991",
+      "status": "partial",
+      "url": "https://melenchon2027.fr/plans-investissement/textile/"
+    },
+    {
+      "chunks_done": 2,
+      "chunks_remaining": 2,
+      "chunks_total": 4,
+      "sha256": "1732979b0459ed2921b034fe9c31c379f3bc9940e2afcca90b554fa2397b15df",
+      "status": "partial",
+      "url": "https://melenchon2027.fr/programme/plans-thematiques/sante/"
+    },
+    {
+      "chunks_total": 2,
+      "document": "corpus/2027/auto/partys/la-france-insoumise/2026-11-12-dd2c5cf4443e.md",
+      "proposals": [
+        "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-4db9a93f86ab.md"
+      ],
+      "sha256": "271f36408234412a814a40cb635afefca6eeea232d7ea4d80ca714ff7e85325c",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://melenchon2027.fr/programme/livre/introduction/",
+      "verified_at": "2026-11-13T20:36:54+00:00"
+    }
+  ],
+  "status_updates": 0
+}

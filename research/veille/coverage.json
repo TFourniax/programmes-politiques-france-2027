@@ -6,18 +6,18 @@
     "actors": 68,
     "declared_or_active_candidates": 27,
     "topics": 12,
-    "current_proposals": 1479,
+    "current_proposals": 1480,
     "covered_actor_topic_cells": 169,
     "total_actor_topic_cells": 816,
     "actor_topic_coverage_ratio": 0.2071,
     "active_candidate_covered_cells": 78,
     "active_candidate_total_cells": 324,
     "active_candidate_topic_coverage_ratio": 0.2407,
-    "verified_proposals": 1446,
+    "verified_proposals": 1447,
     "multi_source_proposals": 125,
     "latest_evidence_at": "2026-11-12",
     "certainty_counts": {
-      "explicit": 1454,
+      "explicit": 1455,
       "explicit_but_conditional": 3,
       "explicit_but_underspecified": 22
     }
@@ -995,7 +995,7 @@
       "type": "party",
       "status": null,
       "confidence": null,
-      "current_proposals": 183,
+      "current_proposals": 184,
       "covered_topics": [
         "ecologie-energie",
         "economie-finances",
@@ -1014,7 +1014,7 @@
         "numerique-ia"
       ],
       "latest_evidence_at": "2026-11-12",
-      "verified_proposals": 180,
+      "verified_proposals": 181,
       "multi_source_proposals": 18
     },
     {
@@ -2039,11 +2039,11 @@
     {
       "id": "services-publics",
       "label": "Services publics",
-      "current_proposals": 276,
+      "current_proposals": 277,
       "actors_covered": 18,
       "actor_coverage_ratio": 0.2647,
       "latest_evidence_at": "2026-11-12",
-      "verified_proposals": 273,
+      "verified_proposals": 274,
       "multi_source_proposals": 14
     },
     {
