@@ -196,11 +196,12 @@
       "status": "not_applicable"
     },
     "0de45182a5ce": {
-      "error": "ValueError: HTTP 403",
+      "candidate_matches": [],
       "event_url": "https://www.pcf.fr/une_candidature_de_gauche_au_service_de_l_aube_et_de_ses_communes",
       "owner": "Parti communiste français",
-      "processed_at": "2026-11-14T18:50:32+00:00",
-      "status": "technical_error"
+      "processed_at": "2026-11-14T23:05:40+00:00",
+      "reason": "candidate_match_not_unique",
+      "status": "ambiguous"
     },
     "11790ff34ddd": {
       "event_url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne",
@@ -373,11 +374,17 @@
       "status": "already_current"
     },
     "1e67d8d2b142": {
-      "error": "ValueError: HTTP 403",
+      "candidate_id": "fabien-roussel",
+      "effective_date": "2026-09-06",
       "event_url": "https://www.pcf.fr/presidentielle2027_fabien_roussel_designe_candidat",
+      "evidence_excerpt": "Élection présidentielle : Fabien Roussel désigné candidat à 72% par les communistes - Site Internet du PCF Mettez un peu de PCF dans votre boîte mail Accéder à la boutique Adhérer Agenda Faire un don Matériels militants Militer près de chez moi Nous contacter Pétitions Rejoindre ",
+      "new_status": "party_designated",
       "owner": "Parti communiste français",
-      "processed_at": "2026-11-14T18:50:31+00:00",
-      "status": "technical_error"
+      "processed_at": "2026-11-14T23:05:37+00:00",
+      "source_sha256": "71cd047c1513338ae3ea290eb499920a2cb2a6b6aa4b8c3172ea190c68dce63c",
+      "source_url": "https://www.pcf.fr/presidentielle2027_fabien_roussel_designe_candidat",
+      "status": "updated",
+      "verification_method": "tier1_primary_deterministic_status_phrase_plus_explicit_source_date"
     },
     "1f5b28d9f616": {
       "event_url": "https://rassemblementnational.fr/",
@@ -2282,11 +2289,11 @@
       "status": "already_current"
     },
     "b6e972fce670": {
-      "error": "ValueError: HTTP 403",
       "event_url": "https://www.pcf.fr/presidentielle_2027_mjcf_s_engage_pour_candidature_communiste",
       "owner": "Parti communiste français",
-      "processed_at": "2026-11-14T18:50:31+00:00",
-      "status": "technical_error"
+      "processed_at": "2026-11-14T23:05:37+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
     },
     "b74ecaeff180": {
       "candidate_id": "gabriel-attal",
@@ -2579,7 +2586,7 @@
       "error": "ValueError: HTTP 404",
       "event_url": "https://parti-equinoxe.fr/articles/2022/05/la-transition-energetique-selon-les-ex-candidats-a-la-presidentielle-2/",
       "owner": "Équinoxe",
-      "processed_at": "2026-11-14T18:50:32+00:00",
+      "processed_at": "2026-11-14T23:05:40+00:00",
       "status": "technical_error"
     },
     "cb3428b2b6d3": {
@@ -3239,8 +3246,8 @@
       "status": "not_applicable"
     }
   },
-  "last_error_count": 4,
-  "last_run_at": "2026-11-14T18:50:32+00:00",
-  "last_updated_count": 0,
+  "last_error_count": 1,
+  "last_run_at": "2026-11-14T23:05:40+00:00",
+  "last_updated_count": 1,
   "version": 1
 }

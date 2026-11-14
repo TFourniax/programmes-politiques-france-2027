@@ -65,6 +65,15 @@
       "status": "not_confirmed",
       "url": "https://www.youtube.com/shorts/BwT5Q0kidGk"
     },
+    "05ea1edf9d6104f857df": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-11-14T23:08:47+00:00",
+      "provenance_updates": [],
+      "source_sha256": "7ac52d5359e04a4f8d7df5051e7fb2d67dea9484951575e1e843596b22c2bc71",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/watch?v=CXX3N6Lfa2Y"
+    },
     "063c734ccc40e5835bdb": {
       "chunks_done": null,
       "chunks_total": null,
@@ -444,6 +453,24 @@
       "source_sha256": "8eb53b228d60bd90649f74c1742df7a0d7d1c1964aa7d46172e32b7c13c7b724",
       "status": "not_confirmed",
       "url": "https://www.youtube.com/watch?v=wPwTkuiHZOI"
+    },
+    "24985b2818c5c0e69142": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-11-14T23:08:49+00:00",
+      "provenance_updates": [],
+      "source_sha256": "f414f748e1fb66328ccfa4eabf16d4ffb167e690626c198873a628020c2f0d5b",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/watch?v=-3OcBWqfNmY"
+    },
+    "25728e068797ce42dd90": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-11-14T23:08:53+00:00",
+      "provenance_updates": [],
+      "source_sha256": "961765c5700d66b85b82a1df5573ff86248d5232f043837d82f6732c5dd3bcff",
+      "status": "not_confirmed",
+      "url": "https://bsky.app/profile/marinetondelier.fr/post/3n24aef3fac2x"
     },
     "257d2785046663a97d1a": {
       "chunks_done": null,
@@ -3606,6 +3633,15 @@
       "status": "not_confirmed",
       "url": "https://www.youtube.com/watch?v=7L3HpvhAwvE"
     },
+    "fd592ca5e9850c851420": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-11-14T23:08:51+00:00",
+      "provenance_updates": [],
+      "source_sha256": "18049c556adcd4ca27903290597ad4379162d7518038b03c7fbc59fc7da0b49c",
+      "status": "not_confirmed",
+      "url": "https://bsky.app/profile/lesecologistes.fr/post/3n24bdmbj4c24"
+    },
     "fdec418222a3e96f811e": {
       "chunks_done": null,
       "chunks_total": null,
@@ -3654,6 +3690,6 @@
   },
   "last_error_count": 0,
   "last_processed_count": 4,
-  "last_run_at": "2026-11-14T18:53:44+00:00",
+  "last_run_at": "2026-11-14T23:08:53+00:00",
   "version": 2
 }

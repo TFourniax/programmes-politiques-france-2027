@@ -1,47 +1,59 @@
 {
   "errors": [],
-  "generated_at": "2026-11-14T18:53:36+00:00",
+  "generated_at": "2026-11-14T23:08:45+00:00",
   "historical_skipped": 0,
   "partial": 0,
   "processed": 3,
-  "promoted": 2,
-  "proposals_created": 6,
+  "promoted": 3,
+  "proposals_created": 9,
   "results": [
     {
-      "sha256": "a33ccd6b78f203d1549a4a469958fb816561ca20406b85edb9132863f1489189",
-      "status": "not_confirmed",
-      "url": "https://melenchon2027.fr/programme/plan-thematique/"
-    },
-    {
       "chunks_total": 1,
-      "document": "corpus/2027/auto/partys/la-france-insoumise/2026-11-07-aede0e711a0b.md",
+      "document": "corpus/2027/auto/partys/la-france-insoumise/2026-11-07-f549132c6541.md",
       "proposals": [
-        "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-90677c21e1fe.md",
-        "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-ed9e2b8bfddc.md",
-        "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-92744c9b87e1.md"
-      ],
-      "sha256": "bae8b037e48b880697049f4dea354344d3b7520409994923a03a5f4220ca8b88",
-      "status": "promoted",
-      "status_updates": [],
-      "url": "https://melenchon2027.fr/programme/livre/le-gout-du-futur-aux-nouvelles-frontieres-de-l-humanite/chapitre3/",
-      "verified_at": "2026-11-14T18:53:09+00:00"
-    },
-    {
-      "chunks_total": 1,
-      "document": "corpus/2027/auto/partys/la-france-insoumise/2026-11-07-6caf1dc27906.md",
-      "proposals": [
-        "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-bd46bc97e4d0.md",
-        "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-d0019b2f49e7.md",
-        "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-e580f3b865d8.md"
+        "proposals/auto/ecologie-energie/auto-la-france-insoumise-ecologie-energie-e165e808d519.md",
+        "proposals/auto/ecologie-energie/auto-la-france-insoumise-ecologie-energie-c7b76cd23a90.md",
+        "proposals/auto/ecologie-energie/auto-la-france-insoumise-ecologie-energie-4e0e96034031.md"
       ],
       "provenance_updates": [
-        "auto-la-france-insoumise-services-publics-488e6c1fadc7"
+        "auto-la-france-insoumise-ecologie-energie-ef5aae205f53"
       ],
-      "sha256": "34ae360be6c6227a7f6d7b4767bdb6d947ec65d700640b81a8a386f42e7ffc42",
+      "sha256": "b0c65defdff86fe2f038efc8e800529cb44fcd55f7f8a98a8c5e017a1ae74eda",
       "status": "promoted",
       "status_updates": [],
-      "url": "https://melenchon2027.fr/programme/livre/le-gout-du-futur-aux-nouvelles-frontieres-de-l-humanite/chapitre4/",
-      "verified_at": "2026-11-14T18:53:35+00:00"
+      "url": "https://melenchon2027.fr/programme/livre/le-gout-du-futur-aux-nouvelles-frontieres-de-l-humanite/chapitre5/",
+      "verified_at": "2026-11-14T23:08:22+00:00"
+    },
+    {
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/partys/la-france-insoumise/2026-11-07-95ef95c5400a.md",
+      "proposals": [
+        "proposals/auto/europe-souverainete/auto-la-france-insoumise-europe-souverainete-148da97911ba.md",
+        "proposals/auto/europe-souverainete/auto-la-france-insoumise-europe-souverainete-1999151b85dd.md"
+      ],
+      "sha256": "f2050b91d837b655e4be43f7e7e5bb7c4eee75ec05633e17f84ad648e5ff2fab",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://melenchon2027.fr/programme/livre/le-gout-du-futur-aux-nouvelles-frontieres-de-l-humanite/chapitre6/",
+      "verified_at": "2026-11-14T23:08:28+00:00"
+    },
+    {
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/partys/la-france-insoumise/2026-11-07-f95a7563072c.md",
+      "proposals": [
+        "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-c01ebd790da5.md",
+        "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-3a848692dbc2.md",
+        "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-40f8f6f2f359.md",
+        "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-52c0f491acb7.md"
+      ],
+      "provenance_updates": [
+        "auto-la-france-insoumise-services-publics-ed2c429dda56"
+      ],
+      "sha256": "9258b6350b7563b48bfdeaaf9f82c7624f0cd69ae2e01ab52970328b3a0a60f7",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://melenchon2027.fr/programme/livre/le-gout-du-futur-aux-nouvelles-frontieres-de-l-humanite/chapitre7/",
+      "verified_at": "2026-11-14T23:08:45+00:00"
     }
   ],
   "status_updates": 0

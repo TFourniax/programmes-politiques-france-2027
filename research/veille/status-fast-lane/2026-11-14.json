@@ -1,32 +1,43 @@
 {
   "errors": [
     {
-      "error": "ValueError: HTTP 403",
-      "event_url": "https://www.pcf.fr/presidentielle2027_fabien_roussel_designe_candidat",
-      "owner": "Parti communiste français",
-      "processed_at": "2026-11-14T18:50:31+00:00"
-    },
-    {
-      "error": "ValueError: HTTP 403",
-      "event_url": "https://www.pcf.fr/presidentielle_2027_mjcf_s_engage_pour_candidature_communiste",
-      "owner": "Parti communiste français",
-      "processed_at": "2026-11-14T18:50:31+00:00"
-    },
-    {
       "error": "ValueError: HTTP 404",
       "event_url": "https://parti-equinoxe.fr/articles/2022/05/la-transition-energetique-selon-les-ex-candidats-a-la-presidentielle-2/",
       "owner": "Équinoxe",
-      "processed_at": "2026-11-14T18:50:32+00:00"
-    },
-    {
-      "error": "ValueError: HTTP 403",
-      "event_url": "https://www.pcf.fr/une_candidature_de_gauche_au_service_de_l_aube_et_de_ses_communes",
-      "owner": "Parti communiste français",
-      "processed_at": "2026-11-14T18:50:32+00:00"
+      "processed_at": "2026-11-14T23:05:40+00:00"
     }
   ],
-  "generated_at": "2026-11-14T18:50:32+00:00",
-  "processed": 0,
-  "results": [],
-  "updated": 0
+  "generated_at": "2026-11-14T23:05:40+00:00",
+  "processed": 3,
+  "results": [
+    {
+      "candidate_id": "fabien-roussel",
+      "effective_date": "2026-09-06",
+      "event_url": "https://www.pcf.fr/presidentielle2027_fabien_roussel_designe_candidat",
+      "evidence_excerpt": "Élection présidentielle : Fabien Roussel désigné candidat à 72% par les communistes - Site Internet du PCF Mettez un peu de PCF dans votre boîte mail Accéder à la boutique Adhérer Agenda Faire un don Matériels militants Militer près de chez moi Nous contacter Pétitions Rejoindre ",
+      "new_status": "party_designated",
+      "owner": "Parti communiste français",
+      "processed_at": "2026-11-14T23:05:37+00:00",
+      "source_sha256": "71cd047c1513338ae3ea290eb499920a2cb2a6b6aa4b8c3172ea190c68dce63c",
+      "source_url": "https://www.pcf.fr/presidentielle2027_fabien_roussel_designe_candidat",
+      "status": "updated",
+      "verification_method": "tier1_primary_deterministic_status_phrase_plus_explicit_source_date"
+    },
+    {
+      "event_url": "https://www.pcf.fr/presidentielle_2027_mjcf_s_engage_pour_candidature_communiste",
+      "owner": "Parti communiste français",
+      "processed_at": "2026-11-14T23:05:37+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
+    {
+      "candidate_matches": [],
+      "event_url": "https://www.pcf.fr/une_candidature_de_gauche_au_service_de_l_aube_et_de_ses_communes",
+      "owner": "Parti communiste français",
+      "processed_at": "2026-11-14T23:05:40+00:00",
+      "reason": "candidate_match_not_unique",
+      "status": "ambiguous"
+    }
+  ],
+  "updated": 1
 }

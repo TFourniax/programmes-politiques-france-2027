@@ -1,0 +1,661 @@
+{
+  "candidates": [
+    {
+      "current_status": "declared_presidential",
+      "declared_at": null,
+      "id": "edouard-philippe",
+      "name": "Édouard Philippe",
+      "official_candidate": false,
+      "primary_party_id": "horizons",
+      "source_tier": "tier_1_primary_official",
+      "source_url": "https://horizonsleparti.fr/evenement/grand-meeting-dedouard-philippe-a-ladidas-arena/",
+      "status_as_of": "2026-08-10",
+      "status_confidence": "high"
+    },
+    {
+      "current_status": "declared_presidential",
+      "declared_at": "2026-05-22",
+      "id": "gabriel-attal",
+      "name": "Gabriel Attal",
+      "official_candidate": false,
+      "primary_party_id": "renaissance",
+      "source_tier": "tier_2_primary_statement",
+      "source_url": "https://www.tf1info.fr/politique/presidentielle-2027-j-ai-decide-de-porter-un-projet-pour-la-france-gabriel-attal-annonce-sa-candidature-a-la-presidentielle-2027-2419826.html",
+      "status_as_of": "2026-08-10",
+      "status_confidence": "high"
+    },
+    {
+      "current_status": "party_designated",
+      "declared_at": "2026-02-12",
+      "id": "bruno-retailleau",
+      "name": "Bruno Retailleau",
+      "official_candidate": false,
+      "primary_party_id": "les-republicains",
+      "source_tier": "tier_1_primary_official",
+      "source_url": "https://republicains.fr/actualites/2026/04/20/bruno-retailleau-designe-candidat-des-republicains-a-lelection-presidentielle/",
+      "status_as_of": "2026-08-10",
+      "status_confidence": "high"
+    },
+    {
+      "current_status": "declared_presidential",
+      "declared_at": "2026-04-02",
+      "id": "david-lisnard",
+      "name": "David Lisnard",
+      "official_candidate": false,
+      "primary_party_id": "nouvelle-energie",
+      "source_tier": "tier_1_primary_official",
+      "source_url": "https://www.unenouvelleenergie.fr/presidentielle-2027-david-lisnard-ouvre-le-chemin-du-sursaut-francais/",
+      "status_as_of": "2026-08-10",
+      "status_confidence": "high"
+    },
+    {
+      "current_status": "declared_presidential",
+      "declared_at": null,
+      "id": "xavier-bertrand",
+      "name": "Xavier Bertrand",
+      "official_candidate": false,
+      "primary_party_id": "les-republicains",
+      "source_tier": "tier_3_reliable_secondary",
+      "source_url": "https://www.lemonde.fr/les-decodeurs/article/2026/07/02/presidentielle-2027-qui-sont-les-34-candidats-declares-et-probables_6680905_4355771.html",
+      "status_as_of": "2026-08-10",
+      "status_confidence": "medium"
+    },
+    {
+      "current_status": "declared_presidential",
+      "declared_at": "2026-07-07",
+      "id": "marine-le-pen",
+      "name": "Marine Le Pen",
+      "official_candidate": false,
+      "primary_party_id": "rassemblement-national",
+      "source_tier": "tier_1_primary_official",
+      "source_url": "https://rassemblementnational.fr/communiques/marine-le-pen-candidate-a-lelection-presidentielle-est-la-seule-a-pouvoir-faire-gagner-la-france",
+      "status_as_of": "2026-08-10",
+      "status_confidence": "high",
+      "status_note": "Candidature revendiquée politiquement ; official_candidate reste faux tant que le Conseil constitutionnel n’a pas publié sa liste. La situation juridique doit continuer à être surveillée."
+    },
+    {
+      "current_status": "declared_presidential",
+      "declared_at": "2026-05-03",
+      "id": "jean-luc-melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "official_candidate": false,
+      "primary_party_id": "la-france-insoumise",
+      "source_tier": "tier_1_primary_official",
+      "source_url": "https://lafranceinsoumise.fr/2026/05/03/jean-luc-melenchon-propose-sa-candidature-a-linvestiture-populaire-pour-la-presidentielle-2027/",
+      "status_as_of": "2026-08-10",
+      "status_confidence": "high"
+    },
+    {
+      "current_status": "party_designated",
+      "declared_at": "2025-11-27",
+      "id": "delphine-batho",
+      "name": "Delphine Batho",
+      "official_candidate": false,
+      "primary_party_id": "generation-ecologie",
+      "source_tier": "tier_1_primary_official",
+      "source_url": "https://www.generationecologie.fr/publication/investiture-de-delphine-batho-a-lelection-presidentielle/",
+      "status_as_of": "2026-08-10",
+      "status_confidence": "high"
+    },
+    {
+      "current_status": "declared_primary",
+      "declared_at": "2026-02-05",
+      "id": "jerome-guedj",
+      "name": "Jérôme Guedj",
+      "official_candidate": false,
+      "primary_party_id": "parti-socialiste",
+      "source_tier": "tier_1_primary_official",
+      "source_url": "https://www.jerome-guedj.fr/la-clarte-plutot-que-les-slogans-pourquoi-jai-annonce-ma-candidature-pour-2027/",
+      "status_as_of": "2026-08-10",
+      "status_confidence": "high",
+      "status_note": "Candidature désormais engagée dans le processus de désignation socialiste prévu à l’automne 2026."
+    },
+    {
+      "affiliations": [
+        "parti-socialiste"
+      ],
+      "current_status": "declared_primary",
+      "declared_at": "2026-06-09",
+      "id": "karim-bouamrane",
+      "name": "Karim Bouamrane",
+      "official_candidate": false,
+      "primary_party_id": "la-france-humaine-forte",
+      "source_tier": "tier_1_primary_official",
+      "source_url": "https://www.lafrancehumaineetforte.fr/",
+      "status_as_of": "2026-08-10",
+      "status_confidence": "high",
+      "status_note": "Candidature présidentielle portée par La France Humaine & Forte ; participation au processus de désignation du pôle socialiste."
+    },
+    {
+      "current_status": "declared_presidential",
+      "declared_at": "2025-12-08",
+      "id": "nathalie-arthaud",
+      "name": "Nathalie Arthaud",
+      "official_candidate": false,
+      "primary_party_id": "lutte-ouvriere",
+      "source_tier": "tier_2_primary_statement",
+      "source_url": "https://www.tf1info.fr/politique/presidentielle-2027-nathalie-arthaud-officiellement-candidate-pour-la-4e-fois-2411489.html",
+      "status_as_of": "2026-08-10",
+      "status_confidence": "high"
+    },
+    {
+      "current_status": "declared_presidential",
+      "declared_at": "2025-03-08",
+      "id": "nicolas-dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "official_candidate": false,
+      "primary_party_id": "debout-la-france",
+      "source_tier": "tier_1_primary_official",
+      "source_url": "https://www.debout-la-france.fr/",
+      "status_as_of": "2026-08-10",
+      "status_confidence": "high"
+    },
+    {
+      "current_status": "declared_conditional",
+      "declared_at": "2026-05-09",
+      "id": "florian-philippot",
+      "name": "Florian Philippot",
+      "official_candidate": false,
+      "primary_party_id": "les-patriotes",
+      "source_tier": "tier_3_reliable_secondary",
+      "source_url": "https://www.leparisien.fr/elections/presidentielle/presidentielle-2027-florian-philippot-declare-sa-candidature-mais-se-dit-deja-pret-a-se-retirer-09-05-2026-ABUDCTJBNZCR7DVIYOHXLHZHSA.php",
+      "status_as_of": "2026-08-10",
+      "status_confidence": "medium"
+    },
+    {
+      "current_status": "declared_presidential",
+      "declared_at": "2026-03-21",
+      "id": "francois-asselineau",
+      "name": "François Asselineau",
+      "official_candidate": false,
+      "primary_party_id": "upr",
+      "source_tier": "tier_1_primary_official",
+      "source_url": "https://upr.fr/militantisme/19-ans-de-lupr-francois-asselineau-lance-sa-campagne-presidentielle-2027-et-nomme-marc-parigot-directeur-de-campagne/",
+      "status_as_of": "2026-08-10",
+      "status_confidence": "high"
+    },
+    {
+      "current_status": "declared_presidential",
+      "declared_at": null,
+      "id": "clara-egger",
+      "name": "Clara Egger",
+      "official_candidate": false,
+      "primary_party_id": "solution-democratique",
+      "source_tier": "tier_3_reliable_secondary",
+      "source_url": "https://www.lemonde.fr/les-decodeurs/article/2026/07/02/presidentielle-2027-qui-sont-les-34-candidats-declares-et-probables_6680905_4355771.html",
+      "status_as_of": "2026-08-10",
+      "status_confidence": "medium"
+    },
+    {
+      "current_status": "party_designated",
+      "declared_at": "2026-06-27",
+      "id": "antoine-mikolajczak",
+      "name": "Antoine Mikolajczak",
+      "official_candidate": false,
+      "primary_party_id": "equinoxe",
+      "source_tier": "tier_1_primary_official",
+      "source_url": "https://parti-equinoxe.fr/qui-est-antoine-mikolajczak/",
+      "status_as_of": "2026-08-10",
+      "status_confidence": "high"
+    },
+    {
+      "current_status": "declared_primary",
+      "declared_at": "2026-01-24",
+      "id": "marine-tondelier",
+      "name": "Marine Tondelier",
+      "official_candidate": false,
+      "primary_party_id": "les-ecologistes",
+      "source_tier": "tier_1_primary_official",
+      "source_url": "https://marinetondelier.fr/blog/instinct-primaire",
+      "status_as_of": "2026-08-10",
+      "status_confidence": "high"
+    },
+    {
+      "current_status": "declared_primary",
+      "declared_at": "2026-01-24",
+      "id": "francois-ruffin",
+      "name": "François Ruffin",
+      "official_candidate": false,
+      "primary_party_id": "debout",
+      "source_tier": "tier_1_primary_official",
+      "source_url": "https://francoisruffin.fr/",
+      "status_as_of": "2026-08-10",
+      "status_confidence": "medium"
+    },
+    {
+      "current_status": "declared_presidential",
+      "declared_at": "2026-05-21",
+      "id": "lydie-massard",
+      "name": "Lydie Massard",
+      "official_candidate": false,
+      "primary_party_id": null,
+      "source_tier": "tier_3_reliable_secondary",
+      "source_url": "https://www.lemonde.fr/les-decodeurs/article/2026/07/02/presidentielle-2027-qui-sont-les-34-candidats-declares-et-probables_6680905_4355771.html",
+      "status_as_of": "2026-08-10",
+      "status_confidence": "medium"
+    },
+    {
+      "current_status": "declared_primary",
+      "declared_at": "2026-07-10",
+      "id": "segolene-royal",
+      "name": "Ségolène Royal",
+      "official_candidate": false,
+      "primary_party_id": "parti-socialiste",
+      "source_tier": "tier_2_primary_statement",
+      "source_url": "https://lcp.fr/actualites/presidentielle-2027-segolene-royal-annonce-sa-candidature-a-la-primaire-socialiste",
+      "status_as_of": "2026-08-10",
+      "status_confidence": "high"
+    },
+    {
+      "current_status": "potential",
+      "declared_at": null,
+      "id": "eric-zemmour",
+      "name": "Éric Zemmour",
+      "official_candidate": false,
+      "primary_party_id": "reconquete",
+      "source_tier": "tier_3_reliable_secondary",
+      "source_url": "https://www.lemonde.fr/politique/article/2026/06/04/chez-reconquete-eric-zemmour-reprend-sa-place-de-candidat-putatif-a-la-presidentielle-2027-apres-la-parenthese-sarah-knafo_6697253_823448.html",
+      "status_as_of": "2026-08-10",
+      "status_confidence": "medium"
+    },
+    {
+      "current_status": "declared_presidential",
+      "declared_at": "2026-06-01",
+      "id": "anasse-kazib",
+      "name": "Anasse Kazib",
+      "official_candidate": false,
+      "primary_party_id": "revolution-permanente",
+      "source_tier": "tier_1_primary_official",
+      "source_url": "https://www.revolutionpermanente.fr/Anasse-Kazib-2027-une-candidature-ouvriere-communiste-et-revolutionnaire-a-la-presidentielle",
+      "status_as_of": "2026-08-10",
+      "status_confidence": "high"
+    },
+    {
+      "current_status": "declared_presidential",
+      "declared_at": "2026-06-15",
+      "id": "benoit-mathieu",
+      "name": "Benoît Mathieu",
+      "official_candidate": false,
+      "primary_party_id": null,
+      "source_tier": "tier_3_reliable_secondary",
+      "source_url": "https://www.lemonde.fr/les-decodeurs/article/2026/07/02/presidentielle-2027-qui-sont-les-34-candidats-declares-et-probables_6680905_4355771.html",
+      "status_as_of": "2026-08-10",
+      "status_confidence": "medium"
+    },
+    {
+      "current_status": "party_designated",
+      "declared_at": "2026-06-17",
+      "id": "selma-labib",
+      "name": "Selma Labib",
+      "official_candidate": false,
+      "primary_party_id": "npa-revolutionnaires",
+      "source_tier": "tier_1_primary_official",
+      "source_url": "https://npa-revolutionnaires.org/communique-presidentielle-2027-selma-labib-une-candidature-ouvriere-et-revolutionnaire-soutenue-par-gael-quirante/",
+      "status_as_of": "2026-08-10",
+      "status_confidence": "high"
+    },
+    {
+      "current_status": "declared_primary",
+      "declared_at": "2026-07-02",
+      "id": "philippe-brun",
+      "name": "Philippe Brun",
+      "official_candidate": false,
+      "primary_party_id": "parti-socialiste",
+      "source_tier": "tier_3_reliable_secondary",
+      "source_url": "https://www.lemonde.fr/les-decodeurs/article/2026/07/02/presidentielle-2027-qui-sont-les-34-candidats-declares-et-probables_6680905_4355771.html",
+      "status_as_of": "2026-08-10",
+      "status_confidence": "medium"
+    },
+    {
+      "current_status": "declared_presidential",
+      "declared_at": "2026-07-16",
+      "id": "bernard-cazeneuve",
+      "name": "Bernard Cazeneuve",
+      "official_candidate": false,
+      "primary_party_id": "la-convention",
+      "source_tier": "tier_2_primary_statement",
+      "source_url": "https://www.leparisien.fr/politique/bernard-cazeneuve-je-presente-ma-candidature-a-lelection-presidentielle-16-07-2026.html",
+      "status_as_of": "2026-08-10",
+      "status_confidence": "medium",
+      "status_note": "L’entretien du 16 juillet contient une formulation explicite de candidature ; son entourage puis des déclarations ultérieures ont toutefois indiqué qu’il ne s’agissait pas encore d’une officialisation « en bonne et due forme »."
+    },
+    {
+      "current_status": "potential",
+      "declared_at": null,
+      "id": "raphael-glucksmann",
+      "name": "Raphaël Glucksmann",
+      "official_candidate": false,
+      "primary_party_id": "place-publique",
+      "source_tier": "tier_1_primary_official",
+      "source_url": "https://place-publique.eu/pages/6mRSwq5tuSrSi68Cw1IADX/l-acte-i",
+      "status_as_of": "2026-08-10",
+      "status_confidence": "medium"
+    },
+    {
+      "current_status": "party_designated",
+      "declared_at": "2026-09-06",
+      "id": "fabien-roussel",
+      "name": "Fabien Roussel",
+      "official_candidate": false,
+      "primary_party_id": "pcf",
+      "source_tier": "tier_1_primary_official",
+      "source_url": "https://www.pcf.fr/presidentielle2027_fabien_roussel_designe_candidat",
+      "status_as_of": "2026-09-06",
+      "status_confidence": "high",
+      "status_history": [
+        {
+          "source_tier": "tier_3_reliable_secondary",
+          "source_url": "https://www.lemonde.fr/politique/article/2026/06/05/presidentielle-2027-fabien-roussel-et-les-communistes-a-l-heure-du-choix_6697929_823448.html",
+          "status": "potential",
+          "status_as_of": "2026-08-10",
+          "superseded_at": "2026-09-06"
+        }
+      ]
+    },
+    {
+      "current_status": "potential",
+      "declared_at": null,
+      "id": "dominique-de-villepin",
+      "name": "Dominique de Villepin",
+      "official_candidate": false,
+      "primary_party_id": "france-humaniste",
+      "source_tier": "tier_3_reliable_secondary",
+      "source_url": "https://www.lemonde.fr/les-decodeurs/article/2026/07/02/presidentielle-2027-qui-sont-les-34-candidats-declares-et-probables_6680905_4355771.html",
+      "status_as_of": "2026-08-10",
+      "status_confidence": "medium"
+    },
+    {
+      "current_status": "potential",
+      "declared_at": null,
+      "id": "olivier-faure",
+      "name": "Olivier Faure",
+      "official_candidate": false,
+      "primary_party_id": "parti-socialiste",
+      "source_tier": "tier_3_reliable_secondary",
+      "source_url": "https://www.lemonde.fr/les-decodeurs/article/2026/07/02/presidentielle-2027-qui-sont-les-34-candidats-declares-et-probables_6680905_4355771.html",
+      "status_as_of": "2026-08-10",
+      "status_confidence": "medium"
+    },
+    {
+      "current_status": "potential",
+      "declared_at": null,
+      "id": "boris-vallaud",
+      "name": "Boris Vallaud",
+      "official_candidate": false,
+      "primary_party_id": "parti-socialiste",
+      "source_tier": "tier_3_reliable_secondary",
+      "source_url": "https://www.lemonde.fr/les-decodeurs/article/2026/07/02/presidentielle-2027-qui-sont-les-34-candidats-declares-et-probables_6680905_4355771.html",
+      "status_as_of": "2026-08-10",
+      "status_confidence": "medium"
+    },
+    {
+      "current_status": "potential",
+      "declared_at": null,
+      "id": "francois-hollande",
+      "name": "François Hollande",
+      "official_candidate": false,
+      "primary_party_id": "parti-socialiste",
+      "source_tier": "tier_3_reliable_secondary",
+      "source_url": "https://www.lemonde.fr/politique/article/2026/02/13/francois-hollande-un-retour-pour-2027-seme-d-embuches_6666582_823448.html",
+      "status_as_of": "2026-08-10",
+      "status_confidence": "medium"
+    },
+    {
+      "current_status": "potential",
+      "declared_at": null,
+      "id": "elisabeth-borne",
+      "name": "Élisabeth Borne",
+      "official_candidate": false,
+      "primary_party_id": "renaissance",
+      "source_tier": "tier_3_reliable_secondary",
+      "source_url": "https://www.lemonde.fr/les-decodeurs/article/2026/07/02/presidentielle-2027-qui-sont-les-34-candidats-declares-et-probables_6680905_4355771.html",
+      "status_as_of": "2026-08-10",
+      "status_confidence": "medium"
+    },
+    {
+      "current_status": "potential",
+      "declared_at": null,
+      "id": "gerald-darmanin",
+      "name": "Gérald Darmanin",
+      "official_candidate": false,
+      "primary_party_id": "renaissance",
+      "source_tier": "tier_3_reliable_secondary",
+      "source_url": "https://www.lemonde.fr/les-decodeurs/article/2026/07/02/presidentielle-2027-qui-sont-les-34-candidats-declares-et-probables_6680905_4355771.html",
+      "status_as_of": "2026-08-10",
+      "status_confidence": "medium"
+    },
+    {
+      "current_status": "potential",
+      "declared_at": null,
+      "id": "bruno-le-maire",
+      "name": "Bruno Le Maire",
+      "official_candidate": false,
+      "primary_party_id": "renaissance",
+      "source_tier": "tier_3_reliable_secondary",
+      "source_url": "https://www.lemonde.fr/les-decodeurs/article/2026/07/02/presidentielle-2027-qui-sont-les-34-candidats-declares-et-probables_6680905_4355771.html",
+      "status_as_of": "2026-08-10",
+      "status_confidence": "medium"
+    },
+    {
+      "current_status": "potential",
+      "declared_at": null,
+      "id": "olivier-becht",
+      "name": "Olivier Becht",
+      "official_candidate": false,
+      "primary_party_id": "renaissance",
+      "source_tier": "tier_3_reliable_secondary",
+      "source_url": "https://www.lemonde.fr/les-decodeurs/article/2026/07/02/presidentielle-2027-qui-sont-les-34-candidats-declares-et-probables_6680905_4355771.html",
+      "status_as_of": "2026-08-10",
+      "status_confidence": "medium"
+    },
+    {
+      "current_status": "withdrawn",
+      "declared_at": null,
+      "id": "clementine-autain",
+      "name": "Clémentine Autain",
+      "official_candidate": false,
+      "primary_party_id": "lapres",
+      "source_tier": "tier_3_reliable_secondary",
+      "source_url": "https://www.lemonde.fr/les-decodeurs/article/2026/07/02/presidentielle-2027-qui-sont-les-34-candidats-declares-et-probables_6680905_4355771.html",
+      "status_as_of": "2026-08-10",
+      "status_confidence": "medium"
+    },
+    {
+      "current_status": "withdrawn",
+      "declared_at": null,
+      "id": "benjamin-lucas",
+      "name": "Benjamin Lucas",
+      "official_candidate": false,
+      "primary_party_id": "generation-s",
+      "source_tier": "tier_3_reliable_secondary",
+      "source_url": "https://www.lemonde.fr/les-decodeurs/article/2026/07/02/presidentielle-2027-qui-sont-les-34-candidats-declares-et-probables_6680905_4355771.html",
+      "status_as_of": "2026-08-10",
+      "status_confidence": "medium"
+    },
+    {
+      "current_status": "not_running",
+      "declared_at": null,
+      "id": "sarah-knafo",
+      "name": "Sarah Knafo",
+      "official_candidate": false,
+      "primary_party_id": "reconquete",
+      "source_tier": "tier_3_reliable_secondary",
+      "source_url": "https://www.lemonde.fr/politique/article/2026/01/08/sarah-knafo-exclut-d-etre-candidate-a-la-presidentielle-2027-son-entourage-tempere_6661009_823448.html",
+      "status_as_of": "2026-08-10",
+      "status_confidence": "medium"
+    },
+    {
+      "current_status": "not_running",
+      "declared_at": null,
+      "id": "laurent-wauquiez",
+      "name": "Laurent Wauquiez",
+      "official_candidate": false,
+      "primary_party_id": "les-republicains",
+      "source_tier": "tier_3_reliable_secondary",
+      "source_url": "https://www.lemonde.fr/les-decodeurs/article/2026/07/02/presidentielle-2027-qui-sont-les-34-candidats-declares-et-probables_6680905_4355771.html",
+      "status_as_of": "2026-08-10",
+      "status_confidence": "medium"
+    },
+    {
+      "current_status": "declared_presidential",
+      "declared_at": null,
+      "id": "juan-branco",
+      "name": "Juan Branco",
+      "official_candidate": false,
+      "primary_party_id": null,
+      "source_tier": "tier_1_primary_official",
+      "source_url": "https://ruches.org/",
+      "status_as_of": "2026-08-13",
+      "status_confidence": "high",
+      "status_note": "Le site Branco 2027 des Ruches présente explicitement Juan Branco comme candidat à la présidentielle 2027 et relie sa candidature au projet La Voie."
+    },
+    {
+      "current_status": "declared_presidential",
+      "declared_at": null,
+      "id": "manolo-mlekuz",
+      "name": "Manolo Mlekuz",
+      "official_candidate": false,
+      "primary_party_id": null,
+      "source_tier": "tier_1_primary_official",
+      "source_url": "https://trajectoire2027.fr/qui-sommes-nous.html",
+      "status_as_of": "2026-08-13",
+      "status_confidence": "high",
+      "status_note": "Trajectoire présente explicitement Manolo Mlekuz comme candidat à l’élection présidentielle et publie son programme de transition constitutionnelle."
+    }
+  ],
+  "election": "Élection présidentielle française de 2027",
+  "notice": "Instantané préélectoral vérifié au 10 août 2026. official_candidate est réservé à la future liste du Conseil constitutionnel. Les statuts qualifient l’état documentaire connu ; les niveaux de confiance qualifient la preuve et non les chances électorales. Les sources secondaires restent explicitement signalées lorsqu’aucune source primaire claire n’a encore été intégrée.",
+  "parties": [
+    {
+      "id": "la-france-insoumise",
+      "name": "La France insoumise",
+      "official_website": "https://lafranceinsoumise.fr/"
+    },
+    {
+      "id": "place-publique",
+      "name": "Place publique",
+      "official_website": "https://place-publique.eu/"
+    },
+    {
+      "id": "parti-socialiste",
+      "name": "Parti socialiste",
+      "official_website": "https://parti-socialiste.fr/"
+    },
+    {
+      "id": "pcf",
+      "name": "Parti communiste français",
+      "official_website": "https://www.pcf.fr/"
+    },
+    {
+      "id": "les-ecologistes",
+      "name": "Les Écologistes",
+      "official_website": "https://lesecologistes.fr/"
+    },
+    {
+      "id": "generation-ecologie",
+      "name": "Génération Écologie",
+      "official_website": "https://www.generationecologie.fr/"
+    },
+    {
+      "id": "lutte-ouvriere",
+      "name": "Lutte ouvrière",
+      "official_website": "https://www.lutte-ouvriere.org/"
+    },
+    {
+      "id": "revolution-permanente",
+      "name": "Révolution Permanente",
+      "official_website": "https://www.revolutionpermanente.fr/"
+    },
+    {
+      "id": "renaissance",
+      "name": "Renaissance",
+      "official_website": "https://parti-renaissance.fr/"
+    },
+    {
+      "id": "horizons",
+      "name": "Horizons",
+      "official_website": "https://horizonsleparti.fr/"
+    },
+    {
+      "id": "les-republicains",
+      "name": "Les Républicains",
+      "official_website": "https://republicains.fr/"
+    },
+    {
+      "id": "nouvelle-energie",
+      "name": "Nouvelle Énergie",
+      "official_website": "https://www.unenouvelleenergie.fr/"
+    },
+    {
+      "id": "rassemblement-national",
+      "name": "Rassemblement National",
+      "official_website": "https://rassemblementnational.fr/"
+    },
+    {
+      "id": "reconquete",
+      "name": "Reconquête",
+      "official_website": "https://www.parti-reconquete.fr/"
+    },
+    {
+      "id": "debout-la-france",
+      "name": "Debout la France",
+      "official_website": "https://www.debout-la-france.fr/"
+    },
+    {
+      "id": "les-patriotes",
+      "name": "Les Patriotes",
+      "official_website": "https://les-patriotes.fr/"
+    },
+    {
+      "id": "upr",
+      "name": "Union populaire républicaine",
+      "official_website": "https://upr.fr/"
+    },
+    {
+      "id": "solution-democratique",
+      "name": "Solution démocratique",
+      "official_website": null
+    },
+    {
+      "id": "equinoxe",
+      "name": "Équinoxe",
+      "official_website": "https://parti-equinoxe.fr/"
+    },
+    {
+      "id": "la-convention",
+      "name": "La Convention",
+      "official_website": null
+    },
+    {
+      "id": "france-humaniste",
+      "name": "France humaniste",
+      "official_website": null
+    },
+    {
+      "id": "debout",
+      "name": "Debout !",
+      "official_website": "https://francoisruffin.fr/"
+    },
+    {
+      "id": "lapres",
+      "name": "L'Après",
+      "official_website": null
+    },
+    {
+      "id": "generation-s",
+      "name": "Génération.s",
+      "official_website": null
+    },
+    {
+      "id": "npa-revolutionnaires",
+      "name": "NPA-Révolutionnaires",
+      "official_website": "https://npa-revolutionnaires.org/"
+    },
+    {
+      "id": "la-france-humaine-forte",
+      "name": "La France Humaine & Forte",
+      "official_website": "https://www.lafrancehumaineetforte.fr/"
+    }
+  ],
+  "snapshot_date": "2026-11-14"
+}
