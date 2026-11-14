@@ -5,7 +5,8 @@ entity_id: la-france-insoumise
 topic: services-publics
 certainty: explicit
 proposal_status: current
-source_document_ids: [auto-la-france-insoumise-2026-08-12-50622a201742, auto-la-france-insoumise-2026-11-13-a4afeee3559f]
+source_document_ids: [auto-la-france-insoumise-2026-08-12-50622a201742, auto-la-france-insoumise-2026-11-13-a4afeee3559f,
+  auto-la-france-insoumise-2026-11-07-6caf1dc27906]
 source_url: https://melenchon2027.fr/programme2025/livre/chapitre15/
 source_tier: tier_1_primary_official
 first_documented_at: '2026-08-12'
@@ -14,10 +15,12 @@ verification_state: verified
 verification_method: primary_source_exact_quote_plus_independent_gemini_verifier_plus_chronology_guard
 evidence_sha256: cda20c8f7f4d1397e8e6080047e6b9570b1a339da3b30bc9d8ef09faad1fead0
 generated_by: scripts/auto_promote.py
-source_urls: ['https://melenchon2027.fr/programme2025/livre/chapitre15/', 'https://melenchon2027.fr/programme/plans-thematiques/sante/']
-evidence_sha256s: [cda20c8f7f4d1397e8e6080047e6b9570b1a339da3b30bc9d8ef09faad1fead0, 1732979b0459ed2921b034fe9c31c379f3bc9940e2afcca90b554fa2397b15df]
-confirmation_count: 2
-last_confirmed_at: '2026-11-13'
+source_urls: ['https://melenchon2027.fr/programme2025/livre/chapitre15/', 'https://melenchon2027.fr/programme/plans-thematiques/sante/',
+  'https://melenchon2027.fr/programme/livre/le-gout-du-futur-aux-nouvelles-frontieres-de-l-humanite/chapitre4/']
+evidence_sha256s: [cda20c8f7f4d1397e8e6080047e6b9570b1a339da3b30bc9d8ef09faad1fead0, 1732979b0459ed2921b034fe9c31c379f3bc9940e2afcca90b554fa2397b15df,
+  34ae360be6c6227a7f6d7b4767bdb6d947ec65d700640b81a8a386f42e7ffc42]
+confirmation_count: 3
+last_confirmed_at: '2026-11-07'
 ---
 
 # Légaliser et encadrer par un monopole d'État la vente de cannabis à des fins récréatives

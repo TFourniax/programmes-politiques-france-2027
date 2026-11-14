@@ -1,45 +1,31 @@
 {
   "errors": [],
-  "generated_at": "2026-11-14T07:46:06+00:00",
+  "generated_at": "2026-11-14T18:53:44+00:00",
   "partial": 0,
   "processed": 4,
-  "promoted": 2,
-  "proposals_created": 2,
+  "promoted": 0,
+  "proposals_created": 0,
   "provenance_updates": 0,
   "results": [
     {
-      "sha256": "e8d8ad0daccf2ce3bcbf92533fc780672457684c72e86e328f5195d67c5b8bfa",
+      "sha256": "b8f78bd3fdaac8cb521c4d9f34a2e62fd03b7d48c78493b67e579fec99ff4529",
       "status": "not_confirmed",
-      "url": "https://www.youtube.com/shorts/abrTYIElsmY"
+      "url": "https://www.youtube.com/shorts/RHZHoC_k-z0"
     },
     {
-      "chunks_total": 1,
-      "document": "corpus/2027/auto/partys/la-france-insoumise/2026-11-12-35666edde42c.md",
-      "proposals": [
-        "proposals/auto/europe-souverainete/auto-la-france-insoumise-europe-souverainete-4c62c6367ff7.md"
-      ],
-      "sha256": "a800433f7e0fb0cfbe307fc992a55a62d1feb8aa44ffdf8cf4f6f7202eb0c027",
-      "status": "promoted",
-      "status_updates": [],
-      "url": "https://www.youtube.com/shorts/hWZIfdF5rAc",
-      "verified_at": "2026-11-14T07:45:47+00:00"
-    },
-    {
-      "chunks_total": 1,
-      "document": "corpus/2027/auto/candidates/marine-tondelier/2026-11-12-8acc9b8dcaf7.md",
-      "proposals": [
-        "proposals/auto/ecologie-energie/auto-marine-tondelier-ecologie-energie-adcf12231b7a.md"
-      ],
-      "sha256": "ecef988427b1b4a58d1dba21735eccb49b667925d9bd27496850aeca4a70d2dd",
-      "status": "promoted",
-      "status_updates": [],
-      "url": "https://bsky.app/profile/marinetondelier.fr/post/3n24tehp4bs2s",
-      "verified_at": "2026-11-14T07:45:58+00:00"
-    },
-    {
-      "sha256": "8eeec1cdd95c0e2448066327c28642ce341cb32daa6963fa75f371ba0cbd6279",
+      "sha256": "f414f748e1fb66328ccfa4eabf16d4ffb167e690626c198873a628020c2f0d5b",
       "status": "not_confirmed",
-      "url": "https://www.youtube.com/shorts/46oOQz2Ekhg"
+      "url": "https://www.youtube.com/watch?v=9R8HR3-miQE"
+    },
+    {
+      "sha256": "5ee6a3838c0f2ea1f210cda2e71077706a14e3516dc8fe939a50d7ccea980a90",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/shorts/myf5No-hK7E"
+    },
+    {
+      "sha256": "dd4d89cbd05a755c7354bc18cc9f7f604f9f25f090895352345d89d82e4b37b7",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/shorts/_p3IT1ZTnpY"
     }
   ],
   "status_updates": 0

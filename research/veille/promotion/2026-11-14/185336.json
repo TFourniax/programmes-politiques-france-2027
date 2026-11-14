@@ -1,0 +1,48 @@
+{
+  "errors": [],
+  "generated_at": "2026-11-14T18:53:36+00:00",
+  "historical_skipped": 0,
+  "partial": 0,
+  "processed": 3,
+  "promoted": 2,
+  "proposals_created": 6,
+  "results": [
+    {
+      "sha256": "a33ccd6b78f203d1549a4a469958fb816561ca20406b85edb9132863f1489189",
+      "status": "not_confirmed",
+      "url": "https://melenchon2027.fr/programme/plan-thematique/"
+    },
+    {
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/partys/la-france-insoumise/2026-11-07-aede0e711a0b.md",
+      "proposals": [
+        "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-90677c21e1fe.md",
+        "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-ed9e2b8bfddc.md",
+        "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-92744c9b87e1.md"
+      ],
+      "sha256": "bae8b037e48b880697049f4dea354344d3b7520409994923a03a5f4220ca8b88",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://melenchon2027.fr/programme/livre/le-gout-du-futur-aux-nouvelles-frontieres-de-l-humanite/chapitre3/",
+      "verified_at": "2026-11-14T18:53:09+00:00"
+    },
+    {
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/partys/la-france-insoumise/2026-11-07-6caf1dc27906.md",
+      "proposals": [
+        "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-bd46bc97e4d0.md",
+        "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-d0019b2f49e7.md",
+        "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-e580f3b865d8.md"
+      ],
+      "provenance_updates": [
+        "auto-la-france-insoumise-services-publics-488e6c1fadc7"
+      ],
+      "sha256": "34ae360be6c6227a7f6d7b4767bdb6d947ec65d700640b81a8a386f42e7ffc42",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://melenchon2027.fr/programme/livre/le-gout-du-futur-aux-nouvelles-frontieres-de-l-humanite/chapitre4/",
+      "verified_at": "2026-11-14T18:53:35+00:00"
+    }
+  ],
+  "status_updates": 0
+}
