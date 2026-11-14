@@ -1,0 +1,55 @@
+{
+  "errors": [],
+  "generated_at": "2026-11-14T07:45:39+00:00",
+  "historical_skipped": 0,
+  "partial": 0,
+  "processed": 3,
+  "promoted": 2,
+  "proposals_created": 12,
+  "results": [
+    {
+      "chunks_total": 3,
+      "document": "corpus/2027/auto/partys/la-france-insoumise/2026-11-13-ae71e48bf30a.md",
+      "proposals": [
+        "proposals/auto/ecologie-energie/auto-la-france-insoumise-ecologie-energie-1f8d80900ba8.md",
+        "proposals/auto/ecologie-energie/auto-la-france-insoumise-ecologie-energie-57910498fbce.md",
+        "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-06b75479bae5.md",
+        "proposals/auto/ecologie-energie/auto-la-france-insoumise-ecologie-energie-b77c51d13f5d.md"
+      ],
+      "sha256": "55f655672cb7ed21a738ec4c9c9cdd5754f185ff7e51c7438b3902388c39c991",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://melenchon2027.fr/plans-investissement/textile/",
+      "verified_at": "2026-11-14T07:44:50+00:00"
+    },
+    {
+      "chunks_total": 4,
+      "document": "corpus/2027/auto/partys/la-france-insoumise/2026-11-13-a4afeee3559f.md",
+      "proposals": [
+        "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-f9eb9d1e4f58.md",
+        "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-b7a7237210f4.md",
+        "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-4ba9da4d346f.md",
+        "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-fab642ab190e.md",
+        "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-e7c9123622c8.md",
+        "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-0de2d135dc38.md",
+        "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-4e016146b3e2.md",
+        "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-3acc9ded55e0.md"
+      ],
+      "provenance_updates": [
+        "auto-la-france-insoumise-services-publics-488e6c1fadc7",
+        "auto-la-france-insoumise-services-publics-514da6f5edf0"
+      ],
+      "sha256": "1732979b0459ed2921b034fe9c31c379f3bc9940e2afcca90b554fa2397b15df",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://melenchon2027.fr/programme/plans-thematiques/sante/",
+      "verified_at": "2026-11-14T07:45:35+00:00"
+    },
+    {
+      "sha256": "0e160502282510013b02dc6f4a255897022845e1494c3a613c47c8e79fbc5e0e",
+      "status": "not_confirmed",
+      "url": "https://melenchon2027.fr/programme2026/lavenir-en-commun-introduction/"
+    }
+  ],
+  "status_updates": 0
+}

@@ -6,18 +6,18 @@
     "actors": 68,
     "declared_or_active_candidates": 27,
     "topics": 12,
-    "current_proposals": 1480,
+    "current_proposals": 1494,
     "covered_actor_topic_cells": 169,
     "total_actor_topic_cells": 816,
     "actor_topic_coverage_ratio": 0.2071,
     "active_candidate_covered_cells": 78,
     "active_candidate_total_cells": 324,
     "active_candidate_topic_coverage_ratio": 0.2407,
-    "verified_proposals": 1447,
-    "multi_source_proposals": 125,
-    "latest_evidence_at": "2026-11-12",
+    "verified_proposals": 1461,
+    "multi_source_proposals": 126,
+    "latest_evidence_at": "2026-11-13",
     "certainty_counts": {
-      "explicit": 1455,
+      "explicit": 1469,
       "explicit_but_conditional": 3,
       "explicit_but_underspecified": 22
     }
@@ -995,7 +995,7 @@
       "type": "party",
       "status": null,
       "confidence": null,
-      "current_proposals": 184,
+      "current_proposals": 197,
       "covered_topics": [
         "ecologie-energie",
         "economie-finances",
@@ -1013,9 +1013,9 @@
         "defense-international",
         "numerique-ia"
       ],
-      "latest_evidence_at": "2026-11-12",
-      "verified_proposals": 181,
-      "multi_source_proposals": 18
+      "latest_evidence_at": "2026-11-13",
+      "verified_proposals": 194,
+      "multi_source_proposals": 19
     },
     {
       "id": "laurent-wauquiez",
@@ -1243,7 +1243,7 @@
       "type": "candidate",
       "status": "declared_primary",
       "confidence": "high",
-      "current_proposals": 9,
+      "current_proposals": 10,
       "covered_topics": [
         "ecologie-energie",
         "institutions-democratie",
@@ -1262,7 +1262,7 @@
         "numerique-ia"
       ],
       "latest_evidence_at": "2026-11-12",
-      "verified_proposals": 9,
+      "verified_proposals": 10,
       "multi_source_proposals": 0
     },
     {
@@ -1999,11 +1999,11 @@
     {
       "id": "europe-souverainete",
       "label": "Europe & souveraineté",
-      "current_proposals": 116,
+      "current_proposals": 117,
       "actors_covered": 13,
       "actor_coverage_ratio": 0.1912,
-      "latest_evidence_at": "2026-11-07",
-      "verified_proposals": 115,
+      "latest_evidence_at": "2026-11-12",
+      "verified_proposals": 116,
       "multi_source_proposals": 4
     },
     {
@@ -2019,11 +2019,11 @@
     {
       "id": "ecologie-energie",
       "label": "Écologie & énergie",
-      "current_proposals": 236,
+      "current_proposals": 240,
       "actors_covered": 19,
       "actor_coverage_ratio": 0.2794,
-      "latest_evidence_at": "2026-11-12",
-      "verified_proposals": 230,
+      "latest_evidence_at": "2026-11-13",
+      "verified_proposals": 234,
       "multi_source_proposals": 9
     },
     {
@@ -2039,12 +2039,12 @@
     {
       "id": "services-publics",
       "label": "Services publics",
-      "current_proposals": 277,
+      "current_proposals": 286,
       "actors_covered": 18,
       "actor_coverage_ratio": 0.2647,
-      "latest_evidence_at": "2026-11-12",
-      "verified_proposals": 274,
-      "multi_source_proposals": 14
+      "latest_evidence_at": "2026-11-13",
+      "verified_proposals": 283,
+      "multi_source_proposals": 15
     },
     {
       "id": "securite-justice",
@@ -4325,7 +4325,7 @@
       "name": "Marine Tondelier",
       "status": "declared_primary",
       "coverage_ratio": 0.3333,
-      "current_proposals": 9,
+      "current_proposals": 10,
       "latest_evidence_at": "2026-11-12",
       "topics": [
         {
@@ -4386,9 +4386,9 @@
           "id": "ecologie-energie",
           "label": "Écologie & énergie",
           "covered": true,
-          "current_proposals": 4,
-          "latest_evidence_at": "2026-11-07",
-          "verified_proposals": 4,
+          "current_proposals": 5,
+          "latest_evidence_at": "2026-11-12",
+          "verified_proposals": 5,
           "multi_source_proposals": 0
         },
         {
@@ -5688,7 +5688,7 @@
       "name": "Marine Tondelier",
       "status": "declared_primary",
       "coverage_ratio": 0.3333,
-      "current_proposals": 9,
+      "current_proposals": 10,
       "latest_evidence_at": "2026-11-12",
       "gaps": [
         "retraites",

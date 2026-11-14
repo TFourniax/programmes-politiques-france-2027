@@ -5,7 +5,8 @@ entity_id: la-france-insoumise
 topic: services-publics
 certainty: explicit
 proposal_status: current
-source_document_ids: [auto-la-france-insoumise-2026-08-13-3d3a11364dc2, auto-la-france-insoumise-2026-11-10-3e88cbbe4e1e]
+source_document_ids: [auto-la-france-insoumise-2026-08-13-3d3a11364dc2, auto-la-france-insoumise-2026-11-10-3e88cbbe4e1e,
+  auto-la-france-insoumise-2026-11-13-a4afeee3559f]
 source_url: https://melenchon2027.fr/programme2025/livre/chapitre9/
 source_tier: tier_1_primary_official
 first_documented_at: '2026-08-13'
@@ -14,10 +15,12 @@ verification_state: verified
 verification_method: primary_source_exact_quote_plus_independent_gemini_verifier_plus_chronology_guard
 evidence_sha256: deb0ba861709750d367cc081e4a5d6216cd825e4e7668c3e6c57f2a7b50dd9c3
 generated_by: scripts/auto_promote.py
-source_urls: ['https://melenchon2027.fr/programme2025/livre/chapitre9/', 'https://melenchon2027.fr/programme/plans-thematiques/esr/']
-evidence_sha256s: [deb0ba861709750d367cc081e4a5d6216cd825e4e7668c3e6c57f2a7b50dd9c3, ee45c177e6a59f9c999dcbe1e76964103769d9caf9096ef59a65f5de3fef8b77]
-confirmation_count: 2
-last_confirmed_at: '2026-11-10'
+source_urls: ['https://melenchon2027.fr/programme2025/livre/chapitre9/', 'https://melenchon2027.fr/programme/plans-thematiques/esr/',
+  'https://melenchon2027.fr/programme/plans-thematiques/sante/']
+evidence_sha256s: [deb0ba861709750d367cc081e4a5d6216cd825e4e7668c3e6c57f2a7b50dd9c3, ee45c177e6a59f9c999dcbe1e76964103769d9caf9096ef59a65f5de3fef8b77,
+  1732979b0459ed2921b034fe9c31c379f3bc9940e2afcca90b554fa2397b15df]
+confirmation_count: 3
+last_confirmed_at: '2026-11-13'
 ---
 
 # Revaloriser la valeur du point d'indice des fonctionnaires de 10 pour cent et inscrire son dégel dans la loi

@@ -1,0 +1,46 @@
+{
+  "errors": [],
+  "generated_at": "2026-11-14T07:46:06+00:00",
+  "partial": 0,
+  "processed": 4,
+  "promoted": 2,
+  "proposals_created": 2,
+  "provenance_updates": 0,
+  "results": [
+    {
+      "sha256": "e8d8ad0daccf2ce3bcbf92533fc780672457684c72e86e328f5195d67c5b8bfa",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/shorts/abrTYIElsmY"
+    },
+    {
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/partys/la-france-insoumise/2026-11-12-35666edde42c.md",
+      "proposals": [
+        "proposals/auto/europe-souverainete/auto-la-france-insoumise-europe-souverainete-4c62c6367ff7.md"
+      ],
+      "sha256": "a800433f7e0fb0cfbe307fc992a55a62d1feb8aa44ffdf8cf4f6f7202eb0c027",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://www.youtube.com/shorts/hWZIfdF5rAc",
+      "verified_at": "2026-11-14T07:45:47+00:00"
+    },
+    {
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/candidates/marine-tondelier/2026-11-12-8acc9b8dcaf7.md",
+      "proposals": [
+        "proposals/auto/ecologie-energie/auto-marine-tondelier-ecologie-energie-adcf12231b7a.md"
+      ],
+      "sha256": "ecef988427b1b4a58d1dba21735eccb49b667925d9bd27496850aeca4a70d2dd",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://bsky.app/profile/marinetondelier.fr/post/3n24tehp4bs2s",
+      "verified_at": "2026-11-14T07:45:58+00:00"
+    },
+    {
+      "sha256": "8eeec1cdd95c0e2448066327c28642ce341cb32daa6963fa75f371ba0cbd6279",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/shorts/46oOQz2Ekhg"
+    }
+  ],
+  "status_updates": 0
+}
