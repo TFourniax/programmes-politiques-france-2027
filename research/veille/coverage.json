@@ -6,18 +6,18 @@
     "actors": 68,
     "declared_or_active_candidates": 28,
     "topics": 12,
-    "current_proposals": 1526,
+    "current_proposals": 1538,
     "covered_actor_topic_cells": 169,
     "total_actor_topic_cells": 816,
     "actor_topic_coverage_ratio": 0.2071,
     "active_candidate_covered_cells": 78,
     "active_candidate_total_cells": 336,
     "active_candidate_topic_coverage_ratio": 0.2321,
-    "verified_proposals": 1493,
-    "multi_source_proposals": 133,
+    "verified_proposals": 1505,
+    "multi_source_proposals": 134,
     "latest_evidence_at": "2026-11-13",
     "certainty_counts": {
-      "explicit": 1497,
+      "explicit": 1509,
       "explicit_but_conditional": 3,
       "explicit_but_underspecified": 26
     }
@@ -995,7 +995,7 @@
       "type": "party",
       "status": null,
       "confidence": null,
-      "current_proposals": 229,
+      "current_proposals": 241,
       "covered_topics": [
         "ecologie-energie",
         "economie-finances",
@@ -1014,8 +1014,8 @@
         "numerique-ia"
       ],
       "latest_evidence_at": "2026-11-13",
-      "verified_proposals": 226,
-      "multi_source_proposals": 26
+      "verified_proposals": 238,
+      "multi_source_proposals": 27
     },
     {
       "id": "laurent-wauquiez",
@@ -1959,11 +1959,11 @@
     {
       "id": "pouvoir-achat-travail",
       "label": "Pouvoir d’achat & travail",
-      "current_proposals": 101,
+      "current_proposals": 102,
       "actors_covered": 22,
       "actor_coverage_ratio": 0.3235,
       "latest_evidence_at": "2026-11-11",
-      "verified_proposals": 94,
+      "verified_proposals": 95,
       "multi_source_proposals": 15
     },
     {
@@ -1989,12 +1989,12 @@
     {
       "id": "immigration-integration",
       "label": "Immigration & intégration",
-      "current_proposals": 69,
+      "current_proposals": 70,
       "actors_covered": 12,
       "actor_coverage_ratio": 0.1765,
-      "latest_evidence_at": "2026-10-24",
-      "verified_proposals": 65,
-      "multi_source_proposals": 7
+      "latest_evidence_at": "2026-11-07",
+      "verified_proposals": 66,
+      "multi_source_proposals": 8
     },
     {
       "id": "europe-souverainete",
@@ -2019,11 +2019,11 @@
     {
       "id": "ecologie-energie",
       "label": "Écologie & énergie",
-      "current_proposals": 243,
+      "current_proposals": 249,
       "actors_covered": 19,
       "actor_coverage_ratio": 0.2794,
       "latest_evidence_at": "2026-11-13",
-      "verified_proposals": 237,
+      "verified_proposals": 243,
       "multi_source_proposals": 10
     },
     {
@@ -2039,21 +2039,21 @@
     {
       "id": "services-publics",
       "label": "Services publics",
-      "current_proposals": 304,
+      "current_proposals": 305,
       "actors_covered": 18,
       "actor_coverage_ratio": 0.2647,
       "latest_evidence_at": "2026-11-13",
-      "verified_proposals": 301,
+      "verified_proposals": 302,
       "multi_source_proposals": 17
     },
     {
       "id": "securite-justice",
       "label": "Sécurité & justice",
-      "current_proposals": 158,
+      "current_proposals": 161,
       "actors_covered": 14,
       "actor_coverage_ratio": 0.2059,
       "latest_evidence_at": "2026-11-07",
-      "verified_proposals": 155,
+      "verified_proposals": 158,
       "multi_source_proposals": 14
     },
     {

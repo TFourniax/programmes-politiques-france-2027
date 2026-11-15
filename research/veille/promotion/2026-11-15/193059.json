@@ -1,0 +1,60 @@
+{
+  "errors": [],
+  "generated_at": "2026-11-15T19:30:59+00:00",
+  "historical_skipped": 0,
+  "partial": 0,
+  "processed": 3,
+  "promoted": 3,
+  "proposals_created": 12,
+  "results": [
+    {
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/partys/la-france-insoumise/2026-11-07-ba5770092e74.md",
+      "proposals": [
+        "proposals/auto/pouvoir-achat-travail/auto-la-france-insoumise-pouvoir-achat-travail-19aa060714d9.md",
+        "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-7a618dd63ac0.md"
+      ],
+      "sha256": "00ac37a896678f1c035b673d3631255c3e71aa878ee3d539cac9a5fc95194793",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://melenchon2027.fr/programme/livre/mettre-en-securite-sociale/chapitre3/",
+      "verified_at": "2026-11-15T19:29:59+00:00"
+    },
+    {
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/partys/la-france-insoumise/2026-11-07-f8c10402fb16.md",
+      "proposals": [
+        "proposals/auto/securite-justice/auto-la-france-insoumise-securite-justice-bec579cd4e8d.md",
+        "proposals/auto/securite-justice/auto-la-france-insoumise-securite-justice-caf7585bed18.md",
+        "proposals/auto/immigration-integration/auto-la-france-insoumise-immigration-integration-1a1459016e15.md",
+        "proposals/auto/securite-justice/auto-la-france-insoumise-securite-justice-d2bea773408e.md"
+      ],
+      "provenance_updates": [
+        "auto-la-france-insoumise-immigration-integration-7953c0db420d"
+      ],
+      "sha256": "8d0eceec38b97fca5e4478e6b32c48bebcc7c2b9cf5069f2688b2c01a21e7b63",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://melenchon2027.fr/programme/livre/mettre-en-securite-sociale/chapitre4/",
+      "verified_at": "2026-11-15T19:30:30+00:00"
+    },
+    {
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/partys/la-france-insoumise/2026-11-07-844065483f46.md",
+      "proposals": [
+        "proposals/auto/ecologie-energie/auto-la-france-insoumise-ecologie-energie-01c008d2181d.md",
+        "proposals/auto/ecologie-energie/auto-la-france-insoumise-ecologie-energie-392d0dbf5410.md",
+        "proposals/auto/ecologie-energie/auto-la-france-insoumise-ecologie-energie-a7958dee3b3d.md",
+        "proposals/auto/ecologie-energie/auto-la-france-insoumise-ecologie-energie-3f722cd3f9ce.md",
+        "proposals/auto/ecologie-energie/auto-la-france-insoumise-ecologie-energie-dbf0161afdbd.md",
+        "proposals/auto/ecologie-energie/auto-la-france-insoumise-ecologie-energie-7abfae420501.md"
+      ],
+      "sha256": "8eb2cfd9b3b117a9876e7f6db5a4dab6a20f928faba72da641a5332827b3cc4b",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://melenchon2027.fr/programme/livre/pour-une-bifurcation-ecologique-et-sociale/",
+      "verified_at": "2026-11-15T19:30:48+00:00"
+    }
+  ],
+  "status_updates": 0
+}
