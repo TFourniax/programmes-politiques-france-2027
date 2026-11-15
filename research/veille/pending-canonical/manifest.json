@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created_at": "2026-08-17T19:57:19.441897+00:00",
-  "updated_at": "2026-11-14T23:08:56.890232+00:00",
+  "updated_at": "2026-11-15T08:02:19.377388+00:00",
   "files": [
     {
       "path": "corpus/2027/auto/candidates/anasse-kazib/2026-08-28-38891602d9d9.md",
@@ -1029,6 +1029,11 @@
       "size": 3424
     },
     {
+      "path": "corpus/2027/auto/partys/la-france-insoumise/2026-11-07-252f117ed091.md",
+      "sha256": "4a03c4d5241e779519d2a9fd545fd621037f3ef9e8ba008bd6d793715bfbd69e",
+      "size": 3192
+    },
+    {
       "path": "corpus/2027/auto/partys/la-france-insoumise/2026-11-07-4be0d2d8900c.md",
       "sha256": "12a8972f94de878fb06bae5449b8ab752cd056f997dd0f0b743f268cc467c4b6",
       "size": 2348
@@ -1054,6 +1059,11 @@
       "size": 2552
     },
     {
+      "path": "corpus/2027/auto/partys/la-france-insoumise/2026-11-07-949e8af780ff.md",
+      "sha256": "22c139c95fa9a37243b9f31513bd3809bcdc9a086a515e5ecac43a1152734405",
+      "size": 1949
+    },
+    {
       "path": "corpus/2027/auto/partys/la-france-insoumise/2026-11-07-95ef95c5400a.md",
       "sha256": "af823ba3973aae5d025078fc4e5edecd83e3c3e56fca743726bd8970c290fc4b",
       "size": 1903
@@ -1072,6 +1082,11 @@
       "path": "corpus/2027/auto/partys/la-france-insoumise/2026-11-07-ba0eca7f2ed7.md",
       "sha256": "b11ae46029c178554ec4a1eb8ae910ccb90a747d44e08b794aea50c45ea1b154",
       "size": 2311
+    },
+    {
+      "path": "corpus/2027/auto/partys/la-france-insoumise/2026-11-07-ba5f8aec49d1.md",
+      "sha256": "e68144ff6310a0442f887e14602de323d00f02d8f63a8f0172a56f5e4c4308a5",
+      "size": 3537
     },
     {
       "path": "corpus/2027/auto/partys/la-france-insoumise/2026-11-07-c17cb83aa2f5.md",
@@ -3294,9 +3309,39 @@
       "size": 1300
     },
     {
+      "path": "proposals/auto/pouvoir-achat-travail/auto-la-france-insoumise-pouvoir-achat-travail-108b595faf46.md",
+      "sha256": "409381d206985791e5d695cdf4857c621b61e509e846acc5a6fc2c60153bc603",
+      "size": 1688
+    },
+    {
+      "path": "proposals/auto/pouvoir-achat-travail/auto-la-france-insoumise-pouvoir-achat-travail-1b64fbd24b46.md",
+      "sha256": "edc39a814b374b7610278fbb45598b21793a017908d82b0405a645ef1c6cda85",
+      "size": 1562
+    },
+    {
       "path": "proposals/auto/pouvoir-achat-travail/auto-la-france-insoumise-pouvoir-achat-travail-1f0477dd0554.md",
       "sha256": "e76431c765443006fa6d0d96040337134094c516eacb7df7aced023649be16ea",
       "size": 1473
+    },
+    {
+      "path": "proposals/auto/pouvoir-achat-travail/auto-la-france-insoumise-pouvoir-achat-travail-239ed95e4337.md",
+      "sha256": "73d7beaee7ffdecc977da6fa8ca299fc6a85664ba310d5afab14c7230052e7e1",
+      "size": 1453
+    },
+    {
+      "path": "proposals/auto/pouvoir-achat-travail/auto-la-france-insoumise-pouvoir-achat-travail-3a2ee685493e.md",
+      "sha256": "ad1d666b3bf6ab69a333bdf27ffbc2fe36cf9cb3d0c7e7d027f401909e63a59b",
+      "size": 1214
+    },
+    {
+      "path": "proposals/auto/pouvoir-achat-travail/auto-la-france-insoumise-pouvoir-achat-travail-3e2796729874.md",
+      "sha256": "e1e8aea0375d7c39b628b21214e6939209a0b21120d638939f2a2812312ae968",
+      "size": 1696
+    },
+    {
+      "path": "proposals/auto/pouvoir-achat-travail/auto-la-france-insoumise-pouvoir-achat-travail-441c19e45311.md",
+      "sha256": "28f0fb2fddc83c19da3fc610611416f1144037e8fa5df953e54d0df5c3833246",
+      "size": 1817
     },
     {
       "path": "proposals/auto/pouvoir-achat-travail/auto-la-france-insoumise-pouvoir-achat-travail-4937ef67462d.md",
@@ -3304,9 +3349,39 @@
       "size": 1313
     },
     {
+      "path": "proposals/auto/pouvoir-achat-travail/auto-la-france-insoumise-pouvoir-achat-travail-6e75fec68b39.md",
+      "sha256": "a656f506a8987cecfa71976d8cb484a45ef8a8472f4e5e4b5ab5383286f4063c",
+      "size": 1773
+    },
+    {
+      "path": "proposals/auto/pouvoir-achat-travail/auto-la-france-insoumise-pouvoir-achat-travail-74e056464436.md",
+      "sha256": "74c7600c7bce28d89d954f2e0950ac7a6da9d18920347692c909267234c83a0d",
+      "size": 1371
+    },
+    {
+      "path": "proposals/auto/pouvoir-achat-travail/auto-la-france-insoumise-pouvoir-achat-travail-84f78101841d.md",
+      "sha256": "a2c3df07427712e65a459115ae5a1ae14a7067b962ef7769485b93a7785798e6",
+      "size": 1257
+    },
+    {
       "path": "proposals/auto/pouvoir-achat-travail/auto-la-france-insoumise-pouvoir-achat-travail-878839509754.md",
       "sha256": "ae1029234b0fe26def63dd3165d10cdeda83a465f77ea048560f0f47e2a1e91c",
       "size": 1514
+    },
+    {
+      "path": "proposals/auto/pouvoir-achat-travail/auto-la-france-insoumise-pouvoir-achat-travail-9bf999d1a456.md",
+      "sha256": "b68c5c71db58b751bed0aefcfce1ecf2c9dcd9ee23888cc13b6c2ea16b3aa201",
+      "size": 1291
+    },
+    {
+      "path": "proposals/auto/pouvoir-achat-travail/auto-la-france-insoumise-pouvoir-achat-travail-adfcb15ecfc2.md",
+      "sha256": "f24d2b50e44f7ca55e3afe6ee904b1e6af2f3ed3bdbd71a1d0a9749cd510242d",
+      "size": 1415
+    },
+    {
+      "path": "proposals/auto/pouvoir-achat-travail/auto-la-france-insoumise-pouvoir-achat-travail-c2f5edf8cc1d.md",
+      "sha256": "4e212fbb9cc05eb994d1de14b7fe52cc3fa62806970c92b1dfe6a4aa5ebfd5ad",
+      "size": 1305
     },
     {
       "path": "proposals/auto/pouvoir-achat-travail/auto-les-ecologistes-pouvoir-achat-travail-04b16919c921.md",
@@ -3452,6 +3527,11 @@
       "path": "proposals/auto/retraites/auto-gabriel-attal-retraites-96c306f4d208.md",
       "sha256": "7163deb501a364cab8de67291a9908ed16edb1f4f2f2548a9d61e66bfe3cbb52",
       "size": 1891
+    },
+    {
+      "path": "proposals/auto/retraites/auto-la-france-insoumise-retraites-c205463d0240.md",
+      "sha256": "9c456dc116442edcdae59e68d1fc63efc10c60cec6f507a5cb7e7e5f67356786",
+      "size": 1122
     },
     {
       "path": "proposals/auto/retraites/auto-les-ecologistes-retraites-c34ed71b2ee5.md",
@@ -3854,6 +3934,16 @@
       "size": 1413
     },
     {
+      "path": "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-2bc067f9ab4b.md",
+      "sha256": "82bbe0ad2fbebd3e49d2936b12304ee0401d9120e5b0d9ec1f50640f7b601a5d",
+      "size": 1183
+    },
+    {
+      "path": "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-2d24fc4864bf.md",
+      "sha256": "3582bfdb32e86eb79d25aa79b54b885b66f17efc0fac8bf33abf3274a8f29bfe",
+      "size": 1544
+    },
+    {
       "path": "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-3a848692dbc2.md",
       "sha256": "14ef3d3e41fd2723dcec52a8aafa5eaea0ab2d300c7467c27576bc811c873f1b",
       "size": 1351
@@ -3872,6 +3962,11 @@
       "path": "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-40f8f6f2f359.md",
       "sha256": "88474000eda0ac7bd442734ebe2d76c5529ad8e9c800d7bafb31123e784a1e32",
       "size": 1287
+    },
+    {
+      "path": "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-436f7c68e9f2.md",
+      "sha256": "dafbf47646c7462c17d92ca2617d57e58395dfc3dc6a84abc00c45d71838d7ca",
+      "size": 1379
     },
     {
       "path": "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-488e6c1fadc7.md",
@@ -3914,6 +4009,11 @@
       "size": 1299
     },
     {
+      "path": "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-6115c1e11d87.md",
+      "sha256": "0b9d672cc16a5b05aa8343ad2ce08a3595fe969c0477c79a9a94abe9e2392ccb",
+      "size": 1301
+    },
+    {
       "path": "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-6c02d99c46e6.md",
       "sha256": "534bf0996b193c0e8d6f348334b872a963de48fb4e9d8802367765f46d11ebae",
       "size": 1333
@@ -3924,9 +4024,19 @@
       "size": 1350
     },
     {
+      "path": "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-73a8f5c807bd.md",
+      "sha256": "461f9e239f285da47e3373257802166fa1220c1be6bfa8fbe8cebd3d94836729",
+      "size": 1283
+    },
+    {
       "path": "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-74cfbc8d3054.md",
       "sha256": "55960e8770fe8b32f05d360597ea5bc1f53582583361b6fd414dcca84eb1c844",
       "size": 1753
+    },
+    {
+      "path": "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-8255907fb303.md",
+      "sha256": "b2bf388d85bc3b196a05538d694efd310f7070b04d7266077d6a3dff8de689b4",
+      "size": 1427
     },
     {
       "path": "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-90677c21e1fe.md",
@@ -3954,6 +4064,11 @@
       "size": 1298
     },
     {
+      "path": "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-aaa59ec4fccc.md",
+      "sha256": "e7459a3ee6beeae9661235eb556812c8b3215784c5a88eb5ec7d8980c62a2ad0",
+      "size": 1466
+    },
+    {
       "path": "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-b7a7237210f4.md",
       "sha256": "618309db41cdfed60c406ef4ccb70d22792973477bbd10b70a3150fe606d68df",
       "size": 1407
@@ -3974,6 +4089,11 @@
       "size": 1611
     },
     {
+      "path": "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-bfa55c76053c.md",
+      "sha256": "64ce8254c040e678afd0f37854a91e3c291839ed5cecc3e9cf30d228f35a0fec",
+      "size": 1724
+    },
+    {
       "path": "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-c01ebd790da5.md",
       "sha256": "2d6643ba62bca44360062f2cdcaeb568debfe59caf7a96d9985769602dece020",
       "size": 1275
@@ -3982,6 +4102,11 @@
       "path": "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-c751d752a100.md",
       "sha256": "75ce4f884c87c91c2b351c0a46dffea17eddd15d9b0024afae0a735368504017",
       "size": 1208
+    },
+    {
+      "path": "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-ccd8922bc78d.md",
+      "sha256": "75a00dc21e899a639578599167407bff235751251c0be71e73606010a88837ad",
+      "size": 1556
     },
     {
       "path": "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-d0019b2f49e7.md",

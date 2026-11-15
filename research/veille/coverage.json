@@ -6,20 +6,20 @@
     "actors": 68,
     "declared_or_active_candidates": 28,
     "topics": 12,
-    "current_proposals": 1509,
+    "current_proposals": 1526,
     "covered_actor_topic_cells": 169,
     "total_actor_topic_cells": 816,
     "actor_topic_coverage_ratio": 0.2071,
     "active_candidate_covered_cells": 78,
     "active_candidate_total_cells": 336,
     "active_candidate_topic_coverage_ratio": 0.2321,
-    "verified_proposals": 1476,
-    "multi_source_proposals": 128,
+    "verified_proposals": 1493,
+    "multi_source_proposals": 133,
     "latest_evidence_at": "2026-11-13",
     "certainty_counts": {
-      "explicit": 1484,
+      "explicit": 1497,
       "explicit_but_conditional": 3,
-      "explicit_but_underspecified": 22
+      "explicit_but_underspecified": 26
     }
   },
   "topic_catalog": [
@@ -995,7 +995,7 @@
       "type": "party",
       "status": null,
       "confidence": null,
-      "current_proposals": 212,
+      "current_proposals": 229,
       "covered_topics": [
         "ecologie-energie",
         "economie-finances",
@@ -1014,8 +1014,8 @@
         "numerique-ia"
       ],
       "latest_evidence_at": "2026-11-13",
-      "verified_proposals": 209,
-      "multi_source_proposals": 21
+      "verified_proposals": 226,
+      "multi_source_proposals": 26
     },
     {
       "id": "laurent-wauquiez",
@@ -1959,21 +1959,21 @@
     {
       "id": "pouvoir-achat-travail",
       "label": "Pouvoir d’achat & travail",
-      "current_proposals": 93,
+      "current_proposals": 101,
       "actors_covered": 22,
       "actor_coverage_ratio": 0.3235,
       "latest_evidence_at": "2026-11-11",
-      "verified_proposals": 86,
-      "multi_source_proposals": 11
+      "verified_proposals": 94,
+      "multi_source_proposals": 15
     },
     {
       "id": "retraites",
       "label": "Retraites",
-      "current_proposals": 24,
+      "current_proposals": 25,
       "actors_covered": 14,
       "actor_coverage_ratio": 0.2059,
-      "latest_evidence_at": "2026-11-06",
-      "verified_proposals": 22,
+      "latest_evidence_at": "2026-11-07",
+      "verified_proposals": 23,
       "multi_source_proposals": 8
     },
     {
@@ -2039,12 +2039,12 @@
     {
       "id": "services-publics",
       "label": "Services publics",
-      "current_proposals": 296,
+      "current_proposals": 304,
       "actors_covered": 18,
       "actor_coverage_ratio": 0.2647,
       "latest_evidence_at": "2026-11-13",
-      "verified_proposals": 293,
-      "multi_source_proposals": 16
+      "verified_proposals": 301,
+      "multi_source_proposals": 17
     },
     {
       "id": "securite-justice",
