@@ -1,0 +1,32 @@
+{
+  "errors": [],
+  "generated_at": "2026-11-16T23:01:38+00:00",
+  "historical_skipped": 0,
+  "partial": 0,
+  "processed": 3,
+  "promoted": 1,
+  "proposals_created": 0,
+  "results": [
+    {
+      "sha256": "762b91321cc5811fa9e704c9bdd9f09dfde99647a0d7510cdd65bdb1f552b5f0",
+      "status": "not_confirmed",
+      "url": "https://melenchon2027.fr/programme/plan-investissement-productif/"
+    },
+    {
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/candidates/gabriel-attal/2026-06-17-e71513d3a614.md",
+      "proposals": [],
+      "sha256": "8e9a1451397530e4b58111521aacebba8cc335c7b294128b3bd53d1bbcf4e7fb",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://attalpresident.fr/programme/mesures/interessement-vers-epargne-retraite",
+      "verified_at": "2026-11-16T23:01:29+00:00"
+    },
+    {
+      "sha256": "d6de553c58f3418a0a848732e2677732e68b0bd9f15f211d788f54cd8ea4fd10",
+      "status": "not_confirmed",
+      "url": "https://melenchon2027.fr/evenement/campagne/reunion-publique-soutien-a-la-candidature-de-jean-luc-melenchon/"
+    }
+  ],
+  "status_updates": 0
+}

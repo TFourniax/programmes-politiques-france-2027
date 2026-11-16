@@ -136,6 +136,13 @@
       "reason": "no_deterministic_transition",
       "status": "not_applicable"
     },
+    "09cc4a8ab2a2": {
+      "event_url": "https://attalpresident.fr/actualites/gabriel-attal-france-inter-smic-droit-au-brut-primaire-2027",
+      "owner": "Gabriel Attal",
+      "processed_at": "2026-11-16T22:58:54+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
     "0a5cd2c6ac2f": {
       "candidate_id": "gabriel-attal",
       "event_url": "https://attalpresident.fr/actualites/gabriel-attal-sur-rtl-je-suis-candidat-pour-gagner-cette-election-presidentielle",
@@ -214,6 +221,13 @@
       "event_url": "https://solutiondemocratique.fr/presidentielle-2027-dans-les-yvelines-hugo-ancien-candidat-aux-municipales-rencontre-les-elus-locaux-pour-solution-democratique/",
       "owner": "Solution démocratique",
       "processed_at": "2026-09-07T22:01:18+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
+    "1210bb981173": {
+      "event_url": "https://melenchon2027.fr/programme/plan-investissement-productif/",
+      "owner": "La France insoumise",
+      "processed_at": "2026-11-16T22:58:53+00:00",
       "reason": "no_deterministic_transition",
       "status": "not_applicable"
     },
@@ -990,6 +1004,13 @@
       "event_url": "https://anasse2027.fr/",
       "owner": "Anasse Kazib",
       "processed_at": "2026-10-14T22:24:28+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
+    "46642bd7be7f": {
+      "event_url": "https://melenchon2027.fr/evenement/campagne/reunion-publique-soutien-a-la-candidature-de-jean-luc-melenchon/",
+      "owner": "La France insoumise",
+      "processed_at": "2026-11-16T22:58:53+00:00",
       "reason": "no_deterministic_transition",
       "status": "not_applicable"
     },
@@ -1915,6 +1936,13 @@
       "reason": "no_deterministic_transition",
       "status": "not_applicable"
     },
+    "943d7e31f5b2": {
+      "event_url": "https://attalpresident.fr/actualites/gabriel-attal-voix-du-nord-france-premiere-puissance-europe-primaire",
+      "owner": "Gabriel Attal",
+      "processed_at": "2026-11-16T22:58:55+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
     "9469652218eb": {
       "event_url": "https://rassemblementnational.fr/",
       "owner": "Rassemblement national",
@@ -2042,6 +2070,21 @@
       "new_status": "declared_presidential",
       "owner": "Gabriel Attal",
       "processed_at": "2026-10-04T22:24:37+00:00",
+      "status": "already_current"
+    },
+    "9d4f9ab95297": {
+      "event_url": "https://attalpresident.fr/programme/mesures/interessement-vers-epargne-retraite",
+      "owner": "Gabriel Attal",
+      "processed_at": "2026-11-16T22:58:53+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
+    "9f6a05dfb8dc": {
+      "candidate_id": "gabriel-attal",
+      "event_url": "https://attalpresident.fr/actualites/gabriel-attal-sud-ouest-tous-proprietaires-banque-investissement-logement",
+      "new_status": "declared_presidential",
+      "owner": "Gabriel Attal",
+      "processed_at": "2026-11-16T22:58:55+00:00",
       "status": "already_current"
     },
     "9fc896a8d11d": {
@@ -2586,7 +2629,7 @@
       "error": "ValueError: HTTP 404",
       "event_url": "https://parti-equinoxe.fr/articles/2022/05/la-transition-energetique-selon-les-ex-candidats-a-la-presidentielle-2/",
       "owner": "Équinoxe",
-      "processed_at": "2026-11-16T08:05:53+00:00",
+      "processed_at": "2026-11-16T22:58:55+00:00",
       "status": "technical_error"
     },
     "cb3428b2b6d3": {
@@ -3137,6 +3180,13 @@
       "reason": "apply_status_guard_rejected",
       "status": "not_applicable"
     },
+    "f46eee15f8e3": {
+      "event_url": "https://attalpresident.fr/actualites/gabriel-attal-bfm-tv-seule-primaire-peut-permettre-rassemblement",
+      "owner": "Gabriel Attal",
+      "processed_at": "2026-11-16T22:58:56+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
     "f4dce1d08639": {
       "event_url": "https://www.revolutionpermanente.fr/28h-expropriation-des-secteurs-strategiques-RP-presente-les-premieres-mesures-de-sa-candidature",
       "owner": "Anasse Kazib",
@@ -3247,7 +3297,7 @@
     }
   },
   "last_error_count": 1,
-  "last_run_at": "2026-11-16T08:05:53+00:00",
+  "last_run_at": "2026-11-16T22:58:56+00:00",
   "last_updated_count": 0,
   "version": 1
 }

@@ -4,11 +4,62 @@
       "error": "ValueError: HTTP 404",
       "event_url": "https://parti-equinoxe.fr/articles/2022/05/la-transition-energetique-selon-les-ex-candidats-a-la-presidentielle-2/",
       "owner": "Équinoxe",
-      "processed_at": "2026-11-16T08:05:53+00:00"
+      "processed_at": "2026-11-16T22:58:55+00:00"
     }
   ],
-  "generated_at": "2026-11-16T08:05:53+00:00",
-  "processed": 0,
-  "results": [],
+  "generated_at": "2026-11-16T22:58:56+00:00",
+  "processed": 7,
+  "results": [
+    {
+      "event_url": "https://melenchon2027.fr/programme/plan-investissement-productif/",
+      "owner": "La France insoumise",
+      "processed_at": "2026-11-16T22:58:53+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
+    {
+      "event_url": "https://attalpresident.fr/programme/mesures/interessement-vers-epargne-retraite",
+      "owner": "Gabriel Attal",
+      "processed_at": "2026-11-16T22:58:53+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
+    {
+      "event_url": "https://melenchon2027.fr/evenement/campagne/reunion-publique-soutien-a-la-candidature-de-jean-luc-melenchon/",
+      "owner": "La France insoumise",
+      "processed_at": "2026-11-16T22:58:53+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
+    {
+      "event_url": "https://attalpresident.fr/actualites/gabriel-attal-france-inter-smic-droit-au-brut-primaire-2027",
+      "owner": "Gabriel Attal",
+      "processed_at": "2026-11-16T22:58:54+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
+    {
+      "event_url": "https://attalpresident.fr/actualites/gabriel-attal-voix-du-nord-france-premiere-puissance-europe-primaire",
+      "owner": "Gabriel Attal",
+      "processed_at": "2026-11-16T22:58:55+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
+    {
+      "candidate_id": "gabriel-attal",
+      "event_url": "https://attalpresident.fr/actualites/gabriel-attal-sud-ouest-tous-proprietaires-banque-investissement-logement",
+      "new_status": "declared_presidential",
+      "owner": "Gabriel Attal",
+      "processed_at": "2026-11-16T22:58:55+00:00",
+      "status": "already_current"
+    },
+    {
+      "event_url": "https://attalpresident.fr/actualites/gabriel-attal-bfm-tv-seule-primaire-peut-permettre-rassemblement",
+      "owner": "Gabriel Attal",
+      "processed_at": "2026-11-16T22:58:56+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    }
+  ],
   "updated": 0
 }
