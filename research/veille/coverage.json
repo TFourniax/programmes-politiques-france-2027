@@ -6,18 +6,18 @@
     "actors": 68,
     "declared_or_active_candidates": 28,
     "topics": 12,
-    "current_proposals": 1538,
+    "current_proposals": 1555,
     "covered_actor_topic_cells": 169,
     "total_actor_topic_cells": 816,
     "actor_topic_coverage_ratio": 0.2071,
     "active_candidate_covered_cells": 78,
     "active_candidate_total_cells": 336,
     "active_candidate_topic_coverage_ratio": 0.2321,
-    "verified_proposals": 1505,
-    "multi_source_proposals": 134,
+    "verified_proposals": 1522,
+    "multi_source_proposals": 138,
     "latest_evidence_at": "2026-11-13",
     "certainty_counts": {
-      "explicit": 1509,
+      "explicit": 1526,
       "explicit_but_conditional": 3,
       "explicit_but_underspecified": 26
     }
@@ -995,7 +995,7 @@
       "type": "party",
       "status": null,
       "confidence": null,
-      "current_proposals": 241,
+      "current_proposals": 258,
       "covered_topics": [
         "ecologie-energie",
         "economie-finances",
@@ -1014,8 +1014,8 @@
         "numerique-ia"
       ],
       "latest_evidence_at": "2026-11-13",
-      "verified_proposals": 238,
-      "multi_source_proposals": 27
+      "verified_proposals": 255,
+      "multi_source_proposals": 31
     },
     {
       "id": "laurent-wauquiez",
@@ -1979,11 +1979,11 @@
     {
       "id": "fiscalite-redistribution",
       "label": "Fiscalité & redistribution",
-      "current_proposals": 76,
+      "current_proposals": 77,
       "actors_covered": 11,
       "actor_coverage_ratio": 0.1618,
       "latest_evidence_at": "2026-11-08",
-      "verified_proposals": 74,
+      "verified_proposals": 75,
       "multi_source_proposals": 4
     },
     {
@@ -2019,12 +2019,12 @@
     {
       "id": "ecologie-energie",
       "label": "Écologie & énergie",
-      "current_proposals": 249,
+      "current_proposals": 262,
       "actors_covered": 19,
       "actor_coverage_ratio": 0.2794,
       "latest_evidence_at": "2026-11-13",
-      "verified_proposals": 243,
-      "multi_source_proposals": 10
+      "verified_proposals": 256,
+      "multi_source_proposals": 13
     },
     {
       "id": "institutions-democratie",
@@ -2059,12 +2059,12 @@
     {
       "id": "economie-finances",
       "label": "Économie & finances publiques",
-      "current_proposals": 133,
+      "current_proposals": 136,
       "actors_covered": 17,
       "actor_coverage_ratio": 0.25,
       "latest_evidence_at": "2026-11-10",
-      "verified_proposals": 132,
-      "multi_source_proposals": 13
+      "verified_proposals": 135,
+      "multi_source_proposals": 14
     },
     {
       "id": "numerique-ia",

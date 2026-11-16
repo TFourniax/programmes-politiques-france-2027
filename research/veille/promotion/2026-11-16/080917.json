@@ -1,0 +1,73 @@
+{
+  "errors": [],
+  "generated_at": "2026-11-16T08:09:17+00:00",
+  "historical_skipped": 0,
+  "partial": 0,
+  "processed": 3,
+  "promoted": 3,
+  "proposals_created": 17,
+  "results": [
+    {
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/partys/la-france-insoumise/2026-11-07-df71c3fe8fe2.md",
+      "proposals": [
+        "proposals/auto/ecologie-energie/auto-la-france-insoumise-ecologie-energie-8d9ff87f885a.md",
+        "proposals/auto/ecologie-energie/auto-la-france-insoumise-ecologie-energie-e76f487d36db.md",
+        "proposals/auto/ecologie-energie/auto-la-france-insoumise-ecologie-energie-d5d2aabc485c.md"
+      ],
+      "provenance_updates": [
+        "auto-la-france-insoumise-ecologie-energie-02d999500b95",
+        "auto-la-france-insoumise-ecologie-energie-20ba7ce6bb42"
+      ],
+      "sha256": "2d2b46314c330414deb985d6b9774f1a7bd90098d655efdc7043be0775e5bba6",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://melenchon2027.fr/programme/livre/pour-une-bifurcation-ecologique-et-sociale/chapitre1/",
+      "verified_at": "2026-11-16T08:08:30+00:00"
+    },
+    {
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/partys/la-france-insoumise/2026-11-07-ccf86b3dd22d.md",
+      "proposals": [
+        "proposals/auto/economie-finances/auto-la-france-insoumise-economie-finances-9a731a26e71c.md",
+        "proposals/auto/economie-finances/auto-la-france-insoumise-economie-finances-2be5debabcec.md",
+        "proposals/auto/economie-finances/auto-la-france-insoumise-economie-finances-7e04245170c2.md",
+        "proposals/auto/fiscalite-redistribution/auto-la-france-insoumise-fiscalite-redistribution-66cc0cc9aada.md"
+      ],
+      "provenance_updates": [
+        "auto-la-france-insoumise-economie-finances-cf2b8c160410"
+      ],
+      "sha256": "759abb2a4518fbad147ecf828865fcfb97b50d666ff5bee80bcb346634bd5b53",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://melenchon2027.fr/programme/livre/pour-une-bifurcation-ecologique-et-sociale/chapitre2/",
+      "verified_at": "2026-11-16T08:08:46+00:00"
+    },
+    {
+      "chunks_total": 2,
+      "document": "corpus/2027/auto/partys/la-france-insoumise/2026-11-07-0c7c4bc3e76c.md",
+      "proposals": [
+        "proposals/auto/ecologie-energie/auto-la-france-insoumise-ecologie-energie-08afec3fd1a2.md",
+        "proposals/auto/ecologie-energie/auto-la-france-insoumise-ecologie-energie-5f031f55e02c.md",
+        "proposals/auto/ecologie-energie/auto-la-france-insoumise-ecologie-energie-8d3d8cc28c96.md",
+        "proposals/auto/ecologie-energie/auto-la-france-insoumise-ecologie-energie-235108ff6dbf.md",
+        "proposals/auto/ecologie-energie/auto-la-france-insoumise-ecologie-energie-8085578a8ee2.md",
+        "proposals/auto/ecologie-energie/auto-la-france-insoumise-ecologie-energie-20cd0350f61c.md",
+        "proposals/auto/ecologie-energie/auto-la-france-insoumise-ecologie-energie-e30fecc6708a.md",
+        "proposals/auto/ecologie-energie/auto-la-france-insoumise-ecologie-energie-1b2d16516432.md",
+        "proposals/auto/ecologie-energie/auto-la-france-insoumise-ecologie-energie-f7e84b0cad36.md",
+        "proposals/auto/ecologie-energie/auto-la-france-insoumise-ecologie-energie-a7cfdf41333b.md"
+      ],
+      "provenance_updates": [
+        "auto-la-france-insoumise-ecologie-energie-4b27247d2f02",
+        "auto-la-france-insoumise-ecologie-energie-99ccd79b1d52"
+      ],
+      "sha256": "354c1a5ab7d31125a326aff7f1a3a7d0dbb76859daa6500ce6f700c1cb3a887d",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://melenchon2027.fr/programme/livre/pour-une-bifurcation-ecologique-et-sociale/chapitre3/",
+      "verified_at": "2026-11-16T08:09:16+00:00"
+    }
+  ],
+  "status_updates": 0
+}
