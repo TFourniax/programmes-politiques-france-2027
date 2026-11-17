@@ -1,42 +1,31 @@
 {
   "errors": [],
-  "generated_at": "2026-11-17T09:23:38+00:00",
+  "generated_at": "2026-11-17T21:55:25+00:00",
   "historical_skipped": 0,
   "partial": 0,
   "processed": 3,
-  "promoted": 2,
-  "proposals_created": 4,
+  "promoted": 1,
+  "proposals_created": 0,
   "results": [
     {
-      "sha256": "d6de553c58f3418a0a848732e2677732e68b0bd9f15f211d788f54cd8ea4fd10",
+      "sha256": "4833c2ac63dd810ff7fd5d3f28e89a9c9197279e11f21149c56394351f36540c",
       "status": "not_confirmed",
-      "url": "https://melenchon2027.fr/evenement/campagne/reunion-publique-soutien-a-la-candidature-de-jean-luc-melenchon/"
+      "url": "https://melenchon2027.fr/programme/livre"
+    },
+    {
+      "sha256": "4833c2ac63dd810ff7fd5d3f28e89a9c9197279e11f21149c56394351f36540c",
+      "status": "not_confirmed",
+      "url": "https://melenchon2027.fr/programme/livre/"
     },
     {
       "chunks_total": 1,
-      "document": "corpus/2027/auto/candidates/gabriel-attal/2026-11-10-cf9122080ece.md",
-      "proposals": [
-        "proposals/auto/pouvoir-achat-travail/auto-gabriel-attal-pouvoir-achat-travail-525b1f17e58e.md",
-        "proposals/auto/institutions-democratie/auto-gabriel-attal-institutions-democratie-a3303519a302.md"
-      ],
-      "sha256": "768889bf51f03df9e2c1a2ef192afd6827edc81b2caf1254f98431560181ff9a",
+      "document": "corpus/2027/auto/partys/la-france-insoumise/2026-11-17-796b10005baf.md",
+      "proposals": [],
+      "sha256": "c3d74aba62bad17d2fd79c816dd3ea834072f7231bd7bb746ed3bd1a0c777f9d",
       "status": "promoted",
       "status_updates": [],
-      "url": "https://attalpresident.fr/actualites/gabriel-attal-france-inter-smic-droit-au-brut-primaire-2027",
-      "verified_at": "2026-11-17T09:23:16+00:00"
-    },
-    {
-      "chunks_total": 1,
-      "document": "corpus/2027/auto/candidates/gabriel-attal/2026-11-07-e6cb853a2afc.md",
-      "proposals": [
-        "proposals/auto/economie-finances/auto-gabriel-attal-economie-finances-64d1d9a57e2e.md",
-        "proposals/auto/economie-finances/auto-gabriel-attal-economie-finances-7082f4e0ac5c.md"
-      ],
-      "sha256": "20778755aecc30b408e92301697df692c8b57cf7ed628bbc83bb4e715a37a63d",
-      "status": "promoted",
-      "status_updates": [],
-      "url": "https://attalpresident.fr/actualites/gabriel-attal-voix-du-nord-france-premiere-puissance-europe-primaire",
-      "verified_at": "2026-11-17T09:23:34+00:00"
+      "url": "https://melenchon2027.fr/evenement/campagne/reunion-publique-soutien-a-la-candidature-de-jean-luc-melenchon/",
+      "verified_at": "2026-11-17T21:55:24+00:00"
     }
   ],
   "status_updates": 0

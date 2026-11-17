@@ -1,0 +1,32 @@
+{
+  "errors": [],
+  "generated_at": "2026-11-17T21:55:25+00:00",
+  "historical_skipped": 0,
+  "partial": 0,
+  "processed": 3,
+  "promoted": 1,
+  "proposals_created": 0,
+  "results": [
+    {
+      "sha256": "4833c2ac63dd810ff7fd5d3f28e89a9c9197279e11f21149c56394351f36540c",
+      "status": "not_confirmed",
+      "url": "https://melenchon2027.fr/programme/livre"
+    },
+    {
+      "sha256": "4833c2ac63dd810ff7fd5d3f28e89a9c9197279e11f21149c56394351f36540c",
+      "status": "not_confirmed",
+      "url": "https://melenchon2027.fr/programme/livre/"
+    },
+    {
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/partys/la-france-insoumise/2026-11-17-796b10005baf.md",
+      "proposals": [],
+      "sha256": "c3d74aba62bad17d2fd79c816dd3ea834072f7231bd7bb746ed3bd1a0c777f9d",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://melenchon2027.fr/evenement/campagne/reunion-publique-soutien-a-la-candidature-de-jean-luc-melenchon/",
+      "verified_at": "2026-11-17T21:55:24+00:00"
+    }
+  ],
+  "status_updates": 0
+}

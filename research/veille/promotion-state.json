@@ -2993,7 +2993,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-11-17T09:23:38+00:00",
+  "last_run_at": "2026-11-17T21:55:25+00:00",
   "source_chunks": {
     "000e79baea11403029d335b1": {
       "canonical_confirmations": [
@@ -3849,6 +3849,26 @@
       "total": 1,
       "updated_at": "2026-08-14T08:33:48+00:00",
       "url": "https://solutiondemocratique.fr/florian-philippot-programme-2027/"
+    },
+    "0504810f3c521cb2da9349a6": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-11-17T21:55:32+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "4708bf81b026f684698043d18267475d240d01de2fcea5bb1a325697ae80fd02",
+      "source_title": "Réunion publique à Créteil | Présidentielle 2027",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-17T21:55:34+00:00",
+      "url": "https://www.youtube.com/watch?v=WmHPPVZw044"
     },
     "0586a39b537d638a8c8b5666": {
       "claims": [
@@ -8868,6 +8888,26 @@
       "updated_at": "2026-08-20T20:02:03+00:00",
       "url": "https://bsky.app/profile/lesecologistes.fr/post/3mtjmwmcths27"
     },
+    "176f73be854c654394a9c38a": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-11-17T21:55:35+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "a80ab770bae7d2e3b571951f92fc97c8a6d693c4e70a5c6ff06742939322e30d",
+      "source_title": "Venez Découvrir Notre Contre Budget",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-17T21:55:38+00:00",
+      "url": "https://www.youtube.com/shorts/UqR14PsRTRk"
+    },
     "17ce5e5850ac80a8b5521433": {
       "canonical_confirmations": [],
       "claims": [],
@@ -11469,6 +11509,26 @@
       "total": 1,
       "updated_at": "2026-10-02T14:04:47+00:00",
       "url": "https://www.youtube.com/watch?v=wPwTkuiHZOI"
+    },
+    "24eac8698043719662466989": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-11-17T21:54:58+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "4833c2ac63dd810ff7fd5d3f28e89a9c9197279e11f21149c56394351f36540c",
+      "source_title": "L’Avenir en commun – Table des matières - Mélenchon 2027 : Soutenez ma candidature à l’élection présidentielle",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-17T21:55:02+00:00",
+      "url": "https://melenchon2027.fr/programme/livre"
     },
     "252f117ed0915fc70048bfa0": {
       "canonical_confirmations": [
@@ -26599,6 +26659,45 @@
       "updated_at": "2026-10-06T23:12:28+00:00",
       "url": "https://rassemblementnational.fr/"
     },
+    "5d2bb34099432380e7ff86eb": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "jean-luc-melenchon",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "Soutenez ma candidature à l’élection présidentielle",
+            "relevance": "direct",
+            "statement": "Le candidat soutient la fondation de la 6e République.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La source mentionne la Partie 5 Fonder la 6e République ce qui confirme le soutien du candidat à la fondation de la 6e République déjà présent dans le canon.",
+            "related_proposal_id": "auto-jean-luc-melenchon-institutions-democratie-8e09285dec35",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "created_at": "2026-11-17T21:55:03+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "4833c2ac63dd810ff7fd5d3f28e89a9c9197279e11f21149c56394351f36540c",
+      "source_title": "L’Avenir en commun – Table des matières - Mélenchon 2027 : Soutenez ma candidature à l’élection présidentielle",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-17T21:55:10+00:00",
+      "url": "https://melenchon2027.fr/programme/livre/"
+    },
     "5d55951ce3c58176639fe14c": {
       "canonical_confirmations": [
         {
@@ -33556,6 +33655,37 @@
       "total": 1,
       "updated_at": "2026-10-14T13:00:56+00:00",
       "url": "https://www.youtube.com/shorts/fIpKEvV7qxk"
+    },
+    "796b10005baf67afe67c3957": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "completed_at": "2026-11-17T21:55:24+00:00",
+      "created_at": "2026-11-17T21:55:11+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "c3d74aba62bad17d2fd79c816dd3ea834072f7231bd7bb746ed3bd1a0c777f9d",
+      "source_title": "Réunion publique - soutien à la candidature de Jean Luc Mélenchon - Mélenchon 2027 : Soutenez ma candidature à l’élection présidentielle",
+      "statuses": [
+        {
+          "status": {
+            "candidate_id": "jean-luc-melenchon",
+            "effective_date": "2026-12-02",
+            "evidence_quote": "soutien à la candidature de Jean Luc Mélenchon",
+            "explicit": true,
+            "new_status": "declared_presidential"
+          }
+        }
+      ],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-17T21:55:24+00:00",
+      "url": "https://melenchon2027.fr/evenement/campagne/reunion-publique-soutien-a-la-candidature-de-jean-luc-melenchon/"
     },
     "79b6132f1c7e074dc33593a0": {
       "canonical_confirmations": [
@@ -43834,6 +43964,26 @@
       "total": 1,
       "updated_at": "2026-08-29T17:20:07+00:00",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
+    "a930fc2cd67f2dfdca795f6b": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-11-17T21:55:25+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "6ba8b8d09ac0aec9ca88000494c7f9d5450e1c4f43f25cf7524c7ebea9eea937",
+      "source_title": "« La police n'a rien à faire sur nos établissements ! Et on peut gagner sur cette revendication, en",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-17T21:55:29+00:00",
+      "url": "https://www.youtube.com/shorts/KpezJRKgHBY"
     },
     "a9540891afaf8ac3a0854eaa": {
       "canonical_confirmations": [],
@@ -54619,6 +54769,26 @@
       "total": 1,
       "updated_at": "2026-10-06T19:02:49+00:00",
       "url": "https://rassemblementnational.fr/"
+    },
+    "c727a960298a4ab2876237ab": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-11-17T21:55:30+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "49e1306e3678e2565cf1314b5ba3f85266c7a2742a712bdb3f32abd18506e14b",
+      "source_title": "💥 En Europe, la jeunesse se révolte partout ! Viens à notre grand meeting révolutionnaire le 21 nov",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-17T21:55:32+00:00",
+      "url": "https://www.youtube.com/shorts/oighLkDU-wI"
     },
     "c76cfedc6c732680f0e2503f": {
       "canonical_confirmations": [
@@ -69520,6 +69690,15 @@
       "status": "promoted",
       "url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne"
     },
+    "1b86d562f946": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-11-17T21:55:11+00:00",
+      "reason": null,
+      "source_sha256": "4833c2ac63dd810ff7fd5d3f28e89a9c9197279e11f21149c56394351f36540c",
+      "status": "not_confirmed",
+      "url": "https://melenchon2027.fr/programme/livre/"
+    },
     "1ba1285fc90d": {
       "chunks_done": null,
       "chunks_total": null,
@@ -70975,6 +71154,15 @@
       "reason": "permanent_error_retry_budget_exhausted",
       "status": "retry_abandoned",
       "url": "https://www.revolutionpermanente.fr/Neoliberalisme-social-et-militarisme-de-gauche-Glucksmann-lance-sa-candidature"
+    },
+    "4757e79e9dec": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-11-17T21:55:02+00:00",
+      "reason": null,
+      "source_sha256": "4833c2ac63dd810ff7fd5d3f28e89a9c9197279e11f21149c56394351f36540c",
+      "status": "not_confirmed",
+      "url": "https://melenchon2027.fr/programme/livre"
     },
     "47d43bb22710": {
       "chunks_done": null,
@@ -74020,6 +74208,15 @@
       "source_sha256": "0d8a65a8dc74d4f3b80db285ed2a18b91b378305bd81ab393f4f26637b9e888d",
       "status": "promoted",
       "url": "https://attalpresident.fr/programme"
+    },
+    "b6e638a78f18": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-11-17T21:55:24+00:00",
+      "reason": null,
+      "source_sha256": "c3d74aba62bad17d2fd79c816dd3ea834072f7231bd7bb746ed3bd1a0c777f9d",
+      "status": "promoted",
+      "url": "https://melenchon2027.fr/evenement/campagne/reunion-publique-soutien-a-la-candidature-de-jean-luc-melenchon/"
     },
     "b6e972fce670": {
       "abandoned_at": "2026-11-06T10:53:12+00:00",

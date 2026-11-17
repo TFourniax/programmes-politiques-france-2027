@@ -267,6 +267,13 @@
       "processed_at": "2026-09-19T12:01:23+00:00",
       "status": "already_current"
     },
+    "1400ac66859d": {
+      "event_url": "https://www.dupontaignan.fr/actualite/en-2027-je-serai-le-seul-candidat-souverainiste-tv-libertes/",
+      "owner": "Nicolas Dupont-Aignan",
+      "processed_at": "2026-11-17T21:52:44+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
     "1475cd011fbb": {
       "event_url": "https://rassemblementnational.fr/",
       "owner": "Rassemblement national",
@@ -376,6 +383,13 @@
       "event_url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne",
       "owner": "Gabriel Attal",
       "processed_at": "2026-09-25T12:52:28+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
+    "1b86d562f946": {
+      "event_url": "https://melenchon2027.fr/programme/livre/",
+      "owner": "La France insoumise",
+      "processed_at": "2026-11-17T21:52:42+00:00",
       "reason": "no_deterministic_transition",
       "status": "not_applicable"
     },
@@ -1032,6 +1046,13 @@
       "event_url": "https://www.revolutionpermanente.fr/Neoliberalisme-social-et-militarisme-de-gauche-Glucksmann-lance-sa-candidature",
       "owner": "Anasse Kazib",
       "processed_at": "2026-09-08T12:14:39+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
+    "4757e79e9dec": {
+      "event_url": "https://melenchon2027.fr/programme/livre",
+      "owner": "La France insoumise",
+      "processed_at": "2026-11-17T21:52:42+00:00",
       "reason": "no_deterministic_transition",
       "status": "not_applicable"
     },
@@ -2338,6 +2359,13 @@
       "processed_at": "2026-09-28T23:53:26+00:00",
       "status": "already_current"
     },
+    "b6e638a78f18": {
+      "event_url": "https://melenchon2027.fr/evenement/campagne/reunion-publique-soutien-a-la-candidature-de-jean-luc-melenchon/",
+      "owner": "La France insoumise",
+      "processed_at": "2026-11-17T21:52:43+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
     "b6e972fce670": {
       "event_url": "https://www.pcf.fr/presidentielle_2027_mjcf_s_engage_pour_candidature_communiste",
       "owner": "Parti communiste français",
@@ -2636,7 +2664,7 @@
       "error": "ValueError: HTTP 404",
       "event_url": "https://parti-equinoxe.fr/articles/2022/05/la-transition-energetique-selon-les-ex-candidats-a-la-presidentielle-2/",
       "owner": "Équinoxe",
-      "processed_at": "2026-11-17T09:20:37+00:00",
+      "processed_at": "2026-11-17T21:52:45+00:00",
       "status": "technical_error"
     },
     "cb3428b2b6d3": {
@@ -3304,7 +3332,7 @@
     }
   },
   "last_error_count": 1,
-  "last_run_at": "2026-11-17T09:20:37+00:00",
+  "last_run_at": "2026-11-17T21:52:45+00:00",
   "last_updated_count": 0,
   "version": 1
 }
