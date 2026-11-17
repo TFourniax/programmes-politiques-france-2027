@@ -6,18 +6,18 @@
     "actors": 68,
     "declared_or_active_candidates": 28,
     "topics": 12,
-    "current_proposals": 1555,
-    "covered_actor_topic_cells": 169,
+    "current_proposals": 1559,
+    "covered_actor_topic_cells": 170,
     "total_actor_topic_cells": 816,
-    "actor_topic_coverage_ratio": 0.2071,
-    "active_candidate_covered_cells": 78,
+    "actor_topic_coverage_ratio": 0.2083,
+    "active_candidate_covered_cells": 79,
     "active_candidate_total_cells": 336,
-    "active_candidate_topic_coverage_ratio": 0.2321,
-    "verified_proposals": 1522,
+    "active_candidate_topic_coverage_ratio": 0.2351,
+    "verified_proposals": 1526,
     "multi_source_proposals": 138,
     "latest_evidence_at": "2026-11-13",
     "certainty_counts": {
-      "explicit": 1526,
+      "explicit": 1530,
       "explicit_but_conditional": 3,
       "explicit_but_underspecified": 26
     }
@@ -667,26 +667,26 @@
       "type": "candidate",
       "status": "declared_presidential",
       "confidence": "high",
-      "current_proposals": 37,
+      "current_proposals": 41,
       "covered_topics": [
         "ecologie-energie",
         "economie-finances",
         "europe-souverainete",
         "immigration-integration",
+        "institutions-democratie",
         "pouvoir-achat-travail",
         "retraites",
         "securite-justice",
         "services-publics"
       ],
-      "coverage_ratio": 0.6667,
+      "coverage_ratio": 0.75,
       "gaps": [
         "fiscalite-redistribution",
         "defense-international",
-        "institutions-democratie",
         "numerique-ia"
       ],
-      "latest_evidence_at": "2026-11-06",
-      "verified_proposals": 37,
+      "latest_evidence_at": "2026-11-10",
+      "verified_proposals": 41,
       "multi_source_proposals": 16
     },
     {
@@ -1959,11 +1959,11 @@
     {
       "id": "pouvoir-achat-travail",
       "label": "Pouvoir d’achat & travail",
-      "current_proposals": 102,
+      "current_proposals": 103,
       "actors_covered": 22,
       "actor_coverage_ratio": 0.3235,
       "latest_evidence_at": "2026-11-11",
-      "verified_proposals": 95,
+      "verified_proposals": 96,
       "multi_source_proposals": 15
     },
     {
@@ -2029,11 +2029,11 @@
     {
       "id": "institutions-democratie",
       "label": "Institutions & démocratie",
-      "current_proposals": 285,
-      "actors_covered": 18,
-      "actor_coverage_ratio": 0.2647,
+      "current_proposals": 286,
+      "actors_covered": 19,
+      "actor_coverage_ratio": 0.2794,
       "latest_evidence_at": "2026-11-12",
-      "verified_proposals": 281,
+      "verified_proposals": 282,
       "multi_source_proposals": 41
     },
     {
@@ -2059,11 +2059,11 @@
     {
       "id": "economie-finances",
       "label": "Économie & finances publiques",
-      "current_proposals": 136,
+      "current_proposals": 138,
       "actors_covered": 17,
       "actor_coverage_ratio": 0.25,
       "latest_evidence_at": "2026-11-10",
-      "verified_proposals": 135,
+      "verified_proposals": 137,
       "multi_source_proposals": 14
     },
     {
@@ -3498,17 +3498,17 @@
       "id": "gabriel-attal",
       "name": "Gabriel Attal",
       "status": "declared_presidential",
-      "coverage_ratio": 0.6667,
-      "current_proposals": 37,
-      "latest_evidence_at": "2026-11-06",
+      "coverage_ratio": 0.75,
+      "current_proposals": 41,
+      "latest_evidence_at": "2026-11-10",
       "topics": [
         {
           "id": "pouvoir-achat-travail",
           "label": "Pouvoir d’achat & travail",
           "covered": true,
-          "current_proposals": 4,
-          "latest_evidence_at": "2026-10-19",
-          "verified_proposals": 4,
+          "current_proposals": 5,
+          "latest_evidence_at": "2026-11-10",
+          "verified_proposals": 5,
           "multi_source_proposals": 1
         },
         {
@@ -3568,10 +3568,10 @@
         {
           "id": "institutions-democratie",
           "label": "Institutions & démocratie",
-          "covered": false,
-          "current_proposals": 0,
-          "latest_evidence_at": null,
-          "verified_proposals": 0,
+          "covered": true,
+          "current_proposals": 1,
+          "latest_evidence_at": "2026-11-10",
+          "verified_proposals": 1,
           "multi_source_proposals": 0
         },
         {
@@ -3596,9 +3596,9 @@
           "id": "economie-finances",
           "label": "Économie & finances publiques",
           "covered": true,
-          "current_proposals": 5,
-          "latest_evidence_at": "2026-10-19",
-          "verified_proposals": 5,
+          "current_proposals": 7,
+          "latest_evidence_at": "2026-11-07",
+          "verified_proposals": 7,
           "multi_source_proposals": 3
         },
         {

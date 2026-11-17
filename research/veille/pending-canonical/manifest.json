@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created_at": "2026-08-17T19:57:19.441897+00:00",
-  "updated_at": "2026-11-16T23:02:04.920900+00:00",
+  "updated_at": "2026-11-17T09:23:54.010908+00:00",
   "files": [
     {
       "path": "corpus/2027/auto/candidates/anasse-kazib/2026-08-28-38891602d9d9.md",
@@ -862,6 +862,16 @@
       "path": "corpus/2027/auto/candidates/gabriel-attal/2026-11-06-d93adb069b37.md",
       "sha256": "0fb873c0ffd2cca0d12256b305edb5a54762bd771376e8f461e9abe3cfcdda12",
       "size": 2035
+    },
+    {
+      "path": "corpus/2027/auto/candidates/gabriel-attal/2026-11-07-e6cb853a2afc.md",
+      "sha256": "2a603d12ea8a59e326db1465105d27e4875c654aefbcfbe59c2a858af5ace4fc",
+      "size": 2025
+    },
+    {
+      "path": "corpus/2027/auto/candidates/gabriel-attal/2026-11-10-cf9122080ece.md",
+      "sha256": "dddd98077f14a160bff88ae2d5dfcae9016c23c16750c4c920f749f14d9f9e68",
+      "size": 1886
     },
     {
       "path": "corpus/2027/auto/candidates/jean-luc-melenchon/2026-09-18-a1a666a8c110.md",
@@ -2789,6 +2799,16 @@
       "size": 1654
     },
     {
+      "path": "proposals/auto/economie-finances/auto-gabriel-attal-economie-finances-64d1d9a57e2e.md",
+      "sha256": "1a1de59f22568c6c24edddfd24cc0eaac9675c4af7ee3f0df1e644942fcb08f8",
+      "size": 1294
+    },
+    {
+      "path": "proposals/auto/economie-finances/auto-gabriel-attal-economie-finances-7082f4e0ac5c.md",
+      "sha256": "e82079e9912e00602f6600c50b8ee648448e5cc1e9f0b5b85f278f7f3086a481",
+      "size": 1498
+    },
+    {
       "path": "proposals/auto/economie-finances/auto-gabriel-attal-economie-finances-7d59510bf5b0.md",
       "sha256": "9a716f4f2352332224ff28df87b7dee7c36dd72b7c7b91199b4efb55c630af88",
       "size": 2100
@@ -3214,6 +3234,11 @@
       "size": 1944
     },
     {
+      "path": "proposals/auto/institutions-democratie/auto-gabriel-attal-institutions-democratie-a3303519a302.md",
+      "sha256": "220c4fa5466ed5e6442bd921f4bee5d08099c3d91debfc39c56735b6a79dae76",
+      "size": 1489
+    },
+    {
       "path": "proposals/auto/institutions-democratie/auto-jean-luc-melenchon-institutions-democratie-8e09285dec35.md",
       "sha256": "518cbc205a36d4aa18809b2318200d2c7e6f93d2729e03299ad3013ce1288a68",
       "size": 1496
@@ -3462,6 +3487,11 @@
       "path": "proposals/auto/pouvoir-achat-travail/auto-francois-ruffin-pouvoir-achat-travail-a3540b9130a4.md",
       "sha256": "c0240ddc4c55434e712ca32975d0270eb621b1c0478c4d0aeb6484c06b9a498b",
       "size": 1352
+    },
+    {
+      "path": "proposals/auto/pouvoir-achat-travail/auto-gabriel-attal-pouvoir-achat-travail-525b1f17e58e.md",
+      "sha256": "b68b57ba6840ae5d68175dc19dbd5c5df36566c9e4063fd429e3c6cf2b611723",
+      "size": 1455
     },
     {
       "path": "proposals/auto/pouvoir-achat-travail/auto-gabriel-attal-pouvoir-achat-travail-70a5d33eeebc.md",

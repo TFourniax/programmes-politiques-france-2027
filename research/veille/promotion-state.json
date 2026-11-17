@@ -1055,6 +1055,11 @@
       "source_url": "https://nouspresident.fr/notre-programme/",
       "verified_at": "2026-10-23T18:00:13+00:00"
     },
+    "525b1f17e58ed99ebd64e58e4a594e9ebde962b42aa4e019db358d09b2b58f92": {
+      "proposal_id": "auto-gabriel-attal-pouvoir-achat-travail-525b1f17e58e",
+      "source_url": "https://attalpresident.fr/actualites/gabriel-attal-france-inter-smic-droit-au-brut-primaire-2027",
+      "verified_at": "2026-11-17T09:23:16+00:00"
+    },
     "52c0f491acb76729795186352b8ebaa3921e4e8fd07a6158d909568e081d7c91": {
       "proposal_id": "auto-la-france-insoumise-services-publics-52c0f491acb7",
       "source_url": "https://melenchon2027.fr/programme/livre/le-gout-du-futur-aux-nouvelles-frontieres-de-l-humanite/chapitre7/",
@@ -1220,6 +1225,11 @@
       "source_url": "https://www.unenouvelleenergie.fr/notre-programme/",
       "verified_at": "2026-09-30T13:58:55+00:00"
     },
+    "64d1d9a57e2ee7372858f11848c1691204f88794cbf4eed190231006ec874016": {
+      "proposal_id": "auto-gabriel-attal-economie-finances-64d1d9a57e2e",
+      "source_url": "https://attalpresident.fr/actualites/gabriel-attal-voix-du-nord-france-premiere-puissance-europe-primaire",
+      "verified_at": "2026-11-17T09:23:34+00:00"
+    },
     "650411362d03872861a7f4d286f571acb362877abed12c6e252c0d6cc9a64d61": {
       "proposal_id": "auto-rassemblement-national-fiscalite-redistribution-650411362d03",
       "source_url": "https://rassemblementnational.fr/",
@@ -1374,6 +1384,11 @@
       "proposal_id": "auto-bruno-retailleau-securite-justice-703dc438f470",
       "source_url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/",
       "verified_at": "2026-08-11T12:47:28+00:00"
+    },
+    "7082f4e0ac5c6b44b5dfd3ba5b7f1fb25e06f6c85f602db3d34d4e16548e3f72": {
+      "proposal_id": "auto-gabriel-attal-economie-finances-7082f4e0ac5c",
+      "source_url": "https://attalpresident.fr/actualites/gabriel-attal-voix-du-nord-france-premiere-puissance-europe-primaire",
+      "verified_at": "2026-11-17T09:23:34+00:00"
     },
     "70a5d33eeebc70e346db4d63692f686b7f398b22c12ed92bf8f499ed8d5ad363": {
       "proposal_id": "auto-gabriel-attal-pouvoir-achat-travail-70a5d33eeebc",
@@ -1949,6 +1964,11 @@
       "proposal_id": "auto-la-france-insoumise-services-publics-a1fb604e7b77",
       "source_url": "https://melenchon2027.fr/programme/plans-thematiques/esr/",
       "verified_at": "2026-11-11T07:53:31+00:00"
+    },
+    "a3303519a30224d70a3220ccdfc80066ddc11697d8baa90d4c3cf0dd2bf50558": {
+      "proposal_id": "auto-gabriel-attal-institutions-democratie-a3303519a302",
+      "source_url": "https://attalpresident.fr/actualites/gabriel-attal-france-inter-smic-droit-au-brut-primaire-2027",
+      "verified_at": "2026-11-17T09:23:16+00:00"
     },
     "a34aaad24087271f4e3272b2d4a8940ec3e567a0db1bc3791502c279e1e22825": {
       "proposal_id": "auto-delphine-batho-securite-justice-a34aaad24087",
@@ -2973,7 +2993,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-11-16T23:01:38+00:00",
+  "last_run_at": "2026-11-17T09:23:38+00:00",
   "source_chunks": {
     "000e79baea11403029d335b1": {
       "canonical_confirmations": [
@@ -6555,6 +6575,26 @@
       "total": 1,
       "updated_at": "2026-08-17T19:56:45+00:00",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
+    "0d29628e772bb02984f3e283": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-11-17T09:23:47+00:00",
+      "document_types": [
+        "other"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "b5e2dbe226ce59d1092a119a427389219b2665d761e3eb7a3d92980f9f5fb72c",
+      "source_title": "Non, je ne me réjouis pas du tout quand un site industriel comme Fibre Excellence est placé en liquidation judiciaire. Toutes les activités humaines ont un impact environnemental,",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-17T09:23:49+00:00",
+      "url": "https://bsky.app/profile/marinetondelier.fr/post/3n2gof74sx22i"
     },
     "0d2e7335adae103729c1863f": {
       "canonical_confirmations": [],
@@ -32718,7 +32758,7 @@
       "statuses": [],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-11-16T23:01:37+00:00",
+      "updated_at": "2026-11-17T09:22:59+00:00",
       "url": "https://melenchon2027.fr/evenement/campagne/reunion-publique-soutien-a-la-candidature-de-jean-luc-melenchon/"
     },
     "75d9454c00ef128de75c6c7f": {
@@ -56528,6 +56568,103 @@
       "updated_at": "2026-10-01T07:19:16+00:00",
       "url": "https://rassemblementnational.fr/"
     },
+    "cf9122080ece9582ebba77b2": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "gabriel-attal",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "il défend son « droit au brut », une proposition visant à rapprocher le salaire net",
+            "relevance": "direct",
+            "statement": "Il propose un droit au brut pour rapprocher le salaire net du salaire brut en réduisant les cotisations salariales.",
+            "topic": "pouvoir-achat-travail"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La proposition sur le droit au brut est explicitement soutenue par la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "gabriel-attal",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "Gabriel Attal a réaffirmé la nécessité d’organiser une primaire pour désigner un candidat",
+            "relevance": "direct",
+            "statement": "Il souhaite organiser une primaire ouverte pour l'élection présidentielle afin de désigner un candidat de rassemblement.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La proposition d'organiser une primaire ouverte est explicitement soutenue par la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [
+        {
+          "claim": {
+            "actor_id": "gabriel-attal",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "il défend son « droit au brut », une proposition visant à rapprocher le salaire net",
+            "relevance": "direct",
+            "statement": "Il propose un droit au brut pour rapprocher le salaire net du salaire brut en réduisant les cotisations salariales.",
+            "topic": "pouvoir-achat-travail"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La proposition sur le droit au brut est explicitement soutenue par la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "gabriel-attal",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "Gabriel Attal a réaffirmé la nécessité d’organiser une primaire pour désigner un candidat",
+            "relevance": "direct",
+            "statement": "Il souhaite organiser une primaire ouverte pour l'élection présidentielle afin de désigner un candidat de rassemblement.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La proposition d'organiser une primaire ouverte est explicitement soutenue par la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "completed_at": "2026-11-17T09:23:16+00:00",
+      "created_at": "2026-11-17T09:23:00+00:00",
+      "document_types": [
+        "official_interview"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-11-10"
+      ],
+      "sha256": "768889bf51f03df9e2c1a2ef192afd6827edc81b2caf1254f98431560181ff9a",
+      "source_title": "Gabriel Attal sur France Inter : SMIC, salaires, primaire",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-17T09:23:16+00:00",
+      "url": "https://attalpresident.fr/actualites/gabriel-attal-france-inter-smic-droit-au-brut-primaire-2027"
+    },
     "cfe93c6b7b62c90ecadc8d49": {
       "canonical_confirmations": [],
       "claims": [],
@@ -56814,6 +56951,26 @@
       "updated_at": "2026-10-10T13:58:01+00:00",
       "url": "https://www.youtube.com/shorts/ozI7E_0u8Uc"
     },
+    "d0699579b8f6c14b9d25f6f1": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-11-17T09:23:41+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "9dc4fc8cd36424bb8a8fe56db4b9e8eba86e468b1f6a31033439803ea3892def",
+      "source_title": "🔴 LE TEMPS DE SUBIR EST FINI : ceux qui font tourner le pays doivent décider ! Lancement de campag",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-17T09:23:42+00:00",
+      "url": "https://www.youtube.com/shorts/-7K8D6L_80s"
+    },
     "d07a6d0a9f1946b75270f7ae": {
       "canonical_confirmations": [
         {
@@ -56985,6 +57142,26 @@
       "total": 1,
       "updated_at": "2026-10-08T19:29:00+00:00",
       "url": "https://solutiondemocratique.fr/jean-luc-melenchon-programme-presidentielle2027/"
+    },
+    "d19518a8c33a1efde269825a": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-11-17T09:23:43+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "e0c61bc987abcd10db821e6323a3775161f9b2883bca3421016b68ccd38e1356",
+      "source_title": "🔴 Travailleurs de l'éducation, c'est aussi la classe ouvrière ! – MEETING LE 21 NOVEMBRE",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-17T09:23:46+00:00",
+      "url": "https://www.youtube.com/shorts/jVYJrklR-ig"
     },
     "d1ddaa778edd04096167b573": {
       "canonical_confirmations": [
@@ -61213,6 +61390,26 @@
       "updated_at": "2026-09-25T12:54:56+00:00",
       "url": "https://rassemblementnational.fr/"
     },
+    "e4eef399d8f177d494d0ff68": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-11-17T09:23:39+00:00",
+      "document_types": [
+        "other"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "1c18f17cc464d9f3f894ddb6e752b63edcdd3696db29f583ed1bf3d218165dc3",
+      "source_title": "🔴 PARIS | L’AG interpro Paris Est, composé des lycéens, étudiants et travailleurs de la santé et de",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-17T09:23:40+00:00",
+      "url": "https://www.youtube.com/shorts/Ne9BX1l9lZk"
+    },
     "e4f6188e4af1c494f28c3313": {
       "canonical_confirmations": [
         {
@@ -61854,6 +62051,131 @@
       "total": 1,
       "updated_at": "2026-08-11T20:16:20+00:00",
       "url": "https://parti-equinoxe.fr/legislatives-2022-programme-technique/"
+    },
+    "e6cb853a2afc8457b3922f98": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "gabriel-attal",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "La France peut redevenir la première puissance d’Europe en dix ans",
+            "relevance": "direct",
+            "statement": "Faire de la France la première puissance européenne d'ici dix ans.",
+            "topic": "economie-finances"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La proposition est explicitement présente dans la source et complète la vision économique.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "gabriel-attal",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "un prix de l’électricité gelé pendant dix ans et inférieur à 50 euros",
+            "relevance": "direct",
+            "statement": "Garantir un prix de l'électricité gelé pendant dix ans et inférieur à 50 euros par mégawattheure pour les industriels exposés.",
+            "topic": "economie-finances"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "Le gel du prix de l'électricité est explicitement mentionné dans la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "gabriel-attal",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "gain de 250 euros nets par mois",
+            "relevance": "direct",
+            "statement": "Réduire les cotisations salariales pour augmenter directement les salaires nets, représentant un gain de 250 euros par mois pour le salaire médian.",
+            "topic": "pouvoir-achat-travail"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "Redondant avec l'entrée existante sur la réduction des cotisations salariales pour le salaire net.",
+            "related_proposal_id": "auto-gabriel-attal-pouvoir-achat-travail-525b1f17e58e",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [
+        {
+          "claim": {
+            "actor_id": "gabriel-attal",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "La France peut redevenir la première puissance d’Europe en dix ans",
+            "relevance": "direct",
+            "statement": "Faire de la France la première puissance européenne d'ici dix ans.",
+            "topic": "economie-finances"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La proposition est explicitement présente dans la source et complète la vision économique.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "gabriel-attal",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "un prix de l’électricité gelé pendant dix ans et inférieur à 50 euros",
+            "relevance": "direct",
+            "statement": "Garantir un prix de l'électricité gelé pendant dix ans et inférieur à 50 euros par mégawattheure pour les industriels exposés.",
+            "topic": "economie-finances"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "Le gel du prix de l'électricité est explicitement mentionné dans la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "completed_at": "2026-11-17T09:23:34+00:00",
+      "created_at": "2026-11-17T09:23:22+00:00",
+      "document_types": [
+        "official_interview"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-11-07"
+      ],
+      "sha256": "20778755aecc30b408e92301697df692c8b57cf7ed628bbc83bb4e715a37a63d",
+      "source_title": "Gabriel Attal dans La Voix du Nord : primaire et économie",
+      "statuses": [
+        {
+          "status": {
+            "candidate_id": "gabriel-attal",
+            "effective_date": "2026-11-07",
+            "evidence_quote": "défend l’organisation d’une primaire de la droite et du centre pour l’élection présidentielle de 2027",
+            "explicit": true,
+            "new_status": "declared_presidential"
+          }
+        }
+      ],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-17T09:23:34+00:00",
+      "url": "https://attalpresident.fr/actualites/gabriel-attal-voix-du-nord-france-premiere-puissance-europe-primaire"
     },
     "e71513d3a614b017a39ccda6": {
       "canonical_confirmations": [
@@ -68685,6 +69007,15 @@
       "status": "not_confirmed",
       "url": "https://generationecologie.fr/publication/investiture-de-delphine-batho-a-lelection-presidentielle/"
     },
+    "09cc4a8ab2a2": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-11-17T09:23:20+00:00",
+      "reason": null,
+      "source_sha256": "768889bf51f03df9e2c1a2ef192afd6827edc81b2caf1254f98431560181ff9a",
+      "status": "promoted",
+      "url": "https://attalpresident.fr/actualites/gabriel-attal-france-inter-smic-droit-au-brut-primaire-2027"
+    },
     "0a55c0bbca63": {
       "chunks_done": null,
       "chunks_total": null,
@@ -72198,6 +72529,15 @@
       "status": "promoted",
       "url": "https://attalpresident.fr/programme"
     },
+    "81277844f4fe": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-11-17T09:22:59+00:00",
+      "reason": null,
+      "source_sha256": "d6de553c58f3418a0a848732e2677732e68b0bd9f15f211d788f54cd8ea4fd10",
+      "status": "not_confirmed",
+      "url": "https://melenchon2027.fr/evenement/campagne/reunion-publique-soutien-a-la-candidature-de-jean-luc-melenchon/"
+    },
     "81d4ddf78983": {
       "chunks_done": null,
       "chunks_total": null,
@@ -72719,6 +73059,15 @@
       "source_sha256": "e153c17316f392e81d77824a2a67a358f2557be1c9ea5a034b174fe33369e4e2",
       "status": "promoted",
       "url": "https://melenchon2027.fr/programme2025/livre/chapitre3/"
+    },
+    "943d7e31f5b2": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-11-17T09:23:38+00:00",
+      "reason": null,
+      "source_sha256": "20778755aecc30b408e92301697df692c8b57cf7ed628bbc83bb4e715a37a63d",
+      "status": "promoted",
+      "url": "https://attalpresident.fr/actualites/gabriel-attal-voix-du-nord-france-premiere-puissance-europe-primaire"
     },
     "9469652218eb": {
       "chunks_done": null,
