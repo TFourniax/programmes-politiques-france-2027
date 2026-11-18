@@ -1,0 +1,53 @@
+{
+  "errors": [],
+  "generated_at": "2026-11-18T21:34:16+00:00",
+  "historical_skipped": 0,
+  "partial": 0,
+  "processed": 3,
+  "promoted": 3,
+  "proposals_created": 6,
+  "results": [
+    {
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/partys/la-france-insoumise/2026-11-18-796b10005baf.md",
+      "proposals": [],
+      "sha256": "c3d74aba62bad17d2fd79c816dd3ea834072f7231bd7bb746ed3bd1a0c777f9d",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://melenchon2027.fr/evenement/campagne/reunion-publique-soutien-a-la-candidature-de-jean-luc-melenchon/",
+      "verified_at": "2026-11-18T21:33:49+00:00"
+    },
+    {
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/candidates/gabriel-attal/2026-11-11-08ca2202dcb9.md",
+      "proposals": [
+        "proposals/auto/economie-finances/auto-gabriel-attal-economie-finances-3ac037ea0625.md",
+        "proposals/auto/fiscalite-redistribution/auto-gabriel-attal-fiscalite-redistribution-a0726b013dd5.md",
+        "proposals/auto/economie-finances/auto-gabriel-attal-economie-finances-93aac9bf8305.md",
+        "proposals/auto/economie-finances/auto-gabriel-attal-economie-finances-31fc730726c8.md",
+        "proposals/auto/fiscalite-redistribution/auto-gabriel-attal-fiscalite-redistribution-18fc361307d8.md",
+        "proposals/auto/ecologie-energie/auto-gabriel-attal-ecologie-energie-f1b2b23aea5f.md"
+      ],
+      "sha256": "c20ac9443b6fd3c0c20357f2d978c37b975db816ceaaf930422984d407be2207",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://attalpresident.fr/actualites/gabriel-attal-sud-ouest-tous-proprietaires-banque-investissement-logement",
+      "verified_at": "2026-11-18T21:33:59+00:00"
+    },
+    {
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/candidates/gabriel-attal/2026-11-04-ef79146b646b.md",
+      "proposals": [],
+      "provenance_updates": [
+        "auto-gabriel-attal-institutions-democratie-a3303519a302",
+        "auto-gabriel-attal-securite-justice-4591f47237a6"
+      ],
+      "sha256": "431f38a1d7c3a57e315c64a80ae9e76d57788b6ca821e7985bf3affce48e0590",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://attalpresident.fr/actualites/gabriel-attal-bfm-tv-seule-primaire-peut-permettre-rassemblement",
+      "verified_at": "2026-11-18T21:34:16+00:00"
+    }
+  ],
+  "status_updates": 0
+}

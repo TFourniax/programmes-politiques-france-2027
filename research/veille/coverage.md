@@ -8,10 +8,10 @@ Ce rapport est dérivé automatiquement du corpus courant. Il sert à piloter la
 
 - 68 acteurs référencés ;
 - 28 candidatures actives ou déclarées suivies ;
-- 1560 propositions atomiques courantes ;
-- 171 / 816 cases acteur × thème couvertes (21.0 %) ;
-- 80 / 336 cases candidat actif × thème couvertes (23.8 %) ;
-- 1527 propositions marquées vérifiées ; 139 appuyées par au moins deux documents de preuve.
+- 1566 propositions atomiques courantes ;
+- 172 / 816 cases acteur × thème couvertes (21.1 %) ;
+- 81 / 336 cases candidat actif × thème couvertes (24.1 %) ;
+- 1533 propositions marquées vérifiées ; 140 appuyées par au moins deux documents de preuve.
 
 ## Priorités documentaires
 
@@ -35,14 +35,14 @@ Ce rapport est dérivé automatiquement du corpus courant. Il sert à piloter la
 
 - **Numérique & IA** (`numerique-ia`) — 5 acteur(s), 6 proposition(s), dernière preuve 2026-08-14.
 - **Défense & international** (`defense-international`) — 6 acteur(s), 7 proposition(s), dernière preuve 2026-08-14.
-- **Fiscalité & redistribution** (`fiscalite-redistribution`) — 11 acteur(s), 77 proposition(s), dernière preuve 2026-11-08.
+- **Fiscalité & redistribution** (`fiscalite-redistribution`) — 12 acteur(s), 79 proposition(s), dernière preuve 2026-11-11.
 - **Immigration & intégration** (`immigration-integration`) — 12 acteur(s), 70 proposition(s), dernière preuve 2026-11-07.
 - **Europe & souveraineté** (`europe-souverainete`) — 13 acteur(s), 119 proposition(s), dernière preuve 2026-11-12.
 - **Retraites** (`retraites`) — 14 acteur(s), 25 proposition(s), dernière preuve 2026-11-07.
 - **Sécurité & justice** (`securite-justice`) — 14 acteur(s), 161 proposition(s), dernière preuve 2026-11-07.
-- **Économie & finances publiques** (`economie-finances`) — 18 acteur(s), 139 proposition(s), dernière preuve 2026-11-17.
+- **Économie & finances publiques** (`economie-finances`) — 18 acteur(s), 142 proposition(s), dernière preuve 2026-11-17.
 - **Services publics** (`services-publics`) — 18 acteur(s), 305 proposition(s), dernière preuve 2026-11-13.
-- **Écologie & énergie** (`ecologie-energie`) — 19 acteur(s), 262 proposition(s), dernière preuve 2026-11-13.
+- **Écologie & énergie** (`ecologie-energie`) — 19 acteur(s), 263 proposition(s), dernière preuve 2026-11-13.
 - **Institutions & démocratie** (`institutions-democratie`) — 19 acteur(s), 286 proposition(s), dernière preuve 2026-11-17.
 - **Pouvoir d’achat & travail** (`pouvoir-achat-travail`) — 22 acteur(s), 103 proposition(s), dernière preuve 2026-11-11.
 

@@ -6,18 +6,18 @@
     "actors": 68,
     "declared_or_active_candidates": 28,
     "topics": 12,
-    "current_proposals": 1560,
-    "covered_actor_topic_cells": 171,
+    "current_proposals": 1566,
+    "covered_actor_topic_cells": 172,
     "total_actor_topic_cells": 816,
-    "actor_topic_coverage_ratio": 0.2096,
-    "active_candidate_covered_cells": 80,
+    "actor_topic_coverage_ratio": 0.2108,
+    "active_candidate_covered_cells": 81,
     "active_candidate_total_cells": 336,
-    "active_candidate_topic_coverage_ratio": 0.2381,
-    "verified_proposals": 1527,
-    "multi_source_proposals": 139,
+    "active_candidate_topic_coverage_ratio": 0.2411,
+    "verified_proposals": 1533,
+    "multi_source_proposals": 140,
     "latest_evidence_at": "2026-11-17",
     "certainty_counts": {
-      "explicit": 1531,
+      "explicit": 1537,
       "explicit_but_conditional": 3,
       "explicit_but_underspecified": 26
     }
@@ -667,11 +667,12 @@
       "type": "candidate",
       "status": "declared_presidential",
       "confidence": "high",
-      "current_proposals": 41,
+      "current_proposals": 47,
       "covered_topics": [
         "ecologie-energie",
         "economie-finances",
         "europe-souverainete",
+        "fiscalite-redistribution",
         "immigration-integration",
         "institutions-democratie",
         "pouvoir-achat-travail",
@@ -679,15 +680,14 @@
         "securite-justice",
         "services-publics"
       ],
-      "coverage_ratio": 0.75,
+      "coverage_ratio": 0.8333,
       "gaps": [
-        "fiscalite-redistribution",
         "defense-international",
         "numerique-ia"
       ],
-      "latest_evidence_at": "2026-11-10",
-      "verified_proposals": 41,
-      "multi_source_proposals": 16
+      "latest_evidence_at": "2026-11-11",
+      "verified_proposals": 47,
+      "multi_source_proposals": 17
     },
     {
       "id": "generation-ecologie",
@@ -1979,11 +1979,11 @@
     {
       "id": "fiscalite-redistribution",
       "label": "Fiscalité & redistribution",
-      "current_proposals": 77,
-      "actors_covered": 11,
-      "actor_coverage_ratio": 0.1618,
-      "latest_evidence_at": "2026-11-08",
-      "verified_proposals": 75,
+      "current_proposals": 79,
+      "actors_covered": 12,
+      "actor_coverage_ratio": 0.1765,
+      "latest_evidence_at": "2026-11-11",
+      "verified_proposals": 77,
       "multi_source_proposals": 4
     },
     {
@@ -2019,11 +2019,11 @@
     {
       "id": "ecologie-energie",
       "label": "Écologie & énergie",
-      "current_proposals": 262,
+      "current_proposals": 263,
       "actors_covered": 19,
       "actor_coverage_ratio": 0.2794,
       "latest_evidence_at": "2026-11-13",
-      "verified_proposals": 256,
+      "verified_proposals": 257,
       "multi_source_proposals": 13
     },
     {
@@ -2034,7 +2034,7 @@
       "actor_coverage_ratio": 0.2794,
       "latest_evidence_at": "2026-11-17",
       "verified_proposals": 282,
-      "multi_source_proposals": 42
+      "multi_source_proposals": 43
     },
     {
       "id": "services-publics",
@@ -2059,11 +2059,11 @@
     {
       "id": "economie-finances",
       "label": "Économie & finances publiques",
-      "current_proposals": 139,
+      "current_proposals": 142,
       "actors_covered": 18,
       "actor_coverage_ratio": 0.2647,
       "latest_evidence_at": "2026-11-17",
-      "verified_proposals": 138,
+      "verified_proposals": 141,
       "multi_source_proposals": 14
     },
     {
@@ -3498,9 +3498,9 @@
       "id": "gabriel-attal",
       "name": "Gabriel Attal",
       "status": "declared_presidential",
-      "coverage_ratio": 0.75,
-      "current_proposals": 41,
-      "latest_evidence_at": "2026-11-10",
+      "coverage_ratio": 0.8333,
+      "current_proposals": 47,
+      "latest_evidence_at": "2026-11-11",
       "topics": [
         {
           "id": "pouvoir-achat-travail",
@@ -3523,10 +3523,10 @@
         {
           "id": "fiscalite-redistribution",
           "label": "Fiscalité & redistribution",
-          "covered": false,
-          "current_proposals": 0,
-          "latest_evidence_at": null,
-          "verified_proposals": 0,
+          "covered": true,
+          "current_proposals": 2,
+          "latest_evidence_at": "2026-11-11",
+          "verified_proposals": 2,
           "multi_source_proposals": 0
         },
         {
@@ -3560,9 +3560,9 @@
           "id": "ecologie-energie",
           "label": "Écologie & énergie",
           "covered": true,
-          "current_proposals": 5,
-          "latest_evidence_at": "2026-10-19",
-          "verified_proposals": 5,
+          "current_proposals": 6,
+          "latest_evidence_at": "2026-11-11",
+          "verified_proposals": 6,
           "multi_source_proposals": 2
         },
         {
@@ -3570,9 +3570,9 @@
           "label": "Institutions & démocratie",
           "covered": true,
           "current_proposals": 1,
-          "latest_evidence_at": "2026-11-10",
+          "latest_evidence_at": "2026-11-04",
           "verified_proposals": 1,
-          "multi_source_proposals": 0
+          "multi_source_proposals": 1
         },
         {
           "id": "services-publics",
@@ -3588,7 +3588,7 @@
           "label": "Sécurité & justice",
           "covered": true,
           "current_proposals": 4,
-          "latest_evidence_at": "2026-10-19",
+          "latest_evidence_at": "2026-11-04",
           "verified_proposals": 4,
           "multi_source_proposals": 3
         },
@@ -3596,9 +3596,9 @@
           "id": "economie-finances",
           "label": "Économie & finances publiques",
           "covered": true,
-          "current_proposals": 7,
-          "latest_evidence_at": "2026-11-07",
-          "verified_proposals": 7,
+          "current_proposals": 10,
+          "latest_evidence_at": "2026-11-11",
+          "verified_proposals": 10,
           "multi_source_proposals": 3
         },
         {

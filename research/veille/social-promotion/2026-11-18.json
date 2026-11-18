@@ -1,37 +1,31 @@
 {
   "errors": [],
-  "generated_at": "2026-11-18T08:43:45+00:00",
+  "generated_at": "2026-11-18T21:34:28+00:00",
   "partial": 0,
   "processed": 4,
-  "promoted": 1,
+  "promoted": 0,
   "proposals_created": 0,
-  "provenance_updates": 1,
+  "provenance_updates": 0,
   "results": [
     {
-      "sha256": "9107979cbd349e6953fdf71ef1703fe8a04bf6db8b97fdcef21d7d7606e07e31",
+      "sha256": "9685ce1052301aebf1741be2f8247f4f2b9e9a1a23f3a5b502e2b9f4bd71d8c6",
       "status": "not_confirmed",
-      "url": "https://bsky.app/profile/marinetondelier.fr/post/3n2jkknr3e223"
+      "url": "https://www.youtube.com/watch?v=RBZea6yjX_U"
     },
     {
-      "document": "corpus/2027/auto/partys/revolution-permanente/2026-11-17-afee22165d91.md",
-      "provenance_updates": [
-        "auto-revolution-permanente-institutions-democratie-dcbc5ab5164c"
-      ],
-      "reason": "canonical_duplicate_evidence",
-      "sha256": "a3986ee84e8cab00a8fbf2a5f7553c5f573ca08478a9f9fced9dd4be7a991179",
-      "status": "promoted",
-      "url": "https://www.youtube.com/shorts/188H1PqIJbA",
-      "verified_at": "2026-11-18T08:43:40+00:00"
+      "sha256": "7b409d4808f1cc8a4f2cfdce6f2c6dc23a9647bd966c785cc76f9f10a9390802",
+      "status": "not_confirmed",
+      "url": "https://bsky.app/profile/marinetondelier.fr/post/3n2mfnm4w5227"
     },
     {
-      "sha256": "6d20bfdedae14cd5f2c711d3d011bc6589a0d6b319d4952e0c02b15bbd17ffbd",
+      "sha256": "3d637b841645a78e72c46c7d4eecd58872304cc3646fb61c093146df0ee53eea",
       "status": "not_confirmed",
-      "url": "https://www.youtube.com/shorts/GaBTTPfGPss"
+      "url": "https://www.youtube.com/watch?v=17zZk-HOLSo"
     },
     {
-      "sha256": "a790de6cab02490f245684e63e74a77c46b85c9671fbd460208a3dc596278195",
+      "sha256": "1a68a2015c2ea589a8f3ef6c1ab2e89fb69b053bd9b54515dde329f09bd734af",
       "status": "not_confirmed",
-      "url": "https://www.youtube.com/watch?v=yKRvWCKwHQs"
+      "url": "https://www.youtube.com/shorts/WQT6qPRL_cI"
     }
   ],
   "status_updates": 0

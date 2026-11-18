@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created_at": "2026-08-17T19:57:19.441897+00:00",
-  "updated_at": "2026-11-18T08:43:47.741594+00:00",
+  "updated_at": "2026-11-18T21:34:31.311986+00:00",
   "files": [
     {
       "path": "corpus/2027/auto/candidates/anasse-kazib/2026-08-28-38891602d9d9.md",
@@ -859,6 +859,11 @@
       "size": 1962
     },
     {
+      "path": "corpus/2027/auto/candidates/gabriel-attal/2026-11-04-ef79146b646b.md",
+      "sha256": "42ce8e3244f06eb18cae9011312d54a5e928ff79df2cb5da7865bd4c285f7b4d",
+      "size": 2122
+    },
+    {
       "path": "corpus/2027/auto/candidates/gabriel-attal/2026-11-06-d93adb069b37.md",
       "sha256": "0fb873c0ffd2cca0d12256b305edb5a54762bd771376e8f461e9abe3cfcdda12",
       "size": 2035
@@ -872,6 +877,11 @@
       "path": "corpus/2027/auto/candidates/gabriel-attal/2026-11-10-cf9122080ece.md",
       "sha256": "dddd98077f14a160bff88ae2d5dfcae9016c23c16750c4c920f749f14d9f9e68",
       "size": 1886
+    },
+    {
+      "path": "corpus/2027/auto/candidates/gabriel-attal/2026-11-11-08ca2202dcb9.md",
+      "sha256": "e06f1930310df7b8428feb49c937ef169d38b24ed30a41fca215242e294092d6",
+      "size": 2665
     },
     {
       "path": "corpus/2027/auto/candidates/jean-luc-melenchon/2026-09-18-a1a666a8c110.md",
@@ -2254,6 +2264,11 @@
       "size": 1969
     },
     {
+      "path": "proposals/auto/ecologie-energie/auto-gabriel-attal-ecologie-energie-f1b2b23aea5f.md",
+      "sha256": "2760261d786b3da697093b00a9b77d37221b649c6383520cdf550748d12db1c8",
+      "size": 1470
+    },
+    {
       "path": "proposals/auto/ecologie-energie/auto-jean-luc-melenchon-ecologie-energie-5d757538ea91.md",
       "sha256": "8895b79e24ea0a77f251c752d0def286b4af3f68f96a9c2dc186e4af42dd3fa7",
       "size": 1455
@@ -2814,6 +2829,16 @@
       "size": 1368
     },
     {
+      "path": "proposals/auto/economie-finances/auto-gabriel-attal-economie-finances-31fc730726c8.md",
+      "sha256": "ee53634fcb1886433beed5b60c530ef124b66255e9aa589a9ded0d8788e3057a",
+      "size": 1392
+    },
+    {
+      "path": "proposals/auto/economie-finances/auto-gabriel-attal-economie-finances-3ac037ea0625.md",
+      "sha256": "4476ecf82737e96afa041531d70c79547fb49220323a233b9f9a6f5f786a7d33",
+      "size": 1455
+    },
+    {
       "path": "proposals/auto/economie-finances/auto-gabriel-attal-economie-finances-44c5426415ce.md",
       "sha256": "558c658c5f16dc3fbe8495d1a1e4ae4bc3ef6951337e2a5835b2f83e5ed9dc52",
       "size": 1654
@@ -2832,6 +2857,11 @@
       "path": "proposals/auto/economie-finances/auto-gabriel-attal-economie-finances-7d59510bf5b0.md",
       "sha256": "9a716f4f2352332224ff28df87b7dee7c36dd72b7c7b91199b4efb55c630af88",
       "size": 2100
+    },
+    {
+      "path": "proposals/auto/economie-finances/auto-gabriel-attal-economie-finances-93aac9bf8305.md",
+      "sha256": "cbbb74cb303a7d6c8a73773df52cd7fe05fa49837638c0184062fe8aa0ef2564",
+      "size": 1259
     },
     {
       "path": "proposals/auto/economie-finances/auto-gabriel-attal-economie-finances-9f45e1d61977.md",
@@ -3059,6 +3089,16 @@
       "size": 1869
     },
     {
+      "path": "proposals/auto/fiscalite-redistribution/auto-gabriel-attal-fiscalite-redistribution-18fc361307d8.md",
+      "sha256": "94205304f06bbee1208107cf37e210df63b72dd830c3600837063d15c078684d",
+      "size": 1433
+    },
+    {
+      "path": "proposals/auto/fiscalite-redistribution/auto-gabriel-attal-fiscalite-redistribution-a0726b013dd5.md",
+      "sha256": "911d33992e146c3998aade9fbbd16aa1f02387869e5a4355c57ca9aea1499260",
+      "size": 1477
+    },
+    {
       "path": "proposals/auto/fiscalite-redistribution/auto-la-france-insoumise-fiscalite-redistribution-66cc0cc9aada.md",
       "sha256": "2a2b8d7fe59e1e0f19216ab9e7b1765bc40364f3affb8244a15df588f9500981",
       "size": 1522
@@ -3260,8 +3300,8 @@
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-gabriel-attal-institutions-democratie-a3303519a302.md",
-      "sha256": "220c4fa5466ed5e6442bd921f4bee5d08099c3d91debfc39c56735b6a79dae76",
-      "size": 1489
+      "sha256": "892524eef728ed9000ec9f119492ff29161428d9a2107a01e4a42e9afa7aad48",
+      "size": 1957
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-jean-luc-melenchon-institutions-democratie-8e09285dec35.md",
@@ -3875,8 +3915,8 @@
     },
     {
       "path": "proposals/auto/securite-justice/auto-gabriel-attal-securite-justice-4591f47237a6.md",
-      "sha256": "75878b4d04bdf798b911146147084ef4a60642da6ca132bbd1d86894a58fb009",
-      "size": 1817
+      "sha256": "9d22a5469dab7c5396e1235af96c10eaca221276f8dad484e5535731dfe22726",
+      "size": 2034
     },
     {
       "path": "proposals/auto/securite-justice/auto-la-france-insoumise-securite-justice-0e709568045a.md",
