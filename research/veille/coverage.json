@@ -6,18 +6,18 @@
     "actors": 68,
     "declared_or_active_candidates": 28,
     "topics": 12,
-    "current_proposals": 1559,
-    "covered_actor_topic_cells": 170,
+    "current_proposals": 1560,
+    "covered_actor_topic_cells": 171,
     "total_actor_topic_cells": 816,
-    "actor_topic_coverage_ratio": 0.2083,
-    "active_candidate_covered_cells": 79,
+    "actor_topic_coverage_ratio": 0.2096,
+    "active_candidate_covered_cells": 80,
     "active_candidate_total_cells": 336,
-    "active_candidate_topic_coverage_ratio": 0.2351,
-    "verified_proposals": 1526,
-    "multi_source_proposals": 138,
-    "latest_evidence_at": "2026-11-13",
+    "active_candidate_topic_coverage_ratio": 0.2381,
+    "verified_proposals": 1527,
+    "multi_source_proposals": 139,
+    "latest_evidence_at": "2026-11-17",
     "certainty_counts": {
-      "explicit": 1530,
+      "explicit": 1531,
       "explicit_but_conditional": 3,
       "explicit_but_underspecified": 26
     }
@@ -1298,12 +1298,13 @@
       "type": "candidate",
       "status": "declared_presidential",
       "confidence": "high",
-      "current_proposals": 2,
+      "current_proposals": 3,
       "covered_topics": [
+        "economie-finances",
         "europe-souverainete",
         "securite-justice"
       ],
-      "coverage_ratio": 0.1667,
+      "coverage_ratio": 0.25,
       "gaps": [
         "pouvoir-achat-travail",
         "retraites",
@@ -1313,11 +1314,10 @@
         "ecologie-energie",
         "institutions-democratie",
         "services-publics",
-        "economie-finances",
         "numerique-ia"
       ],
-      "latest_evidence_at": "2026-08-11",
-      "verified_proposals": 2,
+      "latest_evidence_at": "2026-11-17",
+      "verified_proposals": 3,
       "multi_source_proposals": 1
     },
     {
@@ -1676,9 +1676,9 @@
         "defense-international",
         "numerique-ia"
       ],
-      "latest_evidence_at": "2026-11-11",
+      "latest_evidence_at": "2026-11-17",
       "verified_proposals": 19,
-      "multi_source_proposals": 6
+      "multi_source_proposals": 7
     },
     {
       "id": "sarah-knafo",
@@ -2032,9 +2032,9 @@
       "current_proposals": 286,
       "actors_covered": 19,
       "actor_coverage_ratio": 0.2794,
-      "latest_evidence_at": "2026-11-12",
+      "latest_evidence_at": "2026-11-17",
       "verified_proposals": 282,
-      "multi_source_proposals": 41
+      "multi_source_proposals": 42
     },
     {
       "id": "services-publics",
@@ -2059,11 +2059,11 @@
     {
       "id": "economie-finances",
       "label": "Économie & finances publiques",
-      "current_proposals": 138,
-      "actors_covered": 17,
-      "actor_coverage_ratio": 0.25,
-      "latest_evidence_at": "2026-11-10",
-      "verified_proposals": 137,
+      "current_proposals": 139,
+      "actors_covered": 18,
+      "actor_coverage_ratio": 0.2647,
+      "latest_evidence_at": "2026-11-17",
+      "verified_proposals": 138,
       "multi_source_proposals": 14
     },
     {
@@ -4678,9 +4678,9 @@
       "id": "nicolas-dupont-aignan",
       "name": "Nicolas Dupont-Aignan",
       "status": "declared_presidential",
-      "coverage_ratio": 0.1667,
-      "current_proposals": 2,
-      "latest_evidence_at": "2026-08-11",
+      "coverage_ratio": 0.25,
+      "current_proposals": 3,
+      "latest_evidence_at": "2026-11-17",
       "topics": [
         {
           "id": "pouvoir-achat-travail",
@@ -4775,10 +4775,10 @@
         {
           "id": "economie-finances",
           "label": "Économie & finances publiques",
-          "covered": false,
-          "current_proposals": 0,
-          "latest_evidence_at": null,
-          "verified_proposals": 0,
+          "covered": true,
+          "current_proposals": 1,
+          "latest_evidence_at": "2026-11-17",
+          "verified_proposals": 1,
           "multi_source_proposals": 0
         },
         {
@@ -5709,26 +5709,6 @@
       ]
     },
     {
-      "id": "nicolas-dupont-aignan",
-      "name": "Nicolas Dupont-Aignan",
-      "status": "declared_presidential",
-      "coverage_ratio": 0.1667,
-      "current_proposals": 2,
-      "latest_evidence_at": "2026-08-11",
-      "gaps": [
-        "pouvoir-achat-travail",
-        "retraites",
-        "fiscalite-redistribution",
-        "immigration-integration",
-        "defense-international",
-        "ecologie-energie",
-        "institutions-democratie",
-        "services-publics",
-        "economie-finances",
-        "numerique-ia"
-      ]
-    },
-    {
       "id": "selma-labib",
       "name": "Selma Labib",
       "status": "party_designated",
@@ -5783,6 +5763,25 @@
         "defense-international",
         "securite-justice",
         "economie-finances",
+        "numerique-ia"
+      ]
+    },
+    {
+      "id": "nicolas-dupont-aignan",
+      "name": "Nicolas Dupont-Aignan",
+      "status": "declared_presidential",
+      "coverage_ratio": 0.25,
+      "current_proposals": 3,
+      "latest_evidence_at": "2026-11-17",
+      "gaps": [
+        "pouvoir-achat-travail",
+        "retraites",
+        "fiscalite-redistribution",
+        "immigration-integration",
+        "defense-international",
+        "ecologie-energie",
+        "institutions-democratie",
+        "services-publics",
         "numerique-ia"
       ]
     },

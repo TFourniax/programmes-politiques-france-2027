@@ -1,0 +1,38 @@
+{
+  "errors": [],
+  "generated_at": "2026-11-18T08:43:45+00:00",
+  "partial": 0,
+  "processed": 4,
+  "promoted": 1,
+  "proposals_created": 0,
+  "provenance_updates": 1,
+  "results": [
+    {
+      "sha256": "9107979cbd349e6953fdf71ef1703fe8a04bf6db8b97fdcef21d7d7606e07e31",
+      "status": "not_confirmed",
+      "url": "https://bsky.app/profile/marinetondelier.fr/post/3n2jkknr3e223"
+    },
+    {
+      "document": "corpus/2027/auto/partys/revolution-permanente/2026-11-17-afee22165d91.md",
+      "provenance_updates": [
+        "auto-revolution-permanente-institutions-democratie-dcbc5ab5164c"
+      ],
+      "reason": "canonical_duplicate_evidence",
+      "sha256": "a3986ee84e8cab00a8fbf2a5f7553c5f573ca08478a9f9fced9dd4be7a991179",
+      "status": "promoted",
+      "url": "https://www.youtube.com/shorts/188H1PqIJbA",
+      "verified_at": "2026-11-18T08:43:40+00:00"
+    },
+    {
+      "sha256": "6d20bfdedae14cd5f2c711d3d011bc6589a0d6b319d4952e0c02b15bbd17ffbd",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/shorts/GaBTTPfGPss"
+    },
+    {
+      "sha256": "a790de6cab02490f245684e63e74a77c46b85c9671fbd460208a3dc596278195",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/watch?v=yKRvWCKwHQs"
+    }
+  ],
+  "status_updates": 0
+}

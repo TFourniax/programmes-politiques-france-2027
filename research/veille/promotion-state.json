@@ -1935,6 +1935,11 @@
       "source_url": "https://lesecologistes.fr/document/5ZhR2m5t2ZaGKqIdD1bJaD/vdef-programme-1.pdf",
       "verified_at": "2026-08-19T02:42:33+00:00"
     },
+    "a0fcd08bc2a04c659ccbf7b5285f607df198018403d5f6f3af5198f279338ad5": {
+      "proposal_id": "auto-nicolas-dupont-aignan-economie-finances-a0fcd08bc2a0",
+      "source_url": "https://www.dupontaignan.fr/actualite/en-2027-je-serai-le-seul-candidat-souverainiste-tv-libertes/",
+      "verified_at": "2026-11-18T08:43:18+00:00"
+    },
     "a125ab0a12a4078c72cef4e99df519eff5bebe27df675b33e3bc539665e22cb9": {
       "proposal_id": "auto-david-lisnard-immigration-integration-a125ab0a12a4",
       "source_url": "https://www.unenouvelleenergie.fr/notre-programme/immigration/",
@@ -2991,9 +2996,9 @@
       "verified_at": "2026-08-13T08:51:16+00:00"
     }
   },
-  "last_error_count": 0,
-  "last_processed_count": 3,
-  "last_run_at": "2026-11-17T21:55:25+00:00",
+  "last_error_count": 1,
+  "last_processed_count": 2,
+  "last_run_at": "2026-11-18T08:43:33+00:00",
   "source_chunks": {
     "000e79baea11403029d335b1": {
       "canonical_confirmations": [
@@ -4984,6 +4989,19 @@
       "total": 1,
       "updated_at": "2026-08-20T20:02:05+00:00",
       "url": "https://bsky.app/profile/lesecologistes.fr/post/3mtjmarb6ek2f"
+    },
+    "08ca2202dcb98b2eba8d4f3b": {
+      "claims": [],
+      "created_at": "2026-11-18T08:43:21+00:00",
+      "document_types": [],
+      "done": [],
+      "published_candidates": [],
+      "sha256": "c20ac9443b6fd3c0c20357f2d978c37b975db816ceaaf930422984d407be2207",
+      "source_title": "Gabriel Attal dans Sud Ouest : une France de propriétaires",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "url": "https://attalpresident.fr/actualites/gabriel-attal-sud-ouest-tous-proprietaires-banque-investissement-logement"
     },
     "08d9a1c29b2d5a84a1df3d4a": {
       "canonical_confirmations": [
@@ -33597,6 +33615,26 @@
       "updated_at": "2026-09-22T12:46:27+00:00",
       "url": "https://www.youtube.com/shorts/1AqVhXMu5GU"
     },
+    "7951f3360b23a3b85ed06bba": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-11-18T08:43:33+00:00",
+      "document_types": [
+        "other"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "9107979cbd349e6953fdf71ef1703fe8a04bf6db8b97fdcef21d7d7606e07e31",
+      "source_title": "L’écologie va changer le monde ! Notre député Nicolas Thierry vient de remporter l’Earthshot Prize, le Nobel des prix environnementaux, face à 14 finalistes.",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-18T08:43:34+00:00",
+      "url": "https://bsky.app/profile/marinetondelier.fr/post/3n2jkknr3e223"
+    },
     "795b9b5d107f90662ac82d11": {
       "canonical_confirmations": [
         {
@@ -33659,7 +33697,7 @@
     "796b10005baf67afe67c3957": {
       "canonical_confirmations": [],
       "claims": [],
-      "completed_at": "2026-11-17T21:55:24+00:00",
+      "completed_at": "2026-11-18T08:43:11+00:00",
       "created_at": "2026-11-17T21:55:11+00:00",
       "document_types": [
         "campaign_website_page"
@@ -33684,7 +33722,7 @@
       ],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-11-17T21:55:24+00:00",
+      "updated_at": "2026-11-18T08:43:11+00:00",
       "url": "https://melenchon2027.fr/evenement/campagne/reunion-publique-soutien-a-la-candidature-de-jean-luc-melenchon/"
     },
     "79b6132f1c7e074dc33593a0": {
@@ -49157,6 +49195,46 @@
       "updated_at": "2026-09-30T23:10:26+00:00",
       "url": "https://www.youtube.com/shorts/ThNr2Z8iMJo"
     },
+    "afee22165d91e8b042b04533": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "revolution-permanente",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "campagne révolutionnaire",
+            "relevance": "party_platform",
+            "statement": "Révolution Permanente mène une campagne révolutionnaire en vue de 2027.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La source confirme la campagne révolutionnaire de Révolution Permanente pour 2027, ce qui est déjà présent dans le canon.",
+            "related_proposal_id": "auto-revolution-permanente-institutions-democratie-dcbc5ab5164c",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-11-18T08:43:40+00:00",
+      "created_at": "2026-11-18T08:43:35+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "a3986ee84e8cab00a8fbf2a5f7553c5f573ca08478a9f9fced9dd4be7a991179",
+      "source_title": "🔴 Lycéens mobilisés, docker italien qui a pris part à Blochiamo Tutto, Elsa Marcel, Alexis Durey…",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-18T08:43:38+00:00",
+      "url": "https://www.youtube.com/shorts/188H1PqIJbA"
+    },
     "b013a7533f0fc338c5295ce9": {
       "canonical_confirmations": [],
       "claims": [],
@@ -51919,6 +51997,26 @@
       "total": 1,
       "updated_at": "2026-08-22T13:53:52+00:00",
       "url": "https://www.unenouvelleenergie.fr/notre-programme/"
+    },
+    "bd245d3d257ecadb76daf63c": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-11-18T08:43:41+00:00",
+      "document_types": [
+        "other"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "6d20bfdedae14cd5f2c711d3d011bc6589a0d6b319d4952e0c02b15bbd17ffbd",
+      "source_title": "« On est des milliers d’étudiants, lycéens et travailleurs à manifester dans un grand pôle appelé pa",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-18T08:43:42+00:00",
+      "url": "https://www.youtube.com/shorts/GaBTTPfGPss"
     },
     "bd2d772f3eb4308b5181064f": {
       "canonical_confirmations": [],
@@ -55287,6 +55385,26 @@
       "updated_at": "2026-11-16T08:09:22+00:00",
       "url": "https://www.youtube.com/shorts/rM1ImBZfvuI"
     },
+    "ca44f35196ccf96c4350f3c8": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-11-18T08:43:43+00:00",
+      "document_types": [
+        "other"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "a790de6cab02490f245684e63e74a77c46b85c9671fbd460208a3dc596278195",
+      "source_title": "COP 31 : “Votre gouvernement est sur le podium des diplomaties fossiles qui sapent notre avenir\"",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-18T08:43:44+00:00",
+      "url": "https://www.youtube.com/watch?v=yKRvWCKwHQs"
+    },
     "cad75c19a4ef397474f08f7a": {
       "canonical_confirmations": [
         {
@@ -58278,6 +58396,77 @@
       "total": 1,
       "updated_at": "2026-08-21T02:45:21+00:00",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
+    "d7d44e5938b20d286ed67be7": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "nicolas-dupont-aignan",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "Je propose un protectionnisme intelligent !",
+            "relevance": "direct",
+            "statement": "Nicolas Dupont-Aignan propose un protectionnisme intelligent.",
+            "topic": "economie-finances"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Le protectionnisme intelligent est explicitement soutenu par Nicolas Dupont-Aignan avec la citation du Salon du Made in France du 12/11/2026.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [
+        {
+          "claim": {
+            "actor_id": "nicolas-dupont-aignan",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "Je propose un protectionnisme intelligent !",
+            "relevance": "direct",
+            "statement": "Nicolas Dupont-Aignan propose un protectionnisme intelligent.",
+            "topic": "economie-finances"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Le protectionnisme intelligent est explicitement soutenu par Nicolas Dupont-Aignan avec la citation du Salon du Made in France du 12/11/2026.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "completed_at": "2026-11-18T08:43:18+00:00",
+      "created_at": "2026-11-18T08:43:13+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-11-17"
+      ],
+      "sha256": "fa0f5afe3f9437dac0a22feae5d7195dba30123b22fad357f456db6cadda59f2",
+      "source_title": "« En 2027, je serai le seul candidat souverainiste » TV Libertés - DUPONT-AIGNAN 2027",
+      "statuses": [
+        {
+          "status": {
+            "candidate_id": "nicolas-dupont-aignan",
+            "effective_date": "2026-11-17",
+            "evidence_quote": "En 2027, je serai le seul candidat souverainiste",
+            "explicit": true,
+            "new_status": "declared_presidential"
+          }
+        }
+      ],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-18T08:43:18+00:00",
+      "url": "https://www.dupontaignan.fr/actualite/en-2027-je-serai-le-seul-candidat-souverainiste-tv-libertes/"
     },
     "d81a8fae99661d7af2e2e747": {
       "canonical_confirmations": [],
@@ -69447,6 +69636,15 @@
       "status": "not_confirmed",
       "url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne"
     },
+    "1400ac66859d": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-11-18T08:43:20+00:00",
+      "reason": null,
+      "source_sha256": "fa0f5afe3f9437dac0a22feae5d7195dba30123b22fad357f456db6cadda59f2",
+      "status": "promoted",
+      "url": "https://www.dupontaignan.fr/actualite/en-2027-je-serai-le-seul-candidat-souverainiste-tv-libertes/"
+    },
     "140a3f828e99": {
       "chunks_done": null,
       "chunks_total": null,
@@ -72987,6 +73185,15 @@
       "status": "promoted",
       "url": "https://www.unenouvelleenergie.fr/notre-programme/"
     },
+    "88f8697feae7": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-11-18T08:43:11+00:00",
+      "reason": null,
+      "source_sha256": "c3d74aba62bad17d2fd79c816dd3ea834072f7231bd7bb746ed3bd1a0c777f9d",
+      "status": "promoted",
+      "url": "https://melenchon2027.fr/evenement/campagne/reunion-publique-soutien-a-la-candidature-de-jean-luc-melenchon/"
+    },
     "8a105e82a42a": {
       "chunks_done": null,
       "chunks_total": null,
@@ -73553,6 +73760,14 @@
       "source_sha256": "40388ffef52f9548d653829df4860546bdb08c942a90b5859c1cb879cabcf523",
       "status": "not_confirmed",
       "url": "https://www.revolutionpermanente.fr/Casse-de-l-ecole-mise-au-pas-des-eleves-pour-quel-programme-lutter-dans-l-education-RP-a-la-Fete-de"
+    },
+    "9f6a05dfb8dc": {
+      "attempts": 1,
+      "error": "RuntimeError: Gemini HTTP 503: gemini-3.5-flash-lite is currently experiencing high demand, spikes in demand are usually temporary. Please try again later.",
+      "next_retry_at": "2026-11-18T14:43:32+00:00",
+      "processed_at": "2026-11-18T08:43:32+00:00",
+      "status": "technical_error",
+      "url": "https://attalpresident.fr/actualites/gabriel-attal-sud-ouest-tous-proprietaires-banque-investissement-logement"
     },
     "a09b00bacb8d": {
       "chunks_done": null,

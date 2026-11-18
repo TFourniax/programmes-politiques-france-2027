@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created_at": "2026-08-17T19:57:19.441897+00:00",
-  "updated_at": "2026-11-17T21:55:42.345173+00:00",
+  "updated_at": "2026-11-18T08:43:47.741594+00:00",
   "files": [
     {
       "path": "corpus/2027/auto/candidates/anasse-kazib/2026-08-28-38891602d9d9.md",
@@ -949,6 +949,11 @@
       "size": 1676
     },
     {
+      "path": "corpus/2027/auto/candidates/nicolas-dupont-aignan/2026-11-17-d7d44e5938b2.md",
+      "sha256": "a488065e1b5aad8170243bbb5b8e9816306c5b37578e0d1bd8702e1cab044f43",
+      "size": 1772
+    },
+    {
       "path": "corpus/2027/auto/candidates/selma-labib/2026-06-17-dbd0ca0c9e42.md",
       "sha256": "1e073da4b66644d40456d54bcfdfe07fdad40d2410cee7ac3678fa881209731f",
       "size": 1828
@@ -1186,6 +1191,11 @@
     {
       "path": "corpus/2027/auto/partys/la-france-insoumise/2026-11-17-796b10005baf.md",
       "sha256": "a8ef6e6d760d15dbbfe80b0460641e8a5ac7f48b509fcd1d54a5c8194fa61ad2",
+      "size": 1689
+    },
+    {
+      "path": "corpus/2027/auto/partys/la-france-insoumise/2026-11-18-796b10005baf.md",
+      "sha256": "a27af912020aef71b0f35e0c3cd5287b177172a09d8356f335f0ee8430e84bbd",
       "size": 1689
     },
     {
@@ -2049,6 +2059,11 @@
       "size": 1604
     },
     {
+      "path": "corpus/2027/auto/partys/revolution-permanente/2026-11-17-afee22165d91.md",
+      "sha256": "39af88dae52de5e668b68e6351fe8539b9791caa0c441b75c8d476ed0cded0fa",
+      "size": 1694
+    },
+    {
       "path": "corpus/2027/auto/partys/solution-democratique/2025-04-09-3a8ec20cb386.md",
       "sha256": "268b288b348cf4405f1cd419a74efaaba0adce4475aeff9b10af9796146281ac",
       "size": 1763
@@ -2889,6 +2904,11 @@
       "size": 1413
     },
     {
+      "path": "proposals/auto/economie-finances/auto-nicolas-dupont-aignan-economie-finances-a0fcd08bc2a0.md",
+      "sha256": "c76b0d2c86569e7127420578d633937ba2f18433bef57eff89a041d864394efa",
+      "size": 1272
+    },
+    {
       "path": "proposals/auto/economie-finances/auto-nouvelle-energie-economie-finances-1ce2938e1f05.md",
       "sha256": "780a67e7196d288db49675db7cf99034c5eb5f485c66711d85061fa49cc5c214",
       "size": 3268
@@ -3390,8 +3410,8 @@
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-revolution-permanente-institutions-democratie-dcbc5ab5164c.md",
-      "sha256": "9870566b7c63a379f5914eac691ca80e5605d66bc73a6167295897a2fcb926f4",
-      "size": 1453
+      "sha256": "d4ceeb7715b39863cd433e4e8acb485965daac45ea831337a55c114b50e5c06d",
+      "size": 1816
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-solution-democratique-institutions-democratie-4200a876eb91.md",
