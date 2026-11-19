@@ -685,6 +685,11 @@
       "source_url": "https://melenchon2027.fr/programme2025/livre/chapitre11/",
       "verified_at": "2026-08-12T22:06:46+00:00"
     },
+    "34a0180e9609adac9e497faf5c286e3ce81ce1b7d5346600fb44ab5b344481b4": {
+      "proposal_id": "auto-gabriel-attal-pouvoir-achat-travail-34a0180e9609",
+      "source_url": "https://attalpresident.fr/actualites/plus-de-1000-elus-appellent-a-une-primaire-pour-2027",
+      "verified_at": "2026-11-19T21:45:26+00:00"
+    },
     "34c1feadaf36f9a416fc3f1b94cd827c428b2484057cfa047578939ab775aadb": {
       "proposal_id": "auto-solution-democratique-institutions-democratie-34c1feadaf36",
       "source_url": "https://solutiondemocratique.fr/parrainage2027/",
@@ -3033,7 +3038,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-11-19T08:58:37+00:00",
+  "last_run_at": "2026-11-19T21:45:37+00:00",
   "source_chunks": {
     "000e79baea11403029d335b1": {
       "canonical_confirmations": [
@@ -3254,7 +3259,7 @@
           }
         }
       ],
-      "completed_at": "2026-10-24T12:10:28+00:00",
+      "completed_at": "2026-11-19T21:45:37+00:00",
       "created_at": "2026-09-18T17:12:53+00:00",
       "document_types": [
         "campaign_website_page"
@@ -3269,7 +3274,7 @@
       "statuses": [],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-10-24T12:10:23+00:00",
+      "updated_at": "2026-11-19T21:45:31+00:00",
       "url": "https://anasse2027.fr/programme"
     },
     "009ea6ddfcaa5e8d4f6a7064": {
@@ -4657,6 +4662,77 @@
       "total": 1,
       "updated_at": "2026-09-09T21:51:05+00:00",
       "url": "https://npa-revolutionnaires.org/articles/dans-liberation-election-presidentielle-2027-le-npa-revolutionnaires-designe-selma-labib-comme-candidate-du-parti"
+    },
+    "06b77161478b0c70181f1f34": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "gabriel-attal",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "mieux rémunérer le travail, faciliter l'accès au logement, faire de l'école la priorité et protéger les plus fragiles",
+            "relevance": "direct",
+            "statement": "mieux rémunérer le travail, faciliter l'accès au logement, faire de l'école la priorité et protéger les plus fragiles",
+            "topic": "pouvoir-achat-travail"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Le claim sur le pouvoir d'achat et le travail est explicitement soutenu par l'extrait de la source du 16 novembre 2026.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [
+        {
+          "claim": {
+            "actor_id": "gabriel-attal",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "mieux rémunérer le travail, faciliter l'accès au logement, faire de l'école la priorité et protéger les plus fragiles",
+            "relevance": "direct",
+            "statement": "mieux rémunérer le travail, faciliter l'accès au logement, faire de l'école la priorité et protéger les plus fragiles",
+            "topic": "pouvoir-achat-travail"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Le claim sur le pouvoir d'achat et le travail est explicitement soutenu par l'extrait de la source du 16 novembre 2026.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "completed_at": "2026-11-19T21:45:26+00:00",
+      "created_at": "2026-11-19T21:45:21+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-11-15"
+      ],
+      "sha256": "98db6a1e92aa27ed1b2e5b9fd70e341881a333789fcb2aea7037edfa77b60b62",
+      "source_title": "Primaire 2027 : plus de 1 000 élus lancent un appel commun",
+      "statuses": [
+        {
+          "status": {
+            "candidate_id": "gabriel-attal",
+            "effective_date": "2026-11-12",
+            "evidence_quote": "le candidat à l’élection présidentielle défend une réorganisation de l’État",
+            "explicit": true,
+            "new_status": "declared_presidential"
+          }
+        }
+      ],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-19T21:45:26+00:00",
+      "url": "https://attalpresident.fr/actualites/plus-de-1000-elus-appellent-a-une-primaire-pour-2027"
     },
     "06e9d30a51fb03cb1009a7cc": {
       "canonical_confirmations": [
@@ -16293,6 +16369,26 @@
       "total": 1,
       "updated_at": "2026-08-16T07:54:48+00:00",
       "url": "https://www.unenouvelleenergie.fr/notre-programme/"
+    },
+    "39b6239aaaefc59c63a8ff96": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-11-19T21:45:39+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "a92344441ce31e1616cd2e93f0530d7dbef661e6af86fd50d10bcccb811b7e45",
+      "source_title": "🔴 Maintien de l’ordre EXEMPLAIRE EN MAI 68 ? Vraiment ? | RENDEZ-VOUS LE 21 NOVEMBRE À PARIS",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-19T21:45:41+00:00",
+      "url": "https://www.youtube.com/shorts/p8JeGkJlSQE"
     },
     "39f25cfa3a87148b971c468c": {
       "canonical_confirmations": [],
@@ -28628,6 +28724,26 @@
       "total": 1,
       "updated_at": "2026-09-26T12:22:38+00:00",
       "url": "https://anasse2027.fr/"
+    },
+    "64c1c296215d91acaf51dee9": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-11-19T21:45:45+00:00",
+      "document_types": [
+        "other"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "c28a31af92008845590c9a766134336e31965eb671ace2cc8c3014ef94029e5e",
+      "source_title": "Jeanne Barseghian : candidate des Écologistes pour le comité exécutif du Parti Vert Européen 🇪🇺💚",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-19T21:45:46+00:00",
+      "url": "https://www.youtube.com/shorts/Z8ixHU_ZlyE"
     },
     "64c6a281ec5ad18a1f2c780d": {
       "canonical_confirmations": [
@@ -57221,7 +57337,7 @@
       "statuses": [],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-11-19T08:58:21+00:00",
+      "updated_at": "2026-11-19T21:45:20+00:00",
       "url": "https://melenchon2027.fr/evenement/campagne/reunion-publique-soutien-a-la-candidature-de-jean-luc-melenchon/"
     },
     "cf8abc2824f79cacedf560f8": {
@@ -62946,6 +63062,26 @@
       "total": 1,
       "updated_at": "2026-08-11T20:16:20+00:00",
       "url": "https://parti-equinoxe.fr/legislatives-2022-programme-technique/"
+    },
+    "e6b78ec13fa4a28210f3c925": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-11-19T21:45:38+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "bbda7af03aac387ba4134cfc285497c1536d95de32ec37dc660b314fce5e1110",
+      "source_title": "👶 Qui garde les enfants pendant qu’on fait la révolution ? GARDE D'ENFANTS AU MEETING LE 21 NOVEMBR",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-19T21:45:39+00:00",
+      "url": "https://www.youtube.com/shorts/x1W-kqMsrP4"
     },
     "e6cb853a2afc8457b3922f98": {
       "canonical_confirmations": [
@@ -68985,6 +69121,26 @@
       "updated_at": "2026-08-22T02:38:10+00:00",
       "url": "https://www.unenouvelleenergie.fr/notre-programme/"
     },
+    "fd493aabd421c81a2c9f9750": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-11-19T21:45:41+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "9685ce1052301aebf1741be2f8247f4f2b9e9a1a23f3a5b502e2b9f4bd71d8c6",
+      "source_title": "Fémonationalisme : fausses féministes, vraies fachos ! | Sous les radars",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-19T21:45:44+00:00",
+      "url": "https://www.youtube.com/watch?v=N4J8GfLbOKs"
+    },
     "fd72d61ef6df75da090d2e65": {
       "canonical_confirmations": [],
       "claims": [],
@@ -70736,6 +70892,15 @@
       "source_sha256": "c17d9a970b958603d098930e427f40256969ed1de20c2bcd8fb868dbdfc4b41c",
       "status": "not_confirmed",
       "url": "https://solutiondemocratique.fr/comparatif-candidats-programme-elections-presidentielles-france-2027/"
+    },
+    "21eb6feb0846": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-11-19T21:45:37+00:00",
+      "reason": null,
+      "source_sha256": "829902af75ceb79807f462ed617e367bf6b410cec2841045e65d98171c0624f4",
+      "status": "promoted",
+      "url": "https://anasse2027.fr/programme"
     },
     "22f96f52430f": {
       "chunks_done": null,
@@ -73901,6 +74066,15 @@
       "status": "not_confirmed",
       "url": "https://solutiondemocratique.fr/programme-lfi-2027/"
     },
+    "8ca18f92ee38": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-11-19T21:45:20+00:00",
+      "reason": null,
+      "source_sha256": "78bcc7c7421850d565bfbbaa514d1b408cdced231f9dd5cb8d803e44d1eba8cd",
+      "status": "not_confirmed",
+      "url": "https://melenchon2027.fr/evenement/campagne/reunion-publique-soutien-a-la-candidature-de-jean-luc-melenchon/"
+    },
     "8cb138e35481": {
       "chunks_done": null,
       "chunks_total": null,
@@ -74044,6 +74218,15 @@
       "source_sha256": "305a93b82e1ffb05af0c6a6cf8c4686de105876739e313d2a2231e036671963c",
       "status": "promoted",
       "url": "https://www.unenouvelleenergie.fr/notre-programme/"
+    },
+    "921cd4c72f30": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-11-19T21:45:29+00:00",
+      "reason": null,
+      "source_sha256": "98db6a1e92aa27ed1b2e5b9fd70e341881a333789fcb2aea7037edfa77b60b62",
+      "status": "promoted",
+      "url": "https://attalpresident.fr/actualites/plus-de-1000-elus-appellent-a-une-primaire-pour-2027"
     },
     "922360c86a1b": {
       "chunks_done": null,

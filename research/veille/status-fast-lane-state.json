@@ -1885,6 +1885,13 @@
       "reason": "no_deterministic_transition",
       "status": "not_applicable"
     },
+    "8ca18f92ee38": {
+      "event_url": "https://melenchon2027.fr/evenement/campagne/reunion-publique-soutien-a-la-candidature-de-jean-luc-melenchon/",
+      "owner": "La France insoumise",
+      "processed_at": "2026-11-19T21:42:53+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
     "8d0fe852d41a": {
       "event_url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne",
       "owner": "Gabriel Attal",
@@ -1933,6 +1940,14 @@
       "processed_at": "2026-09-08T12:14:36+00:00",
       "reason": "no_deterministic_transition",
       "status": "not_applicable"
+    },
+    "921cd4c72f30": {
+      "candidate_id": "gabriel-attal",
+      "event_url": "https://attalpresident.fr/actualites/plus-de-1000-elus-appellent-a-une-primaire-pour-2027",
+      "new_status": "declared_presidential",
+      "owner": "Gabriel Attal",
+      "processed_at": "2026-11-19T21:42:53+00:00",
+      "status": "already_current"
     },
     "922360c86a1b": {
       "event_url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne",
@@ -2671,7 +2686,7 @@
       "error": "ValueError: HTTP 404",
       "event_url": "https://parti-equinoxe.fr/articles/2022/05/la-transition-energetique-selon-les-ex-candidats-a-la-presidentielle-2/",
       "owner": "Équinoxe",
-      "processed_at": "2026-11-19T08:55:49+00:00",
+      "processed_at": "2026-11-19T21:42:54+00:00",
       "status": "technical_error"
     },
     "cb3428b2b6d3": {
@@ -3353,7 +3368,7 @@
     }
   },
   "last_error_count": 1,
-  "last_run_at": "2026-11-19T08:55:49+00:00",
+  "last_run_at": "2026-11-19T21:42:54+00:00",
   "last_updated_count": 0,
   "version": 1
 }

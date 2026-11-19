@@ -1,6 +1,6 @@
 {
   "errors": [],
-  "generated_at": "2026-11-19T08:58:37+00:00",
+  "generated_at": "2026-11-19T21:45:37+00:00",
   "historical_skipped": 0,
   "partial": 0,
   "processed": 3,
@@ -14,30 +14,30 @@
     },
     {
       "chunks_total": 1,
-      "document": "corpus/2027/auto/candidates/gabriel-attal/2026-07-03-825c32ee3aa8.md",
-      "proposals": [],
-      "sha256": "bda2abfba28691ea8e25ffa15fe1f5e6e2bdfc9957991a4bb1413782cadcdccd",
+      "document": "corpus/2027/auto/candidates/gabriel-attal/2026-11-15-06b77161478b.md",
+      "proposals": [
+        "proposals/auto/pouvoir-achat-travail/auto-gabriel-attal-pouvoir-achat-travail-34a0180e9609.md"
+      ],
+      "sha256": "98db6a1e92aa27ed1b2e5b9fd70e341881a333789fcb2aea7037edfa77b60b62",
       "status": "promoted",
       "status_updates": [],
-      "url": "https://attalpresident.fr/programme/mesures/livre-blanc-defense-2027",
-      "verified_at": "2026-11-19T08:58:23+00:00"
+      "url": "https://attalpresident.fr/actualites/plus-de-1000-elus-appellent-a-une-primaire-pour-2027",
+      "verified_at": "2026-11-19T21:45:26+00:00"
     },
     {
       "chunks_total": 1,
-      "document": "corpus/2027/auto/partys/equinoxe/2026-11-19-717519a4c859.md",
-      "proposals": [
-        "proposals/auto/services-publics/auto-equinoxe-services-publics-b4c132c2ed46.md"
-      ],
+      "document": "corpus/2027/auto/candidates/anasse-kazib/2026-11-19-007774a3a0a3.md",
+      "proposals": [],
       "provenance_updates": [
-        "auto-equinoxe-ecologie-energie-72a60779ed53",
-        "auto-equinoxe-institutions-democratie-9b6cc8950f26",
-        "auto-equinoxe-services-publics-01b6b4e114bd"
+        "auto-anasse-kazib-immigration-integration-f008b1970a86",
+        "auto-anasse-kazib-pouvoir-achat-travail-81103508afc3",
+        "prop-kazib-retraite-60-55"
       ],
-      "sha256": "90bfdbaa27d2f74e949d89e31e12063786c7554ed662769b7da8cb98c21c39cc",
+      "sha256": "829902af75ceb79807f462ed617e367bf6b410cec2841045e65d98171c0624f4",
       "status": "promoted",
       "status_updates": [],
-      "url": "https://parti-equinoxe.fr/programme-2027/",
-      "verified_at": "2026-11-19T08:58:36+00:00"
+      "url": "https://anasse2027.fr/programme",
+      "verified_at": "2026-11-19T21:45:37+00:00"
     }
   ],
   "status_updates": 0

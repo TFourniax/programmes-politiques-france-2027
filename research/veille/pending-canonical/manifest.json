@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created_at": "2026-08-17T19:57:19.441897+00:00",
-  "updated_at": "2026-11-19T08:58:51.349330+00:00",
+  "updated_at": "2026-11-19T21:45:50.354312+00:00",
   "files": [
     {
       "path": "corpus/2027/auto/candidates/anasse-kazib/2026-08-28-38891602d9d9.md",
@@ -142,6 +142,11 @@
       "path": "corpus/2027/auto/candidates/anasse-kazib/2026-10-24-133476e1ed0d.md",
       "sha256": "6a2cdd37deb2e2d10b0a5dcfa7eb95cef63c5209e7888e5d4c99c94e7356596a",
       "size": 1478
+    },
+    {
+      "path": "corpus/2027/auto/candidates/anasse-kazib/2026-11-19-007774a3a0a3.md",
+      "sha256": "5233fcfab6166976ab521aa7e8d49a300843c8acff748df197461d57346cfdf7",
+      "size": 1975
     },
     {
       "path": "corpus/2027/auto/candidates/antoine-mikolajczak/2026-11-07-124eb3c2b558.md",
@@ -882,6 +887,11 @@
       "path": "corpus/2027/auto/candidates/gabriel-attal/2026-11-11-08ca2202dcb9.md",
       "sha256": "e06f1930310df7b8428feb49c937ef169d38b24ed30a41fca215242e294092d6",
       "size": 2665
+    },
+    {
+      "path": "corpus/2027/auto/candidates/gabriel-attal/2026-11-15-06b77161478b.md",
+      "sha256": "b4d2e4db850bfdc1d9e9fcf584c1d8e26626ec266ff52d67bfacc25e5fdfd8a9",
+      "size": 1858
     },
     {
       "path": "corpus/2027/auto/candidates/jean-luc-melenchon/2026-09-18-a1a666a8c110.md",
@@ -3135,8 +3145,8 @@
     },
     {
       "path": "proposals/auto/immigration-integration/auto-anasse-kazib-immigration-integration-f008b1970a86.md",
-      "sha256": "159f7a09f74b42f82758798564d2222f68cb0823aaaf2976cf9ac82eba734f62",
-      "size": 2120
+      "sha256": "e219a030a80280304ee20f3aebe822f2a6095b0546c0f8d10e9c26c4f63a647d",
+      "size": 2166
     },
     {
       "path": "proposals/auto/immigration-integration/auto-bruno-retailleau-immigration-integration-080032bab3da.md",
@@ -3510,8 +3520,8 @@
     },
     {
       "path": "proposals/auto/pouvoir-achat-travail/auto-anasse-kazib-pouvoir-achat-travail-81103508afc3.md",
-      "sha256": "bb81bf3781c4fc3fedbbf549dfb6fb5cdeb9d60eeb5c2414fc660141a3c6b5fe",
-      "size": 2301
+      "sha256": "4d1bfc2dadcf6df7397495d461fae295f54c0d1c91100cb13f90117c5c66e378",
+      "size": 2344
     },
     {
       "path": "proposals/auto/pouvoir-achat-travail/auto-anasse-kazib-pouvoir-achat-travail-9dd581e1c937.md",
@@ -3557,6 +3567,11 @@
       "path": "proposals/auto/pouvoir-achat-travail/auto-francois-ruffin-pouvoir-achat-travail-a3540b9130a4.md",
       "sha256": "c0240ddc4c55434e712ca32975d0270eb621b1c0478c4d0aeb6484c06b9a498b",
       "size": 1352
+    },
+    {
+      "path": "proposals/auto/pouvoir-achat-travail/auto-gabriel-attal-pouvoir-achat-travail-34a0180e9609.md",
+      "sha256": "d2d7aab89387ae01bb1d6b322e6b5b2a1c5714b9fd6b7aefb3772dc94fe79fe8",
+      "size": 1507
     },
     {
       "path": "proposals/auto/pouvoir-achat-travail/auto-gabriel-attal-pouvoir-achat-travail-525b1f17e58e.md",
@@ -4685,8 +4700,8 @@
     },
     {
       "path": "proposals/retraites/anasse-kazib-60-55.md",
-      "sha256": "190d30206cedbdbefceb86cffd2e9762525a43a99e3b4557ba80ac61123b5cc8",
-      "size": 1985
+      "sha256": "9f89d271cdc2eff83b9159bc247530d5e81a3f5c046c1343dfadbe3b4da27c1c",
+      "size": 2028
     },
     {
       "path": "proposals/retraites/david-lisnard-capitalisation.md",

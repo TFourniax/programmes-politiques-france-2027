@@ -6,18 +6,18 @@
     "actors": 68,
     "declared_or_active_candidates": 28,
     "topics": 12,
-    "current_proposals": 1567,
+    "current_proposals": 1568,
     "covered_actor_topic_cells": 172,
     "total_actor_topic_cells": 816,
     "actor_topic_coverage_ratio": 0.2108,
     "active_candidate_covered_cells": 81,
     "active_candidate_total_cells": 336,
     "active_candidate_topic_coverage_ratio": 0.2411,
-    "verified_proposals": 1534,
+    "verified_proposals": 1535,
     "multi_source_proposals": 142,
     "latest_evidence_at": "2026-11-19",
     "certainty_counts": {
-      "explicit": 1538,
+      "explicit": 1539,
       "explicit_but_conditional": 3,
       "explicit_but_underspecified": 26
     }
@@ -109,7 +109,7 @@
         "securite-justice",
         "numerique-ia"
       ],
-      "latest_evidence_at": "2026-10-24",
+      "latest_evidence_at": "2026-11-19",
       "verified_proposals": 11,
       "multi_source_proposals": 8
     },
@@ -667,7 +667,7 @@
       "type": "candidate",
       "status": "declared_presidential",
       "confidence": "high",
-      "current_proposals": 47,
+      "current_proposals": 48,
       "covered_topics": [
         "ecologie-energie",
         "economie-finances",
@@ -685,8 +685,8 @@
         "defense-international",
         "numerique-ia"
       ],
-      "latest_evidence_at": "2026-11-11",
-      "verified_proposals": 47,
+      "latest_evidence_at": "2026-11-15",
+      "verified_proposals": 48,
       "multi_source_proposals": 17
     },
     {
@@ -1959,11 +1959,11 @@
     {
       "id": "pouvoir-achat-travail",
       "label": "Pouvoir d’achat & travail",
-      "current_proposals": 103,
+      "current_proposals": 104,
       "actors_covered": 22,
       "actor_coverage_ratio": 0.3235,
-      "latest_evidence_at": "2026-11-11",
-      "verified_proposals": 96,
+      "latest_evidence_at": "2026-11-19",
+      "verified_proposals": 97,
       "multi_source_proposals": 15
     },
     {
@@ -1972,7 +1972,7 @@
       "current_proposals": 25,
       "actors_covered": 14,
       "actor_coverage_ratio": 0.2059,
-      "latest_evidence_at": "2026-11-07",
+      "latest_evidence_at": "2026-11-19",
       "verified_proposals": 23,
       "multi_source_proposals": 8
     },
@@ -1992,7 +1992,7 @@
       "current_proposals": 70,
       "actors_covered": 12,
       "actor_coverage_ratio": 0.1765,
-      "latest_evidence_at": "2026-11-07",
+      "latest_evidence_at": "2026-11-19",
       "verified_proposals": 66,
       "multi_source_proposals": 8
     },
@@ -2084,14 +2084,14 @@
       "status": "declared_presidential",
       "coverage_ratio": 0.5,
       "current_proposals": 15,
-      "latest_evidence_at": "2026-10-24",
+      "latest_evidence_at": "2026-11-19",
       "topics": [
         {
           "id": "pouvoir-achat-travail",
           "label": "Pouvoir d’achat & travail",
           "covered": true,
           "current_proposals": 7,
-          "latest_evidence_at": "2026-10-24",
+          "latest_evidence_at": "2026-11-19",
           "verified_proposals": 4,
           "multi_source_proposals": 3
         },
@@ -2100,7 +2100,7 @@
           "label": "Retraites",
           "covered": true,
           "current_proposals": 1,
-          "latest_evidence_at": "2026-10-24",
+          "latest_evidence_at": "2026-11-19",
           "verified_proposals": 1,
           "multi_source_proposals": 1
         },
@@ -2118,7 +2118,7 @@
           "label": "Immigration & intégration",
           "covered": true,
           "current_proposals": 1,
-          "latest_evidence_at": "2026-10-24",
+          "latest_evidence_at": "2026-11-19",
           "verified_proposals": 1,
           "multi_source_proposals": 1
         },
@@ -3499,16 +3499,16 @@
       "name": "Gabriel Attal",
       "status": "declared_presidential",
       "coverage_ratio": 0.8333,
-      "current_proposals": 47,
-      "latest_evidence_at": "2026-11-11",
+      "current_proposals": 48,
+      "latest_evidence_at": "2026-11-15",
       "topics": [
         {
           "id": "pouvoir-achat-travail",
           "label": "Pouvoir d’achat & travail",
           "covered": true,
-          "current_proposals": 5,
-          "latest_evidence_at": "2026-11-10",
-          "verified_proposals": 5,
+          "current_proposals": 6,
+          "latest_evidence_at": "2026-11-15",
+          "verified_proposals": 6,
           "multi_source_proposals": 1
         },
         {
@@ -5846,7 +5846,7 @@
       "status": "declared_presidential",
       "coverage_ratio": 0.5,
       "current_proposals": 15,
-      "latest_evidence_at": "2026-10-24",
+      "latest_evidence_at": "2026-11-19",
       "gaps": [
         "fiscalite-redistribution",
         "europe-souverainete",
