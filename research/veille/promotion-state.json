@@ -2175,6 +2175,11 @@
       "source_url": "https://nouspresident.fr/notre-programme/",
       "verified_at": "2026-10-23T18:00:13+00:00"
     },
+    "b4c132c2ed468bce90e6d4567b82caacc9f70dd754efd4a8fcfeeda9e92bccee": {
+      "proposal_id": "auto-equinoxe-services-publics-b4c132c2ed46",
+      "source_url": "https://parti-equinoxe.fr/programme-2027/",
+      "verified_at": "2026-11-19T08:58:32+00:00"
+    },
     "b4ecbd12d14b3e69be8e12eac9ce34903bdb98a75dad8da2f6903ef1defb525d": {
       "proposal_id": "auto-les-ecologistes-economie-finances-b4ecbd12d14b",
       "source_url": "https://lesecologistes.fr/document/5ZhR2m5t2ZaGKqIdD1bJaD/vdef-programme-1.pdf",
@@ -3028,7 +3033,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-11-18T21:34:16+00:00",
+  "last_run_at": "2026-11-19T08:58:37+00:00",
   "source_chunks": {
     "000e79baea11403029d335b1": {
       "canonical_confirmations": [
@@ -13670,6 +13675,26 @@
       "total": 1,
       "updated_at": "2026-08-31T23:22:44+00:00",
       "url": "https://www.unenouvelleenergie.fr/questions/ou-trouver-le-programme-de-david-lisnard/"
+    },
+    "2b4320fd342e8f85213779e6": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-11-19T08:58:46+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "e462dde445bfc10eb36720831d3400819b856ccb92100a4c04ecf6e5c3077c17",
+      "source_title": "🔴 Dans GTA VI, tout est possible, sauf une chose...",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-19T08:58:48+00:00",
+      "url": "https://www.youtube.com/shorts/DsnnmwXe5TY"
     },
     "2b8646a2be2d0bcd619e72aa": {
       "canonical_confirmations": [],
@@ -32520,6 +32545,119 @@
       "updated_at": "2026-08-16T02:44:49+00:00",
       "url": "https://solutiondemocratique.fr/marine-le-pen-programme-2027/"
     },
+    "717519a4c859ade4692ebe8a": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "equinoxe",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Sortir du présidentialisme : députés élus à la proportionnelle, un Sénat tiré au sort parmi les élus locaux",
+            "relevance": "direct",
+            "statement": "Sortir du présidentialisme avec des députés élus à la proportionnelle, un Sénat tiré au sort et un vote blanc qui compte.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La proposition est explicitement présente dans le programme 2027 et correspond au claim canonique existant.",
+            "related_proposal_id": "auto-equinoxe-institutions-democratie-9b6cc8950f26",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "equinoxe",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "une taxe carbone dont 80 % reviennent chaque mois aux ménages et 20 % financent la transition.",
+            "relevance": "direct",
+            "statement": "Instaurer une taxe carbone dont 80 pour cent sont redistribués aux ménages et 20 pour cent financent la transition.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La taxe carbone avec 80% pour les ménages et 20% pour la transition est explicitement confirmée dans le programme 2027.",
+            "related_proposal_id": "auto-equinoxe-ecologie-energie-72a60779ed53",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "equinoxe",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "un bilan de prévention entièrement pris en charge",
+            "relevance": "direct",
+            "statement": "Mettre en place un bilan de prévention entièrement pris en charge.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "Le bilan de prévention entièrement pris en charge est explicitement mentionné dans le programme 2027 et constitue une nouvelle mesure formalisée.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "equinoxe",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Une taxe « santé » est mise en place sur les produits gras, salés, sucrés, alcoolisés et ultra-transformés",
+            "relevance": "direct",
+            "statement": "Mettre en place une taxe santé sur les produits gras, salés, sucrés, alcoolisés et ultra-transformés.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 3,
+            "reason": "La taxe santé sur les produits gras, salés, sucrés, alcoolisés et ultra-transformés est explicitement confirmée dans le programme 2027.",
+            "related_proposal_id": "auto-equinoxe-services-publics-01b6b4e114bd",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [
+        {
+          "claim": {
+            "actor_id": "equinoxe",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "un bilan de prévention entièrement pris en charge",
+            "relevance": "direct",
+            "statement": "Mettre en place un bilan de prévention entièrement pris en charge.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "Le bilan de prévention entièrement pris en charge est explicitement mentionné dans le programme 2027 et constitue une nouvelle mesure formalisée.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "completed_at": "2026-11-19T08:58:36+00:00",
+      "created_at": "2026-11-19T08:58:26+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "90bfdbaa27d2f74e949d89e31e12063786c7554ed662769b7da8cb98c21c39cc",
+      "source_title": "Parti Équinoxe - Programme 2027",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-19T08:58:32+00:00",
+      "url": "https://parti-equinoxe.fr/programme-2027/"
+    },
     "71baf7e25e998d686a3903f1": {
       "canonical_confirmations": [],
       "claims": [],
@@ -35580,7 +35718,7 @@
           }
         }
       ],
-      "completed_at": "2026-11-06T10:58:29+00:00",
+      "completed_at": "2026-11-19T08:58:23+00:00",
       "created_at": "2026-11-06T10:58:20+00:00",
       "document_types": [
         "campaign_website_page"
@@ -35597,7 +35735,7 @@
       "statuses": [],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-11-06T10:58:29+00:00",
+      "updated_at": "2026-11-19T08:58:23+00:00",
       "url": "https://attalpresident.fr/programme/mesures/livre-blanc-defense-2027"
     },
     "82b7216c02eacd5b0d473110": {
@@ -39641,6 +39779,26 @@
       "total": 1,
       "updated_at": "2026-11-14T23:08:28+00:00",
       "url": "https://melenchon2027.fr/programme/livre/le-gout-du-futur-aux-nouvelles-frontieres-de-l-humanite/chapitre6/"
+    },
+    "95f9880799c88216cd5229c9": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-11-19T08:58:41+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "8526216cdc87be27740ff071d698d3b46e133a26271c139f725c50aa9a62be4a",
+      "source_title": "J’ai 3 obsessions pour 2027. Qui sont aussi les 3 objectifs que se sont unanimement fixés les Écologistes pour cette élection présidentielle : - La place de l’écologie dans la ca",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-19T08:58:44+00:00",
+      "url": "https://bsky.app/profile/marinetondelier.fr/post/3n2mmhap7ss2d"
     },
     "964a9adb0e3f16d831260119": {
       "canonical_confirmations": [],
@@ -57046,6 +57204,26 @@
       "updated_at": "2026-09-14T14:18:17+00:00",
       "url": "https://www.youtube.com/shorts/A0p5m8f1qZk"
     },
+    "cf7f6b8ce82eb20c90e245eb": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-11-19T08:58:19+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "78bcc7c7421850d565bfbbaa514d1b408cdced231f9dd5cb8d803e44d1eba8cd",
+      "source_title": "Réunion publique - soutien à la candidature de Jean Luc Mélenchon - Mélenchon 2027 : Soutenez ma candidature à l’élection présidentielle",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-19T08:58:21+00:00",
+      "url": "https://melenchon2027.fr/evenement/campagne/reunion-publique-soutien-a-la-candidature-de-jean-luc-melenchon/"
+    },
     "cf8abc2824f79cacedf560f8": {
       "canonical_confirmations": [
         {
@@ -58734,6 +58912,26 @@
       "total": 1,
       "updated_at": "2026-08-21T02:45:21+00:00",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
+    "d7875a32910f395f5b590ba4": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-11-19T08:58:44+00:00",
+      "document_types": [
+        "other"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "18ee13b2e3fe205ec3470f6bd43415b4a0320041c72b66bf7370a866838e9bbc",
+      "source_title": "Voilà à quoi ressemble l’écologie quand elle change concrètement la vie des gens ! 💚 En France, 12 millions de personnes vivent en situation de précarité énergétique. En 2026, per",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-19T08:58:46+00:00",
+      "url": "https://bsky.app/profile/marinetondelier.fr/post/3n2m5bgtlx22n"
     },
     "d7d44e5938b20d286ed67be7": {
       "canonical_confirmations": [
@@ -63968,6 +64166,26 @@
       "total": 1,
       "updated_at": "2026-10-21T22:33:55+00:00",
       "url": "https://rassemblementnational.fr/"
+    },
+    "eaee70c2742aa43a9f791c57": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-11-19T08:58:37+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "f85b4729c702bbb02306fa8581d3494ec7f3f1e734631e32694f41528870cd5d",
+      "source_title": "🪊 « J’ai deux passions, la fanfare, la révolution » : et si on créait un art engagé pour la révolut",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-19T08:58:40+00:00",
+      "url": "https://www.youtube.com/shorts/mQ947dY2b6Y"
     },
     "eaf315e0b87b6138d49376ea": {
       "canonical_confirmations": [
@@ -71464,6 +71682,15 @@
       "status": "promoted",
       "url": "https://www.unenouvelleenergie.fr/questions/david-lisnard-peut-il-gagner-la-presidentielle-2027/"
     },
+    "3ef44c43c30b": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-11-19T08:58:25+00:00",
+      "reason": null,
+      "source_sha256": "bda2abfba28691ea8e25ffa15fe1f5e6e2bdfc9957991a4bb1413782cadcdccd",
+      "status": "promoted",
+      "url": "https://attalpresident.fr/programme/mesures/livre-blanc-defense-2027"
+    },
     "3faf83ad5c00": {
       "chunks_done": null,
       "chunks_total": null,
@@ -72066,6 +72293,15 @@
       "source_sha256": "f226e15cc0e64543b937b9d499d44fdfbf9b9f5e9e0c5b5733de51101dae9073",
       "status": "not_confirmed",
       "url": "https://anasse2027.fr/programme"
+    },
+    "4fdac341768b": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-11-19T08:58:37+00:00",
+      "reason": null,
+      "source_sha256": "90bfdbaa27d2f74e949d89e31e12063786c7554ed662769b7da8cb98c21c39cc",
+      "status": "promoted",
+      "url": "https://parti-equinoxe.fr/programme-2027/"
     },
     "50fcc52d36a3": {
       "chunks_done": null,
@@ -75969,6 +76205,15 @@
       "source_sha256": "dee7a496b4afc33cd75e6f9133447df16499c0368fc9fb6e388e030bc2f1ab6a",
       "status": "promoted",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
+    "d7916f2fc9ae": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-11-19T08:58:21+00:00",
+      "reason": null,
+      "source_sha256": "78bcc7c7421850d565bfbbaa514d1b408cdced231f9dd5cb8d803e44d1eba8cd",
+      "status": "not_confirmed",
+      "url": "https://melenchon2027.fr/evenement/campagne/reunion-publique-soutien-a-la-candidature-de-jean-luc-melenchon/"
     },
     "d7a137c4b751": {
       "chunks_done": null,

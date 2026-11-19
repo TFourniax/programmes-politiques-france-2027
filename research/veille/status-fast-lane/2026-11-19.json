@@ -1,0 +1,22 @@
+{
+  "errors": [
+    {
+      "error": "ValueError: HTTP 404",
+      "event_url": "https://parti-equinoxe.fr/articles/2022/05/la-transition-energetique-selon-les-ex-candidats-a-la-presidentielle-2/",
+      "owner": "Équinoxe",
+      "processed_at": "2026-11-19T08:55:49+00:00"
+    }
+  ],
+  "generated_at": "2026-11-19T08:55:49+00:00",
+  "processed": 1,
+  "results": [
+    {
+      "event_url": "https://melenchon2027.fr/evenement/campagne/reunion-publique-soutien-a-la-candidature-de-jean-luc-melenchon/",
+      "owner": "La France insoumise",
+      "processed_at": "2026-11-19T08:55:48+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    }
+  ],
+  "updated": 0
+}

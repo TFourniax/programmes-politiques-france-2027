@@ -5,7 +5,7 @@ entity_id: equinoxe
 topic: services-publics
 certainty: explicit
 proposal_status: current
-source_document_ids: [auto-equinoxe-2026-11-08-de3d6d3924ea]
+source_document_ids: [auto-equinoxe-2026-11-08-de3d6d3924ea, auto-equinoxe-2026-11-19-717519a4c859]
 source_url: https://parti-equinoxe.fr/programme-2027/
 source_tier: tier_1_primary_official
 first_documented_at: '2026-11-08'
@@ -14,6 +14,10 @@ verification_state: verified
 verification_method: primary_source_exact_quote_plus_independent_gemini_verifier_plus_chronology_guard
 evidence_sha256: ed07d8f7b1e3c6b8603db4244d36dd7da3ac21a9eabead9c1d03e33d2125e0d4
 generated_by: scripts/auto_promote.py
+source_urls: ['https://parti-equinoxe.fr/programme-2027/']
+evidence_sha256s: [ed07d8f7b1e3c6b8603db4244d36dd7da3ac21a9eabead9c1d03e33d2125e0d4, 90bfdbaa27d2f74e949d89e31e12063786c7554ed662769b7da8cb98c21c39cc]
+confirmation_count: 2
+last_confirmed_at: '2026-11-19'
 ---
 
 # Mettre en place une taxe santé sur les produits gras, salés, sucrés, alcoolisés et ultra-transformés

@@ -6,7 +6,8 @@ entity_id: equinoxe
 topic: institutions-democratie
 certainty: explicit
 proposal_status: current
-source_document_ids: [auto-equinoxe-2026-11-06-38fd42368084, auto-equinoxe-2026-11-07-6cacea4f0848, auto-antoine-mikolajczak-2026-11-07-c0b087b78bee]
+source_document_ids: [auto-equinoxe-2026-11-06-38fd42368084, auto-equinoxe-2026-11-07-6cacea4f0848, auto-antoine-mikolajczak-2026-11-07-c0b087b78bee,
+  auto-equinoxe-2026-11-19-717519a4c859]
 source_url: https://parti-equinoxe.fr/programme-2027/
 source_tier: tier_1_primary_official
 first_documented_at: '2026-11-06'
@@ -17,9 +18,9 @@ evidence_sha256: 91d31cc29af0ae299545442a8ae414fda852a1e70a0825c3a95fa4066a57aef
 generated_by: scripts/auto_promote.py
 source_urls: ['https://parti-equinoxe.fr/programme-2027/', 'https://parti-equinoxe.fr/programme-2027/operation-montesquieu-partage-du-pouvoir/']
 evidence_sha256s: [91d31cc29af0ae299545442a8ae414fda852a1e70a0825c3a95fa4066a57aef8, 394556fda786eeaea7313b967df5fa65d8638c2b59d92cd9c10ca33cfd0ed18f,
-  b43f822e29b6ee64e462c344c2a0e84550bf7b89a55ea0bf9d691cf821ab28ed]
-confirmation_count: 3
-last_confirmed_at: '2026-11-07'
+  b43f822e29b6ee64e462c344c2a0e84550bf7b89a55ea0bf9d691cf821ab28ed, 90bfdbaa27d2f74e949d89e31e12063786c7554ed662769b7da8cb98c21c39cc]
+confirmation_count: 4
+last_confirmed_at: '2026-11-19'
 ---
 
 # Le parti propose une sortie du présidentialisme avec des députés élus à la proportionnelle, un Sénat tiré au sort parmi les élus locaux et un vote blanc qui compte

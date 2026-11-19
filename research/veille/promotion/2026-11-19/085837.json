@@ -1,0 +1,44 @@
+{
+  "errors": [],
+  "generated_at": "2026-11-19T08:58:37+00:00",
+  "historical_skipped": 0,
+  "partial": 0,
+  "processed": 3,
+  "promoted": 2,
+  "proposals_created": 1,
+  "results": [
+    {
+      "sha256": "78bcc7c7421850d565bfbbaa514d1b408cdced231f9dd5cb8d803e44d1eba8cd",
+      "status": "not_confirmed",
+      "url": "https://melenchon2027.fr/evenement/campagne/reunion-publique-soutien-a-la-candidature-de-jean-luc-melenchon/"
+    },
+    {
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/candidates/gabriel-attal/2026-07-03-825c32ee3aa8.md",
+      "proposals": [],
+      "sha256": "bda2abfba28691ea8e25ffa15fe1f5e6e2bdfc9957991a4bb1413782cadcdccd",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://attalpresident.fr/programme/mesures/livre-blanc-defense-2027",
+      "verified_at": "2026-11-19T08:58:23+00:00"
+    },
+    {
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/partys/equinoxe/2026-11-19-717519a4c859.md",
+      "proposals": [
+        "proposals/auto/services-publics/auto-equinoxe-services-publics-b4c132c2ed46.md"
+      ],
+      "provenance_updates": [
+        "auto-equinoxe-ecologie-energie-72a60779ed53",
+        "auto-equinoxe-institutions-democratie-9b6cc8950f26",
+        "auto-equinoxe-services-publics-01b6b4e114bd"
+      ],
+      "sha256": "90bfdbaa27d2f74e949d89e31e12063786c7554ed662769b7da8cb98c21c39cc",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://parti-equinoxe.fr/programme-2027/",
+      "verified_at": "2026-11-19T08:58:36+00:00"
+    }
+  ],
+  "status_updates": 0
+}

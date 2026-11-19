@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created_at": "2026-08-17T19:57:19.441897+00:00",
-  "updated_at": "2026-11-18T21:34:31.311986+00:00",
+  "updated_at": "2026-11-19T08:58:51.349330+00:00",
   "files": [
     {
       "path": "corpus/2027/auto/candidates/anasse-kazib/2026-08-28-38891602d9d9.md",
@@ -1017,6 +1017,11 @@
       "path": "corpus/2027/auto/partys/equinoxe/2026-11-08-de3d6d3924ea.md",
       "sha256": "73dce8e2c8d6526ac90482fa6d86fdffaa9bb99801ef32c80394088d05c47999",
       "size": 2938
+    },
+    {
+      "path": "corpus/2027/auto/partys/equinoxe/2026-11-19-717519a4c859.md",
+      "sha256": "b46d1e6eefa5eb8ba12d6109a5afe453df05993f2cf184d12e5db87074cb7510",
+      "size": 2312
     },
     {
       "path": "corpus/2027/auto/partys/generation-ecologie/2026-06-07-3b6080336dbf.md",
@@ -2220,8 +2225,8 @@
     },
     {
       "path": "proposals/auto/ecologie-energie/auto-equinoxe-ecologie-energie-72a60779ed53.md",
-      "sha256": "01b8cee9b1b8e67168e246f2c01e00760f5b545a9f00b3bb63932e5d27f47675",
-      "size": 1425
+      "sha256": "847d7b649b4771f7f3bad1b66dc04b77af290fd798e3f68209a87515f358ff0b",
+      "size": 1813
     },
     {
       "path": "proposals/auto/ecologie-energie/auto-equinoxe-ecologie-energie-9854691ab716.md",
@@ -3285,8 +3290,8 @@
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-equinoxe-institutions-democratie-9b6cc8950f26.md",
-      "sha256": "ec67914bc1356454022b0ae904319587c5c1d6cc872964d09685ed4540a2652f",
-      "size": 2062
+      "sha256": "f1024a2acb5c47e711f234a2ab6635c945239301a4db9a820b2b191bdf789dea",
+      "size": 2169
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-equinoxe-institutions-democratie-a4b3b16cd5dc.md",
@@ -4070,8 +4075,8 @@
     },
     {
       "path": "proposals/auto/services-publics/auto-equinoxe-services-publics-01b6b4e114bd.md",
-      "sha256": "e9af10d70872e8798cff409491376d9d4190d49eddec78aec1acd7d28d2257b4",
-      "size": 1366
+      "sha256": "0ce62d75fdb9a83f0f815b90e6e72bab415724d23d4c96b133bc773969b230c7",
+      "size": 1669
     },
     {
       "path": "proposals/auto/services-publics/auto-equinoxe-services-publics-0e54e84c7343.md",
@@ -4107,6 +4112,11 @@
       "path": "proposals/auto/services-publics/auto-equinoxe-services-publics-9d38e96275d2.md",
       "sha256": "b8b7411be0c8a3d3ecee3bf812b0986f7ce23f454f1336eb61e765b614944f26",
       "size": 1385
+    },
+    {
+      "path": "proposals/auto/services-publics/auto-equinoxe-services-publics-b4c132c2ed46.md",
+      "sha256": "e12f03791eaf5eb6e07cf59bfe2525fb5760515584644ded567c670459ef08d3",
+      "size": 1190
     },
     {
       "path": "proposals/auto/services-publics/auto-equinoxe-services-publics-b7c215b6dfb9.md",
