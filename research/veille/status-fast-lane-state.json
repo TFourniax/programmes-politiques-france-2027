@@ -2035,6 +2035,13 @@
       "reason": "no_deterministic_transition",
       "status": "not_applicable"
     },
+    "979f28979c0d": {
+      "event_url": "https://melenchon2027.fr/evenement/campagne/reunion-publique-soutien-a-la-candidature-de-jean-luc-melenchon/",
+      "owner": "La France insoumise",
+      "processed_at": "2026-11-20T08:42:05+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
     "983fb77dcbed": {
       "event_url": "https://rassemblementnational.fr/",
       "owner": "Rassemblement national",
@@ -2686,7 +2693,7 @@
       "error": "ValueError: HTTP 404",
       "event_url": "https://parti-equinoxe.fr/articles/2022/05/la-transition-energetique-selon-les-ex-candidats-a-la-presidentielle-2/",
       "owner": "Équinoxe",
-      "processed_at": "2026-11-19T21:42:54+00:00",
+      "processed_at": "2026-11-20T08:42:07+00:00",
       "status": "technical_error"
     },
     "cb3428b2b6d3": {
@@ -3368,7 +3375,7 @@
     }
   },
   "last_error_count": 1,
-  "last_run_at": "2026-11-19T21:42:54+00:00",
+  "last_run_at": "2026-11-20T08:42:07+00:00",
   "last_updated_count": 0,
   "version": 1
 }

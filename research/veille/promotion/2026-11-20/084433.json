@@ -1,0 +1,33 @@
+{
+  "errors": [],
+  "generated_at": "2026-11-20T08:44:33+00:00",
+  "historical_skipped": 0,
+  "partial": 0,
+  "processed": 3,
+  "promoted": 1,
+  "proposals_created": 0,
+  "results": [
+    {
+      "sha256": "3ae086dd753f31719361ac00856f882d7184b00225a5b43da4f26ae204d9c83a",
+      "status": "not_confirmed",
+      "url": "https://melenchon2027.fr/evenement/campagne/reunion-publique-soutien-a-la-candidature-de-jean-luc-melenchon/"
+    },
+    {
+      "sha256": "a33ccd6b78f203d1549a4a469958fb816561ca20406b85edb9132863f1489189",
+      "status": "not_confirmed",
+      "url": "https://melenchon2027.fr/programme/plan-thematique/"
+    },
+    {
+      "document": "corpus/2027/auto/partys/solution-democratique/2026-04-26-d9e7527e6012.md",
+      "provenance_updates": [
+        "auto-solution-democratique-institutions-democratie-4ea1c22d52ea"
+      ],
+      "reason": "canonical_duplicate_evidence",
+      "sha256": "e7a7743e76f5983547883bf914c68e679cf07e3108227ae97f7f593774061cce",
+      "status": "promoted",
+      "url": "https://solutiondemocratique.fr/raphael-glucksmann-2027-programme-presidentiel/",
+      "verified_at": "2026-11-20T08:44:32+00:00"
+    }
+  ],
+  "status_updates": 0
+}

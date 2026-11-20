@@ -3038,7 +3038,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-11-19T21:45:37+00:00",
+  "last_run_at": "2026-11-20T08:44:33+00:00",
   "source_chunks": {
     "000e79baea11403029d335b1": {
       "canonical_confirmations": [
@@ -13249,7 +13249,7 @@
       "statuses": [],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-11-14T18:53:01+00:00",
+      "updated_at": "2026-11-20T08:44:21+00:00",
       "url": "https://melenchon2027.fr/programme/plan-thematique/"
     },
     "2987bb5206e0f293d014c182": {
@@ -24237,6 +24237,26 @@
       "updated_at": "2026-08-22T19:48:45+00:00",
       "url": "https://bsky.app/profile/lesecologistes.fr/post/3mtolvim24k2j"
     },
+    "513eca2975ef0ef150773f20": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-11-20T08:44:40+00:00",
+      "document_types": [
+        "other"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "791cc79cf155f3d7cc97507f8ce63e347f0216bb641480cf40f0784a8eb1346a",
+      "source_title": "Santé « Le démantèlement annoncée de cette protection sociale »",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-20T08:44:41+00:00",
+      "url": "https://www.youtube.com/watch?v=YmzaqLtX8pY"
+    },
     "5170d212c9b39be9374d9fbc": {
       "canonical_confirmations": [],
       "claims": [],
@@ -30046,6 +30066,26 @@
       "total": 1,
       "updated_at": "2026-09-13T12:51:08+00:00",
       "url": "https://www.revolutionpermanente.fr/Pourquoi-defendre-une-candidature-revolutionnaire-de-la-nouvelle-classe-ouvriere-RP-en-direct-de-la"
+    },
+    "6920174ee4567d7863cc31d2": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-11-20T08:44:42+00:00",
+      "document_types": [
+        "other"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "3ca3eb162eaa51a2787db817898cc8b31eaf1b14060eee9f75419b35010e5541",
+      "source_title": "🔴 Meeting de RP le 21 novembre : un docker italien viendra parler de Blocchiamo Tutto !",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-20T08:44:43+00:00",
+      "url": "https://www.youtube.com/shorts/N79qg7lHCLU"
     },
     "6939196706886c3dea8ef80e": {
       "canonical_confirmations": [
@@ -59669,6 +59709,48 @@
       "updated_at": "2026-11-13T08:13:48+00:00",
       "url": "https://bsky.app/profile/marinetondelier.fr/post/3n25kxcuops2c"
     },
+    "d9e7527e601214912d97c168": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "solution-democratique",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Solution Démocratique souhaite instaurer en France la démocratie directe et la décentralisation par le bas.",
+            "relevance": "direct",
+            "statement": "Instaurer la démocratie directe et la décentralisation par le bas en France.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La revendication est explicitement soutenue par la source et correspond exactement à une entrée existante dans le canonique.",
+            "related_proposal_id": "auto-solution-democratique-institutions-democratie-4ea1c22d52ea",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-11-20T08:44:32+00:00",
+      "created_at": "2026-11-20T08:44:24+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-04-26"
+      ],
+      "sha256": "e7a7743e76f5983547883bf914c68e679cf07e3108227ae97f7f593774061cce",
+      "source_title": "Raphaël Glucksmann 2027 : programme sur la démocratie",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-20T08:44:28+00:00",
+      "url": "https://solutiondemocratique.fr/raphael-glucksmann-2027-programme-presidentiel/"
+    },
     "d9fc8191d4d338fe31265bb7": {
       "canonical_confirmations": [],
       "claims": [],
@@ -60497,6 +60579,26 @@
       "total": 1,
       "updated_at": "2026-08-20T14:12:37+00:00",
       "url": "https://bsky.app/profile/lesecologistes.fr/post/3mtgcdeayzs2q"
+    },
+    "dca7b1c9b0a8596fe37d1313": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-11-20T08:44:35+00:00",
+      "document_types": [
+        "other"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "315df8a072adaa611cc1b8f94b18d776162bf0e4cde09950f5fdbc6d1a888a22",
+      "source_title": "🗣️ « Quelle société proposez-vous à notre jeunesse ? » 90 président·es d'université ont tiré la sonnette d'alarme. Notre députée @christinearrighi.bsky.social porte leur voix : l'",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-20T08:44:39+00:00",
+      "url": "https://bsky.app/profile/lesecologistes.fr/post/3n2lxzkzaus2w"
     },
     "dcec4dbdb5b93dab3a0d69fd": {
       "canonical_confirmations": [],
@@ -65118,6 +65220,26 @@
       "updated_at": "2026-09-03T12:18:40+00:00",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
+    "eece94416561f927d7a546d3": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-11-20T08:44:33+00:00",
+      "document_types": [
+        "other"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "5f1a4f532fa6a1adff84c9621ddbba50971831870d66a901e9e47f6d7699c5cf",
+      "source_title": "Il faut sortir de cette logique qui consiste à toujours répondre à l’urgence ! Après 10 ans d’inaction climatique sous Macron, nous sommes en surendettement climatique et ce sont",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-20T08:44:34+00:00",
+      "url": "https://bsky.app/profile/marinetondelier.fr/post/3n2nr6fibo22w"
+    },
     "eedf0f4199b19dded259e6b0": {
       "canonical_confirmations": [
         {
@@ -65895,6 +66017,26 @@
       "total": 1,
       "updated_at": "2026-09-26T06:18:13+00:00",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
+    "f04ac9e0793afd73e1058560": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-11-20T08:44:19+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "3ae086dd753f31719361ac00856f882d7184b00225a5b43da4f26ae204d9c83a",
+      "source_title": "Réunion publique - soutien à la candidature de Jean Luc Mélenchon - Mélenchon 2027 : Soutenez ma candidature à l’élection présidentielle",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-20T08:44:20+00:00",
+      "url": "https://melenchon2027.fr/evenement/campagne/reunion-publique-soutien-a-la-candidature-de-jean-luc-melenchon/"
     },
     "f06b0ec24b6bbc1938cac509": {
       "canonical_confirmations": [],
@@ -74354,6 +74496,15 @@
       "status": "promoted",
       "url": "https://rassemblementnational.fr/"
     },
+    "979f28979c0d": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-11-20T08:44:20+00:00",
+      "reason": null,
+      "source_sha256": "3ae086dd753f31719361ac00856f882d7184b00225a5b43da4f26ae204d9c83a",
+      "status": "not_confirmed",
+      "url": "https://melenchon2027.fr/evenement/campagne/reunion-publique-soutien-a-la-candidature-de-jean-luc-melenchon/"
+    },
     "983fb77dcbed": {
       "chunks_done": null,
       "chunks_total": null,
@@ -76837,6 +76988,15 @@
       "status": "promoted",
       "url": "https://www.unenouvelleenergie.fr/questions/le-programme-de-david-lisnard-est-il-chiffre/"
     },
+    "e68cd31da05b": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-11-20T08:44:21+00:00",
+      "reason": null,
+      "source_sha256": "a33ccd6b78f203d1549a4a469958fb816561ca20406b85edb9132863f1489189",
+      "status": "not_confirmed",
+      "url": "https://melenchon2027.fr/programme/plan-thematique/"
+    },
     "e6e21686327a": {
       "chunks_done": null,
       "chunks_total": null,
@@ -77070,6 +77230,15 @@
       "source_sha256": "b0fd97396283f4d2fd3107ef546112014883597953a58d20fdc6a25e573200f3",
       "status": "not_confirmed",
       "url": "https://parti-equinoxe.fr/legislatives-2022-programme-social/"
+    },
+    "efe903840af6": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-11-20T08:44:32+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "e7a7743e76f5983547883bf914c68e679cf07e3108227ae97f7f593774061cce",
+      "status": "promoted",
+      "url": "https://solutiondemocratique.fr/raphael-glucksmann-2027-programme-presidentiel/"
     },
     "eff0e210e1d6": {
       "chunks_done": null,
