@@ -43,7 +43,7 @@ Ce rapport est dérivé automatiquement du corpus courant. Il sert à piloter la
 - **Économie & finances publiques** (`economie-finances`) — 18 acteur(s), 142 proposition(s), dernière preuve 2026-11-17.
 - **Services publics** (`services-publics`) — 18 acteur(s), 306 proposition(s), dernière preuve 2026-11-19.
 - **Écologie & énergie** (`ecologie-energie`) — 19 acteur(s), 263 proposition(s), dernière preuve 2026-11-19.
-- **Institutions & démocratie** (`institutions-democratie`) — 19 acteur(s), 286 proposition(s), dernière preuve 2026-11-19.
+- **Institutions & démocratie** (`institutions-democratie`) — 19 acteur(s), 286 proposition(s), dernière preuve 2026-11-20.
 - **Pouvoir d’achat & travail** (`pouvoir-achat-travail`) — 22 acteur(s), 104 proposition(s), dernière preuve 2026-11-19.
 
 > Ce rapport est un indicateur de couverture structurée, de fraîcheur et de profondeur de preuve, pas un score de qualité politique ni d'exhaustivité absolue.

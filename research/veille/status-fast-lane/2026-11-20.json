@@ -4,16 +4,37 @@
       "error": "ValueError: HTTP 404",
       "event_url": "https://parti-equinoxe.fr/articles/2022/05/la-transition-energetique-selon-les-ex-candidats-a-la-presidentielle-2/",
       "owner": "Équinoxe",
-      "processed_at": "2026-11-20T08:42:07+00:00"
+      "processed_at": "2026-11-20T21:19:51+00:00"
     }
   ],
-  "generated_at": "2026-11-20T08:42:07+00:00",
-  "processed": 1,
+  "generated_at": "2026-11-20T21:19:51+00:00",
+  "processed": 4,
   "results": [
+    {
+      "event_url": "https://melenchon2027.fr/programme/livre",
+      "owner": "La France insoumise",
+      "processed_at": "2026-11-20T21:19:48+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
+    {
+      "event_url": "https://melenchon2027.fr/programme/livre/",
+      "owner": "La France insoumise",
+      "processed_at": "2026-11-20T21:19:48+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
     {
       "event_url": "https://melenchon2027.fr/evenement/campagne/reunion-publique-soutien-a-la-candidature-de-jean-luc-melenchon/",
       "owner": "La France insoumise",
-      "processed_at": "2026-11-20T08:42:05+00:00",
+      "processed_at": "2026-11-20T21:19:48+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
+    {
+      "event_url": "https://www.unenouvelleenergie.fr/ma-candidature-a-la-presidentielle-decoule-de-mon-experience-de-maire/",
+      "owner": "Nouvelle Énergie",
+      "processed_at": "2026-11-20T21:19:49+00:00",
       "reason": "no_deterministic_transition",
       "status": "not_applicable"
     }

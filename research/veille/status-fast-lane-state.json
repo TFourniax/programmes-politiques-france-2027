@@ -365,6 +365,13 @@
       "reason": "no_deterministic_transition",
       "status": "not_applicable"
     },
+    "18cb69d24b6d": {
+      "event_url": "https://www.unenouvelleenergie.fr/ma-candidature-a-la-presidentielle-decoule-de-mon-experience-de-maire/",
+      "owner": "Nouvelle Énergie",
+      "processed_at": "2026-11-20T21:19:49+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
     "1b05a2a3090a": {
       "event_url": "https://rassemblementnational.fr/",
       "owner": "Rassemblement national",
@@ -742,10 +749,24 @@
       "processed_at": "2026-10-05T07:13:53+00:00",
       "status": "already_current"
     },
+    "339bbc004362": {
+      "event_url": "https://melenchon2027.fr/programme/livre",
+      "owner": "La France insoumise",
+      "processed_at": "2026-11-20T21:19:48+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
     "339d8c96a9db": {
       "event_url": "https://www.revolutionpermanente.fr/Budget-2027-l-austerite-sur-le-dos-des-travailleurs-et-des-retraites-pour-preserver-les-cadeaux-au",
       "owner": "Anasse Kazib",
       "processed_at": "2026-10-06T18:59:39+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
+    "3412bc5a9300": {
+      "event_url": "https://melenchon2027.fr/evenement/campagne/reunion-publique-soutien-a-la-candidature-de-jean-luc-melenchon/",
+      "owner": "La France insoumise",
+      "processed_at": "2026-11-20T21:19:48+00:00",
       "reason": "no_deterministic_transition",
       "status": "not_applicable"
     },
@@ -1403,6 +1424,13 @@
       "owner": "Gabriel Attal",
       "processed_at": "2026-09-28T15:39:23+00:00",
       "status": "already_current"
+    },
+    "66c3ae164fd0": {
+      "event_url": "https://melenchon2027.fr/programme/livre/",
+      "owner": "La France insoumise",
+      "processed_at": "2026-11-20T21:19:48+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
     },
     "66d846bfaf4e": {
       "candidate_id": "gabriel-attal",
@@ -2693,7 +2721,7 @@
       "error": "ValueError: HTTP 404",
       "event_url": "https://parti-equinoxe.fr/articles/2022/05/la-transition-energetique-selon-les-ex-candidats-a-la-presidentielle-2/",
       "owner": "Équinoxe",
-      "processed_at": "2026-11-20T08:42:07+00:00",
+      "processed_at": "2026-11-20T21:19:51+00:00",
       "status": "technical_error"
     },
     "cb3428b2b6d3": {
@@ -3375,7 +3403,7 @@
     }
   },
   "last_error_count": 1,
-  "last_run_at": "2026-11-20T08:42:07+00:00",
+  "last_run_at": "2026-11-20T21:19:51+00:00",
   "last_updated_count": 0,
   "version": 1
 }

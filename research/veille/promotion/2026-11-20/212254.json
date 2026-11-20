@@ -1,0 +1,44 @@
+{
+  "errors": [],
+  "generated_at": "2026-11-20T21:22:54+00:00",
+  "historical_skipped": 0,
+  "partial": 0,
+  "processed": 3,
+  "promoted": 3,
+  "proposals_created": 0,
+  "results": [
+    {
+      "document": "corpus/2027/auto/partys/la-france-insoumise/2026-11-20-5c5e34d7d41e.md",
+      "provenance_updates": [
+        "auto-jean-luc-melenchon-institutions-democratie-8e09285dec35"
+      ],
+      "reason": "canonical_duplicate_evidence",
+      "sha256": "e9be7df3142182d013ec546b7b4039d069fc3cf89d230ae976181c8cd7a0d270",
+      "status": "promoted",
+      "url": "https://melenchon2027.fr/programme/livre",
+      "verified_at": "2026-11-20T21:22:38+00:00"
+    },
+    {
+      "document": "corpus/2027/auto/partys/la-france-insoumise/2026-11-20-231804d01aae.md",
+      "provenance_updates": [
+        "auto-jean-luc-melenchon-institutions-democratie-8e09285dec35"
+      ],
+      "reason": "canonical_duplicate_evidence",
+      "sha256": "e9be7df3142182d013ec546b7b4039d069fc3cf89d230ae976181c8cd7a0d270",
+      "status": "promoted",
+      "url": "https://melenchon2027.fr/programme/livre/",
+      "verified_at": "2026-11-20T21:22:50+00:00"
+    },
+    {
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/partys/la-france-insoumise/2026-11-20-710eb094723e.md",
+      "proposals": [],
+      "sha256": "ac505fd50a5c9c6e47615832a92ba7dfc61f6506ec2371c94dbeec7c39272847",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://melenchon2027.fr/evenement/campagne/reunion-publique-soutien-a-la-candidature-de-jean-luc-melenchon/",
+      "verified_at": "2026-11-20T21:22:53+00:00"
+    }
+  ],
+  "status_updates": 0
+}

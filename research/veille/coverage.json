@@ -15,7 +15,7 @@
     "active_candidate_topic_coverage_ratio": 0.2411,
     "verified_proposals": 1535,
     "multi_source_proposals": 142,
-    "latest_evidence_at": "2026-11-19",
+    "latest_evidence_at": "2026-11-20",
     "certainty_counts": {
       "explicit": 1539,
       "explicit_but_conditional": 3,
@@ -821,7 +821,7 @@
         "economie-finances",
         "numerique-ia"
       ],
-      "latest_evidence_at": "2026-11-12",
+      "latest_evidence_at": "2026-11-20",
       "verified_proposals": 3,
       "multi_source_proposals": 1
     },
@@ -2032,7 +2032,7 @@
       "current_proposals": 286,
       "actors_covered": 19,
       "actor_coverage_ratio": 0.2794,
-      "latest_evidence_at": "2026-11-19",
+      "latest_evidence_at": "2026-11-20",
       "verified_proposals": 282,
       "multi_source_proposals": 43
     },
@@ -3618,7 +3618,7 @@
       "status": "declared_presidential",
       "coverage_ratio": 0.25,
       "current_proposals": 3,
-      "latest_evidence_at": "2026-11-12",
+      "latest_evidence_at": "2026-11-20",
       "topics": [
         {
           "id": "pouvoir-achat-travail",
@@ -3688,7 +3688,7 @@
           "label": "Institutions & démocratie",
           "covered": true,
           "current_proposals": 1,
-          "latest_evidence_at": "2026-11-12",
+          "latest_evidence_at": "2026-11-20",
           "verified_proposals": 1,
           "multi_source_proposals": 1
         },
@@ -5753,7 +5753,7 @@
       "status": "declared_presidential",
       "coverage_ratio": 0.25,
       "current_proposals": 3,
-      "latest_evidence_at": "2026-11-12",
+      "latest_evidence_at": "2026-11-20",
       "gaps": [
         "pouvoir-achat-travail",
         "retraites",

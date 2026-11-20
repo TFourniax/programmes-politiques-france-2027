@@ -3038,7 +3038,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-11-20T08:44:33+00:00",
+  "last_run_at": "2026-11-20T21:22:54+00:00",
   "source_chunks": {
     "000e79baea11403029d335b1": {
       "canonical_confirmations": [
@@ -7936,6 +7936,26 @@
       "updated_at": "2026-08-16T19:46:19+00:00",
       "url": "https://trajectoire2027.fr/qui-sommes-nous.html"
     },
+    "11e0a79392e881d613797ed3": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-11-20T21:23:00+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "f658b7d4444966caa8837137dba0761f38e9def8c48a7640019093220b454ce5",
+      "source_title": "🔴 A quoi sert L'ÉCOLE sous le capitalisme ?? | MEETING LE 21 NOVEMBRE À PARIS",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-20T21:23:01+00:00",
+      "url": "https://www.youtube.com/shorts/FMwgtPoGyls"
+    },
     "121af71aa9d5f4bcc006c420": {
       "canonical_confirmations": [],
       "claims": [],
@@ -11615,6 +11635,64 @@
       "total": 1,
       "updated_at": "2026-09-01T22:00:30+00:00",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
+    "231804d01aae369dd126a1a1": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "jean-luc-melenchon",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "Fonder la 6 e République",
+            "relevance": "direct",
+            "statement": "Fonder la sixième République.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La proposition de fonder la sixième république est explicitement présente dans le canon.",
+            "related_proposal_id": "auto-jean-luc-melenchon-institutions-democratie-8e09285dec35",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Planification écologique",
+            "relevance": "direct",
+            "statement": "Mettre en œuvre une planification écologique.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La planification écologique est explicitement présente dans le canon pour le parti.",
+            "related_proposal_id": "auto-la-france-insoumise-ecologie-energie-01c008d2181d",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-11-20T21:22:50+00:00",
+      "created_at": "2026-11-20T21:22:39+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "e9be7df3142182d013ec546b7b4039d069fc3cf89d230ae976181c8cd7a0d270",
+      "source_title": "L’Avenir en commun – Table des matières - Mélenchon 2027 : Soutenez ma candidature à l’élection présidentielle",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-20T21:22:46+00:00",
+      "url": "https://melenchon2027.fr/programme/livre/"
     },
     "234474be19d0c3af36562c81": {
       "canonical_confirmations": [],
@@ -24996,6 +25074,26 @@
       "updated_at": "2026-09-17T22:21:36+00:00",
       "url": "https://republicains.fr/actualites/2026/05/31/ma-candidature-ira-jusquau-bout/"
     },
+    "5308546e39ed0c357c165f1d": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-11-20T21:22:56+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "773a9357ac16ddd4d890eb9e6eebf72175ad408eff9e8c7a713f760a03298389",
+      "source_title": "Florian Philippot présidentielle 2027 : mon projet sur L’ÉNERGIE !",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-20T21:22:58+00:00",
+      "url": "https://www.youtube.com/watch?v=zVFDzY1ct50"
+    },
     "530c3d18db9763c015e3ac78": {
       "canonical_confirmations": [],
       "claims": [],
@@ -26887,6 +26985,46 @@
       "total": 1,
       "updated_at": "2026-10-10T07:20:46+00:00",
       "url": "https://www.unenouvelleenergie.fr/notre-programme/"
+    },
+    "5c5e34d7d41e8d8106755423": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "jean-luc-melenchon",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "Fonder la 6 e République",
+            "relevance": "direct",
+            "statement": "Fonder la 6e République et donner le pouvoir au peuple.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La proposition de fonder la 6e République est explicitement présente dans la source (Partie 5 - Fonder la 6 e République) et est déjà enregistrée dans le canonique.",
+            "related_proposal_id": "auto-jean-luc-melenchon-institutions-democratie-8e09285dec35",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-11-20T21:22:38+00:00",
+      "created_at": "2026-11-20T21:22:29+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "e9be7df3142182d013ec546b7b4039d069fc3cf89d230ae976181c8cd7a0d270",
+      "source_title": "L’Avenir en commun – Table des matières - Mélenchon 2027 : Soutenez ma candidature à l’élection présidentielle",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-20T21:22:34+00:00",
+      "url": "https://melenchon2027.fr/programme/livre"
     },
     "5c757605a9c3d828f126a19a": {
       "canonical_confirmations": [
@@ -32530,6 +32668,37 @@
       "total": 1,
       "updated_at": "2026-10-14T13:00:46+00:00",
       "url": "https://www.youtube.com/shorts/3wdX9W-rrMs"
+    },
+    "710eb094723ee08ed594ee24": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "completed_at": "2026-11-20T21:22:53+00:00",
+      "created_at": "2026-11-20T21:22:51+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "ac505fd50a5c9c6e47615832a92ba7dfc61f6506ec2371c94dbeec7c39272847",
+      "source_title": "Réunion publique - soutien à la candidature de Jean Luc Mélenchon - Mélenchon 2027 : Soutenez ma candidature à l’élection présidentielle",
+      "statuses": [
+        {
+          "status": {
+            "candidate_id": "jean-luc-melenchon",
+            "effective_date": "2026-12-02",
+            "evidence_quote": "soutien à la candidature de Jean Luc Mélenchon",
+            "explicit": true,
+            "new_status": "declared_presidential"
+          }
+        }
+      ],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-20T21:22:53+00:00",
+      "url": "https://melenchon2027.fr/evenement/campagne/reunion-publique-soutien-a-la-candidature-de-jean-luc-melenchon/"
     },
     "713c6b5b8cce04587337afaa": {
       "canonical_confirmations": [
@@ -39043,6 +39212,26 @@
       "total": 1,
       "updated_at": "2026-11-12T21:01:38+00:00",
       "url": "https://www.youtube.com/shorts/oTzYoNXKKfk"
+    },
+    "91d43cf802001ef402313a0e": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-11-20T21:22:54+00:00",
+      "document_types": [
+        "other"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "ccac7db9027e72ee28fdbdf212747f3a8582c21ee9c44e5eaac1971c29d808e6",
+      "source_title": "Le Pas-de-Calais, mon département, est encore sous les eaux. Le plan ORSEC a été déclenché. Plus de 500 personnes évacuées, des villages isolés, des écoles fermées. À Ramecourt, p",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-20T21:22:55+00:00",
+      "url": "https://bsky.app/profile/marinetondelier.fr/post/3n2r36ewixs2m"
     },
     "91f2364404bfb8a630d322cd": {
       "canonical_confirmations": [],
@@ -65114,6 +65303,26 @@
       "updated_at": "2026-10-23T18:00:24+00:00",
       "url": "https://www.youtube.com/shorts/aDJmHNRsk2c"
     },
+    "ee69e4723725bdae23d69869": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-11-20T21:22:58+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "0a15cce0851e2850023b5b16846f28cd82a37ec9775730cbad951d6c241a08f1",
+      "source_title": "👀 J-1 avant le MEETING révolutionnaire à Paris le 21 NOVEMBRE !",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-20T21:22:59+00:00",
+      "url": "https://www.youtube.com/shorts/RhdfGBuJQPc"
+    },
     "eecca1490f02dc3e1bbdc70d": {
       "canonical_confirmations": [
         {
@@ -71620,6 +71829,15 @@
       "status": "promoted",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
+    "339bbc004362": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-11-20T21:22:38+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "e9be7df3142182d013ec546b7b4039d069fc3cf89d230ae976181c8cd7a0d270",
+      "status": "promoted",
+      "url": "https://melenchon2027.fr/programme/livre"
+    },
     "339d8c96a9db": {
       "chunks_done": null,
       "chunks_total": null,
@@ -71655,6 +71873,15 @@
       "source_sha256": "cf7d6681b5e7c8a9f63bfb52f345a502d13bf53b949b61f1af98d3a29ee6504f",
       "status": "promoted",
       "url": "https://melenchon2027.fr/programme2025/livre/chapitre10/"
+    },
+    "3412bc5a9300": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-11-20T21:22:53+00:00",
+      "reason": null,
+      "source_sha256": "ac505fd50a5c9c6e47615832a92ba7dfc61f6506ec2371c94dbeec7c39272847",
+      "status": "promoted",
+      "url": "https://melenchon2027.fr/evenement/campagne/reunion-publique-soutien-a-la-candidature-de-jean-luc-melenchon/"
     },
     "3465e50a537b": {
       "chunks_done": null,
@@ -73111,6 +73338,15 @@
       "source_sha256": "ca7e93bd914de8379df970b673dc7bc09e3ae9b1dc2cf707e28d24b5ecfdd47d",
       "status": "promoted",
       "url": "https://www.unenouvelleenergie.fr/notre-programme/"
+    },
+    "66c3ae164fd0": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-11-20T21:22:50+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "e9be7df3142182d013ec546b7b4039d069fc3cf89d230ae976181c8cd7a0d270",
+      "status": "promoted",
+      "url": "https://melenchon2027.fr/programme/livre/"
     },
     "66d64cc37b5a": {
       "processed_at": "2026-08-11T08:56:04+00:00",
