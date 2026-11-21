@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created_at": "2026-08-17T19:57:19.441897+00:00",
-  "updated_at": "2026-11-20T21:23:07.267099+00:00",
+  "updated_at": "2026-11-21T08:27:57.756226+00:00",
   "files": [
     {
       "path": "corpus/2027/auto/candidates/anasse-kazib/2026-08-28-38891602d9d9.md",
@@ -617,6 +617,11 @@
       "path": "corpus/2027/auto/candidates/edouard-philippe/2026-09-29-deb14342f571.md",
       "sha256": "ad33b44847e7eed5555d1d3b5381ded0ea9a2240d1047c635355b5d54ac7dd0f",
       "size": 1469
+    },
+    {
+      "path": "corpus/2027/auto/candidates/fabien-roussel/2026-09-06-4bba008e6810.md",
+      "sha256": "4db6fafe5e205d99045b4f33285e0b7c67a00c8f7718b597c722a1a137dc9092",
+      "size": 1607
     },
     {
       "path": "corpus/2027/auto/candidates/francois-ruffin/2026-10-12-f23786115ab8.md",
@@ -1239,6 +1244,11 @@
       "size": 1689
     },
     {
+      "path": "corpus/2027/auto/partys/la-france-insoumise/2026-11-21-710eb094723e.md",
+      "sha256": "1d6aa752d649cdf1d7ea3fc6d03e569261675cd8350a22d5f92dd5854aa4d0ba",
+      "size": 1689
+    },
+    {
       "path": "corpus/2027/auto/partys/les-ecologistes/2026-08-17-9c2f01b4f3fc.md",
       "sha256": "7428e5a97fe23cdf12e989ff8d3971e9ff7e57ab52e42db197319b471f78a620",
       "size": 1735
@@ -1527,6 +1537,11 @@
       "path": "corpus/2027/auto/partys/npa-revolutionnaires/2026-07-04-14781613317c.md",
       "sha256": "221540dc18694a3ea4a52f600be2d1761259f9107c24cc4c93c8d8b70b23185f",
       "size": 1946
+    },
+    {
+      "path": "corpus/2027/auto/partys/pcf/2026-11-20-e504b8519c5d.md",
+      "sha256": "a6306dd265b337bc11b1d1a481f95ba3702c56793494ecd698fde6e8c4b9f645",
+      "size": 1578
     },
     {
       "path": "corpus/2027/auto/partys/rassemblement-national/2026-08-25-102fb3404440.md",
@@ -3762,6 +3777,11 @@
       "path": "proposals/auto/pouvoir-achat-travail/auto-npa-revolutionnaires-pouvoir-achat-travail-7c180228264c.md",
       "sha256": "9dbb364909045978f443b5dfb0621b5c2ed46df60f08f53621b689138390f850",
       "size": 1495
+    },
+    {
+      "path": "proposals/auto/pouvoir-achat-travail/auto-pcf-pouvoir-achat-travail-413ff98cd0c5.md",
+      "sha256": "9b8dbc5da30106baaf56b9f3096db5ad7fe486d563500835199744a437bc703c",
+      "size": 1490
     },
     {
       "path": "proposals/auto/pouvoir-achat-travail/auto-rassemblement-national-pouvoir-achat-travail-1d658d91f4a3.md",

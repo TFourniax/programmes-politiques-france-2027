@@ -899,6 +899,13 @@
       "reason": "no_deterministic_transition",
       "status": "not_applicable"
     },
+    "3d78f95c56ff": {
+      "event_url": "https://melenchon2027.fr/evenement/campagne/reunion-publique-soutien-a-la-candidature-de-jean-luc-melenchon/",
+      "owner": "La France insoumise",
+      "processed_at": "2026-11-21T08:23:49+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
     "3e35b4f1c08d": {
       "event_url": "https://rassemblementnational.fr/",
       "owner": "Rassemblement national",
@@ -2489,6 +2496,15 @@
       "processed_at": "2026-09-14T22:37:43+00:00",
       "status": "already_current"
     },
+    "bab173d7bd39": {
+      "candidate_id": "fabien-roussel",
+      "event_url": "https://www.pcf.fr/presidentielle2027_fabien_roussel_designe_candidat",
+      "new_status": "declared_presidential",
+      "owner": "Fabien Roussel",
+      "processed_at": "2026-11-21T08:23:48+00:00",
+      "reason": "event_date_not_explicit_in_source",
+      "status": "date_unverified"
+    },
     "bb138b3a765a": {
       "event_url": "https://rassemblementnational.fr/",
       "owner": "Rassemblement national",
@@ -2721,7 +2737,7 @@
       "error": "ValueError: HTTP 404",
       "event_url": "https://parti-equinoxe.fr/articles/2022/05/la-transition-energetique-selon-les-ex-candidats-a-la-presidentielle-2/",
       "owner": "Équinoxe",
-      "processed_at": "2026-11-20T21:19:51+00:00",
+      "processed_at": "2026-11-21T08:23:50+00:00",
       "status": "technical_error"
     },
     "cb3428b2b6d3": {
@@ -3403,7 +3419,7 @@
     }
   },
   "last_error_count": 1,
-  "last_run_at": "2026-11-20T21:19:51+00:00",
+  "last_run_at": "2026-11-21T08:23:50+00:00",
   "last_updated_count": 0,
   "version": 1
 }

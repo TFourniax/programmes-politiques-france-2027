@@ -6,18 +6,18 @@
     "actors": 68,
     "declared_or_active_candidates": 28,
     "topics": 12,
-    "current_proposals": 1568,
+    "current_proposals": 1569,
     "covered_actor_topic_cells": 172,
     "total_actor_topic_cells": 816,
     "actor_topic_coverage_ratio": 0.2108,
     "active_candidate_covered_cells": 81,
     "active_candidate_total_cells": 336,
     "active_candidate_topic_coverage_ratio": 0.2411,
-    "verified_proposals": 1535,
+    "verified_proposals": 1536,
     "multi_source_proposals": 142,
     "latest_evidence_at": "2026-11-20",
     "certainty_counts": {
-      "explicit": 1539,
+      "explicit": 1540,
       "explicit_but_conditional": 3,
       "explicit_but_underspecified": 26
     }
@@ -1436,7 +1436,7 @@
       "type": "party",
       "status": null,
       "confidence": null,
-      "current_proposals": 11,
+      "current_proposals": 12,
       "covered_topics": [
         "ecologie-energie",
         "economie-finances",
@@ -1454,8 +1454,8 @@
         "securite-justice",
         "numerique-ia"
       ],
-      "latest_evidence_at": null,
-      "verified_proposals": 11,
+      "latest_evidence_at": "2026-11-20",
+      "verified_proposals": 12,
       "multi_source_proposals": 0
     },
     {
@@ -1959,11 +1959,11 @@
     {
       "id": "pouvoir-achat-travail",
       "label": "Pouvoir d’achat & travail",
-      "current_proposals": 104,
+      "current_proposals": 105,
       "actors_covered": 22,
       "actor_coverage_ratio": 0.3235,
-      "latest_evidence_at": "2026-11-19",
-      "verified_proposals": 97,
+      "latest_evidence_at": "2026-11-20",
+      "verified_proposals": 98,
       "multi_source_proposals": 15
     },
     {

@@ -1,0 +1,31 @@
+{
+  "errors": [
+    {
+      "error": "ValueError: HTTP 404",
+      "event_url": "https://parti-equinoxe.fr/articles/2022/05/la-transition-energetique-selon-les-ex-candidats-a-la-presidentielle-2/",
+      "owner": "Équinoxe",
+      "processed_at": "2026-11-21T08:23:50+00:00"
+    }
+  ],
+  "generated_at": "2026-11-21T08:23:50+00:00",
+  "processed": 2,
+  "results": [
+    {
+      "candidate_id": "fabien-roussel",
+      "event_url": "https://www.pcf.fr/presidentielle2027_fabien_roussel_designe_candidat",
+      "new_status": "declared_presidential",
+      "owner": "Fabien Roussel",
+      "processed_at": "2026-11-21T08:23:48+00:00",
+      "reason": "event_date_not_explicit_in_source",
+      "status": "date_unverified"
+    },
+    {
+      "event_url": "https://melenchon2027.fr/evenement/campagne/reunion-publique-soutien-a-la-candidature-de-jean-luc-melenchon/",
+      "owner": "La France insoumise",
+      "processed_at": "2026-11-21T08:23:49+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    }
+  ],
+  "updated": 0
+}

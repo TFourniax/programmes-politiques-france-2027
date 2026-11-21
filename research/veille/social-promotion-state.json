@@ -265,6 +265,15 @@
       "status": "not_confirmed",
       "url": "https://bsky.app/profile/marinetondelier.fr/post/3myl4vod7zc2i"
     },
+    "0f1868b44ff546f6573d": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-11-21T08:26:19+00:00",
+      "provenance_updates": [],
+      "source_sha256": "88f7aecd745eb73065ebe199bf4a73028a4e2bc6d397ed4809649a2e45e4d5b2",
+      "status": "promoted",
+      "url": "https://www.youtube.com/shorts/Eessxc3VcUQ"
+    },
     "1137fc039f84c84c6b00": {
       "chunks_done": null,
       "chunks_total": null,
@@ -482,6 +491,15 @@
       "source_sha256": "6b703a745a6da72ac6695b3611c12773172a80f032b716ae77e27129a6662e65",
       "status": "not_confirmed",
       "url": "https://www.youtube.com/watch?v=IHFWF1YC8Js"
+    },
+    "205dabe292118cf9f63c": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-11-21T08:26:23+00:00",
+      "provenance_updates": [],
+      "source_sha256": "95a321b428e8c9956fc3aa705aad7882387fa323e00f3908afd9f1af49a0d1e0",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/shorts/aSH-pAmd898"
     },
     "20d7837c0659515076bd": {
       "chunks_done": null,
@@ -2030,6 +2048,15 @@
       "status": "not_confirmed",
       "url": "https://www.youtube.com/shorts/nFtXVIKg-bI"
     },
+    "84d44b21e878f88dbccf": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-11-21T08:26:21+00:00",
+      "provenance_updates": [],
+      "source_sha256": "0fa7810b3a5cc1a5abb70720bcb07219423c42d3abbcc5b2bd99b2d07af98f99",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/shorts/zlx7m6UOeOs"
+    },
     "850d16db26fff9c1e7f5": {
       "chunks_done": null,
       "chunks_total": null,
@@ -2371,6 +2398,14 @@
       "source_sha256": "60ccda69df553f765db7e2f255e6481a50ddf11db0003f1842508fc26314f5b2",
       "status": "not_confirmed",
       "url": "https://www.youtube.com/shorts/neN6rMsEfaA"
+    },
+    "9b8e8c424aa46491e17d": {
+      "attempts": 1,
+      "error": "ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
+      "next_retry_at": "2026-11-21T14:27:54+00:00",
+      "processed_at": "2026-11-21T08:27:54+00:00",
+      "status": "technical_error",
+      "url": "https://www.youtube.com/watch?v=JEf40DFK0T8"
     },
     "9c962dcc1b16d632a606": {
       "chunks_done": null,
@@ -4122,8 +4157,8 @@
       "url": "https://bsky.app/profile/marinetondelier.fr/post/3mxrli2yxo223"
     }
   },
-  "last_error_count": 0,
-  "last_processed_count": 4,
-  "last_run_at": "2026-11-20T21:23:02+00:00",
+  "last_error_count": 1,
+  "last_processed_count": 3,
+  "last_run_at": "2026-11-21T08:27:54+00:00",
   "version": 2
 }

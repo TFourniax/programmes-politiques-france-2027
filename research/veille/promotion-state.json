@@ -850,6 +850,11 @@
       "source_url": "https://melenchon2027.fr/programme/livre/le-gout-du-futur-aux-nouvelles-frontieres-de-l-humanite/chapitre7/",
       "verified_at": "2026-11-14T23:08:38+00:00"
     },
+    "413ff98cd0c5c6f216bf3a69c423d84733f9febc63e4ca89af491229e8c6decf": {
+      "proposal_id": "auto-pcf-pouvoir-achat-travail-413ff98cd0c5",
+      "source_url": "https://www.youtube.com/shorts/Eessxc3VcUQ",
+      "verified_at": "2026-11-21T08:26:17+00:00"
+    },
     "4200a876eb9112b9d12343b119ee154cd18f134f96c8d2c1e8994e6513238d5c": {
       "proposal_id": "auto-solution-democratique-institutions-democratie-4200a876eb91",
       "source_url": "https://solutiondemocratique.fr/parrainage2027/",
@@ -3038,7 +3043,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-11-20T21:22:54+00:00",
+  "last_run_at": "2026-11-21T08:26:07+00:00",
   "source_chunks": {
     "000e79baea11403029d335b1": {
       "canonical_confirmations": [
@@ -22930,6 +22935,39 @@
       "updated_at": "2026-11-08T07:34:05+00:00",
       "url": "https://parti-equinoxe.fr/programme-2027/prevenir-plutot-que-guerir/"
     },
+    "4bba008e68102d52137e6ebd": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "completed_at": "2026-11-21T08:26:04+00:00",
+      "created_at": "2026-11-21T08:26:00+00:00",
+      "document_types": [
+        "official_press_release"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-09-06"
+      ],
+      "sha256": "1c721cf0659848cdc185c6720ba3de50aad5b19f998805d7fde97307b5cf1493",
+      "source_title": "Élection présidentielle : Fabien Roussel désigné candidat à 72% par les communistes - Site Internet du PCF",
+      "statuses": [
+        {
+          "status": {
+            "candidate_id": "fabien-roussel",
+            "effective_date": "2026-09-06",
+            "evidence_quote": "le PCF propose donc la candidature de Fabien Roussel à l’élection présidentielle de 2027.",
+            "explicit": true,
+            "new_status": "party_designated"
+          }
+        }
+      ],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-21T08:26:04+00:00",
+      "url": "https://www.pcf.fr/presidentielle2027_fabien_roussel_designe_candidat"
+    },
     "4bdad5eea2db503237859a88": {
       "canonical_confirmations": [
         {
@@ -25421,6 +25459,19 @@
       "total": 1,
       "updated_at": "2026-08-14T15:48:50+00:00",
       "url": "https://solutiondemocratique.fr/manolo-mlekuz-programme-presidentielle-2027/"
+    },
+    "547d9c0ceda33c8f3a2044fd": {
+      "claims": [],
+      "created_at": "2026-11-21T08:26:23+00:00",
+      "document_types": [],
+      "done": [],
+      "published_candidates": [],
+      "sha256": "0fd436d50cca746dd5f52aca3233dd4656323cf7e5dd3b50b38eb7331c7bf16e",
+      "source_title": "Regarder la réalité en face - Contre-budget 2027 du parti Équinoxe",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "url": "https://www.youtube.com/watch?v=JEf40DFK0T8"
     },
     "54955c66356185f7234c2d82": {
       "canonical_confirmations": [
@@ -32672,7 +32723,7 @@
     "710eb094723ee08ed594ee24": {
       "canonical_confirmations": [],
       "claims": [],
-      "completed_at": "2026-11-20T21:22:53+00:00",
+      "completed_at": "2026-11-21T08:26:05+00:00",
       "created_at": "2026-11-20T21:22:51+00:00",
       "document_types": [
         "campaign_website_page"
@@ -32697,7 +32748,7 @@
       ],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-11-20T21:22:53+00:00",
+      "updated_at": "2026-11-21T08:26:05+00:00",
       "url": "https://melenchon2027.fr/evenement/campagne/reunion-publique-soutien-a-la-candidature-de-jean-luc-melenchon/"
     },
     "713c6b5b8cce04587337afaa": {
@@ -36554,6 +36605,26 @@
       "total": 1,
       "updated_at": "2026-08-12T14:41:17+00:00",
       "url": "https://www.unenouvelleenergie.fr/notre-programme/"
+    },
+    "85a2063d6a3116954b09b714": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-11-21T08:26:20+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "0fa7810b3a5cc1a5abb70720bcb07219423c42d3abbcc5b2bd99b2d07af98f99",
+      "source_title": "🗳️ Mais qu’est-ce que des révolutionnaires peuvent bien faire dans les élections ?",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-21T08:26:21+00:00",
+      "url": "https://www.youtube.com/shorts/zlx7m6UOeOs"
     },
     "85f2f02fc238f84d5e2fa59e": {
       "canonical_confirmations": [
@@ -62789,6 +62860,65 @@
       "updated_at": "2026-08-20T20:01:37+00:00",
       "url": "https://www.unenouvelleenergie.fr/notre-programme/"
     },
+    "e504b8519c5ddde88277bcce": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "pcf",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "il doit être condamné et aller en prison.",
+            "relevance": "party_platform",
+            "statement": "Le Parti communiste français propose que les patrons conduisant leur entreprise à la banqueroute, volant l'Etat ou abandonnant des salariés soient condamnés à de la prison.",
+            "topic": "pouvoir-achat-travail"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La proposition est explicitement soutenue par la source citant Fabien Roussel pour le PCF.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [
+        {
+          "claim": {
+            "actor_id": "pcf",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "il doit être condamné et aller en prison.",
+            "relevance": "party_platform",
+            "statement": "Le Parti communiste français propose que les patrons conduisant leur entreprise à la banqueroute, volant l'Etat ou abandonnant des salariés soient condamnés à de la prison.",
+            "topic": "pouvoir-achat-travail"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La proposition est explicitement soutenue par la source citant Fabien Roussel pour le PCF.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "completed_at": "2026-11-21T08:26:17+00:00",
+      "created_at": "2026-11-21T08:26:08+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "88f7aecd745eb73065ebe199bf4a73028a4e2bc6d397ed4809649a2e45e4d5b2",
+      "source_title": "La place des patrons voyous, c’est en prison ! Fabien Roussel.",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-21T08:26:17+00:00",
+      "url": "https://www.youtube.com/shorts/Eessxc3VcUQ"
+    },
     "e50ae2b8ff6f3d87dd527065": {
       "canonical_confirmations": [],
       "claims": [],
@@ -66673,6 +66803,28 @@
       "updated_at": "2026-08-12T23:32:49+00:00",
       "url": "https://melenchon2027.fr/programme2025/livre/chapitre13/"
     },
+    "f2565c5fef2aac016dc32195": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-11-21T08:26:06+00:00",
+      "document_types": [
+        "official_interview"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [
+        "2026-11-17"
+      ],
+      "sha256": "bfbf5014c33ca7b9c3400f01d59d67e855a7f914073a4567023da31a00292de6",
+      "source_title": "« Ma candidature à la présidentielle découle de mon expérience de maire » | Nouvelle Énergie",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-21T08:26:07+00:00",
+      "url": "https://www.unenouvelleenergie.fr/ma-candidature-a-la-presidentielle-decoule-de-mon-experience-de-maire/"
+    },
     "f2a6de9660d9caf724d1538d": {
       "canonical_confirmations": [
         {
@@ -69320,6 +69472,26 @@
       "updated_at": "2026-10-12T21:52:40+00:00",
       "url": "https://bsky.app/profile/marinetondelier.fr/post/3mxomaqrpck2t"
     },
+    "fbd7edb354aec3eb3e098645": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-11-21T08:26:21+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "95a321b428e8c9956fc3aa705aad7882387fa323e00f3908afd9f1af49a0d1e0",
+      "source_title": "Instaurons la parité sociale ! Fabien Roussel soutiens les salariés du BHV ?",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-21T08:26:23+00:00",
+      "url": "https://www.youtube.com/shorts/aSH-pAmd898"
+    },
     "fbfdd2a6e7e25958dd7bfd81": {
       "canonical_confirmations": [],
       "claims": [],
@@ -70958,6 +71130,15 @@
       "status": "promoted",
       "url": "https://solutiondemocratique.fr/comparatif-candidats-programme-elections-presidentielles-france-2027/"
     },
+    "18cb69d24b6d": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-11-21T08:26:07+00:00",
+      "reason": null,
+      "source_sha256": "bfbf5014c33ca7b9c3400f01d59d67e855a7f914073a4567023da31a00292de6",
+      "status": "not_confirmed",
+      "url": "https://www.unenouvelleenergie.fr/ma-candidature-a-la-presidentielle-decoule-de-mon-experience-de-maire/"
+    },
     "19721e4c6860": {
       "chunks_done": null,
       "chunks_total": null,
@@ -72179,6 +72360,15 @@
       "source_sha256": "28ab2d42db8fa2633d0047774bcc866a1bcda9735c29a3b0980b969ca505c843",
       "status": "promoted",
       "url": "https://rassemblementnational.fr/"
+    },
+    "3d78f95c56ff": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-11-21T08:26:05+00:00",
+      "reason": null,
+      "source_sha256": "ac505fd50a5c9c6e47615832a92ba7dfc61f6506ec2371c94dbeec7c39272847",
+      "status": "promoted",
+      "url": "https://melenchon2027.fr/evenement/campagne/reunion-publique-soutien-a-la-candidature-de-jean-luc-melenchon/"
     },
     "3d87b7706df6": {
       "chunks_done": null,
@@ -75823,6 +76013,15 @@
       "source_sha256": "4643ceed4fc849e61634cb89611d8d6b0ffffabb1a2df95845e19e65456585a2",
       "status": "historical_skipped",
       "url": "https://parti-equinoxe.fr/programme-europeennes-2024-mesure-phare-3-numerique/"
+    },
+    "bab173d7bd39": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-11-21T08:26:04+00:00",
+      "reason": null,
+      "source_sha256": "1c721cf0659848cdc185c6720ba3de50aad5b19f998805d7fde97307b5cf1493",
+      "status": "promoted",
+      "url": "https://www.pcf.fr/presidentielle2027_fabien_roussel_designe_candidat"
     },
     "bace0d14b551": {
       "chunks_done": null,

@@ -1,0 +1,37 @@
+{
+  "errors": [],
+  "generated_at": "2026-11-21T08:26:08+00:00",
+  "historical_skipped": 0,
+  "partial": 0,
+  "processed": 3,
+  "promoted": 2,
+  "proposals_created": 0,
+  "results": [
+    {
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/candidates/fabien-roussel/2026-09-06-4bba008e6810.md",
+      "proposals": [],
+      "sha256": "1c721cf0659848cdc185c6720ba3de50aad5b19f998805d7fde97307b5cf1493",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://www.pcf.fr/presidentielle2027_fabien_roussel_designe_candidat",
+      "verified_at": "2026-11-21T08:26:04+00:00"
+    },
+    {
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/partys/la-france-insoumise/2026-11-21-710eb094723e.md",
+      "proposals": [],
+      "sha256": "ac505fd50a5c9c6e47615832a92ba7dfc61f6506ec2371c94dbeec7c39272847",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://melenchon2027.fr/evenement/campagne/reunion-publique-soutien-a-la-candidature-de-jean-luc-melenchon/",
+      "verified_at": "2026-11-21T08:26:05+00:00"
+    },
+    {
+      "sha256": "bfbf5014c33ca7b9c3400f01d59d67e855a7f914073a4567023da31a00292de6",
+      "status": "not_confirmed",
+      "url": "https://www.unenouvelleenergie.fr/ma-candidature-a-la-presidentielle-decoule-de-mon-experience-de-maire/"
+    }
+  ],
+  "status_updates": 0
+}
