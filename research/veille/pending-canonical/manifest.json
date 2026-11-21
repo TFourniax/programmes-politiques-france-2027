@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created_at": "2026-08-17T19:57:19.441897+00:00",
-  "updated_at": "2026-11-21T08:27:57.756226+00:00",
+  "updated_at": "2026-11-21T20:15:42.198779+00:00",
   "files": [
     {
       "path": "corpus/2027/auto/candidates/anasse-kazib/2026-08-28-38891602d9d9.md",
@@ -627,6 +627,11 @@
       "path": "corpus/2027/auto/candidates/francois-ruffin/2026-10-12-f23786115ab8.md",
       "sha256": "34d7d1d7f4b448c067a8ed81cd12d994697d3d4db86731781b5d5b4efea1d10c",
       "size": 2359
+    },
+    {
+      "path": "corpus/2027/auto/candidates/francois-ruffin/2026-11-21-30334e5e68f3.md",
+      "sha256": "4b6c913c7cd2483f842686b4f23c504256db576c67a00f68f428fde55cf658a8",
+      "size": 1881
     },
     {
       "path": "corpus/2027/auto/candidates/gabriel-attal/2026-06-01-36681da9ebbd.md",
@@ -2134,6 +2139,11 @@
       "size": 1786
     },
     {
+      "path": "corpus/2027/auto/partys/solution-democratique/2025-04-09-843c725f362b.md",
+      "sha256": "424ab00270506832a334f0654dd78bbbacd4533a4de43a5e54ec1e269fdb1fa7",
+      "size": 1718
+    },
+    {
       "path": "corpus/2027/auto/partys/solution-democratique/2025-04-09-b383d487d67a.md",
       "sha256": "b66db853999505ad52963d4f167338b76d003d8ecae4ac6352449e1a41599146",
       "size": 1762
@@ -2870,8 +2880,8 @@
     },
     {
       "path": "proposals/auto/economie-finances/auto-francois-ruffin-economie-finances-b3d8f87fb7ab.md",
-      "sha256": "d420b6723a48b095549a424a8de250c4cf13ba66c4a3d2a8b728bf4fdc197d35",
-      "size": 1330
+      "sha256": "bfe5891a0fb293d3b4743acb5c30e6d09a81ff97d3b8240b6c8c066efbbc88f8",
+      "size": 1669
     },
     {
       "path": "proposals/auto/economie-finances/auto-gabriel-attal-economie-finances-23533158e959.md",
@@ -3349,6 +3359,11 @@
       "size": 1944
     },
     {
+      "path": "proposals/auto/institutions-democratie/auto-francois-ruffin-institutions-democratie-378f84b6ec43.md",
+      "sha256": "e2247e216eef493622d95acd9ca760956e313fa6c0408ffe78dc51175bd8f0b3",
+      "size": 1350
+    },
+    {
       "path": "proposals/auto/institutions-democratie/auto-gabriel-attal-institutions-democratie-a3303519a302.md",
       "sha256": "892524eef728ed9000ec9f119492ff29161428d9a2107a01e4a42e9afa7aad48",
       "size": 1957
@@ -3515,8 +3530,8 @@
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-solution-democratique-institutions-democratie-4ea1c22d52ea.md",
-      "sha256": "35b8eaf6cf069da22aacfc88111c8f5ddcf319380761000f21a2f168dfd6e354",
-      "size": 10531
+      "sha256": "72a3d417273ddb25d702bdf912a9f56c70cb5dffbcc11136a854ee011d48010a",
+      "size": 10649
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-solution-democratique-institutions-democratie-60c5ea22a7f1.md",
@@ -3600,8 +3615,8 @@
     },
     {
       "path": "proposals/auto/pouvoir-achat-travail/auto-francois-ruffin-pouvoir-achat-travail-a3540b9130a4.md",
-      "sha256": "c0240ddc4c55434e712ca32975d0270eb621b1c0478c4d0aeb6484c06b9a498b",
-      "size": 1352
+      "sha256": "7842aa2944f0d747780650cbd30fa72352ba4d7e7143056f56e51f88b82f376b",
+      "size": 1691
     },
     {
       "path": "proposals/auto/pouvoir-achat-travail/auto-gabriel-attal-pouvoir-achat-travail-34a0180e9609.md",

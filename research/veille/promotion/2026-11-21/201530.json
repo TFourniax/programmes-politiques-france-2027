@@ -1,0 +1,49 @@
+{
+  "errors": [],
+  "generated_at": "2026-11-21T20:15:30+00:00",
+  "historical_skipped": 0,
+  "partial": 0,
+  "processed": 3,
+  "promoted": 3,
+  "proposals_created": 1,
+  "results": [
+    {
+      "document": "corpus/2027/auto/partys/solution-democratique/2025-04-09-843c725f362b.md",
+      "provenance_updates": [
+        "auto-solution-democratique-institutions-democratie-4ea1c22d52ea"
+      ],
+      "reason": "canonical_duplicate_evidence",
+      "sha256": "b3ce0abbbc5b23bf99cda39838e54515030b5924b872586660a5d75278f38ff2",
+      "status": "promoted",
+      "url": "https://solutiondemocratique.fr/comparatif-candidats-programme-elections-presidentielles-france-2027/",
+      "verified_at": "2026-11-21T20:15:10+00:00"
+    },
+    {
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/partys/la-france-insoumise/2026-11-21-710eb094723e.md",
+      "proposals": [],
+      "sha256": "ac505fd50a5c9c6e47615832a92ba7dfc61f6506ec2371c94dbeec7c39272847",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://melenchon2027.fr/evenement/campagne/reunion-publique-soutien-a-la-candidature-de-jean-luc-melenchon/",
+      "verified_at": "2026-11-21T20:15:12+00:00"
+    },
+    {
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/candidates/francois-ruffin/2026-11-21-30334e5e68f3.md",
+      "proposals": [
+        "proposals/auto/institutions-democratie/auto-francois-ruffin-institutions-democratie-378f84b6ec43.md"
+      ],
+      "provenance_updates": [
+        "auto-francois-ruffin-economie-finances-b3d8f87fb7ab",
+        "auto-francois-ruffin-pouvoir-achat-travail-a3540b9130a4"
+      ],
+      "sha256": "5e89d1b4e1dab8cec80c2c20c1670158c4bf2713c262a3257affc49f18085b3e",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://nouspresident.fr/",
+      "verified_at": "2026-11-21T20:15:29+00:00"
+    }
+  ],
+  "status_updates": 0
+}

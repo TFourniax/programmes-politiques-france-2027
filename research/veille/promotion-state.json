@@ -715,6 +715,11 @@
       "source_url": "https://parti-equinoxe.fr/programme-2027/des-elus-qui-rendent-des-comptes/",
       "verified_at": "2026-11-09T08:11:26+00:00"
     },
+    "378f84b6ec4394f4224dd0a03941d8b7f3350c014c87682afee6fea1e2ad0edf": {
+      "proposal_id": "auto-francois-ruffin-institutions-democratie-378f84b6ec43",
+      "source_url": "https://nouspresident.fr/",
+      "verified_at": "2026-11-21T20:15:21+00:00"
+    },
     "37ff8dac198e99aa071e863733253b58e1a0521edf67cbdae6d5db45b238c844": {
       "proposal_id": "auto-les-ecologistes-pouvoir-achat-travail-37ff8dac198e",
       "source_url": "https://lesecologistes.fr/document/5ZhR2m5t2ZaGKqIdD1bJaD/vdef-programme-1.pdf",
@@ -3043,7 +3048,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-11-21T08:26:07+00:00",
+  "last_run_at": "2026-11-21T20:15:29+00:00",
   "source_chunks": {
     "000e79baea11403029d335b1": {
       "canonical_confirmations": [
@@ -9488,6 +9493,26 @@
       "updated_at": "2026-10-18T21:39:57+00:00",
       "url": "https://www.youtube.com/shorts/kNdwhaZC3e4"
     },
+    "19264a609a67eade864e3c8c": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-11-21T20:15:30+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "ccd975de3eda401226178feb1a6b32c6cb9dbb2a83159948024ef7216b0ed26e",
+      "source_title": "De la RÉVOLTE à la RÉVOLUTION : MEETING de RP avec Anasse Kazib, Elsa Marcel...",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-21T20:15:31+00:00",
+      "url": "https://www.youtube.com/watch?v=qAjepismht0"
+    },
     "1987c7c98e63b8042108bf26": {
       "canonical_confirmations": [],
       "claims": [],
@@ -14287,6 +14312,101 @@
       "total": 1,
       "updated_at": "2026-09-11T12:22:22+00:00",
       "url": "https://rassemblementnational.fr/"
+    },
+    "30334e5e68f3a6334d1fd15c": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "francois-ruffin",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "statut des travailleurs essentiels",
+            "relevance": "direct",
+            "statement": "Créer un statut des travailleurs essentiels avec salaires, carrières, horaires et retraite avancée.",
+            "topic": "pouvoir-achat-travail"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Le statut des travailleurs essentiels est explicitement présent dans le canon.",
+            "related_proposal_id": "auto-francois-ruffin-pouvoir-achat-travail-a3540b9130a4",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "francois-ruffin",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "100 produits stratégiques à relocaliser",
+            "relevance": "direct",
+            "statement": "Relocaliser 100 produits stratégiques pour l'industrie.",
+            "topic": "economie-finances"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La relocalisation de 100 produits stratégiques est explicitement présente dans le canon.",
+            "related_proposal_id": "auto-francois-ruffin-economie-finances-b3d8f87fb7ab",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "francois-ruffin",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "Référendum d’Initiative Citoyenne et des États généraux",
+            "relevance": "direct",
+            "statement": "Instaurer le Référendum d’Initiative Citoyenne et des États généraux dotés d'un pouvoir de décision.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "Le RIC et les états généraux sont explicitement soutenus dans la source et absents du canon actuel.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [
+        {
+          "claim": {
+            "actor_id": "francois-ruffin",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "Référendum d’Initiative Citoyenne et des États généraux",
+            "relevance": "direct",
+            "statement": "Instaurer le Référendum d’Initiative Citoyenne et des États généraux dotés d'un pouvoir de décision.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "Le RIC et les états généraux sont explicitement soutenus dans la source et absents du canon actuel.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "completed_at": "2026-11-21T20:15:29+00:00",
+      "created_at": "2026-11-21T20:15:13+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "5e89d1b4e1dab8cec80c2c20c1670158c4bf2713c262a3257affc49f18085b3e",
+      "source_title": "François Ruffin 2027",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-21T20:15:21+00:00",
+      "url": "https://nouspresident.fr/"
     },
     "307814c90023d8f7ec049d76": {
       "canonical_confirmations": [
@@ -32723,7 +32843,7 @@
     "710eb094723ee08ed594ee24": {
       "canonical_confirmations": [],
       "claims": [],
-      "completed_at": "2026-11-21T08:26:05+00:00",
+      "completed_at": "2026-11-21T20:15:12+00:00",
       "created_at": "2026-11-20T21:22:51+00:00",
       "document_types": [
         "campaign_website_page"
@@ -32748,7 +32868,7 @@
       ],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-11-21T08:26:05+00:00",
+      "updated_at": "2026-11-21T20:15:12+00:00",
       "url": "https://melenchon2027.fr/evenement/campagne/reunion-publique-soutien-a-la-candidature-de-jean-luc-melenchon/"
     },
     "713c6b5b8cce04587337afaa": {
@@ -33188,6 +33308,26 @@
       "total": 1,
       "updated_at": "2026-09-03T12:20:03+00:00",
       "url": "https://www.youtube.com/shorts/q6UCUPWmzmg"
+    },
+    "726bee0c8eba1f076227e389": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-11-21T20:15:34+00:00",
+      "document_types": [
+        "other"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "5374e43ed5b1d67d879d3f4c6920bc2f9e768ec3ec0414e96375518d116d9414",
+      "source_title": "Depuis hier, je n’arrête pas d’y penser… Cette fois-ci la justice est passée. Avec des peines inférieures aux réquisitions de l’avocate générale certes. Mais aussi et surtout av",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-21T20:15:35+00:00",
+      "url": "https://bsky.app/profile/marinetondelier.fr/post/3n2tqpgk4ws27"
     },
     "72a0f8eafdc27b07f8009467": {
       "canonical_confirmations": [],
@@ -36255,6 +36395,48 @@
       "total": 1,
       "updated_at": "2026-09-09T12:29:17+00:00",
       "url": "https://place-publique.eu/posts/bVzEHsiKIArL1KpEE13hB/rejoignez-place-publique-et-choisissez-votre-candidat-pour-2027"
+    },
+    "843c725f362b4ba40d7085c9": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "solution-democratique",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "instaurer en France la démocratie directe",
+            "relevance": "direct",
+            "statement": "Solution Démocratique souhaite instaurer en France la démocratie directe et la décentralisation par le bas.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La déclaration est explicitement soutenue par la source et correspond à une proposition déjà présente dans le canon.",
+            "related_proposal_id": "auto-solution-democratique-institutions-democratie-4ea1c22d52ea",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-11-21T20:15:10+00:00",
+      "created_at": "2026-11-21T20:15:01+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2025-04-09"
+      ],
+      "sha256": "b3ce0abbbc5b23bf99cda39838e54515030b5924b872586660a5d75278f38ff2",
+      "source_title": "Comparatif du programme des candidats : présidentielle 2027",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-21T20:15:06+00:00",
+      "url": "https://solutiondemocratique.fr/comparatif-candidats-programme-elections-presidentielles-france-2027/"
     },
     "844065483f46069a14e59174": {
       "canonical_confirmations": [
@@ -44382,6 +44564,26 @@
       "total": 1,
       "updated_at": "2026-09-09T12:30:09+00:00",
       "url": "https://bsky.app/profile/marinetondelier.fr/post/3mv36p7kn4s27"
+    },
+    "a558957db2cd0d525b0daab5": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-11-21T20:15:35+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "7f8ca5dcc89de20d8fc3854d5d934bce833eb97813d68d55b1ecded8b9a5a62a",
+      "source_title": "🔴 GRAND MEETING RÉVOLUTIONNAIRE | Beaucoup de monde ET D’AMBIANCE à l'espace Charenton à Paris pour",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-21T20:15:36+00:00",
+      "url": "https://www.youtube.com/shorts/ibnU2kt3Jbk"
     },
     "a5da4917231cf9d4c0494b6b": {
       "canonical_confirmations": [
@@ -60840,6 +61042,26 @@
       "updated_at": "2026-08-20T14:12:37+00:00",
       "url": "https://bsky.app/profile/lesecologistes.fr/post/3mtgcdeayzs2q"
     },
+    "dca5edfdd74b77d0a30973ba": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-11-21T20:15:32+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "7af24c1d1b93a5b008356a32d066dea8ccdaf0d14e93615b83794a98906eebd0",
+      "source_title": "« On a la conviction que la jeunesse peut être l’étincelle d’un grand mouvement révolutionnaire. Le",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-21T20:15:33+00:00",
+      "url": "https://www.youtube.com/shorts/ANYKsaX6b0M"
+    },
     "dca7b1c9b0a8596fe37d1313": {
       "canonical_confirmations": [],
       "claims": [],
@@ -72451,6 +72673,15 @@
       "status": "promoted",
       "url": "https://attalpresident.fr/actualites/gabriel-attal-sur-rtl-je-suis-candidat-pour-gagner-cette-election-presidentielle"
     },
+    "40569741bd98": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-11-21T20:15:29+00:00",
+      "reason": null,
+      "source_sha256": "5e89d1b4e1dab8cec80c2c20c1670158c4bf2713c262a3257affc49f18085b3e",
+      "status": "promoted",
+      "url": "https://nouspresident.fr/"
+    },
     "408d4c6e1ef5": {
       "chunks_done": null,
       "chunks_total": 1,
@@ -73590,6 +73821,15 @@
       "status": "not_confirmed",
       "url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne"
     },
+    "67d8d0d42933": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-11-21T20:15:10+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "b3ce0abbbc5b23bf99cda39838e54515030b5924b872586660a5d75278f38ff2",
+      "status": "promoted",
+      "url": "https://solutiondemocratique.fr/comparatif-candidats-programme-elections-presidentielles-france-2027/"
+    },
     "68066e4698a7": {
       "chunks_done": null,
       "chunks_total": null,
@@ -73823,6 +74063,15 @@
       "source_sha256": "d8625c75b5424ceef471db8e4f900e66c75963d5e5ab0b751e1feda184154b96",
       "status": "promoted",
       "url": "https://attalpresident.fr/actualites/gabriel-attal-sur-rtl-je-suis-candidat-pour-gagner-cette-election-presidentielle"
+    },
+    "719cdad831a6": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-11-21T20:15:12+00:00",
+      "reason": null,
+      "source_sha256": "ac505fd50a5c9c6e47615832a92ba7dfc61f6506ec2371c94dbeec7c39272847",
+      "status": "promoted",
+      "url": "https://melenchon2027.fr/evenement/campagne/reunion-publique-soutien-a-la-candidature-de-jean-luc-melenchon/"
     },
     "71b55f7c4a39": {
       "chunks_done": null,

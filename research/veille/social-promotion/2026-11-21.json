@@ -1,39 +1,31 @@
 {
-  "errors": [
-    {
-      "at": "2026-11-21T08:27:54+00:00",
-      "error": "ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
-      "url": "https://www.youtube.com/watch?v=JEf40DFK0T8"
-    }
-  ],
-  "generated_at": "2026-11-21T08:27:54+00:00",
+  "errors": [],
+  "generated_at": "2026-11-21T20:15:37+00:00",
   "partial": 0,
-  "processed": 3,
-  "promoted": 1,
-  "proposals_created": 1,
+  "processed": 4,
+  "promoted": 0,
+  "proposals_created": 0,
   "provenance_updates": 0,
   "results": [
     {
-      "chunks_total": 1,
-      "document": "corpus/2027/auto/partys/pcf/2026-11-20-e504b8519c5d.md",
-      "proposals": [
-        "proposals/auto/pouvoir-achat-travail/auto-pcf-pouvoir-achat-travail-413ff98cd0c5.md"
-      ],
-      "sha256": "88f7aecd745eb73065ebe199bf4a73028a4e2bc6d397ed4809649a2e45e4d5b2",
-      "status": "promoted",
-      "status_updates": [],
-      "url": "https://www.youtube.com/shorts/Eessxc3VcUQ",
-      "verified_at": "2026-11-21T08:26:17+00:00"
+      "sha256": "ccd975de3eda401226178feb1a6b32c6cb9dbb2a83159948024ef7216b0ed26e",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/watch?v=qAjepismht0"
     },
     {
-      "sha256": "0fa7810b3a5cc1a5abb70720bcb07219423c42d3abbcc5b2bd99b2d07af98f99",
+      "sha256": "7af24c1d1b93a5b008356a32d066dea8ccdaf0d14e93615b83794a98906eebd0",
       "status": "not_confirmed",
-      "url": "https://www.youtube.com/shorts/zlx7m6UOeOs"
+      "url": "https://www.youtube.com/shorts/ANYKsaX6b0M"
     },
     {
-      "sha256": "95a321b428e8c9956fc3aa705aad7882387fa323e00f3908afd9f1af49a0d1e0",
+      "sha256": "5374e43ed5b1d67d879d3f4c6920bc2f9e768ec3ec0414e96375518d116d9414",
       "status": "not_confirmed",
-      "url": "https://www.youtube.com/shorts/aSH-pAmd898"
+      "url": "https://bsky.app/profile/marinetondelier.fr/post/3n2tqpgk4ws27"
+    },
+    {
+      "sha256": "7f8ca5dcc89de20d8fc3854d5d934bce833eb97813d68d55b1ecded8b9a5a62a",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/shorts/ibnU2kt3Jbk"
     }
   ],
   "status_updates": 0

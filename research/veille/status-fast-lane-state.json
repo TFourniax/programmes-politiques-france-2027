@@ -928,6 +928,13 @@
       "processed_at": "2026-09-27T22:22:26+00:00",
       "status": "already_current"
     },
+    "40569741bd98": {
+      "event_url": "https://nouspresident.fr/",
+      "owner": "François Ruffin",
+      "processed_at": "2026-11-21T20:12:33+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
     "40e1a06a112e": {
       "event_url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne",
       "owner": "Gabriel Attal",
@@ -1468,6 +1475,13 @@
       "reason": "no_deterministic_transition",
       "status": "not_applicable"
     },
+    "67d8d0d42933": {
+      "event_url": "https://solutiondemocratique.fr/comparatif-candidats-programme-elections-presidentielles-france-2027/",
+      "owner": "Solution démocratique",
+      "processed_at": "2026-11-21T20:12:29+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
     "6844d0fcdaed": {
       "event_url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne",
       "owner": "Gabriel Attal",
@@ -1597,6 +1611,13 @@
       "owner": "Gabriel Attal",
       "processed_at": "2026-10-04T17:44:29+00:00",
       "status": "already_current"
+    },
+    "719cdad831a6": {
+      "event_url": "https://melenchon2027.fr/evenement/campagne/reunion-publique-soutien-a-la-candidature-de-jean-luc-melenchon/",
+      "owner": "La France insoumise",
+      "processed_at": "2026-11-21T20:12:30+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
     },
     "725617d58485": {
       "event_url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne",
@@ -2737,7 +2758,7 @@
       "error": "ValueError: HTTP 404",
       "event_url": "https://parti-equinoxe.fr/articles/2022/05/la-transition-energetique-selon-les-ex-candidats-a-la-presidentielle-2/",
       "owner": "Équinoxe",
-      "processed_at": "2026-11-21T08:23:50+00:00",
+      "processed_at": "2026-11-21T20:12:31+00:00",
       "status": "technical_error"
     },
     "cb3428b2b6d3": {
@@ -3419,7 +3440,7 @@
     }
   },
   "last_error_count": 1,
-  "last_run_at": "2026-11-21T08:23:50+00:00",
+  "last_run_at": "2026-11-21T20:12:33+00:00",
   "last_updated_count": 0,
   "version": 1
 }

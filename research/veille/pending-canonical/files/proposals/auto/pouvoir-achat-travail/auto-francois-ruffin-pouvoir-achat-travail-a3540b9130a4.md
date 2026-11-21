@@ -5,7 +5,7 @@ entity_id: francois-ruffin
 topic: pouvoir-achat-travail
 certainty: explicit
 proposal_status: current
-source_document_ids: [auto-francois-ruffin-2026-10-12-f23786115ab8]
+source_document_ids: [auto-francois-ruffin-2026-10-12-f23786115ab8, auto-francois-ruffin-2026-11-21-30334e5e68f3]
 source_url: https://nouspresident.fr/notre-programme/
 source_tier: tier_1_primary_official
 first_documented_at: '2026-10-12'
@@ -14,6 +14,10 @@ verification_state: verified
 verification_method: primary_source_exact_quote_plus_independent_gemini_verifier_plus_chronology_guard
 evidence_sha256: 4194011b55c076f92005c24bb7f36238518dd398d2db9b3a3a3e72119e13a66f
 generated_by: scripts/auto_promote.py
+source_urls: ['https://nouspresident.fr/notre-programme/', 'https://nouspresident.fr/']
+evidence_sha256s: [4194011b55c076f92005c24bb7f36238518dd398d2db9b3a3a3e72119e13a66f, 5e89d1b4e1dab8cec80c2c20c1670158c4bf2713c262a3257affc49f18085b3e]
+confirmation_count: 2
+last_confirmed_at: '2026-11-21'
 ---
 
 # Création d'un statut des travailleurs essentiels garantissant salaires, carrières, horaires et retraite avancée

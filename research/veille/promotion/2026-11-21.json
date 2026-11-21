@@ -1,21 +1,22 @@
 {
   "errors": [],
-  "generated_at": "2026-11-21T08:26:08+00:00",
+  "generated_at": "2026-11-21T20:15:30+00:00",
   "historical_skipped": 0,
   "partial": 0,
   "processed": 3,
-  "promoted": 2,
-  "proposals_created": 0,
+  "promoted": 3,
+  "proposals_created": 1,
   "results": [
     {
-      "chunks_total": 1,
-      "document": "corpus/2027/auto/candidates/fabien-roussel/2026-09-06-4bba008e6810.md",
-      "proposals": [],
-      "sha256": "1c721cf0659848cdc185c6720ba3de50aad5b19f998805d7fde97307b5cf1493",
+      "document": "corpus/2027/auto/partys/solution-democratique/2025-04-09-843c725f362b.md",
+      "provenance_updates": [
+        "auto-solution-democratique-institutions-democratie-4ea1c22d52ea"
+      ],
+      "reason": "canonical_duplicate_evidence",
+      "sha256": "b3ce0abbbc5b23bf99cda39838e54515030b5924b872586660a5d75278f38ff2",
       "status": "promoted",
-      "status_updates": [],
-      "url": "https://www.pcf.fr/presidentielle2027_fabien_roussel_designe_candidat",
-      "verified_at": "2026-11-21T08:26:04+00:00"
+      "url": "https://solutiondemocratique.fr/comparatif-candidats-programme-elections-presidentielles-france-2027/",
+      "verified_at": "2026-11-21T20:15:10+00:00"
     },
     {
       "chunks_total": 1,
@@ -25,12 +26,23 @@
       "status": "promoted",
       "status_updates": [],
       "url": "https://melenchon2027.fr/evenement/campagne/reunion-publique-soutien-a-la-candidature-de-jean-luc-melenchon/",
-      "verified_at": "2026-11-21T08:26:05+00:00"
+      "verified_at": "2026-11-21T20:15:12+00:00"
     },
     {
-      "sha256": "bfbf5014c33ca7b9c3400f01d59d67e855a7f914073a4567023da31a00292de6",
-      "status": "not_confirmed",
-      "url": "https://www.unenouvelleenergie.fr/ma-candidature-a-la-presidentielle-decoule-de-mon-experience-de-maire/"
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/candidates/francois-ruffin/2026-11-21-30334e5e68f3.md",
+      "proposals": [
+        "proposals/auto/institutions-democratie/auto-francois-ruffin-institutions-democratie-378f84b6ec43.md"
+      ],
+      "provenance_updates": [
+        "auto-francois-ruffin-economie-finances-b3d8f87fb7ab",
+        "auto-francois-ruffin-pouvoir-achat-travail-a3540b9130a4"
+      ],
+      "sha256": "5e89d1b4e1dab8cec80c2c20c1670158c4bf2713c262a3257affc49f18085b3e",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://nouspresident.fr/",
+      "verified_at": "2026-11-21T20:15:29+00:00"
     }
   ],
   "status_updates": 0
