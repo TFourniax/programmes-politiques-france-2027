@@ -5,7 +5,7 @@ entity_id: equinoxe
 topic: services-publics
 certainty: explicit
 proposal_status: current
-source_document_ids: [auto-antoine-mikolajczak-2026-11-07-f7ad33e18a98]
+source_document_ids: [auto-antoine-mikolajczak-2026-11-07-f7ad33e18a98, auto-antoine-mikolajczak-2026-11-20-ba0f94b12310]
 source_url: https://parti-equinoxe.fr/programme-2027/sortir-du-labyrinthe-administratif/
 source_tier: tier_1_primary_official
 first_documented_at: '2026-11-07'
@@ -14,6 +14,10 @@ verification_state: verified
 verification_method: primary_source_exact_quote_plus_independent_gemini_verifier_plus_chronology_guard
 evidence_sha256: 5c12d2c9b0b0bc80a616617a1eb55562120e96d4fbe169a5239e2207dfc8edd2
 generated_by: scripts/auto_promote.py
+source_urls: ['https://parti-equinoxe.fr/programme-2027/sortir-du-labyrinthe-administratif/']
+evidence_sha256s: [5c12d2c9b0b0bc80a616617a1eb55562120e96d4fbe169a5239e2207dfc8edd2, 6c8ea8f51ed66139f76316f12d5945617799c523b12f4907eddf412e2217beb5]
+confirmation_count: 2
+last_confirmed_at: '2026-11-20'
 ---
 
 # La gestion des aides sociales est regroupée au sein d'un organisme unique pour faciliter leur attribution automatique

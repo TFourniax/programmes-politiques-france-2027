@@ -1,0 +1,46 @@
+{
+  "errors": [],
+  "generated_at": "2026-11-22T08:13:24+00:00",
+  "historical_skipped": 0,
+  "partial": 0,
+  "processed": 3,
+  "promoted": 2,
+  "proposals_created": 1,
+  "results": [
+    {
+      "sha256": "4e7a42a83ac7359202cfb3a21bcfe8ee4f59cb53259a153fa35148dca1073c34",
+      "status": "not_confirmed",
+      "url": "https://melenchon2027.fr/evenement/campagne/reunion-publique-soutien-a-la-candidature-de-jean-luc-melenchon/"
+    },
+    {
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/partys/equinoxe/2026-11-22-018d3251b0cc.md",
+      "proposals": [
+        "proposals/auto/services-publics/auto-equinoxe-services-publics-cdc129b21cb8.md"
+      ],
+      "provenance_updates": [
+        "auto-equinoxe-ecologie-energie-72a60779ed53",
+        "auto-equinoxe-institutions-democratie-9b6cc8950f26",
+        "auto-equinoxe-institutions-democratie-de8e41f8910c",
+        "auto-equinoxe-services-publics-01b6b4e114bd"
+      ],
+      "sha256": "de1dd7483f7a32c6afc09ca5132e5c5f7729140234e64dc5e1b3b1d7e37da931",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://parti-equinoxe.fr/programme-2027/",
+      "verified_at": "2026-11-22T08:13:17+00:00"
+    },
+    {
+      "document": "corpus/2027/auto/candidates/antoine-mikolajczak/2026-11-20-ba0f94b12310.md",
+      "provenance_updates": [
+        "auto-equinoxe-services-publics-17947e3f18b9"
+      ],
+      "reason": "canonical_duplicate_evidence",
+      "sha256": "6c8ea8f51ed66139f76316f12d5945617799c523b12f4907eddf412e2217beb5",
+      "status": "promoted",
+      "url": "https://parti-equinoxe.fr/programme-2027/sortir-du-labyrinthe-administratif/",
+      "verified_at": "2026-11-22T08:13:24+00:00"
+    }
+  ],
+  "status_updates": 0
+}

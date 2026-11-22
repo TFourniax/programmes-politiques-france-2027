@@ -1865,6 +1865,11 @@
       "source_url": "https://attalpresident.fr/programme/mesures/interessement-vers-epargne-retraite",
       "verified_at": "2026-11-06T10:57:59+00:00"
     },
+    "980d5a7a7b8b3abb55cc2ead1ea8d1220c5ac7eb942f32d4c4e4ce3c8bf48291": {
+      "proposal_id": "auto-revolution-permanente-securite-justice-980d5a7a7b8b",
+      "source_url": "https://www.youtube.com/shorts/zXWEYndKXmA",
+      "verified_at": "2026-11-22T08:13:55+00:00"
+    },
     "9813c2e928183c1248bd0b46dc1ebb2167620e384fda5187aeb1953fa9c08e8a": {
       "proposal_id": "auto-les-ecologistes-pouvoir-achat-travail-9813c2e92818",
       "source_url": "https://lesecologistes.fr/document/5ZhR2m5t2ZaGKqIdD1bJaD/vdef-programme-1.pdf",
@@ -2510,6 +2515,11 @@
       "source_url": "https://lesecologistes.fr/document/5ZhR2m5t2ZaGKqIdD1bJaD/vdef-programme-1.pdf",
       "verified_at": "2026-08-19T02:42:33+00:00"
     },
+    "cdc129b21cb8b1d2e1bd012f69fb90c43bb7b86dc200ae73b93509af8e130edd": {
+      "proposal_id": "auto-equinoxe-services-publics-cdc129b21cb8",
+      "source_url": "https://parti-equinoxe.fr/programme-2027/",
+      "verified_at": "2026-11-22T08:13:11+00:00"
+    },
     "cdd542c0f78a91584773f6c08d793d140cadb93fdb022a3906856e6fd80fcf23": {
       "proposal_id": "auto-gabriel-attal-ecologie-energie-cdd542c0f78a",
       "source_url": "https://attalpresident.fr/actualites/gabriel-attal-sur-rtl-je-suis-candidat-pour-gagner-cette-election-presidentielle",
@@ -3048,7 +3058,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-11-21T20:15:29+00:00",
+  "last_run_at": "2026-11-22T08:13:24+00:00",
   "source_chunks": {
     "000e79baea11403029d335b1": {
       "canonical_confirmations": [
@@ -3385,6 +3395,137 @@
       "total": 1,
       "updated_at": "2026-09-14T22:40:36+00:00",
       "url": "https://www.youtube.com/watch?v=lEQtt5nZll0"
+    },
+    "018d3251b0ccc6fcd25108a0": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "equinoxe",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Sortir du présidentialisme : députés élus à la proportionnelle, un Sénat tiré au sort parmi les élus locaux",
+            "relevance": "direct",
+            "statement": "Sortir du présidentialisme en faisant élire les députés à la proportionnelle et en instaurant un Sénat tiré au sort parmi les élus locaux.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Le claim est explicitement présent dans le programme 2027 et correspond à une proposition existante.",
+            "related_proposal_id": "auto-equinoxe-institutions-democratie-9b6cc8950f26",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "equinoxe",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "à deux mandats pour une même fonction, à l’exception des maires des petites communes.",
+            "relevance": "direct",
+            "statement": "Limiter l'exercice des mandats électifs à deux mandats pour une même fonction, sauf pour les maires des petites communes.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "Le claim est explicitement présent dans le programme 2027 et correspond à une proposition existante.",
+            "related_proposal_id": "auto-equinoxe-institutions-democratie-de8e41f8910c",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "equinoxe",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "une taxe carbone dont 80 % reviennent chaque mois aux ménages et 20 % financent la transition.",
+            "relevance": "direct",
+            "statement": "Mettre en place une taxe carbone dont 80 pour cent des revenus sont redistribués mensuellement aux ménages.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "Le claim est explicitement présent dans le programme 2027 et correspond à une proposition existante.",
+            "related_proposal_id": "auto-equinoxe-ecologie-energie-72a60779ed53",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "equinoxe",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Un Défenseur de la santé est nommé pour assurer la prise en compte des enjeux de santé globale",
+            "relevance": "direct",
+            "statement": "Nommer un Défenseur de la santé pour garantir la prise en compte des enjeux de santé globale dans les lois.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 3,
+            "reason": "Le claim est explicitement présent dans le programme 2027 mais n'a pas d'équivalent exact dans le canonique actuel.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "equinoxe",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Une taxe « santé » est mise en place sur les produits gras, salés, sucrés, alcoolisés et ultra-transformés",
+            "relevance": "direct",
+            "statement": "Mettre en place une taxe santé sur les produits gras, salés, sucrés, alcoolisés et ultra-transformés.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 4,
+            "reason": "Le claim est explicitement présent dans le programme 2027 et correspond à une proposition existante.",
+            "related_proposal_id": "auto-equinoxe-services-publics-01b6b4e114bd",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [
+        {
+          "claim": {
+            "actor_id": "equinoxe",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Un Défenseur de la santé est nommé pour assurer la prise en compte des enjeux de santé globale",
+            "relevance": "direct",
+            "statement": "Nommer un Défenseur de la santé pour garantir la prise en compte des enjeux de santé globale dans les lois.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 3,
+            "reason": "Le claim est explicitement présent dans le programme 2027 mais n'a pas d'équivalent exact dans le canonique actuel.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "completed_at": "2026-11-22T08:13:17+00:00",
+      "created_at": "2026-11-22T08:13:05+00:00",
+      "document_types": [
+        "party_programme"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "de1dd7483f7a32c6afc09ca5132e5c5f7729140234e64dc5e1b3b1d7e37da931",
+      "source_title": "Parti Équinoxe - Programme 2027",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-22T08:13:11+00:00",
+      "url": "https://parti-equinoxe.fr/programme-2027/"
     },
     "01f8cb9375ec0138a36234ad": {
       "canonical_confirmations": [
@@ -9533,6 +9674,65 @@
       "updated_at": "2026-09-12T21:35:29+00:00",
       "url": "https://bsky.app/profile/marinetondelier.fr/post/3mvdta4iaw227"
     },
+    "19b72428184985f78f5f0bf8": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "revolution-permanente",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "AMNISTIE POUR TOUS LES LYCÉENS RÉPRIMÉS",
+            "relevance": "direct",
+            "statement": "Le parti demande une amnistie pour tous les lycéens réprimés et condamnés.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La source soutient explicitement la demande d'amnistie pour les lycéens réprimés par le parti Révolution Permanente dans le contexte de 2027 (#Anasse2027).",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [
+        {
+          "claim": {
+            "actor_id": "revolution-permanente",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "AMNISTIE POUR TOUS LES LYCÉENS RÉPRIMÉS",
+            "relevance": "direct",
+            "statement": "Le parti demande une amnistie pour tous les lycéens réprimés et condamnés.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La source soutient explicitement la demande d'amnistie pour les lycéens réprimés par le parti Révolution Permanente dans le contexte de 2027 (#Anasse2027).",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "completed_at": "2026-11-22T08:13:55+00:00",
+      "created_at": "2026-11-22T08:13:46+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "1d09d269df438392103acbc8857a56b041488028177a191a168352e66bfc5f27",
+      "source_title": "🔴 AMNISTIE POUR TOUS LES LYCÉENS RÉPRIMÉS !",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-22T08:13:55+00:00",
+      "url": "https://www.youtube.com/shorts/zXWEYndKXmA"
+    },
     "19bf77383424dbe5ab36fc87": {
       "canonical_confirmations": [
         {
@@ -10938,6 +11138,26 @@
       "updated_at": "2026-09-26T22:06:21+00:00",
       "url": "https://www.youtube.com/shorts/OjzJvE5zpls"
     },
+    "1ff84f2433f12df1b8960526": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-11-22T08:13:02+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "4e7a42a83ac7359202cfb3a21bcfe8ee4f59cb53259a153fa35148dca1073c34",
+      "source_title": "Réunion publique - soutien à la candidature de Jean Luc Mélenchon - Mélenchon 2027 : Soutenez ma candidature à l’élection présidentielle",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-22T08:13:03+00:00",
+      "url": "https://melenchon2027.fr/evenement/campagne/reunion-publique-soutien-a-la-candidature-de-jean-luc-melenchon/"
+    },
     "20c668171ad67297bc28f21d": {
       "canonical_confirmations": [
         {
@@ -11410,6 +11630,26 @@
       "total": 1,
       "updated_at": "2026-09-18T17:13:32+00:00",
       "url": "https://bsky.app/profile/marinetondelier.fr/post/3mvs6d3fj3k23"
+    },
+    "221a9ba0e542a0010f35d282": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-11-22T08:13:24+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "8ae61725ceb8e636f3abcc956170a46e8b1623ac684a5c7627b913c585333125",
+      "source_title": "🔴 ANASSE 2027 : UNE CAMPAGNE POUR CONSTRUIRE UNE GRANDE ORGANISATION RÉVOLUTIONNAIRE",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-22T08:13:27+00:00",
+      "url": "https://www.youtube.com/shorts/llAH-v-qiV4"
     },
     "2245c756869d677a704bc005": {
       "canonical_confirmations": [
@@ -24432,6 +24672,45 @@
       "total": 1,
       "updated_at": "2026-10-06T19:02:43+00:00",
       "url": "https://www.revolutionpermanente.fr/Budget-2027-l-austerite-sur-le-dos-des-travailleurs-et-des-retraites-pour-preserver-les-cadeaux-au"
+    },
+    "50f5ea99039efe14f23867b5": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "revolution-permanente",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "NOUS ON VEUT L'EXPROPRIER !",
+            "relevance": "party_platform",
+            "statement": "Le parti propose d'exproprier le grand patronat.",
+            "topic": "economie-finances"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "L'expropriation du grand patronat est explicitement soutenue et correspond à une formulation équivalente déjà présente dans le canon.",
+            "related_proposal_id": "auto-revolution-permanente-economie-finances-9a3a787c0c18",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "created_at": "2026-11-22T08:13:33+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "83fe3648f415b4c07beed600b2714a86bf3f230d193f77f3718aadd55a5bfc44",
+      "source_title": "🔴 LFI VEUT NÉGOCIER AVEC LE GRAND PATRONAT, NOUS ON VEUT L'EXPROPRIER !",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-22T08:13:44+00:00",
+      "url": "https://www.youtube.com/shorts/H4FpcOKv3Rg"
     },
     "5101e9a2738d6c5bab27ecaf": {
       "canonical_confirmations": [],
@@ -49715,6 +49994,26 @@
       "updated_at": "2026-08-25T08:09:06+00:00",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
+    "ad5d8eb41e4b2fbe32f4b751": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-11-22T08:13:27+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "ddf6b1e147682f3261b28c6e2011e9a3df0764e0658d984e48ad84f04e9fe5e3",
+      "source_title": "🎶 1700 PERSONNES au GRAND MEETING DE RP : Énorme ambiance au meeting de RP où lycéens, étudiants et",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-22T08:13:32+00:00",
+      "url": "https://www.youtube.com/shorts/Jg1xZ5tXPZ4"
+    },
     "adcc906c08e86056f5cb8397": {
       "canonical_confirmations": [
         {
@@ -52275,6 +52574,46 @@
       "total": 1,
       "updated_at": "2026-11-10T08:35:02+00:00",
       "url": "https://melenchon2027.fr/programme/livre/fonder-la-6e-republique/chapitre1/"
+    },
+    "ba0f94b123108d31c45be1b5": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "equinoxe",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "aides sociales gérées par un organisme unique",
+            "relevance": "direct",
+            "statement": "La gestion des aides sociales doit être regroupée au sein d'un organisme unique.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La proposition est explicitement soutenue et identique au claim canonique existant.",
+            "related_proposal_id": "auto-equinoxe-services-publics-17947e3f18b9",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-11-22T08:13:24+00:00",
+      "created_at": "2026-11-22T08:13:18+00:00",
+      "document_types": [
+        "party_programme"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "6c8ea8f51ed66139f76316f12d5945617799c523b12f4907eddf412e2217beb5",
+      "source_title": "Simplification administrative des démarches - Parti Équinoxe",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-22T08:13:22+00:00",
+      "url": "https://parti-equinoxe.fr/programme-2027/sortir-du-labyrinthe-administratif/"
     },
     "ba5770092e7440acd58b4a81": {
       "canonical_confirmations": [
@@ -71181,6 +71520,15 @@
       "status": "promoted",
       "url": "https://www.unenouvelleenergie.fr/notre-programme/"
     },
+    "143cde6bb9f8": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-11-22T08:13:24+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "6c8ea8f51ed66139f76316f12d5945617799c523b12f4907eddf412e2217beb5",
+      "status": "promoted",
+      "url": "https://parti-equinoxe.fr/programme-2027/sortir-du-labyrinthe-administratif/"
+    },
     "1475cd011fbb": {
       "chunks_done": null,
       "chunks_total": null,
@@ -72663,6 +73011,15 @@
       "source_sha256": "4b1dc198231596cb90ab0785af692741f456bf4d0f7b33ccd10b367b0b112d8b",
       "status": "promoted",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
+    "40466202bb8c": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-11-22T08:13:17+00:00",
+      "reason": null,
+      "source_sha256": "de1dd7483f7a32c6afc09ca5132e5c5f7729140234e64dc5e1b3b1d7e37da931",
+      "status": "promoted",
+      "url": "https://parti-equinoxe.fr/programme-2027/"
     },
     "4051c86bb078": {
       "chunks_done": null,
@@ -77806,6 +78163,15 @@
       "source_sha256": "3fef1671cc9b008965b97ae3f8fbb393c59d4b44033a5837b89130b926451659",
       "status": "promoted",
       "url": "https://rassemblementnational.fr/"
+    },
+    "eb9fa91d4971": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-11-22T08:13:03+00:00",
+      "reason": null,
+      "source_sha256": "4e7a42a83ac7359202cfb3a21bcfe8ee4f59cb53259a153fa35148dca1073c34",
+      "status": "not_confirmed",
+      "url": "https://melenchon2027.fr/evenement/campagne/reunion-publique-soutien-a-la-candidature-de-jean-luc-melenchon/"
     },
     "ec2e2746a750": {
       "abandoned_at": "2026-11-06T10:53:12+00:00",
