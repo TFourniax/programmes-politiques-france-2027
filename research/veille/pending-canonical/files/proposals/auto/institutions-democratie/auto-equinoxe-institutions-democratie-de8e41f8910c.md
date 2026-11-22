@@ -7,7 +7,7 @@ topic: institutions-democratie
 certainty: explicit
 proposal_status: current
 source_document_ids: [auto-equinoxe-2026-11-06-38fd42368084, auto-equinoxe-2026-11-08-de3d6d3924ea, auto-antoine-mikolajczak-2026-11-07-739cdf702f21,
-  auto-equinoxe-2026-11-22-018d3251b0cc]
+  auto-equinoxe-2026-11-22-018d3251b0cc, auto-antoine-mikolajczak-2026-11-20-154caf2f7011]
 source_url: https://parti-equinoxe.fr/programme-2027/
 source_tier: tier_1_primary_official
 first_documented_at: '2026-11-06'
@@ -18,9 +18,10 @@ evidence_sha256: 91d31cc29af0ae299545442a8ae414fda852a1e70a0825c3a95fa4066a57aef
 generated_by: scripts/auto_promote.py
 source_urls: ['https://parti-equinoxe.fr/programme-2027/', 'https://parti-equinoxe.fr/programme-2027/des-elus-qui-rendent-des-comptes/']
 evidence_sha256s: [91d31cc29af0ae299545442a8ae414fda852a1e70a0825c3a95fa4066a57aef8, ed07d8f7b1e3c6b8603db4244d36dd7da3ac21a9eabead9c1d03e33d2125e0d4,
-  e5d2a9d890caa40abac25a0fde9128f4b391706a8159ea0704fdc8f327515300, de1dd7483f7a32c6afc09ca5132e5c5f7729140234e64dc5e1b3b1d7e37da931]
-confirmation_count: 4
-last_confirmed_at: '2026-11-22'
+  e5d2a9d890caa40abac25a0fde9128f4b391706a8159ea0704fdc8f327515300, de1dd7483f7a32c6afc09ca5132e5c5f7729140234e64dc5e1b3b1d7e37da931,
+  b97fecbbd889cadff4ee370c940fd84a80d7bfe37a5a8cb396c794c11a95d802]
+confirmation_count: 5
+last_confirmed_at: '2026-11-20'
 ---
 
 # Le parti propose de limiter l'exercice des mandats électifs à deux mandats pour une même fonction, sauf pour les maires des petites communes

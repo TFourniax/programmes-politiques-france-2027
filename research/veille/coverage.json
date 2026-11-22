@@ -6,18 +6,18 @@
     "actors": 68,
     "declared_or_active_candidates": 28,
     "topics": 12,
-    "current_proposals": 1572,
-    "covered_actor_topic_cells": 173,
+    "current_proposals": 1575,
+    "covered_actor_topic_cells": 174,
     "total_actor_topic_cells": 816,
-    "actor_topic_coverage_ratio": 0.212,
-    "active_candidate_covered_cells": 82,
+    "actor_topic_coverage_ratio": 0.2132,
+    "active_candidate_covered_cells": 83,
     "active_candidate_total_cells": 336,
-    "active_candidate_topic_coverage_ratio": 0.244,
-    "verified_proposals": 1539,
-    "multi_source_proposals": 145,
+    "active_candidate_topic_coverage_ratio": 0.247,
+    "verified_proposals": 1542,
+    "multi_source_proposals": 146,
     "latest_evidence_at": "2026-11-22",
     "certainty_counts": {
-      "explicit": 1543,
+      "explicit": 1546,
       "explicit_but_conditional": 3,
       "explicit_but_underspecified": 26
     }
@@ -803,26 +803,26 @@
       "type": "candidate",
       "status": "declared_presidential",
       "confidence": "high",
-      "current_proposals": 3,
+      "current_proposals": 5,
       "covered_topics": [
         "ecologie-energie",
+        "europe-souverainete",
         "institutions-democratie",
         "services-publics"
       ],
-      "coverage_ratio": 0.25,
+      "coverage_ratio": 0.3333,
       "gaps": [
         "pouvoir-achat-travail",
         "retraites",
         "fiscalite-redistribution",
         "immigration-integration",
-        "europe-souverainete",
         "defense-international",
         "securite-justice",
         "economie-finances",
         "numerique-ia"
       ],
       "latest_evidence_at": "2026-11-20",
-      "verified_proposals": 3,
+      "verified_proposals": 5,
       "multi_source_proposals": 1
     },
     {
@@ -1658,7 +1658,7 @@
       "type": "party",
       "status": null,
       "confidence": null,
-      "current_proposals": 20,
+      "current_proposals": 21,
       "covered_topics": [
         "ecologie-energie",
         "economie-finances",
@@ -1676,8 +1676,8 @@
         "defense-international",
         "numerique-ia"
       ],
-      "latest_evidence_at": "2026-11-21",
-      "verified_proposals": 20,
+      "latest_evidence_at": "2026-11-22",
+      "verified_proposals": 21,
       "multi_source_proposals": 7
     },
     {
@@ -1925,7 +1925,7 @@
       ],
       "latest_evidence_at": "2026-11-22",
       "verified_proposals": 36,
-      "multi_source_proposals": 11
+      "multi_source_proposals": 12
     },
     {
       "id": "eric-zemmour",
@@ -1959,11 +1959,11 @@
     {
       "id": "pouvoir-achat-travail",
       "label": "Pouvoir d’achat & travail",
-      "current_proposals": 105,
+      "current_proposals": 106,
       "actors_covered": 22,
       "actor_coverage_ratio": 0.3235,
-      "latest_evidence_at": "2026-11-21",
-      "verified_proposals": 98,
+      "latest_evidence_at": "2026-11-22",
+      "verified_proposals": 99,
       "multi_source_proposals": 16
     },
     {
@@ -1999,11 +1999,11 @@
     {
       "id": "europe-souverainete",
       "label": "Europe & souveraineté",
-      "current_proposals": 119,
-      "actors_covered": 13,
-      "actor_coverage_ratio": 0.1912,
+      "current_proposals": 121,
+      "actors_covered": 14,
+      "actor_coverage_ratio": 0.2059,
       "latest_evidence_at": "2026-11-12",
-      "verified_proposals": 118,
+      "verified_proposals": 120,
       "multi_source_proposals": 4
     },
     {
@@ -2034,7 +2034,7 @@
       "actor_coverage_ratio": 0.2941,
       "latest_evidence_at": "2026-11-22",
       "verified_proposals": 283,
-      "multi_source_proposals": 43
+      "multi_source_proposals": 44
     },
     {
       "id": "services-publics",
@@ -2052,7 +2052,7 @@
       "current_proposals": 162,
       "actors_covered": 14,
       "actor_coverage_ratio": 0.2059,
-      "latest_evidence_at": "2026-11-21",
+      "latest_evidence_at": "2026-11-22",
       "verified_proposals": 159,
       "multi_source_proposals": 14
     },
@@ -3616,8 +3616,8 @@
       "id": "jean-luc-melenchon",
       "name": "Jean-Luc Mélenchon",
       "status": "declared_presidential",
-      "coverage_ratio": 0.25,
-      "current_proposals": 3,
+      "coverage_ratio": 0.3333,
+      "current_proposals": 5,
       "latest_evidence_at": "2026-11-20",
       "topics": [
         {
@@ -3659,10 +3659,10 @@
         {
           "id": "europe-souverainete",
           "label": "Europe & souveraineté",
-          "covered": false,
-          "current_proposals": 0,
-          "latest_evidence_at": null,
-          "verified_proposals": 0,
+          "covered": true,
+          "current_proposals": 2,
+          "latest_evidence_at": "2026-11-07",
+          "verified_proposals": 2,
           "multi_source_proposals": 0
         },
         {
@@ -5748,25 +5748,6 @@
       ]
     },
     {
-      "id": "jean-luc-melenchon",
-      "name": "Jean-Luc Mélenchon",
-      "status": "declared_presidential",
-      "coverage_ratio": 0.25,
-      "current_proposals": 3,
-      "latest_evidence_at": "2026-11-20",
-      "gaps": [
-        "pouvoir-achat-travail",
-        "retraites",
-        "fiscalite-redistribution",
-        "immigration-integration",
-        "europe-souverainete",
-        "defense-international",
-        "securite-justice",
-        "economie-finances",
-        "numerique-ia"
-      ]
-    },
-    {
       "id": "nicolas-dupont-aignan",
       "name": "Nicolas Dupont-Aignan",
       "status": "declared_presidential",
@@ -5801,6 +5782,24 @@
         "institutions-democratie",
         "services-publics",
         "securite-justice",
+        "numerique-ia"
+      ]
+    },
+    {
+      "id": "jean-luc-melenchon",
+      "name": "Jean-Luc Mélenchon",
+      "status": "declared_presidential",
+      "coverage_ratio": 0.3333,
+      "current_proposals": 5,
+      "latest_evidence_at": "2026-11-20",
+      "gaps": [
+        "pouvoir-achat-travail",
+        "retraites",
+        "fiscalite-redistribution",
+        "immigration-integration",
+        "defense-international",
+        "securite-justice",
+        "economie-finances",
         "numerique-ia"
       ]
     },

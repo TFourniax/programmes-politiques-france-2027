@@ -5,7 +5,7 @@ entity_id: equinoxe
 topic: institutions-democratie
 certainty: explicit
 proposal_status: current
-source_document_ids: [auto-equinoxe-2026-11-08-de3d6d3924ea, auto-antoine-mikolajczak-2026-11-07-739cdf702f21]
+source_document_ids: [auto-equinoxe-2026-11-08-de3d6d3924ea, auto-antoine-mikolajczak-2026-11-07-739cdf702f21, auto-antoine-mikolajczak-2026-11-20-154caf2f7011]
 source_url: https://parti-equinoxe.fr/programme-2027/
 source_tier: tier_1_primary_official
 first_documented_at: '2026-11-08'
@@ -15,9 +15,10 @@ verification_method: primary_source_exact_quote_plus_independent_gemini_verifier
 evidence_sha256: ed07d8f7b1e3c6b8603db4244d36dd7da3ac21a9eabead9c1d03e33d2125e0d4
 generated_by: scripts/auto_promote.py
 source_urls: ['https://parti-equinoxe.fr/programme-2027/', 'https://parti-equinoxe.fr/programme-2027/des-elus-qui-rendent-des-comptes/']
-evidence_sha256s: [ed07d8f7b1e3c6b8603db4244d36dd7da3ac21a9eabead9c1d03e33d2125e0d4, e5d2a9d890caa40abac25a0fde9128f4b391706a8159ea0704fdc8f327515300]
-confirmation_count: 2
-last_confirmed_at: '2026-11-07'
+evidence_sha256s: [ed07d8f7b1e3c6b8603db4244d36dd7da3ac21a9eabead9c1d03e33d2125e0d4, e5d2a9d890caa40abac25a0fde9128f4b391706a8159ea0704fdc8f327515300,
+  b97fecbbd889cadff4ee370c940fd84a80d7bfe37a5a8cb396c794c11a95d802]
+confirmation_count: 3
+last_confirmed_at: '2026-11-20'
 ---
 
 # Sanctionner les atteintes graves à la probité par l'inéligibilité définitive des élus concernés

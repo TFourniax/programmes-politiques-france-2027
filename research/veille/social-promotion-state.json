@@ -337,6 +337,17 @@
       "status": "not_confirmed",
       "url": "https://bsky.app/profile/marinetondelier.fr/post/3mvsx57wkok2h"
     },
+    "12f96810519a983806da": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-11-22T20:29:59+00:00",
+      "provenance_updates": [
+        "auto-revolution-permanente-pouvoir-achat-travail-0a812c69e566"
+      ],
+      "source_sha256": "e96c32f504a3bd6a74a7aef74560fb3815566d3f2dd7fef5c11f81d6a033e5d9",
+      "status": "promoted",
+      "url": "https://www.youtube.com/shorts/9YVBBN2AmzY"
+    },
     "143606127bc3c3010b41": {
       "chunks_done": null,
       "chunks_total": null,
@@ -2012,6 +2023,15 @@
       "status": "not_confirmed",
       "url": "https://www.youtube.com/shorts/H0BrTZN6gPE"
     },
+    "7d5038ce33a2c7a5bf9f": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-11-22T20:30:01+00:00",
+      "provenance_updates": [],
+      "source_sha256": "3112dba408f9aef00febb4108df851a6c4da7242dffd7a6642f7242b53595158",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/shorts/6MzZFdNg1Rc"
+    },
     "7e6359a6c9f753fbed27": {
       "chunks_done": null,
       "chunks_total": null,
@@ -2191,6 +2211,15 @@
       "source_sha256": "54440da21e8b7253d4915c07a9f8bdfee8f86e0d4f4debf2c74185e856047a09",
       "status": "not_confirmed",
       "url": "https://www.youtube.com/shorts/XY8N8mFt7I8"
+    },
+    "8b21898537d6fa495dd1": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-11-22T20:30:16+00:00",
+      "provenance_updates": [],
+      "source_sha256": "6bb7ad22d08fe2bf5ab8677c5da307d956413e63e72118ae313708e8bfefa4f2",
+      "status": "promoted",
+      "url": "https://www.youtube.com/shorts/GnPl39YAIyw"
     },
     "8ba4dfee19ca9021844e": {
       "chunks_done": null,
@@ -2819,6 +2848,17 @@
       "source_sha256": "e462dde445bfc10eb36720831d3400819b856ccb92100a4c04ecf6e5c3077c17",
       "status": "not_confirmed",
       "url": "https://www.youtube.com/shorts/DsnnmwXe5TY"
+    },
+    "b29e87bd52018813a78b": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-11-22T20:29:50+00:00",
+      "provenance_updates": [
+        "auto-revolution-permanente-securite-justice-1f3732277e48"
+      ],
+      "source_sha256": "03fcef23ebb39d6261219b146d0bf9b106da0e94eeea8ad64c1792be86ad40ac",
+      "status": "promoted",
+      "url": "https://www.youtube.com/shorts/jisFWyDtIOw"
     },
     "b2b1d92321842372e726": {
       "chunks_done": null,
@@ -4231,6 +4271,6 @@
   },
   "last_error_count": 0,
   "last_processed_count": 4,
-  "last_run_at": "2026-11-22T08:13:58+00:00",
+  "last_run_at": "2026-11-22T20:30:17+00:00",
   "version": 2
 }

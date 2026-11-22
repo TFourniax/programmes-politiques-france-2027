@@ -1,11 +1,11 @@
 {
   "errors": [],
-  "generated_at": "2026-11-22T08:13:24+00:00",
+  "generated_at": "2026-11-22T20:29:38+00:00",
   "historical_skipped": 0,
   "partial": 0,
   "processed": 3,
   "promoted": 2,
-  "proposals_created": 1,
+  "proposals_created": 2,
   "results": [
     {
       "sha256": "4e7a42a83ac7359202cfb3a21bcfe8ee4f59cb53259a153fa35148dca1073c34",
@@ -13,33 +13,31 @@
       "url": "https://melenchon2027.fr/evenement/campagne/reunion-publique-soutien-a-la-candidature-de-jean-luc-melenchon/"
     },
     {
-      "chunks_total": 1,
-      "document": "corpus/2027/auto/partys/equinoxe/2026-11-22-018d3251b0cc.md",
-      "proposals": [
-        "proposals/auto/services-publics/auto-equinoxe-services-publics-cdc129b21cb8.md"
-      ],
+      "document": "corpus/2027/auto/candidates/antoine-mikolajczak/2026-11-20-154caf2f7011.md",
       "provenance_updates": [
-        "auto-equinoxe-ecologie-energie-72a60779ed53",
-        "auto-equinoxe-institutions-democratie-9b6cc8950f26",
-        "auto-equinoxe-institutions-democratie-de8e41f8910c",
-        "auto-equinoxe-services-publics-01b6b4e114bd"
-      ],
-      "sha256": "de1dd7483f7a32c6afc09ca5132e5c5f7729140234e64dc5e1b3b1d7e37da931",
-      "status": "promoted",
-      "status_updates": [],
-      "url": "https://parti-equinoxe.fr/programme-2027/",
-      "verified_at": "2026-11-22T08:13:17+00:00"
-    },
-    {
-      "document": "corpus/2027/auto/candidates/antoine-mikolajczak/2026-11-20-ba0f94b12310.md",
-      "provenance_updates": [
-        "auto-equinoxe-services-publics-17947e3f18b9"
+        "auto-equinoxe-institutions-democratie-36e224e79bef",
+        "auto-equinoxe-institutions-democratie-48820898d310",
+        "auto-equinoxe-institutions-democratie-60dd4a6545cd",
+        "auto-equinoxe-institutions-democratie-de8e41f8910c"
       ],
       "reason": "canonical_duplicate_evidence",
-      "sha256": "6c8ea8f51ed66139f76316f12d5945617799c523b12f4907eddf412e2217beb5",
+      "sha256": "b97fecbbd889cadff4ee370c940fd84a80d7bfe37a5a8cb396c794c11a95d802",
       "status": "promoted",
-      "url": "https://parti-equinoxe.fr/programme-2027/sortir-du-labyrinthe-administratif/",
-      "verified_at": "2026-11-22T08:13:24+00:00"
+      "url": "https://parti-equinoxe.fr/programme-2027/des-elus-qui-rendent-des-comptes/",
+      "verified_at": "2026-11-22T20:29:18+00:00"
+    },
+    {
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/partys/la-france-insoumise/2026-11-07-4003a98c5fc4.md",
+      "proposals": [
+        "proposals/auto/europe-souverainete/auto-jean-luc-melenchon-europe-souverainete-f9c1e4c88df5.md",
+        "proposals/auto/europe-souverainete/auto-jean-luc-melenchon-europe-souverainete-d93947c47b4e.md"
+      ],
+      "sha256": "dd7b0ae215acd66d75dfcb03a5307d53ae483f3a0f7c1af1052503539db377ff",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://melenchon2027.fr/programme/livre/un-monde-ordonne/",
+      "verified_at": "2026-11-22T20:29:32+00:00"
     }
   ],
   "status_updates": 0

@@ -5,7 +5,7 @@ entity_id: equinoxe
 topic: institutions-democratie
 certainty: explicit
 proposal_status: current
-source_document_ids: [auto-antoine-mikolajczak-2026-11-07-739cdf702f21]
+source_document_ids: [auto-antoine-mikolajczak-2026-11-07-739cdf702f21, auto-antoine-mikolajczak-2026-11-20-154caf2f7011]
 source_url: https://parti-equinoxe.fr/programme-2027/des-elus-qui-rendent-des-comptes/
 source_tier: tier_1_primary_official
 first_documented_at: '2026-11-07'
@@ -14,6 +14,10 @@ verification_state: verified
 verification_method: primary_source_exact_quote_plus_independent_gemini_verifier_plus_chronology_guard
 evidence_sha256: e5d2a9d890caa40abac25a0fde9128f4b391706a8159ea0704fdc8f327515300
 generated_by: scripts/auto_promote.py
+source_urls: ['https://parti-equinoxe.fr/programme-2027/des-elus-qui-rendent-des-comptes/']
+evidence_sha256s: [e5d2a9d890caa40abac25a0fde9128f4b391706a8159ea0704fdc8f327515300, b97fecbbd889cadff4ee370c940fd84a80d7bfe37a5a8cb396c794c11a95d802]
+confirmation_count: 2
+last_confirmed_at: '2026-11-20'
 ---
 
 # Rendre les magistrats du parquet complètement indépendants du ministère de la Justice

@@ -605,6 +605,11 @@
       "source_url": "https://www.unenouvelleenergie.fr/notre-programme/immigration/",
       "verified_at": "2026-08-12T03:38:03+00:00"
     },
+    "2cd1baf78f5e6fb18d516c0c9e49ccff727b7d96f6780efebd22db15e19f1466": {
+      "proposal_id": "auto-revolution-permanente-pouvoir-achat-travail-2cd1baf78f5e",
+      "source_url": "https://www.youtube.com/shorts/GnPl39YAIyw",
+      "verified_at": "2026-11-22T20:30:12+00:00"
+    },
     "2d24fc4864bff1790cc4989a4b8126ea7550fa1dff980b0ebf49323ecf4e3b57": {
       "proposal_id": "auto-la-france-insoumise-services-publics-2d24fc4864bf",
       "source_url": "https://melenchon2027.fr/programme/livre/mettre-en-securite-sociale/chapitre2/",
@@ -2625,6 +2630,11 @@
       "source_url": "https://melenchon2027.fr/programme2025/livre/chapitre16/",
       "verified_at": "2026-08-13T00:20:23+00:00"
     },
+    "d93947c47b4e1046ab836ab438e8154a5f3af3f2290fe6f6e1686da55fe5d8cc": {
+      "proposal_id": "auto-jean-luc-melenchon-europe-souverainete-d93947c47b4e",
+      "source_url": "https://melenchon2027.fr/programme/livre/un-monde-ordonne/",
+      "verified_at": "2026-11-22T20:29:32+00:00"
+    },
     "d9f34c110d2bbe7e62e556fdd0a32ed3584ed9953aad48e2ce012ed814306ef8": {
       "proposal_id": "auto-les-ecologistes-ecologie-energie-d9f34c110d2b",
       "source_url": "https://lesecologistes.fr/document/5ZhR2m5t2ZaGKqIdD1bJaD/vdef-programme-1.pdf",
@@ -2995,6 +3005,11 @@
       "source_url": "https://lesecologistes.fr/document/5ZhR2m5t2ZaGKqIdD1bJaD/vdef-programme-1.pdf",
       "verified_at": "2026-08-19T02:42:33+00:00"
     },
+    "f9c1e4c88df535ebb4e077170aa9bedd765a7c95359d60864e480face6da7335": {
+      "proposal_id": "auto-jean-luc-melenchon-europe-souverainete-f9c1e4c88df5",
+      "source_url": "https://melenchon2027.fr/programme/livre/un-monde-ordonne/",
+      "verified_at": "2026-11-22T20:29:32+00:00"
+    },
     "f9eb9d1e4f580b11f2e0a6bc1caf35de41149ecd515a49d6d5d151e760ff6949": {
       "proposal_id": "auto-la-france-insoumise-services-publics-f9eb9d1e4f58",
       "source_url": "https://melenchon2027.fr/programme/plans-thematiques/sante/",
@@ -3058,7 +3073,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-11-22T08:13:24+00:00",
+  "last_run_at": "2026-11-22T20:29:38+00:00",
   "source_chunks": {
     "000e79baea11403029d335b1": {
       "canonical_confirmations": [
@@ -8865,6 +8880,100 @@
       "updated_at": "2026-08-11T20:16:11+00:00",
       "url": "https://parti-equinoxe.fr/legislatives-2022-programme-international/"
     },
+    "154caf2f70115daf550a5678": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "equinoxe",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "l’exercice des mandats électifs sera limité dans le temps",
+            "relevance": "direct",
+            "statement": "L'exercice des mandats électifs sera limité dans le temps à deux mandats pour une même fonction.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La proposition est explicitement présente dans le canonique et la source.",
+            "related_proposal_id": "auto-equinoxe-institutions-democratie-de8e41f8910c",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "equinoxe",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "mandat unique de sept ans",
+            "relevance": "direct",
+            "statement": "La présidence de la République fera l'objet d'un mandat unique de sept ans.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La proposition est explicitement présente dans le canonique et la source.",
+            "related_proposal_id": "auto-equinoxe-institutions-democratie-36e224e79bef",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "equinoxe",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "les magistrats du parquet seront complètement indépendants du ministère de la Justice",
+            "relevance": "direct",
+            "statement": "Les magistrats du parquet seront complètement indépendants du ministère de la Justice.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "La proposition est explicitement présente dans le canonique et la source.",
+            "related_proposal_id": "auto-equinoxe-institutions-democratie-48820898d310",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "equinoxe",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "inéligibilité définitive",
+            "relevance": "direct",
+            "statement": "Les atteintes graves à la probité commises par les élus seront sanctionnées par l'inéligibilité définitive.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 3,
+            "reason": "La proposition est explicitement présente dans le canonique et la source.",
+            "related_proposal_id": "auto-equinoxe-institutions-democratie-60dd4a6545cd",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-11-22T20:29:18+00:00",
+      "created_at": "2026-11-22T20:29:01+00:00",
+      "document_types": [
+        "party_programme"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "b97fecbbd889cadff4ee370c940fd84a80d7bfe37a5a8cb396c794c11a95d802",
+      "source_title": "Probité des élus : rendre des comptes - Parti Équinoxe",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-22T20:29:08+00:00",
+      "url": "https://parti-equinoxe.fr/programme-2027/des-elus-qui-rendent-des-comptes/"
+    },
     "155eb6c12012e5ccf3b573b7": {
       "canonical_confirmations": [
         {
@@ -11155,7 +11264,7 @@
       "statuses": [],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-11-22T08:13:03+00:00",
+      "updated_at": "2026-11-22T20:29:00+00:00",
       "url": "https://melenchon2027.fr/evenement/campagne/reunion-publique-soutien-a-la-candidature-de-jean-luc-melenchon/"
     },
     "20c668171ad67297bc28f21d": {
@@ -18271,6 +18380,26 @@
       "updated_at": "2026-10-23T22:25:14+00:00",
       "url": "https://bsky.app/profile/marinetondelier.fr/post/3myl4vod7zc2i"
     },
+    "3c8a3d2858882c0373c9a01f": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-11-22T20:30:00+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "3112dba408f9aef00febb4108df851a6c4da7242dffd7a6642f7242b53595158",
+      "source_title": "🔴 LA GEN Z EST LE PIRE CAUCHEMAR DE L'EXTRÊME-DROITE !",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-22T20:30:01+00:00",
+      "url": "https://www.youtube.com/shorts/6MzZFdNg1Rc"
+    },
     "3cdb80beb320932b7b250b4b": {
       "claims": [],
       "created_at": "2026-08-11T12:15:00+00:00",
@@ -20448,6 +20577,119 @@
       "total": 1,
       "updated_at": "2026-10-12T21:52:05+00:00",
       "url": "https://rassemblementnational.fr/"
+    },
+    "4003a98c5fc4293b4823ac41": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "jean-luc-melenchon",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "Un droit d’objection souveraine sur certaines politiques européennes",
+            "relevance": "direct",
+            "statement": "Jean-Luc Mélenchon propose un droit d'objection souveraine sur certaines politiques européennes.",
+            "topic": "europe-souverainete"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Le droit d'objection souveraine est explicitement mentionné dans la source pour la campagne 2027 de Jean-Luc Mélenchon.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "jean-luc-melenchon",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "Refuser le libre-échange, instaurer un protectionnisme écologique",
+            "relevance": "direct",
+            "statement": "Jean-Luc Mélenchon propose d'instaurer un protectionnisme écologique et de refuser le libre-échange.",
+            "topic": "europe-souverainete"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "Le protectionnisme écologique et le refus du libre-échange sont explicitement soutenus dans le programme de Jean-Luc Mélenchon.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Construire une défense souveraine au service de la paix",
+            "relevance": "party_platform",
+            "statement": "La France insoumise souhaite construire une défense souveraine au service de la paix.",
+            "topic": "europe-souverainete"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "La construction d'une défense souveraine au service de la paix est déjà présente dans le canon.",
+            "related_proposal_id": "auto-la-france-insoumise-europe-souverainete-468010a5d31b",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [
+        {
+          "claim": {
+            "actor_id": "jean-luc-melenchon",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "Un droit d’objection souveraine sur certaines politiques européennes",
+            "relevance": "direct",
+            "statement": "Jean-Luc Mélenchon propose un droit d'objection souveraine sur certaines politiques européennes.",
+            "topic": "europe-souverainete"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Le droit d'objection souveraine est explicitement mentionné dans la source pour la campagne 2027 de Jean-Luc Mélenchon.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "jean-luc-melenchon",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "Refuser le libre-échange, instaurer un protectionnisme écologique",
+            "relevance": "direct",
+            "statement": "Jean-Luc Mélenchon propose d'instaurer un protectionnisme écologique et de refuser le libre-échange.",
+            "topic": "europe-souverainete"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "Le protectionnisme écologique et le refus du libre-échange sont explicitement soutenus dans le programme de Jean-Luc Mélenchon.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "completed_at": "2026-11-22T20:29:32+00:00",
+      "created_at": "2026-11-22T20:29:19+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "dd7b0ae215acd66d75dfcb03a5307d53ae483f3a0f7c1af1052503539db377ff",
+      "source_title": "Un monde ordonné - Mélenchon 2027 : Soutenez ma candidature à l’élection présidentielle",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-22T20:29:32+00:00",
+      "url": "https://melenchon2027.fr/programme/livre/un-monde-ordonne/"
     },
     "401dc06f0173a5df542c4862": {
       "canonical_confirmations": [],
@@ -27301,6 +27543,46 @@
       "total": 3,
       "updated_at": "2026-10-25T17:11:11+00:00",
       "url": "https://melenchon2027.fr/programme/plans-investissement/automobile/"
+    },
+    "5bc7f24edb9691a91044e90f": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "revolution-permanente",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Nous revendiquons une réduction immédiate du temps de travail à 28h par semaine",
+            "relevance": "party_platform",
+            "statement": "Révolution Permanente revendique la réduction immédiate du temps de travail à 28 heures par semaine sans baisse de salaire.",
+            "topic": "pouvoir-achat-travail"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La revendication de la semaine de 28h sans baisse de salaire est explicitement présente dans le canon actuel.",
+            "related_proposal_id": "auto-revolution-permanente-pouvoir-achat-travail-0a812c69e566",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-11-22T20:29:59+00:00",
+      "created_at": "2026-11-22T20:29:51+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "e96c32f504a3bd6a74a7aef74560fb3815566d3f2dd7fef5c11f81d6a033e5d9",
+      "source_title": "🔴 ANASSE 2027 : POUR LA SEMAINE DE 28H SANS BAISSE DE SALAIRE !",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-22T20:29:55+00:00",
+      "url": "https://www.youtube.com/shorts/9YVBBN2AmzY"
     },
     "5bd11799cb8ca55d27ccc515": {
       "canonical_confirmations": [],
@@ -35834,6 +36116,65 @@
       "total": 1,
       "updated_at": "2026-10-21T22:34:52+00:00",
       "url": "https://www.youtube.com/shorts/k7Qx-ubuo6Y"
+    },
+    "7cfc1511ca28ac6b1875d124": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "revolution-permanente",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "ils peuvent se gouverner eux-mêmes",
+            "relevance": "direct",
+            "statement": "Les travailleurs de la logistique se gouvernent eux-mêmes pour changer la situation.",
+            "topic": "pouvoir-achat-travail"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Le claim est explicitement soutenu par la source avec le même acteur et contexte.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [
+        {
+          "claim": {
+            "actor_id": "revolution-permanente",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "ils peuvent se gouverner eux-mêmes",
+            "relevance": "direct",
+            "statement": "Les travailleurs de la logistique se gouvernent eux-mêmes pour changer la situation.",
+            "topic": "pouvoir-achat-travail"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Le claim est explicitement soutenu par la source avec le même acteur et contexte.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "completed_at": "2026-11-22T20:30:12+00:00",
+      "created_at": "2026-11-22T20:30:02+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "6bb7ad22d08fe2bf5ab8677c5da307d956413e63e72118ae313708e8bfefa4f2",
+      "source_title": "🔴 DES TRAVAILLEURS DE GEODIS GENNEVILIERS SONT PRÉSENTS AU MEETING DE RÉVOLUTION PERMANENTE !",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-22T20:30:12+00:00",
+      "url": "https://www.youtube.com/shorts/GnPl39YAIyw"
     },
     "7e4a9ad2270720918bf4644e": {
       "canonical_confirmations": [
@@ -56858,6 +57199,46 @@
       "updated_at": "2026-11-18T08:43:44+00:00",
       "url": "https://www.youtube.com/watch?v=yKRvWCKwHQs"
     },
+    "ca9c92eec488cff012c8ffe3": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "revolution-permanente",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "on veut l'abrogation de toutes ces lois sécuritaires",
+            "relevance": "party_platform",
+            "statement": "Révolution Permanente propose l'abrogation de toutes les lois sécuritaires.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La proposition est explicitement portée par le parti via Elsa Marcel et correspond exactement à la proposition canonique existante sur l'abrogation des lois sécuritaires.",
+            "related_proposal_id": "auto-revolution-permanente-securite-justice-1f3732277e48",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-11-22T20:29:50+00:00",
+      "created_at": "2026-11-22T20:29:39+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "03fcef23ebb39d6261219b146d0bf9b106da0e94eeea8ad64c1792be86ad40ac",
+      "source_title": "🔴 LE SAUT AUTORITAIRE MONTRE QU'ON NE PEUT PAS RÉFORMER LA POLICE !",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-22T20:29:46+00:00",
+      "url": "https://www.youtube.com/shorts/jisFWyDtIOw"
+    },
     "cad75c19a4ef397474f08f7a": {
       "canonical_confirmations": [
         {
@@ -72121,6 +72502,15 @@
       "status": "promoted",
       "url": "https://rassemblementnational.fr/"
     },
+    "2661f332e6f4": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-11-22T20:29:38+00:00",
+      "reason": null,
+      "source_sha256": "dd7b0ae215acd66d75dfcb03a5307d53ae483f3a0f7c1af1052503539db377ff",
+      "status": "promoted",
+      "url": "https://melenchon2027.fr/programme/livre/un-monde-ordonne/"
+    },
     "2674a9fdf4f7": {
       "chunks_done": null,
       "chunks_total": null,
@@ -72570,6 +72960,15 @@
       "source_sha256": "78c866b760b9028bcc6ce5d2614c325e2597c677603d41770a69ccd0218c5a15",
       "status": "promoted",
       "url": "https://www.unenouvelleenergie.fr/questions/quel-candidat-a-un-programme-credible-sur-la-securite/"
+    },
+    "32d7311aa739": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-11-22T20:29:18+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "b97fecbbd889cadff4ee370c940fd84a80d7bfe37a5a8cb396c794c11a95d802",
+      "status": "promoted",
+      "url": "https://parti-equinoxe.fr/programme-2027/des-elus-qui-rendent-des-comptes/"
     },
     "334e911b642e": {
       "chunks_done": null,
@@ -75815,6 +76214,15 @@
       "source_sha256": "af6dcd8af05e5691ce3bcf109517d80b784656744f0fae2676a717bdb791311b",
       "status": "promoted",
       "url": "https://attalpresident.fr/actualites/gabriel-attal-sur-rtl-je-suis-candidat-pour-gagner-cette-election-presidentielle"
+    },
+    "a16738ac32b2": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-11-22T20:29:00+00:00",
+      "reason": null,
+      "source_sha256": "4e7a42a83ac7359202cfb3a21bcfe8ee4f59cb53259a153fa35148dca1073c34",
+      "status": "not_confirmed",
+      "url": "https://melenchon2027.fr/evenement/campagne/reunion-publique-soutien-a-la-candidature-de-jean-luc-melenchon/"
     },
     "a16a3cf84ff9": {
       "chunks_done": null,

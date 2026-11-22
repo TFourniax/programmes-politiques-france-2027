@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created_at": "2026-08-17T19:57:19.441897+00:00",
-  "updated_at": "2026-11-22T08:14:00.775075+00:00",
+  "updated_at": "2026-11-22T20:30:21.716443+00:00",
   "files": [
     {
       "path": "corpus/2027/auto/candidates/anasse-kazib/2026-08-28-38891602d9d9.md",
@@ -202,6 +202,11 @@
       "path": "corpus/2027/auto/candidates/antoine-mikolajczak/2026-11-10-3b8b66bbecef.md",
       "sha256": "b33c6b73dca55197d48136491a8de98aa8a2b828dd4cab75745681b2c89d7b64",
       "size": 1818
+    },
+    {
+      "path": "corpus/2027/auto/candidates/antoine-mikolajczak/2026-11-20-154caf2f7011.md",
+      "sha256": "cfd6496660c0da573834c525ffd8ea2a733e58ff16c495b5f96dfac2cbadb9c1",
+      "size": 2210
     },
     {
       "path": "corpus/2027/auto/candidates/antoine-mikolajczak/2026-11-20-ba0f94b12310.md",
@@ -1097,6 +1102,11 @@
       "path": "corpus/2027/auto/partys/la-france-insoumise/2026-11-07-252f117ed091.md",
       "sha256": "4a03c4d5241e779519d2a9fd545fd621037f3ef9e8ba008bd6d793715bfbd69e",
       "size": 3192
+    },
+    {
+      "path": "corpus/2027/auto/partys/la-france-insoumise/2026-11-07-4003a98c5fc4.md",
+      "sha256": "13d30c2832bd44f90fb0f673e15386b49324905f3ffcbce312255ad88b3985bc",
+      "size": 1829
     },
     {
       "path": "corpus/2027/auto/partys/la-france-insoumise/2026-11-07-4be0d2d8900c.md",
@@ -2139,6 +2149,21 @@
       "size": 1475
     },
     {
+      "path": "corpus/2027/auto/partys/revolution-permanente/2026-11-22-5bc7f24edb96.md",
+      "sha256": "5bfb692aff48237f2a8f0111cc3e3502dfc00b3634f0ce32d843c40c1df9b6fc",
+      "size": 1726
+    },
+    {
+      "path": "corpus/2027/auto/partys/revolution-permanente/2026-11-22-7cfc1511ca28.md",
+      "sha256": "5af2e207f3f13450e2e6771b4d160c7ea7998891d1f1927f591bbff920c4f788",
+      "size": 1578
+    },
+    {
+      "path": "corpus/2027/auto/partys/revolution-permanente/2026-11-22-ca9c92eec488.md",
+      "sha256": "6275e6a92274d7589933f443c1a1dde9a7605299dbafec7eb58b5ab4a7d697d9",
+      "size": 1654
+    },
+    {
       "path": "corpus/2027/auto/partys/solution-democratique/2025-04-09-3a8ec20cb386.md",
       "sha256": "268b288b348cf4405f1cd419a74efaaba0adce4475aeff9b10af9796146281ac",
       "size": 1763
@@ -3084,6 +3109,16 @@
       "size": 2059
     },
     {
+      "path": "proposals/auto/europe-souverainete/auto-jean-luc-melenchon-europe-souverainete-d93947c47b4e.md",
+      "sha256": "da9fc2287bf7e92a29529c4c255155e6969e10e143f28306ccd68adb7a058c38",
+      "size": 1375
+    },
+    {
+      "path": "proposals/auto/europe-souverainete/auto-jean-luc-melenchon-europe-souverainete-f9c1e4c88df5.md",
+      "sha256": "798d6d99b83b80e625289e3c09684732ab08b3dc0b85aaeffa7d30cca075b497",
+      "size": 1364
+    },
+    {
       "path": "proposals/auto/europe-souverainete/auto-la-france-insoumise-europe-souverainete-148da97911ba.md",
       "sha256": "5e1bc406af4b8871e64df125967c3786edd33ba8ca0337849dbfc78f105e94c6",
       "size": 1341
@@ -3345,18 +3380,18 @@
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-equinoxe-institutions-democratie-36e224e79bef.md",
-      "sha256": "f41ef454dbbafb3be8a86f17a38d3669ab708e50c15d1c5193277dc213b894b9",
-      "size": 1738
+      "sha256": "b1cd2cca93895f8825db364a695033b1f38fd79067388fca9298dd62a3f1fa08",
+      "size": 1858
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-equinoxe-institutions-democratie-48820898d310.md",
-      "sha256": "b3bc5e280c7f1fe4a68f30600a00328b0c16ee24094054f0a6fd18ee491e0b00",
-      "size": 1349
+      "sha256": "ca6e895b9ec728ddb589fe25a2fe89baa82e8c975ee51cbfd2b5817541a732b0",
+      "size": 1696
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-equinoxe-institutions-democratie-60dd4a6545cd.md",
-      "sha256": "f7ab7fd2d9a73bdc7b3697924a4cba00b76c6846dcfe592010dda6fb7d6b5978",
-      "size": 1744
+      "sha256": "3555107034d0ad2224968a383f17edf1b19a0c37239501b5429d7aacb5102dd2",
+      "size": 1862
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-equinoxe-institutions-democratie-9b6cc8950f26.md",
@@ -3370,8 +3405,8 @@
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-equinoxe-institutions-democratie-de8e41f8910c.md",
-      "sha256": "0c6250185de28e7338075ce639f905a697c84fffff4e6127e33a69402a52e342",
-      "size": 2051
+      "sha256": "c1ae900fdf28d2d001ae904d881d49ac6278f256ac0c7699a5ec07b7d8dda83a",
+      "size": 2169
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-francois-ruffin-institutions-democratie-378f84b6ec43.md",
@@ -3835,8 +3870,8 @@
     },
     {
       "path": "proposals/auto/pouvoir-achat-travail/auto-revolution-permanente-pouvoir-achat-travail-0a812c69e566.md",
-      "sha256": "8352458bbeef25395c65b02a5455f5688cfd77c6136141a10a51cd4ec74a59e2",
-      "size": 1709
+      "sha256": "d66261b85e75f31755c6fde37cbffeb38dec69ebefbf6418543e47c531c609e3",
+      "size": 1877
     },
     {
       "path": "proposals/auto/pouvoir-achat-travail/auto-revolution-permanente-pouvoir-achat-travail-19d0ccdf2147.md",
@@ -3847,6 +3882,11 @@
       "path": "proposals/auto/pouvoir-achat-travail/auto-revolution-permanente-pouvoir-achat-travail-278029a02d45.md",
       "sha256": "b0f4bea76a40133946dac032bc151e5efcf0ded1c6658c4834bda4d3a7eb4924",
       "size": 1244
+    },
+    {
+      "path": "proposals/auto/pouvoir-achat-travail/auto-revolution-permanente-pouvoir-achat-travail-2cd1baf78f5e.md",
+      "sha256": "cf4e31a567f5afaa7cd206f81f4aacd43bb530469ad797fe7cc32e5f09a4c50e",
+      "size": 1288
     },
     {
       "path": "proposals/auto/pouvoir-achat-travail/auto-revolution-permanente-pouvoir-achat-travail-3f8e466769b0.md",
@@ -4135,8 +4175,8 @@
     },
     {
       "path": "proposals/auto/securite-justice/auto-revolution-permanente-securite-justice-1f3732277e48.md",
-      "sha256": "bba25496a6d9c2ddcd0c80919cbd13397f4932a7dba93d5160f2c7548728eb45",
-      "size": 1802
+      "sha256": "9202741a5d6e55e4dd94b9e27a61b360721390158562a805d405c8a22ea1b7cb",
+      "size": 1968
     },
     {
       "path": "proposals/auto/securite-justice/auto-revolution-permanente-securite-justice-400d862a7ce5.md",
