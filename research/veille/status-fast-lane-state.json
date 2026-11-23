@@ -2765,7 +2765,7 @@
       "error": "ValueError: HTTP 404",
       "event_url": "https://parti-equinoxe.fr/articles/2022/05/la-transition-energetique-selon-les-ex-candidats-a-la-presidentielle-2/",
       "owner": "Équinoxe",
-      "processed_at": "2026-11-22T20:26:36+00:00",
+      "processed_at": "2026-11-23T09:15:34+00:00",
       "status": "technical_error"
     },
     "cb3428b2b6d3": {
@@ -2858,6 +2858,13 @@
       "owner": "Gabriel Attal",
       "processed_at": "2026-10-05T16:12:11+00:00",
       "status": "already_current"
+    },
+    "cf9c9a88176f": {
+      "event_url": "https://melenchon2027.fr/evenement/campagne/reunion-publique-soutien-a-la-candidature-de-jean-luc-melenchon/",
+      "owner": "La France insoumise",
+      "processed_at": "2026-11-23T09:15:32+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
     },
     "cfb481722e94": {
       "event_url": "https://melenchon2027.fr/programme/plans-investissement/btp-logement/",
@@ -3454,7 +3461,7 @@
     }
   },
   "last_error_count": 1,
-  "last_run_at": "2026-11-22T20:26:36+00:00",
+  "last_run_at": "2026-11-23T09:15:34+00:00",
   "last_updated_count": 0,
   "version": 1
 }

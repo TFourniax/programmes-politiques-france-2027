@@ -1,0 +1,47 @@
+{
+  "errors": [],
+  "generated_at": "2026-11-23T09:18:43+00:00",
+  "historical_skipped": 0,
+  "partial": 0,
+  "processed": 3,
+  "promoted": 2,
+  "proposals_created": 5,
+  "results": [
+    {
+      "sha256": "4e7a42a83ac7359202cfb3a21bcfe8ee4f59cb53259a153fa35148dca1073c34",
+      "status": "not_confirmed",
+      "url": "https://melenchon2027.fr/evenement/campagne/reunion-publique-soutien-a-la-candidature-de-jean-luc-melenchon/"
+    },
+    {
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/partys/la-france-insoumise/2026-11-07-354253e9c9b0.md",
+      "proposals": [
+        "proposals/auto/europe-souverainete/auto-la-france-insoumise-europe-souverainete-ef85ae0d3bb4.md",
+        "proposals/auto/europe-souverainete/auto-la-france-insoumise-europe-souverainete-533aeac713f6.md"
+      ],
+      "sha256": "95441ec964c302d689f484129c81232d14cb9f4b940921fb5530759748aeaf46",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://melenchon2027.fr/programme/livre/un-monde-ordonne/chapitre1/",
+      "verified_at": "2026-11-23T09:18:17+00:00"
+    },
+    {
+      "chunks_total": 2,
+      "document": "corpus/2027/auto/partys/la-france-insoumise/2026-11-07-b15687311d78.md",
+      "proposals": [
+        "proposals/auto/europe-souverainete/auto-la-france-insoumise-europe-souverainete-c5db8efec9c9.md",
+        "proposals/auto/europe-souverainete/auto-la-france-insoumise-europe-souverainete-8c4f8856c1f2.md",
+        "proposals/auto/europe-souverainete/auto-la-france-insoumise-europe-souverainete-53f96bdae85d.md"
+      ],
+      "provenance_updates": [
+        "auto-la-france-insoumise-europe-souverainete-683eb74aa280"
+      ],
+      "sha256": "ac985a2788876e46303e8c8d7ed0c05a3a196b25b27f0876e1ef08ef9ae614d6",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://melenchon2027.fr/programme/livre/un-monde-ordonne/chapitre2/",
+      "verified_at": "2026-11-23T09:18:42+00:00"
+    }
+  ],
+  "status_updates": 0
+}

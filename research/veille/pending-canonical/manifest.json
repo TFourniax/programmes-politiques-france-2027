@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created_at": "2026-08-17T19:57:19.441897+00:00",
-  "updated_at": "2026-11-22T20:30:21.716443+00:00",
+  "updated_at": "2026-11-23T09:18:56.103729+00:00",
   "files": [
     {
       "path": "corpus/2027/auto/candidates/anasse-kazib/2026-08-28-38891602d9d9.md",
@@ -1104,6 +1104,11 @@
       "size": 3192
     },
     {
+      "path": "corpus/2027/auto/partys/la-france-insoumise/2026-11-07-354253e9c9b0.md",
+      "sha256": "e3c073c6997f6ec0eb5aa5429e93458f2f846e455ea1304542f3d20859b2f0a7",
+      "size": 1924
+    },
+    {
       "path": "corpus/2027/auto/partys/la-france-insoumise/2026-11-07-4003a98c5fc4.md",
       "sha256": "13d30c2832bd44f90fb0f673e15386b49324905f3ffcbce312255ad88b3985bc",
       "size": 1829
@@ -1152,6 +1157,11 @@
       "path": "corpus/2027/auto/partys/la-france-insoumise/2026-11-07-aede0e711a0b.md",
       "sha256": "56fffec72692dc2905931e9a087c90dc221c22bd0ef59437abc2940bfee727df",
       "size": 2161
+    },
+    {
+      "path": "corpus/2027/auto/partys/la-france-insoumise/2026-11-07-b15687311d78.md",
+      "sha256": "0c02a322349aa318ca41f1c0282c95ca476a9ed5cb112152b95b6848146ccdd8",
+      "size": 2396
     },
     {
       "path": "corpus/2027/auto/partys/la-france-insoumise/2026-11-07-b1995ce49020.md",
@@ -3132,6 +3142,36 @@
       "path": "proposals/auto/europe-souverainete/auto-la-france-insoumise-europe-souverainete-4c62c6367ff7.md",
       "sha256": "1d19251a60d25f2377ffb17f50c5c3fa9d9e0cf1a07f4d623f0003d0e8080097",
       "size": 1121
+    },
+    {
+      "path": "proposals/auto/europe-souverainete/auto-la-france-insoumise-europe-souverainete-533aeac713f6.md",
+      "sha256": "f6bdb264c304f34ab9b47f25849b977f29faa8dc92401e59354dada61cb15272",
+      "size": 1440
+    },
+    {
+      "path": "proposals/auto/europe-souverainete/auto-la-france-insoumise-europe-souverainete-53f96bdae85d.md",
+      "sha256": "9553aaeeb0668c8550e4642da2fd56cc7fc546030d86c2a01127ffdd1319da6c",
+      "size": 1214
+    },
+    {
+      "path": "proposals/auto/europe-souverainete/auto-la-france-insoumise-europe-souverainete-683eb74aa280.md",
+      "sha256": "025bf3e82a1bf801bccc992471d7e76f5d9991ad6bac4f4f484ab4338d9e599f",
+      "size": 1814
+    },
+    {
+      "path": "proposals/auto/europe-souverainete/auto-la-france-insoumise-europe-souverainete-8c4f8856c1f2.md",
+      "sha256": "c2fbe4487495bc1dedb717036393268d4fa4d45c451e005b44959c6251ef72f5",
+      "size": 1378
+    },
+    {
+      "path": "proposals/auto/europe-souverainete/auto-la-france-insoumise-europe-souverainete-c5db8efec9c9.md",
+      "sha256": "629ad2bc6cbaec41e17501889f84b47477e4d112b417c19892996822750df19e",
+      "size": 1387
+    },
+    {
+      "path": "proposals/auto/europe-souverainete/auto-la-france-insoumise-europe-souverainete-ef85ae0d3bb4.md",
+      "sha256": "8bb130fc63d8a068c383761e19fb049aac749fdc2be3936823a2fe622c3be0ff",
+      "size": 1434
     },
     {
       "path": "proposals/auto/europe-souverainete/auto-les-ecologistes-europe-souverainete-06952d144d39.md",

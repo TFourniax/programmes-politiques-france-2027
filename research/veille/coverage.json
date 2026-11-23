@@ -6,18 +6,18 @@
     "actors": 68,
     "declared_or_active_candidates": 28,
     "topics": 12,
-    "current_proposals": 1575,
+    "current_proposals": 1580,
     "covered_actor_topic_cells": 174,
     "total_actor_topic_cells": 816,
     "actor_topic_coverage_ratio": 0.2132,
     "active_candidate_covered_cells": 83,
     "active_candidate_total_cells": 336,
     "active_candidate_topic_coverage_ratio": 0.247,
-    "verified_proposals": 1542,
-    "multi_source_proposals": 146,
+    "verified_proposals": 1547,
+    "multi_source_proposals": 147,
     "latest_evidence_at": "2026-11-22",
     "certainty_counts": {
-      "explicit": 1546,
+      "explicit": 1551,
       "explicit_but_conditional": 3,
       "explicit_but_underspecified": 26
     }
@@ -995,7 +995,7 @@
       "type": "party",
       "status": null,
       "confidence": null,
-      "current_proposals": 258,
+      "current_proposals": 263,
       "covered_topics": [
         "ecologie-energie",
         "economie-finances",
@@ -1014,8 +1014,8 @@
         "numerique-ia"
       ],
       "latest_evidence_at": "2026-11-13",
-      "verified_proposals": 255,
-      "multi_source_proposals": 31
+      "verified_proposals": 260,
+      "multi_source_proposals": 32
     },
     {
       "id": "laurent-wauquiez",
@@ -1999,12 +1999,12 @@
     {
       "id": "europe-souverainete",
       "label": "Europe & souveraineté",
-      "current_proposals": 121,
+      "current_proposals": 126,
       "actors_covered": 14,
       "actor_coverage_ratio": 0.2059,
       "latest_evidence_at": "2026-11-12",
-      "verified_proposals": 120,
-      "multi_source_proposals": 4
+      "verified_proposals": 125,
+      "multi_source_proposals": 5
     },
     {
       "id": "defense-international",
