@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created_at": "2026-08-17T19:57:19.441897+00:00",
-  "updated_at": "2026-11-24T01:06:39.589656+00:00",
+  "updated_at": "2026-11-24T11:12:22.874126+00:00",
   "files": [
     {
       "path": "corpus/2027/auto/candidates/anasse-kazib/2026-08-28-38891602d9d9.md",
@@ -147,6 +147,16 @@
       "path": "corpus/2027/auto/candidates/anasse-kazib/2026-11-19-007774a3a0a3.md",
       "sha256": "5233fcfab6166976ab521aa7e8d49a300843c8acff748df197461d57346cfdf7",
       "size": 1975
+    },
+    {
+      "path": "corpus/2027/auto/candidates/anasse-kazib/2026-11-24-1f361d874ebe.md",
+      "sha256": "a7bd439b5ea77aa954491d6f3ec9e83023f8640d515cbc9c9f95441ae2f7ca90",
+      "size": 2757
+    },
+    {
+      "path": "corpus/2027/auto/candidates/anasse-kazib/2026-11-24-2349a8230fe1.md",
+      "sha256": "26e5d22c646eaa81f15a590a815609d639fd6f98f466a3b341b4f5ced75d5c7f",
+      "size": 3278
     },
     {
       "path": "corpus/2027/auto/candidates/antoine-mikolajczak/2026-11-07-124eb3c2b558.md",
@@ -1062,6 +1072,11 @@
       "path": "corpus/2027/auto/partys/equinoxe/2026-11-19-717519a4c859.md",
       "sha256": "b46d1e6eefa5eb8ba12d6109a5afe453df05993f2cf184d12e5db87074cb7510",
       "size": 2312
+    },
+    {
+      "path": "corpus/2027/auto/partys/equinoxe/2026-11-20-547d9c0ceda3.md",
+      "sha256": "063561da3b46e8335a485e159349f6b7a6d201165a4e56f17e3c0bbfc45585e4",
+      "size": 1458
     },
     {
       "path": "corpus/2027/auto/partys/equinoxe/2026-11-22-018d3251b0cc.md",
@@ -2890,8 +2905,8 @@
     },
     {
       "path": "proposals/auto/economie-finances/auto-anasse-kazib-economie-finances-98fed100363d.md",
-      "sha256": "aed1aef10335a90fe81157af724062609d6b1f24c05ad10f4be5072af7a9fa7a",
-      "size": 1923
+      "sha256": "5c242b2ddce5c9e1c4e70b0daba01e7b1a6580497a50d444f2ffeb03d103f879",
+      "size": 2420
     },
     {
       "path": "proposals/auto/economie-finances/auto-anasse-kazib-economie-finances-a5e746dd25a5.md",
@@ -2912,6 +2927,11 @@
       "path": "proposals/auto/economie-finances/auto-dominique-de-villepin-economie-finances-f17e653b219b.md",
       "sha256": "840f9585f0af29c44f916159baff59ac26088346645d9e4f32d7811df1527049",
       "size": 1363
+    },
+    {
+      "path": "proposals/auto/economie-finances/auto-equinoxe-economie-finances-173ccf38b0e4.md",
+      "sha256": "e9bd6f9f7a8b3ff0b0f9c7f09a8a381dec93c72447c77b110da8a09ab42fcafc",
+      "size": 1167
     },
     {
       "path": "proposals/auto/economie-finances/auto-equinoxe-economie-finances-402dd44aff5a.md",
@@ -3244,6 +3264,11 @@
       "size": 1934
     },
     {
+      "path": "proposals/auto/fiscalite-redistribution/auto-anasse-kazib-fiscalite-redistribution-ae7afadd3eed.md",
+      "sha256": "cd2af5d4bbbcfb9cf8f340e13bd880bae350b48379cf6556115acd8376ab638d",
+      "size": 1273
+    },
+    {
       "path": "proposals/auto/fiscalite-redistribution/auto-david-lisnard-fiscalite-redistribution-f64a90929d05.md",
       "sha256": "6b88af9ccffba15e261ca6b7701a000c4f251371d60f6339034be82a7512c69c",
       "size": 1434
@@ -3292,6 +3317,11 @@
       "path": "proposals/auto/fiscalite-redistribution/auto-rassemblement-national-fiscalite-redistribution-650411362d03.md",
       "sha256": "c63296a81b1078427541a8af3aa559edbedb51b577fa8492d214062b56a27223",
       "size": 9468
+    },
+    {
+      "path": "proposals/auto/fiscalite-redistribution/auto-revolution-permanente-fiscalite-redistribution-8a31626eb436.md",
+      "sha256": "d397828f217ae68b3f670b27a39a980d2cfa35fbec84a69e86ce420659b47216",
+      "size": 1330
     },
     {
       "path": "proposals/auto/immigration-integration/auto-anasse-kazib-immigration-integration-f008b1970a86.md",
@@ -3370,8 +3400,8 @@
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-anasse-kazib-institutions-democratie-1a9f657935f4.md",
-      "sha256": "e650cbbc683785ba8c4e749be0cca42ee30a7a11a96750c927e1e6be395b30bb",
-      "size": 1875
+      "sha256": "b447c916e119c56a5028a234628a7c1fc4a0813358387a111ea312e029457bca",
+      "size": 2125
     },
     {
       "path": "proposals/auto/institutions-democratie/auto-anasse-kazib-institutions-democratie-c09dd0700402.md",
@@ -3624,6 +3654,11 @@
       "size": 1816
     },
     {
+      "path": "proposals/auto/institutions-democratie/auto-revolution-permanente-institutions-democratie-eb42478a9b83.md",
+      "sha256": "f2ac9757d895488ba13f729fe40df65a561a90de922b1b1c2b4718c469f41ec2",
+      "size": 1347
+    },
+    {
       "path": "proposals/auto/institutions-democratie/auto-solution-democratique-institutions-democratie-4200a876eb91.md",
       "sha256": "83b746b21f8fdccf3c9da70b64308906213a1bfc9cce4dcbbdc79b3204007355",
       "size": 1625
@@ -3669,14 +3704,19 @@
       "size": 1702
     },
     {
+      "path": "proposals/auto/pouvoir-achat-travail/auto-anasse-kazib-pouvoir-achat-travail-0ba5ecaffd11.md",
+      "sha256": "00aeb44ffac28bf4898e67517bfd12109c34d4156d2c22728e28e739ff57c349",
+      "size": 1434
+    },
+    {
       "path": "proposals/auto/pouvoir-achat-travail/auto-anasse-kazib-pouvoir-achat-travail-5ff0180070ce.md",
       "sha256": "bb0565f605d57c200ad9cf51b9136d80bd1e726b22e771e2c47c49a65ae623f7",
       "size": 1319
     },
     {
       "path": "proposals/auto/pouvoir-achat-travail/auto-anasse-kazib-pouvoir-achat-travail-81103508afc3.md",
-      "sha256": "4d1bfc2dadcf6df7397495d461fae295f54c0d1c91100cb13f90117c5c66e378",
-      "size": 2344
+      "sha256": "2b9005686df4b4ab9a4aa9519e420f3043869eca48a2ad2f4d8a3c0b3bab53aa",
+      "size": 2839
     },
     {
       "path": "proposals/auto/pouvoir-achat-travail/auto-anasse-kazib-pouvoir-achat-travail-9dd581e1c937.md",
@@ -4247,6 +4287,11 @@
       "path": "proposals/auto/services-publics/auto-anasse-kazib-services-publics-055309a451a7.md",
       "sha256": "6438b6b34a799a305488a6ed41d3c3e418bc0f148201094f785de7f0713d0bb6",
       "size": 1525
+    },
+    {
+      "path": "proposals/auto/services-publics/auto-anasse-kazib-services-publics-fb4abf1342ec.md",
+      "sha256": "61364efff8f6bb948f0e13e89bf66e4362379dcbfeee950dc79c31cc5e3c6bb8",
+      "size": 1427
     },
     {
       "path": "proposals/auto/services-publics/auto-antoine-mikolajczak-services-publics-b8a1cdca271a.md",
@@ -4864,6 +4909,11 @@
       "size": 1025
     },
     {
+      "path": "proposals/pouvoir-achat-travail/anasse-kazib-smic-2000.md",
+      "sha256": "be59d28a4d9897825f08ac0fab2042ae99b7243a7c0226abb1985dd6aa5af135",
+      "size": 941
+    },
+    {
       "path": "proposals/pouvoir-achat-travail/les-ecologistes-conge-climatique.md",
       "sha256": "74624ea3d99ca3379e90ffa8fecd8d950f4079cd3e96bdeba1c3ed05af79fc72",
       "size": 920
@@ -4875,8 +4925,8 @@
     },
     {
       "path": "proposals/retraites/anasse-kazib-60-55.md",
-      "sha256": "9f89d271cdc2eff83b9159bc247530d5e81a3f5c046c1343dfadbe3b4da27c1c",
-      "size": 2028
+      "sha256": "26c95e2a300df1a65ae70161631bd06ef764c28a7640a94d2d0bbb5aed8b0057",
+      "size": 2523
     },
     {
       "path": "proposals/retraites/david-lisnard-capitalisation.md",

@@ -1,31 +1,38 @@
 {
   "errors": [],
-  "generated_at": "2026-11-24T01:06:36+00:00",
+  "generated_at": "2026-11-24T11:12:18+00:00",
   "partial": 0,
   "processed": 4,
-  "promoted": 0,
-  "proposals_created": 0,
+  "promoted": 1,
+  "proposals_created": 1,
   "provenance_updates": 0,
   "results": [
     {
-      "sha256": "fde2b5c3f22e07fc81078efce8b68c7c5758f3618206d6c95b72f5ac2b09c8b6",
+      "sha256": "62ac9ad327036afa5444c4a0991843e14304781ee75303b800dc8fab2c8cb7f6",
       "status": "not_confirmed",
-      "url": "https://www.youtube.com/shorts/N1PQSifOsCA"
+      "url": "https://www.youtube.com/watch?v=Z3QVHTv5axQ"
     },
     {
-      "sha256": "bd2e444195e583a9011866a572afab2e2ff9866b8fee0215b93cff2162c89c86",
-      "status": "not_confirmed",
-      "url": "https://bsky.app/profile/lesecologistes.fr/post/3n2yi75atw22o"
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/partys/equinoxe/2026-11-20-547d9c0ceda3.md",
+      "proposals": [
+        "proposals/auto/economie-finances/auto-equinoxe-economie-finances-173ccf38b0e4.md"
+      ],
+      "sha256": "0fd436d50cca746dd5f52aca3233dd4656323cf7e5dd3b50b38eb7331c7bf16e",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://www.youtube.com/watch?v=JEf40DFK0T8",
+      "verified_at": "2026-11-24T11:12:09+00:00"
     },
     {
-      "sha256": "fd4ff63748f632ebfac941b9f01d2473841d9dda6734351f36d002c01cf5f36d",
+      "sha256": "87356bf823a249d9da3e6b666174dbecbadfa4d717a2445f1bf9b9b452c7a170",
       "status": "not_confirmed",
-      "url": "https://www.youtube.com/watch?v=CKyZzbYGDaM"
+      "url": "https://www.youtube.com/shorts/j-1WyXoa8sU"
     },
     {
-      "sha256": "3e6db3218ce0689b6cd4fa92cd753b58b3bcf77bb321d99d0011f41cedfd2c34",
+      "sha256": "2f030e999e854cc3e212ccfc753f94853708d5f3011920c71df32382c9be9f1c",
       "status": "not_confirmed",
-      "url": "https://www.youtube.com/shorts/XAIWhTY9VJY"
+      "url": "https://www.youtube.com/shorts/3jOCrjAbLa0"
     }
   ],
   "status_updates": 0

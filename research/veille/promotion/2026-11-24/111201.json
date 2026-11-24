@@ -1,0 +1,56 @@
+{
+  "errors": [],
+  "generated_at": "2026-11-24T11:12:01+00:00",
+  "historical_skipped": 0,
+  "partial": 0,
+  "processed": 3,
+  "promoted": 2,
+  "proposals_created": 5,
+  "results": [
+    {
+      "sha256": "820814d4cb0ff35d8ed5c9e57424c724c2c59e39cd9fcc2bf6440159c531af99",
+      "status": "not_confirmed",
+      "url": "https://melenchon2027.fr/evenement/campagne/reunion-publique-soutien-a-la-candidature-de-jean-luc-melenchon/"
+    },
+    {
+      "chunks_total": 2,
+      "document": "corpus/2027/auto/candidates/anasse-kazib/2026-11-24-1f361d874ebe.md",
+      "proposals": [
+        "proposals/auto/fiscalite-redistribution/auto-revolution-permanente-fiscalite-redistribution-8a31626eb436.md",
+        "proposals/auto/institutions-democratie/auto-revolution-permanente-institutions-democratie-eb42478a9b83.md"
+      ],
+      "provenance_updates": [
+        "auto-anasse-kazib-economie-finances-98fed100363d",
+        "auto-anasse-kazib-institutions-democratie-1a9f657935f4",
+        "auto-anasse-kazib-pouvoir-achat-travail-81103508afc3",
+        "prop-kazib-retraite-60-55",
+        "prop-kazib-smic-2000"
+      ],
+      "sha256": "7de7c9b273fd2ac853542a3dee8dc9e8722ce30306eba561953024534bb74edf",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://www.revolutionpermanente.fr/2000-personnes-pour-lancer-la-candidature-d-Anasse-Kazib-et-porter-une-voix-revolutionnaire-en-2027",
+      "verified_at": "2026-11-24T11:11:30+00:00"
+    },
+    {
+      "chunks_total": 2,
+      "document": "corpus/2027/auto/candidates/anasse-kazib/2026-11-24-2349a8230fe1.md",
+      "proposals": [
+        "proposals/auto/pouvoir-achat-travail/auto-anasse-kazib-pouvoir-achat-travail-0ba5ecaffd11.md",
+        "proposals/auto/services-publics/auto-anasse-kazib-services-publics-fb4abf1342ec.md",
+        "proposals/auto/fiscalite-redistribution/auto-anasse-kazib-fiscalite-redistribution-ae7afadd3eed.md"
+      ],
+      "provenance_updates": [
+        "auto-anasse-kazib-economie-finances-98fed100363d",
+        "auto-anasse-kazib-pouvoir-achat-travail-81103508afc3",
+        "prop-kazib-retraite-60-55"
+      ],
+      "sha256": "663dfc524876bc46c538fafbfcf8894182c29ab4253ab1c4d6fd90959a9ea262",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://www.revolutionpermanente.fr/Vaincre-le-grand-patronat-ou-capituler-Anasse-Kazib-presente-sa-candidature-au-meeting-de-RP",
+      "verified_at": "2026-11-24T11:12:01+00:00"
+    }
+  ],
+  "status_updates": 0
+}
