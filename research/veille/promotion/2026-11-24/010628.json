@@ -1,0 +1,40 @@
+{
+  "errors": [],
+  "generated_at": "2026-11-24T01:06:28+00:00",
+  "historical_skipped": 0,
+  "partial": 0,
+  "processed": 3,
+  "promoted": 2,
+  "proposals_created": 1,
+  "results": [
+    {
+      "document": "corpus/2027/auto/candidates/gabriel-attal/2026-08-27-26c23ab5bef1.md",
+      "provenance_updates": [
+        "auto-gabriel-attal-retraites-57839af08199"
+      ],
+      "reason": "canonical_duplicate_evidence",
+      "sha256": "1e89982c6c121d6ff9d1e7c909f1f357bee58bf4ffab988db77ff06e0c346b65",
+      "status": "promoted",
+      "url": "https://attalpresident.fr/programme/mesures/retraite-duree-cotisation",
+      "verified_at": "2026-11-24T01:06:15+00:00"
+    },
+    {
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/candidates/gabriel-attal/2026-09-29-7f4f301241a3.md",
+      "proposals": [
+        "proposals/auto/economie-finances/auto-gabriel-attal-economie-finances-6266800055f0.md"
+      ],
+      "sha256": "2655e8b005ea453a707628c08e91f274c84158fc5055ad0ee81445ec31cb8dae",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://attalpresident.fr/programme/mesures/controle-investissements-chinois",
+      "verified_at": "2026-11-24T01:06:20+00:00"
+    },
+    {
+      "sha256": "820814d4cb0ff35d8ed5c9e57424c724c2c59e39cd9fcc2bf6440159c531af99",
+      "status": "not_confirmed",
+      "url": "https://melenchon2027.fr/evenement/campagne/reunion-publique-soutien-a-la-candidature-de-jean-luc-melenchon/"
+    }
+  ],
+  "status_updates": 0
+}

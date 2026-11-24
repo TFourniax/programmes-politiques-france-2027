@@ -6,18 +6,18 @@
     "actors": 68,
     "declared_or_active_candidates": 28,
     "topics": 12,
-    "current_proposals": 1580,
+    "current_proposals": 1581,
     "covered_actor_topic_cells": 174,
     "total_actor_topic_cells": 816,
     "actor_topic_coverage_ratio": 0.2132,
     "active_candidate_covered_cells": 83,
     "active_candidate_total_cells": 336,
     "active_candidate_topic_coverage_ratio": 0.247,
-    "verified_proposals": 1547,
+    "verified_proposals": 1548,
     "multi_source_proposals": 147,
     "latest_evidence_at": "2026-11-22",
     "certainty_counts": {
-      "explicit": 1551,
+      "explicit": 1552,
       "explicit_but_conditional": 3,
       "explicit_but_underspecified": 26
     }
@@ -667,7 +667,7 @@
       "type": "candidate",
       "status": "declared_presidential",
       "confidence": "high",
-      "current_proposals": 48,
+      "current_proposals": 49,
       "covered_topics": [
         "ecologie-energie",
         "economie-finances",
@@ -686,7 +686,7 @@
         "numerique-ia"
       ],
       "latest_evidence_at": "2026-11-15",
-      "verified_proposals": 48,
+      "verified_proposals": 49,
       "multi_source_proposals": 17
     },
     {
@@ -2059,11 +2059,11 @@
     {
       "id": "economie-finances",
       "label": "Économie & finances publiques",
-      "current_proposals": 142,
+      "current_proposals": 143,
       "actors_covered": 18,
       "actor_coverage_ratio": 0.2647,
       "latest_evidence_at": "2026-11-21",
-      "verified_proposals": 141,
+      "verified_proposals": 142,
       "multi_source_proposals": 15
     },
     {
@@ -3499,7 +3499,7 @@
       "name": "Gabriel Attal",
       "status": "declared_presidential",
       "coverage_ratio": 0.8333,
-      "current_proposals": 48,
+      "current_proposals": 49,
       "latest_evidence_at": "2026-11-15",
       "topics": [
         {
@@ -3596,9 +3596,9 @@
           "id": "economie-finances",
           "label": "Économie & finances publiques",
           "covered": true,
-          "current_proposals": 10,
+          "current_proposals": 11,
           "latest_evidence_at": "2026-11-11",
-          "verified_proposals": 10,
+          "verified_proposals": 11,
           "multi_source_proposals": 3
         },
         {

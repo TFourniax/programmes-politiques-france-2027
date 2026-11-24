@@ -524,6 +524,13 @@
       "processed_at": "2026-10-03T22:13:37+00:00",
       "status": "already_current"
     },
+    "243155f9d140": {
+      "event_url": "https://attalpresident.fr/programme/mesures/retraite-duree-cotisation",
+      "owner": "Gabriel Attal",
+      "processed_at": "2026-11-24T01:03:29+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
     "25461981014b": {
       "candidate_id": "clara-egger",
       "event_url": "https://solutiondemocratique.fr/a-quelle-condition-nous-sommes-pret-a-retirer-notre-candidature-a-la-presidentielle/",
@@ -810,6 +817,13 @@
       "event_url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne",
       "owner": "Gabriel Attal",
       "processed_at": "2026-09-14T14:15:35+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
+    "38935f1cf6d4": {
+      "event_url": "https://www.revolutionpermanente.fr/2000-personnes-pour-lancer-la-candidature-d-Anasse-Kazib-et-porter-une-voix-revolutionnaire-en-2027",
+      "owner": "Anasse Kazib",
+      "processed_at": "2026-11-24T01:03:30+00:00",
       "reason": "no_deterministic_transition",
       "status": "not_applicable"
     },
@@ -1187,6 +1201,13 @@
       "event_url": "https://rassemblementnational.fr/",
       "owner": "Rassemblement national",
       "processed_at": "2026-09-23T22:25:37+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
+    "503f55c37c08": {
+      "event_url": "https://attalpresident.fr/programme/mesures/controle-investissements-chinois",
+      "owner": "Gabriel Attal",
+      "processed_at": "2026-11-24T01:03:29+00:00",
       "reason": "no_deterministic_transition",
       "status": "not_applicable"
     },
@@ -1866,6 +1887,13 @@
       "event_url": "https://rassemblementnational.fr/",
       "owner": "Rassemblement national",
       "processed_at": "2026-09-28T07:05:58+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
+    "86045a53fe52": {
+      "event_url": "https://melenchon2027.fr/evenement/campagne/reunion-publique-soutien-a-la-candidature-de-jean-luc-melenchon/",
+      "owner": "La France insoumise",
+      "processed_at": "2026-11-24T01:03:30+00:00",
       "reason": "no_deterministic_transition",
       "status": "not_applicable"
     },
@@ -2765,7 +2793,7 @@
       "error": "ValueError: HTTP 404",
       "event_url": "https://parti-equinoxe.fr/articles/2022/05/la-transition-energetique-selon-les-ex-candidats-a-la-presidentielle-2/",
       "owner": "Équinoxe",
-      "processed_at": "2026-11-23T09:15:34+00:00",
+      "processed_at": "2026-11-24T01:03:33+00:00",
       "status": "technical_error"
     },
     "cb3428b2b6d3": {
@@ -3461,7 +3489,7 @@
     }
   },
   "last_error_count": 1,
-  "last_run_at": "2026-11-23T09:15:34+00:00",
+  "last_run_at": "2026-11-24T01:03:33+00:00",
   "last_updated_count": 0,
   "version": 1
 }

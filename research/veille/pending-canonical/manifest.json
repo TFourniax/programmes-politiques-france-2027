@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created_at": "2026-08-17T19:57:19.441897+00:00",
-  "updated_at": "2026-11-23T09:18:56.103729+00:00",
+  "updated_at": "2026-11-24T01:06:39.589656+00:00",
   "files": [
     {
       "path": "corpus/2027/auto/candidates/anasse-kazib/2026-08-28-38891602d9d9.md",
@@ -729,6 +729,11 @@
       "size": 1856
     },
     {
+      "path": "corpus/2027/auto/candidates/gabriel-attal/2026-08-27-26c23ab5bef1.md",
+      "sha256": "cc7e60b932c86d4e4adc2764c902ab3b66e3045978c3de22aae0ea1967276a72",
+      "size": 1707
+    },
+    {
       "path": "corpus/2027/auto/candidates/gabriel-attal/2026-08-28-20c668171ad6.md",
       "sha256": "760c937e8fc80aa736263183446c75b6825c9c0d784331df47e932a8267d66ca",
       "size": 1856
@@ -847,6 +852,11 @@
       "path": "corpus/2027/auto/candidates/gabriel-attal/2026-09-25-dec47fed2066.md",
       "sha256": "65fe7a0a60971be6f2087f2e2004fae8729eef489cf96aed0056b20b3671f383",
       "size": 2310
+    },
+    {
+      "path": "corpus/2027/auto/candidates/gabriel-attal/2026-09-29-7f4f301241a3.md",
+      "sha256": "07f14cd6398c6d1c2b2519a8022f69324a7d3764d130d25b8c66e6f29ad72066",
+      "size": 1617
     },
     {
       "path": "corpus/2027/auto/candidates/gabriel-attal/2026-10-19-0468263a66df.md",
@@ -2954,6 +2964,11 @@
       "size": 1654
     },
     {
+      "path": "proposals/auto/economie-finances/auto-gabriel-attal-economie-finances-6266800055f0.md",
+      "sha256": "2687465795a90cb7ed718a94439a5d3a584020f540a02c6fe1a2d54c6e0d984b",
+      "size": 1428
+    },
+    {
       "path": "proposals/auto/economie-finances/auto-gabriel-attal-economie-finances-64d1d9a57e2e.md",
       "sha256": "1a1de59f22568c6c24edddfd24cc0eaac9675c4af7ee3f0df1e644942fcb08f8",
       "size": 1294
@@ -3965,8 +3980,8 @@
     },
     {
       "path": "proposals/auto/retraites/auto-gabriel-attal-retraites-57839af08199.md",
-      "sha256": "1678e5fe7584762133ff0c8309df3e4ea28e2c1dced92cd3e57fdaa0db667517",
-      "size": 2473
+      "sha256": "bca88437cab708e25c56905229128c2c0d8fdacd4e20eaec38f63420aa0d50ac",
+      "size": 2656
     },
     {
       "path": "proposals/auto/retraites/auto-gabriel-attal-retraites-96c306f4d208.md",

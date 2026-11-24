@@ -1,0 +1,43 @@
+{
+  "errors": [
+    {
+      "error": "ValueError: HTTP 404",
+      "event_url": "https://parti-equinoxe.fr/articles/2022/05/la-transition-energetique-selon-les-ex-candidats-a-la-presidentielle-2/",
+      "owner": "Équinoxe",
+      "processed_at": "2026-11-24T01:03:33+00:00"
+    }
+  ],
+  "generated_at": "2026-11-24T01:03:33+00:00",
+  "processed": 4,
+  "results": [
+    {
+      "event_url": "https://attalpresident.fr/programme/mesures/retraite-duree-cotisation",
+      "owner": "Gabriel Attal",
+      "processed_at": "2026-11-24T01:03:29+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
+    {
+      "event_url": "https://attalpresident.fr/programme/mesures/controle-investissements-chinois",
+      "owner": "Gabriel Attal",
+      "processed_at": "2026-11-24T01:03:29+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
+    {
+      "event_url": "https://melenchon2027.fr/evenement/campagne/reunion-publique-soutien-a-la-candidature-de-jean-luc-melenchon/",
+      "owner": "La France insoumise",
+      "processed_at": "2026-11-24T01:03:30+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
+    {
+      "event_url": "https://www.revolutionpermanente.fr/2000-personnes-pour-lancer-la-candidature-d-Anasse-Kazib-et-porter-une-voix-revolutionnaire-en-2027",
+      "owner": "Anasse Kazib",
+      "processed_at": "2026-11-24T01:03:30+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    }
+  ],
+  "updated": 0
+}
