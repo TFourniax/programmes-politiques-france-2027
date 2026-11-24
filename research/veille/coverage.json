@@ -6,18 +6,18 @@
     "actors": 68,
     "declared_or_active_candidates": 28,
     "topics": 12,
-    "current_proposals": 1587,
-    "covered_actor_topic_cells": 176,
+    "current_proposals": 1594,
+    "covered_actor_topic_cells": 177,
     "total_actor_topic_cells": 816,
-    "actor_topic_coverage_ratio": 0.2157,
+    "actor_topic_coverage_ratio": 0.2169,
     "active_candidate_covered_cells": 84,
     "active_candidate_total_cells": 336,
     "active_candidate_topic_coverage_ratio": 0.25,
-    "verified_proposals": 1555,
-    "multi_source_proposals": 148,
+    "verified_proposals": 1562,
+    "multi_source_proposals": 149,
     "latest_evidence_at": "2026-11-24",
     "certainty_counts": {
-      "explicit": 1558,
+      "explicit": 1565,
       "explicit_but_conditional": 3,
       "explicit_but_underspecified": 26
     }
@@ -995,7 +995,7 @@
       "type": "party",
       "status": null,
       "confidence": null,
-      "current_proposals": 263,
+      "current_proposals": 269,
       "covered_topics": [
         "ecologie-energie",
         "economie-finances",
@@ -1014,7 +1014,7 @@
         "numerique-ia"
       ],
       "latest_evidence_at": "2026-11-13",
-      "verified_proposals": 260,
+      "verified_proposals": 266,
       "multi_source_proposals": 32
     },
     {
@@ -1261,9 +1261,9 @@
         "economie-finances",
         "numerique-ia"
       ],
-      "latest_evidence_at": "2026-11-12",
+      "latest_evidence_at": "2026-11-24",
       "verified_proposals": 10,
-      "multi_source_proposals": 0
+      "multi_source_proposals": 1
     },
     {
       "id": "nathalie-arthaud",
@@ -1658,10 +1658,11 @@
       "type": "party",
       "status": null,
       "confidence": null,
-      "current_proposals": 23,
+      "current_proposals": 24,
       "covered_topics": [
         "ecologie-energie",
         "economie-finances",
+        "europe-souverainete",
         "fiscalite-redistribution",
         "institutions-democratie",
         "pouvoir-achat-travail",
@@ -1669,15 +1670,14 @@
         "securite-justice",
         "services-publics"
       ],
-      "coverage_ratio": 0.6667,
+      "coverage_ratio": 0.75,
       "gaps": [
         "immigration-integration",
-        "europe-souverainete",
         "defense-international",
         "numerique-ia"
       ],
       "latest_evidence_at": "2026-11-24",
-      "verified_proposals": 23,
+      "verified_proposals": 24,
       "multi_source_proposals": 7
     },
     {
@@ -1979,31 +1979,31 @@
     {
       "id": "fiscalite-redistribution",
       "label": "Fiscalité & redistribution",
-      "current_proposals": 81,
+      "current_proposals": 82,
       "actors_covered": 14,
       "actor_coverage_ratio": 0.2059,
       "latest_evidence_at": "2026-11-24",
-      "verified_proposals": 79,
+      "verified_proposals": 80,
       "multi_source_proposals": 4
     },
     {
       "id": "immigration-integration",
       "label": "Immigration & intégration",
-      "current_proposals": 70,
+      "current_proposals": 72,
       "actors_covered": 12,
       "actor_coverage_ratio": 0.1765,
       "latest_evidence_at": "2026-11-19",
-      "verified_proposals": 66,
+      "verified_proposals": 68,
       "multi_source_proposals": 8
     },
     {
       "id": "europe-souverainete",
       "label": "Europe & souveraineté",
-      "current_proposals": 126,
-      "actors_covered": 14,
-      "actor_coverage_ratio": 0.2059,
-      "latest_evidence_at": "2026-11-12",
-      "verified_proposals": 125,
+      "current_proposals": 130,
+      "actors_covered": 15,
+      "actor_coverage_ratio": 0.2206,
+      "latest_evidence_at": "2026-11-24",
+      "verified_proposals": 129,
       "multi_source_proposals": 5
     },
     {
@@ -2022,9 +2022,9 @@
       "current_proposals": 263,
       "actors_covered": 19,
       "actor_coverage_ratio": 0.2794,
-      "latest_evidence_at": "2026-11-22",
+      "latest_evidence_at": "2026-11-24",
       "verified_proposals": 257,
-      "multi_source_proposals": 14
+      "multi_source_proposals": 15
     },
     {
       "id": "institutions-democratie",
@@ -4444,7 +4444,7 @@
       "status": "declared_primary",
       "coverage_ratio": 0.3333,
       "current_proposals": 10,
-      "latest_evidence_at": "2026-11-12",
+      "latest_evidence_at": "2026-11-24",
       "topics": [
         {
           "id": "pouvoir-achat-travail",
@@ -4505,9 +4505,9 @@
           "label": "Écologie & énergie",
           "covered": true,
           "current_proposals": 5,
-          "latest_evidence_at": "2026-11-12",
+          "latest_evidence_at": "2026-11-24",
           "verified_proposals": 5,
-          "multi_source_proposals": 0
+          "multi_source_proposals": 1
         },
         {
           "id": "institutions-democratie",
@@ -5809,7 +5809,7 @@
       "status": "declared_primary",
       "coverage_ratio": 0.3333,
       "current_proposals": 10,
-      "latest_evidence_at": "2026-11-12",
+      "latest_evidence_at": "2026-11-24",
       "gaps": [
         "retraites",
         "fiscalite-redistribution",

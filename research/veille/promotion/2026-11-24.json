@@ -1,55 +1,44 @@
 {
   "errors": [],
-  "generated_at": "2026-11-24T11:12:01+00:00",
+  "generated_at": "2026-11-24T23:10:27+00:00",
   "historical_skipped": 0,
   "partial": 0,
   "processed": 3,
   "promoted": 2,
-  "proposals_created": 5,
+  "proposals_created": 6,
   "results": [
     {
-      "sha256": "820814d4cb0ff35d8ed5c9e57424c724c2c59e39cd9fcc2bf6440159c531af99",
+      "sha256": "2f286c638d3bb290e018452a07688127887907b5cf71daa5eb806c09e19f690a",
       "status": "not_confirmed",
       "url": "https://melenchon2027.fr/evenement/campagne/reunion-publique-soutien-a-la-candidature-de-jean-luc-melenchon/"
     },
     {
-      "chunks_total": 2,
-      "document": "corpus/2027/auto/candidates/anasse-kazib/2026-11-24-1f361d874ebe.md",
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/partys/la-france-insoumise/2026-11-07-3d9357905b0d.md",
       "proposals": [
-        "proposals/auto/fiscalite-redistribution/auto-revolution-permanente-fiscalite-redistribution-8a31626eb436.md",
-        "proposals/auto/institutions-democratie/auto-revolution-permanente-institutions-democratie-eb42478a9b83.md"
+        "proposals/auto/europe-souverainete/auto-la-france-insoumise-europe-souverainete-4dbaddeb5d09.md",
+        "proposals/auto/europe-souverainete/auto-la-france-insoumise-europe-souverainete-dee87e627073.md",
+        "proposals/auto/immigration-integration/auto-la-france-insoumise-immigration-integration-190cdbb0fd95.md",
+        "proposals/auto/immigration-integration/auto-la-france-insoumise-immigration-integration-0e011a7b2b87.md",
+        "proposals/auto/europe-souverainete/auto-la-france-insoumise-europe-souverainete-cdb727c9c1a6.md"
       ],
-      "provenance_updates": [
-        "auto-anasse-kazib-economie-finances-98fed100363d",
-        "auto-anasse-kazib-institutions-democratie-1a9f657935f4",
-        "auto-anasse-kazib-pouvoir-achat-travail-81103508afc3",
-        "prop-kazib-retraite-60-55",
-        "prop-kazib-smic-2000"
-      ],
-      "sha256": "7de7c9b273fd2ac853542a3dee8dc9e8722ce30306eba561953024534bb74edf",
+      "sha256": "b71d9b3a479f86c24c0a3dfb40006cecb5f23cfcc6d6cd0e0ca1d0d8bbbf1e4d",
       "status": "promoted",
       "status_updates": [],
-      "url": "https://www.revolutionpermanente.fr/2000-personnes-pour-lancer-la-candidature-d-Anasse-Kazib-et-porter-une-voix-revolutionnaire-en-2027",
-      "verified_at": "2026-11-24T11:11:30+00:00"
+      "url": "https://melenchon2027.fr/programme/livre/un-monde-ordonne/chapitre3/",
+      "verified_at": "2026-11-24T23:10:03+00:00"
     },
     {
-      "chunks_total": 2,
-      "document": "corpus/2027/auto/candidates/anasse-kazib/2026-11-24-2349a8230fe1.md",
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/partys/la-france-insoumise/2026-11-07-70964746ac95.md",
       "proposals": [
-        "proposals/auto/pouvoir-achat-travail/auto-anasse-kazib-pouvoir-achat-travail-0ba5ecaffd11.md",
-        "proposals/auto/services-publics/auto-anasse-kazib-services-publics-fb4abf1342ec.md",
-        "proposals/auto/fiscalite-redistribution/auto-anasse-kazib-fiscalite-redistribution-ae7afadd3eed.md"
+        "proposals/auto/fiscalite-redistribution/auto-la-france-insoumise-fiscalite-redistribution-86407d2d22d4.md"
       ],
-      "provenance_updates": [
-        "auto-anasse-kazib-economie-finances-98fed100363d",
-        "auto-anasse-kazib-pouvoir-achat-travail-81103508afc3",
-        "prop-kazib-retraite-60-55"
-      ],
-      "sha256": "663dfc524876bc46c538fafbfcf8894182c29ab4253ab1c4d6fd90959a9ea262",
+      "sha256": "77f2856a2a216c44ddc60c3c68c11f7a60cc34c6d7ff5769cb89c571075b8b88",
       "status": "promoted",
       "status_updates": [],
-      "url": "https://www.revolutionpermanente.fr/Vaincre-le-grand-patronat-ou-capituler-Anasse-Kazib-presente-sa-candidature-au-meeting-de-RP",
-      "verified_at": "2026-11-24T11:12:01+00:00"
+      "url": "https://melenchon2027.fr/programme/livre/une-economie-au-service-des-besoins/",
+      "verified_at": "2026-11-24T23:10:22+00:00"
     }
   ],
   "status_updates": 0

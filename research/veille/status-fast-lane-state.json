@@ -934,6 +934,13 @@
       "reason": "no_deterministic_transition",
       "status": "not_applicable"
     },
+    "403f3cc5d316": {
+      "event_url": "https://melenchon2027.fr/evenement/campagne/reunion-publique-soutien-a-la-candidature-de-jean-luc-melenchon/",
+      "owner": "La France insoumise",
+      "processed_at": "2026-11-24T23:07:21+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
     "4051c86bb078": {
       "candidate_id": "gabriel-attal",
       "event_url": "https://attalpresident.fr/actualites/gabriel-attal-sur-rtl-je-suis-candidat-pour-gagner-cette-election-presidentielle",
@@ -2807,7 +2814,7 @@
       "error": "ValueError: HTTP 404",
       "event_url": "https://parti-equinoxe.fr/articles/2022/05/la-transition-energetique-selon-les-ex-candidats-a-la-presidentielle-2/",
       "owner": "Équinoxe",
-      "processed_at": "2026-11-24T11:08:11+00:00",
+      "processed_at": "2026-11-24T23:07:22+00:00",
       "status": "technical_error"
     },
     "cb3428b2b6d3": {
@@ -3510,7 +3517,7 @@
     }
   },
   "last_error_count": 1,
-  "last_run_at": "2026-11-24T11:08:11+00:00",
+  "last_run_at": "2026-11-24T23:07:22+00:00",
   "last_updated_count": 0,
   "version": 1
 }

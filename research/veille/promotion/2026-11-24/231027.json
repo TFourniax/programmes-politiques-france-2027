@@ -1,0 +1,45 @@
+{
+  "errors": [],
+  "generated_at": "2026-11-24T23:10:27+00:00",
+  "historical_skipped": 0,
+  "partial": 0,
+  "processed": 3,
+  "promoted": 2,
+  "proposals_created": 6,
+  "results": [
+    {
+      "sha256": "2f286c638d3bb290e018452a07688127887907b5cf71daa5eb806c09e19f690a",
+      "status": "not_confirmed",
+      "url": "https://melenchon2027.fr/evenement/campagne/reunion-publique-soutien-a-la-candidature-de-jean-luc-melenchon/"
+    },
+    {
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/partys/la-france-insoumise/2026-11-07-3d9357905b0d.md",
+      "proposals": [
+        "proposals/auto/europe-souverainete/auto-la-france-insoumise-europe-souverainete-4dbaddeb5d09.md",
+        "proposals/auto/europe-souverainete/auto-la-france-insoumise-europe-souverainete-dee87e627073.md",
+        "proposals/auto/immigration-integration/auto-la-france-insoumise-immigration-integration-190cdbb0fd95.md",
+        "proposals/auto/immigration-integration/auto-la-france-insoumise-immigration-integration-0e011a7b2b87.md",
+        "proposals/auto/europe-souverainete/auto-la-france-insoumise-europe-souverainete-cdb727c9c1a6.md"
+      ],
+      "sha256": "b71d9b3a479f86c24c0a3dfb40006cecb5f23cfcc6d6cd0e0ca1d0d8bbbf1e4d",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://melenchon2027.fr/programme/livre/un-monde-ordonne/chapitre3/",
+      "verified_at": "2026-11-24T23:10:03+00:00"
+    },
+    {
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/partys/la-france-insoumise/2026-11-07-70964746ac95.md",
+      "proposals": [
+        "proposals/auto/fiscalite-redistribution/auto-la-france-insoumise-fiscalite-redistribution-86407d2d22d4.md"
+      ],
+      "sha256": "77f2856a2a216c44ddc60c3c68c11f7a60cc34c6d7ff5769cb89c571075b8b88",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://melenchon2027.fr/programme/livre/une-economie-au-service-des-besoins/",
+      "verified_at": "2026-11-24T23:10:22+00:00"
+    }
+  ],
+  "status_updates": 0
+}

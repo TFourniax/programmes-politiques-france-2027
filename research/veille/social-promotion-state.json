@@ -1133,6 +1133,15 @@
       "status": "not_confirmed",
       "url": "https://www.youtube.com/shorts/lo9KiwmIoog"
     },
+    "4383b8539648cdd6baee": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-11-24T23:10:57+00:00",
+      "provenance_updates": [],
+      "source_sha256": "53a584de18997a224e1ad4ec35cbccb8f971ed16444267c39ed5e814c565c047",
+      "status": "promoted",
+      "url": "https://www.youtube.com/shorts/LMPTbWeXExw"
+    },
     "438a92ef9deeb021b139": {
       "chunks_done": null,
       "chunks_total": null,
@@ -1624,6 +1633,15 @@
       "source_sha256": "9dc4fc8cd36424bb8a8fe56db4b9e8eba86e468b1f6a31033439803ea3892def",
       "status": "not_confirmed",
       "url": "https://www.youtube.com/shorts/-7K8D6L_80s"
+    },
+    "612039bf4f6392a02a7d": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-11-24T23:10:59+00:00",
+      "provenance_updates": [],
+      "source_sha256": "dd1c57cf0592ffc31b50bd96554642fa1dbfee70645579f542fced8ab4545437",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/watch?v=g5psRNbN7iw"
     },
     "612a371d99d1ebc3ba2c": {
       "chunks_done": null,
@@ -2544,6 +2562,17 @@
       "source_sha256": "0fd436d50cca746dd5f52aca3233dd4656323cf7e5dd3b50b38eb7331c7bf16e",
       "status": "promoted",
       "url": "https://www.youtube.com/watch?v=JEf40DFK0T8"
+    },
+    "9c179c2f82ee76a4e348": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-11-24T23:10:47+00:00",
+      "provenance_updates": [
+        "auto-marine-tondelier-ecologie-energie-adcf12231b7a"
+      ],
+      "source_sha256": "4ef9c2556b36579d271ee2f90d3e4079b5f57d57bdae8044a4e8dc092e7add47",
+      "status": "promoted",
+      "url": "https://bsky.app/profile/marinetondelier.fr/post/3n33gm2r34c2b"
     },
     "9c962dcc1b16d632a606": {
       "chunks_done": null,
@@ -3891,6 +3920,18 @@
       "status": "not_confirmed",
       "url": "https://www.youtube.com/shorts/jVYJrklR-ig"
     },
+    "e7bbdf487ead2494efb9": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-11-24T23:10:38+00:00",
+      "provenance_updates": [
+        "auto-revolution-permanente-economie-finances-9a3a787c0c18",
+        "auto-revolution-permanente-pouvoir-achat-travail-0a812c69e566"
+      ],
+      "source_sha256": "d6fa4c2c3cbeb6d5fb90d5705c8970947a9fb192f58136a58af4b28bb0e1ccd1",
+      "status": "promoted",
+      "url": "https://www.youtube.com/watch?v=ThL3spiu7QI"
+    },
     "e7c960eb5b6b7f1b8869": {
       "chunks_done": null,
       "chunks_total": null,
@@ -4371,6 +4412,6 @@
   },
   "last_error_count": 0,
   "last_processed_count": 4,
-  "last_run_at": "2026-11-24T11:12:18+00:00",
+  "last_run_at": "2026-11-24T23:11:00+00:00",
   "version": 2
 }

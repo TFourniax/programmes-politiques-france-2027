@@ -1,38 +1,51 @@
 {
   "errors": [],
-  "generated_at": "2026-11-24T11:12:18+00:00",
+  "generated_at": "2026-11-24T23:11:00+00:00",
   "partial": 0,
   "processed": 4,
-  "promoted": 1,
+  "promoted": 3,
   "proposals_created": 1,
-  "provenance_updates": 0,
+  "provenance_updates": 3,
   "results": [
     {
-      "sha256": "62ac9ad327036afa5444c4a0991843e14304781ee75303b800dc8fab2c8cb7f6",
-      "status": "not_confirmed",
-      "url": "https://www.youtube.com/watch?v=Z3QVHTv5axQ"
+      "document": "corpus/2027/auto/partys/revolution-permanente/2026-11-24-3163a885a083.md",
+      "provenance_updates": [
+        "auto-revolution-permanente-economie-finances-9a3a787c0c18",
+        "auto-revolution-permanente-pouvoir-achat-travail-0a812c69e566"
+      ],
+      "reason": "canonical_duplicate_evidence",
+      "sha256": "d6fa4c2c3cbeb6d5fb90d5705c8970947a9fb192f58136a58af4b28bb0e1ccd1",
+      "status": "promoted",
+      "url": "https://www.youtube.com/watch?v=ThL3spiu7QI",
+      "verified_at": "2026-11-24T23:10:38+00:00"
+    },
+    {
+      "document": "corpus/2027/auto/candidates/marine-tondelier/2026-11-24-c5a98e5181f9.md",
+      "provenance_updates": [
+        "auto-marine-tondelier-ecologie-energie-adcf12231b7a"
+      ],
+      "reason": "canonical_duplicate_evidence",
+      "sha256": "4ef9c2556b36579d271ee2f90d3e4079b5f57d57bdae8044a4e8dc092e7add47",
+      "status": "promoted",
+      "url": "https://bsky.app/profile/marinetondelier.fr/post/3n33gm2r34c2b",
+      "verified_at": "2026-11-24T23:10:47+00:00"
     },
     {
       "chunks_total": 1,
-      "document": "corpus/2027/auto/partys/equinoxe/2026-11-20-547d9c0ceda3.md",
+      "document": "corpus/2027/auto/partys/revolution-permanente/2026-11-24-df7a45118dcc.md",
       "proposals": [
-        "proposals/auto/economie-finances/auto-equinoxe-economie-finances-173ccf38b0e4.md"
+        "proposals/auto/europe-souverainete/auto-revolution-permanente-europe-souverainete-29d7d27c16a2.md"
       ],
-      "sha256": "0fd436d50cca746dd5f52aca3233dd4656323cf7e5dd3b50b38eb7331c7bf16e",
+      "sha256": "53a584de18997a224e1ad4ec35cbccb8f971ed16444267c39ed5e814c565c047",
       "status": "promoted",
       "status_updates": [],
-      "url": "https://www.youtube.com/watch?v=JEf40DFK0T8",
-      "verified_at": "2026-11-24T11:12:09+00:00"
+      "url": "https://www.youtube.com/shorts/LMPTbWeXExw",
+      "verified_at": "2026-11-24T23:10:53+00:00"
     },
     {
-      "sha256": "87356bf823a249d9da3e6b666174dbecbadfa4d717a2445f1bf9b9b452c7a170",
+      "sha256": "dd1c57cf0592ffc31b50bd96554642fa1dbfee70645579f542fced8ab4545437",
       "status": "not_confirmed",
-      "url": "https://www.youtube.com/shorts/j-1WyXoa8sU"
-    },
-    {
-      "sha256": "2f030e999e854cc3e212ccfc753f94853708d5f3011920c71df32382c9be9f1c",
-      "status": "not_confirmed",
-      "url": "https://www.youtube.com/shorts/3jOCrjAbLa0"
+      "url": "https://www.youtube.com/watch?v=g5psRNbN7iw"
     }
   ],
   "status_updates": 0

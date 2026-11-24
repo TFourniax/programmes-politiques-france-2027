@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created_at": "2026-08-17T19:57:19.441897+00:00",
-  "updated_at": "2026-11-24T11:12:22.874126+00:00",
+  "updated_at": "2026-11-24T23:11:05.216863+00:00",
   "files": [
     {
       "path": "corpus/2027/auto/candidates/anasse-kazib/2026-08-28-38891602d9d9.md",
@@ -1004,6 +1004,11 @@
       "size": 1765
     },
     {
+      "path": "corpus/2027/auto/candidates/marine-tondelier/2026-11-24-c5a98e5181f9.md",
+      "sha256": "c0ef6cf61e53c769da21283fb82d8b5d764bdd2d94754b9599b5375ae5578126",
+      "size": 1633
+    },
+    {
       "path": "corpus/2027/auto/candidates/nicolas-dupont-aignan/2026-10-21-8ae230201df1.md",
       "sha256": "854ca7459df8c74a69b2f3bcd98381fb5677f08fbee346d5710403bf9bac32a0",
       "size": 1676
@@ -1134,6 +1139,11 @@
       "size": 1924
     },
     {
+      "path": "corpus/2027/auto/partys/la-france-insoumise/2026-11-07-3d9357905b0d.md",
+      "sha256": "048edf66cb734e88d2dd2af08dee961e2349ad3963c166c3aa7531de68050f5e",
+      "size": 2403
+    },
+    {
       "path": "corpus/2027/auto/partys/la-france-insoumise/2026-11-07-4003a98c5fc4.md",
       "sha256": "13d30c2832bd44f90fb0f673e15386b49324905f3ffcbce312255ad88b3985bc",
       "size": 1829
@@ -1152,6 +1162,11 @@
       "path": "corpus/2027/auto/partys/la-france-insoumise/2026-11-07-6caf1dc27906.md",
       "sha256": "83d549f22ed37bee8e65b99d84642918c23a6b597914b810d305c1633cd45120",
       "size": 2477
+    },
+    {
+      "path": "corpus/2027/auto/partys/la-france-insoumise/2026-11-07-70964746ac95.md",
+      "sha256": "13f5658d35316b05047f6a603eddc6549cea34741b3f28392ed82aaadd9bdfd5",
+      "size": 1574
     },
     {
       "path": "corpus/2027/auto/partys/la-france-insoumise/2026-11-07-8120ce4d3047.md",
@@ -2199,6 +2214,16 @@
       "size": 1654
     },
     {
+      "path": "corpus/2027/auto/partys/revolution-permanente/2026-11-24-3163a885a083.md",
+      "sha256": "b1b78e1f8f77ed6e716a8934b7035438bdf02247c52d24c9b90c62b3ac5a21a7",
+      "size": 1856
+    },
+    {
+      "path": "corpus/2027/auto/partys/revolution-permanente/2026-11-24-df7a45118dcc.md",
+      "sha256": "63f37a28f9ee9dc69a6bbd25e1aa92db1bbf2a9b00825fe717321e798222419a",
+      "size": 1603
+    },
+    {
       "path": "corpus/2027/auto/partys/solution-democratique/2025-04-09-3a8ec20cb386.md",
       "sha256": "268b288b348cf4405f1cd419a74efaaba0adce4475aeff9b10af9796146281ac",
       "size": 1763
@@ -2875,8 +2900,8 @@
     },
     {
       "path": "proposals/auto/ecologie-energie/auto-marine-tondelier-ecologie-energie-adcf12231b7a.md",
-      "sha256": "5611518b9603fccc4e278afec2f5969513d376a9774abb8d057348aec529b046",
-      "size": 1255
+      "sha256": "f80482fab24a6c0eea68158bf582adf3b4cf46f5521854ef42f6aae45f5d7a19",
+      "size": 1653
     },
     {
       "path": "proposals/auto/ecologie-energie/auto-marine-tondelier-ecologie-energie-da9061d46e28.md",
@@ -3110,8 +3135,8 @@
     },
     {
       "path": "proposals/auto/economie-finances/auto-revolution-permanente-economie-finances-9a3a787c0c18.md",
-      "sha256": "7b11fcedaa5d38a4ccaa51111a39e08452e5cf96f4c596e831704085ad3e7694",
-      "size": 2204
+      "sha256": "7c92a2664b440d752072ee313b988b7543619520cbb02542fbd5899aa989d5f7",
+      "size": 2371
     },
     {
       "path": "proposals/auto/europe-souverainete/auto-bruno-retailleau-europe-souverainete-ed8d0d14bccb.md",
@@ -3179,6 +3204,11 @@
       "size": 1121
     },
     {
+      "path": "proposals/auto/europe-souverainete/auto-la-france-insoumise-europe-souverainete-4dbaddeb5d09.md",
+      "sha256": "8f02c86d7712fc5591c80e447ac2c0d9023c0f6c7731980d40bec5323c4a08ab",
+      "size": 1202
+    },
+    {
       "path": "proposals/auto/europe-souverainete/auto-la-france-insoumise-europe-souverainete-533aeac713f6.md",
       "sha256": "f6bdb264c304f34ab9b47f25849b977f29faa8dc92401e59354dada61cb15272",
       "size": 1440
@@ -3202,6 +3232,16 @@
       "path": "proposals/auto/europe-souverainete/auto-la-france-insoumise-europe-souverainete-c5db8efec9c9.md",
       "sha256": "629ad2bc6cbaec41e17501889f84b47477e4d112b417c19892996822750df19e",
       "size": 1387
+    },
+    {
+      "path": "proposals/auto/europe-souverainete/auto-la-france-insoumise-europe-souverainete-cdb727c9c1a6.md",
+      "sha256": "63727fb6c4590e11944c51d977a05e9531a5541c5c5cff706c86f88db9e8e90f",
+      "size": 1309
+    },
+    {
+      "path": "proposals/auto/europe-souverainete/auto-la-france-insoumise-europe-souverainete-dee87e627073.md",
+      "sha256": "a13167d0e391f41c466d709fb73b54b83be27ca571e1ad2a5bc1efb7d4f8e0df",
+      "size": 1245
     },
     {
       "path": "proposals/auto/europe-souverainete/auto-la-france-insoumise-europe-souverainete-ef85ae0d3bb4.md",
@@ -3264,6 +3304,11 @@
       "size": 1934
     },
     {
+      "path": "proposals/auto/europe-souverainete/auto-revolution-permanente-europe-souverainete-29d7d27c16a2.md",
+      "sha256": "4d818004c543d772264dec321a5a0d4482bde2af8be8092799d9690179599cae",
+      "size": 1444
+    },
+    {
       "path": "proposals/auto/fiscalite-redistribution/auto-anasse-kazib-fiscalite-redistribution-ae7afadd3eed.md",
       "sha256": "cd2af5d4bbbcfb9cf8f340e13bd880bae350b48379cf6556115acd8376ab638d",
       "size": 1273
@@ -3292,6 +3337,11 @@
       "path": "proposals/auto/fiscalite-redistribution/auto-la-france-insoumise-fiscalite-redistribution-66cc0cc9aada.md",
       "sha256": "2a2b8d7fe59e1e0f19216ab9e7b1765bc40364f3affb8244a15df588f9500981",
       "size": 1522
+    },
+    {
+      "path": "proposals/auto/fiscalite-redistribution/auto-la-france-insoumise-fiscalite-redistribution-86407d2d22d4.md",
+      "sha256": "87259072831a2cf43514582a8656c39e28d5abb1afbb053a809c798dc6ba0b36",
+      "size": 1148
     },
     {
       "path": "proposals/auto/fiscalite-redistribution/auto-les-ecologistes-fiscalite-redistribution-8245f1085aea.md",
@@ -3367,6 +3417,16 @@
       "path": "proposals/auto/immigration-integration/auto-gabriel-attal-immigration-integration-ea2c8567549f.md",
       "sha256": "ca8c5c80bfac25a4b4f035a22496d4334f3a521225b2798379d3c87e920d3277",
       "size": 1296
+    },
+    {
+      "path": "proposals/auto/immigration-integration/auto-la-france-insoumise-immigration-integration-0e011a7b2b87.md",
+      "sha256": "92a0b3476bcbcb39259a894c82908d0a7c270748bc128264e4e001d2f24e897e",
+      "size": 1318
+    },
+    {
+      "path": "proposals/auto/immigration-integration/auto-la-france-insoumise-immigration-integration-190cdbb0fd95.md",
+      "sha256": "40deb50a7d52d885cb6fb7c6c7f0b18993e856d896f26260ad04f242658ec6b6",
+      "size": 1427
     },
     {
       "path": "proposals/auto/immigration-integration/auto-la-france-insoumise-immigration-integration-1a1459016e15.md",
@@ -3965,8 +4025,8 @@
     },
     {
       "path": "proposals/auto/pouvoir-achat-travail/auto-revolution-permanente-pouvoir-achat-travail-0a812c69e566.md",
-      "sha256": "d66261b85e75f31755c6fde37cbffeb38dec69ebefbf6418543e47c531c609e3",
-      "size": 1877
+      "sha256": "08cc16236625c6a6905b123451a38fc5c7f7188c8beb03f7cd6b9840b80248d2",
+      "size": 2044
     },
     {
       "path": "proposals/auto/pouvoir-achat-travail/auto-revolution-permanente-pouvoir-achat-travail-19d0ccdf2147.md",

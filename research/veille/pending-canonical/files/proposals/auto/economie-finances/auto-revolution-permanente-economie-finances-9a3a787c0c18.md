@@ -6,7 +6,8 @@ topic: economie-finances
 certainty: explicit_but_underspecified
 proposal_status: current
 source_document_ids: [auto-anasse-kazib-2026-09-16-1690872ca35a, auto-revolution-permanente-2026-09-18-1d4a4d813343, auto-anasse-kazib-2026-10-20-681b83f50d81,
-  auto-anasse-kazib-2026-10-21-681b83f50d81, auto-anasse-kazib-2026-10-23-bbde63c51978, auto-anasse-kazib-2026-10-24-133476e1ed0d]
+  auto-anasse-kazib-2026-10-21-681b83f50d81, auto-anasse-kazib-2026-10-23-bbde63c51978, auto-anasse-kazib-2026-10-24-133476e1ed0d,
+  auto-revolution-permanente-2026-11-24-3163a885a083]
 source_url: https://www.revolutionpermanente.fr/Une-candidature-ouvriere-et-revolutionnaire-en-2027-Avec-Anasse-Kazib-Elsa-Marcel
 source_tier: tier_1_primary_official
 first_documented_at: '2026-09-16'
@@ -16,12 +17,12 @@ verification_method: primary_source_exact_quote_plus_independent_gemini_verifier
 evidence_sha256: be0bfff9537da8e45deaa0b51690f72124f3b6ba23a28e39f47b3b5e0c71ff22
 generated_by: scripts/auto_promote.py
 source_urls: ['https://www.revolutionpermanente.fr/Une-candidature-ouvriere-et-revolutionnaire-en-2027-Avec-Anasse-Kazib-Elsa-Marcel',
-  'https://www.revolutionpermanente.fr/', 'https://www.revolutionpermanente.fr/Anasse-Kazib-2027']
+  'https://www.revolutionpermanente.fr/', 'https://www.revolutionpermanente.fr/Anasse-Kazib-2027', 'https://www.youtube.com/watch?v=ThL3spiu7QI']
 evidence_sha256s: [be0bfff9537da8e45deaa0b51690f72124f3b6ba23a28e39f47b3b5e0c71ff22, d01d4a19b2cb12f8ec1adc25d1254bf970d1a2459262ad91f27bb0fb67ae0a18,
   210a8944d14b2990a374cb473da372a5caad1d99a86ea0b28174d00c0418812c, 8025afb66ec8afdf40d6b0226638b1b85fbc3fb85af05b4f43ef20a3b01475d5,
-  7975d7a77a7ecd7ab8401bf74c25421834d47c69fde7650860a1f65c61fc8a54]
-confirmation_count: 6
-last_confirmed_at: '2026-10-24'
+  7975d7a77a7ecd7ab8401bf74c25421834d47c69fde7650860a1f65c61fc8a54, d6fa4c2c3cbeb6d5fb90d5705c8970947a9fb192f58136a58af4b28bb0e1ccd1]
+confirmation_count: 7
+last_confirmed_at: '2026-11-24'
 ---
 
 # Révolution Permanente propose l'expropriation des secteurs stratégiques
