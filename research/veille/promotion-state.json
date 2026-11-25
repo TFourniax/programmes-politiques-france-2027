@@ -3166,9 +3166,9 @@
       "verified_at": "2026-08-13T08:51:16+00:00"
     }
   },
-  "last_error_count": 0,
-  "last_processed_count": 3,
-  "last_run_at": "2026-11-24T23:10:27+00:00",
+  "last_error_count": 1,
+  "last_processed_count": 2,
+  "last_run_at": "2026-11-25T10:01:50+00:00",
   "source_chunks": {
     "000e79baea11403029d335b1": {
       "canonical_confirmations": [
@@ -14843,6 +14843,19 @@
       "total": 1,
       "updated_at": "2026-11-10T08:35:23+00:00",
       "url": "https://www.youtube.com/shorts/aYP7TgjTM1E"
+    },
+    "2bbb9f4b44740f39b89a954b": {
+      "claims": [],
+      "created_at": "2026-11-25T10:01:37+00:00",
+      "document_types": [],
+      "done": [],
+      "published_candidates": [],
+      "sha256": "a42e4323c128dbb8da15edaffbb56ef8891fde3c07c96c660d9296249ff02c8f",
+      "source_title": "Chapitre 1 : L’ère d’un nouveau collectivisme - Mélenchon 2027 : Soutenez ma candidature à l’élection présidentielle",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "url": "https://melenchon2027.fr/programme/livre/une-economie-au-service-des-besoins/chapitre1/"
     },
     "2d1d23664286544ce81fa577": {
       "canonical_confirmations": [
@@ -27562,6 +27575,26 @@
       "total": 1,
       "updated_at": "2026-10-24T16:49:16+00:00",
       "url": "https://www.youtube.com/shorts/gKI4nDoE3Pk"
+    },
+    "5756516c77e2c425d409ce53": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-11-25T10:01:50+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "bf0fdd5057785c41658ea03dd70b660dd6ba1a930e3e788e9ae2fc0defe7dbe7",
+      "source_title": "La France va-t-elle faire faillite ?",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-25T10:01:54+00:00",
+      "url": "https://www.youtube.com/watch?v=0BQ5oJW2YKo"
     },
     "579629e7e4d434021832a845": {
       "canonical_confirmations": [
@@ -56392,6 +56425,26 @@
       "updated_at": "2026-09-13T21:33:47+00:00",
       "url": "https://anasse2027.fr/"
     },
+    "c2f81412490cecbeab0e8bb5": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-11-25T10:02:09+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "96a02b235fbb1ae064e303082b2faa18fc53aa6925b0a4a650dedb7c4050d5ac",
+      "source_title": "Des AED de Paul Eluard chez Révolution Permanente ?? On en est très fiers ! Elsa Marcel sur BFM",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-25T10:02:10+00:00",
+      "url": "https://www.youtube.com/watch?v=5VcsDL9blc8"
+    },
     "c3225307d045e0040eb3aeaa": {
       "canonical_confirmations": [],
       "claims": [],
@@ -56411,6 +56464,26 @@
       "total": 1,
       "updated_at": "2026-10-01T23:22:34+00:00",
       "url": "https://bsky.app/profile/lesecologistes.fr/post/3mwtjdtudo222"
+    },
+    "c37d17efcee18b473fa73b00": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-11-25T10:01:55+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "38f74215747bfbe296e9c40b32981af42ea9d116e8c8b05dc3e78d89bd7b7796",
+      "source_title": "🚆 Nous faisons tourner les trains dans ce pays. Nous pouvons aussi les arrêter pour faire gagner la",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-25T10:02:08+00:00",
+      "url": "https://www.youtube.com/shorts/6vQngulrWnE"
     },
     "c3a2ebceef644f25641dc217": {
       "canonical_confirmations": [
@@ -57937,7 +58010,7 @@
       "statuses": [],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-11-24T23:09:44+00:00",
+      "updated_at": "2026-11-25T10:00:20+00:00",
       "url": "https://melenchon2027.fr/evenement/campagne/reunion-publique-soutien-a-la-candidature-de-jean-luc-melenchon/"
     },
     "c6fcefcc76a6a4a0dd73028b": {
@@ -58837,6 +58910,26 @@
       "updated_at": "2026-10-18T12:11:26+00:00",
       "url": "https://rassemblementnational.fr/"
     },
+    "cb154826be6b4797768ee663": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-11-25T10:02:11+00:00",
+      "document_types": [
+        "other"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "e29bf4ca89bf9249d4a4d65687fc9c9dfe293ecbb799d07adde8fd7f9c7594f3",
+      "source_title": "«Investir dans l’éducation et la jeunesse n’est pas une dépense c’est préparer l’avenir»",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-25T10:02:22+00:00",
+      "url": "https://www.youtube.com/watch?v=7kUkukoPlCY"
+    },
     "cb7e209a7cfee52c42a752b4": {
       "canonical_confirmations": [],
       "claims": [],
@@ -59509,6 +59602,317 @@
       "total": 1,
       "updated_at": "2026-11-11T20:19:56+00:00",
       "url": "https://solutiondemocratique.fr/comparatif-candidats-programme-elections-presidentielles-france-2027/"
+    },
+    "cdacc66afc6690cb723d8481": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "interdirons l’accès des 12 milles côtiers français aux navires-usines de pêche",
+            "relevance": "direct",
+            "statement": "Le gouvernement insoumis interdira l'accès des 12 milles côtiers français aux navires-usines de pêche.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La source indique explicitement que le gouvernement insoumis interdirons l'accès des 12 milles côtiers français aux navires-usines de pêche.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "mettrons en place un moratoire sur les projets de fermes-usines aquacoles",
+            "relevance": "direct",
+            "statement": "Le gouvernement insoumis mettra en place un moratoire sur les projets de fermes-usines aquacoles.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La source indique explicitement que le gouvernement insoumis mettrons en place un moratoire sur les projets de fermes-usines aquacoles.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "flécherons au moins 150 millions d’euros issus de la taxe carbone européenne",
+            "relevance": "direct",
+            "statement": "Le gouvernement insoumis fléchera au moins 150 millions d'euros de la taxe carbone européenne vers la décarbonation du transport maritime dès 2027.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "La source indique explicitement que le gouvernement insoumis flécherons au moins 150 millions d'euros issus de la taxe carbone européenne vers la décarbonation du transport maritime dès 2027.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "protéger 30 % de l’espace maritime français d’ici 2030, dont un tiers en protection stricte",
+            "relevance": "direct",
+            "statement": "La France protégera 30 % de son espace maritime d'ici 2030, dont un tiers en protection stricte.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 3,
+            "reason": "La source indique explicitement que la France doit protéger 30 % de l'espace maritime français d'ici 2030, dont un tiers en protection stricte.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "protéger 30 % de l’espace maritime français d’ici 2030, dont un tiers en protection stricte",
+            "relevance": "direct",
+            "statement": "Protéger 30 % de l'espace maritime français d'ici 2030, dont un tiers en protection stricte.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La proposition de protéger 30 pour cent de l'espace maritime d'ici 2030 est explicitement présente dans la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "interdire réellement l’exploration et l’exploitation des hydrocarbures offshore dans les eaux françaises",
+            "relevance": "direct",
+            "statement": "Interdire l'exploration et l'exploitation des hydrocarbures offshore dans les eaux françaises.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "L'interdiction de l'exploration et de l'exploitation des hydrocarbures offshore est explicitement présente dans la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "atteindre au moins 45 GW de puissance installée en 2050",
+            "relevance": "direct",
+            "statement": "Atteindre au moins 45 GW de puissance installée pour l'éolien en mer en 2050.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "L'objectif d'atteindre au moins 45 GW pour l'éolien en mer en 2050 est explicitement présent dans la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "atteindre 5 GW en 2050",
+            "relevance": "direct",
+            "statement": "Atteindre 5 GW de puissance installée pour l'hydrolien en 2050.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 3,
+            "reason": "L'objectif d'atteindre 5 GW pour l'hydrolien en 2050 est explicitement présent dans la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "interdirons l’accès des 12 milles côtiers français aux navires-usines de pêche",
+            "relevance": "direct",
+            "statement": "Le gouvernement insoumis interdira l'accès des 12 milles côtiers français aux navires-usines de pêche.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La source indique explicitement que le gouvernement insoumis interdirons l'accès des 12 milles côtiers français aux navires-usines de pêche.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "mettrons en place un moratoire sur les projets de fermes-usines aquacoles",
+            "relevance": "direct",
+            "statement": "Le gouvernement insoumis mettra en place un moratoire sur les projets de fermes-usines aquacoles.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La source indique explicitement que le gouvernement insoumis mettrons en place un moratoire sur les projets de fermes-usines aquacoles.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "flécherons au moins 150 millions d’euros issus de la taxe carbone européenne",
+            "relevance": "direct",
+            "statement": "Le gouvernement insoumis fléchera au moins 150 millions d'euros de la taxe carbone européenne vers la décarbonation du transport maritime dès 2027.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "La source indique explicitement que le gouvernement insoumis flécherons au moins 150 millions d'euros issus de la taxe carbone européenne vers la décarbonation du transport maritime dès 2027.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "protéger 30 % de l’espace maritime français d’ici 2030, dont un tiers en protection stricte",
+            "relevance": "direct",
+            "statement": "La France protégera 30 % de son espace maritime d'ici 2030, dont un tiers en protection stricte.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 3,
+            "reason": "La source indique explicitement que la France doit protéger 30 % de l'espace maritime français d'ici 2030, dont un tiers en protection stricte.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "protéger 30 % de l’espace maritime français d’ici 2030, dont un tiers en protection stricte",
+            "relevance": "direct",
+            "statement": "Protéger 30 % de l'espace maritime français d'ici 2030, dont un tiers en protection stricte.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La proposition de protéger 30 pour cent de l'espace maritime d'ici 2030 est explicitement présente dans la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "interdire réellement l’exploration et l’exploitation des hydrocarbures offshore dans les eaux françaises",
+            "relevance": "direct",
+            "statement": "Interdire l'exploration et l'exploitation des hydrocarbures offshore dans les eaux françaises.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "L'interdiction de l'exploration et de l'exploitation des hydrocarbures offshore est explicitement présente dans la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "atteindre au moins 45 GW de puissance installée en 2050",
+            "relevance": "direct",
+            "statement": "Atteindre au moins 45 GW de puissance installée pour l'éolien en mer en 2050.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "L'objectif d'atteindre au moins 45 GW pour l'éolien en mer en 2050 est explicitement présent dans la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "atteindre 5 GW en 2050",
+            "relevance": "direct",
+            "statement": "Atteindre 5 GW de puissance installée pour l'hydrolien en 2050.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 3,
+            "reason": "L'objectif d'atteindre 5 GW pour l'hydrolien en 2050 est explicitement présent dans la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "created_at": "2026-11-25T10:00:20+00:00",
+      "document_types": [
+        "thematic_platform",
+        "thematic_platform"
+      ],
+      "done": [
+        0,
+        1
+      ],
+      "published_candidates": [],
+      "sha256": "1b0c8d2191047f4526dd1cab1614633184b9f8e5e4807de82ad65db1a958d6d4",
+      "source_title": "Comment nous allons redonner à la mer le goût du futur - Mélenchon 2027 : Soutenez ma candidature à l’élection présidentielle",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 3,
+      "updated_at": "2026-11-25T10:01:35+00:00",
+      "url": "https://melenchon2027.fr/programme/plans-thematiques/mer/"
     },
     "cdd90ecd8a522be92434ec28": {
       "canonical_confirmations": [
@@ -76690,6 +77094,14 @@
       "status": "promoted",
       "url": "https://attalpresident.fr/actualites/gabriel-attal-sur-rtl-je-suis-candidat-pour-gagner-cette-election-presidentielle"
     },
+    "783aa83bbf4d": {
+      "attempts": 1,
+      "error": "RuntimeError: Gemini HTTP 503: gemini-3.5-flash-lite is currently experiencing high demand, spikes in demand are usually temporary. Please try again later.",
+      "next_retry_at": "2026-11-25T16:01:49+00:00",
+      "processed_at": "2026-11-25T10:01:49+00:00",
+      "status": "technical_error",
+      "url": "https://melenchon2027.fr/programme/livre/une-economie-au-service-des-besoins/chapitre1/"
+    },
     "78664e839822": {
       "chunks_done": null,
       "chunks_total": null,
@@ -78871,6 +79283,15 @@
       "status": "promoted",
       "url": "https://attalpresident.fr/actualites/gabriel-attal-sur-rtl-je-suis-candidat-pour-gagner-cette-election-presidentielle"
     },
+    "bee2698156d4": {
+      "chunks_done": 2,
+      "chunks_total": 3,
+      "processed_at": "2026-11-25T10:01:35+00:00",
+      "reason": null,
+      "source_sha256": "1b0c8d2191047f4526dd1cab1614633184b9f8e5e4807de82ad65db1a958d6d4",
+      "status": "partial",
+      "url": "https://melenchon2027.fr/programme/plans-thematiques/mer/"
+    },
     "bef790627c83": {
       "chunks_done": null,
       "chunks_total": 1,
@@ -80513,6 +80934,15 @@
       "source_sha256": "8e9a1451397530e4b58111521aacebba8cc335c7b294128b3bd53d1bbcf4e7fb",
       "status": "promoted",
       "url": "https://attalpresident.fr/programme/mesures/interessement-vers-epargne-retraite"
+    },
+    "f2f74915a2e3": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-11-25T10:00:20+00:00",
+      "reason": null,
+      "source_sha256": "2f286c638d3bb290e018452a07688127887907b5cf71daa5eb806c09e19f690a",
+      "status": "not_confirmed",
+      "url": "https://melenchon2027.fr/evenement/campagne/reunion-publique-soutien-a-la-candidature-de-jean-luc-melenchon/"
     },
     "f338d43fc637": {
       "chunks_done": null,

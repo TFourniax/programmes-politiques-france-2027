@@ -301,6 +301,15 @@
       "status": "not_confirmed",
       "url": "https://www.youtube.com/shorts/XLlL5cvcFd4"
     },
+    "11ddb159de9f883e37da": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-11-25T10:01:54+00:00",
+      "provenance_updates": [],
+      "source_sha256": "bf0fdd5057785c41658ea03dd70b660dd6ba1a930e3e788e9ae2fc0defe7dbe7",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/watch?v=0BQ5oJW2YKo"
+    },
     "12582846766f128f2093": {
       "chunks_done": null,
       "chunks_total": null,
@@ -1034,6 +1043,15 @@
       "status": "not_confirmed",
       "url": "https://www.youtube.com/shorts/ZG4omLW4YKQ"
     },
+    "3e87b4663610676d9742": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-11-25T10:02:10+00:00",
+      "provenance_updates": [],
+      "source_sha256": "96a02b235fbb1ae064e303082b2faa18fc53aa6925b0a4a650dedb7c4050d5ac",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/watch?v=5VcsDL9blc8"
+    },
     "3f4567267cbe9309e16e": {
       "chunks_done": null,
       "chunks_total": null,
@@ -1471,6 +1489,24 @@
       "source_sha256": "b08dcc3f606bfeb6860e8e2d23ae27205592a9da70f9fe96607656aae8fcec82",
       "status": "not_confirmed",
       "url": "https://bsky.app/profile/lesecologistes.fr/post/3mtjmwmcths27"
+    },
+    "54c1f51fd58be06673cc": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-11-25T10:02:08+00:00",
+      "provenance_updates": [],
+      "source_sha256": "38f74215747bfbe296e9c40b32981af42ea9d116e8c8b05dc3e78d89bd7b7796",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/shorts/6vQngulrWnE"
+    },
+    "5531549dc26c42935938": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-11-25T10:02:22+00:00",
+      "provenance_updates": [],
+      "source_sha256": "e29bf4ca89bf9249d4a4d65687fc9c9dfe293ecbb799d07adde8fd7f9c7594f3",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/watch?v=7kUkukoPlCY"
     },
     "55ca4344fd0513601042": {
       "chunks_done": null,
@@ -4412,6 +4448,6 @@
   },
   "last_error_count": 0,
   "last_processed_count": 4,
-  "last_run_at": "2026-11-24T23:11:00+00:00",
+  "last_run_at": "2026-11-25T10:02:22+00:00",
   "version": 2
 }

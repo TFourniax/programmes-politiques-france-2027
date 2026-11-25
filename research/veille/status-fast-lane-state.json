@@ -2814,7 +2814,7 @@
       "error": "ValueError: HTTP 404",
       "event_url": "https://parti-equinoxe.fr/articles/2022/05/la-transition-energetique-selon-les-ex-candidats-a-la-presidentielle-2/",
       "owner": "Équinoxe",
-      "processed_at": "2026-11-24T23:07:22+00:00",
+      "processed_at": "2026-11-25T09:58:06+00:00",
       "status": "technical_error"
     },
     "cb3428b2b6d3": {
@@ -3383,6 +3383,13 @@
       "reason": "no_deterministic_transition",
       "status": "not_applicable"
     },
+    "f2f74915a2e3": {
+      "event_url": "https://melenchon2027.fr/evenement/campagne/reunion-publique-soutien-a-la-candidature-de-jean-luc-melenchon/",
+      "owner": "La France insoumise",
+      "processed_at": "2026-11-25T09:58:04+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
     "f338d43fc637": {
       "candidate_id": "david-lisnard",
       "event_url": "https://www.unenouvelleenergie.fr/questions/david-lisnard-est-il-candidat-a-la-presidentielle-2027/",
@@ -3517,7 +3524,7 @@
     }
   },
   "last_error_count": 1,
-  "last_run_at": "2026-11-24T23:07:22+00:00",
+  "last_run_at": "2026-11-25T09:58:06+00:00",
   "last_updated_count": 0,
   "version": 1
 }
