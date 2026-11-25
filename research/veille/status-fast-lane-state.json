@@ -820,6 +820,13 @@
       "reason": "no_deterministic_transition",
       "status": "not_applicable"
     },
+    "385101995ba0": {
+      "event_url": "https://www.revolutionpermanente.fr/Anasse-Kazib-a-Toulouse-ce-vendredi-une-candidature-pour-la-jeunesse-revolutionnaire",
+      "owner": "Anasse Kazib",
+      "processed_at": "2026-11-25T22:41:54+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
     "38935f1cf6d4": {
       "event_url": "https://www.revolutionpermanente.fr/2000-personnes-pour-lancer-la-candidature-d-Anasse-Kazib-et-porter-une-voix-revolutionnaire-en-2027",
       "owner": "Anasse Kazib",
@@ -2368,6 +2375,13 @@
       "reason": "no_deterministic_transition",
       "status": "not_applicable"
     },
+    "a9791ea579cf": {
+      "event_url": "https://melenchon2027.fr/evenement/campagne/reunion-publique-soutien-a-la-candidature-de-jean-luc-melenchon/",
+      "owner": "La France insoumise",
+      "processed_at": "2026-11-25T22:41:52+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
     "a9a47cf8671c": {
       "event_url": "https://rassemblementnational.fr/",
       "owner": "Rassemblement national",
@@ -2814,7 +2828,7 @@
       "error": "ValueError: HTTP 404",
       "event_url": "https://parti-equinoxe.fr/articles/2022/05/la-transition-energetique-selon-les-ex-candidats-a-la-presidentielle-2/",
       "owner": "Équinoxe",
-      "processed_at": "2026-11-25T09:58:06+00:00",
+      "processed_at": "2026-11-25T22:41:53+00:00",
       "status": "technical_error"
     },
     "cb3428b2b6d3": {
@@ -3361,6 +3375,13 @@
       "processed_at": "2026-09-27T17:52:38+00:00",
       "status": "already_current"
     },
+    "f29a4fa7513e": {
+      "event_url": "https://nouspresident.fr/",
+      "owner": "François Ruffin",
+      "processed_at": "2026-11-25T22:41:54+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
     "f2a346b994bf": {
       "candidate_id": "gabriel-attal",
       "event_url": "https://attalpresident.fr/actualites/gabriel-attal-sur-rtl-je-suis-candidat-pour-gagner-cette-election-presidentielle",
@@ -3524,7 +3545,7 @@
     }
   },
   "last_error_count": 1,
-  "last_run_at": "2026-11-25T09:58:06+00:00",
+  "last_run_at": "2026-11-25T22:41:54+00:00",
   "last_updated_count": 0,
   "version": 1
 }

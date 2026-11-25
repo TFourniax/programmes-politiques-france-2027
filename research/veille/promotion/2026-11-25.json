@@ -1,17 +1,11 @@
 {
-  "errors": [
-    {
-      "at": "2026-11-25T10:01:49+00:00",
-      "error": "RuntimeError: Gemini HTTP 503: gemini-3.5-flash-lite is currently experiencing high demand, spikes in demand are usually temporary. Please try again later.",
-      "url": "https://melenchon2027.fr/programme/livre/une-economie-au-service-des-besoins/chapitre1/"
-    }
-  ],
-  "generated_at": "2026-11-25T10:01:50+00:00",
+  "errors": [],
+  "generated_at": "2026-11-25T22:45:09+00:00",
   "historical_skipped": 0,
-  "partial": 1,
-  "processed": 2,
-  "promoted": 0,
-  "proposals_created": 0,
+  "partial": 0,
+  "processed": 3,
+  "promoted": 1,
+  "proposals_created": 1,
   "results": [
     {
       "sha256": "2f286c638d3bb290e018452a07688127887907b5cf71daa5eb806c09e19f690a",
@@ -19,12 +13,26 @@
       "url": "https://melenchon2027.fr/evenement/campagne/reunion-publique-soutien-a-la-candidature-de-jean-luc-melenchon/"
     },
     {
-      "chunks_done": 2,
-      "chunks_remaining": 1,
-      "chunks_total": 3,
-      "sha256": "1b0c8d2191047f4526dd1cab1614633184b9f8e5e4807de82ad65db1a958d6d4",
-      "status": "partial",
-      "url": "https://melenchon2027.fr/programme/plans-thematiques/mer/"
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/candidates/francois-ruffin/2026-11-25-b3e7ee1edfc9.md",
+      "proposals": [
+        "proposals/auto/fiscalite-redistribution/auto-francois-ruffin-fiscalite-redistribution-22ab529d6fef.md"
+      ],
+      "provenance_updates": [
+        "auto-francois-ruffin-economie-finances-b3d8f87fb7ab",
+        "auto-francois-ruffin-institutions-democratie-378f84b6ec43",
+        "auto-francois-ruffin-pouvoir-achat-travail-a3540b9130a4"
+      ],
+      "sha256": "c7ac4def7afcae9926899603af514923773be12edafec45eefa2037c2b992bb2",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://nouspresident.fr/",
+      "verified_at": "2026-11-25T22:45:03+00:00"
+    },
+    {
+      "sha256": "6d78e52ef777a93965fc4c19c32732f197074604223b1c4239af7e092738d936",
+      "status": "not_confirmed",
+      "url": "https://www.revolutionpermanente.fr/Anasse-Kazib-a-Toulouse-ce-vendredi-une-candidature-pour-la-jeunesse-revolutionnaire"
     }
   ],
   "status_updates": 0

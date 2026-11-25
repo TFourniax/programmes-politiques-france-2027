@@ -5,7 +5,7 @@ entity_id: francois-ruffin
 topic: institutions-democratie
 certainty: explicit
 proposal_status: current
-source_document_ids: [auto-francois-ruffin-2026-11-21-30334e5e68f3]
+source_document_ids: [auto-francois-ruffin-2026-11-21-30334e5e68f3, auto-francois-ruffin-2026-11-25-b3e7ee1edfc9]
 source_url: https://nouspresident.fr/
 source_tier: tier_1_primary_official
 first_documented_at: '2026-11-21'
@@ -14,6 +14,10 @@ verification_state: verified
 verification_method: primary_source_exact_quote_plus_independent_gemini_verifier_plus_chronology_guard
 evidence_sha256: 5e89d1b4e1dab8cec80c2c20c1670158c4bf2713c262a3257affc49f18085b3e
 generated_by: scripts/auto_promote.py
+source_urls: ['https://nouspresident.fr/']
+evidence_sha256s: [5e89d1b4e1dab8cec80c2c20c1670158c4bf2713c262a3257affc49f18085b3e, c7ac4def7afcae9926899603af514923773be12edafec45eefa2037c2b992bb2]
+confirmation_count: 2
+last_confirmed_at: '2026-11-25'
 ---
 
 # Instaurer le Référendum d’Initiative Citoyenne et des États généraux dotés d'un pouvoir de décision
