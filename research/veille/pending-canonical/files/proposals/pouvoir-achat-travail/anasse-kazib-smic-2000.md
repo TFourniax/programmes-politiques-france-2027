@@ -4,12 +4,12 @@ entity_id: anasse-kazib
 topic: pouvoir-achat-travail
 certainty: explicit
 source_url: https://www.revolutionpermanente.fr/Presidentielle-2027-Anasse-Kazib-veut-faire-entendre-la-voix-de-la-nouvelle-classe-ouvriere
-source_document_ids: [doc-anasse-kazib-2026-campagne-presidentielle, auto-anasse-kazib-2026-11-24-1f361d874ebe]
+source_document_ids: [doc-anasse-kazib-2026-campagne-presidentielle, auto-anasse-kazib-2026-11-24-1f361d874ebe, auto-anasse-kazib-2026-11-26-adb2ae1563be]
 source_urls: ['https://www.revolutionpermanente.fr/Presidentielle-2027-Anasse-Kazib-veut-faire-entendre-la-voix-de-la-nouvelle-classe-ouvriere',
   'https://www.revolutionpermanente.fr/2000-personnes-pour-lancer-la-candidature-d-Anasse-Kazib-et-porter-une-voix-revolutionnaire-en-2027']
-evidence_sha256s: [7de7c9b273fd2ac853542a3dee8dc9e8722ce30306eba561953024534bb74edf]
-confirmation_count: 2
-last_confirmed_at: '2026-11-24'
+evidence_sha256s: [7de7c9b273fd2ac853542a3dee8dc9e8722ce30306eba561953024534bb74edf, 460618e7a07dfd7d2619cbbb03e61fba01480e56be3a80ab560cc40db4d2af61]
+confirmation_count: 3
+last_confirmed_at: '2026-11-26'
 verification_state: verified
 ---
 

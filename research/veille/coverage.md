@@ -36,14 +36,14 @@ Ce rapport est dérivé automatiquement du corpus courant. Il sert à piloter la
 - **Numérique & IA** (`numerique-ia`) — 5 acteur(s), 6 proposition(s), dernière preuve 2026-08-14.
 - **Défense & international** (`defense-international`) — 6 acteur(s), 7 proposition(s), dernière preuve 2026-08-14.
 - **Immigration & intégration** (`immigration-integration`) — 12 acteur(s), 72 proposition(s), dernière preuve 2026-11-19.
-- **Retraites** (`retraites`) — 14 acteur(s), 25 proposition(s), dernière preuve 2026-11-24.
+- **Retraites** (`retraites`) — 14 acteur(s), 25 proposition(s), dernière preuve 2026-11-26.
 - **Sécurité & justice** (`securite-justice`) — 14 acteur(s), 162 proposition(s), dernière preuve 2026-11-22.
 - **Europe & souveraineté** (`europe-souverainete`) — 15 acteur(s), 130 proposition(s), dernière preuve 2026-11-24.
 - **Fiscalité & redistribution** (`fiscalite-redistribution`) — 15 acteur(s), 83 proposition(s), dernière preuve 2026-11-25.
-- **Économie & finances publiques** (`economie-finances`) — 18 acteur(s), 144 proposition(s), dernière preuve 2026-11-25.
+- **Économie & finances publiques** (`economie-finances`) — 18 acteur(s), 144 proposition(s), dernière preuve 2026-11-26.
 - **Services publics** (`services-publics`) — 18 acteur(s), 308 proposition(s), dernière preuve 2026-11-24.
 - **Écologie & énergie** (`ecologie-energie`) — 19 acteur(s), 265 proposition(s), dernière preuve 2026-11-25.
-- **Institutions & démocratie** (`institutions-democratie`) — 20 acteur(s), 288 proposition(s), dernière preuve 2026-11-25.
-- **Pouvoir d’achat & travail** (`pouvoir-achat-travail`) — 23 acteur(s), 109 proposition(s), dernière preuve 2026-11-25.
+- **Institutions & démocratie** (`institutions-democratie`) — 20 acteur(s), 288 proposition(s), dernière preuve 2026-11-26.
+- **Pouvoir d’achat & travail** (`pouvoir-achat-travail`) — 23 acteur(s), 109 proposition(s), dernière preuve 2026-11-26.
 
 > Ce rapport est un indicateur de couverture structurée, de fraîcheur et de profondeur de preuve, pas un score de qualité politique ni d'exhaustivité absolue.

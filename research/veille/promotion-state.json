@@ -3193,7 +3193,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-11-26T09:47:47+00:00",
+  "last_run_at": "2026-11-26T22:33:23+00:00",
   "source_chunks": {
     "000e79baea11403029d335b1": {
       "canonical_confirmations": [
@@ -8696,6 +8696,26 @@
       "total": 1,
       "updated_at": "2026-09-13T21:33:53+00:00",
       "url": "https://www.revolutionpermanente.fr/REVOIR-Une-candidature-ouvriere-et-revolutionnaire-en-2027-Avec-Anasse-Kazib-Elsa-Marcel"
+    },
+    "14514bdc62029dc0bd1ba786": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-11-26T22:33:42+00:00",
+      "document_types": [
+        "other"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "0a695a0b8dedcc8dc80994ede93aa5c657ad0a613539a3fa872d2bfdc5913a8e",
+      "source_title": "18 mois. C’est le temps qu’il faudrait à la France pour changer de régime si l’extrême droite l’emporte en 2027. Pourquoi notre démocratie est-elle si fragile ? Parce que les pi",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-26T22:33:52+00:00",
+      "url": "https://bsky.app/profile/lesecologistes.fr/post/3n3a5axk5ic2o"
     },
     "14781613317c036e4355adb2": {
       "canonical_confirmations": [
@@ -23391,6 +23411,26 @@
       "updated_at": "2026-09-03T17:14:25+00:00",
       "url": "https://www.unenouvelleenergie.fr/notre-programme/"
     },
+    "463ca0ae4af523367513c648": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-11-26T22:33:23+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "119031f9a30a5d42409a105e329ac0c105dc867b9283a54cdf941004ad2ee647",
+      "source_title": "🔴 LA POLICE MUNICIPAL HARCÈLE LES FAMILLES RROMS À ST DENIS",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-26T22:33:29+00:00",
+      "url": "https://www.youtube.com/shorts/jmK9ZJ5anZo"
+    },
     "4698908ef42b70a635bb0995": {
       "canonical_confirmations": [
         {
@@ -24316,7 +24356,7 @@
       "statuses": [],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-11-26T09:47:13+00:00",
+      "updated_at": "2026-11-26T22:32:42+00:00",
       "url": "https://melenchon2027.fr/evenement/campagne/reunion-publique-soutien-a-la-candidature-de-jean-luc-melenchon/"
     },
     "49d55600f28f5b885ec2a507": {
@@ -41770,6 +41810,26 @@
       "updated_at": "2026-10-14T18:08:48+00:00",
       "url": "https://rassemblementnational.fr/"
     },
+    "9080c387bdf3c290645920b3": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-11-26T22:33:36+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "81ffde30a02af5cb7202efde22ab262e63279627fff5521db4587a3942d7301f",
+      "source_title": "« La GEN Z est capable de FAIRE TOMBER le système CAPITALISTE » : Alexis Durey au meeting de RP",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-26T22:33:41+00:00",
+      "url": "https://www.youtube.com/watch?v=ygZ2Yjx5UeQ"
+    },
     "90cfa9384e70d791c7c621c7": {
       "canonical_confirmations": [],
       "claims": [],
@@ -52199,6 +52259,120 @@
       "updated_at": "2026-11-22T08:13:32+00:00",
       "url": "https://www.youtube.com/shorts/Jg1xZ5tXPZ4"
     },
+    "adb2ae1563bea9972999e961": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "anasse-kazib",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "la semaine de 28h",
+            "relevance": "direct",
+            "statement": "Instaurer la semaine de 28 heures.",
+            "topic": "pouvoir-achat-travail"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La source soutient explicitement la proposition d'instaurer la semaine de 28 heures dans le cadre de la campagne présidentielle de 2027, ce qui correspond à une entrée existante.",
+            "related_proposal_id": "auto-anasse-kazib-pouvoir-achat-travail-81103508afc3",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "anasse-kazib",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "la retraite à 60 ans et 55 ans pour les métiers publics",
+            "relevance": "direct",
+            "statement": "Fixer l'âge de la retraite à 60 ans et à 55 ans pour les métiers publics.",
+            "topic": "retraites"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La source mentionne explicitement la proposition de la retraite à 60 ans et 55 ans pour les métiers publics dans le discours d'Anasse Kazib.",
+            "related_proposal_id": "prop-kazib-retraite-60-55",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "anasse-kazib",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "le SMIC à 2000 euros",
+            "relevance": "direct",
+            "statement": "Fixer le SMIC à 2000 euros.",
+            "topic": "pouvoir-achat-travail"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "La source confirme explicitement la revendication de porter le SMIC à 2000 euros par le candidat.",
+            "related_proposal_id": "prop-kazib-smic-2000",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "anasse-kazib",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "l’expropriation des grands groupes stratégiques",
+            "relevance": "direct",
+            "statement": "Exproprier les grands groupes stratégiques de l'économie française sous le contrôle des travailleurs.",
+            "topic": "economie-finances"
+          },
+          "verdict": {
+            "index": 3,
+            "reason": "La source mentionne l'expropriation des grands groupes stratégiques sous le contrôle des travailleurs.",
+            "related_proposal_id": "auto-anasse-kazib-economie-finances-98fed100363d",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "anasse-kazib",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "lancer la candidature d’Anasse Kazib et porter une voix révolutionnaire en 2027",
+            "relevance": "direct",
+            "statement": "Anasse Kazib est candidat à l'élection présidentielle de 2027.",
+            "topic": "institutions-democratie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La candidature d'Anasse Kazib pour l'élection présidentielle de 2027 est explicitement soutenue par la source et déjà présente dans le canon.",
+            "related_proposal_id": "auto-anasse-kazib-institutions-democratie-1a9f657935f4",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-11-26T22:33:16+00:00",
+      "created_at": "2026-11-26T22:32:42+00:00",
+      "document_types": [
+        "campaign_website_page",
+        "campaign_website_page"
+      ],
+      "done": [
+        0,
+        1
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "460618e7a07dfd7d2619cbbb03e61fba01480e56be3a80ab560cc40db4d2af61",
+      "source_title": "2000 personnes pour lancer la candidature d'Anasse Kazib et porter une voix révolutionnaire en 2027",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 2,
+      "updated_at": "2026-11-26T22:33:09+00:00",
+      "url": "https://www.revolutionpermanente.fr/2000-personnes-pour-lancer-la-candidature-d-Anasse-Kazib-et-porter-une-voix-revolutionnaire-en-2027"
+    },
     "adcc906c08e86056f5cb8397": {
       "canonical_confirmations": [
         {
@@ -61256,6 +61430,26 @@
       "updated_at": "2026-11-19T21:45:20+00:00",
       "url": "https://melenchon2027.fr/evenement/campagne/reunion-publique-soutien-a-la-candidature-de-jean-luc-melenchon/"
     },
+    "cf895302b8f720113fc17a77": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-11-26T22:33:17+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "808a6eb38ff8ebfc8cb10895f4fc775ef8e148d22f5bfae9f860d0a4355b0ad5",
+      "source_title": "Anasse Kazib à Toulouse ce vendredi : une candidature pour la jeunesse révolutionnaire !",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-26T22:33:23+00:00",
+      "url": "https://www.revolutionpermanente.fr/Anasse-Kazib-a-Toulouse-ce-vendredi-une-candidature-pour-la-jeunesse-revolutionnaire"
+    },
     "cf8abc2824f79cacedf560f8": {
       "canonical_confirmations": [
         {
@@ -69800,6 +69994,26 @@
       "updated_at": "2026-10-13T07:54:27+00:00",
       "url": "https://bsky.app/profile/marinetondelier.fr/post/3mxobpfdadk2k"
     },
+    "ef67262e51bb1edf09c78d75": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-11-26T22:33:30+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "bc879741186c657c53dc89efdadb188f0ec7a22a880831e37e7ca922c40c0ee5",
+      "source_title": "Florian Philippot présidentielle 2027 : mon projet sur la SANTÉ !",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-26T22:33:35+00:00",
+      "url": "https://www.youtube.com/watch?v=KDoCKKAwZME"
+    },
     "ef79146b646b0d865591a2a0": {
       "canonical_confirmations": [
         {
@@ -78068,6 +78282,15 @@
       "status": "promoted",
       "url": "https://attalpresident.fr/programme"
     },
+    "7b3b59eee091": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-11-26T22:32:42+00:00",
+      "reason": null,
+      "source_sha256": "5a48dcf1a155442b9ff9551fdb2b76f74e578ca41e2c3b1bf2c07a6b44c48c4e",
+      "status": "not_confirmed",
+      "url": "https://melenchon2027.fr/evenement/campagne/reunion-publique-soutien-a-la-candidature-de-jean-luc-melenchon/"
+    },
     "7bde40d641b3": {
       "chunks_done": null,
       "chunks_total": null,
@@ -78211,6 +78434,15 @@
       "source_sha256": "be48cb1531fa623a52f2874d80c35cf8fa1f6c715b0b246b2338dadb5f26c514",
       "status": "promoted",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
+    "80415b7fe9bd": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-11-26T22:33:23+00:00",
+      "reason": null,
+      "source_sha256": "808a6eb38ff8ebfc8cb10895f4fc775ef8e148d22f5bfae9f860d0a4355b0ad5",
+      "status": "not_confirmed",
+      "url": "https://www.revolutionpermanente.fr/Anasse-Kazib-a-Toulouse-ce-vendredi-une-candidature-pour-la-jeunesse-revolutionnaire"
     },
     "80515054eb43": {
       "chunks_done": null,
@@ -79192,6 +79424,15 @@
       "source_sha256": "ed477781633623166c7a9a45247cdc01b13b4fadbc7641b71469d027b63713d3",
       "status": "promoted",
       "url": "https://attalpresident.fr/programme/dette-de-letat"
+    },
+    "a19e83a805b2": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-11-26T22:33:16+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "460618e7a07dfd7d2619cbbb03e61fba01480e56be3a80ab560cc40db4d2af61",
+      "status": "promoted",
+      "url": "https://www.revolutionpermanente.fr/2000-personnes-pour-lancer-la-candidature-d-Anasse-Kazib-et-porter-une-voix-revolutionnaire-en-2027"
     },
     "a1a43e52aa29": {
       "chunks_done": null,

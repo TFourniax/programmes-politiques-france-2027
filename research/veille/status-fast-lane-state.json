@@ -1786,6 +1786,13 @@
       "reason": "no_deterministic_transition",
       "status": "not_applicable"
     },
+    "7b3b59eee091": {
+      "event_url": "https://melenchon2027.fr/evenement/campagne/reunion-publique-soutien-a-la-candidature-de-jean-luc-melenchon/",
+      "owner": "La France insoumise",
+      "processed_at": "2026-11-26T22:29:29+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
     "7bde40d641b3": {
       "candidate_id": "gabriel-attal",
       "event_url": "https://attalpresident.fr/actualites/annonce-de-candidature",
@@ -1843,6 +1850,13 @@
       "event_url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne",
       "owner": "Gabriel Attal",
       "processed_at": "2026-10-09T07:31:54+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
+    "80415b7fe9bd": {
+      "event_url": "https://www.revolutionpermanente.fr/Anasse-Kazib-a-Toulouse-ce-vendredi-une-candidature-pour-la-jeunesse-revolutionnaire",
+      "owner": "Anasse Kazib",
+      "processed_at": "2026-11-26T22:29:31+00:00",
       "reason": "no_deterministic_transition",
       "status": "not_applicable"
     },
@@ -2065,6 +2079,13 @@
       "event_url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne",
       "owner": "Gabriel Attal",
       "processed_at": "2026-09-27T22:22:29+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
+    "925c93253422": {
+      "event_url": "https://www.revolutionpermanente.fr/Vaincre-le-grand-patronat-ou-capituler-Anasse-Kazib-presente-sa-candidature-au-meeting-de-RP",
+      "owner": "Anasse Kazib",
+      "processed_at": "2026-11-26T22:29:31+00:00",
       "reason": "no_deterministic_transition",
       "status": "not_applicable"
     },
@@ -2307,6 +2328,13 @@
       "event_url": "https://www.revolutionpermanente.fr/",
       "owner": "Révolution Permanente",
       "processed_at": "2026-09-18T21:47:00+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
+    "a19e83a805b2": {
+      "event_url": "https://www.revolutionpermanente.fr/2000-personnes-pour-lancer-la-candidature-d-Anasse-Kazib-et-porter-une-voix-revolutionnaire-en-2027",
+      "owner": "Anasse Kazib",
+      "processed_at": "2026-11-26T22:29:29+00:00",
       "reason": "no_deterministic_transition",
       "status": "not_applicable"
     },
@@ -2835,7 +2863,7 @@
       "error": "ValueError: HTTP 404",
       "event_url": "https://parti-equinoxe.fr/articles/2022/05/la-transition-energetique-selon-les-ex-candidats-a-la-presidentielle-2/",
       "owner": "Équinoxe",
-      "processed_at": "2026-11-26T09:44:55+00:00",
+      "processed_at": "2026-11-26T22:29:31+00:00",
       "status": "technical_error"
     },
     "cb3428b2b6d3": {
@@ -3552,7 +3580,7 @@
     }
   },
   "last_error_count": 1,
-  "last_run_at": "2026-11-26T09:44:55+00:00",
+  "last_run_at": "2026-11-26T22:29:31+00:00",
   "last_updated_count": 0,
   "version": 1
 }
