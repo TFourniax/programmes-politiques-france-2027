@@ -1,0 +1,46 @@
+{
+  "errors": [],
+  "generated_at": "2026-11-26T09:48:12+00:00",
+  "partial": 0,
+  "processed": 4,
+  "promoted": 2,
+  "proposals_created": 2,
+  "provenance_updates": 0,
+  "results": [
+    {
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/partys/revolution-permanente/2026-11-25-2416d36adb45.md",
+      "proposals": [
+        "proposals/auto/pouvoir-achat-travail/auto-revolution-permanente-pouvoir-achat-travail-959c08aa3274.md"
+      ],
+      "sha256": "80305629e0718a2e1d1396847ef55e32634376be092eb6aee3456fe8422e1dad",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://www.youtube.com/shorts/QV9-vXaEJr0",
+      "verified_at": "2026-11-26T09:47:55+00:00"
+    },
+    {
+      "sha256": "a887e6a5af9e646f3483bbfbb825be4002839e49ff706ddcf2363f068658262a",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/shorts/xuHWR3hhyrI"
+    },
+    {
+      "sha256": "a84c12027cae8c4ef96b5a9f8d12f68bbc4b109f07264159310f031f6e398f53",
+      "status": "not_confirmed",
+      "url": "https://www.youtube.com/shorts/i2ofgLLAnc0"
+    },
+    {
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/partys/les-ecologistes/2026-11-18-188d0d63c12c.md",
+      "proposals": [
+        "proposals/auto/ecologie-energie/auto-les-ecologistes-ecologie-energie-a72f6439e5b7.md"
+      ],
+      "sha256": "837cbc6c45f7777dffbb4fcfe687129508fce2b446ff93f87b308003eb4b5e48",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://bsky.app/profile/lesecologistes.fr/post/3n2lgict6is2p",
+      "verified_at": "2026-11-26T09:48:08+00:00"
+    }
+  ],
+  "status_updates": 0
+}

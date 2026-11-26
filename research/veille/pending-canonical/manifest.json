@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created_at": "2026-08-17T19:57:19.441897+00:00",
-  "updated_at": "2026-11-25T22:45:26.580789+00:00",
+  "updated_at": "2026-11-26T09:48:16.506858+00:00",
   "files": [
     {
       "path": "corpus/2027/auto/candidates/anasse-kazib/2026-08-28-38891602d9d9.md",
@@ -1329,6 +1329,11 @@
       "size": 1689
     },
     {
+      "path": "corpus/2027/auto/partys/la-france-insoumise/2026-11-25-c05b6f6b6101.md",
+      "sha256": "39bfc68073a541bb8af6d1303fbe66f42fb4914c5d5f21e218f66e3dd6e39407",
+      "size": 1721
+    },
+    {
       "path": "corpus/2027/auto/partys/les-ecologistes/2026-08-17-9c2f01b4f3fc.md",
       "sha256": "7428e5a97fe23cdf12e989ff8d3971e9ff7e57ab52e42db197319b471f78a620",
       "size": 1735
@@ -1347,6 +1352,11 @@
       "path": "corpus/2027/auto/partys/les-ecologistes/2026-09-25-e549f92f8107.md",
       "sha256": "106dc31a0c61fad2ec55fad0e7dfb7ba862267baa9f552845b2b97d6169f909e",
       "size": 1791
+    },
+    {
+      "path": "corpus/2027/auto/partys/les-ecologistes/2026-11-18-188d0d63c12c.md",
+      "sha256": "5deecfcdb51cb90f31b07114cc8efeced29d4325b13857e7a3b057ca14cdf09c",
+      "size": 1849
     },
     {
       "path": "corpus/2027/auto/partys/nouvelle-energie/2026-08-18-f489a53bb3fe.md",
@@ -2229,6 +2239,11 @@
       "size": 1603
     },
     {
+      "path": "corpus/2027/auto/partys/revolution-permanente/2026-11-25-2416d36adb45.md",
+      "sha256": "b2aead79f90e52aaa1f27644e4f7b3df3c1e811e83422342645663b6cba354ac",
+      "size": 1568
+    },
+    {
       "path": "corpus/2027/auto/partys/solution-democratique/2025-04-09-3a8ec20cb386.md",
       "sha256": "268b288b348cf4405f1cd419a74efaaba0adce4475aeff9b10af9796146281ac",
       "size": 1763
@@ -2437,6 +2452,11 @@
       "path": "proposals/auto/ecologie-energie/auto-jean-luc-melenchon-ecologie-energie-5d757538ea91.md",
       "sha256": "8895b79e24ea0a77f251c752d0def286b4af3f68f96a9c2dc186e4af42dd3fa7",
       "size": 1455
+    },
+    {
+      "path": "proposals/auto/ecologie-energie/auto-jean-luc-melenchon-ecologie-energie-86b4527633fe.md",
+      "sha256": "e190f4ab3bd2f1230f4a2b49d14923fee7aee2917fbbcaf925989828b0151566",
+      "size": 1253
     },
     {
       "path": "proposals/auto/ecologie-energie/auto-la-france-insoumise-ecologie-energie-01c008d2181d.md",
@@ -2827,6 +2847,11 @@
       "path": "proposals/auto/ecologie-energie/auto-les-ecologistes-ecologie-energie-9a833ee3fa45.md",
       "sha256": "090bab4e68ab7972cd716f7581bfc941dec02466f0db177ed58e38a5daaaff05",
       "size": 1350
+    },
+    {
+      "path": "proposals/auto/ecologie-energie/auto-les-ecologistes-ecologie-energie-a72f6439e5b7.md",
+      "sha256": "a296683c37aa86064900092cd95545c647c4e11fa0c4696065beabf9cb390f91",
+      "size": 1473
     },
     {
       "path": "proposals/auto/ecologie-energie/auto-les-ecologistes-ecologie-energie-ae3411f1f885.md",
@@ -3864,6 +3889,11 @@
       "size": 1300
     },
     {
+      "path": "proposals/auto/pouvoir-achat-travail/auto-jean-luc-melenchon-pouvoir-achat-travail-19b080b0c8aa.md",
+      "sha256": "68febf1c4a112c3019928b154583a12bc911a8f727e28e3353b70dcd22950a98",
+      "size": 1135
+    },
+    {
       "path": "proposals/auto/pouvoir-achat-travail/auto-la-france-insoumise-pouvoir-achat-travail-108b595faf46.md",
       "sha256": "409381d206985791e5d695cdf4857c621b61e509e846acc5a6fc2c60153bc603",
       "size": 1688
@@ -4067,6 +4097,11 @@
       "path": "proposals/auto/pouvoir-achat-travail/auto-revolution-permanente-pouvoir-achat-travail-6d4d731e6887.md",
       "sha256": "016a679de9d806d55f6f166d484980dcd8c0c40790a971619264626ef8600da5",
       "size": 1213
+    },
+    {
+      "path": "proposals/auto/pouvoir-achat-travail/auto-revolution-permanente-pouvoir-achat-travail-959c08aa3274.md",
+      "sha256": "d66f0a3be2d095626b0af51a99fed38e1538675fae9d95263b994c6a1b220bee",
+      "size": 1306
     },
     {
       "path": "proposals/auto/pouvoir-achat-travail/auto-revolution-permanente-pouvoir-achat-travail-d0f59ec03b51.md",

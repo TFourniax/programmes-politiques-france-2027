@@ -360,6 +360,11 @@
       "source_url": "https://melenchon2027.fr/programme/livre/mettre-en-securite-sociale/chapitre3/",
       "verified_at": "2026-11-15T19:29:59+00:00"
     },
+    "19b080b0c8aa0406b7142ee914a0c4d00cf68ce0ed187ea7f539c1ded9222ff4": {
+      "proposal_id": "auto-jean-luc-melenchon-pouvoir-achat-travail-19b080b0c8aa",
+      "source_url": "https://melenchon2027.fr/programme/plans-thematiques/",
+      "verified_at": "2026-11-26T09:47:22+00:00"
+    },
     "19d0ccdf21470885f9a9de3549f74928082da2a34ed7942015eece668748ea70": {
       "proposal_id": "auto-revolution-permanente-pouvoir-achat-travail-19d0ccdf2147",
       "source_url": "https://www.youtube.com/shorts/cSfm9WOl4Zk",
@@ -1735,6 +1740,11 @@
       "source_url": "https://melenchon2027.fr/programme2025/livre/chapitre16/",
       "verified_at": "2026-08-13T00:20:23+00:00"
     },
+    "86b4527633fec9f8ac17672fd0ef2f0b1cc017e25b6d66db60450ac2ec5cc97a": {
+      "proposal_id": "auto-jean-luc-melenchon-ecologie-energie-86b4527633fe",
+      "source_url": "https://melenchon2027.fr/programme/plans-thematiques/",
+      "verified_at": "2026-11-26T09:47:22+00:00"
+    },
     "871c792a6c90e48873bf0c7eeedb8273cade31bb9aaae8e9a812bd4333bed784": {
       "proposal_id": "auto-david-lisnard-securite-justice-871c792a6c90",
       "source_url": "https://www.unenouvelleenergie.fr/questions/quel-candidat-a-un-programme-credible-sur-la-securite/",
@@ -1919,6 +1929,11 @@
       "proposal_id": "auto-les-ecologistes-securite-justice-957de2f65856",
       "source_url": "https://lesecologistes.fr/document/5ZhR2m5t2ZaGKqIdD1bJaD/vdef-programme-1.pdf",
       "verified_at": "2026-08-19T02:42:33+00:00"
+    },
+    "959c08aa3274b2b3c1a451d2c27950a6599b9a5c11330f204de367bc808dd111": {
+      "proposal_id": "auto-revolution-permanente-pouvoir-achat-travail-959c08aa3274",
+      "source_url": "https://www.youtube.com/shorts/QV9-vXaEJr0",
+      "verified_at": "2026-11-26T09:47:55+00:00"
     },
     "95b2845a2d22bd894ac3938aa2d44c11eb4438fd3301bd421d294894d9e81114": {
       "proposal_id": "auto-la-france-insoumise-services-publics-95b2845a2d22",
@@ -2144,6 +2159,11 @@
       "proposal_id": "auto-les-ecologistes-services-publics-a61e7bbd006d",
       "source_url": "https://lesecologistes.fr/document/5ZhR2m5t2ZaGKqIdD1bJaD/vdef-programme-1.pdf",
       "verified_at": "2026-08-19T02:42:33+00:00"
+    },
+    "a72f6439e5b7390c73ff512534df87049e1514a505b3546ae35f5f6158a80e9d": {
+      "proposal_id": "auto-les-ecologistes-ecologie-energie-a72f6439e5b7",
+      "source_url": "https://bsky.app/profile/lesecologistes.fr/post/3n2lgict6is2p",
+      "verified_at": "2026-11-26T09:48:08+00:00"
     },
     "a766eef3871dc4b764a66ee39d8eb762afa79ff33d2c4fc341131893b55ffc30": {
       "proposal_id": "auto-david-lisnard-immigration-integration-a766eef3871d",
@@ -3173,7 +3193,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-11-25T22:45:09+00:00",
+  "last_run_at": "2026-11-26T09:47:47+00:00",
   "source_chunks": {
     "000e79baea11403029d335b1": {
       "canonical_confirmations": [
@@ -9705,6 +9725,65 @@
       "updated_at": "2026-11-13T20:37:00+00:00",
       "url": "https://www.youtube.com/watch?v=mCQptHqFb60"
     },
+    "188d0d63c12ce4b5c989e260": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "il faut changer de cap et proposer sans attendre une loi d’urgence climatique.",
+            "relevance": "party_platform",
+            "statement": "Les Écologistes demandent l'adoption d'une loi d'urgence climatique pour changer de cap face aux renoncements climatiques de la France.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La demande d'une loi d'urgence climatique par Les Écologistes est explicitement soutenue par la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [
+        {
+          "claim": {
+            "actor_id": "les-ecologistes",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "il faut changer de cap et proposer sans attendre une loi d’urgence climatique.",
+            "relevance": "party_platform",
+            "statement": "Les Écologistes demandent l'adoption d'une loi d'urgence climatique pour changer de cap face aux renoncements climatiques de la France.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La demande d'une loi d'urgence climatique par Les Écologistes est explicitement soutenue par la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "completed_at": "2026-11-26T09:48:08+00:00",
+      "created_at": "2026-11-26T09:48:02+00:00",
+      "document_types": [
+        "official_press_release"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "837cbc6c45f7777dffbb4fcfe687129508fce2b446ff93f87b308003eb4b5e48",
+      "source_title": "🗣️ « Votre gouvernement est sur le podium des diplomaties fossiles qui sapent notre avenir, COP après COP ! » De retour de la COP31, @julieozenne.bsky.social dénonce les renonceme",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-26T09:48:08+00:00",
+      "url": "https://bsky.app/profile/lesecologistes.fr/post/3n2lgict6is2p"
+    },
     "18adc77ed98bad26f9bed8b3": {
       "canonical_confirmations": [
         {
@@ -12672,6 +12751,65 @@
       "total": 1,
       "updated_at": "2026-09-10T17:12:39+00:00",
       "url": "https://republicains.fr/actualites/2026/04/21/candidat-a-la-presidentielle-jirai-jusquau-bout/"
+    },
+    "2416d36adb452fb87bc60895": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "revolution-permanente",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Cette nouvelle classe ouvrière, féminisée, racisée est capable de lutter.",
+            "relevance": "party_platform",
+            "statement": "La nouvelle classe ouvrière est capable de lutter pour changer la société.",
+            "topic": "pouvoir-achat-travail"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La déclaration est explicitement soutenue par la source et concerne le rôle de la nouvelle classe ouvrière.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [
+        {
+          "claim": {
+            "actor_id": "revolution-permanente",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Cette nouvelle classe ouvrière, féminisée, racisée est capable de lutter.",
+            "relevance": "party_platform",
+            "statement": "La nouvelle classe ouvrière est capable de lutter pour changer la société.",
+            "topic": "pouvoir-achat-travail"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La déclaration est explicitement soutenue par la source et concerne le rôle de la nouvelle classe ouvrière.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "completed_at": "2026-11-26T09:47:55+00:00",
+      "created_at": "2026-11-26T09:47:48+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "80305629e0718a2e1d1396847ef55e32634376be092eb6aee3456fe8422e1dad",
+      "source_title": "🦺 La nouvelle classe ouvrière peut mettre un stop à la militarisation !",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-26T09:47:55+00:00",
+      "url": "https://www.youtube.com/shorts/QV9-vXaEJr0"
     },
     "2422f4421dc90a4950df8bd2": {
       "canonical_confirmations": [
@@ -24161,6 +24299,26 @@
       "updated_at": "2026-10-20T06:11:56+00:00",
       "url": "https://lafranceinsoumise.fr/2026/06/22/parrainages-elus-pour-election-presidentielle-2027/"
     },
+    "49afe93e81c1071c2dfc766f": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-11-26T09:47:12+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "5a48dcf1a155442b9ff9551fdb2b76f74e578ca41e2c3b1bf2c07a6b44c48c4e",
+      "source_title": "Réunion publique avec Murielle Lepvraud, Manuel Bompard et Manon Aubry - Mélenchon 2027 : Soutenez ma candidature à l’élection présidentielle",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-26T09:47:13+00:00",
+      "url": "https://melenchon2027.fr/evenement/campagne/reunion-publique-soutien-a-la-candidature-de-jean-luc-melenchon/"
+    },
     "49d55600f28f5b885ec2a507": {
       "canonical_confirmations": [],
       "claims": [],
@@ -30898,6 +31056,26 @@
       "updated_at": "2026-08-20T10:10:26+00:00",
       "url": "https://solutiondemocratique.fr/francis-lalanne-2027-programme/"
     },
+    "64d47b77cb5dbba1d235a137": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-11-26T09:47:59+00:00",
+      "document_types": [
+        "other"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "a887e6a5af9e646f3483bbfbb825be4002839e49ff706ddcf2363f068658262a",
+      "source_title": "Notre Podcast Est Dispo !",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-26T09:48:00+00:00",
+      "url": "https://www.youtube.com/shorts/xuHWR3hhyrI"
+    },
     "64e0baf030a394fafed68b28": {
       "canonical_confirmations": [],
       "claims": [],
@@ -35663,6 +35841,26 @@
       "total": 1,
       "updated_at": "2026-08-27T11:22:24+00:00",
       "url": "https://www.youtube.com/watch?v=zM1uI9xNHso"
+    },
+    "763b288218259a9b92c2d1bc": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-11-26T09:48:01+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "a84c12027cae8c4ef96b5a9f8d12f68bbc4b109f07264159310f031f6e398f53",
+      "source_title": "🔴 Le marxisme est de retour, et c'est une bonne nouvelle ! Mais parler de Marx ne suffit pas, il fa",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-26T09:48:02+00:00",
+      "url": "https://www.youtube.com/shorts/i2ofgLLAnc0"
     },
     "76449ce66bed9b8687fda6e0": {
       "canonical_confirmations": [],
@@ -41112,6 +41310,317 @@
       "total": 1,
       "updated_at": "2026-11-10T20:35:26+00:00",
       "url": "https://www.youtube.com/shorts/SbkCrtEo9IY"
+    },
+    "904ef92708e1aad1eba44f71": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "nous prévoyons la mise en place d’un commissariat à l’Égalité",
+            "relevance": "direct",
+            "statement": "Création d'un commissariat à l'Égalité pour coordonner les politiques de mise en œuvre concrète de l'objectif d'égalité.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La création d'un commissariat à l'Égalité est explicitement mentionnée dans le document source pour la France insoumise.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Nous créerons un pôle judiciaire de lutte contre les discriminations",
+            "relevance": "direct",
+            "statement": "Création d'un pôle judiciaire de lutte contre les discriminations pouvant procéder à des opérations de testing.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La création d'un pôle judiciaire de lutte contre les discriminations est explicitement présente dans la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "nous allouerons a minima les 3 milliards d’euros",
+            "relevance": "direct",
+            "statement": "Allocation d'un budget minimum de 3 milliards d'euros demandé par les associations pour lutter contre les violences faites aux femmes dès la première année de mandat.",
+            "topic": "economie-finances"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "L'allocation des 3 milliards d'euros dès la première année est explicitement soutenue par la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "une loi de lutte contre le sexisme et les violences",
+            "relevance": "direct",
+            "statement": "Adoption d'une loi de lutte contre le sexisme et les violences faites aux femmes et aux enfants.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 3,
+            "reason": "L'adoption d'une loi de lutte contre le sexisme et les violences est explicitement mentionnée dans la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Augmenter et pérenniser les financements des associations féministes et LGBTI",
+            "relevance": "direct",
+            "statement": "Augmenter et pérenniser les financements des associations féministes et LGBTI.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La mesure est explicitement soutenue par le texte source concernant les financements des associations féministes et LGBTI.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "La création d’un congé d’au moins 10 jours",
+            "relevance": "direct",
+            "statement": "Créer un congé d'au moins 10 jours pour sortir d'une situation de violence.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La création d'un congé d'au moins 10 jours pour sortir d'une situation de violence est explicitement présente dans la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "prise en charge à 100 % par la Sécurité sociale d’un parcours de soins",
+            "relevance": "direct",
+            "statement": "Garantir la prise en charge à 100 % par la Sécurité sociale d'un parcours de soins spécialisé en psychotraumatisme.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "La prise en charge à 100 pour cent par la Sécurité sociale d'un parcours de soins spécialisé en psychotraumatisme est explicitement soutenue par la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Porter immédiatement le SMIC mensuel à 1 700 euros net",
+            "relevance": "direct",
+            "statement": "Porter immédiatement le SMIC mensuel à 1 700 euros net.",
+            "topic": "pouvoir-achat-travail"
+          },
+          "verdict": {
+            "index": 3,
+            "reason": "Le montant du SMIC passe de 1600 euros net à 1700 euros net dans ce document plus récent, établissant une évolution claire.",
+            "related_proposal_id": "auto-la-france-insoumise-pouvoir-achat-travail-46bea54d9d0b",
+            "relation": "SUPERSEDES",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "nous prévoyons la mise en place d’un commissariat à l’Égalité",
+            "relevance": "direct",
+            "statement": "Création d'un commissariat à l'Égalité pour coordonner les politiques de mise en œuvre concrète de l'objectif d'égalité.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La création d'un commissariat à l'Égalité est explicitement mentionnée dans le document source pour la France insoumise.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Nous créerons un pôle judiciaire de lutte contre les discriminations",
+            "relevance": "direct",
+            "statement": "Création d'un pôle judiciaire de lutte contre les discriminations pouvant procéder à des opérations de testing.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La création d'un pôle judiciaire de lutte contre les discriminations est explicitement présente dans la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "nous allouerons a minima les 3 milliards d’euros",
+            "relevance": "direct",
+            "statement": "Allocation d'un budget minimum de 3 milliards d'euros demandé par les associations pour lutter contre les violences faites aux femmes dès la première année de mandat.",
+            "topic": "economie-finances"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "L'allocation des 3 milliards d'euros dès la première année est explicitement soutenue par la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "une loi de lutte contre le sexisme et les violences",
+            "relevance": "direct",
+            "statement": "Adoption d'une loi de lutte contre le sexisme et les violences faites aux femmes et aux enfants.",
+            "topic": "securite-justice"
+          },
+          "verdict": {
+            "index": 3,
+            "reason": "L'adoption d'une loi de lutte contre le sexisme et les violences est explicitement mentionnée dans la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Augmenter et pérenniser les financements des associations féministes et LGBTI",
+            "relevance": "direct",
+            "statement": "Augmenter et pérenniser les financements des associations féministes et LGBTI.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La mesure est explicitement soutenue par le texte source concernant les financements des associations féministes et LGBTI.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "La création d’un congé d’au moins 10 jours",
+            "relevance": "direct",
+            "statement": "Créer un congé d'au moins 10 jours pour sortir d'une situation de violence.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La création d'un congé d'au moins 10 jours pour sortir d'une situation de violence est explicitement présente dans la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "prise en charge à 100 % par la Sécurité sociale d’un parcours de soins",
+            "relevance": "direct",
+            "statement": "Garantir la prise en charge à 100 % par la Sécurité sociale d'un parcours de soins spécialisé en psychotraumatisme.",
+            "topic": "services-publics"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "La prise en charge à 100 pour cent par la Sécurité sociale d'un parcours de soins spécialisé en psychotraumatisme est explicitement soutenue par la source.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Porter immédiatement le SMIC mensuel à 1 700 euros net",
+            "relevance": "direct",
+            "statement": "Porter immédiatement le SMIC mensuel à 1 700 euros net.",
+            "topic": "pouvoir-achat-travail"
+          },
+          "verdict": {
+            "index": 3,
+            "reason": "Le montant du SMIC passe de 1600 euros net à 1700 euros net dans ce document plus récent, établissant une évolution claire.",
+            "related_proposal_id": "auto-la-france-insoumise-pouvoir-achat-travail-46bea54d9d0b",
+            "relation": "SUPERSEDES",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "created_at": "2026-11-26T09:47:28+00:00",
+      "document_types": [
+        "thematic_platform",
+        "thematic_platform"
+      ],
+      "done": [
+        0,
+        1
+      ],
+      "published_candidates": [],
+      "sha256": "64aa36bc1f3ed784ac89c7d768cee387f4b5717a47b46e1c54a9ac252338476c",
+      "source_title": "Comment nous allons construire une société féministe et émancipatrice - Mélenchon 2027 : Soutenez ma candidature à l’élection présidentielle",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 3,
+      "updated_at": "2026-11-26T09:47:47+00:00",
+      "url": "https://melenchon2027.fr/programme/plans-thematiques/feminisme/"
     },
     "9059b713644a8bcc52b1325a": {
       "canonical_confirmations": [
@@ -56051,6 +56560,101 @@
       "total": 1,
       "updated_at": "2026-09-18T21:50:17+00:00",
       "url": "https://solutiondemocratique.fr/selma-labib-programme-presidentielle2027/"
+    },
+    "c05b6f6b6101d2614882edba": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "jean-luc-melenchon",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "la planification écologique, que nous nous fixons pour le quinquennat",
+            "relevance": "direct",
+            "statement": "Mettre en oeuvre la planification ecologique pour le quinquennat.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La source confirme explicitement la planification écologique pour le quinquennat par Jean-Luc Mélenchon.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "jean-luc-melenchon",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "du plein emploi à la démocratisation",
+            "relevance": "direct",
+            "statement": "Viser l'objectif du plein emploi.",
+            "topic": "pouvoir-achat-travail"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La source mentionne explicitement l'objectif du plein emploi pour Jean-Luc Mélenchon.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [
+        {
+          "claim": {
+            "actor_id": "jean-luc-melenchon",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "la planification écologique, que nous nous fixons pour le quinquennat",
+            "relevance": "direct",
+            "statement": "Mettre en oeuvre la planification ecologique pour le quinquennat.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La source confirme explicitement la planification écologique pour le quinquennat par Jean-Luc Mélenchon.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "jean-luc-melenchon",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "du plein emploi à la démocratisation",
+            "relevance": "direct",
+            "statement": "Viser l'objectif du plein emploi.",
+            "topic": "pouvoir-achat-travail"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La source mentionne explicitement l'objectif du plein emploi pour Jean-Luc Mélenchon.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "completed_at": "2026-11-26T09:47:22+00:00",
+      "created_at": "2026-11-26T09:47:14+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "4800a9012a8cfbedc024289d7f2ee326970993794528b0b8483f5cdfb97b284c",
+      "source_title": "Les plans thématiques - Mélenchon 2027 : Soutenez ma candidature à l’élection présidentielle",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-26T09:47:22+00:00",
+      "url": "https://melenchon2027.fr/programme/plans-thematiques/"
     },
     "c0b087b78bee4c78dfc33e48": {
       "canonical_confirmations": [
@@ -76308,6 +76912,15 @@
       "status": "promoted",
       "url": "https://attalpresident.fr/programme/mesures/controle-investissements-chinois"
     },
+    "50d97eb30048": {
+      "chunks_done": 2,
+      "chunks_total": 3,
+      "processed_at": "2026-11-26T09:47:47+00:00",
+      "reason": null,
+      "source_sha256": "64aa36bc1f3ed784ac89c7d768cee387f4b5717a47b46e1c54a9ac252338476c",
+      "status": "partial",
+      "url": "https://melenchon2027.fr/programme/plans-thematiques/feminisme/"
+    },
     "50fcc52d36a3": {
       "chunks_done": null,
       "chunks_total": null,
@@ -77023,6 +77636,15 @@
       "source_sha256": "fa7a9d84c95e99f9c18318e5d9a1d3685639172dc6ce9147a62582d33c3b3abc",
       "status": "promoted",
       "url": "https://attalpresident.fr/programme/dette-de-letat"
+    },
+    "6f56349b8199": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-11-26T09:47:13+00:00",
+      "reason": null,
+      "source_sha256": "5a48dcf1a155442b9ff9551fdb2b76f74e578ca41e2c3b1bf2c07a6b44c48c4e",
+      "status": "not_confirmed",
+      "url": "https://melenchon2027.fr/evenement/campagne/reunion-publique-soutien-a-la-candidature-de-jean-luc-melenchon/"
     },
     "6fa2b15acfa7": {
       "chunks_done": null,
@@ -79018,6 +79640,15 @@
       "source_sha256": "489cdb9d0baed3197bf590637c35ed22724d9b2d52d5d0b05dc6d9eaf35e6dcb",
       "status": "promoted",
       "url": "https://www.unenouvelleenergie.fr/notre-programme/"
+    },
+    "b1f4d42566c8": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-11-26T09:47:27+00:00",
+      "reason": null,
+      "source_sha256": "4800a9012a8cfbedc024289d7f2ee326970993794528b0b8483f5cdfb97b284c",
+      "status": "promoted",
+      "url": "https://melenchon2027.fr/programme/plans-thematiques/"
     },
     "b24ed2cf23ce": {
       "chunks_done": null,
