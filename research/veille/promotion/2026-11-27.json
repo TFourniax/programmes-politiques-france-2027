@@ -1,44 +1,45 @@
 {
   "errors": [],
-  "generated_at": "2026-11-27T09:50:33+00:00",
+  "generated_at": "2026-11-27T22:11:37+00:00",
   "historical_skipped": 0,
   "partial": 0,
   "processed": 3,
   "promoted": 2,
-  "proposals_created": 3,
+  "proposals_created": 2,
   "results": [
     {
-      "sha256": "bf83c178d2ce3d6283ac7aad126e5caf052cf4fc9308bfc138e758d0a11a3e82",
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/partys/nouvelle-energie/2026-11-27-afcfb0e839dd.md",
+      "proposals": [],
+      "provenance_updates": [
+        "prop-lisnard-reduction-depenses-publiques"
+      ],
+      "sha256": "ddfe192114a7a3285a0400cd5d6a41c79082d513d8f0d3d1760b08ae1b742305",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://www.unenouvelleenergie.fr/questions/david-lisnard-est-il-candidat-a-la-presidentielle-2027/",
+      "verified_at": "2026-11-27T22:11:23+00:00"
+    },
+    {
+      "sha256": "5a48dcf1a155442b9ff9551fdb2b76f74e578ca41e2c3b1bf2c07a6b44c48c4e",
       "status": "not_confirmed",
       "url": "https://melenchon2027.fr/evenement/campagne/reunion-publique-soutien-a-la-candidature-de-jean-luc-melenchon/"
     },
     {
-      "document": "corpus/2027/auto/candidates/anasse-kazib/2026-11-26-68b468be7989.md",
-      "provenance_updates": [
-        "auto-anasse-kazib-pouvoir-achat-travail-0ba5ecaffd11",
-        "auto-anasse-kazib-pouvoir-achat-travail-81103508afc3",
-        "auto-revolution-permanente-economie-finances-9a3a787c0c18",
-        "prop-kazib-retraite-60-55"
-      ],
-      "reason": "canonical_duplicate_evidence",
-      "sha256": "ab0afa75823921a798cd9c24e473134e6c9e47783b90bebecf2389a187bd44aa",
-      "status": "promoted",
-      "url": "https://www.revolutionpermanente.fr/Vaincre-le-grand-patronat-ou-capituler-Anasse-Kazib-presente-sa-candidature-au-meeting-de-RP",
-      "verified_at": "2026-11-27T09:50:16+00:00"
-    },
-    {
-      "chunks_total": 2,
-      "document": "corpus/2027/auto/partys/la-france-insoumise/2026-11-26-bc61a94303dd.md",
+      "chunks_total": 1,
+      "document": "corpus/2027/auto/partys/la-france-insoumise/2026-11-26-903c31606d8d.md",
       "proposals": [
-        "proposals/auto/ecologie-energie/auto-la-france-insoumise-ecologie-energie-467b2901e192.md",
-        "proposals/auto/ecologie-energie/auto-la-france-insoumise-ecologie-energie-e702a2ac65d3.md",
-        "proposals/auto/ecologie-energie/auto-la-france-insoumise-ecologie-energie-237523a938d0.md"
+        "proposals/auto/europe-souverainete/auto-la-france-insoumise-europe-souverainete-50c3645f31ae.md",
+        "proposals/auto/europe-souverainete/auto-la-france-insoumise-europe-souverainete-2142ba8bf5ee.md"
       ],
-      "sha256": "bb0fc1a9493d167f83806abbac8afe5015a7cc1a1dd759c0c3a904be24346aaf",
+      "provenance_updates": [
+        "auto-la-france-insoumise-immigration-integration-190cdbb0fd95"
+      ],
+      "sha256": "c063f3f552fbb97b8a89d625b6a2004a58159c4429771b0b514e691626fa755d",
       "status": "promoted",
       "status_updates": [],
-      "url": "https://melenchon2027.fr/actualites/reponse-aux-mensonges-de-terra-nova-sur-notre-programme-energie/",
-      "verified_at": "2026-11-27T09:50:26+00:00"
+      "url": "https://melenchon2027.fr/programme/livre/un-monde-ordonne/chapitre3/",
+      "verified_at": "2026-11-27T22:11:37+00:00"
     }
   ],
   "status_updates": 0

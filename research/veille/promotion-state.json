@@ -490,6 +490,11 @@
       "source_url": "https://www.unenouvelleenergie.fr/notre-programme/",
       "verified_at": "2026-08-23T07:58:10+00:00"
     },
+    "2142ba8bf5ee573bc96f794502f0cebbe6eb7f7399b44ce1024691d830a609d2": {
+      "proposal_id": "auto-la-france-insoumise-europe-souverainete-2142ba8bf5ee",
+      "source_url": "https://melenchon2027.fr/programme/livre/un-monde-ordonne/chapitre3/",
+      "verified_at": "2026-11-27T22:11:31+00:00"
+    },
     "223ccae67f3a82d659f0397d8c63b0e10c274d8c6623a91518bb4d294ce37b6d": {
       "proposal_id": "auto-la-france-insoumise-economie-finances-223ccae67f3a",
       "source_url": "https://melenchon2027.fr/programme2025/livre/chapitre2/",
@@ -1109,6 +1114,11 @@
       "proposal_id": "auto-rassemblement-national-services-publics-50aa4c63c170",
       "source_url": "https://www.youtube.com/shorts/fIpKEvV7qxk",
       "verified_at": "2026-10-14T13:00:56+00:00"
+    },
+    "50c3645f31ae513460bcb1a331a79116d5a7b994744f9c183dd4def0e78899fa": {
+      "proposal_id": "auto-la-france-insoumise-europe-souverainete-50c3645f31ae",
+      "source_url": "https://melenchon2027.fr/programme/livre/un-monde-ordonne/chapitre3/",
+      "verified_at": "2026-11-27T22:11:31+00:00"
     },
     "51145e332b033ec14bee8085799326f570d4967dacf50cd302e09214495cc866": {
       "proposal_id": "auto-karim-bouamrane-pouvoir-achat-travail-51145e332b03",
@@ -3208,7 +3218,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-11-27T09:50:33+00:00",
+  "last_run_at": "2026-11-27T22:11:37+00:00",
   "source_chunks": {
     "000e79baea11403029d335b1": {
       "canonical_confirmations": [
@@ -12806,6 +12816,26 @@
       "total": 1,
       "updated_at": "2026-09-10T17:12:39+00:00",
       "url": "https://republicains.fr/actualites/2026/04/21/candidat-a-la-presidentielle-jirai-jusquau-bout/"
+    },
+    "2405fd9208346b396c9ac1aa": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-11-27T22:11:40+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "98d58b38b1e2382203127a9b59d7ad30e0cef1407c63b21f6b6fd86d5e879c8e",
+      "source_title": "🔴 ANASSE 2027 : ST DENIS MONTRE LES IMPASSES DE LA STRATÉGIE DE LFI",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-27T22:11:41+00:00",
+      "url": "https://www.youtube.com/shorts/O237j-NUeFU"
     },
     "2416d36adb452fb87bc60895": {
       "canonical_confirmations": [
@@ -24391,7 +24421,7 @@
       "statuses": [],
       "text_truncated": false,
       "total": 1,
-      "updated_at": "2026-11-26T22:32:42+00:00",
+      "updated_at": "2026-11-27T22:11:25+00:00",
       "url": "https://melenchon2027.fr/evenement/campagne/reunion-publique-soutien-a-la-candidature-de-jean-luc-melenchon/"
     },
     "49d55600f28f5b885ec2a507": {
@@ -41538,6 +41568,137 @@
       "updated_at": "2026-11-10T20:35:26+00:00",
       "url": "https://www.youtube.com/shorts/SbkCrtEo9IY"
     },
+    "903c31606d8dd5db34267748": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Refuser le libre-échange, instaurer un protectionnisme écologique",
+            "relevance": "direct",
+            "statement": "Refuser le libre-échange et instaurer un protectionnisme écologique et solidaire.",
+            "topic": "europe-souverainete"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Le texte source soutient explicitement le refus du libre-échange et l'instauration d'un protectionnisme écologique.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Faciliter l’accès aux visas et instituer la carte de séjour de dix ans",
+            "relevance": "direct",
+            "statement": "Faciliter l'accès aux visas et instituer la carte de séjour de dix ans comme titre de séjour de référence.",
+            "topic": "immigration-integration"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La source mentionne explicitement la mesure concernant les visas et la carte de séjour de dix ans.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Consacrer 0,7 % du revenu national brut à une aide publique",
+            "relevance": "direct",
+            "statement": "Consacrer 0,7 % du revenu national brut à une aide publique au développement débarrassée du carcan néolibéral.",
+            "topic": "europe-souverainete"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "La source indique explicitement la mesure sur les 0,7 % du revenu national brut pour l'aide publique.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Refuser le libre-échange, instaurer un protectionnisme écologique",
+            "relevance": "direct",
+            "statement": "Refuser le libre-échange et instaurer un protectionnisme écologique et solidaire.",
+            "topic": "europe-souverainete"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Le texte source soutient explicitement le refus du libre-échange et l'instauration d'un protectionnisme écologique.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Faciliter l’accès aux visas et instituer la carte de séjour de dix ans",
+            "relevance": "direct",
+            "statement": "Faciliter l'accès aux visas et instituer la carte de séjour de dix ans comme titre de séjour de référence.",
+            "topic": "immigration-integration"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La source mentionne explicitement la mesure concernant les visas et la carte de séjour de dix ans.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Consacrer 0,7 % du revenu national brut à une aide publique",
+            "relevance": "direct",
+            "statement": "Consacrer 0,7 % du revenu national brut à une aide publique au développement débarrassée du carcan néolibéral.",
+            "topic": "europe-souverainete"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "La source indique explicitement la mesure sur les 0,7 % du revenu national brut pour l'aide publique.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "completed_at": "2026-11-27T22:11:37+00:00",
+      "created_at": "2026-11-27T22:11:26+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "c063f3f552fbb97b8a89d625b6a2004a58159c4429771b0b514e691626fa755d",
+      "source_title": "Chapitre 3 : Les nouvelles coopérations de la diplomatie altermondialiste - Mélenchon 2027 : Soutenez ma candidature à l’élection présidentielle",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-27T22:11:31+00:00",
+      "url": "https://melenchon2027.fr/programme/livre/un-monde-ordonne/chapitre3/"
+    },
     "904ef92708e1aad1eba44f71": {
       "canonical_confirmations": [
         {
@@ -44324,6 +44485,26 @@
       "total": 1,
       "updated_at": "2026-09-27T22:25:35+00:00",
       "url": "https://bsky.app/profile/lesecologistes.fr/post/3mwjib6iytk2f"
+    },
+    "9b2ae5616a8d5a9f97d89d47": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-11-27T22:11:43+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "36aa25b3511d55bb3905cbea36887fdceca3768b8104cc4f2e7e336984febbe8",
+      "source_title": "🔴 ANASSE 2027 : ALBERTA RÉPOND AUX CALOMNIES DE LA DÉPÊCHE SUR LES ÉTUDIANTS DU MIRAIL",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-27T22:11:44+00:00",
+      "url": "https://www.youtube.com/shorts/oRM2NFFD-gY"
     },
     "9be0da3979e9825ce5b16c4d": {
       "canonical_confirmations": [],
@@ -53174,6 +53355,77 @@
       "updated_at": "2026-08-12T14:41:26+00:00",
       "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
     },
+    "afcfb0e839dd754e5b7a3365": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "david-lisnard",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "200 milliards d’euros les baisses de dépenses publiques",
+            "relevance": "direct",
+            "statement": "David Lisnard documente 200 milliards d'euros de baisses de dépenses publiques.",
+            "topic": "economie-finances"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La source documente précisément l'objectif et le montant des baisses de dépenses publiques à 200 milliards d'euros, complétant la proposition canonique existante.",
+            "related_proposal_id": "prop-lisnard-reduction-depenses-publiques",
+            "relation": "SUPERSEDES",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [
+        {
+          "claim": {
+            "actor_id": "david-lisnard",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "200 milliards d’euros les baisses de dépenses publiques",
+            "relevance": "direct",
+            "statement": "David Lisnard documente 200 milliards d'euros de baisses de dépenses publiques.",
+            "topic": "economie-finances"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La source documente précisément l'objectif et le montant des baisses de dépenses publiques à 200 milliards d'euros, complétant la proposition canonique existante.",
+            "related_proposal_id": "prop-lisnard-reduction-depenses-publiques",
+            "relation": "SUPERSEDES",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "completed_at": "2026-11-27T22:11:23+00:00",
+      "created_at": "2026-11-27T22:11:15+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-11-27"
+      ],
+      "sha256": "ddfe192114a7a3285a0400cd5d6a41c79082d513d8f0d3d1760b08ae1b742305",
+      "source_title": "David Lisnard est-il candidat à la présidentielle 2027 ? | Nouvelle Énergie",
+      "statuses": [
+        {
+          "status": {
+            "candidate_id": "david-lisnard",
+            "effective_date": "2026-11-27",
+            "evidence_quote": "s’est déclaré candidat à l’élection présidentielle de 2027",
+            "explicit": true,
+            "new_status": "declared_presidential"
+          }
+        }
+      ],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-27T22:11:20+00:00",
+      "url": "https://www.unenouvelleenergie.fr/questions/david-lisnard-est-il-candidat-a-la-presidentielle-2027/"
+    },
     "afec2051748c055593912511": {
       "canonical_confirmations": [],
       "claims": [],
@@ -57343,6 +57595,26 @@
       "updated_at": "2026-08-21T19:51:12+00:00",
       "url": "https://bsky.app/profile/lesecologistes.fr/post/3mtm63wu5j22l"
     },
+    "c0f14016518032c810fd2699": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-11-27T22:11:41+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "095d072453bfce1e765d924e55b796ca3a629c2ef5244f2ee3a508dab2a4fba1",
+      "source_title": "Qui fait vivre un mouvement politique ? | Juan Branco",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-27T22:11:42+00:00",
+      "url": "https://www.youtube.com/shorts/Tmfg4X-O1no"
+    },
     "c17cb83aa2f55935ccdae6ac": {
       "canonical_confirmations": [
         {
@@ -60327,6 +60599,26 @@
       "total": 1,
       "updated_at": "2026-08-22T13:54:03+00:00",
       "url": "https://bsky.app/profile/lesecologistes.fr/post/3mtocutkwic27"
+    },
+    "cbf0c827b3faeb459a5d3a1e": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-11-27T22:11:38+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "ffcce90e2b431a9f1c0dd8ec75eaf6338778517d56c4767734b1af878ae8393f",
+      "source_title": "🔴 TOULOUSE | C'est la lutte des classes qui fera reculer l'extrême droite",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-27T22:11:39+00:00",
+      "url": "https://www.youtube.com/shorts/63XBQ0MpWww"
     },
     "cc02fece8ef19549696802b4": {
       "canonical_confirmations": [
@@ -76644,6 +76936,15 @@
       "status": "promoted",
       "url": "https://rassemblementnational.fr/"
     },
+    "38f322d7166b": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-11-27T22:11:23+00:00",
+      "reason": null,
+      "source_sha256": "ddfe192114a7a3285a0400cd5d6a41c79082d513d8f0d3d1760b08ae1b742305",
+      "status": "promoted",
+      "url": "https://www.unenouvelleenergie.fr/questions/david-lisnard-est-il-candidat-a-la-presidentielle-2027/"
+    },
     "390437fd5fed": {
       "chunks_done": null,
       "chunks_total": null,
@@ -77607,6 +77908,15 @@
       "status": "not_confirmed",
       "url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne"
     },
+    "541fdd40717d": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-11-27T22:11:25+00:00",
+      "reason": null,
+      "source_sha256": "5a48dcf1a155442b9ff9551fdb2b76f74e578ca41e2c3b1bf2c07a6b44c48c4e",
+      "status": "not_confirmed",
+      "url": "https://melenchon2027.fr/evenement/campagne/reunion-publique-soutien-a-la-candidature-de-jean-luc-melenchon/"
+    },
     "5483a6043b4e": {
       "chunks_done": null,
       "chunks_total": null,
@@ -78205,6 +78515,15 @@
       "source_sha256": "89240073cf8b5ad476043aa3c1a429c5833d6ad111411795e3d30ab8468ad280",
       "status": "promoted",
       "url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne"
+    },
+    "6c7ffa8d1eaa": {
+      "chunks_done": null,
+      "chunks_total": 1,
+      "processed_at": "2026-11-27T22:11:37+00:00",
+      "reason": null,
+      "source_sha256": "c063f3f552fbb97b8a89d625b6a2004a58159c4429771b0b514e691626fa755d",
+      "status": "promoted",
+      "url": "https://melenchon2027.fr/programme/livre/un-monde-ordonne/chapitre3/"
     },
     "6cbfa6396db3": {
       "chunks_done": null,

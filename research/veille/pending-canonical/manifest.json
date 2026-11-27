@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created_at": "2026-08-17T19:57:19.441897+00:00",
-  "updated_at": "2026-11-27T09:50:46.741089+00:00",
+  "updated_at": "2026-11-27T22:11:48.676348+00:00",
   "files": [
     {
       "path": "corpus/2027/auto/candidates/anasse-kazib/2026-08-28-38891602d9d9.md",
@@ -1344,6 +1344,11 @@
       "size": 1721
     },
     {
+      "path": "corpus/2027/auto/partys/la-france-insoumise/2026-11-26-903c31606d8d.md",
+      "sha256": "30c4f98f697042c50907646d9067f3b46c4e1f7405bf414ea9432dc6d8775e28",
+      "size": 2187
+    },
+    {
       "path": "corpus/2027/auto/partys/la-france-insoumise/2026-11-26-bc61a94303dd.md",
       "sha256": "ab89b4172e23311e215c0e11228ae92126c71756dc18445b3a38cebcabfdd8ef",
       "size": 2112
@@ -1637,6 +1642,11 @@
       "path": "corpus/2027/auto/partys/nouvelle-energie/2026-10-24-d211612b411f.md",
       "sha256": "b1bcbd6dd8c3241da3e5d48b89de94c339b93797f0e5f2cef234cae93e82da0d",
       "size": 1953
+    },
+    {
+      "path": "corpus/2027/auto/partys/nouvelle-energie/2026-11-27-afcfb0e839dd.md",
+      "sha256": "b3dd7eba9c2e3c54a519859c3c1d496646adb62d519676404065d2c1775412a0",
+      "size": 1835
     },
     {
       "path": "corpus/2027/auto/partys/npa-revolutionnaires/2026-07-04-14781613317c.md",
@@ -3259,6 +3269,11 @@
       "size": 1305
     },
     {
+      "path": "proposals/auto/europe-souverainete/auto-la-france-insoumise-europe-souverainete-2142ba8bf5ee.md",
+      "sha256": "ef1c09b2143790ef3927b891464f6515298155af9a6936e4a23a65dda9c12178",
+      "size": 1420
+    },
+    {
       "path": "proposals/auto/europe-souverainete/auto-la-france-insoumise-europe-souverainete-4c62c6367ff7.md",
       "sha256": "1d19251a60d25f2377ffb17f50c5c3fa9d9e0cf1a07f4d623f0003d0e8080097",
       "size": 1121
@@ -3267,6 +3282,11 @@
       "path": "proposals/auto/europe-souverainete/auto-la-france-insoumise-europe-souverainete-4dbaddeb5d09.md",
       "sha256": "8f02c86d7712fc5591c80e447ac2c0d9023c0f6c7731980d40bec5323c4a08ab",
       "size": 1202
+    },
+    {
+      "path": "proposals/auto/europe-souverainete/auto-la-france-insoumise-europe-souverainete-50c3645f31ae.md",
+      "sha256": "81610898049e70a981dabe9e2f0d4f5f48ad1ba5dad35e9fced572d65fd68de4",
+      "size": 1328
     },
     {
       "path": "proposals/auto/europe-souverainete/auto-la-france-insoumise-europe-souverainete-533aeac713f6.md",
@@ -3490,8 +3510,8 @@
     },
     {
       "path": "proposals/auto/immigration-integration/auto-la-france-insoumise-immigration-integration-190cdbb0fd95.md",
-      "sha256": "40deb50a7d52d885cb6fb7c6c7f0b18993e856d896f26260ad04f242658ec6b6",
-      "size": 1427
+      "sha256": "56f7c0968af4087e3b16e7ab36d8511535f1f10b2e05b44940970b2296c439ee",
+      "size": 1768
     },
     {
       "path": "proposals/auto/immigration-integration/auto-la-france-insoumise-immigration-integration-1a1459016e15.md",
@@ -5010,8 +5030,8 @@
     },
     {
       "path": "proposals/economie-finances/david-lisnard-reduction-depenses.md",
-      "sha256": "6ff491c859b9b87bbabc5b26e2fb82d0f22ab4d7b642bafdafb2d224189d3a00",
-      "size": 1188
+      "sha256": "90c46b09c4d59474d3037fbf3fc4383800a24ac0ae382b2943a294326d4e0873",
+      "size": 1404
     },
     {
       "path": "proposals/fiscalite-redistribution/les-ecologistes-impot-plancher-patrimoine.md",
