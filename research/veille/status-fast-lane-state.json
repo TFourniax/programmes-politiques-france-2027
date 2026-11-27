@@ -296,6 +296,13 @@
       "reason": "no_deterministic_transition",
       "status": "not_applicable"
     },
+    "15c64ee62e32": {
+      "event_url": "https://melenchon2027.fr/evenement/campagne/reunion-publique-soutien-a-la-candidature-de-jean-luc-melenchon/",
+      "owner": "La France insoumise",
+      "processed_at": "2026-11-27T09:47:24+00:00",
+      "reason": "no_deterministic_transition",
+      "status": "not_applicable"
+    },
     "15ee1c5706c0": {
       "candidate_id": "david-lisnard",
       "event_url": "https://www.unenouvelleenergie.fr/il-y-a-une-dynamique-autour-de-ma-candidature-lance-david-lisnard/",
@@ -2863,7 +2870,7 @@
       "error": "ValueError: HTTP 404",
       "event_url": "https://parti-equinoxe.fr/articles/2022/05/la-transition-energetique-selon-les-ex-candidats-a-la-presidentielle-2/",
       "owner": "Équinoxe",
-      "processed_at": "2026-11-26T22:29:31+00:00",
+      "processed_at": "2026-11-27T09:47:25+00:00",
       "status": "technical_error"
     },
     "cb3428b2b6d3": {
@@ -3580,7 +3587,7 @@
     }
   },
   "last_error_count": 1,
-  "last_run_at": "2026-11-26T22:29:31+00:00",
+  "last_run_at": "2026-11-27T09:47:25+00:00",
   "last_updated_count": 0,
   "version": 1
 }

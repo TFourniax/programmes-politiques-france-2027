@@ -515,6 +515,11 @@
       "source_url": "https://attalpresident.fr/programme/intelligence-artificielle",
       "verified_at": "2026-10-21T22:34:39+00:00"
     },
+    "237523a938d043c312839646470e5236e44d8b16e19cb1761721ccf18f59dd39": {
+      "proposal_id": "auto-la-france-insoumise-ecologie-energie-237523a938d0",
+      "source_url": "https://melenchon2027.fr/actualites/reponse-aux-mensonges-de-terra-nova-sur-notre-programme-energie/",
+      "verified_at": "2026-11-27T09:50:26+00:00"
+    },
     "239ed95e43370a111adfceff5d6f16607d188c95b03edc68056d84d6559a4ffa": {
       "proposal_id": "auto-la-france-insoumise-pouvoir-achat-travail-239ed95e4337",
       "source_url": "https://melenchon2027.fr/programme/livre/mettre-en-securite-sociale/chapitre1/",
@@ -944,6 +949,11 @@
       "proposal_id": "auto-rassemblement-national-pouvoir-achat-travail-462170ab9083",
       "source_url": "https://www.youtube.com/shorts/uLNSr5UoXWA",
       "verified_at": "2026-09-10T12:22:21+00:00"
+    },
+    "467b2901e19248cb14759dbd2f3aa2067b6470aadcb983b559590b625016a5ba": {
+      "proposal_id": "auto-la-france-insoumise-ecologie-energie-467b2901e192",
+      "source_url": "https://melenchon2027.fr/actualites/reponse-aux-mensonges-de-terra-nova-sur-notre-programme-energie/",
+      "verified_at": "2026-11-27T09:50:26+00:00"
     },
     "468010a5d31b4e619ed227a9904b4e7b535af7bc492639de3847a96978e789f6": {
       "proposal_id": "auto-la-france-insoumise-europe-souverainete-468010a5d31b",
@@ -2905,6 +2915,11 @@
       "source_url": "https://melenchon2027.fr/programme2025/livre/chapitre4/",
       "verified_at": "2026-08-13T03:40:11+00:00"
     },
+    "e702a2ac65d35c4b341f3b8009cb064d0f5436440e1121985adc0cb422be58e0": {
+      "proposal_id": "auto-la-france-insoumise-ecologie-energie-e702a2ac65d3",
+      "source_url": "https://melenchon2027.fr/actualites/reponse-aux-mensonges-de-terra-nova-sur-notre-programme-energie/",
+      "verified_at": "2026-11-27T09:50:26+00:00"
+    },
     "e752ed5b4f796fd572cbc0634ae943fdfdc778c7050a4a3f57e1aa2b0b207a42": {
       "proposal_id": "auto-les-ecologistes-pouvoir-achat-travail-e752ed5b4f79",
       "source_url": "https://lesecologistes.fr/document/5ZhR2m5t2ZaGKqIdD1bJaD/vdef-programme-1.pdf",
@@ -3193,7 +3208,7 @@
   },
   "last_error_count": 0,
   "last_processed_count": 3,
-  "last_run_at": "2026-11-26T22:33:23+00:00",
+  "last_run_at": "2026-11-27T09:50:33+00:00",
   "source_chunks": {
     "000e79baea11403029d335b1": {
       "canonical_confirmations": [
@@ -12125,6 +12140,26 @@
       "total": 1,
       "updated_at": "2026-10-05T16:15:00+00:00",
       "url": "https://parti-socialiste.fr/actualites/il-te-reste/"
+    },
+    "216926b1062950fc7488129c": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-11-27T09:50:38+00:00",
+      "document_types": [
+        "other"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "a69b83b305e85e7b203ae500b1a52f9783190d377729ec59ee7fe8fad3fefcbe",
+      "source_title": "🔴 PARIS | Grande chaîne de travailleurs et étudiants en tête de la manifestation du 17 novembre.",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-27T09:50:42+00:00",
+      "url": "https://www.youtube.com/shorts/4rwaynMli2k"
     },
     "21a4a85c85022759cc513523": {
       "canonical_confirmations": [],
@@ -25096,6 +25131,26 @@
       "updated_at": "2026-08-15T19:47:55+00:00",
       "url": "https://solutiondemocratique.fr/jean-luc-melenchon-programme-presidentielle2027/"
     },
+    "4c1ba673ff5e6e3d19274410": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-11-27T09:50:33+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "ea3d2db9fb737827500950b3e953cf992af8d34b6ab609f2d4b220b445c1e0f0",
+      "source_title": "Du 17 OCTOBRE au 25 NOVEMBRE : le mouvement FÉMINISTE face à la GEN Z",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-27T09:50:34+00:00",
+      "url": "https://www.youtube.com/watch?v=FBHqRjHugsk"
+    },
     "4c3eeb2d8ac5da223ca23b2d": {
       "canonical_confirmations": [
         {
@@ -32148,6 +32203,138 @@
       "total": 1,
       "updated_at": "2026-10-25T17:11:52+00:00",
       "url": "https://melenchon2027.fr/"
+    },
+    "68b468be79891da2d0ed4118": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "anasse-kazib",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "semaine de 28h",
+            "relevance": "direct",
+            "statement": "Mettre en place la semaine de travail de 28 heures.",
+            "topic": "pouvoir-achat-travail"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La semaine de travail de 28 heures est explicitement soutenue par la source.",
+            "related_proposal_id": "auto-anasse-kazib-pouvoir-achat-travail-81103508afc3",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "revolution-permanente",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "expropriation des secteurs stratégiques sous contrôle des travailleurs",
+            "relevance": "party_platform",
+            "statement": "Exproprier les secteurs stratégiques sous le contrôle des travailleurs.",
+            "topic": "economie-finances"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "L'expropriation des secteurs stratégiques sous contrôle des travailleurs est explicitement soutenue.",
+            "related_proposal_id": "auto-revolution-permanente-economie-finances-9a3a787c0c18",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "anasse-kazib",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "augmentation de 500€ de l’ensemble des salaires et des minimas sociaux",
+            "relevance": "direct",
+            "statement": "Augmenter l'ensemble des salaires et des minimas sociaux de 500 euros.",
+            "topic": "pouvoir-achat-travail"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "L'augmentation de 500 euros des salaires et minimas sociaux est explicitement soutenue.",
+            "related_proposal_id": "auto-anasse-kazib-pouvoir-achat-travail-0ba5ecaffd11",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "anasse-kazib",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "réindexation de nos salaires sur l’inflation",
+            "relevance": "direct",
+            "statement": "Réindexer les salaires sur l'inflation.",
+            "topic": "pouvoir-achat-travail"
+          },
+          "verdict": {
+            "index": 3,
+            "reason": "La réindexation des salaires sur l'inflation est explicitement soutenue dans la source.",
+            "related_proposal_id": "prop-kazib-indexation-salaires-inflation",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "anasse-kazib",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "réduire immédiatement le temps de travail à 28h par semaine, sans perte de salaires ni augmentation des cadences",
+            "relevance": "direct",
+            "statement": "Réduire immédiatement le temps de travail à 28h par semaine, sans perte de salaires ni augmentation des cadences.",
+            "topic": "pouvoir-achat-travail"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "La réduction du temps de travail à 28h sans perte de salaires est explicitement présente dans la source et dans le canonique.",
+            "related_proposal_id": "auto-anasse-kazib-pouvoir-achat-travail-81103508afc3",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "anasse-kazib",
+            "actor_type": "candidate",
+            "certainty": "explicit",
+            "evidence_quote": "la retraite à 60 ans pour tous et à 55 ans pour les métiers pénibles",
+            "relevance": "direct",
+            "statement": "Instaurer la retraite à 60 ans pour tous et à 55 ans pour les métiers pénibles.",
+            "topic": "retraites"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "La retraite à 60 ans pour tous et 55 ans pour les métiers pénibles est explicitement soutenue par la source et déjà présente dans le canonique.",
+            "related_proposal_id": "prop-kazib-retraite-60-55",
+            "relation": "DUPLICATE",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [],
+      "completed_at": "2026-11-27T09:50:16+00:00",
+      "created_at": "2026-11-27T09:49:54+00:00",
+      "document_types": [
+        "official_speech",
+        "official_speech"
+      ],
+      "done": [
+        0,
+        1
+      ],
+      "final_status": "promoted",
+      "published_candidates": [],
+      "sha256": "ab0afa75823921a798cd9c24e473134e6c9e47783b90bebecf2389a187bd44aa",
+      "source_title": "« Vaincre le grand patronat ou capituler » : Anasse Kazib présente sa candidature au meeting de RP",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 2,
+      "updated_at": "2026-11-27T09:50:09+00:00",
+      "url": "https://www.revolutionpermanente.fr/Vaincre-le-grand-patronat-ou-capituler-Anasse-Kazib-presente-sa-candidature-au-meeting-de-RP"
     },
     "68b64a16f27e55b0a8b1a90b": {
       "canonical_confirmations": [],
@@ -42687,6 +42874,26 @@
       "updated_at": "2026-11-06T10:58:34+00:00",
       "url": "https://www.youtube.com/watch?v=BLsxrM8AV_A"
     },
+    "954c80c8ef5c250390700cff": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-11-27T09:50:35+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "16488f2e1980ea93e132713ac845a2409d829260c5f9e530b5ca7a18783f6fd2",
+      "source_title": "Dialogue — L'enfance au coeur de la Nouvelle France",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-27T09:50:36+00:00",
+      "url": "https://www.youtube.com/watch?v=17QaDF5dDaA"
+    },
     "9594d7c413a40989bd45f764": {
       "canonical_confirmations": [],
       "claims": [],
@@ -44465,6 +44672,26 @@
       "total": 1,
       "updated_at": "2026-10-06T07:43:43+00:00",
       "url": "https://www.youtube.com/shorts/swlMKqB2YI0"
+    },
+    "9d15e34457437e3d736cd476": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-11-27T09:50:37+00:00",
+      "document_types": [
+        "official_video_transcript"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "7d708303f28c12d6607883d864da4e66273dd2f113758870e32cc30c900bee96",
+      "source_title": "🔴 En finir avec les Hunger Games par la lutte des classes | RENDEZ-VOUS LE 21 NOVEMBRE À PARIS",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-27T09:50:38+00:00",
+      "url": "https://www.youtube.com/shorts/G-EkNGXtQfI"
     },
     "9d20c22e1b43e420b517170c": {
       "canonical_confirmations": [],
@@ -55941,6 +56168,141 @@
       "total": 1,
       "updated_at": "2026-09-14T14:18:23+00:00",
       "url": "https://bsky.app/profile/marinetondelier.fr/post/3mvi2atwy4k2m"
+    },
+    "bc61a94303ddda8abf737bef": {
+      "canonical_confirmations": [
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Nous annonçons une sortie des énergies fossiles en 2050 et de l’énergie nucléaire en 2060",
+            "relevance": "direct",
+            "statement": "Sortie des énergies fossiles en 2050 et de l'énergie nucléaire en 2060.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Explicitement soutenu dans la source et absent du canonique.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "notre nouvelle proposition de service public de la rénovation énergétique",
+            "relevance": "direct",
+            "statement": "Mise en place d'un service public de la rénovation énergétique pour organiser et financer les travaux.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "Explicitement soutenu dans la source et absent du canonique.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "La nationalisation d’Engie",
+            "relevance": "direct",
+            "statement": "Nationalisation d'Engie pour le bénéfice de la collectivité publique.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "Explicitement soutenu dans la source et absent du canonique.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "claims": [
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "Nous annonçons une sortie des énergies fossiles en 2050 et de l’énergie nucléaire en 2060",
+            "relevance": "direct",
+            "statement": "Sortie des énergies fossiles en 2050 et de l'énergie nucléaire en 2060.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 0,
+            "reason": "Explicitement soutenu dans la source et absent du canonique.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "notre nouvelle proposition de service public de la rénovation énergétique",
+            "relevance": "direct",
+            "statement": "Mise en place d'un service public de la rénovation énergétique pour organiser et financer les travaux.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 1,
+            "reason": "Explicitement soutenu dans la source et absent du canonique.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        },
+        {
+          "claim": {
+            "actor_id": "la-france-insoumise",
+            "actor_type": "party",
+            "certainty": "explicit",
+            "evidence_quote": "La nationalisation d’Engie",
+            "relevance": "direct",
+            "statement": "Nationalisation d'Engie pour le bénéfice de la collectivité publique.",
+            "topic": "ecologie-energie"
+          },
+          "verdict": {
+            "index": 2,
+            "reason": "Explicitement soutenu dans la source et absent du canonique.",
+            "related_proposal_id": null,
+            "relation": "NEW",
+            "verdict": "CONFIRMED"
+          }
+        }
+      ],
+      "completed_at": "2026-11-27T09:50:26+00:00",
+      "created_at": "2026-11-27T09:50:17+00:00",
+      "document_types": [
+        "campaign_website_page",
+        "campaign_website_page"
+      ],
+      "done": [
+        0,
+        1
+      ],
+      "final_status": "promoted",
+      "published_candidates": [
+        "2026-11-26"
+      ],
+      "sha256": "bb0fc1a9493d167f83806abbac8afe5015a7cc1a1dd759c0c3a904be24346aaf",
+      "source_title": "Réponse aux mensonges de Terra Nova sur notre programme énergie - Mélenchon 2027 : Soutenez ma candidature à l’élection présidentielle",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 2,
+      "updated_at": "2026-11-27T09:50:26+00:00",
+      "url": "https://melenchon2027.fr/actualites/reponse-aux-mensonges-de-terra-nova-sur-notre-programme-energie/"
     },
     "bc748a2f6701b470aa6f9db7": {
       "canonical_confirmations": [],
@@ -69242,6 +69604,26 @@
       "updated_at": "2026-08-20T10:10:52+00:00",
       "url": "https://www.youtube.com/watch?v=hefmL-vkxKw"
     },
+    "ed4bd5f9b8fc079b013d5247": {
+      "canonical_confirmations": [],
+      "claims": [],
+      "created_at": "2026-11-27T09:49:52+00:00",
+      "document_types": [
+        "campaign_website_page"
+      ],
+      "done": [
+        0
+      ],
+      "final_status": "not_confirmed",
+      "published_candidates": [],
+      "sha256": "bf83c178d2ce3d6283ac7aad126e5caf052cf4fc9308bfc138e758d0a11a3e82",
+      "source_title": "Réunion publique avec Murielle Lepvraud, Manuel Bompard et Manon Aubry - Mélenchon 2027 : Soutenez ma candidature à l’élection présidentielle",
+      "statuses": [],
+      "text_truncated": false,
+      "total": 1,
+      "updated_at": "2026-11-27T09:49:53+00:00",
+      "url": "https://melenchon2027.fr/evenement/campagne/reunion-publique-soutien-a-la-candidature-de-jean-luc-melenchon/"
+    },
     "ed82d2de52703cccbbcb4a8f": {
       "canonical_confirmations": [],
       "claims": [],
@@ -75040,6 +75422,15 @@
       "status": "promoted",
       "url": "https://marinetondelier.fr/programme-2027"
     },
+    "15c64ee62e32": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-11-27T09:49:53+00:00",
+      "reason": null,
+      "source_sha256": "bf83c178d2ce3d6283ac7aad126e5caf052cf4fc9308bfc138e758d0a11a3e82",
+      "status": "not_confirmed",
+      "url": "https://melenchon2027.fr/evenement/campagne/reunion-publique-soutien-a-la-candidature-de-jean-luc-melenchon/"
+    },
     "15ee1c5706c0": {
       "chunks_done": null,
       "chunks_total": 1,
@@ -75273,6 +75664,15 @@
       "source_sha256": "cf8a55587f1b41dcedb1c036921959fbda585af488f58f610442c76bc4ee5424",
       "status": "promoted",
       "url": "https://www.unenouvelleenergie.fr/notre-programme/"
+    },
+    "1de7ceda7aa8": {
+      "chunks_done": null,
+      "chunks_total": 2,
+      "processed_at": "2026-11-27T09:50:32+00:00",
+      "reason": null,
+      "source_sha256": "bb0fc1a9493d167f83806abbac8afe5015a7cc1a1dd759c0c3a904be24346aaf",
+      "status": "promoted",
+      "url": "https://melenchon2027.fr/actualites/reponse-aux-mensonges-de-terra-nova-sur-notre-programme-energie/"
     },
     "1defc14cc9dc": {
       "chunks_done": null,
@@ -78992,6 +79392,15 @@
       "source_sha256": "21df166f2bb506c159efbb805448f781c07309d4a5250fd027e43089abf927b8",
       "status": "not_confirmed",
       "url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-autorite-ecole-retraites-rassemblement-campagne"
+    },
+    "925c93253422": {
+      "chunks_done": null,
+      "chunks_total": null,
+      "processed_at": "2026-11-27T09:50:16+00:00",
+      "reason": "canonical_duplicate_evidence",
+      "source_sha256": "ab0afa75823921a798cd9c24e473134e6c9e47783b90bebecf2389a187bd44aa",
+      "status": "promoted",
+      "url": "https://www.revolutionpermanente.fr/Vaincre-le-grand-patronat-ou-capituler-Anasse-Kazib-presente-sa-candidature-au-meeting-de-RP"
     },
     "926a71aa22d1": {
       "chunks_done": null,

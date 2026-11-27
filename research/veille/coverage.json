@@ -6,18 +6,18 @@
     "actors": 68,
     "declared_or_active_candidates": 28,
     "topics": 12,
-    "current_proposals": 1599,
+    "current_proposals": 1602,
     "covered_actor_topic_cells": 179,
     "total_actor_topic_cells": 816,
     "actor_topic_coverage_ratio": 0.2194,
     "active_candidate_covered_cells": 86,
     "active_candidate_total_cells": 336,
     "active_candidate_topic_coverage_ratio": 0.256,
-    "verified_proposals": 1567,
-    "multi_source_proposals": 150,
+    "verified_proposals": 1570,
+    "multi_source_proposals": 151,
     "latest_evidence_at": "2026-11-26",
     "certainty_counts": {
-      "explicit": 1570,
+      "explicit": 1573,
       "explicit_but_conditional": 3,
       "explicit_but_underspecified": 26
     }
@@ -111,7 +111,7 @@
       ],
       "latest_evidence_at": "2026-11-26",
       "verified_proposals": 15,
-      "multi_source_proposals": 9
+      "multi_source_proposals": 10
     },
     {
       "id": "antoine-mikolajczak",
@@ -995,7 +995,7 @@
       "type": "party",
       "status": null,
       "confidence": null,
-      "current_proposals": 269,
+      "current_proposals": 272,
       "covered_topics": [
         "ecologie-energie",
         "economie-finances",
@@ -1013,8 +1013,8 @@
         "defense-international",
         "numerique-ia"
       ],
-      "latest_evidence_at": "2026-11-13",
-      "verified_proposals": 266,
+      "latest_evidence_at": "2026-11-26",
+      "verified_proposals": 269,
       "multi_source_proposals": 32
     },
     {
@@ -1676,7 +1676,7 @@
         "defense-international",
         "numerique-ia"
       ],
-      "latest_evidence_at": "2026-11-25",
+      "latest_evidence_at": "2026-11-26",
       "verified_proposals": 25,
       "multi_source_proposals": 7
     },
@@ -1964,7 +1964,7 @@
       "actor_coverage_ratio": 0.3382,
       "latest_evidence_at": "2026-11-26",
       "verified_proposals": 103,
-      "multi_source_proposals": 17
+      "multi_source_proposals": 18
     },
     {
       "id": "retraites",
@@ -2019,11 +2019,11 @@
     {
       "id": "ecologie-energie",
       "label": "Écologie & énergie",
-      "current_proposals": 265,
+      "current_proposals": 268,
       "actors_covered": 19,
       "actor_coverage_ratio": 0.2794,
-      "latest_evidence_at": "2026-11-25",
-      "verified_proposals": 259,
+      "latest_evidence_at": "2026-11-26",
+      "verified_proposals": 262,
       "multi_source_proposals": 15
     },
     {
@@ -2093,7 +2093,7 @@
           "current_proposals": 8,
           "latest_evidence_at": "2026-11-26",
           "verified_proposals": 6,
-          "multi_source_proposals": 4
+          "multi_source_proposals": 5
         },
         {
           "id": "retraites",

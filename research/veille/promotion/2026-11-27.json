@@ -1,0 +1,45 @@
+{
+  "errors": [],
+  "generated_at": "2026-11-27T09:50:33+00:00",
+  "historical_skipped": 0,
+  "partial": 0,
+  "processed": 3,
+  "promoted": 2,
+  "proposals_created": 3,
+  "results": [
+    {
+      "sha256": "bf83c178d2ce3d6283ac7aad126e5caf052cf4fc9308bfc138e758d0a11a3e82",
+      "status": "not_confirmed",
+      "url": "https://melenchon2027.fr/evenement/campagne/reunion-publique-soutien-a-la-candidature-de-jean-luc-melenchon/"
+    },
+    {
+      "document": "corpus/2027/auto/candidates/anasse-kazib/2026-11-26-68b468be7989.md",
+      "provenance_updates": [
+        "auto-anasse-kazib-pouvoir-achat-travail-0ba5ecaffd11",
+        "auto-anasse-kazib-pouvoir-achat-travail-81103508afc3",
+        "auto-revolution-permanente-economie-finances-9a3a787c0c18",
+        "prop-kazib-retraite-60-55"
+      ],
+      "reason": "canonical_duplicate_evidence",
+      "sha256": "ab0afa75823921a798cd9c24e473134e6c9e47783b90bebecf2389a187bd44aa",
+      "status": "promoted",
+      "url": "https://www.revolutionpermanente.fr/Vaincre-le-grand-patronat-ou-capituler-Anasse-Kazib-presente-sa-candidature-au-meeting-de-RP",
+      "verified_at": "2026-11-27T09:50:16+00:00"
+    },
+    {
+      "chunks_total": 2,
+      "document": "corpus/2027/auto/partys/la-france-insoumise/2026-11-26-bc61a94303dd.md",
+      "proposals": [
+        "proposals/auto/ecologie-energie/auto-la-france-insoumise-ecologie-energie-467b2901e192.md",
+        "proposals/auto/ecologie-energie/auto-la-france-insoumise-ecologie-energie-e702a2ac65d3.md",
+        "proposals/auto/ecologie-energie/auto-la-france-insoumise-ecologie-energie-237523a938d0.md"
+      ],
+      "sha256": "bb0fc1a9493d167f83806abbac8afe5015a7cc1a1dd759c0c3a904be24346aaf",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://melenchon2027.fr/actualites/reponse-aux-mensonges-de-terra-nova-sur-notre-programme-energie/",
+      "verified_at": "2026-11-27T09:50:26+00:00"
+    }
+  ],
+  "status_updates": 0
+}
