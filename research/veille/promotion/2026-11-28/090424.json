@@ -1,0 +1,51 @@
+{
+  "errors": [],
+  "generated_at": "2026-11-28T09:04:24+00:00",
+  "historical_skipped": 0,
+  "partial": 0,
+  "processed": 3,
+  "promoted": 2,
+  "proposals_created": 11,
+  "results": [
+    {
+      "sha256": "6dd9e109b380f611bd98ae54ad9be2c5d206706c60a076148b9e427dca6d3c3b",
+      "status": "not_confirmed",
+      "url": "https://melenchon2027.fr/evenement/campagne/reunion-publique-soutien-a-la-candidature-de-jean-luc-melenchon/"
+    },
+    {
+      "document": "corpus/2027/auto/candidates/anasse-kazib/2026-11-28-cd93bf19a936.md",
+      "provenance_updates": [
+        "auto-anasse-kazib-pouvoir-achat-travail-81103508afc3",
+        "prop-kazib-retraite-60-55"
+      ],
+      "reason": "canonical_duplicate_evidence",
+      "sha256": "feb96543860bcd6d5df59b75dcd987faecee62aed47bf4290b38f7909cbfd63e",
+      "status": "promoted",
+      "url": "https://anasse2027.fr/programme",
+      "verified_at": "2026-11-28T09:04:03+00:00"
+    },
+    {
+      "chunks_total": 3,
+      "document": "corpus/2027/auto/partys/la-france-insoumise/2026-11-25-904ef92708e1.md",
+      "proposals": [
+        "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-32b29ce1ae04.md",
+        "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-3bbfee61d674.md",
+        "proposals/auto/economie-finances/auto-la-france-insoumise-economie-finances-e4d28c838539.md",
+        "proposals/auto/securite-justice/auto-la-france-insoumise-securite-justice-e52c904b9ac0.md",
+        "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-a547577bf1e6.md",
+        "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-ec9a1ecf674b.md",
+        "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-98b2e3fb826b.md",
+        "proposals/auto/pouvoir-achat-travail/auto-la-france-insoumise-pouvoir-achat-travail-709a8689688f.md",
+        "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-4ebcd8c62b5c.md",
+        "proposals/auto/services-publics/auto-la-france-insoumise-services-publics-ede8bee7f138.md",
+        "proposals/auto/pouvoir-achat-travail/auto-la-france-insoumise-pouvoir-achat-travail-de750e2334c7.md"
+      ],
+      "sha256": "64aa36bc1f3ed784ac89c7d768cee387f4b5717a47b46e1c54a9ac252338476c",
+      "status": "promoted",
+      "status_updates": [],
+      "url": "https://melenchon2027.fr/programme/plans-thematiques/feminisme/",
+      "verified_at": "2026-11-28T09:04:09+00:00"
+    }
+  ],
+  "status_updates": 0
+}

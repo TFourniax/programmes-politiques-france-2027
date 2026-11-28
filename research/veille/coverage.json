@@ -6,18 +6,18 @@
     "actors": 68,
     "declared_or_active_candidates": 28,
     "topics": 12,
-    "current_proposals": 1604,
+    "current_proposals": 1614,
     "covered_actor_topic_cells": 179,
     "total_actor_topic_cells": 816,
     "actor_topic_coverage_ratio": 0.2194,
     "active_candidate_covered_cells": 86,
     "active_candidate_total_cells": 336,
     "active_candidate_topic_coverage_ratio": 0.256,
-    "verified_proposals": 1572,
+    "verified_proposals": 1582,
     "multi_source_proposals": 152,
-    "latest_evidence_at": "2026-11-27",
+    "latest_evidence_at": "2026-11-28",
     "certainty_counts": {
-      "explicit": 1575,
+      "explicit": 1585,
       "explicit_but_conditional": 3,
       "explicit_but_underspecified": 26
     }
@@ -109,7 +109,7 @@
         "securite-justice",
         "numerique-ia"
       ],
-      "latest_evidence_at": "2026-11-26",
+      "latest_evidence_at": "2026-11-28",
       "verified_proposals": 15,
       "multi_source_proposals": 10
     },
@@ -995,7 +995,7 @@
       "type": "party",
       "status": null,
       "confidence": null,
-      "current_proposals": 274,
+      "current_proposals": 284,
       "covered_topics": [
         "ecologie-energie",
         "economie-finances",
@@ -1014,7 +1014,7 @@
         "numerique-ia"
       ],
       "latest_evidence_at": "2026-11-26",
-      "verified_proposals": 271,
+      "verified_proposals": 281,
       "multi_source_proposals": 33
     },
     {
@@ -1959,11 +1959,11 @@
     {
       "id": "pouvoir-achat-travail",
       "label": "Pouvoir d’achat & travail",
-      "current_proposals": 109,
+      "current_proposals": 110,
       "actors_covered": 23,
       "actor_coverage_ratio": 0.3382,
-      "latest_evidence_at": "2026-11-26",
-      "verified_proposals": 103,
+      "latest_evidence_at": "2026-11-28",
+      "verified_proposals": 104,
       "multi_source_proposals": 18
     },
     {
@@ -1972,7 +1972,7 @@
       "current_proposals": 25,
       "actors_covered": 14,
       "actor_coverage_ratio": 0.2059,
-      "latest_evidence_at": "2026-11-26",
+      "latest_evidence_at": "2026-11-28",
       "verified_proposals": 23,
       "multi_source_proposals": 8
     },
@@ -2039,31 +2039,31 @@
     {
       "id": "services-publics",
       "label": "Services publics",
-      "current_proposals": 308,
+      "current_proposals": 315,
       "actors_covered": 18,
       "actor_coverage_ratio": 0.2647,
-      "latest_evidence_at": "2026-11-24",
-      "verified_proposals": 305,
+      "latest_evidence_at": "2026-11-25",
+      "verified_proposals": 312,
       "multi_source_proposals": 19
     },
     {
       "id": "securite-justice",
       "label": "Sécurité & justice",
-      "current_proposals": 162,
+      "current_proposals": 163,
       "actors_covered": 14,
       "actor_coverage_ratio": 0.2059,
-      "latest_evidence_at": "2026-11-22",
-      "verified_proposals": 159,
+      "latest_evidence_at": "2026-11-25",
+      "verified_proposals": 160,
       "multi_source_proposals": 14
     },
     {
       "id": "economie-finances",
       "label": "Économie & finances publiques",
-      "current_proposals": 144,
+      "current_proposals": 145,
       "actors_covered": 18,
       "actor_coverage_ratio": 0.2647,
       "latest_evidence_at": "2026-11-27",
-      "verified_proposals": 143,
+      "verified_proposals": 144,
       "multi_source_proposals": 15
     },
     {
@@ -2084,14 +2084,14 @@
       "status": "declared_presidential",
       "coverage_ratio": 0.5833,
       "current_proposals": 18,
-      "latest_evidence_at": "2026-11-26",
+      "latest_evidence_at": "2026-11-28",
       "topics": [
         {
           "id": "pouvoir-achat-travail",
           "label": "Pouvoir d’achat & travail",
           "covered": true,
           "current_proposals": 8,
-          "latest_evidence_at": "2026-11-26",
+          "latest_evidence_at": "2026-11-28",
           "verified_proposals": 6,
           "multi_source_proposals": 5
         },
@@ -2100,7 +2100,7 @@
           "label": "Retraites",
           "covered": true,
           "current_proposals": 1,
-          "latest_evidence_at": "2026-11-26",
+          "latest_evidence_at": "2026-11-28",
           "verified_proposals": 1,
           "multi_source_proposals": 1
         },
@@ -5857,7 +5857,7 @@
       "status": "declared_presidential",
       "coverage_ratio": 0.5833,
       "current_proposals": 18,
-      "latest_evidence_at": "2026-11-26",
+      "latest_evidence_at": "2026-11-28",
       "gaps": [
         "europe-souverainete",
         "defense-international",
